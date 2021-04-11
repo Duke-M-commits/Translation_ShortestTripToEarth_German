@@ -1,0 +1,156 @@
+﻿:displayName Deutsch_Beta 9.5.2
+
+'Dog.prefab
+'dieMessage	'{0} has ceased existing.	'{0} hat aufgehört zu existieren.	70
+'appearance[i].description	'A trained dog, with brain implants. Has been taught to operate ship sensors, although does not completely understand what he is doing.	'Ein trainierter Hund, mit Gehirnimplantaten. Ihm wurde beigebracht, Schiffssensoren zu bedienen, obwohl er nicht ganz versteht, was er tut.	250
+
+'Drone tigerdog.prefab
+'dieMessage	'{0} destroyed.	'{0} Zerstört.	70
+'appearance[i].description	'Heavy-duty drone for industrial construction & repairs. Modded software allows unhindered destructive behaviour. Almost fireproof.	'Heavy-Duty-Drohne für den industriellen Bau & Reparaturen. Modifizierte Software ermöglicht ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250
+
+'Drone tigerspider assaulter.prefab
+'appearance[i].description	'Heavy-duty drone modded for boarding operations. Upgraded software allows unhindered destructive behaviour. Almost fireproof.	'Heavy-Duty-Drohne, modifiziert für Boarding-Operationen. Aufgerüstete Software ermöglicht ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250
+
+'Female cyborg crew.prefab
+'dieMessage	'RIP {0}.	'RIP {0}.	70
+'appearance[i].description	'A codehacker who wants to become fully android one day.	'Ein Codehacker, der eines Tages Voll-Androide werden will.	250
+
+'Floater.prefab
+'appearance[i].description	'This social warp presentient is an extreme rarity. It is quite intelligent and likes staring into human eyes.	'Dieser soziale Warp-President ist eine extreme Rarität. Er ist recht intelligent und starrt gerne in menschliche Augen.	250
+
+'Human sunglasses crew.prefab
+'appearance[i].description	'A professional ambassador. Wears powerful eye-implants.	'Ein professioneller Botschafter. Trägt leistungsstarke Augen Implantate.	250
+'appearance[i].description	'A professional ambassador. Some handweapon training, and good eye implants.	'Eine Professionelle Botschafterin. Etwas Handwaffentraining und gute Augenimplantate.	250
+'appearance[i].description	'A professional ambassador. Knows many alien jokes. Always protects his eyes because he lost them once to molecular acid.	'Ein professioneller Botschafter. Kennt viele Alien-Witze. Schützt immer seine Augen, weil er sie einmal durch Molekularsäure verloren hat.	250
+'appearance[i].description	'A professional ambassador. Wears powerful eye-augmentations.	'Ein professioneller Botschafter. Trägt kräftige Augenaufschläge.	250
+'appearance[i].description	'A professional ambassador. Always protects his eyes because he lost them once to molecular acid attack.	'Ein professioneller Botschafter. Schützt immer seine Augen, weil er sie einmal durch einen molekularen Säureangriff verloren hat.	250
+
+'Lizard.prefab
+'appearance[i].description	'A large lizard capable of producing electrical energy from its eyes.	'Eine große Eidechse, die in der Lage ist, elektrische Energie aus ihren Augen zu erzeugen.	250
+
+'Male cyborg crew.prefab
+'appearance[i].description	'An ex-diplomat who lost half of his face because of an accident in some kind of "friendship" ceremony.	'Ein Ex-Diplomat, der durch einen Unfall bei einer Art "Freundschafts"-Zeremonie die Hälfte seines Gesichts verloren hat.	250
+
+'Rabbit.prefab
+'appearance[i].description	'A genetically modified and trained combat animal.	'Ein genetisch verändertes und trainiertes Kampftier.	250
+
+'Tortoise.prefab
+'appearance[i].description	'A large tortoise with natural firebreathing ability. The creature has learned gardening in the Univeristy for Presentients.	'Eine große Schildkröte mit natürlicher Fähigkeit zum Feuerspucken. Die Kreatur hat Gartenarbeit in der Universität für Anwesende gelernt.	250
+
+'bridge 2crew tiger.prefab
+'displayName	'Command bridge, Tiger	'Kommandobrücke, Tiger	40
+'description	'A single operator allows the bridge to remotely operate other modules (without providing skill bonuses). Each operator additionally gives an evasion bonus to the entire ship.	'Ein einzelner Operator ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus). Jeder Operator gibt zusätzlich einen Ausweichbonus für das gesamte Schiff.	200
+
+'fuel container tiger.prefab
+'displayName	'Fuel tank (Tiger)	'Kraftstofftank (Tiger)	40
+'description	'Fuel container. Damage results in rapid loss of fuel.	'Kraftstoffbehälter. Beschädigung führt zu schnellem Kraftstoffverlust.	200
+
+'integrity tiger.prefab
+'displayName	'Integrity hardpoint, Tiger	'Integritätshardpoint, Tiger	40
+'description	'Composite plastic hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	'Verbundkunststoff-Hardpoint, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffs-HP zu gewinnen, auch während eines Notfalls.	200
+
+'shield tigership.prefab
+'displayName	'Tiger shield generator	'Tigerschild-Generator	40
+'description	'Regenerates shield points. Requires one operator. Resilient structure improves ship HP.	'Regeneriert Schildpunkte. Erfordert einen Bediener. Widerstandsfähige Struktur verbessert die HP des Schiffs.	200
+
+'shieldbat tiger.prefab
+'displayName	'Shield battery (Tiger)	'Abschirmung Batterie (Tiger)	40
+'description	'Increases maximum shield points, but no recharge. Durable structure also increases ship HP.	'Erhöht die maximalen Schildpunkte, aber keine Wiederaufladung. Langlebige Struktur erhöht auch Schiffs-HP.	200
+
+'Tiger 8x nuke launcher.prefab
+'displayName	'Tiger Nuke battery x8	'Tiger Nuke battery x8	40
+'description	'A single-use battery that releases 8 capital missiles.	'Eine Einwegbatterie, die 8 kapitale Raketen auslöst.	200
+
+'Tiger EMP dual nuke launcher.prefab
+'displayName	'Dual Tiger EMP nuke	'Dual Tiger EMP nuke	40
+'description	'A pair of large, armored EMP missiles. The EMP overloads modules in the hit area but deals no physical damage.	'Ein Paar große, gepanzerte EMP-Raketen. Der EMP überlastet Module im Trefferbereich, verursacht aber keinen physischen Schaden.	200
+
+'Tiger intruderbot nuke launcher.prefab
+'displayName	'Tiger intruderbot nuke	'Tiger intruderbot nuke	40
+'description	'Capital missile that releases a modified Tiger spider utility drone into the enemy ship. The drone is pre-programmed to attack enemy crew but can be recalled with a normal move order.	'Kapitalrakete, die eine modifizierte Tiger-Spider-Utility-Drohne in das gegnerische Schiff freisetzt. Die Drohne ist für den Angriff auf die gegnerische Besatzung vorprogrammiert, kann aber mit einem normalen Bewegungsbefehl zurückgerufen werden.	200
+
+'Tiger Monolith nuke launcher.prefab
+'displayName	'Tiger monolith nuke	'Tiger monolith nuke	40
+'description	'A capital missile that rams enemy ships with incredible kinetic force. It's mostly made of solid metal.	'Eine große Rakete, die feindliche Schiffe mit unglaublicher kinetischer Kraft rammt. Sie ist meist aus massivem Metall gefertigt.	200
+
+'Tiger sharpnel nuke launcher.prefab
+'displayName	'Tigerclaw, sharpnel nuke	'Tigerclaw, sharpnel nuke	40
+'description	'An experimental capital missile that releases nanoshrapnel that destroys modules & crew, but not ship HP.	'Eine experimentelle Langstreckenrakete, die Nanosplitter freisetzt, die Module und Besatzung zerstören, aber nicht die HP des Schiffs..	200
+
+'weapon tigermissile large.prefab
+'displayName	'Tiger mininuke platform	'Tiger mininuke platform	40
+'description	'This platform shoots singular heavy missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area.	'This platform shoots singular heavy missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area.	200
+
+'Perk nuke Battle Tiger monolith.prefab
+'displayName	'Tiger Mountain nuke	'Tiger Mountain nuke	40
+'description	'A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Smalle AoE.	'A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Smalle AoE.	250
+'randomizerMenuStrings[i]	'+1 capital missile	'+1 capital missile	30
+
+'Perk nuke Tiger battery 8.prefab
+'description	'A single-use battery that shoots 8 missiles.	'A single-use battery that shoots 8 missiles.	250
+'randomizerMenuStrings[i]	'+1 single-use missile battery	'+1 single-use missile battery	30
+
+'Perk nuke Tiger dual EMP.prefab
+'displayName	'Tiger EMP double nuke	'Tiger EMP double nuke	40
+'description	'A pair of armored EMP nukes, launched simultaneously.	'A pair of armored EMP nukes, launched simultaneously.	250
+'randomizerMenuStrings[i]	'+1 dual capital missile	'+1 dual capital missile	30
+
+'Perk nuke Tiger intruderbot nuke.prefab
+'description	'This intruderbot nuke releases an aggressive tiger spider drone on impact.	'This intruderbot nuke releases an aggressive tiger spider drone on impact.	250
+'randomizerMenuStrings[i]	'+1 intruderbot missile	'+1 intruderbot missile	30
+
+'Perk nuke Tiger sharpnel.prefab
+'displayName	'Tiger shrapnel nuke	'Tiger shrapnel nuke	40
+'description	'An experimental capital missile that releases nanoshrapnel over a wide area.	'An experimental capital missile that releases nanoshrapnel over a wide area.	250
+
+'Perk pet DLC combat rabbit.prefab
+'displayName	'Combat Rabbit (pet)	'Combat Rabbit (pet)	40
+'description	'We may buy this ancient combat organism from a biotech junk market. It is genetically modified for superior speed and strength, and digitally trained to attack enemies in close combat.	'We may buy this ancient combat organism from a biotech junk market. It is genetically modified for superior speed and strength, and digitally trained to attack enemies in close combat.	250
+'randomizerMenuStrings[i]	'+1 pet (combat rabbit)	'+1 pet (combat rabbit)	30
+'randomizerMenuStrings[i]	'-40 credits	'-40 credits	30
+
+'Perk pet DLC fire tortoise.prefab
+'displayName	'Fire Tortoise (pet)	'Fire Tortoise (pet)	40
+'description	'The creature is very intelligent and can tend gardens. It can also naturally breathe fire at enemies.	'The creature is very intelligent and can tend gardens. It can also naturally breathe fire at enemies.	250
+'randomizerMenuStrings[i]	'+1 pet (fire tortoise)	'+1 pet (fire tortoise)	30
+'randomizerMenuStrings[i]	'+20 organics	'+20 organics	30
+
+'Perk pet DLC shocker lizard.prefab
+'displayName	'Shocker lizard (pet)	'Shocker lizard (pet)	40
+'description	'A live gift from an old friend of our AI. The creature is quite intelligent and can shoot energy rays from its eyes.	'A live gift from an old friend of our AI. The creature is quite intelligent and can shoot energy rays from its eyes.	250
+'randomizerMenuStrings[i]	'+1 pet (shocker lizard)	'+1 pet (shocker lizard)	30
+'randomizerMenuStrings[i]	'+30 organics	'+30 organics	30
+
+'Perk pet DLC warp floater.prefab
+'displayName	'Warp Floater (pet)	'Warp Floater (pet)	40
+'description	'This warp creature is an extreme rarity due to being able to effectively communicate with non-warp beings. It is quite intelligent and likes to stare into human eyes.	'This warp creature is an extreme rarity due to being able to effectively communicate with non-warp beings. It is quite intelligent and likes to stare into human eyes.	250
+'randomizerMenuStrings[i]	'+1 pet (warp animal)	'+1 pet (warp animal)	30
+'randomizerMenuStrings[i]	'-1 exotics	'-1 exotics	30
+
+'Perk pet Tiger dog drone.prefab
+'displayName	'Tiger Dog 9000	'Tiger Dog 9000	40
+'description	'This robot was built to provide assistance in construction and maintenance operations. Modded software allows unlimited aggression towards hostiles.	'This robot was built to provide assistance in construction and maintenance operations. Modded software allows unlimited aggression towards hostiles.	250
+'randomizerMenuStrings[i]	'+1 drone (repair drone)	'+1 drone (repair drone)	30
+
+'missile tigerfish mini n u k e.prefab
+'displayName	'Tiger mininuke	'Tiger mininuke	35
+
+'Tiger 8x nuke projectile.prefab
+
+'Tiger EMP nuke.prefab
+'displayName	'EMP nuke	'EMP nuke	35
+
+'Tiger intruderbot nuke.prefab
+'displayName	'Tigerbot nuke	'Tigerbot nuke	35
+
+'Tiger Monolith nuke.prefab
+'displayName	'Tiger Monolith nuke	'Tiger Monolith nuke	35
+
+'Tiger sharpnel nuke.prefab
+'displayName	'Tiger sharpnel nuke	'Tiger sharpnel nuke	35
+
+'BattleTiger.prefab
+'description	'Battle Tiger is is the military variant of the popular Tigerfish series. It was designed for long-range transport of VIP personnel in hostile space and is equipped with explosives combinator. It comes with intruderbot nukes that release armed drones inside enemy ships.	'Battle Tiger ist die militärische Variante der beliebten Tigerfish-Serie. Er wurde für den Langstreckentransport von VIP-Personal im feindlichen Raum konzipiert und ist mit einem Sprengstoff-Kombinator ausgestattet. Er verfügt über Intruderbot-Nukes, die bewaffnete Drohnen im Inneren feindlicher Schiffe freisetzen.	400
+
+'Engiship.prefab
+'description	'This Mobile Maintenance Rig starts in a bad shape due to years of rough use, but holds promise for those patient enough to upgrade its weaponry and defences. It starts with poor technology, but large crew, and containers full of raw resources.	'Dieses Mobile Maintenance Rig beginnt in einem schlechten Zustand aufgrund jahrelanger rauer Nutzung, aber es ist vielversprechend für diejenigen, die geduldig genug sind, um seine Waffen und Verteidigungsanlagen zu verbessern. Es beginnt mit schlechter Technik, aber großer Besatzung und Containern voller Rohstoffe.	400
