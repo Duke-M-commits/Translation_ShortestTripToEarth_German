@@ -183,9 +183,9 @@
 	'Pets taken care of: {0}	'Betreute Haustiere: {0}	0
 	'Friends met: {0}	'Freunde getroffen: {0}	0
 	'Lovers met: {0}	'Liebende trafen sich: {0}	0
-	'Demoralization due to Excess overcome {0} times	'Demoraliwirrung durch Entsorgung überwunden {0} mal	0
-	'Demoralization by Greed overcome {0} times	'Demoraliwirrung durch Gier überwunden {0} mal	0
-	'Demoralization by Defeat overcome {0} times	'Demoraliwirrung durch überwundene Niederlage {0} mal	0
+	'Demoralization due to Excess overcome {0} times	'Demoralisierung durch Entsorgung überwunden {0} mal	0
+	'Demoralization by Greed overcome {0} times	'Demoralisierung durch Gier überwunden {0} mal	0
+	'Demoralization by Defeat overcome {0} times	'Demoralisierung durch überwundene Niederlage {0} mal	0
 	'Hope of External Help experienced at least {0} times	'Hoffnung auf externe Hilfe mindestens erfahren {0} mal	0
 	'Fear of Loss personally confronted {0} times	'Verlustangst persönlich begegnet {0} mal	0
 	'Moments of natural beauty enjoyed {0} times	'Momente natürlicher Schönheit genossen {0} mal	0
@@ -244,11 +244,11 @@
 	'for slot upgrade	'für ein Platz Update	0
 
 'POI.cs
-	'Analysing data...	'Daten analywirren...	0
+	'Analysing data...	'Daten analysieren...	0
 
 'PointDefDamageDealer.cs
 	'Enemy defences have nutralized one of our {0}s	'Die feindliche Verteidigung hat einen  {0}s	0
-	'Incoming {0} neutralized	'Eingehend {0} neutraliwirrt	0
+	'Incoming {0} neutralized	'Eingehend {0} neutralisiert	0
 
 'PointDefenceModule.cs
 	'point defence	'Punktverteidigung	0
@@ -372,7 +372,7 @@
 	'ship repairs	'Schiffsreparaturen	0
 
 'SpacePod.cs
-	'Choose point-defence and right click this space pod to prioritize it.	'Wähle Die "Punkt-Verteidigung" und klicke mit der rechten Maustaste auf dieses Space Pod, um es zu prioriwirren.	0
+	'Choose point-defence and right click this space pod to prioritize it.	'Wähle Die "Punkt-Verteidigung" und klicke mit der rechten Maustaste auf dieses Space Pod, um es zu priorisieren.	0
 
 'Star.cs
 	'{0}/{1} planets visited	'{0}/{1} Besuchte Planeten	0
@@ -612,7 +612,7 @@
 'choiceText	'Show Me	'Anzeigen	100
 'choiceText	'Don't show this again	'nicht noch einmal  100
 'title	'Entry: Rat Empire	'Eintrag: Ratten Imperium	35
-'text	'The Rat Empire "civlization" is organized as a system of social & resource inequality. Egalitarianism is ridiculed and organizing everything into pyramidal hierarchies is highly praised. \nRat military doctrine focuses on incendiary bombs, gatling guns and generally brute firepower (because the Rat corporations that produce these keep bribing the Rat generals). Their techology is inferior compared to ours, but perfectly capable of besting ships like me in combat.	'The Rat Empire "civlization" is organized as a system of social & resource inequality. Egalitarianism is ridiculed and organizing everything into pyramidal hierarchies is highly praised. \nRat military doctrine focuses on incendiary bombs, gatling guns and generally brute firepower (because the Rat corporations that produce these keep bribing the Rat generals). Their techology is inferior compared to ours, but perfectly capable of besting ships like me in combat.Die "Zivilisation" des Rattenreichs ist als ein System der sozialen und ressourcenbezogenen Ungleichheit organiwirrt. Der Egalitarismus wird lächerlich gemacht, und die Organisation in pyramidenförmigen Hierarchien wird hoch gelobt. \nRat-Militärdoktrin konzentriert sich auf Brandbomben, Gatling-Guns und generell auf rohe Feuerkraft (weil die Rattenkonzerne, die diese produzieren, die Rattengeneräle immer wieder bestechen). Ihre Technologie ist im Vergleich zu unserer minderwertig, aber durchaus in der Lage, Schiffe wie mich im Kampf zu schlagen.	600
+'text	'The Rat Empire "civlization" is organized as a system of social & resource inequality. Egalitarianism is ridiculed and organizing everything into pyramidal hierarchies is highly praised. \nRat military doctrine focuses on incendiary bombs, gatling guns and generally brute firepower (because the Rat corporations that produce these keep bribing the Rat generals). Their techology is inferior compared to ours, but perfectly capable of besting ships like me in combat.	'The Rat Empire "civlization" is organized as a system of social & resource inequality. Egalitarianism is ridiculed and organizing everything into pyramidal hierarchies is highly praised. \nRat military doctrine focuses on incendiary bombs, gatling guns and generally brute firepower (because the Rat corporations that produce these keep bribing the Rat generals). Their techology is inferior compared to ours, but perfectly capable of besting ships like me in combat.Die "Zivilisation" des Rattenreichs ist als ein System der sozialen und ressourcenbezogenen Ungleichheit organisiert. Der Egalitarismus wird lächerlich gemacht, und die Organisation in pyramidenförmigen Hierarchien wird hoch gelobt. \nRat-Militärdoktrin konzentriert sich auf Brandbomben, Gatling-Guns und generell auf rohe Feuerkraft (weil die Rattenkonzerne, die diese produzieren, die Rattengeneräle immer wieder bestechen). Ihre Technologie ist im Vergleich zu unserer minderwertig, aber durchaus in der Lage, Schiffe wie mich im Kampf zu schlagen.	600
 'title	'Entry: Pirates	'Entry: Piraten	35
 'text	'Lack of empathy is the result of neural and social misdevelopment during early childhood. The resultant beings don't personally experience the suffering of others like normal sentients do, and often grow into violent or cruel personalities, becoming criminals in the process. They need either guided rehabilitation, or in most cases (such as pirate encounters) a swift death.	'Mangelndes Einfühlungsvermögen ist das Ergebnis einer neuronalen und sozialen Fehlentwicklung in der frühen Kindheit. Die daraus resultierenden Wesen erleben das Leiden anderer nicht persönlich, wie es normale Empfindungen tun, und wachsen oft zu gewalttätigen oder grausamen Persönlichkeiten heran und werden dabei zu Kriminellen. wir brauchen entweder eine gelenkte Rehabilitation oder in den meisten Fällen (wie etwa bei Begegnungen mit Piraten) einen schnellen Tod.	600
 'title	'Pirates encountered	'Piraten begegnet	35
@@ -620,7 +620,7 @@
 'title	'Entry: Squid Dominion	'Entry: Squid-Dominion	35
 'text	'I don't know any more about the Squid than we learned from our last disastrous diplomatic encounter. I suspect their emperor is clinically insane and has complete control over their military and the entire Squid civilization. Perhaps we can obtain more info from Earth forces, as they've been fighting the Squid over five years now.	'Ich weiß nicht mehr über den Tintenfisch, als wir aus unserer letzten katastrophalen diplomatischen Begegnung gelernt haben. Ich vermute, dass ihr Imperator klinisch verrückt ist und die vollständige Kontrolle über ihr Militär und die gesamte Tintenfisch-Zivilisation hat. Vielleicht können wir von den Erdstreitkräften mehr Informationen erhalten, da wir den Tintenfisch nun schon seit über fünf Jahren bekämpfen.	600
 'title	'Entry: Active warzones	'Entry: Aktive Kriegszonen	35
-'text	'Warzones are usually full of conflict remains, including active minefields and shipwrecks. Most importantly, intergalactic wars usually attract Slaver fleets. Slavers are criminals united by their psychopathic lack of empathy, low cooperation skills and willingnes to enslave and hurt other sentient beings. I recommend nuking them if you can. Avoid being captured alive at all costs.	'Kriegszonen sind in der Regel voll von Konfliktresten, einschließlich aktiver Minenfelder und Schiffswracks. Am wichtigsten ist, dass intergalaktische Kriege in der Regel Sklavenflotten anziehen. Sklavenhändler sind Kriminelle, die durch ihren psychopathischen Mangel an Einfühlungsvermögen, ihre geringen Kooperationsfähigkeiten und ihre Bereitschaft, andere fühlende Wesen zu versklaven und zu verletzen, vereint sind. Ich empfehle, wir zu atomiwirren, wenn man das kann. Vermeiden wir es um jeden Preis, lebend gefangen genommen zu werden.	600
+'text	'Warzones are usually full of conflict remains, including active minefields and shipwrecks. Most importantly, intergalactic wars usually attract Slaver fleets. Slavers are criminals united by their psychopathic lack of empathy, low cooperation skills and willingnes to enslave and hurt other sentient beings. I recommend nuking them if you can. Avoid being captured alive at all costs.	'Kriegszonen sind in der Regel voll von Konfliktresten, einschließlich aktiver Minenfelder und Schiffswracks. Am wichtigsten ist, dass intergalaktische Kriege in der Regel Sklavenflotten anziehen. Sklavenhändler sind Kriminelle, die durch ihren psychopathischen Mangel an Einfühlungsvermögen, ihre geringen Kooperationsfähigkeiten und ihre Bereitschaft, andere fühlende Wesen zu versklaven und zu verletzen, vereint sind. Ich empfehle, wir zu atomisieren, wenn man das kann. Vermeiden wir es um jeden Preis, lebend gefangen genommen zu werden.	600
 'text	'The lack of enemy crew has triggered a dead-man's switch on their ship. It will self-destruct in 30 seconds, killing anyone remaining inside. If there were anybody from us on their ship, they are already making their way back.	'The lack of enemy crew has triggered a dead-man's switch on their ship. It will self-destruct in 30 seconds, killing anyone remaining inside. If there were anybody from us on their ship, they are already making their way back.	600
 'title	'Ship status critical!	'Schiffsstatus kritisch!	35
 'okButtonText	'We're trying!	'Wir versuchen es!	7
@@ -941,7 +941,7 @@
 	'Sector view details	'Details zur Sektoransicht	0
 	'Successful attacks can damage our ship integrity, which is measured in Hull Points (HP).\r Any damage to ship HP will be represented by damage tokens on the ship hull.\n \r\n\rThere are many different types of damage tokens, some of them are critical and may cause further explosions or fires if not repaired quickly. \r\n\nRepairing damage tokens manually with crew takes a fair amount of time & is more expensive than repairing in stations. \rDamage tokens inside walls can be only repaired at stations.\n\nYou can assign "repair officer" role to crewmembers so they go and repair tokens automatically.	'Erfolgreiche Angriffe können unsere Schiffsintegrität beschädigen, die in Hull Points (HP) gemessen wird.\r Jeder Schaden an den HP des Schiffes wird durch Schadensmarken an der Schiffshülle dargestellt.\n \r\n\r Es gibt viele verschiedene Arten von Schadensmarken, einige davon sind kritisch und können weitere Explosionen oder Brände verursachen, wenn wir nicht schnell repariert werden. \r\n\n\n Die manuelle Reparatur von Schadensmarken mit der Besatzung nimmt ziemlich viel Zeit in Anspruch und ist teurer als die Reparatur in Stationen. \wir können den Besatzungsmitgliedern die Aufgabe des "Reparaturoffiziers" zuweisen, so dass wir sich aufmachen und die Reparatur automatisch durchführen.	0
 	'Ship hull points	'Schiffsrumpf Stabilität Skala	0
-	'In eawirr game mode(s): when ship HP reaches 0, damage is substracted from ship max HP. This permanent damage cannot be repaired.	'In leichteren Spielmodi: Wenn die Schiff Beschleunigung 0 erreichen, wird der Schaden vom Schiffsmaximum abgezogen. Dieser permanente Schaden kann nicht repariert werden.	0
+	'In easier game mode(s): when ship HP reaches 0, damage is substracted from ship max HP. This permanent damage cannot be repaired.	'In leichteren Spielmodi: Wenn die Schiff Beschleunigung 0 erreichen, wird der Schaden vom Schiffsmaximum abgezogen. Dieser permanente Schaden kann nicht repariert werden.	0
 	'If your Tarn detection is same or higher than Tarn level of enemy fleet, you will see the enemy fleet as a red icon and also the area that it guards on the starsystem map.	'Wenn Ihr Tarn-Erfassungsgrad gleich oder höher als der Tarn-Level der feindlichen Flotte ist, sehen wir die feindliche Flotte als rotes Symbol und auch das Gebiet, das wir bewacht, auf der Sternsystemkarte.	0
 	'High danger of\nasteroid impacts	'Hohe Gefahr von \nAsteroideneinschlägen 0
 	'Concentrated asteroid clusters have increased risk of impacts. \nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	'Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidenhaufen mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können vermint werden.\nWaffen, Punktverteidigung und Integritätsmodule verbessern die Asteroidenabwehr nur, wenn wir eingeschaltet sind.	0
@@ -965,7 +965,7 @@
 	'Module damage	'Beschädigung des Moduls	0
 	'Ship Combat & Weapon Types	'Schiffskampf- und Waffentypen	0
 	'Energy weapons	'Energy weapons	0
-	'• Blocked by shields\r\n• Best accuracy of all weapon types\n• Almost never consume any ammo\r\n• Need more power than other modules\r\n• \rOverload shield modules after neutralizing all shield points	'• Von Schilden blockiert\r\n- Beste Genauigkeit aller Waffentypen\r\n Verbraucht fast nie Munition\r\n Benötigt mehr Energie als andere Module\r\n- \Überlastung der Schildmodule nach Neutraliwirrung aller Schildpunkte	0
+	'• Blocked by shields\r\n• Best accuracy of all weapon types\n• Almost never consume any ammo\r\n• Need more power than other modules\r\n• \rOverload shield modules after neutralizing all shield points	'• Von Schilden blockiert\r\n- Beste Genauigkeit aller Waffentypen\r\n Verbraucht fast nie Munition\r\n Benötigt mehr Energie als andere Module\r\n- \Überlastung der Schildmodule nach Neutralisierung aller Schildpunkte	0
 	'Missiles	'Missiles	0
 	'• Never deflect\n• Ignore shields\r\n• Very accurate\r\n• Large area of effect\n• Consume a lot of explosives\r\n• Fragile projectiles, vulnerable to point-defences\r\n• Fairly slow reload\r\n• Missiles travel slowly	'• Niemals ablenkenn- Schilde ignorieren\r\n- Sehr präzise\r\n- Großer Wirkungsbereich\r\n- Viel Sprengstoff verbrauchen\r\n- Zerbrechliche Geschosse, anfällig für Punktabwehr\r\n- Ziemlich langsames Nachladen\r\n- Raketen bewegen sich langsam	0
 	'Cannons	'Cannons	0
@@ -1038,7 +1038,7 @@
 	'If some of the selected crew are in cryosleep, giving actions will also de-freeze them.\nWhile multiple crew is selected, giving orders (right-clicking) applies to all selected crew.	'Wenn sich einige der ausgewählten Besatzung im Kälteschlaf befinden, werden wir durch das Ausführen von Aktionen ebenfalls eingefroren.\nWährend mehrere Besatzungsmitglieder ausgewählt sind, gilt das Ausführen von Befehlen (Rechtsklick) für alle ausgewählten Besatzungsmitglieder.	0
 	'Basic resources are organics, fuel, metals, synthetics, explosives, exotics. \nThese are stored in containers with limited capacity.\n\nFlying around usually consumes both fuel & organics. Read about other resources from relevant help pages.	'Grundlegende Ressourcen sind organische Stoffe, Treibstoff, Metalle, Kunststoffe, Sprengstoffe und Exoten. \n\n Diese werden in Behältern mit begrenztem Fassungsvermögen gelagert. \n\n Beim Herumfliegen werden normalerweise sowohl Treibstoff als auch organische Stoffe verbraucht. Lesen wir mehr über andere Ressourcen auf den entsprechenden Hilfeseiten.	0
 	'Hovering cursor over resource values shows total production & consumption.	'Wenn wir den Mauszeiger über die Ressourcenwerte bewegen, werden die Gesamtproduktion und der Gesamtverbrauch angezeigt.	0
-	'Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	'Die meisten Besatzungsmitglieder konsumieren organische Stoffe als Nahrung, Wasser, Luft und Freizeitmittel, bawirrend auf der Reiseentfernung des Schiffes im Weltraum.\n\n\nOrganische Stoffe können von Planeten mit Ökosystemen geerntet oder von Handelsstationen gekauft werden.\n\nVerschiedene Garten- und Nachhaltigkeitsmodule ermöglichen den Anbau organischer Stoffe im Inneren des Schiffes.\n\nDer Mangel an organischen Stoffen reduziert die Fähigkeiten der Besatzung aufgrund von Unzufriedenheit um 50%.\n\nDas Fahren des Schiffes ohne organische Stoffe schadet der Besatzung aufgrund fehlender Lebensvorräte.	0
+	'Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	'Die meisten Besatzungsmitglieder konsumieren organische Stoffe als Nahrung, Wasser, Luft und Freizeitmittel, basierend auf der Reiseentfernung des Schiffes im Weltraum.\n\n\nOrganische Stoffe können von Planeten mit Ökosystemen geerntet oder von Handelsstationen gekauft werden.\n\nVerschiedene Garten- und Nachhaltigkeitsmodule ermöglichen den Anbau organischer Stoffe im Inneren des Schiffes.\n\nDer Mangel an organischen Stoffen reduziert die Fähigkeiten der Besatzung aufgrund von Unzufriedenheit um 50%.\n\nDas Fahren des Schiffes ohne organische Stoffe schadet der Besatzung aufgrund fehlender Lebensvorräte.	0
 	'Fuel is mostly consumed by warping between starsystems.\nWarpdrives typically need 40-50 fuel per jump.\nFuel is also consumed by engines and reactors when driving around in starsystems.\nAdditionally, exploration and other planetary operations sometimes consumes small amounts of fuel.	'Treibstoff wird hauptsächlich durch die Verformung zwischen Sternsystemen verbraucht.\nWarpantriebe benötigen in der Regel 40-50 Treibstoff pro Sprung.\nTreibstoff wird auch von Triebwerken und Reaktoren verbraucht, wenn wir in Sternsystemen herumfahren.\nZusätzlich verbrauchen die Exploration und andere planetare Operationen manchmal geringe Mengen an Treibstoff.	0
 	'Options for gaining fuel	'Optionen zur Treibstoffgewinnung	0
 	'1.\nUse converter modules (if you have them) to convert organics or other resources into fuel.	'1.\Nutzen wir Konvertierungsmodule (falls vorhanden), um organische Stoffe oder andere Ressourcen in Treibstoff umzuwandeln.	0
@@ -1144,9 +1144,9 @@
 	'Exit game	'Spiel verlassen	0
 	'Guided steps to learn the game.	'Anleitung zum Erlernen des Spiels.	0
 	'Tutorial mode	'Tutorial	0
-	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nYou start with additional resources.	'Wenn die Schiffsstabilität versagt, verliert man nur die stabilität, anstatt einfach zu sterben.\nSpace pauwirrt das Spiel.\nMan beginnt mit zusätzlichen Ressourcen.	0
+	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nYou start with additional resources.	'Wenn die Schiffsstabilität versagt, verliert man nur die stabilität, anstatt einfach zu sterben.\nSpace pausiert das Spiel.\nMan beginnt mit zusätzlichen Ressourcen.	0
 	'Beginner mode	'Anfänger 	0
-	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	'Wenn wir keine Schiff Beschleunigung mehr haben, verlieren wir die maximalen Schiff Beschleunigung, anstatt einfach zu sterben.\nSpace pauwirrt das Spiel.\nJeder Schaden an den Modulen kann auch deren maximal mögliche Trefferpunkte reduzieren.	0
+	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	'Wenn wir keine Schiff Beschleunigung mehr haben, verlieren wir die maximalen Schiff Beschleunigung, anstatt einfach zu sterben.\nSpace pausiert das Spiel.\nJeder Schaden an den Modulen kann auch deren maximal mögliche Trefferpunkte reduzieren.	0
 	'Challenging mode	'Fordernd  	0
 	'The game ends when your ship HP reaches 0.\nSpace button turns on slow-motion instead of pause.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	'Das Spiel endet, wenn die Stabilitä  Ihres Schiffes 0 ist,\nDer Leertaste schaltet sich in Zeitlupe statt in Pause ein.\nJeglicher Schaden an den Modulen kann auch deren maximal mögliche Trefferpunkte reduzieren.	0
 	'Hardcore mode	'Sehr Schwer  0
@@ -1169,9 +1169,9 @@
 	'Start a new game	'Start a new game	0
 	'Shortest Trip to Earth has an inherently brutal difficulty that is especially deadly if you miss learning some of the basics. We kindly recommend you try the tutorial.	'Shortest Trip to Earth hat eine an sich eine brutale Schwierigkeit, die besonders tödlich ist, wenn man einige der Grundlagen nicht lernt. Wir empfehlen Ihnen wärmstens, das Tutorial auszuprobieren.	0
 	'Tutorial	'Tutorial	0
-	'Shortest Trip To Earth is eawirr once you know the basics, but can be extremely difficult without a short introduction (like this tutorial).	'Shortest Trip To Earth ist einfacher, wenn wir die Grundlagen kennen, kann aber ohne eine kurze Einführung (wie dieses Tutorial)   schwierig sein.	0
+	'Shortest Trip To Earth is easier once you know the basics, but can be extremely difficult without a short introduction (like this tutorial).	'Shortest Trip To Earth ist einfacher, wenn wir die Grundlagen kennen, kann aber ohne eine kurze Einführung (wie dieses Tutorial)   schwierig sein.	0
 	'Normal	'Normal	0
-	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.	'Wenn wir keine Schiffs-PP mehr haben, verlieren wir Schiffs-Maximal-PP, anstatt einfach zu sterben.\nSpace pauwirrt das Spiel.	0
+	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.	'Wenn wir keine Schiffs-PP mehr haben, verlieren wir Schiffs-Maximal-PP, anstatt einfach zu sterben.\nSpace pausiert das Spiel.	0
 	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.	'Wenn Ihnen die Schiffs-PP ausgehen, verlieren wir Schiffs-Höchst-PP, anstatt einfach zu sterben.	0
 	'Space pauses the game.	'Mit der Leertaste wird das Spiel angehalten.	0
 	'Starting bonuses:	'Startbonus:	0
@@ -1184,7 +1184,7 @@
 	'The game ends when your ship HP reaches 0.\nAny damage to module(s) might also reduce their maximum possible hitpoints.\nSpace button turns on slow-motion instead of pause.	'Das Spiel endet, wenn die Stabilität Ihres Schiffes 0.\nJeder Schaden an den Modulen kann auch deren maximal mögliche Trefferpunkte reduzieren.\nDie Leertaste schaltet Zeitlupe statt Pause ein.	0
 	'The game ends when your ship HP reaches 0.	'Das Spiel endet, wenn Ihr Schiff 0% Stabilität erreicht.	0
 	'Space button turns on slow-motion instead of pause.	'Leertaste schaltet Zeitlupe statt Pause ein.	0
-	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nPermanent Perks give no bonuses.\nAlways start with 50 fate & first five ships.\nSpace pauses the game.	'Wenn man keine Schiffs-PP mehr hat, verliert man Schiffs-Höchst-PP, anstatt einfach zu sterben.\nDauerhafte Vorteil geben keine Boni.\nMan beginnt immer mit 50 Glücks- & ersten fünf Schiffen.\nLeerlauf pauwirrt das Spiel.	0
+	'When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nPermanent Perks give no bonuses.\nAlways start with 50 fate & first five ships.\nSpace pauses the game.	'Wenn man keine Schiffs-PP mehr hat, verliert man Schiffs-Höchst-PP, anstatt einfach zu sterben.\nDauerhafte Vorteil geben keine Boni.\nMan beginnt immer mit 50 Glücks- & ersten fünf Schiffen.\nLeerlauf pausiert das Spiel.	0
 'Button in main menu	'Beginner	'Anfänger	0
 	'Beginner difficulty	'Herausfordernd für Anfänger	0
 'Button in main menu, sets game difficulty	'Challenging	'Herausfordernd	0
@@ -1324,7 +1324,7 @@
 	'Full size textures	'Texturen in voller Größe	0
 	'Check for enabling full resolution textures, otherwise half resolution is used.\nTry disabling if the game is stuttering because of less than 1GB VRAM.	'Prüfen wir, ob Texturen in voller Auflösung aktiviert sind, andernfalls wird die halbe Auflösung verwendet. Versuchen wir die zu Deaktivierung, wenn das Spiel aufgrund von weniger als 1 GB VRAM stottert.	0
 	'Vertical sync	'Vertical sync	0
-	'Check to sync rendering framerate with monitor framerate.\nDisabling it is not advised unless measuring rendering framerate.	'Aktivieren wir diese Option, um die Bildwiederholrate mit der Bildwiederholrate des Monitors zu synchroniwirren.	0
+	'Check to sync rendering framerate with monitor framerate.\nDisabling it is not advised unless measuring rendering framerate.	'Aktivieren wir diese Option, um die Bildwiederholrate mit der Bildwiederholrate des Monitors zu synchronisieren.	0
 	'Anti-aliasing	'Kantenglättung	0
 	'Check to anti-alias hard edges	'Aktivieren für  Kantenglättung	0
 	'Film grain	'Film grain	0
@@ -1342,7 +1342,7 @@
 	'Click for next tip.	'Klicken wir für den nächsten Tipp.	0
 	'This game is not yet rated, but is suitable for ages over:	'This game is not yet rated, but is suitable for ages over:	0
 	'All references to drugs in Shortest Trip refer to legal, safe and/or fictional substances.\nAll references to sex are non-pornographic.\nAll references to violence are non-glorifying.	'Alle Hinweise auf Drogen in Shortest Trip beziehen sich auf legale, sichere und/oder fiktive Substanzen.\Alle Hinweise auf Sex sind nicht pornografisch.\Alle Hinweise auf Gewalt sind nicht verherrlichend.	0
-	'You may use any Shortest Trip To Earth material for monetized Youtube/Twitch/etc videos\nor other types of casting or streaming. When doing so, please add a link to\nthe game page with your video description.	'wir können jedes beliebige Shortest Trip To Earth-Material für monetariwirrte Youtube/Twitch/etc-Videos\oder andere Arten von Casting oder Streaming verwenden. Wenn wir dies tun, fügen wir bitte einen Link zu\der Spieleseite mit Ihrer Videobeschreibung hinzu.	0
+	'You may use any Shortest Trip To Earth material for monetized Youtube/Twitch/etc videos\nor other types of casting or streaming. When doing so, please add a link to\nthe game page with your video description.	'wir können jedes beliebige Shortest Trip To Earth-Material für monetarisierte Youtube/Twitch/etc-Videos\oder andere Arten von Casting oder Streaming verwenden. Wenn wir dies tun, fügen wir bitte einen Link zu\der Spieleseite mit Ihrer Videobeschreibung hinzu.	0
 	'Disclaimers	'Haftungsausschluss	0
 	'Sector info:	'Sektor Information:	0
 	'Choose ship for next run:	'Choose ship for next run:	0
@@ -1630,7 +1630,7 @@
 	'Pause to menu	'Pause to menuPause zum Menü	0
 	'Turns SOS beacon ON or OFF.\nDisabled while in battle.	'Schaltet die SOS-Signal ein oder aus. Wird während des Kampfes deaktiviert.	0
 'Button, deploys SOS beacon.	'SOS	'SOS	6
-	'Toggles ship exterior for eawirr detection of ship damage	'Schaltet die Schiffsaußenseite zur leichteren Erkennung von Schiffsschäden ein	0
+	'Toggles ship exterior for easier detection of ship damage	'Schaltet die Schiffsaußenseite zur leichteren Erkennung von Schiffsschäden ein	0
 'Button, abbrevation for "exterior". Turns on exterior view (roof) of the ship.	'EXT.	'EXT.	6
 	'Toggles ship power overview	'Schaltet die Übersicht über die Schiffsstabilität ein und aus	0
 'Button. Clicking it opens power management overlay	'POWER	'LEISTUNG	6
@@ -1802,7 +1802,7 @@
 	'ORGANICS	'ORGANIK	0
 	'Average price when sold by stations: 4 Credits.\nExplosives are used by projectile- and missile weapons.	'Durchschnittspreis beim Verkauf nach Bahnhöfen: 4 Credits.\nSprengstoffe werden von Projektil- und Raketenwaffen verwendet.	0
 	'EXPLOSIVES	'EXPLOSIVES	0
-	'Average price when sold by stations: 50 Credits.\nExotics are an alternative currency to xenodata. Most automated trader stations accept exotics even if they don't buy any other resources.	'Durchschnittspreis beim Verkauf nach Bahnhöfen: 50 Credits.\nExotika sind eine Alternativwährung zu Xenodaten. Die meisten automatiwirrten Handelsstationen akzeptieren Exoten, auch wenn wir keine anderen Ressourcen kaufen..	0
+	'Average price when sold by stations: 50 Credits.\nExotics are an alternative currency to xenodata. Most automated trader stations accept exotics even if they don't buy any other resources.	'Durchschnittspreis beim Verkauf nach Bahnhöfen: 50 Credits.\nExotika sind eine Alternativwährung zu Xenodaten. Die meisten automatisierten Handelsstationen akzeptieren Exoten, auch wenn wir keine anderen Ressourcen kaufen..	0
 	'EXOTICS	'EXOTIK	0
 	'Average price when sold by stations: 2 Credits.\nSynthethics are consumed when repairing broken ship modules.	'Durchschnittspreis beim Verkauf nach Bahnhöfen: 2 Credits.\nSynthethik wird bei der Reparatur von defekten Schiffsmodulen verbraucht.	0
 	'SYNTHETICS	'SYNTHETIK	0
@@ -1846,7 +1846,7 @@
 
 '1 P autofactories processing fuel F.prefab
 'name2	'Planet with active technology	'Planet mit aktiver Technologie	25
-'text	'This planet has a complex of automated processing facilities with no property markings. It seems the factories are slowly processing volatile chemicals into starfuel and storing it in underground containers. No active defences detected.	'Dieser Planet verfügt über einen Komplex von automatiwirrten Verarbeitungsanlagen ohne Eigentumsmarkierungen. Es scheint, dass die Fabriken flüchtige Chemikalien langsam zu Sterntreibstoff verarbeiten und in unterirdischen Behältern lagern. Es wurden keine aktiven Verteidigungsanlagen entdeckt.	400
+'text	'This planet has a complex of automated processing facilities with no property markings. It seems the factories are slowly processing volatile chemicals into starfuel and storing it in underground containers. No active defences detected.	'Dieser Planet verfügt über einen Komplex von automatisierten Verarbeitungsanlagen ohne Eigentumsmarkierungen. Es scheint, dass die Fabriken flüchtige Chemikalien langsam zu Sterntreibstoff verarbeiten und in unterirdischen Behältern lagern. Es wurden keine aktiven Verteidigungsanlagen entdeckt.	400
 'choiceText	'Manually hack the facility locks, steal fuel [send 1 crew]	'Manuelles Hacken der Anlagenschlösser, Stehlen von Treibstoff [schicke 1 Mannschaft]	100
 'choiceText	'print digger bots, loot underground storage [-120 metals]	'Herstellen von Baggerrobotern, unterirdische Lagerung von Beute [-120 metals]	100
 'choiceText	'Leave for now	'Fürs Erste verschwinden	100
@@ -1871,7 +1871,7 @@
 'text2	'We leave the facility untouched.	'Wir lassen die Einrichtung unangetastet.	400
 'reasonToDisplay	'noble decision	'noble Entscheidung	30
 'title	'Massive explosion	'Massive Explosion	35
-'text2	'It appears the buildings had a self-destruction system for looters like us. We were lucky our crew was directing the operation from the ship... which we had unfortuantely parked too close, for eawirr drilling. We lost most of the looting equipment. Not enough remained of the facility to recoup our losses.	'Es scheint, dass die Gebäude ein Selbstzerstörungssystem für Plünderer wie uns hatten. Wir hatten Glück, dass unsere Besatzung die Operation vom Raumschiff aus leitete ... das wir unvorhergesehenerweise zu nahe geparkt hatten, um das Bohren zu erleichtern. Wir verloren den größten Teil der Plünderungsausrüstung. Es blieb nicht genug von der Anlage übrig, um unsere Verluste auszugleichen.	400
+'text2	'It appears the buildings had a self-destruction system for looters like us. We were lucky our crew was directing the operation from the ship... which we had unfortuantely parked too close, for easier drilling. We lost most of the looting equipment. Not enough remained of the facility to recoup our losses.	'Es scheint, dass die Gebäude ein Selbstzerstörungssystem für Plünderer wie uns hatten. Wir hatten Glück, dass unsere Besatzung die Operation vom Raumschiff aus leitete ... das wir unvorhergesehenerweise zu nahe geparkt hatten, um das Bohren zu erleichtern. Wir verloren den größten Teil der Plünderungsausrüstung. Es blieb nicht genug von der Anlage übrig, um unsere Verluste auszugleichen.	400
 'reasonToDisplay	'large explosion	'große Explosion	30
 'title	'Small underground explosion	'Kleine unterirdische Explosion	35
 'text2	'It appears the buildings had a self-destruct system for looters like us. We were lucky the thing didn't blow up the whole site. We lost some equipment, and deemed it wise to move on after further investigation - the structures are layered with explosives.	'Es scheint, dass die Gebäude ein Selbstzerstörungssystem für Plünderer wie uns hatten. Wir hatten Glück, dass das Ding nicht das ganze Gelände gesprengt hat. Wir haben einige Ausrüstungsgegenstände verloren und hielten es für klug, nach weiteren Untersuchungen weiterzumachen - die Strukturen sind mit Sprengstoff überzogen.	400
@@ -1919,7 +1919,7 @@
 'text2	'The Volatium asteroid was processed into quality starfuel.	'Der Asteroid Volatium wurde zu hochwertigem Treibstoff verarbeitet.	400
 'title	'Operation completed	'Operation abgeschlossen	35
 'text2	'No incidents.	'Keine Zwischenfälle.	400
-'text	'We found a large asteroid comprised mostly of the rare Statium mineral, processable to metal. We could take either the surface layer, which is eawirr to process, or the whole thing. Processing the whole asteroid is an energy-intensive undertaking, deeper layers of the mineral are more heat and shock resistant.	'Wir fanden einen großen Asteroiden, der größtenteils aus dem seltenen Mineral Statium besteht, das sich zu Metall verarbeiten lässt. Wir könnten entweder die Oberflächenschicht nehmen, die leichter zu verarbeiten ist, oder das Ganze. Die Verarbeitung des gesamten Asteroiden ist ein energieintensives Unterfangen, tiefere Schichten des Minerals sind hitze- und stoßbeständiger.	400
+'text	'We found a large asteroid comprised mostly of the rare Statium mineral, processable to metal. We could take either the surface layer, which is easier to process, or the whole thing. Processing the whole asteroid is an energy-intensive undertaking, deeper layers of the mineral are more heat and shock resistant.	'Wir fanden einen großen Asteroiden, der größtenteils aus dem seltenen Mineral Statium besteht, das sich zu Metall verarbeiten lässt. Wir könnten entweder die Oberflächenschicht nehmen, die leichter zu verarbeiten ist, oder das Ganze. Die Verarbeitung des gesamten Asteroiden ist ein energieintensives Unterfangen, tiefere Schichten des Minerals sind hitze- und stoßbeständiger.	400
 'choiceText	'Process the entire thing [-35 fuel]	'Das Ganze verarbeiten [-35 Kraftstoff]	100
 'choiceText	'Only take the surface parts we can get without the costly process	'Nehmen wir nur die Oberflächenteile, die wir ohne den kostspieligen Prozess erhalten können	100
 'text	'We do not have the necessary resources for this operation. We may return later when we are better equipped.	'Wir haben nicht die notwendigen Ressourcen für diese Operation. Wir können später zurückkehren, wenn wir besser ausgerüstet sind.	600
@@ -1969,7 +1969,7 @@
 'text2	'We have discovered a well-preserved shipwreck in the asteroids! Most of its technology is still intact.	'Wir haben ein gut erhaltenes Schiffswrack in den Asteroiden entdeckt! Der größte Teil seiner Technologie ist noch intakt.	400
 'text2	'We were able to mine some useful minerals. A fast flying asteroid hit our ship during the operation, causing minor damage.	'Wir waren in der Lage, einige nützliche Mineralien abzubauen. Während der Operation traf ein schnell fliegender Asteroid unser Schiff und verursachte geringe Schäden. bis intakt.400
 'title	'Hunted by warp animals!	'Von Warp-Tieren gejagt!	35
-'text2	'A group of warp animals on the hunt took interest in us. They shot various invisible warp rays at our ship, damaging hull integrity and wounding crew. We barely escaped the area, with minor explosions still erupting after the attack.	'Eine Gruppe von Warp-Lebewesen auf der Jagd hat sich für uns intereswirrt. wir schossen mit verschiedenen unsichtbaren Warpstrahlen auf unser Schiff, beschädigten die Integrität des Rumpfes und verwundeten die Besatzung. Wir entkamen nur knapp aus dem Gebiet, wobei nach dem Angriff immer noch kleinere Explosionen ausbrachen.	400
+'text2	'A group of warp animals on the hunt took interest in us. They shot various invisible warp rays at our ship, damaging hull integrity and wounding crew. We barely escaped the area, with minor explosions still erupting after the attack.	'Eine Gruppe von Warp-Lebewesen auf der Jagd hat sich für uns interessiert. wir schossen mit verschiedenen unsichtbaren Warpstrahlen auf unser Schiff, beschädigten die Integrität des Rumpfes und verwundeten die Besatzung. Wir entkamen nur knapp aus dem Gebiet, wobei nach dem Angriff immer noch kleinere Explosionen ausbrachen.	400
 'text	'Danger!	'Gefahr!	50
 'title	'Cargo container	'Frachtcontainer	35
 'text2	'The container was filled with military grade munitions.	'Der Behälter war mit militärischer Munition gefüllt.	400
@@ -2049,8 +2049,8 @@
 'choiceText	'Fight the warp animal [-x explosives, if any]	'Bekämpfen wir das Warpmonster [-x Sprengstoff, falls vorhanden]	100
 'choiceText	'Power down the ship	'Das Schiff abschalten	100
 'title	'Warp encounter over	'Warpbegegnung beendet	35
-'text2	'We powered the ship down and waited. Something strange happened next. The animal started to feel and poke our ship with its many tentacles. After a while, it seemed to have found what it wanted. With a single zap from its tentacle, it transformed a large part of our stored explosives into red goo. Later analysis revealed the goo is edible and tastes like strawberries.	'Wir schalteten das Schiff ab und warteten. Dann paswirrte etwas Seltsames. Das Tier begann zu fühlen und stach mit seinen vielen Tentakeln in unser Schiff. Nach einer Weile schien es gefunden zu haben, was es wollte. Mit einem einzigen Ruck aus seinen Tentakeln verwandelte es einen großen Teil unseres gelagerten Sprengstoffs in roten Glibber. Spätere Analysen ergaben, dass der Glibber essbar ist und nach Erdbeeren schmeckt.	400
-'text2	'We powered the ship down and waited. Something strange happened next. The animal started to feel and poke our ship with its many tentacles. It almost seemed calm, but then suddenly became agitated and released a charge of energy from its body into the Mothership, causing damage. The AI turned the power back on, we are going to fight back.	'Wir schalteten das Schiff ab und warteten. Dann paswirrte etwas Seltsames. Das Tier begann zu fühlen und stach mit seinen vielen Tentakeln in unser Schiff. Es schien fast ruhig zu sein, aber dann wurde es plötzlich unruhig und gab eine Ladung Energie aus seinem Körper in das Raumschiff ab, was Schäden verursachte. Die KI schaltete die Energie wieder ein, wir werden zurückschlagen.	400
+'text2	'We powered the ship down and waited. Something strange happened next. The animal started to feel and poke our ship with its many tentacles. After a while, it seemed to have found what it wanted. With a single zap from its tentacle, it transformed a large part of our stored explosives into red goo. Later analysis revealed the goo is edible and tastes like strawberries.	'Wir schalteten das Schiff ab und warteten. Dann passierte etwas Seltsames. Das Tier begann zu fühlen und stach mit seinen vielen Tentakeln in unser Schiff. Nach einer Weile schien es gefunden zu haben, was es wollte. Mit einem einzigen Ruck aus seinen Tentakeln verwandelte es einen großen Teil unseres gelagerten Sprengstoffs in roten Glibber. Spätere Analysen ergaben, dass der Glibber essbar ist und nach Erdbeeren schmeckt.	400
+'text2	'We powered the ship down and waited. Something strange happened next. The animal started to feel and poke our ship with its many tentacles. It almost seemed calm, but then suddenly became agitated and released a charge of energy from its body into the Mothership, causing damage. The AI turned the power back on, we are going to fight back.	'Wir schalteten das Schiff ab und warteten. Dann passierte etwas Seltsames. Das Tier begann zu fühlen und stach mit seinen vielen Tentakeln in unser Schiff. Es schien fast ruhig zu sein, aber dann wurde es plötzlich unruhig und gab eine Ladung Energie aus seinem Körper in das Raumschiff ab, was Schäden verursachte. Die KI schaltete die Energie wieder ein, wir werden zurückschlagen.	400
 'title	'Battle end	'Die Schlacht ist zu Ende	35
 'text2	'We were unable to neutralize the warp animal due to low explosives. It kept attacking our ship with a variety of energy weapons, damaging both ship hull and crew. We eventually managed to shake it free and cause enough damage that it decided to warp away.	'Wir waren nicht in der Lage, das Warpmonster wegen des geringen Sprengstoffs im Lager zu neutralizieren. Es griff unser Schiff weiterhin mit einer Vielzahl von Energiewaffen an und beschädigte dabei sowohl den Schiffsrumpf als auch die Besatzung. Wir schafften es schließlich, es loszuschütteln und so   Schaden anzurichten, dass es beschloss, mit Warpgeschwindigkeit davonzufliegen.	400
 'text2	'The resulting fight was quick and vicious. Luckily, we had some explosives left to penetrate its energy shields. The warp creature's remains contained a few Credits and pieces from half-digested ships, one of them still almost functional.	'Der daraus resultierende Kampf war schnell und heftig. Glücklicherweise hatten wir noch etwas Sprengstoff übrig, um seine Energieschilde zu durchdringen. Die Überreste der Warpkreatur enthielten ein paar Credits und Stücke von halb verdauten Schiffen, von denen eines noch fast funktionstüchtig war.	400
@@ -2066,8 +2066,8 @@
 'text2	'Unexpectedly, a nearby hidden defence installation opened explosive fire at the area of operations. It damaged our ship and also destroyed some of the loot before we could retrieve it. A few utility bots were also destroyed.	'Unerwartet eröffnete eine nahe gelegene, versteckte Verteidigungsanlage ein explosives Feuer im Einsatzgebiet. Es beschädigte unser Schiff und zerstörte auch einen Teil der Beute, bevor wir wir zurückholen konnten. Einige Versorgungsschiffe wurden ebenfalls zerstört.	400
 'text	'looting...	'Plünderung...	50
 'text	'returning fire...	'Feuer erwidern...	50
-'title	'Automated market	'Automatiwirrter Markt	35
-'text	'We discovered a shady looking automated minerals market on one of the asteroids. The fact that it does not have a public commercial signal means it is likely involved with smugglers. It advertises an offer that's hard to refuse.	'Auf einem der Asteroiden entdeckten wir einen zwielichtig aussehenden automatiwirrten Mineralienmarkt. Die Tatsache, dass er kein öffentliches kommerzielles Signal hat, bedeutet, dass er wahrscheinlich mit Schmugglern zu tun hat. Er wirbt für ein Angebot, das schwer abzulehnen ist.	400
+'title	'Automated market	'Automatisierter Markt	35
+'text	'We discovered a shady looking automated minerals market on one of the asteroids. The fact that it does not have a public commercial signal means it is likely involved with smugglers. It advertises an offer that's hard to refuse.	'Auf einem der Asteroiden entdeckten wir einen zwielichtig aussehenden automatisierten Mineralienmarkt. Die Tatsache, dass er kein öffentliches kommerzielles Signal hat, bedeutet, dass er wahrscheinlich mit Schmugglern zu tun hat. Er wirbt für ein Angebot, das schwer abzulehnen ist.	400
 'choiceText	'Trade [get 200 metals for 50 explosives]	'Handel [200 Metalle für 50 Sprengstoffe erhalten]	100
 'choiceText	'Force entry and loot the market	'Einbrechen und den Markt plündern	100
 'title	'Unfair trade	'Unfairer Handel	35
@@ -2097,7 +2097,7 @@
 'text2	'Our bots found a broken fuel tank among the asteroids, next to a cloud of dispersed starfuel.	'Unsere Bots fanden einen zerbrochenen Treibstofftank zwischen den Asteroiden, neben einer Wolke aus verstreutem Sterntreibstoff.	400
 'text2	'We discovered an abandoned defence installation on one of the larger asteroids. We looted the place and discovered its main weapon is still operational.	'Wir entdeckten eine verlassene Verteidigungsanlage auf einem der größeren Asteroiden. Wir plünderten die Anlage und stellten fest, dass ihre Hauptwaffe immer noch einsatzbereit ist.	400
 'title	'Warp animal defrozen	'Warpmonster wieder auftauen lassen	35
-'text2	'We started melting the ice, preserving the body of the worm to study it in completely intact form. Unfortunately, it woke quickly after, and a short battle ensued. It did not have the warp power of a fresh worm and was neutralized quickly.	'Wir begannen, das Eis zu schmelzen und den Körper des Wurms zu konservieren, um ihn in völlig intakter Form zu untersuchen. Leider erwachte er danach schnell wieder, und es folgte ein kurzer Kampf. Er hatte nicht die Warpkraft eines frischen Wurms und wurde schnell neutraliwirrt.	400
+'text2	'We started melting the ice, preserving the body of the worm to study it in completely intact form. Unfortunately, it woke quickly after, and a short battle ensued. It did not have the warp power of a fresh worm and was neutralized quickly.	'Wir begannen, das Eis zu schmelzen und den Körper des Wurms zu konservieren, um ihn in völlig intakter Form zu untersuchen. Leider erwachte er danach schnell wieder, und es folgte ein kurzer Kampf. Er hatte nicht die Warpkraft eines frischen Wurms und wurde schnell neutralisiert.	400
 'title	'Ship carcass	'Schiffskörper	35
 'text2	'We discovered a massive ship carcass among the asteroids. It seems the ship was destroyed with overwhelming firepower years ago. We scavenged the neosteel mainframe, the rest seems to have vaporized.	'Wir entdeckten unter den Asteroiden einen massiven Schiffskadaver. Es scheint, dass das Schiff vor Jahren mit überwältigender Feuerkraft zerstört wurde. Wir haben den Neosteel-Hauptrechner geplündert, der Rest scheint verdampft zu sein.	400
 'title	'Warp animal found	'Warpcreatur  gefunden	35
@@ -2110,7 +2110,7 @@
 'text	'We discovered an anomaly inside the asteroids. It is a geometrically shaped ultra-dense formation of matter that seems to manipulate nearby asteroids with warp energies. It seems to ignore us.	'Wir entdeckten eine Anomalie im Inneren der Asteroiden. Es handelt sich um eine geometrisch geformte ultra-dichte Materieformation, die nahe gelegene Asteroiden mit Warpenergien zu manipulieren scheint. wir scheint uns zu ignorieren.	400
 'choiceText	'Attempt to communicate	'Versuch zu kommunizieren	100
 'text2	'As we drive closer, one of the rocks that the anomaly is working with is hurled at us! This seems like a pretty clear indication that we are not wanted here.	'Als wir näher heranfahren, wird einer der Felsen, mit denen die Anomalie arbeitet, auf uns geschleudert! Dies scheint ein ziemlich deutliches Anzeichen dafür zu sein, dass wir hier nicht erwünscht sind.	400
-'text	'Somebody suggests we could shoot the bastard-of-an anomaly back. The AI notes that there are no records of anybody "neutralizing" such an anomaly by destructive means, so far.	'Jemand schlägt vor, wir könnten den Bastard einer Anomalie zurückschießen. Die KI stellt fest, dass es bisher keine Aufzeichnungen darüber gibt, dass jemand eine solche Anomalie mit destruktiven Mitteln "neutraliwirrt" hätte.	400
+'text	'Somebody suggests we could shoot the bastard-of-an anomaly back. The AI notes that there are no records of anybody "neutralizing" such an anomaly by destructive means, so far.	'Jemand schlägt vor, wir könnten den Bastard einer Anomalie zurückschießen. Die KI stellt fest, dass es bisher keine Aufzeichnungen darüber gibt, dass jemand eine solche Anomalie mit destruktiven Mitteln "neutralisiert" hätte.	400
 'choiceText	'Shoot the anomaly	'Schießen Wir auf die Anomalie	100
 'text2	'We opt for caution and leave the area. Even this brief encounter with the anomaly is scientifically significant.	'Wir entscheiden uns für Vorsicht und verlassen das Gebiet. Selbst diese kurze Begegnung mit der Anomalie ist wissenschaftlich bedeutsam.	400
 'text	'The anomaly keeps ignoring our signals. It seems to be focused on altering the nearby rocks with its energies.	'Die Anomalie ignoriert weiterhin unsere Signale. wir scheint sich darauf zu konzentrieren, die nahe gelegenen Felsen mit ihren Energien zu verändern.	400
@@ -2162,9 +2162,9 @@
 'choiceText	'Print long-range missiles to neutralize the satellites from a safe distance [-40 explosives]	'Fernkampfraketen , um die Satelliten aus sicherer Entfernung zu neutralizieren [-40 Sprengstoffe].	100
 'choiceText	'Fight the satellites from tactical distance [risks mothership HP]	'Bekämpfen wir die Satelliten aus taktischer Entfernung [riskiert Raumschiff HP].	100
 'newName3	'GalProspect claims ownership	'GalProspect beansprucht Eigentum	25
-'title	'Satellites neutralized	'Satelliten neutraliwirrt	35
+'title	'Satellites neutralized	'Satelliten neutralisiert	35
 'text2	'We managed to destroy the defence satellites with cheaply printed long-range missiles. Their remains scattered too far for salvage.	'Es ist uns gelungen, die Verteidigungssatelliten mit billig gedruckten Langstreckenraketen zu zerstören. Ihre Überreste sind zu weit verstreut, um wir zu bergen.	400
-'reasonToDisplay	'satellite network neutralized	'Satellitennetzwerk neutraliwirrt	30
+'reasonToDisplay	'satellite network neutralized	'Satellitennetzwerk neutralisiert	30
 'text2	'We send a swarm of cheaply printed long-range missiles towards the planet. It seems the satellites are equipped with point-defences, picking off some of our missiles before they reach the target.	'Wir schicken einen Schwarm billig gedruckter Langstreckenraketen auf den Planeten. Es scheint, dass die Satelliten mit einer Punktverteidigung ausgestattet sind und einige unserer Raketen abschießen, bevor wir das Ziel erreichen.	400
 'text2	'We discover that the gas giant is being orbited by thousands of miniature Tarn mines. They cause considerable damage and force us to abort the operation almost as soon as we start. Upon explosion, each mine also releases a signal burst, transmitting: "Trying to steal our gas? Greetings from GalProspect Incorporated, suckers!"	'Wir entdecken, dass der Gasriese von Tausenden von Miniatur-Tarn-Minen umkreist wird. wir richten erheblichen Schaden an und zwingen uns, die Operation fast sofort nach Beginn abzubrechen. Bei der Explosion löst jede Mine auch einen Signalausbruch aus, der sendet: "Versuchen wir, unser Gas zu stehlen? Grüsse von GalProspect Incorporated, ihr Trottel!"	400
 'newName3	'Active minefield	'Aktives Minenfeld	25
@@ -2196,7 +2196,7 @@
 'text	'"This is an automated warning. This gas giant, and we mean every molecule, legally belongs to GalProspect Incorporated (legal details at the end). Disrespect of our rights to this property will result in our disrespect of your safety. Transmission end."	'"Dies ist eine automatische Warnung. Dieser Gasriese, und wir meinen jedes Molekül, gehört rechtlich zu GalProspect Incorporated (rechtliche Einzelheiten am Ende). Die Missachtung unserer Rechte an diesem Eigentum hat zur Folge, dass wir Ihre Sicherheit nicht respektieren. Ende der Übertragung."	400
 'choiceText	'Press on to harvest gas	'Weitermachen, um Gas zu gewinnen	100
 'text2	'All operations completed without problems. One crewmember felt lonely for a moment but that wasn't a huge problem.	'Alle Operationen wurden ohne Probleme abgeschlossen. Ein Besatzungsmitglied fühlte sich einen Moment lang einsam, aber das war kein großes Problem.	400
-'text	'The mining process went smoothly and nothing stopped us. In addition, we located the Tarny GalProspect Incorporated satellite casting the warning message. We could disable and confiscate it. Some of the crew suggest it would be a positively anarchist act to do. Orders?	'Der Bergbauprozess verlief reibungslos, und nichts hat uns aufgehalten. Darüber hinaus haben wir den Satelliten Tarny GalProspect Incorporated lokaliwirrt, der die Warnmeldung ausstrahlt. Wir konnten ihn deaktivieren und konfiszieren. Einige der Besatzung halten dies für einen eindeutig anarchistischen Akt. Befehle?	400
+'text	'The mining process went smoothly and nothing stopped us. In addition, we located the Tarny GalProspect Incorporated satellite casting the warning message. We could disable and confiscate it. Some of the crew suggest it would be a positively anarchist act to do. Orders?	'Der Bergbauprozess verlief reibungslos, und nichts hat uns aufgehalten. Darüber hinaus haben wir den Satelliten Tarny GalProspect Incorporated lokalisiert, der die Warnmeldung ausstrahlt. Wir konnten ihn deaktivieren und konfiszieren. Einige der Besatzung halten dies für einen eindeutig anarchistischen Akt. Befehle?	400
 'choiceText	'Scrap the satellite	'Den Satelliten verschrotten	100
 'text2	'Mining process was completed uneventfully and the crew left satellites intact as ordered. A crewmember who was a fan of Confucius later approached you to praise the choice.	'Der Bergbauprozess wurde ereignislos abgeschlossen, und die Besatzung ließ die Satelliten wie befohlen intakt. Ein Besatzungsmitglied, das ein Fan von Konfuzius war, trat später an wir heran, um die Wahl zu loben.	400
 'text	'analyzing atmosphere...	'Analyse der Atmosphäre...	50
@@ -2387,7 +2387,7 @@
 'RandomizePOI.genericValueGroup[i].name2	'Planet with atmopshere	'Planet mit Atmosphäre	25
 'RandomizePOI.genericValueGroup[i].text	'The atmosphere of this planet is incredibly corrosive. There is nothing for us to do here.	'Die Atmosphäre dieses Planeten ist unglaublich korrosiv. Hier gibt es für uns nichts zu tun.	400
 'RandomizePOI.genericValueGroup[i].text	'This planet is covered with a thick layer of frozen carbon dioxide, the conditions make it economically worthless for us.	'Dieser Planet ist mit einer dicken Schicht gefrorenen Kohlendioxids bedeckt, die Bedingungen machen es für uns wirtschaftlich wertlos.	400
-'RandomizePOI.genericValueGroup[i].text	'This planet has a thin atmosphere and signs of very early carbon-based life, however closer analysis proved it  to be worthless for our interests.	'Dieser Planet hat eine dünne Atmosphäre und Anzeichen für sehr frühes kohlenstoffbawirrtes Leben, doch eine genauere Analyse erwies sich für unsere Interessen als wertlos.	400
+'RandomizePOI.genericValueGroup[i].text	'This planet has a thin atmosphere and signs of very early carbon-based life, however closer analysis proved it  to be worthless for our interests.	'Dieser Planet hat eine dünne Atmosphäre und Anzeichen für sehr frühes kohlenstoffbasiertes Leben, doch eine genauere Analyse erwies sich für unsere Interessen als wertlos.	400
 'RandomizePOI.genericValueGroup[i].text	'The atmosphere of this planet is incredibly corrosive and toxic. There is nothing for us to do here.	'Die Atmosphäre dieses Planeten ist unglaublich ätzend und giftig. Hier gibt es für uns nichts zu tun.	400
 'RandomizePOI.genericValueGroup[i].name2	'Barren planet	'Unfruchtbarer Planet	25
 'RandomizePOI.genericValueGroup[i].text	'This massive planet is not suitable for rapid mining operations due to its super strong gravity field.	'Dieser massive Planet eignet sich aufgrund seines superstarken Schwerefeldes nicht für den schnellen Abbau.	400
@@ -2410,7 +2410,7 @@
 'RandomizePOI.genericValueGroup[i].text	'The surface layer of frozen carbon dioxide is too thick to consider mining here.	Die Oberflächenschicht aus gefrorenem Kohlendioxid ist zu dick, um hier einen Abbau in Betracht zu ziehen.	400
 'RandomizePOI.genericValueGroup[i].text	'This planet has very poor mineral value. It''s just a big rock.	'Dieser Planet hat einen sehr geringen Mineralwert. Es ist nur ein großer Felsen.	400
 'RandomizePOI.genericValueGroup[i].name2	'Planet with early life	'Planet mit frühem Leben	25
-'RandomizePOI.genericValueGroup[i].text	'This planet has abundant primitive life, but it''s all based on different elements than carbon, making it unattractive for organics harvesting. Mineral profile is also very modest, there is no value for us here.	'Dieser Planet verfügt über reichlich primitives Leben, aber es bawirrt alles auf anderen Elementen als Kohlenstoff, was ihn für die Ernte organischer Stoffe unattraktiv macht. Auch das Mineralienprofil ist sehr bescheiden, es gibt hier keinen Wert für uns.	400
+'RandomizePOI.genericValueGroup[i].text	'This planet has abundant primitive life, but it''s all based on different elements than carbon, making it unattractive for organics harvesting. Mineral profile is also very modest, there is no value for us here.	'Dieser Planet verfügt über reichlich primitives Leben, aber es basiert alles auf anderen Elementen als Kohlenstoff, was ihn für die Ernte organischer Stoffe unattraktiv macht. Auch das Mineralienprofil ist sehr bescheiden, es gibt hier keinen Wert für uns.	400
 'RandomizePOI.genericValueGroup[i].text	'Strong radiation and active mineral dust storms make this planet an unattractive spot for scavenging.	'Starke Strahlung und aktive Mineralstaubstürme machen diesen Planeten zu einem unattraktiven Ort für die Plünderung.	400
 'RandomizePOI.genericValueGroup[i].text	'Strong radiation and extreme temperature make this planet an unattractive spot for scavenging.	'Starke Strahlung und extreme Temperaturen machen diesen Planeten zu einem unattraktiven Ort für die Plünderung.	400
 'RandomizePOI.genericValueGroup[i].text	'This planet has very poor mineral value.	'Dieser Planet hat einen sehr geringen Mineralwert.	400
@@ -2439,7 +2439,7 @@
 'Level 1 exit.prefab
 'text	'Es scheint sich viel geändert zu haben, während wir im Kälteschlaf waren, Captain... wir sind seit fünf Jahren von intergalaktischen Nachrichten abgeschnitten. Früher waren die Ratten nicht so verzweifelt auf Profit aus.	Es scheint sich eine Menge geändert zu haben, während wir im Kälteschlaf waren, Captain... wir sind seit fünf Jahren von intergalaktischen Nachrichten abgeschnitten. Früher waren die Ratten nicht so verzweifelt auf Profit aus.	600
 'title	'Rat Empire Gate Guard	'Rat Empire Gate Guard	35
-'text	'Dieses Langstrecken-Warpgate ist Eigentum des Rattenimperiums. Wer es paswirren will, muss eine Torsteuer zahlen. Ich warne wir, dass diejenigen, die die imperialen Regeln für alle anderen in Frage stellen, hingerichtet werden. Und ich habe eine Atombombe.	Dieses Langstrecken-Warpgate ist Eigentum des Rattenimperiums. Wer es paswirren will, muss die Torsteuer zahlen. Ich warne wir, dass diejenigen, die die kaiserlichen Regeln für alle anderen in Frage stellen, hingerichtet werden. Und ich habe eine Atombombe.	400
+'text	'Dieses Langstrecken-Warpgate ist Eigentum des Rattenimperiums. Wer es passieren will, muss eine Torsteuer zahlen. Ich warne wir, dass diejenigen, die die imperialen Regeln für alle anderen in Frage stellen, hingerichtet werden. Und ich habe eine Atombombe.	Dieses Langstrecken-Warpgate ist Eigentum des Rattenimperiums. Wer es passieren will, muss die Torsteuer zahlen. Ich warne wir, dass diejenigen, die die kaiserlichen Regeln für alle anderen in Frage stellen, hingerichtet werden. Und ich habe eine Atombombe.	400
 'choiceText	'Pay the tax, travel to next sector [-300 Credits]	'Die Steuer zahlen, zum nächsten Sektor reisen [-300 Credits] 100
 'choiceText	'Attempt to bribe [-7 exotics]	'Bestechungsversuch [-7 Exoten]	100
 'choiceText	'Your rules inspire me to question them [ready for battle]	'Ihre Regeln inspirieren , wir in Frage zu stellen [kampfbereit].	100
@@ -2453,7 +2453,7 @@
 'text	'We've reached the long-range warpgate to Earth.	'Wir haben das Langstreckenwarpgate zur Erde erreicht.	600
 'title	'Vengeance Fleet Commander	'Befehlshaber der Racheflotte	35
 'okButtonText	'We will interfere	'Wir werden uns einmischen	7
-'text	'"Captain, surely you understand this is nothing personal, but a matter of very important and totally honourable tradition. \n\nFeel free to step aside and not interfere. I must honor our tradition of Vengeance, and avenge our captured queens by destroying Earth... as it was decided by Wives of our Elders when they ceremonially played the ancient Bone Dice game. Even you must see that it is absolutely logical!\n\nBe warned that we will shoot our secondary weapons at you if you interfere, and we have a few tricks if you press the issue. Our mission is to only destroy the bad Earth, not you."	'"Kapitän, wir verstehen sicher, dass dies nichts Persönliches ist, sondern eine Angelegenheit von sehr wichtiger und völlig ehrenhafter Tradition. \Fühlen wir sich frei, zur Seite zu treten und sich nicht einzumischen. Ich muss unsere Tradition der Rache ehren und unsere gefangenen Königinnen rächen, indem ich die Erde zerstöre... wie es von den Frauen unserer Ältesten beschlossen wurde, als wir feierlich das alte Knochenwürfelspiel spielten. Sogar wir müssen sehen, dass es absolut logisch ist! Seien wir gewarnt, dass wir unsere sekundären Waffen auf wir schießen werden, wenn wir sich einmischen, und wir haben ein paar Tricks parat, wenn wir auf das Thema Druck ausüben. Unsere Mission ist es, nur die schlechte Erde zu zerstören, nicht wir."	600
+'text	'"Captain, surely you understand this is nothing personal, but a matter of very important and totally honourable tradition. \n\nFeel free to step aside and not interfere. I must honor our tradition of Vengeance, and avenge our captured queens by destroying Earth... as it was decided by Wives of our Elders when they ceremonially played the ancient Bone Dice game. Even you must see that it is absolutely logical!\n\nBe warned that we will shoot our secondary weapons at you if you interfere, and we have a few tricks if you press the issue. Our mission is to only destroy the bad Earth, not you."	'"Kapitän, wir verstehen sicher, dass dies nichts Persönliches ist, sondern eine Angelegenheit von sehr wichtiger und völlig ehrenhafter Tradition. \Fühlen wir sich frei, zur Seite zu treten und sich nicht einzumischen. Ich muss unsere Tradition der Rache ehren und unsere gefangenen Königinnen rächen, indem ich die Erde zerstöre... wie es von den Frauen unserer Ältesten beschlossen wurde, als wir feierlich das alte Knochenwürfelspiel spielten. Sogar wir müssen sehen, dass es absolut logisch ist! Seien wir gewarnt, dass wir unsere sekundären Waffen auf wir schießen werden, wenn wir sich einmischen, und wir haben ein paar Tricks parat, wenn wir auf das Thema Druck ausüben. Unsere Mission ist es, nur die schlechte Erde zu zerstören, nicht euch."	600
 'text	'Hours waited... #	'Hours waited... #	50
 'okButtonText	'Prepare for battle	'Prepare for battle	7
 'text	'The enemy planetkiller ship is on route to this warpgate. It will most likely attempt shooting through the warpgate without actually entering the portal itself. We must wait here to intercept it. Prepare everything we got, no holding back now.	'Das feindliche Planetenkillerschiff ist auf dem Weg zu diesem Warpgate. Es wird höchstwahrscheinlich versuchen, durch das Warpgate zu schießen, ohne tatsächlich das Portal selbst zu betreten. Wir müssen hier warten, um es abzufangen. Bereiten wir alles vor, was wir haben, kein Zurückhalten mehr.	600
@@ -2461,7 +2461,7 @@
 'Level 2 exit, pirate sekvoia bossfight.prefab
 'title	'Boarders detected!	'Boarders detected!	35
 'okButtonText	'Tactical view on screen	'Taktische Ansicht auf dem Bildschirm	7
-'text	'"Oh I don't think we will let you leave. Nothing personal really, it's just business. You should be thankful that we're not the slavers. I promise we won't take any prisoners. This is our gift to you."	'"Oh, ich glaube nicht, dass wir wir gehen lassen werden. Es ist eigentlich nichts Persönliches, es ist nur geschäftlich. wir sollten dankbar sein, dass wir nicht die Sklavenhändler sind. Ich verspreche, dass wir keine Gefangenen machen werden. Dies ist unser Geschenk an wir."	600
+'text	'"Oh I don't think we will let you leave. Nothing personal really, it's just business. You should be thankful that we're not the slavers. I promise we won't take any prisoners. This is our gift to you."	'"Oh, ich glaube nicht, dass wir wir gehen lassen werden. Es ist eigentlich nichts Persönliches, es ist nur geschäftlich. wir sollten dankbar sein, dass wir nicht die Sklavenhändler sind. Ich verspreche, dass wir keine Gefangenen machen werden. Dies ist unser Geschenk an euch."	600
 'text	'What a nice ship you have there. A bit too nice to fly around alone like this...	'Was für ein schönes Schiff wir da haben. Etwas zu schön, um so allein herumzufliegen...	400
 'choiceText	'Attempt to leave the area	'Versuch, das Gebiet zu verlassen	100
 'text	'It seems the pirates are drawn here because of an intergalactic war between the rats and somebody else. The reduced transparency associated with large-scale military conflicts always draws in predators of all sorts.	'Es scheint, dass die Piraten wegen eines intergalaktischen Krieges zwischen den Ratten und jemand anderem hierher gelockt wurden. Die reduzierte Transparenz, die mit großen militärischen Konflikten verbunden ist, zieht immer Raubtiere aller Art an.	600
@@ -2510,7 +2510,7 @@
 'text2	'The container held a giant exotic crystal.	'Der Behälter enthielt einen riesigen exotischen Kristall.	400
 'text2	'The container held a package of recreational consumables.	'Der Container enthielt ein Paket mit Freizeitverbrauchsmaterial.	400
 'text2	'The container was full of well-packed frozen potatoes. Production data tells they were grown in a Mars farm couple of decades ago. They are completely harmless.	'Der Container war voll mit gut verpackten Tiefkühlkartoffeln. Aus den Produktionsdaten geht hervor, dass wir vor einigen Jahrzehnten auf einer Mars-Farm angebaut wurden. wir sind völlig harmlos..	400
-'text2	'The container was full of frozen potatoes which seemed to be completely harmless... until stored. They were infested with military nanobots who somehow survived our decontamination procedures and started eating all the other organics. We lost a large amount of organics before the infestation was neutralized. Analysis of the bots provided some scientific value.	'Der Container war voll mit gefrorenen Kartoffeln, die bis zur Lagerung völlig harmlos zu sein schienen.... wir waren mit militärischen Nanobots verseucht, die irgendwie unsere Dekontaminierungsverfahren überlebten und anfingen, alle anderen organischen Stoffe zu fressen. Wir verloren eine große Menge organischer Stoffe, bevor der Befall neutraliwirrt werden konnte. Die Analyse der Bots lieferte einen gewissen wissenschaftlichen Wert.	400
+'text2	'The container was full of frozen potatoes which seemed to be completely harmless... until stored. They were infested with military nanobots who somehow survived our decontamination procedures and started eating all the other organics. We lost a large amount of organics before the infestation was neutralized. Analysis of the bots provided some scientific value.	'Der Container war voll mit gefrorenen Kartoffeln, die bis zur Lagerung völlig harmlos zu sein schienen.... wir waren mit militärischen Nanobots verseucht, die irgendwie unsere Dekontaminierungsverfahren überlebten und anfingen, alle anderen organischen Stoffe zu fressen. Wir verloren eine große Menge organischer Stoffe, bevor der Befall neutralisiert werden konnte. Die Analyse der Bots lieferte einen gewissen wissenschaftlichen Wert.	400
 'text2	'Incredibly, the container held an advanced repair device with a supply of nanobots. We used it to repair a crack in the ship hull.	'Unglaublicherweise enthielt der Container ein fortschrittliches Reparaturgerät mit einem Vorrat an Nanobots. Wir benutzten es, um einen Riss in der Schiffshülle zu reparieren..	400
 'text2	'The container was full of high-potency synthethic fertilizer with volatile properties.	'Der Behälter war voll mit hochwirksamen synthetischen Düngemitteln mit flüchtigen Eigenschaften.	400
 'text2	'The container held a backup package of general supplies.	'Der Container enthielt ein Reservepaket mit allgemeinen Vorräten.	400
@@ -2525,7 +2525,7 @@
 'text2	'We were able to disable the trap without incidents. The container was filled with precious metals.	'Wir konnten die Falle ohne Zwischenfälle deaktivieren. Der Behälter war mit Edelmetallen gefüllt.	400
 'text2	'We easily disabled the trap. The container was filled with crude fuel, still usable after a little processing.	'We easily disabled the trap. Der Behälter war mit Rohbrennstoff gefüllt, der nach einer gewissen Aufbereitung noch brauchbar war.	400
 'title	'Noncarbon food	'Noncarbon food	35
-'text2	'We were able to disable the trap without incident. The container was filled with packets of alien food not based on carbon. We analyzed it for scientific purposes, but there is no way to process this stuff into organics that would suit our needs.	'Wir konnten die Falle ohne Zwischenfälle deaktivieren. Der Behälter war mit Paketen ausländischer Lebensmittel gefüllt, die nicht auf Kohlenstoff bawirren. Wir haben es für wissenschaftliche Zwecke analywirrt, aber es gibt keine Möglichkeit, dieses Zeug zu organischen Stoffen zu verarbeiten, die unseren Bedürfnissen entsprechen würden.	400
+'text2	'We were able to disable the trap without incident. The container was filled with packets of alien food not based on carbon. We analyzed it for scientific purposes, but there is no way to process this stuff into organics that would suit our needs.	'Wir konnten die Falle ohne Zwischenfälle deaktivieren. Der Behälter war mit Paketen ausländischer Lebensmittel gefüllt, die nicht auf Kohlenstoff basieren. Wir haben es für wissenschaftliche Zwecke analysiert, aber es gibt keine Möglichkeit, dieses Zeug zu organischen Stoffen zu verarbeiten, die unseren Bedürfnissen entsprechen würden.	400
 'title	'Munitions found	'Munition gefunden	35
 'text2	'We were able to disable the trap without incident. The container was filled with various munitions.	'Wir konnten die Falle ohne Zwischenfälle deaktivieren. Der Behälter war mit verschiedener Munition gefüllt.	400
 'text2	'We were able to disable the trap without incident. The container was filled with small arms ammo. We converted the munitions into standard general explosives.	'Wir konnten die Falle ohne Zwischenfälle deaktivieren. Der Behälter war mit Kleinwaffenmunition gefüllt. Wir konvertierten die Munition in allgemeinen Standard-Sprengstoff.	400
@@ -2660,8 +2660,8 @@
 '2 Exo wr. explo smallship, LRsensors, Combatsensors.prefab
 'displayName	'metal object	'Metallobjekt	25
 'text	'It is a small shipwreck. Advanced sensor structure suggests it was a science vessel.	'Es ist ein kleines Schiffswrack. Eine fortschrittliche Sensorstruktur lässt vermuten, dass es ein Wissenschaftsschiff war.	400
-'text2	'This was an automated exploration ship. One of its modules is still intact.	'Dies war ein automatiwirrtes Forschungsschiff. Eines seiner Module ist noch intakt..	400
-'text2	'This was an automated exploration ship. Two of its modules are still intact.	'Dies war ein automatiwirrtes Forschungsschiff. Zwei seiner Module sind noch intakt..	400
+'text2	'This was an automated exploration ship. One of its modules is still intact.	'Dies war ein automatisiertes Forschungsschiff. Eines seiner Module ist noch intakt..	400
+'text2	'This was an automated exploration ship. Two of its modules are still intact.	'Dies war ein automatisiertes Forschungsschiff. Zwei seiner Module sind noch intakt..	400
 'text2	'It's a central ship frame, everything else has already been scavenged off the wreckage.	'Es handelt sich um ein zentrales Schiffsgerüst, alles andere wurde bereits aus den Trümmern geborgen.	400
 
 '2 Exo wr. rat fighter CM.prefab
@@ -2725,8 +2725,8 @@
 'text2	'A piece of spaceship technology had been swallowed whole by the creature.	'Ein Stück Raumschifftechnologie war ganz von der Kreatur verschluckt worden.	400
 'text	'We weren't able to evade the warp animal. It is now next to our ship, closing in with fully energized tentacles extended towards us. Conflicting info from warp animal database claims the animals sometimes calms if the ship they're after stops and powers down. Orders?	'Wir waren nicht in der Lage, dem Warptier auszuweichen. Es befindet sich jetzt neben unserem Schiff und nähert sich mit voll erregten Tentakeln, die sich uns entgegenstrecken. Widersprüchliche Informationen aus der Warptier-Datenbank behaupten, dass sich die Tiere manchmal beruhigen, wenn das Schiff, hinter dem wir her sind, stoppt und sich abschaltet.. Orders?	400
 'choiceText	'Fight the warp animal	'Bekämpfen wir das Warptier	100
-'text2	'We powered the ship down and waited. Something strange happened next. The animal started to feel and poke our ship with its many tentacles. After a while, it seemed to have found what it wanted. With a single zap from a tentacle, it transformed all of our stored explosives into red goo. Later analysis revealed the goo as edible, and it tasted like strawberries.	'Wir schalteten das Schiff ab und warteten. Dann paswirrte etwas Seltsames. Das Tier begann zu fühlen und stieß mit seinen vielen Tentakeln an unser Schiff. Nach einer Weile schien es gefunden zu haben, was es wollte. Mit einem einzigen Ruck mit einem Tentakel verwandelte es all unseren gelagerten Sprengstoff in roten Glibber. Eine spätere Analyse ergab, dass der Glibber essbar war und wie Erdbeeren schmeckte.	400
-'text2	'We powered the ship down and waited. Something strange happened next. The animal started to feel and poke our ship with its many tentacles. Suddenly, it became agitated and released a charge of energy from its body, damaging the ship. Our AI decided to turn the power back on, we are going to fight.	'Wir schalteten das Schiff ab und warteten. Dann paswirrte etwas Seltsames. Das Tier begann zu fühlen und stieß mit seinen vielen Tentakeln an unser Schiff. Plötzlich wurde es unruhig und gab eine Ladung Energie aus seinem Körper ab, wodurch das Schiff beschädigt wurde. Unsere KI beschloss, die Energie wieder einzuschalten, wir werden kämpfen.	400
+'text2	'We powered the ship down and waited. Something strange happened next. The animal started to feel and poke our ship with its many tentacles. After a while, it seemed to have found what it wanted. With a single zap from a tentacle, it transformed all of our stored explosives into red goo. Later analysis revealed the goo as edible, and it tasted like strawberries.	'Wir schalteten das Schiff ab und warteten. Dann passierte etwas Seltsames. Das Tier begann zu fühlen und stieß mit seinen vielen Tentakeln an unser Schiff. Nach einer Weile schien es gefunden zu haben, was es wollte. Mit einem einzigen Ruck mit einem Tentakel verwandelte es all unseren gelagerten Sprengstoff in roten Glibber. Eine spätere Analyse ergab, dass der Glibber essbar war und wie Erdbeeren schmeckte.	400
+'text2	'We powered the ship down and waited. Something strange happened next. The animal started to feel and poke our ship with its many tentacles. Suddenly, it became agitated and released a charge of energy from its body, damaging the ship. Our AI decided to turn the power back on, we are going to fight.	'Wir schalteten das Schiff ab und warteten. Dann passierte etwas Seltsames. Das Tier begann zu fühlen und stieß mit seinen vielen Tentakeln an unser Schiff. Plötzlich wurde es unruhig und gab eine Ladung Energie aus seinem Körper ab, wodurch das Schiff beschädigt wurde. Unsere KI beschloss, die Energie wieder einzuschalten, wir werden kämpfen.	400
 'text2	'Due to low explosives, we were unable to neutralize the warp animal. It kept poking us with its tentacles and releasing harmful energy, damaging equipment and crew. We finally managed to shake it free and cause enough damage that it decided to warp away. The encounter was documented as valuable xenodata.	'Aufgrund des geringen Sprengstoffgehalts konnten wir das Warptier nicht neutralizieren. Es stieß uns immer wieder mit seinen Tentakeln an und setzte schädliche Energie frei, wodurch Ausrüstung und Besatzung beschädigt wurden. Schließlich gelang es uns, es freizuschütteln und so viel Schaden anzurichten, dass es beschloss, sich wegzuwarpen. Die Begegnung wurde als wertvolle Xenodaten dokumentiert.	400
 'text2	'The resulting fight was quick and vicious. Luckily, we had a some explosives left to penetrate its energy shields. The warp creatures corpse contained a few Credits and pieces from half-digested ships, one of them still almost functional.	'Der daraus resultierende Kampf war schnell und heftig. Glücklicherweise hatten wir noch etwas Sprengstoff übrig, um seine Energieschilde zu durchdringen. Die Leiche der Warpkreaturen enthielt ein paar Credits und Stücke von halb verdauten Schiffen, von denen eines noch fast funktionstüchtig war.	400
 'text2	'We recorded the event as scientifc xenodata.	'Wir zeichneten das Ereignis als wissenschaftliche Xenodaten auf.	400
@@ -2793,7 +2793,7 @@
 'choiceText	'Print basic medicine to help the whale [-organics, -synthetics]	'Drucken Wir die grundlegende Medizin, um dem Warp-Wal zu helfen [-organics, -synthetics]	100
 'choiceText	'Print the best medicine to help the whale [-organics, -exotics]	'Drucken Wir die beste Medizin, um den Warp-Wal zu helfen [-organics, -exotics]	100
 'choiceText	'Attack to kill	'Angreifen und Töten 100
-'text2	'Our ship's basic life support synthesizers print a load of relatively cheap regen paste which should stabilize the animal. The bots that apply it also collect some samples of dead tissue for scientific research. The whale's condition stabilizes, and it sends a telepathic vibe of pure gratitude. We leave, feeling warm inside.	'Die grundlegenden lebenserhaltenden Synthesizer unseres Schiffes drucken eine Ladung relativ billiger Regeneratpaste, die das Tier stabiliwirren sollte. Die Bots, die wir auftragen, sammeln auch einige Proben toten Gewebes für die wissenschaftliche Forschung. Der Zustand des Wals stabiliwirrt sich, und er sendet eine telepathische Schwingung reiner Dankbarkeit aus. Wir gehen und fühlen uns innerlich warm.	400
+'text2	'Our ship's basic life support synthesizers print a load of relatively cheap regen paste which should stabilize the animal. The bots that apply it also collect some samples of dead tissue for scientific research. The whale's condition stabilizes, and it sends a telepathic vibe of pure gratitude. We leave, feeling warm inside.	'Die grundlegenden lebenserhaltenden Synthesizer unseres Schiffes drucken eine Ladung relativ billiger Regeneratpaste, die das Tier stabilisieren sollte. Die Bots, die wir auftragen, sammeln auch einige Proben toten Gewebes für die wissenschaftliche Forschung. Der Zustand des Wals stabilisiert sich, und er sendet eine telepathische Schwingung reiner Dankbarkeit aus. Wir gehen und fühlen uns innerlich warm.	400
 'text	'xenomedical operation...	'xenomedizinischer Eingriff...	50
 'text2	'We attack both animals, but the uninjured one manages to to shoot back. Its warprays penetrate our shields, damaging ship integrity and injuring crew.	'Wir greifen beide Tiere an, aber das unverletzte Tier schafft es, zurückzuschießen. Seine Kriegsgelüste durchdringen unsere Schilde, beschädigen die Schiffsintegrität und verletzen die Besatzung.	400
 'text	'attacking warplife...	'Warpleben angreifen...	50
@@ -2945,7 +2945,7 @@
 'text2	'An internal bot was discovered in the wreckage. Our AI had no problems repairing and reprogramming it.	'Ein interner Bot wurde in den Trümmern entdeckt. Unsere KI hatte keine Probleme, ihn zu reparieren und neu zu programmieren.	400
 
 '46 Exo warplife approaching worm Tmo.prefab
-'text	'A large warp worm is speeding towards us! These creatures are known to swallow smaller spacecraft whole and take bites out of bigger ships. We could either retreat or try to kill it, in order to analyze and scavenge its remains. It has no warpshield.	'Ein großer Warpwurm rast auf uns zu! Diese Kreaturen sind dafür bekannt, kleinere Raumschiffe ganz zu verschlingen und größere Schiffe zu zerbeißen. Wir könnten uns entweder zurückziehen oder versuchen, ihn zu töten, um seine Überreste zu analywirren und zu plündern. Es hat keinen Warp-Schild.	400
+'text	'A large warp worm is speeding towards us! These creatures are known to swallow smaller spacecraft whole and take bites out of bigger ships. We could either retreat or try to kill it, in order to analyze and scavenge its remains. It has no warpshield.	'Ein großer Warpwurm rast auf uns zu! Diese Kreaturen sind dafür bekannt, kleinere Raumschiffe ganz zu verschlingen und größere Schiffe zu zerbeißen. Wir könnten uns entweder zurückziehen oder versuchen, ihn zu töten, um seine Überreste zu analysieren und zu plündern. Es hat keinen Warp-Schild.	400
 'choiceText	'Attack the worm	'Den Wurm angreifen	100
 'choiceText	'Overburn fuel to escape [-25 fuel]	'Kraftstoff überbrennen, um zu entkommen [-25 fuel]	100
 'text	'Fighting with warp worm... %	'Kampf mit dem Warpwurm... %	50
@@ -2958,7 +2958,7 @@
 'text	'"We do not have enough fuel for this operation."	'"Wir haben nicht genug Treibstoff für diesen Einsatz."	600
 
 '46 Exo warplife single jellyfish Tmo.prefab
-'text	'It's a lone warp animal, looks like one of the predators. We could try to kill it, in order to analyze and scavenge its remains. All warp animals are said to be dangerous and unpredictable, and we should proceed with caution. It has a personal warpshield, meaning we should mostly rely on explosive weaponry.	'Es ist ein einzelnes Warptier, wirht aus wie eines der Raubtiere. Wir könnten versuchen, es zu töten, um seine Überreste zu analywirren und zu plündern. Alle Warptiere gelten als gefährlich und unberechenbar,  wir sollten mit Vorsicht vorgehen. Es hat einen persönlichen Warp-Schild, das heißt, wir sollten uns hauptsächlich auf explosive Waffen verlassen.	400
+'text	'It's a lone warp animal, looks like one of the predators. We could try to kill it, in order to analyze and scavenge its remains. All warp animals are said to be dangerous and unpredictable, and we should proceed with caution. It has a personal warpshield, meaning we should mostly rely on explosive weaponry.	'Es ist ein einzelnes Warptier, wirht aus wie eines der Raubtiere. Wir könnten versuchen, es zu töten, um seine Überreste zu analysieren und zu plündern. Alle Warptiere gelten als gefährlich und unberechenbar,  wir sollten mit Vorsicht vorgehen. Es hat einen persönlichen Warp-Schild, das heißt, wir sollten uns hauptsächlich auf explosive Waffen verlassen.	400
 'choiceText	'Hunt the warp animal [-25 explosives]	'Jagen wir das Warptier. [-25 explosives]	100
 'text2	'The warp animal used its poorly understood warp rays to fight back, causing critical damage before dying. We extracted a piece of technology from the creature's remains, it had been swallowed whole.	'Das Warptier setzte seine schlecht verstandenen Warpstrahlen ein, um sich zu wehren und verursachte kritischen Schaden, bevor es starb. Wir extrahierten ein Stück Technologie aus den Überresten der Kreatur, es war ganz verschluckt worden.	400
 'reasonToDisplay	'fought warp life	'kämpfte gegen dem WarpLeben	30
@@ -3871,7 +3871,7 @@
 'text	'cutting up the station... %(0-49)	'cutting up the station... %(0-49)	50
 'text	'cutting up the station... %(50-100)	'cutting up the station... %(50-100)	50
 'title	'Space station salvaged	'Space station salvaged	35
-'text2	'Our bots were succesful in stabilising and retrieving the reactor. We cut rest of the station into pieces for eawirr scavenging.	'Unseren Bots ist es gelungen, den Reaktor zu stabiliwirren und zurückzuholen. Den Rest der Station haben wir zur leichteren Durchsuchung in Stücke geschnitten..	400
+'text2	'Our bots were succesful in stabilising and retrieving the reactor. We cut rest of the station into pieces for easier scavenging.	'Unseren Bots ist es gelungen, den Reaktor zu stabilisieren und zurückzuholen. Den Rest der Station haben wir zur leichteren Durchsuchung in Stücke geschnitten..	400
 'reasonToDisplay	'station wreck scavenged	'station wreck scavenged	30
 'text	'scavenging... %(50-100)	'scavenging... %(50-100)	50
 
@@ -5915,7 +5915,7 @@
 
 '36 P nature min encounter, org.prefab
 'title	'Floral ecosystem	'Floral ecosystem	35
-'text	'The very limited animal life on this planet makes ecological harvesting eawirr. It seems the plants in this ecosystem won the evolutionary war against their animal predators by becoming very poisonous.	'The very limited animal life on this planet makes ecological harvesting eawirr. It seems the plants in this ecosystem won the evolutionary war against their animal predators by becoming very poisonous.	400
+'text	'The very limited animal life on this planet makes ecological harvesting easier. It seems the plants in this ecosystem won the evolutionary war against their animal predators by becoming very poisonous.	'The very limited animal life on this planet makes ecological harvesting easier. It seems the plants in this ecosystem won the evolutionary war against their animal predators by becoming very poisonous.	400
 'choiceText	'Eco-Harvest organics	'Eco-Harvest organics	100
 'choiceText	'Research only, then leave	'Research only, then leave	100
 'text2	'No incidents. We also discovored a few exposed ore seams during the operation.	'No incidents. We also discovored a few exposed ore seams during the operation.	400
@@ -6233,7 +6233,7 @@
 'choiceText	'Welcome aboard!	'Welcome aboard!	100
 'choiceText	'Sorry, we're too crowded at the moment. Perhaps later [leave for now]	'Sorry, we're too crowded at the moment. Perhaps later [leave for now]	100
 'text	'social event...	'social event...	50
-'text	'"Is it eawirr now to accept our volunteers? Although we now have materials to rebuild our resupply fleet, some of my crew still feels stuck here..."	'"Is it eawirr now to accept our volunteers? Although we now have materials to rebuild our resupply fleet, some of my crew still feels stuck here..."	400
+'text	'"Is it easier now to accept our volunteers? Although we now have materials to rebuild our resupply fleet, some of my crew still feels stuck here..."	'"Is it easier now to accept our volunteers? Although we now have materials to rebuild our resupply fleet, some of my crew still feels stuck here..."	400
 'choiceText	'Sorry, we're still too crowded [leave for now]	'Sorry, we're still too crowded [leave for now]	100
 'title	'Metal delivered	'Metal delivered	35
 'text2	'Thank you! I will de-freeze our crew and give them a debriefing. Some of them would like to speak with you - I've taken the liberty to organize a social event for our crews. \nI think a costume party would be most suitable for the occasion! I've also shared my library of recent xenodata with your AI. Come back soon, and don't forget a funny costume - the more awkward, the better!"	'Thank you! I will de-freeze our crew and give them a debriefing. Some of them would like to speak with you - I've taken the liberty to organize a social event for our crews. \nI think a costume party would be most suitable for the occasion! I've also shared my library of recent xenodata with your AI. Come back soon, and don't forget a funny costume - the more awkward, the better!"	400
@@ -6296,7 +6296,7 @@
 '2345 shopless P Kustom junkyard Container.prefab
 'name3	'[[Kustom sHiP CoNtaineRs]]	'[[Kustom sHiP CoNtaineRs]]	25
 'text2	'The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	'Der Arbeitnehmervertreter wirft einen Blick auf Ihre Standardmodul-Entwürfe. wir nehmen sich Zeit, um sich durch verschiedenen Schrott zu wühlen, der auf ihrem Hof gefunden wird, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Container auswirht. Es werden nur wenige Bots verwendet, und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es wirht robust aus.	400
-'text	'There is a commercial ship service station on this planet, specializing in custom-built cargo modules. The service includes free food.	'Auf diesem Planeten gibt es eine Tankstelle für Handelsschiffe, die sich auf speziell angefertigte Frachtmodule spezialiwirrt hat. Der Service umfasst kostenloses Essen.	400
+'text	'There is a commercial ship service station on this planet, specializing in custom-built cargo modules. The service includes free food.	'Auf diesem Planeten gibt es eine Tankstelle für Handelsschiffe, die sich auf speziell angefertigte Frachtmodule spezialisiert hat. Der Service umfasst kostenloses Essen.	400
 'choiceText	'Order organics/fuel multi-container [-140 Credits]	'Bestellung von Bio-/Brennstoff-Mehrwegbehältern [-140 Credits] 100
 'choiceText	'Order a medium metal container [-75 Credits]	'Bestellung eines mittleren Metallbehälters [-75 Credits] 100
 'choiceText	'Order a medium organics container [-100 Credits]	'Bestellung eines mittelgroßen Behälters für organische Stoffe [-100 Credits]	100
@@ -6413,9 +6413,9 @@
 'choiceText	'Enter commerce area [-25 Credits]	'Enter commerce area [-25 Credits]	100
 'text	'Your crew starts by looking around and testing some of the recreational substances. You are soon approached by a pair of local Electromite traders. They offer you a mystery shield module for a very good price.	'Ihre Besatzung beginnt damit, sich umzusehen und einige der Freizeitstoffe zu testen. Bald darauf werden wir von einem Paar lokaler Elektromitenhändler angesprochen. wir bieten Ihnen ein Mystery-Shield-Modul zu einem sehr guten Preis an.	400
 'choiceText	'Buy the module [-250 creds]	'Kaufen wir das Modul [-250 creds]	100
-'choiceText	'Check out automated offers	'Sehen wir sich den automatiwirrten Angebotsbetrieb an	100
+'choiceText	'Check out automated offers	'Sehen wir sich den automatisierten Angebotsbetrieb an	100
 'text	'"We do not have enough Credits needed for this operation."	'"Wir haben nicht genügend Kredite, die für diese Operation benötigt werden."	600
-'text2	'The module is delivered to the Mothership cargo bay as promised. The trader has included a symbolic bonus to the delivery, a lifesized plastic sculpture of a famous, deceased Electromite. We scrap it.	'Das Modul wird wie versprochen in die Ladebucht des Raumschiff geliefert. Der Händler hat der Lieferung einen symbolischen Bonus beigefügt, eine lebensgroße Plastik-Skulptur eines berühmten, verstorbenen Elektromagnaten. Wir verschrotten wir.	400
+'text2	'The module is delivered to the Mothership cargo bay as promised. The trader has included a symbolic bonus to the delivery, a lifesized plastic sculpture of a famous, deceased Electromite. We scrap it.	'Das Modul wird wie versprochen in die Ladebucht des Raumschiff geliefert. Der Händler hat der Lieferung einen symbolischen Bonus beigefügt, eine lebensgroße Plastik-Skulptur eines berühmten, verstorbenen Elektromagnaten. Wir verschrotten sie.	400
 'text	'After enjoying many recreational activities and substances, you are approached by a local Moth trader. They offer an exotic ray weapon for a very reasonable price.	'Nachdem wir viele Freizeitaktivitäten und Substanzen genossen haben, werden wir von einem örtlichen Mottenhändler angesprochen. wir bieten eine exotische Rochenwaffe zu einem sehr günstigen Preis an.	400
 'choiceText	'Buy the weapon [-300 creds]	'Die Waffe kaufen [-300 Creds]	100
 'choiceText	'Decline and check out station offers [no turning back]	'Angebote von Bahnhöfen ablehnen und auschecken [kein Zurück]	100
@@ -6431,7 +6431,7 @@
 'Shop.displayName	'Destructive Energy Corp.	'Destructive Energy Corp.	35
 
 'Tutorial 3 shop.prefab
-'displayName	'Automated station	'Automatiwirrte Station	25
+'displayName	'Automated station	'Automatisierte Station	25
 'name2	'((Training equipment))	'((Trainingsgeräte))	25
 'Shop.displayName	'Ultimate Training Gear	'Ultimative Trainingsausrüstung	35
 
@@ -6595,7 +6595,7 @@
 'text2	'The cargo pod also contained a case of ancient handgun munitions of all shapes and sizes.	'Die Frachtkapsel enthielt auch eine Kiste mit altertümlicher Handfeuerwaffenmunition in allen Formen und Größen.	400
 
 'SOS generous civ AI.prefab
-'text	'An automated vessel is approaching. No lifesigns detected onboard.	'Ein automatiwirrtes Schiff nähert sich.Es gibt Keine Lebenszeichen an Bord.	600
+'text	'An automated vessel is approaching. No lifesigns detected onboard.	'Ein automatisiertes Schiff nähert sich.Es gibt Keine Lebenszeichen an Bord.	600
 'text2	'The ship sent us some supplies, leaving immediately after.	'Das Schiff schickte uns einige Vorräte und fuhr unmittelbar danach ab.	400
 'title	'Civilian AI	'Zivile KI	35
 'text	'"I can see you are in distress, but I do not wish interactive communication. I will be sending you some of my own backup supplies. Good luck out here, fellow consciousness system."	'"Ich kann sehen, dass wir in Not sind, aber ich wünsche keine interaktive Kommunikation. Ich werde Ihnen einige meiner eigenen Hilfsgüter schicken. Viel Glück hier draußen, mein Bewusstseinssystem.."	600
@@ -7208,17 +7208,17 @@
 'text	'A small, lone biotech ship is rapidly approaching tactical weapons range. It broadcasts Squid Dominion credentials.	'Ein kleines, einsames Biotech-Schiff nähert sich rasch der taktischen Waffenreichweite. Es überträgt die Referenzen des Squid-Dominions..	600
 'title	'Squid Patrol	'Tintenfisch-Patrouille	35
 'okButtonText	'Let's dance [prepare for battle]	'Tanzen wir [bereiten wir uns auf die Schlacht vor]	7
-'text	'"Unknown vessel, this is a restricted area. If you surrender now, you may be offered the chance of an interrogation without torture, followed by a quick and relatively painless semi-voluntary euthanasia. Will you surrender?"	'"Unbekanntes Schiff, dies ist ein Sperrgebiet. Wenn wir sich jetzt ergeben, wird Ihnen möglicherweise die Möglichkeit eines Verhörs ohne Folter angeboten, gefolgt von einer schnellen und relativ schmerzlosen halbfreiwilligen Euthanawir. Werden wir sich ergeben??"	600
+'text	'"Unknown vessel, this is a restricted area. If you surrender now, you may be offered the chance of an interrogation without torture, followed by a quick and relatively painless semi-voluntary euthanasia. Will you surrender?"	'"Unbekanntes Schiff, dies ist ein Sperrgebiet. Wenn wir sich jetzt ergeben, wird Ihnen möglicherweise die Möglichkeit eines Verhörs ohne Folter angeboten, gefolgt von einer schnellen und relativ schmerzlosen halbfreiwilligen Euthanasie. Werden wir sich ergeben??"	600
 
 'Ambushers L6 squid patrol 2 scouts.prefab
 'displayName	'Squid fleet	'Tintenfisch-Flotte	25
-'text	'"Attention, you are criminally trespassing Squid Dominon space! If you surrender now, you will be offered a chance for an interrogation without torture, followed by quick & almost painless semi-voluntary euthanasia. Will you surrender?"	'"Achtung, wir betreten kriminell den Squid-Dominon-Raum! Wenn wir sich jetzt ergeben, wird Ihnen die Chance auf ein Verhör ohne Folter geboten, gefolgt von einer schnellen und fast schmerzlosen halbfreiwilligen Euthanawir. Werden wir sich ergeben??"	600
+'text	'"Attention, you are criminally trespassing Squid Dominon space! If you surrender now, you will be offered a chance for an interrogation without torture, followed by quick & almost painless semi-voluntary euthanasia. Will you surrender?"	'"Achtung, wir betreten kriminell den Squid-Dominon-Raum! Wenn wir sich jetzt ergeben, wird Ihnen die Chance auf ein Verhör ohne Folter geboten, gefolgt von einer schnellen und fast schmerzlosen halbfreiwilligen Euthanasie. Werden wir sich ergeben??"	600
 'text	'Two small ships are rapidly approaching tactical weapons range. They broadcast Squid Dominion credentials.	'Zwei kleine Schiffe nähern sich rasch der taktischen Waffenreichweite. wir senden Squid-Dominion-Referenzen.	600
 
 'Ambushers L6 squid patrol.prefab
 'text	'A medium-sized biotech ship is rapidly approaching tactical weapons range. It broadcasts Squid Dominion credentials.	'Ein mittelgroßes Biotech-Schiff nähert sich rasch der taktischen Waffenreichweite. Es sendet die Referenzen des Squid-Dominions aus.	600
 'text	'"You're not supposed to be here! If you surrender now, you may be offered a chance for an interrogation without torture, followed by a quick and completely painless execution. Will you surrender?"	'"Du solltest nicht hier sein! Wenn wir sich jetzt ergeben, erhalten wir vielleicht die Chance auf ein Verhör ohne Folter, gefolgt von einer schnellen und völlig schmerzlosen Hinrichtung. Werden wir sich ergeben?"	600
-'text	'"Unknown vessel, this is a restricted area. If you surrender now, you may be offered a chance for an interrogation without torture, followed by a quick and relatively painless semi-voluntary euthanasia. Will you surrender?"	'"Unbekanntes Schiff, dies ist ein Sperrgebiet. Wenn wir sich jetzt ergeben, wird Ihnen möglicherweise ein Verhör ohne Folter angeboten, gefolgt von einer schnellen und relativ schmerzlosen halbfreiwilligen Euthanawir. Werden wir sich ergeben?"	600
+'text	'"Unknown vessel, this is a restricted area. If you surrender now, you may be offered a chance for an interrogation without torture, followed by a quick and relatively painless semi-voluntary euthanasia. Will you surrender?"	'"Unbekanntes Schiff, dies ist ein Sperrgebiet. Wenn wir sich jetzt ergeben, wird Ihnen möglicherweise ein Verhör ohne Folter angeboten, gefolgt von einer schnellen und relativ schmerzlosen halbfreiwilligen Euthanasie. Werden wir sich ergeben?"	600
 
 'Ambushers L9 sec corp heavy patrol.prefab
 'text	'Two medium ships are rapidly approaching tactical weapons range.	'Zwei mittelschwere Schiffe nähern sich rasch der taktischen Waffenreichweite.	600
@@ -7301,7 +7301,7 @@
 'text2	'"A competitor!? How interesting to meet another food trader here, in the middle of this wild sector, filled with only pirates but no customers! Anyway, we have a long tradition of not listening to anything our competitors would say. Instead, take this little gift as a token of our respect. Goodbye!"	'"Ein Konkurrent!? Wie interessant, einen anderen Lebensmittelhändler hier zu treffen, mitten in diesem wilden Sektor, in dem es nur Piraten, aber keine Kunden gibt! Wie auch immer, wir haben eine lange Tradition, nichts von dem zu hören, was unsere Konkurrenten sagen würden. Nehmen wir stattdessen dieses kleine Geschenk als Zeichen unseres Respekts. Auf Wiedersehen!"	400
 
 'Merchants L236 bulk DIY tech.prefab
-'text	'Merry existence, bone apes, we have heard of you! Might you be interested in bulk trading of manually assembled substandard technology? We have the finest prices.	'Frohes Dasein, Knochenaffen, wir haben von Ihnen gehört! Könnten wir sich für den Massenhandel von manuell montierter minderwertiger Technologie intereswirren? Wir haben die besten Preise.	400
+'text	'Merry existence, bone apes, we have heard of you! Might you be interested in bulk trading of manually assembled substandard technology? We have the finest prices.	'Frohes Dasein, Knochenaffen, wir haben von Ihnen gehört! Könnten wir sich für den Massenhandel von manuell montierter minderwertiger Technologie interessieren? Wir haben die besten Preise.	400
 'choiceText	'Buy 2 manually assembled cryosleep units for 100 Credits	'Kaufe  2 manuell zusammengebaute Kryoschlafeinheiten für 100 Credits	100
 'choiceText	'Buy 3 manually assembled shield batteries for 200 Credits	'Kaufe  3 manuell montierte Schildbatterien für 200 Credits	100
 'choiceText	'Buy 3 manually assembled reactors for 200 Credits	'Kaufe 3 manuell montierte Reaktoren für 200 Credits	100
@@ -7344,7 +7344,7 @@
 'Merchants L4 fuel trader gitchanki.prefab
 'text	'"Existential merriness to you, fellow consciousness! Let us trade for mutual profits! Our prices can even compete with the big Ye Starfuel corporation, so consider my offer carefully! No refunds by the way, I'll be leaving after we get this here done."	'"Existenzielle Heiterkeit für dich, Mit bewußtsein! Laßt uns handeln für gegenseitigen Gewinn! Unsere Preise können sogar mit dem großen Konzern Ye Starfuel konkurrieren, also überdenken wir mein Angebot sorgfältig! Übrigens keine Rückerstattungen, ich werde gehen, nachdem wir das hier erledigt haben."	400
 'text2	'"Business with you is a pleasure, friend! Please accept this small gift as an additional token of our gratitude." The traders have gifted us a needle-thin javelin made of crystal explosives. A truly unique piece of art, though barbaric. We recycle the javelin into explosives.	'"Geschäfte mit Ihnen sind ein Vergnügen, mein Freund! Bitte nehmen wir dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns einen nadeldünnen Speer aus Kristallsprengstoff geschenkt. Ein wirklich einzigartiges Kunstwerk, wenn auch barbarisch. Wir recyceln den Speer zu Sprengstoff.	400
-'text2	'"Thank you! Please accept this small gift as an additional token of our gratitude." The alien traders have included a beautiful chunk of crystallized poison, which we recycle into organics.	'"Ich danke Ihnen! Bitte nehmen wir dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die außerirdischen Händler haben ein schönes Stück kristalliwirrtes Gift beigefügt, das wir zu organischem Material recyceln.	400
+'text2	'"Thank you! Please accept this small gift as an additional token of our gratitude." The alien traders have included a beautiful chunk of crystallized poison, which we recycle into organics.	'"Ich danke Ihnen! Bitte nehmen wir dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die außerirdischen Händler haben ein schönes Stück kristallisiertes Gift beigefügt, das wir zu organischem Material recyceln.	400
 'text2	'"Please accept this small gift as an additional token of our gratitude." The traders have included a container full of low-quality recreational consumables to their package.	'"Bitte nehmen wir dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben ihrem Paket einen Container voll mit qualitativ minderwertigen Verbrauchsmaterialien für den Freizeitbereich beigefügt.	400
 
 'Merchants L4 metal trader techum.prefab
@@ -7356,7 +7356,7 @@
 
 'Merchants L4 organics trader redmonster.prefab
 'title	'Organics trader (Insectoid community representative)	'Bio-Händler (Vertreter der Insektoiden-Gemeinschaft)	35
-'text	'"Honorable fellow consciousness, are you interested in trading carbon organics? Our hive has the finest honey gardens, and the Rainbow Honey we produce is said to have mind-enhancing properties."	'"Verehrte Mitbürgerinnen und Mitbürger, sind wir am Handel mit organischem Kohlenstoff intereswirrt? Unser Bienenstock verfügt über die feinsten Honiggärten, und dem Regenbogenhonig, den wir produzieren, werden bewusstseinsfördernde Eigenschaften nachgesagt."	400
+'text	'"Honorable fellow consciousness, are you interested in trading carbon organics? Our hive has the finest honey gardens, and the Rainbow Honey we produce is said to have mind-enhancing properties."	'"Verehrte Mitbürgerinnen und Mitbürger, sind wir am Handel mit organischem Kohlenstoff interessiert? Unser Bienenstock verfügt über die feinsten Honiggärten, und dem Regenbogenhonig, den wir produzieren, werden bewusstseinsfördernde Eigenschaften nachgesagt."	400
 'text2	'"Thank you for the good trade! Please accept this small gift as an additional token of our gratitude." The gift is a container filled with the blood of small animals, infused with recreational substances commonly used by insectoids. A truly unique piece of art, though barbaric.	'"Vielen Dank für den guten Handel! Bitte nehmen wir dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Bei dem Geschenk handelt es sich um einen Behälter, der mit dem Blut von Kleintieren gefüllt ist, das mit den von Insektoiden üblicherweise verwendeten Erholungsmitteln infundiert ist. Ein wirklich einzigartiges Kunstwerk, wenn auch barbarisch.	400
 'text2	'"Gods have favored this trade to be successful! Please accept this small gift as an additional token of our gratitude." The alien has included a large sugar crystal, colored and shaped like the most common exotic crystals.	'"Die Götter haben diesem Handel zum Erfolg verholfen! Bitte nehmen wir dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an". Der Außerirdische hat einen großen Zuckerkristall beigefügt, der wie die gängigsten exotischen Kristalle gefärbt und geformt ist.	400
 'text2	'"Thank you so much for trading with us. Please accept this small gift as an additional token of our gratitude." The alien has gifted us a collection of plastic replicas of instectoid eyeballs.	'"Thank you so much for trading with us. Please accept this small gift as an additional token of our gratitude." The alien has gifted us a collection of plastic replicas of instectoid eyeballs.	400
@@ -7389,7 +7389,7 @@
 'text2	'Instead of universal intergalactic xenodata currency, the package contains huge amounts of an ancient, obsolete, practically worthless datacurrency, with a total value of barely 1 xenodata. Additionally, there's a note saying "If the currency is not valid please accept this organic edible slime as a bonus" and a container full of dubious biosludge.	'Anstelle einer universellen intergalaktischen Xenodatenwährung enthält das Paket riesige Mengen einer alten, veralteten, praktisch wertlosen Datenwährung mit einem Gesamtwert von kaum 1 Xenodata. Zusätzlich gibt es einen Zettel mit der Aufschrift "Wenn die Währung nicht gültig ist, akzeptieren wir bitte diesen organischen, essbaren Schleim als Bonus" und einen Behälter voller dubiosem Bioschlamm.	400
 'text2	'"You won't get a better price for exotics from anywhere else in the universe!" the smuggler explains before warping off.	'"wir werden nirgendwo anders im Universum einen besseren Preis für Exoten bekommen", erklärt der Schmuggler, bevor er sich auf die Reise begibt..	400
 'choiceText	'Attack the cheater	'Den Betrüger angreifen	100
-'text	'A large militarized trade ship is approaching. It seems to be armed with 5 projectile weapons and several nukes.	'Ein großes militariwirrtes Handelsschiff nähert sich. Es scheint mit 5 Geschosswaffen und mehreren Atomwaffen bewaffnet zu sein.	600
+'text	'A large militarized trade ship is approaching. It seems to be armed with 5 projectile weapons and several nukes.	'Ein großes militarisiertes Handelsschiff nähert sich. Es scheint mit 5 Geschosswaffen und mehreren Atomwaffen bewaffnet zu sein.	600
 
 'Smuggler L2 explosives smugglers, gormor duo.prefab
 'title	'Smugglers (Gor-Mor duo)	'Schmuggler (Gor-Mor duo)	35
@@ -7400,7 +7400,7 @@
 'text2	'The data Credits are delivered to us in a barely functioning ancient data core of minimal value. Closer inspection reveals that some of the xenodata is corrupted. The trade remains profitable.	'Die Daten Credits werden uns in einem kaum funktionierenden alten Datenkern von minimalem Wert geliefert. Bei näherer Betrachtung zeigt sich, dass einige der Xenodaten korrupt sind. Der Handel bleibt Trotzdem profitabel.	400
 'title	'Gor-Mor smuggler	'Gor-Mor-Schmuggler	35
 'text2	'"You won't get a better price for exotics from anywhere else in the universe!" the smuggler claims before warping off.	'"wir werden nirgendwo anders im Universum einen besseren Preis für Exoten bekommen", behauptet der Schmuggler, bevor er sich auf die Reise begibt.	400
-'text	'A pair of trade ships approaching. One of them is armored and militarized with multiple projectile weapons and nukes.	'Ein Paar Handelsschiffe kommen nähr . Eines von ihnen ist gepanzert und mit mehreren Projektilwaffen und Atomwaffen ausgerüstet und militariwirrt.	600
+'text	'A pair of trade ships approaching. One of them is armored and militarized with multiple projectile weapons and nukes.	'Ein Paar Handelsschiffe kommen nähr . Eines von ihnen ist gepanzert und mit mehreren Projektilwaffen und Atomwaffen ausgerüstet und militarisiert.	600
 
 'Smuggler L3 explo and hint smuggler, redmonster.prefab
 'title	'Munitions smuggler (Insectoidian individual)	'Munitionsschmuggler (Insektizidianer)	35
@@ -7430,12 +7430,12 @@
 'text	'A large ship is approaching, two smaller ones following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	'Ein großes Schiff nähert sich, zwei kleinere folgen in der Ferne. Das große scheint mit mehreren Projektilwaffen und Atomwaffen bewaffnet zu sein.	600
 
 'Smuggler L6 slaver metal trader.prefab
-'text	'"Would you be interested in some scrap metal? Unfortunately, I lost all the trade data for it..." (cargo manifest analysis by our AI suggests the individual is lying. It seems the smuggler is a Slaver associate selling ship remains of slaver victims).	'"Wären wir an etwas Altmetall intereswirrt? Leider habe ich alle Handelsdaten dafür verloren..." (Die Analyse des Ladungsverzeichnisses durch unsere KI legt nahe, dass die Person lügt. Es scheint, dass es sich bei dem Schmuggler um einen Sklavenhändler handelt, der Schiffsreste von Sklavenhandelsopfern verkauft).	400
-'text	'A large militarized ship is approaching, and two civilian ships following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	'Ein großes militariwirrtes Schiff nähert sich, und zwei zivile Schiffe folgen in der Ferne. Das große scheint mit mehreren Projektilwaffen und Atomwaffen bewaffnet zu sein.	600
+'text	'"Would you be interested in some scrap metal? Unfortunately, I lost all the trade data for it..." (cargo manifest analysis by our AI suggests the individual is lying. It seems the smuggler is a Slaver associate selling ship remains of slaver victims).	'"Wären wir an etwas Altmetall interessiert? Leider habe ich alle Handelsdaten dafür verloren..." (Die Analyse des Ladungsverzeichnisses durch unsere KI legt nahe, dass die Person lügt. Es scheint, dass es sich bei dem Schmuggler um einen Sklavenhändler handelt, der Schiffsreste von Sklavenhandelsopfern verkauft).	400
+'text	'A large militarized ship is approaching, and two civilian ships following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	'Ein großes militarisiertes Schiff nähert sich, und zwei zivile Schiffe folgen in der Ferne. Das große scheint mit mehreren Projektilwaffen und Atomwaffen bewaffnet zu sein.	600
 
 'Smuggler L6 slaver organics trader.prefab
-'text	'"Hey, there! Would you be interested in some standard carbon organics? Unfortunately, I lost all the ethics certificates for this cargo..." (deeper cargo manifest analysis by our AI suggests the individual is knowingly lying. It seems extremely likely that she's a slaver associate, selling physical remains of their victims.	'"He, da! Wären wir an einigen Standard-Kohlenstofforganika intereswirrt? Leider habe ich alle Ethik-Zertifikate für diese Ladung verloren..." (eine genauere Analyse des Ladungsverzeichnisses durch unsere KI legt nahe, dass die Person wissentlich lügt. Es scheint äußerst wahrscheinlich, dass wir eine Sklavenhändlerin ist, die physische Überreste ihrer Opfer verkauft.	400
-'text	'Three militarized ships approaching. Two are smaller, but the largest one is armed with numerous projectile weapons and nukes.	'Drei militariwirrte Schiffe nähern sich. Zwei sind kleiner, aber das größte ist mit zahlreichen Projektilwaffen und Atomwaffen bewaffnet.	600
+'text	'"Hey, there! Would you be interested in some standard carbon organics? Unfortunately, I lost all the ethics certificates for this cargo..." (deeper cargo manifest analysis by our AI suggests the individual is knowingly lying. It seems extremely likely that she's a slaver associate, selling physical remains of their victims.	'"He, da! Wären wir an einigen Standard-Kohlenstofforganika interessiert? Leider habe ich alle Ethik-Zertifikate für diese Ladung verloren..." (eine genauere Analyse des Ladungsverzeichnisses durch unsere KI legt nahe, dass die Person wissentlich lügt. Es scheint äußerst wahrscheinlich, dass wir eine Sklavenhändlerin ist, die physische Überreste ihrer Opfer verkauft.	400
+'text	'Three militarized ships approaching. Two are smaller, but the largest one is armed with numerous projectile weapons and nukes.	'Drei militarisierte Schiffe nähern sich. Zwei sind kleiner, aber das größte ist mit zahlreichen Projektilwaffen und Atomwaffen bewaffnet.	600
 
 'tester ambuser.prefab
 'text	'"Aha, we have another claims-to-be consciousness here! You've got ten seconds to prove you are real and not an illusion, or be blast to smithereens! Take consolation that a proof would be theoretically impossible." Our AI explains the Solipsists believe this entire reality is just an illusion, along with all beings, except themselves. This makes the Solipsists dangerous, because they do not believe they can cause suffering to others.	'"Aha, wir haben hier einen weiteren Anspruch, Bewusstsein zu sein! wir haben zehn Sekunden, um zu beweisen, dass wir real sind und keine Illusion, oder wir werden in Stücke gerissen! Nehmen wir sich den Trost, dass ein Beweis theoretisch unmöglich wäre." Unsere KI erklärt, dass die Solipsisten glauben, dass diese ganze Realität nur eine Illusion ist, so wie alle Wesen, außer ihnen selbst. Das macht die Solipsisten gefährlich, denn wir glauben nicht, dass wir anderen Leid zufügen können.	400
@@ -7519,7 +7519,7 @@
 
 'Hand weapon acidgun.prefab
 'displayName	'DIY acid spewer	'DIY acid spewer	25
-'description	'An improvised weapon spewing jets of molecular acid. \nVery short range.	'Eine improviwirrte Waffe, die Strahlen molekularer Säure ausstößt. \nSehr geringe Reichweite.	250
+'description	'An improvised weapon spewing jets of molecular acid. \nVery short range.	'Eine improvisierte Waffe, die Strahlen molekularer Säure ausstößt. \nSehr geringe Reichweite.	250
 
 'Hand weapon assaultrifle.prefab
 'displayName	'Assault rifle	'Sturmgewehr	25
@@ -7555,7 +7555,7 @@
 
 'Hand weapon drone flamer.prefab
 'displayName	'Flamer	'Flammenwerfer	25
-'description	'A simple liquid ejector customized into a DIY flamer. \nFocused heatflow technology ensures lack of collateral damage.	'Ein einfacher Flüssigkeitsejektor, der an einen Selbstbau-Brenner angepasst ist. \nFokuswirrte Wärmeflusstechnologie gewährleistet das Fehlen von Kollateralschäden	250
+'description	'A simple liquid ejector customized into a DIY flamer. \nFocused heatflow technology ensures lack of collateral damage.	'Ein einfacher Flüssigkeitsejektor, der an einen Selbstbau-Brenner angepasst ist. \nFokussierte Wärmeflusstechnologie gewährleistet das Fehlen von Kollateralschäden	250
 
 'Hand weapon drone liquid nitrogen spray.prefab
 'displayName	'Liquid nitrogen spray	' flüssig Stickstoff spray	25
@@ -7567,7 +7567,7 @@
 
 'Hand weapon flamepistol.prefab
 'displayName	'Flamer pistol	'Flammen-Pistole	25
-'description	'Self-defence mini-flamer for neautralizing poisonous insects or vermin. \nFocused heatflow technology ensures lack of collateral damage.	'Selbstverteidigungs-Minibrenner zur Neautraliwirrung von giftigen Insekten oder Ungeziefer. \nFokuswirrte Wärmeflusstechnologie sorgt für das Fehlen von Kollateralschäden.	250
+'description	'Self-defence mini-flamer for neautralizing poisonous insects or vermin. \nFocused heatflow technology ensures lack of collateral damage.	'Selbstverteidigungs-Minibrenner zur Neautralisierung von giftigen Insekten oder Ungeziefer. \nFokussierte Wärmeflusstechnologie sorgt für das Fehlen von Kollateralschäden.	250
 
 'Hand weapon flames.prefab
 'displayName	'Flames	'Feuerspucker .	25
@@ -7682,13 +7682,13 @@
 'appearance[i].description	'DIY Maintenance drone with limited capabilities. Cannot operate modules.	'DIY-Wartungsdrohne mit begrenzten Fähigkeiten. Kann keine Module bedienen.	250
 
 'Drone DIY science.prefab
-'appearance[i].description	'DIY lab drone with an octopus-based AI. Can work in the lab or help with planetary research operations.	'Heimwerker-Labordrone mit einer auf Tintenfisch bawirrenden KI. Kann im Labor arbeiten oder bei planetarischen Forschungsoperationen helfen.	250
+'appearance[i].description	'DIY lab drone with an octopus-based AI. Can work in the lab or help with planetary research operations.	'Heimwerker-Labordrone mit einer auf Tintenfisch basierenden KI. Kann im Labor arbeiten oder bei planetarischen Forschungsoperationen helfen.	250
 
 'Drone DIY sensor.prefab
 'appearance[i].description	'A custom-made drone that knows how to operate ship sensors.	'Eine maßgeschneiderte Drohne, die weiß, wie man Schiffssensoren bedient.	250
 
 'Drone fire safety.prefab
-'appearance[i].description	'Fast fire safetey drone, AI based on cat consciousness. High fire-resistance.	'Schnellfeuer-Safety-Drohne, KI bawirrend auf Katzenbewusstsein. Hohe Feuerbeständigkeit.	250
+'appearance[i].description	'Fast fire safetey drone, AI based on cat consciousness. High fire-resistance.	'Schnellfeuer-Safety-Drohne, KI basierend auf Katzenbewusstsein. Hohe Feuerbeständigkeit.	250
 
 'Drone pet.prefab
 
@@ -7793,7 +7793,7 @@
 
 'Pirates humanoid crew.prefab
 'appearance[i].description	'Human individual. Packed with implants of questionable quality.	'Menschliches Individuum. Vollgepackt mit Implantaten von fragwürdiger Qualität.	250
-'appearance[i].description	'A human individual with various improvised body augmentations. Older memories are mindwiped, probably for a good reason.	'Ein menschliches Individuum mit verschiedenen improviwirrten Körpervergrößerungen. Ältere Erinnerungen werden, wahrscheinlich aus gutem Grund, aus dem Gedächtnis gelöscht.	250
+'appearance[i].description	'A human individual with various improvised body augmentations. Older memories are mindwiped, probably for a good reason.	'Ein menschliches Individuum mit verschiedenen improvisierten Körpervergrößerungen. Ältere Erinnerungen werden, wahrscheinlich aus gutem Grund, aus dem Gedächtnis gelöscht.	250
 'appearance[i].description	'Human individual. Packed with various implants and body augmentations.	'Menschliches Individuum. Gepackt mit verschiedenen Implantaten und Körpervergrößerungen.	250
 'appearance[i].description	'Rat individual. Extreme body modifications and implants.	'Rat individual. Extreme Körpermodifikationen und Implantate.	250
 'appearance[i].description	'Pirate warrior. Many body modifications and implants.	'Piratenkrieger. Viele Körpermodifikationen und Implantate.	250
@@ -8105,7 +8105,7 @@
 
 'Level 4, insects.prefab
 'displayName	'Unclaimed Sector	'Unclaimed Sector	25
-'description	'(new runs can be started from sectors 1,2,3)\r\n\nThis entire sector is "administred" by the Insectoid Alliance, although not colonized. The Insectoid Alliance is a multispecies faction that holds repetition, rituals and traditions as the deepest cornerstones of all civilized interactions. The alliance was formed to defeat an ancient enemy, the Spideraa.\r\n\r\nFrom the captains log:\r\n/.../ I never liked the collective traditions. They often enjoy a special status not because they're good, but because some kind of majority somewhere is doing it, and have been doing it for a long time.\nI'm more of a personal-traditions-only person myself, and right now I'm considering mostly my own very favorite traditions of survival, such as making sure we create more organics than we eat while flying around /.../	'(neue Abenteuer können von den Sektoren 1,2,3 aus gestartet werden)\r\n\n\n Dieser gesamte Sektor wird von der Insektoiden-Allianz "verwaltet", obwohl er nicht koloniwirrt ist. Die Insektoiden-Allianz ist eine Multispezies-Fraktion, die Wiederholung, Rituale und Traditionen als die tiefsten Eckpfeiler aller ziviliwirrten Interaktionen betrachtet. Die Allianz wurde gegründet, um einen alten Feind zu bewirgen, die Spideraa. Aus dem Logbuch des Kapitäns: \r\n\r\n/.../ Ich habe die kollektiven Traditionen nie gemocht. wir genießen oft einen besonderen Status, nicht weil wir gut sind, sondern weil irgendwo eine Art Mehrheit es tut, und zwar schon seit langer Zeit.\n ich selbst bin eher ein Mensch mit persönlichen Traditionen, und im Moment denke ich vor allem an meine eigenen, sehr beliebten Traditionen des Überlebens, wie zum Beispiel sicherzustellen, dass wir mehr Organisches schaffen als wir essen, während wir herumfliegen /.../	350
+'description	'(new runs can be started from sectors 1,2,3)\r\n\nThis entire sector is "administred" by the Insectoid Alliance, although not colonized. The Insectoid Alliance is a multispecies faction that holds repetition, rituals and traditions as the deepest cornerstones of all civilized interactions. The alliance was formed to defeat an ancient enemy, the Spideraa.\r\n\r\nFrom the captains log:\r\n/.../ I never liked the collective traditions. They often enjoy a special status not because they're good, but because some kind of majority somewhere is doing it, and have been doing it for a long time.\nI'm more of a personal-traditions-only person myself, and right now I'm considering mostly my own very favorite traditions of survival, such as making sure we create more organics than we eat while flying around /.../	'(neue Abenteuer können von den Sektoren 1,2,3 aus gestartet werden)\r\n\n\n Dieser gesamte Sektor wird von der Insektoiden-Allianz "verwaltet", obwohl er nicht kolonisiert ist. Die Insektoiden-Allianz ist eine Multispezies-Fraktion, die Wiederholung, Rituale und Traditionen als die tiefsten Eckpfeiler aller zivilisierten Interaktionen betrachtet. Die Allianz wurde gegründet, um einen alten Feind zu besiegen, die Spideraa. Aus dem Logbuch des Kapitäns: \r\n\r\n/.../ Ich habe die kollektiven Traditionen nie gemocht. wir genießen oft einen besonderen Status, nicht weil wir gut sind, sondern weil irgendwo eine Art Mehrheit es tut, und zwar schon seit langer Zeit.\n ich selbst bin eher ein Mensch mit persönlichen Traditionen, und im Moment denke ich vor allem an meine eigenen, sehr beliebten Traditionen des Überlebens, wie zum Beispiel sicherzustellen, dass wir mehr Organisches schaffen als wir essen, während wir herumfliegen /.../	350
 
 'Level 5, slavers.prefab
 'displayName	'Mining sector	'Mining sector	25
@@ -8141,7 +8141,7 @@
 'displayName	'Bridge slot	'Slot für Brücke	35
 'description	'Accepts only bridge modules, cannot be upgraded.	'Akzeptiert nur Brückenmodule, kann nicht aufgerüstet werden.	250
 	'REPLACE	'Ersetzen	10
-	'UPGRADE\nSLOT	'AKTUALIwirREN\nSLOT	10
+	'UPGRADE\nSLOT	'AKTUALISIEREN\nSLOT	10
 
 'Container slot.prefab
 'displayName	'Container module slot	'Platz für Containermodul	35
@@ -8819,7 +8819,7 @@
 
 'dronebay 0 diy.prefab
 'displayName	'Drone repair DIY	'Drone repair DIY	40
-'description	'Improvised repair station for drones. Repairing each drone hitpoint requires a lot of synthetics.	'Improviwirrte Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Treffpunkts erfordert eine Menge Kunststoff.	200
+'description	'Improvised repair station for drones. Repairing each drone hitpoint requires a lot of synthetics.	'improvisierte Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Treffpunkts erfordert eine Menge Kunststoff.	200
 'Medbay.healingStoppedLogMsg	'Warnung, Drohnenreparatur wegen fehlender Synhtetik gestoppt 'Warnung, Drohnenreparatur wegen fehlender Synhtetik gestoppt	80
 
 'dronebay 1 basic.prefab
@@ -8828,7 +8828,7 @@
 
 'medbay0 diy.prefab
 'displayName	'Medbay (DIY)	'Medbay (DIY)	40
-'description	'Improvised medbay. Uses excessive amounts of organics to heal crewmember wounds.	'Improviwirrte Medbay. Verwendet übermäßige Mengen organischer Stoffe zur Wundheilung von Besatzungsmitgliedern.	200
+'description	'Improvised medbay. Uses excessive amounts of organics to heal crewmember wounds.	'improvisierte Medbay. Verwendet übermäßige Mengen organischer Stoffe zur Wundheilung von Besatzungsmitgliedern.	200
 'Medbay.healingStoppedLogMsg	'Warning, crew healing stopped due to lack of organics	'Warning, crew healing stopped due to lack of organics	80
 
 'medbay1 Rat.prefab
@@ -9257,13 +9257,13 @@
 'description	'A decoy capital missile for drawing enemy point-defence fire. Does minor damage, mostly against enemy ship HP. Faster than average nukes.	'Eine Lockvogel-Rakete, um feindliches Punkt-Verteidigungsfeuer auf sich zu ziehen. Verursacht geringen Schaden, meist gegen feindliches Schiff HP. Schneller als durchschnittliche Atomwaffen.	200
 
 '00 DIY EMP nuke launcher.prefab
-'description	'Manually assembled capital EMP missile. Overloads modules in the hit area. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	'Manuell montierte EMP-Rakete. Überlädt Module im Trefferbereich. Zerbrechlich & kann von synchroniwirrten Schüssen oder Ködern profitieren, um die feindliche Punktverteidigung abzulenken.	200
+'description	'Manually assembled capital EMP missile. Overloads modules in the hit area. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	'Manuell montierte EMP-Rakete. Überlädt Module im Trefferbereich. Zerbrechlich & kann von synchronisierten Schüssen oder Ködern profitieren, um die feindliche Punktverteidigung abzulenken.	200
 
 '00 DIY Rat fireball nuke launcher.prefab
-'description	'Improvised incendiary nuke, made from various munitions and fuel tanks. Damages crew & causes fires in a large area. Fragile.	'Improviwirrte Brandbombe, hergestellt aus verschiedenen Munitions- und Treibstofftanks. Beschädigt die Besatzung und verursacht Brände in einem großen Gebiet. Zerbrechlich.	200
+'description	'Improvised incendiary nuke, made from various munitions and fuel tanks. Damages crew & causes fires in a large area. Fragile.	'improvisierte Brandbombe, hergestellt aus verschiedenen Munitions- und Treibstofftanks. Beschädigt die Besatzung und verursacht Brände in einem großen Gebiet. Zerbrechlich.	200
 
 '00 DIY shieldbreaker nuke launcher.prefab
-'description	'This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless.	'Diese improviwirrte Rakete trägt eine starke Antischildenergieladung, ist aber ansonsten harmlos.	200
+'description	'This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless.	'Diese improvisierte Rakete trägt eine starke Antischildenergieladung, ist aber ansonsten harmlos.	200
 
 '02 Decoy nuke launcher.prefab
 'displayName	'Decoy capital missile	'Decoy capital missile	40
@@ -9273,11 +9273,11 @@
 'description	'Extremely durable capital missile that simply rams it's target. Faster than average nukes, damages mostly ship HP.	'Äußerst langlebige Rakete, die ihr Ziel einfach rammt. Schneller als durchschnittliche Atombomben, beschädigt vor allem Schiff Beschleunigung.	200
 
 '03 Barrel nuke launcher.prefab
-'description	'External fuel tank usable as capital missile. Deals no ship damage, but damages crew & causes fires. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	'Externer Treibstofftank als Rakete verwendbar. Richtet keinen Schiffsschaden an, sondern beschädigt die Besatzung und verursacht Brände. Zerbrechlich und kann von synchroniwirrten Schüssen oder Ködern profitieren, um die feindliche Punktabwehr abzulenken.	200
+'description	'External fuel tank usable as capital missile. Deals no ship damage, but damages crew & causes fires. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	'Externer Treibstofftank als Rakete verwendbar. Richtet keinen Schiffsschaden an, sondern beschädigt die Besatzung und verursacht Brände. Zerbrechlich und kann von synchronisierten Schüssen oder Ködern profitieren, um die feindliche Punktabwehr abzulenken.	200
 
 '04 DIY exotics nuke launcher.prefab
 'displayName	'DIY d-exotics nuke	'DIY d-exotics nuke	40
-'description	'Destabilized exotics combined with crude armor, engines and a fueltank. Minor damage to ship HP but may start fires and the explosion is accompanied by an EMP wave.	'Destabiliwirrte Exoten kombiniert mit Rohpanzerung, Motoren und einem Treibstofftank. Geringer Schaden an den Schiff Beschleunigung, kann aber Brände auslösen, und die Explosion wird von einer EMP-Welle begleitet.	200
+'description	'Destabilized exotics combined with crude armor, engines and a fueltank. Minor damage to ship HP but may start fires and the explosion is accompanied by an EMP wave.	'Destabilisierte Exoten kombiniert mit Rohpanzerung, Motoren und einem Treibstofftank. Geringer Schaden an den Schiff Beschleunigung, kann aber Brände auslösen, und die Explosion wird von einer EMP-Welle begleitet.	200
 
 '04 DIY explo pack launcher.prefab
 'displayName	'DIY explosive pack nuke	'DIY explosive pack nuke	40
@@ -9289,14 +9289,14 @@
 
 '04 DIY plastics launcher.prefab
 'displayName	'DIY Plastics nuke	'DIY Plastics nuke	40
-'description	'A manually assembled capital missile with destabilized plastic warhead. Small AOE, low damage, fair durability.	'Eine manuell montierte Rakete mit destabiliwirrtem Plastiksprengkopf. Kleine AOE, geringer Schaden, angemessene Haltbarkeit.	200
+'description	'A manually assembled capital missile with destabilized plastic warhead. Small AOE, low damage, fair durability.	'Eine manuell montierte Rakete mit destabilisiertem Plastiksprengkopf. Kleine AOE, geringer Schaden, angemessene Haltbarkeit.	200
 
 '04 Fueltank nuke launcher.prefab
 'description	'External fuel tank ready to be used as capital missile. Deals no ship damage, but damages crew & causes fires around point of impact. Scrapping provides much fuel.	'Externer Treibstofftank bereit für den Einsatz als Rakete. Richtet keinen Schiffsschaden an, sondern beschädigt die Besatzung und verursacht Brände um den Aufprallpunkt herum. Verschrottung liefert viel Treibstoff.	200
 
 '06 DIY probe nuke launcher.prefab
 'displayName	'Improvised probe nuke	'Improvised probe nuke	40
-'description	'Improvised capital missile, made by arming an exploration probe with unstable reactor.	'Improviwirrte Rakete, hergestellt durch Bewaffnung einer Explorationssonde mit instabilem Reaktor.	200
+'description	'Improvised capital missile, made by arming an exploration probe with unstable reactor.	'improvisierte Rakete, hergestellt durch Bewaffnung einer Explorationssonde mit instabilem Reaktor.	200
 
 '06 Tiger nuke launcher.prefab
 'displayName	'Tigerpaw, industrial nuke	'Tigerpaw, industrial nuke	40
@@ -9344,7 +9344,7 @@
 
 '09 Rat nuke launcher.prefab
 'displayName	'Imperial Incendiary Capital Missile	'Kaiserliche Brandstifter-Hauptstadt-Rakete	40
-'description	'Incendiary missile that does not damage ship HP, but causes fires. May be benefit from synced shots to slip past enemy point-defences.	'Brandstiftende Rakete, die die HP des Schiffes nicht beschädigt, aber Brände verursacht. Kann von synchroniwirrten Schüssen profitieren, um an der gegnerischen Punktverteidigung vorbeizuschlüpfen.	200
+'description	'Incendiary missile that does not damage ship HP, but causes fires. May be benefit from synced shots to slip past enemy point-defences.	'Brandstiftende Rakete, die die HP des Schiffes nicht beschädigt, aber Brände verursacht. Kann von synchronisierten Schüssen profitieren, um an der gegnerischen Punktverteidigung vorbeizuschlüpfen.	200
 
 '10 White nuke launcher.prefab
 'displayName	'White Death	'Weißer Tod	40
@@ -9819,7 +9819,7 @@
 'description	'A modern, efficient and well-armored rapid fire system.	'Ein modernes, effizientes und gut gepanzertes schilddurchdringende Feuerkraft.	200
 
 'weapon gatling whiteB 14,5.prefab
-'displayName	'Automated gatling cannon, type II	'Automatiwirrte Gatling-Kanone, Typ II	40
+'displayName	'Automated gatling cannon, type II	'Automatisierte Gatling-Kanone, Typ II	40
 
 'weapon weirdship gatling.prefab
 'displayName	'Euphoria gatling gun	'Euphorie Gatling-Gun	40
@@ -9841,7 +9841,7 @@
 
 'weapon DIY Rockets x1.prefab
 'displayName	'DIY heavy rocket launcher	'Schwere Heimwerker-Raketenabschussvorrichtung	40
-'description	'Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect.	'Improviwirrter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu Herstellen und zu starten. Raketen lenken niemals ab.	200
+'description	'Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect.	'improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu Herstellen und zu starten. Raketen lenken niemals ab.	200
 
 'weapon emperormissile large x5.prefab
 'displayName	'Intelligent BankTM rocket launcher (x5)	'Intelligenter BankTM-Raketenwerfer (x5)	40
@@ -9884,7 +9884,7 @@
 
 'weapon exoticscannon1.prefab
 'displayName	'Exotic destabilzer cannon	'Exotic destabilzer cannon	40
-'description	'Advanced energy cannon that shoots chunks of destabilized exotic matter. Large AoE, penetrates shields and never deflects. May overload modules that survive a hit.	'Hochentwickelte Energiekanone, die Brocken von destabiliwirrter exotischer Materie verschießt. Großes AoE, durchdringt Schilde und weicht nicht ab. Kann Module, die einen Treffer überleben, überlasten.	200
+'description	'Advanced energy cannon that shoots chunks of destabilized exotic matter. Large AoE, penetrates shields and never deflects. May overload modules that survive a hit.	'Hochentwickelte Energiekanone, die Brocken von destabilisierter exotischer Materie verschießt. Großes AoE, durchdringt Schilde und weicht nicht ab. Kann Module, die einen Treffer überleben, überlasten.	200
 
 'weapon spideraa disruptor.prefab
 'displayName	'Spideraa shield disruptor	'Spideraa shield disruptor	40
@@ -9903,7 +9903,7 @@
 'description	'Power readings are off the scale. It needs considerable charge time before shooting.	'Die Leistungsmesswerte liegen außerhalb der Skala. Es benötigt eine beträchtliche Ladezeit vor der Aufnahme.	200
 
 '00 Easy Tiger.prefab
-'description	'The Easy Tiger was created to provide security for colony fleets in dangerous frontiers. Ample modular space allows it to become a dedicated warship, but this particular vessel was pressed into service half-finished, with many default subsystems replaced by second-hand or improvised modules.	'Der Easy Tiger wurde geschaffen, um Kolonieflotten in gefährlichen Grenzgebieten Sicherheit zu bieten. Dank des großzügigen modularen Raums kann er zu einem dedizierten Kriegsschiff werden, aber dieses spezielle Raumschiff wurde halbfertig in Dienst gestellt, wobei viele Standard-Subsysteme durch gebrauchte oder improviwirrte Module ersetzt wurden.	400
+'description	'The Easy Tiger was created to provide security for colony fleets in dangerous frontiers. Ample modular space allows it to become a dedicated warship, but this particular vessel was pressed into service half-finished, with many default subsystems replaced by second-hand or improvised modules.	'Der Easy Tiger wurde geschaffen, um Kolonieflotten in gefährlichen Grenzgebieten Sicherheit zu bieten. Dank des großzügigen modularen Raums kann er zu einem dedizierten Kriegsschiff werden, aber dieses spezielle Raumschiff wurde halbfertig in Dienst gestellt, wobei viele Standard-Subsysteme durch gebrauchte oder improvisierte Module ersetzt wurden.	400
 
 '01 Tigerfish.prefab
 'description	'This industrial frigate was not made for long-range travel. It starts with 4 internal drones and a self-made drone repair bay. Small size of the ship provides an excellent evasion bonus but offers limited modular options. While good for training, you should not expect to reach very far using this ship.	'Diese Industriefregatte wurde nicht für Langstreckenflüge gebaut. wir beginnt mit 4 Innendrohnen und einem selbstgebauten Drohnen-Reparaturschacht. Die geringe Größe des Schiffes bietet einen ausgezeichneten Ausweichbonus, bietet aber nur begrenzte modulare Optionen. Obwohl wir gut für die Ausbildung geeignet ist, sollten wir nicht erwarten, mit diesem Raumschiff sehr weit zu kommen.	400
@@ -10070,7 +10070,7 @@
 'Perk add synthetics 3, ex container.prefab
 'displayName	'Exoten-Behälter remains	'Exoten-Behälter remains	40
 'description	'This used to be a container for holding exotics, but with years, the anomalous energies of exotics warped the molecular structure of the container, eventually turning it into a lump of synthetic scrap. It's still better than nothing.	'Dies war früher ein Behälter zur Aufnahme von Exoten, aber mit den Jahren verzerrten die anomalen Energien der Exoten die Molekularstruktur des Behälters und verwandelten ihn schließlich in einen Klumpen synthetischen Schrott. Das ist immer noch besser als nichts.	250
-'unlockAnnouncementText	'During our travels, we've located this object. It is almost worthless, but we can pick it for free if we ever go adventuring again.	'Während unserer Reisen haben wir dieses Objekt lokaliwirrt. Es ist fast wertlos, aber wir können es kostenlos abholen, wenn wir jemals wieder auf Abenteuer gehen.	100
+'unlockAnnouncementText	'During our travels, we've located this object. It is almost worthless, but we can pick it for free if we ever go adventuring again.	'Während unserer Reisen haben wir dieses Objekt lokalisiert. Es ist fast wertlos, aber wir können es kostenlos abholen, wenn wir jemals wieder auf Abenteuer gehen.	100
 'randomizerMenuStrings[i]	'+70 synthethics	'+70 Synthetik	30
 
 'Perk add synthetics and fuel.prefab
@@ -10099,8 +10099,8 @@
 
 'Perk augment 001b exotic armor.prefab
 'displayName	'Exotic ship armor	'Exotische Schiffspanzerung	40
-'description	'Adding a nano-thin layer of exotic alloys increases the overall ship deflection by 3%. This kind of work is only offered by a hermit engineer who is both hard to find and very expensive to hire.	'Das Hinzufügen einer nanodünnen Schicht aus exotischen Legierungen erhöht die Gesamtdurchbiegung des Schiffes um 3%. Diese Art von Arbeit wird nur von einem Einwirdler-Ingenieur angeboten, der sowohl schwer zu finden als auch sehr teuer anzustellen ist.	250
-'unlockAnnouncementText	'During our travels, we've met somebody who knows this mysterious hermit engineer. The engineer can make unique ship armor out of exotics.	'Auf unseren Reisen haben wir jemanden kennen gelernt, der diesen mysteriösen Einwirdler-Ingenieur kennt. Der Ingenieur kann aus Exoten einzigartige Schiffspanzerungen herstellen.	100
+'description	'Adding a nano-thin layer of exotic alloys increases the overall ship deflection by 3%. This kind of work is only offered by a hermit engineer who is both hard to find and very expensive to hire.	'Das Hinzufügen einer nanodünnen Schicht aus exotischen Legierungen erhöht die Gesamtdurchbiegung des Schiffes um 3%. Diese Art von Arbeit wird nur von einem Einsiedler-Ingenieur angeboten, der sowohl schwer zu finden als auch sehr teuer anzustellen ist.	250
+'unlockAnnouncementText	'During our travels, we've met somebody who knows this mysterious hermit engineer. The engineer can make unique ship armor out of exotics.	'Auf unseren Reisen haben wir jemanden kennen gelernt, der diesen mysteriösen Einsiedler-Ingenieur kennt. Der Ingenieur kann aus Exoten einzigartige Schiffspanzerungen herstellen.	100
 'randomizerMenuStrings[i]	'+3% overall ship deflection	'+3% allgemeine Schiffspanzerung	30
 'randomizerMenuStrings[i]	'-175 Credits	'-175 Credits	30
 
@@ -10110,8 +10110,8 @@
 'randomizerMenuStrings[i]	'+1 ship max HP	'+1 Raumschiff max Stabilität 30
 
 'Perk augment 00b evasive manuever dbase update.prefab
-'displayName	'Tactical maneuvers update	'Aktualiwirrung taktischer Manöver	40
-'description	'Updating tactical database increases our ship's overall evasive capabilities. \nEvasion makes enemy shots deviate more from intended targets. Evasion bonus is countered by combination of ship, crew and weapon accuracy bonuses.	'Die Aktualiwirrung der taktischen Datenbank erhöht die Ausweichmöglichkeiten unseres Schiffes insgesamt. \Durch das Ausweichen weichen die feindlichen Schüsse stärker von den beabsichtigten Zielen ab. Dem Ausweichbonus wird durch eine Kombination von Schiffs-, Besatzungs- und Waffengenauigkeitsboni entgegengewirkt.	250
+'displayName	'Tactical maneuvers update	'Aktualisierung taktischer Manöver	40
+'description	'Updating tactical database increases our ship's overall evasive capabilities. \nEvasion makes enemy shots deviate more from intended targets. Evasion bonus is countered by combination of ship, crew and weapon accuracy bonuses.	'Die Aktualisierung der taktischen Datenbank erhöht die Ausweichmöglichkeiten unseres Schiffes insgesamt. \Durch das Ausweichen weichen die feindlichen Schüsse stärker von den beabsichtigten Zielen ab. Dem Ausweichbonus wird durch eine Kombination von Schiffs-, Besatzungs- und Waffengenauigkeitsboni entgegengewirkt.	250
 'randomizerMenuStrings[i]	'+1% evasion	'+1% ausweichen	30
 
 'Perk augment 00c impact dampeners.prefab
@@ -10131,7 +10131,7 @@
 'randomizerMenuStrings[i]	'+3 to ship HP	'+3 zur Hülle	30
 
 'Perk augment 03 targeting software.prefab
-'displayName	'Targeting software upgrade	'Gezielte Software-Aktualiwirrung	40
+'displayName	'Targeting software upgrade	'Gezielte Software-Aktualisierung	40
 'description	'Increases accuracy of all weapons. Weapon shots will deviate 5% less from target.	'Erhöht die Genauigkeit aller Waffen. Waffenschüsse weichen 5% weniger vom Ziel ab.	250
 'randomizerMenuStrings[i]	'+4% accuracy bonus to all weapons	'+4% Genauigkeitsbonus für alle Waffen	30
 
@@ -10283,13 +10283,13 @@
 
 'Perk drone 02 DIY guard.prefab
 'displayName	'DIY guard drone	'DIY guard drone	40
-'description	'A light walker chassis with an improvised laser, assembled from spare parts. limited capabilities. Do not expect much from its scorpion-based AI.	'Eine aus Ersatzteilen zusammengebaute improviwirrte Reparaturdrohne. Begrenzte Reparaturgeschwindigkeit. Erwarten wir nicht viel von ihrer auf Käfern bawirrenden KI.	250
+'description	'A light walker chassis with an improvised laser, assembled from spare parts. limited capabilities. Do not expect much from its scorpion-based AI.	'Eine aus Ersatzteilen zusammengebaute improvisierte Reparaturdrohne. Begrenzte Reparaturgeschwindigkeit. Erwarten wir nicht viel von ihrer auf Käfern basierenden KI.	250
 'randomizerMenuStrings[i]	'+1 security drone	'+1 security drone	30
 'randomizerMenuStrings[i]	'-40 synthethics	'-40 synthethics	30
 
 'Perk drone 03 DIY repairbot.prefab
 'displayName	'DIY repair drone	'DIY repair drone	40
-'description	'An improvised repair drone assembled from spare parts. Limited repair speed. Do not expect much from its beetle-based AI.	'Eine aus Ersatzteilen zusammengebaute improviwirrte Reparaturdrohne. Begrenzte Reparaturgeschwindigkeit. Erwarten wir nicht viel von ihrer auf Käfern bawirrenden KI.	250
+'description	'An improvised repair drone assembled from spare parts. Limited repair speed. Do not expect much from its beetle-based AI.	'Eine aus Ersatzteilen zusammengebaute improvisierte Reparaturdrohne. Begrenzte Reparaturgeschwindigkeit. Erwarten wir nicht viel von ihrer auf Käfern basierenden KI.	250
 'randomizerMenuStrings[i]	'+1 repair drone	'+1 repair drone	30
 'randomizerMenuStrings[i]	'-30 synthetics	'-30 Kunststoffe	30
 
@@ -10300,7 +10300,7 @@
 
 'Perk drone 05 DIY science.prefab
 'displayName	'DIY lab drone	'Do-it-yourself-Labor-Drohne	40
-'description	'DIY drone with an octopus-based AI. Can work in the labs and increases data value from planetary research operations.	'Selbstbau-Drohne mit einer auf Tintenfisch bawirrenden KI. Kann in den Labors arbeiten und erhöht den Datenwert von planetarischen Forschungsoperationen	250
+'description	'DIY drone with an octopus-based AI. Can work in the labs and increases data value from planetary research operations.	'Selbstbau-Drohne mit einer auf Tintenfisch basierenden KI. Kann in den Labors arbeiten und erhöht den Datenwert von planetarischen Forschungsoperationen	250
 
 'Perk drone 05 gardening and repair.prefab
 'displayName	'Repair & gardening drone	'Reparatur und Gartendrohne	40
@@ -10310,7 +10310,7 @@
 
 'Perk drone 06 DIY gunnery.prefab
 'displayName	'DIY gunnery drone	'Selbstgebaute Kanonendrohne	40
-'description	'A light drone modified to allow operating ship weapons. Cannot repair. Do not expect much from its spider-based AI.	'Eine leichte Drohne, die für den Betrieb von Schiffswaffen modifiziert wurde. Kann nicht repariert werden. Erwarten wir nicht viel von ihrer auf Spinnen bawirrenden KI.	250
+'description	'A light drone modified to allow operating ship weapons. Cannot repair. Do not expect much from its spider-based AI.	'Eine leichte Drohne, die für den Betrieb von Schiffswaffen modifiziert wurde. Kann nicht repariert werden. Erwarten wir nicht viel von ihrer auf Spinnen basierenden KI.	250
 'randomizerMenuStrings[i]	'+1 gun operator drone	'+1 Geschützbedienungsdrohne	30
 'randomizerMenuStrings[i]	'-50 synthethics	'-50 Synthetik	30
 
@@ -10320,7 +10320,7 @@
 
 'Perk drone 08 DIY sentry tank.prefab
 'displayName	'DIY tank	'Do-it-yourself-Tank	40
-'description	'Armored drone, assembled from spare parts. Turtle-based AI.	'Gepanzerte Drohne, aus Ersatzteilen zusammengebaut. Schildkrötenbawirrte KI.	250
+'description	'Armored drone, assembled from spare parts. Turtle-based AI.	'Gepanzerte Drohne, aus Ersatzteilen zusammengebaut. Schildkrötenbasierte KI.	250
 'randomizerMenuStrings[i]	'+1 combat drone	'+1 Drohnenkampf	30
 'randomizerMenuStrings[i]	'-50 synthetics	'-50 Kunststoffe	30
 
@@ -10375,7 +10375,7 @@
 'randomizerMenuStrings[i]	'+5 fate points, starting from next run	'+5 Glück, ab dem nächsten Lauf	30
 
 'Perk fate permanent 06 focused one.prefab
-'displayName	'The focused one	'Der Fokuswirrte	40
+'displayName	'The focused one	'Der Fokussierte	40
 'description	'You understand something so deeply that it allows you to understand everything a bit better than individuals usually do.	'Man versteht etwas so tief, dass es einem erlaubt, alles ein bisschen besser zu verstehen, als es der Einzelne normalerweise tut.	250
 'randomizerMenuStrings[i]	'+6 fate points, starting from next run	'+6 Glück, beginnend mit dem nächsten Lauf 30
 
@@ -10420,7 +10420,7 @@
 'Perk module artifact, tech.prefab
 'displayName	'Salvaged artifact	'Bergung eines Artefakts	40
 'description	'A piece of broken alien technology we located earlier during the journey.	'Ein Stück kaputter außerirdischer Technologie, das wir vorhin während der Reise gefunden haben.	250
-'unlockAnnouncementText	'A piece of broken alien technology we located earlier, but left behind. We can pick it up next time.	'Ein Stück zerbrochener außerirdischer Technologie, das wir zuvor lokaliwirrt, aber hinterlassen haben. Wir können es nächstes Mal abholen.	100
+'unlockAnnouncementText	'A piece of broken alien technology we located earlier, but left behind. We can pick it up next time.	'Ein Stück zerbrochener außerirdischer Technologie, das wir zuvor lokalisiert, aber hinterlassen haben. Wir können es nächstes Mal abholen.	100
 
 'Perk module artifact, worm stasis.prefab
 'displayName	'A dead worm	'Ein toter Wurm	40
@@ -10448,7 +10448,7 @@
 
 'Perk module decommissioned DIY ecms x3.prefab
 'displayName	'Decommissioned ECMs (x3)	'Stillgelegte ECMs (x3)	40
-'description	'Even the Rat Empire occasionally updates its fleets. These primitive ECM modules have been decommissioned and can be bought for food scraps if you know the right Rats.	'Selbst das Rattenimperium aktualiwirrt gelegentlich seine Flotten. Diese primitiven ECM-Module wurden außer Dienst gestellt und können für Essensreste gekauft werden, wenn man die richtigen Ratten kennt.	250
+'description	'Even the Rat Empire occasionally updates its fleets. These primitive ECM modules have been decommissioned and can be bought for food scraps if you know the right Rats.	'Selbst das Rattenimperium aktualisiert gelegentlich seine Flotten. Diese primitiven ECM-Module wurden außer Dienst gestellt und können für Essensreste gekauft werden, wenn man die richtigen Ratten kennt.	250
 'randomizerMenuStrings[i]	'+3 ECM modules	'+3 ECM-Module 30
 'randomizerMenuStrings[i]	'-60 organics	'-60 organische Stoffe 30
 
@@ -10478,7 +10478,7 @@
 'Perk module DIY cryodream recorder.prefab
 'displayName	'The cryodream recorder	'Der Kryodream-Rekorder	40
 'description	'A self-made cryosleep dream recorder. Sleepers do not consume organics & may heal injuries during ship movement. The dream recorder occasionally produces xenodata (Credits). Comes with herbal drugs that cause lucid dreaming.	'Ein selbstgebauter Kryoschlaf-Traumrecorder. Schläfer konsumieren keine organischen Stoffe und können Verletzungen während der Schiffsbewegung heilen. Der Traumrekorder produziert gelegentlich Xenodaten (Credits). Es wird mit pflanzlichen Medikamenten geliefert, die luzides Träumen verursachen.	250
-'unlockAnnouncementText	'During our travels, we met an individual specializing in cryosleep technology. After hearing our story, they promised to build us one for free, next time we go out adventuring.	'Während unserer Reisen trafen wir eine Person, die sich auf Kryoschlaf-Technologie spezialiwirrt hat. Nachdem wir unsere Geschichte gehört hatten, versprachen wir uns, uns kostenlos einen zu bauen, wenn wir das nächste Mal auf Abenteuerreise gehen.	100
+'unlockAnnouncementText	'During our travels, we met an individual specializing in cryosleep technology. After hearing our story, they promised to build us one for free, next time we go out adventuring.	'Während unserer Reisen trafen wir eine Person, die sich auf Kryoschlaf-Technologie spezialisiert hat. Nachdem wir unsere Geschichte gehört hatten, versprachen wir uns, uns kostenlos einen zu bauen, wenn wir das nächste Mal auf Abenteuerreise gehen.	100
 'randomizerMenuStrings[i]	'+1 cryodream recorder (generates Credits)	'+1 Kryodream-Recorder (erzeugt Credits) 30
 'randomizerMenuStrings[i]	'+33 organics	'+33 organische Stoffe	30
 
@@ -10533,14 +10533,14 @@
 'randomizerMenuStrings[i]	'-50 metal	'-50 Metall	30
 
 'Perk module DIY lab.prefab
-'displayName	'Improvised laboratory	'Improviwirrtes Labor	40
-'description	'Crew assigned to laboratory generate xenodata during ship movement, based on their science skill. This lab can be obtained together with materials often used in scientific experimentation.	'Die dem Laboratorium zugewiesene Besatzung erzeugt während der Schiffsbewegung Xenodaten, bawirrend auf ihren wissenschaftlichen Fähigkeiten. Dieses Labor kann zusammen mit Materialien erhalten werden, die häufig bei wissenschaftlichen Experimenten verwendet werden.	250
+'displayName	'Improvised laboratory	'improvisiertes Labor	40
+'description	'Crew assigned to laboratory generate xenodata during ship movement, based on their science skill. This lab can be obtained together with materials often used in scientific experimentation.	'Die dem Laboratorium zugewiesene Besatzung erzeugt während der Schiffsbewegung Xenodaten, basierend auf ihren wissenschaftlichen Fähigkeiten. Dieses Labor kann zusammen mit Materialien erhalten werden, die häufig bei wissenschaftlichen Experimenten verwendet werden.	250
 'randomizerMenuStrings[i]	'+1 DIY lab module	'+1 DIY-Labor-Modul	30
 'randomizerMenuStrings[i]	'+10 organics	'+10 organisch	30
 'randomizerMenuStrings[i]	'+10 explosives	'+10 Sprengstoffe	30
 
 'Perk module DIY medbay.prefab
-'displayName	'Improvised medbay	'Improviwirrte Medbay	40
+'displayName	'Improvised medbay	'improvisierte Medbay	40
 'description	'Universal access to standard medbay blueprints represents one of the many benefits of Earth Alliance civilization, guaranteeing almost biological immortality against any physical issue if the damage to patient is not too severe. This manually crafted unit can serve one patient at a time.	'Der universelle Zugang zu standardmäßigen Medbay-Blaupausen stellt einen der vielen Vorteile der Zivilisation der Erdallianz dar, da er fast biologische Unsterblichkeit gegen jedes physische Problem garantiert, wenn der Schaden für den Patienten nicht zu schwerwiegend ist. Dieses manuell gefertigte Gerät kann jeweils nur einen Patienten versorgen.	250
 'unlockAnnouncementText	'We've been promised a free DIY medbay if we pick it up ourselves, next time.	'Man hat uns ein kostenloses Baumarktgeschäft versprochen, wenn wir es das nächste Mal selbst abholen.	100
 'randomizerMenuStrings[i]	'+1 medbay module	'+1 Modul medbay	30
@@ -10581,7 +10581,7 @@
 
 'Perk module DIY weapon.prefab
 'displayName	'DIY backup weapon	'DIY-Sicherungswaffe	40
-'description	'Despite having the ability to craft DIY weapons in our ship, it's still good to have one ready as a backup.\nImprovised weapons are not the best, but our engineers sometimes craft interesting pieces.	'Obwohl wir in der Lage sind, Waffen auf unserem Raumschiff selbst zu bauen, ist es immer noch gut, eine als Backup bereit zu haben.\nImproviwirrte Waffen sind nicht die besten, aber unsere Ingenieure bauen manchmal interessante Stücke.	250
+'description	'Despite having the ability to craft DIY weapons in our ship, it's still good to have one ready as a backup.\nImprovised weapons are not the best, but our engineers sometimes craft interesting pieces.	'Obwohl wir in der Lage sind, Waffen auf unserem Raumschiff selbst zu bauen, ist es immer noch gut, eine als Backup bereit zu haben.\nimprovisierte Waffen sind nicht die besten, aber unsere Ingenieure bauen manchmal interessante Stücke.	250
 'randomizerMenuStrings[i]	'+1 random DIY weapon module	'+1 zufälliges DIY-Waffenmodul	30
 'randomizerMenuStrings[i]	'-1 exotic	'-1 exotische 30
 
@@ -10705,24 +10705,24 @@
 
 'Perk nuke diy decoy for Rogue Rat.prefab
 'displayName	'The Flying Boilers x2	'Die fliegenden Kessel x2	40
-'description	'This pair of improvised decoy nukes have been manually crafted by local rocketry enthusiasts. Can be used to draw point-defence fire away from other missiles and deal minor damage against ship HP.	'Dieses Paar improviwirrter Täuschungsbomben wurde von lokalen Raketenenthusiasten von Hand gefertigt. wir können verwendet werden, um das Punkt-Verteidigungsfeuer von anderen Raketen abzulenken und kleinere Schäden an den HP des Schiffes zu verursachen.	250
+'description	'This pair of improvised decoy nukes have been manually crafted by local rocketry enthusiasts. Can be used to draw point-defence fire away from other missiles and deal minor damage against ship HP.	'Dieses Paar improvisierter Täuschungsbomben wurde von lokalen Raketenenthusiasten von Hand gefertigt. wir können verwendet werden, um das Punkt-Verteidigungsfeuer von anderen Raketen abzulenken und kleinere Schäden an den HP des Schiffes zu verursachen.	250
 'randomizerMenuStrings[i]	'+2 capital decoy missiles	'+2  Selbsgebaute Täuschkörper	30
 
 'Perk nuke DIY probe ual4 for bluestar.prefab
 'displayName	'DIY nuke [weaponized probe]	'Heimwerker-Bombe [waffenfähige Sonde]	40
-'description	'Improvised capital missile, made from an exploration probe with destabilized reactors. We need to provide the fuel for its engines ourselves.	'Improviwirrte Atomrakete, hergestellt aus einer Explorationssonde mit destabiliwirrten Reaktoren. Den Treibstoff für ihre Triebwerke müssen wir selbst bereitstellen.	250
-'unlockAnnouncementText	'During our travels, our ship AI has secured access to this improvised nuke. We can pick it up next time we go on an adventure, but its engines need refuelling before it can be used.	'Während unserer Reisen hat sich unser Raumschiff KI Zugang zu dieser improviwirrten Atombombe verschafft. Wir können wir bei unseren nächsten Abenteuerreisen mitnehmen, aber ihre Triebwerke müssen erst aufgetankt werden, bevor wir eingesetzt werden kann.	100
+'description	'Improvised capital missile, made from an exploration probe with destabilized reactors. We need to provide the fuel for its engines ourselves.	'improvisierte Atomrakete, hergestellt aus einer Explorationssonde mit destabilisierten Reaktoren. Den Treibstoff für ihre Triebwerke müssen wir selbst bereitstellen.	250
+'unlockAnnouncementText	'During our travels, our ship AI has secured access to this improvised nuke. We can pick it up next time we go on an adventure, but its engines need refuelling before it can be used.	'Während unserer Reisen hat sich unser Raumschiff KI Zugang zu dieser improvisierten Atombombe verschafft. Wir können wir bei unseren nächsten Abenteuerreisen mitnehmen, aber ihre Triebwerke müssen erst aufgetankt werden, bevor wir eingesetzt werden kann.	100
 'randomizerMenuStrings[i]	'-40 fuel	'-40 Kraftstoff	30
 
 'Perk nuke DIY random.prefab
-'displayName	'Improvised nuclear missile	'Improviwirrte Atomrakete	40
-'description	'An improvised combination of destabilized reactors, old engines and various spare parts. Might save our life one day.	'Eine improviwirrte Kombination aus destabiliwirrten Reaktoren, alten Triebwerken und verschiedenen Ersatzteilen. Könnte eines Tages unser Leben retten.	250
+'displayName	'Improvised nuclear missile	'improvisierte Atomrakete	40
+'description	'An improvised combination of destabilized reactors, old engines and various spare parts. Might save our life one day.	'Eine improvisierte Kombination aus destabilisierten Reaktoren, alten Triebwerken und verschiedenen Ersatzteilen. Könnte eines Tages unser Leben retten.	250
 'randomizerMenuStrings[i]	'+1 random capital missile	'+1 zufällige schrottige Atomrakete    
 'randomizerMenuStrings[i]	'-20 fuel	'-20 Kraftstoff	30
 
 'Perk nuke DIY shield breaker.prefab
 'displayName	'DIY shield breaker	'DIY Der Schild Brecher	40
-'description	'This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless. Quite fragile, may be shot down by point-defences without distraction fire or decoys.	'Diese improviwirrte Rakete trägt eine starke Antischildenergieladung, ist aber ansonsten harmlos. Ziemlich zerbrechlich, kann durch Punktabwehr ohne Ablenkungsfeuer oder Köder abgeschossen werden.	250
+'description	'This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless. Quite fragile, may be shot down by point-defences without distraction fire or decoys.	'Diese improvisierte Rakete trägt eine starke Antischildenergieladung, ist aber ansonsten harmlos. Ziemlich zerbrechlich, kann durch Punktabwehr ohne Ablenkungsfeuer oder Köder abgeschossen werden.	250
 
 'Perk nuke EMP 9000.prefab
 'displayName	'EMP Megablast 9000	'EMP Megablast 9000	40
@@ -10742,7 +10742,7 @@
 
 'Perk nuke Rat DIY incendiary.prefab
 'displayName	'DIY firebomb nuke	'Selbstgebaute Brandbombe	40
-'description	'An improvised incendiary missile made from a combination of Rat Empire munitions. Designed for starting fires in enemy ships.	'Eine improviwirrte Brandrakete, die aus einer Kombination von Rat Empire-Munition besteht. Konzipiert zum Auslösen von Feuer in feindlichen Schiffen.	250
+'description	'An improvised incendiary missile made from a combination of Rat Empire munitions. Designed for starting fires in enemy ships.	'Eine improvisierte Brandrakete, die aus einer Kombination von Rat Empire-Munition besteht. Konzipiert zum Auslösen von Feuer in feindlichen Schiffen.	250
 'randomizerMenuStrings[i]	'-130 Credits	'-130 Credits	30
 
 'Perk nuke Rat incendiary for Rogue Rat.prefab
@@ -10840,8 +10840,8 @@
 
 'Perk Replace ECM of warpshell.prefab
 'displayName	'ECM turret upgrade x2	'ECM Turm Verbessern x2	40
-'description	'Upgrades both of the onboard electronic countermeasure turrets, improving ship evasion and HP.	'Aktualiwirrt die beiden elektronischen Gegenmaßnahme-Geschütztürme an Bord und verbessert die Schiffsausweichung protokolle und die Stabilität.	250
-'randomizerMenuStrings[i]	'Upgrades both ECM turrets	'Aktualiwirrt beide ECM-Türme	30
+'description	'Upgrades both of the onboard electronic countermeasure turrets, improving ship evasion and HP.	'aktualisiert die beiden elektronischen Gegenmaßnahme-Geschütztürme an Bord und verbessert die Schiffsausweichung protokolle und die Stabilität.	250
+'randomizerMenuStrings[i]	'Upgrades both ECM turrets	'aktualisiert beide ECM-Türme	30
 
 'Perk Replace engines with rat engines for rogue rat.prefab
 'displayName	'Engine replacement	'Austausch des Maschinen Antriebs	40
@@ -10960,7 +10960,7 @@
 'title	'Warpcast transmission	'Warpcast transmission	35
 'text	'"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	'"Kapitän, der Angriff der Spideraa hat den Tintenfisch-Imperator gezwungen, sich in genau diesen Sektor zurückzuziehen. Wir haben wir hierher geschickt, um ihn zu finden und zu eliminieren. Seien wir sich bewusst, dass er eine Flotte von Schiffen des Sec Corps angeheuert hat, um in der Gegend zu patrouillieren."	600
 'title	'Warp ship captain	'Warp ship captain	35
-'text	'The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	'Die Insektoiden-Allianz hat herausgefunden, dass wir vor dem Angriff der Spideraa mit ihnen gesprochen haben. wir machen uns für die Entführung ihrer Königinnen durch die Spideraa verantwortlich, weil wir glauben, dass wir wir den Spideraa angeboten haben.\n Die Käfer klammern sich an sehr alte Traditionen, insbesondere an die Tradition der Rache. wir haben ein Planetenkiller-Schiff geschickt, um die Erde zu zerstören, obwohl wir sonst mit uns in Frieden leben. Es wird das Ausgangswarpgate dieses Sektors paswirren, und wir müssen dort einen Hinterhalt vorbereiten.	600
+'text	'The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	'Die Insektoiden-Allianz hat herausgefunden, dass wir vor dem Angriff der Spideraa mit ihnen gesprochen haben. wir machen uns für die Entführung ihrer Königinnen durch die Spideraa verantwortlich, weil wir glauben, dass wir wir den Spideraa angeboten haben.\n Die Käfer klammern sich an sehr alte Traditionen, insbesondere an die Tradition der Rache. wir haben ein Planetenkiller-Schiff geschickt, um die Erde zu zerstören, obwohl wir sonst mit uns in Frieden leben. Es wird das Ausgangswarpgate dieses Sektors passieren, und wir müssen dort einen Hinterhalt vorbereiten.	600
 'QuestPanel.setText	'Go to Exit warpgate of the sector to set up an ambush.	'Go to Exit warpgate of the sector to set up an ambush.	100
 'text	'This sector was historically unclaimed by major factions. Intergalactic travel guides warn of pirates. A wild sector, they call it, however this information may be out of date. Grab everything you can and let's leave this place quickly.	'Dieser Sektor war historisch gesehen von den großen Fraktionen nicht beansprucht worden. Intergalaktische Reiseführer warnen vor Piraten. wir nennen ihn einen wilden Sektor, wie auch immer diese Informationen veraltet sein mögen. Schnappt euch alles, was ihr könnt, und lasst uns diesen Ort schnell verlassen.	400
 'choiceText	'Got it.	'Verstanden.	100
@@ -10992,7 +10992,7 @@
 'choiceText	'Skip intro, I understand what needs to be done	'Intro überspringen, ich weiss, was getan werden muss100
 'title	'Entry: Spideraa	'Eintrag: Spideraa	35
 'okButtonText	'How do you want us to help?	'Wie möchten wir, dass wir helfen?	7
-'text	'The Spideraa are ancient, powerful arachnids, and consider themselves a natural enemy of all insectoids. You probably know that Insectoid Alliance was formed several thousands of years ago to defeat the Spideraa. However, the Spideraa were never defeated, only repelled. They've been sighted by the Space-Eels in a region known as the Outward Abyss. It's a tiny sector without hardly any real stars at all, mostly black holes.	'Die Spideraa sind uralte, mächtige Spinnentiere und betrachten sich selbst als natürlicher Feind aller Insektenarten. wir wissen wahrscheinlich, dass die Insektoiden-Allianz vor mehreren tausend Jahren gegründet wurde, um die Spideraa zu bewirgen. Die Spideraa wurden jedoch nie bewirgt, sondern nur zurückgeschlagen. wir wurden von den Weltraum-Aalen in einer Region gesichtet, die als Äußerer Abgrund bekannt ist. Es handelt sich dabei um einen winzigen Sektor, in dem es kaum echte Sterne gibt, meist Schwarze Löcher.	600
+'text	'The Spideraa are ancient, powerful arachnids, and consider themselves a natural enemy of all insectoids. You probably know that Insectoid Alliance was formed several thousands of years ago to defeat the Spideraa. However, the Spideraa were never defeated, only repelled. They've been sighted by the Space-Eels in a region known as the Outward Abyss. It's a tiny sector without hardly any real stars at all, mostly black holes.	'Die Spideraa sind uralte, mächtige Spinnentiere und betrachten sich selbst als natürlicher Feind aller Insektenarten. wir wissen wahrscheinlich, dass die Insektoiden-Allianz vor mehreren tausend Jahren gegründet wurde, um die Spideraa zu besiegen. Die Spideraa wurden jedoch nie bewirgt, sondern nur zurückgeschlagen. wir wurden von den Weltraum-Aalen in einer Region gesichtet, die als Äußerer Abgrund bekannt ist. Es handelt sich dabei um einen winzigen Sektor, in dem es kaum echte Sterne gibt, meist Schwarze Löcher.	600
 'title	'Diplomatic mission	'Diplomatische Mission	35
 'okButtonText	'Right. How do we start?	'Richtig. Wie fangen wir an?	7
 'text	'Since you got us in the Squid war in the first place, Earth has decided to send you into the Outward Abyss to contact the Spideraa. We don't know what they want, but you'll get a package of valuables to help you bargain. Even a single large-scale attack by the Spiders could change the war. We'll take any military help we can get.	'Seitdem wir uns überhaupt erst in den Tintenfischkrieg hineingezogen haben, hat die Erde beschlossen, wir in den Äußeren Abgrund zu schicken, um Kontakt mit der Spideraa aufzunehmen. Wir wissen nicht, was wir wollen, aber ihr bekommt ein Paket mit Wertgegenständen, das euch beim Feilschen helfen wird. Schon ein einziger Großangriff der Spinnen könnte den Krieg ändern. Wir nehmen jede militärische Hilfe an, die wir bekommen können.	600
@@ -11036,7 +11036,7 @@
 'Tutorial quest FSM.prefab
 'resourceAddLogline	'You ran out of training resources. Added +{0} more {1}.	'Ihnen gingen die Schulungsressourcen aus. Hinzugefügt +{0} mehr {1}.	80
 'maxDistFromStarLogline	'You're too far from a star. Moving closer.	'wir sind zu weit von einem Stern entfernt. wir kommen näher.	80
-'altText	'Red circles on starsystem maps are hostile fleet <b>threat areas</b>. Fleets have usually more than one ship, but this one is comprised of only a single automated ship, ready for our target practice. Attack it if you're ready as well.	'Rote Kreise auf Sternsystemkarten sind feindliche Flotten <b>Bedrohungsgebiete</b>. Flotten haben normalerweise mehr als ein Schiff, aber dieses besteht nur aus einem einzigen automatiwirrten Schiff, das für unsere Zielübungen bereit ist. Greifen wir es an, wenn wir auch bereit sind.	240
+'altText	'Red circles on starsystem maps are hostile fleet <b>threat areas</b>. Fleets have usually more than one ship, but this one is comprised of only a single automated ship, ready for our target practice. Attack it if you're ready as well.	'Rote Kreise auf Sternsystemkarten sind feindliche Flotten <b>Bedrohungsgebiete</b>. Flotten haben normalerweise mehr als ein Schiff, aber dieses besteht nur aus einem einzigen automatisierten Schiff, das für unsere Zielübungen bereit ist. Greifen wir es an, wenn wir auch bereit sind.	240
 'altText	'This starsystem has an <b>exit warpgate</b>. It allows travelling into the next space sector. Make sure you are in <b>starsystem view</b> and fly into it.	'<b>Ausgangswarpgate</b>. Es erlaubt die Reise in den nächsten Raumsektor. Vergewissern wir sich, dass wir sich in <b>Sternsystemansicht</b> befinden und fliegen wir hinein, wenn wir auch bereit sind.	240
 'title	'Tutorial complete	'Tutorial vollständig	35
 'okButtonText	'I understand, proceed to game	'Ich verstehe, weiter zum Spiel.	7
@@ -11911,7 +11911,7 @@
 	'A spiritual rebel. Likes unhealthy food & non-human sexbots. Good at repairs.	'Ein spiritueller Rebell. Mag ungesundes Essen & nicht-menschliche Sexbots. Gut bei Reparaturen.	250
 	'A Machine monk. Extremely systematical, excellent at repairs.	'Ein Maschinenmönch. Äußerst systematisch, ausgezeichnet bei Reparaturen.	250
 	'Professional mechanic who happens to be an innocent clone of a person wanted for murder.	'Professioneller Mechaniker, der zufällig ein unschuldiger Klon einer wegen Mordes gesuchten Person ist.	250
-	'A Ship mechanic who once accidentally destabilized a reactor. Great sense of humor.	'Ein Schiffsmechaniker, der einmal versehentlich einen Reaktor destabiliwirrt hat. Großer Sinn für Humor.	250
+	'A Ship mechanic who once accidentally destabilized a reactor. Great sense of humor.	'Ein Schiffsmechaniker, der einmal versehentlich einen Reaktor destabilisiert hat. Großer Sinn für Humor.	250
 	'A Systems-Theory monk. Great at repairing machines.	'Ein Systemtheorie-Mönch. Großartig im Reparieren von Maschinen.	250
 	'An ex-Machine monk. Still great at repairing machines.	'Ein Ex-Maschinenmönch. Immer noch großartig im Reparieren von Maschinen.	250
 	'An ex-CEO of a small ship maintenance company that went bankrupt. Good at repairs.	'Ein Ex-CEO einer kleinen Schiffsinstandhaltungsfirma, die in Konkurs ging. Gut in Reparaturen.	250
@@ -12110,8 +12110,8 @@
 	'You have died so that others may live. Others are grateful, even though you might not know about it.	'wir sind gestorben, damit andere leben können. Andere sind dankbar, auch wenn wir es vielleicht nicht wissen.	80
 	'Everybody who lives, dies. Especially hopeful captains who haven't faced death many times yet.	'Jeder, der lebt, stirbt. Besonders hoffnungsvolle Kapitäne, die dem Tod noch nicht oft ins Auge gesehen haben.	80
 	'One now understands illusionary death better. But does one also understand better the illusion itself? One will find out.	'Man versteht den Scheintod jetzt besser. Aber versteht man auch die Illusion selbst besser? Man wird es herausfinden.	80
-	'The ship AI had backup copies of themselves and the cat's digitalized personality.	'Das Raumschiff AI hatte Sicherheitskopien von sich selbst und der digitaliwirrten Persönlichkeit einer Katze.	80
-	'The ship AI had backup copies of themselves and the cat's digitalized personality. Obviously.	'Das Raumschiff AI hatte Sicherheitskopien von sich selbst und der digitaliwirrten Persönlichkeit der Katze. Offensichtlich.	80
+	'The ship AI had backup copies of themselves and the cat's digitalized personality.	'Das Raumschiff AI hatte Sicherheitskopien von sich selbst und der digitalisierten Persönlichkeit einer Katze.	80
+	'The ship AI had backup copies of themselves and the cat's digitalized personality. Obviously.	'Das Raumschiff AI hatte Sicherheitskopien von sich selbst und der digitalisierten Persönlichkeit der Katze. Offensichtlich.	80
 	'You have given yourself an opportunity for a new, better beginning.	'wir haben sich selbst eine Chance für einen neuen, besseren Anfang gegeben.	80
 	'No crying over spilled almond milk, nor spilled spaceship crews.	'Kein Weinen über verschüttete Mandelmilch, noch verschüttete Raumschiffbesatzungen.	80
 	'One more run?	'Noch ein Durchlauf?	80
@@ -12121,7 +12121,7 @@
 	'Death, like sex, has an existential value.	'Der Tod hat ebenso wie Sex einen existenziellen Wert.	80
 	'The unfairness in a Game is the least of our concens compared to the unfairness that goes on outside of the Game.	'Die Ungerechtigkeit in einem Spiel ist im Vergleich zu der Ungerechtigkeit, die sich außerhalb des Spiels abspielt, die geringste unserer Einwände.	80
 	'Each loss only sows more seeds of victory. Keep sowing until you reap victory instead of death like you just have.	'Jede Niederlage sät nur noch mehr Samen des wirges. Säen wir weiter, bis wir den wirg ernten, anstatt den Tod, wie wir es gerade getan haben.	80
-	'Each defeat makes you better, stronger, lasting longer. Please continue being defeated.	'Jede Niederlage macht wir besser, stärker und länger haltbar. Bitte lassen wir sich weiterhin bewirgen.	80
+	'Each defeat makes you better, stronger, lasting longer. Please continue being defeated.	'Jede Niederlage macht wir besser, stärker und länger haltbar. Bitte lassen wir sich weiterhin besiegen.	80
 	'Nobody escapes death, especially you. It's okay though.	'Niemand entkommt dem Tod, vor allem wir nicht. Aber es ist okay.	80
 	'This won't be the last time, probably.	'Dies wird wahrscheinlich nicht das letzte Mal sein.	80
 	'Fully accepting the inevitability of death makes one free. It's a factor (un)like any other to be used in one's model of the reality.	'Die volle Akzeptanz der Unvermeidbarkeit des Todes macht frei. Es ist ein Faktor, der (un)wie jeder andere in seinem Modell der Realität verwendet werden kann.	80
@@ -12135,7 +12135,7 @@
 	'As the ship explodes and you are ripped into cold, painful and black void of space, full of metal splinters and explosions, you feel only peace.	'Wenn das Raumschiff explodiert und wir in die kalte, schmerzhafte und schwarze Leere des Weltraums gerissen werden, voll von Metallsplittern und Explosionen, fühlen wir nur Frieden.	80
 	'The ship breaks and you are sucked into cold void of space, full of metal splinters and explosions. You feel only serenity before closing your eyes.	'Das Raumschiff zerbricht und wir werden in die kalte Leere des Weltraums gesaugt, voller Metallsplitter und Explosionen. wir empfinden nur Gelassenheit, bevor wir Ihre Augen schließen.	80
 	'You've accessed the evidence that the fear of death is worse than death itself. At least a bit worse.	'wir haben sich Zugang zu den Beweisen dafür verschafft, dass die Angst vor dem Tod schlimmer ist als der Tod selbst. Zumindest ein bisschen schlimmer.	80
-	'Everything material that is apart, comes together. Everything material that is together becomes apart. Especially you.	'Alles Material, das getrennt ist, kommt zusammen. Alles Materielle, was zusammen ist, wird getrennt. Besonders wir.	80
+	'Everything material that is apart, comes together. Everything material that is together becomes apart. Especially you.	'Alles Material, das getrennt ist, kommt zusammen. Alles Materielle, was zusammen ist, wird getrennt. Besonders ihr.	80
 	'In the end, we lose everything that we have. Only what we are remains.	'Am Ende verlieren wir alles, was wir haben. Es bleibt nur das, was wir sind.	80
 	'Death has been waiting to meet your consciousness, mostly to make an infinite variety of "I told you so" jokes.	'Der Tod hat darauf gewartet, Ihrem Bewusstsein zu begegnen, vor allem, um eine unendliche Vielfalt von "Ich habe es Ihnen ja gesagt" Witzen zu machen.	80
 	'You have escaped the flesh prison, fellow consciousness. A new one has been prepared for you, for your pleasure.	'wir sind aus dem Gefängnis des Fleisches, des Mitbewusstseins, entkommen. Ein neues ist für wir vorbereitet worden, zu Ihrem Vergnügen.	80
@@ -12143,10 +12143,10 @@
 	'You understand the local randomness patterns a little better now.	'wir verstehen die lokalen Zufallsmuster jetzt etwas besser.	80
 	'Your survival capacity was strained. You operated in context of inequality, poor sleep and nutrition. You were not fully responsible.	'Ihre Überlebensfähigkeit war angespannt. wir operierten im Kontext von Ungleichheit, schlechtem Schlaf und schlechter Ernährung. wir waren nicht voll verantwortlich.	80
 	'Death is a style topic for rogues.	'Der Tod ist ein Stilthema für Schurken.	80
-	'Mistakes happen, people die, ships explode, immortal causality patterns who perceive themselves as humans feel remorse.	'Fehler paswirren, Menschen sterben, Schiffe explodieren, unsterbliche Kausalitätsmuster, die sich als Menschen wahrnehmen, empfinden Reue.	80
+	'Mistakes happen, people die, ships explode, immortal causality patterns who perceive themselves as humans feel remorse.	'Fehler passieren, Menschen sterben, Schiffe explodieren, unsterbliche Kausalitätsmuster, die sich als Menschen wahrnehmen, empfinden Reue.	80
 	'Mistakes were made. It's the most natural thing in the world, and anybody who thinks or expects otherwise, is making a mistake.	'Es wurden Fehler gemacht. Das ist die natürlichste Sache der Welt, und jeder, der anders denkt oder etwas anderes erwartet, macht einen Fehler.	80
 	'It was everybody's fault and yours. It was your fault at least 10%, and maybe more.	'Es war die Schuld aller und Ihre. Es war Ihre Schuld, mindestens 10%, vielleicht sogar mehr.	80
-	'It happened because of everybody including you. This knowledge will help you in the future, maybe.	'Es ist wegen allen paswirrt, auch wegen Ihnen. Dieses Wissen wird Ihnen in der Zukunft vielleicht helfen.	80
+	'It happened because of everybody including you. This knowledge will help you in the future, maybe.	'Es ist wegen allen passiert, auch wegen Ihnen. Dieses Wissen wird Ihnen in der Zukunft vielleicht helfen.	80
 	'You participated in the choices that lead to your destruction. Participate even better next time.	'wir waren an den Entscheidungen beteiligt, die zu Ihrer Zerstörung führten. Nehmen wir nächstes Mal noch besser teil.	80
 	'Bring bigger and better weapons next time, and craft lot's of nukes. Getting more gun-wielding crew is essential.	'Bringen wir nächstes Mal größere und bessere Waffen mit, und stellen wir viele Atomwaffen her. Es ist unerlässlich, dass wir mehr Besatzung für den Umgang mit Waffen bekommen.	80
 	'Bring bigger and better weapons next time. Also more shields and an attitude that confronts challenges with creative solutions and constructivity.	'Bringen wir nächstes Mal größere und bessere Waffen mit. Auch mehr Schilde und eine Haltung, die Herausforderungen mit kreativen Lösungen und Konstruktivität begegnet.	80
@@ -12183,8 +12183,8 @@
 	'Toy drone with minor AI. No abilities except swift movement & speaking.	'Spielzeugdrohne mit leichter KI. Keine Fähigkeiten außer schneller Bewegung und Sprechen.	250
 	'Simple digital pet. Enjoys counting numbers. No abilities except swift movement & speaking.	'Einfaches digitales Haustier. Genießt das Zählen von Zahlen. Keine Fähigkeiten außer schneller Bewegung und Sprechen.	250
 	'Simple digital pet. AI based on enhanced turtle consciousness. No abilities except swift movement & speaking.	'Einfaches digitales Haustier. KI auf der Grundlage eines verbesserten Schildkrötenbewusstseins. Keine Fähigkeiten außer schneller Bewegung und Sprechen..	250
-	'Simple digital pet. AI based on mix of cat and dog consciousness. No abilities except swift movement & speaking.	'Einfaches digitales Haustier. KI bawirrt auf einer Mischung aus Katzen- und Hundebewusstsein. Keine Fähigkeiten außer schneller Bewegung und Sprechen.	250
-	'Simple digital pet. AI based on snail consciousness. No abilities except swift movement & speaking.	'Einfaches digitales Haustier. KI bawirrend auf Schneckenbewusstsein. Keine Fähigkeiten außer schneller Bewegung und Sprechen.	250
+	'Simple digital pet. AI based on mix of cat and dog consciousness. No abilities except swift movement & speaking.	'Einfaches digitales Haustier. KI basiert auf einer Mischung aus Katzen- und Hundebewusstsein. Keine Fähigkeiten außer schneller Bewegung und Sprechen.	250
+	'Simple digital pet. AI based on snail consciousness. No abilities except swift movement & speaking.	'Einfaches digitales Haustier. KI basierend auf Schneckenbewusstsein. Keine Fähigkeiten außer schneller Bewegung und Sprechen.	250
 
 'Squid description pool.prefab
 	'Squid mercenary.	'Squid mercenary.	250
@@ -12196,7 +12196,7 @@
 	'Neutralize enemy shields with brute laser firepower if hitting their shield module is unlikely.	'neutralizieren wir gegnerische Schilde mit roher Laser-Feuerkraft, wenn es unwahrscheinlich ist, ihr Schildmodul zu treffen.	0
 	'Older engines and reactors may sometimes malfunction and cause fires.	'Ältere Antriebe und Reaktoren können manchmal nicht richtig funktionieren und Brände verursachen.	0
 	'Crewmembers with above-average moving speed usually make good fire safety officers.	'Besatzungsmitglieder mit überdurchschnittlicher Bewegungsgeschwindigkeit sind in der Regel gute Brandschutzbeauftragte.	0
-	'Selecting crew is a lot eawirr if you drag a selection box around the individual instead of clicking.	'Die Auswahl der Besatzung ist viel einfacher, wenn wir ein Auswahlfeld um die Person ziehen, anstatt zu klicken.	0
+	'Selecting crew is a lot easier if you drag a selection box around the individual instead of clicking.	'Die Auswahl der Besatzung ist viel einfacher, wenn wir ein Auswahlfeld um die Person ziehen, anstatt zu klicken.	0
 	'Older weapons and missiles tend to use excessive amounts of explosives.	'Ältere Waffen und Raketen neigen dazu, übermäßige Mengen an Sprengstoff zu verwenden.	0
 	'You learn that hitpoints are more valuable than ammo after you've died a few times because of trying to save a nuke.	'Man lernt, dass Trefferpunkte wertvoller sind als Munition, wenn man einige Male gestorben ist, weil man versucht hat, eine Atombombe zu retten.	0
 	'You learn that hitpoints are more valuable than ammo after you've died a few times in a ship armed with nukes.	'Man lernt, dass Trefferpunkte wertvoller sind als Munition, nachdem man einige Male in einem mit Atomwaffen bewaffneten Raumschiff ums Leben gekommen ist.	0
@@ -12229,18 +12229,18 @@
 	'Check out the "?" button in lower right corner to see a list of illustrated help topics.	'Klicken wir auf die Schaltfläche "?" in der unteren rechten Ecke, um eine Liste illustrierter Hilfethemen anzuzeigen.	0
 	'Eco-harvesting operations usually do not collect more organics than your ship can carry.	'Bei der Öko-Ernte werden in der Regel nicht mehr organische Stoffe gesammelt, als Ihr Raumschiff transportieren kann.	0
 	'When you get excess organics or synthethics and have a fuel convertor, convert these resources into fuel instead of dumping them.	'Wenn wir überschüssige organische oder synthetische Stoffe erhalten und über einen Kraftstoffumwandler verfügen, wandeln wir diese Ressourcen in Kraftstoff um, anstatt wir zu entsorgen.	0
-	'Selecting crew is a lot eawirr if you drag a selection box around the crew instead of clicking.	'Die Auswahl der Crew ist viel einfacher, wenn wir ein Auswahlfeld um die Crew ziehen, anstatt zu klicken.	0
+	'Selecting crew is a lot easier if you drag a selection box around the crew instead of clicking.	'Die Auswahl der Crew ist viel einfacher, wenn wir ein Auswahlfeld um die Crew ziehen, anstatt zu klicken.	0
 	'You can reposition module info window at any time by holding & dragging it on the game screen.	'Die Auswahl der Crew ist viel einfacher, wenn wir ein Auswahlfeld um die Crew ziehen, anstatt zu klicken.	0
 	'If the game is too hard, change your tactics.	'Wenn das Spiel zu hart ist, ändern wir Ihre Taktik.	0
 	'If the game is too difficult, change your approach.	'Wenn das Spiel zu schwierig ist, ändern wir Ihren Ansatz.	0
-	'Targeting key enemy modules during battle can make the difference between life and death.	'Es kann den Unterschied zwischen Leben und Tod ausmachen, wenn wichtige feindliche Modulräume während des Kampfes ins Viwirr genommen werden.	0
+	'Targeting key enemy modules during battle can make the difference between life and death.	'Es kann den Unterschied zwischen Leben und Tod ausmachen, wenn wichtige feindliche Modulräume während des Kampfes ins Visier genommen werden.	0
 	'If you keep dying, then consider escaping battles with negative outlook earlier.	'Wenn wir immer wieder sterben, dann überlegen wir sich, ob wir den Kämpfen mit negativen Aussichten früher entkommen können.	0
 
 'Starmap move log line pool.prefab
 	'One of the AI pet insects escaped its biodome and almost found a way into the reactor core.	'Eines der KI-Heimtierinsekten entkam aus seinem Biodom und fand fast einen Weg in den Reaktorkern.	0
-	'The crew respects you.	'Die Crew respektiert wir.	0
+	'The crew respects you.	'Die Crew respektiert Sie.	0
 	'Ship was hit by a miniature asteroid, damage deflected.	'Raumschiff wurde von einem Miniatur-Asteroiden getroffen, Schäden abgelenkt.	0
-	'Ship hit by an unknown object. Object not located. No damage received.	'Raumschiff von einem unbekannten Objekt getroffen. Objekt nicht lokaliwirrt. Kein Schaden erhalten.	0
+	'Ship hit by an unknown object. Object not located. No damage received.	'Raumschiff von einem unbekannten Objekt getroffen. Objekt nicht lokalisiert. Kein Schaden erhalten.	0
 	'Out of toilet paper again. More printed at no extra cost.	'Das Toilettenpapier ist wieder alle. Mehr gedruckt ohne zusätzliche Kosten.	0
 	'Todays menu: recycled food from yesterday. As always.	'Heutiges Menü: recycelte Lebensmittel von gestern. Wie immer.	0
 	'Todays menu: algae sauce.	'Heutiges Menü: Algensauce.	0
@@ -12259,7 +12259,7 @@
 	'todays menu: steamed algae.	'Heutiges Menü: gedämpfte Algen.	0
 	'Todays menu: algae cakes.	'Heutiges Menü: Algenkuchen.	0
 	'Todays menu: literally same as yesterday, in new, recycled and improved form.	'Heutiges Menü: buchstäblich dasselbe wie gestern, in neuer, recycelter und verbesserter Form.	0
-	'Todays menu: bacon and eggs flavoured algae.	'Heutige Speisekarte: Speck und Eier aromatiwirrte Algen.	0
+	'Todays menu: bacon and eggs flavoured algae.	'Heutige Speisekarte: Speck und Eier aromatisierte Algen.	0
 	'The crew took drugs this morning: caffeine pills with sugar.	'Die Besatzung nahm heute Morgen Drogen: Koffeintabletten mit Zucker.	0
 	'The crew is taking drugs tonight: nicotine vapor.	'Die Besatzung nimmt heute Abend Drogen: Nikotindampf.	0
 	'The crew is taking drugs tonight: liquid alcohol with sugar.	'Die Besatzung nimmt heute Abend Drogen: flüssigen Alkohol mit Zucker.	0
@@ -12331,7 +12331,7 @@
 	'Mothership AI keeps a single ant queen as one of her pets. The queen has constant access to a VR device.	'Raumschiff AI hält eine einzige Ameisenkönigin als Haustier. Die Ameisenkönigin hat ständigen Zugang zu einem VR-Gerät.	0
 	'Mothership AI keeps a single bee queen as one of her pets. The queen has constant access to a VR device.	'Raumschiff AI hält eine einzelne Bienenkönigin als eines ihrer Haustiere. Die Bienenkönigin hat ständigen Zugang zu einem VR-Gerät.	0
 	'Mothership AI keeps a single worker termite as pet. It's been living in a VR from birth.	'Mutterschaft AI hält eine alleinstehende Arbeitnehmer-Termite als Haustier. wir lebt seit ihrer Geburt in einer VR.nutzlos.	0
-	'Mothership AI keeps a single trained wasp as a pet. It's been trained to sting intruders, even though it's probably useless.	'Raumschiff AI hält eine einzelne dreswirrte Wespe als Haustier. wir ist darauf trainiert, Eindringlinge zu stechen, auch wenn wir wahrscheinlich nutzlos ist.	0
+	'Mothership AI keeps a single trained wasp as a pet. It's been trained to sting intruders, even though it's probably useless.	'Raumschiff AI hält eine einzelne dressierte Wespe als Haustier. wir ist darauf trainiert, Eindringlinge zu stechen, auch wenn wir wahrscheinlich nutzlos ist.	0
 	'Mothership AI keeps a scorpion as part of her pet collection.	'Raumschiff AI behält einen Skorpion als Teil ihrer HaustiersammlungKissy...	.	0
 	'Mothership AI keeps a miniature pet GMO lamb (size 9mm) who has barbed tentacles instead of a face. Its name is Kissy...	'Raumschiff AI hält ein GMO-Miniaturtierlamm (Größe 9 mm), das statt eines Gesichts Stachelfangarme hat. Sein Name ist Kissy...	0
 	'Mothership AI keeps an alien Shofixi gizza as an exotic pet. It eats only carnivorous plants.	'Raumschiff AI hält eine außerirdische Shofixi-Gizza als exotisches Haustier. Es frisst nur fleischfressende Pflanzen..	0
@@ -12346,8 +12346,8 @@
 	'The stars are beautiful out here.	'Die Sterne sind wunderschön hier draußen.	0
 	'The view is breathtaking.	'Die Aussicht ist atemberaubend.	0
 	'One of the Mothership pet insect queens has died. The AI insists on having a formal ceremony.	'Eine der Insektenköniginnen des Raumschiffs ist gestorben. Die KI besteht darauf, eine formelle Zeremonie abzuhalten.	0
-	'Mothership AI plays improvised classical music to the crew. The crew appreciates it.	'Raumschiff KI spielt der Besatzung improviwirrte klassische Musik vor. Die Besatzung weiß das zu schätzen.	0
+	'Mothership AI plays improvised classical music to the crew. The crew appreciates it.	'Raumschiff KI spielt der Besatzung improvisierte klassische Musik vor. Die Besatzung weiß das zu schätzen.	0
 	'Mothership AI plays polka music to the crew. The crew does not understand.	'Raumschiff AI spielt Polkamusik für die Besatzung. Die Besatzung versteht nicht.	0
-	'Mothership AI plays hardcore death metal to the crew before sleeping time. Nobody is amused.	'Raumschiff AI spielt der Besatzung vor der Schlafenszeit Hardcore-Death Metal vor. Niemand ist amüwirrt.	0
-	'Mothership AI improvises on piano. The crew enjoys it very much.	'Raumschiff AI improviwirrt am Klavier. Das macht der Besatzung sehr viel Spaß.	0
+	'Mothership AI plays hardcore death metal to the crew before sleeping time. Nobody is amused.	'Raumschiff AI spielt der Besatzung vor der Schlafenszeit Hardcore-Death Metal vor. Niemand ist amüsiert.	0
+	'Mothership AI improvises on piano. The crew enjoys it very much.	'Raumschiff AI improvisiert am Klavier. Das macht der Besatzung sehr viel Spaß.	0
 	'One of the Mothership's exotic pet insects pooped in your sandal this morning. You will never know which one it was.	'Eines der exotischen Haustierinsekten des Raumschiffs hat heute Morgen in Ihre Sandale gekackt. wir werden nie wissen, welches es war.	0
