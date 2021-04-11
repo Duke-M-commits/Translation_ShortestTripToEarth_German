@@ -18,7 +18,7 @@
 # Dict entry position is not important, although if there are duplicate entries (same key) then the first one is used.
 
 # Display name should be the first non-comment, non-empty line. It marks that all the following lines are in that language.
-:displayName Deutsch_Beta 9.5.2
+:displayName Deutsch
 
 
 # Plurals forms are used like described here, except the separator is |
@@ -750,14 +750,14 @@
 	'Select all gardeners	'Alle Gärtner auswählen	0
 	'Select all scientists	'Alle Wissenschaftler auswählen	0
 	'Select all cryosleeping crewmembers	'Alle kryoschlafenden Besatzungsmitglieder auswählen	0
-	'UNOCCUPIED	'Unbeschäftigt	17
+	'UNOCCUPIED	'UNBESCHÄFTIGT	17
 	'Select all unoccupied crew	'Alle unbeschäftigten Besatzungsmitglieder auswählen	0
-	'CREW TYPES	'Besatzungstyp	17
+	'CREW TYPES	'CREW TYPEN	17
 	'Select all ordinary crew	'Alle normalen Besatzungen auswählen	0
 	'Select all pets	'Alle Haustiere auswählen	0
 	'Select all drones	'Alle Drohnen auswählen	0
 	'Select all crew	'Gesamte Besatzung auswählen	0
-'Button. Abbrevation for commemorating dead crew (rest in peace)	'RIP	'Leichen	7
+'Button. Abbrevation for commemorating dead crew (rest in peace)	'RIP	'TOTE	7
 	'Select all wounded crew & pets	'Alle verwundeten Besatzungsmitglieder und Haustiere auswählen 0
 	'Select all damaged drones	'Alle beschädigten Drohnen auswählen	0
 
