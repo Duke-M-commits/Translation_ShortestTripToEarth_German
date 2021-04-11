@@ -81,8 +81,8 @@
 'CrewPanel.cs
 	'Click to remove {0} from this role	'Klick zum Entfernen {0} von dieser Aufgabe	0
 	'Click to add {0} to this role	'Klicke zum Hinzufügen {0} zu dieser Aufgabe 0
-	'SELECT ALL CREW	'BESATZUNG AUSWÄHLEN	0
-	'DESELECT CREW	' BESATZUNG ENTWÄLEN	0
+	'SELECT ALL CREW	'GANZE CREW	0
+	'DESELECT CREW	'GANZE CREW	0
 	'Commemorate lost crew	'Der Verlorenen Besatzung gedenken	0
 	'Cannot commemorate crew during red alerts	'Die Besatzung kann bei Rotem Alarm nicht gedenken	0
 
@@ -120,7 +120,7 @@
 'HoverPanel.cs
 	'DAMAGE	'Schaden	0
 	'Ignores shield	'Ignoriert Schilde 0
-	'Ship	'Raumschiff	0
+	'Ship	'Schiff	0
 	'Module	'Module	0
 	'Shield	'Shield	0
 	'EMP	'EMP	0
@@ -318,7 +318,7 @@
 	'Survival	'Überleben	0
 	'Essential	'Unverzichtbar	0
 	'Economy	'Wirtschaft	0
-	'Other	'anderes	0
+	'Other	'Anderes	0
 	'Critical module damage! {0} max hitpoints reduced by {1}	'Kritische Modulschäden! {0} maximale Trefferpunkte um {1} reduziert	0
 	'Enemy module {0} destroyed	'Feindliches Modul {0} zerstört	0
 	'{0} destroyed	'{0} zerstörte	0
@@ -731,7 +731,7 @@
 'labAssignment.firstHoverLine	'Researchers	'Forscher	50
 'cryosleepAssignment.firstHoverLine	'Cryosleep users	'Kryoschlaf Benutzer	50
 'trainingAssignment.firstHoverLine	'Trainees	'Auszubildende	50
-	'Click on role to send an entity with best relevant skill to take care of it.\nIf a drone and living entity have the same skill level, a drone will be assigned first.\nOnly unoccupied crew can be given roles.\nDrones & pets can be assigned to limited activities only.	'Klicken wir auf "Aufgabe", um ein Wesen mit den besten relevanten Fähigkeiten zu schicken, das sich darum kümmert.\nWenn eine Drohne und ein Lebewesen die gleiche Fähigkeitsstufe haben, wird zuerst eine Drohne zugewiesen.\nNur unbesetzte Besatzung kann eine Aufgabe zugewiesen werden.\nDrohnen & Haustiere können nur begrenzten Aktivitäten zugewiesen werden.	0
+	'Click on role to send an entity with best relevant skill to take care of it.\nIf a drone and living entity have the same skill level, a drone will be assigned first.\nOnly unoccupied crew can be given roles.\nDrones & pets can be assigned to limited activities only.	'Klicken wir auf "Aufgabe", um ein Wesen mit den besten relevanten Fähigkeiten zu schicken, das sich darum kümmert.\nWenn eine Drohne und ein Lebewesen die gleiche Fähigkeitsstufe haben, wird zuerst eine Drohne zugewiesen.\nNur unbeschäftigter Besatzung kann eine Aufgabe zugewiesen werden.\nDrohnen & Haustiere können nur begrenzten Aktivitäten zugewiesen werden.	0
 	'ROLES	'Aufgaben 12
 	'Select all bridge operators	'Alle Brückenbediener auswählen	0
 	'Select all gun operators	'Alle Waffenträger auswählen	0
@@ -750,9 +750,9 @@
 	'Select all gardeners	'Alle Gärtner auswählen	0
 	'Select all scientists	'Alle Wissenschaftler auswählen	0
 	'Select all cryosleeping crewmembers	'Alle kryoschlafenden Besatzungsmitglieder auswählen	0
-	'UNOCCUPIED	'UNBESETZT	17
-	'Select all unoccupied crew	'Alle unbesetzten Besatzungsmitglieder auswählen	0
-	'CREW TYPES	'KREUZTYPEN	17
+	'UNOCCUPIED	'Unbeschäftigt	17
+	'Select all unoccupied crew	'Alle unbeschäftigten Besatzungsmitglieder auswählen	0
+	'CREW TYPES	'Besatzungstyp	17
 	'Select all ordinary crew	'Alle normalen Besatzungen auswählen	0
 	'Select all pets	'Alle Haustiere auswählen	0
 	'Select all drones	'Alle Drohnen auswählen	0
@@ -890,9 +890,9 @@
 	'In-game Time Controls	'Zeitliche Steuerung im Spiel	0
 	'Toggle power\nmanagement view	'Energie umschalten\Management Ansicht	0
 	'Crew roles panel	'Panel " Besatzungs Aufträge ".	0
-	'Crew roles panel allows you to give orders to crew very quickly.\n\nClicking on the "+" sign next to a specific role (such as "repairs" or "weapons") sends the unoccupied crew with best skill to take care of it (to repair damage or operate weapons).\n\nOnly unoccupied crew can be assigned. You will have to unassign crew first to make them available to new roles. \n\nDrones & pets can be assigned to limited activities only.\nIf a drone and living entity have the same skill level, a drone will be assigned first.	'Mit einem Klick auf das "+"-Zeichen neben einer bestimmten Aufgabe (z.B. "Reparaturen" oder "Waffen") wird die unbesetzte Besatzung mit den besten Fähigkeiten geschickt, um sich darum zu kümmern (um Schäden zu reparieren oder Waffen zu bedienen).\n\n Nur unbesetzte Besatzungen können zugewiesen werden. wir müssen die Besatzung zuerst auflösen, um wir für neue Aufgaben verfügbar zu machen. \n\nDrohnen und Haustiere können nur begrenzten Aktivitäten zugewiesen werden.\nWenn eine Drohne und ein Lebewesen die gleiche Fähigkeitsstufe haben, wird zuerst eine Drohne zugewiesen.	0
+	'Crew roles panel allows you to give orders to crew very quickly.\n\nClicking on the "+" sign next to a specific role (such as "repairs" or "weapons") sends the unoccupied crew with best skill to take care of it (to repair damage or operate weapons).\n\nOnly unoccupied crew can be assigned. You will have to unassign crew first to make them available to new roles. \n\nDrones & pets can be assigned to limited activities only.\nIf a drone and living entity have the same skill level, a drone will be assigned first.	'Mit einem Klick auf das "+"-Zeichen neben einer bestimmten Aufgabe (z.B. "Reparaturen" oder "Waffen") wird die unbeschäftige Besatzung mit den besten Fähigkeiten geschickt, um sich darum zu kümmern (um Schäden zu reparieren oder Waffen zu bedienen).\n\n Nur unbeschäftigte Besatzungen kann zugewiesen werden. wir müssen die Besatzung zuerst auflösen, um wir für neue Aufgaben verfügbar zu machen. \n\nDrohnen und Haustiere können nur begrenzten Aktivitäten zugewiesen werden.\nWenn eine Drohne und ein Lebewesen die gleiche Fähigkeitsstufe haben, wird zuerst eine Drohne zugewiesen.	0
 	'Optimizing your ship modules and crew positions for combat (or flying around economically) can take a lot of time. If you want to avoid manually changing your modules  every time when combat happens, you can simply save two presets of modules - one for maximum combat capability, and another for flying around.	'Die Optimierung Ihrer Schiffsmodule und Besatzungspositionen für den Kampf (oder das sparsame Herumfliegen) kann viel Zeit in Anspruch nehmen. Wenn wir nicht jedes Mal, wenn ein Kampf stattfindet, Ihre Module manuell austauschen wollen, können wir einfach zwei Voreinstellungen von Modulen speichern - eine für maximale Kampffähigkeit und eine weitere zum Herumfliegen.	0
-	'The two default preset buttons (one for combat, one for economically flying around) allow you to save & load module layouts (and powered on/off status), together with crew roles & positions.	'Mit den beiden voreingestellten Schaltflächen (eine für Kampf, eine für wirtschaftliches Herumfliegen) können wir Modul-Layouts (und den Ein-/Aus-Status) zusammen mit den Rollen und Positionen der Besatzung speichern und laden.	0
+	'The two default preset buttons (one for combat, one for economically flying around) allow you to save & load module layouts (and powered on/off status), together with crew roles & positions.	'Mit den beiden voreingestellten Schaltflächen (eine für Kampf, eine für ökonomisches Fortbewegung) können Sie Modul-Layouts (und den Ein-/Aus-Status) zusammen mit den Rollen und Positionen der Besatzung speichern und laden.	0
 	'You can add other custom presets, that regulate only crew for example.	'wir können weitere benutzerdefinierte Voreinstellungen hinzufügen, die z.B.   die Besatzung regeln.	0
 	'Toggle time	'spielgeschwindigkeit umschalten.	0
 	'Hold fire	'Feuer einstellen	0
@@ -1242,8 +1242,8 @@
 	'Log expand	'Protokoll anzeigen erweitern 15
 	'Toggles SOS beacon on/off.	'Schaltet die SOS Signal ein/aus.	0
 	'SOS beacon	'SOS-Signal  15
-	'Toggles ship stats window on/off.	'Schaltet das Schiffsstatistikfenster ein/aus.	0
-	'Stats	'Statistik	15
+	'Toggles ship stats window on/off.	'Schaltet das Fenster für die Schiffsinfo ein/aus.	0
+	'Stats	'Infos	15
 	'Toggles ship cargo window on/off.	'Schaltet das Schiffsfrachtfenster ein/aus.	0
 	'Toggles ship quick select window on/off.	'Toggles ship quick select window on/off.	0
 	'Quick Select	'Quick Select	15
@@ -1422,7 +1422,7 @@
 	'Click to sort by difficulty	'Klicken wir zum Sortieren nach Schwierigkeitsgrad	0
 'Button. Clicking it opens power management overlay	'DIFFICULTY	'Schwierigkeit	6
 	'Click to sort by ship name	'Klicken wir zum Sortieren nach Schiffsnamen	0
-'Button. Clicking it opens power management overlay	'SHIP	'Raumschiff	6
+'Button. Clicking it opens power management overlay	'SHIP	'SCHIFF	6
 	'Click to sort by ship survival index	'Klicken wir hier, um nach Schiffsüberlebensindex zu sortieren	0
 'Button. Clicking it opens power management overlay	'SURVIVAL INDEX	'ÜBERLÄUFIGER INDEX	6
 	'Click to sort by survived battles	'Klicken wir zum Sortieren nach überlebten Schlachten	0
@@ -1591,38 +1591,38 @@
 
 'ModuleSlot actions panel.prefab
 	'Module slot	'Modul Platz	0
-	'Click to list only slot upgrades and downgrades	'Klicken wir hier, um nur Slot-Upgrades und -Downgrades aufzulisten	0
+	'Click to list only slot upgrades and downgrades	'Nur Slot-Upgrades und -Downgrades aufzulisten	0
 	'SLOT UPGRADES	'SLOT UPGRADES	0
-	'Click to list only craftable resource packs and containers	'Klicken wir hier, um nur   herstellbare Ressourcenpakete und Container aufzulisten	0
-	'CARGO	'CARGO	0
-	'Click to list only craftable weapon and point defence modules	'Klicken wir hier, um nur herstellbare Waffen- und Punktverteidigungsmodule aufzulisten	0
+	'Click to list only craftable resource packs and containers	'Nur herstellbare Ressourcenpakete und Container aufzulisten	0
+	'CARGO	'FRACHT	0
+	'Click to list only craftable weapon and point defence modules	'Nur herstellbare Waffen- und Punktverteidigungsmodule aufzulisten	0
 	'WEAPONS	'WEAPONS	0
-	'Click to list only craftable nukes	'Klicken wir hier, um nur herstellbare Atomwaffen aufzulisten	0
+	'Click to list only craftable nukes	'Nur herstellbare Atomwaffen aufzulisten	0
 	'NUKES	'NUKES	0
-	'Click to list only craftable survival modules	'Klicken wir hier, um nur handwerklich herstellbare Überlebensmodule aufzulisten	0
+	'Click to list only craftable survival modules	'Nur herstellbare Überlebensmodule aufzulisten	0
 	'SURVIVAL	'SURVIVAL	0
-	'Click to list only craftable essential modules	'Klicken wir hier, um nur handwerklich herstellbare wesentliche Module aufzulisten	0
+	'Click to list only craftable essential modules	'Nur herstellbare wesentliche Module aufzulisten	0
 	'ESSENTIAL	'ESSENTIAL	0
-	'Click to list only craftable economy modules	'Klicken wir hier, um nur handwerkliche Wirtschaftsmodule aufzulisten	0
-'0	'ECONOMY	'ECONOMY	0
-	'Click to list only other craftable modules	'Klicken wir hier, um nur andere handwerklich herstellbare Module aufzulisten	0
+	'Click to list only craftable economy modules	'Nur herstellbare Wirtschaftsmodule aufzulisten	0
+'0	'ECONOMY	'WIRTSCHAFT	0
+	'Click to list only other craftable modules	'Nur sonstige herstellbare Module aufzulisten	0
 	'OTHER	'SONSTIGES	0
-	'GAIN	'GAIN	22
+	'GAIN	'NUTZEN	22
 	'COST	'KOSTEN	22
 
 'Player panel excess buttons.prefab
 'ResourceActionsPanel	'Cannot move with resources over cargo capacity.\nClick to convert it into <b>{0} fuel</b>	'Kann sich nicht mit Ressourcen über Ladekapazität bewegen.\nKlicken wir darauf, um wir in <b>{0} Treibstoff</b> 0 umzuwandeln
 	'Cannot move with resources over cargo capacity. We must use up or dump the excess resources!	'Die Lager sind überfüllt. Wir müssen die überschüssigen Ressourcen aufbrauchen oder Entsorgung!	0
-'Abfalldeponie materials	'Abfalldeponie	'Abfalldeponie	0
+'Dump resources	'Dump resources	'VERWERFEN	0
 'Convert to fuel	'CONV. TO FUEL	'CONV. KRAFTSTOFF	0
-	'CRAFT PACK	'HANDWERK-PAKET	0
+	'CRAFT PACK	'PAKET HERSTELLEN	0
 'ResourceActionsPanel	'Get {0} from conversion	'Holen {0} aus Konvertierung	0
 
 'Player panel.prefab
-	'[ ACCELERATED INTERNAL TIME ]	'[ spielgeschwindigkeit ]	0
+	'[ ACCELERATED INTERNAL TIME ]	'[ Spielgeschwindigkeit ]	0
 	'The speed of crew walking, repairing, healing or doing other things will accelerate when there are no threats or other bad things.	'Die Geschwindigkeit, mit der die Besatzung läuft, repariert, heilt oder andere Dinge tut, wird sich beschleunigen, wenn es keine Bedrohungen oder andere schlimme Dinge gibt.	0 
 	'Revisit this POI	'Diesen Position erneut besuchen	0
-	'REVISIT	'ÜBERPRÜFEN	0
+	'REVISIT	'WIEDER BESUCHEN	0
 	'Toggles ship log display on/off [F9]	'Schaltet die Anzeige des Schiffslogbuchs ein/aus [F9]	0
 	'Normal time	'Normale Spielgeschwindigkeit	0
 	'Fast time	'Schnelle Spielgeschwindigkeit	0
@@ -1631,20 +1631,20 @@
 	'Turns SOS beacon ON or OFF.\nDisabled while in battle.	'Schaltet die SOS-Signal ein oder aus. Wird während des Kampfes deaktiviert.	0
 'Button, deploys SOS beacon.	'SOS	'SOS	6
 	'Toggles ship exterior for easier detection of ship damage	'Schaltet die Schiffsaußenseite zur leichteren Erkennung von Schiffsschäden ein	0
-'Button, abbrevation for "exterior". Turns on exterior view (roof) of the ship.	'EXT.	'EXT.	6
+'Button, abbrevation for "exterior". Turns on exterior view (roof) of the ship.	'EXT.	'HÜLLE	6
 	'Toggles ship power overview	'Schaltet die Übersicht über die Schiffsstabilität ein und aus	0
 'Button. Clicking it opens power management overlay	'POWER	'LEISTUNG	6
 	'Toggles ship status overview panel	'Toggles ship status overview panel	0
-'Button. Additional information for player ship	'STATS	'STATS	6
+'Button. Additional information for player ship	'STATS	'INFOS	6
 	'Opens storage for unused modules	'Opens storage for unused modules	0
-	'Opens quick selection screen	'Opens quick selection screen	0
-'Button. Opens quick-selection panel for weapons	'QUICK	'QUICK	6
+	'Opens quick selection screen	'Öffnet das Fenster für die Schnellselektion	0
+'Button. Opens quick-selection panel for weapons	'QUICK	'SCHNELL	6
 	'Opens sector map. Use warp to travel between different starsystems	'Öffnet die Sektorkarte. Mit Warp zwischen verschiedenen Sternensystemen reisen	0
 'Button. Opens sector-map view/panel where player can warp.	'SECTOR	'SECTOR	6
 'Button. Opens sector-map view/panel where player can warp during battle	'ESCAPE	'ESCAPE	6
-	'Toggles starsystem view	'Toggles starsystem view	0
-'Button/Toggle. Opens starsystem view.	'STAR	'STAR	6
-	'Toggles ship view	'Toggles ship view	0
+	'Toggles starsystem view	'Schaltet zur Sternenansicht	0
+'Button/Toggle. Opens starsystem view.	'STAR	'STERNE	6
+	'Toggles ship view	'Schaltet zur Schiffansicht	0
 	'UPGRADES	'UPGRADES	10
 	'Module crafts available!	'Module crafts available!	0
 	'CRAFTABLES	'CRAFTABLES	10
@@ -1708,7 +1708,7 @@
 	'/ 100ru	'/ 100ru	0
 	'Power consumed / capacity	'Aufgenommene Leistung / Kapazität	0
 	'Return view to ship	'Ansicht zurück zum Schiff	0
-	'CREW/MODULES/POWER	'MANNSCHAFT/MODULE/LEISTUNG	22
+	'CREW/MODULES/POWER	'CREW/MODULE/LEISTUNG	22
 	'Save all current crew positions, roles and module power on/off profile	'Speichern aller aktuellen Besatzungspositionen, Rollen und Ein-/Ausschaltn der Modul profile 	0
 	'Crew/module power preset 1	'Besatzung/Modulleistung voreingestellt 1	0
 	'SAVE\nALL	'SICHERN \nALLE	16
@@ -1847,7 +1847,7 @@
 '1 P autofactories processing fuel F.prefab
 'name2	'Planet with active technology	'Planet mit aktiver Technologie	25
 'text	'This planet has a complex of automated processing facilities with no property markings. It seems the factories are slowly processing volatile chemicals into starfuel and storing it in underground containers. No active defences detected.	'Dieser Planet verfügt über einen Komplex von automatisierten Verarbeitungsanlagen ohne Eigentumsmarkierungen. Es scheint, dass die Fabriken flüchtige Chemikalien langsam zu Sterntreibstoff verarbeiten und in unterirdischen Behältern lagern. Es wurden keine aktiven Verteidigungsanlagen entdeckt.	400
-'choiceText	'Manually hack the facility locks, steal fuel [send 1 crew]	'Manuelles Hacken der Anlagenschlösser, Stehlen von Treibstoff [schicke 1 Mannschaft]	100
+'choiceText	'Manually hack the facility locks, steal fuel [send 1 crew]	'Manuelles Hacken der Anlagenschlösser, Stehlen von Treibstoff [schicke 1 Crewmitglied]	100
 'choiceText	'print digger bots, loot underground storage [-120 metals]	'Herstellen von Baggerrobotern, unterirdische Lagerung von Beute [-120 metals]	100
 'choiceText	'Leave for now	'Fürs Erste verschwinden	100
 'choiceText	'Respect property and do not disturb the operation	'Respektieren wir Eigentum und stören wir den Betrieb nicht	100
@@ -2493,7 +2493,7 @@
 'reasonToDisplay	'resources received	'resources received	30
 
 'Level 8 exit no fight.prefab
-'text2	'"Hello again! How did it go with the Spiders? I've prepared a package of refreshments for you. Looking forward to hearing your story on the way home, and getting to know you better... there's a party in our rec room tonight and your entire crew is invited, especially yourself!" The captain blushes for a brief moment.	'"Nochmals hallo! Wie ist es mit den Spinnen gelaufen? Ich habe ein Paket mit Erfrischungen für wir vorbereitet. Ich freue mich darauf, auf dem Heimweg Ihre Geschichte zu hören und wir besser kennenzulernen... heute Abend findet in unserem Aufenthaltsraum eine Party statt, zu der Ihre gesamte Mannschaft eingeladen ist, insbesondere wir selbst! Der Kapitän errötet für einen kurzen Moment.	400
+'text2	'"Hello again! How did it go with the Spiders? I've prepared a package of refreshments for you. Looking forward to hearing your story on the way home, and getting to know you better... there's a party in our rec room tonight and your entire crew is invited, especially yourself!" The captain blushes for a brief moment.	'"Nochmals hallo! Wie ist es mit den Spinnen gelaufen? Ich habe ein Paket mit Erfrischungen für wir vorbereitet. Ich freue mich darauf, auf dem Heimweg Ihre Geschichte zu hören und wir besser kennenzulernen... heute Abend findet in unserem Aufenthaltsraum eine Party statt, zu der Ihre gesamte Crew eingeladen ist, insbesondere wir selbst! Der Kapitän errötet für einen kurzen Moment.	400
 'reasonToDisplay	'resupply	'erneut beliefern	30
 
 'Level 9 exit no fight.prefab
@@ -3175,7 +3175,7 @@
 '1 P Acid plants T.prefab
 'title	'Local life	'Lokales Leben	35
 'text	'We've found primitive life, accustomed to thriving in the extremely acidic environment of this planet. We need to print ceramic armor for our operatives to work in here.	'Wir haben primitives Leben gefunden, das daran gewöhnt ist, in der extrem sauren Umgebung dieses Planeten zu gedeihen. Wir müssen Keramik-Rüstungen für unsere Agenten drucken, damit sie hier arbeiten können..	400
-'choiceText	'Research & harvest organics [-50 synthetics, send crew]	'Erforschen & ernten wir organische Stoffe [-50 Synthetik, senden Sie die Mannschaft]	100
+'choiceText	'Research & harvest organics [-50 synthetics, send crew]	'Erforschen & ernten wir organische Stoffe [-50 Synthetik, senden Sie die Crew]	100
 'choiceText	'Research only. Leave this planet otherwise untouched [send bots]	'Nur Forschung. Lassen Wir diesen Planeten ansonsten unberührt [send bots]	100
 'newName3	'exotic ecosystem	'exotisches Ökosystem	25
 'text	'harvest process... %	'Erntevorgang... %	50
@@ -3278,7 +3278,7 @@
 'title	'Cussian library	'Preußische Bibliothek	35
 'text	'It is an ancient, autonomous library built by the Cussians. Their long-disappeared civilization is infamous for its cruelty, but also love of knowledge. The library might contain both traps and valuable data. It would be unwise to attempt dismantling the entire tower... the Cussians had access to terrible weapons, including warp rays that disrupt minds.	'Es ist eine uralte, autonome Bibliothek, die von den Cussianern gebaut wurde. Ihre längst verschwundene Zivilisation ist berüchtigt für ihre Grausamkeit, aber auch für ihre Liebe zum Wissen. Die Bibliothek könnte sowohl Fallen als auch wertvolle Daten enthalten. Es wäre unklug, zu versuchen, den gesamten Turm zu demontieren... die Cussianer hatten Zugang zu schrecklichen Waffen, einschließlich Warp-Strahlen, die den Verstand stören.	400
 'choiceText	'Explore library [send crew]	'Bibliothek erkunden [Crew senden]	100
-'choiceText	'Explore library, consume exotics for mental fortitude [send crew, -1 exotics]	'Bibliothek erforschen, Exoten für mentale Stärke verbrauchen [Mannschaft schicken, -1 Exoten]	100
+'choiceText	'Explore library, consume exotics for mental fortitude [send crew, -1 exotics]	'Bibliothek erforschen, Exoten für mentale Stärke verbrauchen [Crew senden, -1 Exoten]	100
 'title	'The Cussian libary	'Die preußische Bibliothek	35
 'text2	'The corridors of the library were packed full of warp ray traps designed to permanently injure visitors. Our crew was protected from the worst warp traps due to consumed exotics. The library administration AI offered us highly valuable data for free, including maps of faraway star systems, anatomical charts of rare alien species and other technical literature.	'Die Korridore der Bibliothek waren voll mit Warpstrahlfallen, die darauf ausgelegt waren, Besucher dauerhaft zu verletzen. Unsere Crew war durch verbrauchte Exoten vor den schlimmsten Warp-Fallen geschützt. Die KI der Bibliotheksverwaltung bot uns kostenlos höchst wertvolle Daten an, darunter Karten von fernen Sternensystemen, anatomische Diagramme von seltenen Alien-Spezies und andere Fachliteratur.	400
 'text2	'The library contained a single severe trap- a warp ray effector hidden in a wall. One our crewmembers took a hit and survived due to exotics consumed earlier.The library administration AI offered us highly valuable data for free.	'Die Bibliothek enthielt eine einzige schwere Falle - einen Warpstrahleffektor, der in einer Wand versteckt war. Eines unserer Crewmitglieder wurde getroffen und überlebte dank der zuvor konsumierten Exoten. Die KI der Bibliotheksverwaltung bot uns sehr wertvolle Daten kostenlos an.	400
@@ -10171,28 +10171,28 @@
 'Perk crew 1 human adventurer.prefab
 'displayName	'The adventurer	'Der Abenteurer[läst sich nicht übersetzen]	40
 'description	'A trustworthy adventurer offers Credits for the opportunity to travel back to Earth with us. They wear an armored helmet and promise to bring along a cool handgun. ' Ein vertrauenswürdiger Abenteurer bietet Credits für die Möglichkeit, mit uns zur Erde zurückzureisen. wir tragen einen gepanzerten Helm und versprechen, eine coole Handfeuerwaffe mitzubringen. 250
-'randomizerMenuStrings[i]	'+1 crew (well-armed human)	'+1 Besatzung (gut bewaffneter Mensch) 30
+'randomizerMenuStrings[i]	'+1 crew (well-armed human)	'+1 Crewmitglied (gut bewaffneter Mensch) 30
 'randomizerMenuStrings[i]	'+40 Credits '+40 Credits 30
 
 'Perk crew 2 beedroid engineer.prefab
 'displayName	'The Beedroid engineer	'Der Beedroid-Ingenieur	40
 'description	'An alien cyborg joins the mission to repay an old favor. The entire species of Beedroids have transcended their biological bodies.	'Ein außerirdischer Cyborg schließt sich der Mission an, um einen alten Gefallen zurückzuzahlen. Die gesamte Spezies der Beedroiden hat ihren biologischen Körper transzendiert.	250
 'unlockAnnouncementText	'The alien cyborg has promised to repay a favor he received from our ship AI a hundred years ago.	'Der außerirdische Cyborg hat versprochen, einen Gefallen zurückzuzahlen, den er vor hundert Jahren von unserem Raumschiff KI erhalten hat.	100
-'randomizerMenuStrings[i]	'+1 crewmember (Beedroid engineer)	'+1 Besatzungsmitglied (Beedroid-Ingenieur)	30
+'randomizerMenuStrings[i]	'+1 crewmember (Beedroid engineer)	'+1 Crewmitglied (Beedroid-Ingenieur)	30
 
 'Perk crew best marine.prefab
 'displayName	'The marine	'The marine	40
 'description	'A marine with top grades from University of Tactical Land Warfare joins our mission. For the experience.	'Ein Marine Soldat mit Bestnoten von der University of Tactical Land Warfare schließt sich unserer Mission an. Für die Erfahrung.	250
 'unlockAnnouncementText	'A marine we've met in our travels wants to join the next time, for experience.	'Ein Marine Soldat, den wir auf unseren Reisen kennengelernt haben, möchte beim nächsten Mal dabei sein, um Erfahrungen zu sammeln.	100
 'extraCrewDescripionOverride	'A war student (tactical marine). Was recently given the highest academic award for theoretical thesis about rifles.	'Ein Kriegsstudent (taktische Marine). Erhielt kürzlich die höchste akademische Auszeichnung für seine theoretische Arbeit über Gewehre.	250
-'randomizerMenuStrings[i]	'+1 ship crew (human soldier)	'+1 Schiffsbesatzung (Menschlicher Soldat)	30
+'randomizerMenuStrings[i]	'+1 ship crew (human soldier)	'+1 Crewmitglied (Menschlicher Soldat)	30
 'randomizerMenuStrings[i]	'+5 explosives	'+5 Sprengstoffe	30
 
 'Perk crew gitchanki sensorist.prefab
 'displayName	'The Gitchanki astronomer	'Der Gitchanki-Astronom	40
 'description	'His regular lovers were a gang of female space marines who taught him everything about wrestling, handguns and ship sensors. \nHe joins only if we send 12 lifesized silver sculptures to the lovers. Each of these needs to be also covered in erotic Gitchanki poetry.	'Seine regelmäßigen Liebhaber waren eine Bande weiblicher Raumfahrtmarines, die ihm alles über Ringen, Handfeuerwaffen und Schiffssensoren beibrachten. \nEr tritt nur bei, wenn wir 12 lebensgroße Silberskulpturen an die Geliebten schicken. Jede dieser Skulpturen muss auch mit erotischer Gitchanki-Poewir bedeckt sein.	250
 'unlockAnnouncementText	'A Gitchanki individual we've met in our travels agrees to join the next time, if we fulfill certain conditions.	'Eine Gitchanki-Person, die wir auf unseren Reisen kennen gelernt haben, erklärt sich bereit, beim nächsten Mal dabei zu sein, wenn wir bestimmte Bedingungen erfüllen.	100
-'randomizerMenuStrings[i]	'+1 crew (Gitchanki astronomer)	'+1 Besatzung (Gitchanki-Astronom)	30
+'randomizerMenuStrings[i]	'+1 crew (Gitchanki astronomer)	'+1 Crewmitglied (Gitchanki-Astronom)	30
 'randomizerMenuStrings[i]	'-120 metal	'-120 Metall	30
 'randomizerMenuStrings[i]	'-12 Credits	'-12 Credits	30
 
@@ -10200,25 +10200,25 @@
 'displayName	'The Gor-Mor gardener	'The Gor-Mor gardener	40
 'description	'This Gor-Mor individual is a famous gardener-philosopher, praised highly by political leaders and spiritual acolytes who seek enlightment. He wants to help us in exhcange for exotic consumables and robot sex.	'Diese Gor-Mor-Person ist ein berühmter Gärtner-Philosoph, der von politischen Führern und spirituellen Gefolgsleuten, die die Erleuchtung suchen, hoch gelobt wird. Er möchte uns beim Austausch gegen exotische Verbrauchsmaterialien und Robotersex helfen.	250
 'unlockAnnouncementText	'A gardenerer-phiolospher we've met in our travels wants to join us, next time.	'Ein Gärtner und Philosoph, den wir auf unseren Reisen kennen gelernt haben, möchte beim nächsten Mal dabei sein.	100
-'randomizerMenuStrings[i]	'+1 crew (Gor-Mor gardener-philosopher)	'+1 Mannschaft (Gor-Mor Gärtner-Philosoph)	30
+'randomizerMenuStrings[i]	'+1 crew (Gor-Mor gardener-philosopher)	'+1 Crewmitglied (Gor-Mor Gärtner-Philosoph)	30
 
 'Perk crew grippy gunner.prefab
 'displayName	'The Grippy gunner	'Der Schütze	40
 'description	'This snake-individual used to serve in a military warship as a gunnery officer. Experienced in using all kinds of ship weapons. Regularly consumes a cocktail of intoxicants, always brings along his favourite ones.	'Dieser Schlangenmensch diente früher auf einem militärischen Kriegsschiff als Kanonieroffizier. Erfahren im Umgang mit allen Arten von Schiffswaffen. Nimmt regelmäßig einen Cocktail aus Rauschmitteln zu sich, bringt immer seine Lieblingsgetränke mit.	250
 'unlockAnnouncementText	'A Grippy ex-solider we've met in our travels wants to join us, next time.	'Ein EX-Soldat, den wir auf unseren Reisen kennen gelernt haben, möchte beim nächsten Mal dabei sein.	100
-'randomizerMenuStrings[i]	'+1 crewmember (Grippy ex-soldier)	'+1 Besatzungsmitglied ( Ex-Soldat)	30
+'randomizerMenuStrings[i]	'+1 crewmember (Grippy ex-soldier)	'+1 Crewmitglied ( Ex-Soldat)	30
 
 'Perk crew human scientist.prefab
 'displayName	'The scientist	'The scientist	40
 'description	'A scientist joins the mission, to research an obscure topic, something vaguely related to the meaning of life. They bring along some supplies.\nAll of our crew will be exclusively volunteers despite any payments, reserving the right to leave any time or ignore any orders.	'Ein Wissenschaftler schließt sich der Mission an, um ein obskures Thema zu erforschen, etwas, das vage mit dem Sinn des Lebens zu tun hat. wir bringen einige Vorräte mit. Alle unsere Besatzungsmitglieder sind trotz eventueller Zahlungen ausschließlich Freiwillige und behalten sich das Recht vor, jederzeit zu gehen oder Befehle zu ignorieren.	250
 'unlockAnnouncementText	'A scientist we've met in our travels wants to join us, next time.	'Ein Wissenschaftler, den wir auf unseren Reisen kennen gelernt haben, möchte beim nächsten Mal dabei sein.	100
-'randomizerMenuStrings[i]	'+1 crew (human scientist)	'+1 Besatzung (Humanwissenschaftler)	30
+'randomizerMenuStrings[i]	'+1 crew (human scientist)	'+1 Crewmitglied (Humanwissenschaftler)	30
 'randomizerMenuStrings[i]	'+1 exotic	'+1 Exotisch 30
 
 'Perk crew human volunteer.prefab
 'displayName	'The volunteer	'The volunteer	40
 'description	'A volunteer joins the mission. They bring along some recreational supplies.	'Ein Freiwilliger schließt sich der Mission an. wir bringen einige Freizeitartikel mit.	250
-'randomizerMenuStrings[i]	'+1 crew (human volunteer)	'+1 Besatzung (menschlicher Freiwilliger) 30
+'randomizerMenuStrings[i]	'+1 crew (human volunteer)	'+1 Crewmitglied (menschlicher Freiwilliger) 30
 'randomizerMenuStrings[i]	'+15 organics	'+15 organische Stoffe	30
 'randomizerMenuStrings[i]	'+15 synthetics	'+15 synthetics	30
 
@@ -10227,18 +10227,18 @@
 'description	'This old Lizard monk has improved fire resistance and firefighting skills due to years spent in the Temple of Fire. Likes to stay in the shower for hours.	'Dieser alte Eidechsenmönch hat dank der Jahre, die er im Feuertempel verbracht hat, seine Feuerbeständigkeit und seine Feuerbekämpfungsfertigkeiten verbessert. Er bleibt gerne stundenlang unter der Dusche.	250
 'unlockAnnouncementText	'We met this Lizardfolk individual during our travels. She wants to join us next time, if she gets the opportunity.	'Wir trafen diesen Echsenmenschen auf unseren Reisen. wir möchte beim nächsten Mal zu uns stoßen, wenn wir die Gelegenheit bekommt.	100
 'extraCrewDescripionOverride	'A Fire monk who wants to travel back to Earth to join the local Temple of Water.	'Ein Feuermönch, der zurück auf die Erde reisen möchte, um dem örtlichen Wassertempel beizutreten.	250
-'randomizerMenuStrings[i]	'+1 ship crew (lizardfolk monk)	'+1 Schiffsbesatzung (Eidechsenvolk-Mönch)	30
+'randomizerMenuStrings[i]	'+1 ship crew (lizardfolk monk)	'+1 Crewmitglied (Eidechsenvolk-Mönch)	30
 
 'Perk crew rat cook.prefab
 'displayName	'The Rat cook	'Der Rattenkoch	40
 'description	'This excellent Rat cook is also skilled in growing food and extinguishing fires - both mastered during his years in the Rat Cooking University.	'Dieser ausgezeichnete Rattenkoch beherrscht auch den Anbau von Lebensmitteln und das Löschen von Bränden - beides beherrscht er während seiner Jahre an der Rattenkochuniversität.	250
-'randomizerMenuStrings[i]	'+1 crew (Rat cook)	'+1 Besatzung (Rattenkoch)	30
+'randomizerMenuStrings[i]	'+1 crew (Rat cook)	'+1 Crewmitglied (Rattenkoch)	30
 
 'Perk crew rat mercs -creds.prefab
 'displayName	'The Rat mercenaries (x3)	'Die Ratten-Söldner (x3)	40
 'description	'A band of mercenary rats join the mission for 3 exotics. The poor fellows do not have any body augments.	'Eine Bande von Söldnerratten schließt sich der Mission für 3 Exoten an. Die armen Kerle haben keine körperlichen Erweiterungen. 250
 'unlockAnnouncementText	'A group of poor rat mercenaries have offered their services, next time we go on a journey.	'Eine Gruppe von armen Rattensöldnern hat ihre Dienste angeboten, wenn wir das nächste Mal auf eine Reise gehen.	100
-'randomizerMenuStrings[i]	'+3 crew (Rat soldiers)	'+3 Besatzung (Rattensoldaten)	30
+'randomizerMenuStrings[i]	'+3 crew (Rat soldiers)	'+3 Crewmitglieder (Rattensoldaten)	30
 'randomizerMenuStrings[i]	'-3 exotics	'-3 Exoten	30
 
 'Perk crew top cadet.prefab
@@ -11053,7 +11053,7 @@
 'altText	'We have now minimal capacity to move around. \nBut we need a <b>long-range sensor</b> to see distant objects. \nInstall the sensor into an internal slot...	'We have now minimal capacity to move around. \nBut we need a <b>long-range sensor</b> to see distant objects. \nInstall the sensor into an internal slot...	240
 'altText	'Notice that the sensor module shows a <b>lack of power icon</b>. Install another reactor to get more power...	'Notice that the sensor module shows a <b>lack of power icon</b>. Install another reactor to get more power...	240
 'altText	'Look at the top of the screen. All <b>status messages</b> appear there. \nFor example, you need engines to move...	'Look at the top of the screen. All <b>status messages</b> appear there. \nFor example, you need engines to move...	240
-'choiceTexts	'Next	'Next	15
+'choiceTexts	'Next	'Weiter	15
 'altText	'Click on the <b>SHIP</b> button. This will take us to <b>ship view</b>...	'Click on the <b>SHIP</b> button. This will take us to <b>ship view</b>...	240
 'altText	'Start by installing the reactor into one of the <b>internal module slots</b> at the back of ship. Leave slots in the front empty for weapons modules.	'Start by installing the reactor into one of the <b>internal module slots</b> at the back of ship. Leave slots in the front empty for weapons modules.	240
 'altText	'Hold down the middle mouse button and drag in order to pan the view around. Use scroll wheel to zoom. Default key binding for panning with keyboard is WASD keys.	'Hold down the middle mouse button and drag in order to pan the view around. Use scroll wheel to zoom. Default key binding for panning with keyboard is WASD keys.	240
