@@ -812,8 +812,8 @@ Game summary panel.prefab
 	Modules found:	Gefundene Module:	0
 	Planets interacted with.	Planeten, mit denen interagiert wurde.	0
 	Planets visited:	Besuchte Planeten:	0
-	Fate points gained from encouters during this run.	Fate-Punkte, die während dieses Laufs von Eindringlingen gewonnen wurden.	0
-	Fate earned:	Verdientes Fate:	0
+	Fate points gained from encouters during this run.	Schicksalspunkte, die während dieses Laufs von Eindringlingen gewonnen wurden.	0
+	Fate earned:	Verdientes Schicksal:	0
 	Each sector has an unlockable ship or a number of undiscovered perks.\nAll or most of them can be found by completing sectors.	Jeder Sektor hat ein freischaltbares Schiff oder eine Anzahl unentdeckter Perks.\nAlle oder die meisten von ihnen können durch das Abschließen von Sektoren gefunden werden.	0
 	Perks found:	Perks gefunden:	0
 	Continue	Weiter	0
@@ -1188,7 +1188,7 @@ Some code in text needs to be as is	Are you sure? Starting a new run will overwr
 	The game ends when your ship HP reaches 0.\nAny damage to module(s) might also reduce their maximum possible hitpoints.\nSpace button turns on slow-motion instead of pause.	Das Spiel endet, wenn die HP Ihres Schiffes 0 erreichen.\nJeder Schaden an Modul(en) kann auch deren maximal mögliche Trefferpunkte reduzieren.\nDie Leertaste schaltet die Zeitlupe anstelle der Pause ein.	0
 	The game ends when your ship HP reaches 0.	Das Spiel endet, wenn die HP Ihres Schiffes 0 erreichen.	0
 	Space button turns on slow-motion instead of pause.	Die Leertaste schaltet die Zeitlupe anstelle der Pause ein.	0
-	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nPermanent Perks give no bonuses.\nAlways start with 50 fate & first five ships.\nSpace pauses the game.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximalen HP des Schiffes, anstatt einfach zu sterben.\nDauerhafte Perks geben keine Boni.\nStarten Sie immer mit 50 Fate und den ersten fünf Schiffen.\nSpace pausiert das Spiel.	0
+	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nPermanent Perks give no bonuses.\nAlways start with 50 fate & first five ships.\nSpace pauses the game.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximalen HP des Schiffes, anstatt einfach zu sterben.\nDauerhafte Perks geben keine Boni.\nStarten Sie immer mit 50 Schicksalspunkten und den ersten fünf Schiffen.\nSpace pausiert das Spiel.	0
 Button in main menu	Beginner	Anfänger	0
 	Beginner difficulty	Anfänger-Schwierigkeit	0
 Button in main menu, sets game difficulty	Challenging	Herausfordernd	0
@@ -1394,7 +1394,7 @@ Button in main menu, sets game difficulty	?	?	0
 	Not enough exotics to start game!	Nicht genug Exoten, um das Spiel zu starten!	0
 	XenoData, used as currency	XenoData, verwendet als Währung	0
 	Not enough credits to start game!	Nicht genug Credits, um das Spiel zu starten!	0
-	Fate, used to unlock perks between games	Fate, wird verwendet, um Perks zwischen den Spielen freizuschalten	0
+	Fate, used to unlock perks between games	Schicksal, wird verwendet, um Perks zwischen den Spielen freizuschalten	0
 	Not enough fate to start game!	Nicht genug Schicksal, um das Spiel zu starten!	0
 	Starting bonuses from ship and selected perks	Startboni von Schiff und ausgewählten Perks	0
 	Starting bonuses	Startboni	0
@@ -1418,7 +1418,7 @@ Button in main menu, sets game difficulty	?	?	0
 	You haven't found this perk yet. Each perk can be discovered by completing a specific sector.	Sie haben diesen Perk noch nicht gefunden. Jede Perk kann durch das Abschließen eines bestimmten Sektors entdeckt werden.	0
 	Fate Points:	Schicksalspunkte:	0
 	Selection cost:	Auswahlkosten:	0
-	Fate cost of selected perks	Fate-Kosten der ausgewählten Perks	0
+	Fate cost of selected perks	Schicksal-Kosten der ausgewählten Perks	0
 Button. Resets all used fatepoints.	Reset all	Alle zurücksetzen	0
 	Try to use up all points. Unused fate points will be discarded.\nStarting new game is impossible if any starting resource is negative.	Versuchen Sie, alle Punkte zu verbrauchen. Nicht verwendete Schicksalspunkte werden verworfen.\nEin neues Spiel zu beginnen ist unmöglich, wenn eine Startressource negativ ist.	0
 	You do not have enough resources to start the game!	Sie haben nicht genug Ressourcen, um das Spiel zu beginnen!	0
