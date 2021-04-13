@@ -53,7 +53,7 @@ Crewmember.cs
 	science skill	Wissenschafts-Skill	0
 	warp skill	Warp-Skill	0
 	no skill	keine Fertigkeit	0
-	Moving to position	Position anfahren	0
+	Moving to position	Position anfliegen	0
 	Attacking {0}	Angreifen {0}	0
 	Going to repair {0}	Geht zur Reparatur {0}	0
 	Waiting until can repair {0}	Warten, bis repariert werden kann {0}	0
@@ -410,10 +410,10 @@ plural	minute|minutes	Minute|Minuten	0
 ModuleActionsPanel.cs
 	Disabled because of overload for {0:0.0} seconds	Deaktiviert wegen Überlastung für {0:0.0} Sekunden	0
 	Button disabled, because it would destroy the ship	Schaltfläche deaktiviert, da sie das Schiff zerstören würde	0
-	INSTALL	INSTALLIEREN	0
+	INSTALL	INSTALL.	0
 	MOVE	BEWEGEN	0
 	Scrap module	Modul verschrotten	0
-	Some resources go to DUMP EXCESS when scrapping	Einige Ressourcen gehen beim Verschrotten auf DUMP EXCESS	0
+	Some resources go to DUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu ÜBERSCHÜSSIGE RESSOURCEN	0
 
 ModuleDataSubpanel.cs
 	Damage to crew in hit area	Schaden an Besatzung im Trefferbereich	0
@@ -1042,7 +1042,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	If some of the selected crew are in cryosleep, giving actions will also de-freeze them.\nWhile multiple crew is selected, giving orders (right-clicking) applies to all selected crew.	Wenn sich einige der ausgewählten Crewmitglieder im Kryoschlaf befinden, werden sie durch das Erteilen von Aktionen auch aus dem Kryoschlaf geholt.\nWährend mehrere Crewmitglieder ausgewählt sind, gilt das Erteilen von Befehlen (Rechtsklick) für alle ausgewählten Crewmitglieder.	0
 	Basic resources are organics, fuel, metals, synthetics, explosives, exotics. \nThese are stored in containers with limited capacity.\n\nFlying around usually consumes both fuel & organics. Read about other resources from relevant help pages.	Grundlegende Ressourcen sind organische Stoffe, Treibstoff, Metalle, synthetische Stoffe, Sprengstoffe und exotische Stoffe. \nDiese werden in Containern mit begrenzter Kapazität gelagert.\n\nDas Herumfliegen verbraucht normalerweise sowohl Treibstoff als auch organische Stoffe. Informieren Sie sich über weitere Ressourcen auf den entsprechenden Hilfeseiten.	0
 	Hovering cursor over resource values shows total production & consumption.	Wenn Sie den Mauszeiger über die Ressourcenwerte bewegen, werden Gesamtproduktion und -verbrauch angezeigt.	0
-	Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	Die meisten Besatzungsmitglieder verbrauchen organische Stoffe in Form von Nahrung, Wasser, Luft und Erholungsmitteln, basierend auf der Reisedistanz des Schiffes im Weltraum.\n\nOrganische Stoffe können von Planeten mit Ökosystemen geerntet oder an Handelsstationen gekauft werden.\n\nVerschiedene Garten- & Nachhaltigkeitsmodule ermöglichen den Anbau von organischen Stoffen innerhalb des Schiffes.\n\nWenn die organischen Stoffe ausgehen, werden die Fähigkeiten der Besatzung aufgrund von Unzufriedenheit um 50 % reduziert.\n\nDas Fahren des Schiffes ohne organische Stoffe schadet der Besatzung aufgrund des Mangels an Lebensmitteln.	0
+	Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	Die meisten Besatzungsmitglieder verbrauchen organische Stoffe in Form von Nahrung, Wasser, Luft und Erholungsmitteln, basierend auf der Reisedistanz des Schiffes im Weltraum.\n\nOrganische Stoffe können von Planeten mit Ökosystemen geerntet oder an Handelsstationen gekauft werden.\n\nVerschiedene Garten- & Nachhaltigkeitsmodule ermöglichen den Anbau von organischen Stoffen innerhalb des Schiffes.\n\nWenn die organischen Stoffe ausgehen, werden die Fähigkeiten der Besatzung aufgrund von Unzufriedenheit um 50 % reduziert.\n\nDas Fliegen des Schiffes ohne organische Stoffe schadet der Besatzung aufgrund des Mangels an Lebensmitteln.	0
 	Fuel is mostly consumed by warping between starsystems.\nWarpdrives typically need 40-50 fuel per jump.\nFuel is also consumed by engines and reactors when driving around in starsystems.\nAdditionally, exploration and other planetary operations sometimes consumes small amounts of fuel.	Treibstoff wird hauptsächlich beim Warpen zwischen Sternensystemen verbraucht.\nWarantriebe benötigen typischerweise 40-50 Treibstoff pro Sprung.\nTreibstoff wird auch von Triebwerken und Reaktoren verbraucht, wenn man in Sternensystemen herumfährt.\nZusätzlich verbrauchen Erkundungen und andere planetare Operationen manchmal kleine Mengen an Treibstoff.	0
 	Options for gaining fuel	Optionen zur Gewinnung von Treibstoff	0
 	1.\nUse converter modules (if you have them) to convert organics or other resources into fuel.	1.\nVerwenden Sie Konvertermodule (wenn Sie sie haben), um organische Stoffe oder andere Ressourcen in Treibstoff umzuwandeln.	0
@@ -1476,11 +1476,11 @@ dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht
 Module actions panel.prefab
 	Module inherent armor (chance to negate attacks)	Modul inhärente Rüstung (Chance, Angriffe zu negieren)	0
 	Select underlaying slot	Unterlegenen Slot auswählen	0
-Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	SCHLITZ AUSWÄHLEN	16
+Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	SLOT AUSW.	16
 	Scrap module\norganics +30\nfuel +10	Schrottmodul\Anorganik +30\Brennstoff +10	0
-Button. Scrap/recycle module to materials	SCRAP	SCRAP	6
+Button. Scrap/recycle module to materials	SCRAP	SCHROTT	6
 	Confirm scrap module\norganics +30\nfuel +10	Bestätigen Sie Schrottmodul\norganics +30\nfuel +10	0
-Button. Shown after module Scrap button was pressed	ARE\nYOU\nSURE?	SIND SIE SICHER?	6
+Button. Shown after module Scrap button was pressed	ARE\nYOU\nSURE?	SICHER?	6
 	Place in storage	Einlagern	0
 Button. Pack & place module to ship storage, abbreviation may be required	STORE	LAGERN	6
 Button. Can be 2 words, word no longer than 6 letters. Weapon module stops shooting; , abbreviation might be required"	STOP FIRING	SCHÜTZEN STOPPEN	16
@@ -1622,7 +1622,7 @@ ModuleSlot actions panel.prefab
 Player panel excess buttons.prefab
 ResourceActionsPanel	Cannot move with resources over cargo capacity.\nClick to convert it into <b>{0} fuel</b>	Kann sich nicht mit Ressourcen über der Ladekapazität bewegen.\nKlicken Sie, um es in <b>{0} Treibstoff</b> umzuwandeln	0
 	Cannot move with resources over cargo capacity. We must use up or dump the excess resources!	Kann sich nicht mit Ressourcen über der Frachtkapazität bewegen. Die überschüssigen Ressourcen müssen verbraucht oder entsorgt werden!	0
-Dump excess materials	DUMP EXCESS	ÜBERSCHÜSSIGE RESSOURCEN ENTSORGEN	0
+Dump excess materials	DUMP EXCESS	ÜBERSCHUSS VERWERFEN	0
 Convert to fuel	CONV. TO FUEL	KONV. IN TREIBSTOFF	0
 	CRAFT PACK	PAKET HERSTELLEN	0
 ResourceActionsPanel	Get {0} from conversion	Sie bekommen {0} aus der Konvertierung	0
@@ -1675,18 +1675,18 @@ Maximum letters on one row: 10, possible 2 rows	HOSTILE\nSHIPS	FEINDLICHE SCHIFF
 	Can't warp.\nToo far from stars	Kann nicht warpen.\nZu weit von Sternen entfernt	0
 Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU WEIT	10
 	No fuel, cannot move.\nScrap some less valuable fuel-yielding modules/nukes,\nor use the SOS-beacon.	Kein Treibstoff, kann sich nicht bewegen.\nVerschrotten Sie einige weniger wertvolle treibstoffproduzierende Module/Nukes,\noder benutzen Sie die SOS-Bake.	0
-	No organics.\nDriving around will risk damaging crew health due to lack of life supplies.	Keine organischen Stoffe.\nWenn Sie herumfahren, riskieren Sie eine Schädigung der Gesundheit der Crew aufgrund fehlender Lebensvorräte.	0
+	No organics.\nDriving around will risk damaging crew health due to lack of life supplies.	Keine organischen Stoffe.\nWenn Sie herumfliegen, riskieren Sie eine Schädigung der Gesundheit der Crew aufgrund fehlender Lebensvorräte.	0
 	No explosives.\nWeapons that need explosives cannot fire.\nReplace them if possible.	Keine Sprengstoffe.\nWaffen, die Sprengstoffe benötigen, können nicht feuern.\nErsetzen Sie sie, wenn möglich.	0
-	No synthetics, module repairs not possible.\nConsider scrapping less useful modules if you need more synthethics.	Keine Kunststoffe, Modulreparaturen nicht möglich.\nBetrachten Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Kunststoffe benötigen.	0
-	No metals, ship hull repair not possible.\nConsider scrapping less useful modules if you need more metal.\nUse caution with hostile fleets.	Keine Metalle, Reparatur der Schiffshülle nicht möglich.\nBetrachten Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Metall benötigen.\nSeien Sie vorsichtig bei feindlichen Flotten.	0
+	No synthetics, module repairs not possible.\nConsider scrapping less useful modules if you need more synthethics.	Keine Kunststoffe, Modulreparaturen nicht möglich.\nBedenken Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Kunststoffe benötigen.	0
+	No metals, ship hull repair not possible.\nConsider scrapping less useful modules if you need more metal.\nUse caution with hostile fleets.	Keine Metalle, Reparatur der Schiffshülle nicht möglich.\nBedenken Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Metall benötigen.\nSeien Sie vorsichtig bei feindlichen Flotten.	0
 	Excess cargo, cannot move!\nIt is sometimes possible to convert excess cargo to small amounts of fuel.	Überschüssige Fracht, kann nicht bewegt werden!\nEs ist manchmal möglich, überschüssige Fracht in kleine Mengen Treibstoff umzuwandeln.	0
-	EXCESS	EXZESS	10
+	EXCESS	ÜBERSCHUSS	10
 	Bridge not functional.\nAll remote module operations stopped (manual operation only).	Brücke nicht funktionsfähig.\nAlle ferngesteuerten Moduloperationen wurden gestoppt (nur manuelle Bedienung).	0
 	OFFLINE	OFFLINE	10
-	Engine not functional, cannot drive.\nNo evasion bonus during combat.\nUse the SOS-beacon if no other options are available.	Motor nicht funktionsfähig, kann nicht fahren.\nKein Ausweichbonus während des Kampfes.\nVerwenden Sie die SOS-Bake, wenn keine anderen Optionen verfügbar sind.	0
-	Sensor not functional, minimal vision range only!\nWe're driving practically blind.	Sensor nicht funktionsfähig, nur minimaler Sichtbereich!\nWir fahren praktisch blind.	0
-	Fuel low!\nConsider re-routing towards closest gas giants or stations.	Treibstoff knapp!\nBetrachten Sie die Umleitung zum nächsten Gasriesen oder zur nächsten Tankstelle.	0
-	Organics low!\nConsider cryofreezing some crew or seek planets with biosphere.	Organik knapp!\nBetrachten Sie das Einfrieren einiger Crewmitglieder oder suchen Sie Planeten mit Biosphäre.	0
+	Engine not functional, cannot drive.\nNo evasion bonus during combat.\nUse the SOS-beacon if no other options are available.	Motor nicht funktionsfähig, kann nicht fliegen.\nKein Ausweichbonus während des Kampfes.\nVerwenden Sie die SOS-Bake, wenn keine anderen Optionen verfügbar sind.	0
+	Sensor not functional, minimal vision range only!\nWe're driving practically blind.	Sensor nicht funktionsfähig, nur minimaler Sichtbereich!\nWir fliegen praktisch blind.	0
+	Fuel low!\nConsider re-routing towards closest gas giants or stations.	Treibstoff knapp!\nBedenken Sie die Umleitung zum nächsten Gasriesen oder zur nächsten Tankstelle.	0
+	Organics low!\nConsider cryofreezing some crew or seek planets with biosphere.	Organik knapp!\nBedenken Sie das Einfrieren einiger Crewmitglieder oder suchen Sie Planeten mit Biosphäre.	0
 	Synthetics low!\nSynthethics are necessary to repair modules.\nRecycling almost any module will provide more synthetics.	Synthetics low!\nSynthethics sind notwendig, um Module zu reparieren.\nDas Recyceln fast aller Module liefert mehr Synthetics.	0
 	Metals low!\nMetals are necessary when repairing ship hull with crew.\nRecycling tech modules will usually provide some metals.	Metalle niedrig!\nMetalle werden benötigt, um Schiffsrümpfe mit Besatzung zu reparieren.\nDas Recyceln von Tech-Modulen wird normalerweise einige Metalle liefern.	0
 	Explosives low.\nWeapons that need explosives will soon run out of ammo!	Explosivstoffe niedrig!\nWaffen, die Explosivstoffe benötigen, haben bald keine Munition mehr!	0
@@ -1695,7 +1695,7 @@ Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU WEIT	10
 	Enemy ship is warming up its warpdrive.	Feindliches Schiff wärmt seinen Warpantrieb auf.	0
 	Enemy ship is self destructing.	Feindliches Schiff ist selbstzerstörerisch.	0
 	Fuel containers are almost full.	Die Treibstoffbehälter sind fast voll.	0
-Maximum letters on one row: 10, possible 2 rows	ALMOST\nFULL	ALMOST\nFULL	10
+Maximum letters on one row: 10, possible 2 rows	ALMOST\nFULL	FAST\nVOLL	10
 	Synthetics containers are almost full.	Synthetik-Container sind fast voll.	0
 	Organics containers are almost full.	Organik-Container sind fast voll.	0
 	Metals containers are almost full.	Metallcontainer sind fast voll.	0
@@ -1723,7 +1723,7 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	LOAD\nALL	LADEN	16
 	Click to choose what is saved in this preset	Klicken Sie auf , um auszuwählen, was in diesem Preset gespeichert werden soll	0
 	Close preset editor	Preset-Editor schließen	0
-	CONFIRM/CLOSE	BESTÄTIGEN/SCHLIESSEN	16
+	CONFIRM/CLOSE	SCHLIESSEN	16
 	Remove this preset	Dieses Preset entfernen	0
 	REMOVE	REMOVE	16
 	Click to turn on/off crew position, role and\nmodule assignment saving in this preset.	Klicken Sie hier, um das Speichern der Crew-Position, der Rolle und der Modulzuweisung in diesem Preset ein- oder auszuschalten.	0
@@ -1751,7 +1751,7 @@ Button. Additional information for player ship	PRESS TO RESUME FIRE	DRÜCKEN, UM
 	Dodge	Ausweichen	0
 Button. Additional information for player ship	DODGE	DODGE	20
 Button. Additional information for player ship	45s	45s	20
-	Add quickselection slot	Schnellwahlschlitz hinzufügen	0
+	Add quickselection slot	Schnellwahlslot hinzufügen	0
 	Remove quickselection slot	Schnellwahleinschub entfernen	0
 	SELECT MODULE/CREW THEN R-CLICK TO PLACE INTO QUICK SELECTION BOX	MODUL/BESATZUNG AUSWÄHLEN, DANN R-KLICK ZUM PLATZIEREN IN SCHNELLAUSWAHLBOX	0
 	Select module/crew then R-click to place into quick selection box	Modul/Besatzung auswählen und mit R-Klick in Schnellauswahlbox platzieren	0
@@ -1768,7 +1768,7 @@ comtipText	Would you like to see an overview of most common weapon types?	Möcht
 	Place to storage	In den Speicher legen	0
 	Confirm scrap module	Schrottmodul bestätigen	0
 	Install [M]	Installieren [M]	0
-	Some resources go to\nDUMP EXCESS when scrapping	Einige Ressourcen gehen beim Verschrotten auf\nDUMP EXCESS	0
+	Some resources go to\nDUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu\nÜBERSCHÜSSIGE RESSOURCEN	0
 	STORE ALL & CLOSE	ALLES SPEICHERN & SCHLIESSEN	0
 	SALVAGED MODULES	GEBORGENE MODULE	0
 	Crew total hitpoints found/lost	Crew-Gesamt-Hitpoints gefunden/verloren	0
@@ -1802,10 +1802,10 @@ comtipText	Want to learn more about exotics?	Möchten Sie mehr über Exotika erf
 comtipText	Want to get some tips about trade stations?	Möchten Sie Tipps zu Handelsstationen erhalten?	240
 	Ship repairs	Schiffsreparaturen	0
 	Average price when sold by stations: 2 credits.\nHaving enough fuel for a few warpjumps should be always your priority.	Durchschnittlicher Preis beim Verkauf durch Stationen: 2 Credits.\nGenug Treibstoff für ein paar Warpsprünge zu haben, sollte immer Ihre Priorität sein.	0
-	STARFUEL	STARFUEL	0
-	Confirm	Bestätigen Sie	0
+	STARFUEL	KRAFTSTOFF	0
+	Confirm	Bestätigen	0
 	not enough materials	nicht genug Materialien	0
-Refers to shop	Store	Speichern	0
+Refers to shop	Store	Händler	0
 	Buy 1	1 kaufen	0
 	Sell 1	Verkaufen 1	0
 	Buy:	Kaufen:	0
@@ -1813,11 +1813,11 @@ Refers to shop	Store	Speichern	0
 	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Credits.\nOrganika sind notwendig, um optimale Crew-Fähigkeiten und Heilung zu erhalten.	0
 	ORGANICS	ORGANISCHE	0
 	Average price when sold by stations: 4 credits.\nExplosives are used by projectile- and missile weapons.	Durchschnittlicher Preis beim Verkauf an Stationen: 4 Credits.\nExplosivstoffe werden von Projektil- und Raketenwaffen verwendet.	0
-	EXPLOSIVES	EXPLOSIVSTOFFE	0
+	EXPLOSIVES	SPRENGSTOFFE	0
 	Average price when sold by stations: 50 credits.\nExotics are an alternative currency to xenodata. Most automated trader stations accept exotics even if they don't buy any other resources.	Durchschnittlicher Preis beim Verkauf durch Stationen: 50 Credits.\nExotika sind eine alternative Währung zu Xenodaten. Die meisten automatischen Handelsstationen akzeptieren Exotika, auch wenn sie keine anderen Ressourcen kaufen.	0
-	EXOTICS	EXOTICS	0
+	EXOTICS	EXOTEN	0
 	Average price when sold by stations: 2 credits.\nSynthethics are consumed when repairing broken ship modules.	Durchschnittlicher Preis beim Verkauf durch Stationen: 2 Credits.\nSynthethika werden bei der Reparatur von kaputten Schiffsmodulen verbraucht.	0
-	SYNTHETICS	SYNTHETIKEN	0
+	SYNTHETICS	SYNTHETIK	0
 	Average price when sold by stations: 1 credits.\nSMetals are mostly used for creating temporary planetary structures during exploration events.	Durchschnittlicher Preis beim Verkauf durch Stationen: 1 Credits.\nMetalle werden meist für die Erstellung temporärer planetarer Strukturen während Erkundungsereignissen verwendet.	0
 	METALS	METALLE	0
 	NOT AVAILABLE	NICHT VERFÜGBAR	0
@@ -1842,14 +1842,14 @@ Refers to shop	Store	Speichern	0
 	Hire	anheuern	0
 	Select a crewmember to hire	Wählen Sie ein Crewmitglied zum Anheuern	0
 	Exit the shop	Verlassen Sie den Shop	0
-	EXIT	EXIT	0
+	EXIT	VERLASSEN	0
 
 Starmap log panel.prefab
 	Expand/shrink log window	Log-Fenster vergrößern/verkleinern	0
 
 Storage panel.prefab
-	Storage for modules only	Speicher nur für Module	0
-	RIGHT-CLICK ON SHIP MODULE SLOT TO INSTALL	RECHTSKLICK AUF SCHIFFSMODULPLATZ ZUM INSTALLIEREN	0
+	Storage for modules only	Frachtraum für Module	0
+	RIGHT-CLICK ON SHIP MODULE SLOT TO INSTALL	RECHTSKLICK AUF SCHIFFSMODULPLATZ UM ZU INSTALLIEREN	0
 	Times module has lost 50% of remaining max health	Zeitmodul hat 50% der verbleibenden maximalen Gesundheit verloren	0
 
 Unlock item panel.prefab
@@ -1998,8 +1998,8 @@ reasonToDisplay	Attack repelled	Angriff abgewehrt	30
 text	fighting...	Kämpfe...	50
 text	covert assault operation... %	verdeckter angriffsversuch... %	50
 text	We were still exploring the field when we discovered an anomaly in the middle of the asteroids. It is a wobbling, sparkling ball of plasma like a miniature sun, twitching in nervous, chaotic movements.	Wir waren noch dabei, das Feld zu erkunden, als wir eine Anomalie in der Mitte der Asteroiden entdeckten. Es ist ein taumelnder, funkelnder Plasmaball wie eine Miniatursonne, der in nervösen, chaotischen Bewegungen zuckt.	400
-choiceText	Drive closer	Näher ranfahren	100
-choiceText	Leave quickly	Schnell wegfahren	100
+choiceText	Drive closer	Näher ranfliegen	100
+choiceText	Leave quickly	Schnell wegfliegen	100
 text2	The anomaly erupts into an ultrahot ball of light that begins to rapidly expand, soon covering the entire area, along with our ship and the asteroid field. Our ship gets burned and we lose some external equipment.	Die Anomalie bricht in einen ultraheißen Lichtball aus, der sich schnell auszudehnen beginnt und bald das gesamte Gebiet bedeckt, zusammen mit unserem Schiff und dem Asteroidenfeld. Unser Schiff wird verbrannt und wir verlieren einige externe Geräte.	400
 title	Debris	Trümmer	35
 text2	The asteroids themselves hold little mining value, but we discovered a cloud of spaceship debris among the rocks.	Die Asteroiden selbst haben wenig Bergbauwert, aber wir haben eine Wolke von Raumschifftrümmern zwischen den Felsen entdeckt.	400
@@ -2087,7 +2087,7 @@ text2	We cut the worm into several pieces before melting the ice. Researching th
 text2	We started the process by attempting to cut the worm into pieces before melting the ice. Unfortunately, immediately when the worm got cut, it woke and shattered the encasing ice into a million pieces. A short battle ensued. The worm was still weak from its years of rest.	Wir begannen den Prozess, indem wir versuchten, den Wurm vor dem Schmelzen des Eises in Stücke zu schneiden. Unglücklicherweise erwachte der Wurm sofort, als er geschnitten wurde, und zerschmetterte das ihn umgebende Eis in eine Million Stücke. Es folgte ein kurzer Kampf. Der Wurm war noch schwach von seiner jahrelangen Ruhe.	400
 text	We discovered an anomaly inside the asteroids. It is a geometrically shaped ultra-dense formation of matter that seems to manipulate nearby asteroids with warp energies. It seems to ignore us.	Wir entdeckten eine Anomalie im Inneren der Asteroiden. Es ist eine geometrisch geformte, ultradichte Materieformation, die nahegelegene Asteroiden mit Warpenergien zu manipulieren scheint. Sie scheint uns zu ignorieren.	400
 choiceText	Attempt to communicate	Versuch der Kommunikation	100
-text2	As we drive closer, one of the rocks that the anomaly is working with is hurled at us! This seems like a pretty clear indication that we are not wanted here.	Als wir näher heranfahren, wird einer der Felsen, mit denen die Anomalie arbeitet, nach uns geschleudert! Das scheint ein ziemlich deutlicher Hinweis darauf zu sein, dass wir hier nicht erwünscht sind.	400
+text2	As we drive closer, one of the rocks that the anomaly is working with is hurled at us! This seems like a pretty clear indication that we are not wanted here.	Als wir näher heranfliegen, wird einer der Felsen, mit denen die Anomalie arbeitet, nach uns geschleudert! Das scheint ein ziemlich deutlicher Hinweis darauf zu sein, dass wir hier nicht erwünscht sind.	400
 text	Somebody suggests we could shoot the bastard-of-an anomaly back. The AI notes that there are no records of anybody "neutralizing" such an anomaly by destructive means, so far.	Jemand schlägt vor, wir könnten die Anomalie zurückschießen. Die KI stellt fest, dass es bisher keine Aufzeichnungen darüber gibt, dass jemand eine solche Anomalie mit zerstörerischen Mitteln "neutralisiert" hat.	400
 choiceText	Shoot the anomaly	Die Anomalie abschießen	100
 text2	We opt for caution and leave the area. Even this brief encounter with the anomaly is scientifically significant.	Wir entscheiden uns für Vorsicht und verlassen das Gebiet. Selbst diese kurze Begegnung mit der Anomalie ist wissenschaftlich bedeutsam.	400
@@ -2351,7 +2351,7 @@ text2	This planet bears visible markings of crude biomass harvesting. It seems t
 text2	Minerals valuable for us are too deep for quick extraction. Not as deep as the meaning of your life though.	Für uns wertvolle Mineralien liegen zu tief, um sie schnell abzubauen. Allerdings nicht so tief wie der Sinn Ihres Lebens.	400
 text2	Although the visuals of this planet are very nice, its highly corrosive atmosphere and poor resources are a combination not worthy of our time.	Obwohl die Optik dieses Planeten sehr schön ist, sind seine stark korrosive Atmosphäre und die geringen Ressourcen eine Kombination, die unserer Zeit nicht würdig ist.	400
 text2	Our AI sent a bot into the atmosphere for good measure and recorded many beautiful images of the local clouds. She later invited everybody to look at her collection of videos of clouds, but sadly, nobody came. She watched all of them alone.	Unsere KI hat vorsichtshalber einen Bot in die Atmosphäre geschickt und viele schöne Bilder von den dortigen Wolken aufgenommen. Später lud sie alle ein, sich ihre Sammlung von Wolkenvideos anzuschauen, aber leider kam niemand. Sie schaute sie sich alle alleine an.	400
-text2	Some of our crew wanted to take a closer look and entered the atmosphere in shuttles. Nothing interesting was found, but the crew had a good time speeding around in the atmosphere and admiring the local visuals.osphere and admiring the local visuals.	Einige aus der Crew wollten sich das genauer ansehen und stiegen mit Shuttles in die Atmosphäre ein. Es wurde nichts Interessantes gefunden, aber die Crew hatte eine gute Zeit, in der Atmosphäre herumzufahren und die lokalen Visuals zu bewundern.osphere und die lokalen Visuals zu bewundern.	400
+text2	Some of our crew wanted to take a closer look and entered the atmosphere in shuttles. Nothing interesting was found, but the crew had a good time speeding around in the atmosphere and admiring the local visuals.osphere and admiring the local visuals.	Einige aus der Crew wollten sich das genauer ansehen und stiegen mit Shuttles in die Atmosphäre ein. Es wurde nichts Interessantes gefunden, aber die Crew hatte eine gute Zeit, in der Atmosphäre herumzufliegen und die lokalen Visuals zu bewundern.osphere und die lokalen Visuals zu bewundern.	400
 text2	Some of our crew wanted a closer look on the planet's surface and landed. Stumps of half-fossilized giant trees speck the landscape. This planet used to be covered with immense forests. it now looks like a beautiful forest graveyard. Some seeds and microscopic organisms will survive the ice-age, and one day this land will spring to life again.	Einige der Crew wollten sich die Oberfläche des Planeten genauer ansehen und landeten. Stümpfe von halb versteinerten Baumriesen säumen die Landschaft. Dieser Planet war einst mit riesigen Wäldern bedeckt. Jetzt sieht er aus wie ein schöner Waldfriedhof. Einige Samen und mikroskopisch kleine Organismen werden die Eiszeit überleben, und eines Tages wird dieses Land wieder zum Leben erwachen.	400
 text2	The planet is beautiful, but lacks valuable resources.	Der Planet ist wunderschön, aber es fehlt ihm an wertvollen Ressourcen.	400
 text2	Somebody has recently strip-mined this whole planet. The whole ecosystem is brutally messed up, all of the larger species have already died out. Only tiny scavenger worms and fungi have thrived because of the catastrophe. It might take millions of years for new larger species to evolve here.	Jemand hat vor kurzem den ganzen Planeten im Tagebau ausgebeutet. Das ganze Ökosystem ist brutal durcheinander geraten, alle größeren Arten sind bereits ausgestorben. Nur winzige Aasfresser-Würmer und Pilze haben durch die Katastrophe überlebt. Es könnte Millionen von Jahren dauern, bis sich hier neue größere Arten entwickeln.	400
@@ -5941,7 +5941,7 @@ choiceText	Take research samples and get the hell out of here	Forschungsproben n
 newName3	warp animal colony	Warptier-Kolonie	25
 title	Operation evacuated	Operation evakuiert	35
 text2	The warp animals started gathering around our harvesting operation and display signs of agitated behaviour. We quickly packed up and left.	Die Warptiere begannen, sich um unsere Ernteaktion zu versammeln und zeigten Anzeichen von unruhigem Verhalten. Wir packten schnell zusammen und zogen ab.	400
-text2	Soon after we had printed the harvester bots and brought them on the planet, the warp animals attacked. They zapped our machines and operatives with deadly warp rays. We are now driving away from the planet at max speed...	Kurz nachdem wir die Harvester-Bots gedruckt und auf den Planeten gebracht hatten, griffen die Warptiere an. Sie zappten unsere Maschinen und Arbeiter mit tödlichen Warp-Strahlen. Wir fahren jetzt mit Höchstgeschwindigkeit vom Planeten weg...	400
+text2	Soon after we had printed the harvester bots and brought them on the planet, the warp animals attacked. They zapped our machines and operatives with deadly warp rays. We are now driving away from the planet at max speed...	Kurz nachdem wir die Harvester-Bots gedruckt und auf den Planeten gebracht hatten, griffen die Warptiere an. Sie zappten unsere Maschinen und Arbeiter mit tödlichen Warp-Strahlen. Wir fliegen jetzt mit Höchstgeschwindigkeit vom Planeten weg...	400
 text	escaping... %	und fliehen... %	50
 title	Warp hunters	Warp-Jäger	35
 text	The warp animals show no signs of stopping the chase and have congregated into a hunting formation. We must make a decision quickly, while we still have the chance.	Die Warptiere machen keine Anstalten, die Verfolgung einzustellen und haben sich zu einer Jagdformation versammelt. Wir müssen schnell eine Entscheidung treffen, solange wir noch die Chance dazu haben.	400
@@ -5951,7 +5951,7 @@ choiceText	Mine our trail with explosives [-50 explosives]	Verminen Sie unsere S
 text2	Soon after we entered the atmosphere, a large swarm of warp animals confronted us. An eyeblink later, they attacked, zapping our ship with warp rays. We turned around and retreated, but the animals are following us...	Kurz nachdem wir in die Atmosphäre eingetreten waren, trat uns ein großer Schwarm Warptiere entgegen. Einen Wimpernschlag später griffen sie an und beschossen unser Schiff mit Warp-Strahlen. Wir drehten um und zogen uns zurück, aber die Tiere verfolgen uns...	400
 title	Warp animals	Warptiere	35
 text	We accelerate our engines to max speed and gain some distance, but the animals catch up by creating personal warpholes. The herd shows no sign of stopping the hunt, they have almost surrounded us!	Wir beschleunigen unsere Triebwerke auf maximale Geschwindigkeit und gewinnen etwas Abstand, aber die Tiere holen uns ein, indem sie persönliche Warpflöcher erzeugen. Die Herde zeigt keine Anzeichen, die Jagd zu beenden, sie haben uns fast umzingelt!	400
-choiceText	We cannot overburn the engines again, let's just drive!	Wir dürfen die Motoren nicht wieder überdrehen, fahren wir einfach weiter!	100
+choiceText	We cannot overburn the engines again, let's just drive!	Wir dürfen die Motoren nicht wieder überdrehen, fliegen wir einfach weiter!	100
 choiceText	Attempt to distract them with edibles [-100 organics or less]	Versuchen Sie, sie mit Essbarem abzulenken [-100 organische Stoffe oder weniger]	100
 text2	Practically submerging the engines in starfuel, we accelerate our engines to max speed and manage to speed out from the circle of warp animals closing in on us. The sudden acceleration also produces a minor malfunction, leading to loss of ship integrity.	Wir tauchen die Triebwerke praktisch in Sternentreibstoff ein, beschleunigen unsere Triebwerke auf maximale Geschwindigkeit und schaffen es, aus dem Kreis der Warptiere, die sich uns nähern, herauszufliegen. Die plötzliche Beschleunigung verursacht auch eine kleine Fehlfunktion, die zum Verlust der Schiffsintegrität führt.	400
 reasonToDisplay	engine overburn	Triebwerksüberbrennen	30
@@ -6237,7 +6237,7 @@ displayName	Terran beacon	Terranisches Leuchtfeuer	25
 name2	((stealthy signal))	((verstohlenes Signal))	25
 text2	We leave the beacon behind, to warn & inform other Earth ships. It will probably continue its job for hundreds of years to come.	Wir lassen das Leuchtfeuer zurück, um andere Erdenschiffe zu warnen und zu informieren. Es wird wahrscheinlich noch Hunderte von Jahren seine Aufgabe erfüllen.	400
 title	Terran military beacon	Terranische Militärbake	35
-text2	The Squids have overlooked this Earth military spy beacon. Its pings are scrambled to conceal them as background static. The beacon's miniature AI gives a summary of recent local events. \nNot much has happened here, but the beacon has data about passing Squid ships and their technical details. It appears most of the ships were armed with ray weapons. What should we do with the beacon?	Die Squids haben diese militärische Spionagebake der Erde übersehen. Seine Pings sind verschlüsselt, um sie als Hintergrundrauschen zu verbergen. Die Miniatur-KI der Bake gibt eine Zusammenfassung der letzten lokalen Ereignisse. \Nicht viel ist hier passiert, aber die Bake hat Daten über vorbeifahrende Squid-Schiffe und deren technische Details. Es scheint, dass die meisten Schiffe mit Strahlenwaffen bewaffnet waren. Was sollen wir mit der Bake machen?	400
+text2	The Squids have overlooked this Earth military spy beacon. Its pings are scrambled to conceal them as background static. The beacon's miniature AI gives a summary of recent local events. \nNot much has happened here, but the beacon has data about passing Squid ships and their technical details. It appears most of the ships were armed with ray weapons. What should we do with the beacon?	Die Squids haben diese militärische Spionagebake der Erde übersehen. Seine Pings sind verschlüsselt, um sie als Hintergrundrauschen zu verbergen. Die Miniatur-KI der Bake gibt eine Zusammenfassung der letzten lokalen Ereignisse. \Nicht viel ist hier passiert, aber die Bake hat Daten über vorbeifliegende Squid-Schiffe und deren technische Details. Es scheint, dass die meisten Schiffe mit Strahlenwaffen bewaffnet waren. Was sollen wir mit der Bake machen?	400
 choiceTexts	Leave it to warn other Earth ships	Es als Warnung für andere Erdenschiffe stehen lassen	100
 choiceTexts	Scrap it [expected value: ~40 synthetics]	Verschrotten [Erwarteter Wert: ~40 Synthetik]	100
 text2	Beacon scrapped.	Bake verschrottet.	400
@@ -9975,8 +9975,8 @@ unlockAnnouncementText	The whole crew has collectively realized the importance o
 randomizerMenuStrings[i]	+35 fuel	+35 Kraftstoff	30
 
 Perk add fuel 3, passing ship.prefab
-displayName	A passing tanker	Ein vorbeifahrender Tanker	40
-description	A passing GuGurkian fuel tanker captain is willing to barter some of his starfuel for a small list of spare parts.	Ein vorbeifahrender gu-gurkischer Tankerkapitän ist bereit, etwas von seinem Sternentreibstoff gegen eine kleine Liste von Ersatzteilen einzutauschen.	250
+displayName	A passing tanker	Ein vorbeifliegender Tanker	40
+description	A passing GuGurkian fuel tanker captain is willing to barter some of his starfuel for a small list of spare parts.	Ein vorbeifliegender gu-gurkischer Tankerkapitän ist bereit, etwas von seinem Sternentreibstoff gegen eine kleine Liste von Ersatzteilen einzutauschen.	250
 unlockAnnouncementText	During our travels, we've met a GuGurkian fuel tanker and enjoyed exchanging pleasantries. Perhaps we might meet again in the future.	Auf unseren Reisen haben wir einen gu-gurkischen Tanker getroffen und uns über den Austausch von Höflichkeiten gefreut. Vielleicht sehen wir uns in der Zukunft wieder.	100
 randomizerMenuStrings[i]	+75 fuel	+75 Kraftstoff	30
 randomizerMenuStrings[i]	-25 synthetics	-25 Kunststoffe	30
@@ -11052,7 +11052,7 @@ altText	Click on the <b>SHIP</b> button. This will take us to <b>ship view</b>..
 altText	Start by installing the reactor into one of the <b>internal module slots</b> at the back of ship. Leave slots in the front empty for weapons modules.	Beginnen Sie damit, den Reaktor in einen der <b>internen Modul-Slots</b> im hinteren Teil des Schiffes einzubauen. Lassen Sie die vorderen Slots für die Waffenmodule frei.	240
 altText	Hold down the middle mouse button and drag in order to pan the view around. Use scroll wheel to zoom. Default key binding for panning with keyboard is WASD keys.	Halten Sie die mittlere Maustaste gedrückt und ziehen Sie, um die Ansicht zu schwenken. Verwenden Sie das Scrollrad zum Zoomen. Die Standardtastenbelegung für das Schwenken mit der Tastatur ist die WASD-Taste.	240
 altText	You can see our ship and various stellar objects in this view. \nYou cannot see much detail at the moment because you have not installed a long range sensor yet...	Sie können unser Schiff und verschiedene stellare Objekte in dieser Ansicht sehen. \nSie können im Moment noch nicht viele Details sehen, da Sie noch keinen Langstreckensensor installiert haben...	240
-altText	Fly closer to that point of interest, but don't drive into it before <b>remote scanning</b> is complete. \nI recommend scanning everything before closing in to avoid unpleasant surprises...	Fliegen Sie näher an diesen interessanten Punkt heran, aber fahren Sie nicht hinein, bevor der <b>Fernscan</b> abgeschlossen ist. \n Ich empfehle, alles zu scannen, bevor Sie sich nähern, um unangenehme Überraschungen zu vermeiden...	240
+altText	Fly closer to that point of interest, but don't drive into it before <b>remote scanning</b> is complete. \nI recommend scanning everything before closing in to avoid unpleasant surprises...	Fliegen Sie näher an diesen interessanten Punkt heran, aber fliegen Sie nicht hinein, bevor der <b>Fernscan</b> abgeschlossen ist. \n Ich empfehle, alles zu scannen, bevor Sie sich nähern, um unangenehme Überraschungen zu vermeiden...	240
 altText	The bright circle around our ship is <b>sensor range</b>. The sensor range must touch unknown objects to start remotely scanning them.	Der helle Kreis um unser Schiff ist <b>Sensorreichweite</b>. Der Sensorbereich muss unbekannte Objekte berühren, um einen Fernscan zu starten.	240
 altText	Looks safe, now fly into it...	Sieht sicher aus, fliegen Sie jetzt hinein...	240
 altText	We've obtained a <b>cryosleep</b> module! Crew in cryosleep do not consume organics and might <b>heal injuries over time</b>. For now, leave one crewmember to operate the bridge and send others to cryosleep.	Wir haben ein <b>Kryoschlaf</b>-Modul erhalten! Crewmitglieder im Kryoschlaf verbrauchen keine organischen Stoffe und können <b>Verletzungen mit der Zeit heilen</b>. Lassen Sie vorerst ein Crewmitglied die Brücke bedienen und schicken Sie die anderen in Kryoschlaf.	240
@@ -11067,7 +11067,7 @@ altText	From now on <b>scrapping</b> modules is possible. \nClick on the exotic 
 altText	Please <b>sell</b> all the exotics we gained from scrapping. Selling exotics and other resources in stations will be your main source of income in the upcoming journey.	Bitte <b>verkaufen</b> Sie alle Exoten, die Sie beim Verschrotten gewonnen haben. Der Verkauf von Exoten und anderen Ressourcen in Stationen wird Ihre Haupteinnahmequelle auf der kommenden Reise sein.	240
 altText	Let's also install an additional container for storing exotics. You will need it later on.	Lassen Sie uns außerdem einen zusätzlichen Container zur Lagerung von Exoten installieren. Sie werden ihn später noch benötigen.	240
 altText	Please open the sector map again to use our warpdrive for jumping to the <b>Aesus</b> starsystem.	Öffnen Sie bitte wieder die Sektorkarte, um unseren Warpantrieb für den Sprung zum <b>Aesus</b>-Sternensystem zu benutzen.	240
-altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie <b>einen <b>Ressourcencontainer (Typ ESM-I)</b> und <b>einen Schildgenerator</b> kaufen und installieren</b>.</b>Module können Sie nur kaufen, wenn Sie leere Slots im Modulspeicher haben.	240
+altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcencontainer (Typ ESM-I)</b> und <b>einen Schildgenerator</b> </b>kaufen und installieren</b>.Module können Sie nur kaufen, wenn Sie leere Slots im Modulspeicher haben.	240
 altText	As you can see from the red icons above modules, our ship weapons are currently <b>turned off</b> and have no crew. Additionally, the cannon needs explosives as ammo and the rocket launcher needs both explosives and metal.	Wie Sie an den roten Icons über den Modulen erkennen können, sind unsere Schiffswaffen derzeit <b>ausgeschaltet</b> und haben keine Besatzung. Zusätzlich braucht die Kanone Sprengstoff als Munition und der Raketenwerfer braucht sowohl Sprengstoff als auch Metall.	240
 choiceTexts	Got it - weapons need ammo and power	Verstanden - Waffen brauchen Munition und Energie	15
 altText	To alleviate our ammo problem, scrap <b>1 explosives pack</b> and<b> 1 metal pack</b> in our module storage, to get the resources they contain.	Um unser Munitionsproblem zu lindern, verschrotten wir <b>1 Sprengstoffpackung</b> und<b> 1 Metallpackung</b> in unserem Modullager, um die darin enthaltenen Ressourcen zu erhalten.	240
@@ -12166,7 +12166,7 @@ Ship destroyed game over text pool.prefab
 	The existence of death is as big of a problem as the existence of Friday.	Die Existenz des Todes ist ein ebenso großes Problem wie die Existenz des Freitags.	80
 	Death is not a problem, unwillingness to learn from one's mistakes is a problem.	Der Tod ist kein Problem, die mangelnde Bereitschaft, aus seinen Fehlern zu lernen, ist ein Problem.	80
 	Our ship has been destroyed. Some of our crew might have made it to escape pods and cryofrozen themselves, but their fate remains a mystery.	Unser Schiff ist zerstört worden. Einige unserer Crewmitglieder haben es vielleicht in die Rettungskapseln geschafft und sich tiefgefroren, aber ihr Schicksal bleibt ein Rätsel.	80
-	Some of our crew might have made it to escape pods and captured by hostiles or picked up by passing friendly ships later. Their fate remains a mystery.	Einige unserer Crewmitglieder haben es vielleicht zu den Fluchtkapseln geschafft und wurden von Feinden gefangen genommen oder später von vorbeifahrenden freundlichen Schiffen aufgelesen. Ihr Schicksal bleibt ein Rätsel.	80
+	Some of our crew might have made it to escape pods and captured by hostiles or picked up by passing friendly ships later. Their fate remains a mystery.	Einige unserer Crewmitglieder haben es vielleicht zu den Fluchtkapseln geschafft und wurden von Feinden gefangen genommen oder später von vorbeifliegenden freundlichen Schiffen aufgelesen. Ihr Schicksal bleibt ein Rätsel.	80
 	Some of our crew might have made it to escape pods. The causality waves they introduced into the web of fate will continue to affect the future and the reality as a whole, surpassing space and time.	Einige unserer Crewmitglieder könnten es zu den Fluchtkapseln geschafft haben. Die Kausalitätswellen, die sie in das Netz des Schicksals eingebracht haben, werden sich weiterhin auf die Zukunft und die gesamte Realität auswirken, über Raum und Zeit hinaus.	80
 	You've died. The causal waves you introduced into the web of fate during your lifetime will continue to affect the future and the reality as a whole, surpassing space and time.	Sie sind gestorben. Die Kausalwellen, die Sie zu Lebzeiten in das Netz des Schicksals eingeführt haben, werden weiterhin die Zukunft und die Realität als Ganzes beeinflussen, Raum und Zeit übersteigend.	80
 	The number one thing that saves lives and spaceships is repairing damage and finding metal for it earlier than in the last moments.	Die Nummer eins, die Leben und Raumschiffe rettet, ist die Reparatur von Schäden und das Finden von Metall dafür früher als in den letzten Momenten.	80
