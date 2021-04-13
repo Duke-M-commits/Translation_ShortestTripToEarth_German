@@ -271,32 +271,32 @@ SkillEffects.cs
 	Skill reduced to 1 point due to hunger	Fertigkeit aufgrund von Hunger auf 1 Punkt reduziert	0
 	Bridge skill allows this crewmember to remotely operate all other modules	Brückenfertigkeit erlaubt diesem Crewmitglied, alle anderen Module fernzusteuern	0
 	Skill bonus {0}	Geschicklichkeitsbonus {0}	0
-	+{0} ship evasion		0
+	+{0} ship evasion	+{0} Raumschiff ausweichen	0
 	(1 skill point gives {0}% bonus)	(1 Fertigkeitspunkt gibt {0}% Bonus)	0
 	Sensor skill	Sensor-Fertigkeit	0
-	+{0}% short sensor range		0
+	+{0}% short sensor range	+{0}% Sensorreichweite	0
 	Gunnery skill allows operating weapon and point defence modules	Geschützfertigkeit ermöglicht die Bedienung von Waffen- und Punktverteidigungsmodulen	0
 	-{0}% weapon reload time	-{0}% Waffen-Nachladezeit	0
-	+{0}% point defence range		0
-	+{0} weapon accuracy		0
+	+{0}% point defence range	+{0}% Punktverteidigung-Reichweite	0
+	+{0} weapon accuracy	+{0} Waffen-Genauigkeit	0
 	Shield skill allows operating shield generator modules	Schildfertigkeit erlaubt die Bedienung von Schildgeneratormodulen	0
-	+{0}% shield reload time		0
+	+{0}% shield reload time	+{0}% Schild Nachladezeit	0
 	Repair skill allows repairing broken modules and damage tokens	Reparaturfertigkeit erlaubt die Reparatur von defekten Modulen und Schadensmarken	0
-	+{0}% repair speed		0
+	+{0}% repair speed	+{0}% Reparatur Geschwindigkeit	0
 	Damage token 1 HP repair time {0:0.0}s	Schadenstoken 1 HP Reparaturzeit {0:0.0}s	0
 	Module 1 HP repair time {0:0.0}s	Modul 1 HP Reparaturzeit {0:0.0}s	0
 	Firefighting skill allows fighting fires	Feuerbekämpfungs-Fähigkeit erlaubt die Bekämpfung von Bränden	0
-	+{0}% fire extinguishing speed		0
+	+{0}% fire extinguishing speed	Feuer Löschgeschwindigkeit	0
 	Hand weapon skill allows using hand weapons	Handwaffen-Fertigkeit ermöglicht den Einsatz von Handwaffen	0
-	+{0} hand weapon accuracy		0
+	+{0} hand weapon accuracy	+{0} Genauigkeit der Handwaffe	0
 	(1 skill point gives +{0} accuracy)	(1 Fertigkeitspunkt gibt +{0} Genauigkeit)	0
 	Gardening skill allows operating garden modules	Gartenbau-Fertigkeit erlaubt das Bedienen von Gartenmodulen	0
-	+{0} production		0
+	+{0} production	+{0} Produktion	0
 	(1 skill point gives {0} production)	(1 Fertigkeitspunkt ergibt {0} Produktion)	0
 	Science skill gives credits bonus for researching planets, warplife, etc	Wissenschaftsfertigkeit gibt Credit-Bonus für die Erforschung von Planeten, Warplife, etc.	0
 	Science skill allows operating research modules	Wissenschaftliche Fertigkeit erlaubt den Betrieb von Forschungsmodulen	0
-	+{0} credits per research operation in events		0
-	+{0} credits production in research module		0
+	+{0} credits per research operation in events	+{0} Credits pro Forschungsoperation bei Veranstaltungen	0
+	+{0} credits production in research module	'+{0} Credits-Produktion im Forschungsmodul	0
 	Warp skill allows operating warp modules	Warp-Fähigkeit erlaubt den Betrieb von Warp-Modulen	0
 	-{0} reload time	-{0} Nachladezeit	0
 
@@ -9931,20 +9931,20 @@ Perk add credits 2, personal savings.prefab
 displayName	Personal savings	Persönliche Ersparnisse	40
 description	Feeling this trip is important, you brought along some personal savings you had earned through hard work.	Da Sie das Gefühl haben, dass diese Reise wichtig ist, haben Sie einige persönliche Ersparnisse mitgebracht, die Sie durch harte Arbeit verdient haben.	250
 unlockAnnouncementText	I've realized the importance of this mission. I will bring along some of my personal savings, next time before such a journey.	Ich habe erkannt, wie wichtig diese Mission ist. Ich werde das nächste Mal vor einer solchen Reise etwas von meinen persönlichen Ersparnissen mitbringen.	100
-randomizerMenuStrings[i]	+120 credits		30
+randomizerMenuStrings[i]	+120 credits	+120 Credits	30
 
 Perk add credits.prefab
 displayName	Data credits	Datenkredite	40
 description	The most universal form of intergalactic currency. Also called creds or xenodata.\nRepairing 1 ship HP in a repair station usually costs between 20 and 25 creds.	Die universellste Form der intergalaktischen Währung. Auch Creds oder Xenodaten genannt.\nDie Reparatur von 1 Schiffs-HP in einer Reparaturstation kostet normalerweise zwischen 20 und 25 Creds.	250
-randomizerMenuStrings[i]	+100 credits		30
+randomizerMenuStrings[i]	+100 credits	+100 Credits	30
 
 Perk add exotics 2, broken sex toy.prefab
 displayName	Exotic toy	Exotisches Spielzeug	40
 description	This broken alien sex toy is being sold on a junk market on Marrakis. The seller does not know that breaking it could yield considerable salvage value.	Dieses kaputte außerirdische Sexspielzeug wird auf einem Trödelmarkt auf Marrakis verkauft. Der Verkäufer weiß nicht, dass das Zerbrechen des Spielzeugs einen beträchtlichen Wiederverwertungswert haben könnte.	250
 unlockAnnouncementText	During our travels, we've spotted a curiosity being sold in one of the local junk markets. The seller does not know that breaking it could yield considerable salvage value.	Auf unseren Reisen haben wir eine Kuriosität entdeckt, die auf einem der lokalen Trödelmärkte verkauft wird. Der Verkäufer weiß nicht, dass das Zerbrechen des Geräts einen beträchtlichen Wiederverwertungswert haben könnte.	100
 randomizerMenuStrings[i]	-50 credits	-50 Credits	30
-randomizerMenuStrings[i]	+1 exotics		30
-randomizerMenuStrings[i]	+10 synthetics		30
+randomizerMenuStrings[i]	+1 exotics	+1 Exoten	30
+randomizerMenuStrings[i]	+10 synthetics	+10 Kunststoffe	30
 
 Perk add exotics.prefab
 displayName	Exotic crystal from UrQuani-2	Exotischer Kristall von UrQuani-2	40
@@ -9954,55 +9954,55 @@ Perk add explosives 2, explo sculpture.prefab
 displayName	Sculpture of an explosion	Skulptur einer Explosion	40
 description	A sculpture of an ongoing explosion, made of volatile plastic explosives. We may accept this gift from one of our Gor-Mor friends as a symbol for trust, happiness and friendship.	Eine Skulptur einer laufenden Explosion, hergestellt aus flüchtigem Plastiksprengstoff. Wir dürfen dieses Geschenk von einem unserer Gor-Mor-Freunde als Symbol für Vertrauen, Glück und Freundschaft annehmen.	250
 unlockAnnouncementText	We've made a new friend. They would like to gift us a sculpture (which happens to be made of plastic explosives) in the future, according to local Friendship traditions.	Wir haben einen neuen Freund gefunden. Sie möchten uns in Zukunft eine Skulptur schenken (die zufällig aus Plastiksprengstoff besteht), gemäß den lokalen Freundschaftstraditionen.	100
-randomizerMenuStrings[i]	+33 explosives		30
+randomizerMenuStrings[i]	+33 explosives	+33 Sprengstoffe	30
 
 Perk add explosives for Ratship.prefab
 displayName	Extra explosives II	Extra-Sprengstoff II	40
 description	Explosives are abundant in the Rat Empire, and can be obtained quite easily.	Sprengstoff ist im Rattenreich reichlich vorhanden und kann recht einfach beschafft werden.	250
 unlockAnnouncementText	Explosives are abundant in the Rat Empire, and can be obtained quite easily. We've met someone who has a permanent offer available.	Sprengstoff gibt es im Rattenimperium im Überfluss, und er ist recht leicht zu beschaffen. Wir haben jemanden getroffen, der ein dauerhaftes Angebot zur Verfügung hat.	100
-randomizerMenuStrings[i]	+75 explosives		30
+randomizerMenuStrings[i]	+75 explosives	+75 Sprengstoffe	30
 
 Perk add explosives.prefab
 displayName	Extra explosives	Extra-Sprengstoff	40
 description	A cache of decommissioned munitions. Explosives are mostly used by missiles and projectile weapons.	Ein Cache mit ausgemusterter Munition. Sprengstoff wird hauptsächlich von Raketen und Projektilwaffen verwendet.	250
 unlockAnnouncementText	We've met an old Rat official responsible for a warehouse filled with decommissioned munitions. We bought him a drink and he promised to give us some for free, next time.	Wir haben einen alten Ratten-Beamten getroffen, der für ein Lager voller ausgemusterter Munition verantwortlich ist. Wir haben ihm einen Drink spendiert und er hat uns versprochen, uns beim nächsten Mal etwas davon umsonst zu geben.	100
-randomizerMenuStrings[i]	+60 explosives		30
+randomizerMenuStrings[i]	+60 explosives	+60 Sprengstoffe	30
 
 Perk add fuel 2, extra canisters.prefab
 displayName	Extra fuel II	Extra Treibstoff II	40
 description	Numerous smaller canisters, batteries, miniature solidified starfuel packs and emergency rechargers can be crammed into living quarters & life support areas, somewhat increasing our starting fuel.	Zahlreiche kleinere Kanister, Batterien, Miniatur-Sternenkraftstoffpacks und Notladegeräte können in den Wohn- und Lebenserhaltungsbereichen untergebracht werden, was unseren Starttreibstoff etwas erhöht.	250
 unlockAnnouncementText	The whole crew has collectively realized the importance of this mission. We will all try to prepare better in the future.	Die gesamte Crew hat kollektiv die Wichtigkeit dieser Mission erkannt. Wir werden alle versuchen, uns in Zukunft besser vorzubereiten.	100
-randomizerMenuStrings[i]	+35 fuel		30
+randomizerMenuStrings[i]	+35 fuel	+35 Kraftstoff	30
 
 Perk add fuel 3, passing ship.prefab
 displayName	A passing tanker	Ein vorbeifahrender Tanker	40
 description	A passing GuGurkian fuel tanker captain is willing to barter some of his starfuel for a small list of spare parts.	Ein vorbeifahrender gu-gurkischer Tankerkapitän ist bereit, etwas von seinem Sternentreibstoff gegen eine kleine Liste von Ersatzteilen einzutauschen.	250
 unlockAnnouncementText	During our travels, we've met a GuGurkian fuel tanker and enjoyed exchanging pleasantries. Perhaps we might meet again in the future.	Auf unseren Reisen haben wir einen gu-gurkischen Tanker getroffen und uns über den Austausch von Höflichkeiten gefreut. Vielleicht sehen wir uns in der Zukunft wieder.	100
-randomizerMenuStrings[i]	+75 fuel		30
+randomizerMenuStrings[i]	+75 fuel	+75 Kraftstoff	30
 randomizerMenuStrings[i]	-25 synthetics	-25 Kunststoffe	30
 randomizerMenuStrings[i]	-25 metals	-25 Metalle	30
 
 Perk add fuel.prefab
 displayName	Extra fuel I	Extra Treibstoff I	40
 description	Fuel is consumed by engines during normal ship movement, and by warpdrives when jumping to other starsystems.	Treibstoff wird von den Triebwerken während der normalen Schiffsbewegung und von den Warp-Antrieben beim Sprung zu anderen Sternensystemen verbraucht.	250
-randomizerMenuStrings[i]	+50 fuel		30
+randomizerMenuStrings[i]	+50 fuel	+50 Kraftstoff	30
 
 Perk add metals 2, scrap tank.prefab
 displayName	The Tank	Der Panzer	40
 description	A dubious individual is trying to sell us this broken military machine without allowing prior inspection. It should be easily fixable with some spare parts, they say. The tank is permanently broken and only has value as scrap metal.	Ein dubioses Individuum versucht, uns diese kaputte Militärmaschine zu verkaufen, ohne eine vorherige Inspektion zu erlauben. Er sollte mit ein paar Ersatzteilen leicht zu reparieren sein, sagen sie. Der Panzer ist dauerhaft kaputt und hat nur noch Wert als Schrott.	250
 unlockAnnouncementText	During our travels, we've met an almost honest individual who is trying to sell us some kind of broken tank on a planet "not too far from here"."	Auf unserer Reise haben wir ein fast ehrliches Individuum getroffen, das uns einen kaputten Panzer auf einem Planeten nicht allzu weit von hier" verkaufen will."	100
 randomizerMenuStrings[i]	-20 credits	-20 Credits	30
-randomizerMenuStrings[i]	+88 metal		30
+randomizerMenuStrings[i]	+88 metal	+88 Metalle	30
 
 Perk add metals.prefab
 displayName	Assorted metals	Assortierte Metalle	40
 description	Metal can be used by crew to repair ship HP damage (it takes 30 metal to restore 1 ship HP).	Metalle können von der Besatzung verwendet werden, um HP-Schäden am Schiff zu reparieren (es braucht 30 Metalle, um 1 HP des Schiffs wiederherzustellen).	250
-randomizerMenuStrings[i]	+150 metals		30
+randomizerMenuStrings[i]	+150 metals	+150 Metalle	30
 
 Perk add organics 0.prefab
 displayName	Extra organics	Zusätzliche organische Stoffe	40
 description	Average human consumes 6 organics per 100 range units (ru) travelled, which is the average diameter of a star system. \nOrganics are also used by medbays when healing crew.	Ein durchschnittlicher Mensch verbraucht 6 organische Stoffe pro 100 zurückgelegte Entfernungseinheiten (ru), was dem durchschnittlichen Durchmesser eines Sternensystems entspricht. \nOrganics werden auch von Medbays verwendet, wenn sie die Crew heilen.	250
-randomizerMenuStrings[i]	+50 organics		30
+randomizerMenuStrings[i]	+50 organics	+50 Organisches	30
 
 Perk add organics 1, houseplant.prefab
 displayName	Accelerated chillnut tree	Beschleunigter Chillnut-Baum	40
@@ -10018,15 +10018,15 @@ Perk add organics 3, braindead.prefab
 displayName	Biotech remains	Biotech bleibt	40
 description	Somebody is trying to sell us this dead biotech brain of a broken stealth decryptor, says it's still perfectly edible.	Jemand versucht, uns das tote Biotech-Gehirn eines kaputten Stealth-Entschlüsslers zu verkaufen und behauptet, es sei noch vollkommen essbar.	250
 unlockAnnouncementText	During our travels, we've met an honest individual who is trying to sell us some kind of broken equipment because "It's still perfectly edible"."	Auf unseren Reisen haben wir ein ehrliches Individuum getroffen, das versucht, uns eine Art kaputtes Gerät zu verkaufen, weil "es noch perfekt essbar ist."	100
-randomizerMenuStrings[i]	+40 organics		30
-randomizerMenuStrings[i]	+10 synthethics		30
+randomizerMenuStrings[i]	+40 organics	+40 Organisches	30
+randomizerMenuStrings[i]	+10 synthethics	+10 Synthethik	30
 randomizerMenuStrings[i]	-10 credits	-10 Credits	30
 
 Perk add organics 4, dead insectoids.prefab
 displayName	Donated insectoid remains	Gespendete insektoide Überreste	40
 description	The honourable Shieldbug tradition demands that bodies of losers must be donated, to be eaten by the most shameful members of other species. We may accept this donation for we have passed the necessary criteria.	Die ehrwürdige Shieldbug-Tradition verlangt, dass die Körper von Verlierern gespendet werden, um von den schändlichsten Mitgliedern anderer Spezies gegessen zu werden. Wir dürfen diese Spende annehmen, denn wir haben die notwendigen Kriterien erfüllt.	250
 unlockAnnouncementText	During our travels, we've met an honourable Insectoid priest who wants to make a donation to our cause.	Auf unseren Reisen haben wir einen ehrenwerten Insektoiden-Priester getroffen, der uns eine Spende zukommen lassen möchte.	100
-randomizerMenuStrings[i]	+60 organics		30
+randomizerMenuStrings[i]	+60 organics	+60 Organisches	30
 
 Perk add organics 5, dead animals.prefab
 displayName	Dead animals	Tote Tiere	40
@@ -10037,103 +10037,103 @@ randomizerMenuStrings[i]	-5 credits	-5 Credits	30
 Perk add permanent credits.prefab
 displayName	Scientific data on Spideraa	Wissenschaftliche Daten über Spideraa	40
 description	Scientific data about the Spideraa species is worth a lot of credits once we've obtained it. This information is quite dangerous, so we need to invest time and money into comprehensive background checks before deciding on a buyer.	Wissenschaftliche Daten über die Spezies Spideraa sind eine Menge Credits wert, sobald wir sie erhalten haben. Diese Informationen sind ziemlich gefährlich, daher müssen wir Zeit und Geld in umfassende Hintergrundprüfungen investieren, bevor wir uns für einen Käufer entscheiden.	250
-randomizerMenuStrings[i]	+75 credits		30
+randomizerMenuStrings[i]	+75 credits	+75 Credits	30
 
 Perk add synthetics 2, broken lamp.prefab
 displayName	Broken street lamp	Kaputte Straßenlaterne	40
 description	A desperate individual of dubious appearance is trying to sell us this street lamp, saying it can be easily fixed. The lamp is permanently broken and is only good for spare parts.	Ein verzweifeltes Individuum von zweifelhaftem Aussehen versucht, uns diese Straßenlampe zu verkaufen und behauptet, sie könne leicht repariert werden. Die Lampe ist dauerhaft kaputt und taugt nur noch als Ersatzteil.	250
 unlockAnnouncementText	During our travels, we met this individual trying to sell us a broken lamp. He promised to reserve it exclusively for us after we donated him some leftover edibles.	Auf unserer Reise trafen wir diesen Menschen, der uns eine kaputte Lampe verkaufen wollte. Er versprach, sie ausschließlich für uns zu reservieren, nachdem wir ihm einige Essensreste gespendet hatten.	100
-randomizerMenuStrings[i]	+20 metal		30
-randomizerMenuStrings[i]	+30 synthetics		30
+randomizerMenuStrings[i]	+20 metal	+20 Metalle	30
+randomizerMenuStrings[i]	+30 synthetics	+30 Synthethik	30
 
 Perk add synthetics 3, ex container.prefab
 displayName	Exotics container remains	Überreste eines Exotenbehälters	40
 description	This used to be a container for holding exotics, but with years, the anomalous energies of exotics warped the molecular structure of the container, eventually turning it into a lump of synthetic scrap. It's still better than nothing.	Dies war einmal ein Behälter zur Aufbewahrung von Exoten, aber mit den Jahren haben die anomalen Energien der Exoten die Molekularstruktur des Behälters verformt und ihn schließlich in einen Klumpen Kunststoffschrott verwandelt. Das ist immer noch besser als nichts.	250
 unlockAnnouncementText	During our travels, we've located this object. It is almost worthless, but we can pick it for free if we ever go adventuring again.	Auf unseren Reisen haben wir dieses Objekt geortet. Es ist fast wertlos, aber wir können es umsonst mitnehmen, falls wir jemals wieder auf Abenteuerreise gehen.	100
-randomizerMenuStrings[i]	+70 synthethics		30
+randomizerMenuStrings[i]	+70 synthethics	+70 Synthethik	30
 
 Perk add synthetics and fuel.prefab
 displayName	Donated industrial waste	Gespendeter Industrieabfall	40
 description	A donation from industrial-era sentients.	Eine Spende von Empfängern aus der Industriezeit.	250
 unlockAnnouncementText	During our travels, we received this official guarantee from a minor civilization of industrial primitives. It guarantees us some of their toxic waste.	Während unserer Reisen erhielten wir diese offizielle Garantie von einer kleinen Zivilisation von industriellen Primitiven. Sie garantiert uns etwas von ihrem Giftmüll.	100
-randomizerMenuStrings[i]	+25 fuel		30
-randomizerMenuStrings[i]	+50 synthethics		30
+randomizerMenuStrings[i]	+25 fuel	+25 Kraftstoff	30
+randomizerMenuStrings[i]	+50 synthethics	+50 Synthethik	30
 
 Perk add synthetics.prefab
 displayName	Assorted synthetics	Diverse Synthetics	40
 description	Repairing modules costs 10 synthetics per module hitpoint. \nSynthethics are also used to build temporary structures on planets.	Die Reparatur von Modulen kostet 10 Synthetics pro Modul-Trefferpunkt. \nSynthethics werden auch verwendet, um temporäre Strukturen auf Planeten zu bauen.	250
-randomizerMenuStrings[i]	+125 synthetics		30
+randomizerMenuStrings[i]	+125 synthetics	+125 Synthethik	30
 
 Perk artifact skull for Weirdship.prefab
 displayName	Warp animal skull	Warp-Tierschädel	40
 description	Organic remains obtained from the Insectoid Alliance Biology museum.	Organische Überreste, die aus dem Biologie-Museum der Insektoiden-Allianz stammen.	250
-randomizerMenuStrings[i]	+1 artifact at game start, can be scrapped for additional resources		30
+randomizerMenuStrings[i]	+1 artifact at game start, can be scrapped for additional resources	+1 Artefakt zu Beginn des Spiels, kann für zusätzliche Resourcen verschrottet werden.	30
 
 Perk augment 001a elastic augmentations.prefab
 displayName	Elastic augmentations	Elastische Vergrößerungen	40
 description	Increases ship hull integrity by reinforcing ship hardpoints with super-durable elastics, allowing the ship to "bend" a little."	Erhöht die Integrität der Schiffshülle durch die Verstärkung von Schiffshardpoints mit superzähen Elastics, die es dem Schiff erlauben, sich ein wenig zu "verbiegen"."	250
 unlockAnnouncementText	Our ship AI has been carrying out miniature experiments with integrity technology during the journey. Her small discoveries have made new options available, next time we go for a run like this.	Unsere Schiffs-KI hat während der Reise Miniatur-Experimente mit der Integritätstechnologie durchgeführt. Ihre kleinen Entdeckungen haben neue Optionen verfügbar gemacht, wenn wir das nächste Mal eine solche Fahrt unternehmen.	100
-randomizerMenuStrings[i]	+4 to ship HP		30
+randomizerMenuStrings[i]	+4 to ship HP	+4 Schiffshüllenpunkte	30
 randomizerMenuStrings[i]	-90 synthethics	-90 Synthethik	30
 
 Perk augment 001b exotic armor.prefab
 displayName	Exotic ship armor	Exotische Schiffspanzerung	40
 description	Adding a nano-thin layer of exotic alloys increases the overall ship deflection by 3%. This kind of work is only offered by a hermit engineer who is both hard to find and very expensive to hire.	Das Hinzufügen einer hauchdünnen Schicht aus exotischen Legierungen erhöht die gesamte Schiffspanzerung um 3%. Diese Art von Arbeit wird nur von einem Einsiedler-Ingenieur angeboten, der sowohl schwer zu finden als auch sehr teuer zu mieten ist.	250
 unlockAnnouncementText	During our travels, we've met somebody who knows this mysterious hermit engineer. The engineer can make unique ship armor out of exotics.	Während unserer Reisen haben wir jemanden getroffen, der diesen mysteriösen Einsiedler-Ingenieur kennt. Der Ingenieur kann einzigartige Schiffspanzerung aus Exoten herstellen.	100
-randomizerMenuStrings[i]	+3% overall ship deflection		30
+randomizerMenuStrings[i]	+3% overall ship deflection	+3% Schiffsablenkung	30
 randomizerMenuStrings[i]	-175 credits	-175 Credits	30
 
 Perk augment 00a full checkup.prefab
 displayName	Full check and oil change	Vollständiger Check und Ölwechsel	40
 description	Testing and replacement of deprecated subcomponents ensures increased ship survivability.\nShip HP can be repaired in repair stations or manually by crew, although this is more expensive and not always possible.	Das Testen und Ersetzen veralteter Teilkomponenten sorgt für eine erhöhte Überlebensfähigkeit des Schiffes.\nSchiffs-HP können in Reparaturstationen oder manuell durch die Crew repariert werden, was allerdings teurer und nicht immer möglich ist.	250
-randomizerMenuStrings[i]	+1 ship max HP		30
+randomizerMenuStrings[i]	+1 ship max HP	+1 Schiffshüllenpunkte	30
 
 Perk augment 00b evasive manuever dbase update.prefab
 displayName	Tactical maneuvers update	Aktualisierung der taktischen Manöver	40
 description	Updating tactical database increases our ship's overall evasive capabilities. \nEvasion makes enemy shots deviate more from intended targets. Evasion bonus is countered by combination of ship, crew and weapon accuracy bonuses.	Die Aktualisierung der taktischen Datenbank erhöht die allgemeinen Ausweichfähigkeiten unseres Schiffes. \nAusweichen bewirkt, dass gegnerische Schüsse mehr von den beabsichtigten Zielen abweichen. Der Ausweichbonus wird durch eine Kombination aus Schiffs-, Crew- und Waffengenauigkeitsboni ausgeglichen.	250
-randomizerMenuStrings[i]	+1% evasion		30
+randomizerMenuStrings[i]	+1% evasion	+1% Ausweichen	30
 
 Perk augment 00c impact dampeners.prefab
 displayName	Passive impact dampeners	Passive Aufpralldämpfer	40
 description	Increases chance to deflect projectiles or energy rays that hit our ship, avoiding any damage to ship HP.\nMissiles, nukes and rare weapons are immune to deflection by ship armor.	Erhöht die Chance, Projektile oder Energiestrahlen, die unser Schiff treffen, abzulenken und so Schaden an den HP des Schiffes zu vermeiden.\nMissiles, Nukes und seltene Waffen sind immun gegen Ablenkung durch die Schiffspanzerung.	250
-randomizerMenuStrings[i]	+1% deflection		30
+randomizerMenuStrings[i]	+1% deflection	+1% Ablenkung	30
 
 Perk augment 00d tactical predictor.prefab
 displayName	Tactical predictor upgrade	Upgrade des taktischen Prädiktors	40
 description	Upgrading the ship's tactical predictor core is expensive, but increases our combat capabilities. At least the new predictor core itself predicts so.\nThe ship accuracy bonus makes all our weapons more accurate, while evasion reduces the accuracy of enemy shots.	Das Upgrade des taktischen Prädiktorkerns des Schiffes ist teuer, erhöht aber unsere Kampffähigkeiten. Zumindest sagt das der neue Prädiktor-Kern selbst voraus.\nDer Schiffsgenauigkeitsbonus macht alle unsere Waffen genauer, während Ausweichen die Genauigkeit gegnerischer Schüsse verringert.	250
-randomizerMenuStrings[i]	+1% accuracy		30
+randomizerMenuStrings[i]	+1% accuracy	+1% Genauigkeit	30
 randomizerMenuStrings[i]	-100 credits	-100 Credits	30
 
 Perk augment 02 Fortified subsections.prefab
 displayName	Armored subsections	Gepanzerte Untersektionen	40
 description	Increases ship hull integrity by adding a separate layer of armor around subsections of the ship.	Erhöht die Integrität der Schiffshülle durch das Hinzufügen einer separaten Panzerungsschicht um Untersektionen des Schiffes.	250
-randomizerMenuStrings[i]	+3 to ship HP		30
+randomizerMenuStrings[i]	+3 to ship HP	+1 Schiffshüllenpunkte	30
 
 Perk augment 03 targeting software.prefab
 displayName	Targeting software upgrade	Zielsoftware-Upgrade	40
 description	Increases accuracy of all weapons. Weapon shots will deviate 5% less from target.	Erhöht die Genauigkeit aller Waffen. Waffenschüsse weichen 5% weniger vom Ziel ab.	250
-randomizerMenuStrings[i]	+4% accuracy bonus to all weapons		30
+randomizerMenuStrings[i]	+4% accuracy bonus to all weapons	+4% Genauigkeitsbonus für alle Waffen	30
 
 Perk augment 04 maneuvering jets.prefab
 displayName	Maneuvering jets augmentation	Manövrierdüsen-Erweiterung	40
 description	Increases ship evasion bonus by 5%. Enemy shots may deviate more from original target.	Erhöht den Ausweichbonus des Schiffes um 5%. Feindliche Schüsse weichen mehr vom ursprünglichen Ziel ab.	250
-randomizerMenuStrings[i]	+4% Evasion		30
+randomizerMenuStrings[i]	+4% Evasion	+4% Ausweichen	30
 
 Perk augment 05 deflection.prefab
 displayName	Armor augmentation	Verstärkung der Panzerung	40
 description	Increases overall ship deflection by 4%. Deflection is the chance that enemy landed shots do no damage, simply bouncing off the ship armor.	Erhöht die Gesamtablenkung des Schiffs um 4%. Ablenkung ist die Chance, dass gegnerische Schüsse keinen Schaden anrichten, sondern einfach an der Schiffspanzerung abprallen.	250
-randomizerMenuStrings[i]	+4% overall ship deflection		30
+randomizerMenuStrings[i]	+4% overall ship deflection	+4% Schiffsablenkung	30
 
 Perk augment, jet tubing cleanup for Ratship.prefab
 displayName	Jet tubing cleanup	Reinigung der Düsenschläuche	40
 description	Manually cleaning the old maneuvering system increases ship evasion bonus by 4%. Enemy shots may deviate more from original target.	Die manuelle Reinigung des alten Manöversystems erhöht den Ausweichbonus des Schiffs um 4%. Feindliche Schüsse können stärker vom ursprünglichen Ziel abweichen.	250
-randomizerMenuStrings[i]	+ 4% Evasion		30
+randomizerMenuStrings[i]	+ 4% Evasion	+4% Ausweichen	30
 
 Perk barter get credits for explosives.prefab
 displayName	Unofficial deal (get credits I)	Inoffizielles Geschäft (Credits erhalten I)	40
 description	An opportunity to sell some explosives for double the normal price.	Eine Gelegenheit, einige Sprengstoffe für den doppelten Normalpreis zu verkaufen.	250
-randomizerMenuStrings[i]	-40 explosives	-40 Sprengstoff	30
-randomizerMenuStrings[i]	+160 credits		30
+randomizerMenuStrings[i]	-40 explosives	-40 Sprengstoffe	30
+randomizerMenuStrings[i]	+160 credits	+160 Credits	30
 
 Perk barter get exotics for credits.prefab
 displayName	Exotic jewellery	Exotischer Schmuck	40
@@ -10144,34 +10144,34 @@ Perk barter get exotics for explosives.prefab
 displayName	Unofficial deal (get exotics II)	Inoffizielles Geschäft (Exotik II erhalten)	40
 description	An opportunity to obtain some exotic matter. Exotics are most useful for situations that require crafting new modules or bartering.	Eine Gelegenheit, einige exotische Materie zu erhalten. Exoten sind am nützlichsten für Situationen, die das Herstellen neuer Module oder Tauschgeschäfte erfordern.	250
 unlockAnnouncementText	During our travels, we've met a professional warplife huner who is willing to exchange exotics for explosives.	Auf unseren Reisen haben wir einen professionellen Warplife-Jäger getroffen, der bereit ist, Exoten gegen Sprengstoff einzutauschen.	100
-randomizerMenuStrings[i]	-60 explosives	-60 Sprengstoff	30
-randomizerMenuStrings[i]	+3 exotics		30
+randomizerMenuStrings[i]	-60 explosives	-60 Sprengstoffe	30
+randomizerMenuStrings[i]	+3 exotics	+3 Exoten	30
 
 Perk crew 1 human adventurer.prefab
 displayName	The adventurer	Der Abenteurer	40
 description	A trustworthy adventurer offers credits for the opportunity to travel back to Earth with us. They wear an armored helmet and promise to bring along a cool handgun.	Ein vertrauenswürdiger Abenteurer bietet Credits für die Möglichkeit, mit uns zurück zur Erde zu reisen. Er trägt einen gepanzerten Helm und verspricht, eine coole Handfeuerwaffe mitzubringen.	250
-randomizerMenuStrings[i]	+1 crew (well-armed human)		30
-randomizerMenuStrings[i]	+40 credits		30
+randomizerMenuStrings[i]	+1 crew (well-armed human)	+1 Besatzung (gut bewaffneter Mensch)	30
+randomizerMenuStrings[i]	+40 credits	+40 Credits	30
 
 Perk crew 2 beedroid engineer.prefab
 displayName	The Beedroid engineer	Der Beedroid-Ingenieur	40
 description	An alien cyborg joins the mission to repay an old favor. The entire species of Beedroids have transcended their biological bodies.	Ein außerirdischer Cyborg schließt sich der Mission an, um einen alten Gefallen zurückzuzahlen. Die gesamte Spezies der Beedroiden hat ihre biologischen Körper transzendiert.	250
 unlockAnnouncementText	The alien cyborg has promised to repay a favor he received from our ship AI a hundred years ago.	Der außerirdische Cyborg hat versprochen, einen Gefallen zurückzuzahlen, den er vor hundert Jahren von unserer Schiffs-KI erhalten hat.	100
-randomizerMenuStrings[i]	+1 crewmember (Beedroid engineer)		30
+randomizerMenuStrings[i]	+1 crewmember (Beedroid engineer)	+1 Besatzungsmitglied (Beedroid-Ingenieur)	30
 
 Perk crew best marine.prefab
 displayName	The marine	Der Marine	40
 description	A marine with top grades from University of Tactical Land Warfare joins our mission. For the experience.	Ein Marine mit Bestnoten von der Universität für taktische Landkriegsführung schließt sich unserer Mission an. Für die Erfahrung.	250
 unlockAnnouncementText	A marine we've met in our travels wants to join the next time, for experience.	Ein Marine, den wir auf unseren Reisen kennengelernt haben, will beim nächsten Mal mitmachen, wegen der Erfahrung.	100
 extraCrewDescripionOverride	A war student (tactical marine). Was recently given the highest academic award for theoretical thesis about rifles.	Ein Kriegsstudent (taktischer Marine). Wurde kürzlich mit dem höchsten akademischen Preis für eine theoretische Arbeit über Gewehre ausgezeichnet.	250
-randomizerMenuStrings[i]	+1 ship crew (human soldier)		30
-randomizerMenuStrings[i]	+5 explosives		30
+randomizerMenuStrings[i]	+1 ship crew (human soldier)	+1 Schiffsbesatzung (menschlicher Soldat)	30
+randomizerMenuStrings[i]	+5 explosives	+5 Sprengstoffe	30
 
 Perk crew gitchanki sensorist.prefab
 displayName	The Gitchanki astronomer	Der Gitchanki-Astronom	40
 description	His regular lovers were a gang of female space marines who taught him everything about wrestling, handguns and ship sensors. \nHe joins only if we send 12 lifesized silver sculptures to the lovers. Each of these needs to be also covered in erotic Gitchanki poetry.	Seine regelmäßigen Liebhaber waren eine Bande weiblicher Space Marines, die ihm alles über Ringen, Handfeuerwaffen und Schiffssensoren beibrachten. \Er schließt sich nur an, wenn wir den Liebhabern 12 lebensgroße Silberskulpturen schicken. Jede davon muss auch mit erotischer Gitchanki-Poesie versehen sein.	250
 unlockAnnouncementText	A Gitchanki individual we've met in our travels agrees to join the next time, if we fulfill certain conditions.	Ein Gitchanki-Individuum, dem wir auf unseren Reisen begegnet sind, erklärt sich bereit, beim nächsten Mal mitzumachen, wenn wir bestimmte Bedingungen erfüllen.	100
-randomizerMenuStrings[i]	+1 crew (Gitchanki astronomer)		30
+randomizerMenuStrings[i]	+1 crew (Gitchanki astronomer)	+1 Besatzung (Gitchanki-Astronom)	30
 randomizerMenuStrings[i]	-120 metal	-120 Metall	30
 randomizerMenuStrings[i]	-12 credits	-12 Credits	30
 
@@ -10179,103 +10179,103 @@ Perk crew gormor gardener.prefab
 displayName	The Gor-Mor gardener	Der Gor-Mor-Gärtner	40
 description	This Gor-Mor individual is a famous gardener-philosopher, praised highly by political leaders and spiritual acolytes who seek enlightment. He wants to help us in exhcange for exotic consumables and robot sex.	Dieses Gor-Mor-Individuum ist ein berühmter Gärtner-Philosoph, der von politischen Führern und spirituellen Gefolgsleuten, die Erleuchtung suchen, hoch gelobt wird. Er will uns im Tausch gegen exotische Konsumgüter und Roboter-Sex helfen.	250
 unlockAnnouncementText	A gardenerer-phiolospher we've met in our travels wants to join us, next time.	Ein Gärtner-Philosoph, den wir auf unseren Reisen kennengelernt haben, will sich uns anschließen.	100
-randomizerMenuStrings[i]	+1 crew (Gor-Mor gardener-philosopher)		30
+randomizerMenuStrings[i]	+1 crew (Gor-Mor gardener-philosopher)	+1 Besatzung (Gor-Mor Gärtner)	30
 
 Perk crew grippy gunner.prefab
 displayName	The Grippy gunner	Der Grippy-Schütze	40
 description	This snake-individual used to serve in a military warship as a gunnery officer. Experienced in using all kinds of ship weapons. Regularly consumes a cocktail of intoxicants, always brings along his favourite ones.	Dieses Schlangen-Individuum diente früher auf einem militärischen Kriegsschiff als Kanonenoffizier. Erfahren im Umgang mit allen Arten von Schiffswaffen. Konsumiert regelmäßig einen Rauschmittelcocktail, bringt immer seine Lieblingssorten mit.	250
 unlockAnnouncementText	A Grippy ex-solider we've met in our travels wants to join us, next time.	Ein Grippy Ex-Soldat, den wir auf unseren Reisen getroffen haben, möchte sich uns anschließen.	100
-randomizerMenuStrings[i]	+1 crewmember (Grippy ex-soldier)		30
+randomizerMenuStrings[i]	+1 crewmember (Grippy ex-soldier)	+1 Besatzungsmitglied (Grippy Ex-Soldat)	30
 
 Perk crew human scientist.prefab
 displayName	The scientist	Der Wissenschaftler	40
 description	A scientist joins the mission, to research an obscure topic, something vaguely related to the meaning of life. They bring along some supplies.\nAll of our crew will be exclusively volunteers despite any payments, reserving the right to leave any time or ignore any orders.	Ein Wissenschaftler schließt sich der Mission an, um ein obskures Thema zu erforschen, etwas, das vage mit dem Sinn des Lebens zu tun hat. Sie bringen einige Vorräte mit.\nAlle unsere Crewmitglieder sind trotz Bezahlung ausschließlich Freiwillige, die sich das Recht vorbehalten, jederzeit zu gehen oder Befehle zu ignorieren.	250
 unlockAnnouncementText	A scientist we've met in our travels wants to join us, next time.	Ein Wissenschaftler, den wir auf unseren Reisen kennengelernt haben, möchte sich uns anschließen.	100
-randomizerMenuStrings[i]	+1 crew (human scientist)		30
-randomizerMenuStrings[i]	+1 exotic		30
+randomizerMenuStrings[i]	+1 crew (human scientist)	+1 Besatzung (menschlicher Wissenschaftler)	30
+randomizerMenuStrings[i]	+1 exotic	+1 Exoten	30
 
 Perk crew human volunteer.prefab
 displayName	The volunteer	Der Freiwillige	40
 description	A volunteer joins the mission. They bring along some recreational supplies.	Ein Freiwilliger schließt sich der Mission an. Er bringt ein paar Erholungsvorräte mit.	250
-randomizerMenuStrings[i]	+1 crew (human volunteer)		30
-randomizerMenuStrings[i]	+15 organics		30
-randomizerMenuStrings[i]	+15 synthetics		30
+randomizerMenuStrings[i]	+1 crew (human volunteer)	+1 Besatzung (menschlicher Freiwilliger)	30
+randomizerMenuStrings[i]	+15 organics	+15 Organisches	30
+randomizerMenuStrings[i]	+15 synthetics	+15 Synthetik	30
 
 Perk crew lizard firefighter.prefab
 displayName	The Fire monk	Der Feuermönch	40
 description	This old Lizard monk has improved fire resistance and firefighting skills due to years spent in the Temple of Fire. Likes to stay in the shower for hours.	Dieser alte Echsenmönch hat aufgrund der Jahre, die er im Tempel des Feuers verbracht hat, eine verbesserte Feuerresistenz und Fähigkeiten zur Brandbekämpfung. Steht gerne stundenlang unter der Dusche.	250
 unlockAnnouncementText	We met this Lizardfolk individual during our travels. She wants to join us next time, if she gets the opportunity.	Wir haben dieses Echsenvolk-Individuum während unserer Reisen getroffen. Sie möchte sich uns beim nächsten Mal anschließen, wenn sie die Gelegenheit dazu bekommt.	100
 extraCrewDescripionOverride	A Fire monk who wants to travel back to Earth to join the local Temple of Water.	Ein Feuermönch, der zurück zur Erde reisen möchte, um sich dem dortigen Wassertempel anzuschließen.	250
-randomizerMenuStrings[i]	+1 ship crew (lizardfolk monk)		30
+randomizerMenuStrings[i]	+1 ship crew (lizardfolk monk)	+1 Schiffsbesatzung (Echsenwesen Mönch)	30
 
 Perk crew rat cook.prefab
 displayName	The Rat cook	Der Rattenkoch	40
 description	This excellent Rat cook is also skilled in growing food and extinguishing fires - both mastered during his years in the Rat Cooking University.	Dieser exzellente Rattenkoch ist auch im Anbau von Nahrungsmitteln und im Löschen von Bränden geübt - beides hat er während seiner Jahre in der Rattenkoch-Universität gemeistert.	250
-randomizerMenuStrings[i]	+1 crew (Rat cook)		30
+randomizerMenuStrings[i]	+1 crew (Rat cook)	+1 Besatzung (Rattenkoch)	30
 
 Perk crew rat mercs -creds.prefab
 displayName	The Rat mercenaries (x3)	Die Ratten-Söldner (x3)	40
 description	A band of mercenary rats join the mission for 3 exotics. The poor fellows do not have any body augments.	Eine Bande von Söldner-Ratten schließt sich der Mission für 3 Exoten an. Die armen Kerle haben keine Körpervergrößerungen.	250
 unlockAnnouncementText	A group of poor rat mercenaries have offered their services, next time we go on a journey.	Eine Gruppe armer Ratten-Söldner hat ihre Dienste angeboten, wenn wir das nächste Mal auf Reisen gehen.	100
-randomizerMenuStrings[i]	+3 crew (Rat soldiers)		30
+randomizerMenuStrings[i]	+3 crew (Rat soldiers)	+3 Besatzung (Ratten-Soldaten)	30
 randomizerMenuStrings[i]	-3 exotics	-3 Exoten	30
 
 Perk crew top cadet.prefab
 displayName	The top cadet	Der Spitzenkadett	40
 description	A young cadet from space academy agrees to join our mission. For a small price.	Ein junger Kadett von der Weltraum-Akademie erklärt sich bereit, an unserer Mission teilzunehmen. Für einen kleinen Preis.	250
 extraCrewDescripionOverride	A young spaceship academy pilot. Freshly graduated with top results.	Ein junger Raumschiff-Akademie-Pilot. Frisch graduiert mit Top-Ergebnissen.	250
-randomizerMenuStrings[i]	+1 ship crew (human pilot)		30
+randomizerMenuStrings[i]	+1 ship crew (human pilot)	+1 Schiffsbesatzung (menschlicher Pilot)	30
 
 Perk crew warrior princess x2.prefab
 displayName	Warrior princess duo	Kriegerprinzessinnen-Duo	40
 description	A pair of invertebrate mercenaries join our mission to feed their family of hundreds	Ein Paar wirbelloser Söldner schließt sich unserer Mission an, um ihre Familie zu ernähren	250
 extraCrewDescripionOverride	A young insectoid princess of a minor hive. The queens must survive 10 years of mercenary life before they can ascend into royal politics.	Eine junge insektoide Prinzessin eines kleinen Bienenstocks. Die Königinnen müssen 10 Jahre des Söldnerlebens überleben, bevor sie in die königliche Politik aufsteigen können.	250
-randomizerMenuStrings[i]	+2 crew (insectoid warriors)		30
+randomizerMenuStrings[i]	+2 crew (insectoid warriors)	+2 Besatzung (Insektoiden-Krieger)	30
 randomizerMenuStrings[i]	-100 organics	-100 Organische	30
 
 Perk crew warrior queen.prefab
 displayName	The warrior queen	Die Kriegerkönigin	40
 description	A leader of a minor hive, looking to complete her ritual training. She brings along a piece of the family treasure.	Eine Anführerin eines kleineren Bienenstocks, die ihre rituelle Ausbildung abschließen möchte. Sie bringt ein Stück des Familienschatzes mit.	250
 extraCrewDescripionOverride	Insectoid queen of a minor hive. The queens must survive 10 years of mercenary life before they can marry other hive queens.	Insektoide Königin eines kleineren Bienenstocks. Die Königinnen müssen 10 Jahre des Söldnerlebens überleben, bevor sie andere Bienenstockköniginnen heiraten können.	250
-randomizerMenuStrings[i]	+1 crew (insectoid warrior queen)		30
-randomizerMenuStrings[i]	+30 metal		30
+randomizerMenuStrings[i]	+1 crew (insectoid warrior queen)	+1 Besatzung (Insektoiden-Krieger-Königin)	30
+randomizerMenuStrings[i]	+30 metal	+30 Metalle	30
 
 Perk DIY drone army.prefab
 displayName	DIY drone army	DIY-Drohnenarmee	40
 description	An old engineer will enhance ten small fire extinguisher drones with flamers and spikes - if we have the materials.	Ein alter Ingenieur wird zehn kleine Feuerlöschdrohnen mit Flamern und Stacheln verbessern - wenn wir die Materialien haben.	250
-randomizerMenuStrings[i]	+10 DIY flamer drones		30
+randomizerMenuStrings[i]	+10 DIY flamer drones	+10 DIY Flammenwerfer Dronen	30
 randomizerMenuStrings[i]	-150 synthetics	-150 Kunststoffe	30
 randomizerMenuStrings[i]	-100 metal	-100 Metall	30
 
 Perk drone 00 smallbot.prefab
 displayName	The swearing smallbot	Der fluchende Smallbot	40
 description	A small toy drone. Knows vulgar words in all human languages & draws fire from intruders during internal combat.\nPerfect obedience but no abilities besides movement & swearing.	Eine kleine Spielzeugdrohne. Kennt vulgäre Wörter in allen menschlichen Sprachen & zieht im internen Kampf das Feuer von Eindringlingen auf sich.\nPerfekter Gehorsam, aber keine Fähigkeiten außer Bewegung & Fluchen.	250
-randomizerMenuStrings[i]	+1 drone		30
-randomizerMenuStrings[i]	+15 synthetics (spare parts)		30
+randomizerMenuStrings[i]	+1 drone	+1 Drone	30
+randomizerMenuStrings[i]	+15 synthetics (spare parts)	+15 Synthetik (Ersatzteile)	30
 
 Perk drone 01 DIY fire safety.prefab
 displayName	DIY fire safety drone	DIY-Feuerschutzdrohne	40
 description	A light walker chassis with fire extinguisher, assembled from spare parts. Do not expect much from its caterpillar-based AI.	Ein leichtes Walker-Chassis mit Feuerlöscher, zusammengebaut aus Ersatzteilen. Erwarten Sie nicht viel von seiner raupenbasierten KI.	250
 unlockAnnouncementText	Our ship AI has been carrying out miniature experiments with drones during the journey. Her small discoveries have made new options available, next time we go for a run like this.	Unsere Schiffs-KI hat während der Reise Miniatur-Experimente mit Drohnen durchgeführt. Ihre kleinen Entdeckungen haben uns neue Optionen eröffnet, wenn wir das nächste Mal eine solche Fahrt unternehmen.	100
-randomizerMenuStrings[i]	+1 fire safety drone		30
+randomizerMenuStrings[i]	+1 fire safety drone	+1 Brandschutz-Drone	30
 randomizerMenuStrings[i]	-25 synthethics	-25 Synthethik	30
 
 Perk drone 02 DIY guard.prefab
 displayName	DIY guard drone	DIY-Wachdrohne	40
 description	A light walker chassis with an improvised laser, assembled from spare parts. limited capabilities. Do not expect much from its scorpion-based AI.	Ein leichtes Walker-Chassis mit einem improvisierten Laser, zusammengebaut aus Ersatzteilen. begrenzte Fähigkeiten. Erwarten Sie nicht viel von seiner Skorpion-basierten KI.	250
-randomizerMenuStrings[i]	+1 security drone		30
+randomizerMenuStrings[i]	+1 security drone	+1 Sicherheitsdrohne	30
 randomizerMenuStrings[i]	-40 synthethics	-40 Synthethik	30
 
 Perk drone 03 DIY repairbot.prefab
 displayName	DIY repair drone	DIY-Reparaturdrohne	40
 description	An improvised repair drone assembled from spare parts. Limited repair speed. Do not expect much from its beetle-based AI.	Eine improvisierte Reparaturdrohne, die aus Ersatzteilen zusammengebaut wurde. Begrenzte Reparaturgeschwindigkeit. Erwarten Sie nicht viel von ihrer käferbasierten KI.	250
-randomizerMenuStrings[i]	+1 repair drone		30
+randomizerMenuStrings[i]	+1 repair drone	+1 Reparatur-Drone	30
 randomizerMenuStrings[i]	-30 synthetics	-30 Kunststoffe	30
 
 Perk drone 04 fire safety x2.prefab
 displayName	Fire safety speeders (x2)	Feuerschutz-Speeder (x2)	40
 description	A pair of speedy mini-drones equipped with fire extinguishers.	Ein Paar schnelle Mini-Drohnen, die mit Feuerlöschern ausgestattet sind.	250
-randomizerMenuStrings[i]	+2 fire safety drones		30
+randomizerMenuStrings[i]	+2 fire safety drones	+2 Brandschutz-Dronen	30
 
 Perk drone 05 DIY science.prefab
 displayName	DIY lab drone	DIY-Labordrohne	40
@@ -10284,13 +10284,13 @@ description	DIY drone with an octopus-based AI. Can work in the labs and increas
 Perk drone 05 gardening and repair.prefab
 displayName	Repair & gardening drone	Reparatur- & Gartenbau-Drohne	40
 description	A sturdy gardening & repair drone with very silently running cooling systems. Excellent at gardening, limited skillset.	Eine robuste Gartenarbeits- & Reparaturdrohne mit sehr leise laufenden Kühlsystemen. Ausgezeichnet in der Gartenarbeit, begrenzte Fähigkeiten.	250
-randomizerMenuStrings[i]	+1 gardening & repair drone		30
+randomizerMenuStrings[i]	+1 gardening & repair drone	+1 Gärtnerei- & Reparatur-Drone	30
 randomizerMenuStrings[i]	-30 credits	-30 Credits	30
 
 Perk drone 06 DIY gunnery.prefab
 displayName	DIY gunnery drone	DIY-Schützen-Drohne	40
 description	A light drone modified to allow operating ship weapons. Cannot repair. Do not expect much from its spider-based AI.	Eine leichte Drohne, die so modifiziert wurde, dass sie Schiffswaffen bedienen kann. Kann nicht reparieren. Erwarten Sie nicht viel von ihrer spinnenbasierten KI.	250
-randomizerMenuStrings[i]	+1 gun operator drone		30
+randomizerMenuStrings[i]	+1 gun operator drone	+1 Waffenbediener-Drone	30
 randomizerMenuStrings[i]	-50 synthethics	-50 Synthethik	30
 
 Perk drone 07 gunnery and repair.prefab
@@ -10300,7 +10300,7 @@ description	A heavy drone for operating weapon systems & doing emergency repairs
 Perk drone 08 DIY sentry tank.prefab
 displayName	DIY tank	DIY-Panzer	40
 description	Armored drone, assembled from spare parts. Turtle-based AI.	Gepanzerte Drohne, zusammengebaut aus Ersatzteilen. Schildkrötenbasierte KI.	250
-randomizerMenuStrings[i]	+1 combat drone		30
+randomizerMenuStrings[i]	+1 combat drone	+1 Kampfdrone	30
 randomizerMenuStrings[i]	-50 synthetics	-50 Kunststoffe	30
 
 Perk drone 09 light sec.prefab
@@ -10310,93 +10310,93 @@ description	A light humanoid drone designed for personal escort. Armed with auto
 Perk drone 09b tactical sec.prefab
 displayName	Tactical security drone	Taktische Sicherheitsdrohne	40
 description	An armored humanoid drone for security operations in dangerous areas. Armed with assault rifle.	Eine gepanzerte humanoide Drohne für Sicherheitseinsätze in gefährlichen Gebieten. Bewaffnet mit einem Sturmgewehr.	250
-randomizerMenuStrings[i]	+1 military drone		30
+randomizerMenuStrings[i]	+1 military drone	+1 Militär Drone	30
 
 Perk drone 09c Sentinel sec.prefab
 displayName	Heavy sentinel	Schwerer Sentinel	40
 description	Large military robot sold to VIP customers at premium price. Heavily armored & armed.	Großer Militärroboter, der an VIP-Kunden zum Premium-Preis verkauft wird. Schwer gepanzert und bewaffnet.	250
-randomizerMenuStrings[i]	+1 heavy combat drone		30
+randomizerMenuStrings[i]	+1 heavy combat drone	+1 Schwere Kampfdrone	30
 
 Perk drone for Tigerfish.prefab
 displayName	The spider tiger drone	Die Spinnentiger-Drohne	40
 description	Heavy space construction drone sold at premium price. Good at repairs, heavy armor.	Schwere Raumfahrt-Konstruktionsdrohne, die zum Premium-Preis verkauft wird. Gut bei Reparaturen, schwer gepanzert.	250
-randomizerMenuStrings[i]	+1 heavy industrial drone		30
+randomizerMenuStrings[i]	+1 heavy industrial drone	+1 Konstruktionsdrohne	30
 
 Perk Endurance extra hitpoints and deflection.prefab
 displayName	The extra armor	Die Zusatzpanzerung	40
 description	A local workshop agrees to add additional layers or armor to ship hull, provided you bring the money and the materials.	Eine lokale Werkstatt erklärt sich bereit, zusätzliche Schichten oder Panzerung an der Schiffshülle anzubringen, sofern Sie das Geld und die Materialien mitbringen.	250
-randomizerMenuStrings[i]	+2 to ship HP		30
-randomizerMenuStrings[i]	+2% deflection		30
+randomizerMenuStrings[i]	+2 to ship HP	+1 Schiffshüllenpunkt	30
+randomizerMenuStrings[i]	+2% deflection	+2% Abwehr	30
 
 Perk Exception extra artifacts.prefab
 displayName	Artifacts from Mars	Artefakte vom Mars	40
 description	Numerous technological artifacts were excavated together with the Exception. Pulling some strings will ensure they are given to us for further research.	Zahlreiche technologische Artefakte wurden zusammen mit der Exception ausgegraben. Wenn Sie ein paar Fäden ziehen, werden sie uns für weitere Forschungen zur Verfügung gestellt.	250
-randomizerMenuStrings[i]	+2 artifacts		30
+randomizerMenuStrings[i]	+2 artifacts	+2 Artefakte	30
 
 Perk Exception extra hitpoints.prefab
 displayName	A special diet	Eine besondere Diät	40
 description	Living parts of the Exception can be augmented by feeding it a special diet of carbon and exotics. The ship's living tissue will grow more resistant to damage.	Die lebenden Teile der Exception können durch eine spezielle Diät aus Kohlenstoff und exotischen Stoffen vergrößert werden. Das lebende Gewebe des Schiffes wird widerstandsfähiger gegen Schäden.	250
-randomizerMenuStrings[i]	+5 to ship HP		30
+randomizerMenuStrings[i]	+5 to ship HP	+5 Schiffshüllenpunkte	30
 randomizerMenuStrings[i]	-150 organics	-150 organische Stoffe	30
 
 Perk fate permanent 01 fortunate coincidence.prefab
 displayName	A fortunate coincidence	Eine glückliche Fügung	40
 description	A fortunate coincidence helps you to prepare better for the upcoming journey.	Eine glückliche Fügung hilft Ihnen, sich besser auf die bevorstehende Reise vorzubereiten.	250
-randomizerMenuStrings[i]	+1 fate points, starting from next run		30
+randomizerMenuStrings[i]	+1 fate points, starting from next run	+1 Schicksalspunkt, ab dem nächsten Lauf	30
 
 Perk fate permanent 02 good luck.prefab
 displayName	The good luck	Der Glücksfall	40
 description	Somebody wished you good luck before the journey, and thanks to an unexpected series of events, their wish actually came true.	Jemand hat Ihnen vor der Reise viel Glück gewünscht, und dank einer unerwarteten Reihe von Ereignissen ist sein Wunsch tatsächlich in Erfüllung gegangen.	250
-randomizerMenuStrings[i]	+2 fate points, starting from next run		30
+randomizerMenuStrings[i]	+2 fate points, starting from next run	+2 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk fate permanent 03 causal chain reaction.prefab
 displayName	The causal chain reaction	Die kausale Kettenreaktion	40
 description	Years ago, you helped somebody, changing their lives forever. It started a chain-reaction of events that led to somebody helping you today.	Vor Jahren haben Sie jemandem geholfen und sein Leben für immer verändert. Dadurch wurde eine Kettenreaktion von Ereignissen ausgelöst, die dazu führte, dass Ihnen heute jemand hilft.	250
-randomizerMenuStrings[i]	+3 fate points, starting from next run		30
+randomizerMenuStrings[i]	+3 fate points, starting from next run	+3 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk fate permanent 04 generosity and abundance.prefab
 displayName	The seeds of generosity	Die Saat der Großzügigkeit	40
 description	By sowing the seeds of generosity in the past, you have arrived to the harvest of abundance in the present.	Indem du in der Vergangenheit die Saat der Großzügigkeit gesät hast, bist du in der Gegenwart zur Ernte des Überflusses gelangt.	250
-randomizerMenuStrings[i]	+4 fate points, starting from next run		30
+randomizerMenuStrings[i]	+4 fate points, starting from next run	+4 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk fate permanent 05 friend of truth.prefab
 displayName	The friend of truth	Der Freund der Wahrheit	40
 description	Awareness of your personal limitations has granted you an even deeper awareness of your freedom.	Das Bewusstsein deiner persönlichen Grenzen hat dir ein noch tieferes Bewusstsein für deine Freiheit geschenkt.	250
-randomizerMenuStrings[i]	+5 fate points, starting from next run		30
+randomizerMenuStrings[i]	+5 fate points, starting from next run	+5 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk fate permanent 06 focused one.prefab
 displayName	The focused one	Der Fokussierte	40
 description	You understand something so deeply that it allows you to understand everything a bit better than individuals usually do.	Du verstehst etwas so tief, dass es Dir erlaubt, alles ein bisschen besser zu verstehen, als es Einzelne normalerweise tun.	250
-randomizerMenuStrings[i]	+6 fate points, starting from next run		30
+randomizerMenuStrings[i]	+6 fate points, starting from next run	+6 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk fate permanent 07 masterful exister.prefab
 displayName	The masterful exister	Der meisterhafte Exister	40
 description	Random coincidences seem to support the fulfillment of your wishes more than what is usually considered normal.	Zufällige Zufälle scheinen die Erfüllung Deiner Wünsche mehr zu unterstützen als das, was normalerweise als normal angesehen wird.	250
-randomizerMenuStrings[i]	+7 fate points, starting from next run		30
+randomizerMenuStrings[i]	+7 fate points, starting from next run	+7 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk fate permanent 08 the great peace.prefab
 displayName	The Great Peace	Der große Frieden	40
 description	You're starting to realize your intimate connection with the Great Peace, remaining calm even in situations of utter distress.	Du beginnst, Deine innige Verbindung mit dem Großen Frieden zu erkennen und bleibst selbst in Situationen äußerster Bedrängnis ruhig.	250
-randomizerMenuStrings[i]	+8 fate points, starting from next run		30
+randomizerMenuStrings[i]	+8 fate points, starting from next run	+8 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk fate permanent 09 optimality.prefab
 displayName	The optimality	Die Optimalität	40
 description	You are in the right place in the right time.	Du bist zur richtigen Zeit am richtigen Ort.	250
-randomizerMenuStrings[i]	+9 fate points, starting from next run		30
+randomizerMenuStrings[i]	+9 fate points, starting from next run	+9 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk fate permanent 10 victory.prefab
 displayName	The taste of victory	Der Geschmack des Sieges	40
 description	Those who know what awaits at the end of the road can enjoy the road itself better.	Wer weiß, was am Ende des Weges auf ihn wartet, kann den Weg selbst besser genießen.	250
-randomizerMenuStrings[i]	+10 fate points, starting from next run		30
+randomizerMenuStrings[i]	+10 fate points, starting from next run	+10 Schicksalspunkte, ab dem nächsten Lauf	30
 
 Perk maggot pet.prefab
 displayName	The Maggot	Die Made	40
 description	A smuggler is offering this artificial military organism of unknown origin. Says the worm is perfectly obedient and can spray molecular acid at your enemies.	Ein Schmuggler bietet diesen künstlichen Militärorganismus unbekannter Herkunft an. Es heißt, der Wurm sei vollkommen gehorsam und könne Molekularsäure auf Ihre Feinde spritzen.	250
-randomizerMenuStrings[i]	+1 combat-capable pet		30
+randomizerMenuStrings[i]	+1 combat-capable pet	+1 Kampffähiges Haustier	30
 
 Perk module artifact, data core.prefab
 description	This artifact is on sale in a remote Vexian junk market. The seller is not aware that the artifact is a data carrier containing historic information about Earth from thousands of years ago. Its scientific and monetary value are probably underestimated.	Dieses Artefakt wird auf einem abgelegenen vexianischen Trödelmarkt zum Verkauf angeboten. Der Verkäufer ist sich nicht bewusst, dass es sich bei dem Artefakt um einen Datenträger handelt, der historische Informationen über die Erde von vor Tausenden von Jahren enthält. Sein wissenschaftlicher und monetärer Wert wird wahrscheinlich unterschätzt.	250
-randomizerMenuStrings[i]	+1 artifact module		30
+randomizerMenuStrings[i]	+1 artifact module	+1 Artefakt-Modul	30
 randomizerMenuStrings[i]	-25 credits	-25 Credits	30
 
 Perk module artifact, nontech for Bluestar.prefab
@@ -10416,86 +10416,86 @@ Perk module artifact, worm stasis.prefab
 displayName	A dead worm	Ein toter Wurm	40
 description	A stasis bubble containing a dead, but very holy worm. A Grippy friend of ours would like to ceremonially give it to us as a gift, because its the only way their religion allows getting rid of it. Our friend promises there will be free food in the ceremony.	Eine Stasisblase, die einen toten, aber sehr heiligen Wurm enthält. Ein Grippy-Freund von uns möchte ihn uns zeremoniell schenken, weil es die einzige Möglichkeit ist, ihn in ihrer Religion loszuwerden. Unser Freund verspricht, dass es bei der Zeremonie kostenloses Essen geben wird.	250
 unlockAnnouncementText	A Grippy friend of ours would like to ceremonially give this dead worm to us as a gift, because its the only way their religion allows getting rid of it.	Ein Grippy-Freund von uns möchte uns diesen toten Wurm zeremoniell schenken, weil es die einzige Möglichkeit ist, ihn in seiner Religion loszuwerden.	100
-randomizerMenuStrings[i]	+1 artifact module, can be scrapped for resources		30
-randomizerMenuStrings[i]	+25 organics		30
+randomizerMenuStrings[i]	+1 artifact module, can be scrapped for resources	+1 Artefakt-Modul, kann verschrottet werden	30
+randomizerMenuStrings[i]	+25 organics	+25 Organisches	30
 
 Perk module container experimental random for Riggy.prefab
 displayName	The mysterious multicontainer	Der geheimnisvolle Multicontainer	40
 description	A friend of a friend offers us an opportunity to obtain this truly rare multicontainer. It's supposedly from some very advanced civilization, or a local prototype or just a rare piece of technology - the friend does not have all the information. Payment in exotic crystals only.	Ein Freund eines Freundes bietet uns die Möglichkeit, diesen wirklich seltenen Multicontainer zu erhalten. Er soll von einer sehr fortgeschrittenen Zivilisation stammen, oder ein lokaler Prototyp oder einfach ein seltenes Stück Technologie sein - der Freund hat nicht alle Informationen. Bezahlung nur in exotischen Kristallen.	250
-randomizerMenuStrings[i]	+1 multicontainer		30
+randomizerMenuStrings[i]	+1 multicontainer	+1 Multicontainer	30
 randomizerMenuStrings[i]	-2 exotics	-2 Exoten	30
 
 Perk module container FO for Riggy.prefab
 displayName	The advanced multicontainer	Der fortschrittliche Multicontainer	40
 description	This biotech container increases storage capacity for fuel & organics. It's made of very advanced biotech, giving a noteworthy bonus to ship HP.	Dieser Biotech-Container erhöht die Speicherkapazität für Treibstoff und organische Stoffe. Er ist aus sehr fortschrittlicher Biotechnologie hergestellt und gibt einen bemerkenswerten Bonus auf die Schiffs-HP.	250
-randomizerMenuStrings[i]	+1 fuel & organics mutlicontainer		30
+randomizerMenuStrings[i]	+1 fuel & organics mutlicontainer	+1 Kraftstoff & Multicontainer Organisches	30
 randomizerMenuStrings[i]	-120 credits	-120 Credits	30
 
 Perk module container MS1.prefab
 displayName	The extra container	Der Extra-Container	40
 description	A container that increases storage capacity for metal & synthetics. We have to start improving our containers early on because the best ship upgrades need 900 metal and 500 synthetics.	Ein Container, der die Lagerkapazität für Metall und Synthetik erhöht. Wir müssen früh damit beginnen, unsere Container zu verbessern, da die besten Schiffsupgrades 900 Metall und 500 Synthetik benötigen.	250
-randomizerMenuStrings[i]	+1 metal/synthetics container		30
+randomizerMenuStrings[i]	+1 metal/synthetics container	+1 Metall-/Synthetik-Container	30
 
 Perk module decommissioned DIY ecms x3.prefab
 displayName	Decommissioned ECMs (x3)	Ausgemusterte ECMs (x3)	40
 description	Even the Rat Empire occasionally updates its fleets. These primitive ECM modules have been decommissioned and can be bought for food scraps if you know the right Rats.	Auch das Rattenimperium aktualisiert gelegentlich seine Flotten. Diese primitiven ECM-Module wurden ausgemustert und können für Essensreste gekauft werden, wenn Sie die richtigen Ratten kennen.	250
-randomizerMenuStrings[i]	+3 ECM modules		30
+randomizerMenuStrings[i]	+3 ECM modules	+3 ECM Module	30
 randomizerMenuStrings[i]	-60 organics	-60 organische Stoffe	30
 
 Perk module decommissioned DIY reactors x2.prefab
 displayName	Decommissioned reactors (x2)	Ausgemusterte Reaktoren (x2)	40
 description	These reactors have been designated as "unstable" but everything in the Rat Empire is unstable, so you shouldn't take this designation too seriously. At least that's what says the honest Rat smuggler who is trying to sell them to us."	Diese Reaktoren sind als "instabil" gekennzeichnet, aber alles im Rattenimperium ist instabil, also sollten Sie diese Kennzeichnung nicht zu ernst nehmen. Zumindest sagt das der ehrliche Rattenschmuggler, der sie uns verkaufen will."	250
 unlockAnnouncementText	During our travels, we've met this Rat smuggler selling decommissioned reactors. He promised to offer us his best reactors, next time.	Auf unseren Reisen haben wir diesen Rattenschmuggler getroffen, der ausgemusterte Reaktoren verkauft. Er versprach, uns beim nächsten Mal seine besten Reaktoren anzubieten.	100
-randomizerMenuStrings[i]	+2 reactors		30
+randomizerMenuStrings[i]	+2 reactors	+2 Reaktoren	30
 
 Perk module Decoy Set x 3.prefab
 displayName	The decoy moduleset (x3)	Das Täuschungsmodulset (x3)	40
 description	A decoy weapon, shield generator and nuke. All designed to draw enemy fire away from real modules or capital missiles.	Eine Täuschungswaffe, ein Schildgenerator und eine Atombombe. Alles dazu gedacht, feindliches Feuer von echten Modulen oder kapitalen Raketen abzulenken.	250
-randomizerMenuStrings[i]	+3 decoy modules		30
+randomizerMenuStrings[i]	+3 decoy modules	+3 Täuschungsmodule	30
 randomizerMenuStrings[i]	-150 credits	-150 Credits	30
 
 Perk module DIY backup warpdrive.prefab
 displayName	The backup warpdrive	Der Ersatz-Warpdrive	40
 description	Although ships can fly between starsystems using normal engines, this usually consumes a lot of fuel and especially much more organics than warping with warpdrives. This one is a DIY variant, assembled from spare parts.	Schiffe können zwar mit normalen Triebwerken zwischen Sternensystemen fliegen, aber das verbraucht in der Regel sehr viel Treibstoff und vor allem viel mehr organische Stoffe als das Warpen mit Warpantrieben. Dieser hier ist eine DIY-Variante, zusammengebaut aus Ersatzteilen.	250
 unlockAnnouncementText	During our travels, we met this university student willing to donate her self-made warpdrive to our cause - next time, when she has finished experimenting with it.	Auf unseren Reisen trafen wir diese Studentin, die bereit war, ihren selbstgebauten Warpantrieb für unsere Sache zu spenden - beim nächsten Mal, wenn sie mit dem Experimentieren fertig ist.	100
-randomizerMenuStrings[i]	+1 DIY warpdrive module		30
+randomizerMenuStrings[i]	+1 DIY warpdrive module	+1 DIY Warpantrieb Modul	30
 
 Perk module DIY bridge.prefab
 displayName	The backup bridge	Die Backup-Brücke	40
 description	The command bridge allows remotely operating other modules (without giving crew skill bonuses). This comes with spare parts, perhaps worth taking along as a backup.	Die Kommandobrücke ermöglicht es, andere Module fernzusteuern (ohne dass die Besatzung einen Fertigkeitsbonus erhält). Sie wird mit Ersatzteilen geliefert, vielleicht lohnt es sich, sie als Backup mitzunehmen.	250
-randomizerMenuStrings[i]	+1 DIY bridge module		30
+randomizerMenuStrings[i]	+1 DIY bridge module	+1 DIY Brückenmodul	30
 
 Perk module DIY cryodream recorder.prefab
 displayName	The cryodream recorder	Der Kryo-Traumrekorder	40
 description	A self-made cryosleep dream recorder. Sleepers do not consume organics & may heal injuries during ship movement. The dream recorder occasionally produces xenodata (credits). Comes with herbal drugs that cause lucid dreaming.	Ein selbstgebauter Kryoschlaf-Traumrekorder. Schläfer verbrauchen keine organischen Stoffe & können Verletzungen während der Schiffsbewegung heilen. Der Traumrekorder produziert gelegentlich Xenodaten (Credits). Wird mit pflanzlichen Drogen geliefert, die luzides Träumen verursachen.	250
 unlockAnnouncementText	During our travels, we met an individual specializing in cryosleep technology. After hearing our story, they promised to build us one for free, next time we go out adventuring.	Während unserer Reise trafen wir ein Individuum, das sich auf Kryoschlaf-Technologie spezialisiert hat. Nachdem sie unsere Geschichte gehört hatten, versprachen sie uns, uns kostenlos einen zu bauen, wenn wir das nächste Mal auf Abenteuerreise gehen.	100
-randomizerMenuStrings[i]	+1 cryodream recorder (generates credits)		30
-randomizerMenuStrings[i]	+33 organics		30
+randomizerMenuStrings[i]	+1 cryodream recorder (generates credits)	+1 Kryo-Traumrekorder (generiert Credits)	30
+randomizerMenuStrings[i]	+33 organics	+33 Organisches	30
 
 Perk module DIY cryosleep.prefab
 displayName	DIY cryosleep pod	DIY-Kryoschlafkapsel	40
 description	A self-assembled cryosleep pod, together with a sortiment of junk usable as spare parts.	Eine selbst zusammengebaute Kryoschlafkapsel, zusammen mit einer Reihe von Gerümpel, das als Ersatzteile verwendet werden kann.	250
 unlockAnnouncementText	During our travels, we managed to inspire an old engineering teacher with our limitless idealism. They promised to build us a really good cryosleep pod next time we go for a run like this.	Während unserer Reisen haben wir es geschafft, einen alten Ingenieurlehrer mit unserem grenzenlosen Idealismus zu begeistern. Er versprach uns, uns bei der nächsten Reise eine wirklich gute Kryoschlafkapsel zu bauen.	100
-randomizerMenuStrings[i]	+1 cryosleep module for one		30
-randomizerMenuStrings[i]	+40 synthetics		30
+randomizerMenuStrings[i]	+1 cryosleep module for one	+1 Kryoschlafkapsel	30
+randomizerMenuStrings[i]	+40 synthetics	+40 Synthetik	30
 
 Perk module DIY exotic EMP sniper.prefab
 displayName	Exotic EMP sniper	Exotischer EMP-Scharfschütze	40
 description	This EMP sniper projects exotic rays which simply ingore energy shields and overload enemy modules over a large area. Very high power consumption, comes with some backup materials.	Dieser EMP-Scharfschütze projiziert exotische Strahlen, die Energieschilde einfach durchdringen und gegnerische Module großflächig überladen. Sehr hoher Stromverbrauch, kommt mit einigen Ersatzmaterialien.	250
 unlockAnnouncementText	During our travels, we learned about a distant library with blueprints for this prototype weapon.	Während unserer Reisen erfuhren wir von einer entfernten Bibliothek mit Blaupausen für diese Prototyp-Waffe.	100
-randomizerMenuStrings[i]	+1 exotic EMP sniper		30
+randomizerMenuStrings[i]	+1 exotic EMP sniper	+1 Exotischer EMP-Scharfschütze	30
 
 Perk module DIY exotic raygun 2.prefab
 displayName	Exotic raygun II	Exotische Strahlenpistole II	40
 description	This experimental weapon consumes exotics with each shot. While very powerful, its rays can be blocked by shields or simply deflected by ship armor.	Diese experimentelle Waffe verbraucht mit jedem Schuss Exoten. Ihre Strahlen sind zwar sehr stark, können aber von Schilden blockiert oder von der Schiffspanzerung einfach abgelenkt werden.	250
 unlockAnnouncementText	During our travels, we learned about a distant library with blueprints for this experimental weapon.	Während unserer Reisen erfuhren wir von einer entfernten Bibliothek mit Blaupausen für diese experimentelle Waffe.	100
-randomizerMenuStrings[i]	+1 DIY exotic dual raygun		30
+randomizerMenuStrings[i]	+1 DIY exotic dual raygun	+1 DIY Exotische Strahlenwaffe	30
 randomizerMenuStrings[i]	-100 fuel	-100 Treibstoff	30
 
 Perk module DIY exotic raygun.prefab
 displayName	Exotic raygun I	Exotische Strahlenpistole I	40
 description	This experimental weapon consumes exotics with each shot. While very powerful, its single ray can be blocked by shields or simply deflected by ship armor.	Diese experimentelle Waffe verbraucht mit jedem Schuss Exotika. Obwohl sie sehr mächtig ist, kann ihr einzelner Strahl von Schilden blockiert oder einfach von der Schiffspanzerung abgelenkt werden.	250
-randomizerMenuStrings[i]	+1 DIY exotic raygun		30
+randomizerMenuStrings[i]	+1 DIY exotic raygun	+1 DIY Exotische Strahlenwaffe	30
 
 Perk module DIY explo combinator, to 3ships.prefab
 displayName	Explosives combinator DIY	Sprengstoff-Kombinator DIY	40
@@ -10505,14 +10505,14 @@ randomizerMenuStrings[i]	Allows combining fuel and synthetics into explosives	Er
 Perk module DIY garden.prefab
 displayName	DIY garden	DIY-Garten	40
 description	A self-made garden module. Gardens remove operator food consumption and generate extra organics during ship movement.\nWe may craft more of these any time during the journey (like any other craftable DIY modules) if we have the resources.	Ein selbstgebautes Gartenmodul. Gärten entfernen den Nahrungsverbrauch des Operators und erzeugen zusätzliche organische Stoffe während der Schiffsbewegung.\nWir können jederzeit während der Reise mehr davon herstellen (wie alle anderen herstellbaren DIY-Module), wenn wir die Ressourcen haben.	250
-randomizerMenuStrings[i]	+1 garden module		30
+randomizerMenuStrings[i]	+1 garden module	+1 Garten Modul	30
 randomizerMenuStrings[i]	-30 organics	-30 Organika	30
 
 Perk module DIY integrity 2.prefab
 displayName	DIY integrity scales	DIY-Integritätswaage	40
 description	Manually built additional layer of internal ship armor and associated integrity hardpoint. Adds +7 ship hull points when installed, can be used to gain HP quickly during an emergency.	Manuell hergestellte zusätzliche Schicht der internen Schiffspanzerung und zugehöriger Integritäts-Hardpoint. Fügt +7 Schiffshüllenpunkte hinzu, wenn es installiert ist, und kann verwendet werden, um in einem Notfall schnell HP zu gewinnen.	250
 unlockAnnouncementText	During our ships various encounters with local stations, our ship AI has found free access to blueprints of this technology.	Während verschiedener Begegnungen unserer Schiffe mit lokalen Stationen hat unsere Schiffs-KI freien Zugang zu Blaupausen dieser Technologie gefunden.	100
-randomizerMenuStrings[i]	+1 integrity module		30
+randomizerMenuStrings[i]	+1 integrity module	+1 Integritätsmodul	30
 randomizerMenuStrings[i]	(adds +7 ship HP when installed)	(fügt +7 Schiffs-HP hinzu, wenn installiert)	30
 randomizerMenuStrings[i]	-70 metal	-70 Metall	30
 
@@ -10525,71 +10525,71 @@ randomizerMenuStrings[i]	-50 metal	-50 Metall	30
 Perk module DIY lab.prefab
 displayName	Improvised laboratory	Improvisiertes Labor	40
 description	Crew assigned to laboratory generate xenodata during ship movement, based on their science skill. This lab can be obtained together with materials often used in scientific experimentation.	Die dem Labor zugewiesene Crew generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Wissenschaftsfertigkeit. Dieses Labor kann zusammen mit Materialien erhalten werden, die häufig bei wissenschaftlichen Experimenten verwendet werden.	250
-randomizerMenuStrings[i]	+1 DIY lab module		30
-randomizerMenuStrings[i]	+10 organics		30
-randomizerMenuStrings[i]	+10 explosives		30
+randomizerMenuStrings[i]	+1 DIY lab module	+1 DIY Labor	30
+randomizerMenuStrings[i]	+10 organics	+10 Organisches	30
+randomizerMenuStrings[i]	+10 explosives	+10 Sprengstoffe	30
 
 Perk module DIY medbay.prefab
 displayName	Improvised medbay	Improvisierte Medbay	40
 description	Universal access to standard medbay blueprints represents one of the many benefits of Earth Alliance civilization, guaranteeing almost biological immortality against any physical issue if the damage to patient is not too severe. This manually crafted unit can serve one patient at a time.	Der universelle Zugang zu Standard-Bauplänen für Medbays ist einer der vielen Vorteile der Erdallianz-Zivilisation, die fast biologische Unsterblichkeit gegen jedes körperliche Problem garantiert, wenn der Schaden am Patienten nicht zu schwer ist. Diese manuell gefertigte Einheit kann jeweils einen Patienten versorgen.	250
 unlockAnnouncementText	We've been promised a free DIY medbay if we pick it up ourselves, next time.	Uns wurde eine kostenlose DIY-Medbay versprochen, wenn wir sie das nächste Mal selbst abholen.	100
-randomizerMenuStrings[i]	+1 medbay module		30
+randomizerMenuStrings[i]	+1 medbay module	+1 Medbay Modul	30
 
 Perk module DIY point-defence.prefab
 displayName	DIY point-defence system	DIY-Punktabwehrsystem	40
 description	Point-defences can intercept enemy missiles, projectiles, intruders and asteroids- in this order of importance. While missiles are slow & often explode after a single hit, other projectiles usually hit before getting shot down. All point-defences are 99% accurate.	Punktverteidigungssysteme können feindliche Raketen, Projektile, Eindringlinge und Asteroiden abfangen - in dieser Reihenfolge der Wichtigkeit. Während Raketen langsam sind und oft nach einem einzigen Treffer explodieren, treffen andere Projektile normalerweise, bevor sie abgeschossen werden. Alle Punktabwehrsysteme sind zu 99% genau.	250
-randomizerMenuStrings[i]	+1 DIY point-defence system		30
+randomizerMenuStrings[i]	+1 DIY point-defence system	+1 DIY Punktabwehrsystem	30
 
 Perk module DIY random nonweapon.prefab
 displayName	The leftover parts	Die übrig gebliebenen Teile	40
 description	Various leftover parts, assembled into a functional module.\nThe quality of manually crafted modules is not the best, but our engineers can sometimes craft interesting pieces.	Verschiedene übrig gebliebene Teile, die zu einem funktionsfähigen Modul zusammengebaut werden. Die Qualität der handgefertigten Module ist nicht die beste, aber unsere Ingenieure können manchmal interessante Stücke herstellen.	250
-randomizerMenuStrings[i]	+1 random DIY module		30
+randomizerMenuStrings[i]	+1 random DIY module	+1 zufälliges DIY Modul	30
 
 Perk module DIY reactor.prefab
 displayName	DIY backup reactor	DIY-Backup-Reaktor	40
 description	Most modules on the ship use power, and reactors increase available power.\nThis one is manually assembled from modular parts and not very powerful. Comes with some pre-loaded fuel.	Die meisten Module auf dem Schiff verbrauchen Energie, und Reaktoren erhöhen die verfügbare Energie.\nDieser ist manuell aus Modulteilen zusammengebaut und nicht sehr leistungsstark. Er wird mit etwas vorgeladenem Treibstoff geliefert.	250
-randomizerMenuStrings[i]	+1 DIY reactor module		30
-randomizerMenuStrings[i]	+20 fuel		30
+randomizerMenuStrings[i]	+1 DIY reactor module	+1 DIY Reaktormodul	30
+randomizerMenuStrings[i]	+20 fuel	+20 Kraftstoff	30
 
 Perk module DIY sensor.prefab
 displayName	DIY backup sensor	DIY-Backup-Sensor	40
 description	Ships use only their best sensor. This one is a very crude, manually assembled backup variant. It can be obtained together with some tech scraps.	Schiffe verwenden nur ihren besten Sensor. Dieser hier ist eine sehr grobe, manuell zusammengebaute Backup-Variante. Er kann zusammen mit ein paar Tech-Schrottteilen erhalten werden.	250
 unlockAnnouncementText	While not the most valuable thing in the world, having a backup sensor is better than having nothing. We've been promised one if we pick it up ourselves, next time.	Es ist zwar nicht die wertvollste Sache der Welt, aber einen Backup-Sensor zu haben ist besser als nichts zu haben. Man hat uns einen versprochen, wenn wir ihn das nächste Mal selbst abholen.	100
-randomizerMenuStrings[i]	+1 backup sensor module		30
+randomizerMenuStrings[i]	+1 backup sensor module	+1 Backup Sensor-Modul	30
 
 Perk module DIY shield battery.prefab
 displayName	DIY shield battery	DIY-Schild-Batterie	40
 description	An additional shield battery might save our life some day. A local engineer can assemble one together on the spot.	Eine zusätzliche Schildbatterie könnte uns eines Tages das Leben retten. Ein lokaler Ingenieur kann sie vor Ort zusammenbauen.	250
-randomizerMenuStrings[i]	+1 DIY shield battery		30
+randomizerMenuStrings[i]	+1 DIY shield battery	+1 DIY Schildbatterie	30
 
 Perk module DIY shielding set x 2.prefab
 displayName	The shielding moduleset (x2)	Das Schildmodulset (x2)	40
 description	A famous engineer of a backwater planet promises to build us the best shield generator in the universe, plus a decent shield battery - if we pay with the finest of drugs.	Ein berühmter Ingenieur eines Hinterwäldlerplaneten verspricht, uns den besten Schildgenerator des Universums zu bauen, plus eine anständige Schildbatterie - wenn wir mit den feinsten Drogen bezahlen.	250
-randomizerMenuStrings[i]	+2 DIY shield modules		30
+randomizerMenuStrings[i]	+2 DIY shield modules	+2 DIY Schildmodule	30
 randomizerMenuStrings[i]	-10 organics	-10 organische Stoffe	30
 randomizerMenuStrings[i]	-10 synthetics	-10 Kunststoffe	30
 
 Perk module DIY weapon.prefab
 displayName	DIY backup weapon	DIY-Ersatzwaffe	40
 description	Despite having the ability to craft DIY weapons in our ship, it's still good to have one ready as a backup.\nImprovised weapons are not the best, but our engineers sometimes craft interesting pieces.	Obwohl wir die Möglichkeit haben, DIY-Waffen in unserem Schiff herzustellen, ist es immer noch gut, eine als Backup parat zu haben. Improvisierte Waffen sind nicht die besten, aber unsere Ingenieure stellen manchmal interessante Stücke her.	250
-randomizerMenuStrings[i]	+1 random DIY weapon module		30
+randomizerMenuStrings[i]	+1 random DIY weapon module	+1 zufälliges DIY Waffenmodul	30
 randomizerMenuStrings[i]	-1 exotic	-1 Exotisch	30
 
 Perk module drone repair bay.prefab
 displayName	Drone repair bay	Drohnen-Reparaturbucht	40
 description	Technology for repairing damaged internal drones. Consumes 10 synthetics to repair 1 hitpoint.	Technologie zum Reparieren beschädigter interner Drohnen. Verbraucht 10 Kunststoffe, um 1 Hitpoint zu reparieren.	250
-randomizerMenuStrings[i]	+1 drone repair module		30
+randomizerMenuStrings[i]	+1 drone repair module	+1 Dronen-Reparaturmodul	30
 
 Perk module EOME container.prefab
 displayName	Exotic multicontainer	Exotischer Multicontainer	40
 description	This very advanced pressure container increases resource capacity for organics, metals, explosives and exotics.	Dieser sehr fortschrittliche Druckcontainer erhöht die Ressourcenkapazität für organische Stoffe, Metalle, Sprengstoffe und exotische Stoffe.	250
 unlockAnnouncementText	Our research on Spideraa technology is yielding results. Replicating this advanced container in Earth Alliance labs should not be a problem, next time.	Unsere Forschung an der Spideraa-Technologie trägt Früchte. Die Replikation dieses fortschrittlichen Containers in den Labors der Erdallianz sollte kein Problem sein, das nächste Mal.	100
-randomizerMenuStrings[i]	+1 very advanced container		30
+randomizerMenuStrings[i]	+1 very advanced container	+1 fortschrittlicher Container	30
 
 Perk module fuel combinator, to atlas.prefab
 displayName	Fuel combinator	Treibstoff-Kombinator	40
 description	This module combines organics & synthethics into starfuel. Being able to produce your own fuel is highly recommended for long flights.	Dieses Modul kombiniert organische und synthethische Stoffe zu Sternentreibstoff. Die Möglichkeit, eigenen Treibstoff zu produzieren, ist für lange Flüge sehr empfehlenswert.	250
-randomizerMenuStrings[i]	+1 sustainability module		30
+randomizerMenuStrings[i]	+1 sustainability module	+1 Nachhaltigkeitsmodul	30
 randomizerMenuStrings[i]	-199 credits	-199 Credits	30
 
 Perk module green integrity for weirdship.prefab
@@ -10612,7 +10612,7 @@ unlockAnnouncementText	Our ship AI has found this blueprint through acccess to i
 Perk module lovers cryosleep.prefab
 displayName	"Lovers"-type cryosleep"	Liebespaar-Typ Kryoschlaf"	40
 description	Perfect for couples. Crew in cryosleep doesn't consume organics & may heal injuries during ship movement.	Perfekt für Paare. Die Crew im Kryoschlaf verbraucht keine organischen Stoffe und kann Verletzungen während der Schiffsbewegung heilen.	250
-randomizerMenuStrings[i]	+1 cryosleep module for two		30
+randomizerMenuStrings[i]	+1 cryosleep module for two	+1 Kryoschlafmodul für 2	30
 
 Perk module medbay 202.prefab
 displayName	Medbay 202	Medbay 202	40
@@ -10625,24 +10625,24 @@ randomizerMenuStrings[i]	-40 organics	-40 Organika	30
 Perk module oilcake organics converter.prefab
 displayName	The oilcake converter	Der Ölkuchen-Konverter	40
 description	This module can turn fuel into organics, and comes with a built-in cake printer. Typically issued to ships operating away from carbon ecosystems.	Dieses Modul kann Treibstoff in organische Stoffe umwandeln und verfügt über einen eingebauten Kuchendrucker. Wird typischerweise an Schiffe ausgegeben, die abseits von Kohlenstoff-Ökosystemen operieren.	250
-randomizerMenuStrings[i]	+1 convertor module that can turn fuel into food.		30
-randomizerMenuStrings[i]	+40 fuel		30
+randomizerMenuStrings[i]	+1 convertor module that can turn fuel into food.	+1 Konvertermodul um Kraftstoff in Essen umzuwandeln.	30
+randomizerMenuStrings[i]	+40 fuel	+40 Kraftstoff	30
 
 Perk module old random.prefab
 displayName	The ancient module	Das Antiker-Modul	40
 description	A gift from a friend at the Rat Imperial Archeology museum.	Ein Geschenk von einem Freund aus dem rattenimperialen Archäologiemuseum.	250
-randomizerMenuStrings[i]	+1 random old module		30
+randomizerMenuStrings[i]	+1 random old module	+1 zufälliges altes Modul	30
 
 Perk module old triple cannon.prefab
 displayName	Old dreadnought cannon	Alte Dreadnought-Kanone	40
 description	A friendly scavenger is willing to sell a piece of antique weaponry for cheap.	Ein befreundeter Plünderer ist bereit, ein Stück antiker Waffen für wenig Geld zu verkaufen.	250
-randomizerMenuStrings[i]	+1 old dreadnought cannon		30
+randomizerMenuStrings[i]	+1 old dreadnought cannon	+1 alte Dreadnought-Kanone	30
 
 Perk module Rat weapon for exotics.prefab
 displayName	The unofficial deal (Rat weapon)	Der inoffizielle Deal (Rattenwaffe)	40
 description	A smuggler from the Rat Empire offers us this weapon in exchange for exotics.	Ein Schmuggler aus dem Rattenreich bietet uns diese Waffe im Tausch gegen Exoten an.	250
 unlockAnnouncementText	We've met a smuggler who promises to get us a brand new Rat weapon for a few exotics, next time.	Wir haben einen Schmuggler getroffen, der uns verspricht, uns beim nächsten Mal eine brandneue Rattenwaffe für ein paar Exoten zu besorgen.	100
-randomizerMenuStrings[i]	+1 weapon module (Rat Empire)		30
+randomizerMenuStrings[i]	+1 weapon module (Rat Empire)	+1 Waffenmodul (Rattenreich)	30
 
 Perk module shroomery for gardenship.prefab
 displayName	Extra shroomery	Extra Shroomery	40
@@ -10657,13 +10657,13 @@ Perk module weapon bank missile x2.prefab
 displayName	Commercial missile platform	Kommerzielle Raketenplattform	40
 description	This platform prints and launches heavy missiles in pairs, giving them a good chance to survive enemy point-defence fire. Pre-loaded with enough explosives for a single volley of fire.	Diese Plattform druckt und startet schwere Raketen in Paaren, wodurch sie eine gute Chance hat, feindliches Punktverteidigungsfeuer zu überleben. Vorgeladen mit genug Sprengstoff für eine einzige Feuersalve.	250
 unlockAnnouncementText	During our travels, we've learned the location of an old military warehouse containing this weapon, among other things. We may pick it up next time.	Während unserer Reisen haben wir den Standort eines alten Militärlagers erfahren, das unter anderem diese Waffe enthält. Vielleicht holen wir sie beim nächsten Mal ab.	100
-randomizerMenuStrings[i]	+1 missile weapon		30
-randomizerMenuStrings[i]	+16 explosives		30
+randomizerMenuStrings[i]	+1 missile weapon	+1 Rakete	30
+randomizerMenuStrings[i]	+16 explosives	+16 Sprengstoffe	30
 
 Perk module weapon Spideraa Shuriken.prefab
 displayName	Uncommon weapon set	Ungewöhnliches Waffenset	40
 description	An unusual pair of exquisite weapons. Both are designed for killing crew in enemy ships.	Ein ungewöhnliches Paar exquisiter Waffen. Beide sind für das Töten der Besatzung feindlicher Schiffe gedacht.	250
-randomizerMenuStrings[i]	+2 ship weapons		30
+randomizerMenuStrings[i]	+2 ship weapons	+2 Schiffswaffen	30
 
 Perk moleculaati pet.prefab
 displayName	The Moleculaati	Die Moleculaati	40
@@ -10673,13 +10673,13 @@ Perk nuke arsenal DIY.prefab
 displayName	Nuke arsenal DIY	Atomwaffenarsenal DIY	40
 description	An arsenal of manually assembled capital missiles, also known as nukes. Can be purchased from a shady source, payment in gold and crystals only.	Ein Arsenal von manuell zusammengebauten kapitalen Raketen, auch bekannt als Nukes. Kann von einer zwielichtigen Quelle erworben werden, Bezahlung nur in Gold und Kristallen.	250
 unlockAnnouncementText	During our travels, we've met an individual willing to sell self-made nukes.	Auf unseren Reisen haben wir ein Individuum getroffen, das bereit ist, selbstgebaute Nuklearwaffen zu verkaufen.	100
-randomizerMenuStrings[i]	+4 DIY capital missiles		30
+randomizerMenuStrings[i]	+4 DIY capital missiles	+4 DIY kapitale Raketen	30
 randomizerMenuStrings[i]	-200 metal	-200 Metall	30
 
 Perk nuke arsenal for SP33.prefab
 displayName	Nuke arsenal x5	Atomwaffenarsenal x5	40
 description	A selection of capital missiles, also known as nukes. Just fill in the very-ethical-use-only declaration to receive.	Eine Auswahl an kapitalen Raketen, auch bekannt als Nuklearwaffen. Füllen Sie einfach die "Nur für den ethischen Gebrauch"-Erklärung aus, um sie zu erhalten.	250
-randomizerMenuStrings[i]	+5 capital missiles		30
+randomizerMenuStrings[i]	+5 capital missiles	+5 kapitale Raketen	30
 
 Perk nuke barrel.prefab
 displayName	External fueltank, T-1 [weaponized]	Externer Treibstofftank, T-1 [bewaffnet]	40
@@ -10696,7 +10696,7 @@ description	Ancient capital missile obtained from a biotech museum. Damages only
 Perk nuke diy decoy for Rogue Rat.prefab
 displayName	The Flying Boilers x2	Die fliegenden Kessel x2	40
 description	This pair of improvised decoy nukes have been manually crafted by local rocketry enthusiasts. Can be used to draw point-defence fire away from other missiles and deal minor damage against ship HP.	Dieses Paar improvisierter Täuschungsbomben wurde von lokalen Raketenenthusiasten in Handarbeit hergestellt. Sie können eingesetzt werden, um Punktverteidigungsfeuer von anderen Raketen abzulenken und verursachen geringen Schaden an der Schiffshülle.	250
-randomizerMenuStrings[i]	+2 capital decoy missiles		30
+randomizerMenuStrings[i]	+2 capital decoy missiles	+2 kapitale Täuschungsraketen	30
 
 Perk nuke DIY probe ual4 for bluestar.prefab
 displayName	DIY nuke [weaponized probe]	DIY-Nuke [bewaffnete Sonde]	40
@@ -10707,7 +10707,7 @@ randomizerMenuStrings[i]	-40 fuel	-40 Treibstoff	30
 Perk nuke DIY random.prefab
 displayName	Improvised nuclear missile	Improvisierte Nuklearrakete	40
 description	An improvised combination of destabilized reactors, old engines and various spare parts. Might save our life one day.	Eine improvisierte Kombination aus destabilisierten Reaktoren, alten Motoren und verschiedenen Ersatzteilen. Könnte uns eines Tages das Leben retten.	250
-randomizerMenuStrings[i]	+1 random capital missile		30
+randomizerMenuStrings[i]	+1 random capital missile	+1 zufällige großartige Rakete	30
 randomizerMenuStrings[i]	-20 fuel	-20 Treibstoff	30
 
 Perk nuke DIY shield breaker.prefab
@@ -10738,7 +10738,7 @@ randomizerMenuStrings[i]	-130 credits	-130 Credits	30
 Perk nuke Rat incendiary for Rogue Rat.prefab
 displayName	Rat Empire incendiary nuke	Rattenimperium-Brandbombe	40
 description	Widespread corruption in the Rat Empire ensures that everything is available for a price.	Die weit verbreitete Korruption im Rattenimperium sorgt dafür, dass alles für einen Preis zu haben ist.	250
-randomizerMenuStrings[i]	+1 capital incendiary missile		30
+randomizerMenuStrings[i]	+1 capital incendiary missile	+1 verhängnisvolle Brandbombe	30
 randomizerMenuStrings[i]	- 1 exotic	- 1 Exotisch	30
 
 Perk nuke thinspeeder for atlas.prefab
@@ -10753,29 +10753,29 @@ Perk pack, 3xsolid starfuel from level7.prefab
 displayName	Solid starfuel (x3)	Fester Sternentreibstoff (x3)	40
 description	This rare opportunity allows us to obtain 3 packages of solidified starfuel (50 fuel a piece) for a very modest price. We just have to know the secret code, which is "Lapu-lapu-lapu-dapu"."	Diese seltene Gelegenheit ermöglicht es uns, 3 Pakete mit verfestigtem Sternentreibstoff (50 Treibstoff pro Stück) zu einem sehr bescheidenen Preis zu erhalten. Wir müssen nur den Geheimcode kennen, der "Lapu-lapu-lapu-dapu" lautet."	250
 unlockAnnouncementText	During our travels, our ship AI has found an opportunity to get solidified starfuel for a reduced price, next time.	Während unserer Reisen hat unsere Schiffs-KI eine Möglichkeit gefunden, verfestigten Sternentreibstoff zu einem reduzierten Preis zu bekommen, das nächste Mal.	100
-randomizerMenuStrings[i]	+3 fuel packs		30
+randomizerMenuStrings[i]	+3 fuel packs	+3 Kraftstoff-Packete	30
 
 Perk pack, explosive cargo for gardenship.prefab
 displayName	Explosive merchandice	Explosive Handelsware	40
 description	Destructive merchandice that was unsold in the cargo hold at the time we bought this ship.	Zerstörerisches Merchandice, das unverkauft im Frachtraum lag, als wir das Schiff gekauft haben.	250
-randomizerMenuStrings[i]	+1 resource pack (50 explosives)		30
+randomizerMenuStrings[i]	+1 resource pack (50 explosives)	+1 Resourcenpacket (50 Sprengstoffe)	30
 
 Perk pack, medical resources.prefab
 displayName	Package from grand-aunt	Paket von Großtante	40
 description	Our grand-relative who is several hundred years old sent us this package when she heard about our upcoming journey.\nIt's a package of self-contained organics & synthetics, plus 12 jars of mildberry jam.	Unsere Großtante, die mehrere hundert Jahre alt ist, hat uns dieses Paket geschickt, als sie von unserer bevorstehenden Reise hörte. Es handelt sich um ein Paket mit eigenständigen organischen und synthetischen Stoffen sowie 12 Gläsern Mehlbeermarmelade.	250
-randomizerMenuStrings[i]	+1 resource pack		30
-randomizerMenuStrings[i]	+12 organics		30
+randomizerMenuStrings[i]	+1 resource pack	+1 Resourcenpacket	30
+randomizerMenuStrings[i]	+12 organics	+12 Organisches	30
 
 Perk pack, organic cargo for gardenship.prefab
 displayName	Organic merchandice	Bio-Merchandice	40
 description	Edible merchandice that was unsold in cargo bay at the time we bought this ship,	Essbare Merchandice, die zum Zeitpunkt des Kaufs des Schiffes unverkauft im Frachtraum lag,	250
-randomizerMenuStrings[i]	+1 resource pack (100 organics)		30
+randomizerMenuStrings[i]	+1 resource pack (100 organics)	+1 Resourcenpacket (100 Organisches)	30
 
 Perk pack, organics.prefab
 displayName	Organics Deal (x4)	Organik-Deal (x4)	40
 description	An opportunity to buy four organics packs for the price of one, directly from the producer. A truly generous offer.	Eine Gelegenheit, vier Bio-Packs zum Preis von einem zu kaufen, direkt vom Hersteller. Ein wirklich großzügiges Angebot.	250
 unlockAnnouncementText	During our travels, we met this very generous organics merchant who promised to help us, next time we go adventuring like this.	Während unserer Reise trafen wir diesen sehr großzügigen Bio-Händler, der uns versprach, uns beim nächsten Mal zu helfen, wenn wir ein solches Abenteuer unternehmen.	100
-randomizerMenuStrings[i]	+4 organics packs		30
+randomizerMenuStrings[i]	+4 organics packs	+1 Organisches-Packete	30
 
 Perk pack, random.prefab
 displayName	Self-contained resource pack I	Eigenständiges Ressourcenpaket I	40
@@ -10784,12 +10784,12 @@ description	A random selection of self-contained extra supplies for the journey.
 Perk pack, solid starfuel for endurance.prefab
 displayName	Solid starfuel (x2)	Fester Sternentreibstoff (x2)	40
 description	Two packages of self-contained solidified starfuel, containing 50 fuel a piece.	Zwei Pakete mit verfestigtem Sternentreibstoff, die jeweils 50 Treibstoff enthalten.	250
-randomizerMenuStrings[i]	+2 fuel packs		30
+randomizerMenuStrings[i]	+2 fuel packs	+2 Kraftstoff-Packete	30
 
 Perk pet random.prefab
 displayName	Space pet (random species)	Weltraum-Haustier (zufällige Spezies)	40
 description	A live gift from an old friend of our AI. The creature is very intelligent and may be occasionally useful.	Ein lebendes Geschenk von einem alten Freund unserer KI. Die Kreatur ist sehr intelligent und kann gelegentlich nützlich sein.	250
-randomizerMenuStrings[i]	+1 pet		30
+randomizerMenuStrings[i]	+1 pet	+1 Haustier	30
 
 Perk Replace 5x mininglasers with6x, for Gardenship.prefab
 displayName	Mining lasers upgrade V>VI	Bergbaulaser-Upgrade V>VI	40
@@ -10920,19 +10920,19 @@ randomizerMenuStrings[i]	Replaces 2 ship reactors	Ersetzt 2 Schiffsreaktoren	30
 Perk TESTER PACKAGE.prefab
 displayName	GAME TESTER PACKAGE	SPIELETESTER-PAKET	40
 description	Package of cool stuff for testers of level 6-8.	Paket mit coolen Sachen für Tester der Stufen 6-8.	250
-randomizerMenuStrings[i]	+ 6 modules & extra resources		30
+randomizerMenuStrings[i]	+ 6 modules & extra resources	6 module & extra Resourcen	30
 
 Perk war animal for weirdship.prefab
 displayName	War animal, type "Red Ripper"	Kriegstier, Typ "Roter Ripper"	40
 description	Genetically engineered combat animal that eats a lot during ship travel if not in cryosleep. It's external carapace is very thick, but the creature is too unsophisticated to use weapons.	Genetisch hergestelltes Kampftier, das während der Schiffsreise viel frisst, wenn es sich nicht im Kryoschlaf befindet. Sein äußerer Panzer ist sehr dick, aber die Kreatur ist zu untrainiert, um Waffen zu benutzen.	250
-randomizerMenuStrings[i]	+1 trained combat animal		30
+randomizerMenuStrings[i]	+1 trained combat animal	+1 trainiertes Kriegstier	30
 randomizerMenuStrings[i]	-eats a lot during ship travel	-frisst viel während der Schiffsreise	30
 randomizerMenuStrings[i]	-166 credits	-166 Credits	30
 
 Perk warpshell extra deflection.prefab
 displayName	External tissue enhancement	Externe Gewebevergrößerung	40
 description	The living part of Warpshell ship can be easily modified using a variety of biotech solutions. This one improves the ship's internal kinetic bumpers, improving overall deflection chance.	Der lebende Teil des Warpshell-Schiffs kann leicht mit einer Vielzahl von biotechnischen Lösungen modifiziert werden. Diese verbessert die internen kinetischen Stoßdämpfer des Schiffes, wodurch die Gesamtablenkungschance verbessert wird.	250
-randomizerMenuStrings[i]	+3% deflection		30
+randomizerMenuStrings[i]	+3% deflection	+3% Ablenkung	30
 randomizerMenuStrings[i]	-66 organics	-66 Organik	30
 
 Perk warpshell extra hitpoints.prefab
