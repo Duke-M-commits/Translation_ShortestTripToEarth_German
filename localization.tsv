@@ -32,7 +32,7 @@ AnimatedLoadingText.cs
 	Loading {0}	Laden {0}	0
 
 Beam.cs
-	DEFLECT	DEFLECT	0
+	DEFLECT	ABGELENKT	0
 
 CrewLeaveArea.cs
 	Retired	Ausgeschieden	0
@@ -401,7 +401,7 @@ MaterialsConverterPanel.cs
 	materials conversion	Materialumwandlung	0
 
 MenuPanel.cs
-	Retire\n(starts a new game)	Zurückziehen\n (startet ein neues Spiel)	0
+	Retire\n(starts a new game)	In Ruhestand gehen\n (startet ein neues Spiel)	0
 	New game	Neues Spiel	0
 
 MenuProgressPanel.cs
@@ -456,7 +456,7 @@ PlayerPanel.cs
 	Warp to {0}	Warp zu {0}	0
 	Warp in progress	Warp im Gange	0
 	Warp is loading: {0}%\nClick again to cancel	Warp wird geladen: {0}%\nKlicken Sie erneut zum Abbrechen	0
-	Ship hitpoints - can be repaired by crew and in stations	Schiffshitpoints - kann von der Crew und in Stationen repariert werden	0
+	Ship hitpoints - can be repaired by crew and in stations	Schiffshüllenpunkte - kann von der Crew und in Stationen repariert werden	0
 	{0} ship hull (max health {1:+0;-#})	{0} Schiffshülle (maximale Gesundheit {1:+0;-#})	0
 	{0} ship hull (max health remaining {1:+0;-#}, permanent damage {2})	{0} Schiffshülle (max. verbleibende Gesundheit {1:+0;-#}, permanenter Schaden {2})	0
 	(max health +{0})	(max. Gesundheit +{0})	0
@@ -844,7 +844,7 @@ Button	Sector view basics (warp)	Grundlagen der Sektorenansicht (Warp)	0
 Button	Sector view detials (warp)	Details zur Sektorenansicht (Warp)	0
 Button	Ship Hull Points	Schiffshüllenpunkte	0
 Button	Permanent damage	Permanenter Schaden	0
-Button	Stealth detection	Stealth-Erkennung	0
+Button	Stealth detection	Tarn-Erkennung	0
 Button	Asteroids	Asteroiden	0
 Button	Weapons & Other Modules	Waffen & andere Module	0
 Button	Slot upgrades	Slot-Upgrades	0
@@ -940,7 +940,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Sector view basics	Grundlagen der Sektoransicht	0
 	When enemy is nearby, or in battles, warp drive takes some time to warm up and warp.\nIn other instances warping is almost instant. Some warpmodules load up faster than others.	Wenn ein Feind in der Nähe ist, oder in Kämpfen, braucht der Warp-Antrieb einige Zeit, um sich aufzuwärmen und zu warpen.\n In anderen Fällen ist das Warpen fast sofort. Einige Warpmodule laden schneller auf als andere.	0
 	Warpdrives consume a lot of fuel with each warp.	Warp-Antriebe verbrauchen bei jedem Warp eine Menge Treibstoff.	0
-	Stealth detection level.	Stealth-Erkennungsstufe.	0
+	Stealth detection level.	Tarnkappen-Erkennungsstufe.	0
 	Sector view\nsensor range	Sektoransicht\nSensorreichweite	0
 	Sector view details	Details der Sektorenansicht	0
 	Successful attacks can damage our ship integrity, which is measured in Hull Points (HP).\r Any damage to ship HP will be represented by damage tokens on the ship hull.\n \r\n\rThere are many different types of damage tokens, some of them are critical and may cause further explosions or fires if not repaired quickly. \r\n\nRepairing damage tokens manually with crew takes a fair amount of time & is more expensive than repairing in stations. \rDamage tokens inside walls can be only repaired at stations.\n\nYou can assign "repair officer" role to crewmembers so they go and repair tokens automatically.	Erfolgreiche Angriffe können unsere Schiffsintegrität beschädigen, die in Hüllenpunkten (HP) gemessen wird.\r Jeder Schaden an den HP des Schiffes wird durch Schadensmarken an der Schiffshülle dargestellt.\r\n \r\n\rEs gibt viele verschiedene Arten von Schadensmarken, einige davon sind kritisch und können weitere Explosionen oder Brände verursachen, wenn sie nicht schnell repariert werden. \r\n\nDie manuelle Reparatur von Schadensmarken durch die Besatzung nimmt ziemlich viel Zeit in Anspruch & ist teurer als die Reparatur in Stationen. \rSchadensmarken innerhalb von Wänden können nur an Stationen repariert werden.\n\nSie können Crewmitgliedern die Rolle des "Reparaturoffiziers" zuweisen, so dass sie automatisch zur Reparatur von Marken gehen.	0
@@ -996,7 +996,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Evasion: increases the total size of shot landing area of all attack weapons, making it harder to aim individual modules or hit the target ship.	Evasion: vergrößert den gesamten Schussbereich aller Angriffswaffen, wodurch es schwieriger wird, einzelne Module zu treffen oder das Zielschiff zu treffen.	0
 	Ship and module repairs are essential for survival. \nHaving many repair officers during battle can make a difference \nbetween life and death, because repairing takes a fair bit of time.\nShip damage tokens cannot be currently repaired by multiple crew simultaneously.	Schiffs- und Modulreparaturen sind überlebenswichtig. \nWenn Sie während eines Kampfes viele Reparateure haben, kann das den Unterschied zwischen Leben und Tod ausmachen, da die Reparaturen ziemlich viel Zeit in Anspruch nehmen.\nSchiffsschadensplättchen können derzeit nicht von mehreren Besatzungen gleichzeitig repariert werden.	0
 	Repairing ship or modules takes metal & synthetics. Make sure your resources are ready for emergency repairs, and be ready to scrap modules if you need more metal or synthethics.	Die Reparatur von Schiffen oder Modulen erfordert Metall und Kunststoffe. Stellen Sie sicher, dass Ihre Ressourcen für Notreparaturen bereitstehen, und seien Sie bereit, Module zu verschrotten, wenn Sie mehr Metall oder Synthetik benötigen.	0
-	Have capital missiles ready in launch tubes in case you need to use them fast.	Halten Sie Großraketen in Abschussrohren bereit, falls Sie sie schnell einsetzen müssen.	0
+	Have capital missiles ready in launch tubes in case you need to use them fast.	Halten Sie Raketen in Abschussrohren bereit, falls Sie sie schnell einsetzen müssen.	0
 	When feeling overwhelmed by enemies, consider escaping. Send a crew member to operate the warpdrive to reduce the time it needs to charge up and warp your ship away from combat.	Wenn Sie sich von Feinden überwältigt fühlen, sollten Sie eine Flucht in Betracht ziehen. Schicken Sie ein Besatzungsmitglied, um den Warpantrieb zu bedienen, um die Zeit zu verkürzen, die er zum Aufladen braucht, und Ihr Schiff aus dem Kampf zu warpen.	0
 	How to survive battles	Wie Sie Kämpfe überleben	0
 	Remember that it is better to escape a battle rather than die fighting.\r\n\nWarp recharge time is slower when near enemy ships.\n\nBattles can be escaped only by using the warpdrive. \nWarpdrives need fuel, power and operating crew to work.	Denken Sie daran, dass es besser ist, einem Kampf zu entkommen, als im Kampf zu sterben.\r\n\nDie Warp-Aufladezeit ist langsamer, wenn Sie sich in der Nähe von feindlichen Schiffen befinden.\n\nSchlachten können nur durch die Verwendung des Warp-Antriebs entkommen werden. \nWarp-Antriebe benötigen Treibstoff, Energie und eine Bedienungsmannschaft, um zu funktionieren.	0
@@ -1207,9 +1207,9 @@ Button for graphical settings	Graphics	Grafik	0
 	WASD sensitivity	WASD-Empfindlichkeit	0
 	Sets how much smoothing is applied to camera pan and zoom with mouse	Legt fest, wie stark die Kamera beim Schwenken und Zoomen mit der Maus geglättet wird	0
 	Camera smoothing	Glättung der Kamerabewegung	0
-	Show crew outline	Umrisse der Crew anzeigen	0
+	Show crew outline	Umrisse der Crew	0
 	Check to make crew more visible	Aktivieren Sie diese Option, um die Crew besser sichtbar zu machen.	0
-	Show helpful tips	Hilfreiche Tipps anzeigen	0
+	Show helpful tips	Hilfreiche Tipps	0
 	Check to show one time messages that remind you what to do in sticky situations.\n(Turning it off and on again resets what's already been shown)	Aktivieren Sie dieses Kontrollkästchen, um einmalige Meldungen anzuzeigen, die Sie daran erinnern, was in heiklen Situationen zu tun ist (wenn Sie es aus- und wieder einschalten, werden die bereits angezeigten Meldungen zurückgesetzt).	0
 	Resets draggable UI element positions to defaults	Setzt die Positionen der verschiebbaren UI-Elemente auf die Standardwerte zurück	0
 	Choose camera post processing effects to fit your taste	Wählen Sie Kamera-Nachbearbeitungseffekte nach Ihrem Geschmack	0
@@ -1483,7 +1483,7 @@ Button. Scrap/recycle module to materials	SCRAP	SCHROTT	6
 Button. Shown after module Scrap button was pressed	ARE\nYOU\nSURE?	SICHER?	6
 	Place in storage	Einlagern	0
 Button. Pack & place module to ship storage, abbreviation may be required	STORE	LAGERN	6
-Button. Can be 2 words, word no longer than 6 letters. Weapon module stops shooting; , abbreviation might be required"	STOP FIRING	SCHÜTZEN STOPPEN	16
+Button. Can be 2 words, word no longer than 6 letters. Weapon module stops shooting; , abbreviation might be required"	STOP FIRING	NICHT FEUERN	16
 	Choose targets and fire automatically if possible ON/OFF	Ziele auswählen und automatisch feuern, wenn möglich ON/OFF	0
 Button. Can be 2 words, word no longer than 6 letters. For weapon module: automatic aim & shoot	AUTO AIM	AUTO-ZIEL	16
 	Launch	starten	0
@@ -1656,7 +1656,7 @@ Button/Toggle. Opens starsystem view.	STAR	STAR	6
 	Toggles ship view	Schaltet auf Schiffsansicht um	0
 	UPGRADES	UPGRADES	10
 	Module crafts available!	Modul Handwerk verfügbar!	0
-	CRAFTABLES	CRAFTABLES	10
+	CRAFTABLES	HERSTELLEN	10
 	Ship hull integrity critically low,\navoid battles and repair your ship.	Schiffshüllenintegrität kritisch niedrig, vermeiden Sie Kämpfe und reparieren Sie Ihr Schiff.	0
 	LOW	NIEDRIG	6
 	Fire aboard ship!\nDisables accelerated internal time.	Feuer an Bord des Schiffes!\nDeaktiviert beschleunigte interne Zeit.	0
@@ -1784,7 +1784,7 @@ Sector map panel.prefab
 	Warping fuel cost	Warp-Treibstoffkosten	0
 	Can't jump, too far from closest star	Kann nicht springen, zu weit vom nächsten Stern entfernt	0
 	WARP IN PROGRESS...	WARP IM GANGE...	0
-	Stealth detection level. We can only see fleets that have lower stealth than our detection level.	Stealth-Erkennungsstufe. Wir können nur Flotten sehen, die eine geringere Tarnkappe haben als unsere Erkennungsstufe.	0
+	Stealth detection level. We can only see fleets that have lower stealth than our detection level.	Tarnkappen-Erkennungsstufe. Wir können nur Flotten sehen, die eine geringere Tarnkappe haben als unsere Erkennungsstufe.	0
 	Cancel warp	Warp abbrechen	0
 	Warp to destination	Warp zum Ziel	0
 
@@ -2540,7 +2540,7 @@ title	Module found	Modul gefunden	35
 text2	An intact module was discovered floating among the debris.	Ein intaktes Modul wurde in den Trümmern entdeckt.	400
 title	Dormant capital missile	Ruhende Kapitalrakete	35
 text2	Within the debris was a capital missile that was launched ages ago, but never found its target, staying in standby mode. It somehow identified us as a threat and attacked before we could neutralize it.	In den Trümmern befand sich eine Capital Missile, die vor langer Zeit gestartet wurde, aber nie ihr Ziel fand und im Standby-Modus blieb. Sie erkannte uns irgendwie als Bedrohung und griff an, bevor wir sie neutralisieren konnten.	400
-title	Stealthy minefield	Unsichtbares Minenfeld	35
+title	Stealthy minefield	Tarnminenfeld	35
 text2	As we entered the debris cloud, our ship and utility bots were attacked by smart micro-mines in the debris. This is an active minefield! Operation abandoned.	Als wir in die Trümmerwolke eindrangen, wurden unser Schiff und die Versorgungsbots von intelligenten Mikrominen in den Trümmern angegriffen. Das ist ein aktives Minenfeld! Operation abgebrochen.	400
 title	Ship parts collected	Schiffsteile gesammelt	35
 text2	We gathered some valuable spaceship pieces.	Wir haben einige wertvolle Raumschiffteile gesammelt.	400
@@ -3659,12 +3659,12 @@ name2	Inhabited planet	Bewohnter Planet	25
 name3	primitives	Primitive	25
 text	The planet is inhabited by a highly militarized industrial-era insectoid civilization, covered in cities and industrial areas. We are still in scanning when the locals send a warning to stay away from their property or else.	Der Planet wird von einer hochmilitarisierten insektoiden Zivilisation aus der Industriezeit bewohnt, die mit Städten und Industriegebieten überzogen ist. Wir sind noch beim Scannen, als die Einheimischen eine Warnung senden, sich von ihrem Eigentum fernzuhalten, sonst.	400
 choiceText	Ask for trade, try to negotiate	Fragen Sie nach Handel, versuchen Sie zu verhandeln	100
-choiceText	Disengage, but send stealth bots to scout the planet	Lösen Sie sich ab, aber schicken Sie Stealth-Bots, um den Planeten auszukundschaften.	100
+choiceText	Disengage, but send stealth bots to scout the planet	Lösen Sie sich ab, aber schicken Sie Tarnkappen-Bots, um den Planeten auszukundschaften.	100
 choiceText	Disengage. This species has yet much to learn.	Lösen Sie sich ab. Diese Spezies hat noch viel zu lernen.	100
 newName3	industrial-era primitives	Primitive des Industriezeitalters	25
 text	Covert operation... %	Verdeckte Operation... %	50
 title	Pre-emptive strike	Präventivschlag	35
-text2	The local civilization is more advanced than we thought. They discovered & destroyed our scouting bots despite the stealth technology we used.	Die lokale Zivilisation ist fortgeschrittener als wir dachten. Sie entdeckten und zerstörten unsere Aufklärungsbots trotz der von uns eingesetzten Stealth-Technologie.	400
+text2	The local civilization is more advanced than we thought. They discovered & destroyed our scouting bots despite the stealth technology we used.	Die lokale Zivilisation ist fortgeschrittener als wir dachten. Sie entdeckten und zerstörten unsere Aufklärungsbots trotz der von uns eingesetzten Tarn-Technologie.	400
 title	Bombardment report	Bombardierungsbericht	35
 text2	We commenced orbital bombardment of known leader locations, prompting the remaining warlords to capitulate. The rebuilding can start but much of the planet is now a nuclear wasteland. We confiscate their remaining nuclear stockpiles and worthy military technology.	Wir begannen mit der orbitalen Bombardierung bekannter Anführerstandorte, was die verbleibenden Warlords zur Kapitulation veranlasste. Der Wiederaufbau kann beginnen, aber ein Großteil des Planeten ist nun nukleares Ödland. Wir konfiszieren ihre verbliebenen Nuklearvorräte und wertvolle Militärtechnologie.	400
 reasonToDisplay	intervention successful	Intervention erfolgreich	30
@@ -5035,7 +5035,7 @@ text	The planet is mostly covered with deserts, atmospheric analysis shows prese
 choiceText	Search for the energy source [-5 fuel]	Suche nach der Energiequelle [-5 Treibstoff]	100
 text	The planet is inhabited by an early civilization of insectoid tool-users. They spend most of their time gathering or hunting large amounts of food into a single huge underground temple. Incidentally, the temple seems to be a source of the warp energies.	Der Planet wird von einer frühen Zivilisation von insektoiden Werkzeugbenutzern bewohnt. Sie verbringen die meiste Zeit damit, große Mengen an Nahrung in einem einzigen riesigen unterirdischen Tempel zu sammeln oder zu jagen. Zufälligerweise scheint der Tempel eine Quelle der Warpenergien zu sein.	400
 title	Operation results	Ergebnisse der Operation	35
-text2	Our crewmembers left, only to return at nightfall. Using stealth technology, they infiltrated the temple and took the Egg, replacing it with a cheap plastic replica. Unfortunately, a mechanical trap consisting of a huge granite slab in the temple crushed our operatives as they were leaving, causing critical injuries.	Unsere Crewmitglieder sind abgereist, um bei Einbruch der Nacht zurückzukehren. Mit Hilfe von Stealth-Technologie infiltrierten sie den Tempel und nahmen das Ei an sich, um es durch eine billige Plastikkopie zu ersetzen. Unglücklicherweise wurden unsere Agenten beim Verlassen des Tempels von einer mechanischen Falle, bestehend aus einer riesigen Granitplatte, zerquetscht und erlitten dabei schwere Verletzungen.	400
+text2	Our crewmembers left, only to return at nightfall. Using stealth technology, they infiltrated the temple and took the Egg, replacing it with a cheap plastic replica. Unfortunately, a mechanical trap consisting of a huge granite slab in the temple crushed our operatives as they were leaving, causing critical injuries.	Unsere Crewmitglieder sind abgereist, um bei Einbruch der Nacht zurückzukehren. Mit Hilfe von Tarnkappen-Technologie infiltrierten sie den Tempel und nahmen das Ei an sich, um es durch eine billige Plastikkopie zu ersetzen. Unglücklicherweise wurden unsere Agenten beim Verlassen des Tempels von einer mechanischen Falle, bestehend aus einer riesigen Granitplatte, zerquetscht und erlitten dabei schwere Verletzungen.	400
 reasonToDisplay	artifact stolen	Artefakt gestohlen	30
 text	covert operation... %	verdeckte operation... %	50
 title	Representative of Sus-Click	Repräsentant von Sus-Click	35
@@ -5255,7 +5255,7 @@ title	Massive unresponsive ship	Massives, nicht ansprechbares Schiff	35
 text	It is an immense ship or station, with visible damage markings all over it. It is definitely active and aware of us. One needs truly advanced technology to hide something so vast.	Es ist ein riesiges Schiff oder eine Station, mit sichtbaren Schadensmarkierungen überall. Es ist definitiv aktiv und weiß von uns. Man braucht wirklich fortschrittliche Technologie, um etwas so Riesiges zu verbergen.	400
 text2	The mysterious ship ignores our attack and smoothly shifts into warp-space using some kind of unknown technology.	Das mysteriöse Schiff ignoriert unseren Angriff und wechselt mit einer unbekannten Technologie nahtlos in den Warp-Raum.	400
 reasonToDisplay	Precursor encounter?	Eine Begegnung mit einem Vorläufer?	30
-text2	The mysterious ship just vanishes as we approach, probably using some kind of completely unknown stealth technology. Could it have been a precursor ship?	Das mysteriöse Schiff verschwindet einfach, als wir uns nähern, wahrscheinlich mit einer völlig unbekannten Stealth-Technologie. Könnte es ein Vorläuferschiff gewesen sein?	400
+text2	The mysterious ship just vanishes as we approach, probably using some kind of completely unknown stealth technology. Could it have been a precursor ship?	Das mysteriöse Schiff verschwindet einfach, als wir uns nähern, wahrscheinlich mit einer völlig unbekannten Tarnkappen-Technologie. Könnte es ein Vorläuferschiff gewesen sein?	400
 reasonToDisplay	advanced technology observed	Fortgeschrittene Technologie beobachtet	30
 text2	The ship vanishes as we leave.	Das Schiff verschwindet, als wir uns entfernen.	400
 text	attacking... %	Angreifen... %	50
@@ -6234,7 +6234,7 @@ reasonToDisplay	warning received	Warnung empfangen	30
 
 6 memory beacon.prefab
 displayName	Terran beacon	Terranisches Leuchtfeuer	25
-name2	((stealthy signal))	((verstohlenes Signal))	25
+name2	((stealthy signal))	((Unauffälliges Signal))	25
 text2	We leave the beacon behind, to warn & inform other Earth ships. It will probably continue its job for hundreds of years to come.	Wir lassen das Leuchtfeuer zurück, um andere Erdenschiffe zu warnen und zu informieren. Es wird wahrscheinlich noch Hunderte von Jahren seine Aufgabe erfüllen.	400
 title	Terran military beacon	Terranische Militärbake	35
 text2	The Squids have overlooked this Earth military spy beacon. Its pings are scrambled to conceal them as background static. The beacon's miniature AI gives a summary of recent local events. \nNot much has happened here, but the beacon has data about passing Squid ships and their technical details. It appears most of the ships were armed with ray weapons. What should we do with the beacon?	Die Squids haben diese militärische Spionagebake der Erde übersehen. Seine Pings sind verschlüsselt, um sie als Hintergrundrauschen zu verbergen. Die Miniatur-KI der Bake gibt eine Zusammenfassung der letzten lokalen Ereignisse. \Nicht viel ist hier passiert, aber die Bake hat Daten über vorbeifliegende Squid-Schiffe und deren technische Details. Es scheint, dass die meisten Schiffe mit Strahlenwaffen bewaffnet waren. Was sollen wir mit der Bake machen?	400
@@ -6243,23 +6243,23 @@ choiceTexts	Scrap it [expected value: ~40 synthetics]	Verschrotten [Erwarteter W
 text2	Beacon scrapped.	Bake verschrottet.	400
 
 12 shop, all rat modules R.prefab
-name2	{{Rat Emporium}}	{\an8}Ratten-Emporium {\an8}	25
-Shop.displayName	Rat Emporium free company	Ratten-Emporium freies Unternehmen	35
+name2	{{Rat Emporium}}	{{Ratten-Imperium}}	25
+Shop.displayName	Rat Emporium free company	Ratten-Imperium freies Unternehmen	35
 
 123456 Fuel cheap Shop Fcost1.prefab
-name2	((Ye Starfuel))	((Ye Starfuel))	25
-Shop.displayName	Ye Automated Starfuel 9000	Ye Automated Starfuel 9000	35
+name2	((Ye Starfuel))	((Ihr Sternenkraftstoff))	25
+Shop.displayName	Ye Automated Starfuel 9000	Ihr Automatisierter Sternenkraftstoff 9000	35
 
 123456 Module shop, broken modules123 R.prefab
-name2	[[[Salvaged Systems & Repair]]]	[[Geborgene Systeme & Reparatur]]	25
+name2	[[[Salvaged Systems & Repair]]]	[[[Geborgene Systeme & Reparatur]]]	25
 Shop.displayName	Salvaged Systems & Repair	Geborgene Systeme & Reparatur	35
 
 123456 Nonweapon module shop 1234567 R.prefab
-name2	[[[Civilian Wares]]]	[[[Zivile Waren]]	25
+name2	[[[Civilian Wares]]]	[[[Zivile Waren]]]	25
 Shop.displayName	Civilian Wares	Zivile Waren	35
 
 12456 shop, broken old modules R.prefab
-name2	[[[Used modules & repair]]]	[[[Gebrauchte Module & Reparatur]]	25
+name2	[[[Used modules & repair]]]	[[[Gebrauchte Module & Reparatur]]]	25
 Shop.displayName	Salvaged Ship Systems, Grade-D	Geborgene Schiffssysteme, Grade-D	35
 
 12456 shop, good nonweapons R.prefab
@@ -6267,7 +6267,7 @@ name2	[[(Civilian modules & repair)]]	[[(Zivile Module & Reparatur)]]	25
 Shop.displayName	Modules for Civilian Ships	Module für zivile Schiffe	35
 
 12456 shop, Omnicorp Repairs R.prefab
-name2	||Best ship repairs||	||Beste Schiffsreparaturen]]	25
+name2	||Best ship repairs||	||Beste Schiffsreparaturen||	25
 sectorText	Ship repairs available	Verfügbare Schiffsreparaturen	25
 Shop.displayName	Omnicorp Ship Repairs	Omnicorp Schiffsreparaturen	35
 
@@ -6277,18 +6277,18 @@ Shop.displayName	Gray Mercenaries	Graue Söldner	35
 
 2345 shopless P Kustom junkyard Container.prefab
 name3	[[Kustom sHiP CoNtaineRs]]	[[Kustom sHiP CoNtaineRs]]	25
-text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vertreter der Arbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Container aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
+text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Container aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 text	There is a commercial ship service station on this planet, specializing in custom-built cargo modules. The service includes free food.	Auf diesem Planeten gibt es eine kommerzielle Schiffsservicestation, die sich auf individuell gebaute Frachtmodule spezialisiert hat. Der Service beinhaltet kostenlose Verpflegung.	400
 choiceText	Order organics/fuel multi-container [-140 credits]	Organik-/Treibstoff-Multicontainer bestellen [-140 Credits]	100
 choiceText	Order a medium metal container [-75 credits]	Bestellen Sie einen mittleren Metallcontainer [-75 Credits]	100
 choiceText	Order a medium organics container [-100 credits]	Bestellen Sie einen mittleren Organik-Container [-100 Credits]	100
 choiceText	Order metal/synthethics dual container [-140 credits]	Metall-/Synthethik-Doppelbehälter bestellen [-140 Punkte]	100
 choiceText	Order large metal/synthethics/explosives multi-container [-240 credits]	Großen Metall-/Synthethik-/Sprengstoff-Multicontainer bestellen [-240 Credits]	100
-text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vertreter der Arbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Containermodul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
+text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Containermodul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days of work, the module is finished. It looks robust.	Der Arbeiter-Vertreter wirft einen Blick auf Ihre Standard-Modul-Baupläne. Sie nehmen sich die Zeit, den verschiedenen Schrott, den sie auf ihrem Hof gefunden haben, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Containermodul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 
 245 shop, synth recycler.prefab
-name2	(((Synth Recyclersl)))	(((Synth Recyclersl)))	25
+name2	(((Synth Recyclersl)))	(((Synth Recycler)))	25
 Shop.displayName	Synth Recycler Corp.	Synth Recycler Corp.	35
 
 2456 shop, P KUSTOM Repair, packs.prefab
@@ -6326,36 +6326,36 @@ name2	((Munitions for sale))	((Munition zu verkaufen))	25
 Shop.displayName	Honest Munitions Corp.	Honest Munitions Corp.	35
 
 24567 shop, Organics exchange Ocost1.prefab
-name2	(((Organics Exchange)))	(((Organics Exchange)))	25
+name2	(((Organics Exchange)))	(((Organik Austausch)))	25
 Shop.displayName	Organics Exchange	Organics Exchange	35
 
 247 shop, civilian drones R.prefab
-name2	{{{Polite drones}}}	{{Polite Drohnen}}	25
+name2	{{{Polite drones}}}	{{{Höfliche Drohnen}}}	25
 Shop.displayName	The Pacific Bots Corp.	The Pacific Bots Corp.	35
 
 2567 shop, universal expensibles R.prefab
-name2	{(|Expensibles shop|)}	{(|Expensibles shop|)}	25
+name2	{(|Expensibles shop|)}	{(|Expensibles Laden|)}	25
 Shop.displayName	Universal Expensibles	Universal Expensibles	35
 
 257 shop, DIY drones R.prefab
-name2	{{{Good drones}}}	{{Gute Drohnen}}	25
+name2	{{{Good drones}}}	{{{Gute Drohnen}}}	25
 Shop.displayName	Recycled Partners Inc.	Recycled Partners Inc.	35
 
 267 shop, DIY weapons and nukes R.prefab
-name2	{{{Militia weapons}}}	{{Militia Waffen}}	25
+name2	{{{Militia weapons}}}	{{{Miliz Waffen}}}	25
 Shop.displayName	Rekill Corp.	Rekill Corp.	35
 
 345 shop, notbad weapons for 345 R.prefab
-name2	{{{Destructive Systems}}}	{{Zerstörende Systeme}}	25
+name2	{{{Destructive Systems}}}	{{{Destruktive Systeme}}}	25
 Shop.displayName	The Ethical Killer Corp.	The Ethical Killer Corp.	35
 
 3457 shop, good weapons R.prefab
-name2	{{{Elite Destructive Systems}}}	Elite Destructive Systems	25
+name2	{{{Elite Destructive Systems}}}	{{{Elite Destruktive Systems}}}	25
 Shop.displayName	The Destructive Matter Corp.	The Destructive Matter Corp.	35
 
 45 shop, Ye metals.prefab
-name2	(((Ye Metals)))	(((Ye Metals)))	25
-Shop.displayName	Ye Automated Metals Trader	Ye Automated Metals Trader	35
+name2	(((Ye Metals)))	(((Ihre Metalle)))	25
+Shop.displayName	Ye Automated Metals Trader	Ihr automatisierter Metall-Händler	35
 
 45 shopless mining station in asteroids, barter ME.prefab
 displayName	Mineral asteroids	Mineral-Asteroiden	25
@@ -6376,16 +6376,16 @@ text2	"Thank you for trading and may your tentacles be dripping with ozgymug!" i
 text	establishing commlink...	Herstellung des Commlinks...	50
 
 456 shop, modules 111122233445 R.prefab
-name2	[[[Ye Ship Modules]]]	[[[Ye Schiffsmodule]]]	25
-Shop.displayName	Ye Fine Used Modules	''Ye Fine Used Modules'''	35
+name2	[[[Ye Ship Modules]]]	[[[Ihre Schiffsmodule]]]	25
+Shop.displayName	Ye Fine Used Modules	Ihre feinen (gebrauchten) Module	35
 
 4567 shop, insectoid shop o1.prefab
-name2	{{Spineless Technology}}	{{Spineless Technology}}	25
+name2	{{Spineless Technology}}	{{Rückgradlose Technologie}}	25
 Shop.displayName	Insectoid Technology free company	Insektoide Technologie freie Gesellschaft	35
 
 57 shop, cannons only R.prefab
-name2	{{{Reliable guns}}}	{{Zuverlässige Kanonen}}	25
-Shop.displayName	"Reliable Guns"	{{Zuverlässige Kanonen}} "Zuverlässige Kanonen"	35
+name2	{{{Reliable guns}}}	{{{Zuverlässige Waffen}}}	25
+Shop.displayName	"Reliable Guns"	"Zuverlässige Waffen"	35
 
 7 Pi shop recreation with shield, laser or cannon offer R.prefab
 name2	Barren planet, orbital station	Ödlandplanet, Orbitalstation	25
@@ -8143,7 +8143,7 @@ description	Accepts normal internal modules that do not require a special slot.	
 upgrades[i].text	Upgrade to core slot	Upgrade auf Kernsteckplatz	35
 
 Nuke launcher slot for 01 Tigerfish.prefab
-displayName	Capital missile launch tube	Startrohr für Großraketen	35
+displayName	Capital missile launch tube	Abschussrohr für Raketen	35
 description	Accepts only capital missiles	Akzeptiert nur Capital Missiles	250
 
 Nuke launcher slot for 02 Nuke Runner.prefab
@@ -10974,7 +10974,7 @@ text	We have reached the outer edge of Earth Alliance space... historic data sho
 choiceText	What can you tell me about the Squids?	Was können Sie mir über die Tintenfische sagen?	100
 choiceText	What can you tell me about active warzones?	Was können Sie mir über aktive Warzones sagen?	100
 QuestPanel.setText	Explore the sector before entering the exit warpgate.	Erkunden Sie den Sektor, bevor Sie das Ausgangs-Warpgate betreten.	100
-QuestPanel.setText	Explore the sector and move on.	Erforschen Sie den Sektor und gehen Sie weiter.	100
+QuestPanel.setText	Explore the sector and move on.	Erforschen Sie den Sektor und fliegen Sie weiter.	100
 QuestPanel.setText	Reach the Exit warpgate.	Erreichen Sie das Exit-Warpgate.	100
 QuestPanel.setText	Visit the local commercial stations to prepare for the upcoming mission, then leave via Exit sector.	Besuchen Sie die lokalen Handelsstationen, um sich auf die bevorstehende Mission vorzubereiten, und verlassen Sie dann den Sektor über Exit.	100
 QuestPanel.setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie 5 Orte mit bestätigten Spideraa-Sichtungen und versuchen Sie, Kontakt aufzunehmen.	100
