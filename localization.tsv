@@ -134,11 +134,11 @@ MainQuest.cs
 	tutorial	tutorial	0
 
 ModuleSlotListItem.cs
-	Craft {0}	Handwerk {0}	0
+	Craft {0}	{0} herstellen	0
 	CONFIRM DOWNGRADE?	DOWNGRADE BESTÄTIGEN?	0
-	module slot upgrade	Modulsteckplatz-Upgrade	0
+	module slot upgrade	Modulsteckplatz Upgrade	0
 	module slot downgrade	Modulsteckplatz Downgrade	0
-	module crafting	Modul Crafting	0
+	module crafting	Modul Herstellung	0
 
 MultipleCrewmemberInfoItem.cs
 	pet	Haustier	0
@@ -151,7 +151,7 @@ PlayerData.cs
 	Exotics	Exotische Stoffe	0
 	Synthetics	Synthetik	0
 	Metals	Metalle	0
-	Died during space travel	Gestorben in der Raumfahrt	0
+	Died during space travel	Gestorben während der Reise	0
 	Died in combat	Gestorben im Kampf	0
 	Died in {0}	Gestorben in {0}	0
 
@@ -1214,7 +1214,7 @@ Button for graphical settings	Graphics	Grafik	0
 	Resets draggable UI element positions to defaults	Setzt die Positionen der verschiebbaren UI-Elemente auf die Standardwerte zurück	0
 	Choose camera post processing effects to fit your taste	Wählen Sie Kamera-Nachbearbeitungseffekte nach Ihrem Geschmack	0
 	Resets settings on this tab to defaults.\nResets all draggable window positions to defaults.\nMakes all helpful tips seen reappear.	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück.\nSetzt alle ziehbaren Fensterpositionen auf die Standardwerte zurück.\nSorgt dafür, dass alle gesehenen hilfreichen Tipps wieder angezeigt werden.	0
-Button, restores default settings	Restore defaults	Standardeinstellungen wiederherstellen	16
+Button, restores default settings	Restore defaults	Einstellungen zurücksetzen	16
 Button, resets UI (user-interface) layout	Reset UI layout	UI-Layout zurücksetzen	16
 	General:	Allgemein:	0
 	Mouse behaviour	Mausverhalten	0
@@ -1326,7 +1326,7 @@ Button. Resets controls to defaults.	Reset	Zurücksetzen	0
 	Lighting	Beleuchtung	0
 	Check for enabling scene lighting.\nTry disabling it if the framerate on average is low.	Prüfen Sie, ob die Szenenbeleuchtung aktiviert ist.\nVersuchen Sie, sie zu deaktivieren, wenn die Framerate im Durchschnitt niedrig ist.	0
 	Full size textures	Texturen in voller Größe	0
-	Check for enabling full resolution textures, otherwise half resolution is used.\nTry disabling if the game is stuttering because of less than 1GB VRAM.	Prüfen Sie, ob Texturen in voller Auflösung aktiviert sind, andernfalls wird die halbe Auflösung verwendet. Versuchen Sie, sie zu deaktivieren, wenn das Spiel aufgrund von weniger als 1 GB VRAM stottert.	0
+	Check for enabling full resolution textures, otherwise half resolution is used.\nTry disabling if the game is stuttering because of less than 1GB VRAM.	Falls Ihr Spiel ruckelt (unter 1 GB VRAM) können Sie diese Option deaktivieren.	0
 	Vertical sync	Vertikale Synchronisierung	0
 	Check to sync rendering framerate with monitor framerate.\nDisabling it is not advised unless measuring rendering framerate.	Aktivieren Sie dieses Kontrollkästchen, um die Rendering-Framerate mit der Monitor-Framerate zu synchronisieren.\nDie Deaktivierung wird nicht empfohlen, es sei denn, Sie messen die Rendering-Framerate.	0
 	Anti-aliasing	Kantenglättung	0
@@ -2413,7 +2413,7 @@ text	orbital scan...	Orbitaler Scan...	50
 
 Entry warpgate ship.prefab
 displayName	Entry	Eintritt	25
-sectorText	<b>ENTRY</b>	<b>ENTRY</b>	25
+sectorText	<b>ENTRY</b>	<b>EINTRITT</b>	25
 
 Entry warpgate.prefab
 
@@ -6622,7 +6622,7 @@ SOS Merchants L2 bulk tech trader.prefab
 displayName	tech trader	Technologie-Händler	25
 title	Technology trader	Technologie-Händler	35
 text	"Hello, we don't have any resource to share, but perhaps you can buy our bulk technology and scrap if for resources you need?"	Hallo, wir haben keine Ressourcen, die wir teilen können, aber vielleicht können Sie unsere Massentechnologie kaufen und für Ressourcen, die Sie brauchen, verschrotten?	400
-choiceText	Buy 3 cryosleep units (Lover-type) for 180 credits	Kaufen Sie 3 Kryoschlafeinheiten (Typ Lover) für 180 Credits	100
+choiceText	Buy 3 cryosleep units (Lover-type) for 180 credits	Kaufen Sie 3 Kryoschlafeinheiten (Typ Liebespaar) für 180 Credits	100
 choiceText	Buy 3 decommissioned weapons for 290 credits	Kaufen Sie 3 ausgemusterte Waffen für 290 Credits	100
 choiceText	Buy 3 pieces of techno junk 180 credits	Kaufen Sie 3 Stück Technoschrott für 180 Credits	100
 text	We do not have resources needed for this operation.	Wir haben keine Ressourcen, die für diese Operation benötigt werden.	600
@@ -6693,10 +6693,10 @@ text	A tech scavenger ship has detected our SOS signal.\n"Merry existence, calci
 SOS Smuggler L6 slaver metal trader.prefab
 displayName	trade ship	Handelsschiff	25
 title	Metal Smuggler	Metall-Schmuggler	35
-text	"I don't have anything else, but would you be interested in some scrap metal? Unfortunately, I lost all the trade data for it..." (cargo manifest analysis by our AI suggests the individual is lying. It seems the smuggler is a Slaver associate selling ship remains of slaver victims)."	Ich habe sonst nichts, aber wären Sie an etwas Metallschrott interessiert? Leider habe ich alle Handelsdaten dazu verloren... (Die Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person lügt. Es scheint, dass der Schmuggler ein Slaver-Mitarbeiter ist, der Schiffsreste von Slaver-Opfern verkauft)."	400
+text	"I don't have anything else, but would you be interested in some scrap metal? Unfortunately, I lost all the trade data for it..." (cargo manifest analysis by our AI suggests the individual is lying. It seems the smuggler is a Slaver associate selling ship remains of slaver victims)."	Ich habe sonst nichts, aber wären Sie an etwas Metallschrott interessiert? Leider habe ich alle Handelsdaten dazu verloren... (Die Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person lügt. Es scheint, dass der Schmuggler ein Sklavenhändler ist, der Schiffsreste von versklavten Opfern verkauft)."	400
 choiceText	Barter [get 150 metals for 3 exotics]	Tauschhandel [man erhält 150 Metalle für 3 Exoten]	100
 choiceText	Barter [get 100 metals for 2 exotics]	Tauschhandel [man erhält 100 Metalle für 2 Exoten]	100
-choiceText	I do not tolerate slaver associates [Attack]	Ich dulde keine Slaver-Partner [Angriff]	100
+choiceText	I do not tolerate slaver associates [Attack]	Ich dulde keine Sklavenhändler [Angriff]	100
 title	Transaction complete	Transaktion abgeschlossen	35
 text2	"Great doing business with you."	Toll, mit Ihnen Geschäfte zu machen.	400
 text	A large ship with at least 5 projectile weapons and what looks like nukes is approaching. It is accompanied by a civilian cargo ship.	Ein großes Schiff mit mindestens 5 Projektilwaffen und etwas, das wie Atomwaffen aussieht, nähert sich. Es wird von einem zivilen Frachtschiff begleitet.	600
@@ -6713,7 +6713,7 @@ text	"A competitor!? Don't you know this sector belongs to the Meat Masters? Any
 text	A large ship with at least 5 projectile weapons and what looks like nukes is approaching. It is accompanied by two smaller ships.	Ein großes Schiff mit mindestens 5 Projektilwaffen und etwas, das wie Atomwaffen aussieht, nähert sich. Es wird von zwei kleineren Schiffen begleitet.	600
 
 SOS Smuggler, explosives and exceptions.prefab
-title	Smuggler of explosives and exceptions	Schmuggler von Sprengstoff und Ausnahmen	35
+title	Smuggler of explosives and exceptions	Schmuggler von Sprengstoff und Sonderfrachten	35
 text	"I see you're in a bit of a trouble. Well, we don't normally sell fuel or organics, but we're going to make an exception for you. A costly exception, of course. I'm in a hurry, so we can do exactly one transaction."	Wie ich sehe, haben Sie ein kleines Problem. Nun, normalerweise verkaufen wir keinen Treibstoff oder organische Stoffe, aber wir werden für Sie eine Ausnahme machen. Eine kostspielige Ausnahme, natürlich. Ich bin in Eile, also können wir genau eine Transaktion durchführen.	400
 choiceText	Buy [get 100 explosives for 150 credits]	Kaufen [man erhält 100 Sprengstoff für 150 Credits]	100
 choiceText	Barter [get 50 fuel for 3 exotics]	Tauschen [man erhält 50 Treibstoff für 3 Exoten]	100
@@ -7413,7 +7413,7 @@ text2	The data credits are delivered to us in a barely functioning ancient data 
 text	A large ship is approaching, two smaller ones following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	Ein großes Schiff nähert sich, zwei kleinere folgen in der Ferne. Das große scheint mit mehreren Projektilwaffen und Atomwaffen bewaffnet zu sein.	600
 
 Smuggler L6 slaver metal trader.prefab
-text	"Would you be interested in some scrap metal? Unfortunately, I lost all the trade data for it..." (cargo manifest analysis by our AI suggests the individual is lying. It seems the smuggler is a Slaver associate selling ship remains of slaver victims)."	Wären Sie an etwas Altmetall interessiert? Leider habe ich alle Handelsdaten dazu verloren... (Die Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person lügt. Es scheint, dass der Schmuggler ein Slaver-Mitarbeiter ist, der Schiffsreste von Slaver-Opfern verkauft)."	400
+text	"Would you be interested in some scrap metal? Unfortunately, I lost all the trade data for it..." (cargo manifest analysis by our AI suggests the individual is lying. It seems the smuggler is a Slaver associate selling ship remains of slaver victims)."	Wären Sie an etwas Altmetall interessiert? Leider habe ich alle Handelsdaten dazu verloren... (Die Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person lügt. Es scheint, dass der Schmuggler ein Sklavenhändler ist, der Schiffsreste von versklavten Opfern verkauft)."	400
 text	A large militarized ship is approaching, and two civilian ships following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	Ein großes militarisiertes Schiff nähert sich, und zwei zivile Schiffe folgen in der Ferne. Das große scheint mit mehreren Projektilwaffen und Atomwaffen bewaffnet zu sein.	600
 
 Smuggler L6 slaver organics trader.prefab
@@ -8532,7 +8532,7 @@ displayName	DIY cryosleepx1	DIY-Kryoschlafx1	40
 description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around.	Die Crew im Kryoschlaf benötigt keine organischen Stoffe & kann Wunden heilen, während das Schiff herumfährt.	200
 
 cryosleep 2x human small.prefab
-displayName	Cryosleepx2, Lovers-type	Kryoschlafx2, Liebhaber-Typ	40
+displayName	Cryosleepx2, Lovers-type	Kryoschlafx2, Typ Liebespaar	40
 
 cryosleep 3x medical.prefab
 displayName	Medical cryosleep unit x3	Medizinische Kryoschlaf-Einheit x3	40
