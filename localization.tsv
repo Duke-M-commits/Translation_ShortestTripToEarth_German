@@ -1429,15 +1429,15 @@ Button. Resets all used fatepoints.	Reset all	Alle zurücksetzen	0
 	Click to sort by end date	Klicken Sie, um nach Enddatum zu sortieren	0
 Button. Clicking it opens power management overlay	DATE	DATUM	6
 	Click to sort by difficulty	Klicken Sie hier, um nach Schwierigkeit zu sortieren	0
-Button. Clicking it opens power management overlay	DIFFICULTY	DIFFICULTY	6
+Button. Clicking it opens power management overlay	DIFFICULTY	SCHWIERIGKEIT	6
 	Click to sort by ship name	Klicken Sie hier, um nach dem Schiffsnamen zu sortieren	0
 Button. Clicking it opens power management overlay	SHIP	SCHIFF	6
 	Click to sort by ship survival index	Klicken Sie hier, um nach dem Schiffsüberlebensindex zu sortieren	0
-Button. Clicking it opens power management overlay	SURVIVAL INDEX	ÜBERLEBENDE INDEX	6
+Button. Clicking it opens power management overlay	SURVIVAL INDEX	ÜBERLEBENS-INDEX	6
 	Click to sort by survived battles	Klicken Sie hier, um nach überlebten Schlachten zu sortieren	0
 Button. Clicking it opens power management overlay	BATTLES SURVIVED	ÜBERLEBTE SCHLACHTEN	6
 	Click to sort by destroyed ships	Klicken Sie hier, um nach zerstörten Schiffen zu sortieren	0
-Button. Clicking it opens power management overlay	DESTROYED SHIPS	ZERSTÖRTEN SCHIFFEN	6
+Button. Clicking it opens power management overlay	DESTROYED SHIPS	ZERSTÖRTE SCHIFFE	6
 	Click to sort by found modules	Klicken Sie hier, um nach gefundenen Modulen zu sortieren	0
 Button. Clicking it opens power management overlay	MODULES FOUND	MODULE GEFUNDEN	6
 	Click to sort by visited planets	Klicken Sie hier, um nach besuchten Planeten zu sortieren	0
@@ -1449,7 +1449,7 @@ Button. Clicking it opens power management overlay	PERKS FOUND	GEFUNDENE PERKS	6
 	Click to sort by time played	Klicken Sie hier, um nach Spielzeit zu sortieren	0
 Button. Clicking it opens power management overlay	TIME PLAYED	GESPIELTE ZEIT	6
 	Click to sort by game end reason	Klicken Sie hier, um nach dem Grund für das Spielende zu sortieren	0
-Button. Clicking it opens power management overlay	END REASON	END-GRUND	6
+Button. Clicking it opens power management overlay	END REASON	RUNDEN ENDE	6
 	Click to sort by earned fate	Klicken Sie hier, um nach verdientem Schicksal zu sortieren	0
 Button. Clicking it opens power management overlay	FATE EARNED	VERDIENENES SCHICKSAL	6
 	End date	Datum des Endes	0
