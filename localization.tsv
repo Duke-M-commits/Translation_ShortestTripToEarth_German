@@ -1475,23 +1475,23 @@ dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht
 
 Module actions panel.prefab
 	Module inherent armor (chance to negate attacks)	Modul inhärente Rüstung (Chance, Angriffe zu negieren)	0
-	Select underlaying slot	Unterlegenen Slot auswählen	0
+	Select underlaying slot	Darunterliegenden Steckplatz auswählen	0
 Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	SLOT AUSW.	16
 	Scrap module\norganics +30\nfuel +10	Schrottmodul\Anorganik +30\Brennstoff +10	0
 Button. Scrap/recycle module to materials	SCRAP	SCHROTT	6
-	Confirm scrap module\norganics +30\nfuel +10	Bestätigen Sie Schrottmodul\norganics +30\nfuel +10	0
+	Confirm scrap module\norganics +30\nfuel +10	Verschrottung bestätigen \Organisches +30\nKraftstoff +10	0
 Button. Shown after module Scrap button was pressed	ARE\nYOU\nSURE?	SICHER?	6
 	Place in storage	Einlagern	0
 Button. Pack & place module to ship storage, abbreviation may be required	STORE	LAGERN	6
 Button. Can be 2 words, word no longer than 6 letters. Weapon module stops shooting; , abbreviation might be required"	STOP FIRING	NICHT FEUERN	16
-	Choose targets and fire automatically if possible ON/OFF	Ziele auswählen und automatisch feuern, wenn möglich ON/OFF	0
+	Choose targets and fire automatically if possible ON/OFF	Ziele auswählen und automatisch feuern, wenn möglich EIN/AUS	0
 Button. Can be 2 words, word no longer than 6 letters. For weapon module: automatic aim & shoot	AUTO AIM	AUTO-ZIEL	16
-	Launch	starten	0
-Button. For missile module: launch nuke missile	LAUNCH	LAUNCH	6
+	Launch	Starten	0
+Button. For missile module: launch nuke missile	LAUNCH	STARTEN	6
 Button. For warpdrive module. Opens sector map view and activates warp drive.	WARP	WARP	6
 Button. Abbreviation for "operate", operate/activate module"	STOP	STOPP	6
 	Defreeze all crew	Besatzung auftauen	0
-Button. Other wording for "defreeze/melt", defreezes all crewmembers in cryosleep module."	DECRYO	DECRYO	6
+Button. Other wording for "defreeze/melt", defreezes all crewmembers in cryosleep module."	DECRYO	AUFTAUEN	6
 	CONVERT	UMWANDELN	6
 	Overcharge	Überladen	0
 Button. Can be 2 words, word no longer than 6 letters. Weapon module overcharge	OVER\nCHARGE	ÜBERLADEN	16
