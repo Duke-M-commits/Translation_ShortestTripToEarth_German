@@ -116,13 +116,13 @@ randomizerMenuStrings[i]	+1 pet (fire tortoise)	+1 Haustier (Feuerschildkröte)	
 randomizerMenuStrings[i]	+20 organics	+20 Organisches	30
 
 Perk pet DLC shocker lizard.prefab
-displayName	Shocker lizard (pet)	Schockerechse (Haustier)	40
+displayName	Shocker lizard (pet)	Schockechse (Haustier)	40
 description	A live gift from an old friend of our AI. The creature is quite intelligent and can shoot energy rays from its eyes.	Ein lebendes Geschenk von einem alten Freund unserer KI. Die Kreatur ist ziemlich intelligent und kann Energiestrahlen aus ihren Augen schießen.	250
-randomizerMenuStrings[i]	+1 pet (shocker lizard)	+1 Haustier (Schockerechse)	30
+randomizerMenuStrings[i]	+1 pet (shocker lizard)	+1 Haustier (Schockechse)	30
 randomizerMenuStrings[i]	+30 organics	+30 Organisches	30
 
 Perk pet DLC warp floater.prefab
-displayName	Warp Floater (pet)	Warp-Schweber (Haustier)	40
+displayName	Warp Floater (pet)	Warptier (Haustier)	40
 description	This warp creature is an extreme rarity due to being able to effectively communicate with non-warp beings. It is quite intelligent and likes to stare into human eyes.	Diese Warp-Kreatur ist eine extreme Rarität, da sie in der Lage ist, effektiv mit Nicht-Warp-Wesen zu kommunizieren. Es ist ziemlich intelligent und starrt gerne in menschliche Augen.	250
 randomizerMenuStrings[i]	+1 pet (warp animal)	+1 Haustier (Warptier)	30
 randomizerMenuStrings[i]	-1 exotics	-1 Exoten	30
@@ -133,7 +133,7 @@ description	This robot was built to provide assistance in construction and maint
 randomizerMenuStrings[i]	+1 drone (repair drone)	+1 Drone (Reparaturdrone)	30
 
 missile tigerfish mini n u k e.prefab
-displayName	Tiger mininuke	Tiger Mininuke	35
+displayName	Tiger mininuke	Tiger Mini-Atombombe	35
 
 Tiger 8x nuke projectile.prefab
 
@@ -141,13 +141,13 @@ Tiger EMP nuke.prefab
 displayName	EMP nuke	EMP-Atombombe	35
 
 Tiger intruderbot nuke.prefab
-displayName	Tigerbot nuke	Tigerbot nuke	35
+displayName	Tigerbot nuke	Tigerbot Atombombe	35
 
 Tiger Monolith nuke.prefab
-displayName	Tiger Monolith nuke	Tiger Monolith nuke	35
+displayName	Tiger Monolith nuke	Tiger Monolith Atombombe	35
 
 Tiger sharpnel nuke.prefab
-displayName	Tiger sharpnel nuke	Tiger sharpnel nuke	35
+displayName	Tiger sharpnel nuke	Tiger Schrapnell Atombombe	35
 
 BattleTiger.prefab
 description	Battle Tiger is is the military variant of the popular Tigerfish series. It was designed for long-range transport of VIP personnel in hostile space and is equipped with explosives combinator. It comes with intruderbot nukes that release armed drones inside enemy ships.	Battle Tiger ist die militärische Variante der beliebten Tigerfish-Serie. Er wurde für den Langstreckentransport von VIP-Personal im feindlichen Raum konzipiert und ist mit einem Sprengstoff-Kombinator ausgestattet. Er verfügt über Intruderbot-Nukes, die bewaffnete Drohnen im Inneren feindlicher Schiffe freisetzen.	400

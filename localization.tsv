@@ -924,9 +924,9 @@ Button	Invisible Points of Interest	Unsichtbare Points of Interest	0
 	Accelerated Time:\n\nThe speed of crew walking, repairing, healing or doing other things will accelerate when there are no threats.\n\nIn case of hostiles, fires or leaks, time will revert back to normal speed automatically.	Beschleunigte Zeit:\n\nDie Geschwindigkeit, mit der sich die Besatzung bewegt, repariert, heilt oder andere Dinge tut, wird beschleunigt, wenn keine Bedrohungen vorhanden sind.\n\n Im Falle von Feinden, Bränden oder Lecks wird die Zeit automatisch wieder auf die normale Geschwindigkeit zurückgesetzt.	0
 Rae is example name. "1 fleet" needs to be translated"	Rae\n1 fleet	Rae\n1 Flotte	0
 Second line needs to be translated	Juter\n0/4 planets visited	Juter\n0/4 besuchte Planeten	0
-Second line needs to be translated	Gisper\n2/2 planets visited\n<b>ENTRY</b>	Gisper\n2/2 Planeten besucht\n<b>ENTRY</b>	0
+Second line needs to be translated	Gisper\n2/2 planets visited\n<b>ENTRY</b>	Gisper\n2/2 Planeten besucht\n<b>EINGANG</b>	0
 Second line needs to be translated	Spur\n1 trade signal	Spur\n1 Handelssignal	0
-Second line needs to be translated	Yuo\n<b>EXIT</b>	Yuo\n<b>EXIT</b>	0
+Second line needs to be translated	Yuo\n<b>EXIT</b>	Yuo\n<b>AUSGANG</b>	0
 	SAMPLE	BEISPIEL	0
 	Warp drive 101	Warp-Antrieb 101	0
 	View system	System ansehen	0
@@ -2412,8 +2412,8 @@ text2	{0}	{0}	400
 text	orbital scan...	Orbitaler Scan...	50
 
 Entry warpgate ship.prefab
-displayName	Entry	Eintritt	25
-sectorText	<b>ENTRY</b>	<b>EINTRITT</b>	25
+displayName	Entry	Eingang	25
+sectorText	<b>ENTRY</b>	<b>EINGANG</b>	25
 
 Entry warpgate.prefab
 
@@ -6556,7 +6556,7 @@ text2	"Sorry to hear that. You would have enjoyed it."	Tut mir leid, das zu hör
 
 SOS ambusher, slaver intruders.prefab
 text	Three small ships are rapidly approaching tactical range, weapons hot. The enemy fleet is using some kind of auxiliary jamming device to block more detailed scanning at this range.	Drei kleine Schiffe nähern sich schnell der taktischen Reichweite, Waffen scharf. Die feindliche Flotte setzt eine Art Störsender ein, um genauere Scans auf diese Entfernung zu verhindern.	600
-title	Pirate-Slaver duo	Piraten-Slaver-Duo	35
+title	Pirate-Slaver duo	Piraten-Sklavenhändler-Duo	35
 okButtonText	Your opinion about how things work is an unfortunate mistake, lethal to yourself	Ihre Meinung darüber, wie die Dinge funktionieren, ist ein bedauerlicher, für Sie selbst tödlicher Fehler	7
 text	"We just need your ship this time. Since we know you won't give it to us voluntarily, we will take it by force. This is the way things work in real life."	Wir brauchen dieses Mal nur Ihr Schiff. Da wir wissen, dass Sie es uns nicht freiwillig geben werden, werden wir es mit Gewalt nehmen. So laufen die Dinge im richtigen Leben.	600
 
@@ -8728,7 +8728,7 @@ displayName	Integrity hardpoint T-8	Integritäts-Hardpoint T-8	40
 description	Integrity hardpoint and associated technology. Can be installed to gain extra ship HP, even during an emergency.	Integritäts-Hardpoint und zugehörige Technologie. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, auch während eines Notfalls.	200
 
 integrity 01 silver.prefab
-displayName	Integrity hardpoint T-9	Integritäts-Hartpunkt T-9	40
+displayName	Integrity hardpoint T-9	Integritäts-Hardpoint T-9	40
 
 integrity 04 jade scales.prefab
 displayName	Integrity hardpoint J	Integritäts-Hardpoint J	40
@@ -9300,7 +9300,7 @@ displayName	Deathspore cloud nuke	Deathspore-Wolke nuke	40
 description	Releases a cloud of corrosive moss spores, damaging modules & crew in the area of effect. No damage to ship hull.	Setzt eine Wolke aus ätzenden Moosporen frei, die Module & Besatzung im Wirkungsbereich beschädigt. Kein Schaden an der Schiffshülle.	200
 
 08a Happy nuke launcher.prefab
-displayName	Commercial nuke, type "Happy"	Kommerzielle Atombombe, Typ "Happy"	40
+displayName	Commercial nuke, type "Happy"	Kommerzielle Atombombe, Typ "Fröhlich"	40
 description	A capital missile for "civilian use" with a reduced payload. Damages and overloads modules in blast area, low accuracy."	Eine kapitale Rakete für "zivile Nutzung" mit reduzierter Nutzlast. Beschädigt und überlastet Module im Explosionsbereich, geringe Genauigkeit."	200
 
 08b Old nuke launcher.prefab
