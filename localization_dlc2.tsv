@@ -61,14 +61,14 @@ text	We are willing to bypass the Imperial laws regarding your illegal presence,
 choiceText	Trade [get a weapon for -5 exotics]	Tausch [eine Waffe für -5 Exoten]	100
 
 Level 1b exit, capitaalo.prefab
-displayName	Exit warpgate	Verlassen Sie das Warpgate	25
-sectorText	<b>EXIT</b>	<b>EXIT</b>	25
-text	Warp to next space sector? This is a one-way warpgate.	Warp zum nächsten Raumsektor? Dies ist ein Einweg-Warpgate.	400
+displayName	Exit warpgate	Verlassen Sie das Warptor	25
+sectorText	<b>EXIT</b>	<b>AUSGANG</b>	25
+text	Warp to next space sector? This is a one-way warpgate.	Warp zum nächsten Raumsektor? Dies ist ein Einweg-Warptor.	400
 choiceText	Not yet, there are places we want to explore	Noch nicht, es gibt Orte, die wir erkunden wollen	100
 title	Mothership AI	Mutterschiff-KI	35
 text	The Capitaalo have acquired Rat Empire technology and are now "taxing" passing ships. A lot has changed while you were in cryosleep, Captain... we've been cut off from Intergalactic news for five years.	Die Capitaalo haben die Technologie des Rattenimperiums erworben und "besteuern" nun vorbeifliegende Schiffe. Es hat sich viel verändert, während Sie im Kryoschlaf waren, Captain... wir waren fünf Jahre lang von intergalaktischen Nachrichten abgeschnitten.	600
 title	Capitaalo Gate Guard	Capitaalo Torwache	35
-text	You've reached the Rat Empire long-range warpgate. We -the Capitaalo- have a contract to guard the gate from the criminally poor. You may pass by paying the standard fee. There's also another long-range warpgate in this sector, but its guarded by Rat officials, who always charge extra.	Sie haben das Langstrecken-Warpgate des Rattenimperiums erreicht. Wir - die Capitaalo - haben einen Vertrag, das Tor vor kriminellen Armen zu bewachen. Sie können es passieren, indem Sie die Standardgebühr bezahlen. In diesem Sektor gibt es noch ein weiteres Fernkriegstor, das aber von Rattenbeamten bewacht wird, die immer einen Aufpreis verlangen.	400
+text	You've reached the Rat Empire long-range warpgate. We -the Capitaalo- have a contract to guard the gate from the criminally poor. You may pass by paying the standard fee. There's also another long-range warpgate in this sector, but its guarded by Rat officials, who always charge extra.	Sie haben das Langstrecken-Warptor des Rattenimperiums erreicht. Wir - die Capitaalo - haben einen Vertrag, das Tor vor kriminellen Armen zu bewachen. Sie können es passieren, indem Sie die Standardgebühr bezahlen. In diesem Sektor gibt es noch ein weiteres Fernkriegstor, das aber von Rattenbeamten bewacht wird, die immer einen Aufpreis verlangen.	400
 choiceText	Pay the fee, travel to next sector [-200 credits]	Bezahlen Sie die Gebühr, reisen Sie zum nächsten Sektor [-200 Credits].	100
 choiceText	Attempt to bribe [-3 exotics]	Versuch der Bestechung [-3 Exoten]	100
 choiceText	We cannot pay, yet we must pass [ready for battle]	Wir können nicht zahlen, aber wir müssen passieren [bereit zum Kampf]	100
