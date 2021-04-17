@@ -1485,7 +1485,7 @@ Button. Shown after module Scrap button was pressed	ARE\nYOU\nSURE?	SICHER?	6
 Button. Pack & place module to ship storage, abbreviation may be required	STORE	LAGERN	6
 Button. Can be 2 words, word no longer than 6 letters. Weapon module stops shooting; , abbreviation might be required"	STOP FIRING	NICHT FEUERN	16
 	Choose targets and fire automatically if possible ON/OFF	Ziele auswählen und automatisch feuern, wenn möglich EIN/AUS	0
-Button. Can be 2 words, word no longer than 6 letters. For weapon module: automatic aim & shoot	AUTO AIM	AUTO-ZIEL	16
+Button. Can be 2 words, word no longer than 6 letters. For weapon module: automatic aim & shoot	AUTO AIM	AUTOM.\nZIELEN	16
 	Launch	Starten	0
 Button. For missile module: launch nuke missile	LAUNCH	STARTEN	6
 Button. For warpdrive module. Opens sector map view and activates warp drive.	WARP	WARP	6
@@ -1654,7 +1654,7 @@ Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	E
 	Toggles starsystem view	Schaltet auf Sternensystemansicht um	0
 Button/Toggle. Opens starsystem view.	STAR	STAR	6
 	Toggles ship view	Schaltet auf Schiffsansicht um	0
-	UPGRADES	UPGRADES	10
+	UPGRADES	VERBESSERUNGEN	10
 	Module crafts available!	Modul Handwerk verfügbar!	0
 	CRAFTABLES	HERSTELLEN	10
 	Ship hull integrity critically low,\navoid battles and repair your ship.	Schiffshüllenintegrität kritisch niedrig, vermeiden Sie Kämpfe und reparieren Sie Ihr Schiff.	0
@@ -1665,13 +1665,13 @@ Button/Toggle. Opens starsystem view.	STAR	STAR	6
 	INTRUDERS	EINDRINGER	10
 	Hostile ships in combat range.\nDisables accelerated internal time.	Feindliche Schiffe in Kampfreichweite!\nDeaktiviert beschleunigte interne Zeit.	0
 Maximum letters on one row: 10, possible 2 rows	HOSTILE\nSHIPS	FEINDLICHE SCHIFFE	10
-	Jammed by hostiles.\nDisables accelerated internal time.	Von Feinden eingeklemmt.\nDeaktiviert beschleunigte interne Zeit.	0
-	JAMMED	JAMMED	10
-	Capital missile incoming!\nDisables accelerated internal time.	Capital Missile eingehend!\nDeaktiviert beschleunigte interne Zeit.	0
-	INCOMING	EINGEKOMMEN	10
+	Jammed by hostiles.\nDisables accelerated internal time.	Von Feinden blockiert.\nDeaktiviert beschleunigte interne Zeit.	0
+	JAMMED	BLOCKIERT	10
+	Capital missile incoming!\nDisables accelerated internal time.	Raketen im Anflug!\nDeaktiviert beschleunigte interne Zeit.	0
+	INCOMING	IM ANFLUG	10
 	Intruders incoming!\nDisables accelerated internal time.	Eindringlinge im Anflug!\nDeaktiviert beschleunigte interne Zeit.	0
 	Using warp modules is disabled due to enemy jamming	Die Verwendung von Warp-Modulen ist aufgrund feindlicher Blockierung deaktiviert	0
-	WARP\nJAMMED	WARP\nGESTÖRT	10
+	WARP\nJAMMED	BLOCKIERT	10
 	Can't warp.\nToo far from stars	Kann nicht warpen.\nZu weit von Sternen entfernt	0
 Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU WEIT	10
 	No fuel, cannot move.\nScrap some less valuable fuel-yielding modules/nukes,\nor use the SOS-beacon.	Kein Treibstoff, kann sich nicht bewegen.\nVerschrotten Sie einige weniger wertvolle treibstoffproduzierende Module/Nukes,\noder benutzen Sie die SOS-Bake.	0
@@ -1682,7 +1682,7 @@ Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU WEIT	10
 	Excess cargo, cannot move!\nIt is sometimes possible to convert excess cargo to small amounts of fuel.	Überschüssige Fracht, kann nicht bewegt werden!\nEs ist manchmal möglich, überschüssige Fracht in kleine Mengen Treibstoff umzuwandeln.	0
 	EXCESS	ÜBERSCHUSS	10
 	Bridge not functional.\nAll remote module operations stopped (manual operation only).	Brücke nicht funktionsfähig.\nAlle ferngesteuerten Moduloperationen wurden gestoppt (nur manuelle Bedienung).	0
-	OFFLINE	OFFLINE	10
+	OFFLINE	ABGESCHALTEN	10
 	Engine not functional, cannot drive.\nNo evasion bonus during combat.\nUse the SOS-beacon if no other options are available.	Motor nicht funktionsfähig, kann nicht fliegen.\nKein Ausweichbonus während des Kampfes.\nVerwenden Sie die SOS-Bake, wenn keine anderen Optionen verfügbar sind.	0
 	Sensor not functional, minimal vision range only!\nWe're driving practically blind.	Sensor nicht funktionsfähig, nur minimaler Sichtbereich!\nWir fliegen praktisch blind.	0
 	Fuel low!\nConsider re-routing towards closest gas giants or stations.	Treibstoff knapp!\nBedenken Sie die Umleitung zum nächsten Gasriesen oder zur nächsten Tankstelle.	0
@@ -1692,13 +1692,13 @@ Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU WEIT	10
 	Explosives low.\nWeapons that need explosives will soon run out of ammo!	Explosivstoffe niedrig!\nWaffen, die Explosivstoffe benötigen, haben bald keine Munition mehr!	0
 	Exotics low.	Exotik niedrig.	0
 	No exotics.\nAs an alternative currency,\nexotics are great for bribing stronger hostile forces.	Keine Exotika.\nAls alternative Währung eignen sich Exotika hervorragend, um stärkere feindliche Kräfte zu bestechen.	0
-	Enemy ship is warming up its warpdrive.	Feindliches Schiff wärmt seinen Warpantrieb auf.	0
-	Enemy ship is self destructing.	Feindliches Schiff ist selbstzerstörerisch.	0
+	Enemy ship is warming up its warpdrive.	Feindliches Schiff startet seinen Warpantrieb.	0
+	Enemy ship is self destructing.	Feindliches Schiff löst die Selbstzerstörung aus.	0
 	Fuel containers are almost full.	Die Treibstoffbehälter sind fast voll.	0
 Maximum letters on one row: 10, possible 2 rows	ALMOST\nFULL	FAST\nVOLL	10
 	Synthetics containers are almost full.	Synthetik-Container sind fast voll.	0
 	Organics containers are almost full.	Organik-Container sind fast voll.	0
-	Metals containers are almost full.	Metallcontainer sind fast voll.	0
+	Metals containers are almost full.	Metall-Container sind fast voll.	0
 	Explosives containers are almost full.	Sprengstoff-Container sind fast voll.	0
 	Exotics containers are almost full.	Exotik-Container sind fast voll.	0
 	Fuel containers full. Consider getting more container space.	Brennstoff-Container sind voll. Erwägen Sie, mehr Containerplatz zu bekommen.	0
@@ -1746,10 +1746,10 @@ Prefab preview panel.prefab
 Quickselect panel.prefab
 	Quick Selection	Schnellauswahl	20
 	When holding fire, weapons will reload but won't make\na shot until hold fire is turned off	Wenn Sie das Feuer gedrückt halten, laden die Waffen nach, geben aber keinen Schuss ab, bis Sie das Feuer gedrückt halten ausschalten	0
-Button. Additional information for player ship	PRESS TO HOLD FIRE	DRÜCKEN, UM FEUER ZU HALTEN	20
-Button. Additional information for player ship	PRESS TO RESUME FIRE	DRÜCKEN, UM FEUER FORTZUSETZEN	20
+Button. Additional information for player ship	PRESS TO HOLD FIRE	DRÜCKEN,\nUM FEUER\nZU HALTEN	20
+Button. Additional information for player ship	PRESS TO RESUME FIRE	DRÜCKEN,\nUM FEUER\nFORTZUSETZEN	20
 	Dodge	Ausweichen	0
-Button. Additional information for player ship	DODGE	DODGE	20
+Button. Additional information for player ship	DODGE	AUSWEICHEN	20
 Button. Additional information for player ship	45s	45s	20
 	Add quickselection slot	Schnellwahlslot hinzufügen	0
 	Remove quickselection slot	Schnellwahleinschub entfernen	0
@@ -5714,7 +5714,7 @@ text	"Well, that went a lot better than dying. Now let's get out of here. I've a
 title	All hostiles have escaped	Alle Feinde sind geflohen	35
 text2	There are no wreckages to salvage, but the memory of this battle will stay with us for a long time.	Es gibt keine Wrackteile zu bergen, aber die Erinnerung an diese Schlacht wird uns noch lange erhalten bleiben.	400
 title	Spideraa	Spideraa	35
-text	"YOU CARRY TALKING SPIDER FOOD. GIVE ONE TO TALK, OR DIE." Our ship AI informs us the Spideraa believe their food must be alive and conscious right until the meal is over."	SIE TRAGEN SPRECHENDES SPINNENFUTTER BEI SICH. GIB EINE ZUM REDEN ODER STIRB. Unsere Schiffs-KI informiert uns, dass die Spideraa glauben, dass ihr Essen lebendig und bei Bewusstsein sein muss, bis die Mahlzeit vorbei ist."	400
+text	"YOU CARRY TALKING SPIDER FOOD. GIVE ONE TO TALK, OR DIE." Our ship AI informs us the Spideraa believe their food must be alive and conscious right until the meal is over."	SIE TRAGEN SPRECHENDES SPINNENFUTTER BEI SICH. GIB UNS EINS ZUM REDEN ODER STIRB. Unsere Schiffs-KI informiert uns, dass die Spideraa glauben, dass ihr Essen lebendig und bei Bewusstsein sein muss, bis die Mahlzeit vorbei ist."	400
 choiceText	Ask for volunteers	Fragt nach Freiwilligen	100
 text	Nobody volunteers to be eaten alive by the Spideraa.	Niemand meldet sich freiwillig, um von den Spideraa lebendig verspeist zu werden.	400
 choiceText	Order the crew to select "a volunteer" to be sacrificed."	Befehlen Sie der Crew, "einen Freiwilligen" auszuwählen, der geopfert werden soll."	100
@@ -6334,8 +6334,8 @@ name2	{{{Polite drones}}}	{{{Höfliche Drohnen}}}	25
 Shop.displayName	The Pacific Bots Corp.	The Pacific Bots Corp.	35
 
 2567 shop, universal expensibles R.prefab
-name2	{(|Expensibles shop|)}	{(|Expensibles Laden|)}	25
-Shop.displayName	Universal Expensibles	Universal Expensibles	35
+name2	{(|Expensibles shop|)}	{(|Universelle Erweiterungen|)}	25
+Shop.displayName	Universal Expensibles	Universelle Erweiterungen	35
 
 257 shop, DIY drones R.prefab
 name2	{{{Good drones}}}	{{{Gute Drohnen}}}	25
@@ -6539,9 +6539,9 @@ choiceTexts	[Attack these life-gambling psychopats]	[Greift diese lebensmüden P
 text	"Oh, it's you, the Lucky. Carry on!"	Oh, du bist es, der Glückliche. Weitermachen!	600
 
 SOS Ambusher Life taster 2.prefab
-displayName	Life Tasters (Insectoid Alliance)	Life Tasters (Insektoiden-Allianz)	25
+displayName	Life Tasters (Insectoid Alliance)	Lebenskoster (Insektoiden-Allianz)	25
 text	A biotech fleet is rapidly approaching tactical range. It uses some kind of auxiliary jamming device to hide its details from us at this range.	Eine Biotech-Flotte nähert sich schnell der taktischen Reichweite. Sie benutzt eine Art von Störsender, um ihre Details vor uns zu verbergen.	600
-title	Life Taster fleet	Life Taster-Flotte	35
+title	Life Taster fleet	Lebenskoster-Flotte	35
 text	"Hello delicious one! Offer a bite of your crew, and we will give you both food and fuel. We will secrete a slime with painkiller properties before tasting. It won't hurt a bit."	Hallo ihr Leckerbissen! Biete einen Bissen deiner Crew an, und wir geben dir sowohl Nahrung als auch Treibstoff. Vor dem Probieren werden wir einen Schleim mit schmerzstillenden Eigenschaften absondern. Es wird kein bisschen weh tun.	400
 choiceText	Agree, allow tasters to taste [volunteering crew shares 10 nonlethal wounds]	Einverstanden, lasst die Vorkoster kosten [freiwillige Crew teilt 10 nicht-tödliche Wunden]	100
 choiceText	Such an inviting offer but no thanks	So ein verlockendes Angebot, aber nein danke.	100
@@ -6549,7 +6549,7 @@ choiceText	Actually, we are going eat you instead [prepare for battle]	Eigentlic
 title	After the Biting Ceremony	Nach der Beiß-Zeremonie	35
 text2	Decontamination, healing & psychological assistance of bitten crew was required after the experience was over. The Tasters left behind food and fuel. One crewmember reported enjoying the ceremony.	Dekontamination, Heilung und psychologische Betreuung der gebissenen Crew war nach dem Erlebnis erforderlich. Die Taster ließen Nahrung und Treibstoff zurück. Ein Besatzungsmitglied berichtete, dass es die Zeremonie genossen hat.	400
 reasonToDisplay	Allowed aliens to bite crew	Erlaubte Aliens, die Crew zu beißen	30
-title	Life Taster representative	Vertreter der Life Taster	35
+title	Life Taster representative	Vertreter der Lebenskoster	35
 text2	"So, you want to literally bite the hand that would have been willing to feed you in time of distress? We shall have to eat you now!"	Ihr wollt also buchstäblich die Hand beißen, die bereit gewesen wäre, euch in Zeiten der Not zu füttern? Wir werden euch jetzt essen müssen!	400
 text	Tasting ceremony...	Verkostungszeremonie...	50
 text2	"Sorry to hear that. You would have enjoyed it."	Tut mir leid, das zu hören. Du hättest es genossen.	400
@@ -6647,7 +6647,7 @@ text	A small tanker ship has detected our SOS signal...	Ein kleines Tankerschiff
 
 SOS shop with allgood emergency modules.prefab
 displayName	module trader	Modul-Händler	25
-Shop.displayName	Allgood Emergency Modules	Allgood-Notfallmodule	35
+Shop.displayName	Allgood Emergency Modules	Allesgut-Notfallmodule	35
 title	Trader ship	Handelsschiff	35
 text	A large trader ship has detected our SOS signal. Its AI or crew do not wish personal communication and only transmit formal commercial signals, noting that all prices will be displayed in intergalactic xenodata credits.	Ein großes Handelsschiff hat unser SOS-Signal entdeckt. Seine KI oder seine Besatzung wünscht keine persönliche Kommunikation und sendet nur formale Handelssignale mit dem Hinweis, dass alle Preise in intergalaktischen Xenodaten-Credits angezeigt werden.	400
 choiceText	Dock to trade	Zum Handel andocken	100
@@ -6834,9 +6834,9 @@ okButtonText	Scan the perimeter!	Scannt den Umkreis!	7
 text	As our bots probe the obelisk, we realize that it's made of cheap metals and painted black with a substance containing only trace amounts of exotics. Something is not right here...	Als unsere Bots den Obelisken untersuchen, stellen wir fest, dass er aus billigen Metallen besteht und mit einer Substanz schwarz angemalt ist, die nur Spuren von Exoten enthält. Irgendetwas stimmt hier nicht...	600
 
 Ambusher L1 Life taster.prefab
-displayName	Life Taster (Insectoid Alliance)	Life Taster (Insektoiden-Allianz)	25
+displayName	Life Taster (Insectoid Alliance)	Lebenskoster (Insektoiden-Allianz)	25
 text	A small biotech ship is rapidly approaching tactical range. It seems to have some kind of biotech nuke.	Ein kleines Biotech-Schiff nähert sich schnell der taktischen Reichweite. Es scheint eine Art Biotech-Bombe zu haben.	600
-title	Life Tasters	Life Taster	35
+title	Life Tasters	Lebenskoster	35
 text	"Hello delicious one. Offer a bite of your crew to our finest Tasters, and we will let you go in peace (otherwise, we'll eat you). We will secrete a slime with painkiller properties before tasting. It won't hurt a bit."	Hallo Köstlicher. Biete unseren feinsten Tasters einen Bissen deiner Crew an, und wir lassen dich in Frieden gehen (ansonsten fressen wir dich). Wir werden vor der Verkostung einen Schleim mit schmerzstillenden Eigenschaften absondern. Es wird kein bisschen weh tun.	400
 choiceText	Yield, allow them to taste [volunteering crew shares 10 nonlethal wounds]	Gebt nach, lasst sie kosten [Freiwillige Mannschaft teilt 10 nicht-tödliche Wunden]	100
 choiceText	You won't get a single bite [prepare for battle]	Sie werden keinen einzigen Bissen abbekommen [bereiten Sie sich auf den Kampf vor]	100
