@@ -61,7 +61,7 @@ text	We are willing to bypass the Imperial laws regarding your illegal presence,
 choiceText	Trade [get a weapon for -5 exotics]	Tausch [eine Waffe für -5 Exoten]	100
 
 Level 1b exit, capitaalo.prefab
-displayName	Exit warpgate	Verlassen Sie das Warptor	25
+displayName	Exit warpgate	Warptor zum nächsten Sektor	25
 sectorText	<b>EXIT</b>	<b>AUSGANG</b>	25
 text	Warp to next space sector? This is a one-way warpgate.	Warp zum nächsten Raumsektor? Dies ist ein Einweg-Warptor.	400
 choiceText	Not yet, there are places we want to explore	Noch nicht, es gibt Orte, die wir erkunden wollen	100
@@ -316,10 +316,10 @@ displayName	Undeveloped missile launch tube	Unausgebautes Raketenstartrohr	35
 description	Can be upgraded to working nuke slot.	Kann zu einem funktionierenden Nuke-Slot aufgerüstet werden.	250
 upgrades[i].text	Upgrade to nuke slot	Aufrüstung zum Nuke-Slot	35
 	REPLACE	ERSETZEN	10
-	UPGRADE\nSLOT	UPGRADE\nSLOT	10
+	UPGRADE\nSLOT	AUFRÜSTEN	10
 
 EMP perm projectile.prefab
-displayName	EMP particle	EMP-Partikel	35
+displayName	EMP particle	EMP Partikel	35
 
 weapon EMP perm DLC.prefab
 displayName	Oscillaati Sunthrower	Oscillaati-Sonnenwerfer	40

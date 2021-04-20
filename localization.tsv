@@ -87,7 +87,7 @@ CrewPanel.cs
 	Cannot commemorate crew during red alerts	Kann während roter Alarme nicht der Besatzung gedenken	0
 
 CrewPresetsPanel.cs
-	Crew/power/module preset #{0} saved	Besatzung/Kraft/Modul-Voreinstellung #{0} gespeichert	0
+	Crew/power/module preset #{0} saved	Voreinstellung #{0} gespeichert	0
 
 CryosleepModule.cs
 	{1} has healed 1 HP for {0}	{1} hat 1 HP für {0} geheilt	0
@@ -248,7 +248,7 @@ POI.cs
 	Analysing data...	Analyse der Daten...	0
 
 PointDefDamageDealer.cs
-	Enemy defences have nutralized one of our {0}s	Feindliche Abwehr hat eine unserer {0}s nutralisiert	0
+	Enemy defences have nutralized one of our {0}s	Feindliche Abwehr hat eine unserer {0}s neutralisiert	0
 	Incoming {0} neutralized	Eingehende {0} neutralisiert	0
 
 PointDefenceModule.cs
@@ -323,7 +323,7 @@ ShipModule.cs
 	Critical module damage! {0} max hitpoints reduced by {1}	Kritischer Modulschaden! {0} maximale Hitpoints um {1} reduziert	0
 	Enemy module {0} destroyed	Feindliches Modul {0} zerstört	0
 	{0} destroyed	{0} zerstört	0
-	Scrapped {0}. Got	Verschrottet {0}. Habe	0
+	Scrapped {0}. Got	{0} verschrottet. Ertrag:	0
 	nothing	nichts	0
 	module scrap	Modul verschrottet	0
 	credits	Kredite	0
@@ -710,11 +710,11 @@ Time (in %) left for crewmembers to defreeze from cryosleep. Example: Defreeze p
 	Click to power off	Zum Ausschalten anklicken	0
 Send crewmember to new spot [shortcut key]	Move	Bewegen	0
 	Extinguish fire	Feuer löschen	0
-Button. Fight Fire/firefight. Abbreviation might be required	F.FIRE	F.FEUER	6
+Button. Fight Fire/firefight. Abbreviation might be required	F.FIRE	F. LÖSCHEN	6
 Send crewmember to repair module or ship damage [shortcut key]	Repair	Reparieren	0
-Button. Send crewmember to repair module or ship damage; Abbreviation might be required"	REPAIR	REPARATUR	6
+Button. Send crewmember to repair module or ship damage; Abbreviation might be required"	REPAIR	REPAR.	6
 Send crewmember to operate module [shortcut key]	Operate	Bedienen	0
-Button. Operate. Send crewmember to operate module. Abbreviation might be required.	OP.	OP.	6
+Button. Operate. Send crewmember to operate module. Abbreviation might be required.	OP.	BEDIENEN	6
 Send crewmember to medbay to heal, if medbay module is present.	Heal	Heilen	0
 Button. Send crewmember to medbay to heal, if medbay module is present.	HEAL	HEILEN	6
 send crewmember to attack another crewmember or module [shortcut key]	Attack	Angreifen	0
@@ -1601,7 +1601,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 ModuleSlot actions panel.prefab
 	Module slot	Modul-Steckplatz	0
 	Click to list only slot upgrades and downgrades	Klicken Sie hier, um nur Slot-Upgrades und Downgrades aufzulisten	0
-	SLOT UPGRADES	SLOT-UPGRADES	0
+	SLOT UPGRADES	STECKPLATZ AUFRÜSTUNG	0
 	Click to list only craftable resource packs and containers	Klicken Sie hier, um nur DIY Ressourcenpakete und Container aufzulisten	0
 	CARGO	FRACHT	0
 	Click to list only craftable weapon and point defence modules	Klicken Sie hier, um nur die DIY Waffen- und Punktverteidigungsmodule aufzulisten	0
@@ -1611,7 +1611,7 @@ ModuleSlot actions panel.prefab
 	Click to list only craftable survival modules	Klicken Sie hier, um nur DIY Überlebensmodule aufzulisten	0
 	SURVIVAL	ÜBERLEBEN	0
 	Click to list only craftable essential modules	Klicken Sie hier, um nur DIY essentielle Module aufzulisten	0
-	ESSENTIAL	ESSENTIAL	0
+	ESSENTIAL	ESSENZIELL	0
 	Click to list only craftable economy modules	Klicken Sie hier, um nur DIY Wirtschaftsmodule aufzulisten	0
 0	ECONOMY	WIRTSCHAFT	0
 	Click to list only other craftable modules	Klicken Sie hier, um nur andere DIY Module aufzulisten	0
@@ -1650,9 +1650,9 @@ Button. Additional information for player ship	STATS	INFO	6
 Button. Opens quick-selection panel for weapons	QUICK	SCHNELL	6
 	Opens sector map. Use warp to travel between different starsystems	Öffnet die Sektorkarte. Verwenden Sie Warp, um zwischen verschiedenen Sternensystemen zu reisen	0
 Button. Opens sector-map view/panel where player can warp.	SECTOR	SEKTOR	6
-Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	ESCAPE	6
+Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	FLUCHT	6
 	Toggles starsystem view	Schaltet auf Sternensystemansicht um	0
-Button/Toggle. Opens starsystem view.	STAR	STAR	6
+Button/Toggle. Opens starsystem view.	STAR	STERN	6
 	Toggles ship view	Schaltet auf Schiffsansicht um	0
 	UPGRADES	VERBESSERUNGEN	10
 	Module crafts available!	Modul Handwerk verfügbar!	0
@@ -1715,9 +1715,9 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	Open materials convertors	Offene Materialien Konverter	0
 	/ 100ru	/ 100ru	0
 	Power consumed / capacity	Verbrauchte Leistung / Kapazität	0
-	CREW/MODULES/POWER	CREW/MODULE/LEISTUNG	22
+	CREW/MODULES/POWER	VOREINSTELLUNGEN	22
 	Save all current crew positions, roles and module power on/off profile	Alle aktuellen Crew-Positionen, Rollen und Modul-Energie-Ein/Aus-Profil speichern	0
-	Crew/module power preset 1	Besatzung/Modulleistung Voreinstellung 1	0
+	Crew/module power preset 1	Voreinstellung 1	0
 	SAVE\nALL	SPE.	16
 	CONFIRM	SICHER?	16
 	LOAD\nALL	LADEN	16
@@ -1731,7 +1731,7 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	Click to turn on/off installed module power toggle saving in this preset.	Klicken Sie hier, um die Speicherung der installierten Modulleistung in dieser Voreinstellung ein- bzw. auszuschalten.	0
 	Click to turn on/off module to slot map in this preset.	Klicken Sie hier, um die Zuordnung von Modulen zu Steckplätzen in dieser Voreinstellung ein- und auszuschalten.	0
 	MODULES	MODULE	16
-	Crew/module power preset 2	Besatzung/Modulleistung Preset 2	0
+	Crew/module power preset 2	Voreinstellung 2	0
 	Remove a preset	Eine Voreinstellung entfernen	0
 	Add a new preset	Eine neue Voreinstellung hinzufügen	0
 	RIGHT CLICK ON POWER NODE TO TURN MODULE ON/OFF	RECHTSKLICK AUF LEISTUNGSKNOTEN, UM MODUL EIN-/AUSZUSCHALTEN	0
@@ -1747,7 +1747,7 @@ Quickselect panel.prefab
 	Quick Selection	Schnellauswahl	20
 	When holding fire, weapons will reload but won't make\na shot until hold fire is turned off	Wenn Sie das Feuer gedrückt halten, laden die Waffen nach, geben aber keinen Schuss ab, bis Sie das Feuer gedrückt halten ausschalten	0
 Button. Additional information for player ship	PRESS TO HOLD FIRE	DRÜCKEN,\nUM FEUER\nZU HALTEN	20
-Button. Additional information for player ship	PRESS TO RESUME FIRE	DRÜCKEN,\nUM FEUER\nFORTZUSETZEN	20
+Button. Additional information for player ship	PRESS TO RESUME FIRE	DRÜCKEN,\nUM ZU\nFEUERN	20
 	Dodge	Ausweichen	0
 Button. Additional information for player ship	DODGE	AUSWEICHEN	20
 Button. Additional information for player ship	45s	45s	20
@@ -1839,7 +1839,7 @@ Refers to shop	Store	Händler	0
 	Not enough credits or room in storage.	Nicht genug Credits oder Platz im Lager.	0
 	BUY	KAUFEN	0
 	Select module to buy	Modul zum Kaufen auswählen	0
-	Hire	anheuern	0
+	Hire	Anheuern	0
 	Select a crewmember to hire	Wählen Sie ein Crewmitglied zum Anheuern	0
 	Exit the shop	Verlassen Sie den Shop	0
 	EXIT	VERLASSEN	0
@@ -1862,7 +1862,7 @@ name2	high value	hoher Wert	25
 text2	Mining operations completed without incident.	Bergbauarbeiten ohne Zwischenfälle abgeschlossen.	400
 text	This asteroid field has a good mineral profile. There's a minor risk of getting hit by some of the fast-moving rocks, however.	Dieses Asteroidenfeld hat ein gutes Mineralienprofil. Es besteht jedoch ein geringes Risiko, von einigen der sich schnell bewegenden Felsen getroffen zu werden.	400
 choiceText	Mine the asteroids	Abbau der Asteroiden	100
-choiceText	Disengage for now	Vorerst abschalten	100
+choiceText	Disengage for now	Vorerst rückfallen	100
 title	Radioactives found	Radioaktive Elemente gefunden	35
 text2	We mined radioactive elements usable as fuel.	Wir haben radioaktive Elemente abgebaut, die als Treibstoff verwendbar sind.	400
 title	Serious accident!	Schwerer Unfall!	35
@@ -2205,7 +2205,7 @@ text2	Operation completed without incident. The remaining fuel elements are too 
 text	we may scrap modules to gain needed resources..%	Wir können Module verschrotten, um benötigte Ressourcen zu gewinnen.	50
 text	Accessible fuel elements detected in the outer atmosphere. Atmospheric risks within acceptable range.	Zugängliche Brennelemente in der äußeren Atmosphäre entdeckt. Atmosphärische Risiken im akzeptablen Bereich.	400
 choiceText	Harvest fuel with ship	Brennstoff mit Schiff ernten	100
-choiceText	Disengage	Deaktivieren Sie	100
+choiceText	Disengage	Ausklinken	100
 text	harvesting...	Ernten...	50
 choiceText	Print temporary harvester bots [-75 synthetics]	Drucke temporäre Harvester-Bots [-75 Synthetik]	100
 text2	A violent thunderstorm caught us by surprise, damaging external equipment.	Ein heftiges Gewitter überraschte uns und beschädigte die externe Ausrüstung.	400
@@ -2252,9 +2252,9 @@ text2	During the fuel harvesting process, a massive electrical storm appeared, f
 text2	We had to abort the mission early due to massive mega-tornados approaching the area of operations. We had to leave some equipment behind.	Wir mussten die Mission vorzeitig abbrechen, da sich massive Mega-Tornados dem Einsatzgebiet näherten. Wir mussten einige Ausrüstungsgegenstände zurücklassen.	400
 newName3	mega-tornados	mega-tornados	25
 text	During the operation, we discovered a small ship wreckage orbiting the outer atmosphere of the gas giant.	Während des Einsatzes entdeckten wir ein kleines Schiffswrack im Orbit der äußeren Atmosphäre des Gasriesen.	400
-choiceText	Scavenge	Scavenge	100
+choiceText	Scavenge	Plündern	100
 choiceText	Leave it, this area is too dangerous.	Lassen Sie es zurück, dieser Bereich ist zu gefährlich.	100
-text	Scavenging... %	Scavenging... %	50
+text	Scavenging... %	Plündern... %	50
 text2	The ship was on a scientific mission when something malfunctioned and it exploded. It had some valuable scientific information left in its databanks.	Das Schiff war auf einer wissenschaftlichen Mission, als eine Fehlfunktion auftrat und es explodierte. Es hatte noch einige wertvolle wissenschaftliche Informationen in seinen Datenbanken.	400
 reasonToDisplay	Salvage	Bergung	30
 text2	The ship was a scientific exploration vessel. Its sensor systems are still functional. The onboard biolab was damaged beyond repair, but it contained some valuable exotic and biotech samples.	Das Schiff war ein wissenschaftliches Erkundungsschiff. Seine Sensorsysteme sind noch funktionsfähig. Das Biolabor an Bord war irreparabel beschädigt, aber es enthielt einige wertvolle exotische und biotechnische Proben.	400
@@ -2268,7 +2268,7 @@ text2	Scavenging operation completed. It seems the ship crew died when attemptin
 text	This gas giant is rich in fuel but dangerous. Asteroids in its circles occassionally fall into the atmosphere, creating large explosions or firestorms. Harvesting fuel from here is risky.	Dieser Gasriese ist reich an Treibstoff, aber gefährlich. Asteroiden in seinen Kreisen stürzen gelegentlich in die Atmosphäre und verursachen große Explosionen oder Feuerstürme. Es ist riskant, hier Treibstoff zu gewinnen.	400
 text2	We discovered a ship wreckage orbiting the outer atmosphere of the gas giant. It seems to be a fuel tanker that was attempting to extract fuel from the giant.	Wir entdeckten ein Schiffswrack, das die äußere Atmosphäre des Gasriesen umkreist. Es scheint ein Tankschiff zu sein, das versucht hat, Treibstoff aus dem Riesen zu gewinnen.	400
 text	During the operation, we discovered a ship wreckage with unknown design orbiting the outer atmosphere of the gas giant. Miraculously, it seems to still contain some active technology.	Während des Einsatzes entdeckten wir ein Schiffswrack mit unbekannter Bauart, das die äußere Atmosphäre des Gasriesen umkreist. Wie durch ein Wunder scheint es noch aktive Technologie zu enthalten.	400
-choiceText	Investigate	Untersuchen Sie	100
+choiceText	Investigate	Untersuchen	100
 choiceText	Leave it, this could be dangerous.	Lassen Sie es, das könnte gefährlich sein.	100
 text2	One of the ship's crewmembers was still alive in armoured cryopod! They had a private conversation with our AI and decided to join our crew. We scrapped the ship wreckage.	Eines der Besatzungsmitglieder des Schiffes lebte noch in einem gepanzerten Kryopod! Sie hatten eine private Unterhaltung mit unserer KI und beschlossen, sich unserer Crew anzuschließen. Wir haben das Schiffswrack verschrottet.	400
 title	Plasma flare!	Plasma-Eruption!	35
@@ -3472,30 +3472,30 @@ text	under attack!	angegriffen!	50
 
 1 Pi Contemplator colony, INFINI autotrade C.prefab
 name2	(((Inhabited planet)))	(((Bewohnter Planet)))	25
-Shop.displayName	Contemplator colony autotrade	Contemplator-Kolonie autotrade	35
-title	Contemplator delegation	Contemplator-Delegation	35
-text2	The Contemplators told us they've decided collectively to not answer any questions asked by their visitors. Instead, they shared with us two of the absolutely most interesting existential questions they had discovered, without giving any answers.	Die Contemplators haben uns mitgeteilt, dass sie kollektiv beschlossen haben, keine Fragen ihrer Besucher zu beantworten. Stattdessen teilten sie uns zwei der absolut interessantesten existenziellen Fragen mit, die sie entdeckt hatten, ohne Antworten zu geben.	400
+Shop.displayName	Contemplator colony autotrade	Betrachter-Kolonie autotrade	35
+title	Contemplator delegation	Betrachter-Delegation	35
+text2	The Contemplators told us they've decided collectively to not answer any questions asked by their visitors. Instead, they shared with us two of the absolutely most interesting existential questions they had discovered, without giving any answers.	Die Betrachter haben uns mitgeteilt, dass sie kollektiv beschlossen haben, keine Fragen ihrer Besucher zu beantworten. Stattdessen teilten sie uns zwei der absolut interessantesten existenziellen Fragen mit, die sie entdeckt hatten, ohne Antworten zu geben.	400
 text	Automated bots meet us at the landing to give us an overview of our options. They explain that the dominant philosophical policy allows us to meet the locals only once. Interaction with the automated trade platform will remain open.	Automatisierte Bots treffen uns bei der Landung, um uns einen Überblick über unsere Optionen zu geben. Sie erklären uns, dass die vorherrschende philosophische Politik es uns erlaubt, die Einheimischen nur einmal zu treffen. Die Interaktion mit der automatisierten Handelsplattform bleibt offen.	400
 choiceText	Meet the locals	Treffen Sie die Einheimischen	100
 choiceText	Engage with automated trade platform first	Zuerst mit der automatisierten Handelsplattform interagieren	100
 text	meeting the locals... %	Treffen mit den Einheimischen... %	50
 title	Hall of Questions	Halle der Fragen	35
-text2	Some of our crew started to bleed a little from their eyes, but the Contemplators assured this is completely normal. The Hall of Questions left our representatives with profound new ways to realize they were fools on so many levels.	Einigen unserer Crew bluteten ein wenig die Augen, aber die Contemplators versicherten, dass dies völlig normal sei. Die Halle der Fragen hinterließ bei unseren Vertretern tiefgreifende neue Erkenntnisse, dass sie auf so vielen Ebenen Narren waren.	400
+text2	Some of our crew started to bleed a little from their eyes, but the Contemplators assured this is completely normal. The Hall of Questions left our representatives with profound new ways to realize they were fools on so many levels.	Einigen unserer Crew bluteten ein wenig die Augen, aber die Betrachter versicherten, dass dies völlig normal sei. Die Halle der Fragen hinterließ bei unseren Vertretern tiefgreifende neue Erkenntnisse, dass sie auf so vielen Ebenen Narren waren.	400
 reasonToDisplay	Deep experiences	Tiefe Erfahrungen	30
 title	Contemplator gifts	Geschenke der Kontemplatoren	35
-text2	The Contemplators have collectively decided to not answer any questions asked by the visitors. Instead, our crew is invited to a poetry event. We hear some truly fine existential poetry and consume many exotic drugs. As we prepare to leave the next day, we are given a trained space pet and supplies as a gift.	Die Contemplators haben kollektiv beschlossen, keine Fragen der Besucher zu beantworten. Stattdessen wird unsere Crew zu einem Poesie-Event eingeladen. Wir hören einige wirklich gute existenzielle Gedichte und konsumieren viele exotische Drogen. Als wir uns auf die Abreise am nächsten Tag vorbereiten, erhalten wir ein trainiertes Weltraumtier und Vorräte als Geschenk.	400
-crewDescriptionOverride	Trained space pet, gifted by the Contemplators. The creature deeply enjoys watering the flowers.	Abgerichtetes Weltraumtier, geschenkt von den Contemplators. Die Kreatur genießt es sehr, die Blumen zu gießen.	250
+text2	The Contemplators have collectively decided to not answer any questions asked by the visitors. Instead, our crew is invited to a poetry event. We hear some truly fine existential poetry and consume many exotic drugs. As we prepare to leave the next day, we are given a trained space pet and supplies as a gift.	Die Betrachter haben kollektiv beschlossen, keine Fragen der Besucher zu beantworten. Stattdessen wird unsere Crew zu einem Poesie-Event eingeladen. Wir hören einige wirklich gute existenzielle Gedichte und konsumieren viele exotische Drogen. Als wir uns auf die Abreise am nächsten Tag vorbereiten, erhalten wir ein trainiertes Weltraumtier und Vorräte als Geschenk.	400
+crewDescriptionOverride	Trained space pet, gifted by the Contemplators. The creature deeply enjoys watering the flowers.	Abgerichtetes Weltraumtier, geschenkt von den Betrachtern. Die Kreatur genießt es sehr, die Blumen zu gießen.	250
 text	The locals invite us to try the Hall of Questions as part of their hospitality session. It is a techno-telepathic psychedelic learning machine...	Die Einheimischen laden uns ein, die Halle der Fragen als Teil ihrer Gastfreundschaft auszuprobieren. Es ist eine techno-telepathische, psychedelische Lernmaschine...	400
 choiceText	Try the Hall of Questions	Die Halle der Fragen ausprobieren	100
 choiceText	Politely decline the offer	Das Angebot höflich ablehnen	100
 text	Hall of Questions... %	Halle der Fragen... %	50
-text2	The Contemplators shared with us some of the existential questions they had arrived at, but spoke little of answers. As we were leaving, A group of locals approached us.	Die Contemplators teilten mit uns einige der existenziellen Fragen, zu denen sie gekommen waren, sprachen aber wenig von Antworten. Als wir gehen wollten, kam eine Gruppe von Einheimischen auf uns zu.	400
+text2	The Contemplators shared with us some of the existential questions they had arrived at, but spoke little of answers. As we were leaving, A group of locals approached us.	Die Betrachter teilten mit uns einige der existenziellen Fragen, zu denen sie gekommen waren, sprachen aber wenig von Antworten. Als wir gehen wollten, kam eine Gruppe von Einheimischen auf uns zu.	400
 reasonToDisplay	valuable questions	wertvolle Fragen	30
 text2	"Thank you for participating. Your answer is cool. You focused on what's important instead of taking risks." The individual waves his staff, and we see a swarm of some kind of nanofoam bots landing our ship and repairing damage. We thank the locals and continue our journey"	Danke, dass Sie mitgemacht haben. Eure Antwort ist cool. Ihr habt euch auf das konzentriert, was wichtig ist, anstatt Risiken einzugehen. Der Einheimische winkt mit seinem Stab, und wir sehen einen Schwarm von einer Art Nanobots, die unser Schiff landen und den Schaden reparieren. Wir danken den Einheimischen und setzen unsere Reise fort"	400
 reasonToDisplay	ship repaired	Schiff repariert	30
 text	requesting landing permission...	Bitte um Landeerlaubnis...	50
-title	Contemplator colony	Contemplator-Kolonie	35
-text	This planet is colonized by an advanced civilization, a multispecies community of philosophers calling themselves "The Contemplators". The galactic joke is that the Contemplators are in deep thought all the time because they do not know what they really want.	Dieser Planet wird von einer fortgeschrittenen Zivilisation kolonisiert, einer Multispezies-Gemeinschaft von Philosophen, die sich selbst "Die Kontemplatoren" nennen. Der galaktische Witz ist, dass die Contemplators die ganze Zeit in tiefen Gedanken sind, weil sie nicht wissen, was sie wirklich wollen.	400
+title	Contemplator colony	Betrachter-Kolonie	35
+text	This planet is colonized by an advanced civilization, a multispecies community of philosophers calling themselves "The Contemplators". The galactic joke is that the Contemplators are in deep thought all the time because they do not know what they really want.	Dieser Planet wird von einer fortgeschrittenen Zivilisation kolonisiert, einer Multispezies-Gemeinschaft von Philosophen, die sich selbst "Die Betrachter" nennen. Der galaktische Witz ist, dass die Betrachter die ganze Zeit in tiefen Gedanken sind, weil sie nicht wissen, was sie wirklich wollen.	400
 choiceText	Request landing permission	Landeerlaubnis beantragen	100
 choiceText	Engage with automated trade platform	Mit automatischer Handelsplattform in Kontakt treten	100
 text	"We are running a philosophical (completely ethical) experiment here with some of our visitors. Would you like to participate? If yes, then simply tell us if you would prefer a gift of information or matter. We will give you the gift. There is no hidden catch."	Wir führen hier ein philosophisches (völlig ethisches) Experiment mit einigen unserer Besucher durch. Möchten Sie daran teilnehmen? Wenn ja, dann sagen Sie uns einfach, ob Sie ein Geschenk in Form von Informationen oder Materie bevorzugen würden. Wir werden Ihnen das Geschenk geben. Es gibt keinen versteckten Haken.	400
@@ -3503,11 +3503,11 @@ choiceText	Information	Information	100
 choiceText	Matter	Materie	100
 choiceText	Our ship is broken, would you help us with this instead?	Unser Schiff ist kaputt, würden Sie uns stattdessen helfen?	100
 title	Gifts	Geschenke	35
-text2	"I knew it!" says one of the Contemplators to the others and they start making a funny noise, most likely the equivalent of laughing. They give us a package and leave.	Ich wusste es! sagt einer der Contemplators zu den anderen und sie fangen an, ein lustiges Geräusch zu machen, wahrscheinlich das Äquivalent zum Lachen. Sie geben uns ein Paket und gehen.	400
+text2	"I knew it!" says one of the Contemplators to the others and they start making a funny noise, most likely the equivalent of laughing. They give us a package and leave.	"Ich wusste es!" sagt einer der Betrachter zu den anderen und sie fangen an, ein lustiges Geräusch zu machen, wahrscheinlich das Äquivalent zum Lachen. Sie geben uns ein Paket und gehen.	400
 reasonToDisplay	gifts	Geschenke	30
 title	Gift	Geschenk	35
-text2	"Wow, you're right!" says one of the Contemplators to the others and they start making a funny noise, most likely the equivalent of laughing. They present us a storage device the size of a rice grain, packed full of valuable xenodata.	Wow, du hast Recht! sagt einer der Contemplators zu den anderen und sie machen ein lustiges Geräusch, das wahrscheinlich einem Lachen gleichkommt. Sie überreichen uns ein reiskorngroßes Speichergerät, vollgepackt mit wertvollen Xenodaten.	400
-text2	Respecting our choice, the Contemplators lead our ambassadors to a poetry event instead. We hear some truly fine existential poetry and consume many exotic substances. As we prepare to leave the next day, we are given a generous farewell gift.	Unsere Wahl respektierend, führen die Contemplators unsere Botschafter stattdessen zu einer Poesie-Veranstaltung. Wir hören einige wirklich gute existenzielle Gedichte und konsumieren viele exotische Substanzen. Als wir uns auf die Abreise am nächsten Tag vorbereiten, erhalten wir ein großzügiges Abschiedsgeschenk.	400
+text2	"Wow, you're right!" says one of the Contemplators to the others and they start making a funny noise, most likely the equivalent of laughing. They present us a storage device the size of a rice grain, packed full of valuable xenodata.	Wow, du hast Recht! sagt einer der Betrachter zu den anderen und sie machen ein lustiges Geräusch, das wahrscheinlich einem Lachen gleichkommt. Sie überreichen uns ein reiskorngroßes Speichergerät, vollgepackt mit wertvollen Xenodaten.	400
+text2	Respecting our choice, the Contemplators lead our ambassadors to a poetry event instead. We hear some truly fine existential poetry and consume many exotic substances. As we prepare to leave the next day, we are given a generous farewell gift.	Unsere Wahl respektierend, führen die Betrachter unsere Botschafter stattdessen zu einer Poesie-Veranstaltung. Wir hören einige wirklich gute existenzielle Gedichte und konsumieren viele exotische Substanzen. Als wir uns auf die Abreise am nächsten Tag vorbereiten, erhalten wir ein großzügiges Abschiedsgeschenk.	400
 text2	As we prepare to leave the next day, we are given a generous farewell gift.	Als wir uns auf die Abreise am nächsten Tag vorbereiten, werden wir mit einem großzügigen Abschiedsgeschenk bedacht.	400
 text	docking... %	Andocken... %	50
 
@@ -6424,7 +6424,7 @@ altText	Press <b>space</b> to slow time so you can prepare... Starting a ship vs
 altText	Try to make sure your shots land on important enemy modules like <b>shield generators, weapons or reactors</b>. Remember that if the shot landing area is over the edges of target ship, some shots might miss completely.	Versuchen Sie sicherzustellen, dass Ihre Schüsse auf wichtigen gegnerischen Modulen wie <b>Schildgeneratoren, Waffen oder Reaktoren</b> landen. Denken Sie daran, dass einige Schüsse komplett daneben gehen können, wenn der Landebereich der Schüsse über den Kanten des Zielschiffs liegt.	240
 altText	Currently, our weapons are remotely operated by the bridge (the <b>B symbol</b>).\nThis means they are working, but without accuracy & recharge bonus from your crew.\nSend crew with <b>gunnery skill</b> to operate <b>every weapon</b>, to ensure max accuracy bonus.	Derzeit werden die Waffen von der Brücke aus ferngesteuert (das <b>B-Symbol</b>).\nDas bedeutet, dass sie funktionieren, aber ohne Genauigkeits- und Nachladebonus von Ihrer Crew.\nSchicken Sie eine Crew mit <b>Gunnery-Skill</b>, um <b>jede Waffe</b> zu bedienen, um einen maximalen Genauigkeitsbonus zu gewährleisten.	240
 altText	Weapons can be selected by clicking on them on the ship or on the <b>Quick selection bar</b>. Pressing a number 1...9 on your keyboard is the fastest way to select a weapon.	Waffen können durch Anklicken auf dem Schiff oder in der <b>Schnellauswahlleiste</b> ausgewählt werden. Das Drücken der Zahlen 1...9 auf Ihrer Tastatur ist der schnellste Weg, eine Waffe auszuwählen.	240
-altText	After selecting a weapon, hover the cursor over enemy ship. <b>The striped square</b> at the end of UI cone is where your weapon shots will be landing. Fire with <b>R-CLICK</b> and then unpause!	Nachdem Sie eine Waffe ausgewählt haben, bewegen Sie den Mauszeiger über das gegnerische Schiff. <b>Das gestreifte Quadrat</b> am Ende des UI-Kegels ist der Ort, an dem Ihre Waffenschüsse landen werden. Feuern Sie mit <b>R-CLICK</b> und heben Sie dann die Pause auf.	240
+altText	After selecting a weapon, hover the cursor over enemy ship. <b>The striped square</b> at the end of UI cone is where your weapon shots will be landing. Fire with <b>R-CLICK</b> and then unpause!	Nachdem Sie eine Waffe ausgewählt haben, bewegen Sie den Mauszeiger über das gegnerische Schiff. <b>Das gestreifte Quadrat</b> am Ende des UI-Kegels ist der Ort, an dem Ihre Waffenschüsse landen werden. Feuern Sie mit <b>R-KLICK</b> und heben Sie dann die Pause auf.	240
 altText	The most valuable keyboard shortcuts during battle are <b>F5</b> (for toggling weapon quick selection UI) and <b>numbers 1..9</b> (for selecting weapons). And use <b>k</b> for switching on/off modules.	Die wertvollsten Tastenkombinationen während des Kampfes sind <b>F5</b> (zum Umschalten der Waffen-Schnellauswahl-UI) und die <b>Zahlen 1..9</b> (zum Auswählen der Waffen). Und verwenden Sie <b>k</b> zum Ein- und Ausschalten von Modulen.	240
 choiceTexts	I will try to remember	Ich werde versuchen, mich zu erinnern	15
 altText	For starters, please check out the Help summary about aiming with weapons. It is essential to understand this, if you are to survive any real battles.	Schauen Sie sich für den Anfang die Hilfe-Zusammenfassung über das Zielen mit Waffen an. Es ist unerlässlich, dies zu verstehen, wenn Sie echte Kämpfe überleben wollen.	240
@@ -6598,7 +6598,7 @@ choiceText	Easy way [-3 exotics]	Einfacher Weg [-3 Exoten]	100
 choiceText	Hard way [prepare for battle]	Harter Weg [Vorbereitung auf den Kampf]	100
 text	We do not have enough resources needed for this operation. We must fight or escape during combat, once our warpdrive is charged.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen kämpfen oder während des Kampfes fliehen, sobald unser Warp-Antrieb aufgeladen ist.	600
 text	"Death or trade? I have this very exotic drink I'm willing to sell you, if you can pay me right now..."	Tod oder Handel? Ich habe dieses sehr exotische Getränk, das ich bereit bin, Ihnen zu verkaufen, wenn Sie mich sofort bezahlen können...	400
-choiceText	"Trade" [-220 metals for 1 organics]"	Tauschen [-220 Metalle für 1 organisches Produkt]"	100
+choiceText	"Trade" [-220 metals for 1 organics]"	Tausch [-220 Metalle für 1 organisches Produkt]"	100
 text	We do not have enough resources needed for this operation. We must take the fight or escape from the combat.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen den Kampf annehmen oder aus dem Kampf fliehen.	600
 text	"The bad people took your exotics but said it is not enough... these are very dangerous times... You know with slavers around looking for new prey... But I was able to strike a deal at the last moment... pay some more and you are free to go! Otherwise... I cannot guarantee your safety..."	Die bösen Leute haben Ihre Exoten genommen, aber sie sagten, es sei nicht genug... es sind sehr gefährliche Zeiten... mit den Sklavenhändlern auf der Suche nach neuer Beute... Aber ich konnte im letzten Moment einen Deal aushandeln... zahl etwas mehr und du darfst gehen! Andernfalls... kann ich nicht für Eure Sicherheit garantieren...	400
 choiceText	Pay [-2 exotics]	Bezahlen Sie [-2 Exoten]	100
@@ -6684,7 +6684,7 @@ text2	"Thank you for being a good material skeleton mammal and playing the fee! 
 
 SOS shop with tech junk, generous.prefab
 displayName	space scavenger	Weltraum-Plünderer	25
-title	Space scavengers	Weltraum-Scavenger	35
+title	Space scavengers	Weltraum-Plünderer	35
 text2	A tech scavenger ship has detected our SOS signal.\n"Merry existence, calcium skeleton ape! We've sent you a help package! If you're in need of resources such as fuel or organics, perhaps you can buy our junk and scrap it, to get whatever materials you need."	Ein technisches Aasfresserschiff hat unser SOS-Signal entdeckt. "Frohes Dasein, Kalziumskelett-Affe! Wir haben dir ein Hilfspaket geschickt! Wenn Sie Ressourcen wie Treibstoff oder organische Stoffe benötigen, können Sie vielleicht unseren Schrott kaufen und verschrotten, um die Materialien zu erhalten, die Sie benötigen."	400
 
 SOS shop with tech junk.prefab
@@ -6863,7 +6863,7 @@ reasonToDisplay	"bribe"	Bestechung	30
 text	"Unknown vessel, this star system is Rat Empire property. All alien visitors must pay the property-visiting tax or be immediately destroyed."	Unbekanntes Schiff, dieses Sternensystem ist Eigentum des Rattenimperiums. Alle fremden Besucher müssen die Besuchssteuer bezahlen oder werden sofort zerstört.	400
 choiceText	We have Rat crew onboard, so we are not alien, and shouldn't pay	Wir haben eine Ratten-Crew an Bord, also sind wir nicht fremd und sollten nicht zahlen.	100
 choiceText	Perhaps you take these shiny exotics instead? [bribe attempt -1 exotics]	Vielleicht nehmt Ihr stattdessen diese glänzenden Exoten? (Bestechungsversuch - 1 Exotik)	100
-text	"You say you are Rats, but why is your ship not built in the Rat Empire? Anyway, I'm in a good mood today, so I will charge you the minimal price."	Ihr sagt, Ihr seid Ratten, aber warum ist Euer Schiff nicht im Rattenreich gebaut? Wie auch immer, ich bin heute gut gelaunt, also werde ich Euch den Minimalpreis berechnen.	400
+text	"You say you are Rats, but why is your ship not built in the Rat Empire? Anyway, I'm in a good mood today, so I will charge you the minimal price."	Ihr sagt, Ihr seid Ratten, aber warum ist Euer Schiff nicht im Rattenimperium gebaut? Wie auch immer, ich bin heute gut gelaunt, also werde ich Euch den Minimalpreis berechnen.	400
 choiceText	Pay [-30 xenodata credits]	Bezahlen [-30 Xenodata-Credits]	100
 text2	Ah, fellow Rats! We thought you were just some rich alien tourists who have bought a Rat ship and are now flying around, disrespecting our space. Anyway, welcome to Rat Imperium."	Ah, ihr Rattenfreunde! Wir dachten, Ihr wärt nur ein paar reiche außerirdische Touristen, die ein Rattenschiff gekauft haben und nun herumfliegen und unseren Raum nicht respektieren. Wie auch immer, willkommen im Rattenimperium."	400
 text	"Unregistered vessel, you are trespassing a star system that's Rat Empire property and according to Imperial rules, all alien visitors must pay the property-visiting tax or be immediately destroyed."	Unregistriertes Schiff, Sie betreten unbefugt ein Sternensystem, das Eigentum des Rattenimperiums ist, und gemäß den imperialen Regeln müssen alle außerirdischen Besucher die Eigentumsbesuchssteuer zahlen oder werden sofort zerstört.	400
@@ -6899,7 +6899,7 @@ text	"Alien vessel, this star system is Rat Empire property and according to loc
 choiceText	Pay [-150 xenodata credits]	Bezahlen [-150 Xenodaten-Credits]	100
 text2	"Carry on existing, big ape."	Bleiben Sie bestehen, großer Affe.	400
 text2	The Rat official waits until receiving the exotics and then speaks "We learned this maneuver in the Academy... Prepare to die!" (the Rat ship is closing in...)"	Der Rattenbeamte wartet, bis er die Exoten erhält und spricht dann: "Dieses Manöver haben wir in der Akademie gelernt... Bereite dich auf den Tod vor!" (das Rattenschiff kommt näher...)"	400
-text	"You say you are Rats, but why is your ship not built in the Rat Empire? Anyway, I'm in a good mood today, so I will charge you half the normal price."	Ihr sagt, ihr seid Ratten, aber warum ist euer Schiff nicht im Rattenreich gebaut? Wie auch immer, ich bin heute gut gelaunt, also berechne ich Euch die Hälfte des normalen Preises.	400
+text	"You say you are Rats, but why is your ship not built in the Rat Empire? Anyway, I'm in a good mood today, so I will charge you half the normal price."	Ihr sagt, ihr seid Ratten, aber warum ist euer Schiff nicht im Rattenimperium gebaut? Wie auch immer, ich bin heute gut gelaunt, also berechne ich Euch die Hälfte des normalen Preises.	400
 choiceText	Pay [-75 xenodata credits]	Bezahlt [-75 Xenodaten-Credits]	100
 choiceText	Perhaps you take these shiny exotics instead? [bribe attempt -3 exotics]	Vielleicht nehmt Ihr stattdessen diese glänzenden Exotika? [Bestechungsversuch -3 Exoten]	100
 text2	Welcome to outskirts of Rat Imperium then. And watch out for space organisms. A friend of a friend saw this huge space worm out here."	Dann willkommen in den Außenbezirken des Rattenimperiums. Und hüte dich vor Weltraumorganismen. Ein Freund eines Freundes hat hier draußen diesen riesigen Weltraumwurm gesehen."	400
@@ -6916,8 +6916,8 @@ title	Rat Empire lord	Rattenimperium-Fürst	35
 choiceText	Pay [-170 xenodata credits]	Zahlen Sie [-170 Xenodaten-Credits]	100
 choiceText	Attempt to bribe [-4 exotics]	Versuch der Bestechung [-4 Exoten]	100
 text2	"Carry on existing, mammal visitor."	Weiterbestehen, Säugetierbesucher.	400
-text2	"Fool! You cannot corrupt the honorable mind of Rat Lord with scraps!" The ship is charging up weapons..."	Narr! Ihr könnt den ehrenhaften Geist des Rattenreich-Lords nicht mit Abfällen korrumpieren! "Das Schiff lädt die Waffen auf ..."	400
-text	"You say you are Rats, but why is your ship not built in the Rat Empire? That's foreign influence! Anyway, I'm in a good mood today, so I will charge you a reduced price."	Ihr sagt, ihr seid Ratten, aber warum ist euer Schiff nicht im Rattenreich gebaut? Das ist ein fremder Einfluss! Wie auch immer, ich bin heute gut gelaunt, also berechne ich euch einen reduzierten Preis.	400
+text2	"Fool! You cannot corrupt the honorable mind of Rat Lord with scraps!" The ship is charging up weapons..."	Narr! Ihr könnt den ehrenhaften Geist des Rattenimperium-Lords nicht mit Abfällen korrumpieren! "Das Schiff lädt die Waffen auf ..."	400
+text	"You say you are Rats, but why is your ship not built in the Rat Empire? That's foreign influence! Anyway, I'm in a good mood today, so I will charge you a reduced price."	Ihr sagt, ihr seid Ratten, aber warum ist euer Schiff nicht im Rattenimperium gebaut? Das ist ein fremder Einfluss! Wie auch immer, ich bin heute gut gelaunt, also berechne ich euch einen reduzierten Preis.	400
 text2	Ah, fellow Rats! Welcome back to Rat Empire territory... and may your whiskers ever shine freshly!	Ah, ihr Rattenfreunde! Willkommen zurück auf dem Territorium des Rattenimperiums... und möge dein Schnurrbart immer frisch glänzen!	400
 text	"Unregistered vessel, this star system is Rat Empire property and according to local rules, all alien visitors must pay the property-visiting tax or be immediately destroyed."	Unregistriertes Schiff, dieses Sternensystem ist Eigentum des Rattenimperiums, und nach den hiesigen Regeln müssen alle außerirdischen Besucher die Besuchssteuer zahlen oder werden sofort zerstört.	400
 text2	"Carry on existing, visitor. Remember to always bring fresh xenodata when traversing in our space."	Bleiben Sie bestehen, Besucher. Denken Sie daran, immer frische Xenodaten mitzubringen, wenn Sie sich in unserem Raum bewegen.	400
@@ -6934,7 +6934,7 @@ text2	"This sounds totally like something I expected from an illusionary charact
 text2	"I will remove all illusions from this world because I like the Truth. And since you are obviously an illusion, you are Lie, which is the opposite of Truth. And because I am part of the Truth, I will have to remove you."	Ich werde alle Illusionen aus dieser Welt entfernen, weil ich die Wahrheit mag. Und da Sie offensichtlich eine Illusion sind, sind Sie eine Lüge, die das Gegenteil von Wahrheit ist. Und weil ich Teil der Wahrheit bin, muss ich dich entfernen.	400
 
 Ambusher L1 Style guardians, redsaucer.prefab
-displayName	Style Guardians (Rat Empire)	Stilwächter (Rattenreich)	25
+displayName	Style Guardians (Rat Empire)	Stilwächter (Rattenimperium)	25
 text	A single medium-sized ship is hailing us...	Ein einzelnes mittelgroßes Schiff grüßt uns...	600
 title	Style Police patrol	Stilpolizei-Patrouille	35
 text	"We notice your ship is using the wrong decoration style. Obviously, our employers don't accept such ornaments around here. Here are the blueprints for redesigning your external decorations according to Rat Empire values. Failure to comply results in death penalty, of course."	Uns ist aufgefallen, dass Ihr Schiff den falschen Dekorationsstil verwendet. Offensichtlich akzeptieren unsere Auftraggeber solche Verzierungen hier nicht. Hier sind die Blaupausen für die Umgestaltung Ihrer Außendekoration nach den Werten des Rattenimperiums. Bei Nichteinhaltung droht natürlich die Todesstrafe.	400
@@ -7456,7 +7456,7 @@ Hand melee enhanced fists.prefab
 
 Hand melee insectbite.prefab
 displayName	Claw	Klaue	25
-description	Claws genetically engineered for combat. Also have built-in fire extinguisher implants.	Klauen, die genetisch für den Kampf entwickelt wurden. Haben auch eingebaute Feuerlösch-Implantate.	250
+description	Claws genetically engineered for combat. Also have built-in fire extinguisher implants.	Klauen, die genetisch für den Kampf entwickelt wurden (haben auch eingebaute Feuerlösch-Implantate).	250
 
 Hand melee mincer.prefab
 displayName	Mincer	Fleischwolf	25
@@ -8528,41 +8528,41 @@ synthetics container3 large.prefab
 displayName	Synthetics container (large)	Synthetik-Behälter (groß)	40
 
 cryosleep 1 DIY.prefab
-displayName	DIY cryosleepx1	DIY-Kryoschlafx1	40
+displayName	DIY cryosleepx1	DIY-Kryoschlaf x1	40
 description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around.	Die Crew im Kryoschlaf benötigt keine organischen Stoffe & kann Wunden heilen, während das Schiff herumfährt.	200
 
 cryosleep 2x human small.prefab
-displayName	Cryosleepx2, Lovers-type	Kryoschlafx2, Typ Liebespaar	40
+displayName	Cryosleepx2, Lovers-type	Kryoschlaf x2, Typ Liebespaar	40
 
 cryosleep 3x medical.prefab
 displayName	Medical cryosleep unit x3	Medizinische Kryoschlaf-Einheit x3	40
 description	This cryosleep heals crew faster than others. Crew in any cryosleep requires no organics & might heal wounds while the ship is driving around.	Dieser Kryoschlaf heilt die Crew schneller als andere. Die Crew in einem Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff herumfährt.	200
 
 cryosleep 3x rats armor.prefab
-displayName	Armored cryosleepx3, Rat Empire origin	Gepanzerter Kryoschlaf x3, Herkunft Rattenreich	40
+displayName	Armored cryosleepx3, Rat Empire origin	Gepanzerter Kryoschlaf x3, Herkunft Rattenimperium	40
 description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around. Reinforced structure improves ship HP.	Die Crew im Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff fährt. Die verstärkte Struktur verbessert die HP des Schiffs.	200
 
 cryosleep 4x alien family.prefab
-displayName	Cryosleepx4, family-type	Cryosleepx4, Familien-Typ	40
+displayName	Cryosleepx4, family-type	Kryotraum x4, Familien-Typ	40
 
 cryosleep 6x human standard.prefab
-displayName	Cryosleepx6, standard issue	Cryosleepx6, Standard-Ausgabe	40
+displayName	Cryosleepx6, standard issue	Kryotraum x6, Standard-Ausgabe	40
 
 cryosleep 8x insect.prefab
-displayName	Cryosleepx8, insectoidian military	Cryosleepx8, insektoides Militär	40
+displayName	Cryosleepx8, insectoidian military	Kryotraum x8, insektoides Militär	40
 
 dream recorder 1 DIY.prefab
-displayName	DIY cryodream recorder	DIY-Kryodream-Rekorder	40
+displayName	DIY cryodream recorder	DIY-Kryotraum-Rekorder	40
 description	Crew sleeping in this module requires no organics & might heal wounds during ship movement. The module also records user dreams as xenodata during ship movement.	Die Besatzung, die in diesem Modul schläft, benötigt keine organischen Stoffe und kann während der Schiffsbewegung Wunden heilen. Das Modul zeichnet auch Benutzerträume als Xenodaten während der Schiffsbewegung auf.	200
 
 dream recorder 1 rats.prefab
-displayName	Cryodream recorder x1 (reinforced)	Kryodream-Rekorder x1 (verstärkt)	40
+displayName	Cryodream recorder x1 (reinforced)	Kryotraum-Rekorder x1 (verstärkt)	40
 
 dream recorder 2.prefab
-displayName	Cryodream recorderx2, lovers-type	Kryodream-Rekorderx2, Liebhaber-Typ	40
+displayName	Cryodream recorderx2, lovers-type	Kryotraum-Rekorder x2, Typ Liebespaar	40
 
 dream recorder 4x weird biotech.prefab
-displayName	Cryodream recorderx4, biotech	Kryodream-Rekorderx4, biotechnisch	40
+displayName	Cryodream recorderx4, biotech	Kryotraum-Rekorder x4, biotechnisch	40
 
 weapondecoy_alien.prefab
 displayName	Weapon decoy & Integrity hardpoint	Waffentäuschung & Integritäts-Hardpoint	40
@@ -8674,11 +8674,11 @@ displayName	DIY microgrowery	DIY-Mikrogärtnerei	40
 description	Growery of bio-engineered lichen. Uses excess heat generated with ship movement, and removes operator organics consumption. Extremely fragile and needs extra power.	Growery von bio-engineered Flechten. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und beseitigt den Organikverbrauch des Bedieners. Äußerst zerbrechlich und benötigt zusätzliche Energie.	200
 
 garden 2 minigrow.prefab
-displayName	Minigrowery	Minigrowerie	40
+displayName	Minigrowery	Minigärtnerei	40
 description	Growery of bio-engineered plants. Uses excess heat generated with ship movement, and removes operator organics consumption.	Gärtnerei für biotechnisch hergestellte Pflanzen. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und entfernt den Organikverbrauch des Bedieners.	200
 
 garden 3 shroomery.prefab
-displayName	Shroomery	Shroomery	40
+displayName	Shroomery	Pilzplantage	40
 description	Growery of bio-engineered mushrooms. Uses excess heat generated with ship movement, and removes operator organics consumption.	Gärtnerei für biotechnisch hergestellte Pilze. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und beseitigt den Organikverbrauch des Bedieners.	200
 
 garden 4 greenhouse.prefab
@@ -8995,13 +8995,13 @@ description	Laboratory for scientific research. Crew assigned to labs generate x
 Research.resourceGenReason	xenodata generated in labs	xenodata generiert in Laboren	30
 
 lab module x3.prefab
-displayName	Science labx3, Type Threespace	Wissenschaftslaborx3, Typ Threespace	40
+displayName	Science labx3, Type Threespace	Wissenschaftslabor x3, Typ Dreiraum	40
 
 lab rats x3.prefab
-displayName	Science labx3, Rat Empire	Wissenschaftslaborx3, Rattenimperium	40
+displayName	Science labx3, Rat Empire	Wissenschaftslabor x3, Rattenimperium	40
 
 sensor 0-C diy.prefab
-displayName	Non-combat sensor DIY I	Nicht-Kampfsensor-Basteln I	40
+displayName	Non-combat sensor DIY I	Nicht-Kampfsensor (DIY) I	40
 description	Increases ship sensor range in starsystem & sector view.\nSensors are not cumulative - only the best sensor range values are used.	Erhöht die Sensorreichweite des Schiffes in der Sternensystem- und Sektoransicht.\nDie Sensoren sind nicht kumulativ - nur die besten Sensorreichweitenwerte werden verwendet.	200
 
 sensor 10 terran s2.prefab
@@ -9150,7 +9150,7 @@ displayName	Stealth Decryptor, type I	Tarnkappen-Entschlüssler, Typ I	40
 description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Stealth-Wert von 1 zu entdecken (innerhalb der Sensorreichweite). Langlebige Materialien erhöhen die HP des Schiffes.	200
 
 Stealth decryptor 1 rats.prefab
-displayName	Stealth decryptor (Rat Empire)	Tarnkappen-Entschlüsseler (Rattenreich)	40
+displayName	Stealth decryptor (Rat Empire)	Tarnkappen-Entschlüsseler (Rattenimperium)	40
 
 Stealth decryptor 1 ventilator.prefab
 displayName	Stealth Decryptor, type 0	Tarnkappen-Entschlüssler, Typ 0	40
@@ -9402,7 +9402,7 @@ description	This rail cannon does not use explosives to propel metal slugs, but 
 
 weapon diyfirebomber1.prefab
 displayName	DIY firecannon MK1	DIY-Feuerkanone MK1	40
-description	Shoots plastic balls that explode and cause fire on impact. Somewhat improved accuracy due to built-in sensors. Fast reload cycle & increased speed of projectiles (which have 1hp each).	Schießt Plastikkugeln, die beim Aufprall explodieren und Feuer verursachen. Etwas verbesserte Genauigkeit durch eingebaute Sensoren. Schneller Nachladezyklus & erhöhte Geschwindigkeit der Geschosse (die jeweils 1hp haben).	200
+description	Shoots plastic balls that explode and cause fire on impact. Somewhat improved accuracy due to built-in sensors. Fast reload cycle & increased speed of projectiles (which have 1hp each).	Schießt Plastikkugeln, explodieren und Feuer verursachen. Etwas bessere Genauigkeit durch eingebaute Sensoren. Schneller Nachladezyklus & erhöhte Geschossgeschwindigkeit (die jeweils 1hp haben).	200
 
 weapon diyfirebomber2.prefab
 displayName	DIY firecannon MK2	DIY-Feuerkanone MK2	40
@@ -9690,7 +9690,7 @@ displayName	Relic raygun	Relikt-Strahlenkanone	40
 
 weapon ratlaser 5.prefab
 displayName	Rat volley laser	Ratten-Salven-Laser	40
-description	Ancient multibarrel laser made in the Rat Empire a few hundred years ago. Low accuracy compared to modern beam weapons.	Altertümlicher Multibarrel-Laser, der vor ein paar hundert Jahren im Rattenreich hergestellt wurde. Geringe Genauigkeit im Vergleich zu modernen Strahlenwaffen.	200
+description	Ancient multibarrel laser made in the Rat Empire a few hundred years ago. Low accuracy compared to modern beam weapons.	Altertümlicher Multibarrel-Laser, der vor ein paar hundert Jahren im Rattenimperium hergestellt wurde. Geringe Genauigkeit im Vergleich zu modernen Strahlenwaffen.	200
 
 weapon ratlaser long.prefab
 displayName	Killer Claw laser	Killer-Klauen-Laser	40
@@ -9958,7 +9958,7 @@ randomizerMenuStrings[i]	+33 explosives	+33 Sprengstoffe	30
 
 Perk add explosives for Ratship.prefab
 displayName	Extra explosives II	Extra-Sprengstoff II	40
-description	Explosives are abundant in the Rat Empire, and can be obtained quite easily.	Sprengstoff ist im Rattenreich reichlich vorhanden und kann recht einfach beschafft werden.	250
+description	Explosives are abundant in the Rat Empire, and can be obtained quite easily.	Sprengstoff ist im Rattenimperium reichlich vorhanden und kann recht einfach beschafft werden.	250
 unlockAnnouncementText	Explosives are abundant in the Rat Empire, and can be obtained quite easily. We've met someone who has a permanent offer available.	Sprengstoff gibt es im Rattenimperium im Überfluss, und er ist recht leicht zu beschaffen. Wir haben jemanden getroffen, der ein dauerhaftes Angebot zur Verfügung hat.	100
 randomizerMenuStrings[i]	+75 explosives	+75 Sprengstoffe	30
 
@@ -10610,7 +10610,7 @@ description	Integrtiy module made of artificially grown crystals. Adds +10 ship 
 unlockAnnouncementText	Our ship AI has found this blueprint through acccess to insectoid technology networks.	Unsere Schiffs-KI hat diese Blaupause durch den Zugang zu insektoiden Technologienetzwerken gefunden.	100
 
 Perk module lovers cryosleep.prefab
-displayName	"Lovers"-type cryosleep"	Liebespaar-Typ Kryoschlaf"	40
+displayName	"Lovers"-type cryosleep"	"Liebespaar"-Typ Kryoschlaf	40
 description	Perfect for couples. Crew in cryosleep doesn't consume organics & may heal injuries during ship movement.	Perfekt für Paare. Die Crew im Kryoschlaf verbraucht keine organischen Stoffe und kann Verletzungen während der Schiffsbewegung heilen.	250
 randomizerMenuStrings[i]	+1 cryosleep module for two	+1 Kryoschlafmodul für 2	30
 
@@ -10629,7 +10629,7 @@ randomizerMenuStrings[i]	+1 convertor module that can turn fuel into food.	+1 Ko
 randomizerMenuStrings[i]	+40 fuel	+40 Kraftstoff	30
 
 Perk module old random.prefab
-displayName	The ancient module	Das Antiker-Modul	40
+displayName	The ancient module	Das antike Modul	40
 description	A gift from a friend at the Rat Imperial Archeology museum.	Ein Geschenk von einem Freund aus dem rattenimperialen Archäologiemuseum.	250
 randomizerMenuStrings[i]	+1 random old module	+1 zufälliges altes Modul	30
 
@@ -10640,12 +10640,12 @@ randomizerMenuStrings[i]	+1 old dreadnought cannon	+1 alte Dreadnought-Kanone	30
 
 Perk module Rat weapon for exotics.prefab
 displayName	The unofficial deal (Rat weapon)	Der inoffizielle Deal (Rattenwaffe)	40
-description	A smuggler from the Rat Empire offers us this weapon in exchange for exotics.	Ein Schmuggler aus dem Rattenreich bietet uns diese Waffe im Tausch gegen Exoten an.	250
+description	A smuggler from the Rat Empire offers us this weapon in exchange for exotics.	Ein Schmuggler aus dem Rattenimperium bietet uns diese Waffe im Tausch gegen Exoten an.	250
 unlockAnnouncementText	We've met a smuggler who promises to get us a brand new Rat weapon for a few exotics, next time.	Wir haben einen Schmuggler getroffen, der uns verspricht, uns beim nächsten Mal eine brandneue Rattenwaffe für ein paar Exoten zu besorgen.	100
-randomizerMenuStrings[i]	+1 weapon module (Rat Empire)	+1 Waffenmodul (Rattenreich)	30
+randomizerMenuStrings[i]	+1 weapon module (Rat Empire)	+1 Waffenmodul (Rattenimperium)	30
 
 Perk module shroomery for gardenship.prefab
-displayName	Extra shroomery	Extra Shroomery	40
+displayName	Extra shroomery	Extra Pilzplantage	40
 description	Adds an aditional module for rapidly growing edible mushrooms. All gardens remove operator food consumption and generate additional organics during ship movement.	Fügt ein zusätzliches Modul für den schnellen Anbau von essbaren Pilzen hinzu. Alle Gärten entfernen den Nahrungsverbrauch des Operators und generieren zusätzliche Organics während der Schiffsbewegung.	250
 
 Perk module synth cooker, to tigerfish.prefab
@@ -10865,8 +10865,8 @@ description	The onboard bridge is replaced with a better one. The new bridge can
 randomizerMenuStrings[i]	Replaces the ship command bridge with a better one	Ersetzt die Schiffs-Kommandobrücke durch eine bessere	30
 
 Perk Replace or improve growery for Atlas.prefab
-displayName	Mini-growery upgrade	Upgrade der Minigrowery	40
-description	The onboard minigrowery is replaced with a better organics garden. The new module can be operated by 4 crew to maximise organics production.	Die bordeigene Minigrowery wird durch einen besseren organischen Garten ersetzt. Das neue Modul kann von 4 Besatzungsmitgliedern bedient werden, um die organische Produktion zu maximieren.	250
+displayName	Mini-growery upgrade	Minigärtnerei Aufrüstung	40
+description	The onboard minigrowery is replaced with a better organics garden. The new module can be operated by 4 crew to maximise organics production.	Die bordeigene Minigärtnerei wird durch einen besseren organischen Garten ersetzt. Das neue Modul kann von 4 Besatzungsmitgliedern bedient werden, um die organische Produktion zu maximieren.	250
 randomizerMenuStrings[i]	Replaces the life garden module with a bigger & better one	Ersetzt das Lebensgartenmodul durch ein größeres & besseres	30
 randomizerMenuStrings[i]	-70 organics	-70 Organik	30
 
@@ -11117,7 +11117,7 @@ Squid scout B.prefab
 
 Shop classic.prefab
 startFireExtinguishLogLine	Station AI: Fire hazard detected! Initiating fire control protocols...	Stations-KI: Feuergefahr erkannt! Initiiere Feuerleitprotokolle...	80
-Needs to be on two lines.	Move crew here to\nleave them permanently behind.	Bringt die Crew hierher, um sie dauerhaft zurückzulassen.	0
+Needs to be on two lines.	Move crew here to\nleave them permanently behind.	Bringt die Crew hierher,\num sie dauerhaft zurückzulassen.	0
 
 Shop Insectoid.prefab
 
@@ -11388,7 +11388,7 @@ General humanoid operating msg pool.prefab
 	Operating module, thinking about childhood...	Betriebsmodul, an die Kindheit denken...	80
 	Operating module, thinking about friendship...	Betriebsmodul, an Freundschaft denken...	80
 	Operating module, thinking about friends.	Betriebsmodul, denke über Freunde nach.	80
-	Operating module, thinking about the Rat Empire.	Betriebsmodul, denke über das Rattenreich nach.	80
+	Operating module, thinking about the Rat Empire.	Betriebsmodul, denke über das Rattenimperium nach.	80
 	Operating module, thinking about the Squid Dominion.	Betriebsmodul, denke über das Tintenfisch-Dominion nach.	80
 	Operating module, thinking about the Pirates.	Betriebsmodul, denke über die Piraten nach.	80
 	Operating module, also reciting the mantra of truth.	Betriebsmodul, rezitiert auch das Mantra der Wahrheit.	80
