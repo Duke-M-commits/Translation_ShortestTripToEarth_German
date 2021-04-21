@@ -1654,15 +1654,15 @@ Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	F
 	Toggles starsystem view	Schaltet auf Sternensystemansicht um	0
 Button/Toggle. Opens starsystem view.	STAR	STERN	6
 	Toggles ship view	Schaltet auf Schiffsansicht um	0
-	UPGRADES	AUF-\nWERTEN	10
+	UPGRADES	AUF- \nWERTEN	10
 	Module crafts available!	Modul Handwerk verfügbar!	0
-	CRAFTABLES	HER-\nSTELLEN	10
+	CRAFTABLES	HER- \nSTELLEN	10
 	Ship hull integrity critically low,\navoid battles and repair your ship.	Schiffshüllenintegrität kritisch niedrig, vermeiden Sie Kämpfe und reparieren Sie Ihr Schiff.	0
 	LOW	NIEDRIG	6
 	Fire aboard ship!\nDisables accelerated internal time.	Feuer an Bord des Schiffes!\nDeaktiviert beschleunigte interne Zeit.	0
 	FIRE	FEUER	6
 	Intruders on board!\nDisables accelerated internal time.	Eindringlinge an Bord!\nDeaktiviert beschleunigte interne Zeit.	0
-	INTRUDERS	EINDRI-\nNGLINGE	10
+	INTRUDERS	EINDRI- \nNGLINGE	10
 	Hostile ships in combat range.\nDisables accelerated internal time.	Feindliche Schiffe in Kampfreichweite!\nDeaktiviert beschleunigte interne Zeit.	0
 Maximum letters on one row: 10, possible 2 rows	HOSTILE\nSHIPS	FEINDL.\nSCHIFFE	10
 	Jammed by hostiles.\nDisables accelerated internal time.	Von Feinden blockiert.\nDeaktiviert beschleunigte interne Zeit.	0
@@ -1680,7 +1680,7 @@ Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU\nWEIT	10
 	No synthetics, module repairs not possible.\nConsider scrapping less useful modules if you need more synthethics.	Keine Kunststoffe, Modulreparaturen nicht möglich.\nBedenken Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Kunststoffe benötigen.	0
 	No metals, ship hull repair not possible.\nConsider scrapping less useful modules if you need more metal.\nUse caution with hostile fleets.	Keine Metalle, Reparatur der Schiffshülle nicht möglich.\nBedenken Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Metall benötigen.\nSeien Sie vorsichtig bei feindlichen Flotten.	0
 	Excess cargo, cannot move!\nIt is sometimes possible to convert excess cargo to small amounts of fuel.	Überschüssige Fracht, kann nicht bewegt werden!\nEs ist manchmal möglich, überschüssige Fracht in kleine Mengen Treibstoff umzuwandeln.	0
-	EXCESS	ÜBER-\nSCHUSS	10
+	EXCESS	ÜBER- \nSCHUSS	10
 	Bridge not functional.\nAll remote module operations stopped (manual operation only).	Brücke nicht funktionsfähig.\nAlle ferngesteuerten Moduloperationen wurden gestoppt (nur manuelle Bedienung).	0
 	OFFLINE	AUS	10
 	Engine not functional, cannot drive.\nNo evasion bonus during combat.\nUse the SOS-beacon if no other options are available.	Motor nicht funktionsfähig, kann nicht fliegen.\nKein Ausweichbonus während des Kampfes.\nVerwenden Sie die SOS-Bake, wenn keine anderen Optionen verfügbar sind.	0
