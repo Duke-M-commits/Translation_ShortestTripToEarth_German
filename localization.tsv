@@ -533,7 +533,7 @@ SectorMapPanelUI.cs
 	no route to destination star	keine Route zum Zielstern	0
 	no usable warp module	kein brauchbares Warp-Modul	0
 	not enough fuel	nicht genug Treibstoff	0
-	Fuel cost: {0} (max {1} remaining)	Treibstoffkosten: {0} (max. {1} übrig)	0
+	Fuel cost: {0} (max {1} remaining)	Treibstoffkosten: {0} (max. {1})	0
 	Fuel cost: {0}	Treibstoffkosten: {0}	0
 	Ready	Bereit	0
 	Time left: {0}s	Verbleibende Zeit: {0}s	0
@@ -573,7 +573,7 @@ Crew status visualizers.prefab
 	Crew has unused skillpoints!	Crew hat ungenutzte Skillpoints!	0
 
 Damage token status visualizers.prefab
-	LEAK	LEAK	10
+	LEAK	LECK	10
 
 Module status visualizers.prefab
 	Not enough power	Nicht genug Energie	0
@@ -616,7 +616,7 @@ text	It seems this sector has been claimed by Rat Empire. Greedy little mammals 
 choiceText	Show Me	Zeigen	100
 choiceText	Don't show this again	Nicht mehr anzeigen	100
 title	Entry: Rat Empire	Eintrag: Rattenimperium	35
-text	The Rat Empire civlization is organized as a system of social & resource inequality. Egalitarianism is ridiculed and organizing everything into pyramidal hierarchies is highly praised. \nRat military doctrine focuses on incendiary bombs, gatling guns and generally brute firepower (because the Rat corporations that produce these keep bribing the Rat generals). Their techology is inferior compared to ours, but perfectly capable of besting ships like me in combat.	Die Zivilisation des Rattenimperiums ist als ein System sozialer und ressourcenbezogener Ungleichheit organisiert. Egalitarismus wird lächerlich gemacht und die Organisation in pyramidalen Hierarchien wird hoch gelobt. \Die Militärdoktrin der Ratten konzentriert sich auf Brandbomben, Gatling-Guns und allgemein brachiale Feuerkraft (weil die Rattenkonzerne, die diese produzieren, die Rattengeneräle ständig bestechen). Ihre Technologie ist im Vergleich zu unserer minderwertig, aber durchaus in der Lage, Schiffe wie mich im Kampf zu besiegen.	600
+text	The Rat Empire civlization is organized as a system of social & resource inequality. Egalitarianism is ridiculed and organizing everything into pyramidal hierarchies is highly praised. \nRat military doctrine focuses on incendiary bombs, gatling guns and generally brute firepower (because the Rat corporations that produce these keep bribing the Rat generals). Their techology is inferior compared to ours, but perfectly capable of besting ships like me in combat.	Die Zivilisation des Rattenimperiums ist als ein System sozialer und ressourcenbezogener Ungleichheit organisiert. Egalitarismus wird lächerlich gemacht und die Organisation in pyramidalen Hierarchien wird hoch gelobt. Die Militärdoktrin der Ratten konzentriert sich auf Brandbomben, Gatling-Guns und allgemein brachiale Feuerkraft (weil die Rattenkonzerne, die diese produzieren, die Rattengeneräle ständig bestechen). Ihre Technologie ist im Vergleich zu unserer minderwertig, aber durchaus in der Lage, Schiffe wie mich im Kampf zu besiegen.	600
 title	Entry: Pirates	Eintrag: Piraten	35
 text	Lack of empathy is the result of neural and social misdevelopment during early childhood. The resultant beings don't personally experience the suffering of others like normal sentients do, and often grow into violent or cruel personalities, becoming criminals in the process. They need either guided rehabilitation, or in most cases (such as pirate encounters) a swift death.	Mangelnde Empathie ist das Ergebnis einer neuronalen und sozialen Fehlentwicklung in der frühen Kindheit. Die daraus resultierenden Wesen erleben das Leiden anderer nicht persönlich, wie es normale Wesen tun, und entwickeln sich oft zu gewalttätigen oder grausamen Persönlichkeiten und werden dabei zu Kriminellen. Sie benötigen entweder eine angeleitete Rehabilitation oder in den meisten Fällen (z. B. bei Begegnungen mit Piraten) einen raschen Tod.	600
 title	Pirates encountered	Begegnete Piraten	35
@@ -714,12 +714,12 @@ Button. Fight Fire/firefight. Abbreviation might be required	F.FIRE	F. LÖSCHEN	
 Send crewmember to repair module or ship damage [shortcut key]	Repair	Reparieren	0
 Button. Send crewmember to repair module or ship damage; Abbreviation might be required"	REPAIR	REPAR.	6
 Send crewmember to operate module [shortcut key]	Operate	Bedienen	0
-Button. Operate. Send crewmember to operate module. Abbreviation might be required.	OP.	BEDIENEN	6
+Button. Operate. Send crewmember to operate module. Abbreviation might be required.	OP.	BEDIEN.	6
 Send crewmember to medbay to heal, if medbay module is present.	Heal	Heilen	0
 Button. Send crewmember to medbay to heal, if medbay module is present.	HEAL	HEILEN	6
 send crewmember to attack another crewmember or module [shortcut key]	Attack	Angreifen	0
 Button. Send crewmember to attack another crew or module.	ATTACK	ANGRIFF	6
-	INTRUDER	INTRUDER	0
+	INTRUDER	EINDRINGLING	0
 
 Crew assignment panel.prefab
 bridgeAssignment.firstHoverLine	Bridge operators	Brückenbediener	50
@@ -1043,7 +1043,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	Basic resources are organics, fuel, metals, synthetics, explosives, exotics. \nThese are stored in containers with limited capacity.\n\nFlying around usually consumes both fuel & organics. Read about other resources from relevant help pages.	Grundlegende Ressourcen sind organische Stoffe, Treibstoff, Metalle, synthetische Stoffe, Sprengstoffe und exotische Stoffe. \nDiese werden in Containern mit begrenzter Kapazität gelagert.\n\nDas Herumfliegen verbraucht normalerweise sowohl Treibstoff als auch organische Stoffe. Informieren Sie sich über weitere Ressourcen auf den entsprechenden Hilfeseiten.	0
 	Hovering cursor over resource values shows total production & consumption.	Wenn Sie den Mauszeiger über die Ressourcenwerte bewegen, werden Gesamtproduktion und -verbrauch angezeigt.	0
 	Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	Die meisten Besatzungsmitglieder verbrauchen organische Stoffe in Form von Nahrung, Wasser, Luft und Erholungsmitteln, basierend auf der Reisedistanz des Schiffes im Weltraum.\n\nOrganische Stoffe können von Planeten mit Ökosystemen geerntet oder an Handelsstationen gekauft werden.\n\nVerschiedene Garten- & Nachhaltigkeitsmodule ermöglichen den Anbau von organischen Stoffen innerhalb des Schiffes.\n\nWenn die organischen Stoffe ausgehen, werden die Fähigkeiten der Besatzung aufgrund von Unzufriedenheit um 50 % reduziert.\n\nDas Fliegen des Schiffes ohne organische Stoffe schadet der Besatzung aufgrund des Mangels an Lebensmitteln.	0
-	Fuel is mostly consumed by warping between starsystems.\nWarpdrives typically need 40-50 fuel per jump.\nFuel is also consumed by engines and reactors when driving around in starsystems.\nAdditionally, exploration and other planetary operations sometimes consumes small amounts of fuel.	Treibstoff wird hauptsächlich beim Warpen zwischen Sternensystemen verbraucht.\nWarantriebe benötigen typischerweise 40-50 Treibstoff pro Sprung.\nTreibstoff wird auch von Triebwerken und Reaktoren verbraucht, wenn man in Sternensystemen herumfährt.\nZusätzlich verbrauchen Erkundungen und andere planetare Operationen manchmal kleine Mengen an Treibstoff.	0
+	Fuel is mostly consumed by warping between starsystems.\nWarpdrives typically need 40-50 fuel per jump.\nFuel is also consumed by engines and reactors when driving around in starsystems.\nAdditionally, exploration and other planetary operations sometimes consumes small amounts of fuel.	Treibstoff wird hauptsächlich beim Warpen zwischen Sternensystemen verbraucht.\nWarantriebe benötigen typischerweise 40-50 Treibstoff pro Sprung.\nTreibstoff wird auch von Triebwerken und Reaktoren verbraucht, wenn man in Sternensystemen herumfliegt.\nZusätzlich verbrauchen Erkundungen und andere planetare Operationen manchmal kleine Mengen an Treibstoff.	0
 	Options for gaining fuel	Optionen zur Gewinnung von Treibstoff	0
 	1.\nUse converter modules (if you have them) to convert organics or other resources into fuel.	1.\nVerwenden Sie Konvertermodule (wenn Sie sie haben), um organische Stoffe oder andere Ressourcen in Treibstoff umzuwandeln.	0
 	2.\nHarvest fuel from gas giants or explore starsystem objects (such as shipwrecks or planets).	2.\nSammeln Sie Treibstoff von Gasriesen oder erkunden Sie Objekte im Sternensystem (z. B. Schiffswracks oder Planeten).	0
@@ -1654,35 +1654,35 @@ Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	F
 	Toggles starsystem view	Schaltet auf Sternensystemansicht um	0
 Button/Toggle. Opens starsystem view.	STAR	STERN	6
 	Toggles ship view	Schaltet auf Schiffsansicht um	0
-	UPGRADES	VERBESSERUNGEN	10
+	UPGRADES	AUF-\nWERTEN	10
 	Module crafts available!	Modul Handwerk verfügbar!	0
-	CRAFTABLES	HERSTELLEN	10
+	CRAFTABLES	HER-\nSTELLEN	10
 	Ship hull integrity critically low,\navoid battles and repair your ship.	Schiffshüllenintegrität kritisch niedrig, vermeiden Sie Kämpfe und reparieren Sie Ihr Schiff.	0
 	LOW	NIEDRIG	6
 	Fire aboard ship!\nDisables accelerated internal time.	Feuer an Bord des Schiffes!\nDeaktiviert beschleunigte interne Zeit.	0
 	FIRE	FEUER	6
 	Intruders on board!\nDisables accelerated internal time.	Eindringlinge an Bord!\nDeaktiviert beschleunigte interne Zeit.	0
-	INTRUDERS	EINDRINGER	10
+	INTRUDERS	EINDRI-\nNGLINGE	10
 	Hostile ships in combat range.\nDisables accelerated internal time.	Feindliche Schiffe in Kampfreichweite!\nDeaktiviert beschleunigte interne Zeit.	0
-Maximum letters on one row: 10, possible 2 rows	HOSTILE\nSHIPS	FEINDLICHE SCHIFFE	10
+Maximum letters on one row: 10, possible 2 rows	HOSTILE\nSHIPS	FEINDL.\nSCHIFFE	10
 	Jammed by hostiles.\nDisables accelerated internal time.	Von Feinden blockiert.\nDeaktiviert beschleunigte interne Zeit.	0
 	JAMMED	BLOCKIERT	10
 	Capital missile incoming!\nDisables accelerated internal time.	Raketen im Anflug!\nDeaktiviert beschleunigte interne Zeit.	0
-	INCOMING	IM ANFLUG	10
+	INCOMING	IM\nANFLUG	10
 	Intruders incoming!\nDisables accelerated internal time.	Eindringlinge im Anflug!\nDeaktiviert beschleunigte interne Zeit.	0
 	Using warp modules is disabled due to enemy jamming	Die Verwendung von Warp-Modulen ist aufgrund feindlicher Blockierung deaktiviert	0
 	WARP\nJAMMED	BLOCKIERT	10
 	Can't warp.\nToo far from stars	Kann nicht warpen.\nZu weit von Sternen entfernt	0
-Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU WEIT	10
+Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU\nWEIT	10
 	No fuel, cannot move.\nScrap some less valuable fuel-yielding modules/nukes,\nor use the SOS-beacon.	Kein Treibstoff, kann sich nicht bewegen.\nVerschrotten Sie einige weniger wertvolle treibstoffproduzierende Module/Nukes,\noder benutzen Sie die SOS-Bake.	0
 	No organics.\nDriving around will risk damaging crew health due to lack of life supplies.	Keine organischen Stoffe.\nWenn Sie herumfliegen, riskieren Sie eine Schädigung der Gesundheit der Crew aufgrund fehlender Lebensvorräte.	0
 	No explosives.\nWeapons that need explosives cannot fire.\nReplace them if possible.	Keine Sprengstoffe.\nWaffen, die Sprengstoffe benötigen, können nicht feuern.\nErsetzen Sie sie, wenn möglich.	0
 	No synthetics, module repairs not possible.\nConsider scrapping less useful modules if you need more synthethics.	Keine Kunststoffe, Modulreparaturen nicht möglich.\nBedenken Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Kunststoffe benötigen.	0
 	No metals, ship hull repair not possible.\nConsider scrapping less useful modules if you need more metal.\nUse caution with hostile fleets.	Keine Metalle, Reparatur der Schiffshülle nicht möglich.\nBedenken Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Metall benötigen.\nSeien Sie vorsichtig bei feindlichen Flotten.	0
 	Excess cargo, cannot move!\nIt is sometimes possible to convert excess cargo to small amounts of fuel.	Überschüssige Fracht, kann nicht bewegt werden!\nEs ist manchmal möglich, überschüssige Fracht in kleine Mengen Treibstoff umzuwandeln.	0
-	EXCESS	ÜBERSCHUSS	10
+	EXCESS	ÜBER-\nSCHUSS	10
 	Bridge not functional.\nAll remote module operations stopped (manual operation only).	Brücke nicht funktionsfähig.\nAlle ferngesteuerten Moduloperationen wurden gestoppt (nur manuelle Bedienung).	0
-	OFFLINE	ABGESCHALTEN	10
+	OFFLINE	AUS	10
 	Engine not functional, cannot drive.\nNo evasion bonus during combat.\nUse the SOS-beacon if no other options are available.	Motor nicht funktionsfähig, kann nicht fliegen.\nKein Ausweichbonus während des Kampfes.\nVerwenden Sie die SOS-Bake, wenn keine anderen Optionen verfügbar sind.	0
 	Sensor not functional, minimal vision range only!\nWe're driving practically blind.	Sensor nicht funktionsfähig, nur minimaler Sichtbereich!\nWir fliegen praktisch blind.	0
 	Fuel low!\nConsider re-routing towards closest gas giants or stations.	Treibstoff knapp!\nBedenken Sie die Umleitung zum nächsten Gasriesen oder zur nächsten Tankstelle.	0
@@ -1811,7 +1811,7 @@ Refers to shop	Store	Händler	0
 	Buy:	Kaufen:	0
 	Sell:	Verkaufen:	0
 	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Credits.\nOrganika sind notwendig, um optimale Crew-Fähigkeiten und Heilung zu erhalten.	0
-	ORGANICS	ORGANISCHE	0
+	ORGANICS	ORGANISCHES	0
 	Average price when sold by stations: 4 credits.\nExplosives are used by projectile- and missile weapons.	Durchschnittlicher Preis beim Verkauf an Stationen: 4 Credits.\nExplosivstoffe werden von Projektil- und Raketenwaffen verwendet.	0
 	EXPLOSIVES	SPRENGSTOFFE	0
 	Average price when sold by stations: 50 credits.\nExotics are an alternative currency to xenodata. Most automated trader stations accept exotics even if they don't buy any other resources.	Durchschnittlicher Preis beim Verkauf durch Stationen: 50 Credits.\nExotika sind eine alternative Währung zu Xenodaten. Die meisten automatischen Handelsstationen akzeptieren Exotika, auch wenn sie keine anderen Ressourcen kaufen.	0
@@ -1862,7 +1862,7 @@ name2	high value	hoher Wert	25
 text2	Mining operations completed without incident.	Bergbauarbeiten ohne Zwischenfälle abgeschlossen.	400
 text	This asteroid field has a good mineral profile. There's a minor risk of getting hit by some of the fast-moving rocks, however.	Dieses Asteroidenfeld hat ein gutes Mineralienprofil. Es besteht jedoch ein geringes Risiko, von einigen der sich schnell bewegenden Felsen getroffen zu werden.	400
 choiceText	Mine the asteroids	Abbau der Asteroiden	100
-choiceText	Disengage for now	Vorerst rückfallen	100
+choiceText	Disengage for now	Vorerst zurückziehen	100
 title	Radioactives found	Radioaktive Elemente gefunden	35
 text2	We mined radioactive elements usable as fuel.	Wir haben radioaktive Elemente abgebaut, die als Treibstoff verwendbar sind.	400
 title	Serious accident!	Schwerer Unfall!	35
@@ -2285,7 +2285,7 @@ newName3	unstable exotic atmosphere	instabile exotische atmosphäre	25
 text	Harvesting exotics... %	Exoten ernten... %	50
 text2	Soon after setting up our external harvesting facilities, we detected a swarm of warp animals approaching from deeper layers of the gas giant. Understanding the danger, we decided to abort the operation and leave the area as quickly as possible. We had to leave some equipment behind.	Kurz nachdem wir unsere externen Ernteeinrichtungen eingerichtet hatten, entdeckten wir einen Schwarm von Warptieren, die sich aus tieferen Schichten des Gasriesen näherten. Da wir die Gefahr erkannten, beschlossen wir, die Operation abzubrechen und das Gebiet so schnell wie möglich zu verlassen. Wir mussten einige Geräte zurücklassen.	400
 text	A plasma flare is building up in the atmosphere. However, we've also detected an intact module inside the wreckage, requiring careful removal. Should we risk our scavenger engineers to go near? The module cannot be removed by bots before the flare erupts.	In der Atmosphäre baut sich eine Plasmafackel auf. Wir haben aber auch ein intaktes Modul im Inneren des Wracks entdeckt, das vorsichtig entfernt werden muss. Sollen wir unsere Scavenger-Ingenieure riskieren, um in die Nähe zu gehen? Das Modul kann nicht von Bots entfernt werden, bevor die Fackel ausbricht.	400
-choiceText	Scavenge [send crew]	Scavenge [Crew schicken]	100
+choiceText	Scavenge [send crew]	Plündern [Crew schicken]	100
 choiceText	Leave it	Lassen Sie es	100
 title	Module retrieved	Modul geborgen	35
 text2	Our crew was able to remove the module and evacuate before the flare erupted. The technology proved to be too old and too alien to be usable in our ship.	Unserer Crew gelang es, das Modul zu entfernen und zu evakuieren, bevor die Eruption ausbrach. Die Technologie erwies sich als zu alt und zu fremdartig, um in unserem Schiff verwendet werden zu können.	400
@@ -6584,7 +6584,7 @@ text	"I can see you are in distress, but I do not wish interactive communication
 
 SOS hostile fleets.prefab
 displayName	unresponsive fleet	Flotte antwortet nicht	25
-title	Slaver	Slaver	35
+title	Slaver	Sklavenhändler	35
 text	"Stranded here all by yourself? We are going to take you with us... show you the finest dungeons... train you into a good slave..."	Ganz allein hier gestrandet? Wir werden dich mitnehmen... dir die besten Verliese zeigen... dich zu einem guten Sklaven ausbilden...	600
 title	Insectoid slaver	Insektoider Sklavenhändler	35
 text	"You'll fetch a good price, prey. Now let us dance the blood-dance!"	Du wirst einen guten Preis erzielen, Beute. Jetzt lass uns den Bluttanz tanzen!	600
@@ -7345,7 +7345,7 @@ text2	"Thank you so much for trading with us. Please accept this small gift as a
 text2	"A competitor!? Don't you know this sector is sanctioned only for Insectoid Alliance food traders? And please, no explanations. We have a very important tradition of not listening to anybody who looks like a food trading competitor. Please leave this sector. Goodbye."	Ein Konkurrent!? Wissen Sie nicht, dass dieser Sektor nur für Lebensmittelhändler der Insektoidenallianz zugelassen ist? Und bitte, keine Erklärungen. Wir haben eine sehr wichtige Tradition, niemandem zuzuhören, der wie ein Konkurrent im Lebensmittelhandel aussieht. Bitte verlassen Sie diesen Sektor. Auf Wiedersehen.	400
 
 Merchants L47 bulk tech.prefab
-text	Hello again, skeleton apes! We have a fine set of destruction systems available. And of course, you should expect us to have the finest prices.	Hallo noch mal, Skelettaffen! Wir haben ein feines Set an Zerstörungssystemen zur Verfügung. Und natürlich sollten Sie erwarten, dass wir die besten Preise haben.	400
+text	Hello again, skeleton apes! We have a fine set of destruction systems available. And of course, you should expect us to have the finest prices.		 Skelettaffen! Wir haben ein feines Set an Zerstörungssystemen zur Verfügung. Und natürlich sollten Sie erwarten, dass wir die besten Preise haben.	400
 choiceText	Buy 2 dual cannons for 400 credits	Kaufen Sie 2 Doppelkanonen für 400 Credits	100
 choiceText	Buy 1 manually assembled "Exotic Raygun" for 400 credits"	Kaufen Sie 1 manuell montierte "Exotische Strahlenkanone" für 400 Credits"	100
 choiceText	Buy 1 manually assembled "Acid" nuke for 375 credits"	Kaufen Sie 1 manuell montierte "Acid"-Bombe für 375 Credits"	100
@@ -7625,7 +7625,7 @@ description	Arc welders like this can be used offensively at short range.	Lichtb
 
 Hand weapon welder heavy.prefab
 displayName	Heavy welder	Schwerer Schweißer	25
-description	Welders can be used offensively at short range. \nThis one is more powerful compared to smaller welders.	Schweißer können offensiv auf kurze Distanz eingesetzt werden. \Dieser ist im Vergleich zu kleineren Schweißern leistungsstärker.	250
+description	Welders can be used offensively at short range. \nThis one is more powerful compared to smaller welders.	Schweißer können offensiv auf kurze Distanz eingesetzt werden. Dieser ist im Vergleich zu kleineren Schweißern leistungsstärker.	250
 
 Hand weapon welder light.prefab
 displayName	Light welder	Leichter Schweißer	25
@@ -8529,18 +8529,18 @@ displayName	Synthetics container (large)	Synthetik-Behälter (groß)	40
 
 cryosleep 1 DIY.prefab
 displayName	DIY cryosleepx1	DIY-Kryoschlaf x1	40
-description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around.	Die Crew im Kryoschlaf benötigt keine organischen Stoffe & kann Wunden heilen, während das Schiff herumfährt.	200
+description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around.	Die Crew im Kryoschlaf benötigt keine organischen Stoffe & kann Wunden heilen, während das Schiff herumfliegt.	200
 
 cryosleep 2x human small.prefab
 displayName	Cryosleepx2, Lovers-type	Kryoschlaf x2, Typ Liebespaar	40
 
 cryosleep 3x medical.prefab
 displayName	Medical cryosleep unit x3	Medizinische Kryoschlaf-Einheit x3	40
-description	This cryosleep heals crew faster than others. Crew in any cryosleep requires no organics & might heal wounds while the ship is driving around.	Dieser Kryoschlaf heilt die Crew schneller als andere. Die Crew in einem Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff herumfährt.	200
+description	This cryosleep heals crew faster than others. Crew in any cryosleep requires no organics & might heal wounds while the ship is driving around.	Dieser Kryoschlaf heilt die Crew schneller als andere. Die Crew in einem Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff herumfliegt.	200
 
 cryosleep 3x rats armor.prefab
 displayName	Armored cryosleepx3, Rat Empire origin	Gepanzerter Kryoschlaf x3, Herkunft Rattenimperium	40
-description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around. Reinforced structure improves ship HP.	Die Crew im Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff fährt. Die verstärkte Struktur verbessert die HP des Schiffs.	200
+description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around. Reinforced structure improves ship HP.	Die Crew im Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff fliegt. Die verstärkte Struktur verbessert die HP des Schiffs.	200
 
 cryosleep 4x alien family.prefab
 displayName	Cryosleepx4, family-type	Kryotraum x4, Familien-Typ	40
@@ -10961,7 +10961,7 @@ text	This sector was historically unclaimed by major factions. Intergalactic tra
 choiceText	Got it.	Ich hab's.	100
 choiceText	What can you tell me about the local pirates?	Was können Sie mir über die hiesigen Piraten sagen?	100
 title	Entry: Insectoid Alliance	Eintrag: Insektoiden-Allianz	35
-text	The Insectoid Alliance is a huge multispecies faction created against an ancient enemy. \nThe only problem with the Alliance is its official support for nearly all traditions and religions, including the not-so nice ones (for example those that involve eating sentients).	Die Insektoiden-Allianz ist eine riesige Multispezies-Fraktion, die gegen einen uralten Feind gegründet wurde. \Das einzige Problem mit der Allianz ist, dass sie offiziell fast alle Traditionen und Religionen unterstützt, auch die nicht so netten (zum Beispiel solche, die das Essen von Lebewesen beinhalten).	600
+text	The Insectoid Alliance is a huge multispecies faction created against an ancient enemy. \nThe only problem with the Alliance is its official support for nearly all traditions and religions, including the not-so nice ones (for example those that involve eating sentients).	Die Insektoiden-Allianz ist eine riesige Multispezies-Fraktion, die gegen einen uralten Feind gegründet wurde. Das einzige Problem mit der Allianz ist, dass sie offiziell fast alle Traditionen und Religionen unterstützt, auch die nicht so netten (zum Beispiel solche, die das Essen von Lebewesen beinhalten).	600
 text	Historic data tells this sector is mostly unexplored by major civilizations, although it is officially "owned" by the Insectoid Alliance. Additionally, the famously benevolent Yu-Ee have been sighted numerous times in the area. Let's explore the system before moving on."	Historischen Daten zufolge ist dieser Sektor größtenteils von größeren Zivilisationen unerforscht, obwohl er offiziell der Insektoiden-Allianz "gehört". Außerdem wurden die berühmt-berüchtigten wohlwollenden Yu-Ee mehrfach in diesem Gebiet gesichtet. Erforschen wir das System, bevor wir weiterziehen."	400
 choiceText	What can you tell me about the Insectoid Alliance?	Was können Sie mir über die Insektoiden-Allianz sagen?	100
 title	Entry: Earth Alliance	Eintrag: Erd-Allianz	35
@@ -11818,7 +11818,7 @@ Human operator wildcard description pool.prefab
 	A drifter with a very modest midlife crisis.	Ein Herumtreiber mit einer sehr bescheidenen Midlife-Crisis.	250
 	A spiritual nomad. Enjoys being on the road.	Ein spiritueller Nomade. Genießt das Unterwegssein.	250
 	Used to be a civilian pilot until his company went bankrupt.	War früher Zivilpilot, bis seine Firma bankrott ging.	250
-	A war refugee. Knows how to drive manual-only ships.	Ein Kriegsflüchtling. Weiß, wie man Schiffe mit Handbetrieb fährt.	250
+	A war refugee. Knows how to drive manual-only ships.	Ein Kriegsflüchtling. Weiß, wie man Schiffe mit Handbetrieb fliegt.	250
 	A holopainter looking for inspiration.	Ein Holomaler auf der Suche nach Inspiration.	250
 	A dancer looking to become a captain.	Ein Tänzer, der Captain werden will.	250
 	A seeker of justice. Once destroyed a Slaver ship by ramming.	Ein Suchender nach Gerechtigkeit. Zerstörte einst ein Slaver-Schiff durch Rammen.	250
