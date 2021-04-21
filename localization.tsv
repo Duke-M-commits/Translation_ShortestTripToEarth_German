@@ -7345,7 +7345,7 @@ text2	"Thank you so much for trading with us. Please accept this small gift as a
 text2	"A competitor!? Don't you know this sector is sanctioned only for Insectoid Alliance food traders? And please, no explanations. We have a very important tradition of not listening to anybody who looks like a food trading competitor. Please leave this sector. Goodbye."	Ein Konkurrent!? Wissen Sie nicht, dass dieser Sektor nur für Lebensmittelhändler der Insektoidenallianz zugelassen ist? Und bitte, keine Erklärungen. Wir haben eine sehr wichtige Tradition, niemandem zuzuhören, der wie ein Konkurrent im Lebensmittelhandel aussieht. Bitte verlassen Sie diesen Sektor. Auf Wiedersehen.	400
 
 Merchants L47 bulk tech.prefab
-text	Hello again, skeleton apes! We have a fine set of destruction systems available. And of course, you should expect us to have the finest prices.		 Skelettaffen! Wir haben ein feines Set an Zerstörungssystemen zur Verfügung. Und natürlich sollten Sie erwarten, dass wir die besten Preise haben.	400
+text	Hello again, skeleton apes! We have a fine set of destruction systems available. And of course, you should expect us to have the finest prices.	Hallo noch mal, Skelettaffen! Wir haben ein feines Set an Zerstörungssystemen zur Verfügung. Und natürlich sollten Sie erwarten, dass wir die besten Preise haben.	400
 choiceText	Buy 2 dual cannons for 400 credits	Kaufen Sie 2 Doppelkanonen für 400 Credits	100
 choiceText	Buy 1 manually assembled "Exotic Raygun" for 400 credits"	Kaufen Sie 1 manuell montierte "Exotische Strahlenkanone" für 400 Credits"	100
 choiceText	Buy 1 manually assembled "Acid" nuke for 375 credits"	Kaufen Sie 1 manuell montierte "Acid"-Bombe für 375 Credits"	100
