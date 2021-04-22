@@ -4253,7 +4253,7 @@ text2	After heavy fighting with interplanetary pirates not from this world, our 
 reasonToDisplay	pirate base neutralized	piratenbasis neutralisiert	30
 
 2 Pi digital-era militarized, sensor disruptors MFE.prefab
-text	The planet's orbit is jammed with primitive but powerful sensor-disruptors. Intercepted local comm signals suggest the local inhabitants belong to a primitive digital-era civilization, seemingly highly militarized. We must enter the atmosphere to contact or observe the locals.	Der Orbit des Planeten ist mit primitiven, aber leistungsstarken Sensor-Disruptoren gestört. Abgefangene lokale Kommunikationssignale deuten darauf hin, dass die Bewohner zu einer primitiven Zivilisation des digitalen Zeitalters gehören, die anscheinend hoch militarisiert ist. Wir müssen in die Atmosphäre eindringen, um die Einheimischen zu kontaktieren oder zu beobachten.	400
+text	The planet's orbit is jammed with primitive but powerful sensor-disruptors. Intercepted local comm signals suggest the local inhabitants belong to a primitive digital-era civilization, seemingly highly militarized. We must enter the atmosphere to contact or observe the locals.	Der Orbit des Planeten ist mit primitiven, aber leistungsstarken Sensorbrechern gestört. Abgefangene lokale Kommunikationssignale deuten darauf hin, dass die Bewohner zu einer primitiven Zivilisation des digitalen Zeitalters gehören, die anscheinend hoch militarisiert ist. Wir müssen in die Atmosphäre eindringen, um die Einheimischen zu kontaktieren oder zu beobachten.	400
 choiceText	Enter the atmosphere	Eintritt in die Atmosphäre	100
 newName3	digital-era primitives	Primitive der Digital-Ära	25
 text	Military intervention... %	Militärische Intervention... %	50
@@ -5658,18 +5658,18 @@ text2	We discovered the reason this planet is so void of life. Apparently, the l
 newName3	ruins & hostile nanobots	Ruinen & feindliche Nanobots	25
 
 8 Exo Spideraa bodies, crew.prefab
-text2	We've found a bunch of dead Spideraa bodies, drifting in space.	Wir haben einen Haufen toter Spideraa-Körper gefunden, die im Weltraum treiben.	400
-reasonToDisplay	Spideraa bodies found	Spideraa-Körper gefunden	30
-text2	It is a bunch of dead insectoid bodies, drifting in space. Examination reveals something that look very much like Spideraa biting marks.	Es ist ein Haufen toter insektoider Körper, die im Weltraum treiben. Die Untersuchung zeigt etwas, das sehr nach Spideraa-Beißspuren aussieht.	400
+text2	We've found a bunch of dead Spideraa bodies, drifting in space.	Wir haben einen Haufen toter Spinner-Körper gefunden, die im Weltraum treiben.	400
+reasonToDisplay	Spideraa bodies found	Spinner-Körper gefunden	30
+text2	It is a bunch of dead insectoid bodies, drifting in space. Examination reveals something that look very much like Spideraa biting marks.	Es ist ein Haufen toter insektoider Körper, die im Weltraum treiben. Die Untersuchung zeigt etwas, das sehr nach Spinner-Beißspuren aussieht.	400
 reasonToDisplay	insectoid bodies found	Insektoide Körper gefunden	30
-text2	Some kind of liquid, floating in space as fozen bubbles. Later analysis reveals it is Spideraa blood, probably a result of some kind of ceremony.	Eine Art Flüssigkeit, die als Fozen-Blasen im Raum schwebt. Eine spätere Analyse zeigt, dass es sich um Spideraa-Blut handelt, wahrscheinlich das Ergebnis einer Art Zeremonie.	400
+text2	Some kind of liquid, floating in space as fozen bubbles. Later analysis reveals it is Spideraa blood, probably a result of some kind of ceremony.	Eine Art Flüssigkeit, die als Fozen-Blasen im Raum schwebt. Eine spätere Analyse zeigt, dass es sich um Spinner-Blut handelt, wahrscheinlich das Ergebnis einer Art Zeremonie.	400
 reasonToDisplay	Blood found	Blut gefunden	30
 title	A survivor!	Ein Überlebender!	35
-text2	We found bunch of dead Spideraa bodies, drifting in space. Or so we thought. One of them woke up during the autopsy and attacked our crew. We managed to restrain and sedate it. The AI later spent several hours alone with the creature. In the end, the Spideraa individual joined our crew.	Wir haben einen Haufen toter Spideraa-Körper gefunden, die im Weltraum treiben. Zumindest dachten wir das. Einer von ihnen wachte während der Autopsie auf und griff unsere Crew an. Es gelang uns, sie zu bändigen und zu betäuben. Die KI verbrachte später mehrere Stunden allein mit der Kreatur. Am Ende schloss sich das Spideraa-Individuum unserer Crew an.	400
+text2	We found bunch of dead Spideraa bodies, drifting in space. Or so we thought. One of them woke up during the autopsy and attacked our crew. We managed to restrain and sedate it. The AI later spent several hours alone with the creature. In the end, the Spideraa individual joined our crew.	Wir haben einen Haufen toter Spinner-Körper gefunden, die im Weltraum treiben. Zumindest dachten wir das. Einer von ihnen wachte während der Autopsie auf und griff unsere Crew an. Es gelang uns, sie zu bändigen und zu betäuben. Die KI verbrachte später mehrere Stunden allein mit der Kreatur. Am Ende schloss sich das Spinner-Individuum unserer Crew an.	400
 reasonToDisplay	new crewmember	neues crewmitglied	30
-crewDescriptionOverride	A Spideraa individual without memories, still learning the basics. Undergoing long-term neural training by the ship AI.	Ein Spideraa-Individuum ohne Erinnerungen, das noch die Grundlagen lernt. Es durchläuft ein langfristiges neurales Training durch die Schiffs-KI.	250
+crewDescriptionOverride	A Spideraa individual without memories, still learning the basics. Undergoing long-term neural training by the ship AI.	Ein Spinner-Individuum ohne Erinnerungen, das noch die Grundlagen lernt. Es durchläuft ein langfristiges neurales Training durch die Schiffs-KI.	250
 title	Survivor!	Überlebender!	35
-text2	We found bunch of dead Spideraa bodies, drifting in space. We brought them aboard for reseach & recycling, but one of them woke up - intruder alert!	Wir fanden einen Haufen toter Spideraa-Körper, die im Weltraum trieben. Wir brachten sie an Bord, um sie zu untersuchen und zu recyceln, aber einer von ihnen wachte auf - Eindringlingsalarm!	400
+text2	We found bunch of dead Spideraa bodies, drifting in space. We brought them aboard for reseach & recycling, but one of them woke up - intruder alert!	Wir fanden einen Haufen toter Spinner-Körper, die im Weltraum trieben. Wir brachten sie an Bord, um sie zu untersuchen und zu recyceln, aber einer von ihnen wachte auf - Eindringlingsalarm!	400
 reasonToDisplay	intruders	eindringlinge	30
 text2	It's over now.	Jetzt ist es vorbei.	400
 reasonToDisplay	intruders neutralized	Eindringlinge neutralisiert	30
@@ -5683,19 +5683,19 @@ text2	Something exploded with a spectacular force as soon as our scouting bots a
 title	Metals collected	Gesammelte Metalle	35
 text2	Something made of exteremly high-quality composite metal was destroyed here.	Etwas aus extrem hochwertigem Verbundmetall wurde hier zerstört.	400
 text2	Among bits of metal and plastics, we found an intact container of advanced repairfoam. We used it to repair a crack in the ship hull.	Zwischen Metall- und Kunststoffresten fanden wir einen intakten Behälter mit hochentwickeltem Reparaturschaum. Wir benutzten ihn, um einen Riss in der Schiffshülle zu reparieren.	400
-text2	We found two intact Spideraa wreckages. Unfortunately, our scouting bots triggered some kind of self-destruction reaction. The Spideraa ultra-durable ship plates turned into organic goo within seconds.	Wir fanden zwei intakte Spideraa-Wrackteile. Leider haben unsere Scouting-Bots eine Art Selbstzerstörungsreaktion ausgelöst. Die ultra-robusten Spideraa-Schiffsplatten verwandelten sich innerhalb von Sekunden in organischen Glibber.	400
+text2	We found two intact Spideraa wreckages. Unfortunately, our scouting bots triggered some kind of self-destruction reaction. The Spideraa ultra-durable ship plates turned into organic goo within seconds.	Wir fanden zwei intakte Spinner-Wrackteile. Leider haben unsere Scouting-Bots eine Art Selbstzerstörungsreaktion ausgelöst. Die ultra-robusten Spinner-Schiffsplatten verwandelten sich innerhalb von Sekunden in organischen Glibber.	400
 text2	Our bots have returned with salvage.	Unsere Bots sind mit Bergungsgut zurückgekehrt.	400
 
 Spideraa asteroids 0.prefab
-name3	Spideraa sighting	Spideraa-Sichtung	25
-title	Spideraa sighting location	Spideraa-Sichtungsort	35
+name3	Spideraa sighting	Spinner-Sichtung	25
+title	Spideraa sighting location	Spinner-Sichtungsort	35
 text	The Space Eels have reported sighting small arachnid ships in this cluster of asteroids.	Die Space Eels haben gemeldet, dass sie kleine Spinnenschiffe in diesem Asteroidencluster gesichtet haben.	400
-text	Let's keep on trying to contact them. Ancient insectoid texts explain there is one thing the Spideraa hold sacred, and that is patience.	Versuchen wir weiter, sie zu kontaktieren. Alte insektoide Texte erklären, dass es eine Sache gibt, die den Spideraa heilig ist, und das ist Geduld.	600
+text	Let's keep on trying to contact them. Ancient insectoid texts explain there is one thing the Spideraa hold sacred, and that is patience.	Versuchen wir weiter, sie zu kontaktieren. Alte insektoide Texte erklären, dass es eine Sache gibt, die den Spinnern heilig ist, und das ist Geduld.	600
 okButtonText	To battle	Zum Kampf	7
-text	Two Spideraa ship are approaching us. They do not respond to our commrequests.	Zwei Spideraa-Schiffe nähern sich uns. Sie reagieren nicht auf unsere Funksprüche.	600
+text	Two Spideraa ship are approaching us. They do not respond to our commrequests.	Zwei Spinner-Schiffe nähern sich uns. Sie reagieren nicht auf unsere Funksprüche.	600
 text	Let's keep on trying to contact them.	Versuchen wir weiter, sie zu kontaktieren.	600
-title	Spideraa individual	Spideraa einzeln	35
-okButtonText	Fight the Spideraa	Kampf gegen die Spideraa	7
+title	Spideraa individual	Spinner Individuum	35
+okButtonText	Fight the Spideraa	Kampf gegen die Spinner	7
 text	"I AM EATER. HUNGER MUST BE FED."	ICH BIN ESSER. DER HUNGER MUSS GESTILLT WERDEN.	600
 okButtonText	Open commchannel	Kommunikationskanal öffnen	7
 text	A black arachnid ship is approaching us. It does not respond to our commrequests. Finally, almost before it gets to tactical range, it transmits a message.	Ein schwarzes Arachnidenschiff nähert sich uns. Es antwortet nicht auf unsere Commrequests. Schließlich, kurz bevor es in taktische Reichweite kommt, sendet es eine Nachricht.	600
@@ -5703,8 +5703,8 @@ title	Crew meeting	Besatzungstreffen	35
 okButtonText	OK...	OK...	7
 text	The crew start to discuss the order, but it quickly turns into an argument. Most of the crew wants to just ignore it. But some have decided to sacrifice you, the captain.	Die Crew fängt an, über den Befehl zu diskutieren, aber es geht schnell in einen Streit über. Die meisten der Crew wollen ihn einfach ignorieren. Aber einige haben beschlossen, Sie, den Captain, zu opfern.	600
 title	Approaching fleet	Ankommende Flotte	35
-text	A fleet of Spideraa ships emerges from the nearby asteroid field...	Eine Flotte von Spideraa-Schiffen taucht aus dem nahen Asteroidenfeld auf...	600
-title	Spideraa representative	Spideraa-Vertreter	35
+text	A fleet of Spideraa ships emerges from the nearby asteroid field...	Eine Flotte von Spinner-Schiffen taucht aus dem nahen Asteroidenfeld auf...	600
+title	Spideraa representative	Spinner-Vertreter	35
 okButtonText	Yes, we bring gifts! We desire to talk with you.	Ja, wir bringen Geschenke! Wir wünschen, mit Ihnen zu sprechen.	7
 text	"PATIENT BEINGS. WHAT IS IT YOU DESIRE FROM US? DO YOU BRING GIFT?"	GEDULDIGE WESEN. WAS IST ES, DAS IHR VON UNS WÜNSCHT? BRINGT IHR GESCHENKE?	600
 okButtonText	Relay information about the war, ask for help and offer the bartering package.	Geben Sie Informationen über den Krieg weiter, bitten Sie um Hilfe und bieten Sie das Tauschpaket an.	7
@@ -5713,34 +5713,34 @@ text	The transmission broadcasts at normal volume this time. "You offer stone to
 text	"Well, that went a lot better than dying. Now let's get out of here. I've activated a warp beacon to summon our warpgate ship."	Na, das lief doch viel besser, als zu sterben. Und jetzt nichts wie weg von hier. Ich habe ein Warp-Signal aktiviert, um unser Warptor-Schiff herbeizurufen.	600
 title	All hostiles have escaped	Alle Feinde sind geflohen	35
 text2	There are no wreckages to salvage, but the memory of this battle will stay with us for a long time.	Es gibt keine Wrackteile zu bergen, aber die Erinnerung an diese Schlacht wird uns noch lange erhalten bleiben.	400
-title	Spideraa	Spideraa	35
-text	"YOU CARRY TALKING SPIDER FOOD. GIVE ONE TO TALK, OR DIE." Our ship AI informs us the Spideraa believe their food must be alive and conscious right until the meal is over."	SIE TRAGEN SPRECHENDES SPINNENFUTTER BEI SICH. GIB UNS EINS ZUM REDEN ODER STIRB. Unsere Schiffs-KI informiert uns, dass die Spideraa glauben, dass ihr Essen lebendig und bei Bewusstsein sein muss, bis die Mahlzeit vorbei ist."	400
+title	Spideraa	Spinner	35
+text	"YOU CARRY TALKING SPIDER FOOD. GIVE ONE TO TALK, OR DIE." Our ship AI informs us the Spideraa believe their food must be alive and conscious right until the meal is over."	SIE TRAGEN SPRECHENDES SPINNENFUTTER BEI SICH. GIB UNS EINS ZUM REDEN ODER STIRB. Unsere Schiffs-KI informiert uns, dass die Spinner glauben, dass ihr Essen lebendig und bei Bewusstsein sein muss, bis die Mahlzeit vorbei ist."	400
 choiceText	Ask for volunteers	Fragt nach Freiwilligen	100
-text	Nobody volunteers to be eaten alive by the Spideraa.	Niemand meldet sich freiwillig, um von den Spideraa lebendig verspeist zu werden.	400
+text	Nobody volunteers to be eaten alive by the Spideraa.	Niemand meldet sich freiwillig, um von den Spinnern lebendig verspeist zu werden.	400
 choiceText	Order the crew to select "a volunteer" to be sacrificed."	Befehlen Sie der Crew, "einen Freiwilligen" auszuwählen, der geopfert werden soll."	100
 text	"Are you sure about giving this order, captain? Let me remind you that our crew has the right to question or disobey any orders, because they all volunteered for the mission. The outcome of such an order would be unpredictable, and not good."	Sind Sie sich sicher, diesen Befehl zu geben, Captain? Ich möchte Sie daran erinnern, dass unsere Crew das Recht hat, Befehle in Frage zu stellen oder zu verweigern, da sie sich alle freiwillig für diese Mission gemeldet haben. Das Ergebnis eines solchen Befehls wäre unvorhersehbar, und nicht gut.	400
-choiceText	Cancel the order, fight the Spideraa	Den Befehl widerrufen, die Spideraa bekämpfen	100
+choiceText	Cancel the order, fight the Spideraa	Den Befehl widerrufen, die Spinner bekämpfen	100
 choiceText	Find somebody to sacrifice. We need to do this.	Finden Sie jemanden, den Sie opfern können. Wir müssen das tun.	100
 text	mutiny...	Meuterei...	50
 title	Mutiny	Meuterei	35
-text2	Voices are raised, and guns drawn. Before you know it, there is a mutiny and the crew are fighting each other! The Spideraa ships are not moving. Their sensors can see through walls as we do, and they must be enjoying the show...	Die Stimmen werden erhoben und die Waffen gezogen. Ehe man sich versieht, gibt es eine Meuterei und die Crew bekämpft sich gegenseitig! Die Spideraa-Schiffe bewegen sich nicht. Ihre Sensoren können wie wir durch Wände sehen, und sie müssen die Show genießen...	400
+text2	Voices are raised, and guns drawn. Before you know it, there is a mutiny and the crew are fighting each other! The Spideraa ships are not moving. Their sensors can see through walls as we do, and they must be enjoying the show...	Die Stimmen werden erhoben und die Waffen gezogen. Ehe man sich versieht, gibt es eine Meuterei und die Crew bekämpft sich gegenseitig! Die Spinner-Schiffe bewegen sich nicht. Ihre Sensoren können wie wir durch Wände sehen, und sie müssen die Show genießen...	400
 choiceTexts	Side with crew who are defending you	Stellen Sie sich auf die Seite der Crew, die Sie verteidigt	100
-choiceTexts	Sacrifice yourself to be eaten alive by the Spideraa	Opfern Sie sich, um von den Spideraa lebendig aufgefressen zu werden.	100
-text2	Let's make one more attempt at contacting the Spideraa, and if this fails, return to Earth.	Versuchen wir noch einmal, die Spideraa zu kontaktieren, und wenn das nicht klappt, kehren wir zur Erde zurück.	400
+choiceTexts	Sacrifice yourself to be eaten alive by the Spideraa	Opfern Sie sich, um von den Spinnern lebendig aufgefressen zu werden.	100
+text2	Let's make one more attempt at contacting the Spideraa, and if this fails, return to Earth.	Versuchen wir noch einmal, die Spinner zu kontaktieren, und wenn das nicht klappt, kehren wir zur Erde zurück.	400
 title	Imminent battle	Unmittelbarer Kampf	35
-text	The Spideraa ships are moving in to attack us.	Die Spideraa-Schiffe nähern sich, um uns anzugreifen.	600
+text	The Spideraa ships are moving in to attack us.	Die Spinner-Schiffe nähern sich, um uns anzugreifen.	600
 title	Game over	Das Spiel ist aus	35
-text2	The crew stop fighting, and prepare you to be eaten alive by the Spideraa. The ship prints medicine which fries a crucial part of your neural tissue, making you unable to feel any pain for the rest of your life ...which will hopefully be short. This might help the surviving crew to make a deal with the Spideraa, and save Earth. Their journey continues on...	Die Besatzung stellt den Kampf ein und bereitet sich darauf vor, von den Spideraa lebendig gefressen zu werden. Das Schiff druckt Medizin aus, die einen wichtigen Teil Ihres Nervengewebes frittiert, so dass Sie für den Rest Ihres Lebens ... was hoffentlich kurz sein wird - keine Schmerzen mehr empfinden können. Das könnte der überlebenden Crew helfen, einen Deal mit den Spideraa zu machen und die Erde zu retten. Ihre Reise geht weiter...	400
+text2	The crew stop fighting, and prepare you to be eaten alive by the Spideraa. The ship prints medicine which fries a crucial part of your neural tissue, making you unable to feel any pain for the rest of your life ...which will hopefully be short. This might help the surviving crew to make a deal with the Spideraa, and save Earth. Their journey continues on...	Die Besatzung stellt den Kampf ein und bereitet sich darauf vor, von den Spinnern lebendig gefressen zu werden. Das Schiff druckt Medizin aus, die einen wichtigen Teil Ihres Nervengewebes frittiert, so dass Sie für den Rest Ihres Lebens ... was hoffentlich kurz sein wird - keine Schmerzen mehr empfinden können. Das könnte der überlebenden Crew helfen, einen Deal mit den Spinnern zu machen und die Erde zu retten. Ihre Reise geht weiter...	400
 title	The mutiny is over	Die Meuterei ist vorbei	35
 text2	Gradually, the fighting stops. But there is no time for the crew to reconnect with each other, because...	Allmählich hören die Kämpfe auf. Aber es bleibt keine Zeit für die Besatzung, wieder zueinanderzufinden, denn...	400
-text	Two Spideraa ships are approaching us.	Zwei Spideraa-Schiffe nähern sich uns.	600
+text	Two Spideraa ships are approaching us.	Zwei Spinner-Schiffe nähern sich uns.	600
 text2	Let's keep on trying to contact them. Some of them are more talkative than others.	Wir versuchen weiter, sie zu kontaktieren. Einige von ihnen sind gesprächiger als andere.	400
 text	"WE ARE EATERS. YOU ARE FOOD."	WIR SIND FRESSER. IHR SEID NAHRUNG.	600
-QuestPanel.setText	Visit {0} locations with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie {0} Orte mit bestätigten Spideraa-Sichtungen, versuchen Sie, Kontakt herzustellen.	100
-QuestPanel.setText	Visit 1 location with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie 1 Ort mit bestätigten Spideraa-Sichtungen, versuchen Sie, Kontakt herzustellen.	100
+QuestPanel.setText	Visit {0} locations with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie {0} Orte mit bestätigten Spinner-Sichtungen, versuchen Sie, Kontakt herzustellen.	100
+QuestPanel.setText	Visit 1 location with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie einen Ort mit bestätigten Spinner-Sichtungen, versuchen Sie, Kontakt herzustellen.	100
 QuestPanel.setText	Return to Earth warpgate ship.	Kehren Sie zum Warptor-Schiff auf der Erde zurück.	100
 okButtonText	Proceed	Weiter	7
-text	A larger Spideraa ship is approaching us...	Ein größeres Spideraa-Schiff nähert sich uns...	600
+text	A larger Spideraa ship is approaching us...	Ein größeres Spinner-Schiff nähert sich uns...	600
 
 9 P food, nature pic pool 20.prefab
 text	The planet is covered with a lush ecosystem of easily easily ecoharvestable organics. No signs of sentients.	Der Planet ist mit einem üppigen Ökosystem aus leicht zu erntenden organischen Stoffen bedeckt. Keine Anzeichen von Lebewesen.	400
@@ -7797,8 +7797,8 @@ appearance[i].description	Slaver warrior. Numerous DIY implants.	Sklavenkrieger.
 appearance[i].description	Slaver warrior. Large number of DIY implants	Sklavenkrieger. Zahlreiche DIY-Implantate	250
 
 Spideraa crew.prefab
-appearance[i].description	Spideraa space warrior	Spideraa-Weltraum-Krieger	250
-appearance[i].description	Spideraa individual.	Spideraa-Individuum.	250
+appearance[i].description	Spideraa space warrior	Spinner-Weltraum-Krieger	250
+appearance[i].description	Spideraa individual.	Spinner-Individuum.	250
 
 Squid crew.prefab
 
@@ -7924,7 +7924,7 @@ missile redbanks thicker d2.prefab
 displayName	heavy missile	schwere Rakete	35
 
 missile spideraa.prefab
-displayName	Spideraa missile	Spideraa-Rakete	35
+displayName	Spideraa missile	Spinner-Rakete	35
 
 missile tigerfish d3.prefab
 displayName	Tiger missile	Tiger-Rakete	35
@@ -8057,7 +8057,7 @@ Spearhead nuke.prefab
 displayName	Spearhead nuke	Speerspitze nuke	35
 
 Spideraa decoy nuke.prefab
-displayName	Spideraa nuke	Spideraa-Atombombe	35
+displayName	Spideraa nuke	Spinner-Atombombe	35
 
 thin missile nuke.prefab
 displayName	Speeder nuke	Speeder-Atombombe	35
@@ -8603,7 +8603,7 @@ ECM 03 terran.prefab
 displayName	Armored ECM Turret III	Gepanzerter ECM-Turm III	40
 
 ECM 04 spideraa.prefab
-displayName	Spideraa ECM	Spideraa ECM	40
+displayName	Spideraa ECM	Spinner ECM	40
 description	Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	Hybride Integritätstechnologie mit elektronischer Gegenmaßnahme. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Slot.	200
 
 engine 0 diy.prefab
@@ -8916,10 +8916,10 @@ reactor 22 cube.prefab
 displayName	Cold fusion reactor	Kaltfusionsreaktor	40
 
 reactor 22 spideraa small.prefab
-displayName	Spideraa small energy reactor	Spideraa kleiner Energiereaktor	40
+displayName	Spideraa small energy reactor	Kleiner Spinner Energiereaktor	40
 
 reactor 25 spideraa large.prefab
-displayName	Spideraa large energy reactor	Spideraa großer Energiereaktor	40
+displayName	Spideraa large energy reactor	Großer Spinner Energiereaktor	40
 
 reactor 4 diy 1.prefab
 displayName	Improvised energy reactor I	Improvisierter Energiereaktor I	40
@@ -9021,7 +9021,7 @@ sensor 11 sophisiticated s2.prefab
 displayName	Non-combat sensor, type X	Nicht-Kampfsensor, Typ X	40
 
 sensor 12 spideraa.prefab
-displayName	Spideraa sensor	Spideraa-Sensor	40
+displayName	Spideraa sensor	Spinner-Sensor	40
 
 sensor 1-L DIY.prefab
 displayName	Non-combat sensor DIY II	Nicht-Kampfsensor DIY II	40
@@ -9218,7 +9218,7 @@ displayName	Warp drive, grade IV	Warp-Antrieb, Grad IV	40
 description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Strong structure improves ship HP."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Starke Struktur verbessert die Schiffs-HP."	200
 
 warp 09 spideraa.prefab
-displayName	Warp drive, Spideraa	Warp-Antrieb, Spideraa	40
+displayName	Warp drive, Spideraa	Warp-Antrieb, Spinner	40
 
 warp 10 chunky.prefab
 displayName	Warp drive, chunky	Warp-Antrieb, chunky	40
@@ -9555,14 +9555,14 @@ displayName	Energy projector BFGX9	Energieprojektor BFGX9	40
 description	Advanced energy weapon that can overload shields or unshielded modules. Causes fires and never deflects, but does not damage ship armor.	Fortgeschrittene Energiewaffe, die Schilde oder nicht abgeschirmte Module überlasten kann. Verursacht Brände und lenkt nie ab, beschädigt aber nicht die Schiffspanzerung.	200
 
 weapon bigbeamer1.prefab
-displayName	Large energy disruptor type-207	Großer Energie-Disruptor Typ-207	40
-description	Universal disruptor ray, deals extra damage to shields. Relying on a single energy-ray makes it less useful vs ships with high deflection.	Universeller Disruptor-Strahl, verursacht zusätzlichen Schaden an Schilden. Da er sich auf einen einzigen Energiestrahl verlässt, ist er weniger nützlich gegen Schiffe mit hoher Ablenkung.	200
+displayName	Large energy disruptor type-207	Großer Energiebrecher Typ-207	40
+description	Universal disruptor ray, deals extra damage to shields. Relying on a single energy-ray makes it less useful vs ships with high deflection.	Universeller Energiestrahl, verursacht zusätzlichen Schaden an Schilden. Da er sich auf einen einzigen Energiestrahl verlässt, ist er weniger nützlich gegen Schiffe mit hoher Ablenkung.	200
 
 weapon bigbeamer2.prefab
-displayName	Large energy disruptor type-208	Großer Energiedisruptor Typ-208	40
+displayName	Large energy disruptor type-208	Großer Energiebrecher Typ-208	40
 
 weapon bigbeamer3.prefab
-displayName	Large energy disruptor type-209	Großer Energiedisruptor Typ-209	40
+displayName	Large energy disruptor type-209	Großer Energiebrecher Typ-209	40
 
 weapon black energy laser x2.prefab
 displayName	Ray effector II	Strahleneffektor II	40
@@ -9624,7 +9624,7 @@ displayName	Floral raygun [biotech]	Blumen-Strahlenkanone [Biotech]	40
 description	This weapon needs to eat organics for internal cold-fusion necessary for each shot, resulting in minimal power cost. Generates a single energy ray per shot.	Diese Waffe muss für die interne Kaltfusion, die für jeden Schuss notwendig ist, organische Stoffe fressen, was zu minimalen Energiekosten führt. Erzeugt einen einzigen Energiestrahl pro Schuss.	200
 
 weapon Heatray emitter x red.prefab
-displayName	Converted heatray-disruptor	Konvertierter Hitzestrahl-Disruptor	40
+displayName	Converted heatray-disruptor	Konvertierter Hitzestrahl-Brecher	40
 description	This power-hungry weapon produces a single ray that can damage everything in large area & cause fires... or just deflect.	Diese energiehungrige Waffe erzeugt einen einzelnen Strahl, der alles in einem großen Bereich beschädigen und Brände verursachen kann... oder einfach ablenkt.	200
 
 weapon Heatray emitter.prefab
@@ -9648,7 +9648,7 @@ displayName	Insectoid double laser (old tech)	Insektoider Doppellaser (alte Tech
 description	Tactical combat weapon, obsolete design. Produces 2 laserbeams.	Taktische Kampfwaffe, veraltetes Design. Erzeugt 2 Laserstrahlen.	200
 
 weapon Insectoid shield disruptor.prefab
-displayName	Insectoid Alliance shield disruptor	Insektoider Allianz-Schild-Disruptor	40
+displayName	Insectoid Alliance shield disruptor	Insektoider Allianz-Schildbrecher	40
 description	A composite-ray effector for disrupting energy shields. Deals minor damage to material targets. Produces 3 energy rays.	Ein Komposit-Strahleneffektor zur Unterbrechung von Energieschilden. Verursacht geringen Schaden an materiellen Zielen. Erzeugt 3 Energiestrahlen.	200
 
 weapon Insectoid slowlaser.prefab
@@ -9708,15 +9708,15 @@ displayName	Fast Fang laser, armored	Schneller Fang-Laser, gepanzert	40
 description	Light laser weapon. Made in Rat Empire, produces 2 laser beams. The armor plating also improves ship HP.	Leichte Laserwaffe. Hergestellt im Rattenimperium, erzeugt 2 Laserstrahlen. Die Panzerung verbessert auch die HP des Schiffes.	200
 
 weapon spideraa laser.prefab
-displayName	Spideraa effector	Spideraa-Effektor	40
+displayName	Spideraa effector	Spinner-Effektor	40
 description	Heavy ray weapon with mostly biologic components. Relying on a single energy-ray makes it less useful vs ships with high deflection.	Schwere Strahlenwaffe mit überwiegend biologischen Komponenten. Da sie sich auf einen einzigen Energiestrahl verlässt, ist sie weniger nützlich gegen Schiffe mit hoher Ablenkung.	200
 
 weapon spideraa quadlaser.prefab
-displayName	Spideraa quad effector	Spideraa Vierfach-Effektor	40
+displayName	Spideraa quad effector	Spinner Vierfach-Effektor	40
 description	Heavy and accurate N-ray weapon, reduced damage versus modules, no damage to crew. Generates 4 rays.	Schwere und präzise N-Strahlen-Waffe, reduzierter Schaden gegen Module, kein Schaden an der Besatzung. Erzeugt 4 Strahlen.	200
 
 weapon spideraa triplelaser.prefab
-displayName	Spideraa triple raygun	Spideraa Dreifach-Strahlenkanone	40
+displayName	Spideraa triple raygun	Spinner Dreifach-Strahlenkanone	40
 description	Heavy and accurate N-ray weapon, reduced damage against modules, no damage to crew. Generates 3 rays.	Schwere und präzise N-Strahlen-Waffe, reduzierter Schaden gegen Module, kein Schaden für die Besatzung. Erzeugt 3 Strahlen.	200
 
 weapon Squid beamer double.prefab
@@ -9843,11 +9843,11 @@ description	Incendiary rocket printing & launching platform. Large AoE, consumes
 weapon ratmissile x3.prefab
 
 weapon spideraamissilex3.prefab
-displayName	Spideraa triple missiles	Spideraa Dreifach-Raketen	40
+displayName	Spideraa triple missiles	Spinner Dreifach-Raketen	40
 description	A biotech platform for printing & launching armored missiles. Uses much explosives and has large area of effect. Missiles cannot be deflected. These missiles have 2hp each.	Eine Biotech-Plattform zum Drucken und Starten von gepanzerten Raketen. Verbraucht viel Sprengstoff und hat einen großen Wirkungsbereich. Raketen können nicht abgelenkt werden. Diese Raketen haben jeweils 2hp.	200
 
 weapon spideraamissilex4.prefab
-displayName	Spideraa quad missiles	Spideraa Vierfach-Raketen	40
+displayName	Spideraa quad missiles	Spinner Vierfach-Raketen	40
 
 weapon tigermissile x2.prefab
 displayName	Industrial missile platform	Industrielle Raketenplattform	40
@@ -9866,7 +9866,7 @@ displayName	Exotic destabilzer cannon	Exotische Destabilisatorkanone	40
 description	Advanced energy cannon that shoots chunks of destabilized exotic matter. Large AoE, penetrates shields and never deflects. May overload modules that survive a hit. Launched projectile has 7hp.	Fortgeschrittene Energiekanone, die Brocken von destabilisierter exotischer Materie verschießt. Große AoE, durchdringt Schilde und wird nicht abgelenkt. Kann Module überladen, die einen Treffer überleben. Abgefeuertes Projektil hat 7hp.	200
 
 weapon spideraa disruptor.prefab
-displayName	Spideraa shield disruptor	Spideraa-Schild-Disruptor	40
+displayName	Spideraa shield disruptor	Spinner-Schildbrecher	40
 description	A biotech platform for projecting powerful EMP rays. Disrupts shields or overloads unshielded modules. Minimal damage against ship hull.	Eine Biotech-Plattform zum Abfeuern starker EMP-Strahlen. Unterbricht Schilde oder überlastet nicht abgeschirmte Module. Minimaler Schaden gegen die Schiffshülle.	200
 
 weapon Spideraa shuriken.prefab
