@@ -1710,22 +1710,22 @@ Maximum letters on one row: 10, possible 2 rows	ALMOST\nFULL	FAST\nVOLL	10
 	Exotics containers full. Consider getting more container space.	Exotik-Container voll. Erwägen Sie, mehr Platz in den Containern zu schaffen.	0
 	Sensor range is reduced in clouds.	Die Sensorreichweite ist in Wolken reduziert.	0
 Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIERT	10
-	BEAM\nACTIVATION	BEAM\nACTIVATION	10
+	BEAM\nACTIVATION	STRAHL-\nAKTIVIERUNG	10
 	RESOURCES	RESSOURCEN	22
-	Open materials convertors	Offene Materialien Konverter	0
+	Open materials convertors	Öffne Materialien Konverter	0
 	/ 100ru	/ 100ru	0
 	Power consumed / capacity	Verbrauchte Leistung / Kapazität	0
 	CREW/MODULES/POWER	VOREINSTELLUNGEN	22
-	Save all current crew positions, roles and module power on/off profile	Alle aktuellen Crew-Positionen, Rollen und Modul-Energie-Ein/Aus-Profil speichern	0
+	Save all current crew positions, roles and module power on/off profile	Alle aktuellen Crew-Positionen, Rollen und Module als Voreinstellung speichern	0
 	Crew/module power preset 1	Voreinstellung 1	0
 	SAVE\nALL	SPE.	16
 	CONFIRM	SICHER?	16
 	LOAD\nALL	LADEN	16
 	Click to choose what is saved in this preset	Klicken Sie auf , um auszuwählen, was in diesem Preset gespeichert werden soll	0
-	Close preset editor	Preset-Editor schließen	0
+	Close preset editor	Voreinstellungseditor schließen	0
 	CONFIRM/CLOSE	SCHLIESSEN	16
-	Remove this preset	Dieses Preset entfernen	0
-	REMOVE	REMOVE	16
+	Remove this preset	Diese Voreinstellung entfernen	0
+	REMOVE	ENTFERNEN	16
 	Click to turn on/off crew position, role and\nmodule assignment saving in this preset.	Klicken Sie hier, um das Speichern der Crew-Position, der Rolle und der Modulzuweisung in diesem Preset ein- oder auszuschalten.	0
 	CREW	BESATZUNG	16
 	Click to turn on/off installed module power toggle saving in this preset.	Klicken Sie hier, um die Speicherung der installierten Modulleistung in dieser Voreinstellung ein- bzw. auszuschalten.	0
