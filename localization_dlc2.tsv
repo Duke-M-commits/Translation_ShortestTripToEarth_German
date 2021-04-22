@@ -85,7 +85,7 @@ text	scavenging...	Plünderung...	50
 title	Escape successful!	Flucht erfolgreich!	35
 text	Escape success	Flucht erfolgreich.	600
 title	Salvage complete	Bergung abgeschlossen	35
-text2	Our utility bots have salvaged all resources left on the battlefield.	Unsere Utility-Bots haben alle auf dem Schlachtfeld verbliebenen Ressourcen geborgen.	400
+text2	Our utility bots have salvaged all resources left on the battlefield.	Unsere Versorgungsbots haben alle auf dem Schlachtfeld verbliebenen Ressourcen geborgen.	400
 
 Level 2b exit, Phobians.prefab
 choiceText	Not yet, let's explore a bit more	Noch nicht, lasst uns noch ein bisschen mehr erforschen	100
