@@ -277,7 +277,7 @@ text	Aha! You have revealed your unmoral nature by saying having sex with" inste
 Ambusher L9b Moralors, large and small.prefab
 
 Level 1b, rats and capitaalo.prefab
-displayName	The Closest Star (DLC)	The Closest Star (DLC)	25
+displayName	The Closest Star (DLC)	Der nächste Stern (DLC)	25
 description	Captains log:\n\n/.../ A warpdrive malfunction has landed us in the wrong place, light years away from Earth. We are almost out of fuel. Supplies are running out.\nSome crew have been <color=red>injured</color> and some equipment is not working. Personally, I find all of this not too bad because /.../	Logbuch des Captains:/ Eine Fehlfunktion des Warpantriebs hat uns am falschen Ort gelandet, Lichtjahre von der Erde entfernt. Wir haben fast keinen Treibstoff mehr. Die Vorräte gehen zur Neige.\nEinige Crewmitglieder wurden <color=red>verletzt</color> und einige Geräte funktionieren nicht. Ich persönlich finde das alles nicht so schlimm, weil /.../	350
 overrideLockedDescription	This space sector is the closest one we reached, it's unexplored.	Dieser Raumsektor ist der nächste, den wir erreicht haben, er ist unerforscht.	350
 
@@ -291,7 +291,7 @@ displayName	The Periphery (DLC)	Die Peripherie (DLC)	25
 description	From the captains log:\n/.../ We've discovered this sector is not completely unexplored and contains an Earth Alliance research station. Visting it would be our first connection to the Alliance since five years.\nIn addition, the sector seems to have an abundance of mineral asteroid fields. I am already looking into options for crafting bigger and better <color=orange>containers</color> to take all these riches with us and maybe /.../	Aus dem Logbuch des Captains:/.../ Wir haben entdeckt, dass dieser Sektor nicht völlig unerforscht ist und eine Forschungsstation der Erdallianz enthält. Ihn zu besuchen wäre unsere erste Verbindung zur Allianz seit fünf Jahren.\nDarüber hinaus scheint der Sektor eine Fülle von mineralischen Asteroidenfeldern zu haben. Ich suche bereits nach Möglichkeiten, größere und bessere <color=orange>Container</color> zu basteln, um all diese Reichtümer mitnehmen zu können.	350
 
 Level 4b, insects.prefab
-displayName	Unclaimed Sector (DLC)	Unclaimed Sector (DLC)	25
+displayName	Unclaimed Sector (DLC)	Nicht beanspruchter Sektor (DLC)	25
 description	(new runs can be started from sectors 1,2,3)\n\nThis entire sector is "administred" by the Insectoid Alliance, although not colonized. The Insectoid Alliance is a multispecies faction that holds repetition, rituals and traditions as the deepest cornerstones of all civilized interactions. The alliance was formed to defeat an ancient enemy, the Spideraa.\n\nFrom the captains log:\n/.../ I never liked the collective traditions. They often enjoy a special status not because they're good, but because some kind of majority somewhere is doing it, and have been doing it for a long time.\nI'm more of a personal-traditions-only person myself, and right now I'm considering mostly my own very favorite traditions of survival, such as making sure we create more organics than we eat while flying around /.../	(neue Runs können von Sektor 1,2,3 aus gestartet werden)\n\nDieser gesamte Sektor wird von der Insektoiden-Allianz "verwaltet", obwohl er nicht kolonisiert ist. Die Insektoiden-Allianz ist eine Multispezies-Fraktion, die Wiederholungen, Rituale und Traditionen als die tiefsten Eckpfeiler aller zivilisierten Interaktionen betrachtet. Die Allianz wurde gegründet, um einen uralten Feind zu besiegen, die Spideraa.\n\nAus dem Logbuch des Captains:\n/.../ Ich mochte die kollektiven Traditionen nie. Sie genießen oft einen besonderen Status, nicht weil sie gut sind, sondern weil es irgendwo eine Mehrheit tut, und das schon seit langer Zeit.\nIch selbst bin eher ein Mensch, der nur persönliche Traditionen pflegt, und im Moment denke ich vor allem an meine eigenen, sehr beliebten Überlebenstraditionen, wie zum Beispiel dafür zu sorgen, dass wir beim Herumfliegen mehr organische Stoffe erzeugen, als wir essen /.../	350
 overrideLockedDescription	This sector is still unexplored.	Dieser Sektor ist noch unerforscht.	350
 
@@ -315,7 +315,7 @@ undeveloped nuke launcher slot for warpshell.prefab
 displayName	Undeveloped missile launch tube	Unausgebautes Raketenstartrohr	35
 description	Can be upgraded to working nuke slot.	Kann zu einem funktionierenden Nuke-Slot aufgerüstet werden.	250
 upgrades[i].text	Upgrade to nuke slot	Aufrüstung zum Nuke-Slot	35
-	REPLACE	ER- \nSETZEN	10
+	REPLACE	ERSETZEN	10
 	UPGRADE\nSLOT	AUF- \nRÜSTEN	10
 
 EMP perm projectile.prefab

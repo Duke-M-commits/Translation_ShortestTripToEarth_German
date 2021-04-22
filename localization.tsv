@@ -319,7 +319,7 @@ ShipModule.cs
 	Survival	Überleben	0
 	Essential	Unverzichtbar	0
 	Economy	Wirtschaft	0
-	Other	Sonstiges	0
+	Other	Andere	0
 	Critical module damage! {0} max hitpoints reduced by {1}	Kritischer Modulschaden! {0} maximale Hitpoints um {1} reduziert	0
 	Enemy module {0} destroyed	Feindliches Modul {0} zerstört	0
 	{0} destroyed	{0} zerstört	0
@@ -639,7 +639,7 @@ choiceTexts	Show me	Anzeigen	15
 altText	If your ship module layout and crew are currently optimized for battle, now would be a good time to save this layout as a preset, to easily load it again in the future (it also saves crew assignments and module on/off state). See help page?	Wenn Ihr Schiffsmodul-Layout und Ihre Crew derzeit für den Kampf optimiert sind, wäre jetzt ein guter Zeitpunkt, dieses Layout als Voreinstellung zu speichern, um es in Zukunft leicht wieder laden zu können (es speichert auch die Crew-Zuweisungen und den Modul-Ein/Aus-Status). Siehe Hilfeseite?	240
 
 Crew actions panel.prefab
-	Expand/shrink window	Fenster expandieren/schrumpfen	0
+	Expand/shrink window	Fenster erweitern/schrumpfen	0
 Shows crew skill levels and other attributes such as weapons, health etc. Under are buttons for each attribute that can be clicked to sort attributes in descending order.	CREW ATTRIBUTES, CLICK TO SORT:	CREW-ATTRIBUTE, ANKLICKEN ZUM SORTIEREN:	0
 	Health.\nClick to sort by max health	Gesundheit.\nKlicken, um nach maximaler Gesundheit zu sortieren	0
 In multiple crew selection/overview panel. Shows module that the crew is operating, nothing is shown when crew is not operating anything.	Activity.	Aktivität.	0
@@ -667,7 +667,7 @@ In multiple crew selection/overview panel. Shows module that the crew is operati
 	Handweapon skill	Handwaffen-Fertigkeit	0
 	Science skill	Fertigkeit Wissenschaft	0
 	Warp skill	Warp-Fertigkeit	0
-	Organics consumed per 100ru	Organischer Verbrauch pro 100ru	0
+	Organics consumed per 100ru	Organikverbrauch pro 100ru	0
 	Fuel consumed per 100ru	Treibstoffverbrauch pro 100ru	0
 	Explosives consumed per 100ru	Sprengstoffverbrauch pro 100ru	0
 	Exotics consumed per 100ru	Verbrauchtes Exotisches pro 100ru	0
@@ -847,7 +847,7 @@ Button	Permanent damage	Permanenter Schaden	0
 Button	Stealth detection	Tarn-Erkennung	0
 Button	Asteroids	Asteroiden	0
 Button	Weapons & Other Modules	Waffen & andere Module	0
-Button	Slot upgrades	Slot-Upgrades	0
+Button	Slot upgrades	Steckplatz aufrüsten	0
 Button	Crafting modules	Module basteln	0
 Button	Turning off modules	Ausschalten von Modulen	0
 Button	Module Damage	Modul-Schaden	0
@@ -1476,11 +1476,11 @@ dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht
 Module actions panel.prefab
 	Module inherent armor (chance to negate attacks)	Modul inhärente Rüstung (Chance, Angriffe zu negieren)	0
 	Select underlaying slot	Darunterliegenden Steckplatz auswählen	0
-Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	SLOT AUSW.	16
+Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	STECK\nPLATZ	16
 	Scrap module\norganics +30\nfuel +10	Schrottmodul\Anorganik +30\Brennstoff +10	0
 Button. Scrap/recycle module to materials	SCRAP	SCHROTT	6
 	Confirm scrap module\norganics +30\nfuel +10	Verschrottung bestätigen \Organisches +30\nKraftstoff +10	0
-Button. Shown after module Scrap button was pressed	ARE\nYOU\nSURE?	SICHER?	6
+Button. Shown after module Scrap button was pressed	ARE\nYOU\nSURE?	SICHER\n?	6
 	Place in storage	Einlagern	0
 Button. Pack & place module to ship storage, abbreviation may be required	STORE	LAGERN	6
 Button. Can be 2 words, word no longer than 6 letters. Weapon module stops shooting; , abbreviation might be required"	STOP FIRING	NICHT FEUERN	16
@@ -1607,11 +1607,11 @@ ModuleSlot actions panel.prefab
 	Click to list only craftable weapon and point defence modules	Klicken Sie hier, um nur die DIY Waffen- und Punktverteidigungsmodule aufzulisten	0
 	WEAPONS	WAFFEN	0
 	Click to list only craftable nukes	Klicken Sie hier, um nur DIY Atomwaffen aufzulisten	0
-	NUKES	NUKES	0
+	NUKES	ATOMBOMBEN	0
 	Click to list only craftable survival modules	Klicken Sie hier, um nur DIY Überlebensmodule aufzulisten	0
 	SURVIVAL	ÜBERLEBEN	0
 	Click to list only craftable essential modules	Klicken Sie hier, um nur DIY essentielle Module aufzulisten	0
-	ESSENTIAL	ESSENZIELL	0
+	ESSENTIAL	UNVERZICHTBAR	0
 	Click to list only craftable economy modules	Klicken Sie hier, um nur DIY Wirtschaftsmodule aufzulisten	0
 0	ECONOMY	WIRTSCHAFT	0
 	Click to list only other craftable modules	Klicken Sie hier, um nur andere DIY Module aufzulisten	0
@@ -1654,7 +1654,7 @@ Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	F
 	Toggles starsystem view	Schaltet auf Sternensystemansicht um	0
 Button/Toggle. Opens starsystem view.	STAR	STERN	6
 	Toggles ship view	Schaltet auf Schiffsansicht um	0
-	UPGRADES	AUF- \nWERTEN	10
+	UPGRADES	AUF- \nRÜSTEN	10
 	Module crafts available!	Modul Handwerk verfügbar!	0
 	CRAFTABLES	HER- \nSTELLEN	10
 	Ship hull integrity critically low,\navoid battles and repair your ship.	Schiffshüllenintegrität kritisch niedrig, vermeiden Sie Kämpfe und reparieren Sie Ihr Schiff.	0
@@ -1710,22 +1710,22 @@ Maximum letters on one row: 10, possible 2 rows	ALMOST\nFULL	FAST\nVOLL	10
 	Exotics containers full. Consider getting more container space.	Exotik-Container voll. Erwägen Sie, mehr Platz in den Containern zu schaffen.	0
 	Sensor range is reduced in clouds.	Die Sensorreichweite ist in Wolken reduziert.	0
 Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIERT	10
-	BEAM\nACTIVATION	BEAM\nACTIVATION	10
+	BEAM\nACTIVATION	STRAHL-\nAKTIVIERUNG	10
 	RESOURCES	RESSOURCEN	22
-	Open materials convertors	Offene Materialien Konverter	0
+	Open materials convertors	Öffne Materialien Konverter	0
 	/ 100ru	/ 100ru	0
 	Power consumed / capacity	Verbrauchte Leistung / Kapazität	0
 	CREW/MODULES/POWER	VOREINSTELLUNGEN	22
-	Save all current crew positions, roles and module power on/off profile	Alle aktuellen Crew-Positionen, Rollen und Modul-Energie-Ein/Aus-Profil speichern	0
+	Save all current crew positions, roles and module power on/off profile	Alle aktuellen Crew-Positionen, Rollen und Module als Voreinstellung speichern	0
 	Crew/module power preset 1	Voreinstellung 1	0
 	SAVE\nALL	SPE.	16
-	CONFIRM	SICHER?	16
+	CONFIRM	SICHER\n?	16
 	LOAD\nALL	LADEN	16
 	Click to choose what is saved in this preset	Klicken Sie auf , um auszuwählen, was in diesem Preset gespeichert werden soll	0
-	Close preset editor	Preset-Editor schließen	0
+	Close preset editor	Voreinstellungseditor schließen	0
 	CONFIRM/CLOSE	SCHLIESSEN	16
-	Remove this preset	Dieses Preset entfernen	0
-	REMOVE	REMOVE	16
+	Remove this preset	Diese Voreinstellung entfernen	0
+	REMOVE	ENTFERNEN	16
 	Click to turn on/off crew position, role and\nmodule assignment saving in this preset.	Klicken Sie hier, um das Speichern der Crew-Position, der Rolle und der Modulzuweisung in diesem Preset ein- oder auszuschalten.	0
 	CREW	BESATZUNG	16
 	Click to turn on/off installed module power toggle saving in this preset.	Klicken Sie hier, um die Speicherung der installierten Modulleistung in dieser Voreinstellung ein- bzw. auszuschalten.	0
@@ -11067,7 +11067,7 @@ altText	From now on <b>scrapping</b> modules is possible. \nClick on the exotic 
 altText	Please <b>sell</b> all the exotics we gained from scrapping. Selling exotics and other resources in stations will be your main source of income in the upcoming journey.	Bitte <b>verkaufen</b> Sie alle Exoten, die Sie beim Verschrotten gewonnen haben. Der Verkauf von Exoten und anderen Ressourcen in Stationen wird Ihre Haupteinnahmequelle auf der kommenden Reise sein.	240
 altText	Let's also install an additional container for storing exotics. You will need it later on.	Lassen Sie uns außerdem einen zusätzlichen Container zur Lagerung von Exoten installieren. Sie werden ihn später noch benötigen.	240
 altText	Please open the sector map again to use our warpdrive for jumping to the <b>Aesus</b> starsystem.	Öffnen Sie bitte wieder die Sektorkarte, um unseren Warpantrieb für den Sprung zum <b>Aesus</b>-Sternensystem zu benutzen.	240
-altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcencontainer (Typ ESM-I)</b> und <b>einen Schildgenerator</b> </b>kaufen und installieren</b>.Module können Sie nur kaufen, wenn Sie leere Slots im Modulspeicher haben.	240
+altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcencontainer (Typ ESM-I)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule können Sie nur kaufen, wenn Sie leere Slots im Modulspeicher haben.	240
 altText	As you can see from the red icons above modules, our ship weapons are currently <b>turned off</b> and have no crew. Additionally, the cannon needs explosives as ammo and the rocket launcher needs both explosives and metal.	Wie Sie an den roten Icons über den Modulen erkennen können, sind unsere Schiffswaffen derzeit <b>ausgeschaltet</b> und haben keine Besatzung. Zusätzlich braucht die Kanone Sprengstoff als Munition und der Raketenwerfer braucht sowohl Sprengstoff als auch Metall.	240
 choiceTexts	Got it - weapons need ammo and power	Verstanden - Waffen brauchen Munition und Energie	15
 altText	To alleviate our ammo problem, scrap <b>1 explosives pack</b> and<b> 1 metal pack</b> in our module storage, to get the resources they contain.	Um unser Munitionsproblem zu lindern, verschrotten wir <b>1 Sprengstoffpackung</b> und<b> 1 Metallpackung</b> in unserem Modullager, um die darin enthaltenen Ressourcen zu erhalten.	240
@@ -11076,7 +11076,7 @@ text2	got warp, go to next system shop	Habe Warp, gehe zum nächsten Systemshop	
 altText	Now craft one of the <b>avaialble DIY weapons </b> by clicking on a weapon slot and making sure it is empty. Then scroll and click on a weapon module to craft it.	Stellen Sie nun eine der <b>bastelbaren DIY-Waffen</b> her, indem Sie auf einen Waffenslot klicken und sicherstellen, dass dieser leer ist. Scrollen Sie dann und klicken Sie auf ein Waffenmodul, um es zu craften.	240
 altText	Next, let's install the <b>engine</b>, which we obviously need for moving. It also gives a significant <b>evasion bonus</b> against enemy attacks.	Als nächstes installieren wir den <b>Motor</b>, den wir natürlich zum Bewegen brauchen. Außerdem gibt er einen erheblichen <b>Ausweichbonus</b> gegen gegnerische Angriffe.	240
 altText	By the way, from now on we can upgrade one of our <b>hybrid slots</b> into a weapon slot, and then craft an additional weapon for ourselves to be used in the training. Internal module slots can be upgraded as well. I've prepared some resources for you.	Übrigens können wir von nun an einen unserer <b>Hybrid-Slots</b> zu einem Waffenslot aufrüsten und uns dann eine zusätzliche Waffe für das Training herstellen. Interne Modul-Slots können ebenfalls aufgerüstet werden. Ich habe einige Ressourcen für Sie vorbereitet.	240
-choiceTexts	Click here to get resources for upgrade	Klicken Sie hier, um Ressourcen für die Aufrüstung zu erhalten	15
+choiceTexts	Click here to get resources for upgrade	Ressourcen für die Aufrüstung erhalten	15
 altText	Select one of the ship's <b>hybrid slots</b> located in the front, make sure it does not have a module in it, and then choose the <b>upgrade to weapon slot</b> crafting option.	Wählen Sie einen der <b>Hybrid-Slots</b> des Schiffes, die sich vorne befinden, stellen Sie sicher, dass sich kein Modul darin befindet, und wählen Sie dann die Handwerksoption <b>Aufrüstung zum Waffenslot</b>.	240
 
 01 Rat cruiser Royal.prefab
