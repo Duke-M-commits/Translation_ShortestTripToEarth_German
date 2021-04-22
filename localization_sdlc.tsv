@@ -1,11 +1,11 @@
 ﻿:displayName Deutsch
 
 Dog.prefab
-dieMessage	{0} has ceased existing.	{0}hat aufgehört zu existieren.	70
+dieMessage	{0} has ceased existing.	{0} hat aufgehört zu existieren.	70
 appearance[i].description	A trained dog, with brain implants. Has been taught to operate ship sensors, although does not completely understand what he is doing.	Ein dressierter Hund, mit Gehirnimplantaten. Ihm wurde beigebracht, die Schiffssensoren zu bedienen, obwohl er nicht ganz versteht, was er da tut.	250
 
 Drone tigerdog.prefab
-dieMessage	{0} destroyed.	{0}zerstört.	70
+dieMessage	{0} destroyed.	{0} zerstört.	70
 appearance[i].description	Heavy-duty drone for industrial construction & repairs. Modded software allows unhindered destructive behaviour. Almost fireproof.	Hochleistungsdrohne für industrielle Konstruktionen und Reparaturen. Modifizierte Software erlaubt ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250
 
 Drone tigerspider assaulter.prefab
