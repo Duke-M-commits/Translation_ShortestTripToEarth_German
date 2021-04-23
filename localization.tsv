@@ -3098,15 +3098,15 @@ text2	After the Insectoid Alliance ship has been refuelled, the captain expresse
 title	Wrecked ship	Schiffswrack	35
 
 SOS4 exo, gitchanki miners broken warp and packs.prefab
-title	Gitchanki miners	Gitchanki-Bergleute	35
+title	Gitchanki miners	Gitchanki-Mienenarbeiter	35
 text	"The central crystal of our ship warpdrive has broken and we need exotics to make a new one. Can you help us? We will reward you, of course."	Der zentrale Kristall unseres Schiffswarpantriebs ist zerbrochen und wir brauchen Exoten, um einen neuen herzustellen. Können Sie uns helfen? Wir werden Euch natürlich belohnen.	400
 choiceText	We can help you [-6 exotics]	Wir können Euch helfen [-6 Exoten]	100
 newName3	needs 6 exotics	braucht 6 Exoten	25
 text	sending resources... %	Schickt Ressourcen... %	50
-title	The miners' gratitude	Die Dankbarkeit der Bergleute	35
-text2	After they have built a new warpdrive with our help, the Gitchanki miners send us several crates of high quality metal, plus their original warpdrive which they won't be using any more.	Nachdem sie mit unserer Hilfe einen neuen Warpantrieb gebaut haben, schicken uns die Bergleute von Gitchanki mehrere Kisten mit hochwertigem Metall sowie ihren ursprünglichen Warpantrieb, den sie nicht mehr benutzen werden.	400
+title	The miners' gratitude	Die Dankbarkeit der Mienenarbeiter	35
+text2	After they have built a new warpdrive with our help, the Gitchanki miners send us several crates of high quality metal, plus their original warpdrive which they won't be using any more.	Nachdem sie mit unserer Hilfe einen neuen Warpantrieb gebaut haben, schicken uns die Mienenarbeiter von Gitchanki mehrere Kisten mit hochwertigem Metall sowie ihren ursprünglichen Warpantrieb, den sie nicht mehr benutzen werden.	400
 text	We do not have enough exotics. We may return later if we have more.	Wir haben nicht genug Exotika. Wir können später zurückkehren, wenn wir mehr haben.	600
-text2	After they have built a new warpdrive with our help, the Gitchanki miners send us several crates of high quality fuel, plus their original warpdrive which they won't be using any more.	Nachdem sie mit unserer Hilfe einen neuen Warp-Antrieb gebaut haben, schicken uns die Gitchanki-Bergleute mehrere Kisten mit hochwertigem Treibstoff sowie ihren ursprünglichen Warp-Antrieb, den sie nicht mehr benutzen werden.	400
+text2	After they have built a new warpdrive with our help, the Gitchanki miners send us several crates of high quality fuel, plus their original warpdrive which they won't be using any more.	Nachdem sie mit unserer Hilfe einen neuen Warp-Antrieb gebaut haben, schicken uns die Gitchanki-Mienenarbeiter mehrere Kisten mit hochwertigem Treibstoff sowie ihren ursprünglichen Warp-Antrieb, den sie nicht mehr benutzen werden.	400
 
 SOS5 exo, spare parts and explos.prefab
 title	Volatiles tanker	Volatiles Tankschiff	35
@@ -4356,7 +4356,7 @@ text2	"We do not have the tools to continue repairing your ship. The damage is m
 reasonToDisplay	ship repairs finished	Schiffsreparaturen abgeschlossen	30
 title	Gift from the community	Geschenk der Gemeinde	35
 text2	Before we leave, the local representatives bring us a minor gift from their community.	Bevor wir aufbrechen, bringen uns die örtlichen Vertreter ein kleines Geschenk ihrer Gemeinde.	400
-text	We are approached by a pair of local asteroid miners. Hearing of our quest, they ask if we are interested in buying a set of 3 mining lasers. One of their mining ships crashed recently and will be decommissioned, but all of its weapons should be still functional. The weapons should also provide much synthethics if scrapped, they explain.	Wir werden von einem Paar lokaler Asteroiden-Bergleute angesprochen. Als sie von unserer Suche hörten, fragten sie uns, ob wir am Kauf eines Satzes von 3 Minenlasern interessiert seien. Eines ihrer Minenschiffe ist vor kurzem abgestürzt und wird ausgemustert, aber alle seine Waffen sollten noch funktionsfähig sein. Die Waffen sollten auch viel Synthethik liefern, wenn sie verschrottet werden, erklären sie.	400
+text	We are approached by a pair of local asteroid miners. Hearing of our quest, they ask if we are interested in buying a set of 3 mining lasers. One of their mining ships crashed recently and will be decommissioned, but all of its weapons should be still functional. The weapons should also provide much synthethics if scrapped, they explain.	Wir werden von einem Paar lokaler Asteroiden-Mienenarbeiter angesprochen. Als sie von unserer Suche hörten, fragten sie uns, ob wir am Kauf eines Satzes von 3 Minenlasern interessiert seien. Eines ihrer Minenschiffe ist vor kurzem abgestürzt und wird ausgemustert, aber alle seine Waffen sollten noch funktionsfähig sein. Die Waffen sollten auch viel Synthethik liefern, wenn sie verschrottet werden, erklären sie.	400
 choiceText	Buy the weapon set [-260 creds]	Kaufen Sie das Waffenset [-260 Kredits]	100
 choiceText	Politely decline	Höflich ablehnen	100
 text	"Sorry, not enough credits for this operation."	Tut mir leid, nicht genug Credits für diese Operation.	600
