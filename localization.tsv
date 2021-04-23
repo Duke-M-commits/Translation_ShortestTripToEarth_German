@@ -49,7 +49,7 @@ Crewmember.cs
 	repair skill	Reparatur-Fertigkeit	0
 	firefight skill	Brandbekämpfungsfertigkeit	0
 	hand weapon skill	Handwaffen-Fertigkeit	0
-	gardening skill	Garten-Fertigkeit	0
+	gardening skill	Gartenbau-Fertigkeit	0
 	science skill	Forschungsfertigkeit	0
 	warp skill	Warp-Fertigkeit	0
 	no skill	keine Fertigkeit	0
@@ -279,9 +279,9 @@ SkillEffects.cs
 	-{0}% weapon reload time	-{0}% Waffen-Nachladezeit	0
 	+{0}% point defence range	+{0}% Punktverteidigung-Reichweite	0
 	+{0} weapon accuracy	+{0} Waffen-Genauigkeit	0
-	Shield skill allows operating shield generator modules	Schildfertigkeit erlaubt die Bedienung von Schildgeneratormodulen	0
+	Shield skill allows operating shield generator modules	Schild-Fertigkeit erlaubt die Bedienung von Schildgeneratormodulen	0
 	+{0}% shield reload time	+{0}% Schild Nachladezeit	0
-	Repair skill allows repairing broken modules and damage tokens	Reparaturfertigkeit erlaubt die Reparatur von defekten Modulen und Schadensmarken	0
+	Repair skill allows repairing broken modules and damage tokens	Reparatur-Fertigkeit erlaubt die Reparatur von defekten Modulen und Schadensmarken	0
 	+{0}% repair speed	+{0}% Reparatur Geschwindigkeit	0
 	Damage token 1 HP repair time {0:0.0}s	Schadenstoken 1 HP Reparaturzeit {0:0.0}s	0
 	Module 1 HP repair time {0:0.0}s	Modul 1 HP Reparaturzeit {0:0.0}s	0
@@ -293,11 +293,11 @@ SkillEffects.cs
 	Gardening skill allows operating garden modules	Gartenbau-Fertigkeit erlaubt das Bedienen von Gartenmodulen	0
 	+{0} production	+{0} Produktion	0
 	(1 skill point gives {0} production)	(1 Fertigkeitspunkt ergibt {0} Produktion)	0
-	Science skill gives credits bonus for researching planets, warplife, etc	Wissenschaftsfertigkeit gibt Credit-Bonus für die Erforschung von Planeten, Warplife, etc.	0
-	Science skill allows operating research modules	Wissenschaftliche Fertigkeit erlaubt den Betrieb von Forschungsmodulen	0
+	Science skill gives credits bonus for researching planets, warplife, etc	Forschungsfertigkeit gibt Credit-Bonus für die Erforschung von Planeten, Warplife, etc.	0
+	Science skill allows operating research modules	Forschungsfertigkeit erlaubt den Betrieb von Forschungsmodulen	0
 	+{0} credits per research operation in events	+{0} Credits pro Forschungsoperation bei Veranstaltungen	0
 	+{0} credits production in research module	'+{0} Credits-Produktion im Forschungsmodul	0
-	Warp skill allows operating warp modules	Warp-Fähigkeit erlaubt den Betrieb von Warp-Modulen	0
+	Warp skill allows operating warp modules	Warp-Fertigkeit erlaubt den Betrieb von Warp-Modulen	0
 	-{0} reload time	-{0} Nachladezeit	0
 
 Ship.cs
@@ -365,7 +365,7 @@ ShipStatusVisualizers.cs
 	Crew {0}	Besatzung {0}	0
 
 ShootAtDamageDealer.cs
-	MISS	MISS	0
+	MISS	VERFEHLT	0
 	Missed {0}	Verfehlt {0}	0
 	Hit {0}	Treffer {0}	0
 
@@ -427,17 +427,17 @@ ModuleDataSubpanel.cs
 	(default is {0:0}%)	(Voreinstellung ist {0:0}%)	0
 	per	per	0
 	Weapon accuracy level with current crew is {0} (aiming sector angle is {1} degrees).\nEach operator gunnery skill point increases aiming accuracy by {2} (rounded up)	Die Genauigkeit der Waffe mit der aktuellen Besatzung beträgt {0} (der Winkel des Zielsektors beträgt {1} Grad).\nJeder Punkt in der Geschützfertigkeit des Bedieners erhöht die Zielgenauigkeit um {2} (aufgerundet)	0
-	Weapon reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	Nachladezeit der Waffe.\nVerringerung durch Schießfertigkeit ({0}% pro Punkt Schießfertigkeit des Bedieners)	0
+	Weapon reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	Nachladezeit der Waffe.\nVerringerung durch Geschützfertigkeit ({0}% pro Punkt Geschützfertigkeit des Bedieners)	0
 	Damage to ship	Schaden am Schiff	0
 	Damage to module	Schaden am Modul	0
 	Damage to door	Schaden an der Tür	0
 	Damage to shield	Schaden am Schild	0
 	EMP {0}s	EMP {0}s	0
-	Point defence reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	Punktverteidigung Nachladezeit.\nVerringerung durch Schießfertigkeit ({0}% pro Punkt Schießfertigkeit des Operators)	0
-	Point defence cover radius.\nIncreased by gunnery skill({0}% per operator gunnery skill point)	Deckungsradius der Punktverteidigung.\nErhöht durch die Schießfertigkeit ({0}% pro Punkt der Schießfertigkeit des Operators)	0
+	Point defence reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	Punktverteidigung Nachladezeit.\nVerringerung durch Geschützfertigkeit ({0}% pro Punkt Geschützfertigkeit des Operators)	0
+	Point defence cover radius.\nIncreased by gunnery skill({0}% per operator gunnery skill point)	Deckungsradius der Punktverteidigung.\nErhöht durch die Geschützfertigkeit ({0}% pro Punkt der Geschützfertigkeit des Operators)	0
 	Starmap radar range.\nShip will use max value if multiple sensors are present.\nIncreased by sensor skill(+{0}% per operator sensor skill point)	Starmap-Radar-Reichweite.\nSchiff verwendet maximalen Wert, wenn mehrere Sensoren vorhanden sind.\nErhöht durch Sensor-Fertigkeit(+{0}% pro Operator-Sensor-Fertigkeitspunkt)	0
 	Ship evasion bonus ({0} per operator bridge skill point)	Schiffsausweichbonus ({0} pro Bediener-Brückenfertigkeitspunkt)	0
-	Shield reload time.\nReduced by shield skill({0}% per operator shield skill point)	Schildnachladezeit.\nVerringerung durch Schildfertigkeit ({0}% pro Bediener-Schildfertigkeitspunkt)	0
+	Shield reload time.\nReduced by shield skill({0}% per operator shield skill point)	Schildnachladezeit.\nVerringerung durch Schild-Fertigkeit ({0}% pro Bediener-Schild-Fertigkeitspunkt)	0
 	Warp reload time.\nReduced by warp skill({0}% per operator shield skill point)	Warp-Nachladezeit.\nVerringerung durch Warp-Fertigkeit ({0}% pro Schild-Fertigkeitspunkt des Operators)	0
 	1 gardening skill point gives {0} {1} per 100ru	1 Fertigkeitspunkt Gartenarbeit ergibt {0} {1} pro 100ru	0
 	(if multiple operators work in garden, their skill points are added together)	(wenn mehrere Operatoren im Garten arbeiten, werden ihre Fertigkeitspunkte zusammengerechnet)	0
@@ -469,7 +469,7 @@ PlayerPanel.cs
 	(power needed if all modules on: {0})	(benötigte Leistung, wenn alle Module eingeschaltet sind: {0})	0
 	(needs {0})	(benötigt {0})	0
 	External research operations bonus	Bonus für externe Forschungsoperationen	0
-	Credits bonus given for researching planets, warplife, etc (sum of crew science skills): +{0}	Credits-Bonus für die Erforschung von Planeten, Warplife, etc. (Summe der wissenschaftlichen Fähigkeiten der Crew): +{0}	0
+	Credits bonus given for researching planets, warplife, etc (sum of crew science skills): +{0}	Credits-Bonus für die Erforschung von Planeten, Warplife, etc. (Summe der Forschungsfertigkeit der Crew): +{0}	0
 	Ship engine	Schiffsmotor	0
 	(fuel is used by engines and warpdrive for moving)	(Treibstoff wird von Triebwerken und Warp-Antrieb für die Fortbewegung verbraucht)	0
 	Life support	Lebenserhaltung	0
@@ -644,28 +644,28 @@ Shows crew skill levels and other attributes such as weapons, health etc. Under 
 	Health.\nClick to sort by max health	Gesundheit.\nKlicken, um nach maximaler Gesundheit zu sortieren	0
 In multiple crew selection/overview panel. Shows module that the crew is operating, nothing is shown when crew is not operating anything.	Activity.	Aktivität.	0
 	Bridge skill.\nClick to sort.	Brückenfertigkeit.\nKlicken Sie zum Sortieren.	0
-	Sensor skill.\nClick to sort.	Sensor-Fähigkeit.\nKlicken Sie zum Sortieren.	0
+	Sensor skill.\nClick to sort.	Sensor-Fertigkeit.\nKlicken Sie zum Sortieren.	0
 	Gunnery skill.\nClick to sort.	Geschützfertigkeit.\nKlicken Sie zum Sortieren.	0
 	Shield skill.\nClick to sort.	Schild-Fertigkeit.\nKlicken Sie zum Sortieren.	0
-	Repair skill.\nClick to sort.	Reparaturfertigkeit.\nKlicken Sie zum Sortieren.	0
-	Firefight skill.\nClick to sort.	Feuergefechtsfertigkeit.\nKlicken Sie zum Sortieren.	0
+	Repair skill.\nClick to sort.	Reparatur-Fertigkeit.\nKlicken Sie zum Sortieren.	0
+	Firefight skill.\nClick to sort.	Brandbekämpfungsfertigkeit.\nKlicken Sie zum Sortieren.	0
 	Handweapon.\nClick to sort by range.	Handwaffe.\nKlicken Sie zum Sortieren nach Reichweite.	0
 	Handweapon skill.\nClick to sort.	Handwaffenfertigkeit.\nKlicken Sie zum Sortieren.	0
-	Gardening skill.\nClick to sort.	Gartenarbeit-Fertigkeit.\nKlicken Sie zum Sortieren.	0
-	Science skill.\nClick to sort.	Wissenschaftsfertigkeit.\nKlicken Sie zum Sortieren.	0
+	Gardening skill.\nClick to sort.	Gartenbau-Fertigkeit.\nKlicken Sie zum Sortieren.	0
+	Science skill.\nClick to sort.	Forschungsfertigkeit.\nKlicken Sie zum Sortieren.	0
 	Warp skill.\nClick to sort.	Warp-Fertigkeit.\nKlicken Sie zum Sortieren.	0
 	Consumption per 100ru (range units).\nClick to sort by organics consumption.	Verbrauch pro 100ru (Bereichseinheiten).\nKlicken Sie zum Sortieren nach organischem Verbrauch.	0
 	Movement speed.\nClick to sort.	Bewegungsgeschwindigkeit.\nZum Sortieren anklicken.	0
 	Role.\nClick to sort.	Rolle.\nZum Sortieren anklicken.	0
 	Health	Gesundheit	0
 	Activity	Aktivität	0
-	Bridge skill	Brücke-Fähigkeit	0
+	Bridge skill	Brückenfertigkeit	0
 	Gunnery skill	Geschützfertigkeit	0
 	Shield skill	Schild-Fertigkeit	0
 	Repair skill	Reparatur-Fertigkeit	0
-	Firefight skill	Fertigkeit Feuergefecht	0
+	Firefight skill	Brandbekämpfungsfertigkeit	0
 	Handweapon skill	Handwaffen-Fertigkeit	0
-	Science skill	Fertigkeit Wissenschaft	0
+	Science skill	Forschungsfertigkeit	0
 	Warp skill	Warp-Fertigkeit	0
 	Organics consumed per 100ru	Organikverbrauch pro 100ru	0
 	Fuel consumed per 100ru	Treibstoffverbrauch pro 100ru	0
@@ -965,7 +965,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Sie können das Crafting nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpdrive zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Slots gecraftet werden.	0
 	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Modul-Lagercontainer oder in einem beliebigen freien Slot gelagert werden können.	0
 	Modules can be turned off from the power switch button.\nIf a module is turned off, it does not need any of its listed requirements.	Module können über den Netzschalterknopf ausgeschaltet werden.\nWenn ein Modul ausgeschaltet ist, benötigt es keine seiner aufgeführten Anforderungen.	0
-	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nReparieren Sie Module, indem Sie ein Crewmitglied auswählen und dann mit R auf ein beschädigtes Modul klicken.\n\nBeschädigte Module können für 10 Synthetics pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Reparaturfähigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0
+	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nReparieren Sie Module, indem Sie ein Crewmitglied auswählen und dann mit R auf ein beschädigtes Modul klicken.\n\nBeschädigte Module können für 10 Synthetics pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0
 	Module damage	Modulschaden	0
 	Ship Combat & Weapon Types	Schiffskampf & Waffentypen	0
 	Energy weapons	Energiewaffen	0
@@ -1005,25 +1005,25 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	0
 	The log console shows what's going on in the ship from time to time.\n\nImportant log messages appear red.	Die Log-Konsole zeigt an, was im Schiff von Zeit zu Zeit vor sich geht.\n\Wichtige Log-Meldungen erscheinen rot.	0
 	Skills/roles	Fertigkeiten/Rollen	0
-	Clicking on crew skill automatically assigns crew to that skill. For example clicking on sensor skill sends crewmember to sensor module. Darkened skills cannot be clicked because module is either missing or already in use by another crewmember.	Wenn Sie auf eine Crew-Fähigkeit klicken, wird die Crew automatisch dieser Fähigkeit zugewiesen. Wenn Sie z. B. auf eine Sensor-Fertigkeit klicken, wird ein Besatzungsmitglied dem Sensormodul zugewiesen. Abgedunkelte Fertigkeiten können nicht angeklickt werden, da das Modul entweder fehlt oder bereits von einem anderen Besatzungsmitglied verwendet wird.	0
-	1. Bridge skill	1. Brücken-Fertigkeit	0
+	Clicking on crew skill automatically assigns crew to that skill. For example clicking on sensor skill sends crewmember to sensor module. Darkened skills cannot be clicked because module is either missing or already in use by another crewmember.	Wenn Sie auf eine Crew-Fertigkeit klicken, wird die Crew automatisch dieser Fähigkeit zugewiesen. Wenn Sie z. B. auf eine Sensor-Fertigkeit klicken, wird ein Besatzungsmitglied dem Sensormodul zugewiesen. Abgedunkelte Fertigkeiten können nicht angeklickt werden, da das Modul entweder fehlt oder bereits von einem anderen Besatzungsmitglied verwendet wird.	0
+	1. Bridge skill	1. Brückenfertigkeit	0
 	\rOne skill point gives +1 evasion when operating bridge.	\rEin Fertigkeitspunkt gibt +1 Ausweichen beim Bedienen der Brücke.	0
 	2. Sensor skill	2. Sensor-Fertigkeit	0
 	Required for sensor operators. Increases sensor range both in starsystem view & sector map.	Erforderlich für Sensor-Operatoren. Erhöht die Sensorreichweite sowohl in der Sternensystemansicht als auch auf der Sektorkarte.	0
-	3. Gunnery skill	3. Schießfertigkeit	0
+	3. Gunnery skill	3. Geschützfertigkeit	0
 	This skill is needed to operate ship weapons, and also gives an accuracy bonus to the operated weapon. Reduces reload time.	Diese Fertigkeit wird benötigt, um die Schiffswaffen zu bedienen, und gibt außerdem einen Genauigkeits-Bonus auf die bediente Waffe. Reduziert die Nachladezeit.	0
 	4. Shield skill	4. Schild-Fertigkeit	0
-	Shield skill modifies shield charge time while operating.	Die Schildfertigkeit modifiziert die Aufladezeit der Schilde während der Bedienung.	0
+	Shield skill modifies shield charge time while operating.	Die Schild-Fertigkeit modifiziert die Aufladezeit der Schilde während der Bedienung.	0
 	5. Repair skill	5. Reparatur-Fertigkeit	0
 	Increases repair speed.	Erhöht die Reparaturgeschwindigkeit.	0
 	6. Firefighting skill	6. Fertigkeit Brandbekämpfung	0
 	Increases firefighting speed.	Erhöht die Geschwindigkeit bei der Brandbekämpfung.	0
 	7. Handweapons skill	7. Handwaffen-Fertigkeit	0
 	Increases handweapon accuracy.	Erhöht die Genauigkeit der Handwaffen.	0
-	8. Gardening skill	8. Fertigkeit Gartenarbeit	0
+	8. Gardening skill	8. Gartenbau-Fertigkeit	0
 	Required for garden operators. Increases output of gardens.	Erforderlich für Gartenarbeiter. Erhöht die Leistung der Gärten.	0
-	9. Science skill	9. Wissenschaftliche Fertigkeit	0
-	Required for lab operators. Increases output of labs.\nAdditionally, summed science skills generates extra credits from events.	Erforderlich für Laborbetreiber. Erhöht den Output von Laboren.\nZusätzlich generiert die Summe der Wissenschaftsfertigkeiten zusätzliche Credits aus Ereignissen.	0
+	9. Science skill	9. Forschungsfertigkeit	0
+	Required for lab operators. Increases output of labs.\nAdditionally, summed science skills generates extra credits from events.	Erforderlich für Laborbetreiber. Erhöht den Output von Laboren.\nZusätzlich generiert die Summe der Forschungsfertigkeiten zusätzliche Credits aus Ereignissen.	0
 	10. Warp skill	10. Warp-Fertigkeit	0
 	Required for warp operators. Decreases warp charging time.	Erforderlich für Warp-Operatoren. Verringert die Warp-Ladezeit.	0
 	11. Crew Hit points	11. Crew-Trefferpunkte	0
@@ -1501,12 +1501,12 @@ Module data subpanel.prefab
 	Module hitpoints, repairing 1hp consumes 10 synthethics	Modul-Hitpoints, Reparatur von 1hp verbraucht 10 Synthethics	0
 module requirements	REQUIREMENTS	VORAUSSETZUNGEN	0
 	This module requires operators with bridge skill	Dieses Modul erfordert Bediener mit Brückenfertigkeit	0
-	This module requires operators with sensor skill	Dieses Modul erfordert Bediener mit Sensor-Fähigkeit	0
-	This module requires one operator with gunnery skill	Dieses Modul erfordert einen Bediener mit Geschützfähigkeiten	0
-	This module requires operators with shield skill	Dieses Modul erfordert Bediener mit Schildfertigkeit	0
-	This module requires operators with science skill	Dieses Modul erfordert Bediener mit der Fähigkeit "Wissenschaft".	0
-	This module requires operators with warp skill	Dieses Modul erfordert Bediener mit der Fähigkeit "Warp".	0
-	This module requires operators with gardening skill	Dieses Modul erfordert Bediener mit der Fähigkeit Gartenarbeit	0
+	This module requires operators with sensor skill	Dieses Modul erfordert Bediener mit Sensor-Fertigkeit	0
+	This module requires one operator with gunnery skill	Dieses Modul erfordert einen Bediener mit Geschützfertigkeit	0
+	This module requires operators with shield skill	Dieses Modul erfordert Bediener mit Schild-Fertigkeit	0
+	This module requires operators with science skill	Dieses Modul erfordert Bediener mit Forschungsfertigkeit.	0
+	This module requires operators with warp skill	Dieses Modul erfordert Bediener mit Warp-Fertigkeit.	0
+	This module requires operators with gardening skill	Dieses Modul erfordert Bediener mit der Fertigkeit Gartenbau	0
 	Activation fuel cost	Treibstoffkosten für die Aktivierung	0
 	This module requires operators. No skill required	Dieses Modul erfordert Operatoren. Keine Fertigkeit erforderlich	0
 	This module requires drones. No skill required	Für dieses Modul sind Drohnen erforderlich. Keine Fertigkeit erforderlich	0
@@ -6422,7 +6422,7 @@ title	Combat training	Kampftraining	35
 text	The practice target moves in to attack us. It is armed with both lasers and projectile weapons.	Das Übungsziel bewegt sich auf uns zu, um uns anzugreifen. Es ist sowohl mit Lasern als auch mit Projektilwaffen bewaffnet.	600
 altText	Press <b>space</b> to slow time so you can prepare... Starting a ship vs ship combat resets weapon & warp charge because of a need to recalibrate.	Drücken Sie <b>Leertaste</b>, um die Zeit zu verlangsamen, damit Sie sich vorbereiten können... Das Starten eines Schiff-gegen-Schiff-Kampfes setzt die Waffen- und Warp-Ladung zurück, da eine Neukalibrierung erforderlich ist.	240
 altText	Try to make sure your shots land on important enemy modules like <b>shield generators, weapons or reactors</b>. Remember that if the shot landing area is over the edges of target ship, some shots might miss completely.	Versuchen Sie sicherzustellen, dass Ihre Schüsse auf wichtigen gegnerischen Modulen wie <b>Schildgeneratoren, Waffen oder Reaktoren</b> landen. Denken Sie daran, dass einige Schüsse komplett daneben gehen können, wenn der Landebereich der Schüsse über den Kanten des Zielschiffs liegt.	240
-altText	Currently, our weapons are remotely operated by the bridge (the <b>B symbol</b>).\nThis means they are working, but without accuracy & recharge bonus from your crew.\nSend crew with <b>gunnery skill</b> to operate <b>every weapon</b>, to ensure max accuracy bonus.	Derzeit werden die Waffen von der Brücke aus ferngesteuert (das <b>B-Symbol</b>).\nDas bedeutet, dass sie funktionieren, aber ohne Genauigkeits- und Nachladebonus von Ihrer Crew.\nSchicken Sie eine Crew mit <b>Gunnery-Skill</b>, um <b>jede Waffe</b> zu bedienen, um einen maximalen Genauigkeitsbonus zu gewährleisten.	240
+altText	Currently, our weapons are remotely operated by the bridge (the <b>B symbol</b>).\nThis means they are working, but without accuracy & recharge bonus from your crew.\nSend crew with <b>gunnery skill</b> to operate <b>every weapon</b>, to ensure max accuracy bonus.	Derzeit werden die Waffen von der Brücke aus ferngesteuert (das <b>B-Symbol</b>).\nDas bedeutet, dass sie funktionieren, aber ohne Genauigkeits- und Nachladebonus von Ihrer Crew.\nSchicken Sie eine Crew mit <b>Geschützfertigkeit</b>, um <b>jede Waffe</b> zu bedienen, um einen maximalen Genauigkeitsbonus zu gewährleisten.	240
 altText	Weapons can be selected by clicking on them on the ship or on the <b>Quick selection bar</b>. Pressing a number 1...9 on your keyboard is the fastest way to select a weapon.	Waffen können durch Anklicken auf dem Schiff oder in der <b>Schnellauswahlleiste</b> ausgewählt werden. Das Drücken der Zahlen 1...9 auf Ihrer Tastatur ist der schnellste Weg, eine Waffe auszuwählen.	240
 altText	After selecting a weapon, hover the cursor over enemy ship. <b>The striped square</b> at the end of UI cone is where your weapon shots will be landing. Fire with <b>R-CLICK</b> and then unpause!	Nachdem Sie eine Waffe ausgewählt haben, bewegen Sie den Mauszeiger über das gegnerische Schiff. <b>Das gestreifte Quadrat</b> am Ende des UI-Kegels ist der Ort, an dem Ihre Waffenschüsse landen werden. Feuern Sie mit <b>R-KLICK</b> und heben Sie dann die Pause auf.	240
 altText	The most valuable keyboard shortcuts during battle are <b>F5</b> (for toggling weapon quick selection UI) and <b>numbers 1..9</b> (for selecting weapons). And use <b>k</b> for switching on/off modules.	Die wertvollsten Tastenkombinationen während des Kampfes sind <b>F5</b> (zum Umschalten der Waffen-Schnellauswahl-UI) und die <b>Zahlen 1..9</b> (zum Auswählen der Waffen). Und verwenden Sie <b>k</b> zum Ein- und Ausschalten von Modulen.	240
@@ -8986,12 +8986,12 @@ description	Selection of synthetic substances prepared for 3D-printers. Provides
 
 lab 1xgood.prefab
 displayName	Advanced science lab	Fortschrittliches wissenschaftliches Labor	40
-description	A very efficient & powerful lab for scientific research. Crew assigned to labs generate xenodata during ship movement, based on their science skill.	Ein sehr effizientes und leistungsstarkes Labor für wissenschaftliche Forschung. Die den Laboren zugewiesene Crew generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer wissenschaftlichen Fähigkeit.	200
+description	A very efficient & powerful lab for scientific research. Crew assigned to labs generate xenodata during ship movement, based on their science skill.	Ein sehr effizientes und leistungsstarkes Labor für wissenschaftliche Forschung. Die den Laboren zugewiesene Crew generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Forschungsfertigkeit.	200
 Research.resourceGenReason	xenodata from labs	Xenodaten aus Laboren	30
 
 lab module diy x2.prefab
 displayName	DIY Science lab	DIY-Wissenschaftslabor	40
-description	Laboratory for scientific research. Crew assigned to labs generate xenodata during ship movement, based on their science skill.	Labor für wissenschaftliche Forschungen. Die den Laboren zugewiesene Crew generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Wissenschaftsfertigkeit.	200
+description	Laboratory for scientific research. Crew assigned to labs generate xenodata during ship movement, based on their science skill.	Labor für wissenschaftliche Forschungen. Die den Laboren zugewiesene Crew generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Forschungsfertigkeit.	200
 Research.resourceGenReason	xenodata generated in labs	xenodata generiert in Laboren	30
 
 lab module x3.prefab
@@ -10524,7 +10524,7 @@ randomizerMenuStrings[i]	-50 metal	-50 Metall	30
 
 Perk module DIY lab.prefab
 displayName	Improvised laboratory	Improvisiertes Labor	40
-description	Crew assigned to laboratory generate xenodata during ship movement, based on their science skill. This lab can be obtained together with materials often used in scientific experimentation.	Die dem Labor zugewiesene Crew generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Wissenschaftsfertigkeit. Dieses Labor kann zusammen mit Materialien erhalten werden, die häufig bei wissenschaftlichen Experimenten verwendet werden.	250
+description	Crew assigned to laboratory generate xenodata during ship movement, based on their science skill. This lab can be obtained together with materials often used in scientific experimentation.	Die dem Labor zugewiesene Crew generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Forschungsfertigkeit. Dieses Labor kann zusammen mit Materialien erhalten werden, die häufig bei wissenschaftlichen Experimenten verwendet werden.	250
 randomizerMenuStrings[i]	+1 DIY lab module	+1 DIY Labor	30
 randomizerMenuStrings[i]	+10 organics	+10 Organisches	30
 randomizerMenuStrings[i]	+10 explosives	+10 Sprengstoffe	30
@@ -12194,7 +12194,7 @@ Tips pool.prefab
 	Older weapons and missiles tend to use excessive amounts of explosives.	Ältere Waffen und Raketen neigen dazu, übermäßige Mengen an Sprengstoff zu verwenden.	0
 	You learn that hitpoints are more valuable than ammo after you've died a few times because of trying to save a nuke.	Sie lernen, dass Hitpoints wertvoller sind als Munition, nachdem Sie ein paar Mal gestorben sind, weil Sie versucht haben, eine Atombombe zu retten.	0
 	You learn that hitpoints are more valuable than ammo after you've died a few times in a ship armed with nukes.	Sie lernen, dass Hitpoints wertvoller als Munition sind, nachdem Sie ein paar Mal in einem mit Nuklearwaffen bewaffneten Schiff gestorben sind.	0
-	Crew with gunnery skill increases accuracy of ship weapons they operate.	Crew mit Schießfertigkeit erhöht die Genauigkeit der Schiffswaffen, die sie bedienen.	0
+	Crew with gunnery skill increases accuracy of ship weapons they operate.	Crew mit Geschützfertigkeit erhöht die Genauigkeit der Schiffswaffen, die sie bedienen.	0
 	Older modules can sometimes malfunction and cause fires.	Ältere Module können manchmal Fehlfunktionen aufweisen und Brände verursachen.	0
 	The circle around your ship in star system view is sensor range.	Der Kreis um Ihr Schiff in der Sternensystemansicht ist die Sensorreichweite.	0
 	The circle around your ship in sector view is long-distance sensor range.	Der Kreis um Ihr Schiff in der Sektorenansicht ist die Sensorreichweite für große Entfernungen.	0
