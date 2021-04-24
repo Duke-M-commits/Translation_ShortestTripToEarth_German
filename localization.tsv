@@ -439,7 +439,7 @@ ModuleDataSubpanel.cs
 	Ship evasion bonus ({0} per operator bridge skill point)	Schiffsausweichbonus ({0} pro Bediener-Brückenfertigkeitspunkt)	0
 	Shield reload time.\nReduced by shield skill({0}% per operator shield skill point)	Schildnachladezeit.\nVerringerung durch Schild-Fertigkeit ({0}% pro Bediener-Schild-Fertigkeitspunkt)	0
 	Warp reload time.\nReduced by warp skill({0}% per operator shield skill point)	Warp-Nachladezeit.\nVerringerung durch Warp-Fertigkeit ({0}% pro Schild-Fertigkeitspunkt des Operators)	0
-	1 gardening skill point gives {0} {1} per 100ru	1 Fertigkeitspunkt Gartenarbeit ergibt {0} {1} pro 100ru	0
+	1 gardening skill point gives {0} {1} per 100re	1 Fertigkeitspunkt Gartenarbeit ergibt {0} {1} pro 100re	0
 	(if multiple operators work in garden, their skill points are added together)	(wenn mehrere Operatoren im Garten arbeiten, werden ihre Fertigkeitspunkte zusammengerechnet)	0
 
 ModuleSlotActionsPanel.cs
@@ -654,7 +654,7 @@ In multiple crew selection/overview panel. Shows module that the crew is operati
 	Gardening skill.\nClick to sort.	Gartenbau-Fertigkeit.\nKlicken Sie zum Sortieren.	0
 	Science skill.\nClick to sort.	Forschungsfertigkeit.\nKlicken Sie zum Sortieren.	0
 	Warp skill.\nClick to sort.	Warp-Fertigkeit.\nKlicken Sie zum Sortieren.	0
-	Consumption per 100ru (range units).\nClick to sort by organics consumption.	Verbrauch pro 100ru (Bereichseinheiten).\nKlicken Sie zum Sortieren nach organischem Verbrauch.	0
+	Consumption per 100re (range units).\nClick to sort by organics consumption.	Verbrauch pro 100re (Reichweiteneinheiten).\nKlicken Sie zum Sortieren nach organischem Verbrauch.	0
 	Movement speed.\nClick to sort.	Bewegungsgeschwindigkeit.\nZum Sortieren anklicken.	0
 	Role.\nClick to sort.	Rolle.\nZum Sortieren anklicken.	0
 	Health	Gesundheit	0
@@ -667,13 +667,13 @@ In multiple crew selection/overview panel. Shows module that the crew is operati
 	Handweapon skill	Handwaffen-Fertigkeit	0
 	Science skill	Forschungsfertigkeit	0
 	Warp skill	Warp-Fertigkeit	0
-	Organics consumed per 100ru	Organikverbrauch pro 100ru	0
-	Fuel consumed per 100ru	Treibstoffverbrauch pro 100ru	0
-	Explosives consumed per 100ru	Sprengstoffverbrauch pro 100ru	0
-	Exotics consumed per 100ru	Verbrauchtes Exotisches pro 100ru	0
-	Synthetics consumed per 100ru	Synthetik verbraucht pro 100ru	0
-	Metals consumed per 100ru	Verbrauchte Metalle pro 100ru	0
-	Credits consumed per 100ru	Verbrauchtes Guthaben pro 100ru	0
+	Organics consumed per 100re	Organikverbrauch pro 100re	0
+	Fuel consumed per 100re	Treibstoffverbrauch pro 100re	0
+	Explosives consumed per 100re	Sprengstoffverbrauch pro 100re	0
+	Exotics consumed per 100re	Verbrauchtes Exotisches pro 100re	0
+	Synthetics consumed per 100re	Synthetik verbraucht pro 100re	0
+	Metals consumed per 100re	Verbrauchte Metalle pro 100re	0
+	Credits consumed per 100re	Verbrauchtes Guthaben pro 100re	0
 	Currently not consuming organics	Zurzeit werden keine organischen Stoffe verbraucht	0
 	Move speed	Bewegungsgeschwindigkeit	0
 	No special role	Keine besondere Rolle	0
@@ -834,14 +834,14 @@ Game victory panel.prefab
 	Victory fate bonus calculated from final score	Siegesschicksal-Bonus vom Endstand berechnet	0
 
 Help panel.prefab
-Button	Quick Start	Schnellstart	0
-Button	Quick Start 2	Schnellstart 2	0
+Button	Quick Start	Schnellstart (Eingabegeräte)	0
+Button	Quick Start 2	Schnellstart (Bedienoberfläche)	0
 Button	Crew roles	Crew-Rollen	0
-Button	Combat & economy presets	Voreinstellungen für Kampf und Wirtschaft	0
+Button	Combat & economy presets	Voreinstellungen	0
 Button	All keyboard shortcuts	Alle Tastaturkürzel	0
 Button	Accelerated time	Beschleunigte Zeit	0
-Button	Sector view basics (warp)	Grundlagen der Sektorenansicht (Warp)	0
-Button	Sector view detials (warp)	Details zur Sektorenansicht (Warp)	0
+Button	Sector view basics (warp)	Sektorenansicht (Grundlagen)	0
+Button	Sector view detials (warp)	Sektorenansicht (Details)	0
 Button	Ship Hull Points	Schiffshüllenpunkte	0
 Button	Permanent damage	Permanenter Schaden	0
 Button	Stealth detection	Tarn-Erkennung	0
@@ -853,15 +853,15 @@ Button	Turning off modules	Ausschalten von Modulen	0
 Button	Module Damage	Modul-Schaden	0
 Button	Permanent module damage	Permanenter Modulschaden	0
 Button	Weapon types	Waffentypen	0
-Button	Battle 1	Kampf 1	0
-Button	Battle 2	Schlacht 2	0
-Button	Surviving battles	Überleben von Schlachten	0
-Button	Escaping From Battles	Aus Kämpfen entkommen	0
+Button	Battle 1	Schlacht (Zielen)	0
+Button	Battle 2	Schlacht (Tipps)	0
+Button	Surviving battles	Schlachten überleben	0
+Button	Escaping From Battles	Schlachten entfliehen	0
 Button	Doors	Türen	0
 Button	Log Messages	Log-Meldungen	0
 Button	Crew health	Gesundheit der Crew	0
 Button	Intruders	Eindringlinge	0
-Button	Managing multiple crew	Verwaltung mehrerer Besatzungen	0
+Button	Managing multiple crew	Verwaltung der Besatzungen	0
 Button	Resources	Ressourcen	0
 Button	Refueling	Tanken	0
 Button	Exotic Substances	Exotische Substanzen	0
@@ -876,10 +876,10 @@ Button	Invisible Points of Interest	Unsichtbare Points of Interest	0
 	Zoom & Pan	Zoomen und Schwenken	0
 	Select	Auswählen	0
 	Action	Aktion	0
-	Quick start	Schnellstart	0
+	Quick start	Schnellstart (Eingabegeräte)	0
 	Pan view with WASD	Ansicht mit WASD schwenken	0
 	Switch ship/starsystem view	Schiff-/Sternensystemansicht umschalten	0
-	Quick start 2	Schnellstart 2	0
+	Quick start 2	Schnellstart (Bedienoberfläche)	0
 	Ship HP	Schiff HP	0
 	Shieldpoints generated by shield module(s), shield protects against energy weapons	Schildpunkte generiert durch Schildmodul(e), Schild schützt vor Energiewaffen	0
 	General resources cur/max	Allgemeine Ressourcen cur/max	0
@@ -893,7 +893,7 @@ Button	Invisible Points of Interest	Unsichtbare Points of Interest	0
 	Toggle starsystem/ship internal view	Umschalten der Sternensystem-/Schiffsinnenansicht	0
 	In-game Time Controls	Zeitsteuerung im Spiel	0
 	Toggle power\nmanagement view	Energiemanagement-Ansicht ein- und ausschalten	0
-	Crew roles panel	Crew-Rollen-Panel	0
+	Crew roles panel	Crew-Rollen	0
 	Crew roles panel allows you to give orders to crew very quickly.\n\nClicking on the "+" sign next to a specific role (such as "repairs" or "weapons") sends the unoccupied crew with best skill to take care of it (to repair damage or operate weapons).\n\nOnly unoccupied crew can be assigned. You will have to unassign crew first to make them available to new roles. \n\nDrones & pets can be assigned to limited activities only.\nIf a drone and living entity have the same skill level, a drone will be assigned first.	Das Panel "Crew-Rollen" ermöglicht es Ihnen, der Crew sehr schnell Befehle zu erteilen.\n\nKlicken Sie auf das "+"-Zeichen neben einer bestimmten Rolle (z. B. "Reparaturen" oder "Waffen"), wird die unbeschäftigte Crew mit den besten Fähigkeiten geschickt, um sich darum zu kümmern (um Schäden zu reparieren oder Waffen zu bedienen).\n\nNur unbeschäftigte Crew kann zugewiesen werden. Sie müssen die Zuweisung der Crew zuerst aufheben, um sie für neue Rollen verfügbar zu machen. \n\nDrohnen und Haustiere können nur für begrenzte Aktivitäten zugewiesen werden.\nWenn eine Drohne und ein Lebewesen die gleiche Fertigkeitsstufe haben, wird zuerst die Drohne zugewiesen.	0
 	Optimizing your ship modules and crew positions for combat (or flying around economically) can take a lot of time. If you want to avoid manually changing your modules  every time when combat happens, you can simply save two presets of modules - one for maximum combat capability, and another for flying around.	Das Optimieren Ihrer Schiffsmodule und Besatzungspositionen für den Kampf (oder das sparsame Herumfliegen) kann eine Menge Zeit in Anspruch nehmen. Wenn Sie vermeiden möchten, Ihre Module jedes Mal manuell zu ändern, wenn ein Kampf stattfindet, können Sie einfach zwei Voreinstellungen von Modulen speichern - eine für maximale Kampffähigkeit und eine andere für das Herumfliegen.	0
 	The two default preset buttons (one for combat, one for economically flying around) allow you to save & load module layouts (and powered on/off status), together with crew roles & positions.	Die beiden Standard-Voreinstellungen (eine für den Kampf, eine für das sparsame Herumfliegen) ermöglichen Ihnen das Speichern und Laden von Modul-Layouts (und den Ein-/Aus-Status), zusammen mit den Rollen und Positionen der Crew.	0
@@ -930,24 +930,24 @@ Second line needs to be translated	Yuo\n<b>EXIT</b>	Yuo\n<b>AUSGANG</b>	0
 	SAMPLE	BEISPIEL	0
 	Warp drive 101	Warp-Antrieb 101	0
 	View system	System ansehen	0
-Example text in helpfile. RU is range-units used througout the game.	300ru	300ru	0
+Example text in helpfile. RU is range-units used througout the game.	300re	300re	0
 	Time left: 12.5s	Verbleibende Zeit: 12,5s	0
 Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max. 3 Sprünge)	0
 	We detect fleets in systems\nif their stealth level is same\nor lesser than our detection level.	Wir erkennen Flotten in Systemen\n, wenn ihre Tarnstufe gleich\noch niedriger als unsere Erkennungsstufe ist.	0
 	Sensors usually detect planets\nand other large (not all) objects in starsystems.	Sensoren erkennen normalerweise Planeten\n und andere große (nicht alle) Objekte in Sternensystemen.	0
 	Trade signals show presence of stations\nor other actors willing to trade.	Handelssignale zeigen die Anwesenheit von Stationen\n oder anderen handelswilligen Akteuren.	0
 	We cannot see information about starsystems\noutside our sensor range.	Wir können keine Informationen über Sternensysteme\naußerhalb unserer Sensorreichweite sehen.	0
-	Sector view basics	Grundlagen der Sektoransicht	0
+	Sector view basics	Sektorenansicht (Grundlagen)	0
 	When enemy is nearby, or in battles, warp drive takes some time to warm up and warp.\nIn other instances warping is almost instant. Some warpmodules load up faster than others.	Wenn ein Feind in der Nähe ist, oder in Kämpfen, braucht der Warp-Antrieb einige Zeit, um sich aufzuwärmen und zu warpen.\n In anderen Fällen ist das Warpen fast sofort. Einige Warpmodule laden schneller auf als andere.	0
 	Warpdrives consume a lot of fuel with each warp.	Warp-Antriebe verbrauchen bei jedem Warp eine Menge Treibstoff.	0
 	Stealth detection level.	Tarnkappen-Erkennungsstufe.	0
-	Sector view\nsensor range	Sektoransicht\nSensorreichweite	0
-	Sector view details	Details der Sektorenansicht	0
+	Sector view\nsensor range	Sensorreichweite	0
+	Sector view details	Sektorenansicht (Details)	0
 	Successful attacks can damage our ship integrity, which is measured in Hull Points (HP).\r Any damage to ship HP will be represented by damage tokens on the ship hull.\n \r\n\rThere are many different types of damage tokens, some of them are critical and may cause further explosions or fires if not repaired quickly. \r\n\nRepairing damage tokens manually with crew takes a fair amount of time & is more expensive than repairing in stations. \rDamage tokens inside walls can be only repaired at stations.\n\nYou can assign "repair officer" role to crewmembers so they go and repair tokens automatically.	Erfolgreiche Angriffe können unsere Schiffsintegrität beschädigen, die in Hüllenpunkten (HP) gemessen wird.\r Jeder Schaden an den HP des Schiffes wird durch Schadensmarken an der Schiffshülle dargestellt.\r\n \r\n\rEs gibt viele verschiedene Arten von Schadensmarken, einige davon sind kritisch und können weitere Explosionen oder Brände verursachen, wenn sie nicht schnell repariert werden. \r\n\nDie manuelle Reparatur von Schadensmarken durch die Besatzung nimmt ziemlich viel Zeit in Anspruch & ist teurer als die Reparatur in Stationen. \rSchadensmarken innerhalb von Wänden können nur an Stationen repariert werden.\n\nSie können Crewmitgliedern die Rolle des "Reparaturoffiziers" zuweisen, so dass sie automatisch zur Reparatur von Marken gehen.	0
 	Ship hull points	Schiffshüllenpunkte	0
 	In easier game mode(s): when ship HP reaches 0, damage is substracted from ship max HP. This permanent damage cannot be repaired.	In leichteren Spielmodi: Wenn die Schiffshüllenpunkte 0 erreichen, wird der Schaden von den maximalen Schiffshüllenpunkten abgezogen. Dieser permanente Schaden kann nicht repariert werden.	0
 	If your stealth detection is same or higher than stealth level of enemy fleet, you will see the enemy fleet as a red icon and also the area that it guards on the starsystem map.	Wenn Ihre Tarnkappenerkennung gleich oder höher ist als die Tarnkappenstufe der gegnerischen Flotte, sehen Sie die gegnerische Flotte als rotes Symbol und auch den Bereich, den sie bewacht, auf der Sternensystemkarte.	0
-	High danger of\nasteroid impacts	Hohe Gefahr von \Nasteroideneinschlägen	0
+	High danger of\nasteroid impacts	Hohe Gefahr von\nAsteroideneinschlägen	0
 	Concentrated asteroid clusters have increased risk of impacts. \nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidencluster mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktverteidigungen und Integritätsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0
 	Weapons & other modules	Waffen und andere Module	0
 	Weapons and ECM modules can only be installed to external slots:	Waffen und ECM-Module können nur auf externen Slots installiert werden:	0
@@ -1029,7 +1029,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	11. Crew Hit points	11. Crew-Trefferpunkte	0
 	Remaining capacity to absorb damage. \r\nA red cross on crewmember indicates the crew is wounded.	Verbleibende Fähigkeit, Schaden zu absorbieren. \r\nEin rotes Kreuz bei einem Crewmitglied zeigt an, dass die Crew verwundet ist.	0
 	12. Crew consumption	12. Crew-Verbrauch	0
-	Amount of resources crewmember consumes when ship is travelling (per 100ru).	Menge der Ressourcen, die ein Crewmitglied verbraucht, wenn das Schiff unterwegs ist (pro 100ru).	0
+	Amount of resources crewmember consumes when ship is travelling (per 100re).	Menge der Ressourcen, die ein Crewmitglied verbraucht, wenn das Schiff unterwegs ist (pro 100re).	0
 	13. Crew speed	13. Crew-Geschwindigkeit	0
 	Speed of moving around inside the ship.	Geschwindigkeit, mit der sich die Crew im Schiff bewegt.	0
 	14. Current hand weapon	14. Aktuelle Handwaffe	0
@@ -1579,10 +1579,10 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Synthetics consumed per minute	Synthetikverbrauch pro Minute	0
 	Explosives consumed per minute	Sprengstoffverbrauch pro Minute	0
 	Exotics consumption per minute	Exotikverbrauch pro Minute	0
-	Current organics production per 100ru travelled.	Aktuelle Produktion von organischen Stoffen pro 100 zurückgelegte Kilometer.	0
-	Current synthetics production per 100ru travelled.	Aktuelle Synthetik-Produktion pro 100 Reisetage.	0
-	Current credits production per 100ru travelled.	Aktuelle Credit-Produktion pro 100ru gereist.	0
-	1 research skill point gives 1 credit per 100ru.\n(if multiple operators work in research lab, their skill points are added together)	1 Forschungs-Fertigkeitspunkt ergibt 1 Credit pro 100ru. (Wenn mehrere Operatoren im Forschungslabor arbeiten, werden ihre Fertigkeitspunkte addiert)	0
+	Current organics production per 100re travelled.	Aktuelle Produktion von organischen Stoffen pro 100 zurückgelegte Kilometer.	0
+	Current synthetics production per 100re travelled.	Aktuelle Synthetik-Produktion pro 100 Reisetage.	0
+	Current credits production per 100re travelled.	Aktuelle Credit-Produktion pro 100re gereist.	0
+	1 research skill point gives 1 credit per 100re.\n(if multiple operators work in research lab, their skill points are added together)	1 Forschungs-Fertigkeitspunkt ergibt 1 Credit pro 100re. (Wenn mehrere Operatoren im Forschungslabor arbeiten, werden ihre Fertigkeitspunkte addiert)	0
 	Crew resource consumption is removed when it operates/uses this module.	Der Ressourcenverbrauch der Crew wird entfernt, wenn sie dieses Modul bedient/verwendet.	0
 	no need	kein Bedarf	23
 	Current / maximum operators in module	Aktuelle / maximale Bediener im Modul	0
@@ -1658,7 +1658,7 @@ Button/Toggle. Opens starsystem view.	STAR	STERN	6
 	Module crafts available!	Modul Handwerk verfügbar!	0
 	CRAFTABLES	HER- \nSTELLEN	10
 	Ship hull integrity critically low,\navoid battles and repair your ship.	Schiffshüllenintegrität kritisch niedrig, vermeiden Sie Kämpfe und reparieren Sie Ihr Schiff.	0
-	LOW	NIEDRIG	6
+	LOW	FAST\nLEER	6
 	Fire aboard ship!\nDisables accelerated internal time.	Feuer an Bord des Schiffes!\nDeaktiviert beschleunigte interne Zeit.	0
 	FIRE	FEUER	6
 	Intruders on board!\nDisables accelerated internal time.	Eindringlinge an Bord!\nDeaktiviert beschleunigte interne Zeit.	0
@@ -1666,12 +1666,12 @@ Button/Toggle. Opens starsystem view.	STAR	STERN	6
 	Hostile ships in combat range.\nDisables accelerated internal time.	Feindliche Schiffe in Kampfreichweite!\nDeaktiviert beschleunigte interne Zeit.	0
 Maximum letters on one row: 10, possible 2 rows	HOSTILE\nSHIPS	FEINDL.\nSCHIFFE	10
 	Jammed by hostiles.\nDisables accelerated internal time.	Von Feinden blockiert.\nDeaktiviert beschleunigte interne Zeit.	0
-	JAMMED	BLOCKIERT	10
+	JAMMED	BLOCK- \nIERT	10
 	Capital missile incoming!\nDisables accelerated internal time.	Raketen im Anflug!\nDeaktiviert beschleunigte interne Zeit.	0
 	INCOMING	IM\nANFLUG	10
 	Intruders incoming!\nDisables accelerated internal time.	Eindringlinge im Anflug!\nDeaktiviert beschleunigte interne Zeit.	0
 	Using warp modules is disabled due to enemy jamming	Die Verwendung von Warp-Modulen ist aufgrund feindlicher Blockierung deaktiviert	0
-	WARP\nJAMMED	BLOCKIERT	10
+	WARP\nJAMMED	BLOCK- \nIERT	10
 	Can't warp.\nToo far from stars	Kann nicht warpen.\nZu weit von Sternen entfernt	0
 Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU\nWEIT	10
 	No fuel, cannot move.\nScrap some less valuable fuel-yielding modules/nukes,\nor use the SOS-beacon.	Kein Treibstoff, kann sich nicht bewegen.\nVerschrotten Sie einige weniger wertvolle treibstoffproduzierende Module/Nukes,\noder benutzen Sie die SOS-Bake.	0
@@ -1713,7 +1713,7 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	BEAM\nACTIVATION	STRAHL-\nAKTIVIERUNG	10
 	RESOURCES	RESSOURCEN	22
 	Open materials convertors	Öffne Materialien Konverter	0
-	/ 100ru	/ 100ru	0
+	/ 100re	/ 100re	0
 	Power consumed / capacity	Verbrauchte Leistung / Kapazität	0
 	CREW/MODULES/POWER	VOREINSTELLUNGEN	22
 	Save all current crew positions, roles and module power on/off profile	Alle aktuellen Crew-Positionen, Rollen und Module als Voreinstellung speichern	0
@@ -6237,7 +6237,7 @@ displayName	Terran beacon	Terranisches Leuchtfeuer	25
 name2	((stealthy signal))	((Unauffälliges Signal))	25
 text2	We leave the beacon behind, to warn & inform other Earth ships. It will probably continue its job for hundreds of years to come.	Wir lassen das Leuchtfeuer zurück, um andere Erdenschiffe zu warnen und zu informieren. Es wird wahrscheinlich noch Hunderte von Jahren seine Aufgabe erfüllen.	400
 title	Terran military beacon	Terranische Militärbake	35
-text2	The Squids have overlooked this Earth military spy beacon. Its pings are scrambled to conceal them as background static. The beacon's miniature AI gives a summary of recent local events. \nNot much has happened here, but the beacon has data about passing Squid ships and their technical details. It appears most of the ships were armed with ray weapons. What should we do with the beacon?	Die Squids haben diese militärische Spionagebake der Erde übersehen. Seine Pings sind verschlüsselt, um sie als Hintergrundrauschen zu verbergen. Die Miniatur-KI der Bake gibt eine Zusammenfassung der letzten lokalen Ereignisse. \Nicht viel ist hier passiert, aber die Bake hat Daten über vorbeifliegende Squid-Schiffe und deren technische Details. Es scheint, dass die meisten Schiffe mit Strahlenwaffen bewaffnet waren. Was sollen wir mit der Bake machen?	400
+text2	The Squids have overlooked this Earth military spy beacon. Its pings are scrambled to conceal them as background static. The beacon's miniature AI gives a summary of recent local events. \nNot much has happened here, but the beacon has data about passing Squid ships and their technical details. It appears most of the ships were armed with ray weapons. What should we do with the beacon?	Die Squids haben diese militärische Spionagebake der Erde übersehen. Seine Pings sind verschlüsselt, um sie als Hintergrundrauschen zu verbergen. Die Miniatur-KI der Bake gibt eine Zusammenfassung der letzten lokalen Ereignisse. \nNicht viel ist hier passiert, aber die Bake hat Daten über vorbeifliegende Squid-Schiffe und deren technische Details. Es scheint, dass die meisten Schiffe mit Strahlenwaffen bewaffnet waren. Was sollen wir mit der Bake machen?	400
 choiceTexts	Leave it to warn other Earth ships	Es als Warnung für andere Erdenschiffe stehen lassen	100
 choiceTexts	Scrap it [expected value: ~40 synthetics]	Verschrotten [Erwarteter Wert: ~40 Synthetik]	100
 text2	Beacon scrapped.	Bake verschrottet.	400
