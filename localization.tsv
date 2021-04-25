@@ -172,7 +172,7 @@ CrewRepairs.cs
 	Warning, repair stopped. Not enough resources	Warnung, Reparatur gestoppt. Nicht genug Ressourcen	0
 
 DequeueNextComtip.cs
-	New message displayed. {0} left to display	Neue Meldung wird angezeigt. {0} links zum Anzeigen	0
+	New message displayed. {0} left to display	Neue Meldung wird angezeigt. {0} übrig	0
 plural	message|messages	Meldung|Meldungen	0
 
 DoChoiceButtons.cs
@@ -182,15 +182,15 @@ GameVictoryPanel.cs
 	Pets taken care of: {0}	Haustiere werden versorgt: {0}	0
 	Friends met: {0}	Freunde getroffen: {0}	0
 	Lovers met: {0}	Liebhaber getroffen: {0}	0
-	Demoralization due to Excess overcome {0} times	Demoralisierung durch Exzess überwunden {0} mal	0
-	Demoralization by Greed overcome {0} times	Demoralisierung durch Gier überwunden {0} mal	0
-	Demoralization by Defeat overcome {0} times	Demoralisierung durch Niederlagen überwunden {0}-mal	0
+	Demoralization due to Excess overcome {0} times	Demoralisierung durch Exzess {0} Mal überwunden	0
+	Demoralization by Greed overcome {0} times	Demoralisierung durch Gier {0} Mal überwunden	0
+	Demoralization by Defeat overcome {0} times	Demoralisierung durch Niederlagen {0} Mal überwunden	0
 	Hope of External Help experienced at least {0} times	Hoffnung auf externe Hilfe mindestens {0} Mal erlebt	0
-	Fear of Loss personally confronted {0} times	Angst vor Verlust persönlich konfrontiert {0}-mal	0
-	Moments of natural beauty enjoyed {0} times	Momente von natürlicher Schönheit genossen {0} mal	0
-	Time streched {0} times	Zeit gedehnt {0} mal	0
-	Time for the most valuable thing in the world taken {0} times	Zeit für die wertvollste Sache der Welt genommen {0} mal	0
-	FINAL SCORE: {0} fate	ENDGÜLTIGES ERGEBNIS: {0} Mal	0
+	Fear of Loss personally confronted {0} times	Angst vor Verlust persönlich {0} Mal konfrontiert	0
+	Moments of natural beauty enjoyed {0} times	Momente von natürlicher Schönheit {0} Mal genossen	0
+	Time streched {0} times	Zeit {0} Mal gedehnt	0
+	Time for the most valuable thing in the world taken {0} times	Zeit für die wertvollste Sache der Welt {0} Mal genommen	0
+	FINAL SCORE: {0} fate	ENDGÜLTIGES ERGEBNIS: {0} Schicksal	0
 
 MothershipSelection.cs
 	No playable ships available. Broken install?	Keine spielbaren Schiffe verfügbar. Defekte Installation?	0
@@ -212,10 +212,10 @@ SectorSelection.cs
 
 ShipAction.cs
 	Any garden or lab modules switched off due to enemy presence	Garten- und Labormodule aufgrund von Feindpräsenz ausgeschaltet	0
-	Garden and lab modules switched on due to battle end	Garten- und Labormodule aufgrund von Kampfende angeschaltet	0
+	Garden and lab modules switched on due to battle end	Garten- und Labormodule aufgrund von Kampfende eingeschaltet	0
 
 ShopCrewManager.cs
-	crew hire	Besatzung einstellen	0
+	crew hire	Besatzung anheuern	0
 
 ShopRepairManager.cs
 	Repair {0} HP for	Reparatur {0} HP für	0
@@ -2425,16 +2425,16 @@ choiceText	Pay the tax, travel to next sector [-300 credits]	Zahlt die Steuer, r
 choiceText	Attempt to bribe [-7 exotics]	Versuch der Bestechung [-7 Exotics]	100
 choiceText	Your rules inspire me to question them [ready for battle]	Ihre Regeln inspirieren mich, sie in Frage zu stellen [bereit zum Kampf]	100
 choiceText	Leave for now [let's prepare for this fight properly]	Verlassen Sie uns vorerst [bereiten wir uns auf diesen Kampf richtig vor]	100
-title	Rat Empire official	Offizieller des Rattenimperiums	35
+title	Rat Empire official	Vertreter des Rattenimperiums	35
 text2	"Carry on existing, visitor. But remember that each visit to guarded territory will cost you separately."	Bleiben Sie bestehen, Besucher. Aber denken Sie daran, dass jeder Besuch in bewachtem Territorium Sie gesondert kostet.	400
 text2	"Go through, generous visitor."	Geh durch, großzügiger Besucher.	400
 
 Level 10 exit, insectoid bossfight 2.prefab
 title	The warpgate to Earth	Das Warptor zur Erde	35
 text	We've reached the long-range warpgate to Earth.	Wir haben das Langstrecken-Warptor zur Erde erreicht.	600
-title	Vengeance Fleet Commander	Flottenkommandeur der Vengeance	35
+title	Vengeance Fleet Commander	Flottenkommandeur der Vergeltung	35
 okButtonText	We will interfere	Wir werden uns einmischen	7
-text	"Captain, surely you understand this is nothing personal, but a matter of very important and totally honourable tradition. \n\nFeel free to step aside and not interfere. I must honor our tradition of Vengeance, and avenge our captured queens by destroying Earth... as it was decided by Wives of our Elders when they ceremonially played the ancient Bone Dice game. Even you must see that it is absolutely logical!\n\nBe warned that we will shoot our secondary weapons at you if you interfere, and we have a few tricks if you press the issue. Our mission is to only destroy the bad Earth, not you."	Captain, Sie verstehen sicher, dass dies nichts Persönliches ist, sondern eine sehr wichtige und absolut ehrenhafte Angelegenheit. \n\nEs steht Ihnen frei, zur Seite zu treten und sich nicht einzumischen. Ich muss unsere Tradition der Rache ehren und unsere gefangenen Königinnen rächen, indem ich die Erde zerstöre... wie es von den Frauen unserer Ältesten beschlossen wurde, als sie zeremoniell das alte Knochenwürfelspiel spielten. Selbst ihr müsst sehen, dass es absolut logisch ist! \n\nSeid gewarnt, dass wir mit unseren Sekundärwaffen auf euch schießen werden, wenn ihr euch einmischt, und wir haben ein paar Tricks, wenn ihr Druck macht. Unsere Mission ist es, nur die böse Erde zu zerstören, nicht Sie.	600
+text	"Captain, surely you understand this is nothing personal, but a matter of very important and totally honourable tradition. \n\nFeel free to step aside and not interfere. I must honor our tradition of Vengeance, and avenge our captured queens by destroying Earth... as it was decided by Wives of our Elders when they ceremonially played the ancient Bone Dice game. Even you must see that it is absolutely logical!\n\nBe warned that we will shoot our secondary weapons at you if you interfere, and we have a few tricks if you press the issue. Our mission is to only destroy the bad Earth, not you."	Captain, Sie verstehen sicher, dass dies nichts Persönliches ist, sondern eine sehr wichtige und absolut ehrenhafte Angelegenheit. \n\nEs steht Ihnen frei, zur Seite zu treten und sich nicht einzumischen. Ich muss unsere Tradition der Vergeltung ehren und unsere gefangenen Königinnen rächen, indem ich die Erde zerstöre... wie es von den Frauen unserer Ältesten beschlossen wurde, als sie zeremoniell das alte Knochenwürfelspiel spielten. Selbst ihr müsst sehen, dass es absolut logisch ist! \n\nSeid gewarnt, dass wir mit unseren Sekundärwaffen auf euch schießen werden, wenn ihr euch einmischt, und wir haben ein paar Tricks, wenn ihr Druck macht. Unsere Mission ist es, nur die böse Erde zu zerstören, nicht Sie.	600
 text	Hours waited... #	Stundenlang gewartet... #	50
 okButtonText	Prepare for battle	Auf den Kampf vorbereiten	7
 text	The enemy planetkiller ship is on route to this warpgate. It will most likely attempt shooting through the warpgate without actually entering the portal itself. We must wait here to intercept it. Prepare everything we got, no holding back now.	Das feindliche Planetenkillerschiff ist auf dem Weg zu diesem Warptor. Es wird höchstwahrscheinlich versuchen, durch das Warptor zu schießen, ohne das Portal selbst zu betreten. Wir müssen hier warten, um es abzufangen. Bereitet alles vor, was wir haben. Jetzt gibt es kein Halten mehr.	600
@@ -2467,8 +2467,8 @@ text2	Our utility bots have scooped up everything of value.	Unsere Versorgungsbo
 
 Level 7 exit no fight.prefab
 displayName	Warpgate ship	Warptor-Schiff	25
-title	Intelligent BankTM guard	Intelligente BankTM-Wache	35
-text	"Dear Potential Client, we regret to inform you that for financial reasons, your rating has been downgraded to Unlikely Client, leading to immediate relationship termination (including the termination of your consciousness, for security reasons). We apologize for the inconvenience!"	Sehr geehrter potenzieller Kunde, wir bedauern, Ihnen mitteilen zu müssen, dass Ihr Rating aus finanziellen Gründen auf Unwahrscheinlicher Kunde herabgestuft wurde, was zur sofortigen Beendigung der Beziehung führt (einschließlich der Beendigung Ihres Bewusstseins, aus Sicherheitsgründen). Wir entschuldigen uns für die Unannehmlichkeiten!	400
+title	Intelligent BankTM guard	Intelligente Bank™-Wache	35
+text	"Dear Potential Client, we regret to inform you that for financial reasons, your rating has been downgraded to Unlikely Client, leading to immediate relationship termination (including the termination of your consciousness, for security reasons). We apologize for the inconvenience!"	Sehr geehrter potenzieller Kunde, wir bedauern, Ihnen mitteilen zu müssen, dass Ihre Beurteilung aus finanziellen Gründen auf "Unwahrscheinlicher Kunde" herabgestuft wurde, was zur sofortigen Beendigung der Beziehung führt (einschließlich der Beendigung Ihres Bewusstseins, aus Sicherheitsgründen). Wir entschuldigen uns für die Unannehmlichkeiten!	400
 title	Warpgate ship captain	Warptor-Schiffskapitän	35
 text2	"Hello there, fellow Captain! Nice ship you have there! Please take these supplies before you enter our gate. And my sincere compliments on your physique... good luck!"	Hallöchen, lieber Kapitän! Ein schönes Schiff haben Sie da! Bitte nehmen Sie diese Vorräte mit, bevor Sie unser Tor betreten. Und mein aufrichtiges Kompliment für Ihren Körperbau ... viel Glück!	400
 reasonToDisplay	resources received	Ressourcen erhalten	30
@@ -3299,7 +3299,7 @@ title	Exotics collected	Exoten gesammelt	35
 text2	We successfully cut through the security door. It seems mining was temporarily put on hold here and never resumed. There were several exposed seams of exotic minerals and our bots mined from there until they no longer could. The operation was a big success.	Wir haben erfolgreich die Sicherheitstür durchbrochen. Es scheint, dass der Bergbau hier vorübergehend unterbrochen und nie wieder aufgenommen wurde. Es gab mehrere freiliegende Flöze mit exotischen Mineralien und unsere Bots bauten dort ab, bis sie nicht mehr konnten. Die Operation war ein großer Erfolg.	400
 text	demolition operation... %	Abbrucharbeiten... %	50
 text	installing cutters... %	Installation von Energieschneidern... %	50
-text	"Warning. Access to this mining planet is restricted to Intelligent Banks TM authorized vessels. Failure to respect property borders will result in attack by orbital defences."	Warnung. Der Zugang zu diesem Bergbauplaneten ist auf von Intelligent Banks TM autorisierte Schiffe beschränkt. Nichtbeachtung der Eigentumsgrenzen führt zu einem Angriff der orbitalen Verteidigungsanlagen.	400
+text	"Warning. Access to this mining planet is restricted to Intelligent Banks TM authorized vessels. Failure to respect property borders will result in attack by orbital defences."	Warnung. Der Zugang zu diesem Bergbauplaneten ist auf autorisierte Intelligenten Bank™-Schiffe beschränkt. Nichtbeachtung der Eigentumsgrenzen führt zu einem Angriff der orbitalen Verteidigungsanlagen.	400
 text2	We managed to destroy the defence satellites. Their weapons were too short-ranged to reach us.	Es gelang uns, die Verteidigungssatelliten zu zerstören. Ihre Waffen hatten eine zu kurze Reichweite, um uns zu erreichen.	400
 text2	We send a swarm of cheaply printed long-range missiles towards the planet. The satellites prove to be equipped with point-defences, picking off some of our missiles before they reach the target.	Wir schicken einen Schwarm billig gedruckter Langstreckenraketen auf den Planeten. Die Satelliten erweisen sich als mit Punktabwehrsystemen ausgestattet, die einige unserer Raketen abfangen, bevor sie das Ziel erreichen.	400
 text	We were able to destroy some of the satellites, but a number of them remain functional. Next action?	Wir konnten einige der Satelliten zerstören, aber einige von ihnen bleiben funktionsfähig. Nächste Aktion?	400
@@ -9360,7 +9360,7 @@ description	A capital missile that rams enemy ships with incredible kinetic forc
 
 weapon ATK-MK1 old.prefab
 displayName	ATK-cannon I (old)	ATK-Kanone I (alt)	40
-description	Heavy weapons that provide solid shield-penetrative firepower at the cost of explosives. Robust structure improves ship HP. Each projectile has 4hp.	Schwere Waffen, die solide schilddurchdringende Feuerkraft auf Kosten von Sprengstoff bieten. Die robuste Struktur verbessert die HP des Schiffes. Jedes Projektil hat 4 PS.	200
+description	Heavy weapons that provide solid shield-penetrative firepower at the cost of explosives. Robust structure improves ship HP. Each projectile has 4hp.	Schwere Waffe, die solide schilddurchdringende Feuerkraft auf Kosten von Sprengstoff bietet. Die robuste Struktur verbessert die HP des Schiffes. Jedes Projektil hat 4 PS.	200
 
 weapon ATK-MK1.prefab
 displayName	ATK-cannon I	ATK-Kanone I	40
@@ -9409,15 +9409,15 @@ displayName	DIY firecannon MK2	DIY-Feuerkanone MK2	40
 description	Shoots balls that cause fire on impact. Rapid rate of fire and more crew damage compared to MK1. Projectiles have 1hp each.	Schießt Kugeln, die beim Aufprall Feuer verursachen. Schnelle Feuerrate und mehr Mannschaftsschaden im Vergleich zu MK1. Projektile haben jeweils 1hp.	200
 
 weapon emperorbanks cannon large.prefab
-displayName	Intelligent BankTM cannon IIIA	Intelligente BankTM-Kanone IIIA	40
+displayName	Intelligent BankTM cannon IIIA	Intelligente Bank™-Kanone IIIA	40
 description	These cannons rely on abundant use of explosives to print & propel massive, almost nuke-sized projectiles (which may be deflected). Robust structure improves ship HP. Projectile has 8hp.	Diese Kanonen setzen auf den reichlichen Einsatz von Sprengstoff, um massive, fast nukleargroße Projektile zu drucken und abzuschießen (die abgelenkt werden können). Die robuste Struktur verbessert die HP des Schiffes. Das Projektil hat 8 PS.	200
 
 weapon emperorbanks cannon1x.prefab
-displayName	Intelligent BankTM cannon IA	Intelligente BankTM-Kanone IA	40
+displayName	Intelligent BankTM cannon IA	Intelligente Bank™-Kanone IA	40
 description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 5hp each.	Imperiale Kanonen verlassen sich auf den reichlichen Einsatz von Sprengstoff, um eine hohe Geschwindigkeit des Geschosses zu erreichen. Die robuste Struktur verbessert die Schiffs-HP. Die Projektile haben jeweils 5 PS.	200
 
 weapon emperorbanks cannon2x.prefab
-displayName	Intelligent BankTM cannon IIA	Intelligente BankTM-Kanone IIA	40
+displayName	Intelligent BankTM cannon IIA	Intelligente Bank™-Kanone IIA	40
 
 weapon Energy cannon OP.prefab
 displayName	Energy cannon Overcharger	Energiekanone Overcharger	40
@@ -9612,11 +9612,11 @@ displayName	Dual effector, type Red	Doppeleffektor, Typ Rot	40
 description	Universal laser, shoots two laser beams. Robust structure improves ship HP.	Universal-Laser, schießt zwei Laserstrahlen. Robuste Konstruktion verbessert die Schiffs-HP.	200
 
 weapon emperor laser large.prefab
-displayName	Intelligent BankTM large laser	Intelligenter BankTM-Großlaser	40
+displayName	Intelligent BankTM large laser	Intelligente Bank™-Großlaser	40
 description	Universal laser, produces 3 laser beams. Robust structure improves ship HP.	Universal-Laser, erzeugt 3 Laserstrahlen. Robuste Struktur verbessert die Schiffs-HP.	200
 
 weapon emperor minilaser.prefab
-displayName	Intelligent BankTM minilasers	Intelligente BankTM-Minilaser	40
+displayName	Intelligent BankTM minilasers	Intelligente Bank™-Minilaser	40
 description	The laser is traditionally equipped with manipulators to clean dead bodies from ship externals. Produces 2 laser beams.	Der Laser ist traditionell mit Manipulatoren ausgestattet, um die Schiffsaußenhaut von toten Körpern zu reinigen. Erzeugt 2 Laserstrahlen.	200
 
 weapon Florallaser.prefab
@@ -9821,11 +9821,11 @@ displayName	DIY heavy rocket launcher	DIY schwerer Raketenwerfer	40
 description	Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect. A launched missile has 2hp.	Improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu drucken und abzuschießen. Die Raketen werden nicht abgelenkt. Eine abgeschossene Rakete hat 2hp.	200
 
 weapon emperormissile large x5.prefab
-displayName	Intelligent BankTM rocket launcher (x5)	Intelligenter BankTM-Raketenwerfer (x5)	40
+displayName	Intelligent BankTM rocket launcher (x5)	Intelligente Bank™-Raketenwerfer (x5)	40
 description	Platform for rapidly printing & launching rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken & Starten von Raketen. Raketen lenken nie ab und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1hp.	200
 
 weapon emperormissiles small x2.prefab
-displayName	Intelligent BankTM missile launcher (x2)	Intelligenter BankTM-Raketenwerfer (x2)	40
+displayName	Intelligent BankTM missile launcher (x2)	Intelligente Bank™-Raketenwerfer (x2)	40
 description	Platform for printing and shooting heavy missiles with increased armor. Missiles never deflect and damage enemy modules in a large area. These missiles have 2hp each.	Plattform zum Drucken und Abschießen schwerer Raketen mit erhöhter Panzerung. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich. Diese Raketen haben jeweils 2hp.	200
 
 weapon miscmissile x4.prefab
