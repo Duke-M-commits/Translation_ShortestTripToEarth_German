@@ -112,7 +112,7 @@ Door.cs
 
 HoverableUILeakWarning.cs
 	{0} is leaking	{0} ist undicht	0
-	Disables accelerated internal time.	Deaktiviert die beschleunigte interne Zeit.	0
+	Disables accelerated internal time.	Deaktiviert die beschleunigte Zeit.	0
 
 HoverableUISlotUpgrades.cs
 	Module slots that can be gained by upgrading existing slots:	Modulsteckplätze, die durch Aufrüstung vorhandener Steckplätze gewonnen werden können:	0
@@ -125,8 +125,8 @@ HoverPanel.cs
 	Shield	Schild	0
 	EMP	EMP	0
 	CAN'T SHOOT	KANN NICHT SCHÜTZEN	0
-	n/a	k.A.	0
-	Distance {0}ru	Entfernung {0}ru	0
+	n/a		0
+	Distance {0}ru	Entfernung {0}re	0
 	CAN'T MOVE	KANN SICH NICHT BEWEGEN	0
 	Credits	Credits	0
 
@@ -1628,7 +1628,7 @@ Convert to fuel	CONV. TO FUEL	KONV. IN TREIBSTOFF	0
 ResourceActionsPanel	Get {0} from conversion	Sie bekommen {0} aus der Konvertierung	0
 
 Player panel.prefab
-	[ ACCELERATED INTERNAL TIME ]	[ BESCHLEUNIGTE INTERNE ZEIT ]	0
+	[ ACCELERATED INTERNAL TIME ]	[ BESCHLEUNIGTE ZEIT ]	0
 	The speed of crew walking, repairing, healing or doing other things will accelerate when there are no threats or other bad things.	Die Geschwindigkeit, mit der sich die Crew bewegt, repariert, heilt oder andere Dinge tut, wird beschleunigt, wenn es keine Bedrohungen oder andere schlechte Dinge gibt.	0
 	Revisit this POI	Diesen POI erneut besuchen	0
 	REVISIT	WIEDER BESUCHEN	0
@@ -1659,17 +1659,17 @@ Button/Toggle. Opens starsystem view.	STAR	STERN	6
 	CRAFTABLES	HER- \nSTELLEN	10
 	Ship hull integrity critically low,\navoid battles and repair your ship.	Schiffshüllenintegrität kritisch niedrig, vermeiden Sie Kämpfe und reparieren Sie Ihr Schiff.	0
 	LOW	FAST\nLEER	6
-	Fire aboard ship!\nDisables accelerated internal time.	Feuer an Bord des Schiffes!\nDeaktiviert beschleunigte interne Zeit.	0
+	Fire aboard ship!\nDisables accelerated internal time.	Feuer an Bord des Schiffes!\nDeaktiviert beschleunigte Zeit.	0
 	FIRE	FEUER	6
-	Intruders on board!\nDisables accelerated internal time.	Eindringlinge an Bord!\nDeaktiviert beschleunigte interne Zeit.	0
+	Intruders on board!\nDisables accelerated internal time.	Eindringlinge an Bord!\nDeaktiviert beschleunigte Zeit.	0
 	INTRUDERS	EINDRI- \nNGLINGE	10
-	Hostile ships in combat range.\nDisables accelerated internal time.	Feindliche Schiffe in Kampfreichweite!\nDeaktiviert beschleunigte interne Zeit.	0
+	Hostile ships in combat range.\nDisables accelerated internal time.	Feindliche Schiffe in Kampfreichweite!\nDeaktiviert beschleunigte Zeit.	0
 Maximum letters on one row: 10, possible 2 rows	HOSTILE\nSHIPS	FEINDL.\nSCHIFFE	10
-	Jammed by hostiles.\nDisables accelerated internal time.	Von Feinden blockiert.\nDeaktiviert beschleunigte interne Zeit.	0
+	Jammed by hostiles.\nDisables accelerated internal time.	Von Feinden blockiert.\nDeaktiviert beschleunigte Zeit.	0
 	JAMMED	BLOCK- \nIERT	10
-	Capital missile incoming!\nDisables accelerated internal time.	Raketen im Anflug!\nDeaktiviert beschleunigte interne Zeit.	0
+	Capital missile incoming!\nDisables accelerated internal time.	Raketen im Anflug!\nDeaktiviert beschleunigte Zeit.	0
 	INCOMING	IM\nANFLUG	10
-	Intruders incoming!\nDisables accelerated internal time.	Eindringlinge im Anflug!\nDeaktiviert beschleunigte interne Zeit.	0
+	Intruders incoming!\nDisables accelerated internal time.	Eindringlinge im Anflug!\nDeaktiviert beschleunigte Zeit.	0
 	Using warp modules is disabled due to enemy jamming	Die Verwendung von Warp-Modulen ist aufgrund feindlicher Blockierung deaktiviert	0
 	WARP\nJAMMED	BLOCK- \nIERT	10
 	Can't warp.\nToo far from stars	Kann nicht warpen.\nZu weit von Sternen entfernt	0
