@@ -221,8 +221,8 @@ ShopRepairManager.cs
 	Repair {0} HP for	Reparatur {0} HP für	0
 
 ResourceTransactionMaker.cs
-	buy	kaufen	0
-	sell	verkaufen	0
+	buy	Kaufen	0
+	sell	Verkaufen	0
 
 ShopResourceManager.cs
 	can't sell that much	kann nicht so viel verkaufen	0
@@ -241,15 +241,15 @@ StartBattle.cs
 	--- BATTLE START ---	--- KAMPFBEGINN ---	0
 
 TutorialWait.cs
-	for weapon crafting	für Waffenhandwerk	0
-	for slot upgrade	für Slot-Upgrade	0
+	for weapon crafting	für selbst gebaute Waffen	0
+	for slot upgrade	für Steckplatz-Aufrüstung	0
 
 POI.cs
 	Analysing data...	Analyse der Daten...	0
 
 PointDefDamageDealer.cs
-	Enemy defences have nutralized one of our {0}s	Feindliche Abwehr hat eine unserer {0}s neutralisiert	0
-	Incoming {0} neutralized	Eingehende {0} neutralisiert	0
+	Enemy defences have nutralized one of our {0}s	Feindliche Abwehr: {0} neutralisiert	0
+	Incoming {0} neutralized	{0} neutralisiert	0
 
 PointDefenceModule.cs
 	point defence	Punktverteidigung	0
@@ -302,7 +302,7 @@ SkillEffects.cs
 
 Ship.cs
 	starting bonus	Startbonus	0
-	Loading a preset had issues, probably due to slot downgrading after preset save. Storage is now temporarily over capacity	Beim Laden eines Presets gab es Probleme, wahrscheinlich aufgrund einer Slot-Herabstufung nach dem Speichern des Presets. Der Speicher ist nun vorübergehend überlastet	0
+	Loading a preset had issues, probably due to slot downgrading after preset save. Storage is now temporarily over capacity	Beim Laden eines Presets gab es Probleme, wahrscheinlich aufgrund einer Steckplatz-Herabstufung nach dem Speichern des Presets. Der Speicher ist nun vorübergehend überlastet	0
 	Your ship:	Ihr Schiff:	0
 	Enemy ship:	Feindliches Schiff:	0
 	Self destructs in {0}s	Selbstzerstörung in {0}s	0
@@ -443,8 +443,8 @@ ModuleDataSubpanel.cs
 	(if multiple operators work in garden, their skill points are added together)	(wenn mehrere Operatoren im Garten arbeiten, werden ihre Fertigkeitspunkte zusammengerechnet)	0
 
 ModuleSlotActionsPanel.cs
-	Damage token is blocking this slot, upgrades/downgrades and module crafting are not possible	Schadenstoken blockiert diesen Slot, Upgrades/Downgrades und Modulbau sind nicht möglich	0
-	A module is already in slot, some slot upgrades/downgrades and module crafting are not possible	Ein Modul befindet sich bereits im Slot, einige Slot-Upgrades/-Downgrades und das Herstellen von Modulen sind nicht möglich	0
+	Damage token is blocking this slot, upgrades/downgrades and module crafting are not possible	Schadenstoken blockiert diesen Steckplatz, Upgrades/Downgrades und Modulbau sind nicht möglich	0
+	A module is already in slot, some slot upgrades/downgrades and module crafting are not possible	Ein Modul befindet sich bereits im Steckplatz, einige Steckplatz-Aufrüstungen/-Herabstufungen und das Herstellen von Modulen sind nicht möglich	0
 
 PlayerPanel.cs
 	fate points	Schicksalspunkte	0
@@ -544,12 +544,12 @@ StarmapLogPanelUI.cs
 
 StoragePanel.cs
 	storage upgrade	Speichererweiterung	0
-	Maximum slot count reached	Maximale Slot-Anzahl erreicht	0
+	Maximum slot count reached	Maximale Steckplatz-Anzahl erreicht	0
 	Not enough resources for upgrading	Nicht genügend Ressourcen für das Upgrade	0
 
 WarningsVisualizer.cs
 	SELF DESTRUCT	SELBSTZERSTÖRUNG	0
-	Modules that can be crafted with existing resources in empty slots.\nSelect an empty slot to view specific craftables.	Module, die mit vorhandenen Ressourcen in leeren Slots hergestellt werden können.\nWählen Sie einen leeren Slot, um herstellbare Module anzuzeigen.	0
+	Modules that can be crafted with existing resources in empty slots.\nSelect an empty slot to view specific craftables.	Module, die mit vorhandenen Ressourcen in leeren Steckplätzen hergestellt werden können.\nWählen Sie einen leeren Steckplatz, um herstellbare Module anzuzeigen.	0
 	BEAM FIRING	STRAHL ABGEFEUERT	0
 	Countdown to beam activation	Countdown bis zur Strahlaktivierung	0
 	ABOUT TO FIRE	ZÜNDET GLEICH	0
@@ -610,7 +610,7 @@ altText	We're out of organics. Hungry crew will get a penalty to all stats and w
 altText	We have received critical damage. Critical damage tokens may cause explosions or fires. Repairing them should be one of our priorities.	Wir haben kritischen Schaden erhalten. Kritische Schadensmarken können Explosionen oder Brände verursachen. Sie zu reparieren sollte eine unserer Prioritäten sein.	240
 altText	One of the hostile ships is charging up its <b>warpdrive</b> (not engines) to escape the combat area. We might want to prevent them in order to increase post-battle salvage.	Eines der feindlichen Schiffe lädt seinen <b>Warpdrive</b> (nicht Triebwerke) auf, um aus dem Kampfgebiet zu entkommen. Wir sollten sie daran hindern, um die Ausbeute nach dem Kampf zu erhöhen.	240
 text	We have lost our only engine. We should either craft a new one or prepare for combat and activate the SOS signal. It may attract a trader who sells engines or parts neede to craft engines	Wir haben unseren einzigen Antrieb verloren. Wir sollten entweder einen neuen herstellen oder uns auf den Kampf vorbereiten und das SOS-Signal aktivieren. Es könnte einen Händler anlocken, der Motoren oder Teile für die Herstellung von Motoren verkauft.	600
-text	We have lost our warpdrive. We can also travel between stars without warping (using normal engines) but it will usually cost a lot of resources.\nOur best option is to craft a DIY warpdrive, directly into the warpdrive slot. Activating the SOS may attract a trader who sells modules, but that option is much riskier.	Wir haben unseren Warp-Antrieb verloren. Wir können auch ohne Warp zwischen den Sternen reisen (mit normalen Triebwerken), aber das kostet in der Regel viele Ressourcen.\nUnsere beste Option ist es, einen DIY-Warpdrive herzustellen, direkt in den Warpdrive-Slot. Das Aktivieren des SOS kann einen Händler anlocken, der Module verkauft, aber diese Option ist viel riskanter.	600
+text	We have lost our warpdrive. We can also travel between stars without warping (using normal engines) but it will usually cost a lot of resources.\nOur best option is to craft a DIY warpdrive, directly into the warpdrive slot. Activating the SOS may attract a trader who sells modules, but that option is much riskier.	Wir haben unseren Warp-Antrieb verloren. Wir können auch ohne Warp zwischen den Sternen reisen (mit normalen Triebwerken), aber das kostet in der Regel viele Ressourcen.\nUnsere beste Option ist es, einen DIY-Warpdrive herzustellen, direkt in den Warpdrive-Steckplatz. Das Aktivieren des SOS kann einen Händler anlocken, der Module verkauft, aber diese Option ist viel riskanter.	600
 title	Rat Empire encountered	Rattenimperium angetroffen	35
 text	It seems this sector has been claimed by Rat Empire. Greedy little mammals who are nice as long as you can pay. Would you like to see my database summary on their civilization?	Es scheint, dass dieser Sektor vom Rattenimperium beansprucht wurde. Gierige kleine Säugetiere, die nett sind, solange man zahlen kann. Möchten Sie meine Datenbankzusammenfassung über ihre Zivilisation sehen?	400
 choiceText	Show Me	Zeigen	100
@@ -900,7 +900,7 @@ Button	Invisible Points of Interest	Unsichtbare Points of Interest	0
 	You can add other custom presets, that regulate only crew for example.	Sie können weitere benutzerdefinierte Voreinstellungen hinzufügen, die z. B. nur die Besatzung regeln.	0
 	Toggle time	Zeit umschalten	0
 	Hold fire	Feuer anhalten	0
-	Quick selection slots	Schnellwahl-Slots	0
+	Quick selection slots	Schnellwahl-Steckplätze	0
 	Pan up	Schwenken nach oben	0
 	Pan left	Nach links schwenken	0
 	Pan down	Nach unten schwenken	0
@@ -950,20 +950,20 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	High danger of\nasteroid impacts	Hohe Gefahr von\nAsteroideneinschlägen	0
 	Concentrated asteroid clusters have increased risk of impacts. \nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidencluster mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktverteidigungen und Integritätsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0
 	Weapons & other modules	Waffen und andere Module	0
-	Weapons and ECM modules can only be installed to external slots:	Waffen und ECM-Module können nur auf externen Slots installiert werden:	0
-	Point defences can only be installed in hybrid slots:	Punktverteidigungen können nur in Hybrid-Slots installiert werden:	0
-	Most other modules can be installed to internal, core, hybrid or external slots:	Die meisten anderen Module können in internen, Kern-, Hybrid- oder externen Slots installiert werden:	0
-	Special modules like warp, engine, bridge and capital missile can only be installed to dedicated slots:	Spezialmodule wie Warp, Triebwerk, Brücke und Capital Missile können nur in speziellen Slots installiert werden:	0
+	Weapons and ECM modules can only be installed to external slots:	Waffen und ECM-Module können nur auf externen Steckplätzen eingebaut werden:	0
+	Point defences can only be installed in hybrid slots:	Punktverteidigungen können nur in Hybrid-Steckplätzen eingebaut werden:	0
+	Most other modules can be installed to internal, core, hybrid or external slots:	Die meisten anderen Module können in internen, Kern-, Hybrid- oder externen Steckplätzen eingebaut werden:	0
+	Special modules like warp, engine, bridge and capital missile can only be installed to dedicated slots:	Spezialmodule wie Warp, Triebwerk, Brücke und Capital Missile können nur in speziellen Steckplätzen eingebaut werden:	0
 	Module slot upgrades	Modulsteckplatz-Upgrades	0
 	Some of the module slots can be upgraded at a cost. Make sure that slot is empty and undamaged before upgrading.	Einige der Modulsteckplätze können kostenpflichtig aufgerüstet werden. Stellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie ihn aufrüsten.	0
 	Internal slots can be upgraded to core slots, which give additional hitpoints to ship hull.	Interne Steckplätze können zu Kernsteckplätzen aufgerüstet werden, die der Schiffshülle zusätzliche Trefferpunkte verleihen.	0
-	All hybrid slots can be upgraded to weapon slots.	Alle Hybrid-Slots können zu Waffen-Slots aufgerüstet werden.	0
+	All hybrid slots can be upgraded to weapon slots.	Alle Hybrid-Steckplätze können zu Waffen-Steckplätzen aufgerüstet werden.	0
 	Additionally, some cargo containers can also be upgraded, allowing for more cargo capacity.	Zusätzlich können auch einige Frachtcontainer aufgerüstet werden, um mehr Frachtkapazität zu erhalten.	0
 	There is a chance that if module gets damaged, its maximum hitpoints are also permanently reduced to half -- resulting in half hitpoints when repaired.	Es besteht die Möglichkeit, dass, wenn ein Modul beschädigt wird, seine maximalen Hitpoints dauerhaft auf die Hälfte reduziert werden - was zu halben Hitpoints führt, wenn es repariert wird.	0
 	You can see how many times module max hitpoints have been reduced by the number of x-es on it.	Wie oft die maximalen Trefferpunkte eines Moduls reduziert wurden, können Sie an der Anzahl der x-es auf dem Modul erkennen.	0
-	DIY modules can be crafted inside empty weapon slots (and DIY nukes in empty nuke slots). \nEach ship has unique set of craftable nukes.\nMake sure the slot is empty and undamaged before crafting.	DIY-Module können in leeren Waffen-Slots hergestellt werden (und DIY-Nukes in leeren Nuke-Slots). \nJedes Schiff hat einen eigenen Satz an handelbaren Nuklearwaffen.\nStellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie mit dem Crafting beginnen.	0
-	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Sie können das Crafting nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpdrive zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Slots gecraftet werden.	0
-	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Modul-Lagercontainer oder in einem beliebigen freien Slot gelagert werden können.	0
+	DIY modules can be crafted inside empty weapon slots (and DIY nukes in empty nuke slots). \nEach ship has unique set of craftable nukes.\nMake sure the slot is empty and undamaged before crafting.	DIY-Module können in leeren Waffen-Steckplätzen hergestellt werden (und DIY-Nukes in leeren Nuke-Steckplätzen). \nJedes Schiff hat einen eigenen Satz an handelbaren Nuklearwaffen.\nStellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie mit dem Crafting beginnen.	0
+	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Sie können das Crafting nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpdrive zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Steckplätzen heraus gebaut werden.	0
+	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Modul-Lagercontainer oder in einem beliebigen freien Steckplatz gelagert werden können.	0
 	Modules can be turned off from the power switch button.\nIf a module is turned off, it does not need any of its listed requirements.	Module können über den Netzschalterknopf ausgeschaltet werden.\nWenn ein Modul ausgeschaltet ist, benötigt es keine seiner aufgeführten Anforderungen.	0
 	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nReparieren Sie Module, indem Sie ein Crewmitglied auswählen und dann mit R auf ein beschädigtes Modul klicken.\n\nBeschädigte Module können für 10 Synthetics pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0
 	Module damage	Modulschaden	0
@@ -1355,10 +1355,10 @@ Button in main menu, sets game difficulty	?	?	0
 	For adding a translation, see translations guide in Steam.\nTranslation template file can be found in Steam Workshop.	Um eine Übersetzung hinzuzufügen, siehe Übersetzungsanleitung in Steam.\nDie Übersetzungsvorlagendatei finden Sie im Steam Workshop.	0
 	Sector info:	Sektor-Informationen:	0
 	Choose ship for next run:	Wählen Sie ein Schiff für den nächsten Lauf:	0
-	These slots can hold weapons and many other types of internal or external modules	Diese Slots können Waffen und viele andere Arten von internen oder externen Modulen aufnehmen	0
-	Weapon slots:	Waffen-Slots:	0
+	These slots can hold weapons and many other types of internal or external modules	Diese Steckplätze können Waffen und viele andere Arten von internen oder externen Modulen aufnehmen	0
+	Weapon slots:	Waffen-Steckplätze:	0
 	These slots can hold single-use capital missiles	Diese Steckplätze können Einweg-Kapitalraketen aufnehmen	0
-	Nuke slots:	Atomraketen-Slots:	0
+	Nuke slots:	Atomraketen-Steckplätze:	0
 	The combined number of internal, hybrid, warp, bridge and engine slots.	Die kombinierte Anzahl von internen, Hybrid-, Warp-, Brücken- und Triebwerkssteckplätzen.	0
 	Other slots:	Andere Steckplätze:	0
 	Inherent shipwide accuracy bonus, gets added to accuracy of all ship weapons.	Schiffsweiter Genauigkeitsbonus, wird zur Genauigkeit aller Schiffswaffen addiert.	0
@@ -1476,7 +1476,7 @@ dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht
 Module actions panel.prefab
 	Module inherent armor (chance to negate attacks)	Modul Rüstung (Chance, Angriffe zu negieren)	0
 	Select underlaying slot	Darunterliegenden Steckplatz auswählen	0
-Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	STECK\nPLATZ	16
+Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	STECK- \nPLATZ	16
 	Scrap module\norganics +30\nfuel +10	Schrottmodul\nOrganik +30\Brennstoff +10	0
 Button. Scrap/recycle module to materials	SCRAP	SCHROTT	6
 	Confirm scrap module\norganics +30\nfuel +10	Verschrottung bestätigen \nOrganisches +30\nKraftstoff +10	0
@@ -1600,7 +1600,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 
 ModuleSlot actions panel.prefab
 	Module slot	Modul-Steckplatz	0
-	Click to list only slot upgrades and downgrades	Klicken Sie hier, um nur Slot-Upgrades und Downgrades aufzulisten	0
+	Click to list only slot upgrades and downgrades	Klicken Sie hier, um nur Steckplatz-Aufrüstungen und Herabstufungen aufzulisten	0
 	SLOT UPGRADES	STECKPLATZ AUFRÜSTUNG	0
 	Click to list only craftable resource packs and containers	Klicken Sie hier, um nur DIY Ressourcenpakete und Container aufzulisten	0
 	CARGO	FRACHT	0
@@ -1623,7 +1623,7 @@ Player panel excess buttons.prefab
 ResourceActionsPanel	Cannot move with resources over cargo capacity.\nClick to convert it into <b>{0} fuel</b>	Kann sich nicht mit Ressourcen über der Ladekapazität bewegen.\nKlicken Sie, um es in <b>{0} Treibstoff</b> umzuwandeln	0
 	Cannot move with resources over cargo capacity. We must use up or dump the excess resources!	Kann sich nicht mit Ressourcen über der Frachtkapazität bewegen. Die überschüssigen Ressourcen müssen verbraucht oder entsorgt werden!	0
 Dump excess materials	DUMP EXCESS	ÜBERSCHUSS VERWERFEN	0
-Convert to fuel	CONV. TO FUEL	KONV. IN TREIBSTOFF	0
+Convert to fuel	CONV. TO FUEL	UMWANDELN IN TREIBSTOFF	0
 	CRAFT PACK	PAKET HERSTELLEN	0
 ResourceActionsPanel	Get {0} from conversion	Sie bekommen {0} aus der Konvertierung	0
 
@@ -1751,8 +1751,8 @@ Button. Additional information for player ship	PRESS TO RESUME FIRE	DRÜCKEN,\nU
 	Dodge	Ausweichen	0
 Button. Additional information for player ship	DODGE	AUSWEICHEN	20
 Button. Additional information for player ship	45s	45s	20
-	Add quickselection slot	Schnellwahlslot hinzufügen	0
-	Remove quickselection slot	Schnellwahleinschub entfernen	0
+	Add quickselection slot	Schnellwahl hinzufügen	0
+	Remove quickselection slot	Schnellwahl entfernen	0
 	SELECT MODULE/CREW THEN R-CLICK TO PLACE INTO QUICK SELECTION BOX	MODUL/BESATZUNG AUSWÄHLEN, DANN R-KLICK ZUM PLATZIEREN IN SCHNELLAUSWAHLBOX	0
 	Select module/crew then R-click to place into quick selection box	Modul/Besatzung auswählen und mit R-Klick in Schnellauswahlbox platzieren	0
 	Reload time remaining	Verbleibende Nachladezeit	0
@@ -1806,7 +1806,7 @@ comtipText	Want to get some tips about trade stations?	Möchten Sie Tipps zu Han
 	Confirm	Bestätigen	0
 	not enough materials	nicht genug Materialien	0
 Refers to shop	Store	Händler	0
-	Buy 1	1 kaufen	0
+	Buy 1	1 Kaufen	0
 	Sell 1	Verkaufen 1	0
 	Buy:	Kaufen:	0
 	Sell:	Verkaufen:	0
@@ -3072,7 +3072,7 @@ choiceText	Sorry, we cannot help right now	Tut mir leid, wir können im Moment n
 newName3	Needs medical help	Braucht medizinische Hilfe	25
 text	medical operation... %	Medizinischer Einsatz... %	50
 title	Not enough resources or technology	Nicht genug Ressourcen oder Technologie	35
-text	We don't have a mebay, but we could easily craft a DIY medbay into an empty internal slot, if we have the resources.	Wir haben kein Medbay, aber wir könnten leicht ein DIY-Medbay in einen leeren internen Slot einbauen, wenn wir die Ressourcen haben.	600
+text	We don't have a mebay, but we could easily craft a DIY medbay into an empty internal slot, if we have the resources.	Wir haben kein Medbay, aber wir könnten leicht ein DIY-Medbay in einen leeren internen Steckplatz einbauen, wenn wir die Ressourcen haben.	600
 title	Wrecked biotech ship	Zerstörtes Biotech-Schiff	35
 text2	There were no survivors despite the SOS signal and a few low-power systems being still active. We salvaged everything.	Es gab keine Überlebenden, obwohl das SOS-Signal und ein paar Systeme mit geringer Leistung noch aktiv waren. Wir haben alles geborgen.	400
 reasonToDisplay	wreck salvaged	Wrack geborgen	30
@@ -6450,7 +6450,7 @@ altText	Use <b>space</b> at any given moment to switch between slow time and nor
 
 Tutorial Cargo.prefab
 displayName	Weapons cache	Waffen-Cache	25
-altText	Install all the weapons into <b>weapon slots</b> and the tactical missile into <b>launch tube</b> at the front. Install all modules to proceed. \nNotice the weapons are all turned off by default. You may turn them on from module panel or by selecting the weapon and pressing K.	Installieren Sie alle Waffen in die <b>Waffenslots</b> und die taktische Rakete in das <b>Abschussrohr</b> an der Front. Installieren Sie alle Module, um fortzufahren. \nBeachten Sie, dass die Waffen standardmäßig alle ausgeschaltet sind. Sie können sie über das Modulfeld oder durch Auswahl der Waffe und Drücken von K einschalten.	240
+altText	Install all the weapons into <b>weapon slots</b> and the tactical missile into <b>launch tube</b> at the front. Install all modules to proceed. \nNotice the weapons are all turned off by default. You may turn them on from module panel or by selecting the weapon and pressing K.	Installieren Sie alle Waffen in die <b>Waffensteckplätzen</b> und die taktische Rakete in das <b>Abschussrohr</b> an der Front. Installieren Sie alle Module, um fortzufahren. \nBeachten Sie, dass die Waffen standardmäßig alle ausgeschaltet sind. Sie können sie über das Modulfeld oder durch Auswahl der Waffe und Drücken von K einschalten.	240
 text2	.	.	400
 text	A large weapons container, well hidden amongst a cloud of asteroids...	Ein großer Waffencontainer, gut versteckt unter einer Wolke von Asteroiden...	400
 text	We should only disengage from dangerous situations. Right now there's nothing to worry about...	Wir sollten uns nur aus gefährlichen Situationen zurückziehen. Im Moment gibt es nichts, worüber man sich Sorgen machen müsste...	600
@@ -8080,7 +8080,7 @@ description	(new runs can be only started from sectors 1,2,3)\n\nThis is the clo
 
 Level 2, pirates.prefab
 displayName	The Great Inbetween	Das große Zwischending	25
-description	Captains log:\n\n/.../ We've survived the Rat Empire, but I feel our troubles are only beginning. \nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to see that we upgrade one of the hybrid point-defence slots into a weapon platform /.../	Logbuch des Captains:\n\n/.../ Wir haben das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktverteidigung, Schilde und vor allem <color=green>Schiffswaffenslots</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, dafür zu sorgen, dass wir einen der hybriden Punktverteidigungsslots zu einer Waffenplattform aufrüsten /.../	350
+description	Captains log:\n\n/.../ We've survived the Rat Empire, but I feel our troubles are only beginning. \nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to see that we upgrade one of the hybrid point-defence slots into a weapon platform /.../	Logbuch des Captains:\n\n/.../ Wir haben das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktverteidigung, Schilde und vor allem <color=green>Schiffswaffensteckplätze</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, dafür zu sorgen, dass wir einen der hybriden Punktverteidigungsslots zu einer Waffenplattform aufrüsten /.../	350
 
 Level 3, collection.prefab
 displayName	The Periphery	Die Peripherie	25
@@ -8129,18 +8129,18 @@ description	Accepts only engine modules, cannot be upgraded.	Nimmt nur Engine-Mo
 Hybrid slot.prefab
 displayName	Hybrid module slot	Hybrid-Modulsteckplatz	35
 description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Point-Defences und interne Module auf, kann aufgerüstet werden.	250
-upgrades[i].text	Upgrade to weapon slot	Upgrade auf Waffensteckplatz	35
+upgrades[i].text	Upgrade to weapon slot	Aufrüstung auf Waffensteckplatz	35
 
 Internal core slot.prefab
 displayName	Internal core module slot	Interner Kernmodulsteckplatz	35
 description	Gives the ship +1 max HP	Verleiht dem Schiff +1 maximale HP	250
 upgrades[i].text	Upgrade to hybrid slot	Aufrüstung auf Hybrid-Steckplatz	35
-upgrades[i].text	Downgrade to internal slot	Downgrade auf internen Steckplatz	35
+upgrades[i].text	Downgrade to internal slot	Herabstufung auf internen Steckplatz	35
 
 Internal slot.prefab
 displayName	Internal module slot	Interner Modulsteckplatz	35
 description	Accepts normal internal modules that do not require a special slot.	Nimmt normale interne Module auf, die keinen speziellen Steckplatz benötigen.	250
-upgrades[i].text	Upgrade to core slot	Upgrade auf Kernsteckplatz	35
+upgrades[i].text	Upgrade to core slot	Aufrüstung auf Kernsteckplatz	35
 
 Nuke launcher slot for 01 Tigerfish.prefab
 displayName	Capital missile launch tube	Abschussrohr für Raketen	35
@@ -8176,7 +8176,7 @@ Undeveloped gardenship nuke launcher slot.prefab
 
 Undeveloped internal slot.prefab
 displayName	Undeveloped internal module slot	Unausgebauter interner Modulsteckplatz	35
-description	Can be upgraded to working internal slot.	Kann zu einem funktionierenden internen Slot aufgerüstet werden.	250
+description	Can be upgraded to working internal slot.	Kann zu einem funktionierenden internen Steckplatz aufgerüstet werden.	250
 upgrades[i].text	Upgrade to internal slot	Aufrüstung zum internen Steckplatz	35
 
 undeveloped nuke launcher slot for weirdship.prefab
@@ -8190,10 +8190,10 @@ displayName	Reinforced weapon slot	Verstärkter Waffensteckplatz	35
 description	Accepts weapons and other modules, adds +2 HP to ship	Nimmt Waffen und andere Module auf, fügt dem Schiff +2 HP hinzu	250
 
 Weapon slot.prefab
-displayName	Weapon slot	Waffenslot	35
-description	Accepts weapons and other modules, can be downgraded to point-defence slot.	Nimmt Waffen und andere Module auf, kann zu einem Punktverteidigungsslot herabgestuft werden.	250
-upgrades[i].text	Upgrade to core weapon slot	Aufrüstung zum Kernwaffen-Slot	35
-upgrades[i].text	Downgrade to hybrid slot	Herabstufung zum Hybrid-Slot	35
+displayName	Weapon slot	Waffensteckplatz	35
+description	Accepts weapons and other modules, can be downgraded to point-defence slot.	Nimmt Waffen und andere Module auf, kann zu einem Punktverteidigungssteckplatz herabgestuft werden.	250
+upgrades[i].text	Upgrade to core weapon slot	Aufrüstung zum Kernwaffen-Steckplatz	35
+upgrades[i].text	Downgrade to hybrid slot	Herabstufung zum Hybrid-Steckplatz	35
 
 artifactmodule nat bluecrystal.prefab
 displayName	Natural artifact (exotic crystal)	Natürliches Artefakt (exotischer Kristall)	40
@@ -8252,11 +8252,11 @@ displayName	Tech artifact (ECM integrity hardpoint)	Tech-Artefakt (ECM-Integrit�
 description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint and produces ECM static if powered. Scrapping would yield resources and research data.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Hardpoint verwendet werden und erzeugt ECM-Statik, wenn es mit Strom versorgt wird. Eine Verschrottung würde Ressourcen und Forschungsdaten ergeben.	200
 
 artifactmodule tec 23 metal gizmo with light ECM.prefab
-description	A piece of xenotechnology. The module can be used as a crude integrity hardpoint. It produces minimal ECM static if powered. Can be installed into internal slot.	Ein Teil der Xenotechnologie. Das Modul kann als grober Integritäts-Hardpoint verwendet werden. Es erzeugt minimale ECM-Statik, wenn es mit Energie versorgt wird. Kann im internen Slot installiert werden.	200
+description	A piece of xenotechnology. The module can be used as a crude integrity hardpoint. It produces minimal ECM static if powered. Can be installed into internal slot.	Ein Teil der Xenotechnologie. Das Modul kann als grober Integritäts-Hardpoint verwendet werden. Es erzeugt minimale ECM-Statik, wenn es mit Energie versorgt wird. Kann im internen Steckplatz installiert werden.	200
 
 artifactmodule tec 24 broken warp gizmo ECM.prefab
 displayName	Tech artifact (damaged warpdrive)	Tech-Artefakt (beschädigter Warp-Antrieb)	40
-description	A damaged, but partially functional advanced warpdrive, mostly made of exotics. Powering the module creates warp static, so it can be used as an internal ECM scrambler that does not need a hybrid slot like normal jammers.	Ein beschädigter, aber teilweise funktionsfähiger, fortschrittlicher Warp-Antrieb, der größtenteils aus exotischen Materialien besteht. Die Stromversorgung des Moduls erzeugt Warp-Statik, so dass es als interner ECM-Scrambler verwendet werden kann, der keinen Hybrid-Slot wie normale Störsender benötigt.	200
+description	A damaged, but partially functional advanced warpdrive, mostly made of exotics. Powering the module creates warp static, so it can be used as an internal ECM scrambler that does not need a hybrid slot like normal jammers.	Ein beschädigter, aber teilweise funktionsfähiger, fortschrittlicher Warp-Antrieb, der größtenteils aus exotischen Materialien besteht. Die Stromversorgung des Moduls erzeugt Warp-Statik, so dass es als interner ECM-Scrambler verwendet werden kann, der keinen Hybrid-Steckplatz wie normale Störsender benötigt.	200
 
 artifactmodule tec 25 broken screen gizmo.prefab
 
@@ -8572,15 +8572,15 @@ weapondecoy1.prefab
 
 ECM 0 ancient.prefab
 displayName	ECM integrity turret (ancient)	ECM-Integritätsturm (alt)	40
-description	Hybrid platform for electronic countermeasures. Increases ship evasion & HP, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Ausweichfähigkeit und die HP des Schiffs, erfordert einen Hybrid-Slot.	200
+description	Hybrid platform for electronic countermeasures. Increases ship evasion & HP, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Ausweichfähigkeit und die HP des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 ECM 0 DIY.prefab
 displayName	DIY ECM turret	DIY ECM-Geschützturm	40
-description	Hybrid platform for electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Slot.	200
+description	Hybrid platform for electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 ECM 0 terran old.prefab
 displayName	Armored ECM Turret I [old]	Gepanzerter ECM-Turm I [alt]	40
-description	Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, improves ship HP, requires a hybrid slot.	Hybride Integritätstechnologie mit elektronischen Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, verbessert die HP des Schiffs, erfordert einen Hybrid-Slot.	200
+description	Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, improves ship HP, requires a hybrid slot.	Hybride Integritätstechnologie mit elektronischen Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, verbessert die HP des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 ECM 01 terran.prefab
 displayName	Armored ECM Turret I	Gepanzerter ECM-Turm I	40
@@ -8590,11 +8590,11 @@ displayName	Armored ECM Turret II	Gepanzerter ECM-Turm II	40
 
 ECM 02.2 ancient artifact, slicer dicer.prefab
 displayName	ECM artifact (ancient slicer-dicer)	ECM-Artefakt (antiker Slicer-Dicer)	40
-description	This ancient ECM module increases ship evasion and requires a hybrid slot.	Dieses uralte ECM-Modul erhöht die Schiffsausweichfähigkeit und benötigt einen Hybrid-Slot.	200
+description	This ancient ECM module increases ship evasion and requires a hybrid slot.	Dieses uralte ECM-Modul erhöht die Schiffsausweichfähigkeit und benötigt einen Hybrid-Steckplatz.	200
 
 ECM 03 biotech.prefab
 displayName	Biotech ECM turret	Biotech ECM-Geschützturm	40
-description	Biotech electronic countermeasures turret. Increases overall ship evasion, requires a hybrid slot.	Biotechnischer Geschützturm für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffes, benötigt einen Hybrid-Slot.	200
+description	Biotech electronic countermeasures turret. Increases overall ship evasion, requires a hybrid slot.	Biotechnischer Geschützturm für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffes, benötigt einen Hybrid-Steckplatz.	200
 
 ECM 03 insectoid.prefab
 displayName	ECM turret (insectoid)	ECM-Geschützturm (Insektoid)	40
@@ -8604,7 +8604,7 @@ displayName	Armored ECM Turret III	Gepanzerter ECM-Turm III	40
 
 ECM 04 spideraa.prefab
 displayName	Spideraa ECM	Spinner ECM	40
-description	Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	Hybride Integritätstechnologie mit elektronischer Gegenmaßnahme. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Slot.	200
+description	Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	Hybride Integritätstechnologie mit elektronischer Gegenmaßnahme. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 engine 0 diy.prefab
 displayName	DIY engine	DIY-Motor	40
@@ -9838,7 +9838,7 @@ description	This platform prints supersolid metal monoliths with rocket engines.
 
 weapon ratmissile x2.prefab
 displayName	Rat missile platform	Ratten-Raketenplattform	40
-description	Incendiary rocket printing & launching platform. Large AoE, consumes explosives. Missiles cannot be deflected by slot/module armor. Each missile has 1hp.	Brandstiftende Raketendruck- & Abschussplattform. Große AoE, verbraucht Sprengstoff. Raketen können nicht durch Slot-/Modulpanzerung abgelenkt werden. Jede Rakete hat 1 HP.	200
+description	Incendiary rocket printing & launching platform. Large AoE, consumes explosives. Missiles cannot be deflected by slot/module armor. Each missile has 1hp.	Brandstiftende Raketendruck- & Abschussplattform. Große AoE, verbraucht Sprengstoff. Raketen können nicht durch Steckplatz-/Modulpanzerung abgelenkt werden. Jede Rakete hat 1 HP.	200
 
 weapon ratmissile x3.prefab
 
@@ -11034,22 +11034,22 @@ altText	Red circles on starsystem maps are hostile fleet <b>threat areas</b>. Fl
 altText	This starsystem has an <b>exit warpgate</b>. It allows travelling into the next space sector. Make sure you are in <b>starsystem view</b> and fly into it.	Dieses Sternensystem hat ein <b>Ausgangs-Warptor</b>. Es ermöglicht die Reise in den nächsten Raumsektor. Stellen Sie sicher, dass Sie sich in der <b>Sternensystemansicht</b> befinden und fliegen Sie hinein.	240
 title	Tutorial complete	Tutorial abgeschlossen	35
 okButtonText	I understand, proceed to game	Ich verstehe, weiter zum Spiel	7
-text	Congratulations, you've survived the training session!\nShortest Trip is a roguelike with permadeath, so expect the game to have a fairly brutal difficulty beyond this point. \nFinal tip: to increase your survival chances early on, collect resources to get at least one additional weapon slot via upgrades. Internal combat will be a difficult challenge in later sectors, so investing in point-defences and combat-capable crew should be a long-term priority.\nGood luck surviving amongst the stars!	Glückwunsch, Sie haben das Training überstanden!\nShortest Trip ist ein Roguelike mit Permadeath, erwarten Sie also, dass das Spiel ab diesem Punkt einen ziemlich brutalen Schwierigkeitsgrad hat. \nEin letzter Tipp: Um Ihre Überlebenschancen früh zu erhöhen, sammeln Sie Ressourcen, um über Upgrades mindestens einen zusätzlichen Waffenslot zu erhalten. Interne Kämpfe werden in späteren Sektoren eine schwierige Herausforderung sein, daher sollte die Investition in Punktverteidigung und kampffähige Crew eine langfristige Priorität sein.\nViel Glück beim Überleben inmitten der Sterne!	600
+text	Congratulations, you've survived the training session!\nShortest Trip is a roguelike with permadeath, so expect the game to have a fairly brutal difficulty beyond this point. \nFinal tip: to increase your survival chances early on, collect resources to get at least one additional weapon slot via upgrades. Internal combat will be a difficult challenge in later sectors, so investing in point-defences and combat-capable crew should be a long-term priority.\nGood luck surviving amongst the stars!	Glückwunsch, Sie haben das Training überstanden!\nShortest Trip ist ein Roguelike mit Permadeath, erwarten Sie also, dass das Spiel ab diesem Punkt einen ziemlich brutalen Schwierigkeitsgrad hat. \nEin letzter Tipp: Um Ihre Überlebenschancen früh zu erhöhen, sammeln Sie Ressourcen, um über Upgrades mindestens einen zusätzlichen Waffensteckplatz zu erhalten. Interne Kämpfe werden in späteren Sektoren eine schwierige Herausforderung sein, daher sollte die Investition in Punktverteidigung und kampffähige Crew eine langfristige Priorität sein.\nViel Glück beim Überleben inmitten der Sterne!	600
 altText	When you hover the cursor around starsystem map, you can see the resource cost of moving around.\nSee that little white dot on the map? It's an unknown <b>point of interest</b>.	Wenn Sie mit dem Mauszeiger über die Sternensystemkarte fahren, können Sie die Ressourcenkosten für die Bewegung sehen.\nSehen Sie den kleinen weißen Punkt auf der Karte? Es ist ein unbekannter <b>Punkt von Interesse</b>.	240
 altText	Hello captain, I'm Athena, the core AI of this ship. Welcome to ship management tutorial. You are currently in <b>starsystem view</b>...\n(by the way, this tutorial uses default hotkeys only)	Hallo Captain, ich bin Athena, die Kern-KI dieses Schiffes. Willkommen zum Schiffsmanagement-Tutorial. Sie befinden sich gerade in der <b>Sternensystemansicht</b>...\n(Übrigens, dieses Tutorial verwendet nur die Standard-Hotkeys)	240
 altText	If you click on a module, you'll see <b>module info panel</b>.\n\nWhen you are done inspecting the modules, switch the view between your ship and starsystem by pressing the <b>TAB</b> key on your keyboard.	Wenn Sie auf ein Modul klicken, sehen Sie das <b>Modul-Info-Panel</b>.\n\nWenn Sie mit der Inspektion der Module fertig sind, wechseln Sie die Ansicht zwischen Ihrem Schiff und dem Sternensystem, indem Sie die Taste <b>TAB</b> auf Ihrer Tastatur drücken.	240
 altText	As you can see, our ship is currently empty, but has different kinds of module slots, indicated by their shape. Sometimes weapon slots also have big yellow numbers on them.	Wie Sie sehen können, ist unser Schiff derzeit leer, hat aber verschiedene Arten von Modulplätzen, die durch ihre Form angezeigt werden. Manchmal sind auch Waffensteckplätze mit großen gelben Zahlen versehen.	240
 altText	The <b>command bridge</b> can run many modules remotely if it has an operator sitting in the control room.	Die <b>Kommandobrücke</b> kann viele Module ferngesteuert betreiben, wenn ein Operator im Kontrollraum sitzt.	240
 title	Home	Home	35
-altText	But we still cannot move around, because we have no <b>fuel</b> or <b>fuel tanks</b>. Install both fuel tanks into internal slots...	Wir können uns aber immer noch nicht fortbewegen, weil wir keinen <b>Treibstoff</b> oder <b>Treibstofftanks</b> haben. Bauen Sie die beiden Treibstofftanks in die internen Slots ein...	240
-altText	As you can see at the left, the reactor generates power which can be used by other modules.\nNext, install the <b>organics container</b>, again into internal slot. Organics are used for feeding and healing your crew.	Wie Sie links sehen können, erzeugt der Reaktor Energie, die von anderen Modulen genutzt werden kann.\nNächster Schritt: Installieren Sie den <b>Organik-Behälter</b>, wiederum in einen internen Slot. Organics werden für die Ernährung und Heilung Ihrer Crew verwendet.	240
+altText	But we still cannot move around, because we have no <b>fuel</b> or <b>fuel tanks</b>. Install both fuel tanks into internal slots...	Wir können uns aber immer noch nicht fortbewegen, weil wir keinen <b>Treibstoff</b> oder <b>Treibstofftanks</b> haben. Bauen Sie die beiden Treibstofftanks in die internen Steckplätze ein...	240
+altText	As you can see at the left, the reactor generates power which can be used by other modules.\nNext, install the <b>organics container</b>, again into internal slot. Organics are used for feeding and healing your crew.	Wie Sie links sehen können, erzeugt der Reaktor Energie, die von anderen Modulen genutzt werden kann.\nNächster Schritt: Installieren Sie den <b>Organik-Behälter</b>, wiederum in einen internen Steckplatz. Organics werden für die Ernährung und Heilung Ihrer Crew verwendet.	240
 altText	The red <b>crew icon</b> on the bridge means it needs operators to work.  \nHold down L-mouse button to drag <b>a selection box</b> around one or two crewmembers, then R-click on bridge...	Das rote <b>Besatzungssymbol</b> auf der Brücke bedeutet, dass sie Bediener braucht, um zu funktionieren. \nHalten Sie die L-Maustaste gedrückt, um eine <b>Auswahlbox</b> um ein oder zwei Besatzungsmitglieder zu ziehen, und klicken Sie dann mit der R-Taste auf die Brücke...	240
 altText	We have now minimal capacity to move around. \nBut we need a <b>long-range sensor</b> to see distant objects. \nInstall the sensor into an internal slot...	Wir haben jetzt eine minimale Kapazität, um uns zu bewegen. \nAber wir brauchen einen <b>Langstreckensensor</b>, um weit entfernte Objekte zu sehen. \nInstallieren Sie den Sensor in einen internen Steckplatz...	240
 altText	Notice that the sensor module shows a <b>lack of power icon</b>. Install another reactor to get more power...	Beachten Sie, dass das Sensormodul ein <b>Energiemangelsymbol</b> anzeigt. Installieren Sie einen weiteren Reaktor, um mehr Energie zu erhalten...	240
 altText	Look at the top of the screen. All <b>status messages</b> appear there. \nFor example, you need engines to move...	Sehen Sie sich den oberen Teil des Bildschirms an. Dort erscheinen alle <b>Statusmeldungen</b>. \nZum Beispiel brauchen Sie Motoren, um sich zu bewegen...	240
 choiceTexts	Next	Weiter	15
 altText	Click on the <b>SHIP</b> button. This will take us to <b>ship view</b>...	Klicken Sie auf die Schaltfläche <b>SCHIFF</b>. Das bringt uns zur <b>Schiffsansicht</b>...	240
-altText	Start by installing the reactor into one of the <b>internal module slots</b> at the back of ship. Leave slots in the front empty for weapons modules.	Beginnen Sie damit, den Reaktor in einen der <b>internen Modul-Slots</b> im hinteren Teil des Schiffes einzubauen. Lassen Sie die vorderen Slots für die Waffenmodule frei.	240
+altText	Start by installing the reactor into one of the <b>internal module slots</b> at the back of ship. Leave slots in the front empty for weapons modules.	Beginnen Sie damit, den Reaktor in einen der <b>internen Modul-Steckplätzen</b> im hinteren Teil des Schiffes einzubauen. Lassen Sie die vorderen Steckplätze für die Waffenmodule frei.	240
 altText	Hold down the middle mouse button and drag in order to pan the view around. Use scroll wheel to zoom. Default key binding for panning with keyboard is WASD keys.	Halten Sie die mittlere Maustaste gedrückt und ziehen Sie, um die Ansicht zu schwenken. Verwenden Sie das Scrollrad zum Zoomen. Die Standardtastenbelegung für das Schwenken mit der Tastatur ist die WASD-Taste.	240
 altText	You can see our ship and various stellar objects in this view. \nYou cannot see much detail at the moment because you have not installed a long range sensor yet...	Sie können unser Schiff und verschiedene stellare Objekte in dieser Ansicht sehen. \nSie können im Moment noch nicht viele Details sehen, da Sie noch keinen Langstreckensensor installiert haben...	240
 altText	Fly closer to that point of interest, but don't drive into it before <b>remote scanning</b> is complete. \nI recommend scanning everything before closing in to avoid unpleasant surprises...	Fliegen Sie näher an diesen interessanten Punkt heran, aber fliegen Sie nicht hinein, bevor der <b>Fernscan</b> abgeschlossen ist. \nIch empfehle, alles zu scannen, bevor Sie sich nähern, um unangenehme Überraschungen zu vermeiden...	240
@@ -11067,17 +11067,17 @@ altText	From now on <b>scrapping</b> modules is possible. \nClick on the exotic 
 altText	Please <b>sell</b> all the exotics we gained from scrapping. Selling exotics and other resources in stations will be your main source of income in the upcoming journey.	Bitte <b>verkaufen</b> Sie alle Exoten, die Sie beim Verschrotten gewonnen haben. Der Verkauf von Exoten und anderen Ressourcen in Stationen wird Ihre Haupteinnahmequelle auf der kommenden Reise sein.	240
 altText	Let's also install an additional container for storing exotics. You will need it later on.	Lassen Sie uns außerdem einen zusätzlichen Container zur Lagerung von Exoten installieren. Sie werden ihn später noch benötigen.	240
 altText	Please open the sector map again to use our warpdrive for jumping to the <b>Aesus</b> starsystem.	Öffnen Sie bitte wieder die Sektorkarte, um unseren Warpantrieb für den Sprung zum <b>Aesus</b>-Sternensystem zu benutzen.	240
-altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcencontainer (Typ ESM-I)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule können Sie nur kaufen, wenn Sie leere Slots im Modulspeicher haben.	240
+altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcencontainer (Typ ESM-I)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule können Sie nur kaufen, wenn Sie leere Steckplätze im Modulspeicher haben.	240
 altText	As you can see from the red icons above modules, our ship weapons are currently <b>turned off</b> and have no crew. Additionally, the cannon needs explosives as ammo and the rocket launcher needs both explosives and metal.	Wie Sie an den roten Icons über den Modulen erkennen können, sind unsere Schiffswaffen derzeit <b>ausgeschaltet</b> und haben keine Besatzung. Zusätzlich braucht die Kanone Sprengstoff als Munition und der Raketenwerfer braucht sowohl Sprengstoff als auch Metall.	240
 choiceTexts	Got it - weapons need ammo and power	Verstanden - Waffen brauchen Munition und Energie	15
 altText	To alleviate our ammo problem, scrap <b>1 explosives pack</b> and<b> 1 metal pack</b> in our module storage, to get the resources they contain.	Um unser Munitionsproblem zu lindern, verschrotten wir <b>1 Sprengstoffpackung</b> und<b> 1 Metallpackung</b> in unserem Modullager, um die darin enthaltenen Ressourcen zu erhalten.	240
 altText	The upcoming combat training is a great opportunity to test out different types of weapons. \nPlease buy & install the three weapons available.	Das bevorstehende Kampftraining ist eine gute Gelegenheit, verschiedene Waffentypen auszuprobieren. \nBitte kaufen & installieren Sie die drei verfügbaren Waffen.	240
 text2	got warp, go to next system shop	Habe Warp, gehe zum nächsten Systemshop	400
-altText	Now craft one of the <b>avaialble DIY weapons </b> by clicking on a weapon slot and making sure it is empty. Then scroll and click on a weapon module to craft it.	Stellen Sie nun eine der <b>bastelbaren DIY-Waffen</b> her, indem Sie auf einen Waffenslot klicken und sicherstellen, dass dieser leer ist. Scrollen Sie dann und klicken Sie auf ein Waffenmodul, um es zu craften.	240
+altText	Now craft one of the <b>avaialble DIY weapons </b> by clicking on a weapon slot and making sure it is empty. Then scroll and click on a weapon module to craft it.	Stellen Sie nun eine der <b>bastelbaren DIY-Waffen</b> her, indem Sie auf einen Waffensteckplatz klicken und sicherstellen, dass dieser leer ist. Scrollen Sie dann und klicken Sie auf ein Waffenmodul, um es zu craften.	240
 altText	Next, let's install the <b>engine</b>, which we obviously need for moving. It also gives a significant <b>evasion bonus</b> against enemy attacks.	Als nächstes installieren wir den <b>Motor</b>, den wir natürlich zum Bewegen brauchen. Außerdem gibt er einen erheblichen <b>Ausweichbonus</b> gegen gegnerische Angriffe.	240
-altText	By the way, from now on we can upgrade one of our <b>hybrid slots</b> into a weapon slot, and then craft an additional weapon for ourselves to be used in the training. Internal module slots can be upgraded as well. I've prepared some resources for you.	Übrigens können wir von nun an einen unserer <b>Hybrid-Slots</b> zu einem Waffenslot aufrüsten und uns dann eine zusätzliche Waffe für das Training herstellen. Interne Modul-Slots können ebenfalls aufgerüstet werden. Ich habe einige Ressourcen für Sie vorbereitet.	240
+altText	By the way, from now on we can upgrade one of our <b>hybrid slots</b> into a weapon slot, and then craft an additional weapon for ourselves to be used in the training. Internal module slots can be upgraded as well. I've prepared some resources for you.	Übrigens können wir von nun an einen unserer <b>Hybrid-Steckplätze</b> zu einem Waffensteckplatz aufrüsten und uns dann eine zusätzliche Waffe für das Training herstellen. Interne Modul-Steckplätze können ebenfalls aufgerüstet werden. Ich habe einige Ressourcen für Sie vorbereitet.	240
 choiceTexts	Click here to get resources for upgrade	Ressourcen für die Aufrüstung erhalten	15
-altText	Select one of the ship's <b>hybrid slots</b> located in the front, make sure it does not have a module in it, and then choose the <b>upgrade to weapon slot</b> crafting option.	Wählen Sie einen der <b>Hybrid-Slots</b> des Schiffes, die sich vorne befinden, stellen Sie sicher, dass sich kein Modul darin befindet, und wählen Sie dann die Handwerksoption <b>Aufrüstung zum Waffenslot</b>.	240
+altText	Select one of the ship's <b>hybrid slots</b> located in the front, make sure it does not have a module in it, and then choose the <b>upgrade to weapon slot</b> crafting option.	Wählen Sie einen der <b>Hybrid-Steckplätze</b> des Schiffes, die sich vorne befinden, stellen Sie sicher, dass sich kein Modul darin befindet, und wählen Sie dann die Handwerksoption <b>Aufrüstung zum Waffensteckplatz</b>.	240
 
 01 Rat cruiser Royal.prefab
 description	A well-armed frigate for travelling Rat Empire VIPs.	Eine gut bewaffnete Fregatte für reisende VIPs des Rattenimperiums.	400

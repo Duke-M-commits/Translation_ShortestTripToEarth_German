@@ -283,7 +283,7 @@ overrideLockedDescription	This space sector is the closest one we reached, it's 
 
 Level 2b, pirates and phobians.prefab
 displayName	The Great Inbetween (DLC)	Das große Zwischending (DLC)	25
-description	Captains log:\n\n/.../ We've survived the Capitaalo, and the Rat Empire, but I feel our troubles are only beginning. \nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to upgrade one of the hybrid point-defence slots into a weapon platform /.../	Logbuch des Captains: /.../ Wir haben die Capitaalo und das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktverteidigung, Schilde und vor allem <color=green>Schiffswaffenslots</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, einen der hybriden Punktverteidigungsslots zu einer Waffenplattform aufzurüsten /.../	350
+description	Captains log:\n\n/.../ We've survived the Capitaalo, and the Rat Empire, but I feel our troubles are only beginning. \nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to upgrade one of the hybrid point-defence slots into a weapon platform /.../	Logbuch des Captains: /.../ Wir haben die Capitaalo und das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktverteidigung, Schilde und vor allem <color=green>Schiffswaffen-Steckplätze</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, einen der hybriden Punktverteidigungs-Steckplatz zu einer Waffenplattform aufzurüsten /.../	350
 overrideLockedDescription	Reaching this sector unlocks it as an alternative starting position.	Das Erreichen dieses Sektors schaltet ihn als alternative Startposition frei.	350
 
 Level 3b, collection.prefab
@@ -313,8 +313,8 @@ description	(new runs can be only started from sectors 1,2,3)\n\nA remote, unexp
 
 undeveloped nuke launcher slot for warpshell.prefab
 displayName	Undeveloped missile launch tube	Unausgebautes Raketenstartrohr	35
-description	Can be upgraded to working nuke slot.	Kann zu einem funktionierenden Nuke-Slot aufgerüstet werden.	250
-upgrades[i].text	Upgrade to nuke slot	Aufrüstung zum Nuke-Slot	35
+description	Can be upgraded to working nuke slot.	Kann zu einem funktionierenden Nuke-Steckplatz aufgerüstet werden.	250
+upgrades[i].text	Upgrade to nuke slot	Aufrüstung zum Nuke-Steckplatz	35
 	REPLACE	ERSETZEN	10
 	UPGRADE\nSLOT	AUF- \nRÜSTEN	10
 
