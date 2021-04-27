@@ -1498,7 +1498,7 @@ Button. Can be 2 words, word no longer than 6 letters. Weapon module overcharge	
 	Toggle module ON/OFF	Modul EIN/AUS schalten	0
 
 Module data subpanel.prefab
-	Module hitpoints, repairing 1hp consumes 10 synthethics	Modul-Hitpoints, Reparatur von 1hp verbraucht 10 Synthethics	0
+	Module hitpoints, repairing 1hp consumes 10 synthethics	Modul-Hitpoints, Reparatur von 1 HP verbraucht 10 Synthethics	0
 module requirements	REQUIREMENTS	VORAUSSETZUNGEN	0
 	This module requires operators with bridge skill	Dieses Modul erfordert Bediener mit Brückenfertigkeit	0
 	This module requires operators with sensor skill	Dieses Modul erfordert Bediener mit Sensor-Fertigkeit	0
@@ -1519,7 +1519,7 @@ module requirements	REQUIREMENTS	VORAUSSETZUNGEN	0
 	Synthetics consumed per volley	Pro Salve verbrauchte Synthetik	0
 	Metals consumed per volley	Pro Salve verbrauchte Metalle	0
 	Organics consumed per 1 hp regenerated	Organische Stoffe werden pro 1 regenerierte PS verbraucht	0
-	Synthetics consumed per 1 hp regenerated	Synthetik, verbraucht pro 1 PS regeneriert	0
+	Synthetics consumed per 1 hp regenerated	Synthetik, verbraucht pro 1 HP regeneriert	0
 	Fuel consumed per 100 range unit travelled	Treibstoffverbrauch pro 100 zurückgelegte Reichweiteneinheiten	0
 	Organics consumed per 100 range unit travelled	Verbrauch von organischen Stoffen pro 100 zurückgelegte Reichweiteneinheiten	0
 	Explosives consumed per 100 range unit travelled	Explosivstoffe pro 100 zurückgelegte Entfernungseinheiten	0
@@ -9360,7 +9360,7 @@ description	A capital missile that rams enemy ships with incredible kinetic forc
 
 weapon ATK-MK1 old.prefab
 displayName	ATK-cannon I (old)	ATK-Kanone I (alt)	40
-description	Heavy weapons that provide solid shield-penetrative firepower at the cost of explosives. Robust structure improves ship HP. Each projectile has 4hp.	Schwere Waffe, die solide schilddurchdringende Feuerkraft auf Kosten von Sprengstoff bietet. Die robuste Struktur verbessert die HP des Schiffes. Jedes Projektil hat 4 PS.	200
+description	Heavy weapons that provide solid shield-penetrative firepower at the cost of explosives. Robust structure improves ship HP. Each projectile has 4hp.	Schwere Waffe, die solide schilddurchdringende Feuerkraft auf Kosten von Sprengstoff bietet. Die robuste Struktur verbessert die HP des Schiffes. Jedes Projektil hat 4 HP.	200
 
 weapon ATK-MK1.prefab
 displayName	ATK-cannon I	ATK-Kanone I	40
@@ -9379,42 +9379,42 @@ displayName	ATK-cannon III	ATK-Kanone III	40
 
 weapon babycannon1.prefab
 displayName	Ceramic Cannon	Keramik-Kanone	40
-description	A projectile weapon that shoots ceramic shells which fracture on impact, negating deflection. Each projectile has 2hp.	Eine Projektilwaffe, die keramische Geschosse verschießt, die beim Aufprall zerspringen und die Ablenkung negieren. Jedes Projektil hat 2hp.	200
+description	A projectile weapon that shoots ceramic shells which fracture on impact, negating deflection. Each projectile has 2hp.	Eine Projektilwaffe, die keramische Geschosse verschießt, die beim Aufprall zerspringen und die Ablenkung negieren. Jedes Projektil hat 2 HP.	200
 
 weapon babycannon3.prefab
 displayName	Ceramic Cannon III	Keramik-Kanone III	40
 
 weapon cubecannon huge old.prefab
 displayName	Large cubecannon (defective)	Große Würfelkanone (defekt)	40
-description	This weapon reloads slowly and shoots a single powerful projectile. Each projectile has 6hp.	Diese Waffe wird langsam nachgeladen und verschießt ein einzelnes, starkes Projektil. Jedes Geschoss hat 6 PS.	200
+description	This weapon reloads slowly and shoots a single powerful projectile. Each projectile has 6hp.	Diese Waffe wird langsam nachgeladen und verschießt ein einzelnes, starkes Projektil. Jedes Geschoss hat 6 HP.	200
 
 weapon cubecannon huge.prefab
 displayName	Large cubecannon	Große Würfelkanone	40
-description	This weapon reloads slowly and shoots a single powerful projectile (which can be deflected). Robust structure improves ship HP. Each projectile has 6hp.	Diese Waffe lädt langsam nach und verschießt ein einzelnes starkes Projektil (das abgelenkt werden kann). Die robuste Struktur verbessert die HP des Schiffes. Jedes Projektil hat 6 PS.	200
+description	This weapon reloads slowly and shoots a single powerful projectile (which can be deflected). Robust structure improves ship HP. Each projectile has 6hp.	Diese Waffe lädt langsam nach und verschießt ein einzelnes starkes Projektil (das abgelenkt werden kann). Die robuste Struktur verbessert die HP des Schiffes. Jedes Projektil hat 6 HP.	200
 
 weapon cubecannon1.prefab
 displayName	Armored railcannon	Gepanzerte Schienenkanone	40
-description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die Schiffs-HP. Die Geschosse der Railcannon werden nicht so leicht von Punktverteidigungen zerstört (je 5hp).	200
+description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die Schiffs-HP. Die Geschosse der Railcannon werden nicht so leicht von Punktverteidigungen zerstört (je 5 HP).	200
 
 weapon cubecannon1x3.prefab
 displayName	Armored railcannon III	Gepanzerte Schienenkanone III	40
-description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon shells are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die HP des Schiffes. Die Geschosse der Railcannon werden nicht so leicht von Punktverteidigungsanlagen zerstört (5hp pro Stück).	200
+description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon shells are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die HP des Schiffes. Die Geschosse der Railcannon werden nicht so leicht von Punktverteidigungsanlagen zerstört (5 HP pro Stück).	200
 
 weapon diyfirebomber1.prefab
 displayName	DIY firecannon MK1	DIY-Feuerkanone MK1	40
-description	Shoots plastic balls that explode and cause fire on impact. Somewhat improved accuracy due to built-in sensors. Fast reload cycle & increased speed of projectiles (which have 1hp each).	Schießt Plastikkugeln, explodieren und Feuer verursachen. Etwas bessere Genauigkeit durch eingebaute Sensoren. Schneller Nachladezyklus & erhöhte Geschossgeschwindigkeit (die jeweils 1hp haben).	200
+description	Shoots plastic balls that explode and cause fire on impact. Somewhat improved accuracy due to built-in sensors. Fast reload cycle & increased speed of projectiles (which have 1hp each).	Schießt Plastikkugeln, explodieren und Feuer verursachen. Etwas bessere Genauigkeit durch eingebaute Sensoren. Schneller Nachladezyklus & erhöhte Geschossgeschwindigkeit (die jeweils 1 HP haben).	200
 
 weapon diyfirebomber2.prefab
 displayName	DIY firecannon MK2	DIY-Feuerkanone MK2	40
-description	Shoots balls that cause fire on impact. Rapid rate of fire and more crew damage compared to MK1. Projectiles have 1hp each.	Schießt Kugeln, die beim Aufprall Feuer verursachen. Schnelle Feuerrate und mehr Mannschaftsschaden im Vergleich zu MK1. Projektile haben jeweils 1hp.	200
+description	Shoots balls that cause fire on impact. Rapid rate of fire and more crew damage compared to MK1. Projectiles have 1hp each.	Schießt Kugeln, die beim Aufprall Feuer verursachen. Schnelle Feuerrate und mehr Mannschaftsschaden im Vergleich zu MK1. Projektile haben jeweils 1 HP.	200
 
 weapon emperorbanks cannon large.prefab
 displayName	Intelligent BankTM cannon IIIA	Intelligente Bank™-Kanone IIIA	40
-description	These cannons rely on abundant use of explosives to print & propel massive, almost nuke-sized projectiles (which may be deflected). Robust structure improves ship HP. Projectile has 8hp.	Diese Kanonen setzen auf den reichlichen Einsatz von Sprengstoff, um massive, fast nukleargroße Projektile zu drucken und abzuschießen (die abgelenkt werden können). Die robuste Struktur verbessert die HP des Schiffes. Das Projektil hat 8 PS.	200
+description	These cannons rely on abundant use of explosives to print & propel massive, almost nuke-sized projectiles (which may be deflected). Robust structure improves ship HP. Projectile has 8hp.	Diese Kanonen setzen auf den reichlichen Einsatz von Sprengstoff, um massive, fast nukleargroße Projektile zu drucken und abzuschießen (die abgelenkt werden können). Die robuste Struktur verbessert die HP des Schiffes. Das Projektil hat 8 HP.	200
 
 weapon emperorbanks cannon1x.prefab
 displayName	Intelligent BankTM cannon IA	Intelligente Bank™-Kanone IA	40
-description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 5hp each.	Imperiale Kanonen verlassen sich auf den reichlichen Einsatz von Sprengstoff, um eine hohe Geschwindigkeit des Geschosses zu erreichen. Die robuste Struktur verbessert die Schiffs-HP. Die Projektile haben jeweils 5 PS.	200
+description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 5hp each.	Imperiale Kanonen verlassen sich auf den reichlichen Einsatz von Sprengstoff, um eine hohe Geschwindigkeit des Geschosses zu erreichen. Die robuste Struktur verbessert die Schiffs-HP. Die Projektile haben jeweils 5 HP.	200
 
 weapon emperorbanks cannon2x.prefab
 displayName	Intelligent BankTM cannon IIA	Intelligente Bank™-Kanone IIA	40
@@ -9435,11 +9435,11 @@ description	Anti-armor molecular acid cannon. Consumes organics with each shot a
 
 weapon hi-tec cannon.prefab
 displayName	Purple Cannon	Lila Kanone	40
-description	Advanced cannon that shoots EMP-charged solid bolts that overload enemy modules instead of damaging them. Increased power consumption. Projectiles have 4hp each.	Fortgeschrittene Kanone, die EMP-geladene massive Bolzen abschießt, die gegnerische Module überladen, anstatt sie zu beschädigen. Erhöhter Stromverbrauch. Die Projektile haben jeweils 4 PS.	200
+description	Advanced cannon that shoots EMP-charged solid bolts that overload enemy modules instead of damaging them. Increased power consumption. Projectiles have 4hp each.	Fortgeschrittene Kanone, die EMP-geladene massive Bolzen abschießt, die gegnerische Module überladen, anstatt sie zu beschädigen. Erhöhter Stromverbrauch. Die Projektile haben jeweils 4 HP.	200
 
 weapon rapid cannon.prefab
 displayName	Rapid Shrapnel Cannon	Schnelle Schrapnell-Kanone	40
-description	Designed to inflict maximum damage against modules and crew. Short bursts, light ammo (projectiles have 2hp each).	Entwickelt, um maximalen Schaden an Modulen und Besatzung anzurichten. Kurze Feuerstöße, leichte Munition (Projektile haben je 2 PS).	200
+description	Designed to inflict maximum damage against modules and crew. Short bursts, light ammo (projectiles have 2hp each).	Entwickelt, um maximalen Schaden an Modulen und Besatzung anzurichten. Kurze Feuerstöße, leichte Munition (Projektile haben je 2 HP).	200
 
 weapon ratcannon fire1.prefab
 displayName	Incendiary cannon R1000	Brandkanone R1000	40
@@ -9447,22 +9447,22 @@ description	A pressure cannon that launches incendiary bombs filled with flammab
 
 weapon ratcannon fire2.prefab
 displayName	Incendiary cannon R2000	Feuerkanone R2000	40
-description	A pressure cannon that launches incendiary bombs filled with flammable mixture. The projectiles can be shot down easily by point-defences because they have no armor (1hp each).	Eine Druckkanone, die mit einem brennbaren Gemisch gefüllte Brandbomben abschießt. Die Geschosse können leicht von Punktabwehrsystemen abgeschossen werden, da sie keine Panzerung haben (je 1 PS).	200
+description	A pressure cannon that launches incendiary bombs filled with flammable mixture. The projectiles can be shot down easily by point-defences because they have no armor (1hp each).	Eine Druckkanone, die mit einem brennbaren Gemisch gefüllte Brandbomben abschießt. Die Geschosse können leicht von Punktabwehrsystemen abgeschossen werden, da sie keine Panzerung haben (je 1 HP).	200
 
 weapon ratcannon fire3.prefab
 displayName	Incendiary cannon R3000	Brandbombenkanone R3000	40
 
 weapon ratcannon high velocity.prefab
 displayName	Burrowshell cannon	Burrowshell-Kanone	40
-description	The pinnacle of Rat Empire's destructive technology, this cannon shoots non-deflecting projectiles with a solid metal core (each projectile has 5hp). Has local sensors to boost weapon accuracy.	Der Höhepunkt der zerstörerischen Technologie des Rattenimperiums. Diese Kanone verschießt nicht ablenkbare Projektile mit einem massiven Metallkern (jedes Projektil hat 5hp). Verfügt über lokale Sensoren, um die Genauigkeit der Waffe zu erhöhen.	200
+description	The pinnacle of Rat Empire's destructive technology, this cannon shoots non-deflecting projectiles with a solid metal core (each projectile has 5hp). Has local sensors to boost weapon accuracy.	Der Höhepunkt der zerstörerischen Technologie des Rattenimperiums. Diese Kanone verschießt nicht ablenkbare Projektile mit einem massiven Metallkern (jedes Projektil hat 5 HP). Verfügt über lokale Sensoren, um die Genauigkeit der Waffe zu erhöhen.	200
 
 weapon Segmented cannon1.prefab
 displayName	Rail-accelerator cannon	Schienenbeschleuniger-Kanone	40
-description	The rail accelerator does not use explosives to propel metal bolts, but needs a lot of power. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Der Schienenbeschleuniger verwendet keinen Sprengstoff, um Metallbolzen voranzutreiben, benötigt aber viel Energie. Die Geschosse der Schienenkanone sind nicht leicht durch Punktverteidigung zu zerstören (je 5hp).	200
+description	The rail accelerator does not use explosives to propel metal bolts, but needs a lot of power. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Der Schienenbeschleuniger verwendet keinen Sprengstoff, um Metallbolzen voranzutreiben, benötigt aber viel Energie. Die Geschosse der Schienenkanone sind nicht leicht durch Punktverteidigung zu zerstören (je 5 HP).	200
 
 weapon Segmented cannonx2 A.prefab
 displayName	Rail-accelerator cannon II	Schienenbeschleuniger-Kanone II	40
-description	The rail accelerator does not use explosives to propel shells, but needs a lot of power. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Der Schienenbeschleuniger verwendet keine Sprengstoffe, um Geschosse anzutreiben, benötigt aber viel Energie. Die Geschosse der Schienenkanone sind nicht leicht durch Punktverteidigung zu zerstören (je 5 PS).	200
+description	The rail accelerator does not use explosives to propel shells, but needs a lot of power. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Der Schienenbeschleuniger verwendet keine Sprengstoffe, um Geschosse anzutreiben, benötigt aber viel Energie. Die Geschosse der Schienenkanone sind nicht leicht durch Punktverteidigung zu zerstören (je 5 HP).	200
 
 weapon Segmented cannonx2 B.prefab
 displayName	Rail-accelerator cannon III	Schienenbeschleuniger-Kanone III	40
@@ -9472,11 +9472,11 @@ displayName	Rail-accelerator cannon IV	Schienenbeschleuniger-Kanone IV	40
 
 weapon Sniper cannon 0 DIY.prefab
 displayName	DIY rail microcannon	DIY-Schienen-Mikrokanone	40
-description	Manually assembled small railgun. Penetrates shields, does not consume explosives, deals double damage to modules. Projectiles have 3hp each.	Manuell zusammengebaute kleine Railgun. Durchdringt Schilde, verbraucht keinen Sprengstoff, verursacht doppelten Schaden an Modulen. Projektile haben jeweils 3hp.	200
+description	Manually assembled small railgun. Penetrates shields, does not consume explosives, deals double damage to modules. Projectiles have 3hp each.	Manuell zusammengebaute kleine Railgun. Durchdringt Schilde, verbraucht keinen Sprengstoff, verursacht doppelten Schaden an Modulen. Projektile haben jeweils 3 HP.	200
 
 weapon Sniper cannon 0.prefab
 displayName	Sniper cannon I	Scharfschützenkanone I	40
-description	A sniper cannon for damaging crucial modules of enemy ships. Projectiles have 2hp each.	Eine Scharfschützenkanone zur Beschädigung wichtiger Module feindlicher Schiffe. Projektile haben jeweils 2hp.	200
+description	A sniper cannon for damaging crucial modules of enemy ships. Projectiles have 2hp each.	Eine Scharfschützenkanone zur Beschädigung wichtiger Module feindlicher Schiffe. Projektile haben jeweils 2 HP.	200
 
 weapon Sniper cannon 2 insectoid.prefab
 displayName	Insectoidian sniper railgun	Insektoiden-Scharfschützen-Railgun	40
@@ -9484,7 +9484,7 @@ description	Sniper rail cannon for damaging crucial modules of enemy ships. It's
 
 weapon Sniper cannon 2.prefab
 displayName	Sniper cannon II	Scharfschützenkanone II	40
-description	A sniper cannon for damaging crucial modules of enemy ships. Projectiles have 3hp each.	Eine Scharfschützenkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die Geschosse haben jeweils 3hp.	200
+description	A sniper cannon for damaging crucial modules of enemy ships. Projectiles have 3hp each.	Eine Scharfschützenkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die Geschosse haben jeweils 3 HP.	200
 
 weapon Sniper cannon 3.prefab
 displayName	Sniper cannon III	Scharfschützenkanone III	40
@@ -9492,11 +9492,11 @@ description	A sniper cannon for damaging crucial modules of enemy ships.	Eine Sc
 
 weapon Sniper cannon 4.prefab
 displayName	Terran quad sniper minicannon	Terranische Vierfach-Scharfschützen-Minikanone	40
-description	Precision microcannon with four barrels for increased armor pentration chance. Projectiles have 3hp each.	Präzisions-Mikrokanone mit vier Läufen für eine erhöhte Panzerungsdurchdringungschance. Projektile haben jeweils 3hp.	200
+description	Precision microcannon with four barrels for increased armor pentration chance. Projectiles have 3hp each.	Präzisions-Mikrokanone mit vier Läufen für eine erhöhte Panzerungsdurchdringungschance. Projektile haben jeweils 3 HP.	200
 
 weapon sniper cannon EMP.prefab
 displayName	EMP shuriken sniper	EMP-Shuriken-Scharfschütze	40
-description	EMP projectile sniper cannon. Damages & overloads modules, may start fires & harm crew, harmless against ship hull. Never deflects. Projectiles have 2hp each.	EMP-Projektil-Scharfschützenkanone. Beschädigt und überlastet Module, kann Brände auslösen und die Besatzung verletzen, harmlos gegen die Schiffshülle. Lenkt nie ab. Projektile haben je 2hp.	200
+description	EMP projectile sniper cannon. Damages & overloads modules, may start fires & harm crew, harmless against ship hull. Never deflects. Projectiles have 2hp each.	EMP-Projektil-Scharfschützenkanone. Beschädigt und überlastet Module, kann Brände auslösen und die Besatzung verletzen, harmlos gegen die Schiffshülle. Lenkt nie ab. Projektile haben je 2 HP.	200
 
 weapon mininglaser 0 defective.prefab
 displayName	Mining laser I (degraded)	Minenlaser I (degradiert)	40
@@ -9748,15 +9748,15 @@ description	Heavy-duty industrial laser. Low accuracy if compared to military be
 
 weapon DIY Minicannon ancient 2,3.prefab
 displayName	Converted ancient minicannon	Konvertierte antike Minikanone	40
-description	Ancient point-defence weapon converted into small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Alte Punktverteidigungswaffe, die in eine kleinkalibrige Autokanone umgewandelt wurde. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 PS).	200
+description	Ancient point-defence weapon converted into small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Alte Punktverteidigungswaffe, die in eine kleinkalibrige Autokanone umgewandelt wurde. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 HP).	200
 
 weapon gatling 01 ancient dual 14,4.prefab
 displayName	Ancient dual microcannon	Antike Doppel-Mikrokanone	40
-description	Ancient small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Antike kleinkalibrige Autokanone. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 PS).	200
+description	Ancient small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Antike kleinkalibrige Autokanone. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 HP).	200
 
 weapon gatling 02 rat small 12,4.prefab
 displayName	Imperial Gatling Gun	Imperiale Gatlingkanone	40
-description	Favourite weapon of Rat admirals. Designed around the "spray and pray" tactic using heavy bullets. The armor plating also improves ship HP. Launched projectiles have 1hp each."	Die Lieblingswaffe der Rattenadmirale. Entwickelt für die "Spray and Pray"-Taktik mit schweren Geschossen. Die Panzerung verbessert auch die HP des Schiffes. Abgefeuerte Geschosse haben jeweils 1hp."	200
+description	Favourite weapon of Rat admirals. Designed around the "spray and pray" tactic using heavy bullets. The armor plating also improves ship HP. Launched projectiles have 1hp each."	Die Lieblingswaffe der Rattenadmirale. Entwickelt für die "Spray and Pray"-Taktik mit schweren Geschossen. Die Panzerung verbessert auch die HP des Schiffes. Abgefeuerte Geschosse haben jeweils 1 HP."	200
 
 weapon gatling blaster small 12,5.prefab
 displayName	Standard particle blaster	Standard-Partikel-Blaster	40
@@ -9764,15 +9764,15 @@ description	The weapon has good rate of fire and accuracy, but its particle proj
 
 weapon gatling ClawA 12,4.prefab
 displayName	Rail gatling I	Rail-Gatling I	40
-description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power, but enemy point-defences can't usually destroy heavy metal bolts. Launched projectiles have 3hp each.	Diese Railguns schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie, aber feindliche Punktverteidigungen können die schweren Metallbolzen normalerweise nicht zerstören. Die abgeschossenen Projektile haben jeweils 3 PS.	200
+description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power, but enemy point-defences can't usually destroy heavy metal bolts. Launched projectiles have 3hp each.	Diese Railguns schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie, aber feindliche Punktverteidigungen können die schweren Metallbolzen normalerweise nicht zerstören. Die abgeschossenen Projektile haben jeweils 3 HP.	200
 
 weapon gatling ClawB 14,5.prefab
 displayName	Rail gatling II	Rail-Gatling II	40
-description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power. Launched projectiles have 3hp each.	Diese Railguns schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie. Abgefeuerte Geschosse haben je 3hp.	200
+description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power. Launched projectiles have 3hp each.	Diese Railguns schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie. Abgefeuerte Geschosse haben je 3 HP.	200
 
 weapon gatling Insectoid cyano 15,4.prefab
 displayName	Venom gatlingcannon	Venom-Gatlingkanone	40
-description	Synthethic poison-tipped projectiles deal extra damage to enemy crew. The weapon is more economic than average gatling guns, the projectiles are propelled using reactive organics. Launched projectiles have 1hp each.	Projektile mit synthetischer Giftspitze fügen der gegnerischen Besatzung zusätzlichen Schaden zu. Die Waffe ist sparsamer als durchschnittliche Gatlingkanonen, die Projektile werden durch reaktive Organik angetrieben. Abgefeuerte Projektile haben jeweils 1hp.	200
+description	Synthethic poison-tipped projectiles deal extra damage to enemy crew. The weapon is more economic than average gatling guns, the projectiles are propelled using reactive organics. Launched projectiles have 1hp each.	Projektile mit synthetischer Giftspitze fügen der gegnerischen Besatzung zusätzlichen Schaden zu. Die Waffe ist sparsamer als durchschnittliche Gatlingkanonen, die Projektile werden durch reaktive Organik angetrieben. Abgefeuerte Projektile haben jeweils 1 HP.	200
 
 weapon gatling Insectoid plasma 18,4x2.prefab
 displayName	Plasma gatling cannon	Plasma-Gatling-Kanone	40
@@ -9780,34 +9780,34 @@ description	Semibiological cannon. Uses organics to create a storm of accurate p
 
 weapon gatling RatA 14,4.prefab
 displayName	Imperial Spitter A	Imperialer Spitter A	40
-description	Heavy rapid-fire gatling cannon. Penetrates energy shields. Made in the Rat Empire. Armor plating improves ship HP. Launched projectiles have 3hp each.	Schwere Schnellfeuer-Gatling-Kanone. Durchdringt Energieschilde. Hergestellt im Rattenimperium. Die Panzerung verbessert die HP des Schiffes. Abgefeuerte Geschosse haben jeweils 3 PS.	200
+description	Heavy rapid-fire gatling cannon. Penetrates energy shields. Made in the Rat Empire. Armor plating improves ship HP. Launched projectiles have 3hp each.	Schwere Schnellfeuer-Gatling-Kanone. Durchdringt Energieschilde. Hergestellt im Rattenimperium. Die Panzerung verbessert die HP des Schiffes. Abgefeuerte Geschosse haben jeweils 3 HP.	200
 
 weapon gatling RatB 15,5.prefab
 displayName	Imperial Spitter B	Imperialer Spitter B	40
-description	Heavy rapid-fire cannon. Uses large shells that usually survive point-defence crossfire. Armor plating improves ship HP. Launched projectiles have 3hp each.	Schwere Schnellfeuerkanone. Verwendet große Geschosse, die normalerweise ein Kreuzfeuer der Punktverteidigung überstehen. Die Panzerung verbessert die HP des Schiffs. Abgefeuerte Geschosse haben je 3 PS.	200
+description	Heavy rapid-fire cannon. Uses large shells that usually survive point-defence crossfire. Armor plating improves ship HP. Launched projectiles have 3hp each.	Schwere Schnellfeuerkanone. Verwendet große Geschosse, die normalerweise ein Kreuzfeuer der Punktverteidigung überstehen. Die Panzerung verbessert die HP des Schiffs. Abgefeuerte Geschosse haben je 3 HP.	200
 
 weapon gatling Tiger.prefab
 displayName	Tiger heavy gatling cannon	Tiger schwere Gatling-Kanone	40
-description	A modern, well-armored rapid fire system. Eat's a lot of ammo but delivers devastating shield-piercing firepower. Launched projectiles have 2hp each.	Ein modernes, gut gepanzertes Schnellfeuersystem. Es verbraucht viel Munition, liefert aber verheerende schilddurchdringende Feuerkraft. Die abgefeuerten Geschosse haben jeweils 2 PS.	200
+description	A modern, well-armored rapid fire system. Eat's a lot of ammo but delivers devastating shield-piercing firepower. Launched projectiles have 2hp each.	Ein modernes, gut gepanzertes Schnellfeuersystem. Es verbraucht viel Munition, liefert aber verheerende schilddurchdringende Feuerkraft. Die abgefeuerten Geschosse haben jeweils 2 HP.	200
 
 weapon gatling whiteA 13,4.prefab
 displayName	Nova gatling cannon, type I	Nova-Gatling-Kanone, Typ I	40
-description	A modern, efficient and well-armored rapid fire system. Launched projectiles have 2hp each.	Ein modernes, effizientes und gut gepanzertes Schnellfeuersystem. Abgefeuerte Geschosse haben je 2 PS.	200
+description	A modern, efficient and well-armored rapid fire system. Launched projectiles have 2hp each.	Ein modernes, effizientes und gut gepanzertes Schnellfeuersystem. Abgefeuerte Geschosse haben je 2 HP.	200
 
 weapon gatling whiteB 14,5.prefab
 displayName	Automated gatling cannon, type II	Automatisierte Gatling-Kanone, Typ II	40
 
 weapon weirdship gatling.prefab
 displayName	Euphoria gatling gun	Euphoria-Gatling-Kanone	40
-description	This advanced gatling cannon was designed to use as little ammo as possible. The weapon needs more power than normal gatling cannons. Launched projectiles have 2hp each.	Diese fortschrittliche Gatlingkanone wurde entwickelt, um so wenig Munition wie möglich zu verbrauchen. Die Waffe benötigt mehr Energie als normale Gatling-Kanonen. Abgefeuerte Projektile haben jeweils 2hp.	200
+description	This advanced gatling cannon was designed to use as little ammo as possible. The weapon needs more power than normal gatling cannons. Launched projectiles have 2hp each.	Diese fortschrittliche Gatlingkanone wurde entwickelt, um so wenig Munition wie möglich zu verbrauchen. Die Waffe benötigt mehr Energie als normale Gatling-Kanonen. Abgefeuerte Projektile haben jeweils 2 HP.	200
 
 weapon alienmissile x5.prefab
 displayName	Alien rocket launcher (x5)	Alien-Raketenwerfer (x5)	40
-description	Platform for rapidly printing & launching non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken und Abschießen von nicht brennbaren Raketen. Die Raketen lassen sich nicht ablenken und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1hp.	200
+description	Platform for rapidly printing & launching non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken und Abschießen von nicht brennbaren Raketen. Die Raketen lassen sich nicht ablenken und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200
 
 weapon alienmissile x7.prefab
 displayName	Alien rocket launcher (x7)	Alien-Raketenwerfer (x7)	40
-description	Platform for rapidly launching a hail of small, non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Abschuss eines Hagels kleiner, nicht entflammbarer Raketen. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1hp.	200
+description	Platform for rapidly launching a hail of small, non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Abschuss eines Hagels kleiner, nicht entflammbarer Raketen. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200
 
 weapon ancientrockets x3.prefab
 displayName	Ancient rocket platform	Antike Raketenplattform	40
@@ -9818,7 +9818,7 @@ description	Ancient but robust platform for printing and launching dual rockets.
 
 weapon DIY Rockets x1.prefab
 displayName	DIY heavy rocket launcher	DIY schwerer Raketenwerfer	40
-description	Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect. A launched missile has 2hp.	Improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu drucken und abzuschießen. Die Raketen werden nicht abgelenkt. Eine abgeschossene Rakete hat 2hp.	200
+description	Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect. A launched missile has 2hp.	Improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu drucken und abzuschießen. Die Raketen werden nicht abgelenkt. Eine abgeschossene Rakete hat 2 HP.	200
 
 weapon emperormissile large x5.prefab
 displayName	Intelligent BankTM rocket launcher (x5)	Intelligente Bank™-Raketenwerfer (x5)	40
@@ -9826,32 +9826,32 @@ description	Platform for rapidly printing & launching rockets. Rockets never def
 
 weapon emperormissiles small x2.prefab
 displayName	Intelligent BankTM missile launcher (x2)	Intelligente Bank™-Raketenwerfer (x2)	40
-description	Platform for printing and shooting heavy missiles with increased armor. Missiles never deflect and damage enemy modules in a large area. These missiles have 2hp each.	Plattform zum Drucken und Abschießen schwerer Raketen mit erhöhter Panzerung. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich. Diese Raketen haben jeweils 2hp.	200
+description	Platform for printing and shooting heavy missiles with increased armor. Missiles never deflect and damage enemy modules in a large area. These missiles have 2hp each.	Plattform zum Drucken und Abschießen schwerer Raketen mit erhöhter Panzerung. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich. Diese Raketen haben jeweils 2 HP.	200
 
 weapon miscmissile x4.prefab
 displayName	Miscellaneous platform	Verschiedene Plattform	40
-description	A platform that prints & launches missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area. These missiles have 1hp each.	Eine Plattform, die Raketen druckt und abschießt. Alle Raketen sind präzise, durchdringen Schilde, werden nie abgelenkt und beschädigen Module in einem großen Bereich. Diese Raketen haben jeweils 1hp.	200
+description	A platform that prints & launches missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area. These missiles have 1hp each.	Eine Plattform, die Raketen druckt und abschießt. Alle Raketen sind präzise, durchdringen Schilde, werden nie abgelenkt und beschädigen Module in einem großen Bereich. Diese Raketen haben jeweils 1 HP.	200
 
 weapon monolith missile x1.prefab
 displayName	Monolith launcher	Monolith-Abschussvorrichtung	40
-description	This platform prints supersolid metal monoliths with rocket engines. The massive projectiles deal mostly hull damage but can be deflected. The launcher itself is quite brittle, launched missiles have 8hp.	Diese Plattform druckt supersolide Metallmonolithen mit Raketentriebwerken. Die massiven Geschosse verursachen hauptsächlich Hüllenschaden, können aber abgelenkt werden. Der Raketenwerfer selbst ist recht spröde, die abgeschossenen Raketen haben 8hp.	200
+description	This platform prints supersolid metal monoliths with rocket engines. The massive projectiles deal mostly hull damage but can be deflected. The launcher itself is quite brittle, launched missiles have 8hp.	Diese Plattform druckt supersolide Metallmonolithen mit Raketentriebwerken. Die massiven Geschosse verursachen hauptsächlich Hüllenschaden, können aber abgelenkt werden. Der Raketenwerfer selbst ist recht spröde, die abgeschossenen Raketen haben 8 HP.	200
 
 weapon ratmissile x2.prefab
 displayName	Rat missile platform	Ratten-Raketenplattform	40
-description	Incendiary rocket printing & launching platform. Large AoE, consumes explosives. Missiles cannot be deflected by slot/module armor. Each missile has 1hp.	Brandstiftende Raketendruck- & Abschussplattform. Große AoE, verbraucht Sprengstoff. Raketen können nicht durch Slot-/Modulpanzerung abgelenkt werden. Jede Rakete hat 1hp.	200
+description	Incendiary rocket printing & launching platform. Large AoE, consumes explosives. Missiles cannot be deflected by slot/module armor. Each missile has 1hp.	Brandstiftende Raketendruck- & Abschussplattform. Große AoE, verbraucht Sprengstoff. Raketen können nicht durch Slot-/Modulpanzerung abgelenkt werden. Jede Rakete hat 1 HP.	200
 
 weapon ratmissile x3.prefab
 
 weapon spideraamissilex3.prefab
 displayName	Spideraa triple missiles	Spinner Dreifach-Raketen	40
-description	A biotech platform for printing & launching armored missiles. Uses much explosives and has large area of effect. Missiles cannot be deflected. These missiles have 2hp each.	Eine Biotech-Plattform zum Drucken und Starten von gepanzerten Raketen. Verbraucht viel Sprengstoff und hat einen großen Wirkungsbereich. Raketen können nicht abgelenkt werden. Diese Raketen haben jeweils 2hp.	200
+description	A biotech platform for printing & launching armored missiles. Uses much explosives and has large area of effect. Missiles cannot be deflected. These missiles have 2hp each.	Eine Biotech-Plattform zum Drucken und Starten von gepanzerten Raketen. Verbraucht viel Sprengstoff und hat einen großen Wirkungsbereich. Raketen können nicht abgelenkt werden. Diese Raketen haben jeweils 2 HP.	200
 
 weapon spideraamissilex4.prefab
 displayName	Spideraa quad missiles	Spinner Vierfach-Raketen	40
 
 weapon tigermissile x2.prefab
 displayName	Industrial missile platform	Industrielle Raketenplattform	40
-description	A platform that prints & launches armored missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area. These missiles have 2hp each.	Eine Plattform, die gepanzerte Raketen druckt und abschießt. Alle Raketen sind treffsicher, durchdringen Schilde, werden nicht abgelenkt und beschädigen Module über einen großen Bereich. Diese Raketen haben jeweils 2hp.	200
+description	A platform that prints & launches armored missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area. These missiles have 2hp each.	Eine Plattform, die gepanzerte Raketen druckt und abschießt. Alle Raketen sind treffsicher, durchdringen Schilde, werden nicht abgelenkt und beschädigen Module über einen großen Bereich. Diese Raketen haben jeweils 2 HP.	200
 
 weapon EMP energyball 3x Tiger.prefab
 displayName	EMP plasma battery	EMP-Plasmabatterie	40
@@ -9863,7 +9863,7 @@ description	A powerful electromagnetic plasma pulse cannon. Overloads shields or
 
 weapon exoticscannon1.prefab
 displayName	Exotic destabilzer cannon	Exotische Destabilisatorkanone	40
-description	Advanced energy cannon that shoots chunks of destabilized exotic matter. Large AoE, penetrates shields and never deflects. May overload modules that survive a hit. Launched projectile has 7hp.	Fortgeschrittene Energiekanone, die Brocken von destabilisierter exotischer Materie verschießt. Große AoE, durchdringt Schilde und wird nicht abgelenkt. Kann Module überladen, die einen Treffer überleben. Abgefeuertes Projektil hat 7hp.	200
+description	Advanced energy cannon that shoots chunks of destabilized exotic matter. Large AoE, penetrates shields and never deflects. May overload modules that survive a hit. Launched projectile has 7hp.	Fortgeschrittene Energiekanone, die Brocken von destabilisierter exotischer Materie verschießt. Große AoE, durchdringt Schilde und wird nicht abgelenkt. Kann Module überladen, die einen Treffer überleben. Abgefeuertes Projektil hat 7 HP.	200
 
 weapon spideraa disruptor.prefab
 displayName	Spideraa shield disruptor	Spinner-Schildbrecher	40
@@ -9871,7 +9871,7 @@ description	A biotech platform for projecting powerful EMP rays. Disrupts shield
 
 weapon Spideraa shuriken.prefab
 displayName	Nanoshuriken sniper	Nanoshuriken-Scharfschütze	40
-description	Shoots nano-thin shurikens that damage only enemy crew. Perfect for sniping enemy captains. Launched projectiles have 1hp each.	Schießt nano-dünne Shuriken ab, die nur die gegnerische Besatzung beschädigen. Perfekt zum Scharfschießen auf feindliche Kapitäne. Abgeschossene Projektile haben jeweils 1 PS.	200
+description	Shoots nano-thin shurikens that damage only enemy crew. Perfect for sniping enemy captains. Launched projectiles have 1hp each.	Schießt nano-dünne Shuriken ab, die nur die gegnerische Besatzung beschädigen. Perfekt zum Scharfschießen auf feindliche Kapitäne. Abgeschossene Projektile haben jeweils 1 HP.	200
 
 bossweapon insectoid ship.prefab
 displayName	Huge energy weapon	Riesige Energiewaffe	40
