@@ -46,8 +46,8 @@ displayName	Fuel tank (Tiger)	Treibstofftank (Tiger)	40
 description	Fuel container. Damage results in rapid loss of fuel.	Treibstoffbehälter. Eine Beschädigung führt zu einem schnellen Verlust des Treibstoffs.	200
 
 integrity tiger.prefab
-displayName	Integrity hardpoint, Tiger	Integritäts-Hardpoint, Tiger	40
-description	Composite plastic hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	Kunststoff-Hardpoint aus Verbundwerkstoff, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffshochleistung zu erhalten, auch während eines Notfalls.	200
+displayName	Integrity hardpoint, Tiger	Integritäts-Ansatzpunkt, Tiger	40
+description	Composite plastic hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	Kunststoff-Ansatzpunkt aus Verbundwerkstoff, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffshochleistung zu erhalten, auch während eines Notfalls.	200
 
 shield tigership.prefab
 displayName	Tiger shield generator	Tiger-Schildgenerator	40

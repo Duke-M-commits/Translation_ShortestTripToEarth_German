@@ -420,7 +420,7 @@ ModuleDataSubpanel.cs
 	{0}% chance of {1}x{2} crew damage (default is {3:0}% of {4}x{5})	{0}% Chance auf {1}x{2} Mannschaftsschaden (Standard ist {3:0}% auf {4}x{5})	0
 	Does no crew damage (default is {0}% of {1} per projectile/beam)	Verursacht keinen Besatzungsschaden (Standard ist {0}% von {1} pro Projektil/Strahl)	0
 	none	keine	0
-	low	fast aus	0
+	low	niedrig	0
 	default	Standard	0
 	high	hoch	0
 	{0}% chance of fire	{0}% Chance auf Feuer	0
@@ -2437,7 +2437,7 @@ okButtonText	We will interfere	Wir werden uns einmischen	7
 text	"Captain, surely you understand this is nothing personal, but a matter of very important and totally honourable tradition. \n\nFeel free to step aside and not interfere. I must honor our tradition of Vengeance, and avenge our captured queens by destroying Earth... as it was decided by Wives of our Elders when they ceremonially played the ancient Bone Dice game. Even you must see that it is absolutely logical!\n\nBe warned that we will shoot our secondary weapons at you if you interfere, and we have a few tricks if you press the issue. Our mission is to only destroy the bad Earth, not you."	Captain, Sie verstehen sicher, dass dies nichts Persönliches ist, sondern eine sehr wichtige und absolut ehrenhafte Angelegenheit. \n\nEs steht Ihnen frei, zur Seite zu treten und sich nicht einzumischen. Ich muss unsere Tradition der Vergeltung ehren und unsere gefangenen Königinnen rächen, indem ich die Erde zerstöre... wie es von den Frauen unserer Ältesten beschlossen wurde, als sie zeremoniell das alte Knochenwürfelspiel spielten. Selbst ihr müsst sehen, dass es absolut logisch ist! \n\nSeid gewarnt, dass wir mit unseren Sekundärwaffen auf euch schießen werden, wenn ihr euch einmischt, und wir haben ein paar Tricks, wenn ihr Druck macht. Unsere Mission ist es, nur die böse Erde zu zerstören, nicht Sie.	600
 text	Hours waited... #	Stundenlang gewartet... #	50
 okButtonText	Prepare for battle	Auf den Kampf vorbereiten	7
-text	The enemy planetkiller ship is on route to this warpgate. It will most likely attempt shooting through the warpgate without actually entering the portal itself. We must wait here to intercept it. Prepare everything we got, no holding back now.	Das feindliche Planetenkillerschiff ist auf dem Weg zu diesem Warptor. Es wird höchstwahrscheinlich versuchen, durch das Warptor zu schießen, ohne das Portal selbst zu betreten. Wir müssen hier warten, um es abzufangen. Bereitet alles vor, was wir haben. Jetzt gibt es kein Halten mehr.	600
+text	The enemy planetkiller ship is on route to this warpgate. It will most likely attempt shooting through the warpgate without actually entering the portal itself. We must wait here to intercept it. Prepare everything we got, no holding back now.	Der feindliche Planetenzerstörer ist auf dem Weg zu diesem Warptor. Es wird höchstwahrscheinlich versuchen, durch das Warptor zu schießen, ohne das Portal selbst zu betreten. Wir müssen hier warten, um es abzufangen. Bereitet alles vor, was wir haben. Jetzt gibt es kein Halten mehr.	600
 
 Level 2 exit, pirate sekvoia bossfight.prefab
 title	Boarders detected!	Eindringlinge entdeckt!	35
@@ -8235,11 +8235,11 @@ description	A piece of non-repairable xenotechnology that contains a small, dead
 
 artifactmodule tec 12 data square gizmo with minidomes.prefab
 displayName	Tech artifact (data core)	Tech-Artefakt (Datenkern)	40
-description	A giant data core with some valuable information inside (which can be obtained only by breaking it). The module can be also used as a crude integrity hardpoint.	Ein riesiger Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann auch als grober Integritäts-Hardpoint verwendet werden.	200
+description	A giant data core with some valuable information inside (which can be obtained only by breaking it). The module can be also used as a crude integrity hardpoint.	Ein riesiger Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann auch als grober Integritäts-Ansatzpunkt verwendet werden.	200
 
 artifactmodule tec 13 data core brassdome ECM.prefab
 displayName	Tech artifact (ECM integrity data core)	Tech-Artefakt (ECM-Integritätsdatenkern)	40
-description	A giant armored data core with some valuable information inside (which can be obtained only by breaking it). The module can be used as integrity ECM hardpoint.	Ein riesiger gepanzerter Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann als Integritäts-ECM-Hardpoint verwendet werden.	200
+description	A giant armored data core with some valuable information inside (which can be obtained only by breaking it). The module can be used as integrity ECM hardpoint.	Ein riesiger gepanzerter Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann als Integritäts-ECM-Ansatzpunkt verwendet werden.	200
 
 artifactmodule tec 17 broken screen gizmo, data.prefab
 displayName	Tech artifact	Tech-Artefakt	40
@@ -8248,11 +8248,11 @@ description	A piece of non-usable xenotechnology. Scrapping would yield resource
 artifactmodule tec 21 data core rectangle gizmo.prefab
 
 artifactmodule tec 22 metal synt gizmo ECM.prefab
-displayName	Tech artifact (ECM integrity hardpoint)	Tech-Artefakt (ECM-Integritäts-Hardpoint)	40
-description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint and produces ECM static if powered. Scrapping would yield resources and research data.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Hardpoint verwendet werden und erzeugt ECM-Statik, wenn es mit Strom versorgt wird. Eine Verschrottung würde Ressourcen und Forschungsdaten ergeben.	200
+displayName	Tech artifact (ECM integrity hardpoint)	Tech-Artefakt (ECM-Integritäts-Ansatzpunkt)	40
+description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint and produces ECM static if powered. Scrapping would yield resources and research data.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden und erzeugt ECM-Statik, wenn es mit Strom versorgt wird. Eine Verschrottung würde Ressourcen und Forschungsdaten ergeben.	200
 
 artifactmodule tec 23 metal gizmo with light ECM.prefab
-description	A piece of xenotechnology. The module can be used as a crude integrity hardpoint. It produces minimal ECM static if powered. Can be installed into internal slot.	Ein Teil der Xenotechnologie. Das Modul kann als grober Integritäts-Hardpoint verwendet werden. Es erzeugt minimale ECM-Statik, wenn es mit Energie versorgt wird. Kann im internen Steckplatz installiert werden.	200
+description	A piece of xenotechnology. The module can be used as a crude integrity hardpoint. It produces minimal ECM static if powered. Can be installed into internal slot.	Ein Teil der Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden. Es erzeugt minimale ECM-Statik, wenn es mit Energie versorgt wird. Kann im internen Steckplatz installiert werden.	200
 
 artifactmodule tec 24 broken warp gizmo ECM.prefab
 displayName	Tech artifact (damaged warpdrive)	Tech-Artefakt (beschädigter Warp-Antrieb)	40
@@ -8266,7 +8266,7 @@ description	A giant data core with some information remaining inside. Can be scr
 
 artifactmodule tec 31 data core node small lamp dome.prefab
 displayName	Tech artifact (AI node)	Tech-Artefakt (KI-Knoten)	40
-description	A giant data core with some information remaining inside. Can be scrapped for resources or used as a crude integrity hardpoint.	Ein riesiger Datenkern, in dem noch einige Informationen enthalten sind. Kann für Ressourcen verschrottet oder als grober Integritäts-Hardpoint verwendet werden.	200
+description	A giant data core with some information remaining inside. Can be scrapped for resources or used as a crude integrity hardpoint.	Ein riesiger Datenkern, in dem noch einige Informationen enthalten sind. Kann für Ressourcen verschrottet oder als grober Integritäts-Ansatzpunkt verwendet werden.	200
 
 artifactmodule tec 32 broken container gizmo.prefab
 description	A piece of unusable xenotechnology.	Ein Stück unbrauchbare Xenotechnologie.	200
@@ -8307,16 +8307,16 @@ artifactmodule tec engine booster 2.prefab
 displayName	Tech artifact [engine booster II]	Tech-Artefakt [Triebwerksbooster II]	40
 
 artifactmodule tec green slime integrity.prefab
-displayName	Biotech artifact (integrity hardpoint)	Biotech-Artefakt (Integritäts-Hardpoint)	40
-description	A single piece of some kind of larger modular biotechnology set, usable as a primitive integrity hardpoint. Scrapping would yield research data.	Ein einzelnes Stück einer Art größeren modularen Biotechnologie-Sets, verwendbar als primitiver Integritäts-Hardpoint. Eine Verschrottung würde Forschungsdaten ergeben.	200
+displayName	Biotech artifact (integrity hardpoint)	Biotech-Artefakt (Integritäts-Ansatzpunkt)	40
+description	A single piece of some kind of larger modular biotechnology set, usable as a primitive integrity hardpoint. Scrapping would yield research data.	Ein einzelnes Stück einer Art größeren modularen Biotechnologie-Sets, verwendbar als primitiver Integritäts-Ansatzpunkt. Eine Verschrottung würde Forschungsdaten ergeben.	200
 
 artifactmodule tec ingergity and asteroid predictor.prefab
 displayName	Tech artifact (asteroid predictor)	Tech-Artefakt (Asteroiden-Prädiktor)	40
 description	A piece of modular xenotechnology that calculates vectors of approaching asteroids. Durable structure also increases ship HP.	Ein Stück modularer Xenotechnologie, das die Vektoren von sich nähernden Asteroiden berechnet. Die robuste Struktur erhöht auch die HP des Schiffes.	200
 
 artifactmodule tec metal rainbow integrity.prefab
-displayName	Tech artifact (integrity hardpoint)	Tech-Artefakt (Integritäts-Hardpoint)	40
-description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint but is otherwise useful only as scrap.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Hardpoint verwendet werden, ist aber ansonsten nur als Schrott nützlich.	200
+displayName	Tech artifact (integrity hardpoint)	Tech-Artefakt (Integritäts-Ansatzpunkt)	40
+description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint but is otherwise useful only as scrap.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden, ist aber ansonsten nur als Schrott nützlich.	200
 
 artifactmodule tec screamer egg ECM.prefab
 displayName	Tech artifact (ECM emitter)	Tech-Artefakt (ECM-Emitter)	40
@@ -8565,8 +8565,8 @@ dream recorder 4x weird biotech.prefab
 displayName	Cryodream recorderx4, biotech	Kryotraum-Rekorder x4, biotechnisch	40
 
 weapondecoy_alien.prefab
-displayName	Weapon decoy & Integrity hardpoint	Waffentäuschung & Integritäts-Hardpoint	40
-description	Solid integrity hardpoint designed to appear as a weapon to enemy sensors. Adds ship HP when installed.	Solider Integritäts-Hardpoint, der für die feindlichen Sensoren als Waffe erscheint. Erhöht die Schiffs-HP, wenn er installiert ist.	200
+displayName	Weapon decoy & Integrity hardpoint	Waffentäuschung & Integritäts-Ansatzpunkt	40
+description	Solid integrity hardpoint designed to appear as a weapon to enemy sensors. Adds ship HP when installed.	Solider Integritäts-Ansatzpunkt, der für die feindlichen Sensoren als Waffe erscheint. Erhöht die Schiffs-HP, wenn er installiert ist.	200
 
 weapondecoy1.prefab
 
@@ -8589,7 +8589,7 @@ ECM 02 terran.prefab
 displayName	Armored ECM Turret II	Gepanzerter ECM-Turm II	40
 
 ECM 02.2 ancient artifact, slicer dicer.prefab
-displayName	ECM artifact (ancient slicer-dicer)	ECM-Artefakt (antiker Slicer-Dicer)	40
+displayName	ECM artifact (ancient slicer-dicer)	ECM-Artefakt (antiker Verwürfler)	40
 description	This ancient ECM module increases ship evasion and requires a hybrid slot.	Dieses uralte ECM-Modul erhöht die Schiffsausweichfähigkeit und benötigt einen Hybrid-Steckplatz.	200
 
 ECM 03 biotech.prefab
@@ -8692,58 +8692,58 @@ displayName	Artificial life garden	Garten des künstlichen Lebens	40
 description	A module that supports fully synthetic non-carbon life. Uses excess heat generated with ship movement to rapidly produce synthethics.	Ein Modul, das vollständig synthetisches, kohlenstofffreies Leben unterstützt. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, um schnell synthetisches Leben zu produzieren.	200
 
 integrity 0 ancient.prefab
-displayName	Integrity hardpoint [ancient]	Integritäts-Hardpoint [antik]	40
-description	This ancient hardpoint can be installed to gain extra ship HP, even during an emergency.	Dieser uralte Hardpoint kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
+displayName	Integrity hardpoint [ancient]	Integritäts-Ansatzpunkt [antik]	40
+description	This ancient hardpoint can be installed to gain extra ship HP, even during an emergency.	Dieser uralte Ansatzpunkt kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 integrity 0 DIY biotech.prefab
-displayName	DIY integrity hardpoint [bio]	DIY-Integritäts-Hardpoint [bio]	40
+displayName	DIY integrity hardpoint [bio]	DIY-Integritäts-Ansatzpunkt [bio]	40
 description	A crude integrity module made of durable organics. This module can be installed to instantly gain extra ship HP.	Ein grobes Integritätsmodul, das aus haltbaren organischen Materialien besteht. Dieses Modul kann installiert werden, um sofort zusätzliche Schiffs-HP zu erhalten.	200
 
 integrity 0 DIY carbon.prefab
-displayName	DIY integrity hardpoint [carbon]	DIY-Integritäts-Hardpoint [Kohlenstoff]	40
+displayName	DIY integrity hardpoint [carbon]	DIY-Integritäts-Ansatzpunkt [Kohlenstoff]	40
 description	A printed integrity module that improves ship HP but is very brittle itself. This module can be installed to instantly gain extra ship HP.	Ein gedrucktes Integritätsmodul, das die Schiffs-HP verbessert, aber selbst sehr spröde ist. Dieses Modul kann installiert werden, um sofort zusätzliche Schiffs-HP zu erhalten.	200
 
 integrity 0 DIY metal.prefab
-displayName	DIY integrity hardpoint	DIY-Integritäts-Hardpoint	40
-description	Self-made integrity hardpoint that adds extra layers of internal ship armor. This module can be installed to gain extra ship HP, even during an emergency.	Selbstgebauter Integritäts-Hardpoint, der zusätzliche Schichten der internen Schiffspanzerung hinzufügt. Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
+displayName	DIY integrity hardpoint	DIY-Integritäts-Ansatzpunkt	40
+description	Self-made integrity hardpoint that adds extra layers of internal ship armor. This module can be installed to gain extra ship HP, even during an emergency.	Selbstgebauter Integritäts-Ansatzpunkt, der zusätzliche Schichten der internen Schiffspanzerung hinzufügt. Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 integrity 0 DIY plastic.prefab
-displayName	DIY integrity hardpoint [plastics]	DIY-Integritäts-Hardpoint [Plastik]	40
+displayName	DIY integrity hardpoint [plastics]	DIY-Integritäts-Ansatzpunkt [Plastik]	40
 description	A printed integrity module that improves ship HP but is fairly brittle itself. This module can be installed to gain extra ship HP, even during an emergency.	Ein gedrucktes Integritätsmodul, das die Schiffs-HP verbessert, aber selbst ziemlich brüchig ist. Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 integrity 0 DIY scaled.prefab
 displayName	DIY integrity scales, S-8	DIY-Integritätswaage, S-8	40
-description	Manually built hardpoint that adds an extra layer of internal ship armor. Can be installed to gain extra ship HP, even during an emergency.	Manuell gebauter Hardpoint, der eine zusätzliche Schicht der internen Schiffspanzerung hinzufügt. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
+description	Manually built hardpoint that adds an extra layer of internal ship armor. Can be installed to gain extra ship HP, even during an emergency.	Manuell gebauter Ansatzpunkt, der eine zusätzliche Schicht der internen Schiffspanzerung hinzufügt. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 integrity 00 Ratty.prefab
-displayName	Integrity hardpoint R-7	Integritäts-Hardpoint R-7	40
+displayName	Integrity hardpoint R-7	Integritäts-Ansatzpunkt R-7	40
 description	This module can be installed to gain extra ship HP, even during an emergency.	Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 integrity 01 bio tissue.prefab
 displayName	Integrity suite I (biotech)	Integritätssuite I (Biotech)	40
-description	Integrity hardpoint and a suite of resistant organic tissue under the normal armor. Can be installed to gain extra ship HP, but the module itself is quite fragile.	Integritäts-Hardpoint und eine Suite aus widerstandsfähigem organischem Gewebe unter der normalen Panzerung. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, aber das Modul selbst ist ziemlich zerbrechlich.	200
+description	Integrity hardpoint and a suite of resistant organic tissue under the normal armor. Can be installed to gain extra ship HP, but the module itself is quite fragile.	Integritäts-Ansatzpunkt und eine Suite aus widerstandsfähigem organischem Gewebe unter der normalen Panzerung. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, aber das Modul selbst ist ziemlich zerbrechlich.	200
 
 integrity 01 bronze.prefab
-displayName	Integrity hardpoint T-8	Integritäts-Hardpoint T-8	40
-description	Integrity hardpoint and associated technology. Can be installed to gain extra ship HP, even during an emergency.	Integritäts-Hardpoint und zugehörige Technologie. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, auch während eines Notfalls.	200
+displayName	Integrity hardpoint T-8	Integritäts-Ansatzpunkt T-8	40
+description	Integrity hardpoint and associated technology. Can be installed to gain extra ship HP, even during an emergency.	Integritäts-Ansatzpunkt und zugehörige Technologie. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, auch während eines Notfalls.	200
 
 integrity 01 silver.prefab
-displayName	Integrity hardpoint T-9	Integritäts-Hardpoint T-9	40
+displayName	Integrity hardpoint T-9	Integritäts-Ansatzpunkt T-9	40
 
 integrity 04 jade scales.prefab
-displayName	Integrity hardpoint J	Integritäts-Hardpoint J	40
-description	Manually built integrity enhancement hardpoint and associated technology. Can be installed to gain extra ship HP, even during an emergency.	Manuell gebauter Integritätserweiterungs-Hardpoint und zugehörige Technologie. Kann installiert werden, um zusätzliche Schiffs-HP zu gewinnen, auch während eines Notfalls.	200
+displayName	Integrity hardpoint J	Integritäts-Ansatzpunkt J	40
+description	Manually built integrity enhancement hardpoint and associated technology. Can be installed to gain extra ship HP, even during an emergency.	Manuell gebauter Integritätserweiterungs-Ansatzpunkt und zugehörige Technologie. Kann installiert werden, um zusätzliche Schiffs-HP zu gewinnen, auch während eines Notfalls.	200
 
 integrity 05 blue scales.prefab
-displayName	Integrity hardpoint, type U	Integritäts-Hardpoint, Typ U	40
+displayName	Integrity hardpoint, type U	Integritäts-Ansatzpunkt, Typ U	40
 
 integrity 06 big green scales.prefab
-displayName	Integrity hardpoint, type G	Integritäts-Hardpoint, Typ G	40
-description	Armor enhancement biotech hardpoint that adds a layer of scales under the external ship armor. Can be installed to gain extra ship HP, even during an emergency.	Panzerungsverbesserungs-Biotech-Hardpoint, der eine Schuppenschicht unter der äußeren Schiffspanzerung anbringt. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
+displayName	Integrity hardpoint, type G	Integritäts-Ansatzpunkt, Typ G	40
+description	Armor enhancement biotech hardpoint that adds a layer of scales under the external ship armor. Can be installed to gain extra ship HP, even during an emergency.	Panzerungsverbesserungs-Biotech-Ansatzpunkt, der eine Schuppenschicht unter der äußeren Schiffspanzerung anbringt. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 integrity 06 spideraa.prefab
-displayName	Integrity hardpoint, type S	Integritäts-Hardpoint, Typ S	40
-description	Biotech integrity hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	Biotech-Integritäts-Hardpoint, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
+displayName	Integrity hardpoint, type S	Integritäts-Ansatzpunkt, Typ S	40
+description	Biotech integrity hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	Biotech-Integritäts-Ansatzpunkt, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 biotech explosives recycler.prefab
 displayName	Biotech explosives recycler	Biotech-Sprengstoff-Recycler	40
@@ -8868,7 +8868,7 @@ displayName	Terran energy reactor	Terranischer Energiereaktor	40
 description	Reactors are necessary for powering ship modules.	Reaktoren sind für die Energieversorgung von Schiffsmodulen notwendig.	200
 
 reactor 11 single biofruit DIY.prefab
-displayName	DIY bioreactor (Bluefruit)	DIY-Bioreaktor (Bluefruit)	40
+displayName	DIY bioreactor (Bluefruit)	DIY-Bioreaktor (Blaufrucht)	40
 description	Reactors are necessary for powering ship modules. This DIY biotech reactor relies on warp power and has zero chance of malfunctions.	Reaktoren sind für die Energieversorgung von Schiffsmodulen notwendig. Dieser DIY-Biotech-Reaktor verlässt sich auf Warpenergie und hat keine Chance auf Fehlfunktionen.	200
 
 reactor 12 custom old.prefab
@@ -9488,7 +9488,7 @@ description	A sniper cannon for damaging crucial modules of enemy ships. Project
 
 weapon Sniper cannon 3.prefab
 displayName	Sniper cannon III	Scharfschützenkanone III	40
-description	A sniper cannon for damaging crucial modules of enemy ships.	Eine Scharfschützenkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe.	200
+description	A sniper cannon for damaging crucial modules of enemy ships.	Eine Scharfschützenkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die Geschosse haben jeweils 2 HP.	200
 
 weapon Sniper cannon 4.prefab
 displayName	Terran quad sniper minicannon	Terranische Vierfach-Scharfschützen-Minikanone	40
@@ -9878,7 +9878,7 @@ displayName	Huge energy weapon	Riesige Energiewaffe	40
 description	Power readings are off the scale. Operators do not influence it's loading time.	Die Energiewerte liegen außerhalb der Skala. Die Bediener haben keinen Einfluss auf die Ladezeit der Waffe.	200
 
 bossweapon weirdaxer.prefab
-displayName	Planetkiller cannon	Planetenkiller-Kanone	40
+displayName	Planetkiller cannon	Planetenzerstörer-Kanone	40
 description	Power readings are off the scale. It needs considerable charge time before shooting.	Die Energiewerte liegen außerhalb der Skala. Sie benötigt eine beträchtliche Ladezeit, bevor sie schießt.	200
 
 00 Easy Tiger.prefab
@@ -10071,7 +10071,7 @@ randomizerMenuStrings[i]	+1 artifact at game start, can be scrapped for addition
 
 Perk augment 001a elastic augmentations.prefab
 displayName	Elastic augmentations	Elastische Vergrößerungen	40
-description	Increases ship hull integrity by reinforcing ship hardpoints with super-durable elastics, allowing the ship to "bend" a little."	Erhöht die Integrität der Schiffshülle durch die Verstärkung von Schiffshardpoints mit superzähen Elastics, die es dem Schiff erlauben, sich ein wenig zu "verbiegen"."	250
+description	Increases ship hull integrity by reinforcing ship hardpoints with super-durable elastics, allowing the ship to "bend" a little."	Erhöht die Integrität der Schiffshülle durch die Verstärkung von Schiffsansatzpunkten mit superzähen Elastics, die es dem Schiff erlauben, sich ein wenig zu "verbiegen"."	250
 unlockAnnouncementText	Our ship AI has been carrying out miniature experiments with integrity technology during the journey. Her small discoveries have made new options available, next time we go for a run like this.	Unsere Schiffs-KI hat während der Reise Miniatur-Experimente mit der Integritätstechnologie durchgeführt. Ihre kleinen Entdeckungen haben neue Optionen verfügbar gemacht, wenn wir das nächste Mal eine solche Fahrt unternehmen.	100
 randomizerMenuStrings[i]	+4 to ship HP	+4 Schiffshüllenpunkte	30
 randomizerMenuStrings[i]	-90 synthethics	-90 Synthethik	30
@@ -10510,14 +10510,14 @@ randomizerMenuStrings[i]	-30 organics	-30 Organika	30
 
 Perk module DIY integrity 2.prefab
 displayName	DIY integrity scales	DIY-Integritätswaage	40
-description	Manually built additional layer of internal ship armor and associated integrity hardpoint. Adds +7 ship hull points when installed, can be used to gain HP quickly during an emergency.	Manuell hergestellte zusätzliche Schicht der internen Schiffspanzerung und zugehöriger Integritäts-Hardpoint. Fügt +7 Schiffshüllenpunkte hinzu, wenn es installiert ist, und kann verwendet werden, um in einem Notfall schnell HP zu gewinnen.	250
+description	Manually built additional layer of internal ship armor and associated integrity hardpoint. Adds +7 ship hull points when installed, can be used to gain HP quickly during an emergency.	Manuell hergestellte zusätzliche Schicht der internen Schiffspanzerung und zugehöriger Integritäts-Ansatzpunkt. Fügt +7 Schiffshüllenpunkte hinzu, wenn es installiert ist, und kann verwendet werden, um in einem Notfall schnell HP zu gewinnen.	250
 unlockAnnouncementText	During our ships various encounters with local stations, our ship AI has found free access to blueprints of this technology.	Während verschiedener Begegnungen unserer Schiffe mit lokalen Stationen hat unsere Schiffs-KI freien Zugang zu Blaupausen dieser Technologie gefunden.	100
 randomizerMenuStrings[i]	+1 integrity module	+1 Integritätsmodul	30
 randomizerMenuStrings[i]	(adds +7 ship HP when installed)	(fügt +7 Schiffs-HP hinzu, wenn installiert)	30
 randomizerMenuStrings[i]	-70 metal	-70 Metall	30
 
 Perk module DIY integrity.prefab
-description	Ship integrity hardpoint, made from layers of metal alloys. Adds ship hull points when installed, can be used to gain HP quickly. Installing one during battle can save us from certain death.	Schiffsintegritäts-Hardpoint, hergestellt aus Schichten von Metalllegierungen. Fügt bei der Installation Punkte für die Schiffshülle hinzu und kann verwendet werden, um schnell HP zu gewinnen. Die Installation eines solchen Punktes während eines Kampfes kann uns vor dem sicheren Tod bewahren.	250
+description	Ship integrity hardpoint, made from layers of metal alloys. Adds ship hull points when installed, can be used to gain HP quickly. Installing one during battle can save us from certain death.	Schiffsintegritäts-Ansatzpunkt, hergestellt aus Schichten von Metalllegierungen. Fügt bei der Installation Punkte für die Schiffshülle hinzu und kann verwendet werden, um schnell HP zu gewinnen. Die Installation eines solchen Punktes während eines Kampfes kann uns vor dem sicheren Tod bewahren.	250
 unlockAnnouncementText	While not the most valuable thing in the world, having an extra intergrity module is better than having nothing. We've been promised one if we pick it up ourselves, next time.	Es ist zwar nicht das Wertvollste auf der Welt, aber ein zusätzliches Integritätsmodul zu haben ist besser als gar nichts. Man hat uns eins versprochen, wenn wir es das nächste Mal selbst abholen.	100
 randomizerMenuStrings[i]	(adds +5 ship HP if installed)	(fügt +5 Schiffs-HP hinzu, falls installiert)	30
 randomizerMenuStrings[i]	-50 metal	-50 Metall	30
@@ -10951,11 +10951,11 @@ texts	All crewmembers successfully de-frozen.	Alle Crewmitglieder erfolgreich au
 texts	arrived to new sector!	Im neuen Sektor angekommen!	80
 okButtonText	Ok, let's see it	Ok, dann wollen wir mal sehen	7
 text	I'm getting a signal. It's an Earth Alliance warpcast transmission...	Ich empfange ein Signal. Es ist eine Warpcast-Übertragung der Erdallianz...	600
-text	We've arrived to the Outward Abyss. There's no guarantee we can even speak with the Spideraa, but we must take all the chances we get. Seek out all the Spideraa in the area and try to contact them.	Wir sind im Äußeren Abgrund angekommen. Es gibt keine Garantie, dass wir überhaupt mit den Spideraa sprechen können, aber wir müssen alle Chancen nutzen, die wir bekommen. Suchen Sie alle Spideraa in der Gegend und versuchen Sie, sie zu kontaktieren.	600
+text	We've arrived to the Outward Abyss. There's no guarantee we can even speak with the Spideraa, but we must take all the chances we get. Seek out all the Spideraa in the area and try to contact them.	Wir sind im Äußeren Abgrund angekommen. Es gibt keine Garantie, dass wir überhaupt mit den Spinnern sprechen können, aber wir müssen alle Chancen nutzen, die wir bekommen. Suchen Sie alle Spinner in der Gegend und versuchen Sie, sie zu kontaktieren.	600
 title	Warpcast transmission	Warpcast-Übertragung	35
 text	"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	Captain, ein Angriff der Spideraa hat den Tintenfisch-Imperator gezwungen, sich genau in diesen Sektor zurückzuziehen. Wir haben Sie hierher geschickt, um ihn zu finden und zu eliminieren. Seien Sie sich bewusst, dass er eine Flotte von Sec-Corp-Schiffen angeheuert hat, um das Gebiet zu patrouillieren.	600
 title	Warp ship captain	Warpschiff-Captain	35
-text	The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	Die Insektoiden-Allianz fand heraus, dass wir vor ihrem Angriff mit den Spideraa sprachen. Sie machen uns für die Entführung ihrer Königinnen durch die Spideraa verantwortlich, weil sie glauben, dass wir sie den Spideraa angeboten haben.\nDie Bugs halten an sehr alten Traditionen fest, besonders an der Tradition der Rache. Sie haben ein Planetenkiller-Schiff geschickt, um die Erde zu zerstören, obwohl sie sonst mit uns in Frieden leben. Es wird das Ausgangs-Warptor dieses Sektors passieren und wir müssen dort einen Hinterhalt legen.	600
+text	The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	Die Insektoiden-Allianz fand heraus, dass wir vor ihrem Angriff mit den Spinnern sprachen. Sie machen uns für die Entführung ihrer Königinnen durch die Spinner verantwortlich, weil sie glauben, dass wir sie den Spinnern angeboten haben.\nDie Bugs halten an sehr alten Traditionen fest, besonders an der Tradition der Rache. Sie haben ein Planetenzerstörer-Schiff geschickt, um die Erde zu zerstören, obwohl sie sonst mit uns in Frieden leben. Es wird das Ausgangs-Warptor dieses Sektors passieren und wir müssen dort einen Hinterhalt legen.	600
 QuestPanel.setText	Go to Exit warpgate of the sector to set up an ambush.	Gehen Sie zum Exit-Warptor des Sektors, um einen Hinterhalt zu legen.	100
 text	This sector was historically unclaimed by major factions. Intergalactic travel guides warn of pirates. A wild sector, they call it, however this information may be out of date. Grab everything you can and let's leave this place quickly.	Dieser Sektor wurde in der Vergangenheit von keiner der großen Fraktionen beansprucht. Intergalaktische Reiseführer warnen vor Piraten. Ein wilder Sektor, so heißt es, doch diese Informationen könnten veraltet sein. Schnappt euch alles, was ihr könnt und lasst uns schnell von hier verschwinden.	400
 choiceText	Got it.	Ich hab's.	100
@@ -10999,7 +10999,7 @@ title	Victory!	Sieg!	35
 text2	It is time to return to Earth, captain. We can expect a grand award ceremony, with many beautiful, intelligent people & AIs who want to express their gratitude.	Es ist an der Zeit, zur Erde zurückzukehren, Captain. Es erwartet uns eine große Preisverleihung, mit vielen schönen, intelligenten Menschen & KIs, die ihre Dankbarkeit ausdrücken wollen.	400
 choiceTexts	Let's go	Los geht's	100
 text2	It is time to return to Sol system and assess the damage, captain. Maybe they missed or something?	Es ist Zeit, ins Sol-System zurückzukehren und den Schaden zu begutachten, Captain. Vielleicht haben sie etwas übersehen oder so?	400
-text2	This trip has been very long and hard, but you've given your best. It is time to return to Sol system and assess the damage, captain. Maybe the planetkiller missed or something?	Diese Reise war sehr lang und hart, aber Sie haben Ihr Bestes gegeben. Es ist Zeit, ins Sol-System zurückzukehren und den Schaden zu begutachten, Captain. Vielleicht hat der Planetenkiller danebengeschossen oder so?	400
+text2	This trip has been very long and hard, but you've given your best. It is time to return to Sol system and assess the damage, captain. Maybe the planetkiller missed or something?	Diese Reise war sehr lang und hart, aber Sie haben Ihr Bestes gegeben. Es ist Zeit, ins Sol-System zurückzukehren und den Schaden zu begutachten, Captain. Vielleicht hat der Planetenzerstörer danebengeschossen oder so?	400
 title	The intergalactic news	Die intergalaktischen Nachrichten	35
 okButtonText	Maximum speed!	Maximale Geschwindigkeit!	7
 text	As {0} approached the Sol system, we started receiving news about destruction of the third planet from the sun. The Insectoid vengeance beam had imploded it into moon-sized or smaller pieces. After everything, we did not reach Earth, because the planet Earth was destroyed.	Als {0} sich dem Sol-System näherte, erhielten wir Nachrichten über die Zerstörung des dritten Planeten von der Sonne. Der Vergeltungsstrahl der Insektoiden hatte ihn in mondgroße oder kleinere Stücke implodiert. Nach allem erreichten wir die Erde nicht, weil der Planet Erde zerstört wurde.	600
