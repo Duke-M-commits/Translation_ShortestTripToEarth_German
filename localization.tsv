@@ -410,7 +410,7 @@ plural	minute|minutes	Minute|Minuten	0
 ModuleActionsPanel.cs
 	Disabled because of overload for {0:0.0} seconds	Deaktiviert wegen Überlastung für {0:0.0} Sekunden	0
 	Button disabled, because it would destroy the ship	Schaltfläche deaktiviert, da sie das Schiff zerstören würde	0
-	INSTALL	INSTALL.	0
+	INSTALL	EINBAUEN	0
 	MOVE	BEWEGEN	0
 	Scrap module	Modul verschrotten	0
 	Some resources go to DUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu ÜBERSCHÜSSIGE RESSOURCEN	0
@@ -420,7 +420,7 @@ ModuleDataSubpanel.cs
 	{0}% chance of {1}x{2} crew damage (default is {3:0}% of {4}x{5})	{0}% Chance auf {1}x{2} Mannschaftsschaden (Standard ist {3:0}% auf {4}x{5})	0
 	Does no crew damage (default is {0}% of {1} per projectile/beam)	Verursacht keinen Besatzungsschaden (Standard ist {0}% von {1} pro Projektil/Strahl)	0
 	none	keine	0
-	low	niedrig	0
+	low	fast aus	0
 	default	Standard	0
 	high	hoch	0
 	{0}% chance of fire	{0}% Chance auf Feuer	0
@@ -1688,9 +1688,9 @@ Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU\nWEIT	10
 	Fuel low!\nConsider re-routing towards closest gas giants or stations.	Treibstoff knapp!\nBedenken Sie die Umleitung zum nächsten Gasriesen oder zur nächsten Tankstelle.	0
 	Organics low!\nConsider cryofreezing some crew or seek planets with biosphere.	Organik knapp!\nBedenken Sie das Einfrieren einiger Crewmitglieder oder suchen Sie Planeten mit Biosphäre.	0
 	Synthetics low!\nSynthethics are necessary to repair modules.\nRecycling almost any module will provide more synthetics.	Synthetics low!\nSynthethics sind notwendig, um Module zu reparieren.\nDas Recyceln fast aller Module liefert mehr Synthetics.	0
-	Metals low!\nMetals are necessary when repairing ship hull with crew.\nRecycling tech modules will usually provide some metals.	Metalle niedrig!\nMetalle werden benötigt, um Schiffsrümpfe mit Besatzung zu reparieren.\nDas Recyceln von Tech-Modulen wird normalerweise einige Metalle liefern.	0
-	Explosives low.\nWeapons that need explosives will soon run out of ammo!	Explosivstoffe niedrig!\nWaffen, die Explosivstoffe benötigen, haben bald keine Munition mehr!	0
-	Exotics low.	Exotika niedrig.	0
+	Metals low!\nMetals are necessary when repairing ship hull with crew.\nRecycling tech modules will usually provide some metals.	Metalle fast aus!\nMetalle werden benötigt, um Schiffsrümpfe mit Besatzung zu reparieren.\nDas Recyceln von Tech-Modulen wird normalerweise einige Metalle liefern.	0
+	Explosives low.\nWeapons that need explosives will soon run out of ammo!	Explosivstoffe fast aus!\nWaffen, die Explosivstoffe benötigen, haben bald keine Munition mehr!	0
+	Exotics low.	Exotika fast aus.	0
 	No exotics.\nAs an alternative currency,\nexotics are great for bribing stronger hostile forces.	Keine Exotika.\nAls alternative Währung eignen sich Exotika hervorragend, um stärkere feindliche Kräfte zu bestechen.	0
 	Enemy ship is warming up its warpdrive.	Feindliches Schiff startet seinen Warpantrieb.	0
 	Enemy ship is self destructing.	Feindliches Schiff löst die Selbstzerstörung aus.	0
@@ -9656,7 +9656,7 @@ displayName	Insectoid Alliance megalaser	Insektoiden-Allianz-Megalaser	40
 description	This powerful laser requires considerable charge time. Relying on a single laserbeam makes it less useful vs ships with high deflection. Armored structure improves ship HP.	Dieser leistungsstarke Laser benötigt eine beträchtliche Ladezeit. Da er sich auf einen einzigen Laserstrahl verlässt, ist er weniger nützlich gegen Schiffe mit hoher Ablenkung. Gepanzerte Struktur verbessert die HP des Schiffs.	200
 
 weapon powerbeam-MK1.prefab
-displayName	Light laser	Licht-Laser	40
+displayName	Light laser	Leichter Laser	40
 description	Standard Terran military laser. Not very powerful, but has fairly fast reload.	Standard-Laser des terranischen Militärs. Nicht sehr leistungsstark, aber relativ schnell nachladbar.	200
 
 weapon powerbeam-MK2.prefab
