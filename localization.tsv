@@ -6586,7 +6586,7 @@ SOS hostile fleets.prefab
 displayName	unresponsive fleet	Flotte antwortet nicht	25
 title	Slaver	Sklavenhändler	35
 text	"Stranded here all by yourself? We are going to take you with us... show you the finest dungeons... train you into a good slave..."	Ganz allein hier gestrandet? Wir werden dich mitnehmen... dir die besten Verliese zeigen... dich zu einem guten Sklaven ausbilden...	600
-title	Insectoid slaver	Insektoider Sklavenhändler	35
+title	Insectoid slaver	Insektoid Sklavenhändler	35
 text	"You'll fetch a good price, prey. Now let us dance the blood-dance!"	Du wirst einen guten Preis erzielen, Beute. Jetzt lass uns den Bluttanz tanzen!	600
 title	Extortionist	Erpresser	35
 text	"I can't guarantee your safety after this conversation is over because I was told some nearby hidden people want to torture and eat you... but perhaps I can arrange your security... give me a small loan?"	Ich kann nicht für Eure Sicherheit garantieren, nachdem dieses Gespräch vorbei ist, weil mir gesagt wurde, dass einige versteckte Leute in der Nähe Euch foltern und essen wollen ... aber vielleicht kann ich Eure Sicherheit arrangieren ... gebt mir einen kleinen Kredit?	400
@@ -6954,7 +6954,7 @@ text	"If you jump to escape pods now, all your crew will be left alive, and some
 
 Ambusher L2 pirates 1 or 2 pirate old arrowheads.prefab
 text	A single medium ship is rapidly approaching tactical combat range and powering up its shields. It is armed with 3 energy weapons.	Ein einzelnes mittelgroßes Schiff nähert sich schnell der taktischen Kampfreichweite und fährt seine Schilde hoch. Es ist mit 3 Energiewaffen bewaffnet.	600
-title	Insectoid pirate	Insektoider Pirat	35
+title	Insectoid pirate	Insektoid Pirat	35
 okButtonText	You'll be taking our fire instead [Prepare for battle]	Ihr werdet stattdessen unser Feuer einfangen [Bereitet Euch auf den Kampf vor]	7
 text	"It's nothing personal. Your single, lonely ship is just too attractive for your own good. If we wouldn't take everything you have, somebody else surely would."	Es ist nichts Persönliches. Euer einzelnes, einsames Schiff ist einfach zu attraktiv für Euch. Wenn wir Euch nicht alles nehmen würden, was Ihr habt, würde es sicher jemand anderes tun.	600
 title	Another ship	Ein anderes Schiff	35
@@ -7131,7 +7131,7 @@ text2	"The ceremony has revealed to us that you have Good Luck today. We let you
 Ambusher L4 Style guardians, redsaucer or tac.prefab
 displayName	Style Police (Insectoid alliance)	Stilpolizei (Insektoiden-Allianz)	25
 text	Two ships approaching, one small and one medium-sized. They broadcast Style Police credentials.	Zwei Schiffe nähern sich, ein kleines und ein mittelgroßes. Sie senden Style-Police-Zeichen.	600
-text	"Your ship is decorated with some kind of totally wrong style. Obviously, our employers don't accept such ornaments around here. Here are the instructions for changing your external ship details according to Insectoid core values. Failure to comply results in immediate conviction and death penalty."	Euer Schiff ist mit einer Art völlig falschem Stil dekoriert. Offensichtlich akzeptieren unsere Auftraggeber solche Verzierungen hier nicht. Hier sind die Anweisungen, wie Sie Ihre äußeren Schiffsdetails gemäß den Grundwerten von Insectoid ändern können. Nichtbeachtung führt zu sofortiger Verurteilung und Todesstrafe.	400
+text	"Your ship is decorated with some kind of totally wrong style. Obviously, our employers don't accept such ornaments around here. Here are the instructions for changing your external ship details according to Insectoid core values. Failure to comply results in immediate conviction and death penalty."	Euer Schiff ist mit einer Art völlig falschem Stil dekoriert. Offensichtlich akzeptieren unsere Auftraggeber solche Verzierungen hier nicht. Hier sind die Anweisungen, wie Sie Ihre äußeren Schiffsdetails gemäß den Grundwerten der Insektoid ändern können. Nichtbeachtung führt zu sofortiger Verurteilung und Todesstrafe.	400
 choiceText	Yield [-150 metal to reprint ship external detail, according to demands]	Ausbeute [-150 Metall, um das äußere Detail des Schiffes gemäß den Anforderungen neu zu gestalten]	100
 choiceText	Our style will remain free [prepare for battle]	Unser Stil wird frei bleiben [bereiten Sie sich auf den Kampf vor]	100
 text2	We reprinted our ship's external detail according to the traditional instructions provided by the local Style Police (requiring not to use stripes which would resemble certain insectoid body parts too much). "They suffer from an unfortunate psychopathology," was the evaluation by our AI."	Wir haben das äußere Detail unseres Schiffes gemäß den traditionellen Anweisungen der örtlichen Stilpolizei neu bedruckt (mit der Auflage, keine Streifen zu verwenden, die bestimmten insektoiden Körperteilen zu sehr ähneln würden). "Sie leiden an einer unglücklichen Psychopathologie", lautete die Bewertung unserer KI."	400
@@ -7309,7 +7309,7 @@ text2	"Thank you. Please accept this small gift as an additional token of our gr
 text2	"Thank you for the trade. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a slab of titanium, engraved with Beedroid math poetry."	Vielen Dank für den Handel. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine Platte aus Titan geschenkt, in die Bienenandroide mathematische Poesie eingraviert ist."	400
 
 Merchants L3 organics trader, redmonster.prefab
-title	Organics trader (Inscetoidian individual)	Organics-Händler (Inscetoidianisches Individuum)	35
+title	Organics trader (Insectoidian individual)	Organics-Händler (Insektoidianisches Individuum)	35
 text	"Our fleet will be leaving this system in a few minutes, so this is your only chance for such a blessed deal."	Unsere Flotte wird dieses System in ein paar Minuten verlassen, daher ist dies Ihre einzige Chance für ein solch gesegnetes Geschäft.	400
 choiceText	Buy [get 200 organics for 120 credits]	Kaufen [erhalten Sie 200 Organische Stoffe für 120 Credits]	100
 choiceText	Barter [get 200 organics for 4 exotics]	Tauschen [200 Organische Stoffe für 4 exotische Stoffe]	100
@@ -7386,7 +7386,7 @@ text2	"You won't get a better price for exotics from anywhere else in the univer
 text	A pair of trade ships approaching. One of them is armored and militarized with multiple projectile weapons and nukes.	Ein Paar Handelsschiffe nähert sich. Eines von ihnen ist gepanzert und mit mehreren Projektilwaffen und Atomwaffen ausgestattet.	600
 
 Smuggler L3 explo and hint smuggler, redmonster.prefab
-title	Munitions smuggler (Insectoidian individual)	Munitionsschmuggler (Insektoides Individuum)	35
+title	Munitions smuggler (Insectoidian individual)	Munitionsschmuggler (Insektoiden Individuum)	35
 text	"May your power index increase, fellow consciousness! We are selling destructive matter & hints for a very competitive price. Our fleet will be leaving this system after this meeting is over, so no refunds!" (analysis of the trader fleet credentials suggest less-than-perfect reputation)."	Möge euer Machtindex steigen, Mitbewohner! Wir verkaufen zerstörerische Materie & Hinweise zu einem sehr günstigen Preis. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also keine Rückerstattung! (die Analyse der Daten der Händlerflotte deutet auf einen nicht ganz so guten Ruf hin)."	400
 choiceText	Sell [get 55 data credits for 1 exotics]	Verkaufen [erhalten Sie 55 Daten-Credits für 1 Exotik]	100
 choiceText	Buy some exclusive information [-1 exotics]	Kaufen Sie einige exklusive Informationen [-1 Exotics]	100
@@ -8076,7 +8076,7 @@ description	Captains log:\n\n/.../ A warpdrive malfunction has landed us in the 
 
 Level 10, greens, planetkiller.prefab
 displayName	Warpgate to Earth	Warptor zur Erde	25
-description	(new runs can be only started from sectors 1,2,3)\n\nThis is the closest long-range warpgate to Earth. An Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God is approaching, to destroy Earth.\n\nFragment from the captains log:\n/.../ Allright, this has got to be the biggest and last thing in the list of many thing that I was specifically planning not to do. Agreeing to ambush a freaking planet-killer battlecruiser. I humbly expect the entire Earth population to buy me a drink after this and perhaps also /.../	(neue Runs können nur von den Sektoren 1,2,3 aus gestartet werden)\n\nDies ist das nächstgelegene Fern-Warptor zur Erde. Ein Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God nähert sich, um die Erde zu zerstören.\n\nFragment aus dem Logbuch des Captains:\n/.../ In Ordnung, das muss die größte und letzte Sache auf der Liste der vielen Sachen sein, die ich ausdrücklich nicht vorhatte zu tun. Einverstanden, einen verdammten Planetenkiller-Schlachtkreuzer in einen Hinterhalt zu locken. Ich erwarte in aller Bescheidenheit, dass mir die gesamte Erdbevölkerung danach einen Drink spendiert und vielleicht auch /.../	350
+description	(new runs can be only started from sectors 1,2,3)\n\nThis is the closest long-range warpgate to Earth. An Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God is approaching, to destroy Earth.\n\nFragment from the captains log:\n/.../ Allright, this has got to be the biggest and last thing in the list of many thing that I was specifically planning not to do. Agreeing to ambush a freaking planet-killer battlecruiser. I humbly expect the entire Earth population to buy me a drink after this and perhaps also /.../	(neue Runs können nur von den Sektoren 1,2,3 aus gestartet werden)\n\nDies ist das nächstgelegene Fern-Warptor zur Erde. Ein Insektoiden Vergeltungs-Mega-Schlachtkreuzer-Planetenzerstörer-Rache-Gott nähert sich, um die Erde zu zerstören.\n\nFragment aus dem Logbuch des Captains:\n/.../ In Ordnung, das muss die größte und letzte Sache auf der Liste der vielen Sachen sein, die ich ausdrücklich nicht vorhatte zu tun. Einverstanden, einen verdammten Planetenzerstörer-Schlachtkreuzer in einen Hinterhalt zu locken. Ich erwarte in aller Bescheidenheit, dass mir die gesamte Erdbevölkerung danach einen Drink spendiert und vielleicht auch /.../	350
 
 Level 2, pirates.prefab
 displayName	The Great Inbetween	Das große Zwischending	25
@@ -9648,7 +9648,7 @@ displayName	Insectoid double laser (old tech)	Insektoider Doppellaser (alte Tech
 description	Tactical combat weapon, obsolete design. Produces 2 laserbeams.	Taktische Kampfwaffe, veraltetes Design. Erzeugt 2 Laserstrahlen.	200
 
 weapon Insectoid shield disruptor.prefab
-displayName	Insectoid Alliance shield disruptor	Insektoider Allianz-Schildbrecher	40
+displayName	Insectoid Alliance shield disruptor	Insektoider-Allianz-Schildbrecher	40
 description	A composite-ray effector for disrupting energy shields. Deals minor damage to material targets. Produces 3 energy rays.	Ein Komposit-Strahleneffektor zur Unterbrechung von Energieschilden. Verursacht geringen Schaden an materiellen Zielen. Erzeugt 3 Energiestrahlen.	200
 
 weapon Insectoid slowlaser.prefab
@@ -11002,7 +11002,7 @@ text2	It is time to return to Sol system and assess the damage, captain. Maybe t
 text2	This trip has been very long and hard, but you've given your best. It is time to return to Sol system and assess the damage, captain. Maybe the planetkiller missed or something?	Diese Reise war sehr lang und hart, aber Sie haben Ihr Bestes gegeben. Es ist Zeit, ins Sol-System zurückzukehren und den Schaden zu begutachten, Captain. Vielleicht hat der Planetenkiller danebengeschossen oder so?	400
 title	The intergalactic news	Die intergalaktischen Nachrichten	35
 okButtonText	Maximum speed!	Maximale Geschwindigkeit!	7
-text	As {0} approached the Sol system, we started receiving news about destruction of the third planet from the sun. The Insectoid vengeance beam had imploded it into moon-sized or smaller pieces. After everything, we did not reach Earth, because the planet Earth was destroyed.	Als {0} sich dem Sol-System näherte, erhielten wir Nachrichten über die Zerstörung des dritten Planeten von der Sonne. Der Rachestrahl der Insektoiden hatte ihn in mondgroße oder kleinere Stücke implodiert. Nach allem erreichten wir die Erde nicht, weil der Planet Erde zerstört wurde.	600
+text	As {0} approached the Sol system, we started receiving news about destruction of the third planet from the sun. The Insectoid vengeance beam had imploded it into moon-sized or smaller pieces. After everything, we did not reach Earth, because the planet Earth was destroyed.	Als {0} sich dem Sol-System näherte, erhielten wir Nachrichten über die Zerstörung des dritten Planeten von der Sonne. Der Vergeltungsstrahl der Insektoiden hatte ihn in mondgroße oder kleinere Stücke implodiert. Nach allem erreichten wir die Erde nicht, weil der Planet Erde zerstört wurde.	600
 title	Rescue operations	Rettungsaktionen	35
 text	About 80% of all sentient inhabitants were evacuated in time, along with a considerable 10% of wild nature. The rest remained and died, except for some tardigrades and other microscopic creatures.\n\nAfter {0} arrived to Earth area, we participated in the rescue & salvaging operations, symbolically also landing on the largest surviving piece of Earth. One of our salvaging bots found and rescued a few tufs of moss that had survived destruction of the planet.	Etwa 80 % aller empfindungsfähigen Bewohner wurden rechtzeitig evakuiert, zusammen mit einem beträchtlichen Anteil von 10 % der wilden Natur. Der Rest blieb zurück und starb, bis auf einige Bärtierchen und andere mikroskopisch kleine Lebewesen.\n\nNachdem wir im Bereich der Erde angekommen waren, beteiligten wir uns an den Rettungs- und Bergungsoperationen und landeten symbolisch auch auf dem größten überlebenden Stück der Erde. Einer unserer Bergungsbots fand und rettete ein paar Moosbüschel, die die Zerstörung des Planeten überlebt hatten.	600
 title	The Ship AI	Die Schiffs-KI	35
