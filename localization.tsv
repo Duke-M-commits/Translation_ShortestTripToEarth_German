@@ -1148,9 +1148,9 @@ SectorSelection.lockedSectorDescription	This sector is where we landed, it's une
 	Exit game	Spiel beenden	0
 	Guided steps to learn the game.	Geführte Schritte zum Erlernen des Spiels.	0
 	Tutorial mode	Tutorial-Modus	0
-	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nYou start with additional resources.	Wenn Sie keine Schiffshöchstleistung mehr haben, verlieren Sie die maximale Schiffshöchstleistung, anstatt einfach zu sterben.\nDas Spiel wird angehalten.\nSie beginnen mit zusätzlichen Ressourcen.	0
+	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nYou start with additional resources.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie langsam Ihre maximalen Schiffshüllenpunkte, anstatt einfach zu sterben.\nDas Spiel wird angehalten.\nSie beginnen mit zusätzlichen Ressourcen.	0
 	Beginner mode	Anfängermodus	0
-	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximalen HP des Schiffes, anstatt einfach zu sterben.	0
+	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie langsam Ihre maximalen Schiffshüllenpunkte, anstatt einfach zu sterben.	0
 	Challenging mode	Herausfordernder Modus	0
 	The game ends when your ship HP reaches 0.\nSpace button turns on slow-motion instead of pause.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	Das Spiel endet, wenn die HP Ihres Schiffes 0 erreichen. Die Leertaste schaltet die Zeitlupe ein, anstatt das Spiel zu pausieren.\nSchaden an Modulen kann auch deren maximal mögliche Trefferpunkte reduzieren.	0
 	Hardcore mode	Hardcore-Modus	0
@@ -1177,7 +1177,7 @@ Some code in text needs to be as is	Are you sure? Starting a new run will overwr
 	Normal	Normal	0
 	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximale HP des Schiffes, anstatt einfach zu sterben.\nSpace pausiert das Spiel.	0
 	When you run out of ship HP, you start losing ship max HP instead of simpy dying.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximale HP des Schiffes, anstatt einfach zu sterben.	0
-	Space pauses the game.	Der Leerraum unterbricht das Spiel.	0
+	Space pauses the game.	Die Leertaste unterbricht das Spiel.	0
 	Starting bonuses:	Startboni:	0
 	Ship deflection, chance of beam and projectiles to deflect	Schiffsablenkung, Chance von Strahlen und Projektilen, abgelenkt zu werden	0
 	Ship evasion, enemy shots deviate more from target	Schiffsausweichung, gegnerische Schüsse weichen mehr vom Ziel ab	0
