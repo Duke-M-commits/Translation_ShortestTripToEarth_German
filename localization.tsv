@@ -135,9 +135,9 @@ MainQuest.cs
 
 ModuleSlotListItem.cs
 	Craft {0}	{0} herstellen	0
-	CONFIRM DOWNGRADE?	DOWNGRADE BESTÄTIGEN?	0
+	CONFIRM DOWNGRADE?	HERABSTUFUNG BESTÄTIGEN?	0
 	module slot upgrade	Modulsteckplatz Upgrade	0
-	module slot downgrade	Modulsteckplatz Downgrade	0
+	module slot downgrade	Modulsteckplatz Herabstufung	0
 	module crafting	Modul Herstellung	0
 
 MultipleCrewmemberInfoItem.cs
@@ -443,7 +443,7 @@ ModuleDataSubpanel.cs
 	(if multiple operators work in garden, their skill points are added together)	(wenn mehrere Operatoren im Garten arbeiten, werden ihre Fertigkeitspunkte zusammengerechnet)	0
 
 ModuleSlotActionsPanel.cs
-	Damage token is blocking this slot, upgrades/downgrades and module crafting are not possible	Schadenstoken blockiert diesen Steckplatz, Upgrades/Downgrades und Modulbau sind nicht möglich	0
+	Damage token is blocking this slot, upgrades/downgrades and module crafting are not possible	Schadenstoken blockiert diesen Steckplatz, Aufrüstungen/Herabstufungen und Modulbau sind nicht möglich	0
 	A module is already in slot, some slot upgrades/downgrades and module crafting are not possible	Ein Modul befindet sich bereits im Steckplatz, einige Steckplatz-Aufrüstungen/-Herabstufungen und das Herstellen von Modulen sind nicht möglich	0
 
 PlayerPanel.cs
