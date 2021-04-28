@@ -131,7 +131,7 @@ HoverPanel.cs
 	Credits	Credits	0
 
 MainQuest.cs
-	tutorial	tutorial	0
+	tutorial	Einführung	0
 
 ModuleSlotListItem.cs
 	Craft {0}	{0} herstellen	0
@@ -421,7 +421,7 @@ ModuleDataSubpanel.cs
 	Does no crew damage (default is {0}% of {1} per projectile/beam)	Verursacht keinen Besatzungsschaden (Standard ist {0}% von {1} pro Projektil/Strahl)	0
 	none	keine	0
 	low	niedrig	0
-	default	Standard	0
+	default	normal	0
 	high	hoch	0
 	{0}% chance of fire	{0}% Chance auf Feuer	0
 	(default is {0:0}%)	(Voreinstellung ist {0:0}%)	0
@@ -1097,7 +1097,7 @@ Materials converter panel.prefab
 	Amount of exotics used for conversion	Menge der für die Konvertierung verwendeten Exoten	0
 	Amount of exotics consumed per 1 conversion	Menge der verbrauchten Exoten pro 1 Konvertierung	0
 	Allocate all excess	Alle Überschüsse zuteilen	0
-	Convert	Konvertieren	0
+	Convert	Umwandeln	0
 	Amount of fuel recieved after conversion	Menge des nach der Konvertierung erhaltenen Treibstoffs	0
 	Cargo capacity full!	Frachtkapazität voll!	0
 	Materials convertor name	Name des Materialumwandlers	0
@@ -1147,7 +1147,7 @@ SectorSelection.lockedSectorDescription	This sector is where we landed, it's une
 	Continued development	Continued development	0
 	Exit game	Spiel beenden	0
 	Guided steps to learn the game.	Geführte Schritte zum Erlernen des Spiels.	0
-	Tutorial mode	Tutorial-Modus	0
+	Tutorial mode	Einführungsmodus	0
 	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nYou start with additional resources.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie langsam Ihre maximalen Schiffshüllenpunkte, anstatt einfach zu sterben.\nDas Spiel wird angehalten.\nSie beginnen mit zusätzlichen Ressourcen.	0
 	Beginner mode	Anfängermodus	0
 	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie langsam Ihre maximalen Schiffshüllenpunkte, anstatt einfach zu sterben.	0
@@ -1171,9 +1171,9 @@ Button, goes back to previous menu	Back	Zurück	0
 Button	Yes	Ja	0
 Some code in text needs to be as is	Are you sure? Starting a new run will overwrite your unfinished game.\nFate points that you collected in your existing game will be available at new run start.	Sind Sie sicher? Wenn Sie einen neuen Lauf starten, wird Ihr unvollendetes Spiel überschrieben. Die Schicksalspunkte, die Sie in Ihrem bestehenden Spiel gesammelt haben, sind beim Start des neuen Laufs verfügbar.	0
 	Start a new game	Starten Sie ein neues Spiel	0
-	Shortest Trip to Earth has an inherently brutal difficulty that is especially deadly if you miss learning some of the basics. We kindly recommend you try the tutorial.	Shortest Trip to Earth hat von Natur aus einen brutalen Schwierigkeitsgrad, der besonders tödlich ist, wenn Sie es versäumen, einige der Grundlagen zu lernen. Wir empfehlen Ihnen daher, das Tutorial auszuprobieren.	0
-	Tutorial	Tutorial	0
-	Shortest Trip To Earth is easier once you know the basics, but can be extremely difficult without a short introduction (like this tutorial).	Shortest Trip To Earth ist einfacher, wenn Sie die Grundlagen kennen, kann aber ohne eine kurze Einführung (wie dieses Tutorial) extrem schwierig sein.	0
+	Shortest Trip to Earth has an inherently brutal difficulty that is especially deadly if you miss learning some of the basics. We kindly recommend you try the tutorial.	Shortest Trip to Earth hat von Natur aus einen brutalen Schwierigkeitsgrad, der besonders tödlich ist, wenn Sie es versäumen, einige der Grundlagen zu lernen. Wir empfehlen Ihnen daher, die Einführung auszuprobieren.	0
+	Tutorial	Einführung	0
+	Shortest Trip To Earth is easier once you know the basics, but can be extremely difficult without a short introduction (like this tutorial).	Shortest Trip To Earth ist einfacher, wenn Sie die Grundlagen kennen, kann aber ohne eine kurze Einführung extrem schwierig sein.	0
 	Normal	Normal	0
 	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nSpace pauses the game.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximale HP des Schiffes, anstatt einfach zu sterben.\nSpace pausiert das Spiel.	0
 	When you run out of ship HP, you start losing ship max HP instead of simpy dying.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximale HP des Schiffes, anstatt einfach zu sterben.	0
@@ -1195,7 +1195,7 @@ Button in main menu, sets game difficulty	Challenging	Herausfordernd	0
 	Challenging difficulty	Schwierigkeitsgrad Herausfordernd	0
 	Hardcore difficulty	Hardcore-Schwierigkeit	0
 Button in main menu	Competition	Wettbewerb	0
-Some code in text needs to be as is	Shortest Trip is a roguelike, so expect to<b><color=red> die a lot. </color></b>Playing the tutorial is highly recommended.	Shortest Trip ist ein Roguelike, also rechnen Sie damit,<b><color=red> viel zu sterben. </color></b>Das Durchspielen des Tutorials wird dringend empfohlen.	0
+Some code in text needs to be as is	Shortest Trip is a roguelike, so expect to<b><color=red> die a lot. </color></b>Playing the tutorial is highly recommended.	Shortest Trip ist ein Roguelike, also rechnen Sie damit,<b><color=red> viel zu sterben. </color></b>Das Durchspielen der Einführung wird dringend empfohlen.	0
 Button, starts game	Start game	Spiel starten	0
 Button for general settings	General	Allgemein	0
 Button for settings. Shortcuts, game controls etc.	Controls	Steuerung	0
@@ -1838,7 +1838,7 @@ Refers to shop	Store	Händler	0
 	Not enough credits or room in storage	Nicht genug Credits oder Platz im Lager	0
 	Not enough credits or room in storage.	Nicht genug Credits oder Platz im Lager.	0
 	BUY	KAUFEN	0
-	Select module to buy	Modul zum Kaufen auswählen	0
+	Select module to buy	Wählen Sie ein Modul 	0
 	Hire	Anheuern	0
 	Select a crewmember to hire	Wählen Sie ein Crewmitglied zum Anheuern	0
 	Exit the shop	Verlassen Sie den Shop	0
@@ -3879,7 +3879,7 @@ text2	This centuries-old fortress used to be controlled by a central AI core att
 title	Carbon ecosystem	Kohlenstoff-Ökosystem	35
 text	The planet is covered with ecosystem of easily easily ecoharvestable organics. No signs of developed sentience. The place looks pretty nice.	Der Planet ist mit einem Ökosystem aus leicht zu erntenden organischen Stoffen bedeckt. Keine Anzeichen von entwickelter Empfindungsfähigkeit. Der Ort sieht ziemlich gut aus.	400
 choiceText	Research & eco-harvest organics	Forschung & Öko-Ernte Organics	100
-text2	Organics harvested, no incidents.	Organics geerntet, keine Zwischenfälle.	400
+text2	Organics harvested, no incidents.	Organische Stoffe geerntet, keine Zwischenfälle.	400
 text	harvesting organics... %	Organische Stoffe ernten... %.	50
 
 10 P food, nature pic pool.prefab
@@ -6431,7 +6431,7 @@ altText	For starters, please check out the Help summary about aiming with weapon
 altText	Module damaged. Damaged modules stop working and are colored red until repaired. Modules can be repaired only by your crew and <b>if you have enough synthethics...</b>	Modul beschädigt. Beschädigte Module hören auf zu funktionieren und werden rot eingefärbt, bis sie repariert sind. Module können nur von Ihrer Crew repariert werden und <b>wenn Sie genug Synthethika haben...</b>	240
 choiceTexts	Tell me more	Erzähl mir mehr	15
 altText	...repairing each module hitpoint needs 10 synthethics. <b>Scrap the synthethics packages</b> from your module storage to get repair materials.	...benötigt die Reparatur jedes Modul-Trefferpunktes 10 Synthethika. <b>Schrotten Sie die Synthethik-Pakete</b> aus Ihrem Modullager, um Reparaturmaterialien zu erhalten.	240
-altText	All weapons should now have enough resources for ammo. You can turn them on by selecting the weapon and using default shortkey (which is <b>K</b>) or clicking on the <b>power button</b> in weapon info panel. Make sure all our modules are online before we start the combat tutorial.	Alle Waffen sollten nun genügend Ressourcen für Munition haben. Sie können sie einschalten, indem Sie die Waffe auswählen und die Standard-Kurztaste (die <b>K</b> ist) verwenden oder auf die <b>Power-Schaltfläche</b> im Waffeninfopanel klicken. Stellen Sie sicher, dass alle unsere Module online sind, bevor wir mit dem Kampftutorial beginnen.	240
+altText	All weapons should now have enough resources for ammo. You can turn them on by selecting the weapon and using default shortkey (which is <b>K</b>) or clicking on the <b>power button</b> in weapon info panel. Make sure all our modules are online before we start the combat tutorial.	Alle Waffen sollten nun genügend Ressourcen für Munition haben. Sie können sie einschalten, indem Sie die Waffe auswählen und die Standard-Kurztaste (die <b>K</b> ist) verwenden oder auf die <b>Power-Schaltfläche</b> im Waffeninfopanel klicken. Stellen Sie sicher, dass alle unsere Module online sind, bevor wir mit der Kampf-Einführung beginnen.	240
 choiceTexts	Skip this step	Überspringen Sie diesen Schritt	15
 altText	For starters, check out this overview about basic weapon types.	Sehen Sie sich für den Anfang diese Übersicht über die grundlegenden Waffentypen an.	240
 choiceTexts	OK, show me	OK, zeigen Sie mir	15
@@ -6461,19 +6461,19 @@ altText	The shield module regenerates <b>shield points</b> because it's currentl
 altText	Operating modules with crew is better because of crew skill bonuses. Now move a crewmember into the shield module- note that the easiest way to select crew is to drag a selection box around them.	Das Bedienen von Modulen mit Besatzung ist wegen der Boni auf die Besatzungsfähigkeit besser. Bewegen Sie nun ein Crewmitglied in das Schildmodul - beachten Sie, dass Sie die Crew am einfachsten auswählen können, indem Sie eine Auswahlbox um sie herum ziehen.	240
 
 Tutorial Earth (also entry warpgate).prefab
-name2	Tutorial start	Tutorial-Start	25
+name2	Tutorial start	Einführung-Start	25
 
 Tutorial Exit warpgate.prefab
-text	You still have the main combat tutorial waiting for you (fly into the red enemy circle in this star system).	Es wartet noch das Hauptkampftutorial auf Sie (fliegen Sie in den roten Feindkreis in diesem Sternensystem).	400
-choiceText	Yes, I want the combat tutorial	Ja, ich möchte das Kampftutorial	100
-choiceText	Skip the main combat tutorial	Überspringen des Hauptkampftutorials	100
+text	You still have the main combat tutorial waiting for you (fly into the red enemy circle in this star system).	Es wartet noch die Hampf-Einführung auf Sie (fliegen Sie in den roten Feindkreis in diesem Sternensystem).	400
+choiceText	Yes, I want the combat tutorial	Ja, ich möchte die Kampf-Einführung	100
+choiceText	Skip the main combat tutorial	Überspringen der Kampf-Einführung	100
 title	Final test	Letzter Test	35
 text	An unknown ship is approaching fast, and it seems to be carrying nukes!	Ein unbekanntes Schiff nähert sich schnell, und es scheint Atombomben an Bord zu haben!	600
-title	Escape from tutorial successful!	Flucht aus dem Tutorial erfolgreich!	35
+title	Escape from tutorial successful!	Flucht aus der Einführung erfolgreich!	35
 altText	When you need to give many orders quickly, use the <b>Roles panel!</b> it's next to the resource panel. Start by un-assigning our crew from their previous jobs (click the - sign). Then keep clicking on the + sign next to the firefighting role until at least 3 crew is fighting fires!	Wenn Sie schnell viele Befehle geben müssen, benutzen Sie das <b>Rollen-Panel!</b> Es befindet sich neben dem Ressourcen-Panel. Beginnen Sie damit, unsere Crew von ihren vorherigen Aufträgen zu entbinden (klicken Sie auf das --Zeichen). Klicken Sie dann so lange auf das +-Zeichen neben der Rolle "Brandbekämpfung", bis mindestens 3 Besatzungsmitglieder Brände bekämpfen!	240
-text	You've completed the official training of this tutorial. Feel free to take some time to fool around with this old Tigerfish before moving on to our real journey. For example, you may want to explore the various crafting options available for this ship. Return when you are ready to leave the tutorial.	Damit haben Sie das offizielle Training dieses Tutorials abgeschlossen. Nehmen Sie sich ruhig etwas Zeit, um mit dem alten Tigerfish herumzuspielen, bevor Sie sich auf die eigentliche Reise begeben. Sie können zum Beispiel die verschiedenen Handwerksoptionen erkunden, die für dieses Schiff zur Verfügung stehen. Kehren Sie zurück, wenn Sie bereit sind, das Tutorial zu verlassen.	400
+text	You've completed the official training of this tutorial. Feel free to take some time to fool around with this old Tigerfish before moving on to our real journey. For example, you may want to explore the various crafting options available for this ship. Return when you are ready to leave the tutorial.	Damit haben Sie das offizielle Training dieser Einführung abgeschlossen. Nehmen Sie sich ruhig etwas Zeit, um mit dem alten Tigerfish herumzuspielen, bevor Sie sich auf die eigentliche Reise begeben. Sie können zum Beispiel die verschiedenen Handwerksoptionen erkunden, die für dieses Schiff zur Verfügung stehen. Kehren Sie zurück, wenn Sie bereit sind, die Einführung zu verlassen.	400
 choiceText	Time for some experimentation!	Zeit für ein paar Experimente!	100
-choiceText	End tutorial, give me the real thing!	Ende des Tutorials, her mit dem echten Ding!	100
+choiceText	End tutorial, give me the real thing!	Ende der Einführung, her mit dem echten Ding!	100
 
 tutorial planet empty.prefab
 text2	This planet is covered in rocky steppes and lacks any value for us.	Dieser Planet ist mit felsigen Steppen bedeckt und hat keinen Wert für uns.	400
@@ -9889,7 +9889,7 @@ description	This industrial frigate was not made for long-range travel. It start
 
 02 Nuke Runner.prefab
 description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Speeder ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (das Nukleararsenal-Perk). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
-unlockText	Complete tutorial to unlock	Tutorial abschließen, um freizuschalten	100
+unlockText	Complete tutorial to unlock	Einführung abschließen, um freizuschalten	100
 unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erdallianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
 03 Weirdship.prefab
@@ -11032,11 +11032,11 @@ resourceAddLogline	You ran out of training resources. Added +{0} more {1}.	Ihnen
 maxDistFromStarLogline	You're too far from a star. Moving closer.	Sie sind zu weit von einem Stern entfernt. Gehen Sie näher ran.	80
 altText	Red circles on starsystem maps are hostile fleet <b>threat areas</b>. Fleets have usually more than one ship, but this one is comprised of only a single automated ship, ready for our target practice. Attack it if you're ready as well.	Rote Kreise auf Sternensystemkarten sind feindliche Flotten-<b>Bedrohungsgebiete</b>. Flotten haben normalerweise mehr als ein Schiff, aber diese hier besteht nur aus einem einzigen automatisierten Schiff, das für unsere Zielübung bereit ist. Greifen Sie es an, wenn Sie ebenfalls bereit sind.	240
 altText	This starsystem has an <b>exit warpgate</b>. It allows travelling into the next space sector. Make sure you are in <b>starsystem view</b> and fly into it.	Dieses Sternensystem hat ein <b>Ausgangs-Warptor</b>. Es ermöglicht die Reise in den nächsten Raumsektor. Stellen Sie sicher, dass Sie sich in der <b>Sternensystemansicht</b> befinden und fliegen Sie hinein.	240
-title	Tutorial complete	Tutorial abgeschlossen	35
+title	Tutorial complete	Einführung abgeschlossen	35
 okButtonText	I understand, proceed to game	Ich verstehe, weiter zum Spiel	7
 text	Congratulations, you've survived the training session!\nShortest Trip is a roguelike with permadeath, so expect the game to have a fairly brutal difficulty beyond this point. \nFinal tip: to increase your survival chances early on, collect resources to get at least one additional weapon slot via upgrades. Internal combat will be a difficult challenge in later sectors, so investing in point-defences and combat-capable crew should be a long-term priority.\nGood luck surviving amongst the stars!	Glückwunsch, Sie haben das Training überstanden!\nShortest Trip ist ein Roguelike mit Permadeath, erwarten Sie also, dass das Spiel ab diesem Punkt einen ziemlich brutalen Schwierigkeitsgrad hat. \nEin letzter Tipp: Um Ihre Überlebenschancen früh zu erhöhen, sammeln Sie Ressourcen, um über Upgrades mindestens einen zusätzlichen Waffensteckplatz zu erhalten. Interne Kämpfe werden in späteren Sektoren eine schwierige Herausforderung sein, daher sollte die Investition in Punktverteidigung und kampffähige Crew eine langfristige Priorität sein.\nViel Glück beim Überleben inmitten der Sterne!	600
 altText	When you hover the cursor around starsystem map, you can see the resource cost of moving around.\nSee that little white dot on the map? It's an unknown <b>point of interest</b>.	Wenn Sie mit dem Mauszeiger über die Sternensystemkarte fahren, können Sie die Ressourcenkosten für die Bewegung sehen.\nSehen Sie den kleinen weißen Punkt auf der Karte? Es ist ein unbekannter <b>Punkt von Interesse</b>.	240
-altText	Hello captain, I'm Athena, the core AI of this ship. Welcome to ship management tutorial. You are currently in <b>starsystem view</b>...\n(by the way, this tutorial uses default hotkeys only)	Hallo Captain, ich bin Athena, die Kern-KI dieses Schiffes. Willkommen zum Schiffsmanagement-Tutorial. Sie befinden sich gerade in der <b>Sternensystemansicht</b>...\n(Übrigens, dieses Tutorial verwendet nur die Standard-Hotkeys)	240
+altText	Hello captain, I'm Athena, the core AI of this ship. Welcome to ship management tutorial. You are currently in <b>starsystem view</b>...\n(by the way, this tutorial uses default hotkeys only)	Hallo Captain, ich bin Athena, die Kern-KI dieses Schiffes. Willkommen zur Schiffsmanagement-Einführung. Sie befinden sich gerade in der <b>Sternensystemansicht</b>.	240
 altText	If you click on a module, you'll see <b>module info panel</b>.\n\nWhen you are done inspecting the modules, switch the view between your ship and starsystem by pressing the <b>TAB</b> key on your keyboard.	Wenn Sie auf ein Modul klicken, sehen Sie das <b>Modul-Info-Panel</b>.\n\nWenn Sie mit der Inspektion der Module fertig sind, wechseln Sie die Ansicht zwischen Ihrem Schiff und dem Sternensystem, indem Sie die Taste <b>TAB</b> auf Ihrer Tastatur drücken.	240
 altText	As you can see, our ship is currently empty, but has different kinds of module slots, indicated by their shape. Sometimes weapon slots also have big yellow numbers on them.	Wie Sie sehen können, ist unser Schiff derzeit leer, hat aber verschiedene Arten von Modulplätzen, die durch ihre Form angezeigt werden. Manchmal sind auch Waffensteckplätze mit großen gelben Zahlen versehen.	240
 altText	The <b>command bridge</b> can run many modules remotely if it has an operator sitting in the control room.	Die <b>Kommandobrücke</b> kann viele Module ferngesteuert betreiben, wenn ein Operator im Kontrollraum sitzt.	240
@@ -11059,8 +11059,8 @@ altText	We've obtained a <b>cryosleep</b> module! Crew in cryosleep do not consu
 altText	The wrecked ship also contained info about a hidden warehouse (it has been added to the starsystem map). Go and check that out.	Das Schiffswrack enthielt auch Informationen über ein verstecktes Lagerhaus (es wurde der Sternensystemkarte hinzugefügt). Gehen Sie hin und überprüfen Sie das.	240
 altText	The salvaged <b>warpdrive</b> allows us to jump between starsystems (and escape from combat). \nThe warpdrive charges instantly during accelerated time, but will be slowed if there are dangers or problems.	Der geborgene <b>Warpdrive</b> erlaubt es uns, zwischen den Sternensystemen zu springen (und dem Kampf zu entkommen). \nDer Warpdrive lädt während der Beschleunigungszeit sofort auf, wird aber bei Gefahren oder Problemen verlangsamt.	240
 altText	Open the sector map (<b>SECTOR</b> button) and select the Alcan starsystem by L-clicking on it. \nThen click on <b>Warp to destination</b> button.	Öffnen Sie die Sektorkarte (Taste <b>SECTOR</b>) und wählen Sie das Sternensystem Alcan mit einem L-Klick aus. \nDann klicken Sie auf die Schaltfläche <b>Warpen zum Ziel</b>.	240
-text	Full tutorial or test a part?	Vollständiges Tutorial oder einen Teil testen?	400
-choiceText	Give me full tutorial	Geben Sie mir das komplette Tutorial	100
+text	Full tutorial or test a part?	Vollständige Einführung oder einen Teil testen?	400
+choiceText	Give me full tutorial	Geben Sie mir die komplette Einführung	100
 choiceText	I just want to test a part of it	Ich möchte nur einen Teil davon testen	100
 altText	<b>Stations</b> and some other places are visible even without scanning them with short-range sensors, because they are broadcasting their identity publicly. Please fly into the training gear station.	<b>Stationen</b> und einige andere Orte sind auch ohne Scannen mit Kurzstreckensensoren sichtbar, da sie ihre Identität öffentlich ausstrahlen. Fliegen Sie bitte in die Station mit den Trainingsgeräten.	240
 altText	From now on <b>scrapping</b> modules is possible. \nClick on the exotic artifact in the storage to open its info panel, which has the "scrap module" button. Leave the <b>resource packs</b> in your cargo hold, you need them later.	Von nun an ist das <b>Scannen</b> von Modulen möglich. \nKlicken Sie auf das exotische Artefakt im Lager, um dessen Infopanel zu öffnen, in dem sich die Schaltfläche "Modul verschrotten" befindet. Lassen Sie die <b>Ressourcenpakete</b> in Ihrem Frachtraum, Sie brauchen sie später.	240
@@ -11117,7 +11117,7 @@ Squid scout B.prefab
 
 Shop classic.prefab
 startFireExtinguishLogLine	Station AI: Fire hazard detected! Initiating fire control protocols...	Stations-KI: Feuergefahr erkannt! Initiiere Feuerleitprotokolle...	80
-Needs to be on two lines.	Move crew here to\nleave them permanently behind.	Bringt die Crew hierher,\num sie dauerhaft zurückzulassen.	0
+Needs to be on two lines.	Move crew here to\nleave them permanently behind.	Bringen Sie die Crew hierher,\num sie dauerhaft zurückzulassen.	0
 
 Shop Insectoid.prefab
 
