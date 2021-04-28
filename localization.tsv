@@ -544,8 +544,8 @@ StarmapLogPanelUI.cs
 
 StoragePanel.cs
 	storage upgrade	Speichererweiterung	0
-	Maximum slot count reached	Maximale Steckplatz-Anzahl erreicht	0
-	Not enough resources for upgrading	Nicht genügend Ressourcen für das Upgrade	0
+	Maximum slot count reached	Maximale Anzahl erreicht	0
+	Not enough resources for upgrading	Nicht genügend Ressourcen für die Speichererweiterung	0
 
 WarningsVisualizer.cs
 	SELF DESTRUCT	SELBSTZERSTÖRUNG	0
@@ -557,7 +557,7 @@ WarningsVisualizer.cs
 	Countdown to end of firing cycle	Countdown bis zum Ende des Abfeuerungszyklus	0
 
 WarpGate.cs
-	to {0} system	zu {0} System	0
+	to {0} system	Zu {0} System	0
 	unknown	unbekannt	0
 
 WarpModule.cs
@@ -7494,11 +7494,11 @@ displayName	Slaver space pod	Sklavenhändler-Raumkapsel	35
 Spideraa space pod.prefab
 
 Hand weapon acid gland spray red.prefab
-displayName	Red acid Spray	Rotes Säurespray	25
+displayName	Red acid Spray	Roter Säure-Sprühregen	25
 description	Molecular acid gland.	Molekulare Säuredrüse.	250
 
 Hand weapon acid gland spray.prefab
-displayName	Acid Spray	Säure-Spray	25
+displayName	Acid Spray	Säure-Sprühregen	25
 
 Hand weapon acidgun.prefab
 displayName	DIY acid spewer	DIY-Säurespucker	25
@@ -7509,16 +7509,16 @@ displayName	Assault rifle	Sturmgewehr	25
 description	Classical tactical projectile weapon.\nLong range but medium accuracy.\nHas a minor AI witness inside to prevent crimes.	Klassische taktische Projektilwaffe. \nLange Reichweite, aber mittlere Genauigkeit. \nHat einen kleinen KI-Zeugen im Inneren, um Verbrechen zu verhindern.	250
 
 Hand weapon autopistol.prefab
-displayName	Autopistol	Autopistole	25
+displayName	Autopistol	Automatische Pistole	25
 description	Classical projectile sidearm.\nMedium range and accuracy.\nHas a minor AI witness inside to prevent crimes.	Klassische Projektil-Seitenwaffe. \nMittlere Reichweite und Genauigkeit. \nHat einen kleinen KI-Zeugen im Inneren, um Verbrechen zu verhindern.	250
 
 Hand weapon blunderpistol.prefab
-displayName	Blunderbuss pistol	Blunderbuss-Pistole	25
-description	Rat cannon-pistol with extreme spread. \nCollateral damage guaranteed. Medium range, slow reload.	Rattenkanonen-Pistole mit extremer Streuung. \nKollateralschaden garantiert. Mittlere Reichweite, langsames Nachladen.	250
+displayName	Blunderbuss pistol	Kleine Donnerbüchse	25
+description	Rat cannon-pistol with extreme spread. \nCollateral damage guaranteed. Medium range, slow reload.	Ratten-Pistole mit extremer Streuung. \nKollateralschaden garantiert. Mittlere Reichweite, langsames Nachladen.	250
 
 Hand weapon blunderrifle.prefab
-displayName	Blunderbuss rifle	Blunderbuss-Gewehr	25
-description	Rat handcannon with extreme spread. \nCollateral damage guaranteed. Medium range, slow reload.	Ratten-Handkanone mit extremer Streuung. \nKollateralschaden garantiert. Mittlere Reichweite, langsames Nachladen.	250
+displayName	Blunderbuss rifle	Große Donnerbüchse	25
+description	Rat handcannon with extreme spread. \nCollateral damage guaranteed. Medium range, slow reload.	Ratten-Gewehr mit extremer Streuung. \nKollateralschaden garantiert. Mittlere Reichweite, langsames Nachladen.	250
 
 Hand weapon diy crossbow.prefab
 displayName	DIY crossbow	DIY-Armbrust	25
@@ -7533,24 +7533,24 @@ displayName	DIY laser rifle	DIY-Lasergewehr	25
 description	Custom laser gun made from scraps, requires a cooldown after each shot.\nExtreme range & accuracy, low damage.	Selbstgebautes Lasergewehr aus Schrott, erfordert eine Abkühlzeit nach jedem Schuss. \nExtreme Reichweite & Genauigkeit, geringer Schaden.	250
 
 Hand weapon diyrailgun.prefab
-displayName	DIY Railgun	DIY-Railgun	25
-description	A simple railgun assembled from spare parts. \nHigh accuracy, medium damage, low rate of fire.	Eine einfache Railgun, die aus Ersatzteilen zusammengebaut wurde. \nHohe Genauigkeit, mittlerer Schaden, niedrige Feuerrate.	250
+displayName	DIY Railgun	DIY-Schienenwaffe	25
+description	A simple railgun assembled from spare parts. \nHigh accuracy, medium damage, low rate of fire.	Eine einfache Schienenwaffe, die aus Ersatzteilen zusammengebaut wurde. \nHohe Genauigkeit, mittlerer Schaden, niedrige Feuerrate.	250
 
 Hand weapon drone flamer.prefab
-displayName	Flamer	Flamer	25
-description	A simple liquid ejector customized into a DIY flamer. \nFocused heatflow technology ensures lack of collateral damage.	Ein einfacher Flüssigkeitsausstoßer, der zu einem DIY-Flamer umgebaut wurde. \nFokussierte Wärmestromtechnologie sorgt für einen Mangel an Kollateralschäden.	250
+displayName	Flamer	Flamenwerfer	25
+description	A simple liquid ejector customized into a DIY flamer. \nFocused heatflow technology ensures lack of collateral damage.	Ein einfacher Flüssigkeitsausstoßer, der zu einem DIY-Flamenwerfer umgebaut wurde. \nFokussierte Wärmestromtechnologie sorgt für einen Mangel an Kollateralschäden.	250
 
 Hand weapon drone liquid nitrogen spray.prefab
-displayName	Liquid nitrogen spray	Flüssigstickstoff-Spray	25
+displayName	Liquid nitrogen spray	Flüssigstickstoff-Sprühregen	25
 description	The liquid nitrogen applier can be used offensively.\nShort range & low damage.	Der Flüssigstickstoff-Applikator kann offensiv eingesetzt werden. \nKurze Reichweite & geringer Schaden.	250
 
 Hand weapon electric.prefab
-displayName	Electric shock	Elektroschock	25
+displayName	Electric shock	Elektroschocker	25
 description	Electric shock.	Elektroschock.	250
 
 Hand weapon flamepistol.prefab
-displayName	Flamer pistol	Flamer-Pistole	25
-description	Self-defence mini-flamer for neautralizing poisonous insects or vermin. \nFocused heatflow technology ensures lack of collateral damage.	Mini-Flamer zur Selbstverteidigung, um giftige Insekten oder Ungeziefer zu neutralisieren. \nFokussierte Hitzestrom-Technologie sorgt für fehlende Kollateralschäden.	250
+displayName	Flamer pistol	Flamenwerfer-Pistole	25
+description	Self-defence mini-flamer for neautralizing poisonous insects or vermin. \nFocused heatflow technology ensures lack of collateral damage.	Mini-Flamenwerfer zur Selbstverteidigung, um giftige Insekten oder Ungeziefer zu neutralisieren. \nFokussierte Hitzestrom-Technologie sorgt für fehlende Kollateralschäden.	250
 
 Hand weapon flames.prefab
 displayName	Flames	Flammen	25
@@ -7585,7 +7585,7 @@ displayName	Gatling cannon	Gatling-Kanone	25
 description	Multibarrel hand-cannon with belt-feeding mechanism.\nLong range, ultimate rate of fire. Has a minor AI witness inside to prevent war crimes.	Mehrläufige Handkanone mit Gurtzufuhrmechanismus.\nGroße Reichweite, ultimative Feuerrate. Hat einen kleinen KI-Zeugen im Inneren, um Kriegsverbrechen zu verhindern.	250
 
 Hand weapon revolver large acc.prefab
-displayName	Custom revolver	Custom-Revolver	25
+displayName	Custom revolver	Angepasster Revolver	25
 description	Ancient projectile weapon. Allows five large-calibre shots in quick succession.\nMedium range, attached modern sensors ensure high accuracy.	Uralte Projektilwaffe. Ermöglicht fünf großkalibrige Schüsse in schneller Folge.\nMittlere Reichweite, angebrachte moderne Sensoren sorgen für hohe Genauigkeit.	250
 
 Hand weapon revolver large.prefab
@@ -7605,18 +7605,18 @@ displayName	Warp fists	Warp-Fäuste	25
 description	Exotic device that allows shooting warp arcs at close range.\nCan be also used to create tiny holograms above palms.	Exotisches Gerät, das es erlaubt, Warp-Bögen auf kurze Distanz zu schießen. \nKann auch verwendet werden, um winzige Hologramme über den Handflächen zu erzeugen.	250
 
 Hand weapon uzi.prefab
-displayName	Uzi	Uzi	25
-description	Ancient rapid projectile weapon, designed according to the 'spray & pray' principle.\nExtreme spread, medium range.	Uralte Schnellfeuerwaffe, die nach dem "Spray & Pray"-Prinzip konstruiert ist.\nExtreme Streuung, mittlere Reichweite.	250
+displayName	Uzi	Maschinenpistole	25
+description	Ancient rapid projectile weapon, designed according to the 'spray & pray' principle.\nExtreme spread, medium range.	Uralte Schnellfeuerwaffe, die nach dem "Sprühen & Beten"-Prinzip konstruiert ist.\nExtreme Streuung, mittlere Reichweite.	250
 
 Hand weapon warp moleculoray.prefab
-displayName	Moleculoray	Moleculoray	25
+displayName	Moleculoray	Molekularstrahl	25
 description	Capability to generates multiple warp arcs at close range.\nMay deal collateral damage to modules.	Fähigkeit, mehrere Warp-Bögen im Nahbereich zu erzeugen.\nKann Kollateralschäden an Modulen verursachen.	250
 
 Hand weapon warp spider.prefab
-displayName	Spider warp ray	Spider-Warp-Strahl	25
+displayName	Spider warp ray	Spinnen-Warp-Strahl	25
 
 Hand weapon warpeffector.prefab
-displayName	Warp ray effector	Warpstrahleffektor	25
+displayName	Warp ray effector	Warpstrahl-Effektor	25
 description	Exotic sidearm that emits powerful warp ray arcs. \nShort range. Multiple per magazine.	Exotische Seitenwaffe, die starke Warpstrahlbögen aussendet. \nKurze Reichweite. Mehrere pro Magazin.	250
 
 Hand weapon welder double.prefab
@@ -7631,11 +7631,11 @@ Hand weapon welder light.prefab
 displayName	Light welder	Leichter Schweißer	25
 
 Hand weapon yellow raypistol.prefab
-displayName	Heavy n-ray pistol	Schwere n-Strahlenpistole	25
+displayName	Heavy n-ray pistol	Schwere N-Strahlen-Pistole	25
 description	This accurate raygun has a long recharge cycle, but powerful and accurate shots.	Diese präzise Strahlenpistole hat einen langen Nachladezyklus, aber starke und präzise Schüsse.	250
 
 Combat Drone Humanoid.prefab
-dieMessage	{0} has been destroyed.	0} wurde zerstört.	70
+dieMessage	{0} has been destroyed.	{0} wurde zerstört.	70
 appearance[i].description	A tactical combat drone with standard specs. Very limited capabilities. Fire-resistant body.	Eine taktische Kampfdrohne mit Standard-Spezifikationen. Sehr begrenzte Fähigkeiten. Feuerfester Körper.	250
 appearance[i].description	A light security droid. Very limited capabilities. Fire-resistant body.	Ein leichter Sicherheitsdroide. Sehr begrenzte Fähigkeiten. Feuerfester Körper.	250
 
@@ -8296,7 +8296,7 @@ displayName	Tech artifact (advanced datacore)	Tech-Artefakt (fortgeschrittener D
 description	A giant data core with some valuable information inside (which can be obtained only by breaking it). This module can be used to calculate targeting vectors, increasing accuracy of all weapons on the ship.	Ein riesiger Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Brechen des Kerns erhalten werden können). Dieses Modul kann zur Berechnung von Zielvektoren verwendet werden, wodurch die Genauigkeit aller Waffen des Schiffes erhöht wird.	200
 
 artifactmodule tec biotech eyeball asteroid predictor.prefab
-displayName	Biotech artifact (asteroid predictor)	Biotech-Artefakt (Asteroidenprädiktor)	40
+displayName	Biotech artifact (asteroid predictor)	Biotech-Artefakt (Asteroiden-Vorhersager)	40
 description	A piece of living xenotechnology that can be used to predict asteroid movement vectors. Scrapping would yield both resources and research data.	Ein Stück lebender Xenotechnologie, das zur Vorhersage der Bewegungsvektoren von Asteroiden verwendet werden kann. Die Verschrottung würde sowohl Ressourcen als auch Forschungsdaten liefern.	200
 
 artifactmodule tec engine booster 1.prefab
@@ -8311,7 +8311,7 @@ displayName	Biotech artifact (integrity hardpoint)	Biotech-Artefakt (Integrität
 description	A single piece of some kind of larger modular biotechnology set, usable as a primitive integrity hardpoint. Scrapping would yield research data.	Ein einzelnes Stück einer Art größeren modularen Biotechnologie-Sets, verwendbar als primitiver Integritäts-Ansatzpunkt. Eine Verschrottung würde Forschungsdaten ergeben.	200
 
 artifactmodule tec ingergity and asteroid predictor.prefab
-displayName	Tech artifact (asteroid predictor)	Tech-Artefakt (Asteroiden-Prädiktor)	40
+displayName	Tech artifact (asteroid predictor)	Tech-Artefakt (Asteroiden-Vorhersager)	40
 description	A piece of modular xenotechnology that calculates vectors of approaching asteroids. Durable structure also increases ship HP.	Ein Stück modularer Xenotechnologie, das die Vektoren von sich nähernden Asteroiden berechnet. Die robuste Struktur erhöht auch die HP des Schiffes.	200
 
 artifactmodule tec metal rainbow integrity.prefab
@@ -10099,8 +10099,8 @@ description	Increases chance to deflect projectiles or energy rays that hit our 
 randomizerMenuStrings[i]	+1% deflection	+1% Ablenkung	30
 
 Perk augment 00d tactical predictor.prefab
-displayName	Tactical predictor upgrade	Upgrade des taktischen Prädiktors	40
-description	Upgrading the ship's tactical predictor core is expensive, but increases our combat capabilities. At least the new predictor core itself predicts so.\nThe ship accuracy bonus makes all our weapons more accurate, while evasion reduces the accuracy of enemy shots.	Das Upgrade des taktischen Prädiktorkerns des Schiffes ist teuer, erhöht aber unsere Kampffähigkeiten. Zumindest sagt das der neue Prädiktor-Kern selbst voraus.\nDer Schiffsgenauigkeitsbonus macht alle unsere Waffen genauer, während Ausweichen die Genauigkeit gegnerischer Schüsse verringert.	250
+displayName	Tactical predictor upgrade	Aufrüstung des taktischen Vorhersagers	40
+description	Upgrading the ship's tactical predictor core is expensive, but increases our combat capabilities. At least the new predictor core itself predicts so.\nThe ship accuracy bonus makes all our weapons more accurate, while evasion reduces the accuracy of enemy shots.	Die Aufrüstung des taktischen Vorhersage-Kerns des Schiffes ist teuer, erhöht aber unsere Kampffähigkeiten. Zumindest sagt das der neue Vorhersager-Kern selbst voraus.\nDer Schiffsgenauigkeitsbonus macht alle unsere Waffen genauer, während Ausweichen die Genauigkeit gegnerischer Schüsse verringert.	250
 randomizerMenuStrings[i]	+1% accuracy	+1% Genauigkeit	30
 randomizerMenuStrings[i]	-100 credits	-100 Credits	30
 
