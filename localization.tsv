@@ -950,7 +950,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	High danger of\nasteroid impacts	Hohe Gefahr von\nAsteroideneinschlägen	0
 	Concentrated asteroid clusters have increased risk of impacts. \nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidenanhäufung mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktabwehr und Integritätsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0
 	Weapons & other modules	Waffen und andere Module	0
-	Weapons and ECM modules can only be installed to external slots:	Waffen und ECM-Module können nur auf externen Steckplätzen eingebaut werden:	0
+	Weapons and ECM modules can only be installed to external slots:	Waffen und EGM-Module können nur auf externen Steckplätzen eingebaut werden:	0
 	Point defences can only be installed in hybrid slots:	Punktabwehr kann nur in Hybrid-Steckplätzen eingebaut werden:	0
 	Most other modules can be installed to internal, core, hybrid or external slots:	Die meisten anderen Module können in internen, Kern-, Hybrid- oder externen Steckplätzen eingebaut werden:	0
 	Special modules like warp, engine, bridge and capital missile can only be installed to dedicated slots:	Spezialmodule wie Warp, Triebwerk, Brücke und Capital Missile können nur in speziellen Steckplätzen eingebaut werden:	0
@@ -2606,7 +2606,7 @@ crewDescriptionOverride	Animal rescued from a shipwreck. Understands how to wate
 13 Exo wr. arlis commander wreck MT, LR sensor2, passive ECM1.prefab
 text	It is a half-dissolved shipwreck of a destroyer. It seems to be a victim of space life, as there are no obvious signs of looting.	Es ist ein halb aufgelöstes Schiffswrack eines Zerstörers. Es scheint ein Opfer von Weltraumleben zu sein, da es keine offensichtlichen Anzeichen von Plünderung gibt.	400
 text2	We found a quality sensor system aboard the ship, damaged but still intact.	Wir fanden ein hochwertiges Sensorsystem an Bord des Schiffes, beschädigt, aber noch intakt.	400
-text2	We found a quality ECM system aboard the ship, damaged but still intact.	Wir fanden ein hochwertiges ECM-System an Bord des Schiffes, beschädigt, aber noch intakt.	400
+text2	We found a quality ECM system aboard the ship, damaged but still intact.	Wir fanden ein hochwertiges EGM-System an Bord des Schiffes, beschädigt, aber noch intakt.	400
 text2	Most of the ship systems were degraded beyond repair due to space life digestive acids. A single unit of emergency supplies has remained intact in the cargo area.	Die meisten Schiffssysteme waren durch die Verdauungssäuren des Raumlebens irreparabel geschädigt. Eine einzige Einheit von Notvorräten ist im Frachtraum intakt geblieben.	400
 
 135 Exo bodies in spacex4.prefab
@@ -6562,7 +6562,7 @@ text	"We just need your ship this time. Since we know you won't give it to us vo
 
 SOS generous adventurers.prefab
 displayName	Civilian ship	Ziviles Schiff	25
-text	A small civilian ship is approaching. It seems to be armed with only point-defence guns, but we can detect a hidden, ECM-shielded compartment under the ship which could house a weapon.	Ein kleines ziviles Schiff nähert sich. Es scheint nur mit Punktabwehr bewaffnet zu sein, aber wir können einen versteckten, ECM-geschützten Raum unter dem Schiff entdecken, der eine Waffe beherbergen könnte.	600
+text	A small civilian ship is approaching. It seems to be armed with only point-defence guns, but we can detect a hidden, ECM-shielded compartment under the ship which could house a weapon.	Ein kleines ziviles Schiff nähert sich. Es scheint nur mit Punktabwehr bewaffnet zu sein, aber wir können einen versteckten, EGM-geschützten Raum unter dem Schiff entdecken, der eine Waffe beherbergen könnte.	600
 text2	They've sent us some of their backup supplies... plus something that looks like recent food leftovers - headless, half-burned animal corpses with Insectoidian bite marks.	Sie haben uns einen Teil ihrer Vorräte geschickt... und etwas, das wie Essensreste aussieht - kopflose, halb verbrannte Tierleichen mit insektoiden Bisswunden.	400
 reasonToDisplay	help received	Hilfe erhalten	30
 text	receiving package...	Paket erhalten...	50
@@ -8238,8 +8238,8 @@ displayName	Tech artifact (data core)	Tech-Artefakt (Datenkern)	40
 description	A giant data core with some valuable information inside (which can be obtained only by breaking it). The module can be also used as a crude integrity hardpoint.	Ein riesiger Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann auch als grober Integritäts-Ansatzpunkt verwendet werden.	200
 
 artifactmodule tec 13 data core brassdome ECM.prefab
-displayName	Tech artifact (ECM integrity data core)	Tech-Artefakt (ECM-Integritätsdatenkern)	40
-description	A giant armored data core with some valuable information inside (which can be obtained only by breaking it). The module can be used as integrity ECM hardpoint.	Ein riesiger gepanzerter Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann als Integritäts-ECM-Ansatzpunkt verwendet werden.	200
+displayName	Tech artifact (ECM integrity data core)	Tech-Artefakt (EGM-Integritätsdatenkern)	40
+description	A giant armored data core with some valuable information inside (which can be obtained only by breaking it). The module can be used as integrity ECM hardpoint.	Ein riesiger gepanzerter Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann als Integritäts-EGM-Ansatzpunkt verwendet werden.	200
 
 artifactmodule tec 17 broken screen gizmo, data.prefab
 displayName	Tech artifact	Tech-Artefakt	40
@@ -8248,15 +8248,15 @@ description	A piece of non-usable xenotechnology. Scrapping would yield resource
 artifactmodule tec 21 data core rectangle gizmo.prefab
 
 artifactmodule tec 22 metal synt gizmo ECM.prefab
-displayName	Tech artifact (ECM integrity hardpoint)	Tech-Artefakt (ECM-Integritäts-Ansatzpunkt)	40
-description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint and produces ECM static if powered. Scrapping would yield resources and research data.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden und erzeugt ECM-Statik, wenn es mit Strom versorgt wird. Eine Verschrottung würde Ressourcen und Forschungsdaten ergeben.	200
+displayName	Tech artifact (ECM integrity hardpoint)	Tech-Artefakt (EGM-Integritäts-Ansatzpunkt)	40
+description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint and produces ECM static if powered. Scrapping would yield resources and research data.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden und erzeugt EGM-Statik, wenn es mit Strom versorgt wird. Eine Verschrottung würde Ressourcen und Forschungsdaten ergeben.	200
 
 artifactmodule tec 23 metal gizmo with light ECM.prefab
-description	A piece of xenotechnology. The module can be used as a crude integrity hardpoint. It produces minimal ECM static if powered. Can be installed into internal slot.	Ein Teil der Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden. Es erzeugt minimale ECM-Statik, wenn es mit Energie versorgt wird. Kann im internen Steckplatz installiert werden.	200
+description	A piece of xenotechnology. The module can be used as a crude integrity hardpoint. It produces minimal ECM static if powered. Can be installed into internal slot.	Ein Teil der Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden. Es erzeugt minimale EGM-Statik, wenn es mit Energie versorgt wird. Kann im internen Steckplatz installiert werden.	200
 
 artifactmodule tec 24 broken warp gizmo ECM.prefab
 displayName	Tech artifact (damaged warpdrive)	Tech-Artefakt (beschädigter Warpantrieb)	40
-description	A damaged, but partially functional advanced warpdrive, mostly made of exotics. Powering the module creates warp static, so it can be used as an internal ECM scrambler that does not need a hybrid slot like normal jammers.	Ein beschädigter, aber teilweise funktionsfähiger, fortschrittlicher Warpantrieb, der größtenteils aus exotischen Materialien besteht. Die Stromversorgung des Moduls erzeugt Warp-Statik, so dass es als interner ECM-Scrambler verwendet werden kann, der keinen Hybrid-Steckplatz wie normale Störsender benötigt.	200
+description	A damaged, but partially functional advanced warpdrive, mostly made of exotics. Powering the module creates warp static, so it can be used as an internal ECM scrambler that does not need a hybrid slot like normal jammers.	Ein beschädigter, aber teilweise funktionsfähiger, fortschrittlicher Warpantrieb, der größtenteils aus exotischen Materialien besteht. Die Stromversorgung des Moduls erzeugt Warp-Statik, so dass es als interner EGM-Scrambler verwendet werden kann, der keinen Hybrid-Steckplatz wie normale Störsender benötigt.	200
 
 artifactmodule tec 25 broken screen gizmo.prefab
 
@@ -8319,8 +8319,8 @@ displayName	Tech artifact (integrity hardpoint)	Tech-Artefakt (Integritäts-Ansa
 description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint but is otherwise useful only as scrap.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden, ist aber ansonsten nur als Schrott nützlich.	200
 
 artifactmodule tec screamer egg ECM.prefab
-displayName	Tech artifact (ECM emitter)	Tech-Artefakt (ECM-Emitter)	40
-description	A piece of modular xenotechnology that screams at the push of a button, even in warp frequencies. Can be used as a crude ECM emitter.	Ein Stück modulare Xenotechnologie, das auf Knopfdruck schreit, sogar in Warpfrequenzen. Kann als grober ECM-Emitter verwendet werden.	200
+displayName	Tech artifact (ECM emitter)	Tech-Artefakt (EGM-Emitter)	40
+description	A piece of modular xenotechnology that screams at the push of a button, even in warp frequencies. Can be used as a crude ECM emitter.	Ein Stück modulare Xenotechnologie, das auf Knopfdruck schreit, sogar in Warpfrequenzen. Kann als grober EGM-Emitter verwendet werden.	200
 
 bridge 1crew DIY.prefab
 displayName	Command bridge (DIY)	Kommandobrücke (Selbstbau)	40
@@ -8571,39 +8571,39 @@ description	Solid integrity hardpoint designed to appear as a weapon to enemy se
 weapondecoy1.prefab
 
 ECM 0 ancient.prefab
-displayName	ECM integrity turret (ancient)	ECM-Integritätsturm (alt)	40
+displayName	ECM integrity turret (ancient)	EGM-Integritätsturm (alt)	40
 description	Hybrid platform for electronic countermeasures. Increases ship evasion & HP, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Ausweichfähigkeit und die HP des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 ECM 0 DIY.prefab
-displayName	DIY ECM turret	DIY ECM-Geschützturm	40
+displayName	DIY ECM turret	DIY EGM-Geschützturm	40
 description	Hybrid platform for electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 ECM 0 terran old.prefab
-displayName	Armored ECM Turret I [old]	Gepanzerter ECM-Turm I [alt]	40
+displayName	Armored ECM Turret I [old]	Gepanzerter EGM-Turm I [alt]	40
 description	Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, improves ship HP, requires a hybrid slot.	Hybride Integritätstechnologie mit elektronischen Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, verbessert die HP des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 ECM 01 terran.prefab
-displayName	Armored ECM Turret I	Gepanzerter ECM-Turm I	40
+displayName	Armored ECM Turret I	Gepanzerter EGM-Turm I	40
 
 ECM 02 terran.prefab
-displayName	Armored ECM Turret II	Gepanzerter ECM-Turm II	40
+displayName	Armored ECM Turret II	Gepanzerter EGM-Turm II	40
 
 ECM 02.2 ancient artifact, slicer dicer.prefab
-displayName	ECM artifact (ancient slicer-dicer)	ECM-Artefakt (antiker Verwürfler)	40
-description	This ancient ECM module increases ship evasion and requires a hybrid slot.	Dieses uralte ECM-Modul erhöht die Schiffsausweichfähigkeit und benötigt einen Hybrid-Steckplatz.	200
+displayName	ECM artifact (ancient slicer-dicer)	EGM-Artefakt (antiker Verwürfler)	40
+description	This ancient ECM module increases ship evasion and requires a hybrid slot.	Dieses uralte EGM-Modul erhöht die Schiffsausweichfähigkeit und benötigt einen Hybrid-Steckplatz.	200
 
 ECM 03 biotech.prefab
-displayName	Biotech ECM turret	Biotech ECM-Geschützturm	40
+displayName	Biotech ECM turret	Biotech EGM-Geschützturm	40
 description	Biotech electronic countermeasures turret. Increases overall ship evasion, requires a hybrid slot.	Biotechnischer Geschützturm für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffes, benötigt einen Hybrid-Steckplatz.	200
 
 ECM 03 insectoid.prefab
-displayName	ECM turret (insectoid)	ECM-Geschützturm (Insektoid)	40
+displayName	ECM turret (insectoid)	EGM-Geschützturm (Insektoid)	40
 
 ECM 03 terran.prefab
-displayName	Armored ECM Turret III	Gepanzerter ECM-Turm III	40
+displayName	Armored ECM Turret III	Gepanzerter EGM-Turm III	40
 
 ECM 04 spideraa.prefab
-displayName	Spideraa ECM	Spinner ECM	40
+displayName	Spideraa ECM	Spinner-EGM	40
 description	Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	Hybride Integritätstechnologie mit elektronischer Gegenmaßnahme. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 engine 0 diy.prefab
@@ -10437,9 +10437,9 @@ description	A container that increases storage capacity for metal & synthetics. 
 randomizerMenuStrings[i]	+1 metal/synthetics container	+1 Metall-/Synthetik-Container	30
 
 Perk module decommissioned DIY ecms x3.prefab
-displayName	Decommissioned ECMs (x3)	Ausgemusterte ECMs (x3)	40
-description	Even the Rat Empire occasionally updates its fleets. These primitive ECM modules have been decommissioned and can be bought for food scraps if you know the right Rats.	Auch das Rattenimperium aktualisiert gelegentlich seine Flotten. Diese primitiven ECM-Module wurden ausgemustert und können für Essensreste gekauft werden, wenn Sie die richtigen Ratten kennen.	250
-randomizerMenuStrings[i]	+3 ECM modules	+3 ECM Module	30
+displayName	Decommissioned ECMs (x3)	Ausgemusterte EGMs (x3)	40
+description	Even the Rat Empire occasionally updates its fleets. These primitive ECM modules have been decommissioned and can be bought for food scraps if you know the right Rats.	Auch das Rattenimperium aktualisiert gelegentlich seine Flotten. Diese primitiven EGM-Module wurden ausgemustert und können für Essensreste gekauft werden, wenn Sie die richtigen Ratten kennen.	250
+randomizerMenuStrings[i]	+3 ECM modules	+3 EGM Module	30
 randomizerMenuStrings[i]	-60 organics	-60 Organische Stoffe	30
 
 Perk module decommissioned DIY reactors x2.prefab
@@ -10834,9 +10834,9 @@ description	Upgraded lasers have three barrels instead of two. New lasers need m
 randomizerMenuStrings[i]	Improved damage and power consumption for mining lasers	Verbesserter Schaden und Stromverbrauch für Mining-Laser	30
 
 Perk Replace ECM of warpshell.prefab
-displayName	ECM turret upgrade x2	ECM-Geschützturm-Upgrade x2	40
+displayName	ECM turret upgrade x2	EGM-Geschützturm-Aufrüstung x2	40
 description	Upgrades both of the onboard electronic countermeasure turrets, improving ship evasion and HP.	Verbessert die beiden bordeigenen Geschütztürme für elektronische Gegenmaßnahmen, wodurch das Ausweichen des Schiffes und die HP verbessert werden.	250
-randomizerMenuStrings[i]	Upgrades both ECM turrets	Verbessert beide ECM-Geschütztürme	30
+randomizerMenuStrings[i]	Upgrades both ECM turrets	Verbessert beide EGM-Geschütztürme	30
 
 Perk Replace engines with rat engines for rogue rat.prefab
 displayName	Engine replacement	Motor-Ersatz	40
