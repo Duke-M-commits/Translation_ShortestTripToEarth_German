@@ -9889,42 +9889,42 @@ description	This industrial frigate was not made for long-range travel. It start
 
 02 Nuke Runner.prefab
 description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Speeder ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (der Nukleararsenal-Startbonus). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
-unlockText	Complete tutorial to unlock	Einführung abschließen, um freizuschalten	100
+unlockText	Complete tutorial to unlock	Freischaltung: Einführung abschließen	100
 unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erdallianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
 03 Weirdship.prefab
 description	An antique Space-Eel exploration ship obtained from a museum, packed with unconventional technology and crewed by space hippies. Many of the ship's modules function by eating organics (extra rations are recommended). Starts with a shoomery and medbay.	Ein antikes Space-Eel-Forschungsschiff, das Sie aus einem Museum erhalten haben, vollgepackt mit unkonventioneller Technologie und einer Crew aus Weltraum-Hippies. Viele der Schiffsmodule funktionieren durch den Verzehr von organischen Stoffen (Extra-Rationen werden empfohlen). Startet mit einem Schießstand und einer Medbay.	400
-unlockText	Die at least once to unlock	Mindestens einmal sterben, um freizuschalten	100
+unlockText	Die at least once to unlock	Freischaltung: Mindestens einmal sterben	100
 unlockAnnouncementText	Our encounters have created a chain reaction of events, eventually leading to an exclusive access of this antique Yu-Ee ship.	Unsere Begegnungen haben eine Kettenreaktion von Ereignissen ausgelöst, die schließlich zu einem exklusiven Zugang zu diesem antiken Yu-Ee-Schiff geführt haben.	100
 
 04 Rogue Rat.prefab
 description	An old Rat Empire vessel, originally built to escort merchant convoys. The ship and all its modules have increased fire resistance, but it may run out of ammo due to its heavy gatling cannons. Standard loadout includes extra explosives, incendiary nukes and a laboratory for analyzing remains of defeated enemies.	Ein altes Schiff des Rattenimperiums, ursprünglich gebaut, um Handelskonvois zu eskortieren. Das Schiff und alle seine Module haben eine erhöhte Feuerresistenz, aber aufgrund seiner schweren Gatling-Kanonen kann ihm die Munition ausgehen. Zur Standardausrüstung gehören zusätzliche Sprengstoffe, Brandbomben und ein Labor zur Analyse der Überreste besiegter Feinde.	400
-unlockText	Reach sector 2 to unlock	Erreichen Sie Sektor 2, um freizuschalten	100
+unlockText	Reach sector 2 to unlock	Freischaltung: Erreichen Sie Sektor 2	100
 unlockAnnouncementText	Our AI has been tapping into the Rat Empire information networks, and gained access to one of their most common ship blueprints.	Unsere KI hat sich in die Informationsnetzwerke des Rattenimperiums eingeklinkt und sich Zugang zu einem ihrer häufigsten Schiffsentwürfe verschafft.	100
 
 05 Gardenship.prefab
 description	This giant trade vessel has been operated by a family of food traders for generations. Though armed with mining lasers and ancient rockets, it's gardens can generate a lot of organics by using excess energy of the ship's movement. Minimal energy shielding is somewhat mitigated by the robust structure of the ship.	Dieses riesige Handelsschiff wird seit Generationen von einer Familie von Lebensmittelhändlern betrieben. Obwohl es mit Minenlasern und uralten Raketen bewaffnet ist, können seine Gärten eine Menge organischer Stoffe erzeugen, indem sie die überschüssige Energie der Schiffsbewegung nutzen. Die minimale Energieabschirmung wird durch die robuste Struktur des Schiffes etwas abgemildert.	400
-unlockText	Reach sector 3 to unlock	Erreichen Sie Sektor 3, um freizuschalten	100
+unlockText	Reach sector 3 to unlock	Freischaltung: Erreichen Sie Sektor 3	100
 unlockAnnouncementText	A family of insect traders have ascended into royal politics. Being old friends with our ship AI, they decided to donate their ancient flagship to our cause.	Eine Familie von Insektenhändlern ist in die königliche Politik aufgestiegen. Da sie alte Freunde unserer Schiffs-KI sind, haben sie sich entschlossen, uns ihr altes Flaggschiff zu spenden.	100
 
 06 Atlas.prefab
 description	This vessel was designed to be a mobile research base for dangerous frontiers. Optional module package offers dedicated sustainability equipment, including a fuel synthesizer. Comes equipped with external fuel tank, usable as nuke.	Dieses Schiff wurde als mobile Forschungsbasis für gefährliche Grenzgebiete konzipiert. Das optionale Modulpaket bietet eine spezielle Nachhaltigkeitsausrüstung, einschließlich eines Treibstoffsynthesizers. Ausgestattet mit einem externen Treibstofftank, der als Nuklearwaffe verwendet werden kann.	400
-unlockText	Reach sector 4 to unlock	Erreichen Sie Sektor 4, um freizuschalten	100
+unlockText	Reach sector 4 to unlock	Freischaltung: Erreichen Sie Sektor 4	100
 unlockAnnouncementText	As a final gift, the Earth station AI has given us access to these ship blueprints.	Als abschließendes Geschenk hat uns die KI der Erdstation Zugang zu diesen Schiffsblaupausen gegeben.	100
 
 07 Bluestar MK III scientific.prefab
 description	Bluestar was designed for exploration missions in deep, uninhabited space. The ship has a superb set of science and sustainability modules, but moderate combat capability. Comes equipped with external fuel tank, usable as nuke.	Die Bluestar wurde für Erkundungsmissionen im tiefen, unbewohnten Weltraum konzipiert. Das Schiff verfügt über eine hervorragende Ausstattung an Wissenschafts- und Nachhaltigkeitsmodulen, aber mäßige Kampffähigkeiten. Es ist mit einem externen Treibstofftank ausgestattet, der als Nuklearwaffe verwendet werden kann.	400
-unlockText	Reach sector 5 to unlock	Erreichen Sie Sektor 5, um es freizuschalten.	100
+unlockText	Reach sector 5 to unlock	Freischaltung: Erreichen Sie Sektor 5	100
 unlockAnnouncementText	Our encounters have created chain reactions, resulting in exclusive access to this exploration ship.	Unsere Begegnungen haben Kettenreaktionen ausgelöst, die zu einem exklusiven Zugang zu diesem Erkundungsschiff geführt haben.	100
 
 08 Roundship.prefab
 description	This experimental ship is partially made of cloned warp animal tissue with increased fire resistance. Although armed with some of Earth's best weapons, most of its planned modules are missing or have been replaced with whatever was available.	Dieses experimentelle Schiff ist teilweise aus geklontem Warptiergewebe mit erhöhter Feuerresistenz gefertigt. Obwohl es mit einigen der besten Waffen der Erde ausgestattet ist, fehlen die meisten der geplanten Module oder wurden durch das ersetzt, was gerade verfügbar war.	400
-unlockText	Reach sector 7 to unlock	Erreichen Sie Sektor 7 zum Freischalten	100
+unlockText	Reach sector 7 to unlock	Freischaltung: Erreichen Sie Sektor 7	100
 unlockAnnouncementText	Earth Alliance officials have given us access to this super-secret experimental ship.	Beamte der Erdallianz haben uns Zugang zu diesem supergeheimen Experimentalschiff gewährt.	100
 
 10 Endurance.prefab
 description	This ancient ship was built over a hundred years ago for long-range exploration and is still prized today. It has a pre-installed fuel synthesizer, gardens, laboratories and everything else necessary for a dangerous journey. It only needs a determined crew.	Dieses uralte Schiff wurde vor über hundert Jahren für die Langstreckenerkundung gebaut und ist auch heute noch sehr begehrt. Es verfügt über einen vorinstallierten Treibstoffsynthesizer, Gärten, Labore und alles andere, was für eine gefährliche Reise notwendig ist. Es braucht nur eine entschlossene Besatzung.	400
-unlockText	Reach sector 10 to unlock	Erreichen Sie Sektor 10, um es freizuschalten	100
+unlockText	Reach sector 10 to unlock	Freischaltung: Erreichen Sie Sektor 10	100
 unlockAnnouncementText	You've been awarded this legendary ship for your exceptional deeds in service of Earth Alliance.	Sie haben dieses legendäre Schiff für Ihre außergewöhnlichen Taten im Dienste der Erdallianz erhalten.	100
 
 Perk add credits 2, personal savings.prefab
@@ -10035,8 +10035,8 @@ unlockAnnouncementText	During our travels, we met a desperate and dishonest indi
 randomizerMenuStrings[i]	-5 credits	-5 Credits	30
 
 Perk add permanent credits.prefab
-displayName	Scientific data on Spideraa	Wissenschaftliche Daten über Spideraa	40
-description	Scientific data about the Spideraa species is worth a lot of credits once we've obtained it. This information is quite dangerous, so we need to invest time and money into comprehensive background checks before deciding on a buyer.	Wissenschaftliche Daten über die Spezies Spideraa sind eine Menge Credits wert, sobald wir sie erhalten haben. Diese Informationen sind ziemlich gefährlich, daher müssen wir Zeit und Geld in umfassende Hintergrundprüfungen investieren, bevor wir uns für einen Käufer entscheiden.	250
+displayName	Scientific data on Spideraa	Wissenschaftliche Daten über die Spinner	40
+description	Scientific data about the Spideraa species is worth a lot of credits once we've obtained it. This information is quite dangerous, so we need to invest time and money into comprehensive background checks before deciding on a buyer.	Wissenschaftliche Daten über die Spezies Spinner sind eine Menge Credits wert, sobald wir sie erhalten haben. Diese Informationen sind ziemlich gefährlich, daher müssen wir Zeit und Geld in umfassende Hintergrundprüfungen investieren, bevor wir uns für einen Käufer entscheiden.	250
 randomizerMenuStrings[i]	+75 credits	+75 Credits	30
 
 Perk add synthetics 2, broken lamp.prefab
@@ -10583,7 +10583,7 @@ randomizerMenuStrings[i]	+1 drone repair module	+1 Dronen-Reparaturmodul	30
 Perk module EOME container.prefab
 displayName	Exotic multicontainer	Exotischer Multicontainer	40
 description	This very advanced pressure container increases resource capacity for organics, metals, explosives and exotics.	Dieser sehr fortschrittliche Druckcontainer erhöht die Ressourcenkapazität für organische Stoffe, Metalle, Sprengstoffe und exotische Stoffe.	250
-unlockAnnouncementText	Our research on Spideraa technology is yielding results. Replicating this advanced container in Earth Alliance labs should not be a problem, next time.	Unsere Forschung an der Spideraa-Technologie trägt Früchte. Die Replikation dieses fortschrittlichen Containers in den Labors der Erdallianz sollte kein Problem sein, das nächste Mal.	100
+unlockAnnouncementText	Our research on Spideraa technology is yielding results. Replicating this advanced container in Earth Alliance labs should not be a problem, next time.	Unsere Forschung an der Spinner-Technologie trägt Früchte. Die Replikation dieses fortschrittlichen Containers in den Labors der Erdallianz sollte kein Problem sein, das nächste Mal.	100
 randomizerMenuStrings[i]	+1 very advanced container	+1 fortschrittlicher Container	30
 
 Perk module fuel combinator, to atlas.prefab
@@ -10597,9 +10597,9 @@ displayName	The jade armor	Die Jade-Rüstung	40
 description	A gift from the past, passed on for generations according to a mythic foretelling about saving the universe.	Ein Geschenk aus der Vergangenheit, das nach einer mythischen Vorhersage zur Rettung des Universums über Generationen weitergegeben wurde.	250
 
 Perk module integrity 3.prefab
-displayName	Spideraa integrity tech	Spideraa-Integritätstechnologie	40
+displayName	Spideraa integrity tech	Spinner-Integritätstechnologie	40
 description	Integrity biotechnology like this was salvaged from the Outward Abyss by previous explorers. It has been reverese-engineered and we may order a similar one for the upcoming journey. Adds +13 ship HP when installed.	Integritäts-Biotechnologie wie diese wurde von früheren Entdeckern aus dem Äußeren Abyss geborgen. Sie wurde ehrfürchtig weiterentwickelt und wir werden vielleicht ein ähnliches Exemplar für die kommende Reise bestellen. Fügt +13 Schiffs-HP hinzu, wenn es installiert ist.	250
-unlockAnnouncementText	We discovered pieces of a Spideraa module in one of the asteroid fields and have been able to reverse-engineer it!	Wir haben Teile eines Spideraa-Moduls in einem der Asteroidenfelder entdeckt und konnten es nachbauen!	100
+unlockAnnouncementText	We discovered pieces of a Spideraa module in one of the asteroid fields and have been able to reverse-engineer it!	Wir haben Teile eines Spinner-Moduls in einem der Asteroidenfelder entdeckt und konnten es nachbauen!	100
 randomizerMenuStrings[i]	(adds +13 ship HP when installed)	(fügt +13 Schiffs-HP hinzu, wenn installiert)	30
 randomizerMenuStrings[i]	-4 exotics	-4 Exotika	30
 randomizerMenuStrings[i]	-200 organics	-200 Organische Stoffe	30
@@ -10953,7 +10953,7 @@ okButtonText	Ok, let's see it	Ok, dann wollen wir mal sehen	7
 text	I'm getting a signal. It's an Earth Alliance warpcast transmission...	Ich empfange ein Signal. Es ist eine Warpcast-Übertragung der Erdallianz...	600
 text	We've arrived to the Outward Abyss. There's no guarantee we can even speak with the Spideraa, but we must take all the chances we get. Seek out all the Spideraa in the area and try to contact them.	Wir sind im Äußeren Abgrund angekommen. Es gibt keine Garantie, dass wir überhaupt mit den Spinnern sprechen können, aber wir müssen alle Chancen nutzen, die wir bekommen. Suchen Sie alle Spinner in der Gegend und versuchen Sie, sie zu kontaktieren.	600
 title	Warpcast transmission	Warpcast-Übertragung	35
-text	"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	Captain, ein Angriff der Spideraa hat den Tintenfisch-Imperator gezwungen, sich genau in diesen Sektor zurückzuziehen. Wir haben Sie hierher geschickt, um ihn zu finden und zu eliminieren. Seien Sie sich bewusst, dass er eine Flotte von Sec-Corp-Schiffen angeheuert hat, um das Gebiet zu patrouillieren.	600
+text	"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	Captain, ein Angriff der Spinner hat den Tintenfisch-Imperator gezwungen, sich genau in diesen Sektor zurückzuziehen. Wir haben Sie hierher geschickt, um ihn zu finden und zu eliminieren. Seien Sie sich bewusst, dass er eine Flotte von Sec-Corp-Schiffen angeheuert hat, um das Gebiet zu patrouillieren.	600
 title	Warp ship captain	Warpschiff-Captain	35
 text	The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	Die Insektoiden-Allianz fand heraus, dass wir vor ihrem Angriff mit den Spinnern sprachen. Sie machen uns für die Entführung ihrer Königinnen durch die Spinner verantwortlich, weil sie glauben, dass wir sie den Spinnern angeboten haben.\nDie Bugs halten an sehr alten Traditionen fest, besonders an der Tradition der Rache. Sie haben ein Planetenzerstörer-Schiff geschickt, um die Erde zu zerstören, obwohl sie sonst mit uns in Frieden leben. Es wird das Ausgangs-Warptor dieses Sektors passieren und wir müssen dort einen Hinterhalt legen.	600
 QuestPanel.setText	Go to Exit warpgate of the sector to set up an ambush.	Gehen Sie zum Exit-Warptor des Sektors, um einen Hinterhalt zu legen.	100
@@ -10977,20 +10977,20 @@ QuestPanel.setText	Explore the sector before entering the exit warpgate.	Erkunde
 QuestPanel.setText	Explore the sector and move on.	Erforschen Sie den Sektor und fliegen Sie weiter.	100
 QuestPanel.setText	Reach the Exit warpgate.	Erreichen Sie das Exit-Warptor.	100
 QuestPanel.setText	Visit the local commercial stations to prepare for the upcoming mission, then leave via Exit sector.	Besuchen Sie die lokalen Handelsstationen, um sich auf die bevorstehende Mission vorzubereiten, und verlassen Sie dann den Sektor über Exit.	100
-QuestPanel.setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie 5 Orte mit bestätigten Spideraa-Sichtungen und versuchen Sie, Kontakt aufzunehmen.	100
+QuestPanel.setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie 5 Orte mit bestätigten Spinner-Sichtungen und versuchen Sie, Kontakt aufzunehmen.	100
 QuestPanel.setText	Find and kill the Squid emperor.	Finden und töten Sie den Tintenfisch-Imperator.	100
 title	Sector info	Sektor-Infos	35
 text	This fairly unexplored sector used to be part of Earth Alliance, but has been now claimed by the Squids.\nI've been looking into all available data on their technology. It seems their ships have not the best stealth technology. Getting a decent stealth decryptor might save us from some unnecessary fights.	Dieser ziemlich unerforschte Sektor gehörte früher zur Erdallianz, wurde aber jetzt von den Squids beansprucht. Ich habe alle verfügbaren Daten über ihre Technologie untersucht. Es scheint, dass ihre Schiffe nicht die beste Stealth-Technologie haben. Einen anständigen Stealth-Entschlüsseler zu bekommen, könnte uns vor einigen unnötigen Kämpfen bewahren.	600
 title	Warpcast connection established...	Warpcast-Verbindung hergestellt...	35
-text	Hello captain, I've been waiting for you to get here. I'll make this short. The war with the Squids is not going well. We've lost about half of Earth territory. The High Command has decided that desperate times need desperate measures. We are going to seek help from the only known elder species, the Spideraa.	Hallo, Captain. Ich habe schon auf Sie gewartet. Ich werde mich kurz fassen. Der Krieg mit den Tintenfischen läuft nicht gut. Wir haben etwa die Hälfte des Erdterritoriums verloren. Das Oberkommando hat beschlossen, dass verzweifelte Zeiten verzweifelte Maßnahmen erfordern. Wir werden die einzige bekannte ältere Spezies um Hilfe bitten, die Spideraa.	400
-choiceText	Tell me about the Spideraa	Erzählen Sie mir von den Spideraa	100
+text	Hello captain, I've been waiting for you to get here. I'll make this short. The war with the Squids is not going well. We've lost about half of Earth territory. The High Command has decided that desperate times need desperate measures. We are going to seek help from the only known elder species, the Spideraa.	Hallo, Captain. Ich habe schon auf Sie gewartet. Ich werde mich kurz fassen. Der Krieg mit den Tintenfischen läuft nicht gut. Wir haben etwa die Hälfte des Erdterritoriums verloren. Das Oberkommando hat beschlossen, dass verzweifelte Zeiten verzweifelte Maßnahmen erfordern. Wir werden die einzige bekannte ältere Spezies um Hilfe bitten, die Spinner.	400
+choiceText	Tell me about the Spideraa	Erzählen Sie mir von den Spinnern	100
 choiceText	Skip intro, I understand what needs to be done	Überspringen Sie das Intro, ich verstehe, was getan werden muss.	100
-title	Entry: Spideraa	Eintrag: Spideraa	35
+title	Entry: Spideraa	Eintrag: Spinner	35
 okButtonText	How do you want us to help?	Wie sollen wir helfen?	7
-text	The Spideraa are ancient, powerful arachnids, and consider themselves a natural enemy of all insectoids. You probably know that Insectoid Alliance was formed several thousands of years ago to defeat the Spideraa. However, the Spideraa were never defeated, only repelled. They've been sighted by the Space-Eels in a region known as the Outward Abyss. It's a tiny sector without hardly any real stars at all, mostly black holes.	Die Spideraa sind uralte, mächtige Spinnentiere und betrachten sich als natürlichen Feind aller Insektoiden. Sie wissen wahrscheinlich, dass die Insektoiden-Allianz vor mehreren tausend Jahren gegründet wurde, um die Spideraa zu besiegen. Allerdings wurden die Spideraa nie besiegt, sondern nur zurückgedrängt. Sie wurden von den Space-Eels in einer Region gesichtet, die als "Outward Abyss" bekannt ist. Es ist ein winziger Sektor, in dem es kaum echte Sterne gibt, sondern hauptsächlich schwarze Löcher.	600
+text	The Spideraa are ancient, powerful arachnids, and consider themselves a natural enemy of all insectoids. You probably know that Insectoid Alliance was formed several thousands of years ago to defeat the Spideraa. However, the Spideraa were never defeated, only repelled. They've been sighted by the Space-Eels in a region known as the Outward Abyss. It's a tiny sector without hardly any real stars at all, mostly black holes.	Die Spinner sind uralte, mächtige Spinnentiere und betrachten sich als natürlichen Feind aller Insektoiden. Sie wissen wahrscheinlich, dass die Insektoiden-Allianz vor mehreren tausend Jahren gegründet wurde, um die Spinner zu besiegen. Allerdings wurden die Spinner nie besiegt, sondern nur zurückgedrängt. Sie wurden von den Space-Eels in einer Region gesichtet, die als "Outward Abyss" bekannt ist. Es ist ein winziger Sektor, in dem es kaum echte Sterne gibt, sondern hauptsächlich schwarze Löcher.	600
 title	Diplomatic mission	Diplomatische Mission	35
 okButtonText	Right. How do we start?	Richtig. Wie fangen wir an?	7
-text	Since you got us in the Squid war in the first place, Earth has decided to send you into the Outward Abyss to contact the Spideraa. We don't know what they want, but you'll get a package of valuables to help you bargain. Even a single large-scale attack by the Spiders could change the war. We'll take any military help we can get.	Da Sie uns in den Squid-Krieg verwickelt haben, hat die Erde beschlossen, Sie in den Äußeren Abgrund zu schicken, um die Spideraa zu kontaktieren. Wir wissen nicht, was sie wollen, aber Sie bekommen ein Paket mit Wertgegenständen, um zu verhandeln. Schon ein einziger Großangriff der Spinnen könnte den Krieg verändern. Wir nehmen jede militärische Hilfe an, die wir bekommen können.	600
+text	Since you got us in the Squid war in the first place, Earth has decided to send you into the Outward Abyss to contact the Spideraa. We don't know what they want, but you'll get a package of valuables to help you bargain. Even a single large-scale attack by the Spiders could change the war. We'll take any military help we can get.	Da Sie uns in den Squid-Krieg verwickelt haben, hat die Erde beschlossen, Sie in den Äußeren Abgrund zu schicken, um die Spinner zu kontaktieren. Wir wissen nicht, was sie wollen, aber Sie bekommen ein Paket mit Wertgegenständen, um zu verhandeln. Schon ein einziger Großangriff der Spinnen könnte den Krieg verändern. Wir nehmen jede militärische Hilfe an, die wir bekommen können.	600
 text2	We've pulled some strings to get well-equipped Intergalactic traders here, waiting for you. Take these funds and visit the local stations to prepare for the mission. We've brought Earth's largest warpgate ship into the area. Once you've spent the credits, go to the warpship and it will shoot you off. Free fuel stations help you move back and forth in this sector. Good luck!	Wir haben ein paar Fäden gezogen, um gut ausgerüstete intergalaktische Händler hierher zu bringen, die auf Sie warten. Nehmen Sie diese Mittel und besuchen Sie die örtlichen Stationen, um sich auf die Mission vorzubereiten. Wir haben das größte Warptor-Schiff der Erde in dieses Gebiet gebracht. Sobald Sie die Credits ausgegeben haben, gehen Sie zum Warpschiff und es wird Sie abschießen. Freie Tankstellen helfen Ihnen, sich in diesem Sektor hin und her zu bewegen. Viel Glück!	400
 reasonToDisplay	operation funds received	Operationsgelder erhalten	30
 title	Entry: Sec Corp	Eintrag: Sec Corp	35
@@ -11105,13 +11105,13 @@ Level 9 boss, Shogar.prefab
 description	A huge squid dreadnought	Ein riesiger Squid-Dreadnought	400
 
 Spideraa Medium.prefab
-description	A Spideraa biotech ship.	Ein Spideraa-Biotech-Schiff.	400
+description	A Spideraa biotech ship.	Ein Spinner-Biotech-Schiff.	400
 
 Spideraa Queen.prefab
 description	Biotech ship.	Biotech-Schiff.	400
 
 Squid scout A.prefab
-description	A small Spideraa ship.	Ein kleines Spideraa-Schiff.	400
+description	A small Spideraa ship.	Ein kleines Spinner-Schiff.	400
 
 Squid scout B.prefab
 
