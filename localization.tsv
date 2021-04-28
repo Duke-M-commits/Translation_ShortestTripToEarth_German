@@ -1636,7 +1636,7 @@ Player panel.prefab
 	Normal time	Normale Zeit	0
 	Fast time	Schnelle Zeit	0
 	Show help	Hilfe anzeigen	0
-	Pause to menu	Pause zum Menü	0
+	Pause to menu	Menü	0
 	Turns SOS beacon ON or OFF.\nDisabled while in battle.	Schaltet das SOS-Signal ein oder aus.\nIm Kampf ist es deaktiviert.	0
 Button, deploys SOS beacon.	SOS	SOS	6
 	Toggles ship exterior for easier detection of ship damage	Schaltet das Schiffsäußere zur leichteren Erkennung von Schiffsschäden um	0
@@ -8060,7 +8060,7 @@ Spideraa decoy nuke.prefab
 displayName	Spideraa nuke	Spinner-Atombombe	35
 
 thin missile nuke.prefab
-displayName	Speeder nuke	Speeder-Atombombe	35
+displayName	Speeder nuke	Raser-Atombombe	35
 
 Tiger nuke.prefab
 displayName	Tiger nuke	Tiger-Atombombe	35
@@ -9888,7 +9888,7 @@ description	The Easy Tiger was created to provide security for colony fleets in 
 description	This industrial frigate was not made for long-range travel. It starts with 4 internal drones and a self-made drone repair bay. Small size of the ship provides an excellent evasion bonus but offers limited modular options. While good for training, you should not expect to reach very far using this ship.	Diese Industrie-Fregatte wurde nicht für Langstreckenflüge gebaut. Sie startet mit 4 internen Drohnen und einer selbstgebauten Drohnen-Reparaturbucht. Die geringe Größe des Schiffes sorgt für einen hervorragenden Ausweichbonus, bietet aber nur begrenzte modulare Optionen. Obwohl es sich gut für das Training eignet, sollten Sie nicht erwarten, mit diesem Schiff sehr weit zu kommen.	400
 
 02 Nuke Runner.prefab
-description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Speeder ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (der Nukleararsenal-Startbonus). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
+description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Raser ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (der Nukleararsenal-Startbonus). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
 unlockText	Complete tutorial to unlock	Freischaltung: Einführung abschließen	100
 unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erd-Allianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
@@ -10273,7 +10273,7 @@ randomizerMenuStrings[i]	+1 repair drone	+1 Reparatur-Drone	30
 randomizerMenuStrings[i]	-30 synthetics	-30 Kunststoffe	30
 
 Perk drone 04 fire safety x2.prefab
-displayName	Fire safety speeders (x2)	Feuerschutz-Speeder (x2)	40
+displayName	Fire safety speeders (x2)	Feuerschutz-Raser (x2)	40
 description	A pair of speedy mini-drones equipped with fire extinguishers.	Ein Paar schnelle Mini-Drohnen, die mit Feuerlöschern ausgestattet sind.	250
 randomizerMenuStrings[i]	+2 fire safety drones	+2 Brandschutz-Dronen	30
 
