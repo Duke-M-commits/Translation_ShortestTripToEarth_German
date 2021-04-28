@@ -624,7 +624,7 @@ text	Would you like to see another database entry for pirates?	Möchten Sie eine
 title	Entry: Squid Dominion	Eintrag: Tintenfisch-Herrschaft	35
 text	I don't know any more about the Squid than we learned from our last disastrous diplomatic encounter. I suspect their emperor is clinically insane and has complete control over their military and the entire Squid civilization. Perhaps we can obtain more info from Earth forces, as they've been fighting the Squid over five years now.	Ich weiß nicht mehr über die Tintenfische, als wir bei unserer letzten desaströsen diplomatischen Begegnung erfahren haben. Ich vermute, dass ihr Imperator klinisch wahnsinnig ist und die vollständige Kontrolle über ihr Militär und die gesamte Tintenfisch-Zivilisation hat. Vielleicht können wir mehr Informationen von den Erdstreitkräften erhalten, da sie die Tintenfische nun schon seit über fünf Jahren bekämpfen.	600
 title	Entry: Active warzones	Eintrag: Aktive Kriegsgebiete	35
-text	Warzones are usually full of conflict remains, including active minefields and shipwrecks. Most importantly, intergalactic wars usually attract Slaver fleets. Slavers are criminals united by their psychopathic lack of empathy, low cooperation skills and willingnes to enslave and hurt other sentient beings. I recommend nuking them if you can. Avoid being captured alive at all costs.	Kriegsgebiete sind normalerweise voller Überreste von Konflikten, einschließlich aktiver Minenfelder und Schiffswracks. Am wichtigsten ist, dass intergalaktische Kriege normalerweise Slaver-Flotten anziehen. Slaver sind Kriminelle, die durch ihren psychopathischen Mangel an Empathie, ihre geringen Kooperationsfähigkeiten und ihre Bereitschaft, andere fühlende Wesen zu versklaven und zu verletzen, vereint sind. Ich empfehle, sie zu vernichten, wenn Sie können. Vermeiden Sie um jeden Preis, lebendig gefangen genommen zu werden.	600
+text	Warzones are usually full of conflict remains, including active minefields and shipwrecks. Most importantly, intergalactic wars usually attract Slaver fleets. Slavers are criminals united by their psychopathic lack of empathy, low cooperation skills and willingnes to enslave and hurt other sentient beings. I recommend nuking them if you can. Avoid being captured alive at all costs.	Kriegsgebiete sind normalerweise voller Überreste von Konflikten, einschließlich aktiver Minenfelder und Schiffswracks. Am wichtigsten ist, dass intergalaktische Kriege normalerweise Sklavenhändler-Flotten anziehen. Sklavenhändler sind Kriminelle, die durch ihren psychopathischen Mangel an Empathie, ihre geringen Kooperationsfähigkeiten und ihre Bereitschaft, andere fühlende Wesen zu versklaven und zu verletzen, vereint sind. Ich empfehle, sie zu vernichten, wenn Sie können. Vermeiden Sie um jeden Preis, lebendig gefangen genommen zu werden.	600
 text	The lack of enemy crew has triggered a dead-man's switch on their ship. It will self-destruct in 30 seconds, killing anyone remaining inside. If there were anybody from us on their ship, they are already making their way back.	Das Fehlen einer feindlichen Besatzung hat einen Totmann-Schalter auf ihrem Schiff ausgelöst. Es wird sich in 30 Sekunden selbst zerstören und alle darin befindlichen Personen töten. Wenn jemand von uns auf ihrem Schiff war, ist er bereits auf dem Rückweg.	600
 title	Ship status critical!	Schiffsstatus kritisch!	35
 okButtonText	We're trying!	Wir versuchen es!	7
@@ -2461,7 +2461,7 @@ title	Gate guardian	Torwächter	35
 text	Two ships are guarding the gate. They refuse our comm requests and will most likely attack if we approach.	Zwei Schiffe bewachen das Tor. Sie verweigern unsere Kommunikationsanfragen und werden wahrscheinlich angreifen, wenn wir uns nähern.	400
 
 Level 6 exit, slaver boarders.prefab
-text	Three small ships are parked around the gate, weapons hot. Fleet profile analysis suggests these are slaver mercenaries.	Drei kleine Schiffe sind um das Tor herum geparkt, Waffen scharf. Die Flottenprofilanalyse deutet darauf hin, dass es sich um Sklavensöldner handelt.	400
+text	Three small ships are parked around the gate, weapons hot. Fleet profile analysis suggests these are slaver mercenaries.	Drei kleine Schiffe sind um das Tor herum geparkt, Waffen scharf. Die Flottenprofilanalyse deutet darauf hin, dass es sich um Sklavenhändler-Söldner handelt.	400
 choiceText	Approach [to battle]	Annäherung [zum Kampf]	100
 text2	Our utility bots have scooped up everything of value.	Unsere Versorgungsbots haben alles von Wert eingesammelt.	400
 
@@ -2796,7 +2796,7 @@ reasonToDisplay	warp life encounter	Begegnung mit Warp-Leben	30
 text2	The warp animal investigates our vessel and flies a few circles around us. It regurgitates some half-digested metal on top of our ship before leaving. A gift, perhaps?	Das Warptier untersucht unser Schiff und fliegt ein paar Kreise um uns herum. Es spuckt etwas halb verdautes Metall auf unser Schiff, bevor es verschwindet. Vielleicht ein Geschenk?	400
 text2	The warp animal seems to enjoy our attention. It performs a dance of flight, showing us impossibly dexterious movements, combined with jumping into personally created warpholes and glowing body lights. The creature left as abruptly as it arrived. We documented everything as xenodata.	Das Warptier scheint unsere Aufmerksamkeit zu genießen. Es führt einen Flugtanz auf, der uns unmögliche Bewegungen zeigt, verbunden mit Sprüngen in selbstgeschaffene Warphöhlen und leuchtenden Körperlichtern. So abrupt wie es gekommen ist, so abrupt ist das Wesen auch wieder gegangen. Wir haben alles als Xenodaten dokumentiert.	400
 text2	The warp animal has led us to a cat, floating in empty space! A few pieces of metal nearby support the hypothesis that a ship was destroyed here, the cat being possibly the only survivor.	Das Warptier hat uns zu einer Katze geführt, die im leeren Raum schwebt! Ein paar Metallstücke in der Nähe stützen die Hypothese, dass hier ein Schiff zerstört wurde und die Katze möglicherweise der einzige Überlebende ist.	400
-text2	The warp animal has led us to a heavily armed humanoid floating in a cloud of blood. Further analysis proves that it's an alien pilot who fought slavers until the end, dying of wounds before being able to activate a powerful self-destruct device. We salvage everything of value.	Das Warptier hat uns zu einem schwer bewaffneten Humanoiden geführt, der in einer Blutwolke schwebt. Die weitere Analyse ergibt, dass es sich um einen außerirdischen Piloten handelt, der bis zum Schluss gegen die Sklavenhalter kämpfte und an seinen Wunden starb, bevor er eine starke Selbstzerstörungsvorrichtung aktivieren konnte. Wir bergen alles, was von Wert ist.	400
+text2	The warp animal has led us to a heavily armed humanoid floating in a cloud of blood. Further analysis proves that it's an alien pilot who fought slavers until the end, dying of wounds before being able to activate a powerful self-destruct device. We salvage everything of value.	Das Warptier hat uns zu einem schwer bewaffneten Humanoiden geführt, der in einer Blutwolke schwebt. Die weitere Analyse ergibt, dass es sich um einen außerirdischen Piloten handelt, der bis zum Schluss gegen die Sklavenhändler kämpfte und an seinen Wunden starb, bevor er eine starke Selbstzerstörungsvorrichtung aktivieren konnte. Wir bergen alles, was von Wert ist.	400
 
 3 Exo refuelling station, looted.prefab
 displayName	Large metal object	Großes Metallobjekt	25
@@ -5514,7 +5514,7 @@ reasonToDisplay	attacked by local criminals	von lokalen Kriminellen angegriffen	
 text2	After a series of strategic assassinations by orbital bombardment, the local warlords are ultimately forced to capitulate and disarm. The rebuilding can start but much of the planet is now a nuclear wasteland. We confiscate their remaining nuclear stockpiles.	Nach einer Reihe von strategischen Attentaten durch orbitales Bombardement werden die lokalen Warlords schließlich zur Kapitulation und Entwaffnung gezwungen. Der Wiederaufbau kann beginnen, aber ein Großteil des Planeten ist nun nukleares Ödland. Wir konfiszieren ihre verbliebenen Nuklearvorräte.	400
 
 5 wr. shipsx8.prefab
-text	This ship was destroyed less than a few hours ago! Some of the metal is still burning hot and we can clearly see small flames and boarder entry holes, most likely slaver marks. This means survivors are unlikely, but there might still be some resources left.	Dieses Schiff wurde vor weniger als ein paar Stunden zerstört! Ein Teil des Metalls ist immer noch glühend heiß und wir können deutlich kleine Flammen und Einstiegslöcher sehen, höchstwahrscheinlich Sklavenspuren. Das bedeutet, dass Überlebende unwahrscheinlich sind, aber es könnten noch einige Ressourcen übrig sein.	400
+text	This ship was destroyed less than a few hours ago! Some of the metal is still burning hot and we can clearly see small flames and boarder entry holes, most likely slaver marks. This means survivors are unlikely, but there might still be some resources left.	Dieses Schiff wurde vor weniger als ein paar Stunden zerstört! Ein Teil des Metalls ist immer noch glühend heiß und wir können deutlich kleine Flammen und Einstiegslöcher sehen, höchstwahrscheinlich Sklavenhändler-Spuren. Das bedeutet, dass Überlebende unwahrscheinlich sind, aber es könnten noch einige Ressourcen übrig sein.	400
 text2	Scavenging operation completed. There wasn't much left besides molten metal.	Plünderungsaktion abgeschlossen. Es war nicht viel übrig, außer geschmolzenem Metall.	400
 text2	Scavenging operation completed. One of the modules was found repairable.	Plünderungsoperation abgeschlossen. Eines der Module wurde als reparaturfähig befunden.	400
 text2	The still burning ship was deemed too unstable for the crew to enter, so they sent in only a few bots. Shortly afterwards, the entire wreckage exploded again, it was probably the reactor core this time.	Das immer noch brennende Schiff wurde als zu instabil erachtet, um es zu betreten, so dass nur ein paar Bots hineingeschickt wurden. Kurz darauf explodierte das gesamte Wrack erneut, dieses Mal war es vermutlich der Reaktorkern.	400
@@ -6573,7 +6573,7 @@ title	Adventurer	Abenteurer	35
 text	"I can see you are in trouble but I do not wish communication. I'm on a mission to destroy the evil Cuzuf-Caban, may his wings burn! Anyway, here's some free supplies. Goodbye!"	Ich kann sehen, dass Sie in Schwierigkeiten sind, aber ich wünsche keine Kommunikation. Ich bin auf einer Mission, um den bösen Cuzuf-Caban zu vernichten, mögen seine Flügel brennen! Wie auch immer, hier sind ein paar kostenlose Vorräte. Auf Wiedersehen!	600
 text2	It seems the captain has sent us some of their own emergency supplies.	Es scheint, dass der Kapitän uns einige seiner eigenen Notvorräte geschickt hat.	400
 reasonToDisplay	sincere help received	Aufrichtige Hilfe erhalten	30
-text	"I can see you are in trouble but I have only a couple of minutes before I must leave. I've just single-handedly destroyed a slaver ship by killing everyone inside, and must now return home for repairs. Take this weapon of mine, I won't need it in the near future. Death to slavers!"	Ich kann sehen, dass Sie in Schwierigkeiten sind, aber ich habe nur ein paar Minuten, bevor ich gehen muss. Ich habe gerade im Alleingang ein Sklavenschiff zerstört, indem ich alle darin befindlichen Personen getötet habe, und muss nun für Reparaturen nach Hause zurückkehren. Nimm diese Waffe von mir, ich werde sie in nächster Zeit nicht brauchen. Tod den Sklavenhändlern!	600
+text	"I can see you are in trouble but I have only a couple of minutes before I must leave. I've just single-handedly destroyed a slaver ship by killing everyone inside, and must now return home for repairs. Take this weapon of mine, I won't need it in the near future. Death to slavers!"	Ich kann sehen, dass Sie in Schwierigkeiten sind, aber ich habe nur ein paar Minuten, bevor ich gehen muss. Ich habe gerade im Alleingang ein Sklavenhändler-Schiff zerstört, indem ich alle darin befindlichen Personen getötet habe, und muss nun für Reparaturen nach Hause zurückkehren. Nimm diese Waffe von mir, ich werde sie in nächster Zeit nicht brauchen. Tod den Sklavenhändlern!	600
 text2	The cargo pod also contained a case of ancient handgun munitions of all shapes and sizes.	Die Frachtkapsel enthielt auch eine Kiste mit altertümlicher Handfeuerwaffenmunition in allen Formen und Größen.	400
 
 SOS generous civ AI.prefab
@@ -6606,7 +6606,7 @@ text	sending materials...	Materialien schicken...	50
 title	Slaver (Gor-Mor individual)	Sklavenhändler (Gor-Mor Individuum)	35
 text	"An ape like you will fetch a good price! Now let us dance the freedom-dance..."	Für einen Affen wie dich wird man einen guten Preis erzielen! Nun lasst uns den Freiheitstanz tanzen...	600
 text	Two ships rapidly approaching, numerous weapon systems charging up. They are using a crude but powerful auxiliary jamming device, we cannot get more data at this range.	Zwei Schiffe nähern sich schnell, zahlreiche Waffensysteme laden sich auf. Sie benutzen ein grobes, aber starkes Störgerät, mehr Daten bekommen wir nicht.	600
-text	Two ships rapidly approaching tactical weapons range. We detect a boarding pod in the ship being warmed up. There's a high chance these are slavers...	Zwei Schiffe nähern sich schnell der taktischen Waffenreichweite. Wir entdecken eine Enterkapsel im Schiff, die aufgewärmt wird. Es ist sehr wahrscheinlich, dass es Sklavenhalter sind...	600
+text	Two ships rapidly approaching tactical weapons range. We detect a boarding pod in the ship being warmed up. There's a high chance these are slavers...	Zwei Schiffe nähern sich schnell der taktischen Waffenreichweite. Wir entdecken eine Enterkapsel im Schiff, die aufgewärmt wird. Es ist sehr wahrscheinlich, dass es Sklavenhändler sind...	600
 text	Three small ships are rapidly approaching tactical weapons range. Lack of broadcast suggests these are pirates, slavers or smugglers.	Drei kleine Schiffe nähern sich schnell der taktischen Waffenreichweite. Die fehlende Übertragung lässt vermuten, dass es sich um Piraten, Sklavenhändler oder Schmuggler handelt.	600
 title	Hostiles leaving	Feinde entfernen sich	35
 text	After seeing us getting ready for battle, the hostile ships turns around and starts leaving the area. Perhaps this intimidation was just a bluff?	Nachdem sie gesehen haben, dass wir uns zum Kampf bereit machen, drehen die feindlichen Schiffe um und verlassen das Gebiet. Vielleicht war diese Einschüchterung nur ein Bluff?	400
@@ -7012,7 +7012,7 @@ choiceText	Getting killed is the logical outcome of being a pirate [proceed to b
 Ambusher L2 pirates, hammerhead + Hship.prefab
 text	A single ship is rapidly approaching tactical range, shields active. It seems to be armed with a single massive gun, but it could be a decoy.	Ein einzelnes Schiff nähert sich schnell der taktischen Reichweite, Schilde aktiv. Es scheint mit einer einzigen massiven Kanone bewaffnet zu sein, aber es könnte ein Köder sein.	600
 text	"Oh, it's you, you've already paid us. What, you want to pay again? [cruel laughter] We're in a good mood, so no robbery today. Move along."	Oh, Ihr seid es, Ihr habt uns bereits bezahlt. Was, ihr wollt noch mal bezahlen? Wir haben gute Laune, also kein Raub heute. Gehen Sie weiter.	600
-text	"There is a notorious slaver ship nearby, ready to warp in and bite you. I could prevent this from happening for a few exotics... And don't get any ideas. I have a nuke and I don't care how many you have."	Es ist ein berüchtigtes Sklavenschiff in der Nähe, bereit, mit Warp einzugreifen und Sie zu beißen. Ich könnte das für ein paar Exoten verhindern... Und kommen Sie nicht auf dumme Gedanken. Ich habe eine Atombombe und es ist mir egal, wie viele Sie haben.	400
+text	"There is a notorious slaver ship nearby, ready to warp in and bite you. I could prevent this from happening for a few exotics... And don't get any ideas. I have a nuke and I don't care how many you have."	Es ist ein berüchtigtes Sklavenhändler-Schiff in der Nähe, bereit, mit Warp einzugreifen und Sie zu beißen. Ich könnte das für ein paar Exoten verhindern... Und kommen Sie nicht auf dumme Gedanken. Ich habe eine Atombombe und es ist mir egal, wie viele Sie haben.	400
 choiceText	Pay [-4 exotics]	Bezahlen [-4 Exoten]	100
 text	We do not have enough resources needed for this operation. We must take the fight or escape during combat.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen den Kampf annehmen oder während des Kampfes fliehen.	600
 text	After seeing us preparing for battle, the hostile ship turns around and starts leaving the area. Perhaps the slaver was bluffing about the other ships as well?	Nachdem es gesehen hat, dass wir uns auf den Kampf vorbereiten, dreht das feindliche Schiff um und verlässt das Gebiet. Vielleicht hat der Sklavenhändler auch mit den anderen Schiffen geblufft?	400
@@ -7139,29 +7139,29 @@ text	"External decorative style of your ship is acceptable, carry on."	Der äuß
 text	"Your ship's decoration style has been deemed compatible with local rules, carry on."	Der Dekorationsstil Ihres Schiffes wurde als kompatibel mit den lokalen Regeln erachtet, fahren Sie fort.	600
 
 Ambusher L5 slavers, 2x slaver arrowhead.prefab
-displayName	Rippers (slaver fleet)	Ripper (Sklavenhalterflotte)	25
-title	The Rippers (slaver clan)	Die Ripper (Sklavenhalterclan)	35
+displayName	Rippers (slaver fleet)	Mörder (Sklavenhändler-Flotte)	25
+title	The Rippers (slaver clan)	Die Mörder (Sklavenhändler-Klan)	35
 text	"We are misunderstood. Serving us is a privilege, as we teach our servants to overcome their love for self. Which is completely necessary for spiritual purification... or something like that. You must be in a subservient position to see this truth. We will ensure it for you."	Wir werden missverstanden. Uns zu dienen ist ein Privileg, denn wir lehren unsere Diener, ihre Eigenliebe zu überwinden. Was für die spirituelle Läuterung absolut notwendig ist... oder so ähnlich. Ihr müsst in einer dienenden Position sein, um diese Wahrheit zu erkennen. Wir werden es für Sie sicherstellen.	600
 text	Two ships rapidly approaching tactical weapons range. Ship profile suggest these might be conversions of "Arrowhead" type terran ships. The enemy fleet is using some kind of jamming device to block more detailed scanning at this range."	Zwei Schiffe nähern sich schnell der taktischen Waffenreichweite. Die Schiffsprofile deuten darauf hin, dass es sich um Umbauten terranischer Schiffe vom Typ "Pfeilspitze" handelt. Die feindliche Flotte setzt eine Art Störsender ein, um genauere Scans auf diese Entfernung zu verhindern."	600
 
 Ambusher L5 slavers, 2x slaver bullet.prefab
 text	Two small, unshielded ships are rapidly approaching tactical weapons range. It seems they have 3 weapon systems each.	Zwei kleine, nicht abgeschirmte Schiffe nähern sich schnell der taktischen Waffenreichweite. Es scheint, dass sie jeweils 3 Waffensysteme haben.	600
-title	Pain Removers (slaver clan)	Pain Removers (Sklavenhalterklan)	35
+title	Pain Removers (slaver clan)	Schmerzerlöser (Sklavenhändler-Klan)	35
 text	"TEACH YOU FREEDOM FROM PAIN. MUST BECOME SLAVE FIRST."	LEHRE DICH FREIHEIT VOM SCHMERZ. MÜSSEN ERST SKLAVE WERDEN.	600
 
 Ambusher L5 slavers, 3x slaver bullet.prefab
-displayName	Pain Suppressors (slaver clan)	Schmerzunterdrücker (Sklavenhalterklan)	25
+displayName	Pain Suppressors (slaver clan)	Schmerzunterdrücker (Sklavenhändler-Klan)	25
 text	Three small, unshielded ships are rapidly approaching tactical weapons range. It seems they have 3 weapon systems each.	Drei kleine, nicht abgeschirmte Schiffe nähern sich schnell der taktischen Waffenreichweite. Es scheint, dass sie jeweils 3 Waffensysteme haben.	600
 
 Ambusher L5 slavers, arrow cmd + arrowhead.prefab
-title	Victimizers (slaver clan)	Victimizers (Sklavenhalterklan)	35
+title	Victimizers (slaver clan)	Schikaneur (Sklavenhändler-Klan)	35
 okButtonText	actually, you just need to cease existing [to battle]	Eigentlich müsst Ihr nur aufhören zu existieren [um zu kämpfen]	7
 text	"You have the Mark of Victim. We cannot ignore the Mark. We need to have you. We will teach you to overcome all hate for self. But first, we need to take away that annoying freedom of yours."	Sie haben das Zeichen des Opfers. Wir können das Zeichen nicht ignorieren. Wir müssen Euch haben. Wir werden dich lehren, allen Hass auf dich selbst zu überwinden. Aber zuerst müssen wir dir deine lästige Freiheit nehmen.	600
 text	Two ships rapidly approaching tactical weapons range. Active jamming systems suggests these are pirates or slavers.	Zwei Schiffe nähern sich schnell der taktischen Waffenreichweite. Aktive Störsender deuten darauf hin, dass es Piraten oder Sklavenhändler sind.	600
 
 Ambusher L5 slavers, arrow cmd +srat +bullet.prefab
-displayName	Fear Lords (slaver fleet)	Fear Lords (Sklavenhalterflotte)	25
-title	Fear Lords (slaver clan)	Fear Lords (Sklavenhalterclan)	35
+displayName	Fear Lords (slaver fleet)	Gebieter der Angst (Sklavenhändler-Flotte)	25
+title	Fear Lords (slaver clan)	Gebieter der Angst (Sklavenhändler-Klan)	35
 text	"WE WILL MAKE YOUR SOUL FREE OF FEAR. BY APPLYING DELICIOUS FEAR, AFTER YOUR CAPTURE."	WIR WERDEN DEINE SEELE FREI VON ANGST MACHEN. DURCH DIE ANWENDUNG VON KÖSTLICHER ANGST, NACH DEINER GEFANGENNAHME.	600
 text	Three ships are rapidly approaching tactical weapons range, we detect 10 active weapon systems in total. One of them is a smaller escort frigate.	Drei Schiffe nähern sich schnell der taktischen Waffenreichweite, wir erkennen insgesamt 10 aktive Waffensysteme. Eines davon ist eine kleinere Eskortfregatte.	600
 
@@ -7489,7 +7489,7 @@ Rat space pod.prefab
 displayName	Rat space pod	Ratten-Raumkapsel	35
 
 Slaver space pod.prefab
-displayName	Slaver space pod	Slaver-Raumkapsel	35
+displayName	Slaver space pod	Sklavenhändler-Raumkapsel	35
 
 Spideraa space pod.prefab
 
@@ -7788,13 +7788,13 @@ Rat crew.prefab
 appearance[i].description	Rat soldier.	Ratten-Soldat.	250
 
 Slavers crew.prefab
-appearance[i].description	Slaver warrior. Extreme body modifications and numerous low-quality implants.	Sklavenkrieger. Extreme Körpermodifikationen und zahlreiche minderwertige Implantate.	250
-appearance[i].description	Slaver warrior. Numerous body modifications and questionable implants.	Sklavenkrieger. Zahlreiche Körpermodifikationen und fragwürdige Implantate.	250
-appearance[i].description	Slaver warrior. Packed with various body modifications and implants.	Sklavenkrieger. Vollgepackt mit diversen Körpermodifikationen und Implantaten.	250
-appearance[i].description	Slaver warrior. Body covered in scars.	Sklavenkrieger. Körper bedeckt mit Narben.	250
-appearance[i].description	Slaver warrior. Numerous DIY body modifications.	Sklavenkrieger. Zahlreiche DIY-Körpermodifikationen.	250
-appearance[i].description	Slaver warrior. Numerous DIY implants.	Sklavenkrieger. Zahlreiche DIY-Implantate.	250
-appearance[i].description	Slaver warrior. Large number of DIY implants	Sklavenkrieger. Zahlreiche DIY-Implantate	250
+appearance[i].description	Slaver warrior. Extreme body modifications and numerous low-quality implants.	Sklavenhändler-Krieger. Extreme Körpermodifikationen und zahlreiche minderwertige Implantate.	250
+appearance[i].description	Slaver warrior. Numerous body modifications and questionable implants.	Sklavenhändler-Krieger. Zahlreiche Körpermodifikationen und fragwürdige Implantate.	250
+appearance[i].description	Slaver warrior. Packed with various body modifications and implants.	Sklavenhändler-Krieger. Vollgepackt mit diversen Körpermodifikationen und Implantaten.	250
+appearance[i].description	Slaver warrior. Body covered in scars.	Sklavenhändler-Krieger. Körper bedeckt mit Narben.	250
+appearance[i].description	Slaver warrior. Numerous DIY body modifications.	Sklavenhändler-Krieger. Zahlreiche DIY-Körpermodifikationen.	250
+appearance[i].description	Slaver warrior. Numerous DIY implants.	Sklavenhändler-Krieger. Zahlreiche DIY-Implantate.	250
+appearance[i].description	Slaver warrior. Large number of DIY implants	Sklavenhändler-Krieger. Zahlreiche DIY-Implantate	250
 
 Spideraa crew.prefab
 appearance[i].description	Spideraa space warrior	Spinner-Weltraum-Krieger	250
@@ -8627,7 +8627,7 @@ displayName	Bioreaction engine, type II	Bioreaktionsmotor, Typ II	40
 description	Durable engine with good fuel efficiency. Robust structure improves ship HP.	Langlebiger Motor mit guter Treibstoffeffizienz. Robuste Struktur verbessert die Schiffs-HP.	200
 
 engine 03 emperor banks.prefab
-displayName	Emperor-banks long-range engine	Emperor-Banks-Langstreckenmotor	40
+displayName	Emperor-banks long-range engine	Imperator-Bank-Langstreckenmotor	40
 description	Very durable engine with fair fuel efficiency. Durable structure improves ship HP.	Sehr langlebiger Motor mit guter Treibstoffeffizienz. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 engine 04 red.prefab
@@ -8643,7 +8643,7 @@ displayName	Fuel-optimizer engine	Treibstoff-Optimierungs-Motor	40
 description	Engine that reuses its fuel for increased effectivity. Very low evasion bonus.	Triebwerk, das seinen Treibstoff wiederverwendet, um die Effektivität zu erhöhen. Sehr geringer Ausweichbonus.	200
 
 engine 2 floral.prefab
-displayName	Biotech engine, type floral	Biotech-Triebwerk, Typ Floral	40
+displayName	Biotech engine, type floral	Biotech-Triebwerk, Typ Blumig	40
 description	High fuel efficiency at the cost of low speed. Needs minimal power compared to other engines. Dense structure improves ship HP.	Hohe Treibstoffeffizienz auf Kosten einer geringen Geschwindigkeit. Benötigt minimale Leistung im Vergleich zu anderen Motoren. Dichte Struktur verbessert die Schiffs-HP.	200
 
 engine 2 large robust.prefab
@@ -8655,7 +8655,7 @@ displayName	Engine, Rat technology	Motor, Ratten-Technologie	40
 description	Low speed, medium fuel efficiency. Armored structure improves ship HP.	Niedrige Geschwindigkeit, mittlere Treibstoffeffizienz. Gepanzerte Struktur verbessert die Schiffs-HP.	200
 
 engine 2.5 classic.prefab
-displayName	Heavy Jets engine	Schwerer Jets-Motor	40
+displayName	Heavy Jets engine	Schweres Strahltriebwerk	40
 description	High quality engine. Low fuel efficiency but good evasion bonus. Extremely robust structure improves ship HP.	Hochwertiger Motor. Geringe Treibstoffeffizienz, aber guter Ausweichbonus. Äußerst robuste Struktur verbessert die Schiffs-HP.	200
 
 engine 2.5 terran.prefab
@@ -10923,7 +10923,7 @@ description	Package of cool stuff for testers of level 6-8.	Paket mit coolen Sac
 randomizerMenuStrings[i]	+ 6 modules & extra resources	6 module & extra Resourcen	30
 
 Perk war animal for weirdship.prefab
-displayName	War animal, type "Red Ripper"	Kriegstier, Typ "Roter Ripper"	40
+displayName	War animal, type "Red Ripper"	Kriegstier, Typ "Roter Mörder"	40
 description	Genetically engineered combat animal that eats a lot during ship travel if not in cryosleep. It's external carapace is very thick, but the creature is too unsophisticated to use weapons.	Genetisch hergestelltes Kampftier, das während der Schiffsreise viel frisst, wenn es sich nicht im Kryoschlaf befindet. Sein äußerer Panzer ist sehr dick, aber die Kreatur ist zu untrainiert, um Waffen zu benutzen.	250
 randomizerMenuStrings[i]	+1 trained combat animal	+1 trainiertes Kriegstier	30
 randomizerMenuStrings[i]	-eats a lot during ship travel	-frisst viel während der Schiffsreise	30
@@ -11526,7 +11526,7 @@ Human basic crew description pool.prefab
 	Anarchist law-teacher. Taking this whole thing as a vacation.	Ein anarchistischer Jura-Lehrer. Der die ganze Sache als Urlaub ansieht.	250
 	A post-post-post-modernist writer. Hasn't written anything yet.	Ein post-post-post-modernistischer Schriftsteller. Hat noch nichts geschrieben.	250
 	A survivor from a political suicide-organization. Has a backup heart.	Ein Überlebender einer politischen Selbstmord-Organisation. Hat ein Ersatzherz.	250
-	An-ex slave looking for revenge against all slavers. Trains martial arts daily.	Ein ehemaliger Sklave, der sich an allen Sklavenhaltern rächen will. Trainiert täglich Kampfsportarten.	250
+	An-ex slave looking for revenge against all slavers. Trains martial arts daily.	Ein ehemaliger Sklave, der sich an allen Sklavenhändlern rächen will. Trainiert täglich Kampfsportarten.	250
 	Body modifications artist. Has furry ears. Innumerable minor augments.	Künstler für Körpermodifikationen. Hat pelzige Ohren. Unzählige kleine Augments.	250
 	Body modifications artist. Has a small furry tail. Loves to dance.	Körpermodifikationskünstler. Hat einen kleinen pelzigen Schwanz. Liebt es zu tanzen.	250
 	A very old person. Has only ~90 years left to live.	Eine sehr alte Person. Hat nur noch ~90 Jahre zu leben.	250
@@ -11653,7 +11653,7 @@ Human fighter description pool.prefab
 	A professional marine. Expert at using handguns.	Ein professioneller Marine. Experte im Umgang mit Handfeuerwaffen.	250
 	A professional marine. Augmented eyes.	Ein professioneller Marine. Vergrößerte Augen.	250
 	A professional marine. Augmented eyes and hand muscles.	Ein professioneller Marine. Vergrößerte Augen und Handmuskeln.	250
-	Survivor from a Slaver ship. Horrible scars across the body.	Überlebender von einem Slaver-Schiff. Schreckliche Narben am ganzen Körper.	250
+	Survivor from a Slaver ship. Horrible scars across the body.	Überlebender von einem Sklavenhändler-Schiff. Schreckliche Narben am ganzen Körper.	250
 	A Security-monk. Has great sense of humor.	Ein Sicherheits-Mönch. Hat großen Sinn für Humor.	250
 	A Defence monk. Highly respected by everyone.	Ein Verteidigungsmönch. Wird von allen hoch respektiert.	250
 	A celebrated star of drone hunting games. Despises animal hunters.	Ein gefeierter Star der Drohnenjagdspiele. Verabscheut Tierjäger.	250
@@ -11674,7 +11674,7 @@ Human fighter description pool.prefab
 	An ex-law guardian. Quit because of corruption.	Ein Ex-Gesetzeswächter. Hat wegen Korruption aufgehört.	250
 	A close-combat specialist. Once shot down a battleship with a handgun.	Ein Nahkampfspezialist. Schoss einmal ein Schlachtschiff mit einer Handfeuerwaffe ab.	250
 	A retired security specialist. Now likes mentoring younger people.	Ein Sicherheitsspezialist im Ruhestand. Betreut jetzt gerne jüngere Leute.	250
-	An ex-slave looking for revenge against all Slavers.	Ein Ex-Sklave, der sich an allen Sklavenhaltern rächen will.	250
+	An ex-slave looking for revenge against all Slavers.	Ein Ex-Sklave, der sich an allen Sklavenhändlern rächen will.	250
 	A very old martial artist. Has only ~90 years left to live.	Ein sehr alter Kampfsportler. Hat nur noch ~90 Jahre zu leben.	250
 	A retired war mutants breeder. Has only ~100 years left to live.	Ein Kriegsmutantenzüchter im Ruhestand. Hat nur noch ~100 Jahre zu leben.	250
 	A veteran law guardian who escaped from assassins.	Ein altgedienter Gesetzeshüter, der vor Attentätern geflohen ist.	250
@@ -11729,7 +11729,7 @@ Human fighter-gunner description pool.prefab
 	A retired empathy-teacher. Scars from physical violence.	Ein pensionierter Empathie-Lehrer. Narben von körperlicher Gewalt.	250
 	A full-time hedonist. Great at dancing and martial arts.	Ein Vollzeit-Hedonist. Großartig im Tanzen und in Kampfsportarten.	250
 	An existence observer. Says this reality is 7 out of 10.	Ein Existenzbeobachter. Sagt, diese Realität ist 7 von 10.	250
-	An ex-slave looking for revenge against all slavers.	Ein Ex-Sklave, der sich an allen Sklavenhaltern rächen will.	250
+	An ex-slave looking for revenge against all slavers.	Ein Ex-Sklave, der sich an allen Sklavenhändlern rächen will.	250
 	Body modifications artist. Eyes have weapon-targeting booster mods.	Künstler für Körpermodifikationen. Augen haben waffenzielgerichtete Booster-Mods.	250
 	An adventurer, raised by the Gor-Mor. Knows Gor-Mor fighting styles.	Ein Abenteurer, von den Gor-Mor aufgezogen. Kennt Gor-Mor-Kampfstile.	250
 	A professional poet. Also knows how to use swords & pistols.	Ein professioneller Dichter. Weiß auch, wie man Schwerter und Pistolen benutzt.	250
@@ -11773,7 +11773,7 @@ Human good operator description pool.prefab
 	A professional Player. Thinks life is a game. Good at optimizing things.	Ein professioneller Spieler. Denkt, das Leben sei ein Spiel. Gut im Optimieren von Dingen.	250
 	A gambler without unpaid debts. Has learned to focus on things.	Ein Spieler ohne unbezahlte Schulden. Hat gelernt, sich auf Dinge zu konzentrieren.	250
 	A legal drugs conoisseur. Interested in sensor technology.	Ein Liebhaber legaler Drogen. Interessiert sich für Sensortechnik.	250
-	An-ex slave looking for revenge against all slavers. Quite skilled.	Ein Ex-Sklave, der sich an allen Sklavenhaltern rächen will. Ziemlich geschickt.	250
+	An-ex slave looking for revenge against all slavers. Quite skilled.	Ein Ex-Sklave, der sich an allen Sklavenhändlern rächen will. Ziemlich geschickt.	250
 	A parent of nine kids who all died of old age. Very experienced.	Ein Elternteil von neun Kindern, die alle an Altersschwäche starben. Sehr erfahren.	250
 	A professional crewman, just doing their job. Quite skilled.	Ein professionelles Crewmitglied, das nur seinen Job macht. Ziemlich erfahren.	250
 	A cyberpunk writer looking for an adventure. Quite skilled.	Ein Cyberpunk-Autor auf der Suche nach einem Abenteuer. Ziemlich erfahren.	250
@@ -11821,7 +11821,7 @@ Human operator wildcard description pool.prefab
 	A war refugee. Knows how to drive manual-only ships.	Ein Kriegsflüchtling. Weiß, wie man Schiffe mit Handbetrieb fliegt.	250
 	A holopainter looking for inspiration.	Ein Holomaler auf der Suche nach Inspiration.	250
 	A dancer looking to become a captain.	Ein Tänzer, der Kapitän werden will.	250
-	A seeker of justice. Once destroyed a Slaver ship by ramming.	Ein Suchender nach Gerechtigkeit. Zerstörte einst ein Slaver-Schiff durch Rammen.	250
+	A seeker of justice. Once destroyed a Slaver ship by ramming.	Ein Suchender nach Gerechtigkeit. Zerstörte einst ein Sklavenhändler-Schiff durch Rammen.	250
 	A spiritual rebel. Likes unhealthy food.	Ein spiritueller Rebell. Mag ungesundes Essen.	250
 	Survivor from a religious suicide cult.	Überlebender eines religiösen Selbstmordkults.	250
 	Innocent clone of a person wanted for murder.	Unschuldiger Klon einer Person, die wegen Mordes gesucht wird.	250
@@ -11839,7 +11839,7 @@ Human operator wildcard description pool.prefab
 	A Minimalism monk. Used to be a ruler of a small planet.	Ein Minimalismus-Mönch. War mal Herrscher über einen kleinen Planeten.	250
 	A retired empathy-teacher. Never gets angry, always stays focused.	Ein Empathie-Lehrer im Ruhestand. Wird nie wütend, bleibt immer konzentriert.	250
 	A survivor from a political suicide-organization.	Ein Überlebender aus einer politischen Selbstmord-Organisation.	250
-	An-ex slave looking for revenge against all slavers.	Ein ehemaliger Sklave auf der Suche nach Rache gegen alle Sklavenhalter.	250
+	An-ex slave looking for revenge against all slavers.	Ein ehemaliger Sklave auf der Suche nach Rache gegen alle Sklavenhändler.	250
 	Body modifications artist. Has furry ears.	Künstler für Körpermodifikationen. Hat pelzige Ohren.	250
 	Body modifications artist. Has a small furry tail.	Körpermodifikationskünstler. Hat einen kleinen pelzigen Schwanz.	250
 	A civilian ship pilot who wanted a bit more excitement.	Ein ziviler Schiffspilot, der ein bisschen mehr Aufregung wollte.	250
@@ -11914,7 +11914,7 @@ Human repairman description pool.prefab
 	A minimalism monk. Used to be a sexbot engineer, still good at repairs.	Ein Minimalismus-Mönch. War mal ein Sexbot-Ingenieur, immer noch gut in Reparaturen.	250
 	A retired empathy-teacher. Once had to learn how to repair space ships very quickly.	Ein pensionierter Empathie-Lehrer. Musste einmal sehr schnell lernen, wie man Raumschiffe repariert.	250
 	The "Chosen One" of a Machine temple. Cyborg heart. Good at repairs."	Der "Auserwählte" eines Maschinentempels. Cyborg-Herz. Gut in Reparaturen."	250
-	An-ex slave engineer looking for revenge against all slavers. Can repair thing quickly.	Ein ehemaliger Sklaveningenieur, der sich an allen Sklavenhaltern rächen will. Kann Dinge schnell reparieren.	250
+	An-ex slave engineer looking for revenge against all slavers. Can repair thing quickly.	Ein ehemaliger Sklavenhändler-Ingenieur, der sich an allen Sklavenhändlern rächen will. Kann Dinge schnell reparieren.	250
 	A Perfectionism monk. Far from perfect, but quite good at ship repairs.	Ein Perfektionismus-Mönch. Weit entfernt von Perfektion, aber recht gut in Schiffsreparaturen.	250
 	A space station mechanic, raised by robots. Speaks in a strange rhythm. Good at repairs.	Ein Raumstationsmechaniker, von Robotern aufgezogen. Spricht in einem seltsamen Rhythmus. Gut in Reparaturen.	250
 	A musician who gave up music in favor of repairing mechas.	Ein Musiker, der die Musik zugunsten der Reparatur von Mechas aufgab.	250
