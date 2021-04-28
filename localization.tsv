@@ -198,7 +198,7 @@ MothershipSelection.cs
 	Available only in challenging/hardcore difficulties	Nur in den Schwierigkeitsgraden Herausforderung/Hardcore verfügbar	0
 
 MultiCrewAction.cs
-	AI assigned skills to crew where it could	KI hat der Crew Fähigkeiten zugewiesen, wo sie konnte	0
+	AI assigned skills to crew where it could	KI hat der Crew Fertigkeiten zugewiesen, wo sie konnte	0
 
 PerksSelection.cs
 	Fate gained from previous run: +{0}	Aus dem vorherigen Durchlauf gewonnenes Schicksal: +{0}	0
@@ -285,7 +285,7 @@ SkillEffects.cs
 	+{0}% repair speed	+{0}% Reparatur Geschwindigkeit	0
 	Damage token 1 HP repair time {0:0.0}s	Schadenstoken 1 HP Reparaturzeit {0:0.0}s	0
 	Module 1 HP repair time {0:0.0}s	Modul 1 HP Reparaturzeit {0:0.0}s	0
-	Firefighting skill allows fighting fires	Feuerbekämpfungs-Fähigkeit erlaubt die Bekämpfung von Bränden	0
+	Firefighting skill allows fighting fires	Feuerbekämpfungs-Fertigkeit erlaubt die Bekämpfung von Bränden	0
 	+{0}% fire extinguishing speed	Feuer Löschgeschwindigkeit	0
 	Hand weapon skill allows using hand weapons	Handwaffen-Fertigkeit ermöglicht den Einsatz von Handwaffen	0
 	+{0} hand weapon accuracy	+{0} Genauigkeit der Handwaffe	0
@@ -391,7 +391,7 @@ CrewActionsPanel.cs
 
 CrewDataSubpanel.cs
 	s	s	0
-	Click to level up this skill	Klicken Sie, um diese Fähigkeit zu erhöhen	0
+	Click to level up this skill	Klicken Sie, um diese Fertigkeit zu erhöhen	0
 	Click to assign crew	Anklicken, um Besatzung zuzuweisen	0
 	Can't assign crew because there is no room in modules using this skill	Kann keine Besatzung zuweisen, da kein Platz in Modulen mit dieser Fertigkeit vorhanden ist	0
 	ru	ru	0
@@ -584,7 +584,7 @@ Module status visualizers.prefab
 	Not enough organics	Nicht genug organische Stoffe	0
 	Not enough explosives	Nicht genug Sprengstoff	0
 	No operators (module not functional)	Keine Bediener (Modul nicht funktionsfähig)	0
-	Operated remotely by bridge (without crew skill bonus)	Ferngesteuert von der Brücke (ohne Crew-Fähigkeitsbonus)	0
+	Operated remotely by bridge (without crew skill bonus)	Ferngesteuert von der Brücke (ohne Crew-Fertigkeitsbonus)	0
 	Module does not need operators or bridge	Modul braucht keine Bediener oder Brücke	0
 	Operated by crew in the module	Wird von der Crew im Modul bedient	0
 	Overloaded (module not functional)	Überladen (Modul nicht funktionsfähig)	0
@@ -701,7 +701,7 @@ Placeholder text for crew name inputfield	Enter name...	Name eingeben...	0
 Short description for crewmember type	Pet	Haustier	0
 Short description for crewmember type	Drone	Drohne	0
 Crewmember is not consuming any resources (eating organigs, synthetics etc) due to being either in cryosleep or otherwise.	Currently not consuming resources	Verbraucht derzeit keine Ressourcen	0
-	Skills reduced due to unhappiness\n(not enough organics for recreational substances)	Fähigkeiten reduziert aufgrund von Unzufriedenheit\n(nicht genug organische Substanzen für Erholungsstoffe)	0
+	Skills reduced due to unhappiness\n(not enough organics for recreational substances)	Fertigkeiten reduziert aufgrund von Unzufriedenheit\n(nicht genug organische Substanzen für Erholungsstoffe)	0
 Time (in %) left for crewmembers to defreeze from cryosleep. Example: Defreeze progress: 52% (number of percentages in another text field).	Defreeze progress:	Fortschritt auftauen:	0
 	Any action will defreeze frozen crew	Jede Aktion wird die eingefrorene Crew auftauen	0
 	Click to remove role	Anklicken, um Rolle zu entfernen	0
@@ -783,7 +783,7 @@ Handweapon shooting distance range	Range	Reichweite	0
 Handweapon reloading time (in seconds)	Magazine reloading time	Nachladezeit des Magazins	0
 Crewmember body	BODY:	KÖRPER:	0
 Crewmember handweapon	WEAPON:	WAFFE:	0
-Crewmember skills & roles	SKILLS & ROLES	FÄHIGKEITEN & ROLLEN	23
+Crewmember skills & roles	SKILLS & ROLES	FERTIGKEITEN & ROLLEN	23
 	Cancel any role	Beliebige Rolle abbrechen	0
 	Currently active	Derzeit aktiv	0
 
@@ -894,7 +894,7 @@ Button	Invisible Points of Interest	Unsichtbare Points of Interest	0
 	In-game Time Controls	Zeitsteuerung im Spiel	0
 	Toggle power\nmanagement view	Energiemanagement-Ansicht ein- und ausschalten	0
 	Crew roles panel	Crew-Rollen	0
-	Crew roles panel allows you to give orders to crew very quickly.\n\nClicking on the "+" sign next to a specific role (such as "repairs" or "weapons") sends the unoccupied crew with best skill to take care of it (to repair damage or operate weapons).\n\nOnly unoccupied crew can be assigned. You will have to unassign crew first to make them available to new roles. \n\nDrones & pets can be assigned to limited activities only.\nIf a drone and living entity have the same skill level, a drone will be assigned first.	Das Panel "Crew-Rollen" ermöglicht es Ihnen, der Crew sehr schnell Befehle zu erteilen.\n\nKlicken Sie auf das "+"-Zeichen neben einer bestimmten Rolle (z. B. "Reparaturen" oder "Waffen"), wird die unbeschäftigte Crew mit den besten Fähigkeiten geschickt, um sich darum zu kümmern (um Schäden zu reparieren oder Waffen zu bedienen).\n\nNur unbeschäftigte Crew kann zugewiesen werden. Sie müssen die Zuweisung der Crew zuerst aufheben, um sie für neue Rollen verfügbar zu machen. \n\nDrohnen und Haustiere können nur für begrenzte Aktivitäten zugewiesen werden.\nWenn eine Drohne und ein Lebewesen die gleiche Fertigkeitsstufe haben, wird zuerst die Drohne zugewiesen.	0
+	Crew roles panel allows you to give orders to crew very quickly.\n\nClicking on the "+" sign next to a specific role (such as "repairs" or "weapons") sends the unoccupied crew with best skill to take care of it (to repair damage or operate weapons).\n\nOnly unoccupied crew can be assigned. You will have to unassign crew first to make them available to new roles. \n\nDrones & pets can be assigned to limited activities only.\nIf a drone and living entity have the same skill level, a drone will be assigned first.	Das Panel "Crew-Rollen" ermöglicht es Ihnen, der Crew sehr schnell Befehle zu erteilen.\n\nKlicken Sie auf das "+"-Zeichen neben einer bestimmten Rolle (z. B. "Reparaturen" oder "Waffen"), wird die unbeschäftigte Crew mit den besten Fertigkeiten geschickt, um sich darum zu kümmern (um Schäden zu reparieren oder Waffen zu bedienen).\n\nNur unbeschäftigte Crew kann zugewiesen werden. Sie müssen die Zuweisung der Crew zuerst aufheben, um sie für neue Rollen verfügbar zu machen. \n\nDrohnen und Haustiere können nur für begrenzte Aktivitäten zugewiesen werden.\nWenn eine Drohne und ein Lebewesen die gleiche Fertigkeitsstufe haben, wird zuerst die Drohne zugewiesen.	0
 	Optimizing your ship modules and crew positions for combat (or flying around economically) can take a lot of time. If you want to avoid manually changing your modules  every time when combat happens, you can simply save two presets of modules - one for maximum combat capability, and another for flying around.	Das Optimieren Ihrer Schiffsmodule und Besatzungspositionen für den Kampf (oder das sparsame Herumfliegen) kann eine Menge Zeit in Anspruch nehmen. Wenn Sie vermeiden möchten, Ihre Module jedes Mal manuell zu ändern, wenn ein Kampf stattfindet, können Sie einfach zwei Voreinstellungen von Modulen speichern - eine für maximale Kampffähigkeit und eine andere für das Herumfliegen.	0
 	The two default preset buttons (one for combat, one for economically flying around) allow you to save & load module layouts (and powered on/off status), together with crew roles & positions.	Die beiden Standard-Voreinstellungen (eine für den Kampf, eine für das sparsame Herumfliegen) ermöglichen Ihnen das Speichern und Laden von Modul-Layouts (und den Ein-/Aus-Status), zusammen mit den Rollen und Positionen der Crew.	0
 	You can add other custom presets, that regulate only crew for example.	Sie können weitere benutzerdefinierte Voreinstellungen hinzufügen, die z. B. nur die Besatzung regeln.	0
@@ -1005,7 +1005,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	0
 	The log console shows what's going on in the ship from time to time.\n\nImportant log messages appear red.	Die Log-Konsole zeigt an, was im Schiff von Zeit zu Zeit vor sich geht.\n\Wichtige Log-Meldungen erscheinen rot.	0
 	Skills/roles	Fertigkeiten/Rollen	0
-	Clicking on crew skill automatically assigns crew to that skill. For example clicking on sensor skill sends crewmember to sensor module. Darkened skills cannot be clicked because module is either missing or already in use by another crewmember.	Wenn Sie auf eine Crew-Fertigkeit klicken, wird die Crew automatisch dieser Fähigkeit zugewiesen. Wenn Sie z. B. auf eine Sensor-Fertigkeit klicken, wird ein Besatzungsmitglied dem Sensormodul zugewiesen. Abgedunkelte Fertigkeiten können nicht angeklickt werden, da das Modul entweder fehlt oder bereits von einem anderen Besatzungsmitglied verwendet wird.	0
+	Clicking on crew skill automatically assigns crew to that skill. For example clicking on sensor skill sends crewmember to sensor module. Darkened skills cannot be clicked because module is either missing or already in use by another crewmember.	Wenn Sie auf eine Crew-Fertigkeit klicken, wird die Crew automatisch dieser Fertigkeit zugewiesen. Wenn Sie z. B. auf eine Sensor-Fertigkeit klicken, wird ein Besatzungsmitglied dem Sensormodul zugewiesen. Abgedunkelte Fertigkeiten können nicht angeklickt werden, da das Modul entweder fehlt oder bereits von einem anderen Besatzungsmitglied verwendet wird.	0
 	1. Bridge skill	1. Brückenfertigkeit	0
 	\rOne skill point gives +1 evasion when operating bridge.	\nEin Fertigkeitspunkt gibt +1 Ausweichen beim Bedienen der Brücke.	0
 	2. Sensor skill	2. Sensor-Fertigkeit	0
@@ -1038,11 +1038,11 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	Send crew into medbay to heal damage. It needs organics to heal each hitpoint.\nThe alternative option is to send injured crew into cryosleep.	Schicken Sie die Crew in die Medbay, um den Schaden zu heilen. Sie benötigt Organika, um jeden Trefferpunkt zu heilen.\nDie alternative Option ist, verletzte Besatzung in Kryoschlaf zu schicken.	0
 	Crew in cryosleep do not consume organics, and have a small chance to heal injuries for free.	Die Crew im Kryoschlaf verbraucht keine organischen Substanzen und hat eine kleine Chance, Verletzungen kostenlos zu heilen.	0
 	To increase crew survivability against intruders, position them to shoot from behind corners.\nMissed shots may damage modules.	Um die Überlebensfähigkeit der Besatzung gegen Eindringlinge zu erhöhen, positionieren Sie sie so, dass sie von hinter Ecken schießt.\nFehlschüsse können Module beschädigen.	0
-	Selecting all crew (default shortcut E) shows all crew stats together. \nThis screen enables you to sort and compare their skills, or assign roles.	Wenn Sie die gesamte Besatzung auswählen (Standardtaste E), werden alle Besatzungsstatistiken zusammen angezeigt. \nDieser Bildschirm ermöglicht es Ihnen, ihre Fähigkeiten zu sortieren und zu vergleichen oder Rollen zuzuweisen.	0
+	Selecting all crew (default shortcut E) shows all crew stats together. \nThis screen enables you to sort and compare their skills, or assign roles.	Wenn Sie die gesamte Besatzung auswählen (Standardtaste E), werden alle Besatzungsstatistiken zusammen angezeigt. \nDieser Bildschirm ermöglicht es Ihnen, ihre Fertigkeiten zu sortieren und zu vergleichen oder Rollen zuzuweisen.	0
 	If some of the selected crew are in cryosleep, giving actions will also de-freeze them.\nWhile multiple crew is selected, giving orders (right-clicking) applies to all selected crew.	Wenn sich einige der ausgewählten Crewmitglieder im Kryoschlaf befinden, werden sie durch das Erteilen von Aktionen auch aus dem Kryoschlaf geholt.\nWährend mehrere Crewmitglieder ausgewählt sind, gilt das Erteilen von Befehlen (Rechtsklick) für alle ausgewählten Crewmitglieder.	0
 	Basic resources are organics, fuel, metals, synthetics, explosives, exotics. \nThese are stored in containers with limited capacity.\n\nFlying around usually consumes both fuel & organics. Read about other resources from relevant help pages.	Grundlegende Ressourcen sind organische Stoffe, Treibstoff, Metalle, synthetische Stoffe, Sprengstoffe und exotische Stoffe. \nDiese werden in Containern mit begrenzter Kapazität gelagert.\n\nDas Herumfliegen verbraucht normalerweise sowohl Treibstoff als auch organische Stoffe. Informieren Sie sich über weitere Ressourcen auf den entsprechenden Hilfeseiten.	0
 	Hovering cursor over resource values shows total production & consumption.	Wenn Sie den Mauszeiger über die Ressourcenwerte bewegen, werden Gesamtproduktion und -verbrauch angezeigt.	0
-	Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	Die meisten Besatzungsmitglieder verbrauchen organische Stoffe in Form von Nahrung, Wasser, Luft und Erholungsmitteln, basierend auf der Reisedistanz des Schiffes im Weltraum.\n\nOrganische Stoffe können von Planeten mit Ökosystemen geerntet oder an Handelsstationen gekauft werden.\n\nVerschiedene Garten- & Nachhaltigkeitsmodule ermöglichen den Anbau von organischen Stoffen innerhalb des Schiffes.\n\nWenn die organischen Stoffe ausgehen, werden die Fähigkeiten der Besatzung aufgrund von Unzufriedenheit um 50 % reduziert.\n\nDas Fliegen des Schiffes ohne organische Stoffe schadet der Besatzung aufgrund des Mangels an Lebensmitteln.	0
+	Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	Die meisten Besatzungsmitglieder verbrauchen organische Stoffe in Form von Nahrung, Wasser, Luft und Erholungsmitteln, basierend auf der Reisedistanz des Schiffes im Weltraum.\n\nOrganische Stoffe können von Planeten mit Ökosystemen geerntet oder an Handelsstationen gekauft werden.\n\nVerschiedene Garten- & Nachhaltigkeitsmodule ermöglichen den Anbau von organischen Stoffen innerhalb des Schiffes.\n\nWenn die organischen Stoffe ausgehen, werden die Fertigkeiten der Besatzung aufgrund von Unzufriedenheit um 50 % reduziert.\n\nDas Fliegen des Schiffes ohne organische Stoffe schadet der Besatzung aufgrund des Mangels an Lebensmitteln.	0
 	Fuel is mostly consumed by warping between starsystems.\nWarpdrives typically need 40-50 fuel per jump.\nFuel is also consumed by engines and reactors when driving around in starsystems.\nAdditionally, exploration and other planetary operations sometimes consumes small amounts of fuel.	Treibstoff wird hauptsächlich beim Warpen zwischen Sternensystemen verbraucht.\nWarantriebe benötigen typischerweise 40-50 Treibstoff pro Sprung.\nTreibstoff wird auch von Triebwerken und Reaktoren verbraucht, wenn man in Sternensystemen herumfliegt.\nZusätzlich verbrauchen Erkundungen und andere planetare Operationen manchmal kleine Mengen an Treibstoff.	0
 	Options for gaining fuel	Optionen zur Gewinnung von Treibstoff	0
 	1.\nUse converter modules (if you have them) to convert organics or other resources into fuel.	1.\nVerwenden Sie Konvertermodule (wenn Sie sie haben), um organische Stoffe oder andere Ressourcen in Treibstoff umzuwandeln.	0
@@ -1406,7 +1406,7 @@ Button in main menu, sets game difficulty	?	?	0
 	Too many modules from perks (max 9 allowed).\nUnmark at least one perk that gives extra modules.	Zu viele Module von Startboni (max. 9 erlaubt).\nEntfernen Sie mindestens einen Startbonus, der zusätzliche Module gibt.	0
 	The most important part of your ship.\nThe game ends when your last crewmember dies or retires.	Der wichtigste Teil Ihres Schiffes.\nDas Spiel endet, wenn Ihr letztes Besatzungsmitglied stirbt oder in Rente geht.	0
 	Crew:	Besatzung:	0
-	Pets lack advanced ship skills, but are cute (and sometimes useful).	Haustiere haben keine fortgeschrittenen Schiffsfähigkeiten, sind aber niedlich (und manchmal nützlich).	0
+	Pets lack advanced ship skills, but are cute (and sometimes useful).	Haustiere haben keine fortgeschrittenen Schiffsfertigkeiten, sind aber niedlich (und manchmal nützlich).	0
 	Pets:	Haustiere:	0
 	Drones are great for combat & utility tasks, but\nlack the intelligence to operate advanced modules.	Drohnen sind großartig für Kampf- und Versorgungsaufgaben, haben aber nicht die Intelligenz, um fortgeschrittene Module zu bedienen.	0
 	Drones:	Drohnen:	0
@@ -1563,7 +1563,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Synthetics currently stored in this container	Aktuell in diesem Container gelagerte Kunststoffe	0
 	Explosives currently stored in this container	Derzeit in diesem Container gelagerte Sprengstoffe	0
 	Exotics currently stored in this container	Aktuell in diesem Container gelagerte Exoten	0
-	XenoData generated per minute\n+ or - Current operator skill effect	Pro Minute erzeugte XenoDaten\n+ oder - Aktueller Effekt der Bedienerfähigkeit	0
+	XenoData generated per minute\n+ or - Current operator skill effect	Pro Minute erzeugte XenoDaten\n+ oder - Aktueller Effekt der Bedienerfertigkeit	0
 	Explosives produced per minute	Pro Minute erzeugte Explosivstoffe	0
 	Exotics produced per minute	Pro Minute produzierte Exoten	0
 	Ship HP and max HP bonus	Schiffs-HP und maximaler HP-Bonus	0
@@ -1810,7 +1810,7 @@ Refers to shop	Store	Händler	0
 	Sell 1	Verkaufen 1	0
 	Buy:	Kaufen:	0
 	Sell:	Verkaufen:	0
-	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Credits.\nOrganika sind notwendig, um optimale Crew-Fähigkeiten und Heilung zu erhalten.	0
+	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Credits.\nOrganika sind notwendig, um optimale Crew-Fertigkeiten und Heilung zu erhalten.	0
 	ORGANICS	ORGANISCHES	0
 	Average price when sold by stations: 4 credits.\nExplosives are used by projectile- and missile weapons.	Durchschnittlicher Preis beim Verkauf an Stationen: 4 Credits.\nExplosivstoffe werden von Projektil- und Raketenwaffen verwendet.	0
 	EXPLOSIVES	SPRENGSTOFFE	0
@@ -3877,7 +3877,7 @@ text2	This centuries-old fortress used to be controlled by a central AI core att
 
 10 P food, nature pic pool 20.prefab
 title	Carbon ecosystem	Kohlenstoff-Ökosystem	35
-text	The planet is covered with ecosystem of easily easily ecoharvestable organics. No signs of developed sentience. The place looks pretty nice.	Der Planet ist mit einem Ökosystem aus leicht zu erntenden organischen Stoffen bedeckt. Keine Anzeichen von entwickelter Empfindungsfähigkeit. Der Ort sieht ziemlich gut aus.	400
+text	The planet is covered with ecosystem of easily easily ecoharvestable organics. No signs of developed sentience. The place looks pretty nice.	Der Planet ist mit einem Ökosystem aus leicht zu erntenden organischen Stoffen bedeckt. Keine Anzeichen von entwickeltem Bewusstsein. Der Ort sieht ziemlich gut aus.	400
 choiceText	Research & eco-harvest organics	Forschung & Öko-Ernte Organics	100
 text2	Organics harvested, no incidents.	Organische Stoffe geerntet, keine Zwischenfälle.	400
 text	harvesting organics... %	Organische Stoffe ernten... %.	50
@@ -6457,8 +6457,8 @@ text	We should only disengage from dangerous situations. Right now there's nothi
 altText	Notice that <b>lack of ammo</b> icon on your missile weapon. Install the <b>explosives container</b> and then take the explosives. Explosives are used as ammo for most projectile weapons.	Beachten Sie das <b>Munitionsmangel</b>-Symbol auf Ihrer Raketenwaffe. Installieren Sie den <b>Sprengstoff-Container</b> und nehmen Sie dann den Sprengstoff. Sprengstoff wird als Munition für die meisten Projektilwaffen verwendet.	240
 altText	We also need a <b>shield generator</b>. Shields protect us from all energy weapons, as long as they have <b>shield points</b> remaining.	Wir brauchen auch einen <b>Schildgenerator</b>. Schilde schützen uns vor allen Energiewaffen, solange sie noch <b>Schildpunkte</b> haben.	240
 altText	Remember than you can <b>hover cursor over</b> almost any element in any UI panels to know more about it. Now, Lets return to <b>starsystem view</b>...	Denken Sie daran, dass Sie mit dem <b>Cursor über</b> fast jedes Element in allen UI-Panels fahren können, um mehr darüber zu erfahren. Kehren wir nun zur <b>Sternensystemansicht</b> zurück...	240
-altText	The shield module regenerates <b>shield points</b> because it's currently remotely operated by the bridge. Send a crewmember with good operating skill to boost its recharge speed.	Das Schildmodul regeneriert <b>Schildpunkte</b>, da es derzeit von der Brücke aus ferngesteuert wird. Schicken Sie ein Crewmitglied mit guten Bedienfähigkeiten, um seine Aufladegeschwindigkeit zu erhöhen.	240
-altText	Operating modules with crew is better because of crew skill bonuses. Now move a crewmember into the shield module- note that the easiest way to select crew is to drag a selection box around them.	Das Bedienen von Modulen mit Besatzung ist wegen der Boni auf die Besatzungsfähigkeit besser. Bewegen Sie nun ein Crewmitglied in das Schildmodul - beachten Sie, dass Sie die Crew am einfachsten auswählen können, indem Sie eine Auswahlbox um sie herum ziehen.	240
+altText	The shield module regenerates <b>shield points</b> because it's currently remotely operated by the bridge. Send a crewmember with good operating skill to boost its recharge speed.	Das Schildmodul regeneriert <b>Schildpunkte</b>, da es derzeit von der Brücke aus ferngesteuert wird. Schicken Sie ein Crewmitglied mit guten Bedienfertigkeiten, um seine Aufladegeschwindigkeit zu erhöhen.	240
+altText	Operating modules with crew is better because of crew skill bonuses. Now move a crewmember into the shield module- note that the easiest way to select crew is to drag a selection box around them.	Das Bedienen von Modulen mit Besatzung ist wegen der Boni auf die Besatzungsfertigkeit besser. Bewegen Sie nun ein Crewmitglied in das Schildmodul - beachten Sie, dass Sie die Crew am einfachsten auswählen können, indem Sie eine Auswahlbox um sie herum ziehen.	240
 
 Tutorial Earth (also entry warpgate).prefab
 name2	Tutorial start	Einführung-Start	25
@@ -7636,21 +7636,21 @@ description	This accurate raygun has a long recharge cycle, but powerful and acc
 
 Combat Drone Humanoid.prefab
 dieMessage	{0} has been destroyed.	{0} wurde zerstört.	70
-appearance[i].description	A tactical combat drone with standard specs. Very limited capabilities. Fire-resistant body.	Eine taktische Kampfdrohne mit Standard-Spezifikationen. Sehr begrenzte Fähigkeiten. Feuerfester Körper.	250
-appearance[i].description	A light security droid. Very limited capabilities. Fire-resistant body.	Ein leichter Sicherheitsdroide. Sehr begrenzte Fähigkeiten. Feuerfester Körper.	250
+appearance[i].description	A tactical combat drone with standard specs. Very limited capabilities. Fire-resistant body.	Eine taktische Kampfdrohne mit Standard-Spezifikationen. Sehr begrenzte Fertigkeiten. Feuerfester Körper.	250
+appearance[i].description	A light security droid. Very limited capabilities. Fire-resistant body.	Ein leichter Sicherheitsdroide. Sehr begrenzte Fertigkeiten. Feuerfester Körper.	250
 
 Drone CT1 maintenance.prefab
-appearance[i].description	Maintenance & gardening drone with limited capabilities. Good at repairs. Very durable.	Wartungs- und Gartenarbeitsdrohne mit begrenzten Fähigkeiten. Gut bei Reparaturen. Sehr langlebig.	250
+appearance[i].description	Maintenance & gardening drone with limited capabilities. Good at repairs. Very durable.	Wartungs- und Gartenarbeitsdrohne mit begrenzten Fertigkeiten. Gut bei Reparaturen. Sehr langlebig.	250
 
 Drone CT2 gunnery.prefab
-appearance[i].description	Gunnery drone with limited capabilities. Slow at repairs, very durable.	Schießdrohne mit begrenzten Fähigkeiten. Langsam bei Reparaturen, sehr langlebig.	250
+appearance[i].description	Gunnery drone with limited capabilities. Slow at repairs, very durable.	Schießdrohne mit begrenzten Fertigkeiten. Langsam bei Reparaturen, sehr langlebig.	250
 
 Drone DIY fire safety clawed.prefab
 dieMessage	{0} has broken permanently.	Dauerhaft kaputt.	70
 appearance[i].description	A firefighter drone converted into its opposite. Armed with flamer.	Eine Feuerlöschdrohne, die in ihr Gegenteil umgewandelt wurde. Bewaffnet mit Flammenwerfer.	250
 
 Drone DIY firesafety.prefab
-appearance[i].description	Essentially a walking fire extinguisher. Extremely limited capabilities. Fire-resistant body.	Im Grunde ein wandelnder Feuerlöscher. Extrem eingeschränkte Fähigkeiten. Feuerfester Körper.	250
+appearance[i].description	Essentially a walking fire extinguisher. Extremely limited capabilities. Fire-resistant body.	Im Grunde ein wandelnder Feuerlöscher. Extrem eingeschränkte Fertigkeiten. Feuerfester Körper.	250
 
 Drone DIY guard.prefab
 appearance[i].description	Internal DIY security drone. Cannot repair, can only destroy.	Interne DIY-Sicherheitsdrohne. Kann nicht reparieren, nur zerstören.	250
@@ -7659,10 +7659,10 @@ Drone DIY gunjunker.prefab
 appearance[i].description	A repurposed industrial drone, fitted with armor & custom-made weapon. Very durable and fire resistant, has a turtle-based AI.	Eine umfunktionierte Industriedrohne, ausgestattet mit Panzerung und speziell angefertigter Waffe. Sehr robust und feuerfest, hat eine schildkrötenbasierte KI.	250
 
 Drone DIY gunnery.prefab
-appearance[i].description	Gunnery drone with limited capabilities. Can operate only weapon modules. Cannot repair.	Geschützdrohne mit eingeschränkten Fähigkeiten. Kann nur Waffenmodule bedienen. Kann nicht reparieren.	250
+appearance[i].description	Gunnery drone with limited capabilities. Can operate only weapon modules. Cannot repair.	Geschützdrohne mit eingeschränkten Fertigkeiten. Kann nur Waffenmodule bedienen. Kann nicht reparieren.	250
 
 Drone DIY repairer.prefab
-appearance[i].description	DIY Maintenance drone with limited capabilities. Cannot operate modules.	DIY-Wartungsdrohne mit eingeschränkten Fähigkeiten. Kann keine Module bedienen.	250
+appearance[i].description	DIY Maintenance drone with limited capabilities. Cannot operate modules.	DIY-Wartungsdrohne mit eingeschränkten Fertigkeiten. Kann keine Module bedienen.	250
 
 Drone DIY science.prefab
 appearance[i].description	DIY lab drone with an octopus-based AI. Can work in the lab or help with planetary research operations.	DIY-Labordrohne mit einer krakenbasierten KI. Kann im Labor arbeiten oder bei planetaren Forschungsarbeiten helfen.	250
@@ -10203,7 +10203,7 @@ randomizerMenuStrings[i]	+15 synthetics	+15 Synthetik	30
 
 Perk crew lizard firefighter.prefab
 displayName	The Fire monk	Der Feuermönch	40
-description	This old Lizard monk has improved fire resistance and firefighting skills due to years spent in the Temple of Fire. Likes to stay in the shower for hours.	Dieser alte Echsenmönch hat aufgrund der Jahre, die er im Tempel des Feuers verbracht hat, eine verbesserte Feuerresistenz und Fähigkeiten zur Brandbekämpfung. Steht gerne stundenlang unter der Dusche.	250
+description	This old Lizard monk has improved fire resistance and firefighting skills due to years spent in the Temple of Fire. Likes to stay in the shower for hours.	Dieser alte Echsenmönch hat aufgrund der Jahre, die er im Tempel des Feuers verbracht hat, eine verbesserte Feuerresistenz und Fertigkeiten zur Brandbekämpfung. Steht gerne stundenlang unter der Dusche.	250
 unlockAnnouncementText	We met this Lizardfolk individual during our travels. She wants to join us next time, if she gets the opportunity.	Wir haben dieses Echsenvolk-Individuum während unserer Reisen getroffen. Sie möchte sich uns beim nächsten Mal anschließen, wenn sie die Gelegenheit dazu bekommt.	100
 extraCrewDescripionOverride	A Fire monk who wants to travel back to Earth to join the local Temple of Water.	Ein Feuermönch, der zurück zur Erde reisen möchte, um sich dem dortigen Wassertempel anzuschließen.	250
 randomizerMenuStrings[i]	+1 ship crew (lizardfolk monk)	+1 Schiffsbesatzung (Echsenwesen Mönch)	30
@@ -10249,7 +10249,7 @@ randomizerMenuStrings[i]	-100 metal	-100 Metall	30
 
 Perk drone 00 smallbot.prefab
 displayName	The swearing smallbot	Der fluchende Smallbot	40
-description	A small toy drone. Knows vulgar words in all human languages & draws fire from intruders during internal combat.\nPerfect obedience but no abilities besides movement & swearing.	Eine kleine Spielzeugdrohne. Kennt vulgäre Wörter in allen menschlichen Sprachen & zieht im internen Kampf das Feuer von Eindringlingen auf sich.\nPerfekter Gehorsam, aber keine Fähigkeiten außer Bewegung & Fluchen.	250
+description	A small toy drone. Knows vulgar words in all human languages & draws fire from intruders during internal combat.\nPerfect obedience but no abilities besides movement & swearing.	Eine kleine Spielzeugdrohne. Kennt vulgäre Wörter in allen menschlichen Sprachen & zieht im internen Kampf das Feuer von Eindringlingen auf sich.\nPerfekter Gehorsam, aber keine Fertigkeiten außer Bewegung & Fluchen.	250
 randomizerMenuStrings[i]	+1 drone	+1 Drone	30
 randomizerMenuStrings[i]	+15 synthetics (spare parts)	+15 Synthetik (Ersatzteile)	30
 
@@ -10262,7 +10262,7 @@ randomizerMenuStrings[i]	-25 synthethics	-25 Synthethik	30
 
 Perk drone 02 DIY guard.prefab
 displayName	DIY guard drone	DIY-Wachdrohne	40
-description	A light walker chassis with an improvised laser, assembled from spare parts. limited capabilities. Do not expect much from its scorpion-based AI.	Ein leichtes Walker-Chassis mit einem improvisierten Laser, zusammengebaut aus Ersatzteilen. begrenzte Fähigkeiten. Erwarten Sie nicht viel von seiner Skorpion-basierten KI.	250
+description	A light walker chassis with an improvised laser, assembled from spare parts. limited capabilities. Do not expect much from its scorpion-based AI.	Ein leichtes Walker-Chassis mit einem improvisierten Laser, zusammengebaut aus Ersatzteilen. Begrenzte Fertigkeiten. Erwarten Sie nicht viel von seiner Skorpion-basierten KI.	250
 randomizerMenuStrings[i]	+1 security drone	+1 Sicherheitsdrohne	30
 randomizerMenuStrings[i]	-40 synthethics	-40 Synthethik	30
 
@@ -10283,7 +10283,7 @@ description	DIY drone with an octopus-based AI. Can work in the labs and increas
 
 Perk drone 05 gardening and repair.prefab
 displayName	Repair & gardening drone	Reparatur- & Gartenbau-Drohne	40
-description	A sturdy gardening & repair drone with very silently running cooling systems. Excellent at gardening, limited skillset.	Eine robuste Gartenarbeits- & Reparaturdrohne mit sehr leise laufenden Kühlsystemen. Ausgezeichnet in der Gartenarbeit, begrenzte Fähigkeiten.	250
+description	A sturdy gardening & repair drone with very silently running cooling systems. Excellent at gardening, limited skillset.	Eine robuste Gartenarbeits- & Reparaturdrohne mit sehr leise laufenden Kühlsystemen. Ausgezeichnet in der Gartenarbeit, begrenzte Fertigkeiten.	250
 randomizerMenuStrings[i]	+1 gardening & repair drone	+1 Gärtnerei- & Reparatur-Drone	30
 randomizerMenuStrings[i]	-30 credits	-30 Credits	30
 
@@ -12173,12 +12173,12 @@ Ship destroyed game over text pool.prefab
 	The number two thing that saves lives and spaceships is maximising the amount of entities that can defend the ship internally, be they crew, drones or pets.	Die Nummer zwei, die Leben und Raumschiffe rettet, ist die Maximierung der Anzahl von Entitäten, die das Schiff intern verteidigen können, sei es die Crew, Drohnen oder Haustiere.	80
 
 Smallbot pet description pool.prefab
-	Toy drone. No abilities except swift movement & speaking. Knows vulgar words in all human languages, may draw fire from intruders during internal combat.	Spielzeugdrohne. Keine Fähigkeiten außer schnelles Bewegen & Sprechen. Kennt vulgäre Wörter in allen menschlichen Sprachen, kann im internen Kampf das Feuer von Eindringlingen auf sich ziehen.	250
-	Toy drone with minor AI. No abilities except swift movement & speaking.	Spielzeugdrohne mit geringer KI. Keine Fähigkeiten außer schnelles Bewegen und Sprechen.	250
-	Simple digital pet. Enjoys counting numbers. No abilities except swift movement & speaking.	Einfaches digitales Haustier. Genießt es, Zahlen zu zählen. Keine Fähigkeiten außer schnelles Bewegen und Sprechen.	250
-	Simple digital pet. AI based on enhanced turtle consciousness. No abilities except swift movement & speaking.	Einfaches digitales Haustier. KI basiert auf einem erweiterten Schildkrötenbewusstsein. Keine Fähigkeiten außer schnelles Bewegen und Sprechen.	250
-	Simple digital pet. AI based on mix of cat and dog consciousness. No abilities except swift movement & speaking.	Einfaches digitales Haustier. KI basierend auf einer Mischung aus Katzen- und Hundebewusstsein. Keine Fähigkeiten außer schnelles Bewegen und Sprechen.	250
-	Simple digital pet. AI based on snail consciousness. No abilities except swift movement & speaking.	Einfaches digitales Haustier. KI basierend auf dem Bewusstsein einer Schnecke. Keine Fähigkeiten außer schnelles Bewegen und Sprechen.	250
+	Toy drone. No abilities except swift movement & speaking. Knows vulgar words in all human languages, may draw fire from intruders during internal combat.	Spielzeugdrohne. Keine Fertigkeiten außer schnelles Bewegen & Sprechen. Kennt vulgäre Wörter in allen menschlichen Sprachen, kann im internen Kampf das Feuer von Eindringlingen auf sich ziehen.	250
+	Toy drone with minor AI. No abilities except swift movement & speaking.	Spielzeugdrohne mit geringer KI. Keine Fertigkeiten außer schnelles Bewegen und Sprechen.	250
+	Simple digital pet. Enjoys counting numbers. No abilities except swift movement & speaking.	Einfaches digitales Haustier. Genießt es, Zahlen zu zählen. Keine Fertigkeiten außer schnelles Bewegen und Sprechen.	250
+	Simple digital pet. AI based on enhanced turtle consciousness. No abilities except swift movement & speaking.	Einfaches digitales Haustier. KI basiert auf einem erweiterten Schildkrötenbewusstsein. Keine Fertigkeiten außer schnelles Bewegen und Sprechen.	250
+	Simple digital pet. AI based on mix of cat and dog consciousness. No abilities except swift movement & speaking.	Einfaches digitales Haustier. KI basierend auf einer Mischung aus Katzen- und Hundebewusstsein. Keine Fertigkeiten außer schnelles Bewegen und Sprechen.	250
+	Simple digital pet. AI based on snail consciousness. No abilities except swift movement & speaking.	Einfaches digitales Haustier. KI basierend auf dem Bewusstsein einer Schnecke. Keine Fertigkeiten außer schnelles Bewegen und Sprechen.	250
 
 Squid description pool.prefab
 	Squid mercenary.	Tintenfisch-Söldner.	250
