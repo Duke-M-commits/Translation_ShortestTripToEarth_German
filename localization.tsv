@@ -204,7 +204,7 @@ PerksSelection.cs
 	Fate gained from previous run: +{0}	Aus dem vorherigen Durchlauf gewonnenes Schicksal: +{0}	0
 	sector starting bonus: +{0}	Sektor-Startbonus: +{0}	0
 	First run bonus: +{0}	Erstlauf-Bonus: +{0}	0
-	Permanent perks: +{0}	Permanente Vergünstigungen: +{0}	0
+	Permanent perks: +{0}	Permanente Startboni: +{0}	0
 plural	fate point|fate points	Schicksalspunkt|Schicksalspunkte	0
 
 SectorSelection.cs
@@ -604,7 +604,7 @@ altText	You are running low on fuel. Would you like to see how you can get more?
 altText	The ship has very low HP left! Consider <color=red>repairing</color> damage tokens on my hull or <color=red>escaping</color> by using the warpdrive! If you have any <color=red>nukes</color>, consider using them.	Das Schiff hat nur noch sehr wenig HP! Ziehen Sie in Erwägung, <color=red>Schadensmarken an der Hülle zu reparieren oder <color=red>zu entkommen</color>, indem Sie den Warpantrieb benutzen! Wenn Sie <color=red>Nukes</color> haben, ziehen Sie deren Einsatz in Betracht.	240
 choiceTexts	OK, will consider it!	OK, ich werde es in Betracht ziehen!	15
 altText	We've run out resources for repairing. Repairing requires metal or synthethics. Want to see my database entry about ship hull repairing?	Wir haben keine Ressourcen mehr zum Reparieren. Zum Reparieren braucht man Metall oder Synthethika. Willst du meinen Datenbankeintrag über die Reparatur von Schiffsrümpfen sehen?	240
-altText	Modules received from perks are currently inside storage. Open storage panel?	Module, die Sie von Perks erhalten haben, befinden sich derzeit im Lager. Offenes Lagerfeld?	240
+altText	Modules received from perks are currently inside storage. Open storage panel?	Module, die Sie von Startboni erhalten haben, befinden sich derzeit im Lager. Offenes Lagerfeld?	240
 altText	We're out of fuel. If we cannot use the SOS, we should consider scrapping modules with fuel value, such as nukes or reactors. SOS signal is jammed (unusable) during battles.	Wir haben keinen Treibstoff mehr. Wenn wir das SOS nicht nutzen können, sollten wir in Betracht ziehen, Module mit Treibstoffwert zu verschrotten, wie z.B. Atombomben oder Reaktoren. Das SOS-Signal wird während der Kämpfe gestört (unbrauchbar).	240
 altText	We're out of organics. Hungry crew will get a penalty to all stats and will eventually\r start slowly losing hitpoints. Crew in cryosleep requires no resources.	Wir haben keine organischen Stoffe mehr. Eine hungrige Crew erhält einen Malus auf alle Werte und beginnt eventuell langsam Hitpoints zu verlieren. Crew im Kryoschlaf benötigt keine Ressourcen.	240
 altText	We have received critical damage. Critical damage tokens may cause explosions or fires. Repairing them should be one of our priorities.	Wir haben kritischen Schaden erhalten. Kritische Schadensmarken können Explosionen oder Brände verursachen. Sie zu reparieren sollte eine unserer Prioritäten sein.	240
@@ -814,8 +814,8 @@ Game summary panel.prefab
 	Planets visited:	Besuchte Planeten:	0
 	Fate points gained from encouters during this run.	Schicksalspunkte, die während dieses Laufs von Eindringlingen gewonnen wurden.	0
 	Fate earned:	Verdientes Schicksal:	0
-	Each sector has an unlockable ship or a number of undiscovered perks.\nAll or most of them can be found by completing sectors.	Jeder Sektor hat ein freischaltbares Schiff oder eine Anzahl unentdeckter Perks.\nAlle oder die meisten von ihnen können durch das Abschließen von Sektoren gefunden werden.	0
-	Perks found:	Perks gefunden:	0
+	Each sector has an unlockable ship or a number of undiscovered perks.\nAll or most of them can be found by completing sectors.	Jeder Sektor hat ein freischaltbares Schiff oder eine Anzahl unentdeckter Startboni.\nAlle oder die meisten von ihnen können durch das Abschließen von Sektoren gefunden werden.	0
+	Perks found:	Startboni gefunden:	0
 	Continue	Weiter	0
 
 Game victory panel.prefab
@@ -1057,7 +1057,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	Exotics are most useful for crafting and bartering, functioning as critical module components or as an alternative currency to xenodata credits.\n\nAll exotic substances are rare elements that seem to slightly defy the laws of known physics.\nThey are mostly found in warp animal remains and often used as recreational consumables.	Exoten sind am nützlichsten für die Modul Herstellung und den Tauschhandel, fungieren als kritische Modulkomponenten oder als alternative Währung zu Xenodaten-Credits.\n\nAlle exotischen Substanzen sind seltene Elemente, die den Gesetzen der bekannten Physik ein wenig zu trotzen scheinen.\nSie werden meist in den Überresten von Warptieren gefunden und oft als Freizeit-Verbrauchsmaterial verwendet.	0
 	Xenodata credits, usually called just xenodata or creds, is the most respected form of intergalactic currency.\n\nIt uses a semi-intelligent digital algorithm to convert any data with knowledge value into a universally priced form.	Xenodaten-Credits, meist nur Xenodaten oder Creds genannt, ist die angesehenste Form der intergalaktischen Währung.\n\nSie nutzt einen halbintelligenten digitalen Algorithmus, um beliebige Daten mit Wissenswert in eine universell bewertbare Form umzuwandeln.	0
 	(Xeno)Data credits	(Xeno)Daten Credits	0
-	All actions create fractal causality patterns which return to their source.\n\nYou can use fate points to upgrade your Mothership with perks before starting a new game run.\n\nYou can give yourself fate points by certain behaviour, for example leaving local life on planets undisturbed.	Alle Aktionen erzeugen fraktale Kausalitätsmuster, die zu ihrer Quelle zurückkehren.\n\nSie können Schicksalspunkte verwenden, um Ihr Mutterschiff mit Perks aufzurüsten, bevor Sie einen neuen Spieldurchlauf starten.\n\nSie können sich selbst Schicksalspunkte durch bestimmtes Verhalten geben, zum Beispiel indem Sie lokales Leben auf Planeten ungestört lassen.	0
+	All actions create fractal causality patterns which return to their source.\n\nYou can use fate points to upgrade your Mothership with perks before starting a new game run.\n\nYou can give yourself fate points by certain behaviour, for example leaving local life on planets undisturbed.	Alle Aktionen erzeugen fraktale Kausalitätsmuster, die zu ihrer Quelle zurückkehren.\n\nSie können Schicksalspunkte verwenden, um Ihr Mutterschiff mit Startboni aufzurüsten, bevor Sie einen neuen Spieldurchlauf starten.\n\nSie können sich selbst Schicksalspunkte durch bestimmtes Verhalten geben, zum Beispiel indem Sie lokales Leben auf Planeten ungestört lassen.	0
 	Fate points	Schicksalspunkte	0
 	Hovering cursor over resource values\nshows total production & consumption.	Wenn Sie mit dem Mauszeiger über die Ressourcenwerte fahren, \nwird die Gesamtproduktion und der Gesamtverbrauch angezeigt.	0
 	To save organics, send unused crewmembers into crysoleep module, so they consume no organics while the ship is travelling.	Um organische Stoffe zu sparen, schicken Sie unbenutzte Crewmitglieder in ein Crysoleep-Modul, damit sie während der Reise keine organischen Stoffe verbrauchen.	0
@@ -1188,7 +1188,7 @@ Some code in text needs to be as is	Are you sure? Starting a new run will overwr
 	The game ends when your ship HP reaches 0.\nAny damage to module(s) might also reduce their maximum possible hitpoints.\nSpace button turns on slow-motion instead of pause.	Das Spiel endet, wenn die HP Ihres Schiffes 0 erreichen.\nJeder Schaden an Modul(en) kann auch deren maximal mögliche Trefferpunkte reduzieren.\nDie Leertaste schaltet die Zeitlupe anstelle der Pause ein.	0
 	The game ends when your ship HP reaches 0.	Das Spiel endet, wenn die HP Ihres Schiffes 0 erreichen.	0
 	Space button turns on slow-motion instead of pause.	Die Leertaste schaltet die Zeitlupe anstelle der Pause ein.	0
-	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nPermanent Perks give no bonuses.\nAlways start with 50 fate & first five ships.\nSpace pauses the game.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximalen HP des Schiffes, anstatt einfach zu sterben.\nDauerhafte Perks geben keine Boni.\nStarten Sie immer mit 50 Schicksalspunkten und den ersten fünf Schiffen.\nSpace pausiert das Spiel.	0
+	When you run out of ship HP, you start losing ship max HP instead of simpy dying.\nPermanent Perks give no bonuses.\nAlways start with 50 fate & first five ships.\nSpace pauses the game.	Wenn Sie keine Schiffs-HP mehr haben, verlieren Sie die maximalen HP des Schiffes, anstatt einfach zu sterben.\nPermanente Startboni geben keine Boni.\nStarten Sie immer mit 50 Schicksalspunkten und den ersten fünf Schiffen.\nSpace pausiert das Spiel.	0
 Button in main menu	Beginner	Anfänger	0
 	Beginner difficulty	Anfänger-Schwierigkeit	0
 Button in main menu, sets game difficulty	Challenging	Herausfordernd	0
@@ -1375,9 +1375,9 @@ Button in main menu, sets game difficulty	?	?	0
 	Survivability index.	Überlebensfähigkeit.	0
 	Survivability:	Überlebens-Index:	0
 	Not all ships guarantee chance of victory.	Nicht alle Schiffe garantieren eine Chance auf den Sieg.	0
-	Choose starting bonuses (perks):	Wählen Sie Startboni (Perks):	0
+	Choose starting bonuses (perks):	Wählen Sie Startboni:	0
 	NB! Fate points do not accumulate, you must use them or lose them.	ACHTUNG! Schicksalspunkte häufen sich nicht an, Sie müssen sie benutzen oder verlieren sie.	0
-	Starting resources from ship and selected perks	Startressourcen von Schiff und ausgewählten Perks	0
+	Starting resources from ship and selected perks	Startressourcen von Schiff und ausgewählten Startboni	0
 	Starting resources	Startressourcen	0
 	Ship hitpoints	Schiffshüllenpunkte	0
 	Not enough hull points to start game!	Nicht genug Schiffshüllenpunkte für den Spielstart!	0
@@ -1394,16 +1394,16 @@ Button in main menu, sets game difficulty	?	?	0
 	Not enough exotics to start game!	Nicht genug Exoten, um das Spiel zu starten!	0
 	XenoData, used as currency	XenoData, verwendet als Währung	0
 	Not enough credits to start game!	Nicht genug Credits, um das Spiel zu starten!	0
-	Fate, used to unlock perks between games	Schicksal, wird verwendet, um Perks zwischen den Spielen freizuschalten	0
+	Fate, used to unlock perks between games	Schicksal, wird verwendet, um Startboni zwischen den Spielen freizuschalten	0
 	Not enough fate to start game!	Nicht genug Schicksal, um das Spiel zu starten!	0
-	Starting bonuses from ship and selected perks	Startboni von Schiff und ausgewählten Perks	0
+	Starting bonuses from ship and selected perks	Startboni von Schiff und ausgewählten Startboni	0
 	Starting bonuses	Startboni	0
 	Not enough accuracy to start game!	Nicht genug Genauigkeit, um das Spiel zu starten!	0
 	Not enough deflection to start game!	Nicht genug Ablenkung, um das Spiel zu beginnen!	0
 	Not enough evasion to start game!	Nicht genug Ausweichen, um das Spiel zu beginnen!	0
-	Modules from perks\nthat go into storage / storage space available.	Module von Perks\n, die ins Lager gehen / verfügbarer Lagerplatz.	0
+	Modules from perks\nthat go into storage / storage space available.	Module von Startboni\n, die ins Lager gehen / verfügbarer Lagerplatz.	0
 	Extra\nmodules	Extra\nModule	0
-	Too many modules from perks (max 9 allowed).\nUnmark at least one perk that gives extra modules.	Zu viele Module von Perks (max. 9 erlaubt).\nMarkieren Sie mindestens einen Perk, der zusätzliche Module gibt.	0
+	Too many modules from perks (max 9 allowed).\nUnmark at least one perk that gives extra modules.	Zu viele Module von Startboni (max. 9 erlaubt).\nEntfernen Sie mindestens einen Startbonus, der zusätzliche Module gibt.	0
 	The most important part of your ship.\nThe game ends when your last crewmember dies or retires.	Der wichtigste Teil Ihres Schiffes.\nDas Spiel endet, wenn Ihr letztes Besatzungsmitglied stirbt oder in Rente geht.	0
 	Crew:	Besatzung:	0
 	Pets lack advanced ship skills, but are cute (and sometimes useful).	Haustiere haben keine fortgeschrittenen Schiffsfähigkeiten, sind aber niedlich (und manchmal nützlich).	0
@@ -1412,13 +1412,13 @@ Button in main menu, sets game difficulty	?	?	0
 	Drones:	Drohnen:	0
 	PERMANENT	PERMANENT	0
 	SHIP SPECIFIC	SCHIFFSPEZIFISCH	0
-	This is a permanent perk. It locks on Start game.	Dies ist eine permanente Vergünstigung. Sie wird bei Spielstart aktiviert.	0
-	This is a permanent perk you've purchased earlier.	Dies ist eine permanente Vergünstigung, die Sie zuvor erworben haben.	0
-	This is ship specific perk. Each ship has its own set of these.	Dies ist eine schiffsspezifische Vergünstigung. Jedes Schiff hat seinen eigenen Satz davon.	0
-	You haven't found this perk yet. Each perk can be discovered by completing a specific sector.	Sie haben diesen Perk noch nicht gefunden. Jede Perk kann durch das Abschließen eines bestimmten Sektors entdeckt werden.	0
+	This is a permanent perk. It locks on Start game.	Dies ist ein permanenter Startbonus. Er wird bei Spielstart aktiviert.	0
+	This is a permanent perk you've purchased earlier.	Dies ist ein permanenter Startbonus, den Sie zuvor erworben haben.	0
+	This is ship specific perk. Each ship has its own set of these.	Dies ist eine schiffsspezifische Startbonus. Jedes Schiff hat seine eigenen davon.	0
+	You haven't found this perk yet. Each perk can be discovered by completing a specific sector.	Sie haben diesen Startbonus noch nicht gefunden. Jeder Startbonus kann durch das Abschließen eines bestimmten Sektors entdeckt werden.	0
 	Fate Points:	Schicksalspunkte:	0
 	Selection cost:	Auswahlkosten:	0
-	Fate cost of selected perks	Schicksal-Kosten der ausgewählten Perks	0
+	Fate cost of selected perks	Schicksal-Kosten der ausgewählten Startboni	0
 Button. Resets all used fatepoints.	Reset all	Alle zurücksetzen	0
 	Try to use up all points. Unused fate points will be discarded.\nStarting new game is impossible if any starting resource is negative.	Versuchen Sie, alle Punkte zu verbrauchen. Nicht verwendete Schicksalspunkte werden verworfen.\nEin neues Spiel zu beginnen ist unmöglich, wenn eine Startressource negativ ist.	0
 	You do not have enough resources to start the game!	Sie haben nicht genug Ressourcen, um das Spiel zu beginnen!	0
@@ -1444,8 +1444,8 @@ Button. Clicking it opens power management overlay	MODULES FOUND	MODULE GEFUNDEN
 Button. Clicking it opens power management overlay	PLANETS VISITED	BESUCHTE PLANETEN	6
 	Click to sort by sector reached	Klicken Sie hier, um nach erreichten Sektoren zu sortieren	0
 Button. Clicking it opens power management overlay	SECTOR REACHED	SEKTOR ERREICHT	6
-	Click to sort by found perks	Klicken Sie hier, um nach gefundenen Perks zu sortieren	0
-Button. Clicking it opens power management overlay	PERKS FOUND	GEFUNDENE PERKS	6
+	Click to sort by found perks	Klicken Sie hier, um nach gefundenen Startboni zu sortieren	0
+Button. Clicking it opens power management overlay	PERKS FOUND	GEFUNDENE STARTBONI	6
 	Click to sort by time played	Klicken Sie hier, um nach Spielzeit zu sortieren	0
 Button. Clicking it opens power management overlay	TIME PLAYED	GESPIELTE ZEIT	6
 	Click to sort by game end reason	Klicken Sie hier, um nach dem Grund für das Spielende zu sortieren	0
@@ -1459,7 +1459,7 @@ Button. Clicking it opens power management overlay	CHALLENGING	HERAUSFORDERND	6
 Button. Clicking it opens power management overlay	HARDCORE	HARDCORE	6
 	Ship survival index	Überlebensindex des Schiffes	0
 	Sector reached	Erreichter Sektor	0
-	Perks found	Perks gefunden	0
+	Perks found	Startboni gefunden	0
 	Time played	Gespielte Zeit	0
 	Game end reason	Grund für Spielende	0
 	Died during game	Während des Spiels gestorben	0
@@ -1792,8 +1792,8 @@ Sector summary panel.prefab
 	Sector summary	Sektor-Zusammenfassung	0
 	Enemy vessels destroyed in this sector.	Zerstörte feindliche Schiffe in diesem Sektor.	0
 	Fate points gained from encouters in this sector.	Erzielte Schicksalspunkte von Gegnern in diesem Sektor.	0
-	Each sector has an unlockable ship or a number of undiscovered perks.\nNew perks can be unlocked by completing sectors.	Jeder Sektor verfügt über ein freischaltbares Schiff oder eine Reihe von unentdeckten Perks.\nNeue Perks können durch das Abschließen von Sektoren freigeschaltet werden.	0
-	Sector-related perks found:	Sektorbezogene Perks gefunden:	0
+	Each sector has an unlockable ship or a number of undiscovered perks.\nNew perks can be unlocked by completing sectors.	Jeder Sektor verfügt über ein freischaltbares Schiff oder eine Reihe von unentdeckten Startboni.\nNeue Startboni können durch das Abschließen von Sektoren freigeschaltet werden.	0
+	Sector-related perks found:	Sektorbezogene Startboni gefunden:	0
 
 SectorSwitch.prefab
 
@@ -1825,7 +1825,7 @@ Refers to shop	Store	Händler	0
 	Mark all damage	Alle Schäden markieren	0
 	Mark critical damage	Kritischen Schaden markieren	0
 	Mark non-crew repairable damage	Nicht-reparierbare Schäden markieren	0
-	Unmark all damage	Alle Schäden unmarkieren	0
+	Unmark all damage	Alle Schadensmarkierungen entfernen	0
 	Marked:	Markiert:	0
 	Dmg	Dmg	0
 	Cost	Kosten:	0
@@ -1853,7 +1853,7 @@ Storage panel.prefab
 	Times module has lost 50% of remaining max health	Zeitmodul hat 50% der verbleibenden maximalen Gesundheit verloren	0
 
 Unlock item panel.prefab
-	New perk unlocked!	Neue Perks freigeschaltet!	0
+	New perk unlocked!	Neue Startboni freigeschaltet!	0
 	New ship unlocked!	Neues Schiff freigeschaltet!	0
 
 123 asteroidsx10 high value MFE, worm, eggs, spiders.prefab
@@ -9888,7 +9888,7 @@ description	The Easy Tiger was created to provide security for colony fleets in 
 description	This industrial frigate was not made for long-range travel. It starts with 4 internal drones and a self-made drone repair bay. Small size of the ship provides an excellent evasion bonus but offers limited modular options. While good for training, you should not expect to reach very far using this ship.	Diese Industrie-Fregatte wurde nicht für Langstreckenflüge gebaut. Sie startet mit 4 internen Drohnen und einer selbstgebauten Drohnen-Reparaturbucht. Die geringe Größe des Schiffes sorgt für einen hervorragenden Ausweichbonus, bietet aber nur begrenzte modulare Optionen. Obwohl es sich gut für das Training eignet, sollten Sie nicht erwarten, mit diesem Schiff sehr weit zu kommen.	400
 
 02 Nuke Runner.prefab
-description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Speeder ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (das Nukleararsenal-Perk). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
+description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Speeder ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (der Nukleararsenal-Startbonus). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
 unlockText	Complete tutorial to unlock	Einführung abschließen, um freizuschalten	100
 unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erdallianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
