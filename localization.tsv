@@ -471,7 +471,7 @@ PlayerPanel.cs
 	External research operations bonus	Bonus für externe Forschungsoperationen	0
 	Credits bonus given for researching planets, warplife, etc (sum of crew science skills): +{0}	Credits-Bonus für die Erforschung von Planeten, Warp-Leben, etc. (Summe der Forschungsfertigkeit der Crew): +{0}	0
 	Ship engine	Schiffsmotor	0
-	(fuel is used by engines and warpdrive for moving)	(Treibstoff wird von Triebwerken und Warp-Antrieb für die Fortbewegung verbraucht)	0
+	(fuel is used by engines and warpdrive for moving)	(Treibstoff wird von Triebwerken und Warpantrieb für die Fortbewegung verbraucht)	0
 	Life support	Lebenserhaltung	0
 	(organics are used for food and healing)	(Organische Stoffe werden für Nahrung und Heilung verwendet)	0
 	Continuous research	Kontinuierliche Forschung	0
@@ -562,7 +562,7 @@ WarpGate.cs
 
 WarpModule.cs
 	warp activation	Warp-Aktivierung	0
-	Warpdrive not installed on ship	Warp-Antrieb nicht auf dem Schiff installiert	0
+	Warpdrive not installed on ship	Warpantrieb nicht auf dem Schiff installiert	0
 	Not enough fuel on ship to start warpdrive	Nicht genug Treibstoff auf dem Schiff, um Warpantrieb zu starten	0
 	Not enough power to start warpdrive	Nicht genug Energie zum Starten des Warpantriebs	0
 
@@ -608,9 +608,9 @@ altText	Modules received from perks are currently inside storage. Open storage p
 altText	We're out of fuel. If we cannot use the SOS, we should consider scrapping modules with fuel value, such as nukes or reactors. SOS signal is jammed (unusable) during battles.	Wir haben keinen Treibstoff mehr. Wenn wir das SOS nicht nutzen können, sollten wir in Betracht ziehen, Module mit Treibstoffwert zu verschrotten, wie z.B. Atombomben oder Reaktoren. Das SOS-Signal wird während der Kämpfe gestört (unbrauchbar).	240
 altText	We're out of organics. Hungry crew will get a penalty to all stats and will eventually\r start slowly losing hitpoints. Crew in cryosleep requires no resources.	Wir haben keine organischen Stoffe mehr. Eine hungrige Crew erhält einen Malus auf alle Werte und beginnt eventuell langsam Hitpoints zu verlieren. Crew im Kryoschlaf benötigt keine Ressourcen.	240
 altText	We have received critical damage. Critical damage tokens may cause explosions or fires. Repairing them should be one of our priorities.	Wir haben kritischen Schaden erhalten. Kritische Schadensmarken können Explosionen oder Brände verursachen. Sie zu reparieren sollte eine unserer Prioritäten sein.	240
-altText	One of the hostile ships is charging up its <b>warpdrive</b> (not engines) to escape the combat area. We might want to prevent them in order to increase post-battle salvage.	Eines der feindlichen Schiffe lädt seinen <b>Warpdrive</b> (nicht Triebwerke) auf, um aus dem Kampfgebiet zu entkommen. Wir sollten sie daran hindern, um die Ausbeute nach dem Kampf zu erhöhen.	240
+altText	One of the hostile ships is charging up its <b>warpdrive</b> (not engines) to escape the combat area. We might want to prevent them in order to increase post-battle salvage.	Eines der feindlichen Schiffe lädt seinen <b>Warpantrieb</b> (nicht Triebwerke) auf, um aus dem Kampfgebiet zu entkommen. Wir sollten sie daran hindern, um die Ausbeute nach dem Kampf zu erhöhen.	240
 text	We have lost our only engine. We should either craft a new one or prepare for combat and activate the SOS signal. It may attract a trader who sells engines or parts neede to craft engines	Wir haben unseren einzigen Antrieb verloren. Wir sollten entweder einen neuen herstellen oder uns auf den Kampf vorbereiten und das SOS-Signal aktivieren. Es könnte einen Händler anlocken, der Motoren oder Teile für die Herstellung von Motoren verkauft.	600
-text	We have lost our warpdrive. We can also travel between stars without warping (using normal engines) but it will usually cost a lot of resources.\nOur best option is to craft a DIY warpdrive, directly into the warpdrive slot. Activating the SOS may attract a trader who sells modules, but that option is much riskier.	Wir haben unseren Warp-Antrieb verloren. Wir können auch ohne Warp zwischen den Sternen reisen (mit normalen Triebwerken), aber das kostet in der Regel viele Ressourcen.\nUnsere beste Option ist es, einen DIY-Warpdrive herzustellen, direkt in den Warpdrive-Steckplatz. Das Aktivieren des SOS kann einen Händler anlocken, der Module verkauft, aber diese Option ist viel riskanter.	600
+text	We have lost our warpdrive. We can also travel between stars without warping (using normal engines) but it will usually cost a lot of resources.\nOur best option is to craft a DIY warpdrive, directly into the warpdrive slot. Activating the SOS may attract a trader who sells modules, but that option is much riskier.	Wir haben unseren Warpantrieb verloren. Wir können auch ohne Warp zwischen den Sternen reisen (mit normalen Triebwerken), aber das kostet in der Regel viele Ressourcen.\nUnsere beste Option ist es, einen DIY-Warpantrieb herzustellen, direkt in den Warpantrieb-Steckplatz. Das Aktivieren des SOS kann einen Händler anlocken, der Module verkauft, aber diese Option ist viel riskanter.	600
 title	Rat Empire encountered	Rattenimperium angetroffen	35
 text	It seems this sector has been claimed by Rat Empire. Greedy little mammals who are nice as long as you can pay. Would you like to see my database summary on their civilization?	Es scheint, dass dieser Sektor vom Rattenimperium beansprucht wurde. Gierige kleine Säugetiere, die nett sind, solange man zahlen kann. Möchten Sie meine Datenbankzusammenfassung über ihre Zivilisation sehen?	400
 choiceText	Show Me	Zeigen	100
@@ -788,7 +788,7 @@ Crewmember skills & roles	SKILLS & ROLES	FÄHIGKEITEN & ROLLEN	23
 	Currently active	Derzeit aktiv	0
 
 Cutscene 0to1.prefab
-	A malfunction in our ship's warpdrive has landed us in deep space...	Eine Fehlfunktion im Warp-Antrieb unseres Schiffes hat uns in den Tiefen des Weltraums gelandet...	0
+	A malfunction in our ship's warpdrive has landed us in deep space...	Eine Fehlfunktion im Warpantrieb unseres Schiffes hat uns in den Tiefen des Weltraums gelandet...	0
 	Stranded away from all possibility of refuelling...	Gestrandet, fernab von jeder Möglichkeit des Auftankens...	0
 	Our only option was to freeze ourselves and accelerate towards the closest star...	Unsere einzige Möglichkeit war, uns einzufrieren und zum nächsten Stern zu beschleunigen...	0
 	5 years later...	5 Jahre später...	0
@@ -928,7 +928,7 @@ Second line needs to be translated	Gisper\n2/2 planets visited\n<b>ENTRY</b>	Gis
 Second line needs to be translated	Spur\n1 trade signal	Spur\n1 Handelssignal	0
 Second line needs to be translated	Yuo\n<b>EXIT</b>	Yuo\n<b>AUSGANG</b>	0
 	SAMPLE	BEISPIEL	0
-	Warp drive 101	Warp-Antrieb 101	0
+	Warp drive 101	Warpantrieb 101	0
 	View system	System ansehen	0
 Example text in helpfile. RU is range-units used througout the game.	300ru	300re	0
 	Time left: 12.5s	Verbleibende Zeit: 12,5s	0
@@ -938,8 +938,8 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Trade signals show presence of stations\nor other actors willing to trade.	Handelssignale zeigen die Anwesenheit von Stationen\noder anderen handelswilligen Akteuren.	0
 	We cannot see information about starsystems\noutside our sensor range.	Wir können keine Informationen über Sternensysteme\naußerhalb unserer Sensorreichweite sehen.	0
 	Sector view basics	Sektorenansicht (Grundlagen)	0
-	When enemy is nearby, or in battles, warp drive takes some time to warm up and warp.\nIn other instances warping is almost instant. Some warpmodules load up faster than others.	Wenn ein Feind in der Nähe ist, oder in Kämpfen, braucht der Warp-Antrieb einige Zeit, um sich aufzuwärmen und zu warpen.\nIn anderen Fällen ist das Warpen fast sofort. Einige Warpmodule laden schneller auf als andere.	0
-	Warpdrives consume a lot of fuel with each warp.	Warp-Antriebe verbrauchen bei jedem Warp eine Menge Treibstoff.	0
+	When enemy is nearby, or in battles, warp drive takes some time to warm up and warp.\nIn other instances warping is almost instant. Some warpmodules load up faster than others.	Wenn ein Feind in der Nähe ist, oder in Kämpfen, braucht der Warpantrieb einige Zeit, um sich aufzuwärmen und zu warpen.\nIn anderen Fällen ist das Warpen fast sofort. Einige Warpmodule laden schneller auf als andere.	0
+	Warpdrives consume a lot of fuel with each warp.	Warpantriebe verbrauchen bei jedem Warp eine Menge Treibstoff.	0
 	Stealth detection level.	Tarnkappen-Erkennungsstufe.	0
 	Sector view\nsensor range	Sensorreichweite	0
 	Sector view details	Sektorenansicht (Details)	0
@@ -962,7 +962,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	There is a chance that if module gets damaged, its maximum hitpoints are also permanently reduced to half -- resulting in half hitpoints when repaired.	Es besteht die Möglichkeit, dass, wenn ein Modul beschädigt wird, seine maximalen Hitpoints dauerhaft auf die Hälfte reduziert werden - was zu halben Hitpoints führt, wenn es repariert wird.	0
 	You can see how many times module max hitpoints have been reduced by the number of x-es on it.	Wie oft die maximalen Trefferpunkte eines Moduls reduziert wurden, können Sie an der Anzahl der x-es auf dem Modul erkennen.	0
 	DIY modules can be crafted inside empty weapon slots (and DIY nukes in empty nuke slots). \nEach ship has unique set of craftable nukes.\nMake sure the slot is empty and undamaged before crafting.	DIY-Module können in leeren Waffen-Steckplätzen hergestellt werden (und DIY-Nukes in leeren Nuke-Steckplätzen). \nJedes Schiff hat einen eigenen Satz an handelbaren Nuklearwaffen.\nStellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie mit der Herstellung beginnen.	0
-	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Sie können die Modul Herstellung nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpdrive zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Steckplätzen heraus gebaut werden.	0
+	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Sie können die Modul Herstellung nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpantrieb zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Steckplätzen heraus gebaut werden.	0
 	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Modul-Lagercontainer oder in einem beliebigen freien Steckplatz gelagert werden können.	0
 	Modules can be turned off from the power switch button.\nIf a module is turned off, it does not need any of its listed requirements.	Module können über den Netzschalterknopf ausgeschaltet werden.\nWenn ein Modul ausgeschaltet ist, benötigt es keine seiner aufgeführten Anforderungen.	0
 	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nReparieren Sie Module, indem Sie ein Crewmitglied auswählen und dann mit R auf ein beschädigtes Modul klicken.\n\nBeschädigte Module können für 10 Synthetics pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0
@@ -999,7 +999,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Have capital missiles ready in launch tubes in case you need to use them fast.	Halten Sie Raketen in Abschussrohren bereit, falls Sie sie schnell einsetzen müssen.	0
 	When feeling overwhelmed by enemies, consider escaping. Send a crew member to operate the warpdrive to reduce the time it needs to charge up and warp your ship away from combat.	Wenn Sie sich von Feinden überwältigt fühlen, sollten Sie eine Flucht in Betracht ziehen. Schicken Sie ein Besatzungsmitglied, um den Warpantrieb zu bedienen, um die Zeit zu verkürzen, die er zum Aufladen braucht, und Ihr Schiff aus dem Kampf zu warpen.	0
 	How to survive battles	Wie Sie Kämpfe überleben	0
-	Remember that it is better to escape a battle rather than die fighting.\r\n\nWarp recharge time is slower when near enemy ships.\n\nBattles can be escaped only by using the warpdrive. \nWarpdrives need fuel, power and operating crew to work.	Denken Sie daran, dass es besser ist, einem Kampf zu entkommen, als im Kampf zu sterben. \n\nDie Warp-Aufladezeit ist langsamer, wenn Sie sich in der Nähe von feindlichen Schiffen befinden.\n\nSchlachten können nur durch die Verwendung des Warp-Antriebs entkommen werden. \nWarp-Antriebe benötigen Treibstoff, Energie und eine Bedienungsmannschaft, um zu funktionieren.	0
+	Remember that it is better to escape a battle rather than die fighting.\r\n\nWarp recharge time is slower when near enemy ships.\n\nBattles can be escaped only by using the warpdrive. \nWarpdrives need fuel, power and operating crew to work.	Denken Sie daran, dass es besser ist, einem Kampf zu entkommen, als im Kampf zu sterben. \n\nDie Warp-Aufladezeit ist langsamer, wenn Sie sich in der Nähe von feindlichen Schiffen befinden.\n\nSchlachten können nur durch die Verwendung des Warpantriebs entkommen werden. \nWarpantriebe benötigen Treibstoff, Energie und eine Bedienungsmannschaft, um zu funktionieren.	0
 	Escaping from battles	Flucht aus Gefechten	0
 	Many ships have doors which can be locked. \nRight click on door to lock/unlock it.\nLocking doors is useful to avoid enemies or spreading fire.\nDoors also take damage and stop functioning once their HP reaches 0.\nDoors can be repaired back to normal: select a crewmember and right click on door to repair it. Repairing takes resources.	Viele Schiffe haben Türen, die verschlossen werden können. \nKlicken Sie mit der rechten Maustaste auf eine Tür, um sie zu verriegeln/entriegeln.\nDas Verriegeln von Türen ist nützlich, um Feinden auszuweichen oder Feuer zu verbreiten.\nTüren nehmen auch Schaden und hören auf zu funktionieren, sobald ihre HP 0 erreichen.\nTüren können wieder repariert werden: Wählen Sie ein Besatzungsmitglied und klicken Sie mit der rechten Maustaste auf die Tür, um sie zu reparieren. Das Reparieren benötigt Ressourcen.	0
 Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	0
@@ -2467,7 +2467,7 @@ text2	Our utility bots have scooped up everything of value.	Unsere Versorgungsbo
 
 Level 7 exit no fight.prefab
 displayName	Warpgate ship	Warptor-Schiff	25
-title	Intelligent BankTM guard	Intelligente Bank™-Wache	35
+title	Intelligent BankTM guard	Intelligente BankTM-Wache	35
 text	"Dear Potential Client, we regret to inform you that for financial reasons, your rating has been downgraded to Unlikely Client, leading to immediate relationship termination (including the termination of your consciousness, for security reasons). We apologize for the inconvenience!"	Sehr geehrter potenzieller Kunde, wir bedauern, Ihnen mitteilen zu müssen, dass Ihre Beurteilung aus finanziellen Gründen auf "Unwahrscheinlicher Kunde" herabgestuft wurde, was zur sofortigen Beendigung der Beziehung führt (einschließlich der Beendigung Ihres Bewusstseins, aus Sicherheitsgründen). Wir entschuldigen uns für die Unannehmlichkeiten!	400
 title	Warpgate ship captain	Warptor-Schiffskapitän	35
 text2	"Hello there, fellow Captain! Nice ship you have there! Please take these supplies before you enter our gate. And my sincere compliments on your physique... good luck!"	Hallöchen, lieber Kapitän! Ein schönes Schiff haben Sie da! Bitte nehmen Sie diese Vorräte mit, bevor Sie unser Tor betreten. Und mein aufrichtiges Kompliment für Ihren Körperbau ... viel Glück!	400
@@ -2633,7 +2633,7 @@ text2	Any encounter with anomalies is a rare occasion and our recordings of it a
 2 Exo wr. arlis wreck, MT blaster.prefab
 text	It's a partially dissolved shipwreck. It seems to be a victim of space life, as there are no obvious signs of looting.	Es ist ein teilweise aufgelöstes Schiffswrack. Es scheint ein Opfer von Weltraumleben zu sein, da es keine offensichtlichen Anzeichen von Plünderung gibt.	400
 title	Weapon found	Waffe gefunden	35
-text2	We found a quality beam weapon in the ship, along with an irreversibly broken but still valuable warpdrive.	Wir haben eine hochwertige Strahlenwaffe im Schiff gefunden, zusammen mit einem irreversibel kaputten, aber immer noch wertvollen Warpdrive.	400
+text2	We found a quality beam weapon in the ship, along with an irreversibly broken but still valuable warpdrive.	Wir haben eine hochwertige Strahlenwaffe im Schiff gefunden, zusammen mit einem irreversibel kaputten, aber immer noch wertvollen Warpantrieb.	400
 text2	We found a decent blaster in the ship, along with numerous useful bits.	Wir haben einen anständigen Blaster im Schiff gefunden, zusammen mit zahlreichen nützlichen Teilen.	400
 text2	It's a ship frame, everything else has been already scavenged by others.	Es handelt sich um einen Schiffsrahmen, alles andere wurde bereits von anderen erbeutet.	400
 reasonToDisplay	ship frame	Schiffsrahmen	30
@@ -2825,14 +2825,14 @@ text	"We do not have enough resources, but we are going to try anyway."	Wir habe
 3 Exo wreck warp ambush.prefab
 name2	warp source	Warp-Quelle	25
 text	Warp life ambush!	Warp-Lebensüberfall!	50
-title	Partially active warpdrive	Teilweise aktiver Warp-Antrieb	35
+title	Partially active warpdrive	Teilweise aktiver Warpantrieb	35
 text2	It seems the ship's warpdrive was partially active, leaking warp waves all over the place. We were able to safely disable it and scavenge the entire vessel.	Es scheint, dass der Warpantrieb des Schiffes teilweise aktiv war und überall Warpwellen abgab. Wir konnten ihn sicher deaktivieren und das ganze Schiff bergen.	400
 title	Ambushed!	Ein Hinterhalt!	35
 text2	As we reached the wreckage, a large group of predatory warp animals emerged from warpspace and attacked us! They are using some kind of deathray that penetrates shields and harms our crew directly.	Als wir das Wrack erreichten, tauchte eine große Gruppe von räuberischen Warp-Tieren aus dem Warpraum auf und griff uns an! Sie benutzen eine Art Todesstrahl, der die Schilde durchdringt und unsere Crew direkt angreift.	400
 text2	The warp animals flew straight into our mines, resulting in numerous animals being ripped to shreds by the explosions. We were able to put enough distance between us, and they stopped the hunt. Time to repair the damage.	Die Warptiere flogen direkt in unsere Minen, was dazu führte, dass zahlreiche Tiere durch die Explosionen zerfetzt wurden. Wir konnten genug Abstand zwischen uns bringen, und sie stellten die Jagd ein. Zeit, den Schaden zu reparieren.	400
 text	Escape attempt...	Fluchtversuch...	50
-title	Warpdrive retrieved	Warp-Antrieb wiederhergestellt	35
-text2	It seems the ships warpdrive was partially active, leaking warp waves all over the place. We were able to safely disable it and scavenge the entire vessel.	Der Warp-Antrieb des Schiffes war teilweise aktiv und ließ überall Warp-Wellen ab. Wir konnten ihn sicher deaktivieren und das ganze Schiff bergen.	400
+title	Warpdrive retrieved	Warpantrieb wiederhergestellt	35
+text2	It seems the ships warpdrive was partially active, leaking warp waves all over the place. We were able to safely disable it and scavenge the entire vessel.	Der Warpantrieb des Schiffes war teilweise aktiv und ließ überall Warp-Wellen ab. Wir konnten ihn sicher deaktivieren und das ganze Schiff bergen.	400
 text2	We overcharged the engines with fuel and were able to put enough distance between us and the animals for them to stop the hunt. Time to repair the damage.	Wir überluden die Triebwerke mit Treibstoff und konnten genug Abstand zwischen uns und die Tiere bringen, damit sie die Jagd einstellen. Zeit, den Schaden zu reparieren.	400
 text2	We received a few more shots from the hunting animals before they flew into our mines. We then overburned the engines and were able to put enough distance between us to escape the hunt.	Wir erhielten noch ein paar Schüsse von den jagenden Tieren, bevor sie in unsere Minen flogen. Dann überbrannten wir die Triebwerke und konnten genug Abstand zwischen uns und die Jagdtiere bringen, um ihnen zu entkommen.	400
 title	Warp animal ambush!	Warptier-Hinterhalt!	35
@@ -2898,10 +2898,10 @@ displayName	Warp life swarm	Warp-Lebensschwarm	25
 text	A large swarm of predatory warp animals have exited from warpholes around us. Their movements betray an offensive pattern. We are being hunted! They are so numerous that we must disengage!	Ein großer Schwarm räuberischer Warptiere ist aus den Warplöchern um uns herum ausgetreten. Ihre Bewegungen verraten ein offensives Muster. Wir werden gejagt! Sie sind so zahlreich, dass wir uns zurückziehen müssen!	400
 choiceText	Emergency short-distance warp escape! [-10 fuel]	Warp-Notausstieg auf kurze Distanz! (-10 Treibstoff)	100
 choiceText	Attempt conventional escape [-fuel]	Versuch einer konventionellen Flucht [-treibstoff]	100
-text	Starting warpdrives... %	Starte Warp-Antrieb... %.	50
+text	Starting warpdrives... %	Starte Warpantrieb... %.	50
 title	Incoming attacks!	Eingehende Angriffe!	35
 text2	The swarm keeps zapping us with some kind of destructive warp energies that go right through our shields!	Der Schwarm beschießt uns ständig mit einer Art zerstörerischer Warpenergie, die unsere Schilde durchdringt!	400
-text2	Curses! The warp animals are somehow interfering with our warpdrive! It consumed the fuel but failed to launch. We must attempt conventional escape.	Verflucht! Die Warptiere stören irgendwie unseren Warp-Antrieb! Er hat den Treibstoff verbraucht, aber er startet nicht. Wir müssen einen konventionellen Fluchtversuch unternehmen.	400
+text2	Curses! The warp animals are somehow interfering with our warpdrive! It consumed the fuel but failed to launch. We must attempt conventional escape.	Verflucht! Die Warptiere stören irgendwie unseren Warpantrieb! Er hat den Treibstoff verbraucht, aber er startet nicht. Wir müssen einen konventionellen Fluchtversuch unternehmen.	400
 text	Maneuvering to escape... %	Manövrieren, um zu entkommen... %	50
 text	The predatory animals are getting closer, the crew starts to get seriously worried. AI suggests now would be a good time to use any explosives we have. We need at least 40 explosives to make a difference here.	Die Raubtiere kommen immer näher, die Besatzung macht sich langsam ernsthafte Sorgen. Die KI schlägt vor, dass jetzt ein guter Zeitpunkt wäre, um unseren Sprengstoff zu benutzen. Wir brauchen mindestens 40 Sprengsätze, um hier etwas zu bewirken.	400
 choiceText	Use explosives	Sprengstoff verwenden	100
@@ -3106,7 +3106,7 @@ text	sending resources... %	Schickt Ressourcen... %	50
 title	The miners' gratitude	Die Dankbarkeit der Mienenarbeiter	35
 text2	After they have built a new warpdrive with our help, the Gitchanki miners send us several crates of high quality metal, plus their original warpdrive which they won't be using any more.	Nachdem sie mit unserer Hilfe einen neuen Warpantrieb gebaut haben, schicken uns die Mienenarbeiter von Gitchanki mehrere Kisten mit hochwertigem Metall sowie ihren ursprünglichen Warpantrieb, den sie nicht mehr benutzen werden.	400
 text	We do not have enough exotics. We may return later if we have more.	Wir haben nicht genug Exotika. Wir können später zurückkehren, wenn wir mehr haben.	600
-text2	After they have built a new warpdrive with our help, the Gitchanki miners send us several crates of high quality fuel, plus their original warpdrive which they won't be using any more.	Nachdem sie mit unserer Hilfe einen neuen Warp-Antrieb gebaut haben, schicken uns die Gitchanki-Mienenarbeiter mehrere Kisten mit hochwertigem Treibstoff sowie ihren ursprünglichen Warp-Antrieb, den sie nicht mehr benutzen werden.	400
+text2	After they have built a new warpdrive with our help, the Gitchanki miners send us several crates of high quality fuel, plus their original warpdrive which they won't be using any more.	Nachdem sie mit unserer Hilfe einen neuen Warpantrieb gebaut haben, schicken uns die Gitchanki-Mienenarbeiter mehrere Kisten mit hochwertigem Treibstoff sowie ihren ursprünglichen Warpantrieb, den sie nicht mehr benutzen werden.	400
 
 SOS5 exo, spare parts and explos.prefab
 title	Volatiles tanker	Volatiles Tankschiff	35
@@ -3299,7 +3299,7 @@ title	Exotics collected	Exoten gesammelt	35
 text2	We successfully cut through the security door. It seems mining was temporarily put on hold here and never resumed. There were several exposed seams of exotic minerals and our bots mined from there until they no longer could. The operation was a big success.	Wir haben erfolgreich die Sicherheitstür durchbrochen. Es scheint, dass der Bergbau hier vorübergehend unterbrochen und nie wieder aufgenommen wurde. Es gab mehrere freiliegende Flöze mit exotischen Mineralien und unsere Bots bauten dort ab, bis sie nicht mehr konnten. Die Operation war ein großer Erfolg.	400
 text	demolition operation... %	Abbrucharbeiten... %	50
 text	installing cutters... %	Installation von Energieschneidern... %	50
-text	"Warning. Access to this mining planet is restricted to Intelligent Banks TM authorized vessels. Failure to respect property borders will result in attack by orbital defences."	Warnung. Der Zugang zu diesem Bergbauplaneten ist auf autorisierte Intelligenten Bank™-Schiffe beschränkt. Nichtbeachtung der Eigentumsgrenzen führt zu einem Angriff der orbitalen Verteidigungsanlagen.	400
+text	"Warning. Access to this mining planet is restricted to Intelligent Banks TM authorized vessels. Failure to respect property borders will result in attack by orbital defences."	Warnung. Der Zugang zu diesem Bergbauplaneten ist auf autorisierte Intelligenten BankTM-Schiffe beschränkt. Nichtbeachtung der Eigentumsgrenzen führt zu einem Angriff der orbitalen Verteidigungsanlagen.	400
 text2	We managed to destroy the defence satellites. Their weapons were too short-ranged to reach us.	Es gelang uns, die Verteidigungssatelliten zu zerstören. Ihre Waffen hatten eine zu kurze Reichweite, um uns zu erreichen.	400
 text2	We send a swarm of cheaply printed long-range missiles towards the planet. The satellites prove to be equipped with point-defences, picking off some of our missiles before they reach the target.	Wir schicken einen Schwarm billig gedruckter Langstreckenraketen auf den Planeten. Die Satelliten erweisen sich als mit Punktabwehrsystemen ausgestattet, die einige unserer Raketen abfangen, bevor sie das Ziel erreichen.	400
 text	We were able to destroy some of the satellites, but a number of them remain functional. Next action?	Wir konnten einige der Satelliten zerstören, aber einige von ihnen bleiben funktionsfähig. Nächste Aktion?	400
@@ -4385,8 +4385,8 @@ choiceText	Go shopping [-10 credits]	Einkaufen gehen [-10 Credits]	100
 text	After exploring the wares, a pair of self-contained resource packs catch your attention. The Gitchankis salesmen ask an extremely modest price. Additionally, they point out, the organics in the package are harvested with highest environmental protection standards.	Nachdem Sie die Waren erkundet haben, erregen ein paar eigenständige Ressourcenpakete Ihre Aufmerksamkeit. Die Gitchankis-Verkäufer verlangen einen äußerst bescheidenen Preis. Außerdem weisen sie darauf hin, dass die organischen Stoffe in der Packung unter höchsten Umweltschutzstandards geerntet werden.	400
 choiceText	Buy 2 resource packs of medicine [-150 credits]	Kaufen Sie 2 Ressourcenpakete mit Medizin [-150 Credits]	100
 text2	The module is delivered to the Mothership cargo bay as promised. The trader has included a bonus to the delivery, a small amount of fungus brew.	Das Modul wird wie versprochen in den Laderaum des Mutterschiffs geliefert. Der Händler hat der Lieferung einen Bonus beigelegt, eine kleine Menge Pilzgebräu.	400
-text	After inspecting the wares, you find an advanced warpdrive for sale. The Gor-Mor salesmen claim it's a very high quality device. Additionally, they point out, it is made according to high environmental protection standards.	Nachdem Sie die Waren inspiziert haben, finden Sie einen fortschrittlichen Warp-Antrieb, der zum Verkauf steht. Die Gor-Mor-Verkäufer behaupten, es sei ein sehr hochwertiges Gerät. Außerdem, so betonen sie, wird es nach hohen Umweltschutzstandards hergestellt.	400
-choiceText	Buy the warpdrive [-120 credits]	Kaufen Sie den Warpdrive [-120 Credits]	100
+text	After inspecting the wares, you find an advanced warpdrive for sale. The Gor-Mor salesmen claim it's a very high quality device. Additionally, they point out, it is made according to high environmental protection standards.	Nachdem Sie die Waren inspiziert haben, finden Sie einen fortschrittlichen Warpantrieb, der zum Verkauf steht. Die Gor-Mor-Verkäufer behaupten, es sei ein sehr hochwertiges Gerät. Außerdem, so betonen sie, wird es nach hohen Umweltschutzstandards hergestellt.	400
+choiceText	Buy the warpdrive [-120 credits]	Kaufen Sie den Warpantriebs [-120 Credits]	100
 text2	The module is delivered to the Mothership cargo bay as promised. The trader has included a bonus to the delivery, a small amount of fuel and a box of exotic fruits.	Das Modul wird wie versprochen in den Laderaum des Mutterschiffs geliefert. Der Händler hat der Lieferung einen Bonus beigelegt, eine kleine Menge Treibstoff und eine Kiste mit exotischen Früchten.	400
 text	After inspecting the wares, you find an advanced long range sensor for sale. The Yu-Ee salesmen claim its a very high quality device. Additionally, they point out, it is made according to high environmental protection standards.	Nachdem Sie die Waren inspiziert haben, finden Sie einen fortschrittlichen Langstreckensensor, der zum Verkauf steht. Die Yu-Ee-Verkäufer behaupten, es sei ein sehr hochwertiges Gerät. Außerdem, so betonen sie, wird er nach hohen Umweltschutzstandards hergestellt.	400
 choiceText	Buy the sensor [-200 credits]	Kaufen Sie den Sensor [-200 Credits]	100
@@ -5104,7 +5104,7 @@ text	We have arrived at a most suitable time, explains the local guide. The whol
 choiceText	Celebrate with Freetravellers	Feiern Sie mit den Freien Reisenden	100
 text	colony-wide celebrations... %	Kolonieübergreifende Feierlichkeiten... %	50
 text	As you are leaving the planet, you are approached by a crew of Techum traders. Their communicators produce a bunch of noise which gradually modulates itself to comprehensible "TRADE PROPOSAL, SUPERIOR WARP"	Als Sie den Planeten verlassen, werden Sie von einer Crew von Techum-Händlern angesprochen. Ihre Kommunikatoren produzieren einen Haufen Lärm, der sich allmählich zu einem verständlichen "TRADE PROPOSAL, SUPERIOR WARP" moduliert	400
-choiceText	Buy the warp engine [-7 exotics]	Kaufen Sie den Warp-Antrieb [-7 Exoten]	100
+choiceText	Buy the warp engine [-7 exotics]	Kaufen Sie den Warpantrieb [-7 Exoten]	100
 title	Trade completed	Handel abgeschlossen	35
 text2	The engine is delivered to Mothership cargo bay as promised. The trader has included a bonus to the delivery, a miniature sculpture made of crystallized starfuel and shaped like a warp worm eating its own tail.	Der Antrieb wird wie versprochen in den Frachtraum des Mutterschiffs geliefert. Der Händler hat der Lieferung einen Bonus beigelegt, eine Miniaturskulptur aus kristallisiertem Sternentreibstoff in Form eines Warpwurms, der seinen eigenen Schwanz frisst.	400
 reasonToDisplay	trade operations complete	Handelsoperationen abgeschlossen	30
@@ -6045,7 +6045,7 @@ text2	This used to be a science base. Last data records show unknown attackers d
 text	We've discovered a damaged alien ship, slowly drifting in space. Its defence systems are active but it is unresponsive to our communication attempts. Its biotech structure suggests an advanced level of technology.	Wir haben ein beschädigtes fremdes Schiff entdeckt, das langsam im All treibt. Seine Verteidigungssysteme sind aktiv, aber es reagiert nicht auf unsere Kommunikationsversuche. Seine Biotech-Struktur deutet auf ein fortgeschrittenes Technologieniveau hin.	400
 choiceText	Send boarding team to neutralize the ship [need at least 3 crew]	Schicken Sie ein Enterkommando, um das Schiff zu neutralisieren [benötigt mindestens 3 Besatzungsmitglieder].	100
 title	Critical hit	Kritischer Treffer	35
-text2	It seems we accidentally hit the ship's biological reactor or warpdrive or something, because it just exploded in a spectacular fashion. Our ship received minor external damage. There was little left to be scavenged.	Es scheint, als hätten wir versehentlich den biologischen Reaktor oder den Warp-Antrieb des Schiffes getroffen, denn er ist gerade auf spektakuläre Weise explodiert. Unser Schiff erlitt leichte äußere Schäden. Es war nur wenig übrig, was wir bergen konnten.	400
+text2	It seems we accidentally hit the ship's biological reactor or warpdrive or something, because it just exploded in a spectacular fashion. Our ship received minor external damage. There was little left to be scavenged.	Es scheint, als hätten wir versehentlich den biologischen Reaktor oder den Warpantrieb des Schiffes getroffen, denn er ist gerade auf spektakuläre Weise explodiert. Unser Schiff erlitt leichte äußere Schäden. Es war nur wenig übrig, was wir bergen konnten.	400
 text	precision fire... %	Präzisionsfeuer... %	50
 title	Defences neutralized	Verteidigungsanlagen neutralisiert	35
 text2	We managed to destroy the ship's defences, dealing significant collateral damage to the rest of the vessel.	Es gelang uns, die Verteidigungsanlagen des Schiffes zu zerstören, wobei der Rest des Schiffes erheblichen Kollateralschaden erlitt.	400
@@ -6081,7 +6081,7 @@ choiceText	Emergency short-distance warp escape! [-20 fuel]	Warp-Notausstieg auf
 choiceText	Attempt conventional escape [-x fuel]	Versuch einer konventionellen Flucht [-x Treibstoff]	100
 title	Ongoing combat	Laufendes Gefecht	35
 title	Warp disrupted!	Warp unterbrochen!	35
-text2	Curses! The warp animals are somehow interfering with our warpdrive! It consumed some fuel but failed to launch. We must attempt conventional escape.	Verflucht! Die Warptiere stören irgendwie unseren Warp-Antrieb! Es hat etwas Treibstoff verbraucht, aber wir konnten nicht starten. Wir müssen einen konventionellen Fluchtversuch unternehmen.	400
+text2	Curses! The warp animals are somehow interfering with our warpdrive! It consumed some fuel but failed to launch. We must attempt conventional escape.	Verflucht! Die Warptiere stören irgendwie unseren Warpantrieb! Es hat etwas Treibstoff verbraucht, aber wir konnten nicht starten. Wir müssen einen konventionellen Fluchtversuch unternehmen.	400
 text	The predatory animals are getting closer, the crew starts to get seriously worried. AI suggests now would be a good time to use any explosives we have. We need minimally 40 explosives to make a difference.	Die Raubtiere kommen immer näher, die Crew macht sich ernsthafte Sorgen. Die KI schlägt vor, dass jetzt ein guter Zeitpunkt wäre, um unseren Sprengstoff zu benutzen. Wir brauchen mindestens 40 Sprengsätze, um einen Unterschied zu machen.	400
 choiceText	Use explosives [-40 explosives]	Sprengstoff verwenden [-40 Sprengstoff]	100
 choiceText	Do your best without explosives	Tun Sie Ihr Bestes ohne Sprengstoff	100
@@ -6596,7 +6596,7 @@ title	Pirate Extortionist	Piraten-Erpresser	35
 text	"We heard your signal. Thanks for inviting us to the party... Now we can do this the easy way or the hard way. People like us have no use for intergalactic credits, so I suggest you send us some exotics..."	Wir haben Euer Signal gehört. Danke für die Einladung zur Party... Jetzt können wir das auf die leichte oder die harte Tour machen. Leute wie wir haben keine Verwendung für intergalaktische Credits, also schlage ich vor, Sie schicken uns ein paar Exoten...	400
 choiceText	Easy way [-3 exotics]	Einfacher Weg [-3 Exoten]	100
 choiceText	Hard way [prepare for battle]	Harter Weg [Vorbereitung auf den Kampf]	100
-text	We do not have enough resources needed for this operation. We must fight or escape during combat, once our warpdrive is charged.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen kämpfen oder während des Kampfes fliehen, sobald unser Warp-Antrieb aufgeladen ist.	600
+text	We do not have enough resources needed for this operation. We must fight or escape during combat, once our warpdrive is charged.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen kämpfen oder während des Kampfes fliehen, sobald unser Warpantrieb aufgeladen ist.	600
 text	"Death or trade? I have this very exotic drink I'm willing to sell you, if you can pay me right now..."	Tod oder Handel? Ich habe dieses sehr exotische Getränk, das ich bereit bin, Ihnen zu verkaufen, wenn Sie mich sofort bezahlen können...	400
 choiceText	"Trade" [-220 metals for 1 organics]"	Tausch [-220 Metalle für 1 organisches Produkt]"	100
 text	We do not have enough resources needed for this operation. We must take the fight or escape from the combat.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen den Kampf annehmen oder aus dem Kampf fliehen.	600
@@ -8255,8 +8255,8 @@ artifactmodule tec 23 metal gizmo with light ECM.prefab
 description	A piece of xenotechnology. The module can be used as a crude integrity hardpoint. It produces minimal ECM static if powered. Can be installed into internal slot.	Ein Teil der Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden. Es erzeugt minimale ECM-Statik, wenn es mit Energie versorgt wird. Kann im internen Steckplatz installiert werden.	200
 
 artifactmodule tec 24 broken warp gizmo ECM.prefab
-displayName	Tech artifact (damaged warpdrive)	Tech-Artefakt (beschädigter Warp-Antrieb)	40
-description	A damaged, but partially functional advanced warpdrive, mostly made of exotics. Powering the module creates warp static, so it can be used as an internal ECM scrambler that does not need a hybrid slot like normal jammers.	Ein beschädigter, aber teilweise funktionsfähiger, fortschrittlicher Warp-Antrieb, der größtenteils aus exotischen Materialien besteht. Die Stromversorgung des Moduls erzeugt Warp-Statik, so dass es als interner ECM-Scrambler verwendet werden kann, der keinen Hybrid-Steckplatz wie normale Störsender benötigt.	200
+displayName	Tech artifact (damaged warpdrive)	Tech-Artefakt (beschädigter Warpantrieb)	40
+description	A damaged, but partially functional advanced warpdrive, mostly made of exotics. Powering the module creates warp static, so it can be used as an internal ECM scrambler that does not need a hybrid slot like normal jammers.	Ein beschädigter, aber teilweise funktionsfähiger, fortschrittlicher Warpantrieb, der größtenteils aus exotischen Materialien besteht. Die Stromversorgung des Moduls erzeugt Warp-Statik, so dass es als interner ECM-Scrambler verwendet werden kann, der keinen Hybrid-Steckplatz wie normale Störsender benötigt.	200
 
 artifactmodule tec 25 broken screen gizmo.prefab
 
@@ -9179,52 +9179,52 @@ storage container 3x4.prefab
 description	Storage for disassembled modules. Do not replace, ships can have only 1 module storage.	Lager für zerlegte Module. Nicht ersetzen, Schiffe können nur 1 Modulspeicher haben.	200
 
 warp 0 DIY.prefab
-displayName	Custom-made warpdrive	Kundenspezifischer Warp-Antrieb	40
-description	Warpdrives allow "jumping" between starsystems. This is custom-made from leftover parts and an exotic crystal."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dies ist eine Sonderanfertigung aus übrig gebliebenen Teilen und einem exotischen Kristall."	200
+displayName	Custom-made warpdrive	Kundenspezifischer Warpantrieb	40
+description	Warpdrives allow "jumping" between starsystems. This is custom-made from leftover parts and an exotic crystal."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dies ist eine Sonderanfertigung aus übrig gebliebenen Teilen und einem exotischen Kristall."	200
 
 warp 01 greencrystal.prefab
-displayName	Warp drive, type 101	Warp-Antrieb, Typ 101	40
-description	Warpdrives allow "jumping" between starsystems and escaping from battles."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen und das Entkommen aus Kämpfen."	200
+displayName	Warp drive, type 101	Warpantrieb, Typ 101	40
+description	Warpdrives allow "jumping" between starsystems and escaping from battles."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen und das Entkommen aus Kämpfen."	200
 
 warp 02 bluecrystal.prefab
-displayName	Warp drive, crystal type B	Warp-Antrieb, Kristall Typ B	40
-description	Warpdrives allow "jumping" between starsystems. This is a high-end civilian drive."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dies ist ein ziviler High-End-Antrieb."	200
+displayName	Warp drive, crystal type B	Warpantrieb, Kristall Typ B	40
+description	Warpdrives allow "jumping" between starsystems. This is a high-end civilian drive."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dies ist ein ziviler High-End-Antrieb."	200
 
 warp 02b small.prefab
-displayName	Warp drive, mini	Warp-Antrieb, Mini	40
-description	Warpdrives allow "jumping" between starsystems. This one is very durable. Robust structure improves ship HP."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr langlebig. Die robuste Struktur verbessert die Schiffs-HP."	200
+displayName	Warp drive, mini	Warpantrieb, Mini	40
+description	Warpdrives allow "jumping" between starsystems. This one is very durable. Robust structure improves ship HP."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr langlebig. Die robuste Struktur verbessert die Schiffs-HP."	200
 
 warp 03 neoncrystal.prefab
-displayName	Warp drive, crystal type A	Warp-Antrieb, Kristall Typ A	40
-description	Warpdrives allow "jumping" between starsystems. This one is very brittle."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr spröde."	200
+displayName	Warp drive, crystal type A	Warpantrieb, Kristall Typ A	40
+description	Warpdrives allow "jumping" between starsystems. This one is very brittle."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr spröde."	200
 
 warp 04 emperorbanks.prefab
-displayName	Warp drive, type EB	Warp-Antrieb, Typ EB	40
+displayName	Warp drive, type EB	Warpantrieb, Typ EB	40
 
 warp 05 rotor metal.prefab
-displayName	Warp drive, grade II	Warp-Antrieb, Grad II	40
-description	Warpdrives allow "jumping" between starsystems. This one has extra armor. Robust structure adds +2 to ship HP."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hat zusätzliche Panzerung. Robuste Struktur fügt +2 zu den Schiffs-HP hinzu."	200
+displayName	Warp drive, grade II	Warpantrieb, Grad II	40
+description	Warpdrives allow "jumping" between starsystems. This one has extra armor. Robust structure adds +2 to ship HP."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hat zusätzliche Panzerung. Robuste Struktur fügt +2 zu den Schiffs-HP hinzu."	200
 
 warp 05 spiralcrystal.prefab
-displayName	Warp drive, type F	Warp-Antrieb, Typ F	40
-description	Warpdrives allow "jumping" between starsystems. This one recharges extremely fast."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser lädt sich extrem schnell auf."	200
+displayName	Warp drive, type F	Warpantrieb, Typ F	40
+description	Warpdrives allow "jumping" between starsystems. This one recharges extremely fast."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser lädt sich extrem schnell auf."	200
 
 warp 06 rotor blue.prefab
-displayName	Warp drive, grade III	Warp-Antrieb, Typ III	40
-description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Durable structure improves ship HP."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Langlebige Struktur verbessert die Schiffs-HP."	200
+displayName	Warp drive, grade III	Warpantrieb, Typ III	40
+description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Durable structure improves ship HP."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Langlebige Struktur verbessert die Schiffs-HP."	200
 
 warp 07 rotor glass.prefab
-displayName	Warp drive, grade IV	Warp-Antrieb, Grad IV	40
-description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Strong structure improves ship HP."	Warp-Antriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Starke Struktur verbessert die Schiffs-HP."	200
+displayName	Warp drive, grade IV	Warpantrieb, Grad IV	40
+description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Strong structure improves ship HP."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Starke Struktur verbessert die Schiffs-HP."	200
 
 warp 09 spideraa.prefab
-displayName	Warp drive, Spideraa	Warp-Antrieb, Spinner	40
+displayName	Warp drive, Spideraa	Warpantrieb, Spinner	40
 
 warp 10 chunky.prefab
-displayName	Warp drive, chunky	Warp-Antrieb, chunky	40
+displayName	Warp drive, chunky	Warpantrieb, chunky	40
 
 warp 11 bluetec.prefab
-displayName	Warp drive, bluetec	Warp-Antrieb, bluetec	40
+displayName	Warp drive, bluetec	Warpantrieb, bluetec	40
 
 00 DIY decoy nuke launcher.prefab
 displayName	DIY decoy capital missile	DIY Decoy-Capital-Rakete	40
@@ -9336,7 +9336,7 @@ description	Incendiary capital missile built in Earth Alliance research labs. Ca
 description	This capital missile releases a huge cloud of nanopellets on impact. The pellets penetrate ship hull and damage enemy modules & crew.	Diese Kapitalrakete setzt beim Aufprall eine riesige Wolke von Nanopellets frei. Die Pellets durchdringen die Schiffshülle und beschädigen gegnerische Module und die Besatzung.	200
 
 14 Red EB nuke launcher.prefab
-displayName	Unknown capital missile	Unbekannte Hauptrakete	40
+displayName	Unknown capital missile	Unbekannte Kapitalrakete	40
 description	Advanced capital missile that releases a mixture of corrosive, volatile and toxic nanopellets. The hit ravages ship HP, causes firestorms and damages crew while leaving modules intact.	Fortschrittliche Kapitalrakete, die eine Mischung aus korrosiven, flüchtigen und giftigen Nanopellets freisetzt. Der Treffer verwüstet die HP des Schiffs, verursacht Feuerstürme und beschädigt die Besatzung, während die Module intakt bleiben.	200
 
 15 Black nuke launcher.prefab
@@ -9352,7 +9352,7 @@ displayName	Biotech burrower nuke	Biotech-Erdrakete	40
 description	A capital missile that contains active biotech payload.	Ein kapitaler Flugkörper, der eine aktive Biotech-Nutzlast enthält.	200
 
 99 pirate spawner launcher 1.prefab
-displayName	Armored boarding shuttle	Gepanzertes Boarding-Shuttle	40
+displayName	Armored boarding shuttle	Gepanzertes Enter-Shuttle	40
 description	Delivers boarders to enemy ship.	Bringt Enternde zum feindlichen Schiff.	200
 
 Monolith nuke launcher.prefab
@@ -9409,28 +9409,28 @@ displayName	DIY firecannon MK2	DIY-Feuerkanone MK2	40
 description	Shoots balls that cause fire on impact. Rapid rate of fire and more crew damage compared to MK1. Projectiles have 1hp each.	Schießt Kugeln, die beim Aufprall Feuer verursachen. Schnelle Feuerrate und mehr Mannschaftsschaden im Vergleich zu MK1. Projektile haben jeweils 1 HP.	200
 
 weapon emperorbanks cannon large.prefab
-displayName	Intelligent BankTM cannon IIIA	Intelligente Bank™-Kanone IIIA	40
+displayName	Intelligent BankTM cannon IIIA	Intelligente BankTM-Kanone IIIA	40
 description	These cannons rely on abundant use of explosives to print & propel massive, almost nuke-sized projectiles (which may be deflected). Robust structure improves ship HP. Projectile has 8hp.	Diese Kanonen setzen auf den reichlichen Einsatz von Sprengstoff, um massive, fast nukleargroße Projektile zu drucken und abzuschießen (die abgelenkt werden können). Die robuste Struktur verbessert die HP des Schiffes. Das Projektil hat 8 HP.	200
 
 weapon emperorbanks cannon1x.prefab
-displayName	Intelligent BankTM cannon IA	Intelligente Bank™-Kanone IA	40
+displayName	Intelligent BankTM cannon IA	Intelligente BankTM-Kanone IA	40
 description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 5hp each.	Imperiale Kanonen verlassen sich auf den reichlichen Einsatz von Sprengstoff, um eine hohe Geschwindigkeit des Geschosses zu erreichen. Die robuste Struktur verbessert die Schiffs-HP. Die Projektile haben jeweils 5 HP.	200
 
 weapon emperorbanks cannon2x.prefab
-displayName	Intelligent BankTM cannon IIA	Intelligente Bank™-Kanone IIA	40
+displayName	Intelligent BankTM cannon IIA	Intelligente BankTM-Kanone IIA	40
 
 weapon Energy cannon OP.prefab
-displayName	Energy cannon Overcharger	Energiekanone Overcharger	40
+displayName	Energy cannon Overcharger	Energiekanone "Überlaster"	40
 description	A plasma cannon. Never deflects and cannot be shot down by point-defences.	Eine Plasmakanone. Lässt sich nicht ablenken und kann nicht durch Punktverteidigung abgeschossen werden.	200
 
 weapon Energy cannon x1.prefab
-displayName	Energy cannon	Energie-Kanone	40
+displayName	Energy cannon	Energiekanone	40
 
 weapon Energy cannon x2.prefab
 displayName	Energy cannon x2	Energiekanone x2	40
 
 weapon Floral cannon.prefab
-displayName	Biotech cannon "MOLAC"	Biotech-Kanone "MOLAC"	40
+displayName	Biotech cannon "MOLAC"	Biotech-Kanone "MOLSK"	40
 description	Anti-armor molecular acid cannon. Consumes organics with each shot and never deflects. Cannot be shot down by point-defences.	Anti-Panzer-Molekularsäure-Kanone. Verbraucht bei jedem Schuss organische Stoffe und ist nicht ablenkbar. Kann nicht durch Punktverteidigung abgeschossen werden.	200
 
 weapon hi-tec cannon.prefab
@@ -9446,14 +9446,14 @@ displayName	Incendiary cannon R1000	Brandkanone R1000	40
 description	A pressure cannon that launches incendiary bombs filled with flammable mixture. The projectiles have no armor (1hp each).	Eine Druckkanone, die mit brennbarem Gemisch gefüllte Brandbomben abfeuert. Die Projektile haben keine Panzerung (je 1hp).	200
 
 weapon ratcannon fire2.prefab
-displayName	Incendiary cannon R2000	Feuerkanone R2000	40
+displayName	Incendiary cannon R2000	Brandkanone R2000	40
 description	A pressure cannon that launches incendiary bombs filled with flammable mixture. The projectiles can be shot down easily by point-defences because they have no armor (1hp each).	Eine Druckkanone, die mit einem brennbaren Gemisch gefüllte Brandbomben abschießt. Die Geschosse können leicht von Punktabwehrsystemen abgeschossen werden, da sie keine Panzerung haben (je 1 HP).	200
 
 weapon ratcannon fire3.prefab
-displayName	Incendiary cannon R3000	Brandbombenkanone R3000	40
+displayName	Incendiary cannon R3000	Brandkanone R3000	40
 
 weapon ratcannon high velocity.prefab
-displayName	Burrowshell cannon	Burrowshell-Kanone	40
+displayName	Burrowshell cannon	Erdloch-Kanone	40
 description	The pinnacle of Rat Empire's destructive technology, this cannon shoots non-deflecting projectiles with a solid metal core (each projectile has 5hp). Has local sensors to boost weapon accuracy.	Der Höhepunkt der zerstörerischen Technologie des Rattenimperiums. Diese Kanone verschießt nicht ablenkbare Projektile mit einem massiven Metallkern (jedes Projektil hat 5 HP). Verfügt über lokale Sensoren, um die Genauigkeit der Waffe zu erhöhen.	200
 
 weapon Segmented cannon1.prefab
@@ -9612,11 +9612,11 @@ displayName	Dual effector, type Red	Doppeleffektor, Typ Rot	40
 description	Universal laser, shoots two laser beams. Robust structure improves ship HP.	Universal-Laser, schießt zwei Laserstrahlen. Robuste Konstruktion verbessert die Schiffs-HP.	200
 
 weapon emperor laser large.prefab
-displayName	Intelligent BankTM large laser	Intelligente Bank™-Großlaser	40
+displayName	Intelligent BankTM large laser	Intelligente BankTM-Großlaser	40
 description	Universal laser, produces 3 laser beams. Robust structure improves ship HP.	Universal-Laser, erzeugt 3 Laserstrahlen. Robuste Struktur verbessert die Schiffs-HP.	200
 
 weapon emperor minilaser.prefab
-displayName	Intelligent BankTM minilasers	Intelligente Bank™-Minilaser	40
+displayName	Intelligent BankTM minilasers	Intelligente BankTM-Minilaser	40
 description	The laser is traditionally equipped with manipulators to clean dead bodies from ship externals. Produces 2 laser beams.	Der Laser ist traditionell mit Manipulatoren ausgestattet, um die Schiffsaußenhaut von toten Körpern zu reinigen. Erzeugt 2 Laserstrahlen.	200
 
 weapon Florallaser.prefab
@@ -9821,11 +9821,11 @@ displayName	DIY heavy rocket launcher	DIY schwerer Raketenwerfer	40
 description	Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect. A launched missile has 2hp.	Improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu drucken und abzuschießen. Die Raketen werden nicht abgelenkt. Eine abgeschossene Rakete hat 2 HP.	200
 
 weapon emperormissile large x5.prefab
-displayName	Intelligent BankTM rocket launcher (x5)	Intelligente Bank™-Raketenwerfer (x5)	40
+displayName	Intelligent BankTM rocket launcher (x5)	Intelligente BankTM-Raketenwerfer (x5)	40
 description	Platform for rapidly printing & launching rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken & Starten von Raketen. Raketen lenken nie ab und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1hp.	200
 
 weapon emperormissiles small x2.prefab
-displayName	Intelligent BankTM missile launcher (x2)	Intelligente Bank™-Raketenwerfer (x2)	40
+displayName	Intelligent BankTM missile launcher (x2)	Intelligente BankTM-Raketenwerfer (x2)	40
 description	Platform for printing and shooting heavy missiles with increased armor. Missiles never deflect and damage enemy modules in a large area. These missiles have 2hp each.	Plattform zum Drucken und Abschießen schwerer Raketen mit erhöhter Panzerung. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich. Diese Raketen haben jeweils 2 HP.	200
 
 weapon miscmissile x4.prefab
@@ -9984,7 +9984,7 @@ randomizerMenuStrings[i]	-25 metals	-25 Metalle	30
 
 Perk add fuel.prefab
 displayName	Extra fuel I	Extra Treibstoff I	40
-description	Fuel is consumed by engines during normal ship movement, and by warpdrives when jumping to other starsystems.	Treibstoff wird von den Triebwerken während der normalen Schiffsbewegung und von den Warp-Antrieben beim Sprung zu anderen Sternensystemen verbraucht.	250
+description	Fuel is consumed by engines during normal ship movement, and by warpdrives when jumping to other starsystems.	Treibstoff wird von den Triebwerken während der normalen Schiffsbewegung und von den Warpantrieben beim Sprung zu anderen Sternensystemen verbraucht.	250
 randomizerMenuStrings[i]	+50 fuel	+50 Kraftstoff	30
 
 Perk add metals 2, scrap tank.prefab
@@ -10455,7 +10455,7 @@ randomizerMenuStrings[i]	+3 decoy modules	+3 Täuschungsmodule	30
 randomizerMenuStrings[i]	-150 credits	-150 Credits	30
 
 Perk module DIY backup warpdrive.prefab
-displayName	The backup warpdrive	Der Ersatz-Warpdrive	40
+displayName	The backup warpdrive	Der Ersatz-Warpantriebs	40
 description	Although ships can fly between starsystems using normal engines, this usually consumes a lot of fuel and especially much more organics than warping with warpdrives. This one is a DIY variant, assembled from spare parts.	Schiffe können zwar mit normalen Triebwerken zwischen Sternensystemen fliegen, aber das verbraucht in der Regel sehr viel Treibstoff und vor allem viel mehr organische Stoffe als das Warpen mit Warpantrieben. Dieser hier ist eine DIY-Variante, zusammengebaut aus Ersatzteilen.	250
 unlockAnnouncementText	During our travels, we met this university student willing to donate her self-made warpdrive to our cause - next time, when she has finished experimenting with it.	Auf unseren Reisen trafen wir diese Studentin, die bereit war, ihren selbstgebauten Warpantrieb für unsere Sache zu spenden - beim nächsten Mal, wenn sie mit dem Experimentieren fertig ist.	100
 randomizerMenuStrings[i]	+1 DIY warpdrive module	+1 DIY Warpantrieb Modul	30
@@ -11057,7 +11057,7 @@ altText	The bright circle around our ship is <b>sensor range</b>. The sensor ran
 altText	Looks safe, now fly into it...	Sieht sicher aus, fliegen Sie jetzt hinein...	240
 altText	We've obtained a <b>cryosleep</b> module! Crew in cryosleep do not consume organics and might <b>heal injuries over time</b>. For now, leave one crewmember to operate the bridge and send others to cryosleep.	Wir haben ein <b>Kryoschlaf</b>-Modul erhalten! Crewmitglieder im Kryoschlaf verbrauchen keine organischen Stoffe und können <b>Verletzungen mit der Zeit heilen</b>. Lassen Sie vorerst ein Crewmitglied die Brücke bedienen und schicken Sie die anderen in Kryoschlaf.	240
 altText	The wrecked ship also contained info about a hidden warehouse (it has been added to the starsystem map). Go and check that out.	Das Schiffswrack enthielt auch Informationen über ein verstecktes Lagerhaus (es wurde der Sternensystemkarte hinzugefügt). Gehen Sie hin und überprüfen Sie das.	240
-altText	The salvaged <b>warpdrive</b> allows us to jump between starsystems (and escape from combat). \nThe warpdrive charges instantly during accelerated time, but will be slowed if there are dangers or problems.	Der geborgene <b>Warpdrive</b> erlaubt es uns, zwischen den Sternensystemen zu springen (und dem Kampf zu entkommen). \nDer Warpdrive lädt während der Beschleunigungszeit sofort auf, wird aber bei Gefahren oder Problemen verlangsamt.	240
+altText	The salvaged <b>warpdrive</b> allows us to jump between starsystems (and escape from combat). \nThe warpdrive charges instantly during accelerated time, but will be slowed if there are dangers or problems.	Der geborgene <b>Warpantrieb</b> erlaubt es uns, zwischen den Sternensystemen zu springen (und dem Kampf zu entkommen). \nDer Warpdrive lädt während der Beschleunigungszeit sofort auf, wird aber bei Gefahren oder Problemen verlangsamt.	240
 altText	Open the sector map (<b>SECTOR</b> button) and select the Alcan starsystem by L-clicking on it. \nThen click on <b>Warp to destination</b> button.	Öffnen Sie die Sektorkarte (Taste <b>SECTOR</b>) und wählen Sie das Sternensystem Alcan mit einem L-Klick aus. \nDann klicken Sie auf die Schaltfläche <b>Warpen zum Ziel</b>.	240
 text	Full tutorial or test a part?	Vollständige Einführung oder einen Teil testen?	400
 choiceText	Give me full tutorial	Geben Sie mir die komplette Einführung	100
