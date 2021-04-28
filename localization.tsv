@@ -1210,7 +1210,7 @@ Button for graphical settings	Graphics	Grafik	0
 	Show crew outline	Umrisse der Crew	0
 	Check to make crew more visible	Aktivieren Sie diese Option, um die Crew besser sichtbar zu machen.	0
 	Show helpful tips	Hilfreiche Tipps	0
-	Check to show one time messages that remind you what to do in sticky situations.\n(Turning it off and on again resets what's already been shown)	Aktivieren Sie dieses Kontrollkästchen, um einmalige Meldungen anzuzeigen, die Sie daran erinnern, was in heiklen Situationen zu tun ist\n(wenn Sie es aus- und wieder einschalten, werden die bereits angezeigten Meldungen zurückgesetzt).	0
+	Check to show one time messages that remind you what to do in sticky situations.\n(Turning it off and on again resets what's already been shown)	Aktivieren Sie dieses Kontrollkästchen, um einmalige Meldungen anzuzeigen, \ndie Sie daran erinnern, was in heiklen Situationen zu tun ist\n(wenn Sie es aus- und wieder einschalten, werden die bereits angezeigten Meldungen zurückgesetzt).	0
 	Resets draggable UI element positions to defaults	Setzt die Positionen der verschiebbaren UI-Elemente auf die Standardwerte zurück	0
 	Choose camera post processing effects to fit your taste	Wählen Sie Kamera-Nachbearbeitungseffekte nach Ihrem Geschmack	0
 	Resets settings on this tab to defaults.\nResets all draggable window positions to defaults.\nMakes all helpful tips seen reappear.	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück.\nSetzt alle ziehbaren Fensterpositionen auf die Standardwerte zurück.\nSorgt dafür, dass alle gesehenen hilfreichen Tipps wieder angezeigt werden.	0
@@ -1307,7 +1307,7 @@ Left-mouse-button select, right-mouse-button commands	LMB select, RMB commands, 
 Left-mouse-button select, right-mouse-button commands	LMB select, RMB commands	LMB-Auswahl, RMB-Befehle	0
 	Modern	Modern	0
 	Click & press a key to bind controls, press [ESC] to cancel.	Klicken & drücken Sie eine Taste, um Steuerelemente zu binden, drücken Sie [ESC] zum Abbrechen.	0
-	Resets settings on this tab to defaults	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück	0
+	Resets settings on this tab to defaults	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück.	0
 Button. Resets controls to defaults.	Reset	Zurücksetzen	0
 	Screen resolution	Bildschirmauflösung	0
 	Resolution	Auflösung	0
@@ -1328,7 +1328,7 @@ Button. Resets controls to defaults.	Reset	Zurücksetzen	0
 	Full size textures	Texturen in voller Größe	0
 	Check for enabling full resolution textures, otherwise half resolution is used.\nTry disabling if the game is stuttering because of less than 1GB VRAM.	Falls Ihr Spiel ruckelt (unter 1 GB VRAM) können Sie diese Option deaktivieren.	0
 	Vertical sync	Vertikale Synchronisierung	0
-	Check to sync rendering framerate with monitor framerate.\nDisabling it is not advised unless measuring rendering framerate.	Aktivieren Sie dieses Kontrollkästchen, um die Rendering-Framerate mit der Monitor-Framerate zu synchronisieren.\nDie Deaktivierung wird nicht empfohlen, es sei denn, Sie messen die Rendering-Framerate.	0
+	Check to sync rendering framerate with monitor framerate.\nDisabling it is not advised unless measuring rendering framerate.	Aktivieren Sie dieses Kontrollkästchen, \num die Rendering-Framerate mit der Monitor-Framerate zu synchronisieren.\nDie Deaktivierung wird nicht empfohlen, \nes sei denn, Sie messen die Rendering-Framerate.	0
 	Anti-aliasing	Kantenglättung	0
 	Check to anti-alias hard edges	Aktivieren Sie diese Option, um harte Kanten zu glätten.	0
 	Film grain	Filmkorn	0
@@ -1338,7 +1338,7 @@ User interface colour	UI colour	UI-Farbe	0
 Abbrevation for Red	R:	R:	0
 Abbrevation for Green	G:	G:	0
 Abbrevation for Blue	B:	B:	0
-	Resets settings on this tab to defaults,\nexcept resolution and windowed checkbox.	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück, die Auflösung und das Kontrollkästchen "Fenster".	0
+	Resets settings on this tab to defaults,\nexcept resolution and windowed checkbox.	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück, \ndie Auflösung und das Kontrollkästchen "Fenster".	0
 	Exit game?	Spiel beenden?	0
 	Your game is saved and will be loaded next time the game is started.	Ihr Spiel wird gespeichert und wird beim nächsten Start des Spiels geladen.	0
 	Exit	Beenden	0
