@@ -2539,7 +2539,7 @@ text	We have discovered a debris cloud of unknown origin. We can scavenge some o
 title	Module found	Modul gefunden	35
 text2	An intact module was discovered floating among the debris.	Ein intaktes Modul wurde in den Trümmern entdeckt.	400
 title	Dormant capital missile	Ruhende Kapitalrakete	35
-text2	Within the debris was a capital missile that was launched ages ago, but never found its target, staying in standby mode. It somehow identified us as a threat and attacked before we could neutralize it.	In den Trümmern befand sich eine Capital Missile, die vor langer Zeit gestartet wurde, aber nie ihr Ziel fand und im Standby-Modus blieb. Sie erkannte uns irgendwie als Bedrohung und griff an, bevor wir sie neutralisieren konnten.	400
+text2	Within the debris was a capital missile that was launched ages ago, but never found its target, staying in standby mode. It somehow identified us as a threat and attacked before we could neutralize it.	In den Trümmern befand sich eine Capital Missile, die vor langer Zeit gestartet wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Sie erkannte uns irgendwie als Bedrohung und griff an, bevor wir sie neutralisieren konnten.	400
 title	Stealthy minefield	Tarnminenfeld	35
 text2	As we entered the debris cloud, our ship and utility bots were attacked by smart micro-mines in the debris. This is an active minefield! Operation abandoned.	Als wir in die Trümmerwolke eindrangen, wurden unser Schiff und die Versorgungsbots von intelligenten Mikrominen in den Trümmern angegriffen. Das ist ein aktives Minenfeld! Operation abgebrochen.	400
 title	Ship parts collected	Schiffsteile gesammelt	35
@@ -2668,7 +2668,7 @@ text	While scavenging the ship, we accidentally discovered a cloud of debris not
 choiceText	Leave this, it might be mined, or trapped, or something	Vielleicht ist es vermint oder gefangen oder so.	100
 text2	Scavenging operation completed. An intact module was discovered floating among the debris.	Scavenging-Operation abgeschlossen. Ein intaktes Modul wurde zwischen den Trümmern treibend entdeckt.	400
 title	Missile attack	Raketenangriff	35
-text2	Within the debris was a smart missile that was shot out of its launcher ages ago, but never found its target and stayed in standby mode. It somehow identified us as a threat and attacked. We still managed to collect some debris.	In den Trümmern befand sich eine intelligente Rakete, die vor Ewigkeiten aus ihrer Abschussrampe geschossen wurde, aber nie ihr Ziel fand und im Standby-Modus blieb. Sie erkannte uns irgendwie als Bedrohung und griff an. Wir haben es trotzdem geschafft, einige Trümmer einzusammeln.	400
+text2	Within the debris was a smart missile that was shot out of its launcher ages ago, but never found its target and stayed in standby mode. It somehow identified us as a threat and attacked. We still managed to collect some debris.	In den Trümmern befand sich eine intelligente Rakete, die vor Ewigkeiten aus ihrer Abschussrampe geschossen wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Sie erkannte uns irgendwie als Bedrohung und griff an. Wir haben es trotzdem geschafft, einige Trümmer einzusammeln.	400
 title	Micro-mines	Mikro-Minen	35
 text2	As we entered the debris cloud, our ship and utility bots were attacked by smart micro-mines hiding in the debris. This is an active minefield! Operation abandoned.	Als wir in die Trümmerwolke eindrangen, wurden unser Schiff und die Versorgungsbots von intelligenten Mikro-Minen angegriffen, die sich in den Trümmern versteckten. Dies ist ein aktives Minenfeld! Operation abgebrochen.	400
 text2	We were able to collect some valuable space ship pieces.	Wir konnten einige wertvolle Raumschiffteile einsammeln.	400
@@ -2747,12 +2747,12 @@ choiceText	Scavenge with printed bots & equipment [-50 synthethics]	Plündern mi
 text2	An intact artifact with partially active subsystems was discovered floating among the debris.	Ein intaktes Artefakt mit teilweise aktiven Subsystemen wurde in den Trümmern entdeckt.	400
 reasonToDisplay	materials salvaged	Geborgene Materialien	30
 title	Capital missile ambush!	Kapitaler Raketenangriff aus dem Hinterhalt!	35
-text2	The active technology within the debris was a capital missile that was shot out ages ago, but never found its target, staying in standby mode. During the operation, it somehow identified us as a threat and attacked.	Bei der aktiven Technologie in den Trümmern handelte es sich um eine Capital Missile, die vor Ewigkeiten abgeschossen wurde, aber nie ihr Ziel fand und im Standby-Modus blieb. Während des Einsatzes hat sie uns irgendwie als Bedrohung erkannt und angegriffen.	400
+text2	The active technology within the debris was a capital missile that was shot out ages ago, but never found its target, staying in standby mode. During the operation, it somehow identified us as a threat and attacked.	Bei der aktiven Technologie in den Trümmern handelte es sich um eine Capital Missile, die vor Ewigkeiten abgeschossen wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Während des Einsatzes hat sie uns irgendwie als Bedrohung erkannt und angegriffen.	400
 reasonToDisplay	capital missile attack!	kapitaler raketenangriff!	30
 text	We do not have the necessary resources for this operation. We may try again later when we are better equipped.	Wir haben nicht die nötigen Ressourcen für diese Operation. Wir können es später wieder versuchen, wenn wir besser ausgerüstet sind.	600
 text2	An intact artifact with partially active subsystems was discovered floating among the debris. We recovered some of the materials used in printing the bots.	Ein intaktes Artefakt mit teilweise aktiven Subsystemen wurde in den Trümmern entdeckt. Wir haben einige der Materialien geborgen, die zum Drucken der Bots verwendet wurden.	400
 reasonToDisplay	artifact found	Artefakt gefunden	30
-text2	The active technology within the debris was a capital missile that was armed ages ago, but never found its target, staying in standby mode. It attacked our bots during the operation, destroying a few.	Bei der aktiven Technologie in den Trümmern handelte es sich um eine Kapitalrakete, die vor langer Zeit scharf gemacht wurde, aber nie ihr Ziel fand und im Standby-Modus blieb. Sie griff unsere Bots während der Operation an und zerstörte ein paar.	400
+text2	The active technology within the debris was a capital missile that was armed ages ago, but never found its target, staying in standby mode. It attacked our bots during the operation, destroying a few.	Bei der aktiven Technologie in den Trümmern handelte es sich um eine Kapitalrakete, die vor langer Zeit scharf gemacht wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Sie griff unsere Bots während der Operation an und zerstörte ein paar.	400
 
 3 Exo friendly warp animal.prefab
 text	A warp animal is flying towards us.	Ein Warptier fliegt auf uns zu.	400
@@ -11251,9 +11251,9 @@ Default alien dream text pool.prefab
 	Dreaming of jumping up and slowly floating down again...	Ein Traum, in dem man hochspringt und langsam wieder runterschwebt...	80
 
 EB description pool.prefab
-	Intelligent Banks soldier.	Intelligenter Banks-Soldat.	250
-	Intelligent Banks ship officer.	Intelligenter Banks Schiffsoffizier.	250
-	Intelligent Banks surveillance officer.	Intelligenter Banks Überwachungsoffizier.	250
+	Intelligent Banks soldier.	Intelligente BankTM-Soldat.	250
+	Intelligent Banks ship officer.	Intelligente BankTM-Schiffsoffizier.	250
+	Intelligent Banks surveillance officer.	Intelligente BankTM-Überwachungsoffizier.	250
 
 Empty gas giant text pool.prefab
 	The gravitational pull of this gas giant is too strong for fuel mining operations.	Die Anziehungskraft dieses Gasriesen ist zu stark für den Treibstoffabbau.	420
@@ -11472,7 +11472,7 @@ Grayman die message pool.prefab
 
 Human basic crew description pool.prefab
 	A Peace monk. Fast runner.	Ein Friedensmönch. Ein schneller Läufer.	250
-	A weedseed farmer who wanted more excitement. Good Physique.	Ein Unkrautsamen-Bauer, der mehr Aufregung wollte. Guter Körperbau.	250
+	A weedseed farmer who wanted more excitement. Good Physique.	Ein Grassamen-Bauer, der mehr Aufregung wollte. Guter Körperbau.	250
 	A young soul trying to prove themselves. Loves parkour.	Eine junge Seele, die sich beweisen will. Liebt Parkour.	250
 	A systems theory scientist. Enjoys trekking & tripping.	Ein Systemtheorie-Wissenschaftler. Genießt Trekking & Tripping.	250
 	A retired security guard. Silent type. Collects plankton images.	Ein Sicherheitsbeamter im Ruhestand. Ein stiller Typ. Sammelt Plankton-Bilder.	250
@@ -11594,7 +11594,7 @@ Human basic crew description pool.prefab
 	A retired mercenary. Once survived a direct hit with a nuke.	Ein Söldner im Ruhestand. Überlebte einmal einen direkten Treffer einer Atombombe.	250
 	A retired mercenary. Never killed a single person. Very athletic.	Ein Söldner im Ruhestand. Hat noch nie einen Menschen getötet. Sehr sportlich.	250
 	A retired mercenary. Retired after first kill in combat.	Ein Söldner im Ruhestand. Ging nach der ersten Tötung im Kampf in Rente.	250
-	A famous psygame artist. Silent type.	Ein berühmter Psygame-Künstler. Stiller Typ.	250
+	A famous psygame artist. Silent type.	Ein berühmter Psychospiele-Künstler. Stiller Typ.	250
 	A Music monk. Seeks the deepest vibes. Good dancer.	Ein Musik-Mönch. Sucht die tiefsten Schwingungen. Guter Tänzer.	250
 	A spiritual nomad. Is seeking other nomads.	Ein spiritueller Nomade. Sucht andere Nomaden.	250
 	A musician who gave up music in favor of artistic thinking.	Ein Musiker, der die Musik zu Gunsten des künstlerischen Denkens aufgegeben hat.	250
@@ -11801,7 +11801,7 @@ Human melee monks description pool.prefab
 
 Human operator wildcard description pool.prefab
 	A military dropout who failed the piloting exams.	Ein Militärabbrecher, der bei den Pilotenprüfungen durchgefallen ist.	250
-	A weedseed farmer who wanted more excitement.	Ein Unkrautsamen-Farmer, der mehr Aufregung wollte.	250
+	A weedseed farmer who wanted more excitement.	Ein Grassamen-Farmer, der mehr Aufregung wollte.	250
 	A young soul trying to prove themselves.	Eine junge Seele, die sich beweisen will.	250
 	A systems theory scientist. Enjoys tripping.	Ein Systemtheorie-Wissenschaftler. Genießt es zu trippen.	250
 	A Brain monk. Does serious Brain gymnastics with drugs.	Ein Gehirn-Mönch. Macht ernsthafte Gehirngymnastik mit Drogen.	250
@@ -11880,7 +11880,7 @@ Human operator wildcard description pool.prefab
 	An ex-business analyst. Twitchy eyes.	Ein ehemaliger Wirtschaftsanalytiker. Zuckende Augen.	250
 	A retired GuGurkian/human translator. Can sing in GuGurkian.	Ein pensionierter Übersetzer für GuGurkisch/Menschliches. Kann auf GuGurkisch singen.	250
 	A retired human/Vexian ambassador. Extremely polite.	Ein Mensch/Vexianer-Botschafter im Ruhestand. Äußerst höflich.	250
-	A famous psygame artist. Silent type. Likes tentacle aestethics.	Ein berühmter Psygame-Künstler. Stiller Typ. Mag Tentakel-Ästhetik.	250
+	A famous psygame artist. Silent type. Likes tentacle aestethics.	Ein berühmter Psychospiele-Künstler. Stiller Typ. Mag Tentakel-Ästhetik.	250
 	A professional storyteller. Most stories are about love.	Ein professioneller Geschichtenerzähler. Die meisten Geschichten handeln von Liebe.	250
 	Empathy monk. Completely rehabilitated a Slaver once.	Empathie-Mönch. Hat mal einen Sklavenhändler komplett rehabilitiert.	250
 	Refugee from a religious suicide cult. Soft voice.	Flüchtling vor einem religiösen Selbstmordkult. Sanfte Stimme.	250
@@ -12092,7 +12092,7 @@ Red Ripper idle msg pool.prefab
 	Memorizing combat movement patterns	Bewegungsmuster des Kampfes auswendig lernen	80
 
 Robot idle msg pool.prefab
-	Standby mode	Standby-Modus	80
+	Standby mode	Bereitschaftsmodus	80
 	Mental target practice	Mentale Zielübungen	80
 	Refactoring logic circuits	Überarbeitung von Logikschaltungen	80
 	Contemplating bad sectors	Nachdenken über fehlerhafte Sektoren	80
