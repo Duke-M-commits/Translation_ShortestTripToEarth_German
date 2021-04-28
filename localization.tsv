@@ -2666,7 +2666,7 @@ text2	Logs show this ship was on a research mission when something malfunctioned
 text2	The ship was a scientific exploration vessel. Its sensor systems are still functional.	Das Schiff war ein wissenschaftliches Erkundungsschiff. Seine Sensorsysteme sind noch funktionsfähig.	400
 text	While scavenging the ship, we accidentally discovered a cloud of debris not too far from the wreckage. Perhaps the ship was trying to explore it when it got knocked out?	Bei der Bergung des Schiffes entdeckten wir zufällig eine Trümmerwolke nicht allzu weit vom Wrack entfernt. Vielleicht wollte das Schiff sie erforschen, als es außer Gefecht gesetzt wurde?	400
 choiceText	Leave this, it might be mined, or trapped, or something	Vielleicht ist es vermint oder gefangen oder so.	100
-text2	Scavenging operation completed. An intact module was discovered floating among the debris.	Scavenging-Operation abgeschlossen. Ein intaktes Modul wurde zwischen den Trümmern treibend entdeckt.	400
+text2	Scavenging operation completed. An intact module was discovered floating among the debris.	Plünderung abgeschlossen. Ein intaktes Modul wurde zwischen den Trümmern treibend entdeckt.	400
 title	Missile attack	Raketenangriff	35
 text2	Within the debris was a smart missile that was shot out of its launcher ages ago, but never found its target and stayed in standby mode. It somehow identified us as a threat and attacked. We still managed to collect some debris.	In den Trümmern befand sich eine intelligente Rakete, die vor Ewigkeiten aus ihrer Abschussrampe geschossen wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Sie erkannte uns irgendwie als Bedrohung und griff an. Wir haben es trotzdem geschafft, einige Trümmer einzusammeln.	400
 title	Micro-mines	Mikro-Minen	35
@@ -2741,7 +2741,7 @@ reasonToDisplay	survivor saved	Überlebender gerettet	30
 
 25 Exo debris, capmissile attack or artifact.prefab
 title	Metal debris	Metalltrümmer	35
-text	Scans have picked up a faint signal of active (potentially dangerous) technology within this field of debris. Commence scavenging operation?	Die Scans haben ein schwaches Signal aktiver (potenziell gefährlicher) Technologie innerhalb dieses Trümmerfeldes aufgefangen. Scavenging-Operation einleiten?	400
+text	Scans have picked up a faint signal of active (potentially dangerous) technology within this field of debris. Commence scavenging operation?	Die Scans haben ein schwaches Signal aktiver (potenziell gefährlicher) Technologie innerhalb dieses Trümmerfeldes aufgefangen. Plünderung einleiten?	400
 choiceText	Scavenge with Mothership	Plündern mit Mutterschiff	100
 choiceText	Scavenge with printed bots & equipment [-50 synthethics]	Plündern mit gedruckten Bots & Geräten [-50 Synthethik]	100
 text2	An intact artifact with partially active subsystems was discovered floating among the debris.	Ein intaktes Artefakt mit teilweise aktiven Subsystemen wurde in den Trümmern entdeckt.	400
@@ -2997,7 +2997,7 @@ choiceText	Scare it away with explosives [-25 explosives]	Verscheuchen Sie sie m
 choiceText	Try to lure it away from the wreckage with organics [-120 organics]	Versuchen Sie, es mit organischen Stoffen vom Wrack wegzulocken [-120 Organische Stoffe].	100
 choiceText	Leave the wreckage, it's not worth the risk.	Verlassen Sie das Wrack, es ist das Risiko nicht wert.	100
 text	"We do not have enough explosives needed for the task."	Wir haben nicht genug Sprengstoff für diese Aufgabe.	600
-text2	The explosions scared the worm and it decided to warps back into its own dimension. Scavenging operations completed without further incident.	Die Explosionen erschreckten den Wurm und er beschloss, in seine eigene Dimension zurück zu warpen. Die Scavenging-Operationen wurden ohne weitere Zwischenfälle abgeschlossen.	400
+text2	The explosions scared the worm and it decided to warps back into its own dimension. Scavenging operations completed without further incident.	Die Explosionen erschreckten den Wurm und er beschloss, in seine eigene Dimension zurück zu warpen. Die Plünderung wurde ohne weitere Zwischenfälle abgeschlossen.	400
 text	"We do not have enough organics needed for the task."	Wir haben nicht genug organische Stoffe für die Aufgabe.	600
 text2	Our bots lured out the worm, leading it away from the ship with a trail of edible particles. Other bots scavenged good parts of the wreckage while the worm was away chasing food.	Unsere Bots lockten den Wurm heraus und führten ihn mit einer Spur aus essbaren Partikeln vom Schiff weg. Andere Bots plünderten gute Teile des Wracks, während der Wurm auf der Jagd nach Nahrung war.	400
 text	Decoy operation... %	Täuschungsmanöver... %	50
@@ -3759,7 +3759,7 @@ text2	The "drone" proves to be just a pet slime. At least it does not eat much."
 
 1 wr. ancient unknown ship offline M.prefab
 text	The shipwreck is damaged beyond repair, no active systems or activity detected. Preliminary analysis suggests it is several thousand years old. Allow scavenging engineers to board the ship?	Das Schiffswrack ist irreparabel beschädigt, keine aktiven Systeme oder Aktivitäten erkennbar. Vorläufige Analysen deuten darauf hin, dass es mehrere tausend Jahre alt ist. Erlauben Sie den Bergungsingenieuren, das Schiff zu betreten?	400
-text2	Scavenging operation completed. Nothing to report.	Scavenging-Operation abgeschlossen. Nichts zu berichten.	400
+text2	Scavenging operation completed. Nothing to report.	Plünderung abgeschlossen. Nichts zu berichten.	400
 newName3	worthless ship remains	Wertlose Schiffsreste	25
 text	scavenging materials... %	Scavenging-Materialien... %	50
 text2	Against all odds, one of the central components is not completely broken.	Entgegen aller Wahrscheinlichkeit ist eine der zentralen Komponenten nicht komplett kaputt.	400
@@ -5991,7 +5991,7 @@ text2	In addition to exotics, the trade package contains a free gift. It is a mi
 
 13 wr. shipsx8, mostly carcasses, rare cat.prefab
 text	We have discovered a shipwreck of uknown design, floating in space and damaged beyond repair. It seems all systems are offline . Send scavenging engineers to board the ship?	Wir haben ein Schiffswrack unbekannter Bauart entdeckt, das im Weltraum treibt und irreparabel beschädigt ist. Es scheint, dass alle Systeme offline sind. Schicken Sie Bergungsingenieure an Bord des Schiffes?	400
-text2	Scavenging operation completed. No problems encountered.	Scavenging-Operation abgeschlossen. Es wurden keine Probleme festgestellt.	400
+text2	Scavenging operation completed. No problems encountered.	Plünderung abgeschlossen. Es wurden keine Probleme festgestellt.	400
 title	Nanobot infestation!	Nanobot-Befall!	35
 text2	Scavenging operation completed. Somehow, a particularly insidious nanobot from the ship avoided our decontamination procedures and got aboard the ship. It started to eat away some of the Mothership tech parts and multiplying rapidly. Sections of the ship had to be destroyed to stop the infestation.	Spülung abgeschlossen. Irgendwie umging ein besonders heimtückischer Nanobot vom Schiff unsere Dekontaminationsprozeduren und gelangte an Bord des Schiffes. Er begann, einige der technischen Teile des Mutterschiffs zu zerfressen und vermehrte sich schnell. Teile des Schiffes mussten zerstört werden, um den Befall zu stoppen.	400
 text	It is a carcass of a fuel tanker, looted to the bones... most likely work of pirates. Clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take a while.	Es handelt sich um den Kadaver eines bis auf die Knochen ausgeplünderten Treibstofftransporters ... höchstwahrscheinlich das Werk von Piraten. In der Nähe wurden treibende Treibstoffwolken entdeckt. Der ausgelaufene Treibstoff ist brauchbar, aber es könnte eine Weile dauern, ihn zu sammeln.	400
