@@ -161,8 +161,8 @@ PlayerFleet.cs
 
 CheckBattleStatus.cs
 	--- BATTLE WITH INDRUDERS END ---	--- KAMPF MIT EINDRINGLINGEN BEENDET ---	0
-	--- ESCAPED BATTLE ---	--- ENTKAM KAMPF ---	0
-	--- ALL ENEMY SHIPS ESCAPED ---	--- ALLE FEINDLICHEN SCHIFFE SIND ENTKOMMEN ---	0
+	--- ESCAPED BATTLE ---	--- FLUCHT ERFOLGREICH ---	0
+	--- ALL ENEMY SHIPS ESCAPED ---	--- ALLE FEINDLICHEN SCHIFFE SIND GEFLÜCHTET ---	0
 	--- BATTLE END ---	--- KAMPF ENDE ---	0
 
 CreateStarmapByTemplate.cs
@@ -238,7 +238,7 @@ ShopResourceManager.cs
 plural	resource|resources	Ressource|Ressourcen	0
 
 StartBattle.cs
-	--- BATTLE START ---	--- KAMPFBEGINN ---	0
+	--- BATTLE START ---	--- KAMPF BEGINN ---	0
 
 TutorialWait.cs
 	for weapon crafting	für selbst gebaute Waffen	0
@@ -308,7 +308,7 @@ Ship.cs
 	Self destructs in {0}s	Selbstzerstörung in {0}s	0
 	SP	SP	0
 	Sector radar range bonus: +{0}ru	Sektorenradar-Reichweitenbonus: +{0}ru	0
-	Starmap radar range bonus: +{0}ru	Starmap-Radar-Reichweitenbonus: +{0}ru	0
+	Starmap radar range bonus: +{0}ru	Sternenkarte-Radar-Reichweitenbonus: +{0}ru	0
 	(radar bonuses have no effect, because there is no working Sensor module)	(Radar-Boni haben keine Wirkung, da kein funktionierendes Sensor-Modul vorhanden ist)	0
 
 ShipModule.cs
@@ -435,7 +435,7 @@ ModuleDataSubpanel.cs
 	EMP {0}s	EMP {0}s	0
 	Point defence reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	Punktabwehr Nachladezeit.\nVerringerung durch Geschützfertigkeit ({0}% pro Punkt Geschützfertigkeit des Operators)	0
 	Point defence cover radius.\nIncreased by gunnery skill({0}% per operator gunnery skill point)	Deckungsradius der Punktabwehr.\nErhöht durch die Geschützfertigkeit ({0}% pro Punkt der Geschützfertigkeit des Operators)	0
-	Starmap radar range.\nShip will use max value if multiple sensors are present.\nIncreased by sensor skill(+{0}% per operator sensor skill point)	Starmap-Radar-Reichweite.\nSchiff verwendet maximalen Wert, wenn mehrere Sensoren vorhanden sind.\nErhöht durch Sensor-Fertigkeit(+{0}% pro Operator-Sensor-Fertigkeitspunkt)	0
+	Starmap radar range.\nShip will use max value if multiple sensors are present.\nIncreased by sensor skill(+{0}% per operator sensor skill point)	Sternenkarte-Radar-Reichweite.\nSchiff verwendet maximalen Wert, wenn mehrere Sensoren vorhanden sind.\nErhöht durch Sensor-Fertigkeit(+{0}% pro Operator-Sensor-Fertigkeitspunkt)	0
 	Ship evasion bonus ({0} per operator bridge skill point)	Schiffsausweichbonus ({0} pro Bediener-Brückenfertigkeitspunkt)	0
 	Shield reload time.\nReduced by shield skill({0}% per operator shield skill point)	Schildnachladezeit.\nVerringerung durch Schild-Fertigkeit ({0}% pro Bediener-Schild-Fertigkeitspunkt)	0
 	Warp reload time.\nReduced by warp skill({0}% per operator shield skill point)	Warp-Nachladezeit.\nVerringerung durch Warp-Fertigkeit ({0}% pro Schild-Fertigkeitspunkt des Operators)	0
@@ -489,17 +489,17 @@ PlayerPanel.cs
 	(nominal production is {0:+0;-0;+0})	(nominale Produktion ist {0:+0;-0;+0})	0
 
 PlayerStatsPanel.cs
-	Starmap speed, range units per second	Starmap-Geschwindigkeit, Entfernungseinheiten pro Sekunde	0
+	Starmap speed, range units per second	Sternenkarte-Geschwindigkeit, Entfernungseinheiten pro Sekunde	0
 	{0} +{1}	{0} +{1}	0
 	Asteroid deflection	Asteroiden-Ablenkung	0
 	{0} +{1}%	{0} +{1}%	0
-	Starmap stealth detection level	Starmap-Tarnkappen-Erkennungsstufe	0
+	Starmap stealth detection level	Sternenkarte-Tarnkappen-Erkennungsstufe	0
 	{0} (provides {1}, using max)	{0} (liefert {1}, bei Verwendung von max)	0
 	Shipwide accuracy bonus - makes weapons more accurate	Schiffsweiter Genauigkeits-Bonus - macht die Waffen genauer	0
 	{0} (accuracy {1:+0;-0;+0}%)	{0} (Genauigkeit {1:+0;-0;+0}%)	0
-	Starmap radar range in range units	Starmap-Radar-Reichweite in Reichweiteneinheiten	0
+	Starmap radar range in range units	Sternenkarte-Radar-Reichweite in Reichweiteneinheiten	0
 	{0} (provides {1:+0;-0;+0}ru, using max)	{0} (liefert {1:+0;-0;+0}ru, unter Verwendung von max)	0
-	(all ranges include ship starmap radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten Schiffs-Starmap-Radarbonus {0:+0;-0;+0}ru)	0
+	(all ranges include ship starmap radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten Schiffs-Sternenkarte-Radarbonus {0:+0;-0;+0}ru)	0
 	(current range is reduced by clouds)	(aktuelle Reichweite wird durch Wolken reduziert)	0
 	Sector radar range in range units	Sektorradar-Reichweite in Entfernungseinheiten	0
 	(all ranges include ship sector radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten den Schiffs-Sektorradar-Bonus {0:+0;-0;+0}ru)	0
@@ -825,13 +825,13 @@ Game victory panel.prefab
 	20% of all crew received + x	20% der gesamten erhaltenen Crew + x	0
 	Number of dumped excess	Anzahl der verworfenen Überschüsse	0
 	Number battles where all enemy ships escaped	Anzahl der Schlachten, bei denen alle gegnerischen Schiffe entkommen sind	0
-	Number of times you escaped	Anzahl der Fluchten	0
+	Number of times you escaped	Erfolgreiche Fluchtversuche	0
 	SOS used	SOS benutzt	0
 	Battles fought	Gekämpfte Schlachten	0
 	Planets & warplife encountered	Begegnete Planeten & Warp-Leben	0
 	Slow-motion time used	Verwendete Zeitlupenzeit	0
 	Pause used	Pause verwendet	0
-	Victory fate bonus calculated from final score	Schicksalspunkte-Bonus aus dem Endergebnis erechnet	0
+	Victory fate bonus calculated from final score	Schicksalspunkte-Bonus aus dem Endergebnis errechnet	0
 
 Help panel.prefab
 Button	Quick Start	Schnellstart (Eingabegeräte)	0
@@ -1568,7 +1568,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Exotics produced per minute	Pro Minute produzierte Exoten	0
 	Ship HP and max HP bonus	Schiffs-HP und maximaler HP-Bonus	0
 	Ship asteroid defence bonus	Schiffs-Asteroidenabwehr-Bonus	0
-	Starmap speed bonus	Starmap-Geschwindigkeitsbonus	0
+	Starmap speed bonus	Sternenkarte-Geschwindigkeitsbonus	0
 	Shipwide accuracy bonus	Schiffsweiter Genauigkeits-Bonus	0
 	Sector radar range.\nShip will use max value if multiple sensors are present	Sektor-Radar-Reichweite: Das Schiff verwendet den maximalen Wert, wenn mehrere Sensoren vorhanden sind.	0
 	Max shield point capacity	Maximale Schildpunktkapazität	0
