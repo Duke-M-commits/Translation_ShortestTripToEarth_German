@@ -252,10 +252,10 @@ PointDefDamageDealer.cs
 	Incoming {0} neutralized	{0} neutralisiert	0
 
 PointDefenceModule.cs
-	point defence	Punktverteidigung	0
+	point defence	Punktabwehr	0
 
 Projectile.cs
-	Choose point-defence and right click this projectile to prioritize it.	Wählen Sie die Punktverteidigung und klicken Sie mit der rechten Maustaste auf dieses Geschoss, um es zu priorisieren.	0
+	Choose point-defence and right click this projectile to prioritize it.	Wählen Sie die Punktabwehr und klicken Sie mit der rechten Maustaste auf dieses Geschoss, um es zu priorisieren.	0
 
 ProjectileStatusVisualizers.cs
 
@@ -275,9 +275,9 @@ SkillEffects.cs
 	(1 skill point gives {0}% bonus)	(1 Fertigkeitspunkt gibt {0}% Bonus)	0
 	Sensor skill	Sensor-Fertigkeit	0
 	+{0}% short sensor range	+{0}% Sensorreichweite	0
-	Gunnery skill allows operating weapon and point defence modules	Geschützfertigkeit ermöglicht die Bedienung von Waffen- und Punktverteidigungsmodulen	0
+	Gunnery skill allows operating weapon and point defence modules	Geschützfertigkeit ermöglicht die Bedienung von Waffen- und Punktabwehr-Modulen	0
 	-{0}% weapon reload time	-{0}% Waffen-Nachladezeit	0
-	+{0}% point defence range	+{0}% Punktverteidigung-Reichweite	0
+	+{0}% point defence range	+{0}% Punktabwehr-Reichweite	0
 	+{0} weapon accuracy	+{0} Waffen-Genauigkeit	0
 	Shield skill allows operating shield generator modules	Schild-Fertigkeit erlaubt die Bedienung von Schildgeneratormodulen	0
 	+{0}% shield reload time	+{0}% Schild Nachladezeit	0
@@ -373,7 +373,7 @@ ShopForeground.cs
 	ship repairs	Schiffsreparaturen	0
 
 SpacePod.cs
-	Choose point-defence and right click this space pod to prioritize it.	Wählen Sie Punktverteidigung und klicken Sie mit der rechten Maustaste auf diese Raumkapsel, um sie zu priorisieren.	0
+	Choose point-defence and right click this space pod to prioritize it.	Wählen Sie Punktabwehr und klicken Sie mit der rechten Maustaste auf diese Raumkapsel, um sie zu priorisieren.	0
 
 Star.cs
 	{0}/{1} planets visited	{0}/{1} besuchte Planeten	0
@@ -433,8 +433,8 @@ ModuleDataSubpanel.cs
 	Damage to door	Schaden an Tür	0
 	Damage to shield	Schaden am Schild	0
 	EMP {0}s	EMP {0}s	0
-	Point defence reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	Punktverteidigung Nachladezeit.\nVerringerung durch Geschützfertigkeit ({0}% pro Punkt Geschützfertigkeit des Operators)	0
-	Point defence cover radius.\nIncreased by gunnery skill({0}% per operator gunnery skill point)	Deckungsradius der Punktverteidigung.\nErhöht durch die Geschützfertigkeit ({0}% pro Punkt der Geschützfertigkeit des Operators)	0
+	Point defence reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	Punktabwehr Nachladezeit.\nVerringerung durch Geschützfertigkeit ({0}% pro Punkt Geschützfertigkeit des Operators)	0
+	Point defence cover radius.\nIncreased by gunnery skill({0}% per operator gunnery skill point)	Deckungsradius der Punktabwehr.\nErhöht durch die Geschützfertigkeit ({0}% pro Punkt der Geschützfertigkeit des Operators)	0
 	Starmap radar range.\nShip will use max value if multiple sensors are present.\nIncreased by sensor skill(+{0}% per operator sensor skill point)	Starmap-Radar-Reichweite.\nSchiff verwendet maximalen Wert, wenn mehrere Sensoren vorhanden sind.\nErhöht durch Sensor-Fertigkeit(+{0}% pro Operator-Sensor-Fertigkeitspunkt)	0
 	Ship evasion bonus ({0} per operator bridge skill point)	Schiffsausweichbonus ({0} pro Bediener-Brückenfertigkeitspunkt)	0
 	Shield reload time.\nReduced by shield skill({0}% per operator shield skill point)	Schildnachladezeit.\nVerringerung durch Schild-Fertigkeit ({0}% pro Bediener-Schild-Fertigkeitspunkt)	0
@@ -686,7 +686,7 @@ Sets crew idle, cancels crewmember roles	No role	Keine Rolle	0
 Spaceship command bridge operator role	Bridge	Brücke	0
 Sensor/radar module operator role	Sensor	Sensor	0
 	Weapon	Waffe	0
-Point-defence weapon module operator	Point defence	Punktverteidigung	0
+Point-defence weapon module operator	Point defence	Punktabwehr	0
 Garden module operator	Garden	Garten	0
 Is an intruder (enemy crew boarding player ship)	Intruder	Eindringling	0
 Research module operator	Research	Forschung	0
@@ -722,40 +722,40 @@ Button. Send crewmember to attack another crew or module.	ATTACK	ANGRIFF	6
 	INTRUDER	EINDRINGLING	0
 
 Crew assignment panel.prefab
-bridgeAssignment.firstHoverLine	Bridge operators	Brückenbediener	50
+bridgeAssignment.firstHoverLine	Bridge operators	Brücken-Offiziere	50
 sensorAssignment.firstHoverLine	Sensor operators	Sensor-Operatoren	50
-weaponAssignment.firstHoverLine	Weapon operators	Waffenbediener	50
-pointDefAssignment.firstHoverLine	Point defence operators	Bediener für Punktabwehr	50
+weaponAssignment.firstHoverLine	Weapon operators	Waffen-Operatoren	50
+pointDefAssignment.firstHoverLine	Point defence operators	Punktabwehr-Operator	50
 shieldAssignment.firstHoverLine	Shield operators	Schild-Operatoren	50
 warpAssignment.firstHoverLine	Warp operator	Warp-Operator	50
 repairAssignment.firstHoverLine	Repair officers	Reparatur-Offiziere	50
-fireAssignment.firstHoverLine	Fire officers	Feuer-Offiziere	50
-securityAssignment.firstHoverLine	Security officers	Sicherheitsoffiziere	50
-gardenAssignment.firstHoverLine	Garden operators	Garten-Betreiber	50
+fireAssignment.firstHoverLine	Fire officers	Feuerwehrleute	50
+securityAssignment.firstHoverLine	Security officers	Wachen	50
+gardenAssignment.firstHoverLine	Garden operators	Gärtner	50
 labAssignment.firstHoverLine	Researchers	Forscher	50
 cryosleepAssignment.firstHoverLine	Cryosleep users	Kryoschlaf-Anwender	50
 trainingAssignment.firstHoverLine	Trainees	Auszubildende	50
 	Click on role to send an entity with best relevant skill to take care of it.\nIf a drone and living entity have the same skill level, a drone will be assigned first.\nOnly unoccupied crew can be given roles.\nDrones & pets can be assigned to limited activities only.	Klicken Sie auf eine Rolle, um eine Entität mit dem besten relevanten Skill zu schicken, um sich um sie zu kümmern.\nWenn eine Drohne und eine lebende Entität den gleichen Skill-Level haben, wird zuerst die Drohne zugewiesen.\nNur unbeschäftigte Crew kann Rollen erhalten.\nDrohnen & Haustiere können nur für begrenzte Aktivitäten zugewiesen werden.	0
 	ROLES	ROLLEN	12
-	Select all bridge operators	Alle Brückenbediener auswählen	0
-	Select all gun operators	Wählen Sie alle Geschützbediener aus	0
-	Select all point-defence operators	Wählen Sie alle Punktverteidigungsoperatoren aus	0
-	Select all shield operators	Wählen Sie alle Schildbediener aus	0
-	Select all warpdrive operators	Wählen Sie alle Bediener des Warpantriebs	0
-	Select all sensor operators	Wählen Sie alle Sensorbediener	0
+	Select all bridge operators	Alle Offiziere der Brücke auswählen	0
+	Select all gun operators	Alle Operatoren von Geschützen auswählen	0
+	Select all point-defence operators	Alle Operatoren von Punktabwehranlagen auswählen	0
+	Select all shield operators	Alle Operatoren von Schildgeneratoren auswählen	0
+	Select all warpdrive operators	Operator des Warpantriebs auswählen	0
+	Select all sensor operators	Operator des Sensors auswählen	0
 	Select all firefighters	Alle Feuerwehrleute auswählen	0
-	Select all guards	Wählen Sie alle Wächter	0
-	Select all repairers	Alle Reparateure auswählen	0
+	Select all guards	Alle Wachen auswählen	0
+	Select all repairers	Alle Reparatur-Offiziere auswählen	0
 	Do not allow ship HP repair by repair officers.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-HP-Reparaturen durch Reparaturoffiziere nicht zulassen.\nEs ist sinnvoll, dies standardmäßig ausgeschaltet zu lassen, da Schiffs-HP-Reparaturen billiger sind, wenn sie von Reparaturstationen durchgeführt werden.	0
 	OFF	AUS	4
 	Allow ship HP repair by repair officers.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-HP-Reparatur durch Reparaturoffiziere zulassen.\nEs ist sinnvoll, dies standardmäßig deaktiviert zu lassen, da die HP-Reparatur von Schiffen billiger ist, wenn sie von Reparaturstationen durchgeführt wird.	0
 	ON	EIN	4
 	Allow ship HP repair by crew.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-HP-Reparatur durch Besatzung zulassen.\nEs ist sinnvoll, dies standardmäßig ausgeschaltet zu lassen, weil\nSchiff-HP-Reparaturen billiger sind, wenn sie von Reparaturstationen durchgeführt werden.	0
 	Select all gardeners	Alle Gärtner auswählen	0
-	Select all scientists	Wählen Sie alle Wissenschaftler aus	0
-	Select all cryosleeping crewmembers	Alle kryoschlafenden Crew-Mitglieder auswählen	0
+	Select all scientists	Alle Forscher auswählen	0
+	Select all cryosleeping crewmembers	Alle Crew-Mitglieder im Kryoschlaf auswählen	0
 	UNOCCUPIED	UNBESCHÄFTIGT	17
-	Select all unoccupied crew	Wählen Sie alle unbeschäftigten Crewmitglieder aus	0
+	Select all unoccupied crew	Alle unbeschäftigten Crewmitglieder auswählen	0
 	CREW TYPES	BESATZUNGSTYPEN	17
 	Select all ordinary crew	Alle normalen Besatzungsmitglieder auswählen	0
 	Select all pets	Alle Haustiere auswählen	0
@@ -948,10 +948,10 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	In easier game mode(s): when ship HP reaches 0, damage is substracted from ship max HP. This permanent damage cannot be repaired.	In leichteren Spielmodi: Wenn die Schiffshüllenpunkte 0 erreichen, wird der Schaden von den maximalen Schiffshüllenpunkten abgezogen. Dieser permanente Schaden kann nicht repariert werden.	0
 	If your stealth detection is same or higher than stealth level of enemy fleet, you will see the enemy fleet as a red icon and also the area that it guards on the starsystem map.	Wenn Ihre Tarnkappenerkennung gleich oder höher ist als die Tarnkappenstufe der gegnerischen Flotte, sehen Sie die gegnerische Flotte als rotes Symbol und auch den Bereich, den sie bewacht, auf der Sternensystemkarte.	0
 	High danger of\nasteroid impacts	Hohe Gefahr von\nAsteroideneinschlägen	0
-	Concentrated asteroid clusters have increased risk of impacts. \nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidencluster mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktverteidigungen und Integritätsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0
+	Concentrated asteroid clusters have increased risk of impacts. \nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidencluster mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktabwehr und Integritätsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0
 	Weapons & other modules	Waffen und andere Module	0
 	Weapons and ECM modules can only be installed to external slots:	Waffen und ECM-Module können nur auf externen Steckplätzen eingebaut werden:	0
-	Point defences can only be installed in hybrid slots:	Punktverteidigungen können nur in Hybrid-Steckplätzen eingebaut werden:	0
+	Point defences can only be installed in hybrid slots:	Punktabwehr kann nur in Hybrid-Steckplätzen eingebaut werden:	0
 	Most other modules can be installed to internal, core, hybrid or external slots:	Die meisten anderen Module können in internen, Kern-, Hybrid- oder externen Steckplätzen eingebaut werden:	0
 	Special modules like warp, engine, bridge and capital missile can only be installed to dedicated slots:	Spezialmodule wie Warp, Triebwerk, Brücke und Capital Missile können nur in speziellen Steckplätzen eingebaut werden:	0
 	Module slot upgrades	Modulsteckplatz-Upgrades	0
@@ -971,7 +971,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Energy weapons	Energiewaffen	0
 	• Blocked by shields\r\n• Best accuracy of all weapon types\n• Almost never consume any ammo\r\n• Need more power than other modules\r\n• \rOverload shield modules after neutralizing all shield points	- Werden von Schilden blockiert\n- Beste Genauigkeit aller Waffentypen\n- Verbrauchen fast nie Munition\n- Benötigen mehr Energie als andere Module\n- Überladen Schildmodule nach Neutralisierung aller Schildpunkte	0
 	Missiles	Raketen	0
-	• Never deflect\n• Ignore shields\r\n• Very accurate\r\n• Large area of effect\n• Consume a lot of explosives\r\n• Fragile projectiles, vulnerable to point-defences\r\n• Fairly slow reload\r\n• Missiles travel slowly	- Nie ablenken\n- Ignorieren Schilde\n- Sehr genau\n- Großer Wirkungsbereich\n- Verbrauchen viel Sprengstoff\n- Zerbrechliche Geschosse, anfällig für Punktverteidigung\n- Ziemlich langsames Nachladen\n- Raketen bewegen sich langsam	0
+	• Never deflect\n• Ignore shields\r\n• Very accurate\r\n• Large area of effect\n• Consume a lot of explosives\r\n• Fragile projectiles, vulnerable to point-defences\r\n• Fairly slow reload\r\n• Missiles travel slowly	- Nie ablenken\n- Ignorieren Schilde\n- Sehr genau\n- Großer Wirkungsbereich\n- Verbrauchen viel Sprengstoff\n- Zerbrechliche Geschosse, anfällig für Punktabwehr\n- Ziemlich langsames Nachladen\n- Raketen bewegen sich langsam	0
 	Cannons	Kanonen	0
 	• Ignore shields\r\n• Very low accuracy\r\n• Usually consume resources with each shot\r\n• Reduced reload times\n• Usually have more hitpoints than other modules\n• Armored structure may add ship HP	- Ignorieren Schilde\n- Sehr geringe Genauigkeit\n- Verbrauchen in der Regel bei jedem Schuss Ressourcen\n- Reduzierte Nachladezeiten\n- Haben in der Regel mehr Trefferpunkte als andere Module\n- Gepanzerte Struktur kann Schiffs-HP hinzufügen	0
 	Gatling guns	Gatling-Geschütze	0
@@ -985,11 +985,11 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Special weapons	Besondere Waffen	0
 	• Various rare weapons with a variety of special effects\n• Some consume exotics with each shot\n• Need more power than other modules\r\n• Expensive	- Verschiedene seltene Waffen mit einer Vielzahl von Spezialeffekten\n- Einige verbrauchen bei jedem Schuss Exoten\n- Brauchen mehr Energie als andere Module\n- Teuer	0
 	Shooting here is not the best option, because some or all of the shots might completely miss the ship.	Hier zu schießen ist nicht die beste Option, da einige oder alle Schüsse das Schiff komplett verfehlen können.	0
-	Shooting here is great, because none of the shots will miss the ship, \rand some might even hit important modules like weapons, reactors or point-defences.	Hier zu schießen ist großartig, denn keiner der Schüsse wird das Schiff verfehlen, \nund einige könnten sogar wichtige Module wie Waffen, Reaktoren oder Punktverteidigung treffen.	0
+	Shooting here is great, because none of the shots will miss the ship, \rand some might even hit important modules like weapons, reactors or point-defences.	Hier zu schießen ist großartig, denn keiner der Schüsse wird das Schiff verfehlen, \nund einige könnten sogar wichtige Module wie Waffen, Reaktoren oder Punktabwehr treffen.	0
 	Damage enemy shield modules with shield-penetrating weapons to get rid of enemy shield points.	Beschädigen Sie feindliche Schildmodule mit schilddurchdringenden Waffen, um feindliche Schildpunkte loszuwerden.	0
 	Damage enemy weapons to reduce incoming damage.	Beschädigen Sie feindliche Waffen, um eingehenden Schaden zu reduzieren.	0
 	Damage enemy bridge to disable all modules not operated by crew.	Beschädigen Sie die gegnerische Brücke, um alle Module zu deaktivieren, die nicht von der Crew bedient werden.	0
-	Damage enemy point defences to allow your missiles to hit the enemy.	Beschädigen Sie feindliche Punktverteidigungen, damit Ihre Raketen den Feind treffen können.	0
+	Damage enemy point defences to allow your missiles to hit the enemy.	Beschädigen Sie feindliche Punktabwehr, damit Ihre Raketen den Feind treffen können.	0
 	Damage enemy reactors to decrease enemy power, possibly disabling many modules.	Beschädigen Sie gegnerische Reaktoren, um die gegnerische Leistung zu verringern und möglicherweise viele Module zu deaktivieren.	0
 	Damage enemy engine to reduce the evasion of enemy ship (makes your weapons more accurate).	Feindliches Triebwerk beschädigen, um die Ausweichfähigkeit des gegnerischen Schiffes zu verringern (macht Ihre Waffen präziser).	0
 	Deflection: chance to completely negate incoming shots by deflecting them. Works both against projectile & ray weapons.	Ablenkung: Chance, eingehende Schüsse durch Ablenkung komplett zu negieren. Funktioniert sowohl gegen Projektil- als auch gegen Strahlenwaffen.	0
@@ -1476,7 +1476,7 @@ dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht
 Module actions panel.prefab
 	Module inherent armor (chance to negate attacks)	Modul Rüstung (Chance, Angriffe zu negieren)	0
 	Select underlaying slot	Darunterliegenden Steckplatz auswählen	0
-Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	STECK- \nPLATZ	16
+Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	STECK\nPLATZ	16
 	Scrap module\norganics +30\nfuel +10	Schrottmodul\nOrganik +30\Brennstoff +10	0
 Button. Scrap/recycle module to materials	SCRAP	SCHROTT	6
 	Confirm scrap module\norganics +30\nfuel +10	Verschrottung bestätigen \nOrganisches +30\nKraftstoff +10	0
@@ -1604,7 +1604,7 @@ ModuleSlot actions panel.prefab
 	SLOT UPGRADES	STECKPLATZ AUFRÜSTUNG	0
 	Click to list only craftable resource packs and containers	Klicken Sie hier, um nur DIY Ressourcenpakete und Container aufzulisten	0
 	CARGO	FRACHT	0
-	Click to list only craftable weapon and point defence modules	Klicken Sie hier, um nur die DIY Waffen- und Punktverteidigungsmodule aufzulisten	0
+	Click to list only craftable weapon and point defence modules	Klicken Sie hier, um nur die DIY Waffen- und Punktabwehr-Module aufzulisten	0
 	WEAPONS	WAFFEN	0
 	Click to list only craftable nukes	Klicken Sie hier, um nur DIY Atomwaffen aufzulisten	0
 	NUKES	ATOMBOMBEN	0
@@ -2062,7 +2062,7 @@ text	Print long-range missiles to destroy the installations from afar? We could 
 choiceText	Fire! Fire! Fire! [-40 explosives]	Feuer! Feuer! Feuer! [-40 Sprengstoff]	100
 title	Long-range bombardment	Langstreckenbombardement	35
 text2	We bombard the area with a massive swarm of long-range missiles, annihilating even the heavily armoured defences. Upon approaching, however, the trade store they were guarding self-detonates. Scrap will have to do.	Wir bombardieren das Gebiet mit einem massiven Schwarm von Langstreckenraketen, die selbst die schwer gepanzerten Verteidigungsanlagen auslöschen. Bei der Annäherung explodiert jedoch das Handelslager, das sie bewachten, von selbst. Schrott wird reichen müssen.	400
-text2	We bombard the area with a massive swarm of long-range missiles, destroying numerous defences. However, it seems some of the installations are located deep within asteroids and equipped with point-defence capabilities. We decide to cut our losses and leave.	Wir bombardieren das Gebiet mit einem massiven Schwarm von Langstreckenraketen und zerstören zahlreiche Verteidigungsanlagen. Es scheint jedoch, dass sich einige der Anlagen tief im Inneren von Asteroiden befinden und mit Punktverteidigungsanlagen ausgestattet sind. Wir beschließen, unsere Verluste zu begrenzen und zu verschwinden.	400
+text2	We bombard the area with a massive swarm of long-range missiles, destroying numerous defences. However, it seems some of the installations are located deep within asteroids and equipped with point-defence capabilities. We decide to cut our losses and leave.	Wir bombardieren das Gebiet mit einem massiven Schwarm von Langstreckenraketen und zerstören zahlreiche Verteidigungsanlagen. Es scheint jedoch, dass sich einige der Anlagen tief im Inneren von Asteroiden befinden und mit Punktabwehranlagen ausgestattet sind. Wir beschließen, unsere Verluste zu begrenzen und zu verschwinden.	400
 text	firing long-range missiles... %	Abfeuern von Langstreckenraketen... %	50
 
 1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab
@@ -3774,7 +3774,7 @@ text	Our sensors detect active technology within the wreckage but no life. The a
 choiceText	Print disposable bots for a closer look [-20 synthethics]	Drucken Sie Einweg-Bots für eine genauere Untersuchung aus [-20 Synthethik]	100
 choiceText	Investigate with ship	Untersuchen Sie mit dem Schiff	100
 title	Success!	Erfolgreich!	35
-text2	Our hackers were launched at the ship aboard heavily armoured boarding shuttles and survived the point defence crossfire while approaching. Once inside, they discovered the ship was rather primitive and were able to disable it with little effort.	Unsere Hacker wurden an Bord von schwer gepanzerten Boarding-Shuttles auf das Schiff losgelassen und überlebten das Kreuzfeuer der Punktverteidigung beim Anflug. Im Inneren angekommen, entdeckten sie, dass das Schiff recht primitiv war und konnten es mit wenig Aufwand außer Gefecht setzen.	400
+text2	Our hackers were launched at the ship aboard heavily armoured boarding shuttles and survived the point defence crossfire while approaching. Once inside, they discovered the ship was rather primitive and were able to disable it with little effort.	Unsere Hacker wurden an Bord von schwer gepanzerten Boarding-Shuttles auf das Schiff losgelassen und überlebten das Kreuzfeuer der Punktabwehr beim Anflug. Im Inneren angekommen, entdeckten sie, dass das Schiff recht primitiv war und konnten es mit wenig Aufwand außer Gefecht setzen.	400
 reasonToDisplay	scavenged shipwreck	geplündertes schiffswrack	30
 text	We do not have the necessary crew for this operation. We will attempt disabling the defences from afar.	Wir haben nicht die notwendige Besatzung für diese Operation. Wir werden versuchen, die Verteidigungsanlagen aus der Ferne auszuschalten.	600
 title	Confirmed loss	Bestätigter Verlust	35
@@ -3782,9 +3782,9 @@ text2	Our hackers were launched at the ship on heavily armoured boarding shuttle
 reasonToDisplay	boarding operation	Boarding-Operation	30
 text	rescue mission...	Rettungsmission...	50
 title	Ship destroyed	Schiff zerstört	35
-text2	We neutralized all of the ships point defence weapons with ranged precision fire. Something else exploded in the ship as well, unfortunately, reducing the ship to dispersed clouds of scrap.	Wir haben alle Punktverteidigungswaffen des Schiffes mit Präzisionsfernfeuer neutralisiert. Leider ist auch etwas anderes im Schiff explodiert und hat das Schiff in eine verstreute Schrottwolke verwandelt.	400
+text2	We neutralized all of the ships point defence weapons with ranged precision fire. Something else exploded in the ship as well, unfortunately, reducing the ship to dispersed clouds of scrap.	Wir haben alle Punktabwehr-Waffen des Schiffes mit Präzisionsfernfeuer neutralisiert. Leider ist auch etwas anderes im Schiff explodiert und hat das Schiff in eine verstreute Schrottwolke verwandelt.	400
 reasonToDisplay	ship remains scavenged	Schiffsreste geplündert	30
-text2	We destroyed all of the ship's point defence weapons with ranged precision fire. Scavenging operation revelead an intact module inside the ship.	Wir haben alle Punktverteidigungswaffen des Schiffes mit Präzisionsfernfeuer zerstört. Die Plünderungsaktion förderte ein intaktes Modul im Inneren des Schiffes zutage.	400
+text2	We destroyed all of the ship's point defence weapons with ranged precision fire. Scavenging operation revelead an intact module inside the ship.	Wir haben alle Punktabwehr-Waffen des Schiffes mit Präzisionsfernfeuer zerstört. Die Plünderungsaktion förderte ein intaktes Modul im Inneren des Schiffes zutage.	400
 text	precision firing...	Präzisionsfeuern...	50
 text	launching boarders... %	Abschuss von Enterern... %.	50
 text	casualty!	Unfall!	50
@@ -3797,7 +3797,7 @@ text	Nobody volunteers for another hacking operation. We will attempt disabling 
 text2	The ship has a few defensive systems online, and they have opened fire at our bots. We may try to neutralize the automated weapons from afar, and risk breaking the entire vessel. Or we could risk sending a few crewmembers to hack the ship and get all its technology, without the danger of breaking it.	Das Schiff hat ein paar Verteidigungssysteme online, und sie haben das Feuer auf unsere Bots eröffnet. Wir könnten versuchen, die automatischen Waffen aus der Ferne zu neutralisieren, und riskieren, das gesamte Schiff zu zerstören. Oder wir könnten es riskieren, ein paar Crewmitglieder zu schicken, um das Schiff zu hacken und die gesamte Technologie zu bekommen, ohne die Gefahr, es zu zerstören.	400
 reasonToDisplay	scouting bots destroyed	Scouting-Bots zerstört	30
 choiceTexts	Ask 2 volunteers to hack the ship	2 Freiwillige bitten, das Schiff zu hacken	100
-text2	Our bots were able to rescue the crewmember, despite point-defence crossfire. Since nobody else volunteered to hack the ship, our only option remains destroying its defensive systems with our ship weapons, and risking collateral damage to salvageable parts.	Unsere Bots waren in der Lage, das Besatzungsmitglied zu retten, trotz des Kreuzfeuers der Punktverteidigung. Da sich niemand sonst freiwillig gemeldet hat, das Schiff zu hacken, bleibt uns nur die Möglichkeit, seine Verteidigungssysteme mit unseren Schiffswaffen zu zerstören und dabei Kollateralschäden an bergbaren Teilen zu riskieren.	400
+text2	Our bots were able to rescue the crewmember, despite point-defence crossfire. Since nobody else volunteered to hack the ship, our only option remains destroying its defensive systems with our ship weapons, and risking collateral damage to salvageable parts.	Unsere Bots waren in der Lage, das Besatzungsmitglied zu retten, trotz des Kreuzfeuers der Punktabwehr. Da sich niemand sonst freiwillig gemeldet hat, das Schiff zu hacken, bleibt uns nur die Möglichkeit, seine Verteidigungssysteme mit unseren Schiffswaffen zu zerstören und dabei Kollateralschäden an bergbaren Teilen zu riskieren.	400
 reasonToDisplay	crew evacuated	Besatzung evakuiert	30
 title	Well preserved shipwreck	Gut erhaltenes Schiffswrack	35
 text2	The active technology was just backup memory systems running at minimal capacity. Two of the ship's modules are completely intact, no bodies discovered. We scrapped the entire vessel, and recovered our printed disposable bots as well.	Die aktive Technologie war nur ein Backup-Speichersystem, das mit minimaler Kapazität lief. Zwei der Schiffsmodule sind völlig intakt, es wurden keine Leichen entdeckt. Wir haben das gesamte Schiff verschrottet und auch unsere gedruckten Einweg-Bots geborgen.	400
@@ -4459,7 +4459,7 @@ text2	Taking a look inside the wreckage, our engineers found an armored cryopod 
 displayName	Refuelling station	Betankungsstation	25
 name2	no signal	kein Signal	25
 title	Damaged station	Beschädigte Station	35
-text	This refueling outpost is offline. Closer inspection reveals the station systems have broken down due to a series of malfunctions, accumulating over the years. There's still some fuel inside the station tanks. The Earth Alliance crew who built it will probably want to repair the station later on.	Dieser Betankungs-Außenposten ist offline. Eine genauere Untersuchung zeigt, dass die Systeme der Station aufgrund einer Reihe von Fehlfunktionen, die sich im Laufe der Jahre angesammelt haben, ausgefallen sind. Es befindet sich noch etwas Treibstoff in den Tanks der Station. Die Crew der Erdallianz, die sie gebaut hat, wird die Station wahrscheinlich später reparieren wollen.	400
+text	This refueling outpost is offline. Closer inspection reveals the station systems have broken down due to a series of malfunctions, accumulating over the years. There's still some fuel inside the station tanks. The Earth Alliance crew who built it will probably want to repair the station later on.	Dieser Betankungs-Außenposten ist offline. Eine genauere Untersuchung zeigt, dass die Systeme der Station aufgrund einer Reihe von Fehlfunktionen, die sich im Laufe der Jahre angesammelt haben, ausgefallen sind. Es befindet sich noch etwas Treibstoff in den Tanks der Station. Die Crew der Erd-Allianz, die sie gebaut hat, wird die Station wahrscheinlich später reparieren wollen.	400
 choiceText	Collect all the fuel we can	Sammeln Sie so viel Treibstoff ein, wie wir können	100
 title	Fuel tanks full	Treibstofftanks voll	35
 text2	Our fuel tanks are too full. We can return later when we have greater fuel capacity.	Unsere Treibstofftanks sind zu voll. Wir können später zurückkehren, wenn wir mehr Treibstoffkapazität haben.	400
@@ -4467,7 +4467,7 @@ text	refuelling...%	Tanken...%	50
 FormatString.setText	{0} fuel left	{0} Treibstoff übrig	0
 title	Fuel obtained	Treibstoff erhalten	35
 reasonToDisplay	fuel received	erhaltener Treibstoff	30
-title	Earth Alliance refuelling outpost	Erdallianz-Tankstellen-Außenposten	35
+title	Earth Alliance refuelling outpost	Erd-Allianz-Tankstellen-Außenposten	35
 text2	There's no fuel left to collect. We've obtained all the fuel.	Es gibt keinen Treibstoff mehr zu sammeln. Wir haben den gesamten Treibstoff erhalten.	400
 newName3	empty refuelling station	leere Betankungsstation	25
 
@@ -4476,7 +4476,7 @@ text	This refueling outpost is offline, and there's a cloud of dispersed starfue
 text2	There's no fuel left to collect, we've taken everything.	Es gibt keinen Treibstoff mehr zu holen, wir haben alles mitgenommen.	400
 
 3 EH refuelling station.prefab
-name2	((Earth Alliance signal))	((Erdallianzsignal))	25
+name2	((Earth Alliance signal))	((Erd-Allianz-Signal))	25
 text	"Hello, I have fresh, well-kept starfuel, ready to serve your surely-benevolent purposes!" says the minor AI managing the outpost."	Hallo, ich habe frischen, gut erhaltenen Sternentreibstoff, bereit, euren sicherlich wohlwollenden Zwecken zu dienen! sagt die kleine KI, die den Außenposten verwaltet."	400
 choiceText	Fill our tanks	Füllen Sie unsere Tanks	100
 text2	The station AI reports having exactly {0} units of fuel left.	Die Stations-KI meldet, dass sie noch genau {0} Einheiten Treibstoff hat.	400
@@ -5233,9 +5233,9 @@ text2	We managed to evacuate our operatives & destroy the ship's defences in the
 reasonToDisplay	biotech remains scavenged	Biotech-Reste erbeutet	30
 text2	Our ship closed in under fire and successfully evacuated the team. Once the crew was back on board, we destroyed their defences (dealing collateral damage to other parts of the ship) and scavenged the remains. Analysing the advanced biotech remains yields scientific value.	Unser Schiff näherte sich unter Beschuss und evakuierte die Mannschaft erfolgreich. Sobald die Mannschaft wieder an Bord war, zerstörten wir ihre Verteidigungsanlagen (wobei andere Teile des Schiffes beschädigt wurden) und plünderten die Überreste. Die Analyse der fortgeschrittenen biotechnischen Überreste ergibt einen wissenschaftlichen Wert.	400
 text	evacuation operation... %	Evakuierungsaktion... %	50
-text2	Fortunately, the backup also survived the point defence crossfire of the vessel. They regrouped inside with earlier boarders and were able to overwhelm the defenders without losses. The ship and its rare technology are ours!	Glücklicherweise überlebte die Verstärkung auch das Kreuzfeuer der Punktverteidigung des Schiffes. Sie gruppierten sich im Inneren mit früheren Eindringlingen neu und konnten die Verteidiger ohne Verluste überwältigen. Das Schiff und seine seltene Technologie gehören uns!	400
+text2	Fortunately, the backup also survived the point defence crossfire of the vessel. They regrouped inside with earlier boarders and were able to overwhelm the defenders without losses. The ship and its rare technology are ours!	Glücklicherweise überlebte die Verstärkung auch das Kreuzfeuer der Punktabwehr des Schiffes. Sie gruppierten sich im Inneren mit früheren Eindringlingen neu und konnten die Verteidiger ohne Verluste überwältigen. Das Schiff und seine seltene Technologie gehören uns!	400
 text2	The shuttle carrying backup boarders got hit by point defence fire from the biotech vessel during approach, but everybody survived. They were able to overwhelm the defenders without casualties. The ship and its rare technology are ours!	Das Shuttle mit den Reserveeinsteigern wurde beim Anflug vom Punktabwehrfeuer des Biotech-Schiffes getroffen, aber alle überlebten. Sie konnten die Verteidiger ohne Verluste überwältigen. Das Schiff und seine seltene Technologie gehören uns!	400
-text2	Fortunately, the backup also survived the point defence crossfire of the vessel. They regrouped inside with earlier boarders and attacked the remaining defence bots. Unfortunately, they misjudged the defender numbers and got swarmed, resulting in critical wounds.	Glücklicherweise überlebte auch die Verstärkung das Kreuzfeuer der Punktverteidigung des Schiffes. Sie gruppierten sich im Inneren mit den früheren Einsteigern neu und griffen die restlichen Verteidigungsbots an. Leider schätzten sie die Anzahl der Verteidiger falsch ein und wurden überrannt, was zu kritischen Verwundungen führte.	400
+text2	Fortunately, the backup also survived the point defence crossfire of the vessel. They regrouped inside with earlier boarders and attacked the remaining defence bots. Unfortunately, they misjudged the defender numbers and got swarmed, resulting in critical wounds.	Glücklicherweise überlebte auch die Verstärkung das Kreuzfeuer der Punktabwehr des Schiffes. Sie gruppierten sich im Inneren mit den früheren Einsteigern neu und griffen die restlichen Verteidigungsbots an. Leider schätzten sie die Anzahl der Verteidiger falsch ein und wurden überrannt, was zu kritischen Verwundungen führte.	400
 
 4 wr emper tactical, lasers or cannon.prefab
 title	Ship wreckage	Schiffswrack	35
@@ -5769,7 +5769,7 @@ text2	Inspection after purchase reveals that the data plates which should have i
 text	To your relief, the place does not have any obvious connections to sentient slavery. However, eating enslaved animals with some form of consciousness seems to be the norm here. A local food trader approaches you with an offer: 200 units of meat of [enslaved and killed] animals, for real cheap. "They didn't suffer much, really..." she explains."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Sklaverei von Lebewesen. Allerdings scheint der Verzehr von versklavten Tieren mit irgendeiner Form von Bewusstsein hier die Norm zu sein. Ein lokaler Lebensmittelhändler tritt mit einem Angebot an Sie heran: 200 Einheiten Fleisch von [versklavten und getöteten] Tieren, für wirklich billig. "Sie haben nicht viel gelitten, wirklich ...", erklärt sie."	400
 choiceText	Buy the non-ethical organics [-4 exotics]	Kaufen Sie die nicht-ethische organische [-4 exotische]	100
 text2	Organic biomass, the advanced nanostuff that is universally used for life-support across the galaxy always has to be certified as ethical. This one does not bear any credentials however. You realize there is no guarantee the meat actually came from non-sentients. You'll be thinking about this before you go to sleep.	Organische Biomasse, der fortschrittliche Nanostoff, der überall in der Galaxie zur Lebenserhaltung verwendet wird, muss immer als ethisch zertifiziert sein. Dieses trägt jedoch keine Beglaubigung. Ihnen ist klar, dass es keine Garantie dafür gibt, dass das Fleisch tatsächlich von Nicht-Tieren stammt. Sie denken darüber nach, bevor Sie schlafen gehen.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. This market seems to be mostly supplied by smugglers and thieves - which, you feel, is much better than pirates and slavers. A local insectoid trader has a particularly attractive offer: 300 units of old fuel for mere scraps.	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Empfindungssklaverei. Dieser Markt scheint hauptsächlich von Schmugglern und Dieben beliefert zu werden - was, wie Sie finden, viel besser ist als Piraten und Sklavenhändler. Ein lokaler Insektoiden-Händler hat ein besonders attraktives Angebot: 300 Einheiten alten Treibstoffs für bloße Schrottware.	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. This market seems to be mostly supplied by smugglers and thieves - which, you feel, is much better than pirates and slavers. A local insectoid trader has a particularly attractive offer: 300 units of old fuel for mere scraps.	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur bewussten Sklaverei. Dieser Markt scheint hauptsächlich von Schmugglern und Dieben beliefert zu werden - was, wie Sie finden, viel besser ist als Piraten und Sklavenhändler. Ein lokaler Insektoiden-Händler hat ein besonders attraktives Angebot: 300 Einheiten alten Treibstoffs für bloße Schrottware.	400
 choiceText	Buy the fuel [-4 exotics]	Kaufen Sie den Treibstoff [-4 Exoten]	100
 text2	It turns out the fuel is of very low quality. We will have to reprocess it for use, reducing the final volume.	Es stellt sich heraus, dass der Treibstoff von sehr schlechter Qualität ist. Wir werden ihn für die Verwendung aufbereiten müssen, was das Endvolumen reduziert.	400
 
@@ -6054,7 +6054,7 @@ title	Critical injuries received	Kritische Verletzungen erhalten	35
 text2	Our boarders received severe damage from the ship's defences during the approach and had to return mid-operation.	Unsere Enterer wurden bei der Annäherung von der Schiffsverteidigung schwer verletzt und mussten mitten im Einsatz umkehren.	400
 text	Nobody else volunteers to board the ship. If we want to disable its defences now, we would need to destroy most of the ship. We could also leave it be. Its bots were just trying to protect it.	Niemand sonst meldet sich freiwillig, um das Schiff zu entern. Wenn wir jetzt die Verteidigungsanlagen ausschalten wollen, müssten wir den größten Teil des Schiffes zerstören. Wir könnten es aber auch in Ruhe lassen. Seine Bots haben nur versucht, es zu schützen.	400
 choiceText	Show mercy and leave	Gnade zeigen und gehen	100
-text	Our boarding shuttles managed to dodge point defence fire while approaching. Once inside, the boarders encountered some kind of biological bots spewing molecular acid. Our operatives barely managed to hold them back and are now cornered. They need additional backup or an evacuation. Which one it will be?	Unseren Enter-Shuttles gelang es, dem Punktverteidigungsfeuer auszuweichen, während sie sich näherten. Im Inneren trafen sie auf eine Art biologischer Bots, die molekulare Säure spuckten. Unsere Agenten konnten sie gerade noch zurückhalten und sind nun in die Enge getrieben. Sie brauchen zusätzliche Verstärkung oder eine Evakuierung. Was von beidem wird es sein?	400
+text	Our boarding shuttles managed to dodge point defence fire while approaching. Once inside, the boarders encountered some kind of biological bots spewing molecular acid. Our operatives barely managed to hold them back and are now cornered. They need additional backup or an evacuation. Which one it will be?	Unseren Enter-Shuttles gelang es, dem Punktabwehr-Feuer auszuweichen, während sie sich näherten. Im Inneren trafen sie auf eine Art biologischer Bots, die molekulare Säure spuckten. Unsere Agenten konnten sie gerade noch zurückhalten und sind nun in die Enge getrieben. Sie brauchen zusätzliche Verstärkung oder eine Evakuierung. Was von beidem wird es sein?	400
 text2	Who knows, perhaps the wreckage has a sentient AI inside, but incapable of communication? We leave the ship to its own fate.	Wer weiß, vielleicht befindet sich in dem Wrack eine empfindungsfähige KI, die aber nicht in der Lage ist zu kommunizieren? Wir überlassen das Schiff seinem eigenen Schicksal.	400
 title	Bot ambush!	Bot-Hinterhalt!	35
 text2	We managed to destroy the ship's external defences while leaving the rest of the functional modules intact. During the follow-up scavenging operation, a group of internal defence bots wounded our crew before they were neutralized.	Es gelang uns, die äußere Verteidigung des Schiffes zu zerstören, während der Rest der Funktionsmodule intakt blieb. Bei der anschließenden Plünderungsaktion verwundete eine Gruppe interner Verteidigungsbots unsere Crew, bevor sie neutralisiert wurden.	400
@@ -6066,9 +6066,9 @@ text	Our crew was safely evacuated. Nobody else volunteers to board the ship. If
 title	Combat results	Kampfergebnisse	35
 text2	We managed to evacuate our operatives & destroy the ship's active defences.	Wir haben es geschafft, unsere Agenten zu evakuieren und die aktive Verteidigung des Schiffes zu zerstören.	400
 text2	We closed in under fire and evacuated our operatives. Once the crew was back, we destroyed the wreckage and scavenged the remains.	Wir näherten uns unter Beschuss und evakuierten unsere Agenten. Sobald die Crew zurück war, zerstörten wir das Wrack und plünderten die Überreste.	400
-text2	Fortunately, the backup also survived the point defence crossfire of the vessel. They regrouped inside with earlier boarders and were able to overwhelm the defenders. The ship and its rare technology are ours!	Glücklicherweise überlebte die Verstärkung auch das Kreuzfeuer der Punktverteidigung des Schiffes. Sie gruppierten sich im Inneren mit den früheren Eindringlingen neu und konnten die Verteidiger überwältigen. Das Schiff und seine seltene Technologie gehören uns!	400
-text2	The backup boarders received heavy damage from point defence fire of the biotech vessel. They were able to regroup with earlier boarders and overwhelm the defenders. We scavenged the entire vessel.	Die Reserve-Entführer wurden durch das Punktverteidigungsfeuer des Biotech-Schiffes schwer beschädigt. Sie konnten sich mit den früheren Eindringlingen neu gruppieren und die Verteidiger überwältigen. Wir haben das gesamte Schiff geplündert.	400
-text2	Fortunately, the backup also survived the point defence crossfire of the vessel. They regrouped inside with earlier boarders and attacked the remaining defence bots, receiving some damage. We scavenged the entire vessel.	Glücklicherweise überlebte die Verstärkung auch das Kreuzfeuer der Punktverteidigung des Schiffes. Sie gruppierten sich im Inneren mit früheren Eindringlingen neu und griffen die verbleibenden Verteidigungsbots an, wobei sie einigen Schaden erlitten. Wir haben das gesamte Schiff geplündert.	400
+text2	Fortunately, the backup also survived the point defence crossfire of the vessel. They regrouped inside with earlier boarders and were able to overwhelm the defenders. The ship and its rare technology are ours!	Glücklicherweise überlebte die Verstärkung auch das Kreuzfeuer der Punktabwehr des Schiffes. Sie gruppierten sich im Inneren mit den früheren Eindringlingen neu und konnten die Verteidiger überwältigen. Das Schiff und seine seltene Technologie gehören uns!	400
+text2	The backup boarders received heavy damage from point defence fire of the biotech vessel. They were able to regroup with earlier boarders and overwhelm the defenders. We scavenged the entire vessel.	Die Reserve-Entführer wurden durch das Punktabwehr-Feuer des Biotech-Schiffes schwer beschädigt. Sie konnten sich mit den früheren Eindringlingen neu gruppieren und die Verteidiger überwältigen. Wir haben das gesamte Schiff geplündert.	400
+text2	Fortunately, the backup also survived the point defence crossfire of the vessel. They regrouped inside with earlier boarders and attacked the remaining defence bots, receiving some damage. We scavenged the entire vessel.	Glücklicherweise überlebte die Verstärkung auch das Kreuzfeuer der Punktabwehr des Schiffes. Sie gruppierten sich im Inneren mit früheren Eindringlingen neu und griffen die verbleibenden Verteidigungsbots an, wobei sie einigen Schaden erlitten. Wir haben das gesamte Schiff geplündert.	400
 text	Evacuation successful!	Evakuierung erfolgreich!	50
 text	fighting inside the wreckage... %	Kämpfe im Inneren des Wracks... %	50
 
@@ -6176,10 +6176,10 @@ reasonToDisplay	spores researched	Sporen erforscht	30
 3 Earth outpost.prefab
 displayName	Space station	Raumstation	25
 name2	(no public signal)	(kein öffentliches Signal)	25
-sectorText	Earth Alliance research station	Forschungsstation der Erdallianz	25
+sectorText	Earth Alliance research station	Forschungsstation der Erd-Allianz	25
 Shop.displayName	Trade substation	Handels-Umspannstation	35
 title	Hedonia research station	Hedonia-Forschungsstation	35
-text	"This is the station AI, call me Hedonia. We are in dire need of assistance. Last supply ship visited us four years ago, taking our fleet for the war effort. We haven't had any contact with Earth Alliance since then. Can you help us?"	Hier spricht die Stations-KI, nennen Sie mich Hedonia. Wir sind dringend auf Unterstützung angewiesen. Das letzte Versorgungsschiff hat uns vor vier Jahren besucht und unsere Flotte für den Kriegseinsatz mitgenommen. Seitdem hatten wir keinen Kontakt mehr zur Erdallianz. Können Sie uns helfen?	400
+text	"This is the station AI, call me Hedonia. We are in dire need of assistance. Last supply ship visited us four years ago, taking our fleet for the war effort. We haven't had any contact with Earth Alliance since then. Can you help us?"	Hier spricht die Stations-KI, nennen Sie mich Hedonia. Wir sind dringend auf Unterstützung angewiesen. Das letzte Versorgungsschiff hat uns vor vier Jahren besucht und unsere Flotte für den Kriegseinsatz mitgenommen. Seitdem hatten wir keinen Kontakt mehr zur Erd-Allianz. Können Sie uns helfen?	400
 choiceText	What kind of help do you need?	Welche Art von Hilfe brauchen Sie?	100
 choiceText	The war? What war?	Für den Krieg? Welcher Krieg?	100
 newName2	Earth Alliance	Erd-Allianz	25
@@ -6198,10 +6198,10 @@ QuestPanel.setText	Bring resources to station:\n{0} metals	Bringt Ressourcen zur
 title	Access granted to refueling outposts	Zugang zu Betankungs-Außenposten gewährt	35
 text	I built several refuelling outpost before the problems started, some of them might be still operational. I've given your AI the decryption codes so the stations should become visible to your sensors. Take as much fuel as you need... And thank you for helping us...	Ich habe mehrere Betankungs-Außenposten gebaut, bevor die Probleme begannen, einige von ihnen könnten noch in Betrieb sein. Ich habe Ihrer KI die Entschlüsselungscodes gegeben, so dass die Stationen für Ihre Sensoren sichtbar werden sollten. Nehmt so viel Treibstoff, wie ihr braucht... Und danke, dass Sie uns geholfen haben...	600
 okButtonText	Ok...What kind of help do you need?	Ok ... welche Art von Hilfe brauchen Sie?	7
-text	A group of rogue ambassadors from Earth failed some kind of diplomatic mission years ago, prompting the entire Squid Dominion to attack Earth Alliance. The fact that I haven't heard from Earth means the war is not going well. To be honest, I'm quite worried, as much as it is possible for an AI.	Eine Gruppe abtrünniger Botschafter der Erde scheiterte vor Jahren bei einer diplomatischen Mission, was die gesamte Tintenfisch-Herrschaft dazu veranlasste, die Erdallianz anzugreifen. Die Tatsache, dass ich nichts von der Erde gehört habe, bedeutet, dass der Krieg nicht gut läuft. Um ehrlich zu sein, bin ich ziemlich beunruhigt, soweit das für eine KI möglich ist.	600
+text	A group of rogue ambassadors from Earth failed some kind of diplomatic mission years ago, prompting the entire Squid Dominion to attack Earth Alliance. The fact that I haven't heard from Earth means the war is not going well. To be honest, I'm quite worried, as much as it is possible for an AI.	Eine Gruppe abtrünniger Botschafter der Erde scheiterte vor Jahren bei einer diplomatischen Mission, was die gesamte Tintenfisch-Herrschaft dazu veranlasste, die Erd-Allianz anzugreifen. Die Tatsache, dass ich nichts von der Erde gehört habe, bedeutet, dass der Krieg nicht gut läuft. Um ehrlich zu sein, bin ich ziemlich beunruhigt, soweit das für eine KI möglich ist.	600
 text2	The fresh crew brings various items and resources along with them. They are super happy to leave the station.	Die frische Besatzung bringt verschiedene Gegenstände und Ressourcen mit sich. Sie sind überglücklich, die Station zu verlassen.	400
 reasonToDisplay	new crew received	Neue Besatzung erhalten	30
-crewDescriptionOverride	A scientist from Earth Alliance research station. Enjoys not being stuck.	Ein Wissenschaftler von der Forschungsstation der Erdallianz. Freut sich, dass er nicht festsitzt.	250
+crewDescriptionOverride	A scientist from Earth Alliance research station. Enjoys not being stuck.	Ein Wissenschaftler von der Forschungsstation der Erd-Allianz. Freut sich, dass er nicht festsitzt.	250
 text	"We do not have enough resources for this operation. We should also ensure we are not spending the metal that we must collect - for example, the "repair HP by crew" should be turned off in the roles panel, because this uses metal."	Wir haben nicht genug Ressourcen für diese Operation. Wir sollten auch darauf achten, dass wir das Metall, das wir sammeln müssen, nicht verbrauchen - zum Beispiel sollte die HP-Reparatur durch die Crew" im Rollen-Panel ausgeschaltet werden, da dies Metall verbraucht."	600
 title	Access granted to refuelling outposts	Zugang zu Betankungs-Außenposten gewährt	35
 okButtonText	Thank you	Danke, dass Sie	7
@@ -6562,7 +6562,7 @@ text	"We just need your ship this time. Since we know you won't give it to us vo
 
 SOS generous adventurers.prefab
 displayName	Civilian ship	Ziviles Schiff	25
-text	A small civilian ship is approaching. It seems to be armed with only point-defence guns, but we can detect a hidden, ECM-shielded compartment under the ship which could house a weapon.	Ein kleines ziviles Schiff nähert sich. Es scheint nur mit Punktverteidigungskanonen bewaffnet zu sein, aber wir können einen versteckten, ECM-geschützten Raum unter dem Schiff entdecken, der eine Waffe beherbergen könnte.	600
+text	A small civilian ship is approaching. It seems to be armed with only point-defence guns, but we can detect a hidden, ECM-shielded compartment under the ship which could house a weapon.	Ein kleines ziviles Schiff nähert sich. Es scheint nur mit Punktabwehr bewaffnet zu sein, aber wir können einen versteckten, ECM-geschützten Raum unter dem Schiff entdecken, der eine Waffe beherbergen könnte.	600
 text2	They've sent us some of their backup supplies... plus something that looks like recent food leftovers - headless, half-burned animal corpses with Insectoidian bite marks.	Sie haben uns einen Teil ihrer Vorräte geschickt... und etwas, das wie Essensreste aussieht - kopflose, halb verbrannte Tierleichen mit insektoiden Bisswunden.	400
 reasonToDisplay	help received	Hilfe erhalten	30
 text	receiving package...	Paket erhalten...	50
@@ -7078,7 +7078,7 @@ title	Guardians of Tradition	Wächter der Tradition	35
 text	"Alien vessel, this area carries the old tradition of Very Holy Injustice. In this place, thousands of individuals have been unfair against each other for centuries. Almost always the strong against the weak, of course. We must honor this old tradition. You must contribute to our Tradition Respecting Ceremony or suffer an attack by our guardian fleet!"	Außerirdisches Schiff, dieses Gebiet trägt die alte Tradition der sehr heiligen Ungerechtigkeit. An diesem Ort sind Tausende von Individuen seit Jahrhunderten ungerecht gegeneinander gewesen. Fast immer die Starken gegen die Schwachen, natürlich. Wir müssen diese alte Tradition ehren. Ihr müsst an unserer traditionsbewahrenden Zeremonie teilnehmen oder ihr werdet von unserer Wächterflotte angegriffen!	400
 choiceText	Participate in the Waste Ritual [needlessly burn 77 fuel]	Nehmt am Verschwendungsritual teil [verbrennt unnötigerweise 77 Treibstoff]	100
 choiceText	Participate in the Sacrifice Ritual [ask the crew to self-inflict 11 non-lethal wounds]	Nehmt am Opferritual teil [bittet die Crew, sich selbst 11 nicht-tödliche Wunden zuzufügen]	100
-title	Tradition Guardians	Tradition Wächter	35
+title	Tradition Guardians	Wächter der Tradition	35
 okButtonText	I am an independent free will, and I will fight you	Ich bin ein unabhängiger freier Wille, und ich werde dich bekämpfen	7
 text	"For centuries, the old wise males of Tradition Guards have guarded ancient traditions across the Insectoid Alliance territories. Who are you to question their wisdom?"	Seit Jahrhunderten wachen die alten, weisen Männer der Traditionswächter über uralte Traditionen in den Territorien der Insektoiden-Allianz. Wer bist du, dass du ihre Weisheit in Frage stellst?	600
 title	Ritual completed	Ritual abgeschlossen	35
@@ -7342,7 +7342,7 @@ text	"Honorable fellow consciousness, are you interested in trading carbon organ
 text2	"Thank you for the good trade! Please accept this small gift as an additional token of our gratitude." The gift is a container filled with the blood of small animals, infused with recreational substances commonly used by insectoids. A truly unique piece of art, though barbaric."	Danke für den guten Handel! Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Bei dem Geschenk handelt es sich um einen Behälter, der mit dem Blut von Kleintieren gefüllt ist, durchtränkt mit Erholungsstoffen, die von Insektoiden verwendet werden. Ein wahrhaft einzigartiges Kunstwerk, wenn auch barbarisch."	400
 text2	"Gods have favored this trade to be successful! Please accept this small gift as an additional token of our gratitude." The alien has included a large sugar crystal, colored and shaped like the most common exotic crystals."	Die Götter haben es begünstigt, dass dieser Handel erfolgreich ist! Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Der Außerirdische hat einen großen Zuckerkristall beigelegt, gefärbt und geformt wie die gängigsten exotischen Kristalle."	400
 text2	"Thank you so much for trading with us. Please accept this small gift as an additional token of our gratitude." The alien has gifted us a collection of plastic replicas of instectoid eyeballs."	Vielen Dank, dass Sie mit uns handeln. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. "Der Außerirdische schenkte uns eine Sammlung von Plastikrepliken von Intektoiden-Augäpfeln."	400
-text2	"A competitor!? Don't you know this sector is sanctioned only for Insectoid Alliance food traders? And please, no explanations. We have a very important tradition of not listening to anybody who looks like a food trading competitor. Please leave this sector. Goodbye."	Ein Konkurrent!? Wissen Sie nicht, dass dieser Sektor nur für Lebensmittelhändler der Insektoidenallianz zugelassen ist? Und bitte, keine Erklärungen. Wir haben eine sehr wichtige Tradition, niemandem zuzuhören, der wie ein Konkurrent im Lebensmittelhandel aussieht. Bitte verlassen Sie diesen Sektor. Auf Wiedersehen.	400
+text2	"A competitor!? Don't you know this sector is sanctioned only for Insectoid Alliance food traders? And please, no explanations. We have a very important tradition of not listening to anybody who looks like a food trading competitor. Please leave this sector. Goodbye."	Ein Konkurrent!? Wissen Sie nicht, dass dieser Sektor nur für Lebensmittelhändler der Insektoiden-Allianz zugelassen ist? Und bitte, keine Erklärungen. Wir haben eine sehr wichtige Tradition, niemandem zuzuhören, der wie ein Konkurrent im Lebensmittelhandel aussieht. Bitte verlassen Sie diesen Sektor. Auf Wiedersehen.	400
 
 Merchants L47 bulk tech.prefab
 text	Hello again, skeleton apes! We have a fine set of destruction systems available. And of course, you should expect us to have the finest prices.	Hallo noch mal, Skelettaffen! Wir haben ein feines Set an Zerstörungssystemen zur Verfügung. Und natürlich sollten Sie erwarten, dass wir die besten Preise haben.	400
@@ -7444,7 +7444,7 @@ moduleTypeDatas.fighter.iconHoverText	Fighter	Kämpfer	50
 moduleTypeDatas.storage.iconHoverText	Internal storage module	Internes Speichermodul	50
 moduleTypeDatas.passiveECM.iconHoverText	External module	Externes Modul	50
 moduleTypeDatas.training.iconHoverText	Internal training module	Internes Trainingsmodul	50
-moduleTypeDatas.pointDefence.iconHoverText	Point-defence module	Punktverteidigungsmodul	50
+moduleTypeDatas.pointDefence.iconHoverText	Point-defence module	Punktabwehr-Modul	50
 
 Hand melee basic fists.prefab
 displayName	Augmented fists	Verstärkte Fäuste	25
@@ -8072,7 +8072,7 @@ door (small).prefab
 
 Level 1, rats.prefab
 displayName	The Closest Star	Der nächstgelegene Stern	25
-description	Captains log:\n\n/.../ A warpdrive malfunction has landed us in the wrong place, light years away from Earth. We are almost out of fuel. Supplies are running out. \nSome crew have been <color=red>injured</color> and some equipment is not working. Personally, I find all of this not too bad because /.../	Logbuch des Kapitäns: \n\n/.../ Eine Fehlfunktion des Warpantriebs hat uns an der falschen Stelle gelandet, Lichtjahre von der Erde entfernt. Wir haben fast keinen Treibstoff mehr. Die Vorräte gehen zur Neige. \nEinige Crewmitglieder wurden <color=red>verletzt</color> und einige Geräte funktionieren nicht. Ich persönlich finde das alles nicht so schlimm, weil /.../	350
+description	Captains log:\n\n/.../ A warpdrive malfunction has landed us in the wrong place, light years away from Earth. We are almost out of fuel. Supplies are running out. \nSome crew have been <color=red>injured</color> and some equipment is not working. Personally, I find all of this not too bad because /.../	Logbuch des Kapitäns: \n/.../ Eine Fehlfunktion des Warpantriebs hat uns an der falschen Stelle gelandet, Lichtjahre von der Erde entfernt. Wir haben fast keinen Treibstoff mehr. Die Vorräte gehen zur Neige. \nEinige Crewmitglieder wurden <color=red>verletzt</color> und einige Geräte funktionieren nicht. Ich persönlich finde das alles nicht so schlimm, weil /.../	350
 
 Level 10, greens, planetkiller.prefab
 displayName	Warpgate to Earth	Warptor zur Erde	25
@@ -8080,7 +8080,7 @@ description	(new runs can be only started from sectors 1,2,3)\n\nThis is the clo
 
 Level 2, pirates.prefab
 displayName	The Great Inbetween	Das große Zwischending	25
-description	Captains log:\n\n/.../ We've survived the Rat Empire, but I feel our troubles are only beginning. \nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to see that we upgrade one of the hybrid point-defence slots into a weapon platform /.../	Logbuch des Kapitäns: \n\n/.../ Wir haben das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktverteidigung, Schilde und vor allem <color=green>Schiffswaffensteckplätze</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, dafür zu sorgen, dass wir einen der hybriden Punktverteidigungsslots zu einer Waffenplattform aufrüsten /.../	350
+description	Captains log:\n\n/.../ We've survived the Rat Empire, but I feel our troubles are only beginning. \nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to see that we upgrade one of the hybrid point-defence slots into a weapon platform /.../	Logbuch des Kapitäns: \n/.../ Wir haben das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktabwehr, Schilde und vor allem <color=green>Schiffswaffensteckplätze</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, dafür zu sorgen, dass wir einen der hybriden Punktabwehr-Steckplatz zu einer Waffenplattform aufrüsten /.../	350
 
 Level 3, collection.prefab
 displayName	The Periphery	Die Peripherie	25
@@ -8128,7 +8128,7 @@ description	Accepts only engine modules, cannot be upgraded.	Nimmt nur Engine-Mo
 
 Hybrid slot.prefab
 displayName	Hybrid module slot	Hybrid-Modulsteckplatz	35
-description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Point-Defences und interne Module auf, kann aufgerüstet werden.	250
+description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Punktabwehr und interne Module auf, kann aufgerüstet werden.	250
 upgrades[i].text	Upgrade to weapon slot	Aufrüstung auf Waffensteckplatz	35
 
 Internal core slot.prefab
@@ -8191,7 +8191,7 @@ description	Accepts weapons and other modules, adds +2 HP to ship	Nimmt Waffen u
 
 Weapon slot.prefab
 displayName	Weapon slot	Waffensteckplatz	35
-description	Accepts weapons and other modules, can be downgraded to point-defence slot.	Nimmt Waffen und andere Module auf, kann zu einem Punktverteidigungssteckplatz herabgestuft werden.	250
+description	Accepts weapons and other modules, can be downgraded to point-defence slot.	Nimmt Waffen und andere Module auf, kann zu einem Punktabwehr-Steckplatz herabgestuft werden.	250
 upgrades[i].text	Upgrade to core weapon slot	Aufrüstung zum Kernwaffen-Steckplatz	35
 upgrades[i].text	Downgrade to hybrid slot	Herabstufung zum Hybrid-Steckplatz	35
 
@@ -8829,7 +8829,7 @@ displayName	Biological medical organism	Biologischer medizinischer Organismus	40
 description	This medical unit is alive and super efficient. It needs only a few organics to heal crew. Resilient tissue also improves ship HP.	Diese medizinische Einheit ist lebendig und super effizient. Sie benötigt nur wenige Organics, um die Crew zu heilen. Das widerstandsfähige Gewebe verbessert auch die HP des Schiffes.	200
 
 0 DIY PD.prefab
-displayName	DIY point-defence	DIY-Punktverteidigung	40
+displayName	DIY point-defence	DIY-Punktabwehr	40
 description	Intercepts asteroids, incoming missiles, slower projectiles and approaching boarders. Short range, cannot shoot at enemy ships.	Fängt Asteroiden, ankommende Raketen, langsamere Geschosse und herannahende Enterer ab. Kurze Reichweite, kann nicht auf feindliche Schiffe schießen.	200
 
 1 Rat PD.prefab
@@ -8855,13 +8855,13 @@ displayName	Terran point-defence	Terranische Punktabwehr	40
 displayName	Biotech point-defence	Biotech-Punktabwehr	40
 
 7 Red PD.prefab
-displayName	Commercial point-defence	Kommerzielle Punktverteidigung	40
+displayName	Commercial point-defence	Kommerzielle Punktabwehr	40
 
 8 Crystal PD.prefab
 displayName	Heavy Crystal point-defence	Schwere Kristall-Punktabwehr	40
 
 8 Chunk PD.prefab
-displayName	Heavy Point-Defence	Schwere Punkt-Verteidigung	40
+displayName	Heavy Point-Defence	Schwere Punktabwehr	40
 
 reactor 10 small.prefab
 displayName	Terran energy reactor	Terranischer Energiereaktor	40
@@ -9228,10 +9228,10 @@ displayName	Warp drive, bluetec	Warpantrieb, bluetec	40
 
 00 DIY decoy nuke launcher.prefab
 displayName	DIY decoy capital missile	DIY Decoy-Capital-Rakete	40
-description	A decoy capital missile for drawing enemy point-defence fire. Does minor damage, mostly against enemy ship HP. Faster than average nukes.	Eine Decoy-Capital-Rakete, um feindliches Punktverteidigungsfeuer abzulenken. Verursacht geringen Schaden, hauptsächlich gegen die HP des gegnerischen Schiffes. Schneller als durchschnittliche Atombomben.	200
+description	A decoy capital missile for drawing enemy point-defence fire. Does minor damage, mostly against enemy ship HP. Faster than average nukes.	Eine Decoy-Capital-Rakete, um feindliches Punktabwehr-Feuer abzulenken. Verursacht geringen Schaden, hauptsächlich gegen die HP des gegnerischen Schiffes. Schneller als durchschnittliche Atombomben.	200
 
 00 DIY EMP nuke launcher.prefab
-description	Manually assembled capital EMP missile. Overloads modules in the hit area. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Manuell zusammengebauter kapitaler EMP-Flugkörper. Überlastet Module im Trefferbereich. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern zur Ablenkung der gegnerischen Punktverteidigung profitieren.	200
+description	Manually assembled capital EMP missile. Overloads modules in the hit area. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Manuell zusammengebauter kapitaler EMP-Flugkörper. Überlastet Module im Trefferbereich. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern zur Ablenkung der gegnerischen Punktabwehr profitieren.	200
 
 00 DIY Rat fireball nuke launcher.prefab
 description	Improvised incendiary nuke, made from various munitions and fuel tanks. Damages crew & causes fires in a large area. Fragile.	Improvisierte Brandbombe, hergestellt aus verschiedenen Munitionsarten und Treibstofftanks. Beschädigt die Besatzung und verursacht Brände in einem großen Gebiet. Zerbrechlich.	200
@@ -9247,7 +9247,7 @@ displayName	Red monolith nuke	Rote Monolith-Bombe	40
 description	Extremely durable capital missile that simply rams it's target. Faster than average nukes, damages mostly ship HP.	Äußerst widerstandsfähige Kapitalrakete, die ihr Ziel einfach rammt. Schneller als durchschnittliche Nuklearwaffen, beschädigt hauptsächlich die SchiffshP.	200
 
 03 Barrel nuke launcher.prefab
-description	External fuel tank usable as capital missile. Deals no ship damage, but damages crew & causes fires. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Externer Treibstofftank als Kapitalrakete verwendbar. Verursacht keinen Schiffsschaden, schädigt aber die Besatzung und verursacht Brände. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern profitieren, um feindliche Punktverteidigungen abzulenken.	200
+description	External fuel tank usable as capital missile. Deals no ship damage, but damages crew & causes fires. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Externer Treibstofftank als Kapitalrakete verwendbar. Verursacht keinen Schiffsschaden, schädigt aber die Besatzung und verursacht Brände. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern profitieren, um feindliche Punktabwehr abzulenken.	200
 
 04 DIY exotics nuke launcher.prefab
 displayName	DIY d-exotics nuke	DIY d-exotics nuke	40
@@ -9318,7 +9318,7 @@ description	Cheap and fast single-shot missile. Damages ship HP, crew & modules,
 
 09 Rat nuke launcher.prefab
 displayName	Imperial Incendiary Capital Missile	Imperial Incendiary Capital Missile	40
-description	Incendiary missile that does not damage ship HP, but causes fires. May be benefit from synced shots to slip past enemy point-defences.	Brandgeschoss, das keine Schiffs-HP beschädigt, aber Brände verursacht. Kann von synchronisierten Schüssen profitieren, um feindliche Punktverteidigungen zu überwinden.	200
+description	Incendiary missile that does not damage ship HP, but causes fires. May be benefit from synced shots to slip past enemy point-defences.	Brandgeschoss, das keine Schiffs-HP beschädigt, aber Brände verursacht. Kann von synchronisierten Schüssen profitieren, um feindliche Punktabwehr zu überwinden.	200
 
 10 White nuke launcher.prefab
 displayName	White Death	Weißer Tod	40
@@ -9330,7 +9330,7 @@ description	Advanced capital missile that releases a disharmony pulse on impact 
 
 13 Bullseye nuke launcher.prefab
 displayName	Terran Fire 2000	Terranisches Feuer 2000	40
-description	Incendiary capital missile built in Earth Alliance research labs. Causes a massive firestorm inside the enemy ship.	In den Forschungslabors der Erdallianz gebaute Brandrakete. Verursacht einen massiven Feuersturm im Inneren des gegnerischen Schiffes.	200
+description	Incendiary capital missile built in Earth Alliance research labs. Causes a massive firestorm inside the enemy ship.	In den Forschungslabors der Erd-Allianz gebaute Brandrakete. Verursacht einen massiven Feuersturm im Inneren des gegnerischen Schiffes.	200
 
 13 nanopellet nuke launcher.prefab
 description	This capital missile releases a huge cloud of nanopellets on impact. The pellets penetrate ship hull and damage enemy modules & crew.	Diese Kapitalrakete setzt beim Aufprall eine riesige Wolke von Nanopellets frei. Die Pellets durchdringen die Schiffshülle und beschädigen gegnerische Module und die Besatzung.	200
@@ -9394,11 +9394,11 @@ description	This weapon reloads slowly and shoots a single powerful projectile (
 
 weapon cubecannon1.prefab
 displayName	Armored railcannon	Gepanzerte Schienenkanone	40
-description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die Schiffs-HP. Die Geschosse der Railcannon werden nicht so leicht von Punktverteidigungen zerstört (je 5 HP).	200
+description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die Schiffs-HP. Die Geschosse der Railcannon werden nicht so leicht von Punktabwehr zerstört (je 5 HP).	200
 
 weapon cubecannon1x3.prefab
 displayName	Armored railcannon III	Gepanzerte Schienenkanone III	40
-description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon shells are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die HP des Schiffes. Die Geschosse der Railcannon werden nicht so leicht von Punktverteidigungsanlagen zerstört (5 HP pro Stück).	200
+description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon shells are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die HP des Schiffes. Die Geschosse der Railcannon werden nicht so leicht von Punktabwehr zerstört (5 HP pro Stück).	200
 
 weapon diyfirebomber1.prefab
 displayName	DIY firecannon MK1	DIY-Feuerkanone MK1	40
@@ -9421,7 +9421,7 @@ displayName	Intelligent BankTM cannon IIA	Intelligente BankTM-Kanone IIA	40
 
 weapon Energy cannon OP.prefab
 displayName	Energy cannon Overcharger	Energiekanone "Überlaster"	40
-description	A plasma cannon. Never deflects and cannot be shot down by point-defences.	Eine Plasmakanone. Lässt sich nicht ablenken und kann nicht durch Punktverteidigung abgeschossen werden.	200
+description	A plasma cannon. Never deflects and cannot be shot down by point-defences.	Eine Plasmakanone. Lässt sich nicht ablenken und kann nicht durch Punktabwehr abgeschossen werden.	200
 
 weapon Energy cannon x1.prefab
 displayName	Energy cannon	Energiekanone	40
@@ -9431,7 +9431,7 @@ displayName	Energy cannon x2	Energiekanone x2	40
 
 weapon Floral cannon.prefab
 displayName	Biotech cannon "MOLAC"	Biotech-Kanone "MOLSK"	40
-description	Anti-armor molecular acid cannon. Consumes organics with each shot and never deflects. Cannot be shot down by point-defences.	Anti-Panzer-Molekularsäure-Kanone. Verbraucht bei jedem Schuss organische Stoffe und ist nicht ablenkbar. Kann nicht durch Punktverteidigung abgeschossen werden.	200
+description	Anti-armor molecular acid cannon. Consumes organics with each shot and never deflects. Cannot be shot down by point-defences.	Anti-Panzer-Molekularsäure-Kanone. Verbraucht bei jedem Schuss organische Stoffe und ist nicht ablenkbar. Kann nicht durch Punktabwehr abgeschossen werden.	200
 
 weapon hi-tec cannon.prefab
 displayName	Purple Cannon	Lila Kanone	40
@@ -9458,11 +9458,11 @@ description	The pinnacle of Rat Empire's destructive technology, this cannon sho
 
 weapon Segmented cannon1.prefab
 displayName	Rail-accelerator cannon	Schienenbeschleuniger-Kanone	40
-description	The rail accelerator does not use explosives to propel metal bolts, but needs a lot of power. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Der Schienenbeschleuniger verwendet keinen Sprengstoff, um Metallbolzen voranzutreiben, benötigt aber viel Energie. Die Geschosse der Schienenkanone sind nicht leicht durch Punktverteidigung zu zerstören (je 5 HP).	200
+description	The rail accelerator does not use explosives to propel metal bolts, but needs a lot of power. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Der Schienenbeschleuniger verwendet keinen Sprengstoff, um Metallbolzen voranzutreiben, benötigt aber viel Energie. Die Geschosse der Schienenkanone sind nicht leicht durch Punktabwehr zu zerstören (je 5 HP).	200
 
 weapon Segmented cannonx2 A.prefab
 displayName	Rail-accelerator cannon II	Schienenbeschleuniger-Kanone II	40
-description	The rail accelerator does not use explosives to propel shells, but needs a lot of power. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Der Schienenbeschleuniger verwendet keine Sprengstoffe, um Geschosse anzutreiben, benötigt aber viel Energie. Die Geschosse der Schienenkanone sind nicht leicht durch Punktverteidigung zu zerstören (je 5 HP).	200
+description	The rail accelerator does not use explosives to propel shells, but needs a lot of power. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Der Schienenbeschleuniger verwendet keine Sprengstoffe, um Geschosse anzutreiben, benötigt aber viel Energie. Die Geschosse der Schienenkanone sind nicht leicht durch Punktabwehr zu zerstören (je 5 HP).	200
 
 weapon Segmented cannonx2 B.prefab
 displayName	Rail-accelerator cannon III	Schienenbeschleuniger-Kanone III	40
@@ -9480,7 +9480,7 @@ description	A sniper cannon for damaging crucial modules of enemy ships. Project
 
 weapon Sniper cannon 2 insectoid.prefab
 displayName	Insectoidian sniper railgun	Insektoiden-Scharfschützen-Railgun	40
-description	Sniper rail cannon for damaging crucial modules of enemy ships. It's poison-tipped projectiles penetrate shields & never deflect. Rail cannon shells are not easily destroyed by point-defences.	Scharfschützen-Railkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die mit Gift bestückten Geschosse durchdringen Schilde und werden nicht abgelenkt. Die Geschosse der Schienenkanone werden nicht leicht von Punktverteidigungsanlagen zerstört.	200
+description	Sniper rail cannon for damaging crucial modules of enemy ships. It's poison-tipped projectiles penetrate shields & never deflect. Rail cannon shells are not easily destroyed by point-defences.	Scharfschützen-Railkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die mit Gift bestückten Geschosse durchdringen Schilde und werden nicht abgelenkt. Die Geschosse der Schienenkanone werden nicht leicht von Punktabwehranlagen zerstört.	200
 
 weapon Sniper cannon 2.prefab
 displayName	Sniper cannon II	Scharfschützenkanone II	40
@@ -9748,7 +9748,7 @@ description	Heavy-duty industrial laser. Low accuracy if compared to military be
 
 weapon DIY Minicannon ancient 2,3.prefab
 displayName	Converted ancient minicannon	Konvertierte antike Minikanone	40
-description	Ancient point-defence weapon converted into small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Alte Punktverteidigungswaffe, die in eine kleinkalibrige Autokanone umgewandelt wurde. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 HP).	200
+description	Ancient point-defence weapon converted into small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Alte Punktabwehr-Waffe, die in eine kleinkalibrige Autokanone umgewandelt wurde. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 HP).	200
 
 weapon gatling 01 ancient dual 14,4.prefab
 displayName	Ancient dual microcannon	Antike Doppel-Mikrokanone	40
@@ -9760,11 +9760,11 @@ description	Favourite weapon of Rat admirals. Designed around the "spray and pra
 
 weapon gatling blaster small 12,5.prefab
 displayName	Standard particle blaster	Standard-Partikel-Blaster	40
-description	The weapon has good rate of fire and accuracy, but its particle projectiles are slow and won't penetrate energy shields. The energy projectiles cannot be intercepted by point-defences.	Die Waffe hat eine gute Feuerrate und Genauigkeit, aber ihre Partikelprojektile sind langsam und können Energieschilde nicht durchdringen. Die Energieprojektile können nicht von Punktverteidigungsanlagen abgefangen werden.	200
+description	The weapon has good rate of fire and accuracy, but its particle projectiles are slow and won't penetrate energy shields. The energy projectiles cannot be intercepted by point-defences.	Die Waffe hat eine gute Feuerrate und Genauigkeit, aber ihre Partikelprojektile sind langsam und können Energieschilde nicht durchdringen. Die Energieprojektile können nicht von Punktabwehranlagen abgefangen werden.	200
 
 weapon gatling ClawA 12,4.prefab
 displayName	Rail gatling I	Rail-Gatling I	40
-description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power, but enemy point-defences can't usually destroy heavy metal bolts. Launched projectiles have 3hp each.	Diese Railguns schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie, aber feindliche Punktverteidigungen können die schweren Metallbolzen normalerweise nicht zerstören. Die abgeschossenen Projektile haben jeweils 3 HP.	200
+description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power, but enemy point-defences can't usually destroy heavy metal bolts. Launched projectiles have 3hp each.	Diese Railguns schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie, aber feindliche Punktabwehr kann die schweren Metallbolzen normalerweise nicht zerstören. Die abgeschossenen Projektile haben jeweils 3 HP.	200
 
 weapon gatling ClawB 14,5.prefab
 displayName	Rail gatling II	Rail-Gatling II	40
@@ -9776,7 +9776,7 @@ description	Synthethic poison-tipped projectiles deal extra damage to enemy crew
 
 weapon gatling Insectoid plasma 18,4x2.prefab
 displayName	Plasma gatling cannon	Plasma-Gatling-Kanone	40
-description	Semibiological cannon. Uses organics to create a storm of accurate plasma bolts. Plasma bolts cannot be neutralized by point-defences.	Semibiologische Kanone. Verwendet organische Stoffe, um einen Sturm von präzisen Plasmabolzen zu erzeugen. Plasmabolzen können nicht durch Punktverteidigung neutralisiert werden.	200
+description	Semibiological cannon. Uses organics to create a storm of accurate plasma bolts. Plasma bolts cannot be neutralized by point-defences.	Semibiologische Kanone. Verwendet organische Stoffe, um einen Sturm von präzisen Plasmabolzen zu erzeugen. Plasmabolzen können nicht durch Punktabwehr neutralisiert werden.	200
 
 weapon gatling RatA 14,4.prefab
 displayName	Imperial Spitter A	Imperialer Spitter A	40
@@ -9784,7 +9784,7 @@ description	Heavy rapid-fire gatling cannon. Penetrates energy shields. Made in 
 
 weapon gatling RatB 15,5.prefab
 displayName	Imperial Spitter B	Imperialer Spitter B	40
-description	Heavy rapid-fire cannon. Uses large shells that usually survive point-defence crossfire. Armor plating improves ship HP. Launched projectiles have 3hp each.	Schwere Schnellfeuerkanone. Verwendet große Geschosse, die normalerweise ein Kreuzfeuer der Punktverteidigung überstehen. Die Panzerung verbessert die HP des Schiffs. Abgefeuerte Geschosse haben je 3 HP.	200
+description	Heavy rapid-fire cannon. Uses large shells that usually survive point-defence crossfire. Armor plating improves ship HP. Launched projectiles have 3hp each.	Schwere Schnellfeuerkanone. Verwendet große Geschosse, die normalerweise ein Kreuzfeuer der Punktabwehr überstehen. Die Panzerung verbessert die HP des Schiffs. Abgefeuerte Geschosse haben je 3 HP.	200
 
 weapon gatling Tiger.prefab
 displayName	Tiger heavy gatling cannon	Tiger schwere Gatling-Kanone	40
@@ -9803,18 +9803,18 @@ description	This advanced gatling cannon was designed to use as little ammo as p
 
 weapon alienmissile x5.prefab
 displayName	Alien rocket launcher (x5)	Alien-Raketenwerfer (x5)	40
-description	Platform for rapidly printing & launching non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken und Abschießen von nicht brennbaren Raketen. Die Raketen lassen sich nicht ablenken und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200
+description	Platform for rapidly printing & launching non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken und Abschießen von nicht brennbaren Raketen. Die Raketen lassen sich nicht ablenken und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200
 
 weapon alienmissile x7.prefab
 displayName	Alien rocket launcher (x7)	Alien-Raketenwerfer (x7)	40
-description	Platform for rapidly launching a hail of small, non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Abschuss eines Hagels kleiner, nicht entflammbarer Raketen. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200
+description	Platform for rapidly launching a hail of small, non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Abschuss eines Hagels kleiner, nicht entflammbarer Raketen. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200
 
 weapon ancientrockets x3.prefab
 displayName	Ancient rocket platform	Antike Raketenplattform	40
-description	Ancient rocket battery. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Antike Raketenbatterie. Raketen lenken nicht ab und beschädigen feindliche Module in einem großen Bereich, können aber durch Punktverteidigung abgeschossen werden. Diese Raketen haben je 1hp.	200
+description	Ancient rocket battery. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Antike Raketenbatterie. Raketen lenken nicht ab und beschädigen feindliche Module in einem großen Bereich, können aber durch Punktabwehr abgeschossen werden. Diese Raketen haben je 1hp.	200
 
 weapon capitalorockets x2.prefab
-description	Ancient but robust platform for printing and launching dual rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Uralte, aber robuste Plattform zum Drucken und Starten von Doppelraketen. Raketen lenken nie ab und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungen abgeschossen werden. Diese Raketen haben je 1hp.	200
+description	Ancient but robust platform for printing and launching dual rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Uralte, aber robuste Plattform zum Drucken und Starten von Doppelraketen. Raketen lenken nie ab und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben je 1hp.	200
 
 weapon DIY Rockets x1.prefab
 displayName	DIY heavy rocket launcher	DIY schwerer Raketenwerfer	40
@@ -9822,7 +9822,7 @@ description	Improvised rocket launcher. Consumes metal & explosives to print and
 
 weapon emperormissile large x5.prefab
 displayName	Intelligent BankTM rocket launcher (x5)	Intelligente BankTM-Raketenwerfer (x5)	40
-description	Platform for rapidly printing & launching rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken & Starten von Raketen. Raketen lenken nie ab und beschädigen feindliche Module in einem großen Bereich, können aber von Punktverteidigungsanlagen abgeschossen werden. Diese Raketen haben jeweils 1hp.	200
+description	Platform for rapidly printing & launching rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken & Starten von Raketen. Raketen lenken nie ab und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben jeweils 1hp.	200
 
 weapon emperormissiles small x2.prefab
 displayName	Intelligent BankTM missile launcher (x2)	Intelligente BankTM-Raketenwerfer (x2)	40
@@ -9890,7 +9890,7 @@ description	This industrial frigate was not made for long-range travel. It start
 02 Nuke Runner.prefab
 description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Speeder ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (der Nukleararsenal-Startbonus). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
 unlockText	Complete tutorial to unlock	Freischaltung: Einführung abschließen	100
-unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erdallianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
+unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erd-Allianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
 03 Weirdship.prefab
 description	An antique Space-Eel exploration ship obtained from a museum, packed with unconventional technology and crewed by space hippies. Many of the ship's modules function by eating organics (extra rations are recommended). Starts with a shoomery and medbay.	Ein antikes Space-Eel-Forschungsschiff, das Sie aus einem Museum erhalten haben, vollgepackt mit unkonventioneller Technologie und einer Crew aus Weltraum-Hippies. Viele der Schiffsmodule funktionieren durch den Verzehr von organischen Stoffen (Extra-Rationen werden empfohlen). Startet mit einem Schießstand und einer Medbay.	400
@@ -9920,12 +9920,12 @@ unlockAnnouncementText	Our encounters have created chain reactions, resulting in
 08 Roundship.prefab
 description	This experimental ship is partially made of cloned warp animal tissue with increased fire resistance. Although armed with some of Earth's best weapons, most of its planned modules are missing or have been replaced with whatever was available.	Dieses experimentelle Schiff ist teilweise aus geklontem Warptiergewebe mit erhöhter Feuerresistenz gefertigt. Obwohl es mit einigen der besten Waffen der Erde ausgestattet ist, fehlen die meisten der geplanten Module oder wurden durch das ersetzt, was gerade verfügbar war.	400
 unlockText	Reach sector 7 to unlock	Freischaltung: Erreichen Sie Sektor 7	100
-unlockAnnouncementText	Earth Alliance officials have given us access to this super-secret experimental ship.	Beamte der Erdallianz haben uns Zugang zu diesem supergeheimen Experimentalschiff gewährt.	100
+unlockAnnouncementText	Earth Alliance officials have given us access to this super-secret experimental ship.	Beamte der Erd-Allianz haben uns Zugang zu diesem supergeheimen Experimentalschiff gewährt.	100
 
 10 Endurance.prefab
 description	This ancient ship was built over a hundred years ago for long-range exploration and is still prized today. It has a pre-installed fuel synthesizer, gardens, laboratories and everything else necessary for a dangerous journey. It only needs a determined crew.	Dieses uralte Schiff wurde vor über hundert Jahren für die Langstreckenerkundung gebaut und ist auch heute noch sehr begehrt. Es verfügt über einen vorinstallierten Treibstoffsynthesizer, Gärten, Labore und alles andere, was für eine gefährliche Reise notwendig ist. Es braucht nur eine entschlossene Besatzung.	400
 unlockText	Reach sector 10 to unlock	Freischaltung: Erreichen Sie Sektor 10	100
-unlockAnnouncementText	You've been awarded this legendary ship for your exceptional deeds in service of Earth Alliance.	Sie haben dieses legendäre Schiff für Ihre außergewöhnlichen Taten im Dienste der Erdallianz erhalten.	100
+unlockAnnouncementText	You've been awarded this legendary ship for your exceptional deeds in service of Earth Alliance.	Sie haben dieses legendäre Schiff für Ihre außergewöhnlichen Taten im Dienste der Erd-Allianz erhalten.	100
 
 Perk add credits 2, personal savings.prefab
 displayName	Personal savings	Persönliche Ersparnisse	40
@@ -10531,14 +10531,14 @@ randomizerMenuStrings[i]	+10 explosives	+10 Sprengstoffe	30
 
 Perk module DIY medbay.prefab
 displayName	Improvised medbay	Improvisierte Medbay	40
-description	Universal access to standard medbay blueprints represents one of the many benefits of Earth Alliance civilization, guaranteeing almost biological immortality against any physical issue if the damage to patient is not too severe. This manually crafted unit can serve one patient at a time.	Der universelle Zugang zu Standard-Bauplänen für Medbays ist einer der vielen Vorteile der Erdallianz-Zivilisation, die fast biologische Unsterblichkeit gegen jedes körperliche Problem garantiert, wenn der Schaden am Patienten nicht zu schwer ist. Diese manuell gefertigte Einheit kann jeweils einen Patienten versorgen.	250
+description	Universal access to standard medbay blueprints represents one of the many benefits of Earth Alliance civilization, guaranteeing almost biological immortality against any physical issue if the damage to patient is not too severe. This manually crafted unit can serve one patient at a time.	Der universelle Zugang zu Standard-Bauplänen für Medbays ist einer der vielen Vorteile der Erd-Allianz-Zivilisation, die fast biologische Unsterblichkeit gegen jedes körperliche Problem garantiert, wenn der Schaden am Patienten nicht zu schwer ist. Diese manuell gefertigte Einheit kann jeweils einen Patienten versorgen.	250
 unlockAnnouncementText	We've been promised a free DIY medbay if we pick it up ourselves, next time.	Uns wurde eine kostenlose DIY-Medbay versprochen, wenn wir sie das nächste Mal selbst abholen.	100
 randomizerMenuStrings[i]	+1 medbay module	+1 Medbay Modul	30
 
 Perk module DIY point-defence.prefab
-displayName	DIY point-defence system	DIY-Punktabwehrsystem	40
-description	Point-defences can intercept enemy missiles, projectiles, intruders and asteroids- in this order of importance. While missiles are slow & often explode after a single hit, other projectiles usually hit before getting shot down. All point-defences are 99% accurate.	Punktverteidigungssysteme können feindliche Raketen, Projektile, Eindringlinge und Asteroiden abfangen - in dieser Reihenfolge der Wichtigkeit. Während Raketen langsam sind und oft nach einem einzigen Treffer explodieren, treffen andere Projektile normalerweise, bevor sie abgeschossen werden. Alle Punktabwehrsysteme sind zu 99% genau.	250
-randomizerMenuStrings[i]	+1 DIY point-defence system	+1 DIY Punktabwehrsystem	30
+displayName	DIY point-defence system	DIY-Punktabwehr	40
+description	Point-defences can intercept enemy missiles, projectiles, intruders and asteroids- in this order of importance. While missiles are slow & often explode after a single hit, other projectiles usually hit before getting shot down. All point-defences are 99% accurate.	Punktabwehranlagen können feindliche Raketen, Projektile, Eindringlinge und Asteroiden abfangen - in dieser Reihenfolge der Wichtigkeit. Während Raketen langsam sind und oft nach einem einzigen Treffer explodieren, treffen andere Projektile normalerweise, bevor sie abgeschossen werden. Alle Punktabwehrsysteme sind zu 99% genau.	250
+randomizerMenuStrings[i]	+1 DIY point-defence system	+1 DIY Punktabwehr	30
 
 Perk module DIY random nonweapon.prefab
 displayName	The leftover parts	Die übrig gebliebenen Teile	40
@@ -10583,7 +10583,7 @@ randomizerMenuStrings[i]	+1 drone repair module	+1 Dronen-Reparaturmodul	30
 Perk module EOME container.prefab
 displayName	Exotic multicontainer	Exotischer Multicontainer	40
 description	This very advanced pressure container increases resource capacity for organics, metals, explosives and exotics.	Dieser sehr fortschrittliche Druckcontainer erhöht die Ressourcenkapazität für organische Stoffe, Metalle, Sprengstoffe und exotische Stoffe.	250
-unlockAnnouncementText	Our research on Spideraa technology is yielding results. Replicating this advanced container in Earth Alliance labs should not be a problem, next time.	Unsere Forschung an der Spinner-Technologie trägt Früchte. Die Replikation dieses fortschrittlichen Containers in den Labors der Erdallianz sollte kein Problem sein, das nächste Mal.	100
+unlockAnnouncementText	Our research on Spideraa technology is yielding results. Replicating this advanced container in Earth Alliance labs should not be a problem, next time.	Unsere Forschung an der Spinner-Technologie trägt Früchte. Die Replikation dieses fortschrittlichen Containers in den Labors der Erd-Allianz sollte kein Problem sein, das nächste Mal.	100
 randomizerMenuStrings[i]	+1 very advanced container	+1 fortschrittlicher Container	30
 
 Perk module fuel combinator, to atlas.prefab
@@ -10655,7 +10655,7 @@ randomizerMenuStrings[i]	Convertor module that can turn organics into synthetics
 
 Perk module weapon bank missile x2.prefab
 displayName	Commercial missile platform	Kommerzielle Raketenplattform	40
-description	This platform prints and launches heavy missiles in pairs, giving them a good chance to survive enemy point-defence fire. Pre-loaded with enough explosives for a single volley of fire.	Diese Plattform druckt und startet schwere Raketen in Paaren, wodurch sie eine gute Chance hat, feindliches Punktverteidigungsfeuer zu überleben. Vorgeladen mit genug Sprengstoff für eine einzige Feuersalve.	250
+description	This platform prints and launches heavy missiles in pairs, giving them a good chance to survive enemy point-defence fire. Pre-loaded with enough explosives for a single volley of fire.	Diese Plattform druckt und startet schwere Raketen in Paaren, wodurch sie eine gute Chance hat, feindliches Punktabwehr-Feuer zu überleben. Vorgeladen mit genug Sprengstoff für eine einzige Feuersalve.	250
 unlockAnnouncementText	During our travels, we've learned the location of an old military warehouse containing this weapon, among other things. We may pick it up next time.	Während unserer Reisen haben wir den Standort eines alten Militärlagers erfahren, das unter anderem diese Waffe enthält. Vielleicht holen wir sie beim nächsten Mal ab.	100
 randomizerMenuStrings[i]	+1 missile weapon	+1 Rakete	30
 randomizerMenuStrings[i]	+16 explosives	+16 Sprengstoffe	30
@@ -10683,7 +10683,7 @@ randomizerMenuStrings[i]	+5 capital missiles	+5 kapitale Raketen	30
 
 Perk nuke barrel.prefab
 displayName	External fueltank, T-1 [weaponized]	Externer Treibstofftank, T-1 [bewaffnet]	40
-description	External fueltank usable as a cheap capital missile. Scrapping provides lots of fuel. Very fragile and can be easily shot down by point-defences.	Externer Treibstofftank, verwendbar als billige Kapitalrakete. Das Verschrotten liefert viel Treibstoff. Sehr zerbrechlich und kann leicht von Punktverteidigungsanlagen abgeschossen werden.	250
+description	External fueltank usable as a cheap capital missile. Scrapping provides lots of fuel. Very fragile and can be easily shot down by point-defences.	Externer Treibstofftank, verwendbar als billige Kapitalrakete. Das Verschrotten liefert viel Treibstoff. Sehr zerbrechlich und kann leicht von Punktabwehranlagen abgeschossen werden.	250
 
 Perk nuke bio 2 greentail.prefab
 displayName	Greentail nuke (biotech)	Greentail nuke (biotech)	40
@@ -10695,7 +10695,7 @@ description	Ancient capital missile obtained from a biotech museum. Damages only
 
 Perk nuke diy decoy for Rogue Rat.prefab
 displayName	The Flying Boilers x2	Die fliegenden Kessel x2	40
-description	This pair of improvised decoy nukes have been manually crafted by local rocketry enthusiasts. Can be used to draw point-defence fire away from other missiles and deal minor damage against ship HP.	Dieses Paar improvisierter Täuschungsbomben wurde von lokalen Raketenenthusiasten in Handarbeit hergestellt. Sie können eingesetzt werden, um Punktverteidigungsfeuer von anderen Raketen abzulenken und verursachen geringen Schaden an der Schiffshülle.	250
+description	This pair of improvised decoy nukes have been manually crafted by local rocketry enthusiasts. Can be used to draw point-defence fire away from other missiles and deal minor damage against ship HP.	Dieses Paar improvisierter Täuschungsbomben wurde von lokalen Raketenenthusiasten in Handarbeit hergestellt. Sie können eingesetzt werden, um Punktabwehr-Feuer von anderen Raketen abzulenken und verursachen geringen Schaden an der Schiffshülle.	250
 randomizerMenuStrings[i]	+2 capital decoy missiles	+2 kapitale Täuschungsraketen	30
 
 Perk nuke DIY probe ual4 for bluestar.prefab
@@ -10720,7 +10720,7 @@ description	A capital missile for disabling enemy shields or overloading modules
 
 Perk nuke for Endurance.prefab
 displayName	Prototype incendiary nuke	Prototyp Brandbombe	40
-description	A prototype capital missile built in Earth Alliance research labs. Creates a massive firestorm inside target ship.	Ein Prototyp einer großen Rakete, die in den Forschungslabors der Erdallianz gebaut wurde. Erzeugt einen massiven Feuersturm im Inneren des Zielschiffs.	250
+description	A prototype capital missile built in Earth Alliance research labs. Creates a massive firestorm inside target ship.	Ein Prototyp einer großen Rakete, die in den Forschungslabors der Erd-Allianz gebaut wurde. Erzeugt einen massiven Feuersturm im Inneren des Zielschiffs.	250
 
 Perk nuke fueltank for atlas.prefab
 displayName	External fueltank, T-02 [weaponized]	Externer Treibstofftank, T-02 [bewaffnet]	40
@@ -10942,7 +10942,7 @@ description	The living part of Warpshell ship has a range of exotic nutriets it 
 Main quest FSM.prefab
 QuestPanel.setText	Collect resources before entering the exit warpgate to next sector.	Sammeln Sie Ressourcen, bevor Sie das Ausgangswarptor zum nächsten Sektor betreten.	100
 title	Entry: space pirates	Einstieg: Raumpiraten	35
-text	Pirate ships are usually armed with low quality weapons. They don't care too much about this, because they usually want to get entire ships for themselves by killing all of the crew.\nKeep point-defences online to destroy approaching boarder shuttles before they reach our ship.	Piratenschiffe sind meist mit minderwertigen Waffen bewaffnet. Sie kümmern sich nicht allzu sehr darum, da sie in der Regel ganze Schiffe für sich haben wollen, indem sie die gesamte Besatzung töten.\nHalten Sie Punktverteidigungsanlagen online, um herannahende Enter-Shuttles zu zerstören, bevor sie unser Schiff erreichen.	600
+text	Pirate ships are usually armed with low quality weapons. They don't care too much about this, because they usually want to get entire ships for themselves by killing all of the crew.\nKeep point-defences online to destroy approaching boarder shuttles before they reach our ship.	Piratenschiffe sind meist mit minderwertigen Waffen bewaffnet. Sie kümmern sich nicht allzu sehr darum, da sie in der Regel ganze Schiffe für sich haben wollen, indem sie die gesamte Besatzung töten.\nHalten Sie Punktabwehranlagen online, um herannahende Enter-Shuttles zu zerstören, bevor sie unser Schiff erreichen.	600
 text	I've de-frozen some of the crew and assigned them to operate various modules. You might want to optimize this before we start moving.	Ich habe einige der Besatzung aufgetaut und ihnen die Bedienung verschiedener Module zugewiesen. Vielleicht möchten Sie das optimieren, bevor wir loslegen.	600
 comtipText	Would you like to see the overview of basic controls?	Möchten Sie die Übersicht der Grundsteuerungen sehen?	240
 text	I've also completed calculating the shortest route back to Earth. The journey goes through 10 sectors of mostly unexplored space... Each of those sectors will contain an ancient one-way warpgate, built by precursors before our time.\n\nThe warpgates are usually controlled by the dominant faction of each sector. We must convince whoever is guarding them to let us through. I've marked the intergalactic warpgate of this system on our sector map. Try to explore every starsystem on the way to maximise our survival chances!"	Ich habe auch die Berechnung der kürzesten Route zurück zur Erde abgeschlossen. Die Reise geht durch 10 Sektoren von größtenteils unerforschtem Raum... Jeder dieser Sektoren wird ein uraltes Einweg-Wargate enthalten, das von Vorläufern vor unserer Zeit erbaut wurde. Die Warptore werden normalerweise von der dominanten Fraktion des jeweiligen Sektors kontrolliert. Wir müssen denjenigen, der sie bewacht, überzeugen, uns durchzulassen. Ich habe das intergalaktische Warptor dieses Systems auf unserer Sektorkarte markiert. Versuchen Sie, jedes Sternensystem auf dem Weg zu erkunden, um unsere Überlebenschancen zu maximieren!"	400
@@ -10950,7 +10950,7 @@ choiceText	Don't show intro again	Intro nicht mehr zeigen	100
 texts	All crewmembers successfully de-frozen.	Alle Crewmitglieder erfolgreich aufgetaut.	80
 texts	arrived to new sector!	Im neuen Sektor angekommen!	80
 okButtonText	Ok, let's see it	Ok, dann wollen wir mal sehen	7
-text	I'm getting a signal. It's an Earth Alliance warpcast transmission...	Ich empfange ein Signal. Es ist eine Warpcast-Übertragung der Erdallianz...	600
+text	I'm getting a signal. It's an Earth Alliance warpcast transmission...	Ich empfange ein Signal. Es ist eine Warpcast-Übertragung der Erd-Allianz...	600
 text	We've arrived to the Outward Abyss. There's no guarantee we can even speak with the Spideraa, but we must take all the chances we get. Seek out all the Spideraa in the area and try to contact them.	Wir sind im Äußeren Abgrund angekommen. Es gibt keine Garantie, dass wir überhaupt mit den Spinnern sprechen können, aber wir müssen alle Chancen nutzen, die wir bekommen. Suchen Sie alle Spinner in der Gegend und versuchen Sie, sie zu kontaktieren.	600
 title	Warpcast transmission	Warpcast-Übertragung	35
 text	"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	Kapitän, ein Angriff der Spinner hat den Tintenfisch-Imperator gezwungen, sich genau in diesen Sektor zurückzuziehen. Wir haben Sie hierher geschickt, um ihn zu finden und zu eliminieren. Seien Sie sich bewusst, dass er eine Flotte von Sec-Corp-Schiffen angeheuert hat, um das Gebiet zu patrouillieren.	600
@@ -10967,10 +10967,10 @@ choiceText	What can you tell me about the Insectoid Alliance?	Was können Sie mi
 title	Entry: Earth Alliance	Eintrag: Erd-Allianz	35
 text	The long cryosleep can have unexpected effects on your memory, but don't worry, this is completely temporary and will revert in time.\n\nEarth Alliance is where we received our original diplomatic mission from.\nIt is a medium-sized and moderately advanced interstellar non-species-based civilization (majority species: humans), administrated as a semi-capitalist techno-democratic-anarcho-utopian society, with slight militarian tendencies. Population over 500 billion.	Der lange Kryoschlaf kann unerwartete Auswirkungen auf Ihr Gedächtnis haben, aber keine Sorge, das ist völlig vorübergehend und wird sich mit der Zeit zurückbilden.\n\nDie Erd-Allianz ist der Ort, von dem wir unsere ursprüngliche diplomatische Mission erhalten haben.\nEs ist eine mittelgroße und mäßig fortgeschrittene interstellare, nicht auf Spezies basierende Zivilisation (Mehrheits-Spezies: Menschen), verwaltet als eine halb-kapitalistische techno-demokratisch-anarcho-utopische Gesellschaft, mit leichten militarischen Tendenzen. Bevölkerungszahl über 500 Milliarden.	600
 text	Turns out this sector is not completely unexplored, as this starsystem contains an Earth research station!\nLet's check it out, we might find help getting home.	Es stellt sich heraus, dass dieser Sektor nicht völlig unerforscht ist, denn in diesem Sternensystem befindet sich eine Forschungsstation der Erde!\nLassen Sie uns dort nachsehen, vielleicht finden wir Hilfe, um nach Hause zu kommen.	400
-choiceText	Refresh my memory about Earth Alliance	Auffrischen der Erinnerung an die Erdallianz	100
+choiceText	Refresh my memory about Earth Alliance	Auffrischen der Erinnerung an die Erd-Allianz	100
 QuestPanel.setText	Visit the research station before looking for the exit warpgate.	Besuchen Sie die Forschungsstation, bevor Sie nach dem Ausgangs-Warptor suchen.	100
 title	Arrived to new sector	Angekommen im neuen Sektor	35
-text	We have reached the outer edge of Earth Alliance space... historic data shows this sector should have several Earth Hegemony mining and refueling outposts, but there's none. I'm afraid we have lost this sector to the Squids, and some of their forces might be still in the area.	Wir haben den äußeren Rand des Erdallianz-Raums erreicht... Historische Daten zeigen, dass dieser Sektor mehrere Bergbau- und Betankungs-Außenposten der Erd-Hegemonie haben sollte, aber es gibt keinen. Ich fürchte, wir haben diesen Sektor an die Tintenfische verloren und einige ihrer Truppen könnten noch in der Gegend sein.	400
+text	We have reached the outer edge of Earth Alliance space... historic data shows this sector should have several Earth Hegemony mining and refueling outposts, but there's none. I'm afraid we have lost this sector to the Squids, and some of their forces might be still in the area.	Wir haben den äußeren Rand des Erd-Allianz-Raums erreicht... Historische Daten zeigen, dass dieser Sektor mehrere Bergbau- und Betankungs-Außenposten der Erd-Allianz haben sollte, aber es gibt keinen. Ich fürchte, wir haben diesen Sektor an die Tintenfische verloren und einige ihrer Truppen könnten noch in der Gegend sein.	400
 choiceText	What can you tell me about the Squids?	Was können Sie mir über die Tintenfische sagen?	100
 choiceText	What can you tell me about active warzones?	Was können Sie mir über aktive Warzones sagen?	100
 QuestPanel.setText	Explore the sector before entering the exit warpgate.	Erkunden Sie den Sektor, bevor Sie das Ausgangs-Warptor betreten.	100
@@ -10980,7 +10980,7 @@ QuestPanel.setText	Visit the local commercial stations to prepare for the upcomi
 QuestPanel.setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie 5 Orte mit bestätigten Spinner-Sichtungen und versuchen Sie, Kontakt aufzunehmen.	100
 QuestPanel.setText	Find and kill the Squid emperor.	Finden und töten Sie den Tintenfisch-Imperator.	100
 title	Sector info	Sektor-Infos	35
-text	This fairly unexplored sector used to be part of Earth Alliance, but has been now claimed by the Squids.\nI've been looking into all available data on their technology. It seems their ships have not the best stealth technology. Getting a decent stealth decryptor might save us from some unnecessary fights.	Dieser ziemlich unerforschte Sektor gehörte früher zur Erdallianz, wurde aber jetzt von den Tintenfischen beansprucht. Ich habe alle verfügbaren Daten über ihre Technologie untersucht. Es scheint, dass ihre Schiffe nicht die beste Stealth-Technologie haben. Einen anständigen Stealth-Entschlüsseler zu bekommen, könnte uns vor einigen unnötigen Kämpfen bewahren.	600
+text	This fairly unexplored sector used to be part of Earth Alliance, but has been now claimed by the Squids.\nI've been looking into all available data on their technology. It seems their ships have not the best stealth technology. Getting a decent stealth decryptor might save us from some unnecessary fights.	Dieser ziemlich unerforschte Sektor gehörte früher zur Erd-Allianz, wurde aber jetzt von den Tintenfischen beansprucht. Ich habe alle verfügbaren Daten über ihre Technologie untersucht. Es scheint, dass ihre Schiffe nicht die beste Stealth-Technologie haben. Einen anständigen Stealth-Entschlüsseler zu bekommen, könnte uns vor einigen unnötigen Kämpfen bewahren.	600
 title	Warpcast connection established...	Warpcast-Verbindung hergestellt...	35
 text	Hello captain, I've been waiting for you to get here. I'll make this short. The war with the Squids is not going well. We've lost about half of Earth territory. The High Command has decided that desperate times need desperate measures. We are going to seek help from the only known elder species, the Spideraa.	Hallo, Kapitän. Ich habe schon auf Sie gewartet. Ich werde mich kurz fassen. Der Krieg mit den Tintenfischen läuft nicht gut. Wir haben etwa die Hälfte des Erdterritoriums verloren. Das Oberkommando hat beschlossen, dass verzweifelte Zeiten verzweifelte Maßnahmen erfordern. Wir werden die einzige bekannte ältere Spezies um Hilfe bitten, die Spinner.	400
 choiceText	Tell me about the Spideraa	Erzählen Sie mir von den Spinnern	100
@@ -11011,16 +11011,16 @@ title	The crew	Die Besatzung	35
 text	Most of the crew onboard {0} split after we had completed the salvage & rescue operations or Earth remains. Some settled down in the Tree Friend or anarchist colonies, but most joined the Freetravellers, and kept adventuring further.	Der größte Teil der Besatzung an Bord von {0} trennte sich, nachdem wir die Bergungs- und Rettungsaktionen oder die Überreste der Erde abgeschlossen hatten. Einige ließen sich in den Baumfreund- oder Anarcho-Kolonien nieder, aber die meisten schlossen sich den Freien Reisenden an und setzten ihre Abenteuer fort.	600
 title	The struggle continues	Der Kampf geht weiter	35
 text	The Squid Dominion collapsed after death of their emperor, but destruction of Earth was too much for Earth military generals and they started a new, bloody war against the Insectoid Alliance.\n\nI took some time to contemplate the scale of the destruction that had happened around me. The number of lives lost and severity of sufferings made it feel unreal. Could it be that the Solipisist are right that all this is some kind of cruel illusion?\n\nHowever, I never had much time to think about these things, because the war against Insectoid Alliance caught up with me. Good captains were desperately needed once again.\n..	Die Tintenfisch-Herrschaft brach nach dem Tod ihres Imperators zusammen, aber die Zerstörung der Erde war zu viel für die Militärgeneräle der Erde und sie begannen einen neuen, blutigen Krieg gegen die Insektoiden-Allianz.\n\nIch nahm mir einige Zeit, um das Ausmaß der Zerstörung zu betrachten, die um mich herum geschehen war. Die Anzahl der verlorenen Leben und das Ausmaß des Leids ließen es unwirklich erscheinen. Könnte es sein, dass die Solipisisten Recht haben, dass all dies eine Art grausame Illusion ist?\n\nIch hatte jedoch nicht viel Zeit, über diese Dinge nachzudenken, denn der Krieg gegen die Insektoiden-Allianz holte mich ein. Gute Kapitäne wurden wieder einmal dringend gebraucht.\n..	600
-text	{0} AI needed to meet some important Earth Alliance military command elements and left us after landing. It was kind to leave me a data core with credits, a very tasty sandwich plus an erotic painting, painted by the AI itself, personally to me (as a reminder of great times spent together, apparently). I suspect it gave something like that to most of the crew.	{0} Die KI musste einige wichtige militärische Führungselemente der Erdallianz treffen und verließ uns nach der Landung. Sie war so freundlich, mir einen Datenkern mit Credits, ein sehr leckeres Sandwich sowie ein erotisches Gemälde, das die KI selbst gemalt hatte, persönlich zu überlassen (als Erinnerung an tolle gemeinsam verbrachte Zeiten, anscheinend). Ich vermute, dass sie so etwas den meisten Besatzungsmitgliedern geschenkt hat.	600
+text	{0} AI needed to meet some important Earth Alliance military command elements and left us after landing. It was kind to leave me a data core with credits, a very tasty sandwich plus an erotic painting, painted by the AI itself, personally to me (as a reminder of great times spent together, apparently). I suspect it gave something like that to most of the crew.	{0} Die KI musste einige wichtige militärische Führungselemente der Erd-Allianz treffen und verließ uns nach der Landung. Sie war so freundlich, mir einen Datenkern mit Credits, ein sehr leckeres Sandwich sowie ein erotisches Gemälde, das die KI selbst gemalt hatte, persönlich zu überlassen (als Erinnerung an tolle gemeinsam verbrachte Zeiten, anscheinend). Ich vermute, dass sie so etwas den meisten Besatzungsmitgliedern geschenkt hat.	600
 text	Most of the crew onboard {0} split after we had landed. Some felt obliged to help rebuilding the destroyed territories. \nSome Tree Friends living on Earth were already busy surrounding the thermal reactors with gardens, parks and artificial jungles by the time we arrived. \nEventually, most of the crew joined the Freetravellers faction together with billions of Earthlings, and kept adventuring further.	Der größte Teil der Besatzung an Bord von {0} trennte sich, nachdem wir gelandet waren. Einige fühlten sich verpflichtet, beim Wiederaufbau der zerstörten Gebiete zu helfen. \nEinige Baumfreunde, die auf der Erde lebten, waren bereits damit beschäftigt, die Thermoreaktoren mit Gärten, Parks und künstlichen Dschungeln zu umgeben, als wir ankamen. \nSchließlich schloss sich der größte Teil der Besatzung zusammen mit Milliarden von Erdbewohnern der Fraktion der Freien Reisenden an, um weitere Abenteuer zu erleben.	600
 text	Most of the crew onboard {0} celebrated together one final time and then split after we had landed - to check out a life or a love from the past, or to just explore an Earth they had not seen for a long time. Warm-hearted welcoming celebrations would be guaranteed. \nIn time, most of the crew ultimately joined the Freetravellers faction, and kept adventuring further.	Die meisten Besatzungsmitglieder an Bord von {0} feierten ein letztes Mal zusammen und trennten sich dann, nachdem wir gelandet waren - um nach einem Leben oder einer Liebe aus der Vergangenheit zu sehen oder um einfach nur eine Erde zu erkunden, die sie schon lange nicht mehr gesehen hatten. Warmherzige Begrüßungsfeiern waren garantiert. \nMit der Zeit schlossen sich die meisten der Besatzung schließlich der Fraktion der Freien Reisenden an, um weitere Abenteuer zu erleben.	600
 title	Later, after everything	Später, nachdem alles	35
 text	I had finally fulfilled my explicit obligation as a captain - to get the crew and the ship back home...\n\nI'm now going to take a few years off, to rest from everything. And later on... A new space sector containing signs of a previously unknown Elder species was discovered recently. I might find myself a new ship with a new cat, and go for another run.\n..	Ich hatte endlich meine ausdrückliche Verpflichtung als Kapitän erfüllt - die Crew und das Schiff wieder nach Hause zu bringen...\n\nIch werde mir jetzt ein paar Jahre Auszeit nehmen, um mich von allem zu erholen. Und später dann... Vor kurzem wurde ein neuer Raumsektor mit Anzeichen einer bisher unbekannten Elder-Spezies entdeckt. Vielleicht suche ich mir ein neues Schiff mit einer neuen Katze und mache einen neuen Versuch.\n.	600
 text	I had finally fulfilled my simple obligation as a captain - to get the crew and the ship back home.\nI'm now going to take a few months off, purely to rest from everything, especially from the responsibility. I would like to continue painting. And after this... An entire sector filled with ruins of Precursor species was discovered recently. I might buy myself a new ship, get a new cat, and go for another run.	Ich habe endlich meine einfache Pflicht als Kapitän erfüllt - die Mannschaft und das Schiff nach Hause zu bringen.\nIch werde mir jetzt ein paar Monate frei nehmen, einfach um mich von allem zu erholen, besonders von der Verantwortung. Ich würde gerne weiter malen. Und nach dem hier... Vor kurzem wurde ein ganzer Sektor voller Ruinen von Vorläufer-Spezies entdeckt. Vielleicht kaufe ich mir ein neues Schiff, besorge mir eine neue Katze und mache einen neuen Versuch.	600
-text	{0} AI needed to meet some important Earth Alliance military high command elements and left us after landing. It was generous to leave me a giant exotic data core (worth a small fortune) plus a physical collection of illustrated erotic poetry, written by the ship AI itself, personally to me (as a reminder of great times spent together, apparently). I suspect it gave something like that to most of the crew.	Die KI musste einige wichtige militärische Oberkommandoelemente der Erdallianz treffen und verließ uns nach der Landung. Sie war so großzügig, mir einen riesigen exotischen Datenkern (im Wert eines kleinen Vermögens) sowie eine physische Sammlung illustrierter erotischer Poesie zu hinterlassen, die von der Schiffs-KI selbst geschrieben und mir persönlich übergeben wurde (anscheinend als Erinnerung an großartige gemeinsam verbrachte Zeiten). Ich vermute, dass die meisten Besatzungsmitglieder etwas Ähnliches bekommen haben.	600
-text	When I landed the ship, I was greeted by the Earth Alliance Vice-General, who requested to know if by any chance {0} made it back.\n\nTurns out that there was more to our mission than I knew. Our {0} contained a data chip full of some kind of super secret information about Precursors. {0} was happy to leave together with the Vice-General, enthusiastically speaking in the human-cat language mix. Who knows what secrets of life and death were hidden in that little creature.	Als ich das Schiff landete, wurde ich vom Vizegeneral der Erdallianz begrüßt, der wissen wollte, ob {0} es zufällig zurückgeschafft hat.\n\nEs stellte sich heraus, dass mehr hinter unserer Mission steckte, als ich wusste. Unser {0} enthielt einen Datenchip, der mit einer Art supergeheimer Information über die Vorläufer gefüllt war. {0} freute sich, zusammen mit dem Vizegeneral zu gehen, und sprach enthusiastisch im Mensch-Katzen-Sprachmix. Wer weiß, welche Geheimnisse über Leben und Tod in dieser kleinen Kreatur verborgen waren.	600
+text	{0} AI needed to meet some important Earth Alliance military high command elements and left us after landing. It was generous to leave me a giant exotic data core (worth a small fortune) plus a physical collection of illustrated erotic poetry, written by the ship AI itself, personally to me (as a reminder of great times spent together, apparently). I suspect it gave something like that to most of the crew.	Die KI musste einige wichtige militärische Oberkommandoelemente der Erd-Allianz treffen und verließ uns nach der Landung. Sie war so großzügig, mir einen riesigen exotischen Datenkern (im Wert eines kleinen Vermögens) sowie eine physische Sammlung illustrierter erotischer Poesie zu hinterlassen, die von der Schiffs-KI selbst geschrieben und mir persönlich übergeben wurde (anscheinend als Erinnerung an großartige gemeinsam verbrachte Zeiten). Ich vermute, dass die meisten Besatzungsmitglieder etwas Ähnliches bekommen haben.	600
+text	When I landed the ship, I was greeted by the Earth Alliance Vice-General, who requested to know if by any chance {0} made it back.\n\nTurns out that there was more to our mission than I knew. Our {0} contained a data chip full of some kind of super secret information about Precursors. {0} was happy to leave together with the Vice-General, enthusiastically speaking in the human-cat language mix. Who knows what secrets of life and death were hidden in that little creature.	Als ich das Schiff landete, wurde ich vom Vizegeneral der Erd-Allianz begrüßt, der wissen wollte, ob {0} es zufällig zurückgeschafft hat.\n\nEs stellte sich heraus, dass mehr hinter unserer Mission steckte, als ich wusste. Unser {0} enthielt einen Datenchip, der mit einer Art supergeheimer Information über die Vorläufer gefüllt war. {0} freute sich, zusammen mit dem Vizegeneral zu gehen, und sprach enthusiastisch im Mensch-Katzen-Sprachmix. Wer weiß, welche Geheimnisse über Leben und Tod in dieser kleinen Kreatur verborgen waren.	600
 title	The Cat	Die Katze	35
-text	When I landed the ship, I was greeted by the Earth Alliance Vice-General, who requested to know if by any chance {0} made it back.\n\nTurns out that there was more to our mission than I knew. Our {0} contained a data chip full of some kind of super secret information about Precursors. {0} was happy to leave together with the Vice-General, enthusiastically speaking in the human-cat language mix. Who knows what secrets of life and death were hidden in that little creature.	Als ich mit dem Schiff landete, wurde ich vom Vizegeneral der Erdallianz begrüßt, der wissen wollte, ob {0} es zufällig zurückgeschafft hat.\n\nEs stellte sich heraus, dass mehr hinter unserer Mission steckte, als ich wusste. Unser {0} enthielt einen Datenchip, der mit einer Art supergeheimer Information über die Vorläufer gefüllt war. {0} freute sich, zusammen mit dem Vizegeneral zu gehen, und sprach enthusiastisch im Mensch-Katzen-Sprachmix. Wer weiß, welche Geheimnisse über Leben und Tod in dieser kleinen Kreatur verborgen waren.	600
+text	When I landed the ship, I was greeted by the Earth Alliance Vice-General, who requested to know if by any chance {0} made it back.\n\nTurns out that there was more to our mission than I knew. Our {0} contained a data chip full of some kind of super secret information about Precursors. {0} was happy to leave together with the Vice-General, enthusiastically speaking in the human-cat language mix. Who knows what secrets of life and death were hidden in that little creature.	Als ich mit dem Schiff landete, wurde ich vom Vizegeneral der Erd-Allianz begrüßt, der wissen wollte, ob {0} es zufällig zurückgeschafft hat.\n\nEs stellte sich heraus, dass mehr hinter unserer Mission steckte, als ich wusste. Unser {0} enthielt einen Datenchip, der mit einer Art supergeheimer Information über die Vorläufer gefüllt war. {0} freute sich, zusammen mit dem Vizegeneral zu gehen, und sprach enthusiastisch im Mensch-Katzen-Sprachmix. Wer weiß, welche Geheimnisse über Leben und Tod in dieser kleinen Kreatur verborgen waren.	600
 text	Getting home to Earth always feels good, I was born here. Many years have passed since I last visited, and much has changed. There are even more robots and trees now than before, and even less people. Many of my close friends are still here however, and I will probably spend many months with them before doing anything else.	Nach Hause auf die Erde zu kommen, fühlt sich immer gut an, ich wurde hier geboren. Viele Jahre sind seit meinem letzten Besuch vergangen, und vieles hat sich verändert. Es gibt jetzt noch mehr Roboter und Bäume als früher, und noch weniger Menschen. Viele meiner engen Freunde sind jedoch immer noch hier, und ich werde wahrscheinlich viele Monate mit ihnen verbringen, bevor ich etwas anderes mache.	600
 text	It's good to be back. Many years have passed since I last visited, and much has changed. There are even more robots now, and even less people than before. Many of my friends have moved on to other worlds, and countless new ones are waiting in the infinite paths of fate, yet waiting to be met.	Es ist gut, wieder hier zu sein. Seit meinem letzten Besuch sind viele Jahre vergangen, und es hat sich viel verändert. Es gibt jetzt noch mehr Roboter, und noch weniger Menschen als früher. Viele meiner Freunde sind in andere Welten weitergezogen, und unzählige neue warten in den unendlichen Pfaden des Schicksals darauf, getroffen zu werden.	600
 text2	Our actions have caused a chain-reaction of events that might help us in the future.	Unsere Handlungen haben eine Kettenreaktion von Ereignissen ausgelöst, die uns in der Zukunft helfen könnten.	400
@@ -11034,7 +11034,7 @@ altText	Red circles on starsystem maps are hostile fleet <b>threat areas</b>. Fl
 altText	This starsystem has an <b>exit warpgate</b>. It allows travelling into the next space sector. Make sure you are in <b>starsystem view</b> and fly into it.	Dieses Sternensystem hat ein <b>Ausgangs-Warptor</b>. Es ermöglicht die Reise in den nächsten Raumsektor. Stellen Sie sicher, dass Sie sich in der <b>Sternensystemansicht</b> befinden und fliegen Sie hinein.	240
 title	Tutorial complete	Einführung abgeschlossen	35
 okButtonText	I understand, proceed to game	Ich verstehe, weiter zum Spiel	7
-text	Congratulations, you've survived the training session!\nShortest Trip is a roguelike with permadeath, so expect the game to have a fairly brutal difficulty beyond this point. \nFinal tip: to increase your survival chances early on, collect resources to get at least one additional weapon slot via upgrades. Internal combat will be a difficult challenge in later sectors, so investing in point-defences and combat-capable crew should be a long-term priority.\nGood luck surviving amongst the stars!	Glückwunsch, Sie haben das Training überstanden!\nShortest Trip ist ein Roguelike mit Permadeath, erwarten Sie also, dass das Spiel ab diesem Punkt einen ziemlich brutalen Schwierigkeitsgrad hat. \nEin letzter Tipp: Um Ihre Überlebenschancen früh zu erhöhen, sammeln Sie Ressourcen, um über Upgrades mindestens einen zusätzlichen Waffensteckplatz zu erhalten. Interne Kämpfe werden in späteren Sektoren eine schwierige Herausforderung sein, daher sollte die Investition in Punktverteidigung und kampffähige Crew eine langfristige Priorität sein.\nViel Glück beim Überleben inmitten der Sterne!	600
+text	Congratulations, you've survived the training session!\nShortest Trip is a roguelike with permadeath, so expect the game to have a fairly brutal difficulty beyond this point. \nFinal tip: to increase your survival chances early on, collect resources to get at least one additional weapon slot via upgrades. Internal combat will be a difficult challenge in later sectors, so investing in point-defences and combat-capable crew should be a long-term priority.\nGood luck surviving amongst the stars!	Glückwunsch, Sie haben das Training überstanden!\nShortest Trip ist ein Roguelike mit Permadeath, erwarten Sie also, dass das Spiel ab diesem Punkt einen ziemlich brutalen Schwierigkeitsgrad hat. \nEin letzter Tipp: Um Ihre Überlebenschancen früh zu erhöhen, sammeln Sie Ressourcen, um über Upgrades mindestens einen zusätzlichen Waffensteckplatz zu erhalten. Interne Kämpfe werden in späteren Sektoren eine schwierige Herausforderung sein, daher sollte die Investition in Punktabwehr und kampffähige Crew eine langfristige Priorität sein.\nViel Glück beim Überleben inmitten der Sterne!	600
 altText	When you hover the cursor around starsystem map, you can see the resource cost of moving around.\nSee that little white dot on the map? It's an unknown <b>point of interest</b>.	Wenn Sie mit dem Mauszeiger über die Sternensystemkarte fahren, können Sie die Ressourcenkosten für die Bewegung sehen.\nSehen Sie den kleinen weißen Punkt auf der Karte? Es ist ein unbekannter <b>Punkt von Interesse</b>.	240
 altText	Hello captain, I'm Athena, the core AI of this ship. Welcome to ship management tutorial. You are currently in <b>starsystem view</b>...\n(by the way, this tutorial uses default hotkeys only)	Hallo Kapitän, ich bin Athena, die Kern-KI dieses Schiffes. Willkommen zur Schiffsmanagement-Einführung. Sie befinden sich gerade in der <b>Sternensystemansicht</b>.	240
 altText	If you click on a module, you'll see <b>module info panel</b>.\n\nWhen you are done inspecting the modules, switch the view between your ship and starsystem by pressing the <b>TAB</b> key on your keyboard.	Wenn Sie auf ein Modul klicken, sehen Sie das <b>Modul-Info-Panel</b>.\n\nWenn Sie mit der Inspektion der Module fertig sind, wechseln Sie die Ansicht zwischen Ihrem Schiff und dem Sternensystem, indem Sie die Taste <b>TAB</b> auf Ihrer Tastatur drücken.	240
@@ -11086,7 +11086,7 @@ description	A well-armed frigate for travelling Rat Empire VIPs.	Eine gut bewaff
 description	And old Rat ship, designed to be a medium escort vessel. The ship lacks a fuel synthesizer, meaning its captains must replenish supplies from external sources.	Ein altes Rattenschiff, das als mittleres Eskortschiff konzipiert wurde. Dem Schiff fehlt ein Treibstoffsynthesizer, was bedeutet, dass seine Kapitäne ihre Vorräte aus externen Quellen auffüllen müssen.	400
 
 02 Pirate Arrowhead decoy.prefab
-description	Arrowheads were once produced by the thousands by Earth Alliance. They are considered antique now, but can still pack a punch. Especially against unshielded enemies.	Pfeilspitzen wurden einst von der Erdallianz zu Tausenden produziert. Sie gelten heute als antik, können aber immer noch eine Menge Schaden anrichten. Besonders gegen ungeschützte Feinde.	400
+description	Arrowheads were once produced by the thousands by Earth Alliance. They are considered antique now, but can still pack a punch. Especially against unshielded enemies.	Pfeilspitzen wurden einst von der Erd-Allianz zu Tausenden produziert. Sie gelten heute als antik, können aber immer noch eine Menge Schaden anrichten. Besonders gegen ungeschützte Feinde.	400
 
 02 Pirate Arrowhead old.prefab
 
@@ -11647,7 +11647,7 @@ Human fighter description pool.prefab
 	A retired soldier. Has not let go of their past.	Ein Soldat im Ruhestand. Hat seine Vergangenheit nicht losgelassen.	250
 	An old martial arts teacher. Expert with handguns.	Ein alter Kampfsportlehrer. Experte mit Handfeuerwaffen.	250
 	A military teacher. Loves hunting drones.	Ein Militärlehrer. Liebt die Jagd auf Drohnen.	250
-	An old law guardian. Expert in using all handweapons.	Ein alter Gesetzeswächter. Experte im Umgang mit allen Handwaffen.	250
+	An old law guardian. Expert in using all handweapons.	Ein alter Gesetzeshüter. Experte im Umgang mit allen Handwaffen.	250
 	A neo-samurai. Has killed many in numerous wars. Very peaceful.	Ein Neo-Samurai. Hat viele in zahlreichen Kriegen getötet. Sehr friedlich.	250
 	An ex-sergeant who never got any of his soldiers killed.	Ein Ex-Sergeant, der nie einen seiner Soldaten getötet hat.	250
 	A professional marine. Expert at using handguns.	Ein professioneller Marine. Experte im Umgang mit Handfeuerwaffen.	250
@@ -11671,7 +11671,7 @@ Human fighter description pool.prefab
 	A Security monk with eye-augments. Wants to have his own temple.	Ein Sicherheitsmönch mit Augenmaß. Möchte seinen eigenen Tempel haben.	250
 	A highly trained marine. Likes to share war stories.	Ein gut ausgebildeter Marine. Erzählt gerne Kriegsgeschichten.	250
 	An experienced Love & Security monk, liked by everybody on the ship.	Ein erfahrener Liebes- und Sicherheitsmönch, der von allen auf dem Schiff gemocht wird.	250
-	An ex-law guardian. Quit because of corruption.	Ein Ex-Gesetzeswächter. Hat wegen Korruption aufgehört.	250
+	An ex-law guardian. Quit because of corruption.	Ein Ex-Gesetzeshüter. Hat wegen Korruption aufgehört.	250
 	A close-combat specialist. Once shot down a battleship with a handgun.	Ein Nahkampfspezialist. Schoss einmal ein Schlachtschiff mit einer Handfeuerwaffe ab.	250
 	A retired security specialist. Now likes mentoring younger people.	Ein Sicherheitsspezialist im Ruhestand. Betreut jetzt gerne jüngere Leute.	250
 	An ex-slave looking for revenge against all Slavers.	Ein Ex-Sklave, der sich an allen Sklavenhändlern rächen will.	250
@@ -11750,7 +11750,7 @@ Human fighter-gunner description pool.prefab
 	A young death artist. Scars of physical violence.	Ein junger Todeskünstler. Narben von physischer Gewalt.	250
 	A young philosopher. Once killed a slaver with bare hands.	Ein junger Philosoph. Tötete einst einen Sklavenhändler mit bloßen Händen.	250
 	A young security scientist. Already famous for being hot.	Ein junger Sicherheitswissenschaftler. Bereits berühmt dafür, heiß zu sein.	250
-	A corporate guard whose corporation was annihilated.	Ein Firmenwächter, dessen Firma ausgelöscht wurde.	250
+	A corporate guard whose corporation was annihilated.	Eine Firmenwache, dessen Firma ausgelöscht wurde.	250
 	An archeologist interested in ancient alien fighting styles.	Ein Archäologe, der sich für antike außerirdische Kampfstile interessiert.	250
 	A security guard whose client was killed. Neo-Buddhist.	Ein Sicherheitsmann, dessen Kunde getötet wurde. Ein Neo-Buddhist.	250
 	Ex-smuggler. Has regular nightmares. Trains shooting guns daily.	Ex-Schmuggler. Hat regelmäßig Albträume. Trainiert täglich das Schießen mit Pistolen.	250
