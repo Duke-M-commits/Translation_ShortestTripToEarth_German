@@ -6471,7 +6471,7 @@ title	Final test	Letzter Test	35
 text	An unknown ship is approaching fast, and it seems to be carrying nukes!	Ein unbekanntes Schiff nähert sich schnell, und es scheint Atombomben an Bord zu haben!	600
 title	Escape from tutorial successful!	Flucht aus der Einführung erfolgreich!	35
 altText	When you need to give many orders quickly, use the <b>Roles panel!</b> it's next to the resource panel. Start by un-assigning our crew from their previous jobs (click the - sign). Then keep clicking on the + sign next to the firefighting role until at least 3 crew is fighting fires!	Wenn Sie schnell viele Befehle geben müssen, benutzen Sie das <b>Rollen-Panel!</b> Es befindet sich neben dem Ressourcen-Panel. Beginnen Sie damit, unsere Crew von ihren vorherigen Aufträgen zu entbinden (klicken Sie auf das --Zeichen). Klicken Sie dann so lange auf das +-Zeichen neben der Rolle "Brandbekämpfung", bis mindestens 3 Besatzungsmitglieder Brände bekämpfen!	240
-text	You've completed the official training of this tutorial. Feel free to take some time to fool around with this old Tigerfish before moving on to our real journey. For example, you may want to explore the various crafting options available for this ship. Return when you are ready to leave the tutorial.	Damit haben Sie das offizielle Training dieser Einführung abgeschlossen. Nehmen Sie sich ruhig etwas Zeit, um mit dem alten Tigerfish herumzuspielen, bevor Sie sich auf die eigentliche Reise begeben. Sie können zum Beispiel die verschiedenen Handwerksoptionen erkunden, die für dieses Schiff zur Verfügung stehen. Kehren Sie zurück, wenn Sie bereit sind, die Einführung zu verlassen.	400
+text	You've completed the official training of this tutorial. Feel free to take some time to fool around with this old Tigerfish before moving on to our real journey. For example, you may want to explore the various crafting options available for this ship. Return when you are ready to leave the tutorial.	Damit haben Sie das offizielle Training dieser Einführung abgeschlossen. Nehmen Sie sich ruhig etwas Zeit, um mit dem alten Tigerfisch herumzuspielen, bevor Sie sich auf die eigentliche Reise begeben. Sie können zum Beispiel die verschiedenen Handwerksoptionen erkunden, die für dieses Schiff zur Verfügung stehen. Kehren Sie zurück, wenn Sie bereit sind, die Einführung zu verlassen.	400
 choiceText	Time for some experimentation!	Zeit für ein paar Experimente!	100
 choiceText	End tutorial, give me the real thing!	Ende der Einführung, her mit dem echten Ding!	100
 
@@ -7978,10 +7978,10 @@ Bullseye nuke.prefab
 displayName	Bullseye nuke	Bullseye nuke	35
 
 Decoy DIY nuke.prefab
-displayName	Decoy DIY nuke	Decoy DIY nuke	35
+displayName	Decoy DIY nuke	Köder DIY nuke	35
 
 Decoy nuke.prefab
-displayName	Decoy nuke	Decoy nuke	35
+displayName	Decoy nuke	Köder nuke	35
 
 DIY Acid nuke.prefab
 displayName	Acid DIY nuke	Säure DIY nuke	35
@@ -7999,7 +7999,7 @@ DIY expbomb nuke.prefab
 displayName	DIY explosivepack nuke	DIY Sprengstoffpackung nuke	35
 
 DIY fuelbomb nuke.prefab
-displayName	DIY fuelpack nuke	DIY fuelpack nuke	35
+displayName	DIY fuelpack nuke	DIY Treibstoff nuke	35
 
 DIY incendiary nuke.prefab
 displayName	DIY incendiary nuke	DIY-Brandsatz nuke	35
@@ -9227,8 +9227,8 @@ warp 11 bluetec.prefab
 displayName	Warp drive, bluetec	Warpantrieb, bluetec	40
 
 00 DIY decoy nuke launcher.prefab
-displayName	DIY decoy capital missile	DIY Decoy-Capital-Rakete	40
-description	A decoy capital missile for drawing enemy point-defence fire. Does minor damage, mostly against enemy ship HP. Faster than average nukes.	Eine Decoy-Capital-Rakete, um feindliches Punktabwehr-Feuer abzulenken. Verursacht geringen Schaden, hauptsächlich gegen die HP des gegnerischen Schiffes. Schneller als durchschnittliche Atombomben.	200
+displayName	DIY decoy capital missile	DIY Köder-Capital-Rakete	40
+description	A decoy capital missile for drawing enemy point-defence fire. Does minor damage, mostly against enemy ship HP. Faster than average nukes.	Eine Köder-Capital-Rakete, um feindliches Punktabwehr-Feuer abzulenken. Verursacht geringen Schaden, hauptsächlich gegen die HP des gegnerischen Schiffes. Schneller als durchschnittliche Atombomben.	200
 
 00 DIY EMP nuke launcher.prefab
 description	Manually assembled capital EMP missile. Overloads modules in the hit area. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Manuell zusammengebauter kapitaler EMP-Flugkörper. Überlastet Module im Trefferbereich. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern zur Ablenkung der gegnerischen Punktabwehr profitieren.	200
@@ -9240,7 +9240,7 @@ description	Improvised incendiary nuke, made from various munitions and fuel tan
 description	This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless.	Diese improvisierte Hauptrakete trägt eine starke Anti-Schild-Energieladung, ist aber ansonsten harmlos.	200
 
 02 Decoy nuke launcher.prefab
-displayName	Decoy capital missile	Decoy capital missile	40
+displayName	Decoy capital missile	Köder capital missile	40
 
 02 Spideraa decoy nuke launcher.prefab
 displayName	Red monolith nuke	Rote Monolith-Bombe	40
@@ -9258,7 +9258,7 @@ displayName	DIY explosive pack nuke	DIY-Explosivpack-Nuke	40
 description	A manually assembled capital missile that damages mostly ship HP. Made by combining standard explosives with engines and crude armor.	Eine manuell zusammengebaute Kapitalrakete, die hauptsächlich Schiffs-HP beschädigt. Wird durch die Kombination von Standard-Sprengstoff mit Triebwerken und grober Panzerung hergestellt.	200
 
 04 DIY fuel pack launcher.prefab
-displayName	DIY Fuelpack nuke	DIY Fuelpack-Nuke	40
+displayName	DIY Fuelpack nuke	DIY Treibstoff-Nuke	40
 description	A manually assembled capital missile that creates fires inside enemy ship hull. Made by combining solidified starfuel with engines and crude armor.	Ein manuell zusammengebauter kapitaler Flugkörper, der Feuer in der gegnerischen Schiffshülle erzeugt. Erzeugt durch die Kombination von verfestigtem Sternentreibstoff mit Triebwerken und grober Panzerung.	200
 
 04 DIY plastics launcher.prefab
@@ -9273,7 +9273,7 @@ displayName	Improvised probe nuke	Improvisierte Sondenbombe	40
 description	Improvised capital missile, made by arming an exploration probe with unstable reactor.	Improvisierter Großflugkörper, hergestellt durch Bewaffnung einer Erkundungssonde mit instabilem Reaktor.	200
 
 06 Tiger nuke launcher.prefab
-displayName	Tigerpaw, industrial nuke	Tigerpaw, Industrie-Atombombe	40
+displayName	Tigerpaw, industrial nuke	Tigerpfote, Industrie-Atombombe	40
 description	Capital missile for shattering colossal asteroids or micromoons with kinetic force. Well armored, but has a very small Area Of Effect (AOE).	Großrakete zum Zerschmettern von kolossalen Asteroiden oder Mikromonden mit kinetischer Kraft. Gut gepanzert, hat aber einen sehr kleinen Wirkungsbereich (Area Of Effect, AOE).	200
 
 07 DIY acid nuke launcher.prefab
@@ -10499,7 +10499,7 @@ randomizerMenuStrings[i]	+1 DIY exotic raygun	+1 DIY Exotische Strahlenwaffe	30
 
 Perk module DIY explo combinator, to 3ships.prefab
 displayName	Explosives combinator DIY	Sprengstoff-Kombinator DIY	40
-description	This matter combinator can be fitted to Tigerfish utility frigates for a small price. Being able to produce explosives means our weapons don't run out of ammo so quickly, and we have greater freedom to dedicate resources into crafting DIY nukes.	Dieser Materie-Kombinator kann gegen einen geringen Preis an Tigerfish-Versorgungsfregatten angebracht werden. Die Fähigkeit, Sprengstoff zu produzieren, bedeutet, dass unseren Waffen nicht so schnell die Munition ausgeht und wir mehr Freiheit haben, Ressourcen für die Herstellung von DIY-Nukes zu verwenden.	250
+description	This matter combinator can be fitted to Tigerfish utility frigates for a small price. Being able to produce explosives means our weapons don't run out of ammo so quickly, and we have greater freedom to dedicate resources into crafting DIY nukes.	Dieser Materie-Kombinator kann gegen einen geringen Preis an Tigerfisch-Versorgungsfregatten angebracht werden. Die Fähigkeit, Sprengstoff zu produzieren, bedeutet, dass unseren Waffen nicht so schnell die Munition ausgeht und wir mehr Freiheit haben, Ressourcen für die Herstellung von DIY-Nukes zu verwenden.	250
 randomizerMenuStrings[i]	Allows combining fuel and synthetics into explosives	Ermöglicht die Kombination von Treibstoff und Synthetik zu Sprengstoff	30
 
 Perk module DIY garden.prefab
@@ -10679,7 +10679,7 @@ randomizerMenuStrings[i]	-200 metal	-200 Metall	30
 Perk nuke arsenal for SP33.prefab
 displayName	Nuke arsenal x5	Atomwaffenarsenal x5	40
 description	A selection of capital missiles, also known as nukes. Just fill in the very-ethical-use-only declaration to receive.	Eine Auswahl an kapitalen Raketen, auch bekannt als Nuklearwaffen. Füllen Sie einfach die "Nur für den ethischen Gebrauch"-Erklärung aus, um sie zu erhalten.	250
-randomizerMenuStrings[i]	+5 capital missiles	+5 kapitale Raketen	30
+randomizerMenuStrings[i]	+5 capital missiles	+5 Kapitale Raketen	30
 
 Perk nuke barrel.prefab
 displayName	External fueltank, T-1 [weaponized]	Externer Treibstofftank, T-1 [bewaffnet]	40
@@ -10696,7 +10696,7 @@ description	Ancient capital missile obtained from a biotech museum. Damages only
 Perk nuke diy decoy for Rogue Rat.prefab
 displayName	The Flying Boilers x2	Die fliegenden Kessel x2	40
 description	This pair of improvised decoy nukes have been manually crafted by local rocketry enthusiasts. Can be used to draw point-defence fire away from other missiles and deal minor damage against ship HP.	Dieses Paar improvisierter Täuschungsbomben wurde von lokalen Raketenenthusiasten in Handarbeit hergestellt. Sie können eingesetzt werden, um Punktabwehr-Feuer von anderen Raketen abzulenken und verursachen geringen Schaden an der Schiffshülle.	250
-randomizerMenuStrings[i]	+2 capital decoy missiles	+2 kapitale Täuschungsraketen	30
+randomizerMenuStrings[i]	+2 capital decoy missiles	+2 Kapitale Täuschungsraketen	30
 
 Perk nuke DIY probe ual4 for bluestar.prefab
 displayName	DIY nuke [weaponized probe]	DIY-Nuke [bewaffnete Sonde]	40
@@ -10707,7 +10707,7 @@ randomizerMenuStrings[i]	-40 fuel	-40 Treibstoff	30
 Perk nuke DIY random.prefab
 displayName	Improvised nuclear missile	Improvisierte Nuklearrakete	40
 description	An improvised combination of destabilized reactors, old engines and various spare parts. Might save our life one day.	Eine improvisierte Kombination aus destabilisierten Reaktoren, alten Motoren und verschiedenen Ersatzteilen. Könnte uns eines Tages das Leben retten.	250
-randomizerMenuStrings[i]	+1 random capital missile	+1 zufällige großartige Rakete	30
+randomizerMenuStrings[i]	+1 random capital missile	+1 Zufällige großartige Rakete	30
 randomizerMenuStrings[i]	-20 fuel	-20 Treibstoff	30
 
 Perk nuke DIY shield breaker.prefab
@@ -10738,7 +10738,7 @@ randomizerMenuStrings[i]	-130 credits	-130 Credits	30
 Perk nuke Rat incendiary for Rogue Rat.prefab
 displayName	Rat Empire incendiary nuke	Rattenimperium-Brandbombe	40
 description	Widespread corruption in the Rat Empire ensures that everything is available for a price.	Die weit verbreitete Korruption im Rattenimperium sorgt dafür, dass alles für einen Preis zu haben ist.	250
-randomizerMenuStrings[i]	+1 capital incendiary missile	+1 verhängnisvolle Brandbombe	30
+randomizerMenuStrings[i]	+1 capital incendiary missile	+1 Verhängnisvolle Brandbombe	30
 randomizerMenuStrings[i]	- 1 exotic	- 1 Exotisch	30
 
 Perk nuke thinspeeder for atlas.prefab
@@ -10746,7 +10746,7 @@ displayName	Additional nuke	Zusätzliche Atombombe	40
 description	For a small price, this mass-produced capital missile will added to the munitions loadout for Atlas. Faster than other nukes, small payload.	Für einen geringen Preis wird diese massenproduzierte Kapitalrakete dem Munitionsloadout für Atlas hinzugefügt. Schneller als andere Nuklearwaffen, kleine Nutzlast.	250
 
 Perk nuke Tigerfish.prefab
-displayName	Tigerpaw nuke	Tigerpaw-Atombombe	40
+displayName	Tigerpaw nuke	Tigerpfote-Atombombe	40
 description	A heavily armored single-shot industrial missile, originally designed for breaking large asteroids. Now repurposed for war. This one has very small AOE.	Eine stark gepanzerte Ein-Schuss-Industrierakete, die ursprünglich zum Zertrümmern großer Asteroiden entwickelt wurde. Jetzt für den Krieg umgewidmet. Diese hat eine sehr kleine AOE.	250
 
 Perk pack, 3xsolid starfuel from level7.prefab
@@ -10920,13 +10920,13 @@ randomizerMenuStrings[i]	Replaces 2 ship reactors	Ersetzt 2 Schiffsreaktoren	30
 Perk TESTER PACKAGE.prefab
 displayName	GAME TESTER PACKAGE	SPIELETESTER-PAKET	40
 description	Package of cool stuff for testers of level 6-8.	Paket mit coolen Sachen für Tester der Stufen 6-8.	250
-randomizerMenuStrings[i]	+ 6 modules & extra resources	6 module & extra Resourcen	30
+randomizerMenuStrings[i]	+ 6 modules & extra resources	6 Module & extra Resourcen	30
 
 Perk war animal for weirdship.prefab
 displayName	War animal, type "Red Ripper"	Kriegstier, Typ "Roter Mörder"	40
 description	Genetically engineered combat animal that eats a lot during ship travel if not in cryosleep. It's external carapace is very thick, but the creature is too unsophisticated to use weapons.	Genetisch hergestelltes Kampftier, das während der Schiffsreise viel frisst, wenn es sich nicht im Kryoschlaf befindet. Sein äußerer Panzer ist sehr dick, aber die Kreatur ist zu untrainiert, um Waffen zu benutzen.	250
-randomizerMenuStrings[i]	+1 trained combat animal	+1 trainiertes Kriegstier	30
-randomizerMenuStrings[i]	-eats a lot during ship travel	-frisst viel während der Schiffsreise	30
+randomizerMenuStrings[i]	+1 trained combat animal	+1 Trainiertes Kriegstier	30
+randomizerMenuStrings[i]	-eats a lot during ship travel	-Frisst viel während der Schiffsreise	30
 randomizerMenuStrings[i]	-166 credits	-166 Credits	30
 
 Perk warpshell extra deflection.prefab
