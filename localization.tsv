@@ -746,11 +746,11 @@ trainingAssignment.firstHoverLine	Trainees	Auszubildende	50
 	Select all firefighters	Alle Feuerwehrleute auswählen	0
 	Select all guards	Alle Wachen auswählen	0
 	Select all repairers	Alle Reparatur-Offiziere auswählen	0
-	Do not allow ship HP repair by repair officers.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-HP-Reparaturen durch Reparaturoffiziere nicht zulassen.\nEs ist sinnvoll, dies standardmäßig ausgeschaltet zu lassen, da Schiffs-HP-Reparaturen billiger sind, wenn sie von Reparaturstationen durchgeführt werden.	0
+	Do not allow ship HP repair by repair officers.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-Reparaturen durch Reparaturoffiziere nicht zulassen.\nEs ist sinnvoll, dies standardmäßig ausgeschaltet zu lassen, da Reparaturen billiger sind, wenn sie von Reparaturstationen durchgeführt werden.	0
 	OFF	AUS	4
-	Allow ship HP repair by repair officers.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-HP-Reparatur durch Reparaturoffiziere zulassen.\nEs ist sinnvoll, dies standardmäßig deaktiviert zu lassen, da die HP-Reparatur von Schiffen billiger ist, wenn sie von Reparaturstationen durchgeführt wird.	0
+	Allow ship HP repair by repair officers.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-Reparaturen durch Reparaturoffiziere zulassen.\nEs ist sinnvoll, dies standardmäßig ausgeschaltet zu lassen, da die Reparatur von Schiffen billiger ist, wenn sie von Reparaturstationen durchgeführt wird.	0
 	ON	EIN	4
-	Allow ship HP repair by crew.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-HP-Reparatur durch Besatzung zulassen.\nEs ist sinnvoll, dies standardmäßig ausgeschaltet zu lassen, weil\nSchiff-HP-Reparaturen billiger sind, wenn sie von Reparaturstationen durchgeführt werden.	0
+	Allow ship HP repair by crew.\nIt is useful to keep this turned off by default, because\nship HP repair is cheaper when done by repair stations.	Schiffs-Reparaturen durch Besatzung zulassen.\nEs ist sinnvoll, dies standardmäßig ausgeschaltet zu lassen, da die Reparaturen billiger sind, wenn sie von Reparaturstationen durchgeführt werden.	0
 	Select all gardeners	Alle Gärtner auswählen	0
 	Select all scientists	Alle Forscher auswählen	0
 	Select all cryosleeping crewmembers	Alle Crew-Mitglieder im Kryoschlaf auswählen	0
@@ -1034,8 +1034,8 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	Speed of moving around inside the ship.	Geschwindigkeit, mit der sich die Crew im Schiff bewegt.	0
 	14. Current hand weapon	14. Aktuelle Handwaffe	0
 	Shows damage per magazine and weapon reloading time. Some weapons are very inaccurate (shotgun) or very accurate (laser).	Zeigt den Schaden pro Magazin und die Nachladezeit der Waffe an. Einige Waffen sind sehr ungenau (Schrotflinte) oder sehr genau (Laser).	0
-	Send crew into medbay to heal damage. \nYou need organics to heal each hitpoint.\nThe alternative option is to send injured crew into cryosleep.	Schicken Sie die Crew in die Medbay, um Schaden zu heilen. \nSie benötigen organische Stoffe, um jeden Trefferpunkt zu heilen.\nDie alternative Option ist, die verletzte Besatzung in den Kryoschlaf zu schicken.	0
-	Send crew into medbay to heal damage. It needs organics to heal each hitpoint.\nThe alternative option is to send injured crew into cryosleep.	Schicken Sie die Crew in die Medbay, um den Schaden zu heilen. Sie benötigt Organika, um jeden Trefferpunkt zu heilen.\nDie alternative Option ist, verletzte Besatzung in Kryoschlaf zu schicken.	0
+	Send crew into medbay to heal damage. \nYou need organics to heal each hitpoint.\nThe alternative option is to send injured crew into cryosleep.	Schicken Sie die Crew in die Krankenstation, um Schaden zu heilen. \nSie benötigen organische Stoffe, um jeden Trefferpunkt zu heilen.\nDie alternative Option ist, die verletzte Besatzung in den Kryoschlaf zu schicken.	0
+	Send crew into medbay to heal damage. It needs organics to heal each hitpoint.\nThe alternative option is to send injured crew into cryosleep.	Schicken Sie die Crew in die Krankenstation, um den Schaden zu heilen. Sie benötigt Organika, um jeden Trefferpunkt zu heilen.\nDie alternative Option ist, verletzte Besatzung in Kryoschlaf zu schicken.	0
 	Crew in cryosleep do not consume organics, and have a small chance to heal injuries for free.	Die Crew im Kryoschlaf verbraucht keine organischen Substanzen und hat eine kleine Chance, Verletzungen kostenlos zu heilen.	0
 	To increase crew survivability against intruders, position them to shoot from behind corners.\nMissed shots may damage modules.	Um die Überlebensfähigkeit der Besatzung gegen Eindringlinge zu erhöhen, positionieren Sie sie so, dass sie von hinter Ecken schießt.\nFehlschüsse können Module beschädigen.	0
 	Selecting all crew (default shortcut E) shows all crew stats together. \nThis screen enables you to sort and compare their skills, or assign roles.	Wenn Sie die gesamte Besatzung auswählen (Standardtaste E), werden alle Besatzungsstatistiken zusammen angezeigt. \nDieser Bildschirm ermöglicht es Ihnen, ihre Fertigkeiten zu sortieren und zu vergleichen oder Rollen zuzuweisen.	0
@@ -3067,12 +3067,12 @@ text2	A systematic close-range scan revealed a cloud of technical debris remaini
 SOS2 exo, contaminated lizardman.prefab
 title	Lizardfolk captain	Echsenvolk-Kapitän	35
 text	"/.../ and I am the last surivor. The virus has infected me, and I will be dead within hours. If you can cure me, I will serve your noble cause to death"	/.../ und ich bin der letzte Überlebende. Der Virus hat mich infiziert, und ich werde innerhalb von Stunden tot sein. Wenn ihr mich heilen könnt, werde ich eurer edlen Sache bis zum Tod dienen	400
-choiceText	we'll decontaminate & cure you if we can [needs medbay & 50 organics]	Wir werden Sie dekontaminieren und heilen, wenn wir können [benötigt Medbay und 50 Organics]	100
+choiceText	we'll decontaminate & cure you if we can [needs medbay & 50 organics]	Wir werden Sie dekontaminieren und heilen, wenn wir können [benötigt Krankenstation und 50 Organics]	100
 choiceText	Sorry, we cannot help right now	Tut mir leid, wir können im Moment nicht helfen.	100
 newName3	Needs medical help	Braucht medizinische Hilfe	25
 text	medical operation... %	Medizinischer Einsatz... %	50
 title	Not enough resources or technology	Nicht genug Ressourcen oder Technologie	35
-text	We don't have a mebay, but we could easily craft a DIY medbay into an empty internal slot, if we have the resources.	Wir haben kein Medbay, aber wir könnten leicht ein DIY-Medbay in einen leeren internen Steckplatz einbauen, wenn wir die Ressourcen haben.	600
+text	We don't have a mebay, but we could easily craft a DIY medbay into an empty internal slot, if we have the resources.	Wir haben kein Krankenstation, aber wir könnten leicht ein DIY-Krankenstation in einen leeren internen Steckplatz einbauen, wenn wir die Ressourcen haben.	600
 title	Wrecked biotech ship	Zerstörtes Biotech-Schiff	35
 text2	There were no survivors despite the SOS signal and a few low-power systems being still active. We salvaged everything.	Es gab keine Überlebenden, obwohl das SOS-Signal und ein paar Systeme mit geringer Leistung noch aktiv waren. Wir haben alles geborgen.	400
 reasonToDisplay	wreck salvaged	Wrack geborgen	30
@@ -5854,7 +5854,7 @@ title	Weapon traders	Waffenhändler	35
 text	Two of the Gitchanki traders have a particularly attractive offer: "Two pristine multibarrel lasers for mere scraps! The salesmen explain the origin of their wares as "They were just lying around somewhere."	Zwei der Gitchanki-Händler haben ein besonders attraktives Angebot: "Zwei tadellose Multibarrel-Laser für bloßen Schrott! Die Verkäufer erklären die Herkunft ihrer Ware mit "Sie lagen einfach irgendwo herum".	400
 choiceText	Buy the weapons [-6 exotics]	Kaufen Sie die Waffen [-6 Exoten]	100
 text2	After taking the shipment aboard, we discover an amputated insectoid hand stuck within the rotational part of the laser turret. We give it a quick recycling ritual.	Nachdem wir die Lieferung an Bord genommen haben, entdecken wir eine amputierte insektoide Hand, die im Rotationsteil des Laserturms steckt. Wir unterziehen sie einem kurzen Recycling-Ritual.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two humanoid traders have a particularly attractive offer:"An advanced medbay for mere scraps (we don't remember where we got it from)!"	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Empfindungssklaverei. Sie sehen jedoch verschiedene versklavte Tiere, die zwischen Waffen und anderen kriminalisierten Gegenständen verkauft werden. Zwei humanoide Händler haben ein besonders verlockendes Angebot: "Ein fortschrittliches Medbay für bloßen Schrott (wir wissen nicht mehr, woher wir es haben)!"	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two humanoid traders have a particularly attractive offer:"An advanced medbay for mere scraps (we don't remember where we got it from)!"	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Empfindungssklaverei. Sie sehen jedoch verschiedene versklavte Tiere, die zwischen Waffen und anderen kriminalisierten Gegenständen verkauft werden. Zwei humanoide Händler haben ein besonders verlockendes Angebot: "Ein fortschrittliches Krankenstation für bloßen Schrott (wir wissen nicht mehr, woher wir es haben)!"	400
 text2	After taking the module aboard, you discover a cutoff leg of somebody inside its walls. Too late to complain now. The ship AI later has a chat with you about ethics.	Nachdem Sie das Modul an Bord genommen haben, entdecken Sie ein abgetrenntes Bein von jemandem in dessen Wänden. Zu spät, um sich jetzt zu beschweren. Die Schiffs-KI führt später ein Gespräch mit Ihnen über Ethik.	400
 text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two Gor-Mor traders have a particularly attractive offer: a third generation ship sensor for almost nothing!	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Sklaverei von Lebewesen. Sie sehen jedoch, dass zwischen Waffen und anderen kriminalisierten Gegenständen verschiedene versklavte Tiere verkauft werden. Zwei Gor-Mor-Händler haben ein besonders attraktives Angebot: einen Schiffssensor der dritten Generation für fast nichts!	400
 reasonToDisplay	trade	Handel	30
@@ -6029,7 +6029,7 @@ text	It seems to be a wreck of a small space station, no active systems detected
 title	Science base	Wissenschaftsbasis	35
 text2	This used to be a science base. Data records show some experiment with warp life got out of hand here, resulting in fire and subsequent explosions.\nWe collected everything worth taking, including the bodies of dead scientists and a few portable fuel canisters floating around. Unfortunately, all research data in the station's memorybanks is corrupted.	Dies war einmal eine Wissenschaftsbasis. Datenaufzeichnungen zeigen, dass hier ein Experiment mit Warp-Leben außer Kontrolle geriet, was zu einem Feuer und anschließenden Explosionen führte.\nWir haben alles eingesammelt, was es wert war, mitgenommen zu werden, einschließlich der Leichen der toten Wissenschaftler und einiger tragbarer Treibstoffkanister, die hier herumflogen. Leider sind alle Forschungsdaten in den Speicherbänken der Station korrumpiert.	400
 text2	This used to be a science base. Data records show some experiment with warp life got out of hand here. It seems the station has been already looted once, but we found some larger metal bits worth taking.	Dies war mal eine Wissenschaftsbasis. Die Datenaufzeichnungen zeigen, dass hier ein Experiment mit Warp-Leben außer Kontrolle geriet. Es scheint, dass die Station schon einmal geplündert wurde, aber wir fanden einige größere Metallteile, die es wert sind, mitgenommen zu werden.	400
-text2	Logs reveal a critical malfunction in biotech reactors destroyed this research station. Its biotech medbay unit was in survival mode and and hibernating among the rubble. It had eaten all organics in the wreckage to sustain itself and accidentally also tried to eat one of our crew, causing a minor wound.	Die Logbücher zeigen, dass eine kritische Fehlfunktion der Biotech-Reaktoren diese Forschungsstation zerstörte. Die biotechnische Medbay-Einheit war im Überlebensmodus und schlummerte unter den Trümmern. Sie hatte alle organischen Stoffe in den Trümmern gefressen, um sich selbst zu erhalten und versuchte versehentlich auch, einen unserer Crewmitglieder zu fressen, was eine kleine Wunde verursachte.	400
+text2	Logs reveal a critical malfunction in biotech reactors destroyed this research station. Its biotech medbay unit was in survival mode and and hibernating among the rubble. It had eaten all organics in the wreckage to sustain itself and accidentally also tried to eat one of our crew, causing a minor wound.	Die Logbücher zeigen, dass eine kritische Fehlfunktion der Biotech-Reaktoren diese Forschungsstation zerstörte. Die biotechnische Krankenstation-Einheit war im Überlebensmodus und schlummerte unter den Trümmern. Sie hatte alle organischen Stoffe in den Trümmern gefressen, um sich selbst zu erhalten und versuchte versehentlich auch, einen unserer Crewmitglieder zu fressen, was eine kleine Wunde verursachte.	400
 text2	This used to be a science base researching bioweapons and is quite well preserved. Large tanks of biomass have stayed intact. We also scaveged some exotic samples from the lab.	Dies war früher eine wissenschaftliche Basis zur Erforschung von Biowaffen und ist recht gut erhalten. Große Tanks mit Biomasse sind intakt geblieben. Wir haben auch einige exotische Proben aus dem Labor gerettet.	400
 text2	This used to be a science base. Last data records show unknown attackers destroying the base with projectile weapons. We found one survivor in a cryopod, and they decided to join our mission after a private conversation with our AI.	Das war mal eine Wissenschaftsbasis. Die letzten Aufzeichnungen zeigen, dass unbekannte Angreifer die Basis mit Projektilwaffen zerstörten. Wir fanden einen Überlebenden in einer Kryokapsel, der sich nach einem privaten Gespräch mit unserer KI entschloss, sich unserer Mission anzuschließen.	400
 title	Anomalous rock found	Anomales Gestein gefunden	35
@@ -8805,23 +8805,23 @@ description	Improvised medbay. Uses excessive amounts of organics to heal crewme
 Medbay.healingStoppedLogMsg	Warning, crew healing stopped due to lack of organics	Warnung, die Heilung von Besatzungsmitgliedern wurde aufgrund des Mangels an organischen Stoffen gestoppt.	80
 
 medbay1 Rat.prefab
-displayName	Medbay [ancient]	Medbay [antik]	40
+displayName	Medbay [ancient]	Krankenstation [antik]	40
 description	Medical nanomachines assembly. Consumes lots of organics when healing.	Zusammenbau medizinischer Nanomaschinen. Verbraucht bei der Heilung eine große Menge an organischen Stoffen.	200
 
 medbay2 startversion.prefab
-displayName	Medbay type 202	Medizinisches Labor Typ 202	40
+displayName	Medbay type 202	Krankenstation, Typ 202	40
 description	Nanorepair assembly. Nanobot ejectors ensure fast healing but consume lots of organics.	Nanoreparatur-Baugruppe. Nanobot-Ejektoren sorgen für schnelle Heilung, verbrauchen aber viele organische Stoffe.	200
 
 medbay3 nanorepair.prefab
-displayName	Medbay, type 300	Medbay, Typ 300	40
+displayName	Medbay, type 300	Krankenstation, Typ 300	40
 description	A modern and efficient nanorepair beam facility.	Eine moderne und effiziente Nanoreparatur-Beam-Anlage.	200
 
 medbay4 stem celler.prefab
-displayName	Medbay type Biogen1	Medbay Typ Biogen1	40
+displayName	Medbay type Biogen1	Krankenstation, Typ Biogen1	40
 description	Injecting billions of stem cells ensures rapid healing.	Die Injektion von Milliarden von Stammzellen sorgt für eine schnelle Heilung.	200
 
 medbay5 biofluid bath.prefab
-displayName	Medbay type Biogen2	Medbay Typ Biogen2	40
+displayName	Medbay type Biogen2	Krankenstation, Typ Biogen2	40
 description	Healing in this biotech nanobot pool consumes only a few organics but is also quite slow.	Die Heilung in diesem Biotech-Nanobot-Pool verbraucht nur wenige Organismen, ist aber auch recht langsam.	200
 
 medbay6 biological.prefab
@@ -9893,7 +9893,7 @@ unlockText	Complete tutorial to unlock	Freischaltung: Einführung abschließen	1
 unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erd-Allianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
 03 Weirdship.prefab
-description	An antique Space-Eel exploration ship obtained from a museum, packed with unconventional technology and crewed by space hippies. Many of the ship's modules function by eating organics (extra rations are recommended). Starts with a shoomery and medbay.	Ein antikes Space-Eel-Forschungsschiff, das Sie aus einem Museum erhalten haben, vollgepackt mit unkonventioneller Technologie und einer Crew aus Weltraum-Hippies. Viele der Schiffsmodule funktionieren durch den Verzehr von organischen Stoffen (Extra-Rationen werden empfohlen). Startet mit einem Schießstand und einer Medbay.	400
+description	An antique Space-Eel exploration ship obtained from a museum, packed with unconventional technology and crewed by space hippies. Many of the ship's modules function by eating organics (extra rations are recommended). Starts with a shoomery and medbay.	Ein antikes Space-Eel-Forschungsschiff, das Sie aus einem Museum erhalten haben, vollgepackt mit unkonventioneller Technologie und einer Crew aus Weltraum-Hippies. Viele der Schiffsmodule funktionieren durch den Verzehr von organischen Stoffen (Extra-Rationen werden empfohlen). Startet mit einer Pilzplantage und einer Krankenstation.	400
 unlockText	Die at least once to unlock	Freischaltung: Mindestens einmal sterben	100
 unlockAnnouncementText	Our encounters have created a chain reaction of events, eventually leading to an exclusive access of this antique Yu-Ee ship.	Unsere Begegnungen haben eine Kettenreaktion von Ereignissen ausgelöst, die schließlich zu einem exklusiven Zugang zu diesem antiken Yu-Ee-Schiff geführt haben.	100
 
@@ -10001,7 +10001,7 @@ randomizerMenuStrings[i]	+150 metals	+150 Metalle	30
 
 Perk add organics 0.prefab
 displayName	Extra organics	Zusätzliche organische Stoffe	40
-description	Average human consumes 6 organics per 100 range units (ru) travelled, which is the average diameter of a star system. \nOrganics are also used by medbays when healing crew.	Ein durchschnittlicher Mensch verbraucht 6 organische Stoffe pro 100 zurückgelegte Entfernungseinheiten (ru), was dem durchschnittlichen Durchmesser eines Sternensystems entspricht. \nOrganics werden auch von Medbays verwendet, wenn sie die Crew heilen.	250
+description	Average human consumes 6 organics per 100 range units (ru) travelled, which is the average diameter of a star system. \nOrganics are also used by medbays when healing crew.	Ein durchschnittlicher Mensch verbraucht 6 organische Stoffe pro 100 zurückgelegte Entfernungseinheiten (ru), was dem durchschnittlichen Durchmesser eines Sternensystems entspricht. \nOrganics werden auch von Krankenstationen verwendet, wenn sie die Crew heilen.	250
 randomizerMenuStrings[i]	+50 organics	+50 Organisches	30
 
 Perk add organics 1, houseplant.prefab
@@ -10530,10 +10530,10 @@ randomizerMenuStrings[i]	+10 organics	+10 Organisches	30
 randomizerMenuStrings[i]	+10 explosives	+10 Sprengstoffe	30
 
 Perk module DIY medbay.prefab
-displayName	Improvised medbay	Improvisierte Medbay	40
-description	Universal access to standard medbay blueprints represents one of the many benefits of Earth Alliance civilization, guaranteeing almost biological immortality against any physical issue if the damage to patient is not too severe. This manually crafted unit can serve one patient at a time.	Der universelle Zugang zu Standard-Bauplänen für Medbays ist einer der vielen Vorteile der Erd-Allianz-Zivilisation, die fast biologische Unsterblichkeit gegen jedes körperliche Problem garantiert, wenn der Schaden am Patienten nicht zu schwer ist. Diese manuell gefertigte Einheit kann jeweils einen Patienten versorgen.	250
-unlockAnnouncementText	We've been promised a free DIY medbay if we pick it up ourselves, next time.	Uns wurde eine kostenlose DIY-Medbay versprochen, wenn wir sie das nächste Mal selbst abholen.	100
-randomizerMenuStrings[i]	+1 medbay module	+1 Medbay Modul	30
+displayName	Improvised medbay	Improvisierte Krankenstation	40
+description	Universal access to standard medbay blueprints represents one of the many benefits of Earth Alliance civilization, guaranteeing almost biological immortality against any physical issue if the damage to patient is not too severe. This manually crafted unit can serve one patient at a time.	Der universelle Zugang zu Standard-Bauplänen für Krankenstationen ist einer der vielen Vorteile der Erd-Allianz-Zivilisation, die fast biologische Unsterblichkeit gegen jedes körperliche Problem garantiert, wenn der Schaden am Patienten nicht zu schwer ist. Diese manuell gefertigte Einheit kann jeweils einen Patienten versorgen.	250
+unlockAnnouncementText	We've been promised a free DIY medbay if we pick it up ourselves, next time.	Uns wurde eine kostenlose DIY-Krankenstation versprochen, wenn wir sie das nächste Mal selbst abholen.	100
+randomizerMenuStrings[i]	+1 medbay module	+1 Krankenstation Modul	30
 
 Perk module DIY point-defence.prefab
 displayName	DIY point-defence system	DIY-Punktabwehr	40
@@ -10615,8 +10615,8 @@ description	Perfect for couples. Crew in cryosleep doesn't consume organics & ma
 randomizerMenuStrings[i]	+1 cryosleep module for two	+1 Kryoschlafmodul für 2	30
 
 Perk module medbay 202.prefab
-displayName	Medbay 202	Medbay 202	40
-description	Send crew into installed medbay to heal injuries.\nDespite our ability to craft DIY medbays aboard the ship, this one is much more efficient and can heal multiple crew in the same time0.	Schicken Sie die Crew in die installierte Medbay, um Verletzungen zu heilen.\nTrotz unserer Fähigkeit, DIY-Medbays an Bord des Schiffes herzustellen, ist diese viel effizienter und kann mehrere Crews gleichzeitig heilen0.	250
+displayName	Medbay 202	Krankenstation 202	40
+description	Send crew into installed medbay to heal injuries.\nDespite our ability to craft DIY medbays aboard the ship, this one is much more efficient and can heal multiple crew in the same time0.	Schicken Sie die Crew in die installierte Krankenstation, um Verletzungen zu heilen.\nTrotz unserer Fähigkeit, DIY-Krankenstationen an Bord des Schiffes herzustellen, ist diese viel effizienter und kann mehrere Crews gleichzeitig heilen0.	250
 
 Perk module minigrowery.prefab
 description	A small accelerated growth garden module. Gardens remove operator food consumption and generate additional organics during ship movement. This growery can be used to by two operators.	Ein kleines Gartenmodul mit beschleunigtem Wachstum. Gärten entfernen den Nahrungsverbrauch des Operators und erzeugen zusätzliche organische Stoffe während der Schiffsbewegung. Diese Gärtnerei kann von zwei Operatoren genutzt werden.	250
