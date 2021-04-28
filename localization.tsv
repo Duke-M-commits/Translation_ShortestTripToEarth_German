@@ -621,7 +621,7 @@ title	Entry: Pirates	Eintrag: Piraten	35
 text	Lack of empathy is the result of neural and social misdevelopment during early childhood. The resultant beings don't personally experience the suffering of others like normal sentients do, and often grow into violent or cruel personalities, becoming criminals in the process. They need either guided rehabilitation, or in most cases (such as pirate encounters) a swift death.	Mangelnde Empathie ist das Ergebnis einer neuronalen und sozialen Fehlentwicklung in der frühen Kindheit. Die daraus resultierenden Wesen erleben das Leiden anderer nicht persönlich, wie es normale Wesen tun, und entwickeln sich oft zu gewalttätigen oder grausamen Persönlichkeiten und werden dabei zu Kriminellen. Sie benötigen entweder eine angeleitete Rehabilitation oder in den meisten Fällen (z. B. bei Begegnungen mit Piraten) einen raschen Tod.	600
 title	Pirates encountered	Begegnete Piraten	35
 text	Would you like to see another database entry for pirates?	Möchten Sie einen weiteren Datenbankeintrag für Piraten sehen?	400
-title	Entry: Squid Dominion	Eintrag: Tintenfisch-Dominion	35
+title	Entry: Squid Dominion	Eintrag: Tintenfisch-Herrschaft	35
 text	I don't know any more about the Squid than we learned from our last disastrous diplomatic encounter. I suspect their emperor is clinically insane and has complete control over their military and the entire Squid civilization. Perhaps we can obtain more info from Earth forces, as they've been fighting the Squid over five years now.	Ich weiß nicht mehr über die Squid, als wir bei unserer letzten desaströsen diplomatischen Begegnung erfahren haben. Ich vermute, dass ihr Imperator klinisch wahnsinnig ist und die vollständige Kontrolle über ihr Militär und die gesamte Squid-Zivilisation hat. Vielleicht können wir mehr Informationen von den Erdstreitkräften erhalten, da sie die Squid nun schon seit über fünf Jahren bekämpfen.	600
 title	Entry: Active warzones	Eintrag: Aktive Kriegsgebiete	35
 text	Warzones are usually full of conflict remains, including active minefields and shipwrecks. Most importantly, intergalactic wars usually attract Slaver fleets. Slavers are criminals united by their psychopathic lack of empathy, low cooperation skills and willingnes to enslave and hurt other sentient beings. I recommend nuking them if you can. Avoid being captured alive at all costs.	Kriegsgebiete sind normalerweise voller Überreste von Konflikten, einschließlich aktiver Minenfelder und Schiffswracks. Am wichtigsten ist, dass intergalaktische Kriege normalerweise Slaver-Flotten anziehen. Slaver sind Kriminelle, die durch ihren psychopathischen Mangel an Empathie, ihre geringen Kooperationsfähigkeiten und ihre Bereitschaft, andere fühlende Wesen zu versklaven und zu verletzen, vereint sind. Ich empfehle, sie zu vernichten, wenn Sie können. Vermeiden Sie um jeden Preis, lebendig gefangen genommen zu werden.	600
@@ -11358,70 +11358,70 @@ General humanoid idle msg pool.prefab
 	Feeling not bad	Sich nicht schlecht fühlen	80
 
 General humanoid operating msg pool.prefab
-	Operating module, focused on the job.	Betriebsmodul, konzentriert auf die Arbeit.	80
-	Operating module, contemplating existence.	Betriebsmodul, über die Existenz nachdenkend.	80
-	Operating module, thinking about food.	Betriebsmodul, nachdenklich über Essen.	80
-	Operating module, meditative mood.	Bedienmodul, meditative Stimmung.	80
-	Operating module, thinking about death.	Bedienmodul, über den Tod nachdenken.	80
-	Operating module, thinking about life.	Betriebsmodul, nachdenklich über das Leben.	80
-	Operating module, thinking about sex.	Betriebsmodul, über Sex nachdenken.	80
-	Operating module, reading error messages.	Bedienmodul, Fehlermeldungen lesen.	80
-	Operating module, consulting the manual.	Bedienmodul, nachschlagen im Handbuch.	80
-	Operating module, feeling lonely.	Bedienmodul, sich einsam fühlen.	80
-	Operating module, also feeling lonely.	Bedienmodul, fühlt sich auch einsam.	80
-	Operating module, thinking about the future...	Bedienmodul, denkt über die Zukunft nach...	80
-	Operating module, neurochatting with ship AI.	Bedienmodul, neurochattet mit der Schiffs-KI.	80
-	Operating module, daydreaming...	Bedienmodul, tagträumend...	80
-	Operating module, admiring the space view...	Bedienmodul, bewundert die Aussicht auf den Weltraum...	80
-	Operating module, also reviewing personal history.	Betriebsmodul, das auch die persönliche Geschichte Revue passieren lässt.	80
-	Operating module, trying to remember a name...	Betriebsmodul, versucht, sich an einen Namen zu erinnern...	80
-	Operating module, updating tech subsettings.	Betriebsmodul, aktualisiere technische Untereinstellungen.	80
-	Operating module, thinking about space pets.	Betriebsmodul, denkt über Weltraumtiere nach.	80
-	Operating module, thinking about alien sex...	Betriebsmodul, denke über Alien-Sex nach...	80
-	Operating module, listening ambient music...	Betriebsmodul, höre Umgebungsmusik...	80
-	Operating module, also looking at digital art.	Betriebsmodul, schaut sich auch digitale Kunst an.	80
-	Operating module, enjoying being alone.	Betriebsmodul, genießt das Alleinsein.	80
-	Operating module, thinking about children.	Betriebsmodul, denkt über Kinder nach.	80
-	Operating module, memorizing alien words.	Betriebsmodul, außerirdische Wörter auswendig lernen.	80
-	Operating module, dwelling on the past...	Betriebsmodul, in der Vergangenheit schwelgend...	80
-	Operating module, thinking about past lovers...	Betriebsmodul, denkt an vergangene Liebhaber...	80
-	Operating module, thinking about childhood...	Betriebsmodul, an die Kindheit denken...	80
-	Operating module, thinking about friendship...	Betriebsmodul, an Freundschaft denken...	80
-	Operating module, thinking about friends.	Betriebsmodul, denke über Freunde nach.	80
-	Operating module, thinking about the Rat Empire.	Betriebsmodul, denke über das Rattenimperium nach.	80
-	Operating module, thinking about the Squid Dominion.	Betriebsmodul, denke über das Tintenfisch-Dominion nach.	80
-	Operating module, thinking about the Pirates.	Betriebsmodul, denke über die Piraten nach.	80
-	Operating module, also reciting the mantra of truth.	Betriebsmodul, rezitiert auch das Mantra der Wahrheit.	80
-	Operating module, thinking about the Tentaculaati.	Betriebsmodul, denkt an die Tentaculaati.	80
-	Operating module, thinking about the Insectoidians.	Betriebsmodul, denke über die Insektoiden nach.	80
-	Operating module, thinking about the Gor-Mor.	Betriebsmodul, denkt über die Gor-Mor nach.	80
-	Operating module, thinking about architecture.	Betriebsmodul, denkt über die Architektur nach.	80
-	Operating module, thinking about the Gitchanki.	Betriebsmodul, über die Gitchanki nachdenken.	80
-	Operating module, practicing mindfulness.	Betriebsmodul, Achtsamkeit üben.	80
-	Operating module, practicing mental silence.	Betriebsmodul, mentale Stille üben.	80
-	Operating module, doing routine checks.	Betriebsmodul, Routinekontrollen durchführen.	80
-	Operating module, reciting a mantra of truth.	Betriebsmodul, ein Mantra der Wahrheit rezitieren.	80
-	Operating module, reciting a mantra of love.	Betriebsmodul, ein Mantra der Liebe rezitieren.	80
-	Operating module, reciting a mantra of death.	Betriebsmodul, ein Mantra des Todes rezitieren.	80
-	Operating module, reciting a mantra of benevolence.	Betriebsmodul, rezitiert ein Mantra des Wohlwollens.	80
-	Operating module, reciting a mantra of mindfulness.	Betriebsmodul, Rezitieren eines Mantras der Achtsamkeit.	80
-	Operating module, doing a mental hygiene routine.	Betriebsmodul, Durchführung einer Mentalhygiene-Routine.	80
-	Operating module, paying attention.	Betriebsmodul, Aufmerksamkeit schenken.	80
-	Operating module, fine-tuning subsettings.	Betriebsmodul, Feinabstimmung von Untereinstellungen.	80
-	Operating module, fixing a subscreen glitch.	Betriebsmodul, Beheben eines Subscreen-Fehlers.	80
-	Operating module, reviewing module data.	Betriebsmodul, Überprüfung der Moduldaten.	80
-	Operating module, reviewing module settings.	Betriebsmodul, Überprüfen der Moduleinstellungen.	80
-	Operating, thinking about the beauty of another crewmember.	Betriebsmodul, Nachdenken über die Schönheit eines anderen Crewmitglieds.	80
-	Operating, thinking about something a crewmember said...	Operieren, über etwas nachdenken, das ein Crewmitglied sagte...	80
-	Operating, thinking about something another crewmember said.	Bedienen, über etwas nachdenken, das ein anderes Besatzungsmitglied gesagt hat.	80
-	Operating module, getting advice from ship AI subsystems.	Betriebsmodul, Ratschläge von Schiffs-KI-Subsystemen einholen.	80
-	Operating module, getting advice from ship AI.	Betriebsmodul, Ratschläge von der Schiffs-KI einholen.	80
-	Operating module, listening to a motivational audio-recording...	Betriebsmodul, Anhören einer motivierenden Audio-Aufnahme...	80
-	Operating module, listening to motivational music...	Bedienmodul, hört eine motivierende Musik...	80
-	Operating module, thinking about an unfulfilled promise...	Bedienmodul, Nachdenken über ein unerfülltes Versprechen...	80
-	Operating module, thinking about a promise made years ago...	Bedienmodul, denkt an ein vor Jahren gegebenes Versprechen...	80
-	Operating module, focused on module subscreens.	Bedienmodul, konzentriert auf Modul-Subscreens...	80
-	Operating module, focused on the job	Betriebsmodul, konzentriert auf den Job	80
+	Operating module, focused on the job.	Bedient Modul, konzentriert auf die Arbeit.	80
+	Operating module, contemplating existence.	Bedient Modul, über die Existenz nachdenkend.	80
+	Operating module, thinking about food.	Bedient Modul, nachdenklich bezüglich Essen.	80
+	Operating module, meditative mood.	Bedient Modul, meditative Stimmung.	80
+	Operating module, thinking about death.	Bedient Modul, über den Tod nachdenkend.	80
+	Operating module, thinking about life.	Bedient Modul, nachdenklich über das Leben.	80
+	Operating module, thinking about sex.	Bedient Modul, denkt über Sex nach.	80
+	Operating module, reading error messages.	Bedient Modul, liest Fehlermeldungen.	80
+	Operating module, consulting the manual.	Bedient Modul, schlägt im Handbuch nach.	80
+	Operating module, feeling lonely.	Bedient Modul, fühlt sich einsam.	80
+	Operating module, also feeling lonely.	Bedient Modul, fühlt sich auch einsam.	80
+	Operating module, thinking about the future...	Bedient Modul, denkt über die Zukunft nach...	80
+	Operating module, neurochatting with ship AI.	Bedient Modul, neurochattet mit der Schiffs-KI.	80
+	Operating module, daydreaming...	Bedient Modul, tagträumt...	80
+	Operating module, admiring the space view...	Bedient Modul, bewundert die Aussicht auf den Weltraum...	80
+	Operating module, also reviewing personal history.	Bedient Modul, lässt nebenbei eine persönliche Sache Revue passieren.	80
+	Operating module, trying to remember a name...	Bedient Modul, versucht, sich an einen Namen zu erinnern...	80
+	Operating module, updating tech subsettings.	Bedient Modul, aktualisiere technische Untereinstellungen.	80
+	Operating module, thinking about space pets.	Bedient Modul, denkt über Weltraumtiere nach.	80
+	Operating module, thinking about alien sex...	Bedient Modul, denkt über Alien-Sex nach...	80
+	Operating module, listening ambient music...	Bedient Modul, höre Umgebungsmusik...	80
+	Operating module, also looking at digital art.	Bedient Modul, schaut sich nebenbei digitale Kunst an.	80
+	Operating module, enjoying being alone.	Bedient Modul, genießt das Alleinsein.	80
+	Operating module, thinking about children.	Bedient Modul, denkt über Kinder nach.	80
+	Operating module, memorizing alien words.	Bedient Modul, übt sich im außerirdische Wörter auswendig lernen.	80
+	Operating module, dwelling on the past...	Bedient Modul, in der Vergangenheit schwelgend...	80
+	Operating module, thinking about past lovers...	Bedient Modul, denkt an vergangene Liebhaber...	80
+	Operating module, thinking about childhood...	Bedient Modul, denkt an die Kindheit...	80
+	Operating module, thinking about friendship...	Bedient Modul, denkt an Freundschaft...	80
+	Operating module, thinking about friends.	Bedient Modul, denkt über Freunde nach.	80
+	Operating module, thinking about the Rat Empire.	Bedient Modul, denke über das Rattenimperium nach.	80
+	Operating module, thinking about the Squid Dominion.	Bedient Modul, denkt über die Tintenfisch-Herrschaft nach.	80
+	Operating module, thinking about the Pirates.	Bedient Modul, denkt über die Piraten nach.	80
+	Operating module, also reciting the mantra of truth.	Bedient Modul, rezitiert nebenbei das Mantra der Wahrheit.	80
+	Operating module, thinking about the Tentaculaati.	Bedient Modul, denkt an die Tentaculaati.	80
+	Operating module, thinking about the Insectoidians.	Bedient Modul, denkt über die Insektoiden nach.	80
+	Operating module, thinking about the Gor-Mor.	Bedient Modul, denkt über die Gor-Mor nach.	80
+	Operating module, thinking about architecture.	Bedient Modul, denkt an Architektur.	80
+	Operating module, thinking about the Gitchanki.	Bedient Modul, denkt über die Gitchanki nach.	80
+	Operating module, practicing mindfulness.	Bedient Modul, Achtsamkeit übent.	80
+	Operating module, practicing mental silence.	Bedient Modul, mentale Stille übent.	80
+	Operating module, doing routine checks.	Bedient Modul, führt Routinekontrollen durch.	80
+	Operating module, reciting a mantra of truth.	Bedient Modul, ein Mantra der Wahrheit rezitierend.	80
+	Operating module, reciting a mantra of love.	Bedient Modul, ein Mantra der Liebe rezitierend.	80
+	Operating module, reciting a mantra of death.	Bedient Modul, ein Mantra des Todes rezitierend.	80
+	Operating module, reciting a mantra of benevolence.	Bedient Modul, rezitiert ein Mantra des Wohlwollens.	80
+	Operating module, reciting a mantra of mindfulness.	Bedient Modul, rezitiert ein Mantra der Achtsamkeit.	80
+	Operating module, doing a mental hygiene routine.	Bedient Modul, führt eine Mentalhygiene-Routine durch.	80
+	Operating module, paying attention.	Bedient Modul, Aufmerksamkeit schenkend.	80
+	Operating module, fine-tuning subsettings.	Bedient Modul, stimmt Untereinstellungen fein ab.	80
+	Operating module, fixing a subscreen glitch.	Bedient Modul, behebt einen Subscreen-Fehler.	80
+	Operating module, reviewing module data.	Bedient Modul, überprüft die Moduldaten.	80
+	Operating module, reviewing module settings.	Bedient Modul, überprüft die Moduleinstellungen.	80
+	Operating, thinking about the beauty of another crewmember.	Bedient Modul, denkt über die Schönheit eines anderen Crewmitglieds nach.	80
+	Operating, thinking about something a crewmember said...	Bedient Modul, über etwas nachdenkend, das ein Crewmitglied sagte...	80
+	Operating, thinking about something another crewmember said.	Bedient Modul, über etwas nachdenkend, das ein anderes Crewmitglied gesagt hat.	80
+	Operating module, getting advice from ship AI subsystems.	Bedient Modul, holt Ratschläge von Schiffs-KI-Subsystemen ein.	80
+	Operating module, getting advice from ship AI.	Bedient Modul, holt Ratschläge von der Schiffs-KI ein.	80
+	Operating module, listening to a motivational audio-recording...	Bedient Modul, hört eine motivierenden Audio-Aufnahme...	80
+	Operating module, listening to motivational music...	Bedient Modul, hört eine motivierende Musik...	80
+	Operating module, thinking about an unfulfilled promise...	Bedient Modul, denkt über ein unerfülltes Versprechen nach...	80
+	Operating module, thinking about a promise made years ago...	Bedient Modul, denkt an ein vor Jahren gegebenes Versprechen...	80
+	Operating module, focused on module subscreens.	Bedient Modul, konzentriert auf Modul-Subscreens...	80
+	Operating module, focused on the job	Bedient Modul, konzentriert auf den Job	80
 
 General pet description pool.prefab
 	A simple animal, dreaming of pleasures. Understands requests like "go to medbay", but ignores orders."	Ein einfaches Tier, das von Vergnügungen träumt. Versteht Aufforderungen wie "Geh zur Krankenstation", ignoriert aber Befehle."	250
