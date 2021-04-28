@@ -948,13 +948,13 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	In easier game mode(s): when ship HP reaches 0, damage is substracted from ship max HP. This permanent damage cannot be repaired.	In leichteren Spielmodi: Wenn die Schiffshüllenpunkte 0 erreichen, wird der Schaden von den maximalen Schiffshüllenpunkten abgezogen. Dieser permanente Schaden kann nicht repariert werden.	0
 	If your stealth detection is same or higher than stealth level of enemy fleet, you will see the enemy fleet as a red icon and also the area that it guards on the starsystem map.	Wenn Ihre Tarnkappenerkennung gleich oder höher ist als die Tarnkappenstufe der gegnerischen Flotte, sehen Sie die gegnerische Flotte als rotes Symbol und auch den Bereich, den sie bewacht, auf der Sternensystemkarte.	0
 	High danger of\nasteroid impacts	Hohe Gefahr von\nAsteroideneinschlägen	0
-	Concentrated asteroid clusters have increased risk of impacts. \nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidencluster mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktabwehr und Integritätsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0
+	Concentrated asteroid clusters have increased risk of impacts. \nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidenanhäufung mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktabwehr und Integritätsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0
 	Weapons & other modules	Waffen und andere Module	0
 	Weapons and ECM modules can only be installed to external slots:	Waffen und ECM-Module können nur auf externen Steckplätzen eingebaut werden:	0
 	Point defences can only be installed in hybrid slots:	Punktabwehr kann nur in Hybrid-Steckplätzen eingebaut werden:	0
 	Most other modules can be installed to internal, core, hybrid or external slots:	Die meisten anderen Module können in internen, Kern-, Hybrid- oder externen Steckplätzen eingebaut werden:	0
 	Special modules like warp, engine, bridge and capital missile can only be installed to dedicated slots:	Spezialmodule wie Warp, Triebwerk, Brücke und Capital Missile können nur in speziellen Steckplätzen eingebaut werden:	0
-	Module slot upgrades	Modulsteckplatz-Upgrades	0
+	Module slot upgrades	Modulsteckplatz-Aufrüstungen	0
 	Some of the module slots can be upgraded at a cost. Make sure that slot is empty and undamaged before upgrading.	Einige der Modulsteckplätze können kostenpflichtig aufgerüstet werden. Stellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie ihn aufrüsten.	0
 	Internal slots can be upgraded to core slots, which give additional hitpoints to ship hull.	Interne Steckplätze können zu Kernsteckplätzen aufgerüstet werden, die der Schiffshülle zusätzliche Trefferpunkte verleihen.	0
 	All hybrid slots can be upgraded to weapon slots.	Alle Hybrid-Steckplätze können zu Waffen-Steckplätzen aufgerüstet werden.	0
@@ -2474,7 +2474,7 @@ text2	"Hello there, fellow Captain! Nice ship you have there! Please take these 
 reasonToDisplay	resources received	Ressourcen erhalten	30
 
 Level 8 exit no fight.prefab
-text2	"Hello again! How did it go with the Spiders? I've prepared a package of refreshments for you. Looking forward to hearing your story on the way home, and getting to know you better... there's a party in our rec room tonight and your entire crew is invited, especially yourself!" The captain blushes for a brief moment."	Hallo nochmal! Wie ist es mit den Spinnen gelaufen? Ich habe ein Paket mit Erfrischungen für Sie vorbereitet. Ich freue mich darauf, auf dem Heimweg Ihre Geschichte zu hören und Sie besser kennenzulernen ... heute Abend findet in unserem Aufenthaltsraum eine Party statt, zu der Ihre gesamte Crew eingeladen ist, besonders Sie selbst! Der Kapitän errötet für einen kurzen Moment."	400
+text2	"Hello again! How did it go with the Spiders? I've prepared a package of refreshments for you. Looking forward to hearing your story on the way home, and getting to know you better... there's a party in our rec room tonight and your entire crew is invited, especially yourself!" The captain blushes for a brief moment."	Hallo nochmal! Wie ist es mit den Spinnern gelaufen? Ich habe ein Paket mit Erfrischungen für Sie vorbereitet. Ich freue mich darauf, auf dem Heimweg Ihre Geschichte zu hören und Sie besser kennenzulernen ... heute Abend findet in unserem Aufenthaltsraum eine Party statt, zu der Ihre gesamte Crew eingeladen ist, besonders Sie selbst! Der Kapitän errötet für einen kurzen Moment."	400
 reasonToDisplay	resupply	resupply	30
 
 Level 9 exit no fight.prefab
@@ -5689,7 +5689,7 @@ text2	Our bots have returned with salvage.	Unsere Bots sind mit Bergungsgut zur�
 Spideraa asteroids 0.prefab
 name3	Spideraa sighting	Spinner-Sichtung	25
 title	Spideraa sighting location	Spinner-Sichtungsort	35
-text	The Space Eels have reported sighting small arachnid ships in this cluster of asteroids.	Die Space Eels haben gemeldet, dass sie kleine Spinnenschiffe in diesem Asteroidencluster gesichtet haben.	400
+text	The Space Eels have reported sighting small arachnid ships in this cluster of asteroids.	Die Space Eels haben gemeldet, dass sie kleine Spinner-Schiffe in diesem Asteroidenanhäufung gesichtet haben.	400
 text	Let's keep on trying to contact them. Ancient insectoid texts explain there is one thing the Spideraa hold sacred, and that is patience.	Versuchen wir weiter, sie zu kontaktieren. Alte insektoide Texte erklären, dass es eine Sache gibt, die den Spinnern heilig ist, und das ist Geduld.	600
 okButtonText	To battle	Zum Kampf	7
 text	Two Spideraa ship are approaching us. They do not respond to our commrequests.	Zwei Spinner-Schiffe nähern sich uns. Sie reagieren nicht auf unsere Funksprüche.	600
@@ -8099,7 +8099,7 @@ displayName	The Shopping District	Das Einkaufsgebiet	25
 
 Level 8, spideraa darkspace.prefab
 displayName	Outward Abyss	Äußerer Abgrund	25
-description	(new runs can be only started from sectors 1,2,3)\n\nA sector of extreme remoteness, known for a constellation of black holes. The Yu-Ee have observed advanced arachnid ships in the area.\n\nFrom the captains log:\n/.../ I think spiders, and insects in general are very nice. If you know the right rituals, everything at least can go well. But these Spider-aagh here are something different. Their religion demands that their food must be alive and conscious until the meal is over.\nI've instructed the ship to self-destruct in case there is serious danger of capture just to give everyone that extra bit of confidence we need /.../	(neue Runs können nur aus den Sektoren 1,2,3 gestartet werden)\n\nEin Sektor von extremer Abgeschiedenheit, bekannt für eine Konstellation von schwarzen Löchern. Die Yu-Ee haben fortgeschrittene Spinnenschiffe in diesem Gebiet beobachtet.\n\nAus dem Logbuch des Kapitäns: \n/.../ Ich finde Spinnen und Insekten im Allgemeinen sehr nett. Wenn man die richtigen Rituale kennt, kann zumindest alles gut gehen. Aber diese Spider-aagh hier sind etwas anderes. Ihre Religion verlangt, dass ihre Nahrung lebendig und bei Bewusstsein sein muss, bis die Mahlzeit vorbei ist.\nIch habe das Schiff angewiesen, sich selbst zu zerstören, für den Fall, dass ernsthafte Gefahr besteht, gefangen genommen zu werden, nur um allen das nötige Extra an Vertrauen zu geben /.../	350
+description	(new runs can be only started from sectors 1,2,3)\n\nA sector of extreme remoteness, known for a constellation of black holes. The Yu-Ee have observed advanced arachnid ships in the area.\n\nFrom the captains log:\n/.../ I think spiders, and insects in general are very nice. If you know the right rituals, everything at least can go well. But these Spider-aagh here are something different. Their religion demands that their food must be alive and conscious until the meal is over.\nI've instructed the ship to self-destruct in case there is serious danger of capture just to give everyone that extra bit of confidence we need /.../	(neue Runs können nur aus den Sektoren 1,2,3 gestartet werden)\n\nEin Sektor von extremer Abgeschiedenheit, bekannt für eine Konstellation von schwarzen Löchern. Die Yu-Ee haben fortgeschrittene Spinner-Schiffe in diesem Gebiet beobachtet.\n\nAus dem Logbuch des Kapitäns: \n/.../ Ich finde Spinnen und Insekten im Allgemeinen sehr nett. Wenn man die richtigen Rituale kennt, kann zumindest alles gut gehen. Aber diese Spider-aagh hier sind etwas anderes. Ihre Religion verlangt, dass ihre Nahrung lebendig und bei Bewusstsein sein muss, bis die Mahlzeit vorbei ist.\nIch habe das Schiff angewiesen, sich selbst zu zerstören, für den Fall, dass ernsthafte Gefahr besteht, gefangen genommen zu werden, nur um allen das nötige Extra an Vertrauen zu geben /.../	350
 
 Level 9, marble, squid, shokar.prefab
 displayName	The Hideout Hunt	Die Versteckjagd	25
@@ -9394,11 +9394,11 @@ description	This weapon reloads slowly and shoots a single powerful projectile (
 
 weapon cubecannon1.prefab
 displayName	Armored railcannon	Gepanzerte Schienenkanone	40
-description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die Schiffs-HP. Die Geschosse der Railcannon werden nicht so leicht von Punktabwehr zerstört (je 5 HP).	200
+description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon projectiles are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die Schiffs-HP. Die Geschosse der Schienenkanone werden nicht so leicht von Punktabwehr zerstört (je 5 HP).	200
 
 weapon cubecannon1x3.prefab
 displayName	Armored railcannon III	Gepanzerte Schienenkanone III	40
-description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon shells are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die HP des Schiffes. Die Geschosse der Railcannon werden nicht so leicht von Punktabwehr zerstört (5 HP pro Stück).	200
+description	This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon shells are not easily destroyed by point-defences (5hp each).	Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die HP des Schiffes. Die Geschosse der Schienenkanone werden nicht so leicht von Punktabwehr zerstört (5 HP pro Stück).	200
 
 weapon diyfirebomber1.prefab
 displayName	DIY firecannon MK1	DIY-Feuerkanone MK1	40
@@ -9472,15 +9472,15 @@ displayName	Rail-accelerator cannon IV	Schienenbeschleuniger-Kanone IV	40
 
 weapon Sniper cannon 0 DIY.prefab
 displayName	DIY rail microcannon	DIY-Schienen-Mikrokanone	40
-description	Manually assembled small railgun. Penetrates shields, does not consume explosives, deals double damage to modules. Projectiles have 3hp each.	Manuell zusammengebaute kleine Railgun. Durchdringt Schilde, verbraucht keinen Sprengstoff, verursacht doppelten Schaden an Modulen. Projektile haben jeweils 3 HP.	200
+description	Manually assembled small railgun. Penetrates shields, does not consume explosives, deals double damage to modules. Projectiles have 3hp each.	Manuell zusammengebaute kleine Schienenwaffe. Durchdringt Schilde, verbraucht keinen Sprengstoff, verursacht doppelten Schaden an Modulen. Projektile haben jeweils 3 HP.	200
 
 weapon Sniper cannon 0.prefab
 displayName	Sniper cannon I	Scharfschützenkanone I	40
 description	A sniper cannon for damaging crucial modules of enemy ships. Projectiles have 2hp each.	Eine Scharfschützenkanone zur Beschädigung wichtiger Module feindlicher Schiffe. Projektile haben jeweils 2 HP.	200
 
 weapon Sniper cannon 2 insectoid.prefab
-displayName	Insectoidian sniper railgun	Insektoiden-Scharfschützen-Railgun	40
-description	Sniper rail cannon for damaging crucial modules of enemy ships. It's poison-tipped projectiles penetrate shields & never deflect. Rail cannon shells are not easily destroyed by point-defences.	Scharfschützen-Railkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die mit Gift bestückten Geschosse durchdringen Schilde und werden nicht abgelenkt. Die Geschosse der Schienenkanone werden nicht leicht von Punktabwehranlagen zerstört.	200
+displayName	Insectoidian sniper railgun	Insektoiden-Scharfschützen-Schienenwaffe	40
+description	Sniper rail cannon for damaging crucial modules of enemy ships. It's poison-tipped projectiles penetrate shields & never deflect. Rail cannon shells are not easily destroyed by point-defences.	Scharfschützen-Schienenkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die mit Gift bestückten Geschosse durchdringen Schilde und werden nicht abgelenkt. Die Geschosse der Schienenkanone werden nicht leicht von Punktabwehranlagen zerstört.	200
 
 weapon Sniper cannon 2.prefab
 displayName	Sniper cannon II	Scharfschützenkanone II	40
@@ -9764,11 +9764,11 @@ description	The weapon has good rate of fire and accuracy, but its particle proj
 
 weapon gatling ClawA 12,4.prefab
 displayName	Rail gatling I	Rail-Gatling I	40
-description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power, but enemy point-defences can't usually destroy heavy metal bolts. Launched projectiles have 3hp each.	Diese Railguns schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie, aber feindliche Punktabwehr kann die schweren Metallbolzen normalerweise nicht zerstören. Die abgeschossenen Projektile haben jeweils 3 HP.	200
+description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power, but enemy point-defences can't usually destroy heavy metal bolts. Launched projectiles have 3hp each.	Diese Schienenwaffen schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie, aber feindliche Punktabwehr kann die schweren Metallbolzen normalerweise nicht zerstören. Die abgeschossenen Projektile haben jeweils 3 HP.	200
 
 weapon gatling ClawB 14,5.prefab
 displayName	Rail gatling II	Rail-Gatling II	40
-description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power. Launched projectiles have 3hp each.	Diese Railguns schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie. Abgefeuerte Geschosse haben je 3 HP.	200
+description	These railguns propel streams of metal bolts without the use of explosives. Rail acceleration technology needs a lot of power. Launched projectiles have 3hp each.	Diese Schienenwaffen schleudern Ströme von Metallbolzen ohne den Einsatz von Sprengstoff. Die Schienenbeschleunigungstechnologie benötigt viel Energie. Abgefeuerte Geschosse haben je 3 HP.	200
 
 weapon gatling Insectoid cyano 15,4.prefab
 displayName	Venom gatlingcannon	Venom-Gatlingkanone	40
@@ -10433,7 +10433,7 @@ randomizerMenuStrings[i]	-120 credits	-120 Credits	30
 
 Perk module container MS1.prefab
 displayName	The extra container	Der Extra-Container	40
-description	A container that increases storage capacity for metal & synthetics. We have to start improving our containers early on because the best ship upgrades need 900 metal and 500 synthetics.	Ein Container, der die Lagerkapazität für Metall und Synthetik erhöht. Wir müssen früh damit beginnen, unsere Container zu verbessern, da die besten Schiffsupgrades 900 Metall und 500 Synthetik benötigen.	250
+description	A container that increases storage capacity for metal & synthetics. We have to start improving our containers early on because the best ship upgrades need 900 metal and 500 synthetics.	Ein Container, der die Lagerkapazität für Metall und Synthetik erhöht. Wir müssen früh damit beginnen, unsere Container zu verbessern, da die besten Schiffsaufrüstungen 900 Metall und 500 Synthetik benötigen.	250
 randomizerMenuStrings[i]	+1 metal/synthetics container	+1 Metall-/Synthetik-Container	30
 
 Perk module decommissioned DIY ecms x3.prefab
@@ -10883,13 +10883,13 @@ randomizerMenuStrings[i]	Improves two organics containers	Verbessert zwei Organi
 Perk Replace Rat firecannon1 with 2.prefab
 displayName	Incendiary cannon upgrade	Upgrade der Brandkanone	40
 description	Upgrades the onboard incendiary gun for double firepower.	Verbessert die bordeigene Brandkanone für doppelte Feuerkraft.	250
-randomizerMenuStrings[i]	Upgrades secondary cannon	Verbessert die Sekundärkanone	30
+randomizerMenuStrings[i]	Upgrades secondary cannon	Aufrüstung der Sekundärkanone	30
 randomizerMenuStrings[i]	-20 synthetics	-20 Kunststoffe	30
 
 Perk Replace Rat gatling cannon.prefab
-displayName	Gatling cannon upgrade (x2)	Gatling-Kanonen-Upgrade (x2)	40
+displayName	Gatling cannon upgrade (x2)	Gatling-Kanonen-Aufrüstung (x2)	40
 description	Upgrades main cannons for increased firepower. The new guns also consume more explosives.	Rüstet die Hauptkanonen für erhöhte Feuerkraft auf. Die neuen Kanonen verbrauchen auch mehr Sprengstoff.	250
-randomizerMenuStrings[i]	Upgrades main cannons	Upgrades Hauptkanonen	30
+randomizerMenuStrings[i]	Upgrades main cannons	Aufrüstung der Hauptkanonen	30
 
 Perk Replace sensor with new for bluestar.prefab
 displayName	Sensor replacement	Sensor-Ersatz	40
@@ -10990,7 +10990,7 @@ okButtonText	How do you want us to help?	Wie sollen wir helfen?	7
 text	The Spideraa are ancient, powerful arachnids, and consider themselves a natural enemy of all insectoids. You probably know that Insectoid Alliance was formed several thousands of years ago to defeat the Spideraa. However, the Spideraa were never defeated, only repelled. They've been sighted by the Space-Eels in a region known as the Outward Abyss. It's a tiny sector without hardly any real stars at all, mostly black holes.	Die Spinner sind uralte, mächtige Spinnentiere und betrachten sich als natürlichen Feind aller Insektoiden. Sie wissen wahrscheinlich, dass die Insektoiden-Allianz vor mehreren tausend Jahren gegründet wurde, um die Spinner zu besiegen. Allerdings wurden die Spinner nie besiegt, sondern nur zurückgedrängt. Sie wurden von den Space-Eels in einer Region gesichtet, die als "Outward Abyss" bekannt ist. Es ist ein winziger Sektor, in dem es kaum echte Sterne gibt, sondern hauptsächlich schwarze Löcher.	600
 title	Diplomatic mission	Diplomatische Mission	35
 okButtonText	Right. How do we start?	Richtig. Wie fangen wir an?	7
-text	Since you got us in the Squid war in the first place, Earth has decided to send you into the Outward Abyss to contact the Spideraa. We don't know what they want, but you'll get a package of valuables to help you bargain. Even a single large-scale attack by the Spiders could change the war. We'll take any military help we can get.	Da Sie uns in den Tintenfisch-Krieg verwickelt haben, hat die Erde beschlossen, Sie in den Äußeren Abgrund zu schicken, um die Spinner zu kontaktieren. Wir wissen nicht, was sie wollen, aber Sie bekommen ein Paket mit Wertgegenständen, um zu verhandeln. Schon ein einziger Großangriff der Spinnen könnte den Krieg verändern. Wir nehmen jede militärische Hilfe an, die wir bekommen können.	600
+text	Since you got us in the Squid war in the first place, Earth has decided to send you into the Outward Abyss to contact the Spideraa. We don't know what they want, but you'll get a package of valuables to help you bargain. Even a single large-scale attack by the Spiders could change the war. We'll take any military help we can get.	Da Sie uns in den Tintenfisch-Krieg verwickelt haben, hat die Erde beschlossen, Sie in den Äußeren Abgrund zu schicken, um die Spinner zu kontaktieren. Wir wissen nicht, was sie wollen, aber Sie bekommen ein Paket mit Wertgegenständen, um zu verhandeln. Schon ein einziger Großangriff der Spinner könnte den Krieg verändern. Wir nehmen jede militärische Hilfe an, die wir bekommen können.	600
 text2	We've pulled some strings to get well-equipped Intergalactic traders here, waiting for you. Take these funds and visit the local stations to prepare for the mission. We've brought Earth's largest warpgate ship into the area. Once you've spent the credits, go to the warpship and it will shoot you off. Free fuel stations help you move back and forth in this sector. Good luck!	Wir haben ein paar Fäden gezogen, um gut ausgerüstete intergalaktische Händler hierher zu bringen, die auf Sie warten. Nehmen Sie diese Mittel und besuchen Sie die örtlichen Stationen, um sich auf die Mission vorzubereiten. Wir haben das größte Warptor-Schiff der Erde in dieses Gebiet gebracht. Sobald Sie die Credits ausgegeben haben, gehen Sie zum Warpschiff und es wird Sie abschießen. Freie Tankstellen helfen Ihnen, sich in diesem Sektor hin und her zu bewegen. Viel Glück!	400
 reasonToDisplay	operation funds received	Operationsgelder erhalten	30
 title	Entry: Sec Corp	Eintrag: Sec Corp	35
@@ -11034,7 +11034,7 @@ altText	Red circles on starsystem maps are hostile fleet <b>threat areas</b>. Fl
 altText	This starsystem has an <b>exit warpgate</b>. It allows travelling into the next space sector. Make sure you are in <b>starsystem view</b> and fly into it.	Dieses Sternensystem hat ein <b>Ausgangs-Warptor</b>. Es ermöglicht die Reise in den nächsten Raumsektor. Stellen Sie sicher, dass Sie sich in der <b>Sternensystemansicht</b> befinden und fliegen Sie hinein.	240
 title	Tutorial complete	Einführung abgeschlossen	35
 okButtonText	I understand, proceed to game	Ich verstehe, weiter zum Spiel	7
-text	Congratulations, you've survived the training session!\nShortest Trip is a roguelike with permadeath, so expect the game to have a fairly brutal difficulty beyond this point. \nFinal tip: to increase your survival chances early on, collect resources to get at least one additional weapon slot via upgrades. Internal combat will be a difficult challenge in later sectors, so investing in point-defences and combat-capable crew should be a long-term priority.\nGood luck surviving amongst the stars!	Glückwunsch, Sie haben das Training überstanden!\nShortest Trip ist ein Roguelike mit Permadeath, erwarten Sie also, dass das Spiel ab diesem Punkt einen ziemlich brutalen Schwierigkeitsgrad hat. \nEin letzter Tipp: Um Ihre Überlebenschancen früh zu erhöhen, sammeln Sie Ressourcen, um über Upgrades mindestens einen zusätzlichen Waffensteckplatz zu erhalten. Interne Kämpfe werden in späteren Sektoren eine schwierige Herausforderung sein, daher sollte die Investition in Punktabwehr und kampffähige Crew eine langfristige Priorität sein.\nViel Glück beim Überleben inmitten der Sterne!	600
+text	Congratulations, you've survived the training session!\nShortest Trip is a roguelike with permadeath, so expect the game to have a fairly brutal difficulty beyond this point. \nFinal tip: to increase your survival chances early on, collect resources to get at least one additional weapon slot via upgrades. Internal combat will be a difficult challenge in later sectors, so investing in point-defences and combat-capable crew should be a long-term priority.\nGood luck surviving amongst the stars!	Glückwunsch, Sie haben das Training überstanden!\nShortest Trip ist ein Roguelike mit Permadeath, erwarten Sie also, dass das Spiel ab diesem Punkt einen ziemlich brutalen Schwierigkeitsgrad hat. \nEin letzter Tipp: Um Ihre Überlebenschancen früh zu erhöhen, sammeln Sie Ressourcen, um über Aufrüstungen mindestens einen zusätzlichen Waffensteckplatz zu erhalten. Interne Kämpfe werden in späteren Sektoren eine schwierige Herausforderung sein, daher sollte die Investition in Punktabwehr und kampffähige Crew eine langfristige Priorität sein.\nViel Glück beim Überleben inmitten der Sterne!	600
 altText	When you hover the cursor around starsystem map, you can see the resource cost of moving around.\nSee that little white dot on the map? It's an unknown <b>point of interest</b>.	Wenn Sie mit dem Mauszeiger über die Sternensystemkarte fahren, können Sie die Ressourcenkosten für die Bewegung sehen.\nSehen Sie den kleinen weißen Punkt auf der Karte? Es ist ein unbekannter <b>Punkt von Interesse</b>.	240
 altText	Hello captain, I'm Athena, the core AI of this ship. Welcome to ship management tutorial. You are currently in <b>starsystem view</b>...\n(by the way, this tutorial uses default hotkeys only)	Hallo Kapitän, ich bin Athena, die Kern-KI dieses Schiffes. Willkommen zur Schiffsmanagement-Einführung. Sie befinden sich gerade in der <b>Sternensystemansicht</b>.	240
 altText	If you click on a module, you'll see <b>module info panel</b>.\n\nWhen you are done inspecting the modules, switch the view between your ship and starsystem by pressing the <b>TAB</b> key on your keyboard.	Wenn Sie auf ein Modul klicken, sehen Sie das <b>Modul-Info-Panel</b>.\n\nWenn Sie mit der Inspektion der Module fertig sind, wechseln Sie die Ansicht zwischen Ihrem Schiff und dem Sternensystem, indem Sie die Taste <b>TAB</b> auf Ihrer Tastatur drücken.	240
