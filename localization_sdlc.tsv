@@ -84,7 +84,7 @@ description	This platform shoots singular heavy missiles. All missiles are accur
 Perk nuke Battle Tiger monolith.prefab
 displayName	Tiger Mountain nuke	Tiger-Berg-Nuke	40
 description	A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Smalle AoE.	Eine schwer gepanzerte Einzelschuss-Rakete, die das Ziel mit einer Kraft rammt, die Mikromoons zerschmettern könnte. Smalle AoE.	250
-randomizerMenuStrings[i]	+1 capital missile	+1 großartige Rakete	30
+randomizerMenuStrings[i]	+1 capital missile	+1 Bombe	30
 
 Perk nuke Tiger battery 8.prefab
 description	A single-use battery that shoots 8 missiles.	Eine einmalig einsetzbare Batterie, die 8 Raketen abschießt.	250
@@ -93,11 +93,11 @@ randomizerMenuStrings[i]	+1 single-use missile battery	+1 Wegwerf-Raketen-Batter
 Perk nuke Tiger dual EMP.prefab
 displayName	Tiger EMP double nuke	Tiger EMP-Doppel-nuke	40
 description	A pair of armored EMP nukes, launched simultaneously.	Ein Paar gepanzerte EMP-Bomben, die gleichzeitig abgefeuert werden.	250
-randomizerMenuStrings[i]	+1 dual capital missile	+1 großartige Duo-Rakete	30
+randomizerMenuStrings[i]	+1 dual capital missile	+1 Doppel-Bombe	30
 
 Perk nuke Tiger intruderbot nuke.prefab
 description	This intruderbot nuke releases an aggressive tiger spider drone on impact.	Diese Intruderbot-Nuke setzt beim Aufprall eine aggressive Tiger-Spider-Drohne frei.	250
-randomizerMenuStrings[i]	+1 intruderbot missile	+1 Intruderbot-Rakete	30
+randomizerMenuStrings[i]	+1 intruderbot missile	+1 Intruderbot-Bombe	30
 
 Perk nuke Tiger sharpnel.prefab
 displayName	Tiger shrapnel nuke	Tiger Shrapnel Nuke	40
@@ -106,7 +106,7 @@ description	An experimental capital missile that releases nanoshrapnel over a wi
 Perk pet DLC combat rabbit.prefab
 displayName	Combat Rabbit (pet)	Kampfkaninchen (Haustier)	40
 description	We may buy this ancient combat organism from a biotech junk market. It is genetically modified for superior speed and strength, and digitally trained to attack enemies in close combat.	Diesen uralten Kampforganismus können wir auf einem Biotech-Schrottmarkt kaufen. Er ist genetisch auf überragende Geschwindigkeit und Stärke modifiziert und digital darauf trainiert, Feinde im Nahkampf anzugreifen.	250
-randomizerMenuStrings[i]	+1 pet (combat rabbit)	+1 Haustier (Kampfhase)	30
+randomizerMenuStrings[i]	+1 pet (combat rabbit)	+1 Haustier (Kampfkaninchen)	30
 randomizerMenuStrings[i]	-40 credits	-40 Credits	30
 
 Perk pet DLC fire tortoise.prefab

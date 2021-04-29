@@ -1422,7 +1422,7 @@ Button in main menu, sets game difficulty	?	?	0
 Button. Resets all used fatepoints.	Reset all	Alle zurücksetzen	0
 	Try to use up all points. Unused fate points will be discarded.\nStarting new game is impossible if any starting resource is negative.	Versuchen Sie, alle Punkte zu verbrauchen. Nicht verwendete Schicksalspunkte werden verworfen.\nEin neues Spiel zu beginnen ist unmöglich, wenn eine Startressource negativ ist.	0
 	You do not have enough resources to start the game!	Sie haben nicht genug Ressourcen, um das Spiel zu beginnen!	0
-	You have not used up all the fate points yet.\nFate points do not accumulate, you must <color=red>use them or lose them!</color>\nAre you sure you want to start the game?	Du hast noch nicht alle Schicksalspunkte aufgebraucht.\nDie Schicksalspunkte sammeln sich nicht an, du musst sie <color=red>verwenden oder verlierst sie!</color>\nSind Sie sicher, dass Sie das Spiel beginnen wollen?	0
+	You have not used up all the fate points yet.\nFate points do not accumulate, you must <color=red>use them or lose them!</color>\nAre you sure you want to start the game?	Sie haben noch nicht alle Schicksalspunkte aufgebraucht.\nDie Schicksalspunkte sammeln sich nicht an, Sie müssen sie <color=red>verwenden oder verlieren sie!</color>\nSind Sie sicher, dass Sie das Spiel beginnen wollen?	0
 	No	Nein	0
 	Discovered locations (41/1050)	Entdeckte Orte (41/1050)	0
 	(Work in progress)	(In Arbeit)	0
@@ -6276,7 +6276,7 @@ name2	(((Mercenaries)))	(((Söldner)))	25
 Shop.displayName	Gray Mercenaries	Graue Söldner	35
 
 2345 shopless P Kustom junkyard Container.prefab
-name3	[[Kustom sHiP CoNtaineRs]]	[[Kustom sHiP CoNtaineRs]]	25
+name3	[[Kustom sHiP CoNtaineRs]]	[[SPezial sCHiFFs BeHälteR]]	25
 text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Container aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 text	There is a commercial ship service station on this planet, specializing in custom-built cargo modules. The service includes free food.	Auf diesem Planeten gibt es eine kommerzielle Schiffsservicestation, die sich auf individuell gebaute Frachtmodule spezialisiert hat. Der Service beinhaltet kostenlose Verpflegung.	400
 choiceText	Order organics/fuel multi-container [-140 credits]	Organik-/Treibstoff-Multicontainer bestellen [-140 Credits]	100
@@ -6292,7 +6292,7 @@ name2	(((Synth Recyclersl)))	(((Synth Recycler)))	25
 Shop.displayName	Synth Recycler Corp.	Synth Recycler Corp.	35
 
 2456 shop, P KUSTOM Repair, packs.prefab
-name3	||KUstom sHiP RePaiR||	||KUstom sHiP RePaiR||	25
+name3	||KUstom sHiP RePaiR||	||SPezial sCHiFF ReParatuR||	25
 Shop.displayName	Kustom Repair, organics sub-trade station	Kustom Repair, Organics Sub-Trade Station	35
 text2	The locals went through all the junk found in their yard, dragging the useful parts next to the Mothership. Numerous workers of varied species buzzed around the ship, mostly working manually. After a few days, the repairmen announce they have done all they could.	Die Einheimischen gingen den ganzen Schrott durch, den sie in ihrem Hof fanden, und schleppten die brauchbaren Teile neben das Mutterschiff. Zahlreiche Arbeiter verschiedener Spezies schwirrten um das Schiff herum und arbeiteten meist manuell. Nach ein paar Tagen verkünden die Reparateure, dass sie alles getan haben, was sie konnten.	400
 title	Starship recycler & repair yard	Raumschiff-Recycler & Reparaturwerft	35
@@ -8071,7 +8071,7 @@ displayName	White nuke	Weiße Nuklearwaffe	35
 door (small).prefab
 
 Level 1, rats.prefab
-displayName	The Closest Star	Der nächstgelegene Stern	25
+displayName	The Closest Star	Der nächste Stern	25
 description	Captains log:\n\n/.../ A warpdrive malfunction has landed us in the wrong place, light years away from Earth. We are almost out of fuel. Supplies are running out. \nSome crew have been <color=red>injured</color> and some equipment is not working. Personally, I find all of this not too bad because /.../	Logbuch des Kapitäns: \n/.../ Eine Fehlfunktion des Warpantriebs hat uns an der falschen Stelle gelandet, Lichtjahre von der Erde entfernt. Wir haben fast keinen Treibstoff mehr. Die Vorräte gehen zur Neige. \nEinige Crewmitglieder wurden <color=red>verletzt</color> und einige Geräte funktionieren nicht. Ich persönlich finde das alles nicht so schlimm, weil /.../	350
 
 Level 10, greens, planetkiller.prefab
@@ -8092,10 +8092,10 @@ Level 5, slavers.prefab
 displayName	Mining sector	Bergbau-Sektor	25
 
 Level 6, squids, slavers, pirates.prefab
-displayName	Fresh Squid territory	Frisches Tintenfischgebiet	25
+displayName	Fresh Squid territory	Tintenfischgebiet	25
 
 Level 7, shopping.prefab
-displayName	The Shopping District	Das Einkaufsgebiet	25
+displayName	The Shopping District	Geschäftsviertel	25
 
 Level 8, spideraa darkspace.prefab
 displayName	Outward Abyss	Äußerer Abgrund	25
@@ -8331,10 +8331,10 @@ displayName	Biotech solitary bridge	Biotech-Alleinbedienungsbrücke	40
 description	The sole operator allows the bridge to remotely operate other modules (without providing skill bonuses) plus add an evasion bonus to the entire ship. This module is alive and requires no power.	Der alleinige Bediener ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus) und fügt dem gesamten Schiff einen Ausweichbonus hinzu. Dieses Modul ist lebendig und benötigt keine Energie.	200
 
 bridge 1crew.prefab
-displayName	Command bridge, type SOLITARY	Kommandobrücke, Typ SOLITÄR	40
+displayName	Command bridge, type SOLITARY	Kommandobrücke, Typ EINSAM	40
 
 bridge 2crew.prefab
-displayName	Command bridge, type DUO-2	Kommandobrücke, Typ DUO-2	40
+displayName	Command bridge, type DUO-2	Kommandobrücke, Typ ZWEISAM	40
 
 bridge 3crew floral.prefab
 displayName	Command bridge, floral	Kommandobrücke, blumig	40
@@ -8346,7 +8346,7 @@ bridge 3crew plastarmor.prefab
 displayName	Command bridge P3	Kommandobrücke P3	40
 
 bridge 3crew.prefab
-displayName	Command bridge, type TRIPLE-3	Kommandobrücke, Typ TRIPLE-3	40
+displayName	Command bridge, type TRIPLE-3	Kommandobrücke, Typ DREISAM	40
 
 bridge blackspider.prefab
 displayName	Command Bridge, biotech-3	Kommandobrücke, biotech-3	40
@@ -8985,7 +8985,7 @@ displayName	Synthetics pack	Kunststoffe-Paket	40
 description	Selection of synthetic substances prepared for 3D-printers. Provides synthetics when scrapped.	Auswahl an synthetischen Substanzen, die für 3D-Drucker vorbereitet sind. Liefert Kunststoffe, wenn es verschrottet wird.	200
 
 lab 1xgood.prefab
-displayName	Advanced science lab	Fortschrittliches wissenschaftliches Labor	40
+displayName	Advanced science lab	Fortschrittliches Wissenschaftslabor	40
 description	A very efficient & powerful lab for scientific research. Crew assigned to labs generate xenodata during ship movement, based on their science skill.	Ein sehr effizientes und leistungsstarkes Labor für wissenschaftliche Forschung. Die den Laboren zugewiesene Crew generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Forschungsfertigkeit.	200
 Research.resourceGenReason	xenodata from labs	Xenodaten aus Laboren	30
 
@@ -9005,7 +9005,7 @@ displayName	Non-combat sensor DIY I	Nicht-Kampfsensor (DIY) I	40
 description	Increases ship sensor range in starsystem & sector view.\nSensors are not cumulative - only the best sensor range values are used.	Erhöht die Sensorreichweite des Schiffes in der Sternensystem- und Sektoransicht.\nDie Sensoren sind nicht kumulativ - nur die besten Sensorreichweitenwerte werden verwendet.	200
 
 sensor 10 terran s2.prefab
-displayName	Long-range sensor III	Weitreichweitensensor III	40
+displayName	Long-range sensor III	Langstreckensensor III	40
 
 sensor 10 tiger.prefab
 displayName	Long-range sensor Tiger	Langstreckensensor Tiger	40
@@ -9593,16 +9593,16 @@ displayName	Improvised laser	Improvisierter Laser	40
 description	DIY laser weapon, assembled from spare parts. Low accuracy for a ray weapon, single beam.	Selbstgebaute Laserwaffe, zusammengebaut aus Ersatzteilen. Geringe Genauigkeit für eine Strahlenwaffe, Einzelstrahl.	200
 
 weapon DIY raygun blue.prefab
-displayName	DIY blueray emitter	DIY-Blaustrahler	40
-description	DIY single beam blueray emitter that does extra damage to shields. Very fragile because it's literally a glass cannon.	DIY-Einzelstrahl-Blau-Strahler, der zusätzlichen Schaden an Schilden anrichtet. Sehr zerbrechlich, da er buchstäblich eine Glaskanone ist.	200
+displayName	DIY blueray emitter	DIY-Blaustrahl-Emitter	40
+description	DIY single beam blueray emitter that does extra damage to shields. Very fragile because it's literally a glass cannon.	DIY-Blaustrahl-Emitter, der zusätzlichen Schaden an Schilden anrichtet. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
 
 weapon DIY raygun orange.prefab
-displayName	DIY orangeray emitter	DIY-Orangeray-Strahler	40
-description	DIY single beam orangeray emitter with a large AoE, good hull damage and a chance to cause fires. Very fragile because it's literally a glass cannon.	DIY-Einzelstrahl-Orangeray-Emitter mit großem AoE, gutem Hüllenschaden und einer Chance, Brände zu verursachen. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
+displayName	DIY orangeray emitter	DIY-Orangestrahl-Emitter	40
+description	DIY single beam orangeray emitter with a large AoE, good hull damage and a chance to cause fires. Very fragile because it's literally a glass cannon.	DIY-Orangestrahl-Emitter mit großem AoE, gutem Hüllenschaden und einer Chance, Brände zu verursachen. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
 
 weapon DIY raygun.prefab
 displayName	DIY greenray emitter	DIY-Grünstrahl-Emitter	40
-description	DIY single beam greenray emitter, assembled from spare parts. Very fragile because it's literally a glass cannon.	DIY-Einzelstrahl-Grünstrahl-Emitter, zusammengebaut aus Ersatzteilen. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
+description	DIY single beam greenray emitter, assembled from spare parts. Very fragile because it's literally a glass cannon.	DIY-Grünstrahl-Emitter, zusammengebaut aus Ersatzteilen. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
 
 weapon dual EMP.prefab
 displayName	EMP dual raygun	EMP-Doppel-Strahlenkanone	40
@@ -9779,11 +9779,11 @@ displayName	Plasma gatling cannon	Plasma-Gatling-Kanone	40
 description	Semibiological cannon. Uses organics to create a storm of accurate plasma bolts. Plasma bolts cannot be neutralized by point-defences.	Semibiologische Kanone. Verwendet Organik, um einen Sturm von präzisen Plasmabolzen zu erzeugen. Plasmabolzen können nicht durch Punktabwehr neutralisiert werden.	200
 
 weapon gatling RatA 14,4.prefab
-displayName	Imperial Spitter A	Imperialer Spitter A	40
+displayName	Imperial Spitter A	Imperialer Spucker A	40
 description	Heavy rapid-fire gatling cannon. Penetrates energy shields. Made in the Rat Empire. Armor plating improves ship HP. Launched projectiles have 3hp each.	Schwere Schnellfeuer-Gatling-Kanone. Durchdringt Energieschilde. Hergestellt im Rattenimperium. Die Panzerung verbessert die HP des Schiffes. Abgefeuerte Geschosse haben jeweils 3 HP.	200
 
 weapon gatling RatB 15,5.prefab
-displayName	Imperial Spitter B	Imperialer Spitter B	40
+displayName	Imperial Spitter B	Imperialer Spucker B	40
 description	Heavy rapid-fire cannon. Uses large shells that usually survive point-defence crossfire. Armor plating improves ship HP. Launched projectiles have 3hp each.	Schwere Schnellfeuerkanone. Verwendet große Geschosse, die normalerweise ein Kreuzfeuer der Punktabwehr überstehen. Die Panzerung verbessert die HP des Schiffs. Abgefeuerte Geschosse haben je 3 HP.	200
 
 weapon gatling Tiger.prefab
@@ -9893,7 +9893,7 @@ unlockText	Complete tutorial to unlock	Freischaltung: Einführung abschließen	1
 unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erd-Allianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
 03 Weirdship.prefab
-description	An antique Space-Eel exploration ship obtained from a museum, packed with unconventional technology and crewed by space hippies. Many of the ship's modules function by eating organics (extra rations are recommended). Starts with a shoomery and medbay.	Ein antikes Space-Eel-Forschungsschiff, das Sie aus einem Museum erhalten haben, vollgepackt mit unkonventioneller Technologie und einer Crew aus Weltraum-Hippies. Viele der Schiffsmodule funktionieren durch den Verzehr von Organik (Extra-Rationen werden empfohlen). Startet mit einer Pilzplantage und einer Krankenstation.	400
+description	An antique Space-Eel exploration ship obtained from a museum, packed with unconventional technology and crewed by space hippies. Many of the ship's modules function by eating organics (extra rations are recommended). Starts with a shoomery and medbay.	Ein antikes Raum-Aal-Forschungsschiff, das Sie aus einem Museum erhalten haben, vollgepackt mit unkonventioneller Technologie und einer Crew aus Weltraum-Hippies. Viele der Schiffsmodule funktionieren durch den Verzehr von Organik (Extra-Rationen werden empfohlen). Startet mit einer Pilzplantage und einer Krankenstation.	400
 unlockText	Die at least once to unlock	Freischaltung: Mindestens einmal sterben	100
 unlockAnnouncementText	Our encounters have created a chain reaction of events, eventually leading to an exclusive access of this antique Yu-Ee ship.	Unsere Begegnungen haben eine Kettenreaktion von Ereignissen ausgelöst, die schließlich zu einem exklusiven Zugang zu diesem antiken Yu-Ee-Schiff geführt haben.	100
 
@@ -10598,7 +10598,7 @@ description	A gift from the past, passed on for generations according to a mythi
 
 Perk module integrity 3.prefab
 displayName	Spideraa integrity tech	Spinner-Integritätstechnologie	40
-description	Integrity biotechnology like this was salvaged from the Outward Abyss by previous explorers. It has been reverese-engineered and we may order a similar one for the upcoming journey. Adds +13 ship HP when installed.	Integritäts-Biotechnologie wie diese wurde von früheren Entdeckern aus dem Äußeren Abyss geborgen. Sie wurde ehrfürchtig weiterentwickelt und wir werden vielleicht ein ähnliches Exemplar für die kommende Reise bestellen. Fügt +13 Schiffs-HP hinzu, wenn es installiert ist.	250
+description	Integrity biotechnology like this was salvaged from the Outward Abyss by previous explorers. It has been reverese-engineered and we may order a similar one for the upcoming journey. Adds +13 ship HP when installed.	Integritäts-Biotechnologie wie diese wurde von früheren Entdeckern aus dem Äußeren Abgrund geborgen. Sie wurde ehrfürchtig weiterentwickelt und wir werden vielleicht ein ähnliches Exemplar für die kommende Reise bestellen. Fügt +13 Schiffs-HP hinzu, wenn es installiert ist.	250
 unlockAnnouncementText	We discovered pieces of a Spideraa module in one of the asteroid fields and have been able to reverse-engineer it!	Wir haben Teile eines Spinner-Moduls in einem der Asteroidenfelder entdeckt und konnten es nachbauen!	100
 randomizerMenuStrings[i]	(adds +13 ship HP when installed)	(fügt +13 Schiffs-HP hinzu, wenn installiert)	30
 randomizerMenuStrings[i]	-4 exotics	-4 Exoten	30
@@ -10987,7 +10987,7 @@ choiceText	Tell me about the Spideraa	Erzählen Sie mir von den Spinnern	100
 choiceText	Skip intro, I understand what needs to be done	Überspringen Sie das Intro, ich verstehe, was getan werden muss.	100
 title	Entry: Spideraa	Eintrag: Spinner	35
 okButtonText	How do you want us to help?	Wie sollen wir helfen?	7
-text	The Spideraa are ancient, powerful arachnids, and consider themselves a natural enemy of all insectoids. You probably know that Insectoid Alliance was formed several thousands of years ago to defeat the Spideraa. However, the Spideraa were never defeated, only repelled. They've been sighted by the Space-Eels in a region known as the Outward Abyss. It's a tiny sector without hardly any real stars at all, mostly black holes.	Die Spinner sind uralte, mächtige Spinnentiere und betrachten sich als natürlichen Feind aller Insektoiden. Sie wissen wahrscheinlich, dass die Insektoiden-Allianz vor mehreren tausend Jahren gegründet wurde, um die Spinner zu besiegen. Allerdings wurden die Spinner nie besiegt, sondern nur zurückgedrängt. Sie wurden von den Space-Eels in einer Region gesichtet, die als "Outward Abyss" bekannt ist. Es ist ein winziger Sektor, in dem es kaum echte Sterne gibt, sondern hauptsächlich schwarze Löcher.	600
+text	The Spideraa are ancient, powerful arachnids, and consider themselves a natural enemy of all insectoids. You probably know that Insectoid Alliance was formed several thousands of years ago to defeat the Spideraa. However, the Spideraa were never defeated, only repelled. They've been sighted by the Space-Eels in a region known as the Outward Abyss. It's a tiny sector without hardly any real stars at all, mostly black holes.	Die Spinner sind uralte, mächtige Spinnentiere und betrachten sich als natürlichen Feind aller Insektoiden. Sie wissen wahrscheinlich, dass die Insektoiden-Allianz vor mehreren tausend Jahren gegründet wurde, um die Spinner zu besiegen. Allerdings wurden die Spinner nie besiegt, sondern nur zurückgedrängt. Sie wurden von den Raum-Aalen in einer Region gesichtet, die als Äußerer Abgrund bekannt ist. Es ist ein winziger Sektor, in dem es kaum echte Sterne gibt, sondern hauptsächlich schwarze Löcher.	600
 title	Diplomatic mission	Diplomatische Mission	35
 okButtonText	Right. How do we start?	Richtig. Wie fangen wir an?	7
 text	Since you got us in the Squid war in the first place, Earth has decided to send you into the Outward Abyss to contact the Spideraa. We don't know what they want, but you'll get a package of valuables to help you bargain. Even a single large-scale attack by the Spiders could change the war. We'll take any military help we can get.	Da Sie uns in den Tintenfisch-Krieg verwickelt haben, hat die Erde beschlossen, Sie in den Äußeren Abgrund zu schicken, um die Spinner zu kontaktieren. Wir wissen nicht, was sie wollen, aber Sie bekommen ein Paket mit Wertgegenständen, um zu verhandeln. Schon ein einziger Großangriff der Spinner könnte den Krieg verändern. Wir nehmen jede militärische Hilfe an, die wir bekommen können.	600
