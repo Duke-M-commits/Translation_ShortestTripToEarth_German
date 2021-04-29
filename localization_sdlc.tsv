@@ -107,7 +107,7 @@ Perk pet DLC combat rabbit.prefab
 displayName	Combat Rabbit (pet)	Kampfkaninchen (Haustier)	40
 description	We may buy this ancient combat organism from a biotech junk market. It is genetically modified for superior speed and strength, and digitally trained to attack enemies in close combat.	Diesen uralten Kampforganismus können wir auf einem Biotech-Schrottmarkt kaufen. Er ist genetisch auf überragende Geschwindigkeit und Stärke modifiziert und digital darauf trainiert, Feinde im Nahkampf anzugreifen.	250
 randomizerMenuStrings[i]	+1 pet (combat rabbit)	+1 Haustier (Kampfkaninchen)	30
-randomizerMenuStrings[i]	-40 credits	-40 Credits	30
+randomizerMenuStrings[i]	-40 credits	-40 Kredite	30
 
 Perk pet DLC fire tortoise.prefab
 displayName	Fire Tortoise (pet)	Feuerschildkröte (Haustier)	40

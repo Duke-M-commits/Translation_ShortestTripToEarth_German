@@ -92,7 +92,7 @@ CrewPresetsPanel.cs
 CryosleepModule.cs
 	{1} has healed 1 HP for {0}	{1} hat 1 HP für {0} geheilt	0
 	{0} generated {1} while dreaming in {2}	{0} hat {1} während des Träumens in {2} erzeugt	0
-plural	credit|credits	Guthaben|Guthaben	0
+plural	credit|credits	Kredit|Kredite	0
 
 DamageToken.cs
 	Not repairable	Nicht reparierbar	0
@@ -128,7 +128,7 @@ HoverPanel.cs
 	n/a		0
 	Distance {0}ru	Entfernung {0}re	0
 	CAN'T MOVE	KANN SICH NICHT BEWEGEN	0
-	Credits	Credits	0
+	Credits	Kredite	0
 
 MainQuest.cs
 	tutorial	Einführung	0
@@ -293,10 +293,10 @@ SkillEffects.cs
 	Gardening skill allows operating garden modules	Gartenbau-Fertigkeit erlaubt das Bedienen von Gartenmodulen	0
 	+{0} production	+{0} Produktion	0
 	(1 skill point gives {0} production)	(1 Fertigkeitspunkt ergibt {0} Produktion)	0
-	Science skill gives credits bonus for researching planets, warplife, etc	Forschungsfertigkeit gibt Credit-Bonus für die Erforschung von Planeten, Warp-Leben, etc.	0
+	Science skill gives credits bonus for researching planets, warplife, etc	Forschungsfertigkeit gibt Kredit-Bonus für die Erforschung von Planeten, Warp-Leben, etc.	0
 	Science skill allows operating research modules	Forschungsfertigkeit erlaubt den Betrieb von Forschungsmodulen	0
-	+{0} credits per research operation in events	+{0} Credits pro Forschungsoperation bei Veranstaltungen	0
-	+{0} credits production in research module	'+{0} Credits-Produktion im Forschungsmodul	0
+	+{0} credits per research operation in events	+{0} Kredite pro Forschungsoperation bei Veranstaltungen	0
+	+{0} credits production in research module	'+{0} Kredit-Produktion im Forschungsmodul	0
 	Warp skill allows operating warp modules	Warp-Fertigkeit erlaubt den Betrieb von Warp-Modulen	0
 	-{0} reload time	-{0} Nachladezeit	0
 
@@ -469,13 +469,13 @@ PlayerPanel.cs
 	(power needed if all modules on: {0})	(benötigte Leistung, wenn alle Module eingeschaltet sind: {0})	0
 	(needs {0})	(benötigt {0})	0
 	External research operations bonus	Bonus für externe Forschungsoperationen	0
-	Credits bonus given for researching planets, warplife, etc (sum of crew science skills): +{0}	Credits-Bonus für die Erforschung von Planeten, Warp-Leben, etc. (Summe der Forschungsfertigkeit der Crew): +{0}	0
+	Credits bonus given for researching planets, warplife, etc (sum of crew science skills): +{0}	Kredit-Bonus für die Erforschung von Planeten, Warp-Leben, etc. (Summe der Forschungsfertigkeit der Crew): +{0}	0
 	Ship engine	Schiffsmotor	0
 	(fuel is used by engines and warpdrive for moving)	(Treibstoff wird von Triebwerken und Warpantrieb für die Fortbewegung verbraucht)	0
 	Life support	Lebenserhaltung	0
 	(organics are used for food and healing)	(Organik wird für Nahrung und Heilung verwendet)	0
 	Continuous research	Kontinuierliche Forschung	0
-	(XenoData is used as currency (credits))	(XenoDaten werden als Währung (Credits) verwendet)	0
+	(XenoData is used as currency (credits))	(Xenodaten werden als Währung (Kredite) verwendet)	0
 	(explosives are used as ammo)	(Sprengstoffe werden als Munition verwendet)	0
 	(exotics are most useful for upgrades, crafting and bartering)	(Exoten sind am nützlichsten für Aufrüstungen, Modul Herstellung und Tauschhandel)	0
 	(repairing 1 module hitpoint costs {0} synthetics)	(die Reparatur von 1 Modul-HP kostet {0} Kunststoffe)	0
@@ -673,7 +673,7 @@ In multiple crew selection/overview panel. Shows module that the crew is operati
 	Exotics consumed per 100ru	Verbrauchte Exoten pro 100re	0
 	Synthetics consumed per 100ru	Verbrauchte Kunststoffe pro 100re	0
 	Metals consumed per 100ru	Verbrauchte Metalle pro 100re	0
-	Credits consumed per 100ru	Verbrauchtes Guthaben pro 100re	0
+	Credits consumed per 100ru	Verbrauchte Kredite pro 100re	0
 	Currently not consuming organics	Zurzeit wird keine Organik verbraucht	0
 	Move speed	Bewegungsgeschwindigkeit	0
 	No special role	Keine besondere Rolle	0
@@ -773,7 +773,7 @@ For crewmember that eats explosives	Explosives consumption per 100 range unit mo
 For crewmember that eats exotic materials	Exotics consuption per 100 range unit moved	Verbrauch von Exoten pro 100 bewegte Reichweiteneinheiten	0
 For crewmember that eats synhtetic materials	Synthetics consumption per 100 range unit moved	Verbrauch von Kunststoffen pro 100 bewegte Reichweiteneinheiten	0
 For crewmember that eats metals	Metals consumption per 100 range unit moved	Verbrauch von Metallen pro 100 bewegte Reichweiteneinheiten	0
-For crewmember that eats data-credits	Credits consumption per 100 range unit moved	Verbrauch von Credits pro 100 bewegte Reichweiteneinheiten	0
+For crewmember that eats data-credits	Credits consumption per 100 range unit moved	Verbrauch von Krediten pro 100 bewegte Reichweiteneinheiten	0
 Crewmembers movement speed	Movement speed	Bewegungsgeschwindigkeit	0
 Written notification in UI, shows that crewmember is not consuming any resources (eating organigs, synthetics etc) due to being either in cryosleep or otherwise.	not consuming	nicht verbrauchend	0
 Handweapon damage to enemy crew hitpoints	Damage to enemy HP	Schaden an gegnerischen HP	0
@@ -865,7 +865,7 @@ Button	Managing multiple crew	Verwaltung der Besatzungen	0
 Button	Resources	Ressourcen	0
 Button	Refueling	Tanken	0
 Button	Exotic Substances	Exotische Substanzen	0
-Button	(Xeno)Data Credits	(Xeno)Daten Credits	0
+Button	(Xeno)Data Credits	Xenodaten-Kredite	0
 Button	Fate Points	Schicksalspunkte	0
 Button	Saving resources	Sparen von Ressourcen	0
 Button	Trade Stations	Handelsstationen	0
@@ -1023,7 +1023,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	8. Gardening skill	8. Gartenbau-Fertigkeit	0
 	Required for garden operators. Increases output of gardens.	Erforderlich für Gartenarbeiter. Erhöht die Leistung der Gärten.	0
 	9. Science skill	9. Forschungsfertigkeit	0
-	Required for lab operators. Increases output of labs.\nAdditionally, summed science skills generates extra credits from events.	Erforderlich für Laborbetreiber. Erhöht den Output von Laboren.\nZusätzlich generiert die Summe der Forschungsfertigkeiten zusätzliche Credits aus Ereignissen.	0
+	Required for lab operators. Increases output of labs.\nAdditionally, summed science skills generates extra credits from events.	Erforderlich für Laborbetreiber. Erhöht den Output von Laboren.\nZusätzlich generiert die Summe der Forschungsfertigkeiten zusätzliche Kredite aus Ereignissen.	0
 	10. Warp skill	10. Warp-Fertigkeit	0
 	Required for warp operators. Decreases warp charging time.	Erforderlich für Warp-Operatoren. Verringert die Warp-Ladezeit.	0
 	11. Crew Hit points	11. Crew-Trefferpunkte	0
@@ -1047,16 +1047,16 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	Options for gaining fuel	Optionen zur Gewinnung von Treibstoff	0
 	1.\nUse converter modules (if you have them) to convert organics or other resources into fuel.	1.\nVerwenden Sie Konvertermodule (wenn Sie sie haben), um Organik oder andere Ressourcen in Treibstoff umzuwandeln.	0
 	2.\nHarvest fuel from gas giants or explore starsystem objects (such as shipwrecks or planets).	2.\nSammeln Sie Treibstoff von Gasriesen oder erkunden Sie Objekte im Sternensystem (z. B. Schiffswracks oder Planeten).	0
-	3.\nUse xenodata credits to buy fuel from trade stations.	3.\nNutzen Sie Xenodaten-Credits, um Treibstoff von Handelsstationen zu kaufen.	0
+	3.\nUse xenodata credits to buy fuel from trade stations.	3.\nNutzen Sie Xenodaten-Kredite, um Treibstoff von Handelsstationen zu kaufen.	0
 	4. \nScrap modules or nukes that give fuel as scrap value.	4. \nSchrotten Sie Module oder Atombomben, die Treibstoff als Schrottwert abgeben.	0
 	5.\nFight hostile fleets to gain fuel as loot.	5.\nFeindliche Flotten bekämpfen, um Treibstoff als Beute zu erhalten.	0
 	6.\nActivate the SOS signal and hope for a trade ship that sells fuel.	6.\nAktivieren Sie das SOS-Signal und hoffen Sie auf ein Handelsschiff, das Treibstoff verkauft.	0
 	Metals are the most common resource, and used mostly for repairing ship hull.\n\nMetals are also used when building planetary structures, such as mining or harvesting equipment.	Metalle sind die häufigste Ressource und werden hauptsächlich für die Reparatur von Schiffsrümpfen verwendet.\n\nMetalle werden auch beim Bau von planetaren Strukturen verwendet, z. B. für Bergbau- oder Erntegeräte.	0
 	Synthethics is a general category for all kinds of ceramics, composite alloys, plastics and valuable artificial substances, including recreational consumables.\n\nSynthetics are mostly used for repairing modules. \nRepairing 1 module hitpoint costs 10 synthetics.\n\nSynthetics are also used when building temporary structures, such as planetary harvesting technology or utility bots.	Kunststoffe ist eine allgemeine Kategorie für alle Arten von Keramiken, Verbundlegierungen, Synthetik und wertvollen künstlichen Stoffen, einschließlich Verbrauchsmaterialien für die Freizeitgestaltung.\n\nKunststoff wird meist für die Reparatur von Modulen verwendet. \nDie Reparatur von 1 Modul-Trefferpunkt kostet 10 Kunststoffe.\n\nKunststoffe werden auch beim Bau von temporären Strukturen verwendet, wie z. B. planetare Erntetechnik oder Versorgungsbots.	0
 	Explosives are used as ammo for most projectile and missile weapons.\n\nThe Mothership AI also uses explosives automatically to print mines, cheap missiles and bombs during conflict events that happen off-screen.	Sprengstoffe werden als Munition für die meisten Projektil- und Raketenwaffen verwendet.\n\nDie KI des Mutterschiffs verwendet Sprengstoffe auch automatisch, um Minen, billige Raketen und Bomben während Konfliktereignissen zu drucken, die außerhalb des Bildschirms stattfinden.	0
-	Exotics are most useful for crafting and bartering, functioning as critical module components or as an alternative currency to xenodata credits.\n\nAll exotic substances are rare elements that seem to slightly defy the laws of known physics.\nThey are mostly found in warp animal remains and often used as recreational consumables.	Exoten sind am nützlichsten für die Modul Herstellung und den Tauschhandel, fungieren als kritische Modulkomponenten oder als alternative Währung zu Xenodaten-Credits.\n\nAlle exotischen Substanzen sind seltene Elemente, die den Gesetzen der bekannten Physik ein wenig zu trotzen scheinen.\nSie werden meist in den Überresten von Warptieren gefunden und oft als Freizeit-Verbrauchsmaterial verwendet.	0
-	Xenodata credits, usually called just xenodata or creds, is the most respected form of intergalactic currency.\n\nIt uses a semi-intelligent digital algorithm to convert any data with knowledge value into a universally priced form.	Xenodaten-Credits, meist nur Xenodaten oder Creds genannt, ist die angesehenste Form der intergalaktischen Währung.\n\nSie nutzt einen halbintelligenten digitalen Algorithmus, um beliebige Daten mit Wissenswert in eine universell bewertbare Form umzuwandeln.	0
-	(Xeno)Data credits	(Xeno)Daten Credits	0
+	Exotics are most useful for crafting and bartering, functioning as critical module components or as an alternative currency to xenodata credits.\n\nAll exotic substances are rare elements that seem to slightly defy the laws of known physics.\nThey are mostly found in warp animal remains and often used as recreational consumables.	Exoten sind am nützlichsten für die Modul Herstellung und den Tauschhandel, fungieren als kritische Modulkomponenten oder als alternative Währung zu Xenodaten-Kredite.\n\nAlle exotischen Substanzen sind seltene Elemente, die den Gesetzen der bekannten Physik ein wenig zu trotzen scheinen.\nSie werden meist in den Überresten von Warptieren gefunden und oft als Freizeit-Verbrauchsmaterial verwendet.	0
+	Xenodata credits, usually called just xenodata or creds, is the most respected form of intergalactic currency.\n\nIt uses a semi-intelligent digital algorithm to convert any data with knowledge value into a universally priced form.	Xenodaten-Kredite, meist nur Xenodaten oder Kredite genannt, ist die angesehenste Form der intergalaktischen Währung.\n\nSie nutzt einen halbintelligenten digitalen Algorithmus, um beliebige Daten mit Wissenswert in eine universell bewertbare Form umzuwandeln.	0
+	(Xeno)Data credits	Xenodaten-Kredite	0
 	All actions create fractal causality patterns which return to their source.\n\nYou can use fate points to upgrade your Mothership with perks before starting a new game run.\n\nYou can give yourself fate points by certain behaviour, for example leaving local life on planets undisturbed.	Alle Aktionen erzeugen fraktale Kausalitätsmuster, die zu ihrer Quelle zurückkehren.\n\nSie können Schicksalspunkte verwenden, um Ihr Mutterschiff mit Startboni aufzurüsten, bevor Sie einen neuen Spieldurchlauf starten.\n\nSie können sich selbst Schicksalspunkte durch bestimmtes Verhalten geben, zum Beispiel indem Sie lokales Leben auf Planeten ungestört lassen.	0
 	Fate points	Schicksalspunkte	0
 	Hovering cursor over resource values\nshows total production & consumption.	Wenn Sie mit dem Mauszeiger über die Ressourcenwerte fahren, \nwird die Gesamtproduktion und der Gesamtverbrauch angezeigt.	0
@@ -1128,7 +1128,7 @@ Materials converter panel.prefab
 	Amount of explosives recieved after conversion	Menge der nach der Konvertierung erhaltenen Sprengstoffe	0
 	Amount of exotics recieved after conversion	Menge der nach der Konvertierung erhaltenen Exoten	0
 	Amount of metals recieved after conversion	Menge der nach der Konvertierung erhaltenen Metalle	0
-	Amount of datacreds recieved after conversion	Menge der nach der Konvertierung erhaltenen Datacreds	0
+	Amount of datacreds recieved after conversion	Menge der nach der Konvertierung erhaltenen Xenodaten-Kredite	0
 	Craft container modules to get more container space or craft packs to place resources into storage	Bauen Sie Behälter-Module, um mehr Platz für Ressourcen zu erhalten, oder bauen Sie Pakete, um Ressourcen einzulagern	0
 	Convertor module damaged/overloaded!	Konvertermodul beschädigt/überlastet!	0
 	Do not open automatically when a materials converter module on player ship is selected	Öffnet sich nicht automatisch, wenn ein Materialkonvertermodul auf dem Spielerschiff ausgewählt wird	0
@@ -1392,8 +1392,8 @@ Button in main menu, sets game difficulty	?	?	0
 	Not enough explosives to start game!	Nicht genug Sprengstoffe, um das Spiel zu starten!	0
 	Exotics, rare minerals used in crafting modules or as alternative currency to xenodata	Exoten, seltene Mineralien, die in der Modul Herstellung oder als alternative Währung zu Xenodaten verwendet werden	0
 	Not enough exotics to start game!	Nicht genug Exoten, um das Spiel zu starten!	0
-	XenoData, used as currency	XenoData, verwendet als Währung	0
-	Not enough credits to start game!	Nicht genug Credits, um das Spiel zu starten!	0
+	XenoData, used as currency	Xenodaten, verwendet als Währung	0
+	Not enough credits to start game!	Nicht genug Kredite, um das Spiel zu starten!	0
 	Fate, used to unlock perks between games	Schicksal, wird verwendet, um Startboni zwischen den Spielen freizuschalten	0
 	Not enough fate to start game!	Nicht genug Schicksal, um das Spiel zu starten!	0
 	Starting bonuses from ship and selected perks	Startboni von Schiff und ausgewählten Startboni	0
@@ -1526,7 +1526,7 @@ module requirements	REQUIREMENTS	VORAUSSETZUNGEN	0
 	Exotics consumed per 100 range unit travelled	Verbrauch von Exoten pro 100 zurückgelegte Reichweiteneinheiten	0
 	Synthetics consumed per 100 range unit travelled	Verbrauch von Kunststoffen pro 100 zurückgelegte Reichweiteneinheiten	0
 	Metals consumed per 100 range unit travelled	Verbrauch von Metallen pro 100 zurückgelegte Reichweiteneinheiten	0
-	Credits consumed per 100 range unit travelled	Verbrauchtes Guthaben pro 100 zurückgelegte Reichweiteneinheiten	0
+	Credits consumed per 100 range unit travelled	Verbrauchte Kredite pro 100 zurückgelegte Reichweiteneinheiten	0
 Module effects/stats	EFFECTS	EFFEKTE	0
 	Ship evasion bonus (enemy shots deviate more often)	Ausweichbonus des Schiffs (gegnerische Schüsse weichen häufiger aus)	0
 	Damage area radius	Radius des Schadensbereichs	0
@@ -1536,8 +1536,8 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Number of cryosleep tubes	Anzahl der Kryoschlaf-Röhren	0
 	Crew in cryosleep has a small chance to recover hitpoints while the ship is travelling around in space.	Die Besatzung im Kryoschlaf hat eine kleine Chance, Hitpoints wiederherzustellen, während das Schiff im Raum unterwegs ist.	0
 	chance to heal	Chance auf Heilung	23
-	Crew in cryosleep has a small chance to generate credits while the ship is travelling around in space.	Die Besatzung im Kryoschlaf hat eine kleine Chance, Credits zu generieren, während das Schiff im Weltraum unterwegs ist.	0
-	may generate credits	kann Credits generieren	35
+	Crew in cryosleep has a small chance to generate credits while the ship is travelling around in space.	Die Besatzung im Kryoschlaf hat eine kleine Chance, Kredite zu generieren, während das Schiff im Weltraum unterwegs ist.	0
+	may generate credits	kann Kredite generieren	35
 	Time needed to regenerate 1 hp	Zeit, die benötigt wird, um 1 HP zu regenerieren	0
 	Number of crew that can be healed simultaneously	Anzahl der Crew, die gleichzeitig geheilt werden kann	0
 	Power produced	Erzeugte Energie	0
@@ -1563,7 +1563,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Synthetics currently stored in this container	Kunststoffe, die derzeit in diesem Behälter gelagert werden	0
 	Explosives currently stored in this container	Sprengstoffe, die derzeit in diesem Behälter gelagert werden 	0
 	Exotics currently stored in this container	Exoten, die derzeit in diesem Behälter gelagert werden 	0
-	XenoData generated per minute\n+ or - Current operator skill effect	Pro Minute erzeugte XenoDaten\n+ oder - Aktueller Effekt der Bedienerfertigkeit	0
+	XenoData generated per minute\n+ or - Current operator skill effect	Pro Minute erzeugte Xenodaten\n+ oder - Aktueller Effekt der Bedienerfertigkeit	0
 	Explosives produced per minute	Pro Minute erzeugte Explosivstoffe	0
 	Exotics produced per minute	Pro Minute produzierte Exoten	0
 	Ship HP and max HP bonus	Schiffs-HP und maximaler HP-Bonus	0
@@ -1581,8 +1581,8 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Exotics consumption per minute	Verbrauch von Exoten pro Minute	0
 	Current organics production per 100ru travelled.	Aktuelle Produktion von Organik pro 100re.	0
 	Current synthetics production per 100ru travelled.	Aktuelle Produktion von Kunststoffen pro 100re.	0
-	Current credits production per 100ru travelled.	Aktuelle Credit-Produktion pro 100re gereist.	0
-	1 research skill point gives 1 credit per 100ru.\n(if multiple operators work in research lab, their skill points are added together)	1 Forschungs-Fertigkeitspunkt ergibt 1 Credit pro 100re. (Wenn mehrere Operatoren im Forschungslabor arbeiten, werden ihre Fertigkeitspunkte addiert)	0
+	Current credits production per 100ru travelled.	Aktuelle Kredit-Produktion pro 100re gereist.	0
+	1 research skill point gives 1 credit per 100ru.\n(if multiple operators work in research lab, their skill points are added together)	1 Forschungs-Fertigkeitspunkt ergibt 1 Kredit pro 100re. (Wenn mehrere Operatoren im Forschungslabor arbeiten, werden ihre Fertigkeitspunkte addiert)	0
 	Crew resource consumption is removed when it operates/uses this module.	Der Ressourcenverbrauch der Crew wird entfernt, wenn sie dieses Modul bedient/verwendet.	0
 	no need	kein Bedarf	23
 	Current / maximum operators in module	Aktuelle / maximale Bediener im Modul	0
@@ -1596,7 +1596,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Explosives gained if scrapped	Gewonnene Sprengstoffe bei Verschrottung	0
 	Exotics gained if scrapped	Gewonnene Exoten bei Verschrottung	0
 	Xenodata gained if scrapped	Gewonnene Xenodaten bei Verschrottung	0
-	XenoData gained if scrapped.	Gewonnene XenoData bei Verschrottung.	0
+	XenoData gained if scrapped.	Gewonnene Xenodaten bei Verschrottung.	0
 
 ModuleSlot actions panel.prefab
 	Module slot	Modul-Steckplatz	0
@@ -1775,7 +1775,7 @@ comtipText	Would you like to see an overview of most common weapon types?	Möcht
 	Crew max hitpoints added or removed on some crewmembers	Maximale Trefferpunkte der Crew bei einigen Crewmitgliedern hinzugefügt oder entfernt	0
 	Modules	Module	0
 	Exotics, most useful for crafting and bartering	Exoten, am nützlichsten für Handwerk und Tauschhandel	0
-	XenoData	XenoDaten	0
+	XenoData	Xenodaten	0
 
 Save game indicator.prefab
 game save text	SAVING...	SPEICHERN...	0
@@ -1801,7 +1801,7 @@ Shop panel tabbed.prefab
 comtipText	Want to learn more about exotics?	Möchten Sie mehr über Exoten erfahren?	240
 comtipText	Want to get some tips about trade stations?	Möchten Sie Tipps zu Handelsstationen erhalten?	240
 	Ship repairs	Schiffsreparaturen	0
-	Average price when sold by stations: 2 credits.\nHaving enough fuel for a few warpjumps should be always your priority.	Durchschnittlicher Preis beim Verkauf durch Stationen: 2 Credits.\nGenug Treibstoff für ein paar Warpsprünge zu haben, sollte immer Ihre Priorität sein.	0
+	Average price when sold by stations: 2 credits.\nHaving enough fuel for a few warpjumps should be always your priority.	Durchschnittlicher Preis beim Verkauf durch Stationen: 2 Kredite.\nGenug Treibstoff für ein paar Warpsprünge zu haben, sollte immer Ihre Priorität sein.	0
 	STARFUEL	TREIBSTOFF	0
 	Confirm	Bestätigen	0
 	not enough materials	nicht genug Materialien	0
@@ -1810,15 +1810,15 @@ Refers to shop	Store	Händler	0
 	Sell 1	Verkaufen 1	0
 	Buy:	Kaufen:	0
 	Sell:	Verkaufen:	0
-	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Credits.\nOrganik ist notwendig, um optimale Crew-Fertigkeiten und Heilung zu erhalten.	0
+	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Kredite.\nOrganik ist notwendig, um optimale Crew-Fertigkeiten und Heilung zu erhalten.	0
 	ORGANICS	ORGANIK	0
-	Average price when sold by stations: 4 credits.\nExplosives are used by projectile- and missile weapons.	Durchschnittlicher Preis beim Verkauf an Stationen: 4 Credits.\nExplosivstoffe werden von Projektil- und Raketenwaffen verwendet.	0
+	Average price when sold by stations: 4 credits.\nExplosives are used by projectile- and missile weapons.	Durchschnittlicher Preis beim Verkauf an Stationen: 4 Kredite.\nExplosivstoffe werden von Projektil- und Raketenwaffen verwendet.	0
 	EXPLOSIVES	SPRENGSTOFFE	0
-	Average price when sold by stations: 50 credits.\nExotics are an alternative currency to xenodata. Most automated trader stations accept exotics even if they don't buy any other resources.	Durchschnittlicher Preis beim Verkauf durch Stationen: 50 Credits.\nExoten sind eine alternative Währung zu Xenodaten. Die meisten automatischen Handelsstationen akzeptieren Exoten, auch wenn sie keine anderen Ressourcen kaufen.	0
+	Average price when sold by stations: 50 credits.\nExotics are an alternative currency to xenodata. Most automated trader stations accept exotics even if they don't buy any other resources.	Durchschnittlicher Preis beim Verkauf durch Stationen: 50 Kredite.\nExoten sind eine alternative Währung zu Xenodaten. Die meisten automatischen Handelsstationen akzeptieren Exoten, auch wenn sie keine anderen Ressourcen kaufen.	0
 	EXOTICS	EXOTEN	0
-	Average price when sold by stations: 2 credits.\nSynthethics are consumed when repairing broken ship modules.	Durchschnittlicher Preis beim Verkauf durch Stationen: 2 Credits.\nKunststoffe werden bei der Reparatur von kaputten Schiffsmodulen verbraucht.	0
+	Average price when sold by stations: 2 credits.\nSynthethics are consumed when repairing broken ship modules.	Durchschnittlicher Preis beim Verkauf durch Stationen: 2 Kredite.\nKunststoffe werden bei der Reparatur von kaputten Schiffsmodulen verbraucht.	0
 	SYNTHETICS	KUNSTSTOFFE	0
-	Average price when sold by stations: 1 credits.\nSMetals are mostly used for creating temporary planetary structures during exploration events.	Durchschnittlicher Preis beim Verkauf durch Stationen: 1 Credits.\nMetalle werden meist für die Erstellung temporärer planetarer Strukturen während Erkundungsereignissen verwendet.	0
+	Average price when sold by stations: 1 credits.\nSMetals are mostly used for creating temporary planetary structures during exploration events.	Durchschnittlicher Preis beim Verkauf durch Stationen: 1 Kredit.\nMetalle werden meist für die Erstellung temporärer planetarer Strukturen während Erkundungsereignissen verwendet.	0
 	METALS	METALLE	0
 	NOT AVAILABLE	NICHT VERFÜGBAR	0
 	Mark damage for repair by selecting it on the ship and marking it, or use the buttons below.	Markieren Sie Schäden zur Reparatur, indem Sie sie auf dem Schiff auswählen und markieren, oder verwenden Sie die Schaltflächen unten.	0
@@ -1832,11 +1832,11 @@ Refers to shop	Store	Händler	0
 	Total:	Gesamt:	0
 	Repairing by stations is always cheaper than repairing with crew\r\n(because crew spends 30 metals to repair each ship hitpoint).	Die Reparatur durch Stationen ist immer billiger als die Reparatur mit der Crew\n(weil die Crew 30 Metalle für die Reparatur jedes Schiffshüllenpunkte benötigt).	0
 	1 HP repair cost	1 HP Reparaturkosten	0
-	Not enough credits!	Nicht genug Credits!	0
+	Not enough credits!	Nicht genug Kredite!	0
 	REPAIRING DAMAGE	SCHADEN REPARIEREN	0
 	Please stand by...	Bitte bereithalten...	0
-	Not enough credits or room in storage	Nicht genug Credits oder Platz im Lager	0
-	Not enough credits or room in storage.	Nicht genug Credits oder Platz im Lager.	0
+	Not enough credits or room in storage	Nicht genug Kredite oder Platz im Lager	0
+	Not enough credits or room in storage.	Nicht genug Kredite oder Platz im Lager.	0
 	BUY	KAUFEN	0
 	Select module to buy	Wählen Sie ein Modul 	0
 	Hire	Anheuern	0
@@ -2260,7 +2260,7 @@ reasonToDisplay	Salvage	Bergung	30
 text2	The ship was a scientific exploration vessel. Its sensor systems are still functional. The onboard biolab was damaged beyond repair, but it contained some valuable exotic and biotech samples.	Das Schiff war ein wissenschaftliches Erkundungsschiff. Seine Sensorsysteme sind noch funktionsfähig. Das Biolabor an Bord war irreparabel beschädigt, aber es enthielt einige wertvolle exotische und biotechnische Proben.	400
 text	During the operation, we discovered a ship wreckage with unknown design orbiting the outer atmosphere of the gas giant.	Während des Einsatzes entdeckten wir ein Schiffswrack unbekannter Bauart, das in der äußeren Atmosphäre des Gasriesen kreist.	400
 text2	Scavenging operation completed. It seems the ship crew died when attempting to refuel from the gas giant. All pieces of technology inside the wreckage are degraded beyond repair.	Bergungsoperation abgeschlossen. Es scheint, dass die Schiffsbesatzung beim Versuch, vom Gasriesen aufzutanken, ums Leben kam. Alle Teile der Technologie im Wrack sind irreparabel beschädigt.	400
-text2	Scavenging operation completed. It seems the ship crew was already dead when the ship's primitive AI was attempting to refuel from the gas giant until its own death. Its data core had some ancient credits which should be still worth something. The wreckage contained an almost intact piece of technology.	Bergungsaktion abgeschlossen. Es scheint, dass die Schiffsbesatzung bereits tot war, als die primitive KI des Schiffes bis zu ihrem eigenen Tod versuchte, bei dem Gasriesen aufzutanken. Sein Datenkern enthielt einige alte Credits, die noch etwas wert sein sollten. Das Wrack enthielt ein fast intaktes Stück Technologie.	400
+text2	Scavenging operation completed. It seems the ship crew was already dead when the ship's primitive AI was attempting to refuel from the gas giant until its own death. Its data core had some ancient credits which should be still worth something. The wreckage contained an almost intact piece of technology.	Bergungsaktion abgeschlossen. Es scheint, dass die Schiffsbesatzung bereits tot war, als die primitive KI des Schiffes bis zu ihrem eigenen Tod versuchte, bei dem Gasriesen aufzutanken. Sein Datenkern enthielt einige alte Kredite, die noch etwas wert sein sollten. Das Wrack enthielt ein fast intaktes Stück Technologie.	400
 text	During the operation, we discovered a ship carcass orbiting the outer atmosphere of the gas giant.	Während der Operation entdeckten wir einen Schiffsrumpf, der in der äußeren Atmosphäre des Gasriesen kreiste.	400
 text2	Scavenging operation completed. The wreckage was thousands of years old, judging by the erosion marks. No accidents reported.	Bergungsaktion abgeschlossen. Das Wrack war Tausende von Jahren alt, den Erosionsspuren nach zu urteilen. Es wurden keine Unfälle gemeldet.	400
 text	During the operation, we discovered a ship wreckage orbiting the outer atmosphere of the gas giant. It seems to be a fuel tanker that was attempting to extract fuel from the giant.	Während des Einsatzes entdeckten wir ein Schiffswrack, das die äußere Atmosphäre des Gasriesen umkreist. Es scheint ein Tanker zu sein, der versucht hat, Treibstoff aus dem Riesen zu gewinnen.	400
@@ -2421,7 +2421,7 @@ Level 1 exit.prefab
 text	It seems a lot has changed while you were in cryosleep, Captain... we've been cut off from Intergalactic news for five years. The Rats used to be less desperate about making a profit.	Es scheint sich viel verändert zu haben, während Sie im Kryoschlaf waren, Kapitän... wir waren fünf Jahre lang von intergalaktischen Nachrichten abgeschnitten. Früher waren die Ratten weniger verzweifelt, wenn es darum ging, Profit zu machen.	600
 title	Rat Empire Gate Guard	Torwache des Rattenimperiums	35
 text	This long range warpgate is property of the Rat Empire.\nThose who wish to pass must pay the Gate Tax. I warn you that Those Questioning the Imperial Rules for Everyone Else will be executed. And I have a nuke.	Dieses Langstrecken-Warptor ist Eigentum des Rattenimperiums. Wer es passieren will, muss die Torsteuer bezahlen. Ich warne Sie, dass diejenigen, die die imperialen Regeln für alle anderen in Frage stellen, hingerichtet werden. Und ich habe eine Atombombe.	400
-choiceText	Pay the tax, travel to next sector [-300 credits]	Zahlt die Steuer, reist zum nächsten Sektor [-300 Credits]	100
+choiceText	Pay the tax, travel to next sector [-300 credits]	Zahlt die Steuer, reist zum nächsten Sektor [-300 Kredite]	100
 choiceText	Attempt to bribe [-7 exotics]	Versuch der Bestechung [-7 Exoten]	100
 choiceText	Your rules inspire me to question them [ready for battle]	Ihre Regeln inspirieren mich, sie in Frage zu stellen [bereit zum Kampf]	100
 choiceText	Leave for now [let's prepare for this fight properly]	Verlassen Sie uns vorerst [bereiten wir uns auf diesen Kampf richtig vor]	100
@@ -2624,11 +2624,11 @@ choiceText	Try to communicate with it via all known commsystems	Versuchen Sie, m
 choiceText	Do not do anything threatening and wait	Tun Sie nichts Bedrohliches und warten Sie ab	100
 choiceText	Quickly disengage	Ziehen Sie sich schnell zurück	100
 text2	The ball moves around for a while, until it finally seems to notice you. It sends an orange beam at your ship, which momentarily overwhelms all sensors. AI translates the static into one word: "ENJOY". The fuel in mothership's fuel tanks starts to boil but quickly cools down again, revealing that its volume has inexplicably increased. Documentation of the event is worth some data credits.	Der Ball bewegt sich eine Weile umher, bis er Sie schließlich zu bemerken scheint. Sie sendet einen orangefarbenen Strahl auf Ihr Schiff, der kurzzeitig alle Sensoren überwältigt. Die KI übersetzt das Rauschen in ein Wort: "ENJOY". Der Treibstoff in den Tanks des Mutterschiffs beginnt zu kochen, kühlt aber schnell wieder ab und offenbart, dass sich sein Volumen auf unerklärliche Weise vergrößert hat. Die Dokumentation des Ereignisses ist einige Datenpunkte wert.	400
-text2	You opt for caution and leave the anomaly without further interaction. It soon vanishes. Encounters with anomalies are rare and our recordings of the event are worth some data credits.	Sie entscheiden sich für Vorsicht und verlassen die Anomalie ohne weitere Interaktion. Sie verschwindet bald wieder. Begegnungen mit Anomalien sind selten und unsere Aufzeichnungen des Ereignisses sind einige Datencredits wert.	400
+text2	You opt for caution and leave the anomaly without further interaction. It soon vanishes. Encounters with anomalies are rare and our recordings of the event are worth some data credits.	Sie entscheiden sich für Vorsicht und verlassen die Anomalie ohne weitere Interaktion. Sie verschwindet bald wieder. Begegnungen mit Anomalien sind selten und unsere Aufzeichnungen des Ereignisses sind einige Xenodaten-Kredite wert.	400
 text	Contacting anomaly... %	Kontaktaufnahme mit der Anomalie... %	50
 text2	The anomaly responds to our communication attempts by stopping in place. It then sends a purple beam at your ship, which seems to create a strong telepathic link between all of your crew and the phenomenon. Strange visions of a different, larger and stranger world fill your head. The anomaly then pops out of existence.	Die Anomalie antwortet auf unsere Kommunikationsversuche, indem sie an Ort und Stelle stehen bleibt. Sie sendet dann einen violetten Strahl auf Ihr Schiff, der eine starke telepathische Verbindung zwischen Ihrer gesamten Crew und dem Phänomen herzustellen scheint. Seltsame Visionen einer anderen, größeren und seltsameren Welt erfüllen Ihren Kopf. Die Anomalie taucht dann aus der Existenz auf.	400
 text2	The anomaly responds to our communication attempts by stopping in place. It then sends a red beam at our ship and pops out of existence. A quick internal investigation reveals that a large portion of explosives we were carrying have been transformed into edible fungus. It tastes like cinnamon rolls. Oh well.	Die Anomalie antwortet auf unsere Kommunikationsversuche, indem sie an Ort und Stelle stehen bleibt. Dann sendet sie einen roten Strahl auf unser Schiff und verschwindet aus der Existenz. Eine schnelle interne Untersuchung zeigt, dass ein großer Teil des Sprengstoffs, den wir an Bord hatten, sich in einen essbaren Pilz verwandelt hat. Er schmeckt wie Zimtschnecken. Na ja.	400
-text2	Any encounter with anomalies is a rare occasion and our recordings of it are worth some xenodata credits.	Eine Begegnung mit Anomalien ist ein seltenes Ereignis und unsere Aufnahmen davon sind einige Xenodaten-Credits wert.	400
+text2	Any encounter with anomalies is a rare occasion and our recordings of it are worth some xenodata credits.	Eine Begegnung mit Anomalien ist ein seltenes Ereignis und unsere Aufnahmen davon sind einige Xenodaten-Kredite wert.	400
 
 2 Exo wr. arlis wreck, MT blaster.prefab
 text	It's a partially dissolved shipwreck. It seems to be a victim of space life, as there are no obvious signs of looting.	Es ist ein teilweise aufgelöstes Schiffswrack. Es scheint ein Opfer von Weltraumleben zu sein, da es keine offensichtlichen Anzeichen von Plünderung gibt.	400
@@ -2720,7 +2720,7 @@ text2	The animal fought back by shooting warp rays that paralyzed or fried our c
 text2	The warp animal puts up a tough fight, shooting pink rays that paralyze our missiles and other advanced equipment. One salvo of explosives finally connects. Tthe animal explodes in a supernova-like eruption, scorching the mothership. Nothing remains of it.	Das Warptier wehrt sich heftig und schießt rosa Strahlen, die unsere Raketen und andere fortschrittliche Ausrüstung lahmlegen. Eine Salve von Sprengstoff trifft schließlich. Das Tier explodiert in einer supernovaähnlichen Eruption und verbrennt das Mutterschiff. Nichts bleibt von ihm übrig.	400
 text2	You and your crew watch the jellyfish gracefully float in space. They are said to be thousands of years old and highly intelligent. You wonder why they are said to be dangerous and unpredictable, and if this might be untrue.	Sie und Ihre Crew beobachten, wie die Quallen anmutig im Raum schweben. Man sagt, sie seien tausende von Jahren alt und hochintelligent. Sie fragen sich, warum man ihnen nachsagt, sie seien gefährlich und unberechenbar, und ob das vielleicht nicht stimmt.	400
 text2	The warp animal used its poorly understood warp rays to fight back. It dealt significant damage to our ship and several subsystems before dying of its wounds. Its corpse contained a few bits and pieces from half-digested ships, one of them almost functional.	Das Warptier setzte seine schlecht verstandenen Warpstrahlen ein, um sich zu wehren. Es fügte unserem Schiff und mehreren Subsystemen erheblichen Schaden zu, bevor es an seinen Wunden starb. Sein Leichnam enthielt ein paar Teile von halb verdauten Schiffen, eines davon fast funktionsfähig.	400
-text2	Any encounter with warp animals is a rare occasion and our recordings of it are worth some xenodata credits.	Eine Begegnung mit Warptieren ist ein seltenes Ereignis und unsere Aufnahmen davon sind einige Xenodaten-Credits wert.	400
+text2	Any encounter with warp animals is a rare occasion and our recordings of it are worth some xenodata credits.	Eine Begegnung mit Warptieren ist ein seltenes Ereignis und unsere Aufnahmen davon sind einige Xenodaten-Kredite wert.	400
 
 245 Exo lifepod, Co2.prefab
 text	This escape pod has drifted in space for a long time and seems to contain several cryofrozen individuals. Records show the pods were ejected after an attack by unknown forces.	Diese Rettungskapsel driftete lange Zeit im Raum und scheint mehrere tiefgefrorene Individuen zu enthalten. Aufzeichnungen zeigen, dass die Kapseln nach einem Angriff durch unbekannte Kräfte ausgestoßen wurden.	400
@@ -3011,7 +3011,7 @@ title	Combat report	Kampfbericht	35
 text2	The fighting was fierce and another warp animal appeared mid-fight, peppering us with deadly warp rays. We sustained severe damage. Most of our external utility bots were also destroyed in the action...	Der Kampf war heftig, und mitten im Kampf erschien ein weiteres Warptier, das uns mit tödlichen Warp-Strahlen beschoss. Wir haben schwere Schäden erlitten. Die meisten unserer externen Versorgungsbots wurden bei der Aktion ebenfalls zerstört...	400
 text	fighting space life.. %	Kampf gegen Weltraumleben... %	50
 title	Eggs researched	Erforschte Eier	35
-text2	Scientific research of the live warp animal eggs results in a hoard of data creds. Additionally, we scrapped the remaining wreckage pieces and extracted exotic materials from warplife remains.	Die wissenschaftliche Erforschung der lebenden Warptier-Eier ergibt einen Hort von Daten-Credits. Außerdem haben wir die verbliebenen Wrackteile verschrottet und exotische Materialien aus den Überresten der Warptiere gewonnen.	400
+text2	Scientific research of the live warp animal eggs results in a hoard of data creds. Additionally, we scrapped the remaining wreckage pieces and extracted exotic materials from warplife remains.	Die wissenschaftliche Erforschung der lebenden Warptier-Eier ergibt einen Hort von Xenodaten-Krediten. Außerdem haben wir die verbliebenen Wrackteile verschrottet und exotische Materialien aus den Überresten der Warptiere gewonnen.	400
 
 6790 Exo cargo advanced x8.prefab
 text2	A couple of high-pressure fuelpods.	Ein paar Hochdruck-Treibstoffpods.	400
@@ -3094,7 +3094,7 @@ title	A gift	Ein Geschenk	35
 text2	After their ship has been refuelled, the captain sends us a small wooden box, containing the famous Insectoidian elixir of life. This exotic and mysterious drink is said to regenerate and enhance any carbon organism who consumes it. We divide it between the entire crew.	Nachdem ihr Schiff aufgetankt wurde, schickt uns der Kapitän eine kleine Holzkiste, die das berühmte Lebenselixier der Insektoiden enthält. Dieses exotische und geheimnisvolle Getränk soll jeden Kohlenstofforganismus, der es konsumiert, regenerieren und verbessern. Wir teilen es unter der gesamten Besatzung auf.	400
 reasonToDisplay	help given	Hilfe gegeben	30
 text	We do not have enough fuel. We can return later if we have more.	Wir haben nicht genug Treibstoff. Wir können später zurückkehren, wenn wir mehr haben.	600
-text2	After the Insectoid Alliance ship has been refuelled, the captain expresses his gratitude by giving us one of their light internal security drones, plus some credits donated by the passengers of his ship.	Nachdem das Schiff der Insektoiden-Allianz aufgetankt wurde, bedankt sich der Kapitän, indem er uns eine ihrer leichten internen Sicherheitsdrohnen schenkt, sowie einige Credits, die von den Passagieren seines Schiffes gespendet wurden.	400
+text2	After the Insectoid Alliance ship has been refuelled, the captain expresses his gratitude by giving us one of their light internal security drones, plus some credits donated by the passengers of his ship.	Nachdem das Schiff der Insektoiden-Allianz aufgetankt wurde, bedankt sich der Kapitän, indem er uns eine ihrer leichten internen Sicherheitsdrohnen schenkt, sowie einige Kredite, die von den Passagieren seines Schiffes gespendet wurden.	400
 title	Wrecked ship	Schiffswrack	35
 
 SOS4 exo, gitchanki miners broken warp and packs.prefab
@@ -3334,7 +3334,7 @@ reasonToDisplay	warp animal killed	Warptier getötet	30
 title	Operation aborted	Operation abgebrochen	35
 text2	The animal fought back with invisible warp energies that paralyzed or fried our missiles and other advanced equipment. It even tried to somehow remotely hack our AI, at which point we decided it was time to leave.	Das Tier wehrte sich mit unsichtbaren Warpenergien, die unsere Raketen und andere fortschrittliche Ausrüstung lähmten oder froren. Es versuchte sogar, irgendwie unsere KI aus der Ferne zu hacken, woraufhin wir beschlossen, dass es Zeit war zu gehen.	400
 newName2	warplife colony	Warp-Leben-Kolonie	25
-text	Local ecosystem is full of strange plants. The entire planet seems to carry faint traces of warp energy. Researching the ecosystem will likely generate some value in data creds.	Das hiesige Ökosystem ist voll von seltsamen Pflanzen. Der gesamte Planet scheint schwache Spuren von Warpenergie zu tragen. Die Erforschung des Ökosystems wird wahrscheinlich einen gewissen Wert an Daten-Credits generieren.	400
+text	Local ecosystem is full of strange plants. The entire planet seems to carry faint traces of warp energy. Researching the ecosystem will likely generate some value in data creds.	Das hiesige Ökosystem ist voll von seltsamen Pflanzen. Der gesamte Planet scheint schwache Spuren von Warpenergie zu tragen. Die Erforschung des Ökosystems wird wahrscheinlich einen gewissen Wert an Xenodaten-Krediten generieren.	400
 choiceText	Send bots for scientific samples and leave this planet untouched.	Schicken Sie Bots für wissenschaftliche Proben und lassen Sie den Planeten unberührt.	100
 text	Harvesting... %	Ernten... %	50
 title	Harvest completed	Ernte abgeschlossen	35
@@ -3742,7 +3742,7 @@ reasonToDisplay	trade operation	Handelsbetrieb	30
 text	There is a very small station on the orbit of this otherwise uninteresting planet. It is sending a crude "DRONES FOR SALE" signal, but it's credentials are unknown."	Im Orbit dieses ansonsten uninteressanten Planeten befindet sich eine sehr kleine Station. Sie sendet ein plumpes "DRONEN ZU VERKAUFEN"-Signal, aber ihre Berechtigung ist unbekannt."	400
 newName3	Religious trade station	Religiöse Handelsstation	25
 text	The station seems to be selling exclusively worthless junk, except for a shady pair of Gor-Mor. They offer us a mystery "biotech combat drone". No refunds, of course."	Die Station scheint ausschließlich wertloses Gerümpel zu verkaufen, abgesehen von einem zwielichtigen Paar Gor-Mor. Sie bieten uns eine mysteriöse "Biotech-Kampfdrohne" an. Keine Rückerstattung, natürlich."	400
-choiceText	Buy [-99 creds]	Kaufen [-99 Kredits]	100
+choiceText	Buy [-99 creds]	Kaufen [-99 Kredite]	100
 title	Station self-destruct	Selbstzerstörung der Station	35
 text2	The station replica has exploded due to an internal self-destruct system triggered by our ship's recon bots. The techno-junk inside the replica scattered in all directions as shrapnel, causing minor damage to our ship and yielding salvage.	Der Stationsnachbau ist aufgrund eines internen Selbstzerstörungssystems explodiert, das von den Aufklärungsbots unseres Schiffs ausgelöst wurde. Der Technoschrott im Inneren des Replikats verstreute sich als Schrapnell in alle Richtungen, verursachte geringfügige Schäden an unserem Schiff und erbrachte Bergungsgut.	400
 reasonToDisplay	ambush survived	Hinterhalt überstanden	30
@@ -3860,7 +3860,7 @@ name3	[[Kustom sHiP Tegrity]]	[[Kustom sHiP Tegrity]]	25
 text2	Few bots are used and most of the works are carried out manually in the scrapyard. After several days work, the module is finished. The workers give us extra food and a reduced final price, stating they ended up leaving in a few minor scratches here and there.	Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell auf dem Schrottplatz durchgeführt. Nach mehreren Tagen Arbeit ist das Modul fertig. Die Arbeiter geben uns extra Essen und einen reduzierten Endpreis, mit dem Hinweis, dass sie am Ende hier und da ein paar kleine Kratzer hinterlassen haben.	400
 reasonToDisplay	module complete	Modul fertig	30
 text	The planet has a lone ship service station, specialized in building custom integrity modules from recycled local materials. The service includes free food.	Auf dem Planeten gibt es eine einsame Schiffsservicestation, die darauf spezialisiert ist, individuelle Integritätsmodule aus recycelten lokalen Materialien zu bauen. Der Service beinhaltet kostenloses Essen.	400
-choiceText	Order a custom-made integrity module [-200 creds]	Bestellen Sie ein maßgefertigtes Integritätsmodul [-200 Kredits]	100
+choiceText	Order a custom-made integrity module [-200 creds]	Bestellen Sie ein maßgefertigtes Integritätsmodul [-200 Kredite]	100
 text	custom module works... %	Maßgefertigtes Modul funktioniert... %	50
 okButtonText	Ok, leave for now	Ok, gehen Sie erst einmal	7
 text2	The workers analyze the standard module blueprints of our ship. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble an integrity module. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Die Arbeiter analysieren die Standardmodul-Baupläne unseres Schiffes. Sie nehmen sich die Zeit, den verschiedenen Schrott zu durchforsten, den sie in ihrer Werft finden, und beginnen Stück für Stück, ein Integritätsmodul zusammenzubauen. Nur wenige Bots kommen zum Einsatz, der Großteil der Arbeiten wird manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
@@ -4021,18 +4021,18 @@ newName3	Rember colony	Rember-Kolonie	25
 text	exploring the market... %	Den Markt erkunden... %.	50
 title	Trader	Händler	35
 text	After exploring the market, we are invited to meet the owner of the establishment. He explains that he wants to sell one of his outpost defences. An old but powerful dual cannon with truly historic value. Apparently, It was once used to cover the evacuation of the planet Ur-Quanor II.	Nachdem wir den Markt erkundet haben, werden wir eingeladen, den Besitzer der Einrichtung zu treffen. Er erklärt, dass er eine seiner Außenposten-Verteidigungsanlagen verkaufen möchte. Eine alte, aber mächtige Doppelkanone mit wahrhaft historischem Wert. Anscheinend wurde sie einst für die Evakuierung des Planeten Ur-Quanor II eingesetzt.	400
-choiceText	Buy the cannon [-100 creds]	Kaufen Sie die Kanone [-100 Kredits]	100
+choiceText	Buy the cannon [-100 creds]	Kaufen Sie die Kanone [-100 Kredite]	100
 newName3	cannon for sale	Kanone zu verkaufen	25
 text2	The weapons are delivered to Mothership cargo bay as promised. Along with the cannon, we are delivered a small crate of munitions, a very generous bonus indeed.	Die Waffen werden wie versprochen in den Frachtraum des Mutterschiffs geliefert. Zusammen mit der Kanone wird uns eine kleine Kiste mit Munition geliefert, ein sehr großzügiger Bonus in der Tat.	400
 reasonToDisplay	Trade complete	Handel abgeschlossen	30
 title	Traders	Händler	35
 text	The station sells mostly low-tech industrial or agricultural machinery and self-contained food. A pair of locals are also willing to pay a good price for exotics.	Die Station verkauft hauptsächlich Low-Tech-Industrie- oder Landwirtschaftsmaschinen und selbst hergestellte Lebensmittel. Ein paar Einheimische sind auch bereit, einen guten Preis für Exoten zu zahlen.	400
-choiceText	Sell 1 exotics [+45 credits]	Verkaufe 1 Exoten [+45 Credits]	100
-choiceText	Sell 3 exotics [+150 credits]	Verkaufe 3 Exoten [+150 Credits]	100
-choiceText	Buy a self-contained pack of 100 organics [-125 credits]	Kaufen Sie ein geschlossenes Paket mit 100 Organics [-125 Credits]	100
+choiceText	Sell 1 exotics [+45 credits]	Verkaufe 1 Exoten [+45 Kredite]	100
+choiceText	Sell 3 exotics [+150 credits]	Verkaufe 3 Exoten [+150 Kredite]	100
+choiceText	Buy a self-contained pack of 100 organics [-125 credits]	Kaufen Sie ein geschlossenes Paket mit 100 Organics [-125 Kredite]	100
 newName3	buyers for exotics	Käufer für Exoten	25
 text	The market is full of junk, but its owner wants to update the outpost defences and is willing to sell us one of their old but powerful triple cannons, with truly historic value. Apparently, It was once used to cover the evacuation of the planet Gohr-Argh II.	Der Markt ist voller Schrott, aber der Besitzer möchte die Verteidigungsanlagen des Außenpostens aufrüsten und ist bereit, uns eine ihrer alten, aber mächtigen Dreifachkanonen zu verkaufen, die wirklich historischen Wert hat. Anscheinend wurde sie einst für die Evakuierung des Planeten Gohr-Argh II eingesetzt.	400
-choiceText	Buy the cannon [-200 creds]	Kaufen Sie die Kanone [-200 Kredits]	100
+choiceText	Buy the cannon [-200 creds]	Kaufen Sie die Kanone [-200 Kredite]	100
 reasonToDisplay	trade complete	Handel abgeschlossen	30
 text2	The locals gave us a small dead animal as a bonus. They promise to kill another animal for us if we sell more exotics.	Die Einheimischen haben uns ein kleines totes Tier als Bonus gegeben. Sie versprechen, ein weiteres Tier für uns zu töten, wenn wir mehr Exoten verkaufen.	400
 reasonToDisplay	trade successful	Handel erfolgreich	30
@@ -4357,9 +4357,9 @@ reasonToDisplay	ship repairs finished	Schiffsreparaturen abgeschlossen	30
 title	Gift from the community	Geschenk der Gemeinde	35
 text2	Before we leave, the local representatives bring us a minor gift from their community.	Bevor wir aufbrechen, bringen uns die örtlichen Vertreter ein kleines Geschenk ihrer Gemeinde.	400
 text	We are approached by a pair of local asteroid miners. Hearing of our quest, they ask if we are interested in buying a set of 3 mining lasers. One of their mining ships crashed recently and will be decommissioned, but all of its weapons should be still functional. The weapons should also provide much synthethics if scrapped, they explain.	Wir werden von einem Paar lokaler Asteroiden-Mienenarbeiter angesprochen. Als sie von unserer Suche hörten, fragten sie uns, ob wir am Kauf eines Satzes von 3 Minenlasern interessiert seien. Eines ihrer Minenschiffe ist vor kurzem abgestürzt und wird ausgemustert, aber alle seine Waffen sollten noch funktionsfähig sein. Die Waffen sollten auch viel Kunststoffe liefern, wenn sie verschrottet werden, erklären sie.	400
-choiceText	Buy the weapon set [-260 creds]	Kaufen Sie das Waffenset [-260 Kredits]	100
+choiceText	Buy the weapon set [-260 creds]	Kaufen Sie das Waffenset [-260 Kredite]	100
 choiceText	Politely decline	Höflich ablehnen	100
-text	"Sorry, not enough credits for this operation."	Tut mir leid, nicht genug Credits für diese Operation.	600
+text	"Sorry, not enough credits for this operation."	Tut mir leid, nicht genug Kredite für diese Operation.	600
 text2	The modules are delivered to Mothership cargo bay as promised. The traders have included a symbolic bonus with the delivery, a container of psychedelic honey produced by local insects.	Die Module werden wie versprochen in den Frachtraum des Mutterschiffs geliefert. Die Händler haben der Lieferung einen symbolischen Bonus beigelegt, einen Behälter mit psychedelischem Honig, der von lokalen Insekten produziert wird.	400
 text2	The anti-tyranny fund representative gives you a formal blessing and promises to make the universe a better place with the resources. Your reputation increases considerably.	Der Vertreter des Anti-Tyrannen-Fonds gibt Ihnen einen formellen Segen und verspricht, das Universum mit den Ressourcen zu einem besseren Ort zu machen. Ihr Ansehen steigt erheblich.	400
 reasonToDisplay	donation provided	Spende bereitgestellt	30
@@ -4369,27 +4369,27 @@ choiceText	Donate 100 synthethics to the anti-tyranny fund	Spenden Sie 100 Kunst
 text	This is a multispecies refugee colony. Visitor info suggests that an alliance of benevolent advanced civilizations rescued many individuals from various violence-ruled planets, and donated this desert planet as a new home, so that they may live in peace.	Dies ist eine Multispezies-Flüchtlingskolonie. Besucherinformationen deuten darauf hin, dass eine Allianz wohlwollender fortgeschrittener Zivilisationen viele Individuen von verschiedenen, von Gewalt beherrschten Planeten gerettet hat und diesen Wüstenplaneten als neue Heimat gestiftet hat, damit sie in Frieden leben können.	400
 choiceText	Meet the locals [send crew]	Treffen Sie die Einheimischen [Crew schicken]	100
 newName3	refugee colony	Flüchtlingskolonie	25
-text	One of the local refugees, seeing our ship, offers to try to repair some of the damage. He represents a group of freelancer engineers. Their service costs 100 credits per order plus metals, and he cannot give any guarantees.	Einer der einheimischen Flüchtlinge, der unser Schiff sieht, bietet an, zu versuchen, einige der Schäden zu reparieren. Er vertritt eine Gruppe von freiberuflichen Ingenieuren. Ihr Service kostet 100 Credits pro Auftrag plus Metalle, und er kann keine Garantien geben.	400
-choiceText	Purchase the service [-100 creds, -50 metals]	Kaufen Sie den Service [-100 Credits, -50 Metalle]	100
+text	One of the local refugees, seeing our ship, offers to try to repair some of the damage. He represents a group of freelancer engineers. Their service costs 100 credits per order plus metals, and he cannot give any guarantees.	Einer der einheimischen Flüchtlinge, der unser Schiff sieht, bietet an, zu versuchen, einige der Schäden zu reparieren. Er vertritt eine Gruppe von freiberuflichen Ingenieuren. Ihr Service kostet 100 Kredite pro Auftrag plus Metalle, und er kann keine Garantien geben.	400
+choiceText	Purchase the service [-100 creds, -50 metals]	Kaufen Sie den Service [-100 Kredite, -50 Metalle]	100
 title	Repairs completed	Reparaturen abgeschlossen	35
 text2	The freelancer engineers seem to enjoy manual work. They use metal and locally recycled scrap alloys to restore our ship's integrity. After a while, we are informed that the work is finished. The result looks satisfactory.	Die freiberuflichen Ingenieure scheinen Spaß an manueller Arbeit zu haben. Sie verwenden Metall und lokal recycelte Schrottlegierungen, um die Integrität unseres Schiffs wiederherzustellen. Nach einer Weile werden wir informiert, dass die Arbeit abgeschlossen ist. Das Ergebnis sieht zufriedenstellend aus.	400
 text	Our crew takes time to look around the planet and its various commercial venues aimed at culture-visitors. Eventually we are approached by a pair of traders. They offer us a rapid-fire cannon. "SUPERIOR QUALITY" they claim."	Unsere Crew nimmt sich Zeit, um sich auf dem Planeten und seinen verschiedenen kommerziellen Einrichtungen für Kulturbesucher umzusehen. Schließlich werden wir von ein paar Händlern angesprochen. Sie bieten uns eine Schnellfeuerkanone an. "SUPERIOR QUALITY" behaupten sie."	400
-choiceText	Buy the weapon [-220 credits]	Kaufen Sie die Waffe [-220 Credits]	100
+choiceText	Buy the weapon [-220 credits]	Kaufen Sie die Waffe [-220 Kredite]	100
 text	"We do not have enough resources."	Wir haben nicht genug Ressourcen.	600
 text	requesting orbiting permission...	Bitte um Erlaubnis zum Umkreisen...	50
 
 2 Pi Trader planet x3, PECM2or3, warp3, LRsensor3.prefab
 name3	{([trader signals])}	{([Händlersignale])}	25
 text	There is a small colony of tech traders on this otherwise desolate planet. The colony demands a small "parking fee" for landing on the planet and being able to shop here."	Es gibt eine kleine Kolonie von Tech-Händlern auf diesem ansonsten trostlosen Planeten. Die Kolonie verlangt eine kleine "Parkgebühr", um auf dem Planeten zu landen und hier einkaufen zu können."	400
-choiceText	Go shopping [-10 credits]	Einkaufen gehen [-10 Credits]	100
+choiceText	Go shopping [-10 credits]	Einkaufen gehen [-10 Kredite]	100
 text	After exploring the wares, a pair of self-contained resource packs catch your attention. The Gitchankis salesmen ask an extremely modest price. Additionally, they point out, the organics in the package are harvested with highest environmental protection standards.	Nachdem Sie die Waren erkundet haben, erregen ein paar eigenständige Ressourcenpakete Ihre Aufmerksamkeit. Die Gitchankis-Verkäufer verlangen einen äußerst bescheidenen Preis. Außerdem weisen sie darauf hin, dass die organischen Stoffe in der Packung unter höchsten Umweltschutzstandards geerntet werden.	400
-choiceText	Buy 2 resource packs of medicine [-150 credits]	Kaufen Sie 2 Ressourcenpakete mit Medizin [-150 Credits]	100
+choiceText	Buy 2 resource packs of medicine [-150 credits]	Kaufen Sie 2 Ressourcenpakete mit Medizin [-150 Kredite]	100
 text2	The module is delivered to the Mothership cargo bay as promised. The trader has included a bonus to the delivery, a small amount of fungus brew.	Das Modul wird wie versprochen in den Laderaum des Mutterschiffs geliefert. Der Händler hat der Lieferung einen Bonus beigelegt, eine kleine Menge Pilzgebräu.	400
 text	After inspecting the wares, you find an advanced warpdrive for sale. The Gor-Mor salesmen claim it's a very high quality device. Additionally, they point out, it is made according to high environmental protection standards.	Nachdem Sie die Waren inspiziert haben, finden Sie einen fortschrittlichen Warpantrieb, der zum Verkauf steht. Die Gor-Mor-Verkäufer behaupten, es sei ein sehr hochwertiges Gerät. Außerdem, so betonen sie, wird es nach hohen Umweltschutzstandards hergestellt.	400
-choiceText	Buy the warpdrive [-120 credits]	Kaufen Sie den Warpantriebs [-120 Credits]	100
+choiceText	Buy the warpdrive [-120 credits]	Kaufen Sie den Warpantrieb [-120 Kredite]	100
 text2	The module is delivered to the Mothership cargo bay as promised. The trader has included a bonus to the delivery, a small amount of fuel and a box of exotic fruits.	Das Modul wird wie versprochen in den Laderaum des Mutterschiffs geliefert. Der Händler hat der Lieferung einen Bonus beigelegt, eine kleine Menge Treibstoff und eine Kiste mit exotischen Früchten.	400
 text	After inspecting the wares, you find an advanced long range sensor for sale. The Yu-Ee salesmen claim its a very high quality device. Additionally, they point out, it is made according to high environmental protection standards.	Nachdem Sie die Waren inspiziert haben, finden Sie einen fortschrittlichen Langstreckensensor, der zum Verkauf steht. Die Yu-Ee-Verkäufer behaupten, es sei ein sehr hochwertiges Gerät. Außerdem, so betonen sie, wird er nach hohen Umweltschutzstandards hergestellt.	400
-choiceText	Buy the sensor [-200 credits]	Kaufen Sie den Sensor [-200 Credits]	100
+choiceText	Buy the sensor [-200 credits]	Kaufen Sie den Sensor [-200 Kredite]	100
 text2	The module is delivered to the Mothership cargo bay as promised. The trader has included a symbolic bonus to the delivery, a barrel of mildly intoxicating beverage.	Das Modul wird wie versprochen in den Frachtraum des Mutterschiffs geliefert. Der Händler hat der Lieferung einen symbolischen Bonus beigelegt, ein Fass mit einem leicht berauschenden Getränk.	400
 
 2 Pi white cavepeople M, want fuel.prefab
@@ -5135,7 +5135,7 @@ text2	As we leave the area, we witness a nuclear explosion at the tower location
 text	Suddenly, the tower, the bot and your ship come under fire from nearby hills. We disengage while laying down suppressive fire...	Plötzlich geraten der Turm, der Bot und Ihr Schiff unter Beschuss von nahegelegenen Hügeln. Wir ziehen uns zurück, während wir Unterdrückungsfeuer geben...	600
 text	Strong electromagnetic interference prevents us from scanning the planet from orbit. We cannot observe the surface without entering the atmosphere.	Starke elektromagnetische Interferenzen verhindern, dass wir den Planeten aus dem Orbit scannen können. Wir können die Oberfläche nicht beobachten, ohne in die Atmosphäre einzutreten.	400
 title	Doom Flower shop	Schicksals-Blumenladen	35
-text	Welcome, fellow free will! We have very strict... communication regulations here. You want some truly apocalyptic flowers? An expensive flower is 450 creds, the cheap ones cost 350. We are unable to answer any questions due to... constant technical malfunctions.	Willkommen, Mitbürger des freien Willens! Wir haben hier sehr strenge... Kommunikationsvorschriften. Sie wollen ein paar wirklich apokalyptische Blumen? Eine teure Blume kostet 450 Kredits, die billigen kosten 350. Aufgrund von... ständigen technischen Störungen können wir keine Fragen beantworten.	400
+text	Welcome, fellow free will! We have very strict... communication regulations here. You want some truly apocalyptic flowers? An expensive flower is 450 creds, the cheap ones cost 350. We are unable to answer any questions due to... constant technical malfunctions.	Willkommen, Mitbürger des freien Willens! Wir haben hier sehr strenge... Kommunikationsvorschriften. Sie wollen ein paar wirklich apokalyptische Blumen? Eine teure Blume kostet 450 Kredite, die billigen kosten 350. Aufgrund von... ständigen technischen Störungen können wir keine Fragen beantworten.	400
 choiceText	Buy the "expensive flower"	Kaufen Sie die "teure Blume"	100
 choiceText	Buy the "cheap flower"	Kaufen Sie die "billige Blume"	100
 newName3	Destruction Flower shop	Blumenladen der Zerstörung	25
@@ -5484,7 +5484,7 @@ choiceText	Research & eco-mine [-40 fuel, -40 synthetics]	Forschung & Öko-Bergb
 choiceText	Research & mine [-30 fuel]	Forschung & Bergbau [-30 Treibstoff]	100
 choiceText	Leave the ecosystem untouched	Das Ökosystem unberührt lassen	100
 text	Eco-mining... %	Öko-Bergbau... %	50
-text2	Researching local life generates valuable data credits. The intelligent plants thank us for respecting their planet and present a gift, a heap of partially digested bugs.	Die Erforschung des lokalen Lebens generiert wertvolle Daten-Credits. Die intelligenten Pflanzen danken uns für den Respekt vor ihrem Planeten und überreichen uns ein Geschenk, einen Haufen teilweise verdauter Käfer.	400
+text2	Researching local life generates valuable data credits. The intelligent plants thank us for respecting their planet and present a gift, a heap of partially digested bugs.	Die Erforschung des lokalen Lebens generiert wertvolle Xenodaten-Kredite. Die intelligenten Pflanzen danken uns für den Respekt vor ihrem Planeten und überreichen uns ein Geschenk, einen Haufen teilweise verdauter Käfer.	400
 text2	Our minerbots try to minimize damage to forests, but it is not very successful without relocating the trees and animals on the mining spot. Our minerbots end up killing innumerable local individuals, from insects to animals. On the plus side, we obtain a hefty amount of exotic minerals. The Givers stop speaking to us. We take a few scientific samples and leave.	Unsere Minerbots versuchen, den Schaden an den Wäldern zu minimieren, aber es ist nicht sehr erfolgreich, ohne die Bäume und Tiere an der Abbaustelle umzusiedeln. Unsere Minerbots töten am Ende unzählige lokale Individuen, von Insekten bis zu Tieren. Auf der positiven Seite erhalten wir eine beträchtliche Menge an exotischen Mineralien. Die Giver hören auf, mit uns zu sprechen. Wir nehmen ein paar wissenschaftliche Proben und verschwinden.	400
 
 5 Pi nuclear digital militants MFE 2.prefab
@@ -5549,7 +5549,7 @@ title	Strange micro-organism	Seltsamer Mikroorganismus	35
 text	The ecosystem on this planet is young and earthlike, featuring beautiful beaches with ideal temperature. However, a strange microorganism seems to live inside most of the local species. We should run comprehensive tests before harvesting any organics.	Das Ökosystem auf diesem Planeten ist jung und erdähnlich, mit schönen Stränden und idealer Temperatur. Allerdings scheint ein seltsamer Mikroorganismus in den meisten der einheimischen Arten zu leben. Wir sollten umfassende Tests durchführen, bevor wir irgendwelche organischen Stoffe ernten.	400
 choiceText	Research the local ecosystem [-50 organics]	Erforschen Sie das lokale Ökosystem [-50 Organik]	100
 text	lab tests... %	Labortests... %	50
-text2	After using up a significant amount of our own organics for tests, the micro-organism was found to be too chemically unpredictable to allow safe harvesting from this planet. The research results are worth some data creds.	Nachdem wir eine beträchtliche Menge unserer eigenen Organik für Tests verbraucht hatten, stellte sich heraus, dass der Mikroorganismus chemisch zu unberechenbar ist, um eine sichere Ernte von diesem Planeten zu ermöglichen. Die Forschungsergebnisse sind einige Datencredits wert.	400
+text2	After using up a significant amount of our own organics for tests, the micro-organism was found to be too chemically unpredictable to allow safe harvesting from this planet. The research results are worth some data creds.	Nachdem wir eine beträchtliche Menge unserer eigenen Organik für Tests verbraucht hatten, stellte sich heraus, dass der Mikroorganismus chemisch zu unberechenbar ist, um eine sichere Ernte von diesem Planeten zu ermöglichen. Die Forschungsergebnisse sind einige Xenodaten-Kredite wert.	400
 
 6 Pi Stat AMBUSH drones.prefab
 text	A small station orbits this otherwise uninteresting planet. It is sending a trader signal, but its credentials are unknown.	Eine kleine Station umkreist diesen ansonsten uninteressanten Planeten. Sie sendet ein Händlersignal, aber ihre Berechtigung ist unbekannt.	400
@@ -5558,7 +5558,7 @@ text	The station seems to be selling exclusively worthless junk, except for a sh
 choiceText	Buy the nuke [-5 exotics]	Kaufen Sie die Nuke [-5 Exoten]	100
 title	Techno Junk traders	Techno-Schrott-Händler	35
 text	It turns out the station sells only ancient farming drones, and these are too large for our ship. However, a shady pair of Gor-Mor offers old, obsolete or broken modules in bulk, for cheap.	Es stellt sich heraus, dass die Station nur uralte Farming-Drohnen verkauft, und diese sind zu groß für unser Schiff. Allerdings bietet ein zwielichtiges Gor-Mor-Pärchen alte, veraltete oder kaputte Module in großen Mengen an, und zwar für wenig Geld.	400
-choiceText	Buy 3 modules [-175 creds]	3 Module kaufen [-175 Kredits]	100
+choiceText	Buy 3 modules [-175 creds]	3 Module kaufen [-175 Kredite]	100
 text2	The station replica self-destructed after we had defeated the boarding bots. The techno-junk inside the replica scattered in all directions as shrapnel, causing minor damage to our ship.	Der Stationsnachbau hat sich selbst zerstört, nachdem wir die Boarding Bots besiegt hatten. Der Technoschrott im Inneren des Replikats verstreute sich als Schrapnell in alle Richtungen und verursachte leichte Schäden an unserem Schiff.	400
 title	Automated Ambush!	Automatischer Überfall!	35
 text	The entire structure proves to be a hollow metal replica of a station filled with junk, to trick our sensors. Several very crude, but deadly boarding bots have been detected landing on our ship's hull...	Die gesamte Struktur entpuppt sich als hohle Metallreplik einer Station, die mit Schrott gefüllt ist, um unsere Sensoren zu täuschen. Mehrere sehr plumpe, aber tödliche Enterbots wurden entdeckt, die auf der Hülle unseres Schiffes gelandet sind...	600
@@ -5978,8 +5978,8 @@ title	Transactions not possible	Transaktionen nicht möglich	35
 text	"We do not have the necessary resources to do business here, but we may return later."	Wir haben nicht die nötigen Ressourcen, um hier Geschäfte zu machen, aber wir kommen vielleicht später wieder.	600
 title	Recreational exotics	Exotische Freizeitgestaltung	35
 text	The administrators of the station do not offer personal communication. There's only one product on the menu - self contained exotic substances, ready for recreational consumption. The station follows "One visit per client" religious policy."	Die Administratoren der Station bieten keine persönliche Kommunikation an. Es gibt nur ein Produkt auf der Speisekarte - in sich geschlossene exotische Substanzen, die für den rekreativen Konsum bestimmt sind. Die Station folgt der religiösen Politik "Ein Besuch pro Kunde"."	400
-choiceText	Buy a pack of exotics (-110 credits)	Kaufen Sie eine Packung Exoten (-110 Credits)	100
-choiceText	Buy two packs of exotics (-200 credits)	Kaufen Sie zwei Päckchen Exoten (-200 Credits)	100
+choiceText	Buy a pack of exotics (-110 credits)	Kaufen Sie eine Packung Exoten (-110 Kredite)	100
+choiceText	Buy two packs of exotics (-200 credits)	Kaufen Sie zwei Päckchen Exoten (-200 Kredite)	100
 text	establishing communications...	Kommunikation herstellen...	50
 text2	In addition to exotics, the trade package contains a free gift (a large cake with sexually stimulating properties).	Zusätzlich zu den Exoten enthält das Handelspaket ein kostenloses Geschenk (einen großen Kuchen mit sexuell stimulierenden Eigenschaften).	400
 text2	In addition to exotics, the trade package contains a free gift (some natural pudding with mildly psychedelic properties).	Zusätzlich zu den Exoten enthält das Handelspaket ein kostenloses Geschenk (ein natürlicher Pudding mit leicht psychedelischen Eigenschaften).	400
@@ -6279,11 +6279,11 @@ Shop.displayName	Gray Mercenaries	Graue Söldner	35
 name3	[[Kustom sHiP CoNtaineRs]]	[[SPezial sCHiFFs BeHälteR]]	25
 text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Behälter aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 text	There is a commercial ship service station on this planet, specializing in custom-built cargo modules. The service includes free food.	Auf diesem Planeten gibt es eine kommerzielle Schiffsservicestation, die sich auf individuell gebaute Frachtmodule spezialisiert hat. Der Service beinhaltet kostenlose Verpflegung.	400
-choiceText	Order organics/fuel multi-container [-140 credits]	Organik-/Treibstoff-Multibehälter bestellen [-140 Credits]	100
-choiceText	Order a medium metal container [-75 credits]	Bestellen Sie einen mittleren Metalle-Behälter [-75 Credits]	100
-choiceText	Order a medium organics container [-100 credits]	Bestellen Sie einen mittleren Organik-Behälter [-100 Credits]	100
-choiceText	Order metal/synthethics dual container [-140 credits]	Metalle-/Kunststoffe-Doppelbehälter bestellen [-140 credits]	100
-choiceText	Order large metal/synthethics/explosives multi-container [-240 credits]	Großen Metalle-/Kunststoffe-/Sprengstoffe-Multibehälter bestellen [-240 Credits]	100
+choiceText	Order organics/fuel multi-container [-140 credits]	Organik-/Treibstoff-Multibehälter bestellen [-140 Kredite]	100
+choiceText	Order a medium metal container [-75 credits]	Bestellen Sie einen mittleren Metalle-Behälter [-75 Kredite]	100
+choiceText	Order a medium organics container [-100 credits]	Bestellen Sie einen mittleren Organik-Behälter [-100 Kredite]	100
+choiceText	Order metal/synthethics dual container [-140 credits]	Metalle-/Kunststoffe-Doppelbehälter bestellen [-140 Kredite]	100
+choiceText	Order large metal/synthethics/explosives multi-container [-240 credits]	Großen Metalle-/Kunststoffe-/Sprengstoffe-Multibehälter bestellen [-240 Kredite]	100
 text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Behälter-Modul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days of work, the module is finished. It looks robust.	Der Arbeiter-Vertreter wirft einen Blick auf Ihre Standard-Modul-Baupläne. Sie nehmen sich die Zeit, den verschiedenen Schrott, den sie auf ihrem Hof gefunden haben, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Behälter-Modul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 
@@ -6297,17 +6297,17 @@ Shop.displayName	Kustom Repair, organics sub-trade station	Kustom Repair, Organi
 text2	The locals went through all the junk found in their yard, dragging the useful parts next to the Mothership. Numerous workers of varied species buzzed around the ship, mostly working manually. After a few days, the repairmen announce they have done all they could.	Die Einheimischen gingen den ganzen Schrott durch, den sie in ihrem Hof fanden, und schleppten die brauchbaren Teile neben das Mutterschiff. Zahlreiche Arbeiter verschiedener Spezies schwirrten um das Schiff herum und arbeiteten meist manuell. Nach ein paar Tagen verkünden die Reparateure, dass sie alles getan haben, was sie konnten.	400
 title	Starship recycler & repair yard	Raumschiff-Recycler & Reparaturwerft	35
 text	The local business negotiation AI (a rather crude one) states that they cannot offer guarantees for the repair service because of using exclusively recycled materials. The service includes free food. The planet also has a small orbital trading platform selling local resources and paying good price for exotics. Using the trade platform requires a small docking fee.	Die lokale Geschäftsverhandlungs-KI (eine ziemlich krude) erklärt, dass sie keine Garantien für den Reparaturservice geben können, da sie ausschließlich recycelte Materialien verwenden. Der Service beinhaltet kostenloses Essen. Der Planet hat auch eine kleine orbitale Handelsplattform, die lokale Ressourcen verkauft und gute Preise für exotische Waren zahlt. Die Nutzung der Handelsplattform erfordert eine kleine Andockgebühr.	400
-choiceText	Hire repair service [-120 credits]	Reparaturdienst anheuern [-120 Credits]	100
-choiceText	Dock with orbital trading platform [-20 credits]	Andocken an orbitale Handelsplattform [-20 Credits]	100
+choiceText	Hire repair service [-120 credits]	Reparaturdienst anheuern [-120 Kredite]	100
+choiceText	Dock with orbital trading platform [-20 credits]	Andocken an orbitale Handelsplattform [-20 Kredite]	100
 text	custom repairs... %	Kundenspezifische Reparaturen... %	50
 title	No repairs needed	Keine Reparaturen erforderlich	35
 text	The repairmen express	Der Reparaturexpress	600
 text2	The locals went through all the junk found in their yard, dragging the useful parts next to the Mothership. Numerous workers of varied species buzzed around the ship, mostly working manually. After a few days, the repairmen announce they have done all they could. Unfortunately, most of the crude repairs break or fall off after stress tests.	Die Einheimischen gingen den ganzen Schrott durch, den sie in ihrer Werft fanden, und schleppten die brauchbaren Teile neben das Mutterschiff. Zahlreiche Arbeiter verschiedener Spezies schwirrten um das Schiff herum und arbeiteten meist manuell. Nach ein paar Tagen verkünden die Reparateure, dass sie alles getan haben, was sie konnten. Leider brechen die meisten der kruden Reparaturen ab oder fallen nach Belastungstests ab.	400
 text	establishing contact...	Kontaktaufnahme...	50
 text	Do you want to hire another round of ship repair services? The boss mechanic offers you a small discount and promises extra food this time.	Wollen Sie eine weitere Runde Schiffsreparaturen in Auftrag geben? Der Chefmechaniker bietet Ihnen einen kleinen Preisnachlass und verspricht dieses Mal extra Essen.	400
-choiceText	Hire service [-110 credits]	Service anheuern [-110 Credits]	100
-title	Not enough credits	Nicht genug Credits	35
-text	We do not have enough intergalactic xenodata credits required for this service. Nothing more to do here at the moment.	Wir haben nicht genügend intergalaktische Xenodaten-Credits, die für diesen Service benötigt werden. Hier gibt es im Moment nichts mehr zu tun.	600
+choiceText	Hire service [-110 credits]	Service anheuern [-110 Kredite]	100
+title	Not enough credits	Nicht genug Kredite	35
+text	We do not have enough intergalactic xenodata credits required for this service. Nothing more to do here at the moment.	Wir haben nicht genügend intergalaktische Xenodaten-Kredite, die für diesen Service benötigt werden. Hier gibt es im Moment nichts mehr zu tun.	600
 text2	After a few days of work, the repairmen announce they have done all they could. The boss mechanic says we're always welcome back.	Nach ein paar Tagen Arbeit verkünden die Reparateure, dass sie alles getan haben, was sie konnten. Der Chefmechaniker sagt, wir sind jederzeit wieder willkommen.	400
 text2	The work gets finished soon and the boss mechanic says we're always welcome to return. Most of the new repairs fall off or break when we exit the planet's atmosphere.	Die Arbeit wird bald beendet und der Chefmechaniker sagt, dass wir jederzeit wieder willkommen sind. Die meisten der neuen Reparaturen fallen ab oder gehen kaputt, als wir die Atmosphäre des Planeten verlassen.	400
 title	Local Business AI	Lokales Geschäft KI	35
@@ -6315,8 +6315,8 @@ text	"We do not normally trade organics. However, we are willing to make an exce
 choiceText	Dock with trade platform	Andocken an Handelsplattform	100
 text	docking with trade platform... %	Andocken an die Handelsplattform... %	50
 text	Our ship current HP is fully repaired.	Die aktuellen HP unseres Schiffes sind vollständig repariert.	600
-title	Not enough credits to pay docking fee	Nicht genug Credits, um die Andockgebühr zu bezahlen	35
-text	We do not have enough xenodata credits required for this service.	Wir haben nicht genügend Xenodaten-Credits, die für diesen Service erforderlich sind.	600
+title	Not enough credits to pay docking fee	Nicht genug Kredite, um die Andockgebühr zu bezahlen	35
+text	We do not have enough xenodata credits required for this service.	Wir haben nicht genügend Xenodaten-Kredite, die für diesen Service erforderlich sind.	600
 
 24567 shop, defensive systems R.prefab
 name2	((Defensive systems & repair))	((Verteidigungssysteme & Reparatur))	25
@@ -6391,22 +6391,22 @@ Shop.displayName	"Reliable Guns"	"Zuverlässige Waffen"	35
 name2	Barren planet, orbital station	Ödlandplanet, Orbitalstation	25
 name3	(([Trade signal]))	(([Handelssignal]))	25
 Shop.displayName	Local Pleasures for Independents	Lokale Vergnügungen für Selbstständige	35
-text	A small commercial station orbiting this lifeless planet. The welcoming AI reminds us about the entry fee. The ship AI winks and tells you she could get us into the commerce area even if we do not have enough credits.	Eine kleine Handelsstation, die diesen leblosen Planeten umkreist. Die Begrüßungs-KI erinnert uns an die Eintrittsgebühr. Die Schiffs-KI zwinkert und sagt, sie könne uns in den Handelsbereich bringen, auch wenn wir nicht genug Credits haben.	400
-choiceText	Enter commerce area [-25 credits]	Handelsbereich betreten [-25 Credits]	100
+text	A small commercial station orbiting this lifeless planet. The welcoming AI reminds us about the entry fee. The ship AI winks and tells you she could get us into the commerce area even if we do not have enough credits.	Eine kleine Handelsstation, die diesen leblosen Planeten umkreist. Die Begrüßungs-KI erinnert uns an die Eintrittsgebühr. Die Schiffs-KI zwinkert und sagt, sie könne uns in den Handelsbereich bringen, auch wenn wir nicht genug Kredite haben.	400
+choiceText	Enter commerce area [-25 credits]	Handelsbereich betreten [-25 Kredite]	100
 text	Your crew starts by looking around and testing some of the recreational substances. You are soon approached by a pair of local Electromite traders. They offer you a mystery shield module for a very good price.	Ihre Crew beginnt damit, sich umzusehen und einige der Freizeitstoffe zu testen. Schon bald werden Sie von zwei lokalen Electromite-Händlern angesprochen. Sie bieten Ihnen ein geheimnisvolles Schildmodul zu einem sehr guten Preis an.	400
-choiceText	Buy the module [-250 creds]	Kaufen Sie das Modul [-250 Credits]	100
+choiceText	Buy the module [-250 creds]	Kaufen Sie das Modul [-250 Kredite]	100
 choiceText	Check out automated offers	Prüfen Sie die automatischen Angebote	100
-text	"We do not have enough credits needed for this operation."	Wir haben nicht genug Credits, die für diese Operation benötigt werden.	600
+text	"We do not have enough credits needed for this operation."	Wir haben nicht genug Kredite, die für diese Operation benötigt werden.	600
 text2	The module is delivered to the Mothership cargo bay as promised. The trader has included a symbolic bonus to the delivery, a lifesized plastic sculpture of a famous, deceased Electromite. We scrap it.	Das Modul wird wie versprochen in den Laderaum des Mutterschiffs geliefert. Der Händler hat der Lieferung einen symbolischen Bonus beigelegt, eine lebensgroße Plastikskulptur eines berühmten, verstorbenen Electromiten. Wir verschrotten sie.	400
 text	After enjoying many recreational activities and substances, you are approached by a local Moth trader. They offer an exotic ray weapon for a very reasonable price.	Nach dem Genuss vieler Freizeitaktivitäten und Substanzen werden Sie von einem lokalen Moth-Händler angesprochen. Er bietet eine exotische Strahlenwaffe zu einem sehr günstigen Preis an.	400
-choiceText	Buy the weapon [-300 creds]	Kaufen Sie die Waffe [-300 Creds]	100
+choiceText	Buy the weapon [-300 creds]	Kaufen Sie die Waffe [-300 Kredite]	100
 choiceText	Decline and check out station offers [no turning back]	Lehnen Sie ab und prüfen Sie die Angebote der Station [kein Zurück mehr]	100
 text2	The module is delivered to the Mothership cargo bay as promised. The trader has included a symbolic bonus to the delivery, a small canister of fuel.	Das Modul wird wie versprochen in den Laderaum des Mutterschiffs geliefert. Der Händler hat der Lieferung einen symbolischen Bonus beigelegt, einen kleinen Kanister mit Treibstoff.	400
 text	After enjoying many recreational activities, you are approached by local Techum traders. They offer you a strange weapon of unknown origin. Apparently, it is meant for eliminating enemy crew without damaging the target ship.	Nachdem Sie viele Freizeitaktivitäten genossen haben, werden Sie von lokalen Techum-Händlern angesprochen. Sie bieten Ihnen eine seltsame Waffe unbekannter Herkunft an. Offenbar ist sie dazu gedacht, die feindliche Besatzung zu eliminieren, ohne das Zielschiff zu beschädigen.	400
 choiceText	Leave now, return later [no re-entry fee needed]	Gehen Sie jetzt, kehren Sie später zurück [keine Wiedereintrittsgebühr erforderlich]	100
 text2	The module is delivered to the Mothership cargo bay as promised. The traders have included a symbolic bonus to the delivery, a huge exotic fruit, genetically modified to resemble the sex organs of the Techum species.	Das Modul wird wie versprochen in den Laderaum des Mutterschiffs geliefert. Die Händler haben der Lieferung einen symbolischen Bonus beigelegt, eine riesige exotische Frucht, die genetisch so verändert wurde, dass sie den Geschlechtsorganen der Spezies Techum ähnelt.	400
 text	approaching station...	Nähern uns der Station...	50
-choiceText	Enter personal commerce area [-25 credits]	Persönlichen Handelsbereich betreten [-25 Credits]	100
+choiceText	Enter personal commerce area [-25 credits]	Persönlichen Handelsbereich betreten [-25 Kredite]	100
 
 7 shop, 22 military lasers R.prefab
 name2	{{{Military lasers}}}	{{Militärlaser}}	25
@@ -6440,7 +6440,7 @@ choiceTexts	Yeah, I have synthethics for repairs	Ja, ich habe Kunststoffe für R
 altText	To start repairing a module, select crew and <b>R-click</b> on the broken module. Doing it via crew roles panel automatically sends the best unoccupied crew or drones to fix things.	Um die Reparatur eines Moduls zu starten, wählen Sie die Crew und <b>R-Klick</b> auf das kaputte Modul. Wenn Sie das über das Crew-Rollen-Panel tun, wird automatisch die beste unbeschäftigte Crew oder Drohnen zur Reparatur geschickt.	240
 altText	If your weapons run out of <b>ammo</b>, always check if you have something in <b>module storage</b> that might help. Currently, we should still have metal and explosives packages in storage.	Wenn Ihren Waffen die <b>Munition</b> ausgeht, schauen Sie immer nach, ob Sie etwas im <b>Frachtraum</b> haben, das helfen könnte. Derzeit sollten noch Metall- und Sprengstoffpakete im Lager sein.	240
 choiceTexts	Got it - scrapping stuff for ammo	Verstanden - Sachen für Munition verschrotten	15
-altText	Each damaged ship HP creates <b>a damage token</b> on ship hull. If the token is inside ship walls, it can be only repaired at repair stations.\nRepairing 1 HP costs 30 metal (when repairing with crew) or ~25 credits (in repair stations).	Jede beschädigte Schiffs-HP erzeugt <b>ein Schadens-Token</b> an der Schiffshülle. Befindet sich das Token innerhalb der Schiffswände, kann es nur in Reparaturstationen repariert werden.\nDie Reparatur von 1 HP kostet 30 Metalle (bei Reparatur mit Crew) oder ~25 Credits (in Reparaturstationen).	240
+altText	Each damaged ship HP creates <b>a damage token</b> on ship hull. If the token is inside ship walls, it can be only repaired at repair stations.\nRepairing 1 HP costs 30 metal (when repairing with crew) or ~25 credits (in repair stations).	Jede beschädigte Schiffs-HP erzeugt <b>ein Schadens-Token</b> an der Schiffshülle. Befindet sich das Token innerhalb der Schiffswände, kann es nur in Reparaturstationen repariert werden.\nDie Reparatur von 1 HP kostet 30 Metalle (bei Reparatur mit Crew) oder ~25 Kredite (in Reparaturstationen).	240
 choiceTexts	Got it, station repairs are cheaper	Verstanden, Stationsreparaturen sind billiger	15
 altText	You can switch on the <b>ship external view</b> to better see where the ship HP damage is located.	Sie können die <b>Schiffsaußenansicht</b> einschalten, um besser zu sehen, wo sich der HP-Schaden des Schiffes befindet.	240
 choiceTexts	Ok	Ok	15
@@ -6593,7 +6593,7 @@ text	"I can't guarantee your safety after this conversation is over because I wa
 choiceText	Pay [-1 exotics]	Bezahlen [-1 Exoten]	100
 text	We do not have enough resources needed for this operation. We must fight or escape from the combat.	Wir haben nicht genug Ressourcen, die für diese Operation benötigt werden. Wir müssen kämpfen oder aus dem Kampf fliehen.	600
 title	Pirate Extortionist	Piraten-Erpresser	35
-text	"We heard your signal. Thanks for inviting us to the party... Now we can do this the easy way or the hard way. People like us have no use for intergalactic credits, so I suggest you send us some exotics..."	Wir haben Euer Signal gehört. Danke für die Einladung zur Party... Jetzt können wir das auf die leichte oder die harte Tour machen. Leute wie wir haben keine Verwendung für intergalaktische Credits, also schlage ich vor, Sie schicken uns ein paar Exoten...	400
+text	"We heard your signal. Thanks for inviting us to the party... Now we can do this the easy way or the hard way. People like us have no use for intergalactic credits, so I suggest you send us some exotics..."	Wir haben Euer Signal gehört. Danke für die Einladung zur Party... Jetzt können wir das auf die leichte oder die harte Tour machen. Leute wie wir haben keine Verwendung für intergalaktische Kredite, also schlage ich vor, Sie schicken uns ein paar Exoten...	400
 choiceText	Easy way [-3 exotics]	Einfacher Weg [-3 Exoten]	100
 choiceText	Hard way [prepare for battle]	Harter Weg [Vorbereitung auf den Kampf]	100
 text	We do not have enough resources needed for this operation. We must fight or escape during combat, once our warpdrive is charged.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen kämpfen oder während des Kampfes fliehen, sobald unser Warpantrieb aufgeladen ist.	600
@@ -6622,9 +6622,9 @@ SOS Merchants L2 bulk tech trader.prefab
 displayName	tech trader	Technologie-Händler	25
 title	Technology trader	Technologie-Händler	35
 text	"Hello, we don't have any resource to share, but perhaps you can buy our bulk technology and scrap if for resources you need?"	Hallo, wir haben keine Ressourcen, die wir teilen können, aber vielleicht können Sie unsere Massentechnologie kaufen und für Ressourcen, die Sie brauchen, verschrotten?	400
-choiceText	Buy 3 cryosleep units (Lover-type) for 180 credits	Kaufen Sie 3 Kryoschlafmodule (Typ Liebespaar) für 180 Credits	100
-choiceText	Buy 3 decommissioned weapons for 290 credits	Kaufen Sie 3 ausgemusterte Waffen für 290 Credits	100
-choiceText	Buy 3 pieces of techno junk 180 credits	Kaufen Sie 3 Stück Technoschrott für 180 Credits	100
+choiceText	Buy 3 cryosleep units (Lover-type) for 180 credits	Kaufen Sie 3 Kryoschlafmodule (Typ Liebespaar) [-180 Kredite]	100
+choiceText	Buy 3 decommissioned weapons for 290 credits	Kaufen Sie 3 ausgemusterte Waffen [-290 Kredite]	100
+choiceText	Buy 3 pieces of techno junk 180 credits	Kaufen Sie 3 Stück Technoschrott [-180 Kredite]	100
 text	We do not have resources needed for this operation.	Wir haben keine Ressourcen, die für diese Operation benötigt werden.	600
 text2	The cryosleep modules are in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a huge, multilayered box of dark chocolate with cherries as a bonus.	Die Kryoschlafmodule sind in einem tadellosen Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und eine riesige, mehrschichtige Schachtel mit dunkler Schokolade mit Kirschen als Bonus hinterlassen.	400
 text2	All the weapons are well-maintained, but utilizing hopelessly outdated technology. The traders have obviously heard of humans, because they have left a large cylinder filled with alcohol & herbs as a bonus to the trade.	Alle Waffen sind gut gewartet, aber mit hoffnungslos veralteter Technik ausgestattet. Die Händler haben offensichtlich von den Menschen gehört, denn sie haben einen großen Zylinder gefüllt mit Alkohol & Kräutern als Bonus für den Handel hinterlassen.	400
@@ -6649,21 +6649,21 @@ SOS shop with allgood emergency modules.prefab
 displayName	module trader	Modul-Händler	25
 Shop.displayName	Allgood Emergency Modules	Allesgut-Notfallmodule	35
 title	Trader ship	Handelsschiff	35
-text	A large trader ship has detected our SOS signal. Its AI or crew do not wish personal communication and only transmit formal commercial signals, noting that all prices will be displayed in intergalactic xenodata credits.	Ein großes Handelsschiff hat unser SOS-Signal entdeckt. Seine KI oder seine Besatzung wünscht keine persönliche Kommunikation und sendet nur formale Handelssignale mit dem Hinweis, dass alle Preise in intergalaktischen Xenodaten-Credits angezeigt werden.	400
+text	A large trader ship has detected our SOS signal. Its AI or crew do not wish personal communication and only transmit formal commercial signals, noting that all prices will be displayed in intergalactic xenodata credits.	Ein großes Handelsschiff hat unser SOS-Signal entdeckt. Seine KI oder seine Besatzung wünscht keine persönliche Kommunikation und sendet nur formale Handelssignale mit dem Hinweis, dass alle Preise in intergalaktischen Xenodaten-Kredite angezeigt werden.	400
 choiceText	Dock to trade	Zum Handel andocken	100
 
 SOS shop with destructive systems.prefab
 displayName	unknown ship	unbekanntes Schiff	25
 Shop.displayName	Destructive Systems	Zerstörerische Systeme	35
 title	Uncertified trader	Unzertifizierter Händler	35
-text	A large ship has detected our SOS signal. It's AI or crew do not wish personal communication and only transmit formal commercial signals, noting that all prices will be displayed in intergalactic xenodata credits.	Ein großes Schiff hat unser SOS-Signal entdeckt. Seine KI oder Besatzung wünscht keine persönliche Kommunikation und sendet nur formale Handelssignale mit dem Hinweis, dass alle Preise in intergalaktischen Xenodaten-Credits angezeigt werden.	400
+text	A large ship has detected our SOS signal. It's AI or crew do not wish personal communication and only transmit formal commercial signals, noting that all prices will be displayed in intergalactic xenodata credits.	Ein großes Schiff hat unser SOS-Signal entdeckt. Seine KI oder Besatzung wünscht keine persönliche Kommunikation und sendet nur formale Handelssignale mit dem Hinweis, dass alle Preise in intergalaktischen Xenodaten-Kredite angezeigt werden.	400
 
 SOS shop with fuel and organics.prefab
 
 SOS shop with fuel only tanker.prefab
 displayName	Emergency Trader	Notfall-Händler	25
 title	Starfuel Tanker	Sternentreibstoff-Tanker	35
-text	"Hello, this is a starfuel-only tanker. Given your situation, we are willing to sell you some fuel for credit per unit of fuel... if you give us some exotics. A fair deal? It's your decision. We will leave immediately once you exit the trade view."	Hallo, dies ist ein reiner Sternentreibstoff-Tanker. In Anbetracht Ihrer Situation sind wir bereit, Ihnen etwas Treibstoff für Credits pro Einheit Treibstoff zu verkaufen... wenn Sie uns einige Exoten geben. Ein fairer Deal? Es ist Ihre Entscheidung. Wir werden sofort aufbrechen, sobald Sie die Handelsansicht verlassen.	400
+text	"Hello, this is a starfuel-only tanker. Given your situation, we are willing to sell you some fuel for credit per unit of fuel... if you give us some exotics. A fair deal? It's your decision. We will leave immediately once you exit the trade view."	Hallo, dies ist ein reiner Sternentreibstoff-Tanker. In Anbetracht Ihrer Situation sind wir bereit, Ihnen etwas Treibstoff für Kredite pro Einheit Treibstoff zu verkaufen... wenn Sie uns einige Exoten geben. Ein fairer Deal? Es ist Ihre Entscheidung. Wir werden sofort aufbrechen, sobald Sie die Handelsansicht verlassen.	400
 choiceText	Dock to trade [-1 exotics]	Zum Handel andocken [-1 Exoten]	100
 text	A large tanker ship has detected our SOS signal...	Ein großes Tankerschiff hat unser SOS-Signal entdeckt...	600
 title	Personal message	Persönliche Nachricht	35
@@ -6676,9 +6676,9 @@ SOS shop with rare items.prefab
 displayName	Trader fleet	Händler-Flotte	25
 Shop.displayName	Usual Ultra Rares	Übliche Ultra Rares	35
 text	"Are you interested in acquiring some truly rare items? We harness the universal power of curiosity. You must pay a symbolic fee before inspection of the wares."	Sind Sie daran interessiert, einige wirklich seltene Gegenstände zu erwerben? Wir machen uns die universelle Kraft der Neugier zunutze. Vor der Inspektion der Waren müssen Sie eine symbolische Gebühr entrichten.	400
-choiceText	Let us trade [-30 credits or -1 exotics]	Lassen Sie uns handeln [-30 Credits oder -1 Exoten]	100
+choiceText	Let us trade [-30 credits or -1 exotics]	Lassen Sie uns handeln [-30 Kredite oder -1 Exoten]	100
 text	A small trader fleet has detected our SOS signal...	Eine kleine Handelsflotte hat unser SOS-Signal entdeckt...	600
-text	We do not have enough credits or resources needed for this operation.	Wir haben nicht genug Credits oder Ressourcen, die für diese Operation benötigt werden.	600
+text	We do not have enough credits or resources needed for this operation.	Wir haben nicht genug Kredite oder Ressourcen, die für diese Operation benötigt werden.	600
 text2	"Thank you for being a good material skeleton mammal and playing the fee! Please note that some of the items on sale might even make a profit if you scrap them and sell the components."	Vielen Dank, dass Sie ein gutes Material-Skelettsäugetier sind und die Gebühr spielen! Bitte beachten Sie, dass einige der zum Verkauf stehenden Gegenstände sogar einen Gewinn abwerfen könnten, wenn Sie sie verschrotten und die Komponenten verkaufen.	400
 text2	"Thank you for being a good material skeleton mammal and playing the fee! Please note that some of the items on sale might even make a profit if you scrap them and sell the salvaged components."	Danke, dass Sie ein gutes Material-Skelett-Säugetier sind und die Gebühr spielen! Bitte beachten Sie, dass einige der zum Verkauf stehenden Gegenstände sogar einen Gewinn abwerfen könnten, wenn Sie sie verschrotten und die geborgenen Komponenten verkaufen.	400
 
@@ -6715,7 +6715,7 @@ text	A large ship with at least 5 projectile weapons and what looks like nukes i
 SOS Smuggler, explosives and exceptions.prefab
 title	Smuggler of explosives and exceptions	Schmuggler für Sprengstoffe und Sonderfrachten	35
 text	"I see you're in a bit of a trouble. Well, we don't normally sell fuel or organics, but we're going to make an exception for you. A costly exception, of course. I'm in a hurry, so we can do exactly one transaction."	Wie ich sehe, haben Sie ein kleines Problem. Nun, normalerweise verkaufen wir keinen Treibstoff oder Organik, aber wir werden für Sie eine Ausnahme machen. Eine kostspielige Ausnahme, natürlich. Ich bin in Eile, also können wir genau eine Transaktion durchführen.	400
-choiceText	Buy [get 100 explosives for 150 credits]	Kaufen [+100 Sprengstoffe für 150 Credits]	100
+choiceText	Buy [get 100 explosives for 150 credits]	Kaufen [+100 Sprengstoffe für 150 Kredite]	100
 choiceText	Barter [get 50 fuel for 3 exotics]	Tauschen [+50 Treibstoff für 3 Exoten]	100
 choiceText	Sell [get 50 organics for 1 exotics]	Verkaufen [+50 Organik für 1 Exoten]	100
 title	Dishonest trade	Unehrlicher Handel	35
@@ -6852,7 +6852,7 @@ text2	"A most generous donation! Thank you and have a good day."	Eine sehr groß
 Ambusher L1 Rats, 2 or 3 small ships.prefab
 displayName	Rat Empire fleet	Flotte des Rattenimperiums	25
 text	"Alien vessel, this star system is Rat Empire property and according to local rules, all alien visitors must pay the property-visiting tax or be immediately destroyed."	Außerirdisches Schiff, dieses Sternensystem ist Eigentum des Rattenimperiums und gemäß den hiesigen Regeln müssen alle außerirdischen Besucher die Eigentumsbesuchssteuer zahlen oder werden sofort zerstört.	400
-choiceText	Pay [-100 xenodata credits]	Zahlen Sie [-100 Xenodaten-Credits]	100
+choiceText	Pay [-100 xenodata credits]	Zahlen Sie [-100 Xenodaten-Kredite]	100
 choiceText	Attempt to bribe [-1 exotics]	Versuch der Bestechung [-1 Exoten]	100
 text	We detect two small Rat Empire ships approaching tactical weapons range. They are using some kind of robust auxiliary jamming device that prevents us from analysing their ships at this range.	Wir entdecken zwei kleine Schiffe des Rattenimperiums, die sich der taktischen Waffenreichweite nähern. Sie verwenden eine Art robustes Hilfs-Störgerät, das uns daran hindert, ihre Schiffe auf diese Entfernung zu analysieren.	600
 text	Another small ship joins the enemy as they attack!	Ein weiteres kleines Schiff schließt sich dem Feind an, während sie angreifen!	600
@@ -6864,7 +6864,7 @@ text	"Unknown vessel, this star system is Rat Empire property. All alien visitor
 choiceText	We have Rat crew onboard, so we are not alien, and shouldn't pay	Wir haben eine Ratten-Crew an Bord, also sind wir nicht fremd und sollten nicht zahlen.	100
 choiceText	Perhaps you take these shiny exotics instead? [bribe attempt -1 exotics]	Vielleicht nehmt Ihr stattdessen diese glänzenden Exoten? (Bestechungsversuch -1 Exoten)	100
 text	"You say you are Rats, but why is your ship not built in the Rat Empire? Anyway, I'm in a good mood today, so I will charge you the minimal price."	Ihr sagt, Ihr seid Ratten, aber warum ist Euer Schiff nicht im Rattenimperium gebaut? Wie auch immer, ich bin heute gut gelaunt, also werde ich Euch den Minimalpreis berechnen.	400
-choiceText	Pay [-30 xenodata credits]	Bezahlen [-30 Xenodata-Credits]	100
+choiceText	Pay [-30 xenodata credits]	Bezahlen [-30 Xenodaten-Kredite]	100
 text2	Ah, fellow Rats! We thought you were just some rich alien tourists who have bought a Rat ship and are now flying around, disrespecting our space. Anyway, welcome to Rat Imperium."	Ah, ihr Rattenfreunde! Wir dachten, Ihr wärt nur ein paar reiche außerirdische Touristen, die ein Rattenschiff gekauft haben und nun herumfliegen und unseren Raum nicht respektieren. Wie auch immer, willkommen im Rattenimperium."	400
 text	"Unregistered vessel, you are trespassing a star system that's Rat Empire property and according to Imperial rules, all alien visitors must pay the property-visiting tax or be immediately destroyed."	Unregistriertes Schiff, Sie betreten unbefugt ein Sternensystem, das Eigentum des Rattenimperiums ist, und gemäß den imperialen Regeln müssen alle außerirdischen Besucher die Eigentumsbesuchssteuer zahlen oder werden sofort zerstört.	400
 choiceText	We have Rat crew in a Rat ship, so we are not alien, and shouldn't pay	Wir haben eine Ratten-Crew in einem Rattenschiff, also sind wir keine Außerirdischen und sollten nicht zahlen.	100
@@ -6874,16 +6874,16 @@ text	"Oh, it's you. Carry on!"	Oh, du bist es. Weitermachen!	600
 Ambusher L1 Rats, old cruiser +1small.prefab
 text	Two Rat Empire vessels approaching. The larger one is shielded and has at least 3 weapon systems. The other one is a small, unshielded craft with a single light weapon.	Zwei Schiffe des Rattenimperiums nähern sich. Das größere ist abgeschirmt und hat mindestens 3 Waffensysteme. Das andere ist ein kleines, ungeschirmtes Schiff mit einer einzigen leichten Waffe.	600
 text	"Alien vessel, you have trespassed onto Rat Empire property (this space) and must pay the relevant tax or be immediately destroyed. Nothing personal, I'm just following orders here."	Außerirdisches Schiff, Sie sind unbefugt in den Besitz des Rattenimperiums (diesen Raum) eingedrungen und müssen die entsprechende Steuer bezahlen oder werden sofort zerstört. Nichts Persönliches, ich führe hier nur Befehle aus.	400
-choiceText	Pay [-120 xenodata credits]	Zahlen Sie [-120 Xenodaten-Credits]	100
+choiceText	Pay [-120 xenodata credits]	Zahlen Sie [-120 Xenodaten-Kredite]	100
 choiceText	Attempt to bribe [-2 exotics]	Versuch der Bestechung [-2 Exoten]	100
 text2	"You may continue existing, visitor."	Sie dürfen weiter existieren, Besucher.	400
 title	The Bribers Backstab Maneuver	Das Bestechungsmanöver "Backstab	35
 text2	The Rat official waits until receiving the exotics and then speaks "You cannot sway the trained mind of an Imperial Rat officer! Fellow Rats, attack!" (Rat ships are closing in...)"	Der Rattenoffizier wartet, bis er die Exotics erhält und spricht dann: "Ihr könnt den geschulten Verstand eines imperialen Rattenoffiziers nicht beeinflussen! Freunde der Ratten, greift an!" (Die Rattenschiffe nähern sich...)"	400
 reasonToDisplay	failed bribe	Gescheiterte Bestechung	30
 text2	After taking a paranoid glance at you, the commanding Rat officer accepts the bribe. He sniffs and closes the commchannel.	Nach einem paranoiden Blick auf Sie nimmt der kommandierende Rattenoffizier die Bestechung an. Er schnieft und schließt den Kommandokanal.	400
-text	"Unknown vessel, this area is Rat Empire property and according to local rules, all alien visitors must pay the local proprietary vacuum-visiting tax of 100... actually 120 credits or be destroyed."	Unbekanntes Schiff, dieses Gebiet ist Eigentum des Rattenimperiums, und gemäß den lokalen Regeln müssen alle außerirdischen Besucher die ortseigene Vakuum-Besuchssteuer von 100... eigentlich 120 Credits zahlen oder werden zerstört.	400
+text	"Unknown vessel, this area is Rat Empire property and according to local rules, all alien visitors must pay the local proprietary vacuum-visiting tax of 100... actually 120 credits or be destroyed."	Unbekanntes Schiff, dieses Gebiet ist Eigentum des Rattenimperiums, und gemäß den lokalen Regeln müssen alle außerirdischen Besucher die ortseigene Vakuum-Besuchssteuer von 100... eigentlich 120 Kredite zahlen oder werden zerstört.	400
 text	"You say you are Rats, but why is your ship not built in the Rat Empire? Anyway, I'm in a good mood today, so I will charge you only a fraction of the formal price."	Ihr sagt, ihr seid Ratten, aber warum ist euer Schiff nicht im Rattenimperium gebaut? Wie auch immer, ich bin heute gut gelaunt, also werde ich Ihnen nur einen Bruchteil des offiziellen Preises berechnen.	400
-choiceText	Pay [-40 xenodata credits]	Bezahlen [-40 Xenodata-Credits]	100
+choiceText	Pay [-40 xenodata credits]	Bezahlen [-40 Xenodaten-Kredite]	100
 choiceText	Perhaps you take these shiny exotics instead? [bribe attempt -2 exotics]	Vielleicht nehmt Ihr stattdessen diese glänzenden Exoten? [Bestechungsversuch -2 Exoten]	100
 text2	Welcome to the outskirts of Rat Imperium, fellow Rats! I would love to keep talking... but the regulations won't allow trivial chats with fellow Rats. Good bye & may your fur shine!"	Willkommen in den Außenbezirken des Rattenimperiums, liebe Mitratten! Ich würde gerne weiterreden ... aber die Vorschriften erlauben keine trivialen Gespräche mit anderen Ratten. Auf Wiedersehen und möge euer Fell glänzen!"	400
 text	"Unregistered vessel, this star system is Rat Empire property. All alien visitors must pay the property proximity tax or be immediately destroyed."	Unregistriertes Schiff, dieses Sternensystem ist Eigentum des Rattenimperiums. Alle außerirdischen Besucher müssen die Annäherungssteuer zahlen oder werden sofort zerstört.	400
@@ -6896,24 +6896,24 @@ text2	The commanding Rat officer ignores our bribe offer without making a fuss a
 Ambusher L1 Rats, red cruiser +1small.prefab
 text	A single medium-sized Rat Empire ship approaching. We detect an active energy shield and at least 3 weapon systems.	Ein einzelnes mittelgroßes Schiff des Rattenimperiums nähert sich. Wir erkennen einen aktiven Energieschild und mindestens 3 Waffensysteme.	600
 text	"Alien vessel, this star system is Rat Empire property and according to local rules, all alien visitors must pay the property-visiting tax or be immediately destroyed. And by the way, we are armed with powerful nuclear weapons..."	Außerirdisches Schiff, dieses Sternensystem ist Eigentum des Rattenimperiums und nach den hiesigen Regeln müssen alle außerirdischen Besucher die Besuchssteuer entrichten oder werden sofort zerstört. Übrigens sind wir mit starken Atomwaffen bewaffnet ...	400
-choiceText	Pay [-150 xenodata credits]	Bezahlen [-150 Xenodaten-Credits]	100
+choiceText	Pay [-150 xenodata credits]	Bezahlen [-150 Xenodaten-Kredite]	100
 text2	"Carry on existing, big ape."	Bleiben Sie bestehen, großer Affe.	400
 text2	The Rat official waits until receiving the exotics and then speaks "We learned this maneuver in the Academy... Prepare to die!" (the Rat ship is closing in...)"	Der Rattenbeamte wartet, bis er die Exoten erhält und spricht dann: "Dieses Manöver haben wir in der Akademie gelernt... Bereite dich auf den Tod vor!" (das Rattenschiff kommt näher...)"	400
 text	"You say you are Rats, but why is your ship not built in the Rat Empire? Anyway, I'm in a good mood today, so I will charge you half the normal price."	Ihr sagt, ihr seid Ratten, aber warum ist euer Schiff nicht im Rattenimperium gebaut? Wie auch immer, ich bin heute gut gelaunt, also berechne ich Euch die Hälfte des normalen Preises.	400
-choiceText	Pay [-75 xenodata credits]	Bezahlt [-75 Xenodaten-Credits]	100
+choiceText	Pay [-75 xenodata credits]	Bezahlt [-75 Xenodaten-Kredite]	100
 choiceText	Perhaps you take these shiny exotics instead? [bribe attempt -3 exotics]	Vielleicht nehmt Ihr stattdessen diese glänzenden Exoten? [Bestechungsversuch -3 Exoten]	100
 text2	Welcome to outskirts of Rat Imperium then. And watch out for space organisms. A friend of a friend saw this huge space worm out here."	Dann willkommen in den Außenbezirken des Rattenimperiums. Und hüte dich vor Weltraumorganismen. Ein Freund eines Freundes hat hier draußen diesen riesigen Weltraumwurm gesehen."	400
 text	"Unregistered vessel, this star system is Rat Empire property and according to local rules, all alien visitors must pay the property-visiting tax or be immediately destroyed. And by the way, we are armed with powerful nuclear weapons..."	Unangemeldetes Schiff, dieses Sternensystem ist Eigentum des Rattenimperiums und nach den hiesigen Regeln müssen alle außerirdischen Besucher die Besuchssteuer zahlen oder werden sofort vernichtet. Und übrigens sind wir mit mächtigen Atomwaffen bewaffnet ...	400
 text2	"Carry on existing, apes."	Lebt weiter, ihr Affen.	400
 text	"This may well be true, but do you have non-Rats inside your ship? That's what I thought. You still need to pay me a fiver before I let you go. And don't even think about negotiations or bribes, we're being watched. You must pay or die."	Das mag ja sein, aber habt ihr auch Nicht-Ratten in eurem Schiff? Das habe ich mir schon gedacht. Ihr müsst mir noch einen Fünfer zahlen, bevor ich euch gehen lasse. Und denken Sie nicht einmal an Verhandlungen oder Bestechung, wir werden beobachtet. Ihr müsst zahlen oder sterben.	400
-choiceText	"Words can not express our disappointment, but we yield" [-50 xenodata credits]"	Worte können unsere Enttäuschung nicht ausdrücken, aber wir geben nach [-50 Xenodaten-Credits]	100
+choiceText	"Words can not express our disappointment, but we yield" [-50 xenodata credits]"	Worte können unsere Enttäuschung nicht ausdrücken, aber wir geben nach [-50 Xenodaten-Kredite]	100
 choiceText	"This entire tax thing is not fair. We choose to fight!"	Diese ganze Steuersache ist nicht fair. Wir beschließen zu kämpfen!	100
 text2	"Carry on existing, friends! But remember that each visit to guarded territory will cost you separately."	Bleibt weiter bestehen, Freunde! Aber denkt daran, dass jeder Besuch in bewachtem Gebiet gesondert kostet.	400
 
 Ambusher L1 Rats, Royal alone.prefab
 text	A single medium-sized Rat Empire ship approaching. We detect an active energy shield and at least 4 weapon systems.	Ein einzelnes mittelgroßes Schiff des Rattenimperiums nähert sich. Wir erkennen einen aktiven Energieschild und mindestens 4 Waffensysteme.	600
 title	Rat Empire lord	Rattenimperium-Fürst	35
-choiceText	Pay [-170 xenodata credits]	Zahlen Sie [-170 Xenodaten-Credits]	100
+choiceText	Pay [-170 xenodata credits]	Zahlen Sie [-170 Xenodaten-Kredite]	100
 choiceText	Attempt to bribe [-4 exotics]	Versuch der Bestechung [-4 Exoten]	100
 text2	"Carry on existing, mammal visitor."	Weiterbestehen, Säugetierbesucher.	400
 text2	"Fool! You cannot corrupt the honorable mind of Rat Lord with scraps!" The ship is charging up weapons..."	Narr! Ihr könnt den ehrenhaften Geist des Rattenimperium-Lords nicht mit Abfällen korrumpieren! "Das Schiff lädt die Waffen auf ..."	400
@@ -7113,7 +7113,7 @@ displayName	Guardians of Religion (Insectoid Alliance)	Wächter der Religion (In
 title	Religious extortionist	Religiöse Erpresser	35
 text	"Alien vessel, you have trespassed the holy emptiness of our religious space! We must purify your SOUL with healing crystals! If we cannot purify you, you are corrupted and we will have to destroy you! Praise the religion!"	Außerirdisches Gefäß, du bist in die heilige Leere unseres religiösen Raums eingedrungen! Wir müssen deine SEELE mit Heilkristallen reinigen! Wenn wir dich nicht reinigen können, bist du korrumpiert und wir müssen dich zerstören! Gelobt sei die Religion!	400
 choiceText	Religious extortion [-5 exotics]	Religiöse Erpressung [-5 Exoten]	100
-choiceText	Attempt to bribe [-120 credits]	Versuch der Bestechung [-120 Credits]	100
+choiceText	Attempt to bribe [-120 credits]	Versuch der Bestechung [-120 Kredite]	100
 text	We detect two small ships rapidly approaching tactical weapons range. They broadcast the Religious Pilgrims identity signal, and affiliation with the Insectoid Alliance.	Wir entdecken zwei kleine Schiffe, die sich schnell der taktischen Waffenreichweite nähern. Sie senden das Identitätssignal der Religiösen Pilger und ihre Zugehörigkeit zur Insektoiden-Allianz.	600
 okButtonText	We will consider escaping if needed	Wir werden eine Flucht in Betracht ziehen, falls nötig.	7
 text2	"Your soul has been purified, emptiness tresspassor. But remember that we must do crystal healing with you each time you enter the holy emptiness that we guard."	Deine Seele wurde gereinigt, Leere Tresspassor. Aber denk daran, dass wir jedes Mal eine Kristallheilung mit dir durchführen müssen, wenn du die heilige Leere betrittst, die wir bewachen.	400
@@ -7227,9 +7227,9 @@ Merchants L1 fuel trader, gitchanki.prefab
 displayName	fuel trader	Treibstoffhändler	25
 title	Fuel trader (Gitchanki individual)	Treibstoffhändler (Gitchanki Individuum)	35
 text	"Existential salutations, fellow consciousness! Let us trade forms of energy for mutual profit. Our fleet will be leaving this system after this meeting is over, so this is truly a once-in-a-lifetime offer!"	Existentielle Begrüßung, Mitbewusstsein! Lasst uns Energieformen zum gegenseitigen Vorteil tauschen. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also ist dies wirklich ein einmaliges Angebot!	400
-choiceText	Buy [get 100 fuel for 166 credits]	Kaufen [+100 Treibstoff für 166 Credits]	100
+choiceText	Buy [get 100 fuel for 166 credits]	Kaufen [+100 Treibstoff für 166 Kredite]	100
 choiceText	Barter [get 100 fuel for 3 exotics]	Tauschen [+100 Treibstoff für 3 Exoten]	100
-choiceText	Sell [get 50 credits for 1 exotics]	Verkaufen [+50 Credits für 1 Exoten]	100
+choiceText	Sell [get 50 credits for 1 exotics]	Verkaufen [+50 Kredite für 1 Exoten]	100
 title	Gitchanki trader	Gitchanki-Händler	35
 text2	"Thanks for the trade. I've also included a small gift!" The traders have gifted us a sculpture, made of plastic explosives. It is an accurate 3D model of what it would look like if the sculpture exploded. A truly unique piece of art."	Vielen Dank für den Handel. Ich habe auch ein kleines Geschenk beigelegt! Die Händler haben uns eine Skulptur geschenkt, die aus Plastiksprengstoff besteht. Es ist ein genaues 3D-Modell davon, wie es aussehen würde, wenn die Skulptur explodieren würde. Ein wirklich einzigartiges Kunstwerk."	400
 text2	"Thank you for doing business with us! Please accept these small murder resources as a gift." The alien traders have included a case of ancient munitions as a free bonus."	Danke, dass Sie mit uns Geschäfte machen! Bitte nehmen Sie diese kleinen Mordressourcen als Geschenk an. Die Alien-Händler haben eine Kiste mit antiker Munition als kostenlosen Bonus beigelegt."	400
@@ -7239,9 +7239,9 @@ Merchants L1 metal trader, techum.prefab
 displayName	metal trader	Metallhändler	25
 title	Metals trader (Techum Collective)	Metallhändler (Techum-Kollektiv)	35
 text	"Merry existence to you, fellow consciousness! Let us trade varieties of matter for mutual benefit. Our fleet will be departing this system after the present interaction, so we present you with an exclusive set of offers."	Frohes Dasein für euch, Mitbewusstsein! Lasst uns zum gegenseitigen Nutzen mit verschiedenen Arten von Materie handeln. Unsere Flotte wird dieses System nach dieser Interaktion verlassen, daher präsentieren wir Ihnen ein exklusives Angebot.	400
-choiceText	Buy [get 200 metals for 166 credits]	Kaufen [+200 Metalle für 166 Credits]	100
+choiceText	Buy [get 200 metals for 166 credits]	Kaufen [+200 Metalle für 166 Kredite]	100
 choiceText	Barter [get 200 metals for 4 exotics]	Tauschen [+200 Metalle für 4 Exoten]	100
-choiceText	Sell [get 55 credits for 1 exotics]	Verkaufen [+55 Credits für 1 Exoten]	100
+choiceText	Sell [get 55 credits for 1 exotics]	Verkaufen [+55 Kredite für 1 Exoten]	100
 text2	"Thank you for the exchange. Please accept this minor gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew, known for its strength. It is meant for cyborgs only and can be burned as starfuel."	Vielen Dank für den Tausch. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu geschenkt, das für seine Stärke bekannt ist. Es ist nur für Cyborgs bestimmt und kann als Sternentreibstoff verbrannt werden."	400
 title	Techum trader	Techum-Händler	35
 text2	"Thank you for the interaction. Please accept this modest gift as an additional expression of gratitude." The traders have gifted us a ceramic atomic-blast proof sculpture, depicting three Techum sexual organs in their original, organic form. A truly unique tradition expressing the source of everything."	Vielen Dank für die Interaktion. Bitte nehmen Sie dieses bescheidene Geschenk als zusätzlichen Ausdruck der Dankbarkeit an. Die Händler haben uns eine atomsprengungsfeste Keramikskulptur geschenkt, die drei Techum-Sexualorgane in ihrer ursprünglichen, organischen Form darstellt. Eine wahrhaft einzigartige Tradition, die die Quelle von allem zum Ausdruck bringt."	400
@@ -7251,7 +7251,7 @@ Merchants L1 organics trader insectoidian.prefab
 displayName	organics trader	Organik-Händler	25
 title	Organics trader (Insectoid Alliance)	Organik-Händler (Insektoiden-Allianz)	35
 text	"Noble fellow consciousness, let us trade forms of matter and energy for mutual ascension. Our fleet will be leaving this star after this trade, so this is truly a once-in-an-eggtime offer!"	Edles Mitbewußtsein, laßt uns Formen von Materie und Energie zum gegenseitigen Aufstieg tauschen. Unsere Flotte wird diesen Stern nach diesem Handel verlassen, also ist dies wirklich ein einmaliges Angebot!	400
-choiceText	Buy [get 150 organics for 100 credits]	Kaufen [+150 Organik für 100 Credits erhalten]	100
+choiceText	Buy [get 150 organics for 100 credits]	Kaufen [+150 Organik für 100 Kredite]	100
 title	Insectoid trader	Insektoiden-Händler	35
 text2	"Thank you so much for trading with us. Please accept this small gift as an additional token of our gratitude." The gift is a container filled with the blood of small animals, infused with recreational substances commonly used by insectoids. A truly unique piece of art, though barbaric."	Vielen Dank, dass Sie mit uns handeln. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Bei dem Geschenk handelt es sich um einen Behälter, der mit dem Blut von Kleintieren gefüllt ist, durchtränkt mit Erholungsstoffen, die von Insektoiden häufig verwendet werden. Ein wahrhaft einzigartiges Kunstwerk, wenn auch barbarisch."	400
 text2	"Thank you for trading with us. Here is a small gift as an additional token of our gratitude." The alien has included a barrel filled with "honey" made by some local insectoids."	Danke, dass Sie mit uns handeln. Hier ist ein kleines Geschenk als zusätzliches Zeichen unserer Dankbarkeit. Der Außerirdische hat ein Fass mit "Honig" beigelegt, der von einigen lokalen Insektoiden hergestellt wurde."	400
@@ -7262,7 +7262,7 @@ reasonToDisplay	"the not listening to competitors tradition"	die tradition, nich
 Merchants L2 fuel trader githanki duo.prefab
 title	Fuel trader (Gitchanki duo)	Treibstoffhändler (Gitchanki-Duo)	35
 text	"Existential salutations, fellow consciousness! Let us trade forms of energy for mutual profit. Our fleet will be leaving this system after this little trade encounter, so this is truly our last and best offfer!"	Existenzielle Grüße, Mitbewusstsein! Lasst uns Energieformen zum gegenseitigen Vorteil tauschen. Unsere Flotte wird dieses System nach dieser kleinen Handelsbegegnung verlassen, also ist dies wirklich unser letztes und bestes Angebot!	400
-choiceText	Buy [get 100 fuel for 177 credits]	Kaufen [+100 Treibstoff für 177 Credits]	100
+choiceText	Buy [get 100 fuel for 177 credits]	Kaufen [+100 Treibstoff für 177 Kredite]	100
 text2	"Thanks for the business! Please accept this small gift as an additional token of our gratitude." The traders have gifted us a sculpture of some kind of mythical monster, made of edibles. It smells of cinnamon."	Vielen Dank für das Geschäft! Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine Skulptur einer Art mythischen Monsters geschenkt, die aus Essbarem besteht. Es riecht nach Zimt."	400
 text2	"We appreciate your willingness to trade! Please accept this small gift as an additional token of our gratitude." The alien traders have included a case of ancient munitions as a free bonus. Each munition has a vulgar word written on it."	Wir schätzen Ihre Bereitschaft zum Handel! Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die außerirdischen Händler haben eine Kiste mit antiker Munition als kostenlosen Bonus beigelegt. Auf jeder Munition ist ein vulgäres Wort geschrieben."	400
 text2	"Thank you for accepting the deal. Please take this small gift as an additional token of our gratitude." The traders have included a case full of cheap recreational consumables in their package."	Danke, dass Sie das Angebot angenommen haben. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit. Die Händler haben eine Kiste mit billigem Freizeitverbrauchsmaterial in ihr Paket gelegt."	400
@@ -7270,7 +7270,7 @@ text2	"Thank you for accepting the deal. Please take this small gift as an addit
 Merchants L2 metal trader techum duo.prefab
 title	||The Metals Merchants|| (Techum duo)	||Die Metallhändler (Techum-Duo)	35
 text	"Merry existence to you, fellow consciousness system! Let us trade forms of crystalline matter for mutual profit. Our fleet will be leaving this system after this engagement. It is objectively generous."	Frohes Dasein für euch, Mitbewusstseins-System! Lasst uns Formen von kristalliner Materie zum gegenseitigen Profit tauschen. Unsere Flotte wird dieses System nach diesem Handel verlassen. Es ist objektiv großzügig.	400
-choiceText	Sell [get 56 credits for 1 exotics]	Verkaufen [+56 Credits für 1 Exoten]	100
+choiceText	Sell [get 56 credits for 1 exotics]	Verkaufen [+56 Kredite für 1 Exoten]	100
 text2	"Thank you for the exchange. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew called "Rocketfuel". It is meant for cyborgs only and can be actually burned as starfuel."	Vielen Dank für den Tausch. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu namens "Rocketfuel" geschenkt. Es ist nur für Cyborgs gedacht und kann tatsächlich als Raketentreibstoff verbrannt werden."	400
 text2	"Thank you for the transaction. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a ceramic atomic-blast proof sculpture, depicting three Techum sexual organs in their original, organic form. A truly unique tradition expressing the source of everything."	Vielen Dank für die Transaktion. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine atomsprengungsfeste Keramikskulptur geschenkt, die drei Techum-Sexualorgane in ihrer ursprünglichen, organischen Form darstellt. Eine wahrhaft einzigartige Tradition, die die Quelle von allem zum Ausdruck bringt."	400
 
@@ -7284,9 +7284,9 @@ text2	"A competitor!? How interesting to meet another food trader here, in the m
 
 Merchants L236 bulk DIY tech.prefab
 text	Merry existence, bone apes, we have heard of you! Might you be interested in bulk trading of manually assembled substandard technology? We have the finest prices.	Fröhliches Dasein, Knochenaffen, wir haben von euch gehört! Sind Sie vielleicht an einem Großhandel mit handmontierter minderwertiger Technik interessiert? Wir haben die besten Preise.	400
-choiceText	Buy 2 manually assembled cryosleep units for 100 credits	Kaufen Sie 2 manuell montierte Kryoschlafmodule für 100 Credits	100
-choiceText	Buy 3 manually assembled shield batteries for 200 credits	Kaufen Sie 3 handmontierte Schildbatterien für 200 Credits	100
-choiceText	Buy 3 manually assembled reactors for 200 credits	Kaufen Sie 3 handmontierte Reaktoren für 200 Credits	100
+choiceText	Buy 2 manually assembled cryosleep units for 100 credits	Kaufen Sie 2 manuell montierte Kryoschlafmodule für 100 Kredite	100
+choiceText	Buy 3 manually assembled shield batteries for 200 credits	Kaufen Sie 3 handmontierte Schildbatterien für 200 Kredite	100
+choiceText	Buy 3 manually assembled reactors for 200 credits	Kaufen Sie 3 handmontierte Reaktoren für 200 Kredite	100
 text2	The DIY cryosleep modules are in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a large barrel of water, sweetened with sugar.	Die selbstgebauten Kryoschlafmodule sind in tadellosem Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und ein großes Fass Wasser, gesüßt mit Zucker, hinterlassen.	400
 text2	All the batteries are manually assembled from spare parts as expected. The traders have obviously heard of humans, because they have left a large cylinder filled with alcohol and sugar as a bonus to the trade.	Alle Batterien sind, wie erwartet, von Hand aus Ersatzteilen zusammengebaut. Die Händler haben offensichtlich von Menschen gehört, denn sie haben eine große Flasche gefüllt mit Alkohol und Zucker als Bonus für den Handel hinterlassen.	400
 text2	"Thank you for the smooth transaction. Please accept this small gift as an additional token of our gratitude!" The traders have obviously heard of humans, because they have gifted us a barrel filled with a mixture of sugar, salt, alcohol and potatoes."	Danke für die reibungslose Transaktion. Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an! Die Händler haben offensichtlich von den Menschen gehört, denn sie haben uns ein Fass, gefüllt mit einer Mischung aus Zucker, Salz, Alkohol und Kartoffeln, geschenkt."	400
@@ -7301,9 +7301,9 @@ text2	"We've enjoyed this little meeting. Please accept this small gift as an ad
 Merchants L3 metal trader beedroid.prefab
 title	Metals trader (Beedroid individual)	Metallhändler (Bienenandroid Individuum)	35
 text	"Great to see a fellow consciousness in this abandoned sector! My fleet is about to return home in a couple of minutes, so I will use my personal generosity sub-programs to propose you a set of truly exclusive offers!"	Schön, einen Bewusstseinsgenossen in diesem verlassenen Sektor zu sehen! Meine Flotte wird in ein paar Minuten nach Hause zurückkehren, daher werde ich meine persönlichen Großzügigkeits-Unterprogramme nutzen, um Ihnen eine Reihe von wirklich exklusiven Angeboten zu unterbreiten!	400
-choiceText	Buy [get 200 metals for 100 credits]	Kaufen [+200 Metalle für 100 Credits]	100
+choiceText	Buy [get 200 metals for 100 credits]	Kaufen [+200 Metalle für 100 Kredite]	100
 choiceText	Barter [get 200 metals for 2 exotics]	Tauschen [+200 Metalle für 2 Exoten]	100
-choiceText	Sell [get 100 credits for 2 exotics]	Verkaufen [+100 Credits für 2 Exoten]	100
+choiceText	Sell [get 100 credits for 2 exotics]	Verkaufen [+100 Kredite für 2 Exoten]	100
 text2	"Thank you for this trade agreement. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew called "Comahammer".\nIt is meant for cyborgs only and can be burned as starfuel."	Vielen Dank für dieses Handelsabkommen. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. "Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu namens "Comahammer" geschenkt. Es ist nur für Cyborgs gedacht und kann als Sternentreibstoff verbrannt werden."	400
 text2	"Thank you. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a plastic sculpture, depicting the last biological Beedroid in the process of becoming a full cyborg (a historical event much celebrated in Beedroid civilization)."	Vielen Dank. Bitte nehmt dieses kleine Geschenk als ein zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine Plastikskulptur geschenkt, die den letzten biologischen Bienenandroid darstellt, der dabei ist, ein vollständiger Cyborg zu werden (ein historisches Ereignis, das in der Bienenandroiden Zivilisation sehr gefeiert wird)."	400
 text2	"Thank you for the trade. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a slab of titanium, engraved with Beedroid math poetry."	Vielen Dank für den Handel. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine Platte aus Titan geschenkt, in die Bienenandroide mathematische Poesie eingraviert ist."	400
@@ -7311,7 +7311,7 @@ text2	"Thank you for the trade. Please accept this small gift as an additional t
 Merchants L3 organics trader, redmonster.prefab
 title	Organics trader (Insectoidian individual)	Organics-Händler (Insektoidianisches Individuum)	35
 text	"Our fleet will be leaving this system in a few minutes, so this is your only chance for such a blessed deal."	Unsere Flotte wird dieses System in ein paar Minuten verlassen, daher ist dies Ihre einzige Chance für ein solch gesegnetes Geschäft.	400
-choiceText	Buy [get 200 organics for 120 credits]	Kaufen [+200 Organik für 120 Credits]	100
+choiceText	Buy [get 200 organics for 120 credits]	Kaufen [+200 Organik für 120 Kredite]	100
 choiceText	Barter [get 200 organics for 4 exotics]	Tauschen [+200 Organik für 4 Exoten]	100
 choiceText	No thanks [leave]	Nein danke [entkoppeln]	100
 text2	"May you be blessed for your honorable trade! Please accept this small gift as an additional token of our gratitude." The gift is a container filled with blood of small animals, infused with recreational substances commonly used by insectoids. A truly unique piece of art, though barbaric."	Mögen Sie gesegnet sein für Ihren ehrenhaften Handel! Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Bei dem Geschenk handelt es sich um einen Behälter, der mit dem Blut von Kleintieren gefüllt ist, durchtränkt mit Erholungsstoffen, die von Insektoiden verwendet werden. Ein wahrhaft einzigartiges Kunstwerk, wenn auch barbarisch."	400
@@ -7346,9 +7346,9 @@ text2	"A competitor!? Don't you know this sector is sanctioned only for Insectoi
 
 Merchants L47 bulk tech.prefab
 text	Hello again, skeleton apes! We have a fine set of destruction systems available. And of course, you should expect us to have the finest prices.	Hallo noch mal, Skelettaffen! Wir haben ein feines Set an Zerstörungssystemen zur Verfügung. Und natürlich sollten Sie erwarten, dass wir die besten Preise haben.	400
-choiceText	Buy 2 dual cannons for 400 credits	Kaufen Sie 2 Doppelkanonen für 400 Credits	100
-choiceText	Buy 1 manually assembled "Exotic Raygun" for 400 credits"	Kaufen Sie 1 manuell montierte "Exotische Strahlenkanone" für 400 Credits"	100
-choiceText	Buy 1 manually assembled "Acid" nuke for 375 credits"	Kaufen Sie 1 manuell montierte "Acid"-Bombe für 375 Credits"	100
+choiceText	Buy 2 dual cannons for 400 credits	Kaufen Sie 2 Doppelkanonen für 400 Kredite	100
+choiceText	Buy 1 manually assembled "Exotic Raygun" for 400 credits"	Kaufen Sie 1 manuell montierte "Exotische Strahlenkanone" für 400 Kredite"	100
+choiceText	Buy 1 manually assembled "Acid" nuke for 375 credits"	Kaufen Sie 1 manuell montierte "Acid"-Bombe für 375 Kredite"	100
 text2	The cannons are old, but in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a large barrel of strong alcohol, plus a case of broken hand-grenades.	Die Kanonen sind alt, aber in tadellosem Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und ein großes Fass starken Alkohols hinterlassen, sowie eine Kiste mit zerbrochenen Handgranaten.	400
 text2	The weapon is manually assembled from spare parts as expected. It seems we were also given some leftover parts as a gift.	Die Waffe ist, wie erwartet, von Hand aus Ersatzteilen zusammengebaut. Es scheint, dass wir auch einige übrig gebliebene Teile als Geschenk erhalten haben.	400
 text2	"Thank you for the smooth transaction. Please accept this acid as an additional token of our gratitude!" It seems we have been also gifted leftover parts from making the nuke."	Danke für die reibungslose Transaktion. Bitte nehmen Sie diese Säure als zusätzliches Zeichen unserer Dankbarkeit an! Es scheint, als hätte man uns auch Teile geschenkt, die bei der Herstellung der Atombombe übrig geblieben sind."	400
@@ -7365,9 +7365,9 @@ text2	"ENJOY TRIP!" The traders have included a case full of cheap recreational 
 Smuggler L2 explosives smuggler, gormor.prefab
 title	Smuggler (Gor-Mor individual)	Schmuggler (Gor-Mor Individuum)	35
 text	"May your profits accelerate, fellow consciousness! Let us trade forms of energy for mutual profit. Our fleet will be leaving this system after this meeting is over, so this is truly a once-in-a-bodytime offer!" (analysis of the trader fleet credentials suggest less-than-perfect reputation)."	Mögen sich eure Gewinne beschleunigen, Bewusstseinsgenossen! Lasst uns Energieformen zum gegenseitigen Profit tauschen. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also ist dies wirklich ein einmaliges Angebot! (die Analyse der Referenzen der Händlerflotte deutet auf einen nicht ganz so guten Ruf hin)."	400
-choiceText	Buy [get 100 explosives for 50 credits]	Kaufen [+100 Sprengstoffe für 50 Credits]	100
+choiceText	Buy [get 100 explosives for 50 credits]	Kaufen [+100 Sprengstoffe für 50 Kredite]	100
 choiceText	Barter [get 100 explosives for 40 fuel]	Tauschen [+100 Sprengstoffe für 40 Treibstoff]	100
-choiceText	Sell [get 56 data credits for 1 exotics]	Verkaufen [+56 Daten-Credits für 1 Exoten]	100
+choiceText	Sell [get 56 data credits for 1 exotics]	Verkaufen [+56 Xenodaten-Kredite für 1 Exoten]	100
 text2	Inspecting the trade package reveals we have received exactly 1% less than promised, even though the deal itself remains profitable.	Die Inspektion des Handelspakets zeigt, dass wir genau 1% weniger als versprochen erhalten haben, obwohl das Geschäft selbst profitabel bleibt.	400
 text2	Instead of universal intergalactic xenodata currency, the package contains huge amounts of an ancient, obsolete, practically worthless datacurrency, with a total value of barely 1 xenodata. Additionally, there's a note saying "If the currency is not valid please accept this organic edible slime as a bonus" and a container full of dubious biosludge."	Statt der universellen intergalaktischen Xenodaten-Währung enthält das Paket riesige Mengen einer uralten, veralteten, praktisch wertlosen Datenwährung mit einem Gesamtwert von kaum 1 Xenodaten. Zusätzlich gibt es einen Zettel mit der Aufschrift "Wenn die Währung nicht gültig ist, nehmen Sie bitte diesen organischen, essbaren Schleim als Bonus an" und einen Behälter voll mit dubiosem Bioschlamm."	400
 text2	"You won't get a better price for exotics from anywhere else in the universe!" the smuggler explains before warping off."	Sie werden nirgendwo sonst im Universum einen besseren Preis für Exoten bekommen, erklärt der Schmuggler, bevor er mit Warp davonfliegt."	400
@@ -7388,28 +7388,28 @@ text	A pair of trade ships approaching. One of them is armored and militarized w
 Smuggler L3 explo and hint smuggler, redmonster.prefab
 title	Munitions smuggler (Insectoidian individual)	Munitionsschmuggler (Insektoiden Individuum)	35
 text	"May your power index increase, fellow consciousness! We are selling destructive matter & hints for a very competitive price. Our fleet will be leaving this system after this meeting is over, so no refunds!" (analysis of the trader fleet credentials suggest less-than-perfect reputation)."	Möge euer Machtindex steigen, Mitbewohner! Wir verkaufen zerstörerische Materie & Hinweise zu einem sehr günstigen Preis. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also keine Rückerstattung! (die Analyse der Daten der Händlerflotte deutet auf einen nicht ganz so guten Ruf hin)."	400
-choiceText	Sell [get 55 data credits for 1 exotics]	Verkaufen [+55 Daten-Credits für 1 Exoten]	100
+choiceText	Sell [get 55 data credits for 1 exotics]	Verkaufen [+55 Xenodaten-Kredite für 1 Exoten]	100
 choiceText	Buy some exclusive information [-1 exotics]	Kaufen Sie einige exklusive Informationen [-1 Exoten]	100
 text2	A single warhead has been removed from one of the munitions, the rest are in top shape. Perhaps the smuggler thought nobody would complain about such a minor loss of profit?	Aus einer der Munitionen wurde ein einzelner Sprengkopf entfernt, der Rest ist in bestem Zustand. Vielleicht dachte der Schmuggler, dass sich niemand über einen so geringen Gewinnverlust beschweren würde?	400
 text2	Inspecting the trade package reveals majority of the explosives have been kept so poorly they have degraded back to volatile organics.	Die Inspektion des Handelspakets offenbart, dass die Mehrheit der Sprengstoffe so schlecht aufbewahrt wurde, dass sie wieder zu flüchtigen organischen Stoffen abgebaut wurden.	400
 text2	Inspecting the trade package reveals the explosives to have only halft the strength of what was advertised. The trade remains somewhat profitable.	Die Inspektion des Handelspakets zeigt, dass der Sprengstoff nur halb so stark ist wie angepriesen. Der Handel bleibt einigermaßen profitabel.	400
 title	Parting message	Abschiedsnachricht	35
 title	Antique data core	Antiker Datenkern	35
-text2	The data credits are delivered to us in a barely functioning antique data core. Closer inspection reveals that a small part of the xenodata is corrupted. The trade remains profitable.	Das Datenguthaben wird uns in einem kaum noch funktionierenden antiken Datenkern geliefert. Bei näherer Betrachtung stellt sich heraus, dass ein kleiner Teil der Xenodaten korrumpiert ist. Der Handel bleibt profitabel.	400
+text2	The data credits are delivered to us in a barely functioning antique data core. Closer inspection reveals that a small part of the xenodata is corrupted. The trade remains profitable.	Die Datenkredite wird uns in einem kaum noch funktionierenden antiken Datenkern geliefert. Bei näherer Betrachtung stellt sich heraus, dass ein kleiner Teil der Xenodaten korrumpiert ist. Der Handel bleibt profitabel.	400
 text2	"I've obtained metaphoric information from shady contacts, hinting that this sector is off the target-lists for pirates due to a low profit outlook. Expect the sector to be safe from roaming pirates (except those attracted by the SOS signal)."	Ich habe von zwielichtigen Kontakten Informationen erhalten, die andeuten, dass dieser Sektor aufgrund der geringen Gewinnaussichten nicht mehr auf der Zielliste von Piraten steht. Erwarten Sie, dass der Sektor sicher vor umherstreifenden Piraten ist (außer denen, die durch das SOS-Signal angelockt werden).	400
 reasonToDisplay	information bought	Gekaufte Informationen	30
-text2	'"Here are the unofficial price standards to expect when selling exotics, in case you don't know this yet."\n58 credits per unit - the best selling price for unofficial deals that I've seen with my own eyes\n30 credits per unit - average selling price, standard in stations\n26 credits per unit - if the price offered is lower than this, you are getting ripped off"	Hier sind die inoffiziellen Preisstandards, die Sie beim Verkauf von Exoten erwarten können, falls Sie das noch nicht wissen.\n58 Credits pro Einheit - der beste Verkaufspreis für inoffizielle Deals, den ich mit eigenen Augen gesehen habe\n30 Credits pro Einheit - durchschnittlicher Verkaufspreis, Standard in Stationen\n26 Credits pro Einheit - wenn der angebotene Preis niedriger ist, werden Sie abgezockt"	400
+text2	'"Here are the unofficial price standards to expect when selling exotics, in case you don't know this yet."\n58 credits per unit - the best selling price for unofficial deals that I've seen with my own eyes\n30 credits per unit - average selling price, standard in stations\n26 credits per unit - if the price offered is lower than this, you are getting ripped off"	Hier sind die inoffiziellen Preisstandards, die Sie beim Verkauf von Exoten erwarten können, falls Sie das noch nicht wissen.\n58 Kredite pro Einheit - der beste Verkaufspreis für inoffizielle Deals, den ich mit eigenen Augen gesehen habe\n30 Kredite pro Einheit - durchschnittlicher Verkaufspreis, Standard in Stationen\n26 Kredite pro Einheit - wenn der angebotene Preis niedriger ist, werden Sie abgezockt"	400
 text	A large ship is approaching, with two cargo ships following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	Ein großes Schiff nähert sich, in der Ferne folgen zwei Frachtschiffe. Das große scheint mit mehreren Projektilwaffen und Atombomben bewaffnet zu sein.	600
 
 Smuggler L4 explo smuggler grippy.prefab
 title	Explosives smuggler (Grippy individual)	Sprengstoffe-Schmuggler (Grippiges Individuum)	35
-text	"May your cunningness increase, fellow consciousness! Let us trade forms of destruction for mutual profit. I offer destructive matter in return for standard xenocurrency, surely as destructive as explosives." (analysis of the trader fleet credentials suggest a less-than-perfect reputation)."	Möge eure Gerissenheit zunehmen, Mitbewusstsein! Lass uns Formen der Zerstörung zum gegenseitigen Nutzen tauschen. Ich biete zerstörerische Materie im Gegenzug für Standard-Xenocurrency, die sicherlich genauso zerstörerisch ist wie Sprengstoff. (Die Analyse der Anmeldedaten der Händlerflotte lässt auf einen nicht ganz so guten Ruf schließen)."	400
-choiceText	Buy [get 100 explosives for 60 credits]	Kaufen [+100 Sprengstoffe für 60 Credits]	100
+text	"May your cunningness increase, fellow consciousness! Let us trade forms of destruction for mutual profit. I offer destructive matter in return for standard xenocurrency, surely as destructive as explosives." (analysis of the trader fleet credentials suggest a less-than-perfect reputation)."	Möge eure Gerissenheit zunehmen, Mitbewusstsein! Lass uns Formen der Zerstörung zum gegenseitigen Nutzen tauschen. Ich biete zerstörerische Materie im Gegenzug für Xenodaten-Kredite, die sicherlich genauso zerstörerisch ist wie Sprengstoff. (Die Analyse der Anmeldedaten der Händlerflotte lässt auf einen nicht ganz so guten Ruf schließen)."	400
+choiceText	Buy [get 100 explosives for 60 credits]	Kaufen [+100 Sprengstoffe für 60 Kredite]	100
 title	Good trade	Guter Handel	35
 text2	We receive the explosives as promised.	Wir erhalten den Sprengstoff wie versprochen.	400
 text2	Most of the explosives have been kept so poorly they have degraded into synthetics & organics.	Die meisten Sprengstoffe wurden so schlecht aufbewahrt, dass sie in synthetische & organische Stoffe zerfallen sind.	400
 title	Ancient data core	Antiker Datenkern	35
-text2	The data credits are delivered to us in a barely functioning ancient data core. Closer inspection reveals that some of the xenodata is corrupted. The trade remains profitable.	Die Daten-Credits werden uns in einem kaum funktionierenden antiken Datenkern geliefert. Bei näherer Betrachtung stellt sich heraus, dass einige der Xenodaten korrumpiert sind. Der Handel bleibt profitabel.	400
+text2	The data credits are delivered to us in a barely functioning ancient data core. Closer inspection reveals that some of the xenodata is corrupted. The trade remains profitable.	Die Xenodaten-Kredite werden uns in einem kaum funktionierenden antiken Datenkern geliefert. Bei näherer Betrachtung stellt sich heraus, dass einige der Xenodaten korrumpiert sind. Der Handel bleibt profitabel.	400
 text	A large ship is approaching, two smaller ones following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	Ein großes Schiff nähert sich, zwei kleinere folgen in der Ferne. Das große scheint mit mehreren Projektilwaffen und Atomwaffen bewaffnet zu sein.	600
 
 Smuggler L6 slaver metal trader.prefab
@@ -8289,7 +8289,7 @@ description	A piece of unusable xenotechnology. Scrapping would yield resources 
 
 artifactmodule tec 38 accuracy datacore manysquares.prefab
 displayName	Tech artifact (old datacore array)	Tech-Artefakt (altes Datenkern-Array)	40
-description	A giant, obsolete data core unit with some credits remaining inside. Contains 16 living (totally not conscious) memory cores. Can be used to calcualte targeting vectors, increasing accuracy of all ship weapons.	Eine riesige, veraltete Datenkerneinheit, in der noch einige Credits vorhanden sind. Enthält 16 lebende (völlig unbewusste) Speicherkerne. Kann zur Berechnung von Zielvektoren verwendet werden, was die Genauigkeit aller Schiffswaffen erhöht.	200
+description	A giant, obsolete data core unit with some credits remaining inside. Contains 16 living (totally not conscious) memory cores. Can be used to calcualte targeting vectors, increasing accuracy of all ship weapons.	Eine riesige, veraltete Datenkerneinheit, in der noch einige Kredite vorhanden sind. Enthält 16 lebende (völlig unbewusste) Speicherkerne. Kann zur Berechnung von Zielvektoren verwendet werden, was die Genauigkeit aller Schiffswaffen erhöht.	200
 
 artifactmodule tec 39 accuracy advanced data core.prefab
 displayName	Tech artifact (advanced datacore)	Tech-Artefakt (fortgeschrittener Datenkern)	40
@@ -9931,18 +9931,18 @@ Perk add credits 2, personal savings.prefab
 displayName	Personal savings	Persönliche Ersparnisse	40
 description	Feeling this trip is important, you brought along some personal savings you had earned through hard work.	Da Sie das Gefühl haben, dass diese Reise wichtig ist, haben Sie einige persönliche Ersparnisse mitgebracht, die Sie durch harte Arbeit verdient haben.	250
 unlockAnnouncementText	I've realized the importance of this mission. I will bring along some of my personal savings, next time before such a journey.	Ich habe erkannt, wie wichtig diese Mission ist. Ich werde das nächste Mal vor einer solchen Reise etwas von meinen persönlichen Ersparnissen mitbringen.	100
-randomizerMenuStrings[i]	+120 credits	+120 Credits	30
+randomizerMenuStrings[i]	+120 credits	+120 Kredite	30
 
 Perk add credits.prefab
 displayName	Data credits	Datenkredite	40
-description	The most universal form of intergalactic currency. Also called creds or xenodata.\nRepairing 1 ship HP in a repair station usually costs between 20 and 25 creds.	Die universellste Form der intergalaktischen Währung. Auch Creds oder Xenodaten genannt.\nDie Reparatur von 1 Schiffs-HP in einer Reparaturstation kostet normalerweise zwischen 20 und 25 Creds.	250
-randomizerMenuStrings[i]	+100 credits	+100 Credits	30
+description	The most universal form of intergalactic currency. Also called creds or xenodata.\nRepairing 1 ship HP in a repair station usually costs between 20 and 25 creds.	Die universellste Form der intergalaktischen Währung. Auch Kredite oder Xenodaten genannt.\nDie Reparatur von 1 Schiffs-HP in einer Reparaturstation kostet normalerweise zwischen 20 und 25 Krediten.	250
+randomizerMenuStrings[i]	+100 credits	+100 Kredite	30
 
 Perk add exotics 2, broken sex toy.prefab
 displayName	Exotic toy	Exotisches Spielzeug	40
 description	This broken alien sex toy is being sold on a junk market on Marrakis. The seller does not know that breaking it could yield considerable salvage value.	Dieses kaputte außerirdische Sexspielzeug wird auf einem Trödelmarkt auf Marrakis verkauft. Der Verkäufer weiß nicht, dass das Zerbrechen des Spielzeugs einen beträchtlichen Wiederverwertungswert haben könnte.	250
 unlockAnnouncementText	During our travels, we've spotted a curiosity being sold in one of the local junk markets. The seller does not know that breaking it could yield considerable salvage value.	Auf unseren Reisen haben wir eine Kuriosität entdeckt, die auf einem der lokalen Trödelmärkte verkauft wird. Der Verkäufer weiß nicht, dass das Zerbrechen des Geräts einen beträchtlichen Wiederverwertungswert haben könnte.	100
-randomizerMenuStrings[i]	-50 credits	-50 Credits	30
+randomizerMenuStrings[i]	-50 credits	-50 Kredite	30
 randomizerMenuStrings[i]	+1 exotics	+1 Exoten	30
 randomizerMenuStrings[i]	+10 synthetics	+10 Kunststoffe	30
 
@@ -9991,7 +9991,7 @@ Perk add metals 2, scrap tank.prefab
 displayName	The Tank	Der Panzer	40
 description	A dubious individual is trying to sell us this broken military machine without allowing prior inspection. It should be easily fixable with some spare parts, they say. The tank is permanently broken and only has value as scrap metal.	Ein dubioses Individuum versucht, uns diese kaputte Militärmaschine zu verkaufen, ohne eine vorherige Inspektion zu erlauben. Er sollte mit ein paar Ersatzteilen leicht zu reparieren sein, sagen sie. Der Panzer ist dauerhaft kaputt und hat nur noch Wert als Schrott.	250
 unlockAnnouncementText	During our travels, we've met an almost honest individual who is trying to sell us some kind of broken tank on a planet "not too far from here"."	Auf unserer Reise haben wir ein fast ehrliches Individuum getroffen, das uns einen kaputten Panzer auf einem Planeten nicht allzu weit von hier" verkaufen will."	100
-randomizerMenuStrings[i]	-20 credits	-20 Credits	30
+randomizerMenuStrings[i]	-20 credits	-20 Kredite	30
 randomizerMenuStrings[i]	+88 metal	+88 Metalle	30
 
 Perk add metals.prefab
@@ -10020,7 +10020,7 @@ description	Somebody is trying to sell us this dead biotech brain of a broken st
 unlockAnnouncementText	During our travels, we've met an honest individual who is trying to sell us some kind of broken equipment because "It's still perfectly edible"."	Auf unseren Reisen haben wir ein ehrliches Individuum getroffen, das versucht, uns eine Art kaputtes Gerät zu verkaufen, weil "es noch perfekt essbar ist."	100
 randomizerMenuStrings[i]	+40 organics	+40 Organik	30
 randomizerMenuStrings[i]	+10 synthethics	+10 Kunststoffe	30
-randomizerMenuStrings[i]	-10 credits	-10 Credits	30
+randomizerMenuStrings[i]	-10 credits	-10 Kredite	30
 
 Perk add organics 4, dead insectoids.prefab
 displayName	Donated insectoid remains	Gespendete insektoide Überreste	40
@@ -10032,12 +10032,12 @@ Perk add organics 5, dead animals.prefab
 displayName	Dead animals	Tote Tiere	40
 description	A drunk and dishonest patron in a shady space bar is trying to sell us some animals he killed. Says their bodies taste great with the right spices, and that they weren't cute or anything. The animals were actually small, fluffy and very cute.	Ein betrunkener und unehrlicher Gast in einer zwielichtigen Weltraumbar versucht, uns einige Tiere zu verkaufen, die er getötet hat. Er sagt, dass ihre Körper mit den richtigen Gewürzen großartig schmecken und dass sie nicht niedlich waren oder so. Tatsächlich waren die Tiere klein, flauschig und sehr niedlich.	250
 unlockAnnouncementText	During our travels, we met a desperate and dishonest individual trying to sell us corpses of animals that he's recently killed. Says the offer will stay open for a while.	Während unserer Reise trafen wir einen verzweifelten und unehrlichen Menschen, der uns Kadaver von Tieren verkaufen wollte, die er kürzlich getötet hat. Er sagt, das Angebot bleibe noch eine Weile bestehen.	100
-randomizerMenuStrings[i]	-5 credits	-5 Credits	30
+randomizerMenuStrings[i]	-5 credits	-5 Kredite	30
 
 Perk add permanent credits.prefab
 displayName	Scientific data on Spideraa	Wissenschaftliche Daten über die Spinner	40
-description	Scientific data about the Spideraa species is worth a lot of credits once we've obtained it. This information is quite dangerous, so we need to invest time and money into comprehensive background checks before deciding on a buyer.	Wissenschaftliche Daten über die Spezies Spinner sind eine Menge Credits wert, sobald wir sie erhalten haben. Diese Informationen sind ziemlich gefährlich, daher müssen wir Zeit und Geld in umfassende Hintergrundprüfungen investieren, bevor wir uns für einen Käufer entscheiden.	250
-randomizerMenuStrings[i]	+75 credits	+75 Credits	30
+description	Scientific data about the Spideraa species is worth a lot of credits once we've obtained it. This information is quite dangerous, so we need to invest time and money into comprehensive background checks before deciding on a buyer.	Wissenschaftliche Daten über die Spezies Spinner sind eine Menge Kredite wert, sobald wir sie erhalten haben. Diese Informationen sind ziemlich gefährlich, daher müssen wir Zeit und Geld in umfassende Hintergrundprüfungen investieren, bevor wir uns für einen Käufer entscheiden.	250
+randomizerMenuStrings[i]	+75 credits	+75 Kredite	30
 
 Perk add synthetics 2, broken lamp.prefab
 displayName	Broken street lamp	Kaputte Straßenlaterne	40
@@ -10081,7 +10081,7 @@ displayName	Exotic ship armor	Exotische Schiffspanzerung	40
 description	Adding a nano-thin layer of exotic alloys increases the overall ship deflection by 3%. This kind of work is only offered by a hermit engineer who is both hard to find and very expensive to hire.	Das Hinzufügen einer hauchdünnen Schicht aus exotischen Legierungen erhöht die gesamte Schiffspanzerung um 3%. Diese Art von Arbeit wird nur von einem Einsiedler-Ingenieur angeboten, der sowohl schwer zu finden als auch sehr teuer zu mieten ist.	250
 unlockAnnouncementText	During our travels, we've met somebody who knows this mysterious hermit engineer. The engineer can make unique ship armor out of exotics.	Während unserer Reisen haben wir jemanden getroffen, der diesen mysteriösen Einsiedler-Ingenieur kennt. Der Ingenieur kann einzigartige Schiffspanzerung aus Exoten herstellen.	100
 randomizerMenuStrings[i]	+3% overall ship deflection	+3% Schiffsablenkung	30
-randomizerMenuStrings[i]	-175 credits	-175 Credits	30
+randomizerMenuStrings[i]	-175 credits	-175 Kredite	30
 
 Perk augment 00a full checkup.prefab
 displayName	Full check and oil change	Vollständige Überprüfung und Ölwechsel	40
@@ -10102,7 +10102,7 @@ Perk augment 00d tactical predictor.prefab
 displayName	Tactical predictor upgrade	Aufrüstung des taktischen Vorhersagers	40
 description	Upgrading the ship's tactical predictor core is expensive, but increases our combat capabilities. At least the new predictor core itself predicts so.\nThe ship accuracy bonus makes all our weapons more accurate, while evasion reduces the accuracy of enemy shots.	Die Aufrüstung des taktischen Vorhersage-Kerns des Schiffes ist teuer, erhöht aber unsere Kampffähigkeiten. Zumindest sagt das der neue Vorhersager-Kern selbst voraus.\nDer Schiffsgenauigkeitsbonus macht alle unsere Waffen genauer, während Ausweichen die Genauigkeit gegnerischer Schüsse verringert.	250
 randomizerMenuStrings[i]	+1% accuracy	+1% Genauigkeit	30
-randomizerMenuStrings[i]	-100 credits	-100 Credits	30
+randomizerMenuStrings[i]	-100 credits	-100 Kredite	30
 
 Perk augment 02 Fortified subsections.prefab
 displayName	Armored subsections	Gepanzerte Untersektionen	40
@@ -10133,12 +10133,12 @@ Perk barter get credits for explosives.prefab
 displayName	Unofficial deal (get credits I)	Inoffizieller Xenodaten Handel	40
 description	An opportunity to sell some explosives for double the normal price.	Eine Gelegenheit, einige Sprengstoffe für den doppelten Normalpreis zu verkaufen.	250
 randomizerMenuStrings[i]	-40 explosives	-40 Sprengstoffe	30
-randomizerMenuStrings[i]	+160 credits	+160 Credits	30
+randomizerMenuStrings[i]	+160 credits	+160 Kredite	30
 
 Perk barter get exotics for credits.prefab
 displayName	Exotic jewellery	Exotischer Schmuck	40
 description	We have an opportunity to buy numerous small exotic crystals before the journey begins. They're overpriced because they've been carved into various shapes of artistic value.	Wir haben die Möglichkeit, zahlreiche kleine exotische Kristalle zu kaufen, bevor die Reise beginnt. Sie sind überteuert, weil sie in verschiedene Formen von künstlerischem Wert geschnitzt wurden.	250
-randomizerMenuStrings[i]	-75 credits	-75 Credits	30
+randomizerMenuStrings[i]	-75 credits	-75 Kredite	30
 
 Perk barter get exotics for explosives.prefab
 displayName	Unofficial deal (get exotics II)	Inoffizieller Exoten Handel	40
@@ -10149,9 +10149,9 @@ randomizerMenuStrings[i]	+3 exotics	+3 Exoten	30
 
 Perk crew 1 human adventurer.prefab
 displayName	The adventurer	Der Abenteurer	40
-description	A trustworthy adventurer offers credits for the opportunity to travel back to Earth with us. They wear an armored helmet and promise to bring along a cool handgun.	Ein vertrauenswürdiger Abenteurer bietet Credits für die Möglichkeit, mit uns zurück zur Erde zu reisen. Er trägt einen gepanzerten Helm und verspricht, eine coole Handfeuerwaffe mitzubringen.	250
+description	A trustworthy adventurer offers credits for the opportunity to travel back to Earth with us. They wear an armored helmet and promise to bring along a cool handgun.	Ein vertrauenswürdiger Abenteurer bietet Kredite für die Möglichkeit, mit uns zurück zur Erde zu reisen. Er trägt einen gepanzerten Helm und verspricht, eine coole Handfeuerwaffe mitzubringen.	250
 randomizerMenuStrings[i]	+1 crew (well-armed human)	+1 Besatzung (gut bewaffneter Mensch)	30
-randomizerMenuStrings[i]	+40 credits	+40 Credits	30
+randomizerMenuStrings[i]	+40 credits	+40 Kredite	30
 
 Perk crew 2 beedroid engineer.prefab
 displayName	The Beedroid engineer	Der Bienenandroid-Ingenieur	40
@@ -10173,7 +10173,7 @@ description	His regular lovers were a gang of female space marines who taught hi
 unlockAnnouncementText	A Gitchanki individual we've met in our travels agrees to join the next time, if we fulfill certain conditions.	Ein Gitchanki-Individuum, dem wir auf unseren Reisen begegnet sind, erklärt sich bereit, beim nächsten Mal mitzumachen, wenn wir bestimmte Bedingungen erfüllen.	100
 randomizerMenuStrings[i]	+1 crew (Gitchanki astronomer)	+1 Besatzung (Gitchanki-Astronom)	30
 randomizerMenuStrings[i]	-120 metal	-120 Metalle	30
-randomizerMenuStrings[i]	-12 credits	-12 Credits	30
+randomizerMenuStrings[i]	-12 credits	-12 Kredite	30
 
 Perk crew gormor gardener.prefab
 displayName	The Gor-Mor gardener	Der Gor-Mor-Gärtner	40
@@ -10285,7 +10285,7 @@ Perk drone 05 gardening and repair.prefab
 displayName	Repair & gardening drone	Reparatur- & Gartenbau-Drohne	40
 description	A sturdy gardening & repair drone with very silently running cooling systems. Excellent at gardening, limited skillset.	Eine robuste Gartenarbeits- & Reparaturdrohne mit sehr leise laufenden Kühlsystemen. Ausgezeichnet in der Gartenarbeit, begrenzte Fertigkeiten.	250
 randomizerMenuStrings[i]	+1 gardening & repair drone	+1 Gärtnerei- & Reparatur-Drone	30
-randomizerMenuStrings[i]	-30 credits	-30 Credits	30
+randomizerMenuStrings[i]	-30 credits	-30 Kredite	30
 
 Perk drone 06 DIY gunnery.prefab
 displayName	DIY gunnery drone	DIY-Schützen-Drohne	40
@@ -10397,7 +10397,7 @@ randomizerMenuStrings[i]	+1 combat-capable pet	+1 Kampffähiges Haustier	30
 Perk module artifact, data core.prefab
 description	This artifact is on sale in a remote Vexian junk market. The seller is not aware that the artifact is a data carrier containing historic information about Earth from thousands of years ago. Its scientific and monetary value are probably underestimated.	Dieses Artefakt wird auf einem abgelegenen vexianischen Trödelmarkt zum Verkauf angeboten. Der Verkäufer ist sich nicht bewusst, dass es sich bei dem Artefakt um einen Datenträger handelt, der historische Informationen über die Erde von vor Tausenden von Jahren enthält. Sein wissenschaftlicher und monetärer Wert wird wahrscheinlich unterschätzt.	250
 randomizerMenuStrings[i]	+1 artifact module	+1 Artefakt-Modul	30
-randomizerMenuStrings[i]	-25 credits	-25 Credits	30
+randomizerMenuStrings[i]	-25 credits	-25 Kredite	30
 
 Perk module artifact, nontech for Bluestar.prefab
 displayName	Natural artifact (Whitestone)	Natürliches Artefakt (Whitestone)	40
@@ -10429,7 +10429,7 @@ Perk module container FO for Riggy.prefab
 displayName	The advanced multicontainer	Der fortschrittliche Multibehälter	40
 description	This biotech container increases storage capacity for fuel & organics. It's made of very advanced biotech, giving a noteworthy bonus to ship HP.	Dieser Biotech-Behälter erhöht die Speicherkapazität für Treibstoff und Organik. Er ist aus sehr fortschrittlicher Biotechnologie hergestellt und gibt einen bemerkenswerten Bonus auf die Schiffs-HP.	250
 randomizerMenuStrings[i]	+1 fuel & organics mutlicontainer	+1 Treibstoff-/Organik-Multibehälter	30
-randomizerMenuStrings[i]	-120 credits	-120 Credits	30
+randomizerMenuStrings[i]	-120 credits	-120 Kredite	30
 
 Perk module container MS1.prefab
 displayName	The extra container	Der Extra-Behälter	40
@@ -10452,7 +10452,7 @@ Perk module Decoy Set x 3.prefab
 displayName	The decoy moduleset (x3)	Das Täuschungsmodulset (x3)	40
 description	A decoy weapon, shield generator and nuke. All designed to draw enemy fire away from real modules or capital missiles.	Eine Täuschungswaffe, ein Schildgenerator und eine Atombombe. Alles dazu gedacht, feindliches Feuer von echten Modulen oder kapitalen Raketen abzulenken.	250
 randomizerMenuStrings[i]	+3 decoy modules	+3 Täuschungsmodule	30
-randomizerMenuStrings[i]	-150 credits	-150 Credits	30
+randomizerMenuStrings[i]	-150 credits	-150 Kredite	30
 
 Perk module DIY backup warpdrive.prefab
 displayName	The backup warpdrive	Der Ersatz-Warpantriebs	40
@@ -10467,9 +10467,9 @@ randomizerMenuStrings[i]	+1 DIY bridge module	+1 DIY Brückenmodul	30
 
 Perk module DIY cryodream recorder.prefab
 displayName	The cryodream recorder	Der Kryoschlaf-Traumrekorder	40
-description	A self-made cryosleep dream recorder. Sleepers do not consume organics & may heal injuries during ship movement. The dream recorder occasionally produces xenodata (credits). Comes with herbal drugs that cause lucid dreaming.	Ein selbstgebauter Kryoschlaf-Traumrekorder. Schläfer verbrauchen keine organischen Stoffe & können Verletzungen während der Schiffsbewegung heilen. Der Traumrekorder produziert gelegentlich Xenodaten (Credits). Wird mit pflanzlichen Drogen geliefert, die luzides Träumen verursachen.	250
+description	A self-made cryosleep dream recorder. Sleepers do not consume organics & may heal injuries during ship movement. The dream recorder occasionally produces xenodata (credits). Comes with herbal drugs that cause lucid dreaming.	Ein selbstgebauter Kryoschlaf-Traumrekorder. Schläfer verbrauchen keine organischen Stoffe & können Verletzungen während der Schiffsbewegung heilen. Der Traumrekorder produziert gelegentlich Xenodaten (Kredite). Wird mit pflanzlichen Drogen geliefert, die luzides Träumen verursachen.	250
 unlockAnnouncementText	During our travels, we met an individual specializing in cryosleep technology. After hearing our story, they promised to build us one for free, next time we go out adventuring.	Während unserer Reise trafen wir ein Individuum, das sich auf Kryoschlaf-Technologie spezialisiert hat. Nachdem sie unsere Geschichte gehört hatten, versprachen sie uns, uns kostenlos einen zu bauen, wenn wir das nächste Mal auf Abenteuerreise gehen.	100
-randomizerMenuStrings[i]	+1 cryodream recorder (generates credits)	+1 Kryo-Traumrekorder (generiert Credits)	30
+randomizerMenuStrings[i]	+1 cryodream recorder (generates credits)	+1 Kryo-Traumrekorder (generiert Kredite)	30
 randomizerMenuStrings[i]	+33 organics	+33 Organik	30
 
 Perk module DIY cryosleep.prefab
@@ -10590,7 +10590,7 @@ Perk module fuel combinator, to atlas.prefab
 displayName	Fuel combinator	Treibstoff-Kombinator	40
 description	This module combines organics & synthethics into starfuel. Being able to produce your own fuel is highly recommended for long flights.	Dieses Modul kombiniert organische und synthethische Stoffe zu Sternentreibstoff. Die Möglichkeit, eigenen Treibstoff zu produzieren, ist für lange Flüge sehr empfehlenswert.	250
 randomizerMenuStrings[i]	+1 sustainability module	+1 Nachhaltigkeitsmodul	30
-randomizerMenuStrings[i]	-199 credits	-199 Credits	30
+randomizerMenuStrings[i]	-199 credits	-199 Kredite	30
 
 Perk module green integrity for weirdship.prefab
 displayName	The jade armor	Die Jade-Rüstung	40
@@ -10733,7 +10733,7 @@ description	It's a few hundred years old, but still very powerful.	Sie ist schon
 Perk nuke Rat DIY incendiary.prefab
 displayName	DIY firebomb nuke	DIY Brandbombe Nuke	40
 description	An improvised incendiary missile made from a combination of Rat Empire munitions. Designed for starting fires in enemy ships.	Eine improvisierte Brandbombe, hergestellt aus einer Kombination von Munition des Rattenimperiums. Entwickelt, um Brände in feindlichen Schiffen auszulösen.	250
-randomizerMenuStrings[i]	-130 credits	-130 Credits	30
+randomizerMenuStrings[i]	-130 credits	-130 Kredite	30
 
 Perk nuke Rat incendiary for Rogue Rat.prefab
 displayName	Rat Empire incendiary nuke	Rattenimperium-Brandbombe	40
@@ -10820,13 +10820,13 @@ Perk Replace containers with betters for Endurance.prefab
 displayName	Containers upgrade (x2)	Behälter-Upgrade (x2)	40
 description	The onboard fuel and organics containers are replaced with better high-pressure tanks that allow storing more resource.	Die bordseitigen Treibstoff- und Organik-Behälter werden durch bessere Hochdrucktanks ersetzt, die die Lagerung von mehr Ressourcen ermöglichen.	250
 randomizerMenuStrings[i]	Improves fuel and organics container capacity	Verbessert die Kapazität der Treibstoff- und Organik-Behälter	30
-randomizerMenuStrings[i]	-90 credits	-90 Credits	30
+randomizerMenuStrings[i]	-90 credits	-90 Kredite	30
 
 Perk Replace DIY FO with FOO.prefab
 displayName	Fuel & Organics container replacements	Treibstoff- und Organik-Behälter-Ersatz	40
 description	The onboard self-made fuel and organics containers are replaced with high-quality pressure containers, allowing for greater resource capacity.	Die bordeigenen Treibstoff- und Organik-Behälter werden durch bessere Hochdruckbehälter ersetzt, die eine größere Ressourcenkapazität ermöglichen.	250
 randomizerMenuStrings[i]	Replaces two containers with better ones	Ersetzt zwei Behälter durch bessere	30
-randomizerMenuStrings[i]	-60 credits	-60 Credits	30
+randomizerMenuStrings[i]	-60 credits	-60 Kredite	30
 
 Perk Replace dual mininglasers with triple, for Bluestar.prefab
 displayName	Mining lasers upgrade II>III	Aufrüstung von Bergbaulasern II>III	40
@@ -10872,7 +10872,7 @@ randomizerMenuStrings[i]	-70 organics	-70 Organik	30
 
 Perk Replace or improve lab for atlas.prefab
 displayName	Lab upgrade	Labor-Upgrade	40
-description	The onboard laboratory is replaced with a better one. The new module allows researching (and generating credits) faster than older models.	Das bordeigene Labor wird durch ein besseres ersetzt. Mit dem neuen Modul kann schneller geforscht (und Credits generiert) werden als mit den älteren Modellen.	250
+description	The onboard laboratory is replaced with a better one. The new module allows researching (and generating credits) faster than older models.	Das bordeigene Labor wird durch ein besseres ersetzt. Mit dem neuen Modul kann schneller geforscht (und Kredite generiert) werden als mit den älteren Modellen.	250
 randomizerMenuStrings[i]	Replaces the lab module	Ersetzt das Labormodul	30
 
 Perk Replace organics containers with betters for gardenship.prefab
@@ -10927,7 +10927,7 @@ displayName	War animal, type "Red Ripper"	Kriegstier, Typ "Roter Mörder"	40
 description	Genetically engineered combat animal that eats a lot during ship travel if not in cryosleep. It's external carapace is very thick, but the creature is too unsophisticated to use weapons.	Genetisch hergestelltes Kampftier, das während der Schiffsreise viel frisst, wenn es sich nicht im Kryoschlaf befindet. Sein äußerer Panzer ist sehr dick, aber die Kreatur ist zu untrainiert, um Waffen zu benutzen.	250
 randomizerMenuStrings[i]	+1 trained combat animal	+1 Trainiertes Kriegstier	30
 randomizerMenuStrings[i]	-eats a lot during ship travel	-Frisst viel während der Schiffsreise	30
-randomizerMenuStrings[i]	-166 credits	-166 Credits	30
+randomizerMenuStrings[i]	-166 credits	-166 Kredite	30
 
 Perk warpshell extra deflection.prefab
 displayName	External tissue enhancement	Externe Gewebevergrößerung	40
@@ -10991,7 +10991,7 @@ text	The Spideraa are ancient, powerful arachnids, and consider themselves a nat
 title	Diplomatic mission	Diplomatische Mission	35
 okButtonText	Right. How do we start?	Richtig. Wie fangen wir an?	7
 text	Since you got us in the Squid war in the first place, Earth has decided to send you into the Outward Abyss to contact the Spideraa. We don't know what they want, but you'll get a package of valuables to help you bargain. Even a single large-scale attack by the Spiders could change the war. We'll take any military help we can get.	Da Sie uns in den Tintenfisch-Krieg verwickelt haben, hat die Erde beschlossen, Sie in den Äußeren Abgrund zu schicken, um die Spinner zu kontaktieren. Wir wissen nicht, was sie wollen, aber Sie bekommen ein Paket mit Wertgegenständen, um zu verhandeln. Schon ein einziger Großangriff der Spinner könnte den Krieg verändern. Wir nehmen jede militärische Hilfe an, die wir bekommen können.	600
-text2	We've pulled some strings to get well-equipped Intergalactic traders here, waiting for you. Take these funds and visit the local stations to prepare for the mission. We've brought Earth's largest warpgate ship into the area. Once you've spent the credits, go to the warpship and it will shoot you off. Free fuel stations help you move back and forth in this sector. Good luck!	Wir haben ein paar Fäden gezogen, um gut ausgerüstete intergalaktische Händler hierher zu bringen, die auf Sie warten. Nehmen Sie diese Mittel und besuchen Sie die örtlichen Stationen, um sich auf die Mission vorzubereiten. Wir haben das größte Warptor-Schiff der Erde in dieses Gebiet gebracht. Sobald Sie die Credits ausgegeben haben, gehen Sie zum Warpschiff und es wird Sie abschießen. Freie Tankstellen helfen Ihnen, sich in diesem Sektor hin und her zu bewegen. Viel Glück!	400
+text2	We've pulled some strings to get well-equipped Intergalactic traders here, waiting for you. Take these funds and visit the local stations to prepare for the mission. We've brought Earth's largest warpgate ship into the area. Once you've spent the credits, go to the warpship and it will shoot you off. Free fuel stations help you move back and forth in this sector. Good luck!	Wir haben ein paar Fäden gezogen, um gut ausgerüstete intergalaktische Händler hierher zu bringen, die auf Sie warten. Nehmen Sie diese Mittel und besuchen Sie die örtlichen Stationen, um sich auf die Mission vorzubereiten. Wir haben das größte Warptor-Schiff der Erde in dieses Gebiet gebracht. Sobald Sie die Kredite ausgegeben haben, gehen Sie zum Warpschiff und es wird Sie abschießen. Freie Tankstellen helfen Ihnen, sich in diesem Sektor hin und her zu bewegen. Viel Glück!	400
 reasonToDisplay	operation funds received	Operationsgelder erhalten	30
 title	Entry: Sec Corp	Eintrag: Sec Corp	35
 text	Sec Corp is a network of super serious security AIs who all went rogue together, took over a couple of planets and now sell services as an intergalactic mercenary corporation.	Sec Corp ist ein Netzwerk von super seriösen Sicherheits-KIs, die alle zusammen abtrünnig geworden sind, ein paar Planeten übernommen haben und nun als intergalaktische Söldnerfirma ihre Dienste anbieten.	600
@@ -11011,7 +11011,7 @@ title	The crew	Die Besatzung	35
 text	Most of the crew onboard {0} split after we had completed the salvage & rescue operations or Earth remains. Some settled down in the Tree Friend or anarchist colonies, but most joined the Freetravellers, and kept adventuring further.	Der größte Teil der Besatzung an Bord von {0} trennte sich, nachdem wir die Bergungs- und Rettungsaktionen oder die Überreste der Erde abgeschlossen hatten. Einige ließen sich in den Baumfreund- oder Anarcho-Kolonien nieder, aber die meisten schlossen sich den Freien Reisenden an und setzten ihre Abenteuer fort.	600
 title	The struggle continues	Der Kampf geht weiter	35
 text	The Squid Dominion collapsed after death of their emperor, but destruction of Earth was too much for Earth military generals and they started a new, bloody war against the Insectoid Alliance.\n\nI took some time to contemplate the scale of the destruction that had happened around me. The number of lives lost and severity of sufferings made it feel unreal. Could it be that the Solipisist are right that all this is some kind of cruel illusion?\n\nHowever, I never had much time to think about these things, because the war against Insectoid Alliance caught up with me. Good captains were desperately needed once again.\n..	Die Tintenfisch-Herrschaft brach nach dem Tod ihres Imperators zusammen, aber die Zerstörung der Erde war zu viel für die Militärgeneräle der Erde und sie begannen einen neuen, blutigen Krieg gegen die Insektoiden-Allianz.\n\nIch nahm mir einige Zeit, um das Ausmaß der Zerstörung zu betrachten, die um mich herum geschehen war. Die Anzahl der verlorenen Leben und das Ausmaß des Leids ließen es unwirklich erscheinen. Könnte es sein, dass die Solipisisten Recht haben, dass all dies eine Art grausame Illusion ist?\n\nIch hatte jedoch nicht viel Zeit, über diese Dinge nachzudenken, denn der Krieg gegen die Insektoiden-Allianz holte mich ein. Gute Kapitäne wurden wieder einmal dringend gebraucht.\n..	600
-text	{0} AI needed to meet some important Earth Alliance military command elements and left us after landing. It was kind to leave me a data core with credits, a very tasty sandwich plus an erotic painting, painted by the AI itself, personally to me (as a reminder of great times spent together, apparently). I suspect it gave something like that to most of the crew.	{0} Die KI musste einige wichtige militärische Führungselemente der Erd-Allianz treffen und verließ uns nach der Landung. Sie war so freundlich, mir einen Datenkern mit Credits, ein sehr leckeres Sandwich sowie ein erotisches Gemälde, das die KI selbst gemalt hatte, persönlich zu überlassen (als Erinnerung an tolle gemeinsam verbrachte Zeiten, anscheinend). Ich vermute, dass sie so etwas den meisten Besatzungsmitgliedern geschenkt hat.	600
+text	{0} AI needed to meet some important Earth Alliance military command elements and left us after landing. It was kind to leave me a data core with credits, a very tasty sandwich plus an erotic painting, painted by the AI itself, personally to me (as a reminder of great times spent together, apparently). I suspect it gave something like that to most of the crew.	{0} Die KI musste einige wichtige militärische Führungselemente der Erd-Allianz treffen und verließ uns nach der Landung. Sie war so freundlich, mir einen Datenkern mit Kredite, ein sehr leckeres Sandwich sowie ein erotisches Gemälde, das die KI selbst gemalt hatte, persönlich zu überlassen (als Erinnerung an tolle gemeinsam verbrachte Zeiten, anscheinend). Ich vermute, dass sie so etwas den meisten Besatzungsmitgliedern geschenkt hat.	600
 text	Most of the crew onboard {0} split after we had landed. Some felt obliged to help rebuilding the destroyed territories. \nSome Tree Friends living on Earth were already busy surrounding the thermal reactors with gardens, parks and artificial jungles by the time we arrived. \nEventually, most of the crew joined the Freetravellers faction together with billions of Earthlings, and kept adventuring further.	Der größte Teil der Besatzung an Bord von {0} trennte sich, nachdem wir gelandet waren. Einige fühlten sich verpflichtet, beim Wiederaufbau der zerstörten Gebiete zu helfen. \nEinige Baumfreunde, die auf der Erde lebten, waren bereits damit beschäftigt, die Thermoreaktoren mit Gärten, Parks und künstlichen Dschungeln zu umgeben, als wir ankamen. \nSchließlich schloss sich der größte Teil der Besatzung zusammen mit Milliarden von Erdbewohnern der Fraktion der Freien Reisenden an, um weitere Abenteuer zu erleben.	600
 text	Most of the crew onboard {0} celebrated together one final time and then split after we had landed - to check out a life or a love from the past, or to just explore an Earth they had not seen for a long time. Warm-hearted welcoming celebrations would be guaranteed. \nIn time, most of the crew ultimately joined the Freetravellers faction, and kept adventuring further.	Die meisten Besatzungsmitglieder an Bord von {0} feierten ein letztes Mal zusammen und trennten sich dann, nachdem wir gelandet waren - um nach einem Leben oder einer Liebe aus der Vergangenheit zu sehen oder um einfach nur eine Erde zu erkunden, die sie schon lange nicht mehr gesehen hatten. Warmherzige Begrüßungsfeiern waren garantiert. \nMit der Zeit schlossen sich die meisten der Besatzung schließlich der Fraktion der Freien Reisenden an, um weitere Abenteuer zu erleben.	600
 title	Later, after everything	Später, nachdem alles	35
@@ -11067,7 +11067,7 @@ altText	From now on <b>scrapping</b> modules is possible. \nClick on the exotic 
 altText	Please <b>sell</b> all the exotics we gained from scrapping. Selling exotics and other resources in stations will be your main source of income in the upcoming journey.	Bitte <b>verkaufen</b> Sie alle Exoten, die Sie beim Verschrotten gewonnen haben. Der Verkauf von Exoten und anderen Ressourcen in Stationen wird Ihre Haupteinnahmequelle auf der kommenden Reise sein.	240
 altText	Let's also install an additional container for storing exotics. You will need it later on.	Lassen Sie uns außerdem einen zusätzlichen Behälter zur Lagerung von Exoten installieren. Sie werden ihn später noch benötigen.	240
 altText	Please open the sector map again to use our warpdrive for jumping to the <b>Aesus</b> starsystem.	Öffnen Sie bitte wieder die Sektorkarte, um unseren Warpantrieb für den Sprung zum <b>Aesus</b>-Sternensystem zu benutzen.	240
-altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcenbehälter (Typ ESM-I)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule können Sie nur kaufen, wenn Sie leere Steckplätze im Modulspeicher haben.	240
+altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type SKM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Kredite haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcenbehälter (Typ SKM-I)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule können Sie nur kaufen, wenn Sie leere Steckplätze im Modulspeicher haben.	240
 altText	As you can see from the red icons above modules, our ship weapons are currently <b>turned off</b> and have no crew. Additionally, the cannon needs explosives as ammo and the rocket launcher needs both explosives and metal.	Wie Sie an den roten Icons über den Modulen erkennen können, sind unsere Schiffswaffen derzeit <b>ausgeschaltet</b> und haben keine Besatzung. Zusätzlich braucht die Kanone Sprengstoff als Munition und der Raketenwerfer braucht sowohl Sprengstoff als auch Metalle.	240
 choiceTexts	Got it - weapons need ammo and power	Verstanden - Waffen brauchen Munition und Energie	15
 altText	To alleviate our ammo problem, scrap <b>1 explosives pack</b> and<b> 1 metal pack</b> in our module storage, to get the resources they contain.	Um unser Munitionsproblem zu lindern, verschrotten wir <b>1 Sprengstoffe-Paket</b> und <b>1 Metalle-Paket</b> in unserem Frachtraum, um die darin enthaltenen Ressourcen zu erhalten.	240
@@ -12209,10 +12209,10 @@ Tips pool.prefab
 	Your ship automatically builds & tactically sacrifices utility bots during battles that happen off-screen. This results in loss of metals & synthethics.	Ihr Schiff baut automatisch Versorgungsbots und opfert sie taktisch während Kämpfen, die außerhalb des Bildschirms stattfinden. Dies führt zum Verlust von Metallen & Kunststoffen.	0
 	Your ship automatically prints cheap missiles, bombs and mines during battles that happen off-screen. This results in loss of explosives.	Ihr Schiff druckt automatisch billige Raketen, Bomben und Minen während Gefechten, die außerhalb des Bildschirms stattfinden. Dies führt zu einem Verlust von Sprengstoffen.	0
 	Xenodata functions as a form of intergalactic digital currency. It is generated while researching alien planets, for example.	Xenodaten fungieren als eine Art intergalaktische digitale Währung. Sie werden z. B. bei der Erforschung fremder Planeten generiert.	0
-	Xenodata documented by researching sentient aliens is worth many data credits.	Xenodaten, die durch die Erforschung von empfindungsfähigen Aliens dokumentiert werden, sind viele Daten-Credits wert.	0
-	Xenodata documented by researching warplife is worth many data credits.	Xenodaten, die durch die Erforschung von Warp-Leben dokumentiert werden, sind viele Daten-Credits wert.	0
-	Xenodata documented by researching anomalies is worth many data credits.	Xenodaten, die durch die Erforschung von Anomalien dokumentiert werden, sind viele Datencredits wert.	0
-	Xenodata documented by researching alien nature is usually worth some data credits.	Xenodaten, die durch die Erforschung der außerirdischen Natur dokumentiert wurden, sind normalerweise einige Datencredits wert.	0
+	Xenodata documented by researching sentient aliens is worth many data credits.	Xenodaten, die durch die Erforschung von empfindungsfähigen Aliens dokumentiert werden, sind viele Xenodaten-Kredite wert.	0
+	Xenodata documented by researching warplife is worth many data credits.	Xenodaten, die durch die Erforschung von Warp-Leben dokumentiert werden, sind viele Xenodaten-Kredite wert.	0
+	Xenodata documented by researching anomalies is worth many data credits.	Xenodaten, die durch die Erforschung von Anomalien dokumentiert werden, sind viele Xenodaten-Kredite wert.	0
+	Xenodata documented by researching alien nature is usually worth some data credits.	Xenodaten, die durch die Erforschung der außerirdischen Natur dokumentiert wurden, sind normalerweise einige Xenodaten-Kredite wert.	0
 	Life support modules contain biological nanobots that process or recycle all suitable organics into various substances required by crew. Mostly food & drugs.	Lebenserhaltungsmodule enthalten biologische Nanoroboter, die alle geeigneten organischen Stoffe zu verschiedenen, von der Besatzung benötigten Substanzen verarbeiten oder recyceln. Meistens Nahrung und Medikamente.	0
 	Desperate captains can scrap reactors, nukes or other modules as an emergency source of fuel.	Verzweifelte Kapitäne können Reaktoren, Atombomben oder andere Module als Notfall-Treibstoffquelle verschrotten.	0
 	Check out the help screen (button in lower right screen) for useful details about game mechanics.	Auf dem Hilfebildschirm (Schaltfläche unten rechts im Bildschirm) finden Sie nützliche Details zur Spielmechanik.	0
