@@ -153,7 +153,7 @@ choiceTexts	[Attack these religious psychopaths]	[Greift diese religiösen Psych
 Ambusher L1b or 2b Phobian pirates x 2.prefab
 title	Phobian Pushers	Phobienschieber	35
 text	We offer you a chance to buy an exotic crystal. If you refuse, our heavy projectile firepower will penetrate your shields, ensuring considerable loss of material and crew, even if you defeat us. Accept this offer instead, and we can all peacefully go home. What do you say?	Wir bieten Ihnen die Möglichkeit, einen exotischen Kristall zu kaufen. Wenn Sie ablehnen, wird unser schweres Projektilfeuer Ihre Schilde durchdringen und für erhebliche Verluste an Material und Besatzung sorgen, selbst wenn Sie uns besiegen. Nehmen Sie stattdessen dieses Angebot an, und wir können alle friedlich nach Hause gehen. Was sagen Sie dazu?	400
-choiceText	Buy 1 exotics for 100 credits	Kaufen Sie 1 Exotik für 100 Credits	100
+choiceText	Buy 1 exotics for 100 credits	+1 Exoten für 100 Credits	100
 choiceText	We won't yield to extortion, however elaborate [prepare for combat]	Wir lassen uns nicht erpressen, auch wenn es noch so aufwändig ist.	100
 text	Two small vessels approaching tactical weapons range. No high-energy weapons detected.	Zwei kleine Schiffe nähern sich der taktischen Waffenreichweite. Keine Hochenergiewaffen entdeckt.	600
 text	Ah, you do not have enough cash? Then we must unfortunately make you into scrap. Nothing personal, of course. Good bye.	Ah, Sie haben nicht genug Geld? Dann müssen wir Sie leider zu Schrott machen. Nichts Persönliches, natürlich. Auf Wiedersehen.	600

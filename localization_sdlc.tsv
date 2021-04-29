@@ -47,7 +47,7 @@ description	Fuel container. Damage results in rapid loss of fuel.	Treibstoffbeh�
 
 integrity tiger.prefab
 displayName	Integrity hardpoint, Tiger	Integritäts-Ansatzpunkt, Tiger	40
-description	Composite plastic hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	Kunststoff-Ansatzpunkt aus Verbundwerkstoff, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffshochleistung zu erhalten, auch während eines Notfalls.	200
+description	Composite plastic hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	Plastik-Ansatzpunkt aus Verbundwerkstoff, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffshochleistung zu erhalten, auch während eines Notfalls.	200
 
 shield tigership.prefab
 displayName	Tiger shield generator	Tiger-Schildgenerator	40
@@ -74,7 +74,7 @@ displayName	Tiger monolith nuke	Tiger-Monolith-Bombe	40
 description	A capital missile that rams enemy ships with incredible kinetic force. It's mostly made of solid metal.	Ein kapitaler Flugkörper, der feindliche Schiffe mit unglaublicher kinetischer Kraft rammt. Sie besteht größtenteils aus massivem Metall.	200
 
 Tiger sharpnel nuke launcher.prefab
-displayName	Tigerclaw, sharpnel nuke	Tigerclaw, Sharpnel Nuke	40
+displayName	Tigerclaw, sharpnel nuke	Tigerklaue, Schrapnell Nuke	40
 description	An experimental capital missile that releases nanoshrapnel that destroys modules & crew, but not ship HP.	Eine experimentelle Kapitalrakete, die Nanosplitter freisetzt, die Module und Besatzung zerstören, aber nicht die HP des Schiffs.	200
 
 weapon tigermissile large.prefab
@@ -82,7 +82,7 @@ displayName	Tiger mininuke platform	Tiger-Mininuke-Plattform	40
 description	This platform shoots singular heavy missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area.	Diese Plattform schießt einzelne schwere Raketen ab. Alle Raketen sind präzise, durchdringen Schilde, werden nie abgelenkt und beschädigen Module über einen großen Bereich.	200
 
 Perk nuke Battle Tiger monolith.prefab
-displayName	Tiger Mountain nuke	Tiger Mountain Nuke	40
+displayName	Tiger Mountain nuke	Tiger-Berg-Nuke	40
 description	A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Smalle AoE.	Eine schwer gepanzerte Einzelschuss-Rakete, die das Ziel mit einer Kraft rammt, die Mikromoons zerschmettern könnte. Smalle AoE.	250
 randomizerMenuStrings[i]	+1 capital missile	+1 großartige Rakete	30
 
@@ -91,7 +91,7 @@ description	A single-use battery that shoots 8 missiles.	Eine einmalig einsetzba
 randomizerMenuStrings[i]	+1 single-use missile battery	+1 Wegwerf-Raketen-Batterie	30
 
 Perk nuke Tiger dual EMP.prefab
-displayName	Tiger EMP double nuke	Tiger EMP-Doppelnuke	40
+displayName	Tiger EMP double nuke	Tiger EMP-Doppel-nuke	40
 description	A pair of armored EMP nukes, launched simultaneously.	Ein Paar gepanzerte EMP-Bomben, die gleichzeitig abgefeuert werden.	250
 randomizerMenuStrings[i]	+1 dual capital missile	+1 großartige Duo-Rakete	30
 
