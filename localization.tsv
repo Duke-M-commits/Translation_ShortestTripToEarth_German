@@ -315,12 +315,12 @@ ShipModule.cs
 	module HP repairs	Modul-HP-Reparaturen	0
 	Cargo	Fracht	0
 	Weapons	Waffen	0
-	Nukes	Atombomben	0
+	Nukes	Bomben	0
 	Survival	Überleben	0
 	Essential	Unverzichtbar	0
 	Economy	Wirtschaft	0
 	Other	Andere	0
-	Critical module damage! {0} max hitpoints reduced by {1}	Kritischer Modulschaden! {0} maximale Hitpoints um {1} reduziert	0
+	Critical module damage! {0} max hitpoints reduced by {1}	Kritischer Modulschaden! {0} maximale HP um {1} reduziert	0
 	Enemy module {0} destroyed	Feindliches Modul {0} zerstört	0
 	{0} destroyed	{0} zerstört	0
 	Scrapped {0}. Got	{0} verschrottet. Ertrag:	0
@@ -591,7 +591,7 @@ Module status visualizers.prefab
 	Jammed by enemy (module not functional)	Vom Feind blockiert (Modul nicht funktionsfähig)	0
 	Needs repairs	Benötigt Reparaturen	0
 	Leaking	Leck	0
-	Each x represents a permanent -50% reduction of remaining module max hitpoints	Jedes x steht für eine permanente Reduzierung der verbleibenden maximalen Hitpoints des Moduls um -50 %.	0
+	Each x represents a permanent -50% reduction of remaining module max hitpoints	Jedes x steht für eine permanente Reduzierung der verbleibenden maximalen HP des Moduls um -50 %.	0
 
 Ship status visualizers.prefab
 
@@ -601,12 +601,12 @@ Comchannel tip.prefab
 altText	You're low on organics. See how to get some?	Sie haben zu wenig Organik. Sehen Sie, wie Sie welche bekommen können?	240
 choiceTexts	Close	Schließen	15
 altText	You are running low on fuel. Would you like to see how you can get more?	Ihr Treibstoffvorrat geht zur Neige. Möchten Sie sehen, wie Sie mehr bekommen können?	240
-altText	The ship has very low HP left! Consider <color=red>repairing</color> damage tokens on my hull or <color=red>escaping</color> by using the warpdrive! If you have any <color=red>nukes</color>, consider using them.	Das Schiff hat nur noch sehr wenig HP! Ziehen Sie in Erwägung, <color=red>Schadensmarken an der Hülle zu reparieren oder <color=red>zu entkommen</color>, indem Sie den Warpantrieb benutzen! Wenn Sie <color=red>Nukes</color> haben, ziehen Sie deren Einsatz in Betracht.	240
+altText	The ship has very low HP left! Consider <color=red>repairing</color> damage tokens on my hull or <color=red>escaping</color> by using the warpdrive! If you have any <color=red>nukes</color>, consider using them.	Das Schiff hat nur noch sehr wenig HP! Ziehen Sie in Erwägung, <color=red>Schadensmarken an der Hülle zu reparieren oder <color=red>zu entkommen</color>, indem Sie den Warpantrieb benutzen! Wenn Sie <color=red>Bomben</color> haben, ziehen Sie deren Einsatz in Betracht.	240
 choiceTexts	OK, will consider it!	OK, ich werde es in Betracht ziehen!	15
 altText	We've run out resources for repairing. Repairing requires metal or synthethics. Want to see my database entry about ship hull repairing?	Wir haben keine Ressourcen mehr zum Reparieren. Zum Reparieren braucht man Metalle oder Kunststoffe. Willst du meinen Datenbankeintrag über die Reparatur von Schiffsrümpfen sehen?	240
 altText	Modules received from perks are currently inside storage. Open storage panel?	Module, die Sie von Startboni erhalten haben, befinden sich derzeit im Lager. Offenes Lagerfeld?	240
-altText	We're out of fuel. If we cannot use the SOS, we should consider scrapping modules with fuel value, such as nukes or reactors. SOS signal is jammed (unusable) during battles.	Wir haben keinen Treibstoff mehr. Wenn wir das SOS nicht nutzen können, sollten wir in Betracht ziehen, Module mit Treibstoffwert zu verschrotten, wie z.B. Atombomben oder Reaktoren. Das SOS-Signal wird während der Kämpfe gestört (unbrauchbar).	240
-altText	We're out of organics. Hungry crew will get a penalty to all stats and will eventually\r start slowly losing hitpoints. Crew in cryosleep requires no resources.	Wir haben keine organischen Stoffe mehr. Eine hungrige Crew erhält einen Malus auf alle Werte und beginnt eventuell langsam Hitpoints zu verlieren. Crew im Kryoschlaf benötigt keine Ressourcen.	240
+altText	We're out of fuel. If we cannot use the SOS, we should consider scrapping modules with fuel value, such as nukes or reactors. SOS signal is jammed (unusable) during battles.	Wir haben keinen Treibstoff mehr. Wenn wir das SOS nicht nutzen können, sollten wir in Betracht ziehen, Module mit Treibstoffwert zu verschrotten, wie z.B. Bomben oder Reaktoren. Das SOS-Signal wird während der Kämpfe gestört (unbrauchbar).	240
+altText	We're out of organics. Hungry crew will get a penalty to all stats and will eventually\r start slowly losing hitpoints. Crew in cryosleep requires no resources.	Wir haben keine organischen Stoffe mehr. Eine hungrige Crew erhält einen Malus auf alle Werte und beginnt eventuell langsam HP zu verlieren. Crew im Kryoschlaf benötigt keine Ressourcen.	240
 altText	We have received critical damage. Critical damage tokens may cause explosions or fires. Repairing them should be one of our priorities.	Wir haben kritischen Schaden erhalten. Kritische Schadensmarken können Explosionen oder Brände verursachen. Sie zu reparieren sollte eine unserer Prioritäten sein.	240
 altText	One of the hostile ships is charging up its <b>warpdrive</b> (not engines) to escape the combat area. We might want to prevent them in order to increase post-battle salvage.	Eines der feindlichen Schiffe lädt seinen <b>Warpantrieb</b> (nicht Triebwerke) auf, um aus dem Kampfgebiet zu entkommen. Wir sollten sie daran hindern, um die Ausbeute nach dem Kampf zu erhöhen.	240
 text	We have lost our only engine. We should either craft a new one or prepare for combat and activate the SOS signal. It may attract a trader who sells engines or parts neede to craft engines	Wir haben unseren einzigen Antrieb verloren. Wir sollten entweder einen neuen herstellen oder uns auf den Kampf vorbereiten und das SOS-Signal aktivieren. Es könnte einen Händler anlocken, der Motoren oder Teile für die Herstellung von Motoren verkauft.	600
@@ -953,15 +953,15 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Weapons and ECM modules can only be installed to external slots:	Waffen und EGM-Module können nur auf externen Steckplätzen eingebaut werden:	0
 	Point defences can only be installed in hybrid slots:	Punktabwehr kann nur in Hybrid-Steckplätzen eingebaut werden:	0
 	Most other modules can be installed to internal, core, hybrid or external slots:	Die meisten anderen Module können in internen, Kern-, Hybrid- oder externen Steckplätzen eingebaut werden:	0
-	Special modules like warp, engine, bridge and capital missile can only be installed to dedicated slots:	Spezialmodule wie Warp, Triebwerk, Brücke und Capital Missile können nur in speziellen Steckplätzen eingebaut werden:	0
+	Special modules like warp, engine, bridge and capital missile can only be installed to dedicated slots:	Spezialmodule wie Warp, Triebwerk, Brücke und Bomben können nur in speziellen Steckplätzen eingebaut werden:	0
 	Module slot upgrades	Modulsteckplatz-Aufrüstungen	0
 	Some of the module slots can be upgraded at a cost. Make sure that slot is empty and undamaged before upgrading.	Einige der Modulsteckplätze können kostenpflichtig aufgerüstet werden. Stellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie ihn aufrüsten.	0
 	Internal slots can be upgraded to core slots, which give additional hitpoints to ship hull.	Interne Steckplätze können zu Kernsteckplätzen aufgerüstet werden, die der Schiffshülle zusätzliche Trefferpunkte verleihen.	0
 	All hybrid slots can be upgraded to weapon slots.	Alle Hybrid-Steckplätze können zu Waffen-Steckplätzen aufgerüstet werden.	0
 	Additionally, some cargo containers can also be upgraded, allowing for more cargo capacity.	Zusätzlich können auch der Frachtraum aufgerüstet werden, um mehr Frachtkapazität zu erhalten.	0
-	There is a chance that if module gets damaged, its maximum hitpoints are also permanently reduced to half -- resulting in half hitpoints when repaired.	Es besteht die Möglichkeit, dass, wenn ein Modul beschädigt wird, seine maximalen Hitpoints dauerhaft auf die Hälfte reduziert werden - was zu halben Hitpoints führt, wenn es repariert wird.	0
+	There is a chance that if module gets damaged, its maximum hitpoints are also permanently reduced to half -- resulting in half hitpoints when repaired.	Es besteht die Möglichkeit, dass, wenn ein Modul beschädigt wird, seine maximalen HP dauerhaft auf die Hälfte reduziert werden - was zu halben HP führt, wenn es repariert wird.	0
 	You can see how many times module max hitpoints have been reduced by the number of x-es on it.	Wie oft die maximalen Trefferpunkte eines Moduls reduziert wurden, können Sie an der Anzahl der x-es auf dem Modul erkennen.	0
-	DIY modules can be crafted inside empty weapon slots (and DIY nukes in empty nuke slots). \nEach ship has unique set of craftable nukes.\nMake sure the slot is empty and undamaged before crafting.	DIY-Module können in leeren Waffen-Steckplätzen hergestellt werden (und DIY-Nukes in leeren Nuke-Steckplätzen). \nJedes Schiff hat einen eigenen Satz an handelbaren Nuklearwaffen.\nStellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie mit der Herstellung beginnen.	0
+	DIY modules can be crafted inside empty weapon slots (and DIY nukes in empty nuke slots). \nEach ship has unique set of craftable nukes.\nMake sure the slot is empty and undamaged before crafting.	DIY-Module können in leeren Waffen-Steckplätzen hergestellt werden (und DIY-Bomben in leeren Bomben-Steckplätzen). \nJedes Schiff hat einen eigenen Satz an handelbaren Bomben.\nStellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie mit der Herstellung beginnen.	0
 	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Sie können die Modul Herstellung nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpantrieb zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Steckplätzen heraus gebaut werden.	0
 	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Frachtraum oder in einem beliebigen freien Steckplatz gelagert werden können.	0
 	Modules can be turned off from the power switch button.\nIf a module is turned off, it does not need any of its listed requirements.	Module können über den Netzschalterknopf ausgeschaltet werden.\nWenn ein Modul ausgeschaltet ist, benötigt es keine seiner aufgeführten Anforderungen.	0
@@ -980,8 +980,8 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	• Ignore shields\r\n• Medium or high accuracy\r\n• Low damage to ship HP\r\n• Usually consume resources with each shot	- Ignorieren Schilde\n- Mittlere oder hohe Genauigkeit\n- Geringer Schaden am Schiffshochdruck\n- Verbrauchen normalerweise Ressourcen mit jedem Schuss	0
 	EMP weapons	EMP-Waffen	0
 	• Blocked by shields\r\n• Overload modules of unshielded ships\n• Increased area of effect\n• Need more power than other modules\r\n• \rOverload shield modules when dealing more damage than shield points left	- Werden von Schilden blockiert\n- Überladen Module von ungeschützten Schiffen\n- Erhöhter Wirkungsbereich\n- Brauchen mehr Energie als andere Module\n- Überladen Schildmodule, wenn sie mehr Schaden verursachen als Schildpunkte übrig sind	0
-	Capital Missiles (nukes)	Capital Missiles (Atombomben)	0
-	• Ignore shields\r (exept if anti-shield nuke)\n• Single use\n• Large area of effect\n• A variety of special effects\n• Missile itself travels slowly and takes more time to reach the target	- Ignorieren Schilde\n (außer bei Anti-Schild-Nuke)\n- Einfacher Einsatz\n- Großer Wirkungsbereich\n- Eine Vielzahl von Spezialeffekten\n- Die Rakete selbst reist langsam und benötigt mehr Zeit, um das Ziel zu erreichen	0
+	Capital Missiles (nukes)	Bomben	0
+	• Ignore shields\r (exept if anti-shield nuke)\n• Single use\n• Large area of effect\n• A variety of special effects\n• Missile itself travels slowly and takes more time to reach the target	- Ignorieren Schilde\n (außer bei Anti-Schild-Bombe)\n- Einfacher Einsatz\n- Großer Wirkungsbereich\n- Eine Vielzahl von Spezialeffekten\n- Die Rakete selbst reist langsam und benötigt mehr Zeit, um das Ziel zu erreichen	0
 	Special weapons	Besondere Waffen	0
 	• Various rare weapons with a variety of special effects\n• Some consume exotics with each shot\n• Need more power than other modules\r\n• Expensive	- Verschiedene seltene Waffen mit einer Vielzahl von Spezialeffekten\n- Einige verbrauchen bei jedem Schuss Exoten\n- Brauchen mehr Energie als andere Module\n- Teuer	0
 	Shooting here is not the best option, because some or all of the shots might completely miss the ship.	Hier zu schießen ist nicht die beste Option, da einige oder alle Schüsse das Schiff komplett verfehlen können.	0
@@ -989,14 +989,14 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Damage enemy shield modules with shield-penetrating weapons to get rid of enemy shield points.	Beschädigen Sie feindliche Schildmodule mit schilddurchdringenden Waffen, um feindliche Schildpunkte loszuwerden.	0
 	Damage enemy weapons to reduce incoming damage.	Beschädigen Sie feindliche Waffen, um eingehenden Schaden zu reduzieren.	0
 	Damage enemy bridge to disable all modules not operated by crew.	Beschädigen Sie die gegnerische Brücke, um alle Module zu deaktivieren, die nicht von der Crew bedient werden.	0
-	Damage enemy point defences to allow your missiles to hit the enemy.	Beschädigen Sie feindliche Punktabwehr, damit Ihre Raketen den Feind treffen können.	0
+	Damage enemy point defences to allow your missiles to hit the enemy.	Beschädigen Sie feindliche Punktabwehr, damit Ihre Bomben den Feind treffen können.	0
 	Damage enemy reactors to decrease enemy power, possibly disabling many modules.	Beschädigen Sie gegnerische Reaktoren, um die gegnerische Leistung zu verringern und möglicherweise viele Module zu deaktivieren.	0
 	Damage enemy engine to reduce the evasion of enemy ship (makes your weapons more accurate).	Feindliches Triebwerk beschädigen, um die Ausweichfähigkeit des gegnerischen Schiffes zu verringern (macht Ihre Waffen präziser).	0
 	Deflection: chance to completely negate incoming shots by deflecting them. Works both against projectile & ray weapons.	Ablenkung: Chance, eingehende Schüsse durch Ablenkung komplett zu negieren. Funktioniert sowohl gegen Projektil- als auch gegen Strahlenwaffen.	0
 	Evasion: increases the total size of shot landing area of all attack weapons, making it harder to aim individual modules or hit the target ship.	Evasion: vergrößert den gesamten Schussbereich aller Angriffswaffen, wodurch es schwieriger wird, einzelne Module zu treffen oder das Zielschiff zu treffen.	0
 	Ship and module repairs are essential for survival. \nHaving many repair officers during battle can make a difference \nbetween life and death, because repairing takes a fair bit of time.\nShip damage tokens cannot be currently repaired by multiple crew simultaneously.	Schiffs- und Modulreparaturen sind überlebenswichtig. \nWenn Sie während eines Kampfes viele Reparateure haben, kann das den Unterschied zwischen Leben und Tod ausmachen, da die Reparaturen ziemlich viel Zeit in Anspruch nehmen.\nSchiffsschadensplättchen können derzeit nicht von mehreren Besatzungen gleichzeitig repariert werden.	0
 	Repairing ship or modules takes metal & synthetics. Make sure your resources are ready for emergency repairs, and be ready to scrap modules if you need more metal or synthethics.	Die Reparatur von Schiffen oder Modulen erfordert Metalle und Kunststoffe. Stellen Sie sicher, dass Ihre Ressourcen für Notreparaturen bereitstehen, und seien Sie bereit, Module zu verschrotten, wenn Sie mehr Metalle oder Kunststoffe benötigen.	0
-	Have capital missiles ready in launch tubes in case you need to use them fast.	Halten Sie Raketen in Abschussrohren bereit, falls Sie sie schnell einsetzen müssen.	0
+	Have capital missiles ready in launch tubes in case you need to use them fast.	Halten Sie Bomben in Abschussrohren bereit, falls Sie sie schnell einsetzen müssen.	0
 	When feeling overwhelmed by enemies, consider escaping. Send a crew member to operate the warpdrive to reduce the time it needs to charge up and warp your ship away from combat.	Wenn Sie sich von Feinden überwältigt fühlen, sollten Sie eine Flucht in Betracht ziehen. Schicken Sie ein Besatzungsmitglied, um den Warpantrieb zu bedienen, um die Zeit zu verkürzen, die er zum Aufladen braucht, und Ihr Schiff aus dem Kampf zu warpen.	0
 	How to survive battles	Wie Sie Kämpfe überleben	0
 	Remember that it is better to escape a battle rather than die fighting.\r\n\nWarp recharge time is slower when near enemy ships.\n\nBattles can be escaped only by using the warpdrive. \nWarpdrives need fuel, power and operating crew to work.	Denken Sie daran, dass es besser ist, einem Kampf zu entkommen, als im Kampf zu sterben. \n\nDie Warp-Aufladezeit ist langsamer, wenn Sie sich in der Nähe von feindlichen Schiffen befinden.\n\nSchlachten können nur durch die Verwendung des Warpantriebs entkommen werden. \nWarpantriebe benötigen Treibstoff, Energie und eine Bedienungsmannschaft, um zu funktionieren.	0
@@ -1048,7 +1048,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	1.\nUse converter modules (if you have them) to convert organics or other resources into fuel.	1.\nVerwenden Sie Konvertermodule (wenn Sie sie haben), um Organik oder andere Ressourcen in Treibstoff umzuwandeln.	0
 	2.\nHarvest fuel from gas giants or explore starsystem objects (such as shipwrecks or planets).	2.\nSammeln Sie Treibstoff von Gasriesen oder erkunden Sie Objekte im Sternensystem (z. B. Schiffswracks oder Planeten).	0
 	3.\nUse xenodata credits to buy fuel from trade stations.	3.\nNutzen Sie Xenodaten-Kredite, um Treibstoff von Handelsstationen zu kaufen.	0
-	4. \nScrap modules or nukes that give fuel as scrap value.	4. \nSchrotten Sie Module oder Atombomben, die Treibstoff als Schrottwert abgeben.	0
+	4. \nScrap modules or nukes that give fuel as scrap value.	4. \nSchrotten Sie Module oder Bomben, die Treibstoff als Schrottwert abgeben.	0
 	5.\nFight hostile fleets to gain fuel as loot.	5.\nFeindliche Flotten bekämpfen, um Treibstoff als Beute zu erhalten.	0
 	6.\nActivate the SOS signal and hope for a trade ship that sells fuel.	6.\nAktivieren Sie das SOS-Signal und hoffen Sie auf ein Handelsschiff, das Treibstoff verkauft.	0
 	Metals are the most common resource, and used mostly for repairing ship hull.\n\nMetals are also used when building planetary structures, such as mining or harvesting equipment.	Metalle sind die häufigste Ressource und werden hauptsächlich für die Reparatur von Schiffsrümpfen verwendet.\n\nMetalle werden auch beim Bau von planetaren Strukturen verwendet, z. B. für Bergbau- oder Erntegeräte.	0
@@ -1184,7 +1184,7 @@ Some code in text needs to be as is	Are you sure? Starting a new run will overwr
 	Accuracy bonus	Genauigkeits-Bonus	0
 	Explosives, used as ammo	Sprengstoffe, werden als Munition verwendet	0
 	Hardcore	Hardcore	0
-	Any damage to module(s) might also reduce their maximum possible hitpoints.	Jeder Schaden an Modul(en) kann auch deren maximal mögliche Hitpoints reduzieren.	0
+	Any damage to module(s) might also reduce their maximum possible hitpoints.	Jeder Schaden an Modul(en) kann auch deren maximal mögliche HP reduzieren.	0
 	The game ends when your ship HP reaches 0.\nAny damage to module(s) might also reduce their maximum possible hitpoints.\nSpace button turns on slow-motion instead of pause.	Das Spiel endet, wenn die HP Ihres Schiffes 0 erreichen.\nJeder Schaden an Modul(en) kann auch deren maximal mögliche Trefferpunkte reduzieren.\nDie Leertaste schaltet die Zeitlupe anstelle der Pause ein.	0
 	The game ends when your ship HP reaches 0.	Das Spiel endet, wenn die HP Ihres Schiffes 0 erreichen.	0
 	Space button turns on slow-motion instead of pause.	Die Leertaste schaltet die Zeitlupe anstelle der Pause ein.	0
@@ -1357,8 +1357,8 @@ Button in main menu, sets game difficulty	?	?	0
 	Choose ship for next run:	Wählen Sie ein Schiff für den nächsten Lauf:	0
 	These slots can hold weapons and many other types of internal or external modules	Diese Steckplätze können Waffen und viele andere Arten von internen oder externen Modulen aufnehmen	0
 	Weapon slots:	Waffen-Steckplätze:	0
-	These slots can hold single-use capital missiles	Diese Steckplätze können Einweg-Kapitalraketen aufnehmen	0
-	Nuke slots:	Atomraketen-Steckplätze:	0
+	These slots can hold single-use capital missiles	Diese Steckplätze können Einweg-Bomben aufnehmen	0
+	Nuke slots:	Bomben-Steckplätze:	0
 	The combined number of internal, hybrid, warp, bridge and engine slots.	Die kombinierte Anzahl von internen, Hybrid-, Warp-, Brücken- und Triebwerkssteckplätzen.	0
 	Other slots:	Andere Steckplätze:	0
 	Inherent shipwide accuracy bonus, gets added to accuracy of all ship weapons.	Schiffsweiter Genauigkeitsbonus, wird zur Genauigkeit aller Schiffswaffen addiert.	0
@@ -1534,7 +1534,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Synthetics produced per minute	Produzierte Kunststoffe pro Minute	0
 	Fuel produced per minute	Produzierter Treibstoff pro Minute	0
 	Number of cryosleep tubes	Anzahl der Kryoschlaf-Röhren	0
-	Crew in cryosleep has a small chance to recover hitpoints while the ship is travelling around in space.	Die Besatzung im Kryoschlaf hat eine kleine Chance, Hitpoints wiederherzustellen, während das Schiff im Raum unterwegs ist.	0
+	Crew in cryosleep has a small chance to recover hitpoints while the ship is travelling around in space.	Die Besatzung im Kryoschlaf hat eine kleine Chance, HP wiederherzustellen, während das Schiff im Raum unterwegs ist.	0
 	chance to heal	Chance auf Heilung	23
 	Crew in cryosleep has a small chance to generate credits while the ship is travelling around in space.	Die Besatzung im Kryoschlaf hat eine kleine Chance, Kredite zu generieren, während das Schiff im Weltraum unterwegs ist.	0
 	may generate credits	kann Kredite generieren	35
@@ -1606,11 +1606,11 @@ ModuleSlot actions panel.prefab
 	CARGO	FRACHT	0
 	Click to list only craftable weapon and point defence modules	Klicken Sie hier, um nur die DIY Waffen- und Punktabwehr-Module aufzulisten	0
 	WEAPONS	WAFFEN	0
-	Click to list only craftable nukes	Klicken Sie hier, um nur DIY Atomwaffen aufzulisten	0
-	NUKES	ATOMBOMBEN	0
+	Click to list only craftable nukes	Klicken Sie hier, um nur DIY Bomben aufzulisten	0
+	NUKES	BOMBEN	0
 	Click to list only craftable survival modules	Klicken Sie hier, um nur DIY Überlebensmodule aufzulisten	0
 	SURVIVAL	ÜBERLEBEN	0
-	Click to list only craftable essential modules	Klicken Sie hier, um nur DIY essentielle Module aufzulisten	0
+	Click to list only craftable essential modules	Klicken Sie hier, um nur DIY unverzichtbare Module aufzulisten	0
 	ESSENTIAL	UNVERZICHTBAR	0
 	Click to list only craftable economy modules	Klicken Sie hier, um nur DIY Wirtschaftsmodule aufzulisten	0
 0	ECONOMY	WIRTSCHAFT	0
@@ -1674,7 +1674,7 @@ Maximum letters on one row: 10, possible 2 rows	HOSTILE\nSHIPS	FEINDL.\nSCHIFFE	
 	WARP\nJAMMED	BLOCK- \nIERT	10
 	Can't warp.\nToo far from stars	Kann nicht warpen.\nZu weit von Sternen entfernt	0
 Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU\nWEIT	10
-	No fuel, cannot move.\nScrap some less valuable fuel-yielding modules/nukes,\nor use the SOS-beacon.	Kein Treibstoff, kann sich nicht bewegen.\nVerschrotten Sie einige weniger wertvolle treibstoffproduzierende Module/Nukes,\noder benutzen Sie die SOS-Bake.	0
+	No fuel, cannot move.\nScrap some less valuable fuel-yielding modules/nukes,\nor use the SOS-beacon.	Kein Treibstoff, kann sich nicht bewegen.\nVerschrotten Sie einige weniger wertvolle treibstoffproduzierende Module/Bomben,\noder benutzen Sie die SOS-Bake.	0
 	No organics.\nDriving around will risk damaging crew health due to lack of life supplies.	Keine organischen Stoffe.\nWenn Sie herumfliegen, riskieren Sie eine Schädigung der Gesundheit der Crew aufgrund fehlender Lebensvorräte.	0
 	No explosives.\nWeapons that need explosives cannot fire.\nReplace them if possible.	Keine Sprengstoffe.\nWaffen, die Sprengstoffe benötigen, können nicht feuern.\nErsetzen Sie sie, wenn möglich.	0
 	No synthetics, module repairs not possible.\nConsider scrapping less useful modules if you need more synthethics.	Keine Kunststoffe, Modulreparaturen nicht möglich.\nBedenken Sie das Verschrotten weniger nützlicher Module, wenn Sie mehr Kunststoffe benötigen.	0
@@ -1771,8 +1771,8 @@ comtipText	Would you like to see an overview of most common weapon types?	Möcht
 	Some resources go to\nDUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu\nÜBERSCHÜSSIGE RESSOURCEN	0
 	STORE ALL & CLOSE	ALLES SPEICHERN & SCHLIESSEN	0
 	SALVAGED MODULES	GEBORGENE MODULE	0
-	Crew total hitpoints found/lost	Crew-Gesamt-Hitpoints gefunden/verloren	0
-	Crew max hitpoints added or removed on some crewmembers	Maximale Trefferpunkte der Crew bei einigen Crewmitgliedern hinzugefügt oder entfernt	0
+	Crew total hitpoints found/lost	Crew-Gesamt-HP gefunden/verloren	0
+	Crew max hitpoints added or removed on some crewmembers	Maximale HP der Crew bei einigen Crewmitgliedern hinzugefügt oder entfernt	0
 	Modules	Module	0
 	Exotics, most useful for crafting and bartering	Exoten, am nützlichsten für Handwerk und Tauschhandel	0
 	XenoData	Xenodaten	0
@@ -2420,7 +2420,7 @@ Entry warpgate.prefab
 Level 1 exit.prefab
 text	It seems a lot has changed while you were in cryosleep, Captain... we've been cut off from Intergalactic news for five years. The Rats used to be less desperate about making a profit.	Es scheint sich viel verändert zu haben, während Sie im Kryoschlaf waren, Kapitän... wir waren fünf Jahre lang von intergalaktischen Nachrichten abgeschnitten. Früher waren die Ratten weniger verzweifelt, wenn es darum ging, Profit zu machen.	600
 title	Rat Empire Gate Guard	Torwache des Rattenimperiums	35
-text	This long range warpgate is property of the Rat Empire.\nThose who wish to pass must pay the Gate Tax. I warn you that Those Questioning the Imperial Rules for Everyone Else will be executed. And I have a nuke.	Dieses Langstrecken-Warptor ist Eigentum des Rattenimperiums. Wer es passieren will, muss die Torsteuer bezahlen. Ich warne Sie, dass diejenigen, die die imperialen Regeln für alle anderen in Frage stellen, hingerichtet werden. Und ich habe eine Atombombe.	400
+text	This long range warpgate is property of the Rat Empire.\nThose who wish to pass must pay the Gate Tax. I warn you that Those Questioning the Imperial Rules for Everyone Else will be executed. And I have a nuke.	Dieses Langstrecken-Warptor ist Eigentum des Rattenimperiums. Wer es passieren will, muss die Torsteuer bezahlen. Ich warne Sie, dass diejenigen, die die imperialen Regeln für alle anderen in Frage stellen, hingerichtet werden. Und ich habe eine Bombe.	400
 choiceText	Pay the tax, travel to next sector [-300 credits]	Zahlt die Steuer, reist zum nächsten Sektor [-300 Kredite]	100
 choiceText	Attempt to bribe [-7 exotics]	Versuch der Bestechung [-7 Exoten]	100
 choiceText	Your rules inspire me to question them [ready for battle]	Ihre Regeln inspirieren mich, sie in Frage zu stellen [bereit zum Kampf]	100
@@ -2538,8 +2538,8 @@ text	scavenging... %	Plündern... %	50
 text	We have discovered a debris cloud of unknown origin. We can scavenge some of the metal and there might be something else useful amidst the broken pieces.	Wir haben eine Trümmerwolke unbekannter Herkunft entdeckt. Wir können einen Teil des Metalls plündern und vielleicht ist unter den Scherben noch etwas anderes Brauchbares.	400
 title	Module found	Modul gefunden	35
 text2	An intact module was discovered floating among the debris.	Ein intaktes Modul wurde in den Trümmern entdeckt.	400
-title	Dormant capital missile	Ruhende Kapitalrakete	35
-text2	Within the debris was a capital missile that was launched ages ago, but never found its target, staying in standby mode. It somehow identified us as a threat and attacked before we could neutralize it.	In den Trümmern befand sich eine Capital Missile, die vor langer Zeit gestartet wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Sie erkannte uns irgendwie als Bedrohung und griff an, bevor wir sie neutralisieren konnten.	400
+title	Dormant capital missile	Ruhende Rakete	35
+text2	Within the debris was a capital missile that was launched ages ago, but never found its target, staying in standby mode. It somehow identified us as a threat and attacked before we could neutralize it.	In den Trümmern befand sich eine Rakete, die vor langer Zeit gestartet wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Sie erkannte uns irgendwie als Bedrohung und griff an, bevor wir sie neutralisieren konnten.	400
 title	Stealthy minefield	Tarnminenfeld	35
 text2	As we entered the debris cloud, our ship and utility bots were attacked by smart micro-mines in the debris. This is an active minefield! Operation abandoned.	Als wir in die Trümmerwolke eindrangen, wurden unser Schiff und die Versorgungsbots von intelligenten Mikrominen in den Trümmern angegriffen. Das ist ein aktives Minenfeld! Operation abgebrochen.	400
 title	Ship parts collected	Schiffsteile gesammelt	35
@@ -2746,13 +2746,13 @@ choiceText	Scavenge with Mothership	Plündern mit Mutterschiff	100
 choiceText	Scavenge with printed bots & equipment [-50 synthethics]	Plündern mit gedruckten Bots & Geräten [-50 Kunststoffe]	100
 text2	An intact artifact with partially active subsystems was discovered floating among the debris.	Ein intaktes Artefakt mit teilweise aktiven Subsystemen wurde in den Trümmern entdeckt.	400
 reasonToDisplay	materials salvaged	Geborgene Materialien	30
-title	Capital missile ambush!	Kapitaler Raketenangriff aus dem Hinterhalt!	35
-text2	The active technology within the debris was a capital missile that was shot out ages ago, but never found its target, staying in standby mode. During the operation, it somehow identified us as a threat and attacked.	Bei der aktiven Technologie in den Trümmern handelte es sich um eine Capital Missile, die vor Ewigkeiten abgeschossen wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Während des Einsatzes hat sie uns irgendwie als Bedrohung erkannt und angegriffen.	400
-reasonToDisplay	capital missile attack!	kapitaler raketenangriff!	30
+title	Capital missile ambush!	Raketenangriff aus dem Hinterhalt!	35
+text2	The active technology within the debris was a capital missile that was shot out ages ago, but never found its target, staying in standby mode. During the operation, it somehow identified us as a threat and attacked.	Bei der aktiven Technologie in den Trümmern handelte es sich um eine Rakete, die vor Ewigkeiten abgeschossen wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Während des Einsatzes hat sie uns irgendwie als Bedrohung erkannt und angegriffen.	400
+reasonToDisplay	capital missile attack!	Raketenangriff!	30
 text	We do not have the necessary resources for this operation. We may try again later when we are better equipped.	Wir haben nicht die nötigen Ressourcen für diese Operation. Wir können es später wieder versuchen, wenn wir besser ausgerüstet sind.	600
 text2	An intact artifact with partially active subsystems was discovered floating among the debris. We recovered some of the materials used in printing the bots.	Ein intaktes Artefakt mit teilweise aktiven Subsystemen wurde in den Trümmern entdeckt. Wir haben einige der Materialien geborgen, die zum Drucken der Bots verwendet wurden.	400
 reasonToDisplay	artifact found	Artefakt gefunden	30
-text2	The active technology within the debris was a capital missile that was armed ages ago, but never found its target, staying in standby mode. It attacked our bots during the operation, destroying a few.	Bei der aktiven Technologie in den Trümmern handelte es sich um eine Kapitalrakete, die vor langer Zeit scharf gemacht wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Sie griff unsere Bots während der Operation an und zerstörte ein paar.	400
+text2	The active technology within the debris was a capital missile that was armed ages ago, but never found its target, staying in standby mode. It attacked our bots during the operation, destroying a few.	Bei der aktiven Technologie in den Trümmern handelte es sich um eine Rakete, die vor langer Zeit scharf gemacht wurde, aber nie ihr Ziel fand und im Bereitschaftsmodus blieb. Sie griff unsere Bots während der Operation an und zerstörte ein paar.	400
 
 3 Exo friendly warp animal.prefab
 text	A warp animal is flying towards us.	Ein Warptier fliegt auf uns zu.	400
@@ -3116,7 +3116,7 @@ newName3	needs 200 synthetics	braucht 200 synthetics	25
 text2	After repairing his ship, the captain sends us a giant natural artifact as expression of gratitude, along with some fine exotic consumables.	Nachdem er sein Schiff repariert hat, schickt uns der Kapitän ein riesiges natürliches Artefakt als Ausdruck der Dankbarkeit, zusammen mit einigen feinen exotischen Verbrauchsmaterialien.	400
 text	We do not have enough synthethics. We may return later if we have more.	Wir haben nicht genug Kunststoffe. Wir können später zurückkehren, wenn wir mehr haben.	600
 text2	Only the SOS signal was still active, everything else had broken down long ago. We salvaged everything.	Nur das SOS-Signal war noch aktiv, alles andere war schon längst kaputt. Wir haben alles geborgen.	400
-text2	After repairing his ship, the captain expresses his gratitude by sending us a pair of capital missiles!	Nachdem wir sein Schiff repariert haben, bedankt sich der Kapitän, indem er uns ein Paar Kapitalraketen schickt!	400
+text2	After repairing his ship, the captain expresses his gratitude by sending us a pair of capital missiles!	Nachdem wir sein Schiff repariert haben, bedankt sich der Kapitän, indem er uns ein Paar Raketen schickt!	400
 
 SOS6 exo, reactor or explos.prefab
 title	Shadowslither captain	Schattenschnitter-Kapitän	35
@@ -3127,7 +3127,7 @@ newName3	needs 300 synthetics	braucht 300 Kunststoffe	25
 title	Shadowslither gift	Geschenk der Schattenschnitter	35
 text2	After repairing his ship, the captain sends us a "THANK YOU SKELETON APE!" and a beautiful giant flower. It's some kind of advanced biotech reactor.	Nachdem er sein Schiff repariert hat, schickt uns der Kapitän ein "DANKE SKELETON APE!" und eine wunderschöne Riesenblume. Es ist eine Art fortschrittlicher Biotech-Reaktor.	400
 text2	The SOS signal was still active, everything else broke down long ago. We salvaged everything.	Das SOS-Signal war noch aktiv, alles andere ist längst zusammengebrochen. Wir haben alles geborgen.	400
-text2	After repairing his ship, the captain sends us a "THANK YOU WAR SKELETON APE!" message plus a nuke and several tons of sugar.	Nachdem wir sein Schiff repariert haben, schickt uns der Kapitän eine "DANKE KRIEG SKELETON APE!"-Nachricht plus eine Atombombe und mehrere Tonnen Zucker.	400
+text2	After repairing his ship, the captain sends us a "THANK YOU WAR SKELETON APE!" message plus a nuke and several tons of sugar.	Nachdem wir sein Schiff repariert haben, schickt uns der Kapitän eine "DANKE KRIEG SKELETON APE!"-Nachricht plus eine Bombe und mehrere Tonnen Zucker.	400
 
 SOS7 exo, drones and reactor.prefab
 title	Help needed	Hilfe benötigt	35
@@ -3374,7 +3374,7 @@ title	Nuclear detonation	Nukleare Detonation	35
 text2	One of our salvage crew somehow triggered an ancient atomic bomb during the operation. The person vaporized instantly, and others received serious injuries. We decided to move on and not take any further risks here.	Einer unserer Bergungstrupps hat während des Einsatzes irgendwie eine antike Atombombe ausgelöst. Die Person verdampfte auf der Stelle, und andere erlitten schwere Verletzungen. Wir haben beschlossen, weiterzuziehen und hier keine weiteren Risiken einzugehen.	400
 reasonToDisplay	nuclear explosion	Atomexplosion	30
 text	Scavenging resources... %	Beim Plündern von Ressourcen... %	50
-texts	We found an old nuke! Perhaps it is still functional?...	Wir haben eine alte Atombombe gefunden! Vielleicht ist sie noch funktionsfähig?...	80
+texts	We found an old nuke! Perhaps it is still functional?...	Wir haben eine alte Bombe gefunden! Vielleicht ist sie noch funktionsfähig?...	80
 text2	All remains of the past civilization were heavily degraded by time.	Alle Überreste der vergangenen Zivilisation wurden durch die Zeit stark degradiert.	400
 title	Research complex	Forschungskomplex	35
 text2	The structure was an automated military complex researching exotic weapons. It attacked us as we approached, but our counterfire destroyed all it's weapons. The remaining ruins yielded considerable salvage.	Die Struktur war ein automatisierter Militärkomplex, der exotische Waffen erforschte. Es griff uns an, als wir uns näherten, aber unser Gegenfeuer zerstörte alle Waffen. Die verbleibenden Ruinen erbrachten beträchtliche Ausbeute.	400
@@ -3390,9 +3390,9 @@ title	Not enough crew	Nicht genug Besatzung	35
 text	"We do not have enough crew needed for the task."	Wir haben nicht genug Besatzung für diese Aufgabe.	600
 text	investigating... %	Ermitteln... %	50
 text	hacking military base... %	Militärbasis hacken... %	50
-title	Nukes scavenged	Atombomben erbeutet	35
+title	Nukes scavenged	Bomben erbeutet	35
 text2	The hackers were able to disable all facility defences, making the structure ready for scavenging. One of the salvaged memory cores contained data about the station executing orders to bombard the nearby planet to neutralize "local political threats" a few hundred years ago.	Die Hacker waren in der Lage, alle Verteidigungseinrichtungen der Anlage zu deaktivieren, so dass die Struktur für die Plünderung bereit war. Einer der geborgenen Speicherkerne enthielt Daten darüber, dass die Station vor ein paar hundert Jahren Befehle zur Bombardierung des nahegelegenen Planeten ausführte, um "lokale politische Bedrohungen" zu neutralisieren.	400
-reasonToDisplay	nukes obtained	Atombomben erhalten	30
+reasonToDisplay	nukes obtained	Bomben erhalten	30
 text	Should we send a search & rescue operation for the missing crewmembers, most likely dead?	Sollen wir eine Such- und Rettungsaktion für die vermissten, höchstwahrscheinlich toten Besatzungsmitglieder starten?	400
 choiceText	Search & rescue operation [send 2 crew]	Such- und Rettungsaktion [schicken Sie 2 Crewmitglieder]	100
 choiceText	Leave. The missing crewmembers are most likely dead.	Gehen Sie. Die vermissten Besatzungsmitglieder sind höchstwahrscheinlich tot.	100
@@ -3409,11 +3409,11 @@ reasonToDisplay	guardian bots	Wächter-Bots	30
 texts	The nuke was indeed functional...	Die Atombombe war tatsächlich funktionsfähig...	80
 text	existential thoughts... %	Existenzielle Gedanken... %	50
 title	Munitions salvaged	Munition geborgen	35
-text2	Our crew found an ancient capital missile amongst the debris, but it was damaged beyond repair and had to be scrapped.	Unsere Crew hat unter den Trümmern eine uralte Kapitalrakete gefunden, aber sie war irreparabel beschädigt und musste verschrottet werden.	400
+text2	Our crew found an ancient capital missile amongst the debris, but it was damaged beyond repair and had to be scrapped.	Unsere Crew hat unter den Trümmern eine uralte Rakete gefunden, aber sie war irreparabel beschädigt und musste verschrottet werden.	400
 reasonToDisplay	munitions salvaged	munitions salvaged	30
 text2	All the crew that was left behind had preagreed that we should have the freedom to cut our losses in the face of high risks. We move on.	Die gesamte zurückgebliebene Crew hatte sich darauf geeinigt, dass wir angesichts des hohen Risikos die Freiheit haben sollten, unsere Verluste zu begrenzen. Wir machen weiter.	400
 text2	One of the salvaged memory cores contained data about the station executing orders to bombard the nearby planet to neutralize "local political threats" a few hundred years ago.	Einer der geborgenen Speicherkerne enthielt Daten darüber, dass die Station vor ein paar hundert Jahren den Befehl ausführte, den nahegelegenen Planeten zu bombardieren, um "lokale politische Bedrohungen" zu neutralisieren.	400
-text2	Our crew found an ancient capital missile amongst the debris.	Unsere Crew fand unter den Trümmern eine antike Kapitalrakete.	400
+text2	Our crew found an ancient capital missile amongst the debris.	Unsere Crew fand unter den Trümmern eine antike Rakete.	400
 
 1 P oretree exo.prefab
 name2	Planet with minimal atmosphere	Planet mit minimaler Atmosphäre	25
@@ -3671,13 +3671,13 @@ reasonToDisplay	intervention successful	Intervention erfolgreich	30
 newName2	ex-militarist civilization	Ex-militärische Zivilisation	25
 title	Grave under-estimation	Gravierende Unterschätzung	35
 text2	We underestimated the size of the planetary nuclear arsenals and accidentally caused a nuclear winter with our retaliation against them. Only a few pockets of survivors remain now and the planet's ecosystem, along with the entire civilization, is expected to undergo a major extinction event. We also received some damage ourselves. This is a disaster. At least it's kind of a good campfire story.	Wir haben die Größe der planetaren Nukleararsenale unterschätzt und mit unserem Vergeltungsschlag gegen sie versehentlich einen nuklearen Winter ausgelöst. Jetzt gibt es nur noch ein paar wenige Überlebende, und das Ökosystem des Planeten wird zusammen mit der gesamten Zivilisation voraussichtlich ein großes Aussterbeereignis erleben. Wir haben auch selbst einige Schäden erlitten. Das ist eine Katastrophe. Zumindest ist es eine gute Lagerfeuer-Geschichte.	400
-reasonToDisplay	nuclear winter caused	nuklearer winter verursacht	30
-newName2	nuclear winter	nuklearer Winter	25
+reasonToDisplay	nuclear winter caused	Nuklearer Winter verursacht	30
+newName2	nuclear winter	Nuklearer Winter	25
 title	Operation success	Operation erfolgreich	35
-text2	Our operatives successfully infiltrated the society of the militaristic insectoids. They were horrified to see the level of suffering that such a violence-based leadership produces in a civilization. At least now these poor fools have less nukes for killing each other.	Unsere Agenten infiltrierten erfolgreich die Gesellschaft der militaristischen Insektoiden. Sie waren entsetzt, als sie sahen, welches Ausmaß an Leid eine solche auf Gewalt basierende Führung in einer Zivilisation hervorbringt. Wenigstens haben diese armen Narren jetzt weniger Atombomben, um sich gegenseitig umzubringen.	400
+text2	Our operatives successfully infiltrated the society of the militaristic insectoids. They were horrified to see the level of suffering that such a violence-based leadership produces in a civilization. At least now these poor fools have less nukes for killing each other.	Unsere Agenten infiltrierten erfolgreich die Gesellschaft der militaristischen Insektoiden. Sie waren entsetzt, als sie sahen, welches Ausmaß an Leid eine solche auf Gewalt basierende Führung in einer Zivilisation hervorbringt. Wenigstens haben diese armen Narren jetzt weniger Bombe, um sich gegenseitig umzubringen.	400
 reasonToDisplay	reseources stolen	Ressourcen gestohlen	30
 title	Nuclear warhead captured	Nuklearer Sprengkopf erbeutet	35
-text2	Many of our external bots and other rapidly printed tech was destroyed, but we were able to catch one of the larger nukes launched at us.	Viele unserer externen Bots und andere schnell gedruckte Tech wurde zerstört, aber wir konnten eine der größeren Atombomben abfangen, die auf uns abgefeuert wurde.	400
+text2	Many of our external bots and other rapidly printed tech was destroyed, but we were able to catch one of the larger nukes launched at us.	Viele unserer externen Bots und andere schnell gedruckte Tech wurde zerstört, aber wir konnten eine der größeren Bombe abfangen, die auf uns abgefeuert wurde.	400
 reasonToDisplay	militaristic primitives encountered	militaristischen Primitiven begegnet	30
 text	The local military leaders lose their cool, fearing that we are trying to manipulate them via communication. They shut all commchannels and launch primitive nuclear missiles against us from their ground bases.	Die lokalen Militärführer verlieren die Fassung, da sie befürchten, dass wir versuchen, sie über die Kommunikation zu manipulieren. Sie schließen alle Kommunikationskanäle und feuern von ihren Bodenbasen aus primitive Atomraketen auf uns ab.	400
 choiceText	Leave this planet of fools, these slow nukes won't catch us	Verlassen Sie diesen Planeten der Narren, diese langsamen Atomraketen werden uns nicht erwischen	100
@@ -4282,7 +4282,7 @@ text	Our operatives have infiltrated the local civilization, a truly barbarian s
 choiceText	Steal military assets (riskier)	Militärische Anlagen stehlen (riskanter)	100
 choiceText	Steal industrial assets (safer)	Industrielle Anlagen stehlen (sicherer)	100
 title	Assets stolen	Vermögenswerte stehlen	35
-text2	The local primitive financial system was helpless against our digital warfare, and we managed to seemingly legally acquire immense assets across the globe, including a nuke. We redistributed a majority of the assets towards the seemingly most benevolent local organisations and smuggled many munitions out of the planet, replacing them with plastic replicas.	Das lokale primitive Finanzsystem war unserer digitalen Kriegsführung hilflos ausgeliefert, und wir schafften es, scheinbar legal immense Vermögenswerte auf dem gesamten Globus zu erwerben, darunter auch eine Atombombe. Wir verteilten einen Großteil der Vermögenswerte an die scheinbar wohlwollendsten lokalen Organisationen und schmuggelten viele Munition aus dem Planeten und ersetzten sie durch Plastikreplikate.	400
+text2	The local primitive financial system was helpless against our digital warfare, and we managed to seemingly legally acquire immense assets across the globe, including a nuke. We redistributed a majority of the assets towards the seemingly most benevolent local organisations and smuggled many munitions out of the planet, replacing them with plastic replicas.	Das lokale primitive Finanzsystem war unserer digitalen Kriegsführung hilflos ausgeliefert, und wir schafften es, scheinbar legal immense Vermögenswerte auf dem gesamten Globus zu erwerben, darunter auch eine Bombe. Wir verteilten einen Großteil der Vermögenswerte an die scheinbar wohlwollendsten lokalen Organisationen und schmuggelten viele Munition aus dem Planeten und ersetzten sie durch Plastikreplikate.	400
 reasonToDisplay	digital operation completed	Digitale Operation abgeschlossen	30
 title	Digital warfare successful	Digitale Kriegsführung erfolgreich	35
 text2	The local primitive financial system was helpless against our digital warfare, and we managed to seemingly legally acquire a large stockpile of nuclear fuel and other resources. Smuggling it out from the planet along with our operatives was a bit more difficult, but ultimately successful.	Das lokale primitive Finanzsystem war unserer digitalen Kriegsführung hilflos ausgeliefert, und es gelang uns, scheinbar legal einen großen Vorrat an Kernbrennstoff und anderen Ressourcen zu erwerben. Sie zusammen mit unseren Agenten vom Planeten zu schmuggeln, war etwas schwieriger, aber letztlich erfolgreich.	400
@@ -4784,8 +4784,8 @@ title	Sentients contacted	Intelligente Lebewesen kontaktiert	35
 text	We've discovered & contacted a local civilization. The Orbians seem highly intelligent despite using little technology. After having a long chat with our AI, they propose a trade. They want a battery with starfuel so they could "overcharge" themselves for pleasure. They promise an ancient piece of intact technology in return."	Wir haben eine lokale Zivilisation entdeckt und kontaktiert. Die Orbianer scheinen hochintelligent zu sein, obwohl sie nur wenig Technologie benutzen. Nach einem langen Gespräch mit unserer KI schlagen sie einen Handel vor. Sie wollen eine Batterie mit Sternentreibstoff, damit sie sich zum Vergnügen "überladen" können. Im Gegenzug versprechen sie ein uraltes Stück intakter Technologie."	400
 choiceText	Trade [-50 fuel]	Handel [-50 Treibstoff]	100
 newName3	Orbian civilization	Orbische Zivilisation	25
-title	Capital missile	Hauptstadt-Rakete	35
-text2	After paying the agreed amount of fuel which the locals intend to consume as a drug, they lead us to a degraded defence station. It turns out the ancient technology isn't of precursor origin, but a capital missile, installed ages past by some primitive militarists.	Nachdem wir die vereinbarte Menge Treibstoff bezahlt haben, den die Einheimischen als Droge konsumieren wollen, führen sie uns zu einer heruntergekommenen Verteidigungsstation. Es stellt sich heraus, dass die uralte Technologie nicht von den Vorläufern stammt, sondern eine Kapitalrakete ist, die vor Urzeiten von einigen primitiven Militaristen installiert wurde.	400
+title	Capital missile	Rakete	35
+text2	After paying the agreed amount of fuel which the locals intend to consume as a drug, they lead us to a degraded defence station. It turns out the ancient technology isn't of precursor origin, but a capital missile, installed ages past by some primitive militarists.	Nachdem wir die vereinbarte Menge Treibstoff bezahlt haben, den die Einheimischen als Droge konsumieren wollen, führen sie uns zu einer heruntergekommenen Verteidigungsstation. Es stellt sich heraus, dass die uralte Technologie nicht von den Vorläufern stammt, sondern eine Rakete ist, die vor Urzeiten von einigen primitiven Militaristen installiert wurde.	400
 reasonToDisplay	ancient missile retrieved	Antike Rakete geborgen	30
 text	Strong electrical storms in the atmosphere prevent us from observing the surface. Minimal chance of external damage if we enter the atmosphere.	Starke elektrische Stürme in der Atmosphäre hindern uns daran, die Oberfläche zu beobachten. Minimale Chance auf äußeren Schaden, wenn wir in die Atmosphäre eintreten.	400
 choiceText	Explore planet [enter the atmosphere]	Planet erforschen [Eintritt in die Atmosphäre]	100
@@ -4831,8 +4831,8 @@ text	Strong electromagnetic interference prevents us from scanning the planet's 
 4 P command center with potential nuke.prefab
 text	Exploring building... %	Gebäude erforschen... %	50
 title	Nuke obtained	Nuke erhalten	35
-text2	Our industrial-grade energy cutters are eventually able to cut the building in half. The capital missile inside is well preserved. We are also able to scavenge a small amount of military-grade materials.	Unsere Industrie-Energieschneider sind schließlich in der Lage, das Gebäude in zwei Hälften zu schneiden. Die Capital Missile im Inneren ist gut erhalten. Wir sind auch in der Lage, eine kleine Menge an militärischen Materialien zu bergen.	400
-reasonToDisplay	capital missile salvaged	Capital Missile geborgen	30
+text2	Our industrial-grade energy cutters are eventually able to cut the building in half. The capital missile inside is well preserved. We are also able to scavenge a small amount of military-grade materials.	Unsere Industrie-Energieschneider sind schließlich in der Lage, das Gebäude in zwei Hälften zu schneiden. Die Rakete im Inneren ist gut erhalten. Wir sind auch in der Lage, eine kleine Menge an militärischen Materialien zu bergen.	400
+reasonToDisplay	capital missile salvaged	Rakete geborgen	30
 title	Abandoned building	Verlassenes Gebäude	35
 text	We've located a single structure on the planet surface. The heavily armored outer layer suggests it is a military building. \nNo signs of life or active technology detected.	Wir haben ein einzelnes Gebäude auf der Planetenoberfläche geortet. Die stark gepanzerte äußere Schicht lässt vermuten, dass es sich um ein militärisches Gebäude handelt. \nKeine Anzeichen von Leben oder aktiver Technologie entdeckt.	400
 choiceText	Investigate [send crew]	Untersuchen [schicken Sie eine Crew]	100
@@ -5069,7 +5069,7 @@ newName3	Collector civilization, industrial era	Sammlerzivilisation, Industrieze
 text2	After completing the exchange and a bit of testing, it turns out we have been delivered a much lower quality fuel than promised. When we point out the mistake, the locals tell us that their previous representatives were criminals and have already been executed. We are given some kind of poor local food as remuneration. The incident has created a large political conflict between the planet's ruling factions...	Nach Abschluss des Tauschs und ein paar Tests stellt sich heraus, dass wir einen viel minderwertigeren Treibstoff als versprochen erhalten haben. Als wir auf den Fehler hinweisen, sagen uns die Einheimischen, dass ihre früheren Vertreter Kriminelle waren und bereits hingerichtet wurden. Als Entschädigung erhalten wir eine Art schlechtes lokales Essen. Der Vorfall hat einen großen politischen Konflikt zwischen den herrschenden Fraktionen des Planeten ausgelöst...	400
 reasonToDisplay	problems...	Probleme...	30
 title	Nuclear conflict	Nuklearer Konflikt	35
-text2	Soon, the squabbling of local factions turns into a military conflict. Within a few days, the local leaders bring out their greatest assets, and start bombing civilian populations ruled by other leaders...with nukes. Amidst the chaos, one of the political groups tries to abduct our ambassadors, resulting in a firefight that leaves over thirty of the locals dead...	Bald verwandelt sich das Gezänk der lokalen Fraktionen in einen militärischen Konflikt. Innerhalb weniger Tage bringen die lokalen Anführer ihre größten Trümpfe zum Einsatz und beginnen, die Zivilbevölkerung, die von anderen Anführern regiert wird, zu bombardieren... mit Atombomben. Inmitten des Chaos versucht eine der Fraktionen, unsere Botschafter zu entführen, was zu einem Feuergefecht führt, bei dem über dreißig Einheimische sterben...	400
+text2	Soon, the squabbling of local factions turns into a military conflict. Within a few days, the local leaders bring out their greatest assets, and start bombing civilian populations ruled by other leaders...with nukes. Amidst the chaos, one of the political groups tries to abduct our ambassadors, resulting in a firefight that leaves over thirty of the locals dead...	Bald verwandelt sich das Gezänk der lokalen Fraktionen in einen militärischen Konflikt. Innerhalb weniger Tage bringen die lokalen Anführer ihre größten Trümpfe zum Einsatz und beginnen, die Zivilbevölkerung, die von anderen Anführern regiert wird, zu beschiessen... mit Bomben. Inmitten des Chaos versucht eine der Fraktionen, unsere Botschafter zu entführen, was zu einem Feuergefecht führt, bei dem über dreißig Einheimische sterben...	400
 reasonToDisplay	attacks & ambushes	Angriffe & Hinterhalte	30
 title	Intervention requested	Intervention angefordert	35
 text	While the conflict rages on, several factions plead with you to intervene and end the war. It seems the conflict is now mainly fought over which of the local leaders has more ethical principles.	Während der Konflikt weiter wütet, bitten mehrere Fraktionen Sie, einzugreifen und den Krieg zu beenden. Es scheint, dass der Konflikt nun hauptsächlich darum ausgetragen wird, welcher der lokalen Anführer mehr ethische Prinzipien hat.	400
@@ -5130,7 +5130,7 @@ text	The entire planet is barren and lifeless, except for a large black building
 choiceText	Attempt communication	Versuch der Kommunikation	100
 title	"Destruction Flower" shop"	Blumenladen der Zerstörung	35
 text2	After receiving the payment, the tower releases a bot carrying something towards our ship.	Nachdem wir die Zahlung erhalten haben, lässt der Turm einen Bot los, der etwas in Richtung unseres Schiffes trägt.	400
-reasonToDisplay	nuke obtained	Atombombe erhalten	30
+reasonToDisplay	nuke obtained	Bombe erhalten	30
 text2	As we leave the area, we witness a nuclear explosion at the tower location, receiving further damage. Whatever this was, apparently there was somebody who had a serious disagreement with the Destruction Flower shop.	Als wir das Gebiet verlassen, werden wir Zeuge einer nuklearen Explosion am Standort des Turms, die weiteren Schaden anrichtet. Was auch immer das war, anscheinend gab es jemanden, der eine ernsthafte Meinungsverschiedenheit mit dem Blumenladen der Zerstörung hatte.	400
 text	Suddenly, the tower, the bot and your ship come under fire from nearby hills. We disengage while laying down suppressive fire...	Plötzlich geraten der Turm, der Bot und Ihr Schiff unter Beschuss von nahegelegenen Hügeln. Wir ziehen uns zurück, während wir Unterdrückungsfeuer geben...	600
 text	Strong electromagnetic interference prevents us from scanning the planet from orbit. We cannot observe the surface without entering the atmosphere.	Starke elektromagnetische Interferenzen verhindern, dass wir den Planeten aus dem Orbit scannen können. Wir können die Oberfläche nicht beobachten, ohne in die Atmosphäre einzutreten.	400
@@ -5553,9 +5553,9 @@ text2	After using up a significant amount of our own organics for tests, the mic
 
 6 Pi Stat AMBUSH drones.prefab
 text	A small station orbits this otherwise uninteresting planet. It is sending a trader signal, but its credentials are unknown.	Eine kleine Station umkreist diesen ansonsten uninteressanten Planeten. Sie sendet ein Händlersignal, aber ihre Berechtigung ist unbekannt.	400
-title	Nuke salesmen	Nuke-Verkäufer	35
-text	The station seems to be selling exclusively worthless junk, except for a shady pair of Gitchankis. They offer an exotic biotech nuke. No refunds, of course.	Die Station scheint ausschließlich wertlosen Ramsch zu verkaufen, mit Ausnahme eines zwielichtigen Paares von Gitchankis. Sie bieten eine exotische Biotech-Atombombe an. Natürlich ohne Rückerstattung.	400
-choiceText	Buy the nuke [-5 exotics]	Kaufen Sie die Nuke [-5 Exoten]	100
+title	Nuke salesmen	Bomben-Verkäufer	35
+text	The station seems to be selling exclusively worthless junk, except for a shady pair of Gitchankis. They offer an exotic biotech nuke. No refunds, of course.	Die Station scheint ausschließlich wertlosen Ramsch zu verkaufen, mit Ausnahme eines zwielichtigen Paares von Gitchankis. Sie bieten eine exotische Biotech-Bombe an. Natürlich ohne Rückerstattung.	400
+choiceText	Buy the nuke [-5 exotics]	Kaufen Sie die Bombe [-5 Exoten]	100
 title	Techno Junk traders	Techno-Schrott-Händler	35
 text	It turns out the station sells only ancient farming drones, and these are too large for our ship. However, a shady pair of Gor-Mor offers old, obsolete or broken modules in bulk, for cheap.	Es stellt sich heraus, dass die Station nur uralte Farming-Drohnen verkauft, und diese sind zu groß für unser Schiff. Allerdings bietet ein zwielichtiges Gor-Mor-Pärchen alte, veraltete oder kaputte Module in großen Mengen an, und zwar für wenig Geld.	400
 choiceText	Buy 3 modules [-175 creds]	3 Module kaufen [-175 Kredite]	100
@@ -5563,8 +5563,8 @@ text2	The station replica self-destructed after we had defeated the boarding bot
 title	Automated Ambush!	Automatischer Überfall!	35
 text	The entire structure proves to be a hollow metal replica of a station filled with junk, to trick our sensors. Several very crude, but deadly boarding bots have been detected landing on our ship's hull...	Die gesamte Struktur entpuppt sich als hohle Metallreplik einer Station, die mit Schrott gefüllt ist, um unsere Sensoren zu täuschen. Mehrere sehr plumpe, aber tödliche Enterbots wurden entdeckt, die auf der Hülle unseres Schiffes gelandet sind...	600
 title	Unmentioned detail	Unerwähntes Detail	35
-text2	The nuke is delivered as promised, although it's broken and must be repaired before use.	Die Atombombe wird wie versprochen geliefert, obwohl sie kaputt ist und vor dem Einsatz repariert werden muss.	400
-text2	The nuke is delivered as promised. As a symbolic gift, the trader also gives us a container filled some kind of dead birds.	Die Atombombe wird wie versprochen geliefert. Als symbolisches Geschenk übergibt uns der Händler außerdem einen Container, der mit einer Art toter Vögel gefüllt ist.	400
+text2	The nuke is delivered as promised, although it's broken and must be repaired before use.	Die Bombe wird wie versprochen geliefert, obwohl sie kaputt ist und vor dem Einsatz repariert werden muss.	400
+text2	The nuke is delivered as promised. As a symbolic gift, the trader also gives us a container filled some kind of dead birds.	Die Bombe wird wie versprochen geliefert. Als symbolisches Geschenk übergibt uns der Händler außerdem einen Container, der mit einer Art toter Vögel gefüllt ist.	400
 reasonToDisplay	trade succesful	Der Handel ist erfolgreich	30
 text2	All of the modules prove to be completely unusable in our ship, but far from worthless, given potentially high scrap value.	Alle Module erweisen sich in unserem Schiff als völlig unbrauchbar, aber bei weitem nicht wertlos, da sie möglicherweise einen hohen Schrottwert haben.	400
 text2	Initial analysis indicates most of the technology received is both old and in poor shape, but far from worthless, given potentially high scrap value.	Eine erste Analyse zeigt, dass der Großteil der erhaltenen Technologie sowohl alt als auch in schlechtem Zustand ist, aber bei weitem nicht wertlos, da der Schrottwert potenziell hoch ist.	400
@@ -5622,7 +5622,7 @@ name2	Primitive civilization	Primitive Zivilisation	25
 name3	SOS-signal	SOS-Signal	25
 text	covert rescue operation... %	Verdeckte Rettungsaktion... %	50
 title	Intergalactic tourist	Intergalaktischer Tourist	35
-text2	The signal came from a crashlanded civilian ship. The single insectoid pilot is unfortunately dead. Pictographic ship's log reveals the pilot was a child, just flying around space and adventuring. Her ship was shot down by a swarm of local nukes. We scavenge everything.	Das Signal kam von einem abgestürzten zivilen Schiff. Der einzelne insektoide Pilot ist leider tot. Das piktografische Schiffslogbuch verrät, dass die Pilotin ein Kind war, das nur im Weltraum herumflog und Abenteuer erlebte. Ihr Schiff wurde von einem Schwarm lokaler Atombomben abgeschossen. Wir plündern alles aus.	400
+text2	The signal came from a crashlanded civilian ship. The single insectoid pilot is unfortunately dead. Pictographic ship's log reveals the pilot was a child, just flying around space and adventuring. Her ship was shot down by a swarm of local nukes. We scavenge everything.	Das Signal kam von einem abgestürzten zivilen Schiff. Der einzelne insektoide Pilot ist leider tot. Das piktografische Schiffslogbuch verrät, dass die Pilotin ein Kind war, das nur im Weltraum herumflog und Abenteuer erlebte. Ihr Schiff wurde von einem Schwarm lokaler Bomben abgeschossen. Wir plündern alles aus.	400
 title	Signal source found	Signalquelle gefunden	35
 text2	The SOS signal came from a crashlanded civilian ship. The unconscious pilot was taken aboard, but local warmachines were detected approaching while we were in the middle of salvaging the ship. Our operatives grabbed everything they could and detonated the remaining wreckage before leaving. The local primitives are not ready for such technology.	Das SOS-Signal kam von einem abgestürzten zivilen Schiff. Der bewusstlose Pilot wurde an Bord gebracht, doch während wir mit der Bergung des Schiffes beschäftigt waren, wurden lokale Kriegsmaschinen entdeckt, die sich näherten. Unsere Agenten schnappten sich alles, was sie konnten, und sprengten die restlichen Wrackteile, bevor sie abzogen. Die einheimischen Primitiven sind nicht bereit für diese Technologie.	400
 crewDescriptionOverride	A young intergalactic explorer that we saved after they crashlanded among primitive militarists.	Ein junger intergalaktischer Forscher, den wir nach der Bruchlandung unter primitiven Militaristen retteten.	250
@@ -5639,7 +5639,7 @@ reasonToDisplay	nuclear attack	Atomangriff	30
 text	escape attempt...	Fluchtversuch...	50
 text2	We escape in haste, leaving behind utility bots to cover our retreat. One of the hostile warmachines managed to hit a shuttle, but this wasn't enough to prevent our escape.	Wir fliehen überstürzt und lassen Versorgungsbots zurück, um unseren Rückzug zu decken. Einer der feindlichen Kriegsmaschinen gelingt es, ein Shuttle zu treffen, aber das war nicht genug, um unsere Flucht zu verhindern.	400
 title	Deal gone sour	Der Deal ging schief	35
-text	The signal came from a crashlanded high-tech civilian ship, and its single pilot is dead. Pictographic ship's log reveals the pilot was a child, just flying around space and adventuring. Her ship was shot down by a swarm of local nukes. As we prepare to salvage the vessel, the locals warn that this was not part of the deal. They've surrounded the wreckage with soldiers and primitive tanks. Nothing that our operatives couldn't handle.	Das Signal kam von einem abgestürzten zivilen High-Tech-Schiff, dessen einziger Pilot tot ist. Das piktografische Schiffslogbuch verrät, dass der Pilot ein Kind war, das nur im Weltraum herumflog und Abenteuer erlebte. Ihr Schiff wurde von einem Schwarm lokaler Atombomben abgeschossen. Als wir uns darauf vorbereiten, das Schiff zu bergen, warnen die Einheimischen, dass dies nicht Teil der Abmachung war. Sie haben das Wrack mit Soldaten und primitiven Panzern umstellt. Nichts, womit unsere Agenten nicht fertig werden würden.	400
+text	The signal came from a crashlanded high-tech civilian ship, and its single pilot is dead. Pictographic ship's log reveals the pilot was a child, just flying around space and adventuring. Her ship was shot down by a swarm of local nukes. As we prepare to salvage the vessel, the locals warn that this was not part of the deal. They've surrounded the wreckage with soldiers and primitive tanks. Nothing that our operatives couldn't handle.	Das Signal kam von einem abgestürzten zivilen High-Tech-Schiff, dessen einziger Pilot tot ist. Das piktografische Schiffslogbuch verrät, dass der Pilot ein Kind war, das nur im Weltraum herumflog und Abenteuer erlebte. Ihr Schiff wurde von einem Schwarm lokaler Bomben abgeschossen. Als wir uns darauf vorbereiten, das Schiff zu bergen, warnen die Einheimischen, dass dies nicht Teil der Abmachung war. Sie haben das Wrack mit Soldaten und primitiven Panzern umstellt. Nichts, womit unsere Agenten nicht fertig werden würden.	400
 choiceText	Attack the guards with everything, salvage the vessel and retreat.	Greifen Sie die Wachen mit allem an, bergen Sie das Schiff und ziehen Sie sich zurück.	100
 text2	One of our crewmembers took a direct tank shell hit but survived, thanks to the superb frontal armor of our standard environmental suits. We were able to scavenge the wreckage and leave the planet before the locals were able to send in significant reinforcements. A few cruise missiles launched at us were shot down from our ship in orbit.	Eines unserer Crewmitglieder wurde direkt von einer Panzergranate getroffen, überlebte aber dank der hervorragenden Frontpanzerung unserer Standard-Umweltanzüge. Wir konnten die Wrackteile bergen und den Planeten verlassen, bevor die Einheimischen in der Lage waren, nennenswerte Verstärkung zu schicken. Ein paar Marschflugkörper, die auf uns abgefeuert wurden, wurden von unserem Schiff im Orbit abgeschossen.	400
 reasonToDisplay	ship materials salvaged	Schiffsmaterialien geborgen	30
@@ -5778,7 +5778,7 @@ title	Giant ship element	Riesiges Schiffselement	35
 text	We've discovered an abandoned piece of a gigantic precursor spaceship.	Wir haben ein verlassenes Teil eines gigantischen Vorläufer-Raumschiffs entdeckt.	400
 title	Technology missing	Technologie fehlt	35
 text2	A central element in the module (because we believe it is the shell of a giant ship module) contained intact technology.	Ein zentrales Element des Moduls (wir glauben, dass es sich um die Hülle eines Riesenschiffmoduls handelt) enthielt intakte Technologie.	400
-text2	Somebody had booby-trapped the ship part with a nuke! We were lucky that none of the crew was involved in the operation. We lost utility bots printed for the operation.	Jemand hatte das Schiffsteil mit einer Atombombe gesprengt! Wir hatten Glück, dass niemand von der Besatzung an der Aktion beteiligt war. Wir haben Versorgungsbots verloren, die für die Operation gedruckt wurden.	400
+text2	Somebody had booby-trapped the ship part with a nuke! We were lucky that none of the crew was involved in the operation. We lost utility bots printed for the operation.	Jemand hatte das Schiffsteil mit einer Bombe gesprengt! Wir hatten Glück, dass niemand von der Besatzung an der Aktion beteiligt war. Wir haben Versorgungsbots verloren, die für die Operation gedruckt wurden.	400
 
 235 P planetminerals, maybe junk satellites.prefab
 text	Remote analysis shows the planet has a good chance of containing valuable metals. Prospect?	Die Fernanalyse zeigt, dass der Planet mit großer Wahrscheinlichkeit wertvolle Metalle enthält. Prospect?	400
@@ -6468,7 +6468,7 @@ text	You still have the main combat tutorial waiting for you (fly into the red e
 choiceText	Yes, I want the combat tutorial	Ja, ich möchte die Kampf-Einführung	100
 choiceText	Skip the main combat tutorial	Überspringen der Kampf-Einführung	100
 title	Final test	Letzter Test	35
-text	An unknown ship is approaching fast, and it seems to be carrying nukes!	Ein unbekanntes Schiff nähert sich schnell, und es scheint Atombomben an Bord zu haben!	600
+text	An unknown ship is approaching fast, and it seems to be carrying nukes!	Ein unbekanntes Schiff nähert sich schnell, und es scheint Bombe an Bord zu haben!	600
 title	Escape from tutorial successful!	Flucht aus der Einführung erfolgreich!	35
 altText	When you need to give many orders quickly, use the <b>Roles panel!</b> it's next to the resource panel. Start by un-assigning our crew from their previous jobs (click the - sign). Then keep clicking on the + sign next to the firefighting role until at least 3 crew is fighting fires!	Wenn Sie schnell viele Befehle geben müssen, benutzen Sie das <b>Rollen-Panel!</b> Es befindet sich neben dem Ressourcen-Panel. Beginnen Sie damit, unsere Crew von ihren vorherigen Aufträgen zu entbinden (klicken Sie auf das --Zeichen). Klicken Sie dann so lange auf das +-Zeichen neben der Rolle "Brandbekämpfung", bis mindestens 3 Besatzungsmitglieder Brände bekämpfen!	240
 text	You've completed the official training of this tutorial. Feel free to take some time to fool around with this old Tigerfish before moving on to our real journey. For example, you may want to explore the various crafting options available for this ship. Return when you are ready to leave the tutorial.	Damit haben Sie das offizielle Training dieser Einführung abgeschlossen. Nehmen Sie sich ruhig etwas Zeit, um mit dem alten Tigerfisch herumzuspielen, bevor Sie sich auf die eigentliche Reise begeben. Sie können zum Beispiel die verschiedenen Handwerksoptionen erkunden, die für dieses Schiff zur Verfügung stehen. Kehren Sie zurück, wenn Sie bereit sind, die Einführung zu verlassen.	400
@@ -6509,7 +6509,7 @@ text2	The animal becomes covered in explosions and warp energy sparks as your we
 SOS Ambusher L2 pirates with decoy ship.prefab
 displayName	Unknown hostile fleet	Unbekannte feindliche Flotte	25
 title	Stealthy hostile fleet	Getarnte feindliche Flotte	35
-text	There's two ships in that fleet, scanning us and jamming our sensors. They turn away after discovering our nukes. Probably pirates looking for an easy prey.	Es gibt zwei Schiffe in dieser Flotte, die uns scannen und unsere Sensoren stören. Sie wenden sich ab, nachdem sie unsere Atombomben entdeckt haben. Wahrscheinlich Piraten, die eine leichte Beute suchen.	400
+text	There's two ships in that fleet, scanning us and jamming our sensors. They turn away after discovering our nukes. Probably pirates looking for an easy prey.	Es gibt zwei Schiffe in dieser Flotte, die uns scannen und unsere Sensoren stören. Sie wenden sich ab, nachdem sie unsere Bomben entdeckt haben. Wahrscheinlich Piraten, die eine leichte Beute suchen.	400
 choiceText	We won't ignore such predators [prepare for combat]	Solche Raubtiere werden wir nicht ignorieren [bereiten Sie sich auf den Kampf vor]	100
 title	Approaching ships	Ankommende Schiffe	35
 text	Two or three ships are rapidly approaching tactical range, and they don't respond to commrequests. The enemy fleet is using some kind of jamming device to block more detailed scanning at this range.	Zwei oder drei Schiffe nähern sich schnell der taktischen Reichweite, und sie reagieren nicht auf Kommandoaufrufe. Die feindliche Flotte setzt eine Art Störsender ein, um genauere Scans auf diese Entfernung zu verhindern.	600
@@ -6923,7 +6923,7 @@ text	"Unregistered vessel, this star system is Rat Empire property and according
 text2	"Carry on existing, visitor. Remember to always bring fresh xenodata when traversing in our space."	Bleiben Sie bestehen, Besucher. Denken Sie daran, immer frische Xenodaten mitzubringen, wenn Sie sich in unserem Raum bewegen.	400
 
 Ambusher L1 Solipsist small.prefab
-text	A small ship is rapidly approaching tactical range. It's armed with two weapons (type unknown), and possibly a nuke.	Ein kleines Schiff nähert sich schnell der taktischen Reichweite. Es ist mit zwei Waffen bewaffnet (Typ unbekannt), und möglicherweise einer Atombombe.	600
+text	A small ship is rapidly approaching tactical range. It's armed with two weapons (type unknown), and possibly a nuke.	Ein kleines Schiff nähert sich schnell der taktischen Reichweite. Es ist mit zwei Waffen bewaffnet (Typ unbekannt), und möglicherweise einer Bombe.	600
 title	A Solipsist individual	Ein solipsistisches Individuum	35
 text	"Aha, we have another claims-to-be consciousness here! Like I would believe that. In fact, I think I will remove you, because I don't like illusions." \nOur AI explains the Solipsists believe this entire reality is just an illusion, along with all beings, except themselves. \nThis makes the Solipsists dangerous, because they do not believe they can cause suffering to others."	Aha, wir haben hier ein weiteres angebliches Bewusstsein! Als ob ich das glauben würde. Ich glaube sogar, ich werde Sie entfernen, denn ich mag keine Illusionen. \nUnsere KI erklärt, dass die Solipsisten glauben, dass diese ganze Realität nur eine Illusion ist, zusammen mit allen Wesen, außer ihnen selbst. \nDas macht die Solipsisten gefährlich, denn sie glauben nicht, dass sie anderen Leid zufügen können."	400
 choiceText	Even if we were illusionary, why would you attack us?	Selbst wenn wir eine Illusion wären, warum würden Sie uns angreifen?	100
@@ -6959,7 +6959,7 @@ okButtonText	You'll be taking our fire instead [Prepare for battle]	Ihr werdet s
 text	"It's nothing personal. Your single, lonely ship is just too attractive for your own good. If we wouldn't take everything you have, somebody else surely would."	Es ist nichts Persönliches. Euer einzelnes, einsames Schiff ist einfach zu attraktiv für Euch. Wenn wir Euch nicht alles nehmen würden, was Ihr habt, würde es sicher jemand anderes tun.	600
 title	Another ship	Ein anderes Schiff	35
 text	Another ship warps in and joins the attacker, there's now two of them!	Ein weiteres Schiff warpt herein und schließt sich dem Angreifer an, jetzt sind sie zu zweit!	600
-text	The unresponsive ship scans us in silence, but turns away after discovering we are armed with capital missile(s). It's most likely a pirate looking for easy victims.	Das nicht reagierende Schiff scannt uns in aller Ruhe, wendet sich aber ab, nachdem es entdeckt hat, dass wir mit kapitalen Raketen bewaffnet sind. Wahrscheinlich ist es ein Pirat, der nach leichten Opfern sucht.	400
+text	The unresponsive ship scans us in silence, but turns away after discovering we are armed with capital missile(s). It's most likely a pirate looking for easy victims.	Das nicht reagierende Schiff scannt uns in aller Ruhe, wendet sich aber ab, nachdem es entdeckt hat, dass wir mit Raketen bewaffnet sind. Wahrscheinlich ist es ein Pirat, der nach leichten Opfern sucht.	400
 title	Crude offer	Grobes Angebot	35
 text	"WE NOT PIRATE. JUST LOOKING. FOUND VERY BIG CRYSTAL, GIVE IT TO YOU, ITSELF GO HOME AND BE GOOD NOT PIRATE. WE HAVE DEAL?"	WIR SIND KEINE PIRATEN. WIR SIND NUR AUF DER SUCHE. HABE SEHR GROSSEN KRISTALL GEFUNDEN, GEBE IHN DIR, GEHE SELBST NACH HAUSE UND SEI GUT, NICHT PIRAT. WIR HABEN DEAL?	400
 choiceText	Deal [receive the crystal]	Handel [erhalte den Kristall]	100
@@ -6968,7 +6968,7 @@ text2	The pirate leaves as we receive the crystal.	Der Pirat geht, als wir den K
 reasonToDisplay	Accepted a bribe	Akzeptiert eine Bestechung	30
 
 Ambusher L2 pirates 2 pirate guardians, Decoy.prefab
-text	There's two ships in that fleet, scanning us and jamming our sensors. They turn away after discovering our nukes. Probably pirates looking for easy prey.	Es gibt zwei Schiffe in der Flotte, die uns scannen und unsere Sensoren stören. Sie wenden sich ab, nachdem sie unsere Nuklearwaffen entdeckt haben. Wahrscheinlich Piraten, die nach leichter Beute suchen.	400
+text	There's two ships in that fleet, scanning us and jamming our sensors. They turn away after discovering our nukes. Probably pirates looking for easy prey.	Es gibt zwei Schiffe in der Flotte, die uns scannen und unsere Sensoren stören. Sie wenden sich ab, nachdem sie unsere Bomben entdeckt haben. Wahrscheinlich Piraten, die nach leichter Beute suchen.	400
 text	"HELLO, WE NON-PIRATE, JUST LOOKING. WE FOUND MOUNTAIN OF EXOTICS, GIVE IT TO YOU, ITSELF GO HOME. WE HAVE DEAL?"	HALLO, WIR SIND NICHT-PIRATEN UND NUR AUF DER SUCHE. WIR HABEN EINEN BERG VON EXOTEN GEFUNDEN, GEBEN IHN EUCH UND GEHEN NACH HAUSE. WIR HABEN DEAL?	400
 choiceText	Deal [receive 3 exotics]	Handel [+3 Exoten]	100
 choiceText	You're murderers trying to bribe us [to battle]	Ihr seid Mörder und wollt uns bestechen [zum Kampf]	100
@@ -7012,7 +7012,7 @@ choiceText	Getting killed is the logical outcome of being a pirate [proceed to b
 Ambusher L2 pirates, hammerhead + Hship.prefab
 text	A single ship is rapidly approaching tactical range, shields active. It seems to be armed with a single massive gun, but it could be a decoy.	Ein einzelnes Schiff nähert sich schnell der taktischen Reichweite, Schilde aktiv. Es scheint mit einer einzigen massiven Kanone bewaffnet zu sein, aber es könnte ein Köder sein.	600
 text	"Oh, it's you, you've already paid us. What, you want to pay again? [cruel laughter] We're in a good mood, so no robbery today. Move along."	Oh, Ihr seid es, Ihr habt uns bereits bezahlt. Was, ihr wollt noch mal bezahlen? Wir haben gute Laune, also kein Raub heute. Gehen Sie weiter.	600
-text	"There is a notorious slaver ship nearby, ready to warp in and bite you. I could prevent this from happening for a few exotics... And don't get any ideas. I have a nuke and I don't care how many you have."	Es ist ein berüchtigtes Sklavenhändler-Schiff in der Nähe, bereit, mit Warp einzugreifen und Sie zu beißen. Ich könnte das für ein paar Exoten verhindern... Und kommen Sie nicht auf dumme Gedanken. Ich habe eine Atombombe und es ist mir egal, wie viele Sie haben.	400
+text	"There is a notorious slaver ship nearby, ready to warp in and bite you. I could prevent this from happening for a few exotics... And don't get any ideas. I have a nuke and I don't care how many you have."	Es ist ein berüchtigtes Sklavenhändler-Schiff in der Nähe, bereit, mit Warp einzugreifen und Sie zu beißen. Ich könnte das für ein paar Exoten verhindern... Und kommen Sie nicht auf dumme Gedanken. Ich habe eine Bombe und es ist mir egal, wie viele Sie haben.	400
 choiceText	Pay [-4 exotics]	Bezahlen [-4 Exoten]	100
 text	We do not have enough resources needed for this operation. We must take the fight or escape during combat.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen den Kampf annehmen oder während des Kampfes fliehen.	600
 text	After seeing us preparing for battle, the hostile ship turns around and starts leaving the area. Perhaps the slaver was bluffing about the other ships as well?	Nachdem es gesehen hat, dass wir uns auf den Kampf vorbereiten, dreht das feindliche Schiff um und verlässt das Gebiet. Vielleicht hat der Sklavenhändler auch mit den anderen Schiffen geblufft?	400
@@ -7037,7 +7037,7 @@ title	Warning	Warnung	35
 text	These are slavers! I've prepared the ship for self destruction, just in case. If we lose, we don't want to survive and be taken captive by these maniacs.	Dies sind Sklavenhändler! Ich habe das Schiff auf Selbstzerstörung vorbereitet, nur für den Fall. Wenn wir verlieren, wollen wir nicht überleben und von diesen Wahnsinnigen gefangen genommen werden.	600
 text	The hostile fleet captain transmits a short message just before joining the battle: "WE SEARCH OBEDIENCE... YOU'VE BEEN SELECTED."	Der feindliche Flottenkapitän sendet eine kurze Nachricht, kurz bevor er sich dem Kampf anschließt: "WIR SUCHEN GEHORSAM... IHR WURDET AUSGEWÄHLT."	600
 text	The hostile fleet captain transmits a short message just before joining the battle:"TRADITIONAL EXCUSE FOR VIOLENT REDISTRIBUTION OF ESSENTIAL SUPPLIES! YOUR PARENT ORGANISM IS OVERWEIGHT!" [attempted justifications and insults]"	Der feindliche Flottenkapitän sendet eine kurze Nachricht, kurz bevor er sich dem Kampf anschließt: "TRADITIONELLE AUSRECHNUNG FÜR DIE GEWALTIGE VERTEILUNG VON ESSENZIELLEN VERSORGUNGSMITTELN! IHR ELTERLICHER ORGANISMUS IST ÜBERGEWICHTIG!" (Rechtfertigungsversuche und Beleidigungen)"	600
-text	There's two ships in that fleet, scanning us and jamming our sensors. They turn around and start leaving after discovering our nukes. Probably pirates looking for easy prey.	Es gibt zwei Schiffe in der Flotte, die uns scannen und unsere Sensoren stören. Sie drehen um und verschwinden, nachdem sie unsere Atombomben entdeckt haben. Wahrscheinlich Piraten, die nach leichter Beute suchen.	400
+text	There's two ships in that fleet, scanning us and jamming our sensors. They turn around and start leaving after discovering our nukes. Probably pirates looking for easy prey.	Es gibt zwei Schiffe in der Flotte, die uns scannen und unsere Sensoren stören. Sie drehen um und verschwinden, nachdem sie unsere Bomben entdeckt haben. Wahrscheinlich Piraten, die nach leichter Beute suchen.	400
 choiceText	Attack these predators! [prepare for combat]	Greift diese Raubtiere an! [bereiten Sie sich auf den Kampf vor]	100
 
 Ambusher L2 pirates, sstriker and arrowhead.prefab
@@ -7351,7 +7351,7 @@ choiceText	Buy 1 manually assembled "Exotic Raygun" for 400 credits"	Kaufen Sie 
 choiceText	Buy 1 manually assembled "Acid" nuke for 375 credits"	Kaufen Sie 1 manuell montierte "Acid"-Bombe für 375 Kredite"	100
 text2	The cannons are old, but in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a large barrel of strong alcohol, plus a case of broken hand-grenades.	Die Kanonen sind alt, aber in tadellosem Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und ein großes Fass starken Alkohols hinterlassen, sowie eine Kiste mit zerbrochenen Handgranaten.	400
 text2	The weapon is manually assembled from spare parts as expected. It seems we were also given some leftover parts as a gift.	Die Waffe ist, wie erwartet, von Hand aus Ersatzteilen zusammengebaut. Es scheint, dass wir auch einige übrig gebliebene Teile als Geschenk erhalten haben.	400
-text2	"Thank you for the smooth transaction. Please accept this acid as an additional token of our gratitude!" It seems we have been also gifted leftover parts from making the nuke."	Danke für die reibungslose Transaktion. Bitte nehmen Sie diese Säure als zusätzliches Zeichen unserer Dankbarkeit an! Es scheint, als hätte man uns auch Teile geschenkt, die bei der Herstellung der Atombombe übrig geblieben sind."	400
+text2	"Thank you for the smooth transaction. Please accept this acid as an additional token of our gratitude!" It seems we have been also gifted leftover parts from making the nuke."	Danke für die reibungslose Transaktion. Bitte nehmen Sie diese Säure als zusätzliches Zeichen unserer Dankbarkeit an! Es scheint, als hätte man uns auch Teile geschenkt, die bei der Herstellung der Bombe übrig geblieben sind."	400
 
 Merchants L6 fuel barter.prefab
 title	Fuel trader (Grippy individual)	Treibstoff-Händler (Grippy Individuum)	35
@@ -7372,7 +7372,7 @@ text2	Inspecting the trade package reveals we have received exactly 1% less than
 text2	Instead of universal intergalactic xenodata currency, the package contains huge amounts of an ancient, obsolete, practically worthless datacurrency, with a total value of barely 1 xenodata. Additionally, there's a note saying "If the currency is not valid please accept this organic edible slime as a bonus" and a container full of dubious biosludge."	Statt der universellen intergalaktischen Xenodaten-Währung enthält das Paket riesige Mengen einer uralten, veralteten, praktisch wertlosen Datenwährung mit einem Gesamtwert von kaum 1 Xenodaten. Zusätzlich gibt es einen Zettel mit der Aufschrift "Wenn die Währung nicht gültig ist, nehmen Sie bitte diesen organischen, essbaren Schleim als Bonus an" und einen Behälter voll mit dubiosem Bioschlamm."	400
 text2	"You won't get a better price for exotics from anywhere else in the universe!" the smuggler explains before warping off."	Sie werden nirgendwo sonst im Universum einen besseren Preis für Exoten bekommen, erklärt der Schmuggler, bevor er mit Warp davonfliegt."	400
 choiceText	Attack the cheater	Angriff auf den Betrüger	100
-text	A large militarized trade ship is approaching. It seems to be armed with 5 projectile weapons and several nukes.	Ein großes militarisiertes Handelsschiff nähert sich. Es scheint mit 5 Projektilwaffen und mehreren Nuklearwaffen bewaffnet zu sein.	600
+text	A large militarized trade ship is approaching. It seems to be armed with 5 projectile weapons and several nukes.	Ein großes militarisiertes Handelsschiff nähert sich. Es scheint mit 5 Projektilwaffen und mehreren Bomben bewaffnet zu sein.	600
 
 Smuggler L2 explosives smugglers, gormor duo.prefab
 title	Smugglers (Gor-Mor duo)	Schmuggler (Gor-Mor-Duo)	35
@@ -7399,7 +7399,7 @@ text2	The data credits are delivered to us in a barely functioning antique data 
 text2	"I've obtained metaphoric information from shady contacts, hinting that this sector is off the target-lists for pirates due to a low profit outlook. Expect the sector to be safe from roaming pirates (except those attracted by the SOS signal)."	Ich habe von zwielichtigen Kontakten Informationen erhalten, die andeuten, dass dieser Sektor aufgrund der geringen Gewinnaussichten nicht mehr auf der Zielliste von Piraten steht. Erwarten Sie, dass der Sektor sicher vor umherstreifenden Piraten ist (außer denen, die durch das SOS-Signal angelockt werden).	400
 reasonToDisplay	information bought	Gekaufte Informationen	30
 text2	'"Here are the unofficial price standards to expect when selling exotics, in case you don't know this yet."\n58 credits per unit - the best selling price for unofficial deals that I've seen with my own eyes\n30 credits per unit - average selling price, standard in stations\n26 credits per unit - if the price offered is lower than this, you are getting ripped off"	Hier sind die inoffiziellen Preisstandards, die Sie beim Verkauf von Exoten erwarten können, falls Sie das noch nicht wissen.\n58 Kredite pro Einheit - der beste Verkaufspreis für inoffizielle Deals, den ich mit eigenen Augen gesehen habe\n30 Kredite pro Einheit - durchschnittlicher Verkaufspreis, Standard in Stationen\n26 Kredite pro Einheit - wenn der angebotene Preis niedriger ist, werden Sie abgezockt"	400
-text	A large ship is approaching, with two cargo ships following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	Ein großes Schiff nähert sich, in der Ferne folgen zwei Frachtschiffe. Das große scheint mit mehreren Projektilwaffen und Atombomben bewaffnet zu sein.	600
+text	A large ship is approaching, with two cargo ships following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	Ein großes Schiff nähert sich, in der Ferne folgen zwei Frachtschiffe. Das große scheint mit mehreren Projektilwaffen und Bomben bewaffnet zu sein.	600
 
 Smuggler L4 explo smuggler grippy.prefab
 title	Explosives smuggler (Grippy individual)	Sprengstoffe-Schmuggler (Grippiges Individuum)	35
@@ -7964,85 +7964,85 @@ displayName	Acid projectile	Säure-Projektil	35
 FloralProjectile d5.prefab
 
 Barrel nuke.prefab
-displayName	Barrel nuke	Fass-Nuke	35
+displayName	Barrel nuke	Fassbombe	35
 
 biofish nuke 1.prefab
-displayName	biotech nuke	Biotech-Nuke	35
+displayName	biotech nuke	Biotech-Bombe	35
 
 biofish nuke 2.prefab
 
 Black nuke.prefab
-displayName	Black nuke	Schwarzer Nuke	35
+displayName	Black nuke	Schwarze Bombe	35
 
 Bullseye nuke.prefab
-displayName	Bullseye nuke	Bullseye nuke	35
+displayName	Bullseye nuke	Bullaugen-Bombe	35
 
 Decoy DIY nuke.prefab
-displayName	Decoy DIY nuke	Köder DIY nuke	35
+displayName	Decoy DIY nuke	DIY Täuschungsbombe	35
 
 Decoy nuke.prefab
-displayName	Decoy nuke	Köder nuke	35
+displayName	Decoy nuke	Täuschungsbombe	35
 
 DIY Acid nuke.prefab
-displayName	Acid DIY nuke	Säure DIY nuke	35
+displayName	Acid DIY nuke	DIY-Säure-Bombe	35
 
 DIY bio nuke.prefab
-displayName	DIY biotech nuke	DIY-Biotech-Nuklearwaffe	35
+displayName	DIY biotech nuke	DIY-Biotech-Bombe	35
 
 DIY drone nuke.prefab
-displayName	DIY drone nuke	DIY-Drohne nuke	35
+displayName	DIY drone nuke	DIY-Drohnen-Bombe	35
 
 DIY exotic nuke.prefab
-displayName	DIY exotic nuke	DIY exotische Nuklearwaffe	35
+displayName	DIY exotic nuke	DIY Exoten-Bombe	35
 
 DIY expbomb nuke.prefab
 displayName	DIY explosivepack nuke	DIY Sprengstoff-Paket Bombe	35
 
 DIY fuelbomb nuke.prefab
-displayName	DIY fuelpack nuke	DIY Treibstoff nuke	35
+displayName	DIY fuelpack nuke	DIY Treibstoff-Bombe	35
 
 DIY incendiary nuke.prefab
-displayName	DIY incendiary nuke	DIY-Brandsatz nuke	35
+displayName	DIY incendiary nuke	DIY Brandbombe	35
 
 DIY plastics nuke.prefab
 displayName	DIY plastics nuke	DIY Plastiksprengstoff-Bombe	35
 
 DIY shieldbreaker nuke.prefab
-displayName	DIY shieldbreaker nuke	DIY Schildbrecher-Nuke	35
+displayName	DIY shieldbreaker nuke	DIY Schildbrecher-Bombe	35
 
 DIY thin nuke.prefab
-displayName	Nanopellet nuke	Nanopellet-Atombombe	35
+displayName	Nanopellet nuke	Nanopellet-Bombe	35
 
 EMP nuke.prefab
 
 EMP rat nuke.prefab
-displayName	Rat EMP nuke	Ratten-EMP-Atombombe	35
+displayName	Rat EMP nuke	Ratten-EMP-Bombe	35
 
 EmperorBanks nuke.prefab
-displayName	Red nuke	Rote Nuke	35
+displayName	Red nuke	Rote Bombe	35
 
 Fueltank nuke.prefab
-displayName	Fueltank nuke	Treibstofftank Bombe	35
+displayName	Fueltank nuke	Treibstofftank-Bombe	35
 
 Green nuke.prefab
-displayName	Green nuke	Grüner Nuke	35
+displayName	Green nuke	Grüne Bombe	35
 
 Happy nuke.prefab
-displayName	Happy nuke	Happy nuke	35
+displayName	Happy nuke	Fröhliche Bombe	35
 
 Insectoid Chem nuke.prefab
-displayName	Biotech nuke	Biotech Nuklearwaffe	35
+displayName	Biotech nuke	Biotech-Bombe	35
 
 insectoid spawner nuke.prefab
-displayName	Biotech spawner nuke	Nuklearwaffe Biotech Spawner	35
+displayName	Biotech spawner nuke	Biotech-Spawner-Bombe	35
 
 Mini Bio nuke.prefab
 
 Monolith nuke.prefab
-displayName	Monolith nuke	Monolith Nuklearwaffe	35
+displayName	Monolith nuke	Monolith-Bombe	35
 
 Old nuke.prefab
-displayName	Ancient nuke	Antiker Nuklearwaffe	35
+displayName	Ancient nuke	Antike Bombe	35
 
 pirate spawner nuke.prefab
 displayName	Large intrusion pod	Große Intrusionskapsel	35
@@ -8054,19 +8054,19 @@ Scrap nuke 1.prefab
 displayName	DIY EMP nuke	DIY EMP-Bombe	35
 
 Spearhead nuke.prefab
-displayName	Spearhead nuke	Speerspitze nuke	35
+displayName	Spearhead nuke	Speerspitze-Bombe	35
 
 Spideraa decoy nuke.prefab
-displayName	Spideraa nuke	Spinner-Atombombe	35
+displayName	Spideraa nuke	Spinner-Bombe	35
 
 thin missile nuke.prefab
-displayName	Speeder nuke	Raser-Atombombe	35
+displayName	Speeder nuke	Raser-Bombe	35
 
 Tiger nuke.prefab
-displayName	Tiger nuke	Tiger-Atombombe	35
+displayName	Tiger nuke	Tiger-Bombe	35
 
 White nuke.prefab
-displayName	White nuke	Weiße Nuklearwaffe	35
+displayName	White nuke	Der weiße Tod	35
 
 door (small).prefab
 
@@ -8143,8 +8143,8 @@ description	Accepts normal internal modules that do not require a special slot.	
 upgrades[i].text	Upgrade to core slot	Aufrüstung auf Kernsteckplatz	35
 
 Nuke launcher slot for 01 Tigerfish.prefab
-displayName	Capital missile launch tube	Abschussrohr für Raketen	35
-description	Accepts only capital missiles	Akzeptiert nur Capital Missiles	250
+displayName	Capital missile launch tube	Abschussrohr für Bomben	35
+description	Accepts only capital missiles	Akzeptiert nur Bomben	250
 
 Nuke launcher slot for 02 Nuke Runner.prefab
 
@@ -9143,11 +9143,11 @@ description	Increases maximum shield points, but does not recharge shields.	Erh�
 
 Stealth decryptor 1 diy.prefab
 displayName	Stealth Decryptor DIY	Tarnkappen-Entschlüssler DIY	40
-description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Stealth-Wert von 1 (innerhalb der Sensorreichweite) zu entdecken.	200
+description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 (innerhalb der Sensorreichweite) zu entdecken.	200
 
 Stealth decryptor 1 ivory old.prefab
 displayName	Stealth Decryptor, type I	Tarnkappen-Entschlüssler, Typ I	40
-description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Stealth-Wert von 1 zu entdecken (innerhalb der Sensorreichweite). Langlebige Materialien erhöhen die HP des Schiffes.	200
+description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 zu entdecken (innerhalb der Sensorreichweite). Langlebige Materialien erhöhen die HP des Schiffes.	200
 
 Stealth decryptor 1 rats.prefab
 displayName	Stealth decryptor (Rat Empire)	Tarnkappen-Entschlüsseler (Rattenimperium)	40
@@ -9156,8 +9156,8 @@ Stealth decryptor 1 ventilator.prefab
 displayName	Stealth Decryptor, type 0	Tarnkappen-Entschlüssler, Typ 0	40
 
 Stealth decryptor 2 biobrain.prefab
-displayName	Bioneural stealth decryptor	Bioneuraler Stealth-Entschlüsseler	40
-description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Stealth-Wert von 2 (innerhalb der Sensorreichweite) zu entdecken.	200
+displayName	Bioneural stealth decryptor	Bioneuraler Tarnkappen-Entschlüsseler	40
+description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu entdecken.	200
 
 Stealth decryptor 2 new human tec.prefab
 displayName	Stealth Decryptor, type II	Tarnkappen-Entschlüsseler, Typ II	40
@@ -9165,11 +9165,11 @@ description	Allows ships to detect enemy fleets with stealth value of 2 (within 
 
 Stealth decryptor 3 bio.prefab
 displayName	Biotech stealth decryptor	Biotech-Tarnkappen-Entschlüsseler	40
-description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Stealth-Wert von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200
+description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200
 
 Stealth decryptor 3 newest human tec.prefab
-displayName	Stealth Decryptor, type III	Stealth-Entschlüssler, Typ III	40
-description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Stealth-Wert von 3 zu entdecken (innerhalb der Sensorreichweite). Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200
+displayName	Stealth Decryptor, type III	Tarnkappen-Entschlüssler, Typ III	40
+description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 zu entdecken (innerhalb der Sensorreichweite). Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200
 
 storage container 3x3.prefab
 displayName	Module storage container	Modul-Lagerbehälter	40
@@ -9199,10 +9199,10 @@ displayName	Warp drive, crystal type A	Warpantrieb, Kristall Typ A	40
 description	Warpdrives allow "jumping" between starsystems. This one is very brittle."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr spröde."	200
 
 warp 04 emperorbanks.prefab
-displayName	Warp drive, type EB	Warpantrieb, Typ EB	40
+displayName	Warp drive, type EB	Warpantrieb, Typ Imperator Bank	40
 
 warp 05 rotor metal.prefab
-displayName	Warp drive, grade II	Warpantrieb, Grad II	40
+displayName	Warp drive, grade II	Warpantrieb, Typ II	40
 description	Warpdrives allow "jumping" between starsystems. This one has extra armor. Robust structure adds +2 to ship HP."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hat zusätzliche Panzerung. Robuste Struktur fügt +2 zu den Schiffs-HP hinzu."	200
 
 warp 05 spiralcrystal.prefab
@@ -9214,66 +9214,66 @@ displayName	Warp drive, grade III	Warpantrieb, Typ III	40
 description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Durable structure improves ship HP."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Langlebige Struktur verbessert die Schiffs-HP."	200
 
 warp 07 rotor glass.prefab
-displayName	Warp drive, grade IV	Warpantrieb, Grad IV	40
+displayName	Warp drive, grade IV	Warpantrieb, Typ IV	40
 description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Strong structure improves ship HP."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Starke Struktur verbessert die Schiffs-HP."	200
 
 warp 09 spideraa.prefab
 displayName	Warp drive, Spideraa	Warpantrieb, Spinner	40
 
 warp 10 chunky.prefab
-displayName	Warp drive, chunky	Warpantrieb, chunky	40
+displayName	Warp drive, chunky	Warpantrieb, klobig	40
 
 warp 11 bluetec.prefab
-displayName	Warp drive, bluetec	Warpantrieb, bluetec	40
+displayName	Warp drive, bluetec	Warpantrieb, blautech	40
 
 00 DIY decoy nuke launcher.prefab
-displayName	DIY decoy capital missile	DIY Köder-Capital-Rakete	40
-description	A decoy capital missile for drawing enemy point-defence fire. Does minor damage, mostly against enemy ship HP. Faster than average nukes.	Eine Köder-Capital-Rakete, um feindliches Punktabwehr-Feuer abzulenken. Verursacht geringen Schaden, hauptsächlich gegen die HP des gegnerischen Schiffes. Schneller als durchschnittliche Atombomben.	200
+displayName	DIY decoy capital missile	DIY Täuschungsbombe	40
+description	A decoy capital missile for drawing enemy point-defence fire. Does minor damage, mostly against enemy ship HP. Faster than average nukes.	Eine Täuschungsbombe, um feindliches Punktabwehr-Feuer abzulenken. Verursacht geringen Schaden, hauptsächlich gegen die HP des gegnerischen Schiffes. Schneller als durchschnittliche Bomben.	200
 
 00 DIY EMP nuke launcher.prefab
-description	Manually assembled capital EMP missile. Overloads modules in the hit area. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Manuell zusammengebauter kapitaler EMP-Flugkörper. Überlastet Module im Trefferbereich. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern zur Ablenkung der gegnerischen Punktabwehr profitieren.	200
+description	Manually assembled capital EMP missile. Overloads modules in the hit area. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Manuell zusammengebauter EMP-Flugkörper. Überlastet Module im Trefferbereich. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern zur Ablenkung der gegnerischen Punktabwehr profitieren.	200
 
 00 DIY Rat fireball nuke launcher.prefab
 description	Improvised incendiary nuke, made from various munitions and fuel tanks. Damages crew & causes fires in a large area. Fragile.	Improvisierte Brandbombe, hergestellt aus verschiedenen Munitionsarten und Treibstofftanks. Beschädigt die Besatzung und verursacht Brände in einem großen Gebiet. Zerbrechlich.	200
 
 00 DIY shieldbreaker nuke launcher.prefab
-description	This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless.	Diese improvisierte Hauptrakete trägt eine starke Anti-Schild-Energieladung, ist aber ansonsten harmlos.	200
+description	This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless.	Diese improvisierte Bombe trägt eine starke Anti-Schild-Energieladung, ist aber ansonsten harmlos.	200
 
 02 Decoy nuke launcher.prefab
-displayName	Decoy capital missile	Köder capital missile	40
+displayName	Decoy capital missile	Täuschungsbombe	40
 
 02 Spideraa decoy nuke launcher.prefab
 displayName	Red monolith nuke	Rote Monolith-Bombe	40
-description	Extremely durable capital missile that simply rams it's target. Faster than average nukes, damages mostly ship HP.	Äußerst widerstandsfähige Kapitalrakete, die ihr Ziel einfach rammt. Schneller als durchschnittliche Nuklearwaffen, beschädigt hauptsächlich die SchiffshP.	200
+description	Extremely durable capital missile that simply rams it's target. Faster than average nukes, damages mostly ship HP.	Äußerst widerstandsfähige Bombe, die ihr Ziel einfach rammt. Schneller als durchschnittliche Bombe, beschädigt hauptsächlich die SchiffshP.	200
 
 03 Barrel nuke launcher.prefab
 description	External fuel tank usable as capital missile. Deals no ship damage, but damages crew & causes fires. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Externer Treibstofftank als Bombe verwendbar. Verursacht keinen Schiffsschaden, schädigt aber die Besatzung und verursacht Brände. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern profitieren, um feindliche Punktabwehr abzulenken.	200
 
 04 DIY exotics nuke launcher.prefab
-displayName	DIY d-exotics nuke	DIY d-exotics nuke	40
+displayName	DIY d-exotics nuke	DIY Exoten-Bombe	40
 description	Destabilized exotics combined with crude armor, engines and a fueltank. Minor damage to ship HP but may start fires and the explosion is accompanied by an EMP wave.	Destabilisierte Exoten kombiniert mit grober Panzerung, Motoren und einem Treibstofftank. Geringer Schaden an den Schiffs-HP, kann aber Brände auslösen und die Explosion wird von einer EMP-Welle begleitet.	200
 
 04 DIY explo pack launcher.prefab
-displayName	DIY explosive pack nuke	DIY-Explosivpack-Nuke	40
-description	A manually assembled capital missile that damages mostly ship HP. Made by combining standard explosives with engines and crude armor.	Eine manuell zusammengebaute Kapitalrakete, die hauptsächlich Schiffs-HP beschädigt. Wird durch die Kombination von Standard-Sprengstoff mit Triebwerken und grober Panzerung hergestellt.	200
+displayName	DIY explosive pack nuke	DIY-Sprengstoff-Paket-Bombe	40
+description	A manually assembled capital missile that damages mostly ship HP. Made by combining standard explosives with engines and crude armor.	Eine manuell zusammengebaute Bombe, die hauptsächlich Schiffs-HP beschädigt. Wird durch die Kombination von Standard-Sprengstoff mit Triebwerken und grober Panzerung hergestellt.	200
 
 04 DIY fuel pack launcher.prefab
-displayName	DIY Fuelpack nuke	DIY Treibstoff-Nuke	40
-description	A manually assembled capital missile that creates fires inside enemy ship hull. Made by combining solidified starfuel with engines and crude armor.	Ein manuell zusammengebauter kapitaler Flugkörper, der Feuer in der gegnerischen Schiffshülle erzeugt. Erzeugt durch die Kombination von verfestigtem Sternentreibstoff mit Triebwerken und grober Panzerung.	200
+displayName	DIY Fuelpack nuke	DIY Treibstoff-Bombe	40
+description	A manually assembled capital missile that creates fires inside enemy ship hull. Made by combining solidified starfuel with engines and crude armor.	Ein manuell zusammengebauter Flugkörper, der Feuer in der gegnerischen Schiffshülle erzeugt. Erzeugt durch die Kombination von verfestigtem Sternentreibstoff mit Triebwerken und grober Panzerung.	200
 
 04 DIY plastics launcher.prefab
-displayName	DIY Plastics nuke	DIY Plastiksprengstoff Bombe	40
-description	A manually assembled capital missile with destabilized plastic warhead. Small AOE, low damage, fair durability.	Eine manuell zusammengebaute Kapitalrakete mit destabilisiertem Plastiksprengkopf. Kleine AOE, geringer Schaden, angemessene Haltbarkeit.	200
+displayName	DIY Plastics nuke	DIY Plastiksprengstoff-Bombe	40
+description	A manually assembled capital missile with destabilized plastic warhead. Small AOE, low damage, fair durability.	Eine manuell zusammengebaute Bombe mit destabilisiertem Plastiksprengkopf. Kleine AOE, geringer Schaden, angemessene Haltbarkeit.	200
 
 04 Fueltank nuke launcher.prefab
-description	External fuel tank ready to be used as capital missile. Deals no ship damage, but damages crew & causes fires around point of impact. Scrapping provides much fuel.	Externer Treibstofftank, bereit, als Kapitalrakete verwendet zu werden. Verursacht keinen Schiffsschaden, beschädigt aber die Besatzung und verursacht Brände um den Einschlagspunkt. Abwracken liefert viel Treibstoff.	200
+description	External fuel tank ready to be used as capital missile. Deals no ship damage, but damages crew & causes fires around point of impact. Scrapping provides much fuel.	Externer Treibstofftank, bereit, als Bombe verwendet zu werden. Verursacht keinen Schiffsschaden, beschädigt aber die Besatzung und verursacht Brände um den Einschlagspunkt. Abwracken liefert viel Treibstoff.	200
 
 06 DIY probe nuke launcher.prefab
 displayName	Improvised probe nuke	Improvisierte Sondenbombe	40
 description	Improvised capital missile, made by arming an exploration probe with unstable reactor.	Improvisierter Großflugkörper, hergestellt durch Bewaffnung einer Erkundungssonde mit instabilem Reaktor.	200
 
 06 Tiger nuke launcher.prefab
-displayName	Tigerpaw, industrial nuke	Tigerpfote, Industrie-Atombombe	40
+displayName	Tigerpaw, industrial nuke	Tigerpfote, Industrie-Bombe	40
 description	Capital missile for shattering colossal asteroids or micromoons with kinetic force. Well armored, but has a very small Area Of Effect (AOE).	Großrakete zum Zerschmettern von kolossalen Asteroiden oder Mikromonden mit kinetischer Kraft. Gut gepanzert, hat aber einen sehr kleinen Wirkungsbereich (Area Of Effect, AOE).	200
 
 07 DIY acid nuke launcher.prefab
@@ -9300,21 +9300,21 @@ displayName	Deathspore cloud nuke	Deathspore-Wolke nuke	40
 description	Releases a cloud of corrosive moss spores, damaging modules & crew in the area of effect. No damage to ship hull.	Setzt eine Wolke aus ätzenden Moosporen frei, die Module & Besatzung im Wirkungsbereich beschädigt. Kein Schaden an der Schiffshülle.	200
 
 08a Happy nuke launcher.prefab
-displayName	Commercial nuke, type "Happy"	Kommerzielle Atombombe, Typ "Fröhlich"	40
-description	A capital missile for "civilian use" with a reduced payload. Damages and overloads modules in blast area, low accuracy."	Eine kapitale Rakete für "zivile Nutzung" mit reduzierter Nutzlast. Beschädigt und überlastet Module im Explosionsbereich, geringe Genauigkeit."	200
+displayName	Commercial nuke, type "Happy"	Kommerzielle Bombe, Typ "Fröhlich"	40
+description	A capital missile for "civilian use" with a reduced payload. Damages and overloads modules in blast area, low accuracy."	Eine Bombe für "zivile Nutzung" mit reduzierter Nutzlast. Beschädigt und überlastet Module im Explosionsbereich, geringe Genauigkeit."	200
 
 08b Old nuke launcher.prefab
-description	Old and poorly kept capital missile that still delivers solid damage. Damages and overloads ship modules, but has low accuracy.	Alte und schlecht gewartete Kapitalrakete, die immer noch soliden Schaden anrichtet. Beschädigt und überlädt Schiffsmodule, hat aber eine geringe Genauigkeit.	200
+description	Old and poorly kept capital missile that still delivers solid damage. Damages and overloads ship modules, but has low accuracy.	Alte und schlecht gewartete Bombe, die immer noch soliden Schaden anrichtet. Beschädigt und überlädt Schiffsmodule, hat aber eine geringe Genauigkeit.	200
 
 08c Green nuke launcher.prefab
 displayName	Green Death	Grüner Tod	40
 description	A simple but powerful corrosion blast missile that utilizes exotic acids. Inaccurate, damages everything in the hit area.	Eine einfache, aber starke Korrosionssprengrakete, die exotische Säuren verwendet. Unpräzise, beschädigt alles im Trefferbereich.	200
 
 08d Spearhead nuke launcher.prefab
-description	Advanced capital missile. Well-armored and high damage against ship integrity, small area of effect. Faster than average nukes.	Fortgeschrittene Kapitalrakete. Gut gepanzert und hoher Schaden gegen Schiffsintegrität, kleiner Wirkungsbereich. Schneller als durchschnittliche Atombomben.	200
+description	Advanced capital missile. Well-armored and high damage against ship integrity, small area of effect. Faster than average nukes.	Fortgeschrittene Bombe. Gut gepanzert und hoher Schaden gegen Schiffsintegrität, kleiner Wirkungsbereich. Schneller als durchschnittliche Bomben.	200
 
 08e thin speeder nuke launcher.prefab
-description	Cheap and fast single-shot missile. Damages ship HP, crew & modules, small area of effect compared to other nukes. Quite fragile.	Billige und schnelle Single-Shot-Rakete. Beschädigt SchiffshP, Besatzung und Module, kleiner Wirkungsbereich im Vergleich zu anderen Nuklearwaffen. Ziemlich zerbrechlich.	200
+description	Cheap and fast single-shot missile. Damages ship HP, crew & modules, small area of effect compared to other nukes. Quite fragile.	Billige und schnelle Single-Shot-Rakete. Beschädigt SchiffshP, Besatzung und Module, kleiner Wirkungsbereich im Vergleich zu anderen Bomben. Ziemlich zerbrechlich.	200
 
 09 Rat nuke launcher.prefab
 displayName	Imperial Incendiary Capital Missile	Imperial Incendiary Capital Missile	40
@@ -9322,7 +9322,7 @@ description	Incendiary missile that does not damage ship HP, but causes fires. M
 
 10 White nuke launcher.prefab
 displayName	White Death	Weißer Tod	40
-description	Modern military-grade capital missile. Starts fires, damages modules & crew. The nuclear detonation is accompanied by an EMP wave.	Moderne militärische Kapitalrakete. Verursacht Brände, beschädigt Module und Besatzung. Die nukleare Detonation wird von einer EMP-Welle begleitet.	200
+description	Modern military-grade capital missile. Starts fires, damages modules & crew. The nuclear detonation is accompanied by an EMP wave.	Moderne militärische Bombe. Verursacht Brände, beschädigt Module und Besatzung. Die nukleare Detonation wird von einer EMP-Welle begleitet.	200
 
 11 EMP nuke launcher.prefab
 displayName	EMP 9000	EMP 9000	40
@@ -9333,30 +9333,30 @@ displayName	Terran Fire 2000	Terranisches Feuer 2000	40
 description	Incendiary capital missile built in Earth Alliance research labs. Causes a massive firestorm inside the enemy ship.	In den Forschungslabors der Erd-Allianz gebaute Brandrakete. Verursacht einen massiven Feuersturm im Inneren des gegnerischen Schiffes.	200
 
 13 nanopellet nuke launcher.prefab
-description	This capital missile releases a huge cloud of nanopellets on impact. The pellets penetrate ship hull and damage enemy modules & crew.	Diese Kapitalrakete setzt beim Aufprall eine riesige Wolke von Nanopellets frei. Die Pellets durchdringen die Schiffshülle und beschädigen gegnerische Module und die Besatzung.	200
+description	This capital missile releases a huge cloud of nanopellets on impact. The pellets penetrate ship hull and damage enemy modules & crew.	Diese Bombe setzt beim Aufprall eine riesige Wolke von Nanopellets frei. Die Pellets durchdringen die Schiffshülle und beschädigen gegnerische Module und die Besatzung.	200
 
 14 Red EB nuke launcher.prefab
-displayName	Unknown capital missile	Unbekannte Kapitalrakete	40
-description	Advanced capital missile that releases a mixture of corrosive, volatile and toxic nanopellets. The hit ravages ship HP, causes firestorms and damages crew while leaving modules intact.	Fortschrittliche Kapitalrakete, die eine Mischung aus korrosiven, flüchtigen und giftigen Nanopellets freisetzt. Der Treffer verwüstet die HP des Schiffs, verursacht Feuerstürme und beschädigt die Besatzung, während die Module intakt bleiben.	200
+displayName	Unknown capital missile	Unbekannte Bombe	40
+description	Advanced capital missile that releases a mixture of corrosive, volatile and toxic nanopellets. The hit ravages ship HP, causes firestorms and damages crew while leaving modules intact.	Fortschrittliche Bombe, die eine Mischung aus korrosiven, flüchtigen und giftigen Nanopellets freisetzt. Der Treffer verwüstet die HP des Schiffs, verursacht Feuerstürme und beschädigt die Besatzung, während die Module intakt bleiben.	200
 
 15 Black nuke launcher.prefab
 displayName	Deathmatter	Todesmaterie	40
-description	Military-grade capital missile with anti-matter warhead. Wide area of effect, high damage against ship hull and modules.	Militärische Kapitalrakete mit Anti-Materie-Sprengkopf. Großer Wirkungsbereich, hoher Schaden gegen Schiffshülle und Module.	200
+description	Military-grade capital missile with anti-matter warhead. Wide area of effect, high damage against ship hull and modules.	Militärische Bombe mit Anti-Materie-Sprengkopf. Großer Wirkungsbereich, hoher Schaden gegen Schiffshülle und Module.	200
 
 16 EMP rat nuke launcher.prefab
-displayName	Rat EMP missile	Ratten-EMP-Rakete	40
-description	A capital missile that releases a disharmony pulse to disable modules, but deals no damage.	Ein kapitaler Flugkörper, der einen Disharmonie-Impuls freisetzt, um Module zu deaktivieren, aber keinen Schaden anrichtet.	200
+displayName	Rat EMP missile	Ratten-EMP-Bombe	40
+description	A capital missile that releases a disharmony pulse to disable modules, but deals no damage.	Ein bombiger Flugkörper, der einen Disharmonie-Impuls freisetzt, um Module zu deaktivieren, aber keinen Schaden anrichtet.	200
 
 99 maggot spawner launcher.prefab
-displayName	Biotech burrower nuke	Biotech-Erdrakete	40
-description	A capital missile that contains active biotech payload.	Ein kapitaler Flugkörper, der eine aktive Biotech-Nutzlast enthält.	200
+displayName	Biotech burrower nuke	Biotech-Gräber-Bombe	40
+description	A capital missile that contains active biotech payload.	Ein bombiger Flugkörper, der eine aktive Biotech-Nutzlast enthält.	200
 
 99 pirate spawner launcher 1.prefab
 displayName	Armored boarding shuttle	Gepanzertes Enter-Shuttle	40
 description	Delivers boarders to enemy ship.	Bringt Enternde zum feindlichen Schiff.	200
 
 Monolith nuke launcher.prefab
-description	A capital missile that rams enemy ships with incredible kinetic force.	Ein kapitaler Flugkörper, der feindliche Schiffe mit unglaublicher kinetischer Kraft rammt.	200
+description	A capital missile that rams enemy ships with incredible kinetic force.	Ein bombiger Flugkörper, der feindliche Schiffe mit unglaublicher kinetischer Kraft rammt.	200
 
 weapon ATK-MK1 old.prefab
 displayName	ATK-cannon I (old)	ATK-Kanone I (alt)	40
@@ -9410,7 +9410,7 @@ description	Shoots balls that cause fire on impact. Rapid rate of fire and more 
 
 weapon emperorbanks cannon large.prefab
 displayName	Intelligent BankTM cannon IIIA	Intelligente BankTM-Kanone IIIA	40
-description	These cannons rely on abundant use of explosives to print & propel massive, almost nuke-sized projectiles (which may be deflected). Robust structure improves ship HP. Projectile has 8hp.	Diese Kanonen setzen auf den reichlichen Einsatz von Sprengstoff, um massive, fast nukleargroße Projektile zu drucken und abzuschießen (die abgelenkt werden können). Die robuste Struktur verbessert die HP des Schiffes. Das Projektil hat 8 HP.	200
+description	These cannons rely on abundant use of explosives to print & propel massive, almost nuke-sized projectiles (which may be deflected). Robust structure improves ship HP. Projectile has 8hp.	Diese Kanonen setzen auf den reichlichen Einsatz von Sprengstoff, um massive, fast bombengroße Projektile zu drucken und abzuschießen (die abgelenkt werden können). Die robuste Struktur verbessert die HP des Schiffes. Das Projektil hat 8 HP.	200
 
 weapon emperorbanks cannon1x.prefab
 displayName	Intelligent BankTM cannon IA	Intelligente BankTM-Kanone IA	40
@@ -9888,7 +9888,7 @@ description	The Easy Tiger was created to provide security for colony fleets in 
 description	This industrial frigate was not made for long-range travel. It starts with 4 internal drones and a self-made drone repair bay. Small size of the ship provides an excellent evasion bonus but offers limited modular options. While good for training, you should not expect to reach very far using this ship.	Diese Industrie-Fregatte wurde nicht für Langstreckenflüge gebaut. Sie startet mit 4 internen Drohnen und einer selbstgebauten Drohnen-Reparaturbucht. Die geringe Größe des Schiffes sorgt für einen hervorragenden Ausweichbonus, bietet aber nur begrenzte modulare Optionen. Obwohl es sich gut für das Training eignet, sollten Sie nicht erwarten, mit diesem Schiff sehr weit zu kommen.	400
 
 02 Nuke Runner.prefab
-description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Raser ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (der Nukleararsenal-Startbonus). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
+description	This special operations speeder is known for tactical survivability. The ship has good armor and superb evasion, plus increased fire resistance. Optional loadout includes an impressive selection of nukes (the nuke arsenal perk). The small hull offers limited options and is not recommended for claustrophobic crew.	Dieser Spezialeinsatz-Raser ist für seine taktische Überlebensfähigkeit bekannt. Das Schiff verfügt über eine gute Panzerung und eine hervorragende Ausweichfähigkeit sowie eine erhöhte Feuerresistenz. Die optionale Beladung umfasst eine beeindruckende Auswahl an Nuklearwaffen (der Atomwaffenarsenal-Startbonus). Der kleine Rumpf bietet nur begrenzte Möglichkeiten und ist für klaustrophobische Besatzungen nicht zu empfehlen.	400
 unlockText	Complete tutorial to unlock	Freischaltung: Einführung abschließen	100
 unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erd-Allianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
@@ -10095,7 +10095,7 @@ randomizerMenuStrings[i]	+1% evasion	+1% Ausweichen	30
 
 Perk augment 00c impact dampeners.prefab
 displayName	Passive impact dampeners	Passive Aufpralldämpfer	40
-description	Increases chance to deflect projectiles or energy rays that hit our ship, avoiding any damage to ship HP.\nMissiles, nukes and rare weapons are immune to deflection by ship armor.	Erhöht die Chance, Projektile oder Energiestrahlen, die unser Schiff treffen, abzulenken und so Schaden an den HP des Schiffes zu vermeiden.\nMissiles, Nukes und seltene Waffen sind immun gegen Ablenkung durch die Schiffspanzerung.	250
+description	Increases chance to deflect projectiles or energy rays that hit our ship, avoiding any damage to ship HP.\nMissiles, nukes and rare weapons are immune to deflection by ship armor.	Erhöht die Chance, Projektile oder Energiestrahlen, die unser Schiff treffen, abzulenken und so Schaden an den HP des Schiffes zu vermeiden.\nRaketen, Bomben und seltene Waffen sind immun gegen Ablenkung durch die Schiffspanzerung.	250
 randomizerMenuStrings[i]	+1% deflection	+1% Ablenkung	30
 
 Perk augment 00d tactical predictor.prefab
@@ -10450,7 +10450,7 @@ randomizerMenuStrings[i]	+2 reactors	+2 Reaktoren	30
 
 Perk module Decoy Set x 3.prefab
 displayName	The decoy moduleset (x3)	Das Täuschungsmodulset (x3)	40
-description	A decoy weapon, shield generator and nuke. All designed to draw enemy fire away from real modules or capital missiles.	Eine Täuschungswaffe, ein Schildgenerator und eine Atombombe. Alles dazu gedacht, feindliches Feuer von echten Modulen oder kapitalen Raketen abzulenken.	250
+description	A decoy weapon, shield generator and nuke. All designed to draw enemy fire away from real modules or capital missiles.	Eine Täuschungswaffe, ein Schildgenerator und eine Bombe. Alles dazu gedacht, feindliches Feuer von echten Modulen oder Bomben abzulenken.	250
 randomizerMenuStrings[i]	+3 decoy modules	+3 Täuschungsmodule	30
 randomizerMenuStrings[i]	-150 credits	-150 Kredite	30
 
@@ -10499,7 +10499,7 @@ randomizerMenuStrings[i]	+1 DIY exotic raygun	+1 DIY Exotische Strahlenwaffe	30
 
 Perk module DIY explo combinator, to 3ships.prefab
 displayName	Explosives combinator DIY	Sprengstoff-Kombinator DIY	40
-description	This matter combinator can be fitted to Tigerfish utility frigates for a small price. Being able to produce explosives means our weapons don't run out of ammo so quickly, and we have greater freedom to dedicate resources into crafting DIY nukes.	Dieser Materie-Kombinator kann gegen einen geringen Preis an Tigerfisch-Versorgungsfregatten angebracht werden. Die Fähigkeit, Sprengstoff zu produzieren, bedeutet, dass unseren Waffen nicht so schnell die Munition ausgeht und wir mehr Freiheit haben, Ressourcen für die Herstellung von DIY-Nukes zu verwenden.	250
+description	This matter combinator can be fitted to Tigerfish utility frigates for a small price. Being able to produce explosives means our weapons don't run out of ammo so quickly, and we have greater freedom to dedicate resources into crafting DIY nukes.	Dieser Materie-Kombinator kann gegen einen geringen Preis an Tigerfisch-Versorgungsfregatten angebracht werden. Die Fähigkeit, Sprengstoff zu produzieren, bedeutet, dass unseren Waffen nicht so schnell die Munition ausgeht und wir mehr Freiheit haben, Ressourcen für die Herstellung von DIY Bomben zu verwenden.	250
 randomizerMenuStrings[i]	Allows combining fuel and synthetics into explosives	Ermöglicht die Kombination von Treibstoff und Kunststoffen zu Sprengstoffen	30
 
 Perk module DIY garden.prefab
@@ -10657,7 +10657,7 @@ Perk module weapon bank missile x2.prefab
 displayName	Commercial missile platform	Kommerzielle Raketenplattform	40
 description	This platform prints and launches heavy missiles in pairs, giving them a good chance to survive enemy point-defence fire. Pre-loaded with enough explosives for a single volley of fire.	Diese Plattform druckt und startet schwere Raketen in Paaren, wodurch sie eine gute Chance hat, feindliches Punktabwehr-Feuer zu überleben. Vorgeladen mit genug Sprengstoff für eine einzige Feuersalve.	250
 unlockAnnouncementText	During our travels, we've learned the location of an old military warehouse containing this weapon, among other things. We may pick it up next time.	Während unserer Reisen haben wir den Standort eines alten Militärlagers erfahren, das unter anderem diese Waffe enthält. Vielleicht holen wir sie beim nächsten Mal ab.	100
-randomizerMenuStrings[i]	+1 missile weapon	+1 Rakete	30
+randomizerMenuStrings[i]	+1 missile weapon	+1 Raketenplattform	30
 randomizerMenuStrings[i]	+16 explosives	+16 Sprengstoffe	30
 
 Perk module weapon Spideraa Shuriken.prefab
@@ -10671,82 +10671,82 @@ description	Moleculaatis are non-carbon animals of unknown origin that use body 
 
 Perk nuke arsenal DIY.prefab
 displayName	Nuke arsenal DIY	Atomwaffenarsenal DIY	40
-description	An arsenal of manually assembled capital missiles, also known as nukes. Can be purchased from a shady source, payment in gold and crystals only.	Ein Arsenal von manuell zusammengebauten kapitalen Raketen, auch bekannt als Nukes. Kann von einer zwielichtigen Quelle erworben werden, Bezahlung nur in Gold und Kristallen.	250
-unlockAnnouncementText	During our travels, we've met an individual willing to sell self-made nukes.	Auf unseren Reisen haben wir ein Individuum getroffen, das bereit ist, selbstgebaute Nuklearwaffen zu verkaufen.	100
-randomizerMenuStrings[i]	+4 DIY capital missiles	+4 DIY kapitale Raketen	30
+description	An arsenal of manually assembled capital missiles, also known as nukes. Can be purchased from a shady source, payment in gold and crystals only.	Ein Arsenal von manuell zusammengebauten Bomben, auch bekannt als Atombomben. Kann von einer zwielichtigen Quelle erworben werden, Bezahlung nur in Gold und Kristallen.	250
+unlockAnnouncementText	During our travels, we've met an individual willing to sell self-made nukes.	Auf unseren Reisen haben wir ein Individuum getroffen, das bereit ist, selbstgebaute Bomben zu verkaufen.	100
+randomizerMenuStrings[i]	+4 DIY capital missiles	+4 DIY Bomben	30
 randomizerMenuStrings[i]	-200 metal	-200 Metalle	30
 
 Perk nuke arsenal for SP33.prefab
 displayName	Nuke arsenal x5	Atomwaffenarsenal x5	40
-description	A selection of capital missiles, also known as nukes. Just fill in the very-ethical-use-only declaration to receive.	Eine Auswahl an kapitalen Raketen, auch bekannt als Nuklearwaffen. Füllen Sie einfach die "Nur für den ethischen Gebrauch"-Erklärung aus, um sie zu erhalten.	250
-randomizerMenuStrings[i]	+5 capital missiles	+5 Kapitale Raketen	30
+description	A selection of capital missiles, also known as nukes. Just fill in the very-ethical-use-only declaration to receive.	Eine Auswahl an bombiger Raketen, auch bekannt als Nuklearwaffen. Füllen Sie einfach die "Nur für den ethischen Gebrauch"-Erklärung aus, um sie zu erhalten.	250
+randomizerMenuStrings[i]	+5 capital missiles	+5 Bomben	30
 
 Perk nuke barrel.prefab
-displayName	External fueltank, T-1 [weaponized]	Externer Treibstofftank, T-1 [bewaffnet]	40
-description	External fueltank usable as a cheap capital missile. Scrapping provides lots of fuel. Very fragile and can be easily shot down by point-defences.	Externer Treibstofftank, verwendbar als billige Kapitalrakete. Das Verschrotten liefert viel Treibstoff. Sehr zerbrechlich und kann leicht von Punktabwehranlagen abgeschossen werden.	250
+displayName	External fueltank, T-1 [weaponized]	Externer Treibstofftank, T-1 [Bombe]	40
+description	External fueltank usable as a cheap capital missile. Scrapping provides lots of fuel. Very fragile and can be easily shot down by point-defences.	Externer Treibstofftank, verwendbar als billige Bombe. Das Verschrotten liefert viel Treibstoff. Sehr zerbrechlich und kann leicht von Punktabwehranlagen abgeschossen werden.	250
 
 Perk nuke bio 2 greentail.prefab
-displayName	Greentail nuke (biotech)	Greentail nuke (biotech)	40
+displayName	Greentail nuke (biotech)	Grünschwanz-Bombe (biotech)	40
 description	This bioengineered semisolid organism delivers corrosive payload on impact, damaging everything in its small area of effect. Resilient body.	Dieser biotechnisch hergestellte halbfeste Organismus gibt beim Aufprall eine ätzende Nutzlast ab, die alles in seinem kleinen Wirkungsbereich beschädigt. Unverwüstlicher Körper.	250
 
 Perk nuke bio.prefab
 displayName	Nanospore nuke (biotech)	Nanosporen-Bombe (Biotech)	40
-description	Ancient capital missile obtained from a biotech museum. Damages only modules and crew, harmless against ship hull.	Uralte Kapitalrakete, die aus einem Biotech-Museum stammt. Beschädigt nur Module und Besatzung, harmlos gegen die Schiffshülle.	250
+description	Ancient capital missile obtained from a biotech museum. Damages only modules and crew, harmless against ship hull.	Uralte Bombe, die aus einem Biotech-Museum stammt. Beschädigt nur Module und Besatzung, harmlos gegen die Schiffshülle.	250
 
 Perk nuke diy decoy for Rogue Rat.prefab
 displayName	The Flying Boilers x2	Die fliegenden Kessel x2	40
 description	This pair of improvised decoy nukes have been manually crafted by local rocketry enthusiasts. Can be used to draw point-defence fire away from other missiles and deal minor damage against ship HP.	Dieses Paar improvisierter Täuschungsbomben wurde von lokalen Raketenenthusiasten in Handarbeit hergestellt. Sie können eingesetzt werden, um Punktabwehr-Feuer von anderen Raketen abzulenken und verursachen geringen Schaden an der Schiffshülle.	250
-randomizerMenuStrings[i]	+2 capital decoy missiles	+2 Kapitale Täuschungsraketen	30
+randomizerMenuStrings[i]	+2 capital decoy missiles	+2 Täuschungsbombe	30
 
 Perk nuke DIY probe ual4 for bluestar.prefab
-displayName	DIY nuke [weaponized probe]	DIY-Nuke [bewaffnete Sonde]	40
-description	Improvised capital missile, made from an exploration probe with destabilized reactors. We need to provide the fuel for its engines ourselves.	Improvisierte Kapitalrakete, hergestellt aus einer Erkundungssonde mit destabilisierten Reaktoren. Wir müssen den Treibstoff für die Triebwerke selbst bereitstellen.	250
-unlockAnnouncementText	During our travels, our ship AI has secured access to this improvised nuke. We can pick it up next time we go on an adventure, but its engines need refuelling before it can be used.	Während unserer Reisen hat sich unsere Schiffs-KI Zugang zu dieser improvisierten Atombombe verschafft. Wir können sie bei unserem nächsten Abenteuer abholen, aber ihre Triebwerke müssen aufgetankt werden, bevor sie eingesetzt werden kann.	100
+displayName	DIY nuke [weaponized probe]	DIY-Bombe [bewaffnete Sonde]	40
+description	Improvised capital missile, made from an exploration probe with destabilized reactors. We need to provide the fuel for its engines ourselves.	Improvisierte Bombe, hergestellt aus einer Erkundungssonde mit destabilisierten Reaktoren. Wir müssen den Treibstoff für die Triebwerke selbst bereitstellen.	250
+unlockAnnouncementText	During our travels, our ship AI has secured access to this improvised nuke. We can pick it up next time we go on an adventure, but its engines need refuelling before it can be used.	Während unserer Reisen hat sich unsere Schiffs-KI Zugang zu dieser improvisierten Bombe verschafft. Wir können sie bei unserem nächsten Abenteuer abholen, aber ihre Triebwerke müssen aufgetankt werden, bevor sie eingesetzt werden kann.	100
 randomizerMenuStrings[i]	-40 fuel	-40 Treibstoff	30
 
 Perk nuke DIY random.prefab
-displayName	Improvised nuclear missile	Improvisierte Nuklearrakete	40
+displayName	Improvised nuclear missile	Improvisierte Bombe	40
 description	An improvised combination of destabilized reactors, old engines and various spare parts. Might save our life one day.	Eine improvisierte Kombination aus destabilisierten Reaktoren, alten Motoren und verschiedenen Ersatzteilen. Könnte uns eines Tages das Leben retten.	250
-randomizerMenuStrings[i]	+1 random capital missile	+1 Zufällige großartige Rakete	30
+randomizerMenuStrings[i]	+1 random capital missile	+1 Zufällige Bomben	30
 randomizerMenuStrings[i]	-20 fuel	-20 Treibstoff	30
 
 Perk nuke DIY shield breaker.prefab
-displayName	DIY shield breaker	DIY-Schildbrecher	40
-description	This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless. Quite fragile, may be shot down by point-defences without distraction fire or decoys.	Diese improvisierte Kapitalrakete trägt eine starke Anti-Schild-Energieladung, ist aber ansonsten harmlos. Ziemlich zerbrechlich, kann von Punktabwehrsystemen ohne Ablenkungsfeuer oder Täuschkörper abgeschossen werden.	250
+displayName	DIY shield breaker	DIY Schildbrecher-Bombe	40
+description	This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless. Quite fragile, may be shot down by point-defences without distraction fire or decoys.	Diese improvisierte Bombe trägt eine starke Anti-Schild-Energieladung, ist aber ansonsten harmlos. Ziemlich zerbrechlich, kann von Punktabwehrsystemen ohne Ablenkungsfeuer oder Täuschkörper abgeschossen werden.	250
 
 Perk nuke EMP 9000.prefab
 displayName	EMP Megablast 9000	EMP Megablast 9000	40
-description	A capital missile for disabling enemy shields or overloading modules. Harmless against crew or ship hull.	Ein kapitaler Flugkörper zur Deaktivierung gegnerischer Schilde oder zur Überlastung von Modulen. Harmlos gegen Besatzung oder Schiffshülle.	250
+description	A capital missile for disabling enemy shields or overloading modules. Harmless against crew or ship hull.	Ein bombiger Flugkörper zur Deaktivierung gegnerischer Schilde oder zur Überlastung von Modulen. Harmlos gegen Besatzung oder Schiffshülle.	250
 
 Perk nuke for Endurance.prefab
 displayName	Prototype incendiary nuke	Prototyp Brandbombe	40
 description	A prototype capital missile built in Earth Alliance research labs. Creates a massive firestorm inside target ship.	Ein Prototyp einer großen Rakete, die in den Forschungslabors der Erd-Allianz gebaut wurde. Erzeugt einen massiven Feuersturm im Inneren des Zielschiffs.	250
 
 Perk nuke fueltank for atlas.prefab
-displayName	External fueltank, T-02 [weaponized]	Externer Treibstofftank, T-02 [bewaffnet]	40
-description	External fueltank usable as a capital missile. Scrapping provides lots of fuel. Recommended for long-range flights.	Externer Treibstofftank, verwendbar als Kapitalrakete. Abwracken liefert viel Treibstoff. Empfohlen für Langstreckenflüge.	250
+displayName	External fueltank, T-02 [weaponized]	Externer Treibstofftank, T-02 [Bombe]	40
+description	External fueltank usable as a capital missile. Scrapping provides lots of fuel. Recommended for long-range flights.	Externer Treibstofftank, verwendbar als Bombe. Abwracken liefert viel Treibstoff. Empfohlen für Langstreckenflüge.	250
 
 Perk nuke old.prefab
 displayName	The decommissioned nuke	Die ausgemusterte Atombombe	40
 description	It's a few hundred years old, but still very powerful.	Sie ist schon ein paar hundert Jahre alt, aber immer noch sehr leistungsfähig.	250
 
 Perk nuke Rat DIY incendiary.prefab
-displayName	DIY firebomb nuke	DIY Brandbombe Nuke	40
+displayName	DIY firebomb nuke	DIY Brandbombe	40
 description	An improvised incendiary missile made from a combination of Rat Empire munitions. Designed for starting fires in enemy ships.	Eine improvisierte Brandbombe, hergestellt aus einer Kombination von Munition des Rattenimperiums. Entwickelt, um Brände in feindlichen Schiffen auszulösen.	250
 randomizerMenuStrings[i]	-130 credits	-130 Kredite	30
 
 Perk nuke Rat incendiary for Rogue Rat.prefab
 displayName	Rat Empire incendiary nuke	Rattenimperium-Brandbombe	40
 description	Widespread corruption in the Rat Empire ensures that everything is available for a price.	Die weit verbreitete Korruption im Rattenimperium sorgt dafür, dass alles für einen Preis zu haben ist.	250
-randomizerMenuStrings[i]	+1 capital incendiary missile	+1 Verhängnisvolle Brandbombe	30
+randomizerMenuStrings[i]	+1 capital incendiary missile	+1 Brandbombe	30
 randomizerMenuStrings[i]	- 1 exotic	- 1 Exotisch	30
 
 Perk nuke thinspeeder for atlas.prefab
-displayName	Additional nuke	Zusätzliche Atombombe	40
-description	For a small price, this mass-produced capital missile will added to the munitions loadout for Atlas. Faster than other nukes, small payload.	Für einen geringen Preis wird diese massenproduzierte Kapitalrakete dem Munitionsloadout für Atlas hinzugefügt. Schneller als andere Nuklearwaffen, kleine Nutzlast.	250
+displayName	Additional nuke	Zusätzliche Bombe	40
+description	For a small price, this mass-produced capital missile will added to the munitions loadout for Atlas. Faster than other nukes, small payload.	Für einen geringen Preis wird diese massenproduzierte Bombe dem Munitionsloadout für Atlas hinzugefügt. Schneller als andere Bomben, kleine Nutzlast.	250
 
 Perk nuke Tigerfish.prefab
-displayName	Tigerpaw nuke	Tigerpfote-Atombombe	40
+displayName	Tigerpaw nuke	Tigerpfote-Bombe	40
 description	A heavily armored single-shot industrial missile, originally designed for breaking large asteroids. Now repurposed for war. This one has very small AOE.	Eine stark gepanzerte Ein-Schuss-Industrierakete, die ursprünglich zum Zertrümmern großer Asteroiden entwickelt wurde. Jetzt für den Krieg umgewidmet. Diese hat eine sehr kleine AOE.	250
 
 Perk pack, 3xsolid starfuel from level7.prefab
@@ -11516,7 +11516,7 @@ Human basic crew description pool.prefab
 	Animal doctor, self-banished because of a fatal mistake. Skin augments.	Tierarzt, selbst gebannt wegen eines fatalen Fehlers. Hautvergrößerungen.	250
 	A broken-hearted lover who hasn't let go. Writes okayish poetry.	Ein Liebhaber mit gebrochenem Herzen, der nicht losgelassen hat. Schreibt ganz okaye Gedichte.	250
 	A successful martial artist. Has never hurt anybody.	Ein erfolgreicher Kampfsportler. Hat noch nie jemanden verletzt.	250
-	A failed ambassador. The story involves nukes. Fast runner.	Ein gescheiterter Botschafter. Die Geschichte handelt von Atombomben. Schneller Läufer.	250
+	A failed ambassador. The story involves nukes. Fast runner.	Ein gescheiterter Botschafter. Die Geschichte handelt von Bombe. Schneller Läufer.	250
 	A completely rehabilitated criminal. Loves to dance and sing.	Ein vollständig rehabilitierter Krimineller. Liebt es zu tanzen und zu singen.	250
 	A psychedelics scientists. Favorite drug: Onyx-1.	Ein Wissenschaftler der Psychedelika. Lieblingsdroge: Onyx-1.	250
 	A Minimalism monk. Used to be a ruler of a backwater planet.	Ein Minimalismus-Mönch. War mal Herrscher über einen Hinterwäldlerplaneten.	250
@@ -11591,7 +11591,7 @@ Human basic crew description pool.prefab
 	A professional storyteller. Most stories are about love & sex.	Ein professioneller Geschichtenerzähler. Die meisten Geschichten handeln von Liebe und Sex.	250
 	Empathy teacher. Scars of physical violence. Subskin implants for extra protection.	Ein Lehrer für Empathie. Narben von körperlicher Gewalt. Unterhautimplantate für zusätzlichen Schutz.	250
 	Refugee from a religious suicide cult. Soft voice. Fast runner.	Flüchtling vor einem religiösen Selbstmordkult. Sanfte Stimme. Schneller Läufer.	250
-	A retired mercenary. Once survived a direct hit with a nuke.	Ein Söldner im Ruhestand. Überlebte einmal einen direkten Treffer einer Atombombe.	250
+	A retired mercenary. Once survived a direct hit with a nuke.	Ein Söldner im Ruhestand. Überlebte einmal einen direkten Treffer einer Bombe.	250
 	A retired mercenary. Never killed a single person. Very athletic.	Ein Söldner im Ruhestand. Hat noch nie einen Menschen getötet. Sehr sportlich.	250
 	A retired mercenary. Retired after first kill in combat.	Ein Söldner im Ruhestand. Ging nach der ersten Tötung im Kampf in Rente.	250
 	A famous psygame artist. Silent type.	Ein berühmter Psychospiele-Künstler. Stiller Typ.	250
@@ -11679,7 +11679,7 @@ Human fighter description pool.prefab
 	A retired war mutants breeder. Has only ~100 years left to live.	Ein Kriegsmutantenzüchter im Ruhestand. Hat nur noch ~100 Jahre zu leben.	250
 	A veteran law guardian who escaped from assassins.	Ein altgedienter Gesetzeshüter, der vor Attentätern geflohen ist.	250
 	A retired mercenary. Never killed a single person.	Ein Söldner im Ruhestand. Hat noch nie einen Menschen getötet.	250
-	A retired mercenary. Once survived a direct hit with nuke.	Ein Söldner im Ruhestand. Überlebte einmal einen Volltreffer mit einer Atombombe.	250
+	A retired mercenary. Once survived a direct hit with nuke.	Ein Söldner im Ruhestand. Überlebte einmal einen Volltreffer einer Bombe.	250
 	Empathy teacher. Scars from physical violence. Handgun training.	Empathie-Lehrer. Narben von körperlicher Gewalt. Handwaffentraining.	250
 	An old death artist. Seeks a meaningful death.	Ein alter Todeskünstler. Sucht nach einem sinnvollen Tod.	250
 	An old Death Dancer. Seeks a beautiful death.	Ein alter Totentänzer. Sucht einen schönen Tod.	250
@@ -11723,7 +11723,7 @@ Human fighter-gunner description pool.prefab
 	A fighter pilot, banished because of too many mistakes.	Ein Kampfpilot, der wegen zu vieler Fehler verbannt wurde.	250
 	A close-combat specialist. Once shot down a battleship with handgun.	Ein Nahkampfspezialist. Schoss einmal ein Schlachtschiff mit einer Handfeuerwaffe ab.	250
 	A modern martial artist. Has never hurt anybody.	Ein moderner Kampfsportler. Hat noch nie jemanden verletzt.	250
-	A failed low-level General. The story involves nukes.	Ein gescheiterter General der unteren Ebene. Die Geschichte handelt von Atombomben.	250
+	A failed low-level General. The story involves nukes.	Ein gescheiterter General der unteren Ebene. Die Geschichte handelt von Bomben.	250
 	An ex-law guardian. Quit because of corruption. Good with handguns.	Ein Ex-Gesetzeshüter. Hat wegen Korruption aufgehört. Kann gut mit Handfeuerwaffen umgehen.	250
 	A Perfectionism monk. Far from perfect.	Ein Perfektionismus-Mönch. Weit entfernt von Perfektionismus.	250
 	A retired empathy-teacher. Scars from physical violence.	Ein pensionierter Empathie-Lehrer. Narben von körperlicher Gewalt.	250
@@ -11833,7 +11833,7 @@ Human operator wildcard description pool.prefab
 	An experienced Love monk, liked by everybody on the ship.	Ein erfahrener Liebesmönch, der von allen auf dem Schiff gemocht wird.	250
 	A doctor, banished because of a fatal mistake.	Ein Arzt, der wegen eines fatalen Fehlers verbannt wurde.	250
 	A professional crewman. Low grades from university.	Ein professioneller Crewman. Schlechte Noten an der Universität.	250
-	A failed ambassador. The story involves nukes.	Ein gescheiterter Botschafter. Die Geschichte handelt von Atombomben.	250
+	A failed ambassador. The story involves nukes.	Ein gescheiterter Botschafter. Die Geschichte handelt von Bomben.	250
 	A dropout from piloting school. Collects 3D models of snowflakes.	Ein Abbrecher der Pilotenschule. Sammelt 3D-Modelle von Schneeflocken.	250
 	A psychedelics scientists. Favorite drug: Onyx-1	Ein Wissenschaftler für Psychedelika. Lieblingsdroge: Onyx-1	250
 	A Minimalism monk. Used to be a ruler of a small planet.	Ein Minimalismus-Mönch. War mal Herrscher über einen kleinen Planeten.	250
@@ -12110,7 +12110,7 @@ Ship destroyed game over text pool.prefab
 	No crying over spilled almond milk, nor spilled spaceship crews.	Kein Weinen über verschüttete Mandelmilch oder verschüttete Raumschiffcrews.	80
 	One more run?	Noch ein Durchlauf?	80
 	If one keeps dying because of repairing ship HP too late, one should repair it earlier.	Wenn man immer wieder stirbt, weil man die Schiffs-HP zu spät repariert, sollte man sie früher reparieren.	80
-	If one keeps dying because of not using nukes, one should use nukes.	Wenn man immer wieder stirbt, weil man keine Atombomben benutzt, sollte man sie benutzen.	80
+	If one keeps dying because of not using nukes, one should use nukes.	Wenn man immer wieder stirbt, weil man keine Bomben benutzt, sollte man sie benutzen.	80
 	You've stopped emitting causal waves, go for a new run to continue emitting.	Sie haben aufgehört, kausale Wellen zu emittieren, machen Sie einen neuen Lauf, um weiter zu emittieren.	80
 	Death, like sex, has an existential value.	Der Tod hat, wie der Sex, einen existenziellen Wert.	80
 	The unfairness in a Game is the least of our concens compared to the unfairness that goes on outside of the Game.	Die Unfairness in einem Spiel ist das Geringste im Vergleich zu der Unfairness, die außerhalb des Spiels stattfindet.	80
@@ -12123,7 +12123,7 @@ Ship destroyed game over text pool.prefab
 	The fact that your ship has been destroyed in Shortest Trip is the least of your problems.	Die Tatsache, dass Ihr Schiff in Shortest Trip zerstört wurde, ist das geringste Ihrer Probleme.	80
 	The fact that you died in Shortest Trip is the least of your problems.	Die Tatsache, dass Sie in Shortest Trip gestorben sind, ist das geringste Ihrer Probleme.	80
 	The fact that you have been defeated in Shortest Trip is the least of your problems.	Die Tatsache, dass Sie in Shortest Trip besiegt wurden, ist das geringste Ihrer Probleme.	80
-	One learns that health is more valuable than ammo after one dies in a ship full of unused nukes.	Man lernt, dass Gesundheit wertvoller ist als Munition, nachdem man in einem Schiff voller unbenutzter Atombomben gestorben ist.	80
+	One learns that health is more valuable than ammo after one dies in a ship full of unused nukes.	Man lernt, dass Gesundheit wertvoller ist als Munition, nachdem man in einem Schiff voller unbenutzter Bomben gestorben ist.	80
 	You didn't think you'd come out alive from this?	Sie haben nicht geglaubt, dass Sie da lebend rauskommen?	80
 	Some cats have more lives than nine. Some have less, and some have only their last one. Make them count.	Manche Katzen haben mehr als neun Leben. Manche haben weniger, und manche haben nur ihr letztes. Lassen Sie sie zählen.	80
 	As the ship explodes and you are ripped into cold, painful and black void of space, full of metal splinters and explosions, you feel only peace.	Als das Schiff explodiert und Sie in die kalte, schmerzhafte und schwarze Leere des Weltraums gerissen werden, voller Metallsplitter und Explosionen, fühlen Sie nur Frieden.	80
@@ -12133,7 +12133,7 @@ Ship destroyed game over text pool.prefab
 	In the end, we lose everything that we have. Only what we are remains.	Am Ende verlieren wir alles, was wir haben. Nur das, was wir sind, bleibt.	80
 	Death has been waiting to meet your consciousness, mostly to make an infinite variety of "I told you so" jokes."	Der Tod hat darauf gewartet, dein Bewusstsein zu treffen, vor allem, um eine unendliche Vielfalt von "Ich hab's dir ja gesagt"-Witzen zu machen."	80
 	You have escaped the flesh prison, fellow consciousness. A new one has been prepared for you, for your pleasure.	Du bist dem fleischlichen Gefängnis entkommen, Mitbewusstsein. Ein neues wurde für dich vorbereitet, zu deinem Vergnügen.	80
-	This is but a scratch. You'll be back. Stonger and with more nukes than ever.	Dies ist nur ein Kratzer. Du wirst zurückkommen. Stärker und mit mehr Atombomben als je zuvor.	80
+	This is but a scratch. You'll be back. Stonger and with more nukes than ever.	Dies ist nur ein Kratzer. Du wirst zurückkommen. Stärker und mit mehr Bomben als je zuvor.	80
 	You understand the local randomness patterns a little better now.	Du verstehst die lokalen Zufallsmuster jetzt etwas besser.	80
 	Your survival capacity was strained. You operated in context of inequality, poor sleep and nutrition. You were not fully responsible.	Ihre Überlebensfähigkeit wurde strapaziert. Sie operierten im Kontext von Ungleichheit, schlechtem Schlaf und schlechter Ernährung. Sie waren nicht voll verantwortlich.	80
 	Death is a style topic for rogues.	Der Tod ist ein Stilthema für Schurken.	80
@@ -12142,7 +12142,7 @@ Ship destroyed game over text pool.prefab
 	It was everybody's fault and yours. It was your fault at least 10%, and maybe more.	Es war die Schuld von allen und von Ihnen. Es war zu mindestens 10% deine Schuld, vielleicht sogar mehr.	80
 	It happened because of everybody including you. This knowledge will help you in the future, maybe.	Es ist wegen jedem passiert, auch wegen Ihnen. Dieses Wissen wird Ihnen in der Zukunft vielleicht helfen.	80
 	You participated in the choices that lead to your destruction. Participate even better next time.	Sie haben an den Entscheidungen teilgenommen, die zu Ihrer Zerstörung führten. Beteiligen Sie sich beim nächsten Mal noch besser.	80
-	Bring bigger and better weapons next time, and craft lot's of nukes. Getting more gun-wielding crew is essential.	Bringen Sie das nächste Mal größere und bessere Waffen mit, und stellen Sie viele Atombomben her. Es ist wichtig, mehr waffenfähige Besatzungsmitglieder zu bekommen.	80
+	Bring bigger and better weapons next time, and craft lot's of nukes. Getting more gun-wielding crew is essential.	Bringen Sie das nächste Mal größere und bessere Waffen mit, und stellen Sie viele Bomben her. Es ist wichtig, mehr waffenfähige Besatzungsmitglieder zu bekommen.	80
 	Bring bigger and better weapons next time. Also more shields and an attitude that confronts challenges with creative solutions and constructivity.	Bringen Sie beim nächsten Mal größere und bessere Waffen mit. Auch mehr Schilde und eine Einstellung, die Herausforderungen mit kreativen Lösungen und Konstruktivität begegnet.	80
 	Fine. In this case "Fine" means "It is okay" becaue it's okay to die in a roguelike. Totally, perfectly okay, anytime for any stupid reason."	Gut. In diesem Fall bedeutet "Gut" "Es ist okay", denn es ist okay, in einem Roguelike zu sterben. Völlig, vollkommen okay, jederzeit und aus jedem dummen Grund."	80
 	It's okay to die in a roguelike - anytime, because of any reason, with any level of intelligence or stupidity involved.	Es ist okay, in einem Roguelike zu sterben - jederzeit, aus jedem Grund, mit jedem Grad an Intelligenz oder Dummheit.	80
@@ -12192,8 +12192,8 @@ Tips pool.prefab
 	Crewmembers with above-average moving speed usually make good fire safety officers.	Crewmitglieder mit überdurchschnittlicher Bewegungsgeschwindigkeit sind normalerweise gute Brandschutzbeauftragte.	0
 	Selecting crew is a lot easier if you drag a selection box around the individual instead of clicking.	Das Auswählen von Besatzungsmitgliedern ist viel einfacher, wenn Sie ein Auswahlfeld um die Person herum ziehen, anstatt zu klicken.	0
 	Older weapons and missiles tend to use excessive amounts of explosives.	Ältere Waffen und Raketen neigen dazu, übermäßige Mengen an Sprengstoff zu verwenden.	0
-	You learn that hitpoints are more valuable than ammo after you've died a few times because of trying to save a nuke.	Sie lernen, dass Hitpoints wertvoller sind als Munition, nachdem Sie ein paar Mal gestorben sind, weil Sie versucht haben, eine Atombombe zu retten.	0
-	You learn that hitpoints are more valuable than ammo after you've died a few times in a ship armed with nukes.	Sie lernen, dass Hitpoints wertvoller als Munition sind, nachdem Sie ein paar Mal in einem mit Nuklearwaffen bewaffneten Schiff gestorben sind.	0
+	You learn that hitpoints are more valuable than ammo after you've died a few times because of trying to save a nuke.	Sie lernen, dass HP wertvoller sind als Munition, nachdem Sie ein paar Mal gestorben sind, weil Sie versucht haben, eine Bombe zu retten.	0
+	You learn that hitpoints are more valuable than ammo after you've died a few times in a ship armed with nukes.	Sie lernen, dass HP wertvoller als Munition sind, nachdem Sie ein paar Mal in einem mit Bomben bewaffneten Schiff gestorben sind.	0
 	Crew with gunnery skill increases accuracy of ship weapons they operate.	Crew mit Geschützfertigkeit erhöht die Genauigkeit der Schiffswaffen, die sie bedienen.	0
 	Older modules can sometimes malfunction and cause fires.	Ältere Module können manchmal Fehlfunktionen aufweisen und Brände verursachen.	0
 	The circle around your ship in star system view is sensor range.	Der Kreis um Ihr Schiff in der Sternensystemansicht ist die Sensorreichweite.	0
@@ -12214,7 +12214,7 @@ Tips pool.prefab
 	Xenodata documented by researching anomalies is worth many data credits.	Xenodaten, die durch die Erforschung von Anomalien dokumentiert werden, sind viele Xenodaten-Kredite wert.	0
 	Xenodata documented by researching alien nature is usually worth some data credits.	Xenodaten, die durch die Erforschung der außerirdischen Natur dokumentiert wurden, sind normalerweise einige Xenodaten-Kredite wert.	0
 	Life support modules contain biological nanobots that process or recycle all suitable organics into various substances required by crew. Mostly food & drugs.	Lebenserhaltungsmodule enthalten biologische Nanoroboter, die alle geeigneten organischen Stoffe zu verschiedenen, von der Besatzung benötigten Substanzen verarbeiten oder recyceln. Meistens Nahrung und Medikamente.	0
-	Desperate captains can scrap reactors, nukes or other modules as an emergency source of fuel.	Verzweifelte Kapitäne können Reaktoren, Atombomben oder andere Module als Notfall-Treibstoffquelle verschrotten.	0
+	Desperate captains can scrap reactors, nukes or other modules as an emergency source of fuel.	Verzweifelte Kapitäne können Reaktoren, Bomben oder andere Module als Notfall-Treibstoffquelle verschrotten.	0
 	Check out the help screen (button in lower right screen) for useful details about game mechanics.	Auf dem Hilfebildschirm (Schaltfläche unten rechts im Bildschirm) finden Sie nützliche Details zur Spielmechanik.	0
 	Almost all game elements have hover texts with useful info.	Fast alle Spielelemente haben Hover-Texte mit nützlichen Infos.	0
 	Almost all game elements have hover texts with valuable info.	Fast alle Spielelemente haben Hover-Texte mit wertvollen Infos.	0

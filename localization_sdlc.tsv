@@ -58,40 +58,40 @@ displayName	Shield battery (Tiger)	Schildbatterie (Tiger)	40
 description	Increases maximum shield points, but no recharge. Durable structure also increases ship HP.	Erhöht maximale Schildpunkte, aber keine Wiederaufladung. Die widerstandsfähige Struktur erhöht auch die SchiffshP.	200
 
 Tiger 8x nuke launcher.prefab
-displayName	Tiger Nuke battery x8	Tiger Nuke-Batterie x8	40
-description	A single-use battery that releases 8 capital missiles.	Eine einmalig verwendbare Batterie, die 8 Capital Missiles auslöst.	200
+displayName	Tiger Nuke battery x8	Tiger Bomben-Batterie x8	40
+description	A single-use battery that releases 8 capital missiles.	Eine einmalig verwendbare Batterie, die 8 Bomben abschießt.	200
 
 Tiger EMP dual nuke launcher.prefab
-displayName	Dual Tiger EMP nuke	Doppel-Tiger-EMP-Nuke	40
+displayName	Dual Tiger EMP nuke	Doppel-Tiger-EMP-Bombe	40
 description	A pair of large, armored EMP missiles. The EMP overloads modules in the hit area but deals no physical damage.	Ein Paar großer, gepanzerter EMP-Raketen. Der EMP überlastet Module im Trefferbereich, verursacht aber keinen physischen Schaden.	200
 
 Tiger intruderbot nuke launcher.prefab
-displayName	Tiger intruderbot nuke	Tiger-Intruderbot-Atombombe	40
+displayName	Tiger intruderbot nuke	Tiger-Intruderbot-Bombe	40
 description	Capital missile that releases a modified Tiger spider utility drone into the enemy ship. The drone is pre-programmed to attack enemy crew but can be recalled with a normal move order.	Großrakete, die eine modifizierte Tiger-Spider-Utility-Drohne in das gegnerische Schiff freisetzt. Die Drohne ist darauf programmiert, die gegnerische Besatzung anzugreifen, kann aber mit einem normalen Bewegungsbefehl zurückgerufen werden.	200
 
 Tiger Monolith nuke launcher.prefab
 displayName	Tiger monolith nuke	Tiger-Monolith-Bombe	40
-description	A capital missile that rams enemy ships with incredible kinetic force. It's mostly made of solid metal.	Ein kapitaler Flugkörper, der feindliche Schiffe mit unglaublicher kinetischer Kraft rammt. Sie besteht größtenteils aus massivem Metall.	200
+description	A capital missile that rams enemy ships with incredible kinetic force. It's mostly made of solid metal.	Ein bombiger Flugkörper, der feindliche Schiffe mit unglaublicher kinetischer Kraft rammt. Sie besteht größtenteils aus massivem Metall.	200
 
 Tiger sharpnel nuke launcher.prefab
-displayName	Tigerclaw, sharpnel nuke	Tigerklaue, Schrapnell Nuke	40
-description	An experimental capital missile that releases nanoshrapnel that destroys modules & crew, but not ship HP.	Eine experimentelle Kapitalrakete, die Nanosplitter freisetzt, die Module und Besatzung zerstören, aber nicht die HP des Schiffs.	200
+displayName	Tigerclaw, sharpnel nuke	Tigerklaue-Schrapnell-Bombe	40
+description	An experimental capital missile that releases nanoshrapnel that destroys modules & crew, but not ship HP.	Eine experimentelle Bombe, die Nanosplitter freisetzt, die Module und Besatzung zerstören, aber nicht die HP des Schiffs.	200
 
 weapon tigermissile large.prefab
-displayName	Tiger mininuke platform	Tiger-Mininuke-Plattform	40
+displayName	Tiger mininuke platform	Tiger-Miniraketen-Plattform	40
 description	This platform shoots singular heavy missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area.	Diese Plattform schießt einzelne schwere Raketen ab. Alle Raketen sind präzise, durchdringen Schilde, werden nie abgelenkt und beschädigen Module über einen großen Bereich.	200
 
 Perk nuke Battle Tiger monolith.prefab
-displayName	Tiger Mountain nuke	Tiger-Berg-Nuke	40
-description	A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Smalle AoE.	Eine schwer gepanzerte Einzelschuss-Rakete, die das Ziel mit einer Kraft rammt, die Mikromoons zerschmettern könnte. Smalle AoE.	250
+displayName	Tiger Mountain nuke	Tiger-Berg-Bombe	40
+description	A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Smalle AoE.	Eine schwer gepanzerte Bombe, die das Ziel mit einer Kraft rammt, die Mikromonde zerschmettern könnte. Kleiner AoE.	250
 randomizerMenuStrings[i]	+1 capital missile	+1 Bombe	30
 
 Perk nuke Tiger battery 8.prefab
-description	A single-use battery that shoots 8 missiles.	Eine einmalig einsetzbare Batterie, die 8 Raketen abschießt.	250
+description	A single-use battery that shoots 8 missiles.	Eine einmalig verwendbare Batterie, die 8 Bomben abschießt.	250
 randomizerMenuStrings[i]	+1 single-use missile battery	+1 Wegwerf-Raketen-Batterie	30
 
 Perk nuke Tiger dual EMP.prefab
-displayName	Tiger EMP double nuke	Tiger EMP-Doppel-nuke	40
+displayName	Tiger EMP double nuke	Tiger EMP-Doppel-Bombe	40
 description	A pair of armored EMP nukes, launched simultaneously.	Ein Paar gepanzerte EMP-Bomben, die gleichzeitig abgefeuert werden.	250
 randomizerMenuStrings[i]	+1 dual capital missile	+1 Doppel-Bombe	30
 
@@ -100,8 +100,8 @@ description	This intruderbot nuke releases an aggressive tiger spider drone on i
 randomizerMenuStrings[i]	+1 intruderbot missile	+1 Intruderbot-Bombe	30
 
 Perk nuke Tiger sharpnel.prefab
-displayName	Tiger shrapnel nuke	Tiger Shrapnel Nuke	40
-description	An experimental capital missile that releases nanoshrapnel over a wide area.	Eine experimentelle Kapitalrakete, die Nanosplitter über ein weites Gebiet freisetzt.	250
+displayName	Tiger shrapnel nuke	Tiger Schrapnell-Bombe	40
+description	An experimental capital missile that releases nanoshrapnel over a wide area.	Eine experimentelle Bombe, die Nanosplitter über ein weites Gebiet freisetzt.	250
 
 Perk pet DLC combat rabbit.prefab
 displayName	Combat Rabbit (pet)	Kampfkaninchen (Haustier)	40
@@ -125,7 +125,7 @@ Perk pet DLC warp floater.prefab
 displayName	Warp Floater (pet)	Warptier (Haustier)	40
 description	This warp creature is an extreme rarity due to being able to effectively communicate with non-warp beings. It is quite intelligent and likes to stare into human eyes.	Diese Warp-Kreatur ist eine extreme Rarität, da sie in der Lage ist, effektiv mit Nicht-Warp-Wesen zu kommunizieren. Es ist ziemlich intelligent und starrt gerne in menschliche Augen.	250
 randomizerMenuStrings[i]	+1 pet (warp animal)	+1 Haustier (Warptier)	30
-randomizerMenuStrings[i]	-1 exotics	-1 Exoten	30
+randomizerMenuStrings[i]	-1 exotics	-1 Exot	30
 
 Perk pet Tiger dog drone.prefab
 displayName	Tiger Dog 9000	Tigerhund 9000	40
@@ -133,24 +133,24 @@ description	This robot was built to provide assistance in construction and maint
 randomizerMenuStrings[i]	+1 drone (repair drone)	+1 Drone (Reparaturdrone)	30
 
 missile tigerfish mini n u k e.prefab
-displayName	Tiger mininuke	Tiger Mini-Atombombe	35
+displayName	Tiger mininuke	Tiger Mini-Bombe	35
 
 Tiger 8x nuke projectile.prefab
 
 Tiger EMP nuke.prefab
-displayName	EMP nuke	EMP-Atombombe	35
+displayName	EMP nuke	EMP-Bombe	35
 
 Tiger intruderbot nuke.prefab
-displayName	Tigerbot nuke	Tigerbot Atombombe	35
+displayName	Tigerbot nuke	Tigerbot Bombe	35
 
 Tiger Monolith nuke.prefab
-displayName	Tiger Monolith nuke	Tiger Monolith Atombombe	35
+displayName	Tiger Monolith nuke	Tiger Monolith-Bombe	35
 
 Tiger sharpnel nuke.prefab
-displayName	Tiger sharpnel nuke	Tiger Schrapnell Atombombe	35
+displayName	Tiger sharpnel nuke	Tiger Schrapnell-Bombe	35
 
 BattleTiger.prefab
-description	Battle Tiger is is the military variant of the popular Tigerfish series. It was designed for long-range transport of VIP personnel in hostile space and is equipped with explosives combinator. It comes with intruderbot nukes that release armed drones inside enemy ships.	Battle Tiger ist die militärische Variante der beliebten Tigerfisch-Serie. Er wurde für den Langstreckentransport von VIP-Personal im feindlichen Raum konzipiert und ist mit einem Sprengstoff-Kombinator ausgestattet. Er verfügt über Intruderbot-Nukes, die bewaffnete Drohnen im Inneren feindlicher Schiffe freisetzen.	400
+description	Battle Tiger is is the military variant of the popular Tigerfish series. It was designed for long-range transport of VIP personnel in hostile space and is equipped with explosives combinator. It comes with intruderbot nukes that release armed drones inside enemy ships.	Battle Tiger ist die militärische Variante der beliebten Tigerfisch-Serie. Er wurde für den Langstreckentransport von VIP-Personal im feindlichen Raum konzipiert und ist mit einem Sprengstoff-Kombinator ausgestattet. Er verfügt über Intruderbot-Bomben, die bewaffnete Drohnen im Inneren feindlicher Schiffe freisetzen.	400
 
 Engiship.prefab
 description	This Mobile Maintenance Rig starts in a bad shape due to years of rough use, but holds promise for those patient enough to upgrade its weaponry and defences. It starts with poor technology, but large crew, and containers full of raw resources.	Diese mobile Wartungsanlage beginnt in einem schlechten Zustand aufgrund jahrelanger rauer Nutzung, ist aber vielversprechend für diejenigen, die geduldig genug sind, seine Waffen und Verteidigungsanlagen aufzurüsten. Es startet mit schlechter Technologie, aber großer Besatzung und Behältern voller Rohstoffe.	400

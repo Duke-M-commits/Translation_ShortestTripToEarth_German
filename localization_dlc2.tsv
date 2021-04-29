@@ -153,7 +153,7 @@ choiceTexts	[Attack these religious psychopaths]	[Greift diese religiösen Psych
 Ambusher L1b or 2b Phobian pirates x 2.prefab
 title	Phobian Pushers	Phobienschieber	35
 text	We offer you a chance to buy an exotic crystal. If you refuse, our heavy projectile firepower will penetrate your shields, ensuring considerable loss of material and crew, even if you defeat us. Accept this offer instead, and we can all peacefully go home. What do you say?	Wir bieten Ihnen die Möglichkeit, einen exotischen Kristall zu kaufen. Wenn Sie ablehnen, wird unser schweres Projektilfeuer Ihre Schilde durchdringen und für erhebliche Verluste an Material und Besatzung sorgen, selbst wenn Sie uns besiegen. Nehmen Sie stattdessen dieses Angebot an, und wir können alle friedlich nach Hause gehen. Was sagen Sie dazu?	400
-choiceText	Buy 1 exotics for 100 credits	+1 Exoten für 100 Kredite	100
+choiceText	Buy 1 exotics for 100 credits	+1 Exot für 100 Kredite	100
 choiceText	We won't yield to extortion, however elaborate [prepare for combat]	Wir lassen uns nicht erpressen, auch wenn es noch so aufwändig ist.	100
 text	Two small vessels approaching tactical weapons range. No high-energy weapons detected.	Zwei kleine Schiffe nähern sich der taktischen Waffenreichweite. Keine Hochenergiewaffen entdeckt.	600
 text	Ah, you do not have enough cash? Then we must unfortunately make you into scrap. Nothing personal, of course. Good bye.	Ah, Sie haben nicht genug Geld? Dann müssen wir Sie leider zu Schrott machen. Nichts Persönliches, natürlich. Auf Wiedersehen.	600
@@ -297,7 +297,7 @@ overrideLockedDescription	This sector is still unexplored.	Dieser Sektor ist noc
 
 Level 5b, slavers.prefab
 displayName	Mining sector (DLC)	Bergbau-Sektor (DLC)	25
-description	(new runs can be only started from sectors 1,2,3)\n\nThis used to be an Earth Alliance remote mining sector, but seems to be abandoned now...\n\nFrom the captains log:\n/.../ I didn't think they'd reach this deep into our territory. The fact that Earth forces have pulled back from this sector means we are indeed losing the war. We need to seriously start thinking about further upgrades and aqcuiring <color=red>nukes</color> either by crafting or/.../	(neue Runs können nur von den Sektoren 1,2,3 aus gestartet werden)\n\nDieser Sektor war früher ein abgelegener Bergbausektor der Erd-Allianz, scheint aber jetzt verlassen zu sein...\n\nAus dem Logbuch des Kapitäns: \n/.../ Ich hätte nicht gedacht, dass sie so tief in unser Gebiet vordringen würden. Die Tatsache, dass sich die Erdstreitkräfte aus diesem Sektor zurückgezogen haben, bedeutet, dass wir den Krieg tatsächlich verlieren. Wir müssen ernsthaft anfangen, über weitere Aufrüstungen und die Beschaffung von <color=red>Nukes</color> nachzudenken, entweder durch Crafting oder /.../	350
+description	(new runs can be only started from sectors 1,2,3)\n\nThis used to be an Earth Alliance remote mining sector, but seems to be abandoned now...\n\nFrom the captains log:\n/.../ I didn't think they'd reach this deep into our territory. The fact that Earth forces have pulled back from this sector means we are indeed losing the war. We need to seriously start thinking about further upgrades and aqcuiring <color=red>nukes</color> either by crafting or/.../	(neue Runs können nur von den Sektoren 1,2,3 aus gestartet werden)\n\nDieser Sektor war früher ein abgelegener Bergbausektor der Erd-Allianz, scheint aber jetzt verlassen zu sein...\n\nAus dem Logbuch des Kapitäns: \n/.../ Ich hätte nicht gedacht, dass sie so tief in unser Gebiet vordringen würden. Die Tatsache, dass sich die Erdstreitkräfte aus diesem Sektor zurückgezogen haben, bedeutet, dass wir den Krieg tatsächlich verlieren. Wir müssen ernsthaft anfangen, über weitere Aufrüstungen und die Beschaffung von <color=red>Bomben</color> nachzudenken, entweder durch Crafting oder /.../	350
 
 Level 6b, squids, slavers, pirates.prefab
 displayName	Fresh Squid territory (DLC)	Tintenfischgebiet (DLC)	25
@@ -305,7 +305,7 @@ description	(new runs can be only started from sectors 1,2,3)\n\nThis sector use
 
 Level 7b, shopping.prefab
 displayName	The Shopping District (DLC)	Geschäftsviertel (DLC)	25
-description	(new runs can be only started from sectors 1,2,3)\n\nAn outer, particularly empty sector within Earth Alliance borders. Trading stations have been transported here to provide us any equipment we might want, and they might have.\n\nFrom the captains log:\n/.../ Apparently dragging some commercial shops into the sector and wiring us a bunch of creds was the only help Earth Alliance could send, not even a single nuke. I guess we'll just have to craft our own arsenal of DIY nukes /.../	(neue Runs können nur von Sektor 1,2,3 aus gestartet werden)\n\nEin äußerer, besonders leerer Sektor innerhalb der Grenzen der Erd-Allianz. Handelsstationen wurden hierher transportiert, um uns mit jeglicher Ausrüstung zu versorgen, die wir brauchen könnten, und das haben sie auch.\n\nAus dem Logbuch des Kapitäns: \n/.../ Anscheinend war es die einzige Hilfe, die die Erd-Allianz schicken konnte, ein paar Handelsläden in den Sektor zu schleppen und uns einen Haufen Kredite zu verdrahten, nicht einmal eine einzige Atombombe. Ich schätze, wir müssen einfach unser eigenes Arsenal an DIY-Atombomben herstellen /.../	350
+description	(new runs can be only started from sectors 1,2,3)\n\nAn outer, particularly empty sector within Earth Alliance borders. Trading stations have been transported here to provide us any equipment we might want, and they might have.\n\nFrom the captains log:\n/.../ Apparently dragging some commercial shops into the sector and wiring us a bunch of creds was the only help Earth Alliance could send, not even a single nuke. I guess we'll just have to craft our own arsenal of DIY nukes /.../	(neue Runs können nur von Sektor 1,2,3 aus gestartet werden)\n\nEin äußerer, besonders leerer Sektor innerhalb der Grenzen der Erd-Allianz. Handelsstationen wurden hierher transportiert, um uns mit jeglicher Ausrüstung zu versorgen, die wir brauchen könnten, und das haben sie auch.\n\nAus dem Logbuch des Kapitäns: \n/.../ Anscheinend war es die einzige Hilfe, die die Erd-Allianz schicken konnte, ein paar Handelsläden in den Sektor zu schleppen und uns einen Haufen Kredite zu verdrahten, nicht einmal eine einzige Bombe. Ich schätze, wir müssen einfach unser eigenes Arsenal an DIY-Bomben herstellen /.../	350
 
 Level 9b, marble, squid, shokar.prefab
 displayName	The Hideout Hunt (DLC)	Die Versteckjagd (DLC)	25
@@ -313,8 +313,8 @@ description	(new runs can be only started from sectors 1,2,3)\n\nA remote, unexp
 
 undeveloped nuke launcher slot for warpshell.prefab
 displayName	Undeveloped missile launch tube	Unausgebautes Raketenstartrohr	35
-description	Can be upgraded to working nuke slot.	Kann zu einem funktionierenden Nuke-Steckplatz aufgerüstet werden.	250
-upgrades[i].text	Upgrade to nuke slot	Aufrüstung zum Nuke-Steckplatz	35
+description	Can be upgraded to working nuke slot.	Kann zu einem funktionierenden Bomben-Steckplatz aufgerüstet werden.	250
+upgrades[i].text	Upgrade to nuke slot	Aufrüstung zum Bomben-Steckplatz	35
 	REPLACE	ERSETZEN	10
 	UPGRADE\nSLOT	AUF- \nRÜSTEN	10
 
