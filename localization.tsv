@@ -8422,73 +8422,73 @@ metals container 4 extralarge.prefab
 displayName	Metals container X-large	Metalle-Behälter XL	40
 
 multicontainer biotec-scaled FO.prefab
-displayName	Biotech Multi-container FO	Biotech Multibehälter FO	40
-description	Increases storage capacity of organics & fuel. Advanced biotech materials increase ship HP.	Erhöht die Lagerkapazität von Organik und Treibstoff. Fortschrittliche Biotech-Materialien erhöhen die Schiffs-HP.	200
+displayName	Biotech Multi-container FO	Biotech Multibehälter TO	40
+description	Increases storage capacity of organics & fuel. Advanced biotech materials increase ship HP.	Erhöht die Lagerkapazität von Treibstoff und Organik. Fortschrittliche Biotech-Materialien erhöhen die Schiffs-HP.	200
 
 multicontainer DIY EE.prefab
 displayName	Exotics & Explosives storage (DIY)	Exoten- & Sprengstoffe-Behälter (DIY)	40
 description	Increases storage capacity of explosives & exotics.	Erhöht die Lagerkapazität von Sprengstoffen und Exoten.	200
 
 multicontainer DIY FO.prefab
-displayName	DIY Multi-container FO	DIY Multibehälter FO	40
-description	Increases storage capacity of organics & fuel.	Erhöht die Lagerkapazität für Organik und Treibstoff.	200
+displayName	DIY Multi-container FO	DIY Multibehälter TO	40
+description	Increases storage capacity of organics & fuel.	Erhöht die Lagerkapazität für Treibstoff und Organik.	200
 
 multicontainer EOME spideraa.prefab
-displayName	Exotic multi-container EOME	Exoten-Multibehälter EOME	40
+displayName	Exotic multi-container EOME	Exoten-Multibehälter SOME	40
 description	Increases storage capacity of explosives, organics, metal & exotics. Durable structure increases ship HP.	Erhöht die Lagerkapazität von Sprengstoffen, Organik, Metallen und Exoten. Langlebige Struktur erhöht die Schiffs-HP.	200
 
 multicontainer ESM-1.prefab
-displayName	Multi-container ESM-1	Multibehälter ESM-1	40
-description	Increases storage capacity of metal, synthethics & explosives.	Erhöht die Lagerkapazität von Metallen, Kunststoffen und Sprengstoffen.	200
+displayName	Multi-container ESM-1	Multibehälter SKM-1	40
+description	Increases storage capacity of metal, synthethics & explosives.	Erhöht die Lagerkapazität von Sprengstoffen, Kunststoffen und Metallen.	200
 
 multicontainer ESM-2.prefab
-displayName	Multi-container ESM-2	Multibehälter ESM-2	40
+displayName	Multi-container ESM-2	Multibehälter SKM-2	40
 
 multicontainer FE armor.prefab
-displayName	Armored container FE	Gepanzerter Behälter FE	40
+displayName	Armored container FE	Gepanzerter Behälter TS	40
 description	Increases fuel and explosives storage capacity. Additional armor improves ship HP.	Erhöht die Lagerkapazität für Treibstoff und Sprengstoffen. Zusätzliche Panzerung verbessert die Schiffs-HP.	200
 
 multicontainer FEO-1.prefab
-displayName	Multi-container FEO	Multibehälter FEO	40
-description	Increases storage capacity of organics, fuel & exotics. Heavy metal walls required for holding exotics also increase ship HP.	Erhöht die Lagerkapazität von Organik, Treibstoff und Exoten. Schwere Metallwände, die für die Aufnahme von Exoten erforderlich sind, erhöhen auch die HP des Schiffs.	200
+displayName	Multi-container FEO	Multibehälter TEO	40
+description	Increases storage capacity of organics, fuel & exotics. Heavy metal walls required for holding exotics also increase ship HP.	Erhöht die Lagerkapazität von Treibstoff, Exoten und Organik. Schwere Metallwände, die für die Aufnahme von Exoten erforderlich sind, erhöhen auch die HP des Schiffs.	200
 
 multicontainer FExo DIY armor.prefab
 displayName	DIY multicontainer (fuel/exotics)	DIY-Multibehälter (Treibstoff/Exoten)	40
 description	Increases fuel & exotics storage capacity. Robust structure improves ship HP.	Erhöht die Lagerkapazität für Treibstoff und Exoten. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 multicontainer FOO-1.prefab
-displayName	Multi-container FOO	Multibehälter FOO	40
+displayName	Multi-container FOO	Multibehälter TOO	40
 
 multicontainer FOS biotec.prefab
-displayName	Multi-container FOS	Multibehälter FOS	40
+displayName	Multi-container FOS	Multibehälter TOK	40
 description	Increases storage capacity of fuel, organics & synthetics.	Erhöht die Lagerkapazität von Treibstoff, Organik und Kunststoffen.	200
 
 multicontainer FSE biotech.prefab
-displayName	Armored multi-container FSE	Gepanzerter Multibehälter FSE	40
+displayName	Armored multi-container FSE	Gepanzerter Multibehälter FKE	40
 description	This biotech container increases storage capacity of fuel, synhtetics & exotics. Armored structure adds ship HP.	Dieser Biotech-Container erhöht die Lagerkapazität von Treibstoff, Kunststoffen und Exoten. Die gepanzerte Struktur erhöht die Schiffs-HP.	200
 
 multicontainer FSEE biotech.prefab
-displayName	Multi-container FSEE	Multibehälter FSEE	40
+displayName	Multi-container FSEE	Multibehälter FKEE	40
 description	Increases storage capacity of fuel, synthetics, explosives & exotics.	Erhöht die Lagerkapazität von Treibstoff, Kunststoffen, Sprengstoffen und Exoten.	200
 
 multicontainer MFE retro futu.prefab
-displayName	Multi-container MFE	Multibehälter MFE	40
+displayName	Multi-container MFE	Multibehälter MTE	40
 description	Increases storage capacity of metals, fuel & explosives.	Erhöht die Lagerkapazität von Metallen, Treibstoff und Sprengstoffen.	200
 
 multicontainer MFO retro futu.prefab
-displayName	Multi-container MFO	Multibehälter MFO	40
+displayName	Multi-container MFO	Multibehälter MTO	40
 description	Increases storage capacity of metals, fuel & organics.	Erhöht die Lagerkapazität von Metallen, Treibstoff und Organik.	200
 
 multicontainer MS-1.prefab
-displayName	Multi-container MS-I	Multibehälter MS-I	40
+displayName	Multi-container MS-I	Multibehälter MK-I	40
 description	Increases storage capacity of metal & synthethics.	Erhöht die Lagerkapazität von Metallen und Kunststoffen.	200
 
 multicontainer OME mechanical.prefab
-displayName	Multi-container OME	Multibehälter OME	40
+displayName	Multi-container OME	Multibehälter OMK	40
 description	Increases storage capacity of organics, metals & exotics.	Erhöht die Lagerkapazität für Organik, Metalle und Exoten.	200
 
 multicontainer OMS biotech.prefab
-displayName	Multi-container OMS	Multibehälter OMS	40
+displayName	Multi-container OMS	Multibehälter OMK	40
 description	Increases storage capacity of organics, metals & synthetics.	Erhöht die Lagerkapazität von Organik, Metallen und Kunststoffen.	200
 
 organics container 0 diy.prefab
