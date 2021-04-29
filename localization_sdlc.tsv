@@ -113,13 +113,13 @@ Perk pet DLC fire tortoise.prefab
 displayName	Fire Tortoise (pet)	Feuerschildkröte (Haustier)	40
 description	The creature is very intelligent and can tend gardens. It can also naturally breathe fire at enemies.	Die Kreatur ist sehr intelligent und kann Gärten pflegen. Sie kann außerdem auf natürliche Weise Feuer auf Feinde spucken.	250
 randomizerMenuStrings[i]	+1 pet (fire tortoise)	+1 Haustier (Feuerschildkröte)	30
-randomizerMenuStrings[i]	+20 organics	+20 Organisches	30
+randomizerMenuStrings[i]	+20 organics	+20 Organik	30
 
 Perk pet DLC shocker lizard.prefab
 displayName	Shocker lizard (pet)	Schockechse (Haustier)	40
 description	A live gift from an old friend of our AI. The creature is quite intelligent and can shoot energy rays from its eyes.	Ein lebendes Geschenk von einem alten Freund unserer KI. Die Kreatur ist ziemlich intelligent und kann Energiestrahlen aus ihren Augen schießen.	250
 randomizerMenuStrings[i]	+1 pet (shocker lizard)	+1 Haustier (Schockechse)	30
-randomizerMenuStrings[i]	+30 organics	+30 Organisches	30
+randomizerMenuStrings[i]	+30 organics	+30 Organik	30
 
 Perk pet DLC warp floater.prefab
 displayName	Warp Floater (pet)	Warptier (Haustier)	40
