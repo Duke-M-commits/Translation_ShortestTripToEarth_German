@@ -43,7 +43,7 @@ description	A single operator allows the bridge to remotely operate other module
 
 fuel container tiger.prefab
 displayName	Fuel tank (Tiger)	Treibstoff-Behälter (Tiger)	40
-description	Fuel container. Damage results in rapid loss of fuel.	Treibstoffbehälter. Eine Beschädigung führt zu einem schnellen Verlust des Treibstoffs.	200
+description	Fuel container. Damage results in rapid loss of fuel.	Treibstoff-Behälter. Eine Beschädigung führt zu einem schnellen Verlust des Treibstoffs.	200
 
 integrity tiger.prefab
 displayName	Integrity hardpoint, Tiger	Integritäts-Ansatzpunkt, Tiger	40
@@ -153,4 +153,4 @@ BattleTiger.prefab
 description	Battle Tiger is is the military variant of the popular Tigerfish series. It was designed for long-range transport of VIP personnel in hostile space and is equipped with explosives combinator. It comes with intruderbot nukes that release armed drones inside enemy ships.	Battle Tiger ist die militärische Variante der beliebten Tigerfisch-Serie. Er wurde für den Langstreckentransport von VIP-Personal im feindlichen Raum konzipiert und ist mit einem Sprengstoff-Kombinator ausgestattet. Er verfügt über Intruderbot-Nukes, die bewaffnete Drohnen im Inneren feindlicher Schiffe freisetzen.	400
 
 Engiship.prefab
-description	This Mobile Maintenance Rig starts in a bad shape due to years of rough use, but holds promise for those patient enough to upgrade its weaponry and defences. It starts with poor technology, but large crew, and containers full of raw resources.	Dieses Mobile Maintenance Rig beginnt in einem schlechten Zustand aufgrund jahrelanger rauer Nutzung, ist aber vielversprechend für diejenigen, die geduldig genug sind, seine Waffen und Verteidigungsanlagen aufzurüsten. Es startet mit schlechter Technologie, aber großer Besatzung und Containern voller Rohstoffe.	400
+description	This Mobile Maintenance Rig starts in a bad shape due to years of rough use, but holds promise for those patient enough to upgrade its weaponry and defences. It starts with poor technology, but large crew, and containers full of raw resources.	Diese mobile Wartungsanlage beginnt in einem schlechten Zustand aufgrund jahrelanger rauer Nutzung, ist aber vielversprechend für diejenigen, die geduldig genug sind, seine Waffen und Verteidigungsanlagen aufzurüsten. Es startet mit schlechter Technologie, aber großer Besatzung und Behältern voller Rohstoffe.	400

@@ -958,12 +958,12 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Some of the module slots can be upgraded at a cost. Make sure that slot is empty and undamaged before upgrading.	Einige der Modulsteckplätze können kostenpflichtig aufgerüstet werden. Stellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie ihn aufrüsten.	0
 	Internal slots can be upgraded to core slots, which give additional hitpoints to ship hull.	Interne Steckplätze können zu Kernsteckplätzen aufgerüstet werden, die der Schiffshülle zusätzliche Trefferpunkte verleihen.	0
 	All hybrid slots can be upgraded to weapon slots.	Alle Hybrid-Steckplätze können zu Waffen-Steckplätzen aufgerüstet werden.	0
-	Additionally, some cargo containers can also be upgraded, allowing for more cargo capacity.	Zusätzlich können auch einige Frachtcontainer aufgerüstet werden, um mehr Frachtkapazität zu erhalten.	0
+	Additionally, some cargo containers can also be upgraded, allowing for more cargo capacity.	Zusätzlich können auch der Frachtraum aufgerüstet werden, um mehr Frachtkapazität zu erhalten.	0
 	There is a chance that if module gets damaged, its maximum hitpoints are also permanently reduced to half -- resulting in half hitpoints when repaired.	Es besteht die Möglichkeit, dass, wenn ein Modul beschädigt wird, seine maximalen Hitpoints dauerhaft auf die Hälfte reduziert werden - was zu halben Hitpoints führt, wenn es repariert wird.	0
 	You can see how many times module max hitpoints have been reduced by the number of x-es on it.	Wie oft die maximalen Trefferpunkte eines Moduls reduziert wurden, können Sie an der Anzahl der x-es auf dem Modul erkennen.	0
 	DIY modules can be crafted inside empty weapon slots (and DIY nukes in empty nuke slots). \nEach ship has unique set of craftable nukes.\nMake sure the slot is empty and undamaged before crafting.	DIY-Module können in leeren Waffen-Steckplätzen hergestellt werden (und DIY-Nukes in leeren Nuke-Steckplätzen). \nJedes Schiff hat einen eigenen Satz an handelbaren Nuklearwaffen.\nStellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie mit der Herstellung beginnen.	0
 	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Sie können die Modul Herstellung nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpantrieb zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Steckplätzen heraus gebaut werden.	0
-	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Modul-Lagercontainer oder in einem beliebigen freien Steckplatz gelagert werden können.	0
+	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Frachtraum oder in einem beliebigen freien Steckplatz gelagert werden können.	0
 	Modules can be turned off from the power switch button.\nIf a module is turned off, it does not need any of its listed requirements.	Module können über den Netzschalterknopf ausgeschaltet werden.\nWenn ein Modul ausgeschaltet ist, benötigt es keine seiner aufgeführten Anforderungen.	0
 	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nReparieren Sie Module, indem Sie ein Crewmitglied auswählen und dann mit R auf ein beschädigtes Modul klicken.\n\nBeschädigte Module können für 10 Synthetics pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0
 	Module damage	Modulschaden	0
@@ -1040,7 +1040,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	To increase crew survivability against intruders, position them to shoot from behind corners.\nMissed shots may damage modules.	Um die Überlebensfähigkeit der Besatzung gegen Eindringlinge zu erhöhen, positionieren Sie sie so, dass sie von hinter Ecken schießt.\nFehlschüsse können Module beschädigen.	0
 	Selecting all crew (default shortcut E) shows all crew stats together. \nThis screen enables you to sort and compare their skills, or assign roles.	Wenn Sie die gesamte Besatzung auswählen (Standardtaste E), werden alle Besatzungsstatistiken zusammen angezeigt. \nDieser Bildschirm ermöglicht es Ihnen, ihre Fertigkeiten zu sortieren und zu vergleichen oder Rollen zuzuweisen.	0
 	If some of the selected crew are in cryosleep, giving actions will also de-freeze them.\nWhile multiple crew is selected, giving orders (right-clicking) applies to all selected crew.	Wenn sich einige der ausgewählten Crewmitglieder im Kryoschlaf befinden, werden sie durch das Erteilen von Aktionen auch aus dem Kryoschlaf geholt.\nWährend mehrere Crewmitglieder ausgewählt sind, gilt das Erteilen von Befehlen (Rechtsklick) für alle ausgewählten Crewmitglieder.	0
-	Basic resources are organics, fuel, metals, synthetics, explosives, exotics. \nThese are stored in containers with limited capacity.\n\nFlying around usually consumes both fuel & organics. Read about other resources from relevant help pages.	Grundlegende Ressourcen sind Organik, Treibstoff, Metalle, Kunststoffe, Sprengstoffe und Exoten. \nDiese werden in Containern mit begrenzter Kapazität gelagert.\n\nDas Herumfliegen verbraucht normalerweise sowohl Treibstoff als auch Organik. Informieren Sie sich über weitere Ressourcen auf den entsprechenden Hilfeseiten.	0
+	Basic resources are organics, fuel, metals, synthetics, explosives, exotics. \nThese are stored in containers with limited capacity.\n\nFlying around usually consumes both fuel & organics. Read about other resources from relevant help pages.	Grundlegende Ressourcen sind Organik, Treibstoff, Metalle, Kunststoffe, Sprengstoffe und Exoten. \nDiese werden in Behältern mit begrenzter Kapazität gelagert.\n\nDas Herumfliegen verbraucht normalerweise sowohl Treibstoff als auch Organik. Informieren Sie sich über weitere Ressourcen auf den entsprechenden Hilfeseiten.	0
 	Hovering cursor over resource values shows total production & consumption.	Wenn Sie den Mauszeiger über die Ressourcenwerte bewegen, werden Gesamtproduktion und -verbrauch angezeigt.	0
 	Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	Die meisten Besatzungsmitglieder verbrauchen Organik in Form von Nahrung, Wasser, Luft und Erholungsmitteln, basierend auf der Reisedistanz des Schiffes im Weltraum.\n\nOrganik kann von Planeten mit Ökosystemen geerntet oder an Handelsstationen gekauft werden.\n\nVerschiedene Garten- & Nachhaltigkeitsmodule ermöglichen den Anbau von organischen Stoffen innerhalb des Schiffes.\n\nWenn die organischen Stoffe ausgehen, werden die Fertigkeiten der Besatzung aufgrund von Unzufriedenheit um 50 % reduziert.\n\nDas Fliegen des Schiffes ohne Organik schadet der Besatzung aufgrund des Mangels an Lebensmitteln.	0
 	Fuel is mostly consumed by warping between starsystems.\nWarpdrives typically need 40-50 fuel per jump.\nFuel is also consumed by engines and reactors when driving around in starsystems.\nAdditionally, exploration and other planetary operations sometimes consumes small amounts of fuel.	Treibstoff wird hauptsächlich beim Warpen zwischen Sternensystemen verbraucht.\nWarantriebe benötigen typischerweise 40-50 Treibstoff pro Sprung.\nTreibstoff wird auch von Triebwerken und Reaktoren verbraucht, wenn man in Sternensystemen herumfliegt.\nZusätzlich verbrauchen Erkundungen und andere planetare Operationen manchmal kleine Mengen an Treibstoff.	0
@@ -1129,7 +1129,7 @@ Materials converter panel.prefab
 	Amount of exotics recieved after conversion	Menge der nach der Konvertierung erhaltenen Exoten	0
 	Amount of metals recieved after conversion	Menge der nach der Konvertierung erhaltenen Metalle	0
 	Amount of datacreds recieved after conversion	Menge der nach der Konvertierung erhaltenen Datacreds	0
-	Craft container modules to get more container space or craft packs to place resources into storage	Bauen Sie Containermodule, um mehr Containerplatz zu erhalten, oder bauen Sie Packs, um Ressourcen einzulagern	0
+	Craft container modules to get more container space or craft packs to place resources into storage	Bauen Sie Behälter-Module, um mehr Platz für Ressourcen zu erhalten, oder bauen Sie Pakete, um Ressourcen einzulagern	0
 	Convertor module damaged/overloaded!	Konvertermodul beschädigt/überlastet!	0
 	Do not open automatically when a materials converter module on player ship is selected	Öffnet sich nicht automatisch, wenn ein Materialkonvertermodul auf dem Spielerschiff ausgewählt wird	0
 	Open automatically when a materials converter module on player ship is selected	Automatisch öffnen, wenn ein Materialkonvertermodul auf dem Spielerschiff ausgewählt ist	0
@@ -1559,10 +1559,10 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	remote ops.	Fernbedienungen.	23
 	Organics currently stored in this container	Organik, die derzeit in diesem Behälter gelagert wird	0
 	Fuel currently stored in this container	Treibstoff, der derzeit in diesem Behälter gelagert wird	0
-	Metals currently stored in this container	Aktuell in diesem Behälter gelagerte Metalle	0
-	Synthetics currently stored in this container	Aktuell in diesem Behälter gelagerte Kunststoffe	0
-	Explosives currently stored in this container	Derzeit in diesem Behälter gelagerte Sprengstoffe	0
-	Exotics currently stored in this container	Aktuell in diesem Behälter gelagerte Exoten	0
+	Metals currently stored in this container	Metalle,die derzeit in diesem Behälter gelagert werden	0
+	Synthetics currently stored in this container	Kunststoffe, die derzeit in diesem Behälter gelagert werden	0
+	Explosives currently stored in this container	Sprengstoffe, die derzeit in diesem Behälter gelagert werden 	0
+	Exotics currently stored in this container	Exoten, die derzeit in diesem Behälter gelagert werden 	0
 	XenoData generated per minute\n+ or - Current operator skill effect	Pro Minute erzeugte XenoDaten\n+ oder - Aktueller Effekt der Bedienerfertigkeit	0
 	Explosives produced per minute	Pro Minute erzeugte Explosivstoffe	0
 	Exotics produced per minute	Pro Minute produzierte Exoten	0
@@ -1602,7 +1602,7 @@ ModuleSlot actions panel.prefab
 	Module slot	Modul-Steckplatz	0
 	Click to list only slot upgrades and downgrades	Klicken Sie hier, um nur Steckplatz-Aufrüstungen und Herabstufungen aufzulisten	0
 	SLOT UPGRADES	STECKPLATZ AUFRÜSTUNG	0
-	Click to list only craftable resource packs and containers	Klicken Sie hier, um nur DIY Ressourcenpakete und Container aufzulisten	0
+	Click to list only craftable resource packs and containers	Klicken Sie hier, um nur DIY Ressourcenpakete und Behälter aufzulisten	0
 	CARGO	FRACHT	0
 	Click to list only craftable weapon and point defence modules	Klicken Sie hier, um nur die DIY Waffen- und Punktabwehr-Module aufzulisten	0
 	WEAPONS	WAFFEN	0
@@ -6277,15 +6277,15 @@ Shop.displayName	Gray Mercenaries	Graue Söldner	35
 
 2345 shopless P Kustom junkyard Container.prefab
 name3	[[Kustom sHiP CoNtaineRs]]	[[SPezial sCHiFFs BeHälteR]]	25
-text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Container aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
+text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Behälter aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 text	There is a commercial ship service station on this planet, specializing in custom-built cargo modules. The service includes free food.	Auf diesem Planeten gibt es eine kommerzielle Schiffsservicestation, die sich auf individuell gebaute Frachtmodule spezialisiert hat. Der Service beinhaltet kostenlose Verpflegung.	400
-choiceText	Order organics/fuel multi-container [-140 credits]	Organik-/Treibstoff-Multicontainer bestellen [-140 Credits]	100
-choiceText	Order a medium metal container [-75 credits]	Bestellen Sie einen mittleren Metalle-container [-75 Credits]	100
-choiceText	Order a medium organics container [-100 credits]	Bestellen Sie einen mittleren Organik-Container [-100 Credits]	100
+choiceText	Order organics/fuel multi-container [-140 credits]	Organik-/Treibstoff-Multibehälter bestellen [-140 Credits]	100
+choiceText	Order a medium metal container [-75 credits]	Bestellen Sie einen mittleren Metalle-Behälter [-75 Credits]	100
+choiceText	Order a medium organics container [-100 credits]	Bestellen Sie einen mittleren Organik-Behälter [-100 Credits]	100
 choiceText	Order metal/synthethics dual container [-140 credits]	Metalle-/Kunststoffe-Doppelbehälter bestellen [-140 credits]	100
-choiceText	Order large metal/synthethics/explosives multi-container [-240 credits]	Großen Metalle-/Kunststoffe-/Sprengstoffe-Multicontainer bestellen [-240 Credits]	100
-text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Containermodul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
-text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days of work, the module is finished. It looks robust.	Der Arbeiter-Vertreter wirft einen Blick auf Ihre Standard-Modul-Baupläne. Sie nehmen sich die Zeit, den verschiedenen Schrott, den sie auf ihrem Hof gefunden haben, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Containermodul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
+choiceText	Order large metal/synthethics/explosives multi-container [-240 credits]	Großen Metalle-/Kunststoffe-/Sprengstoffe-Multibehälter bestellen [-240 Credits]	100
+text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days work, the module is finished. It looks robust.	Der Vorarbeiter wirft einen Blick auf Ihre Standardmodul-Blaupausen. Sie nehmen sich die Zeit, verschiedenen Schrott, der in ihrem Hof gefunden wurde, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Behälter-Modul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
+text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days of work, the module is finished. It looks robust.	Der Arbeiter-Vertreter wirft einen Blick auf Ihre Standard-Modul-Baupläne. Sie nehmen sich die Zeit, den verschiedenen Schrott, den sie auf ihrem Hof gefunden haben, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Behälter-Modul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 
 245 shop, synth recycler.prefab
 name2	(((Synth Recyclersl)))	(((Synth Recycler)))	25
@@ -8119,11 +8119,11 @@ displayName	Bridge slot	Brückensteckplatz	35
 description	Accepts only bridge modules, cannot be upgraded.	Nimmt nur Brückenmodule auf, kann nicht aufgerüstet werden.	250
 
 Container slot.prefab
-displayName	Container module slot	Container-Modulsteckplatz	35
-description	Accepts only container modules, cannot be upgraded.	Nimmt nur Containermodule auf, kann nicht aufgerüstet werden.	250
+displayName	Container module slot	Behälter-Modulsteckplatz	35
+description	Accepts only container modules, cannot be upgraded.	Nimmt nur Behälter-Module auf, kann nicht aufgerüstet werden.	250
 
 Engine slot.prefab
-displayName	Engine slot	Motorsteckplatz	35
+displayName	Engine slot	Motor-Steckplatz	35
 description	Accepts only engine modules, cannot be upgraded.	Nimmt nur Engine-Module auf, kann nicht aufgerüstet werden.	250
 
 Hybrid slot.prefab
@@ -8409,20 +8409,20 @@ displayName	Metals container (DIY)	Metalle-Behälter (DIY)	40
 description	Increases metal storage capacity. Robust structure adds ship HP.	Erhöht die Speicherkapazität für Metalle. Robuste Struktur erhöht die Schiffs-HP.	200
 
 metals container 1 small.prefab
-displayName	Metals container (small)	Metallbehälter (klein)	40
+displayName	Metals container (small)	Metalle-Behälter (klein)	40
 description	Increases metal storage capacity. Durable structure also improves ship HP.	Erhöht die Metall-Lagerkapazität. Die robuste Struktur verbessert auch die Schiffs-HP.	200
 
 metals container 2 medium.prefab
-displayName	Metals container (medium)	Metallcontainer (mittel)	40
+displayName	Metals container (medium)	Metalle-Behälter (mittel)	40
 
 metals container 3 large.prefab
-displayName	Metals container (large)	Metallcontainer (groß)	40
+displayName	Metals container (large)	Metalle-Behälter (groß)	40
 
 metals container 4 extralarge.prefab
-displayName	Metals container X-large	Metallcontainer X-groß	40
+displayName	Metals container X-large	Metalle-Behälter XL	40
 
 multicontainer biotec-scaled FO.prefab
-displayName	Biotech Multi-container FO	Biotech Multi-Behälter FO	40
+displayName	Biotech Multi-container FO	Biotech Multibehälter FO	40
 description	Increases storage capacity of organics & fuel. Advanced biotech materials increase ship HP.	Erhöht die Lagerkapazität von Organik und Treibstoff. Fortschrittliche Biotech-Materialien erhöhen die Schiffs-HP.	200
 
 multicontainer DIY EE.prefab
@@ -8430,65 +8430,65 @@ displayName	Exotics & Explosives storage (DIY)	Exoten- & Sprengstoffe-Behälter 
 description	Increases storage capacity of explosives & exotics.	Erhöht die Lagerkapazität von Sprengstoffen und Exoten.	200
 
 multicontainer DIY FO.prefab
-displayName	DIY Multi-container FO	DIY Multi-Container FO	40
+displayName	DIY Multi-container FO	DIY Multibehälter FO	40
 description	Increases storage capacity of organics & fuel.	Erhöht die Lagerkapazität für Organik und Treibstoff.	200
 
 multicontainer EOME spideraa.prefab
-displayName	Exotic multi-container EOME	Exoten-Mehrfachcontainer EOME	40
-description	Increases storage capacity of explosives, organics, metal & exotics. Durable structure increases ship HP.	Erhöht die Lagerkapazität von Sprengstoffen, Organik, Metall und Exoten. Langlebige Struktur erhöht die Schiffs-HP.	200
+displayName	Exotic multi-container EOME	Exoten-Multibehälter EOME	40
+description	Increases storage capacity of explosives, organics, metal & exotics. Durable structure increases ship HP.	Erhöht die Lagerkapazität von Sprengstoffen, Organik, Metallen und Exoten. Langlebige Struktur erhöht die Schiffs-HP.	200
 
 multicontainer ESM-1.prefab
 displayName	Multi-container ESM-1	Multibehälter ESM-1	40
 description	Increases storage capacity of metal, synthethics & explosives.	Erhöht die Lagerkapazität von Metallen, Kunststoffen und Sprengstoffen.	200
 
 multicontainer ESM-2.prefab
-displayName	Multi-container ESM-2	Mehrfach-Behälter ESM-2	40
+displayName	Multi-container ESM-2	Multibehälter ESM-2	40
 
 multicontainer FE armor.prefab
-displayName	Armored container FE	Gepanzerter Container FE	40
+displayName	Armored container FE	Gepanzerter Behälter FE	40
 description	Increases fuel and explosives storage capacity. Additional armor improves ship HP.	Erhöht die Lagerkapazität für Treibstoff und Sprengstoffen. Zusätzliche Panzerung verbessert die Schiffs-HP.	200
 
 multicontainer FEO-1.prefab
-displayName	Multi-container FEO	Multi-Container FEO	40
+displayName	Multi-container FEO	Multibehälter FEO	40
 description	Increases storage capacity of organics, fuel & exotics. Heavy metal walls required for holding exotics also increase ship HP.	Erhöht die Lagerkapazität von Organik, Treibstoff und Exoten. Schwere Metallwände, die für die Aufnahme von Exoten erforderlich sind, erhöhen auch die HP des Schiffs.	200
 
 multicontainer FExo DIY armor.prefab
-displayName	DIY multicontainer (fuel/exotics)	DIY-Multicontainer (Treibstoff/Exoten)	40
+displayName	DIY multicontainer (fuel/exotics)	DIY-Multibehälter (Treibstoff/Exoten)	40
 description	Increases fuel & exotics storage capacity. Robust structure improves ship HP.	Erhöht die Lagerkapazität für Treibstoff und Exoten. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 multicontainer FOO-1.prefab
-displayName	Multi-container FOO	Multicontainer FOO	40
+displayName	Multi-container FOO	Multibehälter FOO	40
 
 multicontainer FOS biotec.prefab
-displayName	Multi-container FOS	Multicontainer FOS	40
+displayName	Multi-container FOS	Multibehälter FOS	40
 description	Increases storage capacity of fuel, organics & synthetics.	Erhöht die Lagerkapazität von Treibstoff, Organik und Kunststoffen.	200
 
 multicontainer FSE biotech.prefab
-displayName	Armored multi-container FSE	Gepanzerter Multicontainer FSE	40
+displayName	Armored multi-container FSE	Gepanzerter Multibehälter FSE	40
 description	This biotech container increases storage capacity of fuel, synhtetics & exotics. Armored structure adds ship HP.	Dieser Biotech-Container erhöht die Lagerkapazität von Treibstoff, Kunststoffen und Exoten. Die gepanzerte Struktur erhöht die Schiffs-HP.	200
 
 multicontainer FSEE biotech.prefab
-displayName	Multi-container FSEE	Multi-Container FSEE	40
+displayName	Multi-container FSEE	Multibehälter FSEE	40
 description	Increases storage capacity of fuel, synthetics, explosives & exotics.	Erhöht die Lagerkapazität von Treibstoff, Kunststoffen, Sprengstoffen und Exoten.	200
 
 multicontainer MFE retro futu.prefab
-displayName	Multi-container MFE	Multi-Container MFE	40
+displayName	Multi-container MFE	Multibehälter MFE	40
 description	Increases storage capacity of metals, fuel & explosives.	Erhöht die Lagerkapazität von Metallen, Treibstoff und Sprengstoffen.	200
 
 multicontainer MFO retro futu.prefab
-displayName	Multi-container MFO	Mehrbehälter MFO	40
+displayName	Multi-container MFO	Multibehälter MFO	40
 description	Increases storage capacity of metals, fuel & organics.	Erhöht die Lagerkapazität von Metallen, Treibstoff und Organik.	200
 
 multicontainer MS-1.prefab
-displayName	Multi-container MS-I	Multi-Behälter MS-I	40
+displayName	Multi-container MS-I	Multibehälter MS-I	40
 description	Increases storage capacity of metal & synthethics.	Erhöht die Lagerkapazität von Metallen und Kunststoffen.	200
 
 multicontainer OME mechanical.prefab
-displayName	Multi-container OME	Multi-Behälter OME	40
+displayName	Multi-container OME	Multibehälter OME	40
 description	Increases storage capacity of organics, metals & exotics.	Erhöht die Lagerkapazität für Organik, Metalle und Exoten.	200
 
 multicontainer OMS biotech.prefab
-displayName	Multi-container OMS	Multi-Behälter OMS	40
+displayName	Multi-container OMS	Multibehälter OMS	40
 description	Increases storage capacity of organics, metals & synthetics.	Erhöht die Lagerkapazität von Organik, Metallen und Kunststoffen.	200
 
 organics container 0 diy.prefab
@@ -8509,7 +8509,7 @@ displayName	Organics container (large)	Organik-Behälter (groß)	40
 
 organics container 4 extra large.prefab
 displayName	Organics container (extra large)	Organik-Behälter (extra groß)	40
-description	Container for organics, a resource used for healing and nutrition.	Container für Organics, eine Ressource, die für Heilung und Ernährung verwendet wird.	200
+description	Container for organics, a resource used for healing and nutrition.	Behälter für Organik, eine Ressource, die für Heilung und Ernährung verwendet wird.	200
 
 organics container 5 ultra large.prefab
 displayName	Organics container (extended x-large)	Organik-Behälter (erweitert x-groß)	40
@@ -8962,7 +8962,7 @@ description	Package containing standard explosives for printing munitions. Provi
 
 fuel pack.prefab
 displayName	Fuel pack	Treibstoff-Paket	40
-description	A self-container resource pack of solidified starfuel. Provides fuel when scrapped.	Ein Selbstcontainer-Ressourcenpaket mit verfestigtem Sternentreibstoff. Liefert Treibstoff, wenn es verschrottet wird.	200
+description	A self-container resource pack of solidified starfuel. Provides fuel when scrapped.	Ein Ressourcenpaket mit verfestigtem Sternentreibstoff. Liefert Treibstoff, wenn es verschrottet wird.	200
 
 general pack organics, synth, metal.prefab
 displayName	Resource pack (o-s-m)	Ressourcenpaket (o-k-m)	40
@@ -10047,7 +10047,7 @@ randomizerMenuStrings[i]	+20 metal	+20 Metalle	30
 randomizerMenuStrings[i]	+30 synthetics	+30 Kunststoffe	30
 
 Perk add synthetics 3, ex container.prefab
-displayName	Exotics container remains	Überreste eines Exotenbehälters	40
+displayName	Exotics container remains	Überreste eines Exoten-Behälters	40
 description	This used to be a container for holding exotics, but with years, the anomalous energies of exotics warped the molecular structure of the container, eventually turning it into a lump of synthetic scrap. It's still better than nothing.	Dies war einmal ein Behälter zur Aufbewahrung von Exoten, aber mit den Jahren haben die anomalen Energien der Exoten die Molekularstruktur des Behälters verformt und ihn schließlich in einen Klumpen Kunststoffschrott verwandelt. Das ist immer noch besser als nichts.	250
 unlockAnnouncementText	During our travels, we've located this object. It is almost worthless, but we can pick it for free if we ever go adventuring again.	Auf unseren Reisen haben wir dieses Objekt geortet. Es ist fast wertlos, aber wir können es umsonst mitnehmen, falls wir jemals wieder auf Abenteuerreise gehen.	100
 randomizerMenuStrings[i]	+70 synthethics	+70 Kunststoffe	30
@@ -10420,20 +10420,20 @@ randomizerMenuStrings[i]	+1 artifact module, can be scrapped for resources	+1 Ar
 randomizerMenuStrings[i]	+25 organics	+25 Organik	30
 
 Perk module container experimental random for Riggy.prefab
-displayName	The mysterious multicontainer	Der geheimnisvolle Multicontainer	40
-description	A friend of a friend offers us an opportunity to obtain this truly rare multicontainer. It's supposedly from some very advanced civilization, or a local prototype or just a rare piece of technology - the friend does not have all the information. Payment in exotic crystals only.	Ein Freund eines Freundes bietet uns die Möglichkeit, diesen wirklich seltenen Multicontainer zu erhalten. Er soll von einer sehr fortgeschrittenen Zivilisation stammen, oder ein lokaler Prototyp oder einfach ein seltenes Stück Technologie sein - der Freund hat nicht alle Informationen. Bezahlung nur in exotischen Kristallen.	250
-randomizerMenuStrings[i]	+1 multicontainer	+1 Multicontainer	30
+displayName	The mysterious multicontainer	Der geheimnisvolle Multibehälter	40
+description	A friend of a friend offers us an opportunity to obtain this truly rare multicontainer. It's supposedly from some very advanced civilization, or a local prototype or just a rare piece of technology - the friend does not have all the information. Payment in exotic crystals only.	Ein Freund eines Freundes bietet uns die Möglichkeit, diesen wirklich seltenen Multibehälter zu erhalten. Er soll von einer sehr fortgeschrittenen Zivilisation stammen, oder ein lokaler Prototyp oder einfach ein seltenes Stück Technologie sein - der Freund hat nicht alle Informationen. Bezahlung nur in exotischen Kristallen.	250
+randomizerMenuStrings[i]	+1 multicontainer	+1 Multibehälter	30
 randomizerMenuStrings[i]	-2 exotics	-2 Exoten	30
 
 Perk module container FO for Riggy.prefab
-displayName	The advanced multicontainer	Der fortschrittliche Multicontainer	40
-description	This biotech container increases storage capacity for fuel & organics. It's made of very advanced biotech, giving a noteworthy bonus to ship HP.	Dieser Biotech-Container erhöht die Speicherkapazität für Treibstoff und Organik. Er ist aus sehr fortschrittlicher Biotechnologie hergestellt und gibt einen bemerkenswerten Bonus auf die Schiffs-HP.	250
-randomizerMenuStrings[i]	+1 fuel & organics mutlicontainer	+1 Treibstoff-/Organik Multicontainer	30
+displayName	The advanced multicontainer	Der fortschrittliche Multibehälter	40
+description	This biotech container increases storage capacity for fuel & organics. It's made of very advanced biotech, giving a noteworthy bonus to ship HP.	Dieser Biotech-Behälter erhöht die Speicherkapazität für Treibstoff und Organik. Er ist aus sehr fortschrittlicher Biotechnologie hergestellt und gibt einen bemerkenswerten Bonus auf die Schiffs-HP.	250
+randomizerMenuStrings[i]	+1 fuel & organics mutlicontainer	+1 Treibstoff-/Organik-Multibehälter	30
 randomizerMenuStrings[i]	-120 credits	-120 Credits	30
 
 Perk module container MS1.prefab
-displayName	The extra container	Der Extra-Container	40
-description	A container that increases storage capacity for metal & synthetics. We have to start improving our containers early on because the best ship upgrades need 900 metal and 500 synthetics.	Ein Container, der die Lagerkapazität für Metalle und Synthetik erhöht. Wir müssen früh damit beginnen, unsere Container zu verbessern, da die besten Schiffsaufrüstungen 900 Metalle und 500 Kunststoffe benötigen.	250
+displayName	The extra container	Der Extra-Behälter	40
+description	A container that increases storage capacity for metal & synthetics. We have to start improving our containers early on because the best ship upgrades need 900 metal and 500 synthetics.	Ein Behälter, der die Lagerkapazität für Metalle und Kunststoffe erhöht. Wir müssen früh damit beginnen, unsere Behälter zu verbessern, da die besten Schiffsaufrüstungen 900 Metalle und 500 Kunststoffe benötigen.	250
 randomizerMenuStrings[i]	+1 metal/synthetics container	+1 Metalle-/Kunststoffe-Behälter	30
 
 Perk module decommissioned DIY ecms x3.prefab
@@ -10581,10 +10581,10 @@ description	Technology for repairing damaged internal drones. Consumes 10 synthe
 randomizerMenuStrings[i]	+1 drone repair module	+1 Dronen-Reparaturmodul	30
 
 Perk module EOME container.prefab
-displayName	Exotic multicontainer	Exotischer Multicontainer	40
-description	This very advanced pressure container increases resource capacity for organics, metals, explosives and exotics.	Dieser sehr fortschrittliche Druckcontainer erhöht die Ressourcenkapazität für Organik, Metalle, Sprengstoffe und Exoten.	250
-unlockAnnouncementText	Our research on Spideraa technology is yielding results. Replicating this advanced container in Earth Alliance labs should not be a problem, next time.	Unsere Forschung an der Spinner-Technologie trägt Früchte. Die Replikation dieses fortschrittlichen Containers in den Labors der Erd-Allianz sollte kein Problem sein, das nächste Mal.	100
-randomizerMenuStrings[i]	+1 very advanced container	+1 fortschrittlicher Container	30
+displayName	Exotic multicontainer	Exotischer Multibehälter	40
+description	This very advanced pressure container increases resource capacity for organics, metals, explosives and exotics.	Dieser sehr fortschrittliche Druckbehälter erhöht die Ressourcenkapazität für Organik, Metalle, Sprengstoffe und Exoten.	250
+unlockAnnouncementText	Our research on Spideraa technology is yielding results. Replicating this advanced container in Earth Alliance labs should not be a problem, next time.	Unsere Forschung an der Spinner-Technologie trägt Früchte. Die Replikation dieses fortschrittlichen Behälters in den Labors der Erd-Allianz sollte kein Problem sein, das nächste Mal.	100
+randomizerMenuStrings[i]	+1 very advanced container	+1 fortschrittlicher Behälter	30
 
 Perk module fuel combinator, to atlas.prefab
 displayName	Fuel combinator	Treibstoff-Kombinator	40
@@ -10817,15 +10817,15 @@ description	The onboard Mk Ib sensor is replaced with a new, more efficient one.
 randomizerMenuStrings[i]	Replaces Mk-Ib sensor with Mk-II	Ersetzt den Mk-Ib-Sensor durch einen Mk-II	30
 
 Perk Replace containers with betters for Endurance.prefab
-displayName	Containers upgrade (x2)	Container-Upgrade (x2)	40
-description	The onboard fuel and organics containers are replaced with better high-pressure tanks that allow storing more resource.	Die bordseitigen Treibstoff- und Organik-Container werden durch bessere Hochdrucktanks ersetzt, die die Lagerung von mehr Ressourcen ermöglichen.	250
-randomizerMenuStrings[i]	Improves fuel and organics container capacity	Verbessert die Kapazität der Treibstoff- und Organik-Container	30
+displayName	Containers upgrade (x2)	Behälter-Upgrade (x2)	40
+description	The onboard fuel and organics containers are replaced with better high-pressure tanks that allow storing more resource.	Die bordseitigen Treibstoff- und Organik-Behälter werden durch bessere Hochdrucktanks ersetzt, die die Lagerung von mehr Ressourcen ermöglichen.	250
+randomizerMenuStrings[i]	Improves fuel and organics container capacity	Verbessert die Kapazität der Treibstoff- und Organik-Behälter	30
 randomizerMenuStrings[i]	-90 credits	-90 Credits	30
 
 Perk Replace DIY FO with FOO.prefab
-displayName	Fuel & Organics container replacements	Treibstoff- und Organik-Container-Ersatz	40
-description	The onboard self-made fuel and organics containers are replaced with high-quality pressure containers, allowing for greater resource capacity.	Die bordeigenen Treibstoff- und Organikbehälter werden durch bessere Hochdruckbehälter ersetzt, die eine größere Ressourcenkapazität ermöglichen.	250
-randomizerMenuStrings[i]	Replaces two containers with better ones	Ersetzt zwei Container durch bessere	30
+displayName	Fuel & Organics container replacements	Treibstoff- und Organik-Behälter-Ersatz	40
+description	The onboard self-made fuel and organics containers are replaced with high-quality pressure containers, allowing for greater resource capacity.	Die bordeigenen Treibstoff- und Organik-Behälter werden durch bessere Hochdruckbehälter ersetzt, die eine größere Ressourcenkapazität ermöglichen.	250
+randomizerMenuStrings[i]	Replaces two containers with better ones	Ersetzt zwei Behälter durch bessere	30
 randomizerMenuStrings[i]	-60 credits	-60 Credits	30
 
 Perk Replace dual mininglasers with triple, for Bluestar.prefab
@@ -10844,9 +10844,9 @@ description	Replaces the onboard ancient engine with modern Rat Empire variant, 
 randomizerMenuStrings[i]	Replaces ship engine with new one	Ersetzt den Schiffsmotor durch einen neuen	30
 
 Perk Replace fuel containers with betters.prefab
-displayName	Fuel container upgrade	Aufrüstung des Treibstoffbehälters	40
-description	The onboard fuel container is upgraded for improved capacity.	Der bordeigene Treibstoffbehälter wird für eine verbesserte Kapazität aufgerüstet.	250
-randomizerMenuStrings[i]	Upgrades the fuel tank	Rüstet den Treibstoffbehälter auf	30
+displayName	Fuel container upgrade	Aufrüstung des Treibstoff-Behälters	40
+description	The onboard fuel container is upgraded for improved capacity.	Der bordeigene Treibstoff-Behälter wird für eine verbesserte Kapazität aufgerüstet.	250
+randomizerMenuStrings[i]	Upgrades the fuel tank	Rüstet den Treibstoff-Behälter auf	30
 
 Perk Replace Industrial lasers with MK2.prefab
 displayName	Industrial lasers upgrade (x3)	Industrie-Laser-Upgrade (x3)	40
@@ -10876,9 +10876,9 @@ description	The onboard laboratory is replaced with a better one. The new module
 randomizerMenuStrings[i]	Replaces the lab module	Ersetzt das Labormodul	30
 
 Perk Replace organics containers with betters for gardenship.prefab
-displayName	Organics containers upgrade (x2)	Organik-Container-Upgrade (x2)	40
-description	Both onboard organics containers are upgraded for improved capacity. All organics containers have acitve biotech within, turning any organic matter into human-consumable form.	Beide Organik-Container an Bord werden aufgerüstet, um die Kapazität zu erhöhen. Alle Organik-Container sind mit aktiver Biotechnologie ausgestattet, die jegliche organische Materie in eine für den Menschen verwertbare Form umwandelt.	250
-randomizerMenuStrings[i]	Improves two organics containers	Verbessert zwei Organik-Container	30
+displayName	Organics containers upgrade (x2)	Organik-Behälter-Upgrade (x2)	40
+description	Both onboard organics containers are upgraded for improved capacity. All organics containers have acitve biotech within, turning any organic matter into human-consumable form.	Beide Organik-Behälter an Bord werden aufgerüstet, um die Kapazität zu erhöhen. Alle Organik-Behälter sind mit aktiver Biotechnologie ausgestattet, die jegliche organische Materie in eine für den Menschen verwertbare Form umwandelt.	250
+randomizerMenuStrings[i]	Improves two organics containers	Verbessert zwei Organik-Behälter	30
 
 Perk Replace Rat firecannon1 with 2.prefab
 displayName	Incendiary cannon upgrade	Upgrade der Brandkanone	40
@@ -11065,9 +11065,9 @@ choiceText	I just want to test a part of it	Ich möchte nur einen Teil davon tes
 altText	<b>Stations</b> and some other places are visible even without scanning them with short-range sensors, because they are broadcasting their identity publicly. Please fly into the training gear station.	<b>Stationen</b> und einige andere Orte sind auch ohne Scannen mit Kurzstreckensensoren sichtbar, da sie ihre Identität öffentlich ausstrahlen. Fliegen Sie bitte in die Station mit den Trainingsgeräten.	240
 altText	From now on <b>scrapping</b> modules is possible. \nClick on the exotic artifact in the storage to open its info panel, which has the "scrap module" button. Leave the <b>resource packs</b> in your cargo hold, you need them later.	Von nun an ist das <b>Scannen</b> von Modulen möglich. \nKlicken Sie auf das exotische Artefakt im Lager, um dessen Infopanel zu öffnen, in dem sich die Schaltfläche "Modul verschrotten" befindet. Lassen Sie die <b>Ressourcenpakete</b> in Ihrem Frachtraum, Sie brauchen sie später.	240
 altText	Please <b>sell</b> all the exotics we gained from scrapping. Selling exotics and other resources in stations will be your main source of income in the upcoming journey.	Bitte <b>verkaufen</b> Sie alle Exoten, die Sie beim Verschrotten gewonnen haben. Der Verkauf von Exoten und anderen Ressourcen in Stationen wird Ihre Haupteinnahmequelle auf der kommenden Reise sein.	240
-altText	Let's also install an additional container for storing exotics. You will need it later on.	Lassen Sie uns außerdem einen zusätzlichen Container zur Lagerung von Exoten installieren. Sie werden ihn später noch benötigen.	240
+altText	Let's also install an additional container for storing exotics. You will need it later on.	Lassen Sie uns außerdem einen zusätzlichen Behälter zur Lagerung von Exoten installieren. Sie werden ihn später noch benötigen.	240
 altText	Please open the sector map again to use our warpdrive for jumping to the <b>Aesus</b> starsystem.	Öffnen Sie bitte wieder die Sektorkarte, um unseren Warpantrieb für den Sprung zum <b>Aesus</b>-Sternensystem zu benutzen.	240
-altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcencontainer (Typ ESM-I)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule können Sie nur kaufen, wenn Sie leere Steckplätze im Modulspeicher haben.	240
+altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo Sie genug Credits haben, rüsten wir das Schiff für den Kampf aus. Für den Anfang müssen Sie einen <b>Ressourcenbehälter (Typ ESM-I)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule können Sie nur kaufen, wenn Sie leere Steckplätze im Modulspeicher haben.	240
 altText	As you can see from the red icons above modules, our ship weapons are currently <b>turned off</b> and have no crew. Additionally, the cannon needs explosives as ammo and the rocket launcher needs both explosives and metal.	Wie Sie an den roten Icons über den Modulen erkennen können, sind unsere Schiffswaffen derzeit <b>ausgeschaltet</b> und haben keine Besatzung. Zusätzlich braucht die Kanone Sprengstoff als Munition und der Raketenwerfer braucht sowohl Sprengstoff als auch Metalle.	240
 choiceTexts	Got it - weapons need ammo and power	Verstanden - Waffen brauchen Munition und Energie	15
 altText	To alleviate our ammo problem, scrap <b>1 explosives pack</b> and<b> 1 metal pack</b> in our module storage, to get the resources they contain.	Um unser Munitionsproblem zu lindern, verschrotten wir <b>1 Sprengstoffe-Paket</b> und <b>1 Metalle-Paket</b> in unserem Frachtraum, um die darin enthaltenen Ressourcen zu erhalten.	240
