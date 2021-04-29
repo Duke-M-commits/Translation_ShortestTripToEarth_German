@@ -17,7 +17,7 @@ text	verifying safety...	Überprüfung der Sicherheit...	50
 1 Pi Capitaalo planet, want explosives.prefab
 title	Capitaalo mining colony	Capitaalo-Bergbaukolonie	35
 text	We've found a Capitaalo mining colony. These quasi-primitives are obsessed with their ancient currency system and enjoy measuring things in money. Their colony leaders propose a trade, they need explosives in exchange for precious metals.	Wir haben eine Capitaalo-Bergbaukolonie gefunden. Diese Quasi-Primitiven sind besessen von ihrem alten Währungssystem und messen Dinge gern in Geld. Ihre Kolonieführer schlagen einen Handel vor, sie brauchen Sprengstoff im Tausch gegen Edelmetalle.	400
-choiceText	Trade [-80 explosives for 175 metal]	Handel [-80 Sprengstoff für 175 Metall]	100
+choiceText	Trade [-80 explosives for 175 metal]	Handel [-80 Sprengstoff +175 Metalle]	100
 
 1 Pi Capitaalo planet, want organics 2.prefab
 text2	We sent the colony representatives new plants and seeds to postpone their demise. The poor locals gave us a small heap of low-quality resources, but also a little something from one of their abandoned research facilities. It seems they've not forgotten generosity.	Wir haben den Vertretern der Kolonie neue Pflanzen und Samen geschickt, um ihren Untergang hinauszuzögern. Die armen Einheimischen gaben uns einen kleinen Haufen minderwertiger Rohstoffe, aber auch eine Kleinigkeit aus einer ihrer verlassenen Forschungseinrichtungen. Es scheint, sie haben die Großzügigkeit nicht vergessen.	400
@@ -27,7 +27,7 @@ choiceText	Donate [-100 organics, receive objects of low value]	Spende [-100 Org
 1 Pi Capitaalo planet, want organics.prefab
 text2	Trade completed. The elites have secured new plants and seeds for their underground greenhouses, but rest of the local population will probably slowly die off together with what remains of the biosphere.	Handel abgeschlossen. Die Eliten haben sich neue Pflanzen und Saatgut für ihre unterirdischen Gewächshäuser gesichert, aber der Rest der lokalen Bevölkerung wird wahrscheinlich zusammen mit dem, was von der Biosphäre übrig geblieben ist, langsam aussterben.	400
 text	We've contacted a Capitaalo colony. They are a quasi-primitive civilization, and this colony seems to be on the verge of collapse. It seems industrial activity has nearly destroyed tthe ecosphere of their planet. Some of the wealthier elites want to buy new plants and seeds from us (for their personal undergound bunker greenhouses). The only thing they have in abundance is gold, and they offer to pay with it.	Wir haben Kontakt zu einer Capitaalo-Kolonie aufgenommen. Sie sind eine quasi-primitive Zivilisation, und diese Kolonie scheint am Rande des Zusammenbruchs zu sein. Die industrielle Aktivität hat die Ökosphäre ihres Planeten fast zerstört. Einige der wohlhabenderen Eliten wollen neue Pflanzen und Samen von uns kaufen (für ihre persönlichen unterirdischen Bunkergewächshäuser). Das einzige, was sie im Überfluss haben, ist Gold, und sie bieten an, damit zu bezahlen.	400
-choiceText	Trade [-100 organics for 200 metals]	Tausch [-100 Organische Stoffe für 200 Metalle]	100
+choiceText	Trade [-100 organics for 200 metals]	Tausch [-100 Organische Stoffe +200 Metalle]	100
 
 1 Pi Capitaalo planet, want synth.prefab
 title	Capitaalo Colony	Capitaalo-Kolonie	35
@@ -106,7 +106,7 @@ Ambusher L1b Capitaalo 1 and 4 decoy.prefab
 displayName	Capitaalo fleet	Capitaalo-Flotte	25
 title	Capitaalo tax officer	Capitaalo Steueroffizier	35
 text	Attention, foreign vessel! Because of your presence here, our people are losing trade deals with the Rat empire. Our economy is in chaos! Your only way out of this is to pay for damages. We have a very big warship, by the way. We accept precious metals only.	Achtung, fremdes Schiff! Wegen Eurer Anwesenheit hier verliert unser Volk Handelsverträge mit dem Rattenimperium. Unsere Wirtschaft befindet sich im Chaos! Euer einziger Ausweg ist, für den Schaden aufzukommen. Wir haben übrigens ein sehr großes Kriegsschiff. Wir akzeptieren nur Edelmetalle.	400
-choiceText	Pay 150 metal	Zahlen Sie 150 Metall	100
+choiceText	Pay 150 metal	Zahlen Sie [-150 Metalle]	100
 choiceText	It seems the problem is in your economy, not us [prepare for combat].	Es scheint, dass das Problem in Eurer Wirtschaft liegt, nicht bei uns [bereitet Euch auf den Kampf vor].	100
 text	A very large ship, escorted by a smaller one. They seem to be using very primitive technology and are rapidly approaching tactical weapons range.	Ein sehr großes Schiff, eskortiert von einem kleineren. Sie scheinen eine sehr primitive Technologie zu verwenden und nähern sich schnell der Reichweite taktischer Waffen.	600
 text2	Payment accepted. You must pay each of our tax fleets separately.	Zahlung akzeptiert. Sie müssen jede unserer Steuerflotten einzeln bezahlen.	400
@@ -114,18 +114,18 @@ reasonToDisplay	Capitaalo fleet paid	Capitaalo-Flotte bezahlt	30
 
 Ambusher L1b Capitaalo, 1 plus 2.prefab
 text	Haltl! Your presence is destabilizing our financial system. You have already thrown thousands of honest businessmen into extreme poverty and hunger, merely by passing this space! You must immediately pay for these damages in gold or we will be forced to destroy you.	Haltl! Ihre Anwesenheit destabilisiert unser Finanzsystem. Ihr habt bereits Tausende von ehrlichen Geschäftsleuten in extreme Armut und Hunger gestürzt, nur weil Ihr diesen Raum passiert habt! Ihr müsst sofort für diese Schäden in Gold bezahlen oder wir sind gezwungen, Euch zu vernichten.	400
-choiceText	Pay 120 metal	Bezahlen Sie 120 Metall	100
+choiceText	Pay 120 metal	Bezahlen Sie [-120 Metalle]	100
 choiceText	It seems the problem is in your financial system, not us [prepare for combat].	Es scheint, das Problem liegt in Eurem Finanzsystem, nicht bei uns [auf Kampf vorbereiten].	100
 text	Two vessels approaching tactical weapons range. They seem to be using very primitive technology.	Zwei Schiffe nähern sich der taktischen Waffenreichweite. Sie scheinen eine sehr primitive Technologie zu verwenden.	600
 
 Ambusher L1b Capitaalo, 2x cap 1.prefab
 text	Alien vessel! By driving here, you are endangering our entire economy and trade with Rats! You must immediately pay for these damages in gold or we will be forced to destroy you.	Außerirdisches Schiff! Indem Ihr hierher fahrt, gefährdet Ihr unsere gesamte Wirtschaft und den Handel mit den Ratten! Ihr müsst sofort für diese Schäden in Gold bezahlen, oder wir sind gezwungen, Euch zu zerstören.	400
-choiceText	Pay 80 metal	Zahlen Sie 80 Metall	100
+choiceText	Pay 80 metal	Zahlen Sie [-80 Metalle]	100
 text	Two small vessels approaching tactical weapons range. They seem to be using very primitive technology.	Zwei kleine Schiffe nähern sich in taktischer Waffenreichweite. Sie scheinen eine sehr primitive Technologie zu verwenden.	600
 
 Ambusher L1b Capitaalo, 2x cap 2.prefab
 text	Can you hear me? Is this thing working? Good. The appearance of your ship on our radars have thrown our markets into chaos. People are losing jobs, but you can still avert catastrophy if you send us some precious metals.	Können Sie mich hören? Funktioniert das Ding? Gut. Das Auftauchen Ihres Schiffes auf unseren Radaren hat unsere Märkte ins Chaos gestürzt. Die Leute verlieren ihre Jobs, aber Sie können die Katastrophe noch abwenden, wenn Sie uns ein paar Edelmetalle schicken.	400
-choiceText	Pay 100 metal	Zahlen Sie 100 Metall	100
+choiceText	Pay 100 metal	Zahlen Sie [-100 Metalle]	100
 choiceText	[prepare for combat]	[bereiten Sie sich auf den Kampf vor]	100
 
 Ambusher L1b Capitaalo, cap 3 and 1.prefab
