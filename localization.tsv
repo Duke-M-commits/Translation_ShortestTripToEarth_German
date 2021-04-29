@@ -302,7 +302,7 @@ SkillEffects.cs
 
 Ship.cs
 	starting bonus	Startbonus	0
-	Loading a preset had issues, probably due to slot downgrading after preset save. Storage is now temporarily over capacity	Beim Laden eines Presets gab es Probleme, wahrscheinlich aufgrund einer Steckplatz-Herabstufung nach dem Speichern des Presets. Der Speicher ist nun vorübergehend überlastet	0
+	Loading a preset had issues, probably due to slot downgrading after preset save. Storage is now temporarily over capacity	Beim Laden einer Voreinstellung gab es Probleme, wahrscheinlich aufgrund einer Steckplatz-Herabstufung nach dem Speichern der Voreinstellung. Der Speicher ist nun vorübergehend überlastet	0
 	Your ship:	Ihr Schiff:	0
 	Enemy ship:	Feindliches Schiff:	0
 	Self destructs in {0}s	Selbstzerstörung in {0}s	0
@@ -766,7 +766,7 @@ Button. Abbrevation for commemorating dead crew (rest in peace)	RIP	RIP	7
 	Select all damaged drones	Alle beschädigten Drohnen auswählen	0
 
 Crew data subpanel.prefab
-	Number of unused skill points	Anzahl unbenutzter Skillpunkte	0
+	Number of unused skill points	Anzahl unbenutzter Fertigkeitspunkte	0
 For crewmember that eats organic materials (like humans and other animals)	Organics consumption per 100 range unit moved	Organikverbrauch pro 100 bewegte Reichweiteneinheiten	0
 For crewmember that eats fuel	Fuel consumption per 100 range unit moved	Treibstoffverbrauch pro 100 bewegte Reichweiteneinheiten	0
 For crewmember that eats explosives	Explosives consumption per 100 range unit moved	Sprengstoffverbrauch pro 100 bewegte Reichweiteneinheiten	0
@@ -1035,7 +1035,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	14. Current hand weapon	14. Aktuelle Handwaffe	0
 	Shows damage per magazine and weapon reloading time. Some weapons are very inaccurate (shotgun) or very accurate (laser).	Zeigt den Schaden pro Magazin und die Nachladezeit der Waffe an. Einige Waffen sind sehr ungenau (Schrotflinte) oder sehr genau (Laser).	0
 	Send crew into medbay to heal damage. \nYou need organics to heal each hitpoint.\nThe alternative option is to send injured crew into cryosleep.	Schicken Sie die Crew in die Krankenstation, um Schaden zu heilen. \nSie benötigen organische Stoffe, um jeden Trefferpunkt zu heilen.\nDie alternative Option ist, die verletzte Besatzung in den Kryoschlaf zu schicken.	0
-	Send crew into medbay to heal damage. It needs organics to heal each hitpoint.\nThe alternative option is to send injured crew into cryosleep.	Schicken Sie die Crew in die Krankenstation, um den Schaden zu heilen. Sie benötigt Organika, um jeden Trefferpunkt zu heilen.\nDie alternative Option ist, verletzte Besatzung in Kryoschlaf zu schicken.	0
+	Send crew into medbay to heal damage. It needs organics to heal each hitpoint.\nThe alternative option is to send injured crew into cryosleep.	Schicken Sie die Crew in die Krankenstation, um den Schaden zu heilen. Sie benötigt Organik, um jeden Trefferpunkt zu heilen.\nDie alternative Option ist, verletzte Besatzung in Kryoschlaf zu schicken.	0
 	Crew in cryosleep do not consume organics, and have a small chance to heal injuries for free.	Die Crew im Kryoschlaf verbraucht keine organischen Substanzen und hat eine kleine Chance, Verletzungen kostenlos zu heilen.	0
 	To increase crew survivability against intruders, position them to shoot from behind corners.\nMissed shots may damage modules.	Um die Überlebensfähigkeit der Besatzung gegen Eindringlinge zu erhöhen, positionieren Sie sie so, dass sie von hinter Ecken schießt.\nFehlschüsse können Module beschädigen.	0
 	Selecting all crew (default shortcut E) shows all crew stats together. \nThis screen enables you to sort and compare their skills, or assign roles.	Wenn Sie die gesamte Besatzung auswählen (Standardtaste E), werden alle Besatzungsstatistiken zusammen angezeigt. \nDieser Bildschirm ermöglicht es Ihnen, ihre Fertigkeiten zu sortieren und zu vergleichen oder Rollen zuzuweisen.	0
@@ -1477,9 +1477,9 @@ Module actions panel.prefab
 	Module inherent armor (chance to negate attacks)	Modul Rüstung (Chance, Angriffe zu negieren)	0
 	Select underlaying slot	Darunterliegenden Steckplatz auswählen	0
 Button. Can be 2 words, word no longer than 6 letters. Select underliyng module slot, can be 2 words, word no longer than 6 letters, abbreviation might be required	SELECT SLOT	STECK\nPLATZ	16
-	Scrap module\norganics +30\nfuel +10	Schrottmodul\nOrganik +30\Brennstoff +10	0
+	Scrap module\norganics +30\nfuel +10	Schrottmodul\n+30 Organik\n+10 Brennstoff	0
 Button. Scrap/recycle module to materials	SCRAP	SCHROTT	6
-	Confirm scrap module\norganics +30\nfuel +10	Verschrottung bestätigen \nOrganisches +30\nKraftstoff +10	0
+	Confirm scrap module\norganics +30\nfuel +10	Verschrottung bestätigen \n+30 Organik\n+10 Kraftstoff	0
 Button. Shown after module Scrap button was pressed	ARE\nYOU\nSURE?	SICHER\n?	6
 	Place in storage	Einlagern	0
 Button. Pack & place module to ship storage, abbreviation may be required	STORE	LAGERN	6
@@ -1721,12 +1721,12 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	SAVE\nALL	SPEI- \nCHERN	16
 	CONFIRM	SICHER\n?	16
 	LOAD\nALL	LADEN	16
-	Click to choose what is saved in this preset	Klicken Sie auf , um auszuwählen, was in diesem Preset gespeichert werden soll	0
+	Click to choose what is saved in this preset	Klicken Sie auf , um auszuwählen, was in dieser Voreinstellung gespeichert werden soll	0
 	Close preset editor	Voreinstellungseditor schließen	0
 	CONFIRM/CLOSE	SCHLIESSEN	16
 	Remove this preset	Diese Voreinstellung entfernen	0
 	REMOVE	ENTFERNEN	16
-	Click to turn on/off crew position, role and\nmodule assignment saving in this preset.	Klicken Sie hier, um das Speichern der Crew-Position, der Rolle und der Modulzuweisung in diesem Preset ein- oder auszuschalten.	0
+	Click to turn on/off crew position, role and\nmodule assignment saving in this preset.	Klicken Sie hier, um das Speichern der Crew-Position, der Rolle und der Modulzuweisung in dieser Voreinstellung ein- oder auszuschalten.	0
 	CREW	BESATZUNG	16
 	Click to turn on/off installed module power toggle saving in this preset.	Klicken Sie hier, um die Speicherung der installierten Modulleistung in dieser Voreinstellung ein- bzw. auszuschalten.	0
 	Click to turn on/off module to slot map in this preset.	Klicken Sie hier, um die Zuordnung von Modulen zu Steckplätzen in dieser Voreinstellung ein- und auszuschalten.	0
@@ -1810,7 +1810,7 @@ Refers to shop	Store	Händler	0
 	Sell 1	Verkaufen 1	0
 	Buy:	Kaufen:	0
 	Sell:	Verkaufen:	0
-	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Credits.\nOrganika sind notwendig, um optimale Crew-Fertigkeiten und Heilung zu erhalten.	0
+	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Credits.\nOrganik ist notwendig, um optimale Crew-Fertigkeiten und Heilung zu erhalten.	0
 	ORGANICS	ORGANISCHES	0
 	Average price when sold by stations: 4 credits.\nExplosives are used by projectile- and missile weapons.	Durchschnittlicher Preis beim Verkauf an Stationen: 4 Credits.\nExplosivstoffe werden von Projektil- und Raketenwaffen verwendet.	0
 	EXPLOSIVES	SPRENGSTOFFE	0
@@ -1876,7 +1876,7 @@ text	We have found a patch of eggs belonging to some space organism. Should we t
 choiceText	Take the eggs	Nehmen Sie die Eier	100
 choiceText	Leave them be	Lassen Sie sie liegen	100
 title	Eggs retrieved	Eingesammelte Eier	35
-text2	Researching the eggs provided valuable information on warp life biology. The leftovers of the analysis were processed into edible organics, some of which were soon later turned into an omelette by our AI.	Die Erforschung der Eier lieferte wertvolle Informationen über die Biologie des Warp-Lebens. Die Reste der Analyse wurden zu essbaren Organika verarbeitet, von denen unsere KI bald darauf einige zu einem Omelett verarbeitete.	400
+text2	Researching the eggs provided valuable information on warp life biology. The leftovers of the analysis were processed into edible organics, some of which were soon later turned into an omelette by our AI.	Die Erforschung der Eier lieferte wertvolle Informationen über die Biologie des Warp-Lebens. Die Reste der Analyse wurde zu essbarer Organik verarbeitet, von der unsere KI bald darauf einige zu einem Omelett verarbeitete.	400
 title	Attacked by warp life!	Von Warp-Leben angegriffen!	35
 text2	A warp worm attacked us during the mission. It swallowed most of the bots operating near the eggs, crushed a few pieces of external equipment and also took a bite out of our ship. It was too difficult to keep fighting inside the asteroid cloud and we escaped.	Ein Warpwurm griff uns während der Mission an. Er verschlang die meisten Bots, die in der Nähe der Eier operierten, zertrümmerte ein paar Teile der externen Ausrüstung und biss auch in unser Schiff. Es war zu schwierig, innerhalb der Asteroidenwolke weiterzukämpfen, und wir entkamen.	400
 text2	A warp animal attacked us during the operation, causing considerable damage. It was too risky to keep fighting inside the asteroid cloud and we escaped.	Während der Operation wurden wir von einem Warptier angegriffen, das erheblichen Schaden anrichtete. Es war zu riskant, innerhalb der Asteroidenwolke weiterzukämpfen, und wir entkamen.	400
@@ -3022,7 +3022,7 @@ text2	These cargo containers have been drifting here for a very long time.	Diese
 reasonToDisplay	modules salvaged	Module geborgen	30
 text2	These are advanced containers filled with exotic gas!	Dies sind fortschrittliche Container, die mit exotischem Gas gefüllt sind!	400
 text2	Somebody has lost a large shipment of miniature plastic animals here.	Jemand hat hier eine große Ladung von Miniatur-Plastiktieren verloren.	400
-text2	These lost or dumped containers are filled with ancient organics.	Diese verlorenen oder versenkten Container sind mit antiken Organika gefüllt.	400
+text2	These lost or dumped containers are filled with ancient organics.	Diese verlorenen oder versenkten Container sind mit antiker Organik gefüllt.	400
 text2	The containers are filled with ancient weapons.	Die Container sind mit antiken Waffen gefüllt.	400
 reasonToDisplay	weapons salvaged	Waffen geborgen	30
 text2	The containers are filled with ancient defensive technology.	Die Container sind mit antiker Verteidigungstechnologie gefüllt.	400
@@ -3428,7 +3428,7 @@ text	Harvest and mining operation... %	Ernte- und Abbaubetrieb... %	50
 title	Operation complete	Operation abgeschlossen	35
 text2	A small sample with research value was obtained from the tree. We leave the unique ecosystem of this planet otherwise untouched. Who knows what the tree will become, perhaps a heart to a tree civilization? Time will tell...	Eine kleine Probe mit Forschungswert wurde aus dem Baum gewonnen. Wir lassen das einzigartige Ökosystem dieses Planeten ansonsten unberührt. Wer weiß, was aus dem Baum werden wird, vielleicht ein Herz für eine Baumzivilisation? Die Zeit wird es zeigen...	400
 reasonToDisplay	research data obtained	gewonnene Forschungsdaten	30
-text2	Despite some objections from the crew, the tree has been cut down, researched, and then processed into quality organics. We installed mining equipment in its place and mined all the acessible nanochromium. Others have died so that we may live.	Trotz einiger Einwände der Besatzung wurde der Baum gefällt, erforscht und anschließend zu hochwertigen Organika verarbeitet. Wir installierten an seiner Stelle eine Bergbauausrüstung und bauten das gesamte verwertbare Nanochrom ab. Andere sind gestorben, damit wir leben können.	400
+text2	Despite some objections from the crew, the tree has been cut down, researched, and then processed into quality organics. We installed mining equipment in its place and mined all the acessible nanochromium. Others have died so that we may live.	Trotz einiger Einwände der Besatzung wurde der Baum gefällt, erforscht und anschließend zu hochwertiger Organik verarbeitet. Wir installierten an seiner Stelle eine Bergbauausrüstung und bauten das gesamte verwertbare Nanochrom ab. Andere sind gestorben, damit wir leben können.	400
 newName3	minor ecosystem	Nebenökosystem	25
 text2	When our harvestor bots approached the tree, an unusually large warp worm emerged from underground and destroyed them with a single swipe of its tail. It then attacked our operatives surveying the operation. A shuttle was damaged and some of the crewmembers received critical injuries. This was a disaster and we aborted the mission after presence of several other worms was detected in the planet's atmosphere.	Als unsere Ernteroboter sich dem Baum näherten, tauchte ein ungewöhnlich großer Warpwurm aus dem Untergrund auf und zerstörte sie mit einem einzigen Schwanzhieb. Dann griff er unsere Agenten an, die den Einsatz überwachten. Ein Shuttle wurde beschädigt und einige der Besatzungsmitglieder erlitten schwere Verletzungen. Dies war eine Katastrophe und wir brachen die Mission ab, nachdem die Anwesenheit mehrerer anderer Würmer in der Atmosphäre des Planeten entdeckt wurde.	400
 reasonToDisplay	warp worm attack	Warpwurm-Angriff	30
@@ -3883,7 +3883,7 @@ text2	Organics harvested, no incidents.	Organische Stoffe geerntet, keine Zwisch
 text	harvesting organics... %	Organische Stoffe ernten... %.	50
 
 10 P food, nature pic pool.prefab
-text	Carbon ecosystem detected. Possibility to eco-harvest organics. Commence operation?	Kohlenstoff-Ökosystem entdeckt. Möglichkeit zur Öko-Ernte von Organika. Betrieb aufnehmen?	400
+text	Carbon ecosystem detected. Possibility to eco-harvest organics. Commence operation?	Kohlenstoff-Ökosystem entdeckt. Möglichkeit zur Öko-Ernte von Organik. Betrieb aufnehmen?	400
 choiceText	Research & eco-harvest organics.	Forschung & Öko-Ernte von Organik.	100
 
 2 P abandoned industrial wasteland with ship carcass M.prefab
@@ -3891,7 +3891,7 @@ text2	Machinery on the planet was made of exclusively low-quality materials. Lon
 reasonToDisplay	ruins scavenged	Ruinen geplündert	30
 title	Industrial wasteland	Industrielles Ödland	35
 text	The planet is covered in extensive industrial-age ruins, but all activities have long since ceased. It seems the industrial activities have destroyed the ecosystem of the planet. There's so much to check out that a salvage operation would need considerable time.	Der Planet ist von ausgedehnten Ruinen aus dem Industriezeitalter bedeckt, aber alle Aktivitäten sind schon lange eingestellt worden. Es scheint, dass die industriellen Aktivitäten das Ökosystem des Planeten zerstört haben. Es gibt so viel zu untersuchen, dass eine Bergungsaktion viel Zeit in Anspruch nehmen würde.	400
-choiceText	Take time to explore [send crew -25 organics]	Nehmen Sie sich Zeit für die Erkundung [Besatzung schicken, -25 Organika]	100
+choiceText	Take time to explore [send crew -25 organics]	Nehmen Sie sich Zeit für die Erkundung [Besatzung schicken, -25 Organik]	100
 newName3	industrial wasteland	Industriebrache	25
 text2	Machinery on the planet was made of exclusively low-quality materials. The most valuable object we found was a half-complete ship carcass.	Die Maschinen auf dem Planeten wurden ausschließlich aus minderwertigen Materialien hergestellt. Das wertvollste Objekt, das wir gefunden haben, war ein halbfertiger Schiffsrumpf.	400
 reasonToDisplay	ship carcass scavenged	Schiffsrumpf geplündert	30
@@ -4394,10 +4394,10 @@ text2	The module is delivered to the Mothership cargo bay as promised. The trade
 
 2 Pi white cavepeople M, want fuel.prefab
 text2	After delivering a volume of organics, we are directed to a field of large crystals, which the Absorbers have collected as beauty objects to be watched under the stars. As a gift, our AI additionally gives the locals exact replicas of the crystals (made of plastic), so they can continue to admire them under starry nights.	Nach der Lieferung eines Volumens an organischen Stoffen werden wir zu einem Feld mit großen Kristallen geleitet, die die Absorber als Schönheitsobjekte gesammelt haben, um sie unter den Sternen zu betrachten. Als Geschenk schenkt unsere KI den Einheimischen zusätzlich exakte Repliken der Kristalle (aus Kunststoff), damit sie diese auch weiterhin in sternenklaren Nächten bewundern können.	400
-title	Sentients discovered	Sentients entdeckt	35
+title	Sentients discovered	Intelligentes Leben entdeckt	35
 text	We've discovered and contacted a primitive civilization. The humanoids call themselves Absorbers. Their body contains a microorganism which allows them to consume a variety of chemicals by absorbing them through their skin. After a long conversation with our AI, they propose a trade. They want some of our organics and are willing to sell their rarest crystals.	Wir haben eine primitive Zivilisation entdeckt und kontaktiert. Die Humanoiden nennen sich Absorber. Ihr Körper enthält einen Mikroorganismus, der es ihnen ermöglicht, eine Vielzahl von Chemikalien zu konsumieren, indem sie diese über ihre Haut aufnehmen. Nach einem langen Gespräch mit unserer KI schlagen sie einen Handel vor. Sie wollen etwas von unseren organischen Stoffen und sind bereit, ihre seltensten Kristalle zu verkaufen.	400
-choiceText	Trade [-50 organics]	Handel [-50 Organische Stoffe]	100
-text2	After delivering a volume of organics, we are directed to a field of large crystals, which the Absorbers have collected as beauty objects to be watched under the stars. They gave us the biggest one.	Nachdem wir eine Menge Organika abgeliefert haben, werden wir zu einem Feld mit großen Kristallen geleitet, die die Absorber als Schönheitsobjekte gesammelt haben, um sie unter den Sternen zu betrachten. Sie haben uns den größten gegeben.	400
+choiceText	Trade [-50 organics]	Handel [-50 Organik]	100
+text2	After delivering a volume of organics, we are directed to a field of large crystals, which the Absorbers have collected as beauty objects to be watched under the stars. They gave us the biggest one.	Nachdem wir eine Menge Organik abgeliefert haben, werden wir zu einem Feld mit großen Kristallen geleitet, die die Absorber als Schönheitsobjekte gesammelt haben, um sie unter den Sternen zu betrachten. Sie haben uns den größten gegeben.	400
 
 2 Planet broken, empty or M.prefab
 name2	Broken planet shell	Zerbrochene Planetenhülle	25
@@ -4491,7 +4491,7 @@ text	We are witnessing a rare anomaly only few have ever seen. We could fly thro
 choiceText	Enter the atmosphere [-1 exotics]	Eintritt in die Atmosphäre [-1 Exotika]	100
 newName3	superlight warp storm	superleichter Warpsturm	25
 text	extracting exotics...	Exotika extrahieren...	50
-text2	Since the organisms were unconsumable as organics, our harvesters tried to leave them intact and only collect the gas inside.	Da die Organismen als Organika nicht konsumierbar waren, versuchten unsere Harvester, sie intakt zu lassen und nur das Gas im Inneren zu sammeln.	400
+text2	Since the organisms were unconsumable as organics, our harvesters tried to leave them intact and only collect the gas inside.	Da die Organismen als Organik nicht konsumierbar waren, versuchten unsere Harvester, sie intakt zu lassen und nur das Gas im Inneren zu sammeln.	400
 text	We safely passed the superlight warp storm, and we've found truly alien life. These non-carbon organisms seem to draw exotic matter from the environment and store it in giant, moving tentacles. A research & harvesting mission might yield spectacular results.	Wir haben den superleichten Warpsturm sicher passiert und haben wirklich außerirdisches Leben gefunden. Diese kohlenstofffreien Organismen scheinen exotische Materie aus der Umgebung zu ziehen und sie in riesigen, beweglichen Tentakeln zu speichern. Eine Forschungs- und Erntemission könnte spektakuläre Ergebnisse bringen.	400
 choiceText	Research & harvest operation [-80 metal, send crew]	Forschungs- und Ernteeinsatz [-80 Metalle, Crew schicken]	100
 choiceText	Let's see if we can scrap anything for the necessary resources	Schauen wir mal, ob wir etwas für die notwendigen Ressourcen abbauen können.	100
@@ -5396,7 +5396,7 @@ text	we may scrap modules for resources... %	Wir können Module für Ressourcen 
 
 5 P ruins and nanobot printers MTr.prefab
 text	Ruins of ancient, pre-industrial civilization cover this planet. Seemingly complete lack of multicellular life suggests the civilization was probably destroyed by some kind of external attack. Exploring the planet and ruins for anything valuable will take a fair amount of time.	Ruinen einer alten, vorindustriellen Zivilisation bedecken diesen Planeten. Das scheinbar völlige Fehlen von mehrzelligem Leben lässt vermuten, dass die Zivilisation wahrscheinlich durch eine Art Angriff von außen zerstört wurde. Die Erkundung des Planeten und der Ruinen nach etwas Wertvollem wird eine ganze Weile dauern.	400
-choiceText	Explore [-25 organics, send crew]	Erforschen [-25 Organika, Mannschaft schicken]	100
+choiceText	Explore [-25 organics, send crew]	Erforschen [-25 Organik, Mannschaft schicken]	100
 title	Culture of cruelty	Kultur der Grausamkeit	35
 text2	Our operatives spent days exploring the ruins and documenting the extinct culture. The main entertainment of this mammalian civilization seemed to be painfully sacrificing fellow sentients and animals to obviously non-existent gods. Perhaps they deserved to vanish.	Unsere Mitarbeiter verbrachten Tage damit, die Ruinen zu erforschen und die untergegangene Kultur zu dokumentieren. Die Hauptunterhaltung dieser Säugetierzivilisation schien darin zu bestehen, Mitmenschen und Tiere schmerzhaft an offensichtlich nicht existierende Götter zu opfern. Vielleicht hatten sie es verdient, zu verschwinden.	400
 title	Ecodeath nanobots	Ökotod-Nanobots	35
@@ -5413,7 +5413,7 @@ text2	The surface scanning operation was interrupted by a cloud of stealth mines
 text	This planet is mostly covered with vast deserts, so it was easy to notice this space shipwreck. It is a squid military transport, older model.	Dieser Planet ist größtenteils mit riesigen Wüsten bedeckt, daher war es leicht, dieses Raumschiffswrack zu entdecken. Es ist ein Tintenfisch-Militärtransporter, ein älteres Modell.	400
 text2	Damage indicates the ship has been shot down and looted. There was little left to take, but we took it.	Die Beschädigungen deuten darauf hin, dass das Schiff abgeschossen und geplündert wurde. Es gab nur noch wenig zu holen, aber wir haben es mitgenommen.	400
 reasonToDisplay	salvage operations complete	bergungsarbeiten abgeschlossen	30
-text2	The wreckage contained a few useful materials, including some synthethic parts and remains of the squid crew, which we recycled into universal organics.	Das Wrack enthielt ein paar nützliche Materialien, darunter einige synthetische Teile und Überreste der Tintenfisch-Besatzung, die wir zu universellen Organika recycelten.	400
+text2	The wreckage contained a few useful materials, including some synthethic parts and remains of the squid crew, which we recycled into universal organics.	Das Wrack enthielt ein paar nützliche Materialien, darunter einige synthetische Teile und Überreste der Tintenfisch-Besatzung, die wir zu universeller Organik recycelten.	400
 text2	Shortly after entering the atmosphere, we encountered a swarm of mines that attached themselves to our ship hull and exploded, causing minor damage. Probably remnants of an ancient battle.	Kurz nach dem Eintritt in die Atmosphäre trafen wir auf einen Schwarm von Minen, die sich an unserer Schiffshülle festsetzten und explodierten, was leichte Schäden verursachte. Wahrscheinlich Überreste einer alten Schlacht.	400
 
 5 P treestump with hostile nanobots.prefab
@@ -5549,7 +5549,7 @@ title	Strange micro-organism	Seltsamer Mikroorganismus	35
 text	The ecosystem on this planet is young and earthlike, featuring beautiful beaches with ideal temperature. However, a strange microorganism seems to live inside most of the local species. We should run comprehensive tests before harvesting any organics.	Das Ökosystem auf diesem Planeten ist jung und erdähnlich, mit schönen Stränden und idealer Temperatur. Allerdings scheint ein seltsamer Mikroorganismus in den meisten der einheimischen Arten zu leben. Wir sollten umfassende Tests durchführen, bevor wir irgendwelche organischen Stoffe ernten.	400
 choiceText	Research the local ecosystem [-50 organics]	Erforschen Sie das lokale Ökosystem [-50 Organische Stoffe]	100
 text	lab tests... %	Labortests... %	50
-text2	After using up a significant amount of our own organics for tests, the micro-organism was found to be too chemically unpredictable to allow safe harvesting from this planet. The research results are worth some data creds.	Nachdem wir eine beträchtliche Menge unserer eigenen Organika für Tests verbraucht hatten, stellte sich heraus, dass der Mikroorganismus chemisch zu unberechenbar ist, um eine sichere Ernte von diesem Planeten zu ermöglichen. Die Forschungsergebnisse sind einige Datencredits wert.	400
+text2	After using up a significant amount of our own organics for tests, the micro-organism was found to be too chemically unpredictable to allow safe harvesting from this planet. The research results are worth some data creds.	Nachdem wir eine beträchtliche Menge unserer eigenen Organik für Tests verbraucht hatten, stellte sich heraus, dass der Mikroorganismus chemisch zu unberechenbar ist, um eine sichere Ernte von diesem Planeten zu ermöglichen. Die Forschungsergebnisse sind einige Datencredits wert.	400
 
 6 Pi Stat AMBUSH drones.prefab
 text	A small station orbits this otherwise uninteresting planet. It is sending a trader signal, but its credentials are unknown.	Eine kleine Station umkreist diesen ansonsten uninteressanten Planeten. Sie sendet ein Händlersignal, aber ihre Berechtigung ist unbekannt.	400
@@ -5861,7 +5861,7 @@ reasonToDisplay	trade	Handel	30
 text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. A local Grippy trader has a particularly attractive offer: a shield generator for only a few exotics. "I found it ;)" he explains its origins. "But the explosives I need for an art project ^.~"	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu empfindungsfähiger Sklaverei. Sie sehen jedoch, dass neben Waffen und anderen kriminalisierten Gegenständen auch verschiedene versklavte Tiere verkauft werden. Ein lokaler Grippy-Händler hat ein besonders verlockendes Angebot: einen Schildgenerator für ein paar Exoten. "Ich habe ihn gefunden ;)", erklärt er seine Herkunft. "Aber den Sprengstoff brauche ich für ein Kunstprojekt ^.~"	400
 text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. A local Gon-Bu trader has a particularly attractive offer: a fully automatic rapid fire cannon.	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Gefühlssklaverei. Sie sehen jedoch, dass zwischen Waffen und anderen kriminalisierten Gegenständen verschiedene versklavte Tiere verkauft werden. Ein lokaler Gon-Bu-Händler hat ein besonders attraktives Angebot: eine vollautomatische Schnellfeuerkanone.	400
 text	To your relief, the place does not have any obvious connections to sentient slavery. A local trader has a particularly cheap offer: 220 organics of unknown source for mere scraps! ("I guess we all get eaten in the end" remarks the trader)."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Empfindungssklaverei. Ein lokaler Händler hat ein besonders günstiges Angebot: 220 organische Stoffe unbekannter Herkunft für bloße Reste! ("Ich schätze, am Ende werden wir alle gegessen", bemerkt der Händler)."	400
-choiceText	Buy dubious organics [-5 exotics]	Fragwürdige Organika kaufen [-5 Exoten]	100
+choiceText	Buy dubious organics [-5 exotics]	Fragwürdige Organik kaufen [-5 Exoten]	100
 text2	Organic biomass, the advanced nanostuff that is universally used for life-support across the galaxy is always certified as ethical. This one does not bear any credentials however. You begin to suspect these organics might be from someone sentient that was murdered. Too late to change anything now. You'll be talking with AI about it in the evening.	Organische Biomasse, der fortschrittliche Nanostoff, der überall in der Galaxie zur Lebenserhaltung eingesetzt wird, ist immer als ethisch einwandfrei zertifiziert. Dieses hier trägt jedoch keine Beglaubigung. Sie beginnen zu vermuten, dass diese organischen Stoffe von einem Wesen stammen könnten, das ermordet wurde. Es ist zu spät, jetzt noch etwas zu ändern. Sie werden am Abend mit der KI darüber sprechen.	400
 title	Explosives for sale	Sprengstoff zum Verkauf	35
 text	To our relief, the place does not have any obvious connections to sentient slavery. We don't find anything useful for our ship, except a bulk offer of explosives.	Zu unserer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu sentienter Sklaverei. Wir finden nichts Nützliches für unser Schiff, außer einem Großangebot an Sprengstoff.	400
@@ -5965,7 +5965,7 @@ text	attempting escape... %	Fluchtversuch... %	50
 text	fighting to death... %	kämpfen sich zu Tode... %	50
 text	distracting with organics... %	mit organischen Stoffen ablenken... %	50
 title	Space eel intervention	Weltraum-Aal-Intervention	35
-text2	Only a few warp animals take interest in the blob of organics we release, as others keep chasing and shooting at us. We receive heavy damage, until we observe a group of space eels flying by in the distance. Their beautiful telepathic song calms the predators, and they finally give up the hunt. We are left alone to lick our wounds.	Nur ein paar Warptiere interessieren sich für den Klecks Organik, den wir freilassen, während andere uns weiter verfolgen und auf uns schießen. Wir erleiden schweren Schaden, bis wir in der Ferne eine Gruppe von Weltraumaalen vorbeifliegen sehen. Ihr wunderschöner telepathischer Gesang beruhigt die Raubtiere, und sie geben schließlich die Jagd auf. Wir werden allein gelassen, um unsere Wunden zu lecken.	400
+text2	Only a few warp animals take interest in the blob of organics we release, as others keep chasing and shooting at us. We receive heavy damage, until we observe a group of space eels flying by in the distance. Their beautiful telepathic song calms the predators, and they finally give up the hunt. We are left alone to lick our wounds.	Nur ein paar Warptiere interessieren sich für das Bisschen Organik, den wir freilassen, während andere uns weiter verfolgen und auf uns schießen. Wir erleiden schweren Schaden, bis wir in der Ferne eine Gruppe von Weltraumaalen vorbeifliegen sehen. Ihr wunderschöner telepathischer Gesang beruhigt die Raubtiere, und sie geben schließlich die Jagd auf. Wir werden allein gelassen, um unsere Wunden zu lecken.	400
 title	Warp hunters repelled	Warp-Jäger abgewehrt	35
 text2	While escaping at full speed and dodging warp animal attacks, we hastily print mine casings for explosives and release them behind us. We detonate the mines while the swarm is passing through, killing many. The surviving creatures let out painful telepathic shrieks and shoot a few rays at us, but the chase is over. The creatures head back to their planet.	Während wir mit voller Geschwindigkeit flüchten und den Angriffen der Warptiere ausweichen, drucken wir eilig Minenhülsen als Sprengstoff aus und lassen sie hinter uns los. Wir lassen die Minen detonieren, während der Schwarm durchfliegt, und töten viele. Die überlebenden Kreaturen stoßen schmerzhafte telepathische Schreie aus und schießen ein paar Strahlen auf uns, aber die Verfolgung ist vorbei. Die Kreaturen kehren zu ihrem Planeten zurück.	400
 reasonToDisplay	mines	Minen	30
@@ -6105,7 +6105,7 @@ text2	Our crew and bots eco-harvested fruits, seeds and eggs, leaving the develo
 text	Lush forests cover this planet. Looks like a good spot for harvesting some organics.	Üppige Wälder bedecken diesen Planeten. Sieht nach einem guten Platz für die Ernte von organischen Stoffen aus.	400
 text2	Harvesting operations completed. Most of the local species will probably undergo extinction events due to our activities and we might have caused irreversible damage to the ecosystem as a whole. Others have died so that we may live.	Erntearbeiten abgeschlossen. Die meisten der einheimischen Spezies werden aufgrund unserer Aktivitäten wahrscheinlich aussterben und wir haben dem gesamten Ökosystem möglicherweise irreversible Schäden zugefügt. Andere sind gestorben, damit wir leben können.	400
 text	The ecosystem on this planet seems to be a very young one. The soil does not have much nutrients and supports only moss and a small plants in a couple of patches on the planet. We could harvest some organics from here, but there is no way to do it ecologically.	Das Ökosystem auf diesem Planeten scheint ein sehr junges zu sein. Der Boden hat nicht viele Nährstoffe und unterstützt nur Moos und ein paar kleine Pflanzen in ein paar Flecken auf dem Planeten. Wir könnten einige organische Stoffe von hier ernten, aber es gibt keine Möglichkeit, dies auf ökologische Weise zu tun.	400
-choiceText	Research and harvest organics	Erforschen und ernten Sie Organika	100
+choiceText	Research and harvest organics	Erforschen und ernten Sie Organik	100
 text2	You leave this planet untouched. It's still young and local life needs time, perhaps a few thousands of years, to become a blossoming flower of life.	Sie lassen diesen Planeten unberührt. Er ist noch jung und das lokale Leben braucht Zeit, vielleicht ein paar tausend Jahre, um zu einer blühenden Blume des Lebens zu werden.	400
 text2	During the harvesting operation, a warp worm appeared from underground and attacked our printed harvesting equipment. More of them appeared soon and we decided to leave the planet. Fortunately, they didn't follow.	Während der Ernteaktion tauchte ein Warpwurm aus dem Untergrund auf und griff unsere gedruckte Ernteausrüstung an. Bald tauchten mehr von ihnen auf und wir beschlossen, den Planeten zu verlassen. Glücklicherweise folgten sie uns nicht.	400
 text2	Our crew and bots eco-harvested the fruiting bodies of the mushrooms leaving the developed parent organisms themselves intact. We were able to harvest a significant amount of organics without killing a single creature.	Unsere Crew und die Bots haben die Fruchtkörper der Pilze ökologisch geerntet und die entwickelten Elternorganismen selbst intakt gelassen. Wir konnten eine große Menge an organischen Stoffen ernten, ohne ein einziges Lebewesen zu töten.	400
@@ -6119,9 +6119,9 @@ text2	The spores meld together in the containment chamber and, within days, turn
 reasonToDisplay	fresh crew obtained	Frische Crew erhalten	30
 crewDescriptionOverride	A perfectly normal human who grew from spores given by a giant mushroom.	Ein ganz normaler Mensch, der aus Sporen wuchs, die ein riesiger Pilz gab.	250
 text	As our crew get closer, they feel a mild telepathic connection established with the fungi. Vivid psychedelic images pour into their minds, and they understand this is how the fungi sees the world. Its roots cover almost the entire planet, and it is connected to all beings here. They realize the fungi is hungry. It wants food, and promises something wonderful in return.	Als die Crew näher kommt, spürt sie eine leichte telepathische Verbindung, die mit dem Pilz aufgebaut wird. Lebendige psychedelische Bilder strömen in ihren Geist, und sie verstehen, dass der Pilz die Welt so sieht. Seine Wurzeln bedecken fast den gesamten Planeten, und er ist mit allen Wesen hier verbunden. Sie erkennen, dass der Pilz hungrig ist. Er will Nahrung und verspricht im Gegenzug etwas Wunderbares.	400
-choiceText	Give organics [-80]	Geben Sie Organik [-80]	100
+choiceText	Give organics [-80]	Füttern [-80 Organik]	100
 text	They fungi communicates it is still hungry. It needs a bit more food to blossom.	Der Pilz teilt mit, dass er immer noch hungrig ist. Er braucht noch ein bisschen mehr Nahrung, um zu blühen.	400
-choiceText	Give more organics [-40]	Geben Sie mehr Organische Stoffe [-40]	100
+choiceText	Give more organics [-40]	Mehr füttern [-40 Organik]	100
 text	feeding fungi... %	Pilz füttern... %	50
 text	Finally, after feeding huge amounts of organics to the fungi roots, it communicates a feeling of satisfaction. One of the mushrooms releases large spores, communicating "FRIENDS". On-spot analysis detects the spores carry human DNA."	Nachdem die Pilzwurzeln mit großen Mengen an organischen Stoffen gefüttert wurden, meldet sich der Pilz schließlich mit einem Gefühl der Zufriedenheit. Einer der Pilze setzt große Sporen frei und kommuniziert "FRIENDS". Eine Vor-Ort-Analyse zeigt, dass die Sporen menschliche DNA tragen."	400
 choiceText	Take the spores aboard for incubation & research	Nehmen Sie die Sporen zur Inkubation und Forschung mit an Bord	100
@@ -6130,7 +6130,7 @@ text2	The resin was processed into volatiles, which were further encased and sto
 reasonToDisplay	explosives generated	Sprengstoff erzeugt	30
 text	Thick forests cover this planet. Looks like a good spot for harvesting some organics.	Dichte Wälder bedecken diesen Planeten. Sieht nach einem guten Platz aus, um etwas Organisches zu ernten.	400
 text2	We leave the unique ecosystem of this planet untouched, except for a few small scientific samples.	Wir lassen das einzigartige Ökosystem dieses Planeten unberührt, abgesehen von ein paar kleinen wissenschaftlichen Proben.	400
-text	Most of the local organisms produce a noncarbon resin that prevents turning the local vegetation into readily consumable organics. However, we could process it into explosives on the spot.	Die meisten der lokalen Organismen produzieren ein kohlenstofffreies Harz, das verhindert, dass die lokale Vegetation in leicht konsumierbare Organika umgewandelt wird. Wir könnten es jedoch vor Ort zu Sprengstoff verarbeiten.	400
+text	Most of the local organisms produce a noncarbon resin that prevents turning the local vegetation into readily consumable organics. However, we could process it into explosives on the spot.	Die meisten der lokalen Organismen produzieren ein kohlenstofffreies Harz, das verhindert, dass die lokale Vegetation in leicht konsumierbare Organik umgewandelt wird. Wir könnten es jedoch vor Ort zu Sprengstoff verarbeiten.	400
 choiceText	Research & process the resin [-60 synthethics]	Erforschen & verarbeiten Sie das Harz [-60 Synthethik]	100
 newName3	resinous ecosystem	harzhaltiges Ökosystem	25
 text2	It could have been a processing malfunction, a wetware error, or anomalous properties of the resin. In any case, the resin didn't turn volatile as expected, but became a worthless chewing-gum like substance. At least we generated some research data in the process.	Es könnte eine Verarbeitungsstörung, ein Wetware-Fehler oder anomale Eigenschaften des Harzes gewesen sein. In jedem Fall wurde das Harz nicht wie erwartet flüchtig, sondern zu einer wertlosen kaugummiartigen Substanz. Immerhin haben wir dabei einige Forschungsdaten generiert.	400
@@ -6639,7 +6639,7 @@ text	A small, very advanced ship or entity emerged from stealth mode to scan us.
 SOS shop trader with fuel and organics.prefab
 displayName	Energy Trader	Energie-Händler	25
 Shop.displayName	Independent Energy Trader	Unabhängiger Energiehändler	35
-text	"Are you interested in acquiring starfuel or carbon organics?"	Sind Sie am Erwerb von Sternentreibstoff oder kohlenstoffhaltigen Organika interessiert?	400
+text	"Are you interested in acquiring starfuel or carbon organics?"	Sind Sie am Erwerb von Sternentreibstoff oder kohlenstoffhaltiger Organik interessiert?	400
 choiceText	Let us trade	Lassen Sie uns handeln	100
 choiceText	No thanks [trader leaves]	Nein danke [Händler geht]	100
 title	Approaching tanker	Tanker nähert sich	35
@@ -6703,7 +6703,7 @@ text	A large ship with at least 5 projectile weapons and what looks like nukes i
 
 SOS Smuggler L6 slaver organics trader.prefab
 title	"The Meat Shop" organics smuggler (1 medium ship)"	The Meat Shop Organik-Schmuggler (1 mittleres Schiff)"	35
-text	"I don't have anything else, but would you be interested in some standard carbon organics? Unfortunately, I lost all the ethics certificates for this cargo..." (deeper cargo manifest analysis by our AI suggests the individual is knowingly lying. It seems extremely likely that she's a slaver associate, selling physical remains of their victims."	Ich habe nichts anderes, aber hätten Sie Interesse an ein paar Standard-Kohlenstoff-Organika? Leider habe ich alle Ethik-Zertifikate für diese Ladung verloren... (Eine tiefere Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person wissentlich lügt. Es ist sehr wahrscheinlich, dass es sich um einen Sklavenhändler handelt, der die sterblichen Überreste seiner Opfer verkauft."	400
+text	"I don't have anything else, but would you be interested in some standard carbon organics? Unfortunately, I lost all the ethics certificates for this cargo..." (deeper cargo manifest analysis by our AI suggests the individual is knowingly lying. It seems extremely likely that she's a slaver associate, selling physical remains of their victims."	Ich habe nichts anderes, aber hätten Sie Interesse an ein bisschen Standard-Kohlenstoff-Organik? Leider habe ich alle Ethik-Zertifikate für diese Ladung verloren... (Eine tiefere Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person wissentlich lügt. Es ist sehr wahrscheinlich, dass es sich um einen Sklavenhändler handelt, der die sterblichen Überreste seiner Opfer verkauft."	400
 choiceText	Buy [get 150 organics for 3 exotics]	Kaufen [150 Organische Stoffe für 3 exotische Stoffe]	100
 choiceText	Barter [get 100 organics for 2 exotics]	Tauschhandel [100 Organische Stoffe für 2 exotische Stoffe]	100
 text2	Organics received, no incidents.	Organics erhalten, keine Vorkommnisse.	400
@@ -7417,7 +7417,7 @@ text	"Would you be interested in some scrap metal? Unfortunately, I lost all the
 text	A large militarized ship is approaching, and two civilian ships following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	Ein großes militarisiertes Schiff nähert sich, und zwei zivile Schiffe folgen in der Ferne. Das große scheint mit mehreren Projektilwaffen und Atomwaffen bewaffnet zu sein.	600
 
 Smuggler L6 slaver organics trader.prefab
-text	"Hey, there! Would you be interested in some standard carbon organics? Unfortunately, I lost all the ethics certificates for this cargo..." (deeper cargo manifest analysis by our AI suggests the individual is knowingly lying. It seems extremely likely that she's a slaver associate, selling physical remains of their victims."	Hey, ihr da! Hätten Sie Interesse an ein paar Standard-Kohlenstofforganika? Leider habe ich alle Ethik-Zertifikate für diese Ladung verloren... (Eine genauere Analyse des Ladungsverzeichnisses durch unsere KI deutet darauf hin, dass die Person wissentlich lügt. Es ist sehr wahrscheinlich, dass sie ein Sklavenhändler ist, der die Überreste seiner Opfer verkauft."	400
+text	"Hey, there! Would you be interested in some standard carbon organics? Unfortunately, I lost all the ethics certificates for this cargo..." (deeper cargo manifest analysis by our AI suggests the individual is knowingly lying. It seems extremely likely that she's a slaver associate, selling physical remains of their victims."	Hey, ihr da! Hätten Sie Interesse an ein bisschen Standard-Kohlenstoff-Organik? Leider habe ich alle Ethik-Zertifikate für diese Ladung verloren... (Eine genauere Analyse des Ladungsverzeichnisses durch unsere KI deutet darauf hin, dass die Person wissentlich lügt. Es ist sehr wahrscheinlich, dass sie ein Sklavenhändler ist, der die Überreste seiner Opfer verkauft."	400
 text	Three militarized ships approaching. Two are smaller, but the largest one is armed with numerous projectile weapons and nukes.	Drei militarisierte Schiffe nähern sich. Zwei sind kleiner, aber das größte ist mit zahlreichen Projektilwaffen und Atomsprengköpfen bewaffnet.	600
 
 tester ambuser.prefab
@@ -8489,7 +8489,7 @@ description	Increases storage capacity of organics, metals & exotics.	Erhöht di
 
 multicontainer OMS biotech.prefab
 displayName	Multi-container OMS	Multi-Behälter OMS	40
-description	Increases storage capacity of organics, metals & synthetics.	Erhöht die Lagerkapazität von Organika, Metallen und Kunststoffen.	200
+description	Increases storage capacity of organics, metals & synthetics.	Erhöht die Lagerkapazität von Organik, Metallen und Kunststoffen.	200
 
 organics container 0 diy.prefab
 displayName	Organics container (DIY)	Organik-Behälter (DIY)	40
@@ -10506,7 +10506,7 @@ Perk module DIY garden.prefab
 displayName	DIY garden	DIY-Garten	40
 description	A self-made garden module. Gardens remove operator food consumption and generate extra organics during ship movement.\nWe may craft more of these any time during the journey (like any other craftable DIY modules) if we have the resources.	Ein selbstgebautes Gartenmodul. Gärten entfernen den Nahrungsverbrauch des Operators und erzeugen zusätzliche organische Stoffe während der Schiffsbewegung.\nWir können jederzeit während der Reise mehr davon herstellen (wie alle anderen herstellbaren DIY-Module), wenn wir die Ressourcen haben.	250
 randomizerMenuStrings[i]	+1 garden module	+1 Garten Modul	30
-randomizerMenuStrings[i]	-30 organics	-30 Organika	30
+randomizerMenuStrings[i]	-30 organics	-30 Organik	30
 
 Perk module DIY integrity 2.prefab
 displayName	DIY integrity scales	DIY-Integritätswaage	40
@@ -10620,7 +10620,7 @@ description	Send crew into installed medbay to heal injuries.\nDespite our abili
 
 Perk module minigrowery.prefab
 description	A small accelerated growth garden module. Gardens remove operator food consumption and generate additional organics during ship movement. This growery can be used to by two operators.	Ein kleines Gartenmodul mit beschleunigtem Wachstum. Gärten entfernen den Nahrungsverbrauch des Operators und erzeugen zusätzliche organische Stoffe während der Schiffsbewegung. Diese Gärtnerei kann von zwei Operatoren genutzt werden.	250
-randomizerMenuStrings[i]	-40 organics	-40 Organika	30
+randomizerMenuStrings[i]	-40 organics	-40 Organik	30
 
 Perk module oilcake organics converter.prefab
 displayName	The oilcake converter	Der Ölkuchen-Konverter	40
@@ -12222,7 +12222,7 @@ Tips pool.prefab
 	You can change the game UI color in game options - try it!	Sie können die Farbe der Spiel-Oberfläche in den Spieloptionen ändern - probieren Sie es aus!	0
 	Check out the "?" button in lower right corner to see a list of illustrated help topics."	Über die "?"-Schaltfläche in der unteren rechten Ecke finden Sie eine Liste mit illustrierten Hilfethemen."	0
 	Eco-harvesting operations usually do not collect more organics than your ship can carry.	Bei der Ökoernte werden normalerweise nicht mehr organische Stoffe gesammelt, als Ihr Schiff transportieren kann.	0
-	When you get excess organics or synthethics and have a fuel convertor, convert these resources into fuel instead of dumping them.	Wenn Sie überschüssige Organika oder Synthethika erhalten und einen Treibstoffkonverter haben, wandeln Sie diese Ressourcen in Treibstoff um, anstatt sie wegzuwerfen.	0
+	When you get excess organics or synthethics and have a fuel convertor, convert these resources into fuel instead of dumping them.	Wenn Sie überschüssige Organik oder Synthethika erhalten und einen Treibstoffkonverter haben, wandeln Sie diese Ressourcen in Treibstoff um, anstatt sie wegzuwerfen.	0
 	Selecting crew is a lot easier if you drag a selection box around the crew instead of clicking.	Die Auswahl der Besatzung ist viel einfacher, wenn Sie ein Auswahlfeld um die Besatzung herum ziehen, anstatt zu klicken.	0
 	You can reposition module info window at any time by holding & dragging it on the game screen.	Sie können das Modulinformationsfenster jederzeit neu positionieren, indem Sie es auf dem Spielbildschirm halten und ziehen.	0
 	If the game is too hard, change your tactics.	Wenn das Spiel zu schwer ist, ändern Sie Ihre Taktik.	0
