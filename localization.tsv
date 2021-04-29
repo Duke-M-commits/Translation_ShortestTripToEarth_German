@@ -603,7 +603,7 @@ choiceTexts	Close	Schließen	15
 altText	You are running low on fuel. Would you like to see how you can get more?	Ihr Treibstoffvorrat geht zur Neige. Möchten Sie sehen, wie Sie mehr bekommen können?	240
 altText	The ship has very low HP left! Consider <color=red>repairing</color> damage tokens on my hull or <color=red>escaping</color> by using the warpdrive! If you have any <color=red>nukes</color>, consider using them.	Das Schiff hat nur noch sehr wenig HP! Ziehen Sie in Erwägung, <color=red>Schadensmarken an der Hülle zu reparieren oder <color=red>zu entkommen</color>, indem Sie den Warpantrieb benutzen! Wenn Sie <color=red>Nukes</color> haben, ziehen Sie deren Einsatz in Betracht.	240
 choiceTexts	OK, will consider it!	OK, ich werde es in Betracht ziehen!	15
-altText	We've run out resources for repairing. Repairing requires metal or synthethics. Want to see my database entry about ship hull repairing?	Wir haben keine Ressourcen mehr zum Reparieren. Zum Reparieren braucht man Metalle oder Synthethika. Willst du meinen Datenbankeintrag über die Reparatur von Schiffsrümpfen sehen?	240
+altText	We've run out resources for repairing. Repairing requires metal or synthethics. Want to see my database entry about ship hull repairing?	Wir haben keine Ressourcen mehr zum Reparieren. Zum Reparieren braucht man Metalle oder Kunststoffe. Willst du meinen Datenbankeintrag über die Reparatur von Schiffsrümpfen sehen?	240
 altText	Modules received from perks are currently inside storage. Open storage panel?	Module, die Sie von Startboni erhalten haben, befinden sich derzeit im Lager. Offenes Lagerfeld?	240
 altText	We're out of fuel. If we cannot use the SOS, we should consider scrapping modules with fuel value, such as nukes or reactors. SOS signal is jammed (unusable) during battles.	Wir haben keinen Treibstoff mehr. Wenn wir das SOS nicht nutzen können, sollten wir in Betracht ziehen, Module mit Treibstoffwert zu verschrotten, wie z.B. Atombomben oder Reaktoren. Das SOS-Signal wird während der Kämpfe gestört (unbrauchbar).	240
 altText	We're out of organics. Hungry crew will get a penalty to all stats and will eventually\r start slowly losing hitpoints. Crew in cryosleep requires no resources.	Wir haben keine organischen Stoffe mehr. Eine hungrige Crew erhält einen Malus auf alle Werte und beginnt eventuell langsam Hitpoints zu verlieren. Crew im Kryoschlaf benötigt keine Ressourcen.	240
@@ -771,7 +771,7 @@ For crewmember that eats organic materials (like humans and other animals)	Organ
 For crewmember that eats fuel	Fuel consumption per 100 range unit moved	Treibstoffverbrauch pro 100 bewegte Reichweiteneinheiten	0
 For crewmember that eats explosives	Explosives consumption per 100 range unit moved	Sprengstoffverbrauch pro 100 bewegte Reichweiteneinheiten	0
 For crewmember that eats exotic materials	Exotics consuption per 100 range unit moved	Exotik-Verbrauch pro 100 bewegte Reichweiteneinheiten	0
-For crewmember that eats synhtetic materials	Synthetics consumption per 100 range unit moved	Synthetik-Verbrauch pro 100 bewegte Reichweiteneinheiten	0
+For crewmember that eats synhtetic materials	Synthetics consumption per 100 range unit moved	Kunststoffe-Verbrauch pro 100 bewegte Reichweiteneinheiten	0
 For crewmember that eats metals	Metals consumption per 100 range unit moved	Verbrauch von Metallen pro 100 bewegte Reichweiteneinheiten	0
 For crewmember that eats data-credits	Credits consumption per 100 range unit moved	Verbrauch von Credits pro 100 bewegte Reichweiteneinheiten	0
 Crewmembers movement speed	Movement speed	Bewegungsgeschwindigkeit	0
@@ -995,7 +995,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Deflection: chance to completely negate incoming shots by deflecting them. Works both against projectile & ray weapons.	Ablenkung: Chance, eingehende Schüsse durch Ablenkung komplett zu negieren. Funktioniert sowohl gegen Projektil- als auch gegen Strahlenwaffen.	0
 	Evasion: increases the total size of shot landing area of all attack weapons, making it harder to aim individual modules or hit the target ship.	Evasion: vergrößert den gesamten Schussbereich aller Angriffswaffen, wodurch es schwieriger wird, einzelne Module zu treffen oder das Zielschiff zu treffen.	0
 	Ship and module repairs are essential for survival. \nHaving many repair officers during battle can make a difference \nbetween life and death, because repairing takes a fair bit of time.\nShip damage tokens cannot be currently repaired by multiple crew simultaneously.	Schiffs- und Modulreparaturen sind überlebenswichtig. \nWenn Sie während eines Kampfes viele Reparateure haben, kann das den Unterschied zwischen Leben und Tod ausmachen, da die Reparaturen ziemlich viel Zeit in Anspruch nehmen.\nSchiffsschadensplättchen können derzeit nicht von mehreren Besatzungen gleichzeitig repariert werden.	0
-	Repairing ship or modules takes metal & synthetics. Make sure your resources are ready for emergency repairs, and be ready to scrap modules if you need more metal or synthethics.	Die Reparatur von Schiffen oder Modulen erfordert Metalle und Kunststoffe. Stellen Sie sicher, dass Ihre Ressourcen für Notreparaturen bereitstehen, und seien Sie bereit, Module zu verschrotten, wenn Sie mehr Metalle oder Synthetik benötigen.	0
+	Repairing ship or modules takes metal & synthetics. Make sure your resources are ready for emergency repairs, and be ready to scrap modules if you need more metal or synthethics.	Die Reparatur von Schiffen oder Modulen erfordert Metalle und Kunststoffe. Stellen Sie sicher, dass Ihre Ressourcen für Notreparaturen bereitstehen, und seien Sie bereit, Module zu verschrotten, wenn Sie mehr Metalle oder Kunststoffe benötigen.	0
 	Have capital missiles ready in launch tubes in case you need to use them fast.	Halten Sie Raketen in Abschussrohren bereit, falls Sie sie schnell einsetzen müssen.	0
 	When feeling overwhelmed by enemies, consider escaping. Send a crew member to operate the warpdrive to reduce the time it needs to charge up and warp your ship away from combat.	Wenn Sie sich von Feinden überwältigt fühlen, sollten Sie eine Flucht in Betracht ziehen. Schicken Sie ein Besatzungsmitglied, um den Warpantrieb zu bedienen, um die Zeit zu verkürzen, die er zum Aufladen braucht, und Ihr Schiff aus dem Kampf zu warpen.	0
 	How to survive battles	Wie Sie Kämpfe überleben	0
@@ -1052,7 +1052,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	5.\nFight hostile fleets to gain fuel as loot.	5.\nFeindliche Flotten bekämpfen, um Treibstoff als Beute zu erhalten.	0
 	6.\nActivate the SOS signal and hope for a trade ship that sells fuel.	6.\nAktivieren Sie das SOS-Signal und hoffen Sie auf ein Handelsschiff, das Treibstoff verkauft.	0
 	Metals are the most common resource, and used mostly for repairing ship hull.\n\nMetals are also used when building planetary structures, such as mining or harvesting equipment.	Metalle sind die häufigste Ressource und werden hauptsächlich für die Reparatur von Schiffsrümpfen verwendet.\n\nMetalle werden auch beim Bau von planetaren Strukturen verwendet, z. B. für Bergbau- oder Erntegeräte.	0
-	Synthethics is a general category for all kinds of ceramics, composite alloys, plastics and valuable artificial substances, including recreational consumables.\n\nSynthetics are mostly used for repairing modules. \nRepairing 1 module hitpoint costs 10 synthetics.\n\nSynthetics are also used when building temporary structures, such as planetary harvesting technology or utility bots.	Synthetik ist eine allgemeine Kategorie für alle Arten von Keramiken, Verbundlegierungen, Kunststoffen und wertvollen künstlichen Stoffen, einschließlich Verbrauchsmaterialien für die Freizeitgestaltung.\n\nSynthetik wird meist für die Reparatur von Modulen verwendet. \nDie Reparatur von 1 Modul-Trefferpunkt kostet 10 Synthetics.\n\nSynthetics werden auch beim Bau von temporären Strukturen verwendet, wie z. B. planetare Erntetechnik oder Versorgungsbots.	0
+	Synthethics is a general category for all kinds of ceramics, composite alloys, plastics and valuable artificial substances, including recreational consumables.\n\nSynthetics are mostly used for repairing modules. \nRepairing 1 module hitpoint costs 10 synthetics.\n\nSynthetics are also used when building temporary structures, such as planetary harvesting technology or utility bots.	Kunststoffe ist eine allgemeine Kategorie für alle Arten von Keramiken, Verbundlegierungen, Synthetik und wertvollen künstlichen Stoffen, einschließlich Verbrauchsmaterialien für die Freizeitgestaltung.\n\nKunststoff wird meist für die Reparatur von Modulen verwendet. \nDie Reparatur von 1 Modul-Trefferpunkt kostet 10 Kunststoffe.\n\nKunststoffe werden auch beim Bau von temporären Strukturen verwendet, wie z. B. planetare Erntetechnik oder Versorgungsbots.	0
 	Explosives are used as ammo for most projectile and missile weapons.\n\nThe Mothership AI also uses explosives automatically to print mines, cheap missiles and bombs during conflict events that happen off-screen.	Sprengstoffe werden als Munition für die meisten Projektil- und Raketenwaffen verwendet.\n\nDie KI des Mutterschiffs verwendet Sprengstoffe auch automatisch, um Minen, billige Raketen und Bomben während Konfliktereignissen zu drucken, die außerhalb des Bildschirms stattfinden.	0
 	Exotics are most useful for crafting and bartering, functioning as critical module components or as an alternative currency to xenodata credits.\n\nAll exotic substances are rare elements that seem to slightly defy the laws of known physics.\nThey are mostly found in warp animal remains and often used as recreational consumables.	Exoten sind am nützlichsten für die Modul Herstellung und den Tauschhandel, fungieren als kritische Modulkomponenten oder als alternative Währung zu Xenodaten-Credits.\n\nAlle exotischen Substanzen sind seltene Elemente, die den Gesetzen der bekannten Physik ein wenig zu trotzen scheinen.\nSie werden meist in den Überresten von Warptieren gefunden und oft als Freizeit-Verbrauchsmaterial verwendet.	0
 	Xenodata credits, usually called just xenodata or creds, is the most respected form of intergalactic currency.\n\nIt uses a semi-intelligent digital algorithm to convert any data with knowledge value into a universally priced form.	Xenodaten-Credits, meist nur Xenodaten oder Creds genannt, ist die angesehenste Form der intergalaktischen Währung.\n\nSie nutzt einen halbintelligenten digitalen Algorithmus, um beliebige Daten mit Wissenswert in eine universell bewertbare Form umzuwandeln.	0
@@ -1083,26 +1083,26 @@ While loading game	LOADING...	GELADEN...	0
 Materials converter panel.prefab
 	Materials converters	Materialkonverter	0
 	Built in fuel converter	Eingebauter Treibstoffkonverter	0
-	Amount of organics left	Verbleibende Menge an organischen Stoffen	0
-	Amount of organics used for conversion	Menge der für die Umwandlung verbrauchten organischen Stoffe	0
-	Amount of organics consumed per 1 conversion	Menge der verbrauchten organischen Stoffe pro 1 Umwandlung	0
-	Amount of fuel produced per 1 conversion	Menge des erzeugten Kraftstoffs pro 1 Umwandlung	0
+	Amount of organics left	Verbleibende Menge an Organik	0
+	Amount of organics used for conversion	Menge der für die Umwandlung verwendeten Organik	0
+	Amount of organics consumed per 1 conversion	Menge der verbrauchten Organik pro Umwandlung	0
+	Amount of fuel produced per 1 conversion	Menge des erzeugten Treibstoffs pro Umwandlung	0
 	Amount of synthetics left	Verbleibende Menge an Kunststoffen	0
 	Amount of synthetics used for conversion	Menge der für die Umwandlung verwendeten Kunststoffe	0
-	Amount of synthetics consumed per 1 conversion	Menge der verbrauchten Kunststoffe pro 1 Konvertierung	0
-	Amount of explosives left	Verbleibende Menge an Sprengstoff	0
-	Amount of explosives used for conversion	Menge des für die Konvertierung verwendeten Sprengstoffs	0
-	Amount of explosives consumed per 1 conversion	Menge an verbrauchtem Sprengstoff pro 1 Konvertierung	0
+	Amount of synthetics consumed per 1 conversion	Menge der verbrauchten Kunststoffe pro Umwandlung	0
+	Amount of explosives left	Verbleibende Menge an Sprengstoffen	0
+	Amount of explosives used for conversion	Menge der für die Umwandlung verwendeten Sprengstoffe	0
+	Amount of explosives consumed per 1 conversion	Menge der verbrauchtem Sprengstoffen pro Umwandlung	0
 	Amount of exotics left	Menge der verbliebenen Exoten	0
-	Amount of exotics used for conversion	Menge der für die Konvertierung verwendeten Exoten	0
-	Amount of exotics consumed per 1 conversion	Menge der verbrauchten Exoten pro 1 Konvertierung	0
+	Amount of exotics used for conversion	Menge der für die Umwandlung verwendeten Exoten	0
+	Amount of exotics consumed per 1 conversion	Menge der verbrauchten Exoten pro Umwandlung	0
 	Allocate all excess	Alle Überschüsse zuteilen	0
 	Convert	Umwandeln	0
 	Amount of fuel recieved after conversion	Menge des nach der Konvertierung erhaltenen Treibstoffs	0
 	Cargo capacity full!	Frachtkapazität voll!	0
 	Materials convertor name	Name des Materialumwandlers	0
 	Amount of fuel needed to convert 1 unit	Benötigte Treibstoffmenge für die Umwandlung von 1 Einheit	0
-	Amount of organics needed to convert 1 unit	Benötigte Menge an organischen Stoffen für die Umwandlung von 1 Einheit	0
+	Amount of organics needed to convert 1 unit	Benötigte Menge an Organik für die Umwandlung von 1 Einheit	0
 	Amount of synthetics needed to convert 1 unit	Benötigte Menge an synthetischen Stoffen für die Umwandlung von 1 Einheit	0
 	Amount of explosives needed to convert 1 unit	Benötigte Menge an Sprengstoff für die Umwandlung von 1 Einheit	0
 	Amount of exotics needed to convert 1 unit	Menge an exotischen Stoffen, die für die Umwandlung von 1 Einheit benötigt wird	0
@@ -1387,8 +1387,8 @@ Button in main menu, sets game difficulty	?	?	0
 	Not enough fuel to start game!	Nicht genug Treibstoff, um das Spiel zu starten!	0
 	Metals, used for repairing ship HP	Metalle, werden für die Reparatur von Schiffs-HP verwendet	0
 	Not enough metals to start game!	Nicht genug Metalle, um das Spiel zu starten!	0
-	Synthetics, used in repairing modules	Synthetik, wird für die Reparatur von Modulen verwendet	0
-	Not enough synthetics to start game!	Nicht genug Synthetik für den Spielstart!	0
+	Synthetics, used in repairing modules	Kunststoffe, werden für die Reparatur von Modulen verwendet	0
+	Not enough synthetics to start game!	Nicht genug Kunststoffe für den Spielstart!	0
 	Not enough explosives to start game!	Nicht genug Sprengstoff, um das Spiel zu starten!	0
 	Exotics, rare minerals used in crafting modules or as alternative currency to xenodata	Exotics, seltene Mineralien, die in der Modul Herstellung oder als alternative Währung zu Xenodaten verwendet werden	0
 	Not enough exotics to start game!	Nicht genug Exoten, um das Spiel zu starten!	0
@@ -1512,33 +1512,33 @@ module requirements	REQUIREMENTS	VORAUSSETZUNGEN	0
 	This module requires drones. No skill required	Für dieses Modul sind Drohnen erforderlich. Keine Fertigkeit erforderlich	0
 	This module requires pets or crew. No skill required	Für dieses Modul sind Haustiere oder eine Crew erforderlich. Keine Fertigkeit erforderlich	0
 	Power consumed if active/operated	Energieverbrauch, wenn aktiv/betrieben	0
-	Fuel consumed per volley	Treibstoffverbrauch pro Salve	0
-	Organics consumed per volley	Organischer Verbrauch pro Salve	0
-	Explosives consumed per volley	Pro Salve verbrauchter Sprengstoff	0
-	Exotics consumed per volley	Exotik pro Salve	0
-	Synthetics consumed per volley	Pro Salve verbrauchte Synthetik	0
-	Metals consumed per volley	Pro Salve verbrauchte Metalle	0
-	Organics consumed per 1 hp regenerated	Organik wird pro 1 regenerierte HP verbraucht	0
-	Synthetics consumed per 1 hp regenerated	Synthetik, verbraucht pro 1 HP regeneriert	0
-	Fuel consumed per 100 range unit travelled	Treibstoffverbrauch pro 100 zurückgelegte Reichweiteneinheiten	0
-	Organics consumed per 100 range unit travelled	Verbrauch von organischen Stoffen pro 100 zurückgelegte Reichweiteneinheiten	0
-	Explosives consumed per 100 range unit travelled	Explosivstoffe pro 100 zurückgelegte Entfernungseinheiten	0
-	Exotics consumed per 100 range unit travelled	Exotik pro 100 zurückgelegte Einheiten Reichweite	0
-	Synthetics consumed per 100 range unit travelled	Synthetik pro 100 zurückgelegter Reichweiteneinheit	0
-	Metals consumed per 100 range unit travelled	Verbrauch von Metallen pro 100 Einheiten Reichweite	0
+	Fuel consumed per volley	Verbrauchter Treibstoff pro Salve	0
+	Organics consumed per volley	Verbrauchte Organik pro Salve	0
+	Explosives consumed per volley	Verbrauchte Sprengstoffe pro Salve	0
+	Exotics consumed per volley	Verbrauchte Exoten pro Salve	0
+	Synthetics consumed per volley	Verbrauchte Kunststoffe pro Salve 	0
+	Metals consumed per volley	Verbrauchte Metalle pro Salve 	0
+	Organics consumed per 1 hp regenerated	Organik verbraucht pro 1 HP regeneriert	0
+	Synthetics consumed per 1 hp regenerated	Kunststoffe verbraucht pro 1 HP regeneriert	0
+	Fuel consumed per 100 range unit travelled	Verbrauch von Treibstoff pro 100 zurückgelegte Reichweiteneinheiten	0
+	Organics consumed per 100 range unit travelled	Verbrauch von Organik pro 100 zurückgelegte Reichweiteneinheiten	0
+	Explosives consumed per 100 range unit travelled	Verbrauch von Sprengstoffen pro 100 zurückgelegte Reichweiteneinheiten	0
+	Exotics consumed per 100 range unit travelled	Verbrauch von Exoten pro 100 zurückgelegte Reichweiteneinheiten	0
+	Synthetics consumed per 100 range unit travelled	Verbrauch von Kunststoffen pro 100 zurückgelegte Reichweiteneinheiten	0
+	Metals consumed per 100 range unit travelled	Verbrauch von Metallen pro 100 zurückgelegte Reichweiteneinheiten	0
 	Credits consumed per 100 range unit travelled	Verbrauchtes Guthaben pro 100 zurückgelegte Reichweiteneinheiten	0
 Module effects/stats	EFFECTS	EFFEKTE	0
 	Ship evasion bonus (enemy shots deviate more often)	Ausweichbonus des Schiffs (gegnerische Schüsse weichen häufiger aus)	0
 	Damage area radius	Radius des Schadensbereichs	0
 	Organics produced per minute	Produzierte Organik pro Minute	0
-	Synthetics produced per minute	Pro Minute produzierte Synthetik	0
-	Fuel produced per minute	Pro Minute produzierter Treibstoff	0
+	Synthetics produced per minute	Produzierte Kunststoffe pro Minute	0
+	Fuel produced per minute	Produzierter Treibstoff pro Minute	0
 	Number of cryosleep tubes	Anzahl der Kryoschlaf-Röhren	0
 	Crew in cryosleep has a small chance to recover hitpoints while the ship is travelling around in space.	Die Besatzung im Kryoschlaf hat eine kleine Chance, Hitpoints wiederherzustellen, während das Schiff im Raum unterwegs ist.	0
 	chance to heal	Chance auf Heilung	23
 	Crew in cryosleep has a small chance to generate credits while the ship is travelling around in space.	Die Besatzung im Kryoschlaf hat eine kleine Chance, Credits zu generieren, während das Schiff im Weltraum unterwegs ist.	0
 	may generate credits	kann Credits generieren	35
-	Time needed to regenerate 1 hp	Zeit, die benötigt wird, um 1 hp zu regenerieren	0
+	Time needed to regenerate 1 hp	Zeit, die benötigt wird, um 1 HP zu regenerieren	0
 	Number of crew that can be healed simultaneously	Anzahl der Crew, die gleichzeitig geheilt werden kann	0
 	Power produced	Erzeugte Energie	0
 	Metals produced per minute	Produzierte Metalle pro Minute	0
@@ -1573,14 +1573,14 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Sector radar range.\nShip will use max value if multiple sensors are present	Sektor-Radar-Reichweite: Das Schiff verwendet den maximalen Wert, wenn mehrere Sensoren vorhanden sind.	0
 	Max shield point capacity	Maximale Schildpunktkapazität	0
 	Stealth detection level\nShip will use max value	Tarnkappen-Erkennungsstufe\nSchiff verwendet den Maximalwert	0
-	Organics consumed per minute	Verbrauch an organischen Stoffen pro Minute	0
-	Fuel consumed per minute	Treibstoffverbrauch pro Minute	0
+	Organics consumed per minute	Verbrauch von Organik pro Minute	0
+	Fuel consumed per minute	Verbrauch von Treibstoff pro Minute	0
 	Metals consumed per minute	Verbrauch von Metallen pro Minute	0
-	Synthetics consumed per minute	Synthetikverbrauch pro Minute	0
-	Explosives consumed per minute	Sprengstoffverbrauch pro Minute	0
-	Exotics consumption per minute	Exotikverbrauch pro Minute	0
-	Current organics production per 100ru travelled.	Aktuelle Produktion von organischen Stoffen pro 100re.	0
-	Current synthetics production per 100ru travelled.	Aktuelle Synthetik-Produktion pro 100 Reisetage.	0
+	Synthetics consumed per minute	Verbrauch von Kunststoffen pro Minute	0
+	Explosives consumed per minute	Verbrauch von Sprengstoffen pro Minute	0
+	Exotics consumption per minute	Verbrauch von Exoten pro Minute	0
+	Current organics production per 100ru travelled.	Aktuelle Produktion von Organik pro 100re.	0
+	Current synthetics production per 100ru travelled.	Aktuelle Produktion von Kunststoffen pro 100re.	0
 	Current credits production per 100ru travelled.	Aktuelle Credit-Produktion pro 100re gereist.	0
 	1 research skill point gives 1 credit per 100ru.\n(if multiple operators work in research lab, their skill points are added together)	1 Forschungs-Fertigkeitspunkt ergibt 1 Credit pro 100re. (Wenn mehrere Operatoren im Forschungslabor arbeiten, werden ihre Fertigkeitspunkte addiert)	0
 	Crew resource consumption is removed when it operates/uses this module.	Der Ressourcenverbrauch der Crew wird entfernt, wenn sie dieses Modul bedient/verwendet.	0
@@ -1589,14 +1589,14 @@ Module effects/stats	EFFECTS	EFFEKTE	0
 	Maximun number of items this storage can hold	Maximale Anzahl von Gegenständen, die dieses Lager aufnehmen kann	0
 	Works from anywhere, even if not installed	Funktioniert von überall, auch wenn es nicht installiert ist	0
 	Metals gained if scrapped	Gewonnene Metalle bei Verschrottung	0
-	Fuel gained if scrapped	Gewonnener Treibstoff, wenn verschrottet	0
+	Fuel gained if scrapped	Gewonnener Treibstoff bei Verschrottung	0
 	Organics gained if scrapped	Gewonnene Organik bei Verschrottung	0
-	Synthethics gained if scrapped	Gewonnene Synthese, wenn verschrottet	0
-	Synthetics gained if scrapped	Synthetik gewonnen, wenn verschrottet	0
-	Explosives gained if scrapped	Explosivstoffe gewonnen, falls verschrottet	0
-	Exotics gained if scrapped	Exotik gewonnen, falls verschrottet	0
-	Xenodata gained if scrapped	Xenodaten gewonnen, falls verschrottet	0
-	XenoData gained if scrapped.	XenoData gewonnen, falls verschrottet.	0
+	Synthethics gained if scrapped	Gewonnene Kunststoffe bei Verschrottung	0
+	Synthetics gained if scrapped	Gewonnene Kunststoffe bei Verschrottung	0
+	Explosives gained if scrapped	Gewonnene Sprengstoffe bei Verschrottung	0
+	Exotics gained if scrapped	Gewonnene Exoten bei Verschrottung	0
+	Xenodata gained if scrapped	Gewonnene Xenodaten bei Verschrottung	0
+	XenoData gained if scrapped.	Gewonnene XenoData bei Verschrottung.	0
 
 ModuleSlot actions panel.prefab
 	Module slot	Modul-Steckplatz	0
@@ -1694,20 +1694,20 @@ Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU\nWEIT	10
 	No exotics.\nAs an alternative currency,\nexotics are great for bribing stronger hostile forces.	Keine Exotika.\nAls alternative Währung eignen sich Exotika hervorragend, um stärkere feindliche Kräfte zu bestechen.	0
 	Enemy ship is warming up its warpdrive.	Feindliches Schiff startet seinen Warpantrieb.	0
 	Enemy ship is self destructing.	Feindliches Schiff löst die Selbstzerstörung aus.	0
-	Fuel containers are almost full.	Die Treibstoffbehälter sind fast voll.	0
+	Fuel containers are almost full.	Treibstoff-Behälter sind fast voll.	0
 Maximum letters on one row: 10, possible 2 rows	ALMOST\nFULL	FAST\nVOLL	10
-	Synthetics containers are almost full.	Synthetik-Container sind fast voll.	0
-	Organics containers are almost full.	Organik-Container sind fast voll.	0
-	Metals containers are almost full.	Metalle-Container sind fast voll.	0
-	Explosives containers are almost full.	Sprengstoff-Container sind fast voll.	0
-	Exotics containers are almost full.	Exotik-Container sind fast voll.	0
-	Fuel containers full. Consider getting more container space.	Brennstoff-Container sind voll. Erwägen Sie, mehr Containerplatz zu bekommen.	0
+	Synthetics containers are almost full.	Kunststoffe-Behälter sind fast voll.	0
+	Organics containers are almost full.	Organik-Behälter sind fast voll.	0
+	Metals containers are almost full.	Metalle-Behälter sind fast voll.	0
+	Explosives containers are almost full.	Sprengstoffe-Behälter sind fast voll.	0
+	Exotics containers are almost full.	Exoten-Behälter sind fast voll.	0
+	Fuel containers full. Consider getting more container space.	Treibstoff-Behälter sind voll. Erwägen Sie, mehr Behälterplatz zu schaffen.	0
 	FULL	VOLL	6
-	Synthetics containers full. Consider getting more container space.	Synthetik-Container voll. Erwägen Sie, mehr Containerplatz zu bekommen.	0
-	Organics containers full. Consider getting more container space.	Organik-Container voll. Erwägen Sie, mehr Containerplatz zu bekommen.	0
-	Metals containers full. Consider getting more container space.	Metalle-Container voll. Erwägen Sie, mehr Containerplatz zu bekommen.	0
-	Explosives containers full. Consider getting more container space.	Explosivstoff-Container voll. Erwägen Sie, mehr Containerplatz zu bekommen.	0
-	Exotics containers full. Consider getting more container space.	Exotik-Container voll. Erwägen Sie, mehr Platz in den Containern zu schaffen.	0
+	Synthetics containers full. Consider getting more container space.	Kunststoffe-Behälter voll. Erwägen Sie, mehr Behälterplatz zu schaffen.	0
+	Organics containers full. Consider getting more container space.	Organik-Behälter voll. Erwägen Sie, mehr Behälterplatz zu schaffen.	0
+	Metals containers full. Consider getting more container space.	Metalle-Behälter voll. Erwägen Sie, mehr Behälterplatz zu schaffen.	0
+	Explosives containers full. Consider getting more container space.	Sprengstoffe-Behälter voll. Erwägen Sie, mehr Behälterplatz zu schaffen.	0
+	Exotics containers full. Consider getting more container space.	Exoten-Behälter voll. Erwägen Sie, mehr Behälterplatz zu schaffen.	0
 	Sensor range is reduced in clouds.	Die Sensorreichweite ist im Nebel reduziert.	0
 Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIERT	10
 	BEAM\nACTIVATION	STRAHL-\nAKTIVIERUNG	10
@@ -1816,7 +1816,7 @@ Refers to shop	Store	Händler	0
 	EXPLOSIVES	SPRENGSTOFFE	0
 	Average price when sold by stations: 50 credits.\nExotics are an alternative currency to xenodata. Most automated trader stations accept exotics even if they don't buy any other resources.	Durchschnittlicher Preis beim Verkauf durch Stationen: 50 Credits.\nExotika sind eine alternative Währung zu Xenodaten. Die meisten automatischen Handelsstationen akzeptieren Exotika, auch wenn sie keine anderen Ressourcen kaufen.	0
 	EXOTICS	EXOTEN	0
-	Average price when sold by stations: 2 credits.\nSynthethics are consumed when repairing broken ship modules.	Durchschnittlicher Preis beim Verkauf durch Stationen: 2 Credits.\nSynthethika werden bei der Reparatur von kaputten Schiffsmodulen verbraucht.	0
+	Average price when sold by stations: 2 credits.\nSynthethics are consumed when repairing broken ship modules.	Durchschnittlicher Preis beim Verkauf durch Stationen: 2 Credits.\nKunststoffe werden bei der Reparatur von kaputten Schiffsmodulen verbraucht.	0
 	SYNTHETICS	KUNSTSTOFFE	0
 	Average price when sold by stations: 1 credits.\nSMetals are mostly used for creating temporary planetary structures during exploration events.	Durchschnittlicher Preis beim Verkauf durch Stationen: 1 Credits.\nMetalle werden meist für die Erstellung temporärer planetarer Strukturen während Erkundungsereignissen verwendet.	0
 	METALS	METALLE	0
@@ -2181,7 +2181,7 @@ text2	Mining process was completed uneventfully and the crew left satellites int
 text	analyzing atmosphere...	Analyse der Atmosphäre...	50
 text	We don't have the necessary resources for this operation.	Wir haben nicht die nötigen Ressourcen für diese Operation.	600
 text	We may harvest more fuel elements from deeper layers of the atmosphere. However, powerful atmospheric effects of the gas giant make this operation inherently risky.	Wir könnten mehr Brennelemente aus tieferen Schichten der Atmosphäre ernten. Allerdings machen die starken atmosphärischen Effekte des Gasriesen diese Operation von Natur aus riskant.	400
-choiceText	Print temporary harvester bots [-90 synthetics]	Drucken Sie temporäre Ernte-Bots [-90 Synthetik]	100
+choiceText	Print temporary harvester bots [-90 synthetics]	Drucken Sie temporäre Ernte-Bots [-90 Kunststoffe]	100
 choiceText	Keep harvesting with our ship	Ernten Sie weiter mit unserem Schiff	100
 choiceText	Leave now, maybe return later	Jetzt verlassen, vielleicht später zurückkehren	100
 newName3	accessible fuel elements	zugängliche Brennelemente	25
@@ -2207,14 +2207,14 @@ text	Accessible fuel elements detected in the outer atmosphere. Atmospheric risk
 choiceText	Harvest fuel with ship	Brennstoff mit Schiff ernten	100
 choiceText	Disengage	Ausklinken	100
 text	harvesting...	Ernten...	50
-choiceText	Print temporary harvester bots [-75 synthetics]	Drucken Sie temporäre Ernte-Bots [-75 Synthetik]	100
+choiceText	Print temporary harvester bots [-75 synthetics]	Drucken Sie temporäre Ernte-Bots [-75 Kunststoffe]	100
 text2	A violent thunderstorm caught us by surprise, damaging external equipment.	Ein heftiges Gewitter überraschte uns und beschädigte die externe Ausrüstung.	400
 text2	We were able to filter large amounts of fuel out of the atmosphere, but a sudden plasma reaction seriously damaged our ship.	Wir konnten zwar große Mengen Treibstoff aus der Atmosphäre filtern, aber eine plötzliche Plasmareaktion hat unser Schiff schwer beschädigt.	400
 text2	We had to evacuate and restart the operations due to approaching mega storms, increasing overall duration and cost of the operation.	Wir mussten evakuieren und den Betrieb wegen herannahender Megastürme neu starten, was die Gesamtdauer und die Kosten der Operation erhöhte.	400
 text	We've detected even greater accessible fuel elements deeper near the gas giant core. However, venturing this deep is incredibly dangerous. We should attempt this only in an emergency.	Wir haben noch größere zugängliche Brennelemente tiefer in der Nähe des Gasriesenkerns entdeckt. Allerdings ist es unglaublich gefährlich, so tief vorzudringen. Wir sollten dies nur im Notfall versuchen.	400
-choiceText	Print heavy harvester bots [-100 synthetics]	Schwere Ernte-Bots drucken [-100 Synthetik]	100
+choiceText	Print heavy harvester bots [-100 synthetics]	Schwere Ernte-Bots drucken [-100 Kunststoffe]	100
 choiceText	Harvest with our ship	Mit unserem Schiff ernten	100
-choiceText	Let's see if we can scrap anything for synthethics	Schauen wir mal, ob wir etwas für die Synthetik verschrotten können	100
+choiceText	Let's see if we can scrap anything for synthethics	Schauen wir mal, ob wir etwas für Kunststoffe verschrotten können	100
 text2	Fuel harvested until it was no longer safely accessible. We were able to recover some of the materials used to print the harvesting equipment.	Treibstoff geerntet, bis er nicht mehr sicher zugänglich war. Wir konnten einige der Materialien, die zum Drucken der Erntemaschinen verwendet wurden, wiederherstellen.	400
 newName3	no accessible fuel left	kein zugänglicher Treibstoff mehr	25
 text2	Despite taking critical damage from the ravaging atmosphere, our ship was able to gather large amounts of fuel.	Obwohl unser Schiff durch die verwüstende Atmosphäre kritischen Schaden genommen hat, konnte es große Mengen an Treibstoff sammeln.	400
@@ -2326,7 +2326,7 @@ text	A thin layer of harvestable fuel detected in the planet's atmosphere. Estim
 text	Trace amounts of harvestable fuel elements have been detected in the atmosphere. Estimated risk of accidents for orbital operations is below average.	Spuren von abbaubaren Brennelementen wurden in der Atmosphäre nachgewiesen. Geschätztes Unfallrisiko bei orbitalen Operationen ist unterdurchschnittlich.	400
 text2	A small plasma tornado caused an accident during the operation.	Ein kleiner Plasmatornado verursachte einen Unfall während des Betriebs.	400
 text	Atmospheric activity starts to intensify during the mining process, threatening to turn into a full-scale planetwide megastorm. The crew is quickly recalled into the ship, but our mining equipment is still in the atmosphere. Abort the operation?	Die atmosphärische Aktivität beginnt sich während des Abbauprozesses zu verstärken und droht, sich zu einem ausgewachsenen, planetenweiten Megasturm zu entwickeln. Die Crew wird schnell ins Schiff zurückgerufen, aber unsere Bergbauausrüstung befindet sich noch in der Atmosphäre. Abbruch der Operation?	400
-choiceText	Keep harvesting [risk metal & synthetics]	Weiter abbauen [Risiko Metalle & Synthetik]	100
+choiceText	Keep harvesting [risk metal & synthetics]	Weiter abbauen [Risiko Metalle & Kunststoffe]	100
 choiceText	Recall mining tech and leave	Bergbautechnik zurückrufen und verlassen	100
 text2	Our minerbots were able to bring back only a few loads of fuel before we lost contact with them. Apparently, the storms destroyed all our printed equipment.	Unsere Minenroboter konnten nur ein paar Ladungen Treibstoff zurückbringen, bevor wir den Kontakt zu ihnen verloren. Offensichtlich haben die Stürme unsere gesamte Druckausrüstung zerstört.	400
 text2	The mining process went as smoothly as possible, the megastorms proved to be quite weak in the end. The remaining fuel elements are too dispersed to justify further harvesting.	Der Abbauprozess verlief weitestgehend reibungslos, die Megastürme erwiesen sich am Ende als recht schwach. Die verbleibenden Brennelemente sind zu weit verstreut, um einen weiteren Abbau zu rechtfertigen.	400
@@ -2563,8 +2563,8 @@ title	Warp poo collected	Gesammelte Warp-Kacke	35
 text2	Its a cloud of half-digested plastics. Probably expelled by warp animals.	Es ist eine Wolke aus halb verdautem Plastik. Wahrscheinlich von Warptieren ausgeschieden.	400
 title	Gold bars collected	Gesammelte Goldbarren	35
 text2	Among other bits of metal, we discovered a load of precious metal bars. Perhaps somebody dumped them as excess to carry something more valuable?	Neben anderen Metallstücken entdeckten wir eine Ladung von Edelmetallbarren. Vielleicht hat sie jemand als Überschuss entsorgt, um etwas Wertvolleres zu transportieren?	400
-title	Synthethics collected	Gesammelte Synthethika	35
-text2	Somebody has left behind a load of high-quality synthetics. Perhaps it was dumped as excess to carry something more valuable.	Jemand hat eine Ladung hochwertiger Synthetik zurückgelassen. Vielleicht wurde sie als Überschuss entsorgt, um etwas Wertvolleres zu transportieren.	400
+title	Synthethics collected	Gesammelte Kunststoffe	35
+text2	Somebody has left behind a load of high-quality synthetics. Perhaps it was dumped as excess to carry something more valuable.	Jemand hat eine Ladung hochwertiger Kunststoffe zurückgelassen. Vielleicht wurde sie als Überschuss entsorgt, um etwas Wertvolleres zu transportieren.	400
 title	Ceramic armor plates found	Keramische Panzerplatten gefunden	35
 text2	We discovered numerous high-quality pieces of ceramic ship armor among the less valuable metal bits.	Wir haben unter den weniger wertvollen Metallteilen zahlreiche hochwertige Stücke einer keramischen Schiffspanzerung entdeckt.	400
 title	Ship remains collected	Gesammelte Schiffsreste	35
@@ -3110,18 +3110,18 @@ text2	After they have built a new warpdrive with our help, the Gitchanki miners 
 
 SOS5 exo, spare parts and explos.prefab
 title	Volatiles tanker	Volatiles Tankschiff	35
-text	"I've just fought a fleet of slavers, and desperately need synthetics for repairs. Can you help me?"	Ich habe gerade gegen eine Flotte von Sklavenhändlern gekämpft und brauche dringend Synthetik für Reparaturen. Könnt Ihr mir helfen?	400
-choiceText	We can help you [-200 synthetics]	Wir können Ihnen helfen [-200 Synthetics]	100
+text	"I've just fought a fleet of slavers, and desperately need synthetics for repairs. Can you help me?"	Ich habe gerade gegen eine Flotte von Sklavenhändlern gekämpft und brauche dringend Kunststoffe für Reparaturen. Könnt Ihr mir helfen?	400
+choiceText	We can help you [-200 synthetics]	Wir können Ihnen helfen [-200 Kunststoffe]	100
 newName3	needs 200 synthetics	braucht 200 synthetics	25
 text2	After repairing his ship, the captain sends us a giant natural artifact as expression of gratitude, along with some fine exotic consumables.	Nachdem er sein Schiff repariert hat, schickt uns der Kapitän ein riesiges natürliches Artefakt als Ausdruck der Dankbarkeit, zusammen mit einigen feinen exotischen Verbrauchsmaterialien.	400
-text	We do not have enough synthethics. We may return later if we have more.	Wir haben nicht genug Synthetik. Wir können später zurückkehren, wenn wir mehr haben.	600
+text	We do not have enough synthethics. We may return later if we have more.	Wir haben nicht genug Kunststoffe. Wir können später zurückkehren, wenn wir mehr haben.	600
 text2	Only the SOS signal was still active, everything else had broken down long ago. We salvaged everything.	Nur das SOS-Signal war noch aktiv, alles andere war schon längst kaputt. Wir haben alles geborgen.	400
 text2	After repairing his ship, the captain expresses his gratitude by sending us a pair of capital missiles!	Nachdem wir sein Schiff repariert haben, bedankt sich der Kapitän, indem er uns ein Paar Kapitalraketen schickt!	400
 
 SOS6 exo, reactor or explos.prefab
 title	Shadowslither captain	Schattenschnitter-Kapitän	35
 text	"I HAVE MADE MISTAKES, NEED EMERGENCY REPAIRS. PLEASE HELP?"	ICH HABE FEHLER GEMACHT, BRAUCHE NOTREPARATUREN. BITTE HELFEN?	400
-choiceText	We can help you [-300 synthetics]	Wir können Ihnen helfen [-300 Synthetik]	100
+choiceText	We can help you [-300 synthetics]	Wir können Ihnen helfen [-300 Kunststoffe]	100
 choiceText	Sorry, we cannot help at this moment	Tut uns leid, wir können im Moment nicht helfen	100
 newName3	needs 300 synthetics	braucht 300 Kunststoffe	25
 title	Shadowslither gift	Geschenk der Schattenschnitter	35
@@ -3154,7 +3154,7 @@ text	Leave sector?	Sektor verlassen?	400
 1 P Acid plants T.prefab
 title	Local life	Lokales Leben	35
 text	We've found primitive life, accustomed to thriving in the extremely acidic environment of this planet. We need to print ceramic armor for our operatives to work in here.	Wir haben primitives Leben gefunden, das an die extrem saure Umgebung dieses Planeten gewöhnt ist. Wir müssen Keramik-Rüstungen für unsere Arbeiter drucken, damit sie hier arbeiten können.	400
-choiceText	Research & harvest organics [-50 synthetics, send crew]	Forschung & Ernte von organischen Stoffen [-50 Synthetik, schickt Crew]	100
+choiceText	Research & harvest organics [-50 synthetics, send crew]	Forschung & Ernte von Organik [-50 Kunststoffe, schickt Crew]	100
 choiceText	Research only. Leave this planet otherwise untouched [send bots]	Nur Forschung. Lassen Sie diesen Planeten ansonsten unberührt [Bots schicken].	100
 newName3	exotic ecosystem	exotisches Ökosystem	25
 text	harvest process... %	Ernteprozess... %	50
@@ -3314,7 +3314,7 @@ reasonToDisplay	door scavenged	Tür erbeutet	30
 1 P fuelplants Ft.prefab
 name2	Planet with life	Planet mit Leben	25
 text	The dominating plants on this planet grow enormous pods filled with oily substance as fruit. Analysis indicates the fruit oil can be processed into starfuel, as it carries a small warp charge. Harvest the starfuel fruits?	Die vorherrschenden Pflanzen auf diesem Planeten bilden riesige Schoten aus, die als Früchte mit einer öligen Substanz gefüllt sind. Die Analyse zeigt, dass das Fruchtöl zu Sternentreibstoff verarbeitet werden kann, da es eine kleine Warp-Ladung enthält. Die Sternentreibstoff-Früchte ernten?	400
-choiceText	Research & Eco-harvest fruit [-50 synthetics or less]	Forschung & Öko-Ernte Früchte [-50 Synthetik oder weniger]	100
+choiceText	Research & Eco-harvest fruit [-50 synthetics or less]	Forschung & Öko-Ernte Früchte [-50 Kunststoffe oder weniger]	100
 choiceText	Research & Mass harvest [ecological damage to planet expected]	Forschung & Massenernte [ökologische Schäden am Planeten zu erwarten]	100
 choiceText	Research only, leave this beautiful world untouched	Nur Forschung, lassen Sie diese schöne Welt unberührt	100
 choiceText	Disengage and come back later, our resource containers are too full	Abbrechen und später wiederkommen, unsere Ressourcenbehälter sind zu voll	100
@@ -3357,8 +3357,8 @@ reasonToDisplay	mining operation complete	Abbaubetrieb abgeschlossen	30
 text	animal attacks...	Tierangriffe...	50
 title	Non-carbon ecosystem	Nicht-Kohlenstoff-Ökosystem	35
 text	The planet hosts exclusively non-carbon life (including primitive animals), unsuitable for our purposes. However, we may set up temporary mining facilities to exploit titanium mineral seams near the surface. Keeping the operation ecological comes with a cost increase.	Der Planet beherbergt ausschließlich kohlenstofffreies Leben (einschließlich primitiver Tiere), das für unsere Zwecke nicht geeignet ist. Wir können jedoch temporäre Bergbauanlagen errichten, um die oberflächennahen Titan-Mineralvorkommen auszubeuten. Die Aufrechterhaltung des ökologischen Betriebs ist mit einem Kostenanstieg verbunden.	400
-choiceText	Research & eco-mine [-100 synthetics, send crew]	Forschung & Öko-Bergbau [-100 Synthetics, Crew schicken]	100
-choiceText	Research & mine [-40 synthetics, send crew]	Forschung & Bergbau [-40 Synthetik, Besatzung schicken]	100
+choiceText	Research & eco-mine [-100 synthetics, send crew]	Forschung & Öko-Bergbau [-100 Kunststoffe, Crew schicken]	100
+choiceText	Research & mine [-40 synthetics, send crew]	Forschung & Bergbau [-40 Kunststoffe, Besatzung schicken]	100
 text2	Local animals attacked our installations numerous times. They managed to damage a mining drill which later malfunctioned and caused an injury to one of our engineers checking the device. Our research of the local life generated some xenodata.	Einheimische Tiere griffen unsere Anlagen mehrfach an. Es gelang ihnen, einen Minenbohrer zu beschädigen, der später eine Fehlfunktion hatte und einen unserer Ingenieure, der das Gerät überprüfte, verletzte. Unsere Forschungen über das lokale Leben erbrachten einige Xenodaten.	400
 title	Metals mined	Abgebaute Metalle	35
 text2	We mined as much as we can, given the circumstances. We may now recover most of the mining technology. However this would be an energy-intensive operation, and cost additional fuel.	Wir haben so viel abgebaut, wie wir unter den gegebenen Umständen abbauen können. Wir können nun den größten Teil der Bergbautechnologie zurückgewinnen. Dies wäre jedoch ein energieintensiver Vorgang, der zusätzlichen Treibstoff kostet.	400
@@ -3929,7 +3929,7 @@ text2	It was highly unlikely our crew would be alive. We tried destroying the bu
 
 2 P abandoned mine, metallic dust storms ME.prefab
 text	Something on this planet broadcasts a repeated message: "Planet owned by BangMine Corporation. Automated defences will shoot any trespassers." The planet's thin atmosphere is ravaged by metallic dust storms, making orbital observations difficult without entering the atmosphere."	Irgendetwas auf diesem Planeten sendet eine wiederholte Nachricht: "Planet im Besitz der BangMine Corporation. Automatisierte Verteidigungsanlagen werden jeden Eindringling erschießen." Die dünne Atmosphäre des Planeten wird von metallischen Staubstürmen heimgesucht, was Orbitalbeobachtungen erschwert, ohne in die Atmosphäre einzutreten."	400
-choiceText	Send reconnaissance bots into atmosphere [-20 synthetics]	Schicken Sie Aufklärungsbots in die Atmosphäre [-20 Synthetik]	100
+choiceText	Send reconnaissance bots into atmosphere [-20 synthetics]	Schicken Sie Aufklärungsbots in die Atmosphäre [-20 Kunststoffe]	100
 choiceText	Enter atmosphere with ship [-5 fuel]	Eintritt in die Atmosphäre mit Schiff [-5 Treibstoff]	100
 text	Scouting for threats... %	Nach Gefahren suchen... %	50
 text2	All of our reconaissance bots were unexpectedly caught in a metallic dust storm and we lost contact with them. We may send new bots.	Alle unsere Aufklärungsbots wurden unerwartet von einem Metallstaubsturm erfasst und wir haben den Kontakt zu ihnen verloren. Wir können neue Bots schicken.	400
@@ -4365,7 +4365,7 @@ text2	The anti-tyranny fund representative gives you a formal blessing and promi
 reasonToDisplay	donation provided	Spende bereitgestellt	30
 text	One of the locals requests a formal audience. She explains that she is from a planet ruled by violent tyrants, not much better than the slavers. She is raising a fund to create an army of bots that would liberate the planet and guard the population from violence. She asks if you can support her noble cause.	Eine der Einheimischen bittet um eine formelle Audienz. Sie erklärt, dass sie von einem Planeten kommt, der von gewalttätigen Tyrannen regiert wird, nicht viel besser als die Sklavenhändler. Sie sammelt Spenden, um eine Armee von Bots zu schaffen, die den Planeten befreien und die Bevölkerung vor Gewalt schützen soll. Sie fragt, ob Sie ihre noble Sache unterstützen können.	400
 choiceText	Donate 100 metals to the anti-tyranny fund	Spenden Sie 100 Metalle an den Anti-Tyrannen-Fonds	100
-choiceText	Donate 100 synthethics to the anti-tyranny fund	Spenden Sie 100 Synthethika für den Anti-Tyrannen-Fonds	100
+choiceText	Donate 100 synthethics to the anti-tyranny fund	Spenden Sie 100 Kunststoffe für den Anti-Tyrannen-Fonds	100
 text	This is a multispecies refugee colony. Visitor info suggests that an alliance of benevolent advanced civilizations rescued many individuals from various violence-ruled planets, and donated this desert planet as a new home, so that they may live in peace.	Dies ist eine Multispezies-Flüchtlingskolonie. Besucherinformationen deuten darauf hin, dass eine Allianz wohlwollender fortgeschrittener Zivilisationen viele Individuen von verschiedenen, von Gewalt beherrschten Planeten gerettet hat und diesen Wüstenplaneten als neue Heimat gestiftet hat, damit sie in Frieden leben können.	400
 choiceText	Meet the locals [send crew]	Treffen Sie die Einheimischen [Crew schicken]	100
 newName3	refugee colony	Flüchtlingskolonie	25
@@ -4484,7 +4484,7 @@ text2	"Most respected visitor, I must regrettably inform you that I have run out
 
 3 P 2xExotics balloon or tentacle plants.prefab
 text	We safely passed the superlight warp storm, and we've found truly alien life. These non-carbon plant-like organisms seem to filtrate exotic matter from the atmosphere. A harvesting operation here might yield spectacular results. Harvesting the exotic gases would need a significant recalibration of our harvester technology.	Wir haben den superleichten Warpsturm sicher passiert und haben wirklich außerirdisches Leben gefunden. Diese kohlenstofffreien, pflanzenähnlichen Organismen scheinen exotische Materie aus der Atmosphäre zu filtern. Eine Ernteoperation könnte hier spektakuläre Ergebnisse bringen. Die Ernte der exotischen Gase würde eine erhebliche Rekalibrierung unserer Erntetechnologie erfordern.	400
-choiceText	Research & harvest operation [-80 synthetics, send crew]	Forschungs- und Ernteeinsatz [-80 Synthetik, Crew schicken]	100
+choiceText	Research & harvest operation [-80 synthetics, send crew]	Forschungs- und Ernteeinsatz [-80 Kunststoffe, Crew schicken]	100
 text2	Our bots take some samples and we move on, leaving this planet completely intact from our "external" influence. The scientific data of this ecosystem is worth a small fortune. The sanity of our crew was protected by the effect of exotics consumed before the operation."	Unsere Bots nehmen einige Proben und wir ziehen weiter, wobei dieser Planet von unserem "äußeren" Einfluss völlig unberührt bleibt. Die wissenschaftlichen Daten dieses Ökosystems sind ein kleines Vermögen wert. Die geistige Gesundheit unserer Besatzung wurde durch die Wirkung der vor der Operation konsumierten Exoten geschützt."	400
 title	Superlight warp storm	Superleichter Warpsturm	35
 text	We are witnessing a rare anomaly only few have ever seen. We could fly through the storm and investigate what might be causing it, as the storm is too weak to harm our ship. However the crew should consume exotics to prevent the warpfield from endangering their minds.	Wir sind Zeuge einer seltenen Anomalie, die nur wenige je gesehen haben. Wir könnten durch den Sturm fliegen und untersuchen, was die Ursache sein könnte, da der Sturm zu schwach ist, um unserem Schiff zu schaden. Die Besatzung sollte jedoch Exotika konsumieren, um zu verhindern, dass das Warpfeld ihren Verstand gefährdet.	400
@@ -4564,7 +4564,7 @@ title	Mountaintop mining successful	Mountaintop Mining erfolgreich	35
 text2	No incidents. The mountains held a rich mineral profile, including an exotic crystal. We also researched samples of the local moss. You manage to resist the temptation to tell the crewmember "I told you so"."	Keine Zwischenfälle. Die Berge enthielten ein reiches Mineralienprofil, einschließlich eines exotischen Kristalls. Wir untersuchten auch Proben des örtlichen Mooses. Sie schaffen es, der Versuchung zu widerstehen, dem Besatzungsmitglied zu sagen: "Ich hab's dir ja gesagt."	400
 reasonToDisplay	mining operation completed	Abbaubetrieb abgeschlossen	30
 text	Orbital scans show a young, fragile ecosystem. Low possibility of harvestable organics. One of the crewmembers tells you he's got a bad feeling about this place. Like some kind of surreal fear.	Orbital-Scans zeigen ein junges, fragiles Ökosystem. Geringe Wahrscheinlichkeit von erntbaren organischen Stoffen. Eines der Besatzungsmitglieder sagt Ihnen, dass er ein schlechtes Gefühl bei diesem Ort hat. Wie eine Art surreale Angst.	400
-choiceText	Explore with bots [-30 synthetics]	Mit Bots erforschen [-30 Synthetik]	100
+choiceText	Explore with bots [-30 synthetics]	Mit Bots erforschen [-30 Kunststoffe]	100
 choiceText	Explore with ship	Mit dem Schiff erforschen	100
 text	scouting for threats...	Scouting nach Bedrohungen...	50
 text2	No incident. The mountains contain abundant seams of silver ore. We also research samples of the local moss. You manage to resist the temptation to tell the crewmember "I told you so"."	Keine Vorkommnisse. Die Berge enthalten reichlich Flöze von Silbererz. Wir untersuchen auch Proben des örtlichen Mooses. Sie schaffen es, der Versuchung zu widerstehen, dem Besatzungsmitglied zu sagen: "Ich hab's dir ja gesagt."	400
@@ -4600,7 +4600,7 @@ text2	No issues to report. The crew waiting in orbit had quality time playing se
 reasonToDisplay	iridium ore mined	Iridium-Erz abgebaut	30
 title	Deep fissure	Tiefer Spalt	35
 text2	We've located a deep fissure in the ground, leading down to exposed seams of valuable iridium minerals. We may install mining facilities and mine a large volume of metals from here.	Wir haben einen tiefen Spalt im Boden geortet, der zu freiliegenden Flözen mit wertvollen Iridium-Mineralien führt. Wir können hier Bergbauanlagen installieren und eine große Menge an Metallen abbauen.	400
-choiceTexts	Mining operation [-70 synthetics, send crew]	Bergbaubetrieb [-70 Synthetik, Besatzung schicken]	100
+choiceTexts	Mining operation [-70 synthetics, send crew]	Bergbaubetrieb [-70 Kunststoffe, Besatzung schicken]	100
 choiceTexts	Leave now to maybe return later	Jetzt aufbrechen, um vielleicht später zurückzukehren	100
 text2	The dust storm disrupted our operation, landlocking our crew on the surface. They had to wait for days until the storm calmed. This increased the cost of the operation considerably.	Der Staubsturm hat unseren Betrieb gestört und unsere Crew an der Oberfläche eingeschlossen. Sie mussten tagelang warten, bis sich der Sturm gelegt hatte. Das erhöhte die Kosten der Operation erheblich.	400
 text	a very long dust storm...	ein sehr langer Staubsturm...	50
@@ -4742,7 +4742,7 @@ text	Prospector bots... %	Erkundungs-Bots... %.	50
 text2	Planetwide harvesting operations completed. Some local species underwent a small-scale extinction event due to our activities, but the ecosystem as a whole was not damaged.	Planetenweite Erntemaßnahmen abgeschlossen. Einige lokale Spezies wurden durch unsere Aktivitäten in kleinem Umfang ausgelöscht, aber das Ökosystem als Ganzes wurde nicht beschädigt.	400
 text	Prospecting revealed the planet is rich in organic harvestables. Eco-harvesting is more expensive here because our harvesting equipment would need significant reconfiguration. Large-scale Biomass harvesting is easy, but would probably destroy much of the local ecosystem and kill innumerable organisms. Orders?	Die Erkundung ergab, dass der Planet reich an organischen Rohstoffen ist. Öko-Ernte ist hier teurer, weil unsere Erntegeräte erheblich umgestellt werden müssten. Die Ernte von Biomasse im großen Stil ist einfach, würde aber wahrscheinlich einen Großteil des lokalen Ökosystems zerstören und unzählige Organismen töten. Befehle?	400
 choiceText	Biomass harvest [-30 fuel]	Biomasse-Ernte [-30 Treibstoff]	100
-choiceText	Eco-harvest [-30 fuel, -75 synthetics]	Öko-Ernte [-30 Treibstoff, -75 Synthetik]	100
+choiceText	Eco-harvest [-30 fuel, -75 synthetics]	Öko-Ernte [-30 Treibstoff, -75 Kunststoffe]	100
 choiceText	Leave. This unique ecosystem should remain untouched	Verlassen. Dieses einzigartige Ökosystem sollte unangetastet bleiben	100
 choiceText	Let's see if we can scrap anything for needed resources...	Mal sehen, ob wir etwas für benötigte Ressourcen abbauen können...	100
 text2	Ecological harvesting operations completed. Some of our harvester bots broke during the operation before being recovered and some got lost in the forests. Perhaps life will evolve sentience here and discover the bot remains one day. Let them have this gift from the gods.	Ökologische Ernteoperationen abgeschlossen. Einige unserer Ernte-Bots gingen während des Einsatzes kaputt, bevor sie geborgen werden konnten, und einige gingen in den Wäldern verloren. Vielleicht entwickelt das Leben hier Empfindungsvermögen und entdeckt eines Tages die Bot-Überreste. Sollen sie doch dieses Geschenk der Götter haben.	400
@@ -4805,7 +4805,7 @@ text2	The Taodei lead us to a location with some technological debris. We realiz
 text2	We were are able to restore functionality to the engines.	Es gelingt uns, die Funktionalität der Triebwerke wiederherzustellen.	400
 reasonToDisplay	ancient engines restored	Antike Triebwerke restauriert	30
 text	The Taodei lead us to a large dune, which proves to be a huge shipwreck covered in sand. The whole thing is heavily degraded and might explode into pieces if moved. Incredibly, further analysis proves it would be possible to restore the ship's engines. The restoration works would have to be done on the spot though.	Die Taodei führen uns zu einer großen Düne, die sich als ein riesiges, mit Sand bedecktes Schiffswrack erweist. Das Ganze ist stark degradiert und könnte in Stücke explodieren, wenn es bewegt wird. Unglaublicherweise erweist sich bei einer weiteren Analyse, dass es möglich wäre, die Motoren des Schiffes zu restaurieren. Die Restaurierungsarbeiten müssten allerdings an Ort und Stelle durchgeführt werden.	400
-choiceText	Repair the engines [-75 synthetics]	Reparatur der Triebwerke [-75 Synthetik]	100
+choiceText	Repair the engines [-75 synthetics]	Reparatur der Triebwerke [-75 Kunststoffe]	100
 text	restoration works.. %	Restaurierungsarbeiten... %	50
 text	We didn't find anything in this sweep, but may try searching more.	Wir haben bei dieser Suche nichts gefunden, werden aber vielleicht noch weiter suchen.	400
 
@@ -4861,7 +4861,7 @@ reasonToDisplay	exotics mined, operations aborted	Exoten abgebaut, Einsatz abgeb
 4 P fuel lake Fo.prefab
 name2	Chemically active planet	Chemisch aktiver Planet	25
 text	The planet is covered with lakes of superheavy water, a potent radioactive fuel chemical. We could set up extraction facilities here and probably get a good load of the raw stuff, easily convertible into starfuel.	Der Planet ist mit Seen aus superschwerem Wasser bedeckt, einer starken radioaktiven Treibstoffchemikalie. Wir könnten hier Extraktionsanlagen errichten und wahrscheinlich eine gute Ladung des Rohmaterials erhalten, das sich leicht in Sternentreibstoff umwandeln lässt.	400
-choiceText	Set up fuel extraction facilities [-50 synthethics]	Treibstoffextraktionsanlagen einrichten [-50 Synthetik]	100
+choiceText	Set up fuel extraction facilities [-50 synthethics]	Treibstoffextraktionsanlagen einrichten [-50 Kunststoffe]	100
 text2	Extraction and processing completed successfully, no accidents reported.	Extraktion und Verarbeitung erfolgreich abgeschlossen, keine Unfälle gemeldet.	400
 reasonToDisplay	starfuel elements extracted	Sternentreibstoff-Elemente extrahiert	30
 title	Noncarbon life	Nicht-Kohlenstoff-Leben	35
@@ -4982,7 +4982,7 @@ text2	As we enter the atmosphere and approach the warp energy source, ours scann
 4 P red skin O.prefab
 text	A skin-like membrane is covering the entire planet. Astonishingly, it seems to be a single giant organism that controls all of the local water ecology. Bubbles of sugary organics are seeping out of it to the surface... we could harvest this stuff. We could also leave this rare ecosystem totally untouched.	Eine hautähnliche Membran bedeckt den gesamten Planeten. Erstaunlicherweise scheint es ein einziger riesiger Organismus zu sein, der die gesamte lokale Wasserökologie kontrolliert. Blasen aus zuckerhaltigen organischen Stoffen sickern aus ihr an die Oberfläche... wir könnten dieses Zeug ernten. Wir könnten dieses seltene Ökosystem auch völlig unberührt lassen.	400
 choiceText	Research & harvest bubblesyrup [-20 fuel]	Erforschen & ernten Sie Blasensirup [-20 Treibstoff]	100
-choiceText	Research & harvest the skin-like organism itself [-20 fuel, -40 synthetics]	Erforschen und ernten Sie den hautähnlichen Organismus selbst [-20 Treibstoff, -40 Synthetik]	100
+choiceText	Research & harvest the skin-like organism itself [-20 fuel, -40 synthetics]	Erforschen und ernten Sie den hautähnlichen Organismus selbst [-20 Treibstoff, -40 Kunststoffe]	100
 choiceText	Research only. This organism is probably at least presentient.	Nur Forschung. Dieser Organismus ist wahrscheinlich zumindest präsent.	100
 newName3	Planetwide organism	Planetenweiter Organismus	25
 text2	Extraction and processing completed successfully, no accidents reported. Keeping samples from the organism alive proved impossible (as the tissue rapidly disintegrates into toxic goo when separated), but overall documentation of such a planetwide organism is quite valuable.	Extraktion und Verarbeitung erfolgreich abgeschlossen, keine Unfälle gemeldet. Es erwies sich als unmöglich, Proben des Organismus am Leben zu erhalten (da sich das Gewebe schnell in giftigen Glibber auflöst, wenn es abgetrennt wird), aber insgesamt ist die Dokumentation eines solchen planetenweiten Organismus recht wertvoll.	400
@@ -5017,8 +5017,8 @@ choiceTexts	Mine more [-40 fuel]	Mehr abbauen [-40 Treibstoff]	100
 name2	Volcanic planet	Vulkanischer Planet	25
 title	Fiery rivers of crystal and gold	Feurige Flüsse aus Kristall und Gold	35
 text	The conditions here are harsh but unique. As streams of lava ebb and flow on the surface, they force rare elements out from the planet's core. We could extract a large volume of high-quality minerals that could be easily processed into synthetics. Operations here would carry a fair risk.	Die Bedingungen hier sind rau, aber einzigartig. Die Lavaströme, die auf der Oberfläche fließen, treiben seltene Elemente aus dem Kern des Planeten heraus. Wir könnten eine große Menge an hochwertigen Mineralien gewinnen, die sich leicht zu Kunststoffen verarbeiten lassen. Operationen hier würden ein ziemliches Risiko mit sich bringen.	400
-choiceText	Print ceramic equipment for surface operations [-40 synthetics]	Druck von Keramikgeräten für den Betrieb an der Oberfläche [-40 Synthetik]	100
-choiceText	Remote research only [-20 synthetics]	Nur Fernforschung [-20 Synthetik]	100
+choiceText	Print ceramic equipment for surface operations [-40 synthetics]	Druck von Keramikgeräten für den Betrieb an der Oberfläche [-40 Kunststoffe]	100
+choiceText	Remote research only [-20 synthetics]	Nur Fernforschung [-20 Kunststoffe]	100
 text	remote research... %	Fernforschung... %	50
 text2	Our bots documented the complex geological processes happening on the surface. Perhaps in a million years when this hell has cooled, our descendants could return.	Unsere Bots dokumentierten die komplexen geologischen Prozesse, die an der Oberfläche ablaufen. Vielleicht können unsere Nachfahren in einer Million Jahren, wenn diese Hölle abgekühlt ist, zurückkehren.	400
 text2	Our unmanned mining facilities managed to extract a large volume of various minerals. These were processed into a fresh assortment of resources on the spot. We also salvaged some of the mining facilities.	Unsere unbemannten Bergbauanlagen schafften es, eine große Menge an verschiedenen Mineralien zu gewinnen. Diese wurden an Ort und Stelle zu einem neuen Sortiment an Ressourcen verarbeitet. Wir haben auch einige der Bergbauanlagen geborgen.	400
@@ -5064,7 +5064,7 @@ reasonToDisplay	ruined temple looted	tempelruine geplündert	30
 
 4 Pi Collector trade gone bad F plus nuke.prefab
 text	We've discovered and contacted a primitive civilization, the Collectors. It is a species of mammals who are in the middle of the industrial age. The personal freedom in their society is very inequal, they still need to learn a lot. After a private conversation with our AI, the primitives' representatives come to terms of possible trade. They desire our advanced synthethics.	Wir haben eine primitive Zivilisation, die Sammler, entdeckt und kontaktiert. Es ist eine Spezies von Säugetieren, die sich mitten im Industriezeitalter befinden. Die persönliche Freiheit in ihrer Gesellschaft ist sehr ungleich, sie müssen noch viel lernen. Nach einem privaten Gespräch mit unserer KI kommen die Vertreter der Primitiven zu Bedingungen für einen möglichen Handel. Sie wünschen sich unsere fortschrittliche Synthetik.	400
-choiceText	Trade [-100 synthetics + 100 fuel]	Handel [-100 Synthetik + 100 Treibstoff]	100
+choiceText	Trade [-100 synthetics + 100 fuel]	Handel [-100 Kunststoffe + 100 Treibstoff]	100
 newName3	Collector civilization, industrial era	Sammlerzivilisation, Industriezeitalter	25
 text2	After completing the exchange and a bit of testing, it turns out we have been delivered a much lower quality fuel than promised. When we point out the mistake, the locals tell us that their previous representatives were criminals and have already been executed. We are given some kind of poor local food as remuneration. The incident has created a large political conflict between the planet's ruling factions...	Nach Abschluss des Tauschs und ein paar Tests stellt sich heraus, dass wir einen viel minderwertigeren Treibstoff als versprochen erhalten haben. Als wir auf den Fehler hinweisen, sagen uns die Einheimischen, dass ihre früheren Vertreter Kriminelle waren und bereits hingerichtet wurden. Als Entschädigung erhalten wir eine Art schlechtes lokales Essen. Der Vorfall hat einen großen politischen Konflikt zwischen den herrschenden Fraktionen des Planeten ausgelöst...	400
 reasonToDisplay	problems...	Probleme...	30
@@ -5341,7 +5341,7 @@ reasonToDisplay	metals scavenged	Geplünderte Metalle	30
 
 5 P nanobot atmosphere R.prefab
 text	This planet has conflicting data on possibility of life or other conditions. Something in the atmosphere creates a strong interference with our sensors. We could print reconaissance bots or investigate with our ship.	Dieser Planet hat widersprüchliche Daten über mögliche Lebensformen oder andere Bedingungen. Irgendetwas in der Atmosphäre erzeugt eine starke Interferenz mit unseren Sensoren. Wir könnten Aufklärungsbots drucken oder mit unserem Schiff untersuchen.	400
-choiceText	Send bots to investigate [-20 synthethics]	Bots zur Erkundung aussenden [-20 Synthetik]	100
+choiceText	Send bots to investigate [-20 synthethics]	Bots zur Erkundung aussenden [-20 Kunststoffe]	100
 choiceText	Investigate with our ship	Erkundung mit unserem Schiff	100
 text2	Scouting reveals this planet is home to advanced nanobot swarms in the atmosphere, capable of disrupting technology by emitting synchronized electromagnetic waves. The nanobots have consumed all other resources on the planet. Recordings on the phenomenon has scientific value.	Die Erkundung hat ergeben, dass dieser Planet fortschrittliche Nanobot-Schwärme in der Atmosphäre beherbergt, die in der Lage sind, Technologie zu stören, indem sie synchronisierte elektromagnetische Wellen aussenden. Die Nanobots haben alle anderen Ressourcen auf dem Planeten aufgebraucht. Aufzeichnungen über das Phänomen haben wissenschaftlichen Wert.	400
 text2	Scouting bots were printed and entered the atmosphere. We suddenly lost contact with them before they reported anything interesting.	Aufklärungsbots wurden gedruckt und drangen in die Atmosphäre ein. Wir verloren plötzlich den Kontakt zu ihnen, bevor sie etwas Interessantes berichten konnten.	400
@@ -5453,7 +5453,7 @@ newName3	Ultranephrite colony	Ultranephriten-Kolonie	25
 5 P volcanic EF.prefab
 name2	hot planet	Heißer Planet	25
 text	This planet features extreme temperatures and intense volcanic activity. Initial scans suggest possibility of volatiles convertible to fuel and explosives. More accurate prospecting requires us to print additional equipment for our utility bots.	Dieser Planet weist extreme Temperaturen und intensive vulkanische Aktivität auf. Erste Scans deuten auf die Möglichkeit von flüchtigen Stoffen hin, die in Treibstoff und Sprengstoff umgewandelt werden können. Für eine genauere Erkundung müssen wir zusätzliche Ausrüstung für unsere Versorgungsbots drucken.	400
-choiceText	Prospect [-25 synthetics]	Schürfen [-25 Synthetik]	100
+choiceText	Prospect [-25 synthetics]	Schürfen [-25 Kunststoffe]	100
 text2	Planetwide mining operations completed. One of our minerbot groups was vaporized due to an unpredictable hyperheat wave, reducing overall operation profitability.	Planetenweite Bergbauarbeiten abgeschlossen. Eine unserer Minenrobotergruppen wurde aufgrund einer unvorhersehbaren Hyperhitzewelle verdampft, was die Gesamtrentabilität des Betriebs reduzierte.	400
 text	Prospecting revealed the planet surface layers contain abundant radioactive elements, usable as fuel and explosives. Mining this planet puts our equipment at considerable risk due to violent atmospheric conditions, however.	Die Erkundung ergab, dass die Oberflächenschichten des Planeten reichlich radioaktive Elemente enthalten, die als Treibstoff und Sprengstoff verwendet werden können. Der Abbau auf diesem Planeten setzt unsere Ausrüstung jedoch aufgrund der heftigen atmosphärischen Bedingungen einem erheblichen Risiko aus.	400
 choiceText	Mine	Mine	100
@@ -5462,7 +5462,7 @@ text2	We detected a massive hyperheat wave approaching our area of operations an
 text2	The atmospheric conditions around the mining site intensified several times but we were able to complete the operations without significant accidents.	Die atmosphärischen Bedingungen um die Abbaustelle haben sich mehrmals verschärft, aber wir konnten die Operationen ohne nennenswerte Unfälle abschließen.	400
 title	Operation not possible	Betrieb nicht möglich	35
 text	Unexpected atmospheric activity destroyed our prospector bots before they could complete evaluation of the mining prospects.	Unerwartete atmosphärische Aktivität zerstörte unsere Prospektor-Bots, bevor sie die Bewertung der Bergbauaussichten abschließen konnten.	400
-choiceText	Print more bots [-20 synthethics]	Weitere Bots drucken [-20 Synthetik]	100
+choiceText	Print more bots [-20 synthethics]	Weitere Bots drucken [-20 Kunststoffe]	100
 
 5 Pi carniplants Rom.prefab
 name2	Jungle planet	Dschungel-Planet	25
@@ -5480,7 +5480,7 @@ text	the AI translation of the Givers' disposition: "We must protect all life on
 choiceText	Prospect for minerals	Schürfen nach Mineralien	100
 title	Prospecting report	Prospektion Bericht	35
 text	Prospecting revealed exotic minerals underground, spread thinly over a wide area. Eco-mining from such a large area would require relocation of billions of individual organisms and be therefore quite costly. Non-ecological mining would kill most of these organisms instead.	Bei der Prospektion wurden exotische Mineralien im Untergrund gefunden, die über ein großes Gebiet verteilt sind. Ein ökologischer Abbau in einem so großen Gebiet würde die Umsiedlung von Milliarden von einzelnen Organismen erfordern und wäre daher sehr kostspielig. Ein nicht-ökologischer Abbau würde stattdessen die meisten dieser Organismen töten.	400
-choiceText	Research & eco-mine [-40 fuel, -40 synthetics]	Forschung & Öko-Bergbau [-40 Treibstoff, -40 Synthetik]	100
+choiceText	Research & eco-mine [-40 fuel, -40 synthetics]	Forschung & Öko-Bergbau [-40 Treibstoff, -40 Kunststoffe]	100
 choiceText	Research & mine [-30 fuel]	Forschung & Bergbau [-30 Treibstoff]	100
 choiceText	Leave the ecosystem untouched	Das Ökosystem unberührt lassen	100
 text	Eco-mining... %	Öko-Bergbau... %	50
@@ -5587,7 +5587,7 @@ title	Signs of ancient industrial activity	Anzeichen für alte industrielle Akti
 text	The atmosphere seems to be heavily saturated with what looks like various forms of low-tech industrial by-products. The smog is so thick that it prevents us from orbital scanning.	Die Atmosphäre scheint stark gesättigt zu sein mit etwas, das wie verschiedene Formen von Low-Tech-Industrienebenprodukten aussieht. Der Smog ist so dicht, dass er uns daran hindert, den Orbit zu scannen.	400
 title	Self-destruct system found	Selbstzerstörungssystem gefunden	35
 text	The platform is degraded beyond recognition, except for the self-destruct system of the building. It features extensive networks of explosives placed deep within walls. We could retrieve the explosives but it would need specialized bots or risking the crew.	Die Plattform ist bis zur Unkenntlichkeit degradiert, mit Ausnahme des Selbstzerstörungssystems des Gebäudes. Es verfügt über umfangreiche Netzwerke von Sprengstoffen, die tief in den Wänden platziert sind. Wir könnten die Sprengsätze bergen, aber dazu bräuchten wir spezielle Bots oder wir riskieren die Crew.	400
-choiceText	Attempt retrieval, print more bots [-40 synthetics]	Versuch der Bergung, mehr Bots drucken [-40 Synthetik]	100
+choiceText	Attempt retrieval, print more bots [-40 synthetics]	Versuch der Bergung, mehr Bots drucken [-40 Kunststoffe]	100
 choiceText	Attempt retrieval, ask for volunteers [send crew]	Bergungsversuch, Freiwillige suchen [Crew schicken]	100
 text	Nobody volunteers.	Niemand meldet sich freiwillig.	600
 text2	The self-destruct system activated during the operation, annihilating the entire complex along with our bots inside. We salvaged a piece of metal frame that survived the explosion.	Das Selbstzerstörungssystem aktivierte sich während der Operation und vernichtete den gesamten Komplex mitsamt unseren Bots darin. Wir haben ein Stück des Metallrahmens geborgen, das die Explosion überlebt hat.	400
@@ -5755,21 +5755,21 @@ newName3	dark market	Dunkler Markt	25
 text	The market is full of semi-legal junk, uninteresting for our purposes. The only attractive offer is a robust triple cannon. "We found it in some wreckage..." the sellers explain."	Der Markt ist voll von halblegalem Ramsch, uninteressant für unsere Zwecke. Das einzige attraktive Angebot ist eine robuste Dreifach-Kanone. "Wir haben sie in einem Wrack gefunden ...", erklären die Verkäufer."	400
 choiceText	Buy the weapon [-7 exotics]	Kaufen Sie die Waffe [-7 Exotik]	100
 text2	You inspect the weapon thoroughly before accepting the deal. Except for a few fluid stains (alien blood, most likely), you find it completely functional. The ship's AI later has a chat with you about ethics.	Sie inspizieren die Waffe gründlich, bevor Sie das Angebot annehmen. Abgesehen von ein paar Flüssigkeitsflecken (höchstwahrscheinlich Alien-Blut) finden Sie sie voll funktionsfähig. Die KI des Schiffes führt später ein Gespräch mit Ihnen über Ethik.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. This market seems to be mostly supplied by smugglers and thieves - which, you feel, is much better than pirates and slavers. A local insectoid trader has a particularly attractive offer: some kind of cheap materials convertor. He explains its origins, "An acquintance gave it to me completely willingly."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu empfindungsfähiger Sklaverei. Dieser Markt scheint hauptsächlich von Schmugglern und Dieben beliefert zu werden - was, wie Sie finden, viel besser ist als Piraten und Sklavenhändler. Ein lokaler insektoider Händler hat ein besonders attraktives Angebot: eine Art billigen Materialkonverter. Er erklärt seine Herkunft: "Ein Bekannter hat ihn mir ganz freiwillig gegeben."	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. This market seems to be mostly supplied by smugglers and thieves - which, you feel, is much better than pirates and slavers. A local insectoid trader has a particularly attractive offer: some kind of cheap materials convertor. He explains its origins, "An acquintance gave it to me completely willingly."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Dieser Markt scheint hauptsächlich von Schmugglern und Dieben beliefert zu werden - was, wie Sie finden, viel besser ist als Piraten und Sklavenhändler. Ein lokaler insektoider Händler hat ein besonders attraktives Angebot: eine Art billigen Materialkonverter. Er erklärt seine Herkunft: "Ein Bekannter hat ihn mir ganz freiwillig gegeben."	400
 choiceText	Buy the module [-7 exotics]	Kaufen Sie das Modul [-7 Exoten]	100
 text2	Inspection after purchase reveals that the data plates which should have information on the module's previous owners is completely wiped clean. You ask yourself why this is so and arrive at pessimistic conclusions. You'll be thinking about it before going to sleep. The ship's AI later has a chat with you about ethics.	Bei der Inspektion nach dem Kauf stellen Sie fest, dass die Datenschilder, auf denen eigentlich Informationen über die Vorbesitzer des Moduls stehen sollten, komplett weggewischt sind. Sie fragen sich, warum das so ist und kommen zu pessimistischen Schlüssen. Sie denken darüber nach, bevor Sie schlafen gehen. Die KI des Schiffes unterhält sich später mit Ihnen über Ethik.	400
 text	This market seems to be mostly supplied by smugglers and thieves - which is much better than pirates and slavers. Two Gor-Mor traders have a particularly attractive offer: a brand new biosynthesis unit. "We won it in an honest game..." they tell you."	Dieser Markt scheint hauptsächlich von Schmugglern und Dieben beliefert zu werden - was viel besser ist als Piraten und Sklavenhändler. Zwei Gor-Mor-Händler haben ein besonders attraktives Angebot: eine brandneue Biosynthese-Einheit. "Wir haben sie in einem ehrlichen Spiel gewonnen", erzählen sie."	400
 text2	Inspection after purchase reveals that the data plates which should have information on the module's previous owners is completely wiped clean. You ask yourself why this is so and arrive at pessimistic conclusions. You'll be thinking about it before going to sleep.	Bei der Inspektion nach dem Kauf stellen Sie fest, dass die Datenschilder, die Informationen über die Vorbesitzer des Moduls enthalten sollten, komplett gelöscht sind. Sie fragen sich, warum das so ist und kommen zu pessimistischen Schlüssen. Vor dem Einschlafen denken Sie noch einmal darüber nach.	400
-text	To your relief, the place does not have any visible connections to sentient slavery. A local Grippy trader has a particularly attractive offer- a food synthesizer. "If you give me some explosives... you'll be basically supporting creation through destruction..." the alien explains."	Zu Ihrer Erleichterung hat der Ort keine sichtbaren Verbindungen zu empfindungsfähiger Sklaverei. Ein lokaler Grippy-Händler hat ein besonders attraktives Angebot - einen Nahrungsmittelsynthesizer. "Wenn Sie mir etwas Sprengstoff geben, unterstützen Sie im Grunde die Schöpfung durch Zerstörung", erklärt der Außerirdische."	400
+text	To your relief, the place does not have any visible connections to sentient slavery. A local Grippy trader has a particularly attractive offer- a food synthesizer. "If you give me some explosives... you'll be basically supporting creation through destruction..." the alien explains."	Zu Ihrer Erleichterung hat der Ort keine sichtbaren Verbindungen zu bewusster Sklaverei. Ein lokaler Grippy-Händler hat ein besonders attraktives Angebot - einen Nahrungsmittelsynthesizer. "Wenn Sie mir etwas Sprengstoff geben, unterstützen Sie im Grunde die Schöpfung durch Zerstörung", erklärt der Außerirdische."	400
 choiceText	Buy the module [-60 explosives]	Kaufen Sie das Modul [-60 Sprengstoff]	100
 text2	Inspection after purchase reveals that the data plates which should have information on modules previous owners is completely wiped clean. You ask yourself why this is so and arrive to pessimistic conclusions. You'll be thinking about it before going to sleep.	Bei der Inspektion nach dem Kauf stellen Sie fest, dass die Datenplatten, die Informationen über die Vorbesitzer des Moduls enthalten sollten, komplett gelöscht sind. Sie fragen sich, warum das so ist und kommen zu pessimistischen Schlüssen. Vor dem Schlafengehen denken Sie noch einmal darüber nach.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. All the items we see on the market are sub-par, except for this one ship weapon that shoots non-deflecting shells. "NEED EXPLOSIVES FOR MORE KILLING" the trader communicates robustly his price."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu empfindungsfähiger Sklaverei. Alle Gegenstände, die wir auf dem Markt sehen, sind minderwertig, bis auf diese eine Schiffswaffe, die nicht ablenkende Geschosse verschießt. "NEED EXPLOSIVES FOR MORE KILLING" kommuniziert der Händler robust seinen Preis."	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. All the items we see on the market are sub-par, except for this one ship weapon that shoots non-deflecting shells. "NEED EXPLOSIVES FOR MORE KILLING" the trader communicates robustly his price."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Alle Gegenstände, die wir auf dem Markt sehen, sind minderwertig, bis auf diese eine Schiffswaffe, die nicht ablenkende Geschosse verschießt. "NEED EXPLOSIVES FOR MORE KILLING" kommuniziert der Händler robust seinen Preis."	400
 choiceText	Buy the module [-100 explosives]	Kaufen Sie das Modul [-100 Sprengstoff]	100
 text2	Inspection after purchase reveals that the data plates which should have information on modules previous owners is completely wiped clean. You ask yourself why this is so and arrive to pessimistic conclusions.	Bei der Inspektion nach dem Kauf stellen Sie fest, dass die Datenschilder, die Informationen über die Vorbesitzer des Moduls enthalten sollten, komplett gelöscht sind. Sie fragen sich, warum das so ist und kommen zu pessimistischen Schlüssen.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. However, eating enslaved animals with some form of consciousness seems to be the norm here. A local food trader approaches you with an offer: 200 units of meat of [enslaved and killed] animals, for real cheap. "They didn't suffer much, really..." she explains."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Sklaverei von Lebewesen. Allerdings scheint der Verzehr von versklavten Tieren mit irgendeiner Form von Bewusstsein hier die Norm zu sein. Ein lokaler Lebensmittelhändler tritt mit einem Angebot an Sie heran: 200 Einheiten Fleisch von [versklavten und getöteten] Tieren, für wirklich billig. "Sie haben nicht viel gelitten, wirklich ...", erklärt sie."	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. However, eating enslaved animals with some form of consciousness seems to be the norm here. A local food trader approaches you with an offer: 200 units of meat of [enslaved and killed] animals, for real cheap. "They didn't suffer much, really..." she explains."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Allerdings scheint der Verzehr von versklavten Tieren mit irgendeiner Form von Bewusstsein hier die Norm zu sein. Ein lokaler Lebensmittelhändler tritt mit einem Angebot an Sie heran: 200 Einheiten Fleisch von [versklavten und getöteten] Tieren, für wirklich billig. "Sie haben nicht viel gelitten, wirklich ...", erklärt sie."	400
 choiceText	Buy the non-ethical organics [-4 exotics]	Kaufen Sie die nicht-ethische organische [-4 exotische]	100
 text2	Organic biomass, the advanced nanostuff that is universally used for life-support across the galaxy always has to be certified as ethical. This one does not bear any credentials however. You realize there is no guarantee the meat actually came from non-sentients. You'll be thinking about this before you go to sleep.	Organische Biomasse, der fortschrittliche Nanostoff, der überall in der Galaxie zur Lebenserhaltung verwendet wird, muss immer als ethisch zertifiziert sein. Dieses trägt jedoch keine Beglaubigung. Ihnen ist klar, dass es keine Garantie dafür gibt, dass das Fleisch tatsächlich von Nicht-Tieren stammt. Sie denken darüber nach, bevor Sie schlafen gehen.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. This market seems to be mostly supplied by smugglers and thieves - which, you feel, is much better than pirates and slavers. A local insectoid trader has a particularly attractive offer: 300 units of old fuel for mere scraps.	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur bewussten Sklaverei. Dieser Markt scheint hauptsächlich von Schmugglern und Dieben beliefert zu werden - was, wie Sie finden, viel besser ist als Piraten und Sklavenhändler. Ein lokaler Insektoiden-Händler hat ein besonders attraktives Angebot: 300 Einheiten alten Treibstoffs für bloße Schrottware.	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. This market seems to be mostly supplied by smugglers and thieves - which, you feel, is much better than pirates and slavers. A local insectoid trader has a particularly attractive offer: 300 units of old fuel for mere scraps.	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Dieser Markt scheint hauptsächlich von Schmugglern und Dieben beliefert zu werden - was, wie Sie finden, viel besser ist als Piraten und Sklavenhändler. Ein lokaler Insektoiden-Händler hat ein besonders attraktives Angebot: 300 Einheiten alten Treibstoffs für bloße Schrottware.	400
 choiceText	Buy the fuel [-4 exotics]	Kaufen Sie den Treibstoff [-4 Exoten]	100
 text2	It turns out the fuel is of very low quality. We will have to reprocess it for use, reducing the final volume.	Es stellt sich heraus, dass der Treibstoff von sehr schlechter Qualität ist. Wir werden ihn für die Verwendung aufbereiten müssen, was das Endvolumen reduziert.	400
 
@@ -5854,20 +5854,20 @@ title	Weapon traders	Waffenhändler	35
 text	Two of the Gitchanki traders have a particularly attractive offer: "Two pristine multibarrel lasers for mere scraps! The salesmen explain the origin of their wares as "They were just lying around somewhere."	Zwei der Gitchanki-Händler haben ein besonders attraktives Angebot: "Zwei tadellose Multibarrel-Laser für bloßen Schrott! Die Verkäufer erklären die Herkunft ihrer Ware mit "Sie lagen einfach irgendwo herum".	400
 choiceText	Buy the weapons [-6 exotics]	Kaufen Sie die Waffen [-6 Exoten]	100
 text2	After taking the shipment aboard, we discover an amputated insectoid hand stuck within the rotational part of the laser turret. We give it a quick recycling ritual.	Nachdem wir die Lieferung an Bord genommen haben, entdecken wir eine amputierte insektoide Hand, die im Rotationsteil des Laserturms steckt. Wir unterziehen sie einem kurzen Recycling-Ritual.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two humanoid traders have a particularly attractive offer:"An advanced medbay for mere scraps (we don't remember where we got it from)!"	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Empfindungssklaverei. Sie sehen jedoch verschiedene versklavte Tiere, die zwischen Waffen und anderen kriminalisierten Gegenständen verkauft werden. Zwei humanoide Händler haben ein besonders verlockendes Angebot: "Ein fortschrittliches Krankenstation für bloßen Schrott (wir wissen nicht mehr, woher wir es haben)!"	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two humanoid traders have a particularly attractive offer:"An advanced medbay for mere scraps (we don't remember where we got it from)!"	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Sie sehen jedoch verschiedene versklavte Tiere, die zwischen Waffen und anderen kriminalisierten Gegenständen verkauft werden. Zwei humanoide Händler haben ein besonders verlockendes Angebot: "Ein fortschrittliches Krankenstation für bloßen Schrott (wir wissen nicht mehr, woher wir es haben)!"	400
 text2	After taking the module aboard, you discover a cutoff leg of somebody inside its walls. Too late to complain now. The ship AI later has a chat with you about ethics.	Nachdem Sie das Modul an Bord genommen haben, entdecken Sie ein abgetrenntes Bein von jemandem in dessen Wänden. Zu spät, um sich jetzt zu beschweren. Die Schiffs-KI führt später ein Gespräch mit Ihnen über Ethik.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two Gor-Mor traders have a particularly attractive offer: a third generation ship sensor for almost nothing!	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Sklaverei von Lebewesen. Sie sehen jedoch, dass zwischen Waffen und anderen kriminalisierten Gegenständen verschiedene versklavte Tiere verkauft werden. Zwei Gor-Mor-Händler haben ein besonders attraktives Angebot: einen Schiffssensor der dritten Generation für fast nichts!	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two Gor-Mor traders have a particularly attractive offer: a third generation ship sensor for almost nothing!	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Sie sehen jedoch, dass zwischen Waffen und anderen kriminalisierten Gegenständen verschiedene versklavte Tiere verkauft werden. Zwei Gor-Mor-Händler haben ein besonders attraktives Angebot: einen Schiffssensor der dritten Generation für fast nichts!	400
 reasonToDisplay	trade	Handel	30
 text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. A local Grippy trader has a particularly attractive offer: a shield generator for only a few exotics. "I found it ;)" he explains its origins. "But the explosives I need for an art project ^.~"	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu empfindungsfähiger Sklaverei. Sie sehen jedoch, dass neben Waffen und anderen kriminalisierten Gegenständen auch verschiedene versklavte Tiere verkauft werden. Ein lokaler Grippy-Händler hat ein besonders verlockendes Angebot: einen Schildgenerator für ein paar Exoten. "Ich habe ihn gefunden ;)", erklärt er seine Herkunft. "Aber den Sprengstoff brauche ich für ein Kunstprojekt ^.~"	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. A local Gon-Bu trader has a particularly attractive offer: a fully automatic rapid fire cannon.	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Gefühlssklaverei. Sie sehen jedoch, dass zwischen Waffen und anderen kriminalisierten Gegenständen verschiedene versklavte Tiere verkauft werden. Ein lokaler Gon-Bu-Händler hat ein besonders attraktives Angebot: eine vollautomatische Schnellfeuerkanone.	400
-text	To your relief, the place does not have any obvious connections to sentient slavery. A local trader has a particularly cheap offer: 220 organics of unknown source for mere scraps! ("I guess we all get eaten in the end" remarks the trader)."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zur Empfindungssklaverei. Ein lokaler Händler hat ein besonders günstiges Angebot: 220 organische Stoffe unbekannter Herkunft für bloße Reste! ("Ich schätze, am Ende werden wir alle gegessen", bemerkt der Händler)."	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. A local Gon-Bu trader has a particularly attractive offer: a fully automatic rapid fire cannon.	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Sie sehen jedoch, dass zwischen Waffen und anderen kriminalisierten Gegenständen verschiedene versklavte Tiere verkauft werden. Ein lokaler Gon-Bu-Händler hat ein besonders attraktives Angebot: eine vollautomatische Schnellfeuerkanone.	400
+text	To your relief, the place does not have any obvious connections to sentient slavery. A local trader has a particularly cheap offer: 220 organics of unknown source for mere scraps! ("I guess we all get eaten in the end" remarks the trader)."	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Ein lokaler Händler hat ein besonders günstiges Angebot: 220 organische Stoffe unbekannter Herkunft für bloße Reste! ("Ich schätze, am Ende werden wir alle gegessen", bemerkt der Händler)."	400
 choiceText	Buy dubious organics [-5 exotics]	Fragwürdige Organik kaufen [-5 Exoten]	100
 text2	Organic biomass, the advanced nanostuff that is universally used for life-support across the galaxy is always certified as ethical. This one does not bear any credentials however. You begin to suspect these organics might be from someone sentient that was murdered. Too late to change anything now. You'll be talking with AI about it in the evening.	Organische Biomasse, der fortschrittliche Nanostoff, der überall in der Galaxie zur Lebenserhaltung eingesetzt wird, ist immer als ethisch einwandfrei zertifiziert. Dieses hier trägt jedoch keine Beglaubigung. Sie beginnen zu vermuten, dass diese organischen Stoffe von einem Wesen stammen könnten, das ermordet wurde. Es ist zu spät, jetzt noch etwas zu ändern. Sie werden am Abend mit der KI darüber sprechen.	400
 title	Explosives for sale	Sprengstoff zum Verkauf	35
-text	To our relief, the place does not have any obvious connections to sentient slavery. We don't find anything useful for our ship, except a bulk offer of explosives.	Zu unserer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu sentienter Sklaverei. Wir finden nichts Nützliches für unser Schiff, außer einem Großangebot an Sprengstoff.	400
+text	To our relief, the place does not have any obvious connections to sentient slavery. We don't find anything useful for our ship, except a bulk offer of explosives.	Zu unserer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Wir finden nichts Nützliches für unser Schiff, außer einem Großangebot an Sprengstoff.	400
 choiceText	Buy the 200 explosives [-4 exotics]	Kaufen Sie die 200 Sprengstoffe [-4 Exoten]	100
 newName3	explosives for sale	Sprengstoff zu verkaufen	25
-text2	Inspection after purchase reveals some of the explosives to have dangerously low quality. About half of them will have to be discarded and used as synthethics. Too late to complain now, the salesman has vanished from the market.	Bei der Inspektion nach dem Kauf stellt sich heraus, dass einige der Sprengstoffe von gefährlich schlechter Qualität sind. Ungefähr die Hälfte davon muss entsorgt und als Synthethika verwendet werden. Für Reklamationen ist es jetzt zu spät, der Verkäufer ist vom Markt verschwunden.	400
+text2	Inspection after purchase reveals some of the explosives to have dangerously low quality. About half of them will have to be discarded and used as synthethics. Too late to complain now, the salesman has vanished from the market.	Bei der Inspektion nach dem Kauf stellt sich heraus, dass einige der Sprengstoffe von gefährlich schlechter Qualität sind. Ungefähr die Hälfte davon muss entsorgt und als Kunststoffe verwendet werden. Für Reklamationen ist es jetzt zu spät, der Verkäufer ist vom Markt verschwunden.	400
 newName3	shady market, no offers	Zwielichtiger Markt, keine Angebote	25
 text2	Operation completed without problems. We may repeat the transaction.	Operation ohne Probleme abgeschlossen. Wir können die Transaktion wiederholen.	400
 
@@ -5875,17 +5875,17 @@ text2	Operation completed without problems. We may repeat the transaction.	Opera
 name2	>>Public materials convertor<<	>>Materieumwandler<<	25
 title	Matter Processors	Materieumwandler	35
 text	This is one of the ancient Intergalactic Public Matter Processors. These famous facilities were built by older races for public use centuries ago. They are still working after hundreds of years of service. We may convert some of our resources to others.	Dies ist einer der alten intergalaktischen öffentlichen Materieprozessoren. Diese berühmten Anlagen wurden von älteren Rassen vor Jahrhunderten für den öffentlichen Gebrauch gebaut. Sie sind auch nach Hunderten von Jahren noch in Betrieb. Wir können einige unserer Ressourcen in andere umwandeln.	400
-choiceText	Use facilities [convert 100 synthetics to 100 fuel]	Einrichtungen nutzen [100 Synthetik in 100 Treibstoff umwandeln]	100
-newName3	synthetics to fuel conversion	Synthetik in Treibstoff umwandeln	25
-title	Not enough synthethics	Nicht genug Synthetik	35
+choiceText	Use facilities [convert 100 synthetics to 100 fuel]	Einrichtungen nutzen [100 Kunststoffe in 100 Treibstoff umwandeln]	100
+newName3	synthetics to fuel conversion	Kunststoffe in Treibstoff umwandeln	25
+title	Not enough synthethics	Nicht genug Kunststoffe	35
 choiceText	Use facilities [convert 50 explosives to 52 fuel]	Anlagen verwenden [50 Sprengstoffe in 52 Treibstoffe umwandeln]	100
 newName3	explosives to fuel conversion	Sprengstoff in Treibstoff umwandeln	25
 text	This is one of the ancient Intergalactic Public Matter Processors. These facilities were built by older civilizations for public use centuries ago. They are still working after hundreds of years of service. We may convert some of our resources to others.	Dies ist einer der alten intergalaktischen öffentlichen Materieprozessoren. Diese Anlagen wurden von älteren Zivilisationen vor Jahrhunderten für den öffentlichen Gebrauch gebaut. Sie funktionieren auch noch nach Hunderten von Jahren. Wir können einige unserer Ressourcen in andere umwandeln.	400
 choiceText	Use facilities [convert 80 organics to 40 fuel]	Einrichtungen nutzen [80 Organik in 40 Treibstoff umwandeln]	100
-newName3	organics to fuel conversion	Umwandlung von organischen Stoffen in Treibstoff	25
+newName3	organics to fuel conversion	Umwandlung von Organik in Treibstoff	25
 title	Conversion complete	Umwandlung abgeschlossen	35
 text2	Time has degraded efficiency of the facility, as it was able to generate less fuel than expected. We may repeat the process any time.	Mit der Zeit hat sich die Effizienz der Anlage verschlechtert, da sie weniger Brennstoff als erwartet erzeugen konnte. Wir können den Vorgang jederzeit wiederholen.	400
-choiceTexts	Convert another 100 synthethics to fuel	Weitere 100 Synthethika in Treibstoff umwandeln	100
+choiceTexts	Convert another 100 synthethics to fuel	Weitere 100 Kunststoffe in Treibstoff umwandeln	100
 text2	After being loaded with the correct amount of explosives, the facilities start to make terrible noises and release large clouds of steam into the atmosphere. After a few hours, a container full of fuel emerges from the factory. We may repeat the process any time.	Nachdem die Anlage mit der richtigen Menge an Sprengstoff beladen wurde, beginnt sie schreckliche Geräusche zu machen und große Dampfwolken in die Atmosphäre abzugeben. Nach ein paar Stunden kommt ein Container voller Treibstoff aus der Fabrik. Der Vorgang kann jederzeit wiederholt werden.	400
 reasonToDisplay	explosives converted	Sprengstoff umgewandelt	30
 choiceTexts	Convert another 30 explosives to fuel	Weitere 30 Explosivstoffe in Treibstoff umwandeln	100
@@ -5935,7 +5935,7 @@ choiceText	Leave for now, this sounds dangerous	Gehen Sie erst mal, das klingt g
 text2	You leave the unique ecosystem of this planet untouched. Discovery of such peaceful coexistence with warp animals and carbon nature is a rare one. Careful study might create a scientific breakthrough in understanding warp life.	Sie lassen das einzigartige Ökosystem dieses Planeten unberührt. Die Entdeckung einer solch friedlichen Koexistenz von Warptieren und Kohlenstoffnatur ist selten. Eine sorgfältige Untersuchung könnte einen wissenschaftlichen Durchbruch im Verständnis von Warp-Leben schaffen.	400
 title	Warp animals spotted	Warp-Tiere gesichtet	35
 text	The planet is a lush garden, full of fruits and greenery ready for harvest. We spot multiple warp animals lazily floating about in the distance, they don't seem too interested in us at the moment. These large creatures are unpredictable and omnivores in the broadest sense though. They might, for example, sometimes hunt and eat spaceships.	Der Planet ist ein üppiger Garten, voll von Früchten und Grünzeug, das zur Ernte bereit ist. Wir entdecken mehrere Warptiere, die träge in der Ferne umherschweben, sie scheinen sich im Moment nicht allzu sehr für uns zu interessieren. Diese großen Kreaturen sind allerdings unberechenbar und Allesfresser im weitesten Sinne. Sie könnten zum Beispiel manchmal Raumschiffe jagen und fressen.	400
-choiceText	Research & eco-harvest organics [-20 fuel, -30 synthethics]	Forschung & Öko-Ernte organischer Stoffe [-20 Treibstoff, -30 Synthetik]	100
+choiceText	Research & eco-harvest organics [-20 fuel, -30 synthethics]	Forschung & Öko-Ernte organischer Stoffe [-20 Treibstoff, -30 Kunststoffe]	100
 choiceText	Resarch & harvest organics [-20 fuel]	Forschen & Organik ernten [-20 Treibstoff]	100
 choiceText	Take research samples and get the hell out of here	Forschungsproben nehmen und abhauen	100
 newName3	warp animal colony	Warptier-Kolonie	25
@@ -6239,7 +6239,7 @@ text2	We leave the beacon behind, to warn & inform other Earth ships. It will pr
 title	Terran military beacon	Terranische Militärbake	35
 text2	The Squids have overlooked this Earth military spy beacon. Its pings are scrambled to conceal them as background static. The beacon's miniature AI gives a summary of recent local events. \nNot much has happened here, but the beacon has data about passing Squid ships and their technical details. It appears most of the ships were armed with ray weapons. What should we do with the beacon?	Die Tintenfische haben diese militärische Spionagebake der Erde übersehen. Seine Pings sind verschlüsselt, um sie als Hintergrundrauschen zu verbergen. Die Miniatur-KI der Bake gibt eine Zusammenfassung der letzten lokalen Ereignisse. \nNicht viel ist hier passiert, aber die Bake hat Daten über vorbeifliegende Tintenfisch-Schiffe und deren technische Details. Es scheint, dass die meisten Schiffe mit Strahlenwaffen bewaffnet waren. Was sollen wir mit der Bake machen?	400
 choiceTexts	Leave it to warn other Earth ships	Es als Warnung für andere Erdenschiffe stehen lassen	100
-choiceTexts	Scrap it [expected value: ~40 synthetics]	Verschrotten [Erwarteter Wert: ~40 Synthetik]	100
+choiceTexts	Scrap it [expected value: ~40 synthetics]	Verschrotten [Erwarteter Wert: ~40 Kunststoffe]	100
 text2	Beacon scrapped.	Bake verschrottet.	400
 
 12 shop, all rat modules R.prefab
@@ -6428,15 +6428,15 @@ altText	After selecting a weapon, hover the cursor over enemy ship. <b>The strip
 altText	The most valuable keyboard shortcuts during battle are <b>F5</b> (for toggling weapon quick selection UI) and <b>numbers 1..9</b> (for selecting weapons). And use <b>k</b> for switching on/off modules.	Die wertvollsten Tastenkombinationen während des Kampfes sind <b>F5</b> (zum Umschalten der Waffen-Schnellauswahl-UI) und die <b>Zahlen 1..9</b> (zum Auswählen der Waffen). Und verwenden Sie <b>k</b> zum Ein- und Ausschalten von Modulen.	240
 choiceTexts	I will try to remember	Ich werde versuchen, mich zu erinnern	15
 altText	For starters, please check out the Help summary about aiming with weapons. It is essential to understand this, if you are to survive any real battles.	Schauen Sie sich für den Anfang die Hilfe-Zusammenfassung über das Zielen mit Waffen an. Es ist unerlässlich, dies zu verstehen, wenn Sie echte Kämpfe überleben wollen.	240
-altText	Module damaged. Damaged modules stop working and are colored red until repaired. Modules can be repaired only by your crew and <b>if you have enough synthethics...</b>	Modul beschädigt. Beschädigte Module hören auf zu funktionieren und werden rot eingefärbt, bis sie repariert sind. Module können nur von Ihrer Crew repariert werden und <b>wenn Sie genug Synthethika haben...</b>	240
+altText	Module damaged. Damaged modules stop working and are colored red until repaired. Modules can be repaired only by your crew and <b>if you have enough synthethics...</b>	Modul beschädigt. Beschädigte Module hören auf zu funktionieren und werden rot eingefärbt, bis sie repariert sind. Module können nur von Ihrer Crew repariert werden und <b>wenn Sie genug Kunststoffe haben...</b>	240
 choiceTexts	Tell me more	Erzähl mir mehr	15
-altText	...repairing each module hitpoint needs 10 synthethics. <b>Scrap the synthethics packages</b> from your module storage to get repair materials.	...benötigt die Reparatur jedes Modul-Trefferpunktes 10 Synthethika. <b>Schrotten Sie die Synthethik-Pakete</b> aus Ihrem Frachtraum, um Reparaturmaterialien zu erhalten.	240
+altText	...repairing each module hitpoint needs 10 synthethics. <b>Scrap the synthethics packages</b> from your module storage to get repair materials.	...benötigt die Reparatur jedes Modul-Trefferpunktes 10 Kunststoffe. <b>Schrotten Sie die Kunststoffe-Pakete</b> aus Ihrem Frachtraum, um Reparaturmaterialien zu erhalten.	240
 altText	All weapons should now have enough resources for ammo. You can turn them on by selecting the weapon and using default shortkey (which is <b>K</b>) or clicking on the <b>power button</b> in weapon info panel. Make sure all our modules are online before we start the combat tutorial.	Alle Waffen sollten nun genügend Ressourcen für Munition haben. Sie können sie einschalten, indem Sie die Waffe auswählen und die Standard-Kurztaste (die <b>K</b> ist) verwenden oder auf die <b>Power-Schaltfläche</b> im Waffeninfopanel klicken. Stellen Sie sicher, dass alle unsere Module online sind, bevor wir mit der Kampf-Einführung beginnen.	240
 choiceTexts	Skip this step	Überspringen Sie diesen Schritt	15
 altText	For starters, check out this overview about basic weapon types.	Sehen Sie sich für den Anfang diese Übersicht über die grundlegenden Waffentypen an.	240
 choiceTexts	OK, show me	OK, zeigen Sie mir	15
-altText	Module repairs are possible if you have obtained necessary resources by <b>scrapping the synthethics packages</b> from the module storage.	Modulreparaturen sind möglich, wenn Sie die notwendigen Ressourcen durch <b>Auspacken der Synthethik-Pakete</b> aus dem Modulspeicher erhalten haben.	240
-choiceTexts	Yeah, I have synthethics for repairs	Ja, ich habe Synthethika für Reparaturen	15
+altText	Module repairs are possible if you have obtained necessary resources by <b>scrapping the synthethics packages</b> from the module storage.	Modulreparaturen sind möglich, wenn Sie die notwendigen Ressourcen durch <b>Schrotten der Kunststoffe-Pakete</b> aus dem Modulspeicher erhalten haben.	240
+choiceTexts	Yeah, I have synthethics for repairs	Ja, ich habe Kunststoffe für Reparaturen	15
 altText	To start repairing a module, select crew and <b>R-click</b> on the broken module. Doing it via crew roles panel automatically sends the best unoccupied crew or drones to fix things.	Um die Reparatur eines Moduls zu starten, wählen Sie die Crew und <b>R-Klick</b> auf das kaputte Modul. Wenn Sie das über das Crew-Rollen-Panel tun, wird automatisch die beste unbeschäftigte Crew oder Drohnen zur Reparatur geschickt.	240
 altText	If your weapons run out of <b>ammo</b>, always check if you have something in <b>module storage</b> that might help. Currently, we should still have metal and explosives packages in storage.	Wenn Ihren Waffen die <b>Ammo</b> ausgeht, schauen Sie immer nach, ob Sie etwas im <b>Frachtraum</b> haben, das helfen könnte. Derzeit sollten noch Metall- und Sprengstoffpakete im Lager sein.	240
 choiceTexts	Got it - scrapping stuff for ammo	Verstanden - Sachen für Munition verschrotten	15
@@ -6962,7 +6962,7 @@ text	Another ship warps in and joins the attacker, there's now two of them!	Ein 
 text	The unresponsive ship scans us in silence, but turns away after discovering we are armed with capital missile(s). It's most likely a pirate looking for easy victims.	Das nicht reagierende Schiff scannt uns in aller Ruhe, wendet sich aber ab, nachdem es entdeckt hat, dass wir mit kapitalen Raketen bewaffnet sind. Wahrscheinlich ist es ein Pirat, der nach leichten Opfern sucht.	400
 title	Crude offer	Grobes Angebot	35
 text	"WE NOT PIRATE. JUST LOOKING. FOUND VERY BIG CRYSTAL, GIVE IT TO YOU, ITSELF GO HOME AND BE GOOD NOT PIRATE. WE HAVE DEAL?"	WIR SIND KEINE PIRATEN. WIR SIND NUR AUF DER SUCHE. HABE SEHR GROSSEN KRISTALL GEFUNDEN, GEBE IHN DIR, GEHE SELBST NACH HAUSE UND SEI GUT, NICHT PIRAT. WIR HABEN DEAL?	400
-choiceText	Deal [receive the crystal]	Deal [erhalte den Kristall]	100
+choiceText	Deal [receive the crystal]	Handel [erhalte den Kristall]	100
 choiceText	You're killers trying to bribe us [to battle]	Ihr seid Killer, die uns bestechen wollen [zum Kampf]	100
 text2	The pirate leaves as we receive the crystal.	Der Pirat geht, als wir den Kristall erhalten.	400
 reasonToDisplay	Accepted a bribe	Akzeptiert eine Bestechung	30
@@ -6970,14 +6970,14 @@ reasonToDisplay	Accepted a bribe	Akzeptiert eine Bestechung	30
 Ambusher L2 pirates 2 pirate guardians, Decoy.prefab
 text	There's two ships in that fleet, scanning us and jamming our sensors. They turn away after discovering our nukes. Probably pirates looking for easy prey.	Es gibt zwei Schiffe in der Flotte, die uns scannen und unsere Sensoren stören. Sie wenden sich ab, nachdem sie unsere Nuklearwaffen entdeckt haben. Wahrscheinlich Piraten, die nach leichter Beute suchen.	400
 text	"HELLO, WE NON-PIRATE, JUST LOOKING. WE FOUND MOUNTAIN OF EXOTICS, GIVE IT TO YOU, ITSELF GO HOME. WE HAVE DEAL?"	HALLO, WIR SIND NICHT-PIRATEN UND NUR AUF DER SUCHE. WIR HABEN EINEN BERG VON EXOTEN GEFUNDEN, GEBEN IHN EUCH UND GEHEN NACH HAUSE. WIR HABEN DEAL?	400
-choiceText	Deal [receive 3 exotics]	Deal [+3 Exoten]	100
+choiceText	Deal [receive 3 exotics]	Handel [+3 Exoten]	100
 choiceText	You're murderers trying to bribe us [to battle]	Ihr seid Mörder und wollt uns bestechen [zum Kampf]	100
 text2	The pirate leaves as we receive the exotics.	Der Pirat geht, als wir die Exoten erhalten.	400
 
 Ambusher L2 pirates 3 smalls.prefab
 text	There's three ships in that fleet, scanning us and jamming our sensors. They turn away after discovering our nukes. Probably pirates looking for easy prey.	Es gibt drei Schiffe in der Flotte, die uns scannen und unsere Sensoren stören. Sie wenden sich ab, nachdem sie unsere Atomwaffen entdeckt haben. Wahrscheinlich Piraten, die nach leichter Beute suchen.	400
 text	"IF YOU LET US GO, THEN YOU GOOD. IF YOU GOOD, THEN WE GIVE YOU BIGGEST EXOTIC CRYSTAL, ALSO GOOD DRINK, GOOD FOOD."	WENN IHR UNS GEHEN LASST, SEID IHR GUT. WENN IHR GUT SEID, DANN GEBEN WIR EUCH DEN GRÖSSTEN EXOTISCHEN KRISTALL, AUSSERDEM GUTE GETRÄNKE UND GUTES ESSEN.	400
-choiceText	Deal [receive exotic crystal and edibles]	Deal [erhalte exotischen Kristall und Esswaren]	100
+choiceText	Deal [receive exotic crystal and edibles]	Handel [erhalte exotischen Kristall und Essbares]	100
 choiceText	You lived like predators and you will die like predators [to battle]	Ihr habt gelebt wie Raubtiere und werdet sterben wie Raubtiere [zum Kampf]	100
 text2	The pirate leaves as we receive the package.	Der Pirat geht, als wir das Paket erhalten.	400
 
@@ -6988,7 +6988,7 @@ text	A single hostile ship closing in. It is charging up weapons and does not re
 text	There's one or two ships in that fleet, scanning us and jamming our sensors. They turn away after discovering our nukes. Probably pirates looking for easy prey.	Es gibt ein oder zwei Schiffe in der Flotte, die uns scannen und unsere Sensoren stören. Sie wenden sich ab, nachdem sie unsere Atomwaffen entdeckt haben. Wahrscheinlich Piraten, die nach leichter Beute suchen.	400
 title	Bribe offer	Bestechungsangebot	35
 text	"Your ship is stonger than we thought, but nobody needs to get hurt here. Would you let us go and accept these crates of explosives we have lying around, plus some good old gold? And everyone can live happily ever after. It's not like we're worse than the other rats around here."	Euer Schiff ist stärker als wir dachten, aber hier muss niemand verletzt werden. Würden Sie uns gehen lassen und diese Kisten mit Sprengstoff annehmen, die wir hier herumliegen haben, plus etwas gutes altes Gold? Und alle können glücklich bis ans Ende ihrer Tage leben. Es ist ja nicht so, dass wir schlimmer sind als die anderen Ratten hier.	400
-choiceText	Deal [receive 2 crates of explosives plus 100 metal]	Deal [+2 Kisten Sprengstoff +100 Metalle]	100
+choiceText	Deal [receive 2 crates of explosives plus 100 metal]	Handel [+2 Sprengstoffe-Packete +100 Metalle]	100
 choiceText	You are killers trying to buy your way out [to battle]	Ihr seid Killer, die sich freikaufen wollen [zur Schlacht]	100
 
 Ambusher L2 pirates, DECOY ships.prefab
@@ -7006,7 +7006,7 @@ text2	"GOOD CHOICE."	GUTE WAHL!	400
 reasonToDisplay	extortion by aliens	erpressung durch aliens	30
 text	Three ships are rapidly approaching tactical range, shields active. The enemy fleet is using some kind of jamming device to block more detailed scanning at this range.	Drei Schiffe nähern sich schnell der taktischen Reichweite, Schilde aktiv. Die feindliche Flotte setzt eine Art Störsender ein, um genauere Scans auf diese Entfernung zu blockieren.	600
 text	"Nobody needs to get hurt here. Would you let us go if we give you this super rare artifact, plus one of our own ship weapons? The artifact is an ancient device filled with huge amounts of xenodata. If we get destroyed, the wisdom contained in it will be lost forever."	Hier muss niemand verletzt werden. Würdet ihr uns gehen lassen, wenn wir euch dieses super seltene Artefakt geben, plus eine unserer eigenen Schiffswaffen? Das Artefakt ist ein uraltes Gerät, gefüllt mit riesigen Mengen an Xenodaten. Wenn wir zerstört werden, wird die darin enthaltene Weisheit für immer verloren sein.	400
-choiceText	Deal [receive a weapon plus data core]	Deal [eine Waffe plus Datenkern erhalten]	100
+choiceText	Deal [receive a weapon plus data core]	Handel [eine Waffe plus Datenkern erhalten]	100
 choiceText	Getting killed is the logical outcome of being a pirate [proceed to battle]	Getötet zu werden ist die logische Konsequenz des Piratendaseins [weiter zum Kampf]	100
 
 Ambusher L2 pirates, hammerhead + Hship.prefab
@@ -7833,7 +7833,7 @@ description	5% chance of explosion per minute	5% Explosionsgefahr pro Minute	250
 
 Extra synth cost damage token.prefab
 displayName	Component broken	Bauteil gebrochen	35
-description	costs extra 40 synthetics when repairing manually	kostet bei manueller Reparatur zusätzlich 40 Synthetik	250
+description	costs extra 40 synthetics when repairing manually	kostet bei manueller Reparatur zusätzlich 40 Kunststoffe	250
 
 Fire critical damage token.prefab
 displayName	Integrity damage, critical fire hazard	Integritätsschaden, kritische Brandgefahr	35
@@ -8423,7 +8423,7 @@ displayName	Metals container X-large	Metallcontainer X-groß	40
 
 multicontainer biotec-scaled FO.prefab
 displayName	Biotech Multi-container FO	Biotech Multi-Container FO	40
-description	Increases storage capacity of organics & fuel. Advanced biotech materials increase ship HP.	Erhöht die Lagerkapazität von organischen Stoffen und Treibstoff. Fortschrittliche Biotech-Materialien erhöhen die Schiffs-HP.	200
+description	Increases storage capacity of organics & fuel. Advanced biotech materials increase ship HP.	Erhöht die Lagerkapazität von Organik und Treibstoff. Fortschrittliche Biotech-Materialien erhöhen die Schiffs-HP.	200
 
 multicontainer DIY EE.prefab
 displayName	Exotics & Explosives storage (DIY)	Exotik- & Sprengstoff-Lagerung (DIY)	40
@@ -8435,22 +8435,22 @@ description	Increases storage capacity of organics & fuel.	Erhöht die Lagerkapa
 
 multicontainer EOME spideraa.prefab
 displayName	Exotic multi-container EOME	Exoten-Mehrfachcontainer EOME	40
-description	Increases storage capacity of explosives, organics, metal & exotics. Durable structure increases ship HP.	Erhöht die Lagerkapazität von Sprengstoff, organischem Material, Metall und Exoten. Langlebige Struktur erhöht die Schiffs-HP.	200
+description	Increases storage capacity of explosives, organics, metal & exotics. Durable structure increases ship HP.	Erhöht die Lagerkapazität von Sprengstoff, Organik, Metall und Exoten. Langlebige Struktur erhöht die Schiffs-HP.	200
 
 multicontainer ESM-1.prefab
 displayName	Multi-container ESM-1	Multibehälter ESM-1	40
-description	Increases storage capacity of metal, synthethics & explosives.	Erhöht die Lagerkapazität von Metall, Synthetik und Sprengstoff.	200
+description	Increases storage capacity of metal, synthethics & explosives.	Erhöht die Lagerkapazität von Metallen, Kunststoffen und Sprengstoffen.	200
 
 multicontainer ESM-2.prefab
 displayName	Multi-container ESM-2	Mehrfach-Behälter ESM-2	40
 
 multicontainer FE armor.prefab
 displayName	Armored container FE	Gepanzerter Container FE	40
-description	Increases fuel and explosives storage capacity. Additional armor improves ship HP.	Erhöht die Lagerkapazität für Treibstoff und Sprengstoff. Zusätzliche Panzerung verbessert die Schiffs-HP.	200
+description	Increases fuel and explosives storage capacity. Additional armor improves ship HP.	Erhöht die Lagerkapazität für Treibstoff und Sprengstoffen. Zusätzliche Panzerung verbessert die Schiffs-HP.	200
 
 multicontainer FEO-1.prefab
 displayName	Multi-container FEO	Multi-Container FEO	40
-description	Increases storage capacity of organics, fuel & exotics. Heavy metal walls required for holding exotics also increase ship HP.	Erhöht die Lagerkapazität von organischen Stoffen, Treibstoff und Exoten. Schwere Metallwände, die für die Aufnahme von Exoten erforderlich sind, erhöhen auch die HP des Schiffs.	200
+description	Increases storage capacity of organics, fuel & exotics. Heavy metal walls required for holding exotics also increase ship HP.	Erhöht die Lagerkapazität von Organik, Treibstoff und Exoten. Schwere Metallwände, die für die Aufnahme von Exoten erforderlich sind, erhöhen auch die HP des Schiffs.	200
 
 multicontainer FExo DIY armor.prefab
 displayName	DIY multicontainer (fuel/exotics)	DIY-Multicontainer (Treibstoff/Exotika)	40
@@ -8465,11 +8465,11 @@ description	Increases storage capacity of fuel, organics & synthetics.	Erhöht d
 
 multicontainer FSE biotech.prefab
 displayName	Armored multi-container FSE	Gepanzerter Multicontainer FSE	40
-description	This biotech container increases storage capacity of fuel, synhtetics & exotics. Armored structure adds ship HP.	Dieser Biotech-Container erhöht die Lagerkapazität von Treibstoff, Synthetik und Exoten. Die gepanzerte Struktur erhöht die Schiffs-HP.	200
+description	This biotech container increases storage capacity of fuel, synhtetics & exotics. Armored structure adds ship HP.	Dieser Biotech-Container erhöht die Lagerkapazität von Treibstoff, Kunststoffen und Exoten. Die gepanzerte Struktur erhöht die Schiffs-HP.	200
 
 multicontainer FSEE biotech.prefab
 displayName	Multi-container FSEE	Multi-Container FSEE	40
-description	Increases storage capacity of fuel, synthetics, explosives & exotics.	Erhöht die Lagerkapazität von Treibstoff, Synthetik, Sprengstoff und Exoten.	200
+description	Increases storage capacity of fuel, synthetics, explosives & exotics.	Erhöht die Lagerkapazität von Treibstoff, Kunststoffen, Sprengstoffen und Exoten.	200
 
 multicontainer MFE retro futu.prefab
 displayName	Multi-container MFE	Multi-Container MFE	40
@@ -8477,7 +8477,7 @@ description	Increases storage capacity of metals, fuel & explosives.	Erhöht die
 
 multicontainer MFO retro futu.prefab
 displayName	Multi-container MFO	Mehrbehälter MFO	40
-description	Increases storage capacity of metals, fuel & organics.	Erhöht die Lagerkapazität für Metalle, Treibstoff und organische Stoffe.	200
+description	Increases storage capacity of metals, fuel & organics.	Erhöht die Lagerkapazität von Metallen, Treibstoff und organische Stoffe.	200
 
 multicontainer MS-1.prefab
 displayName	Multi-container MS-I	Multi-Behälter MS-I	40
@@ -8515,17 +8515,17 @@ organics container 5 ultra large.prefab
 displayName	Organics container (extended x-large)	Organik-Behälter (erweitert x-groß)	40
 
 synthetics container 0 diy.prefab
-displayName	Synthetics container (DIY)	Synthetik-Behälter (DIY)	40
-description	Increases synthethics storage capacity.	Erhöht die Speicherkapazität für Synthetik.	200
+displayName	Synthetics container (DIY)	Kunststoffe-Behälter (DIY)	40
+description	Increases synthethics storage capacity.	Erhöht die Speicherkapazität für Kunststoffe.	200
 
 synthetics container1 small.prefab
-displayName	Synthetics container (small)	Synthetik-Behälter (klein)	40
+displayName	Synthetics container (small)	Kunststoffe-Behälter (klein)	40
 
 synthetics container2 medium.prefab
-displayName	Synthetics container (medium)	Synthetik-Behälter (mittel)	40
+displayName	Synthetics container (medium)	Kunststoffe-Behälter (mittel)	40
 
 synthetics container3 large.prefab
-displayName	Synthetics container (large)	Synthetik-Behälter (groß)	40
+displayName	Synthetics container (large)	Kunststoffe-Behälter (groß)	40
 
 cryosleep 1 DIY.prefab
 displayName	DIY cryosleepx1	DIY-Kryoschlaf x1	40
@@ -8753,7 +8753,7 @@ MaterialsConverter.resourceProductionReason	produced by explosives recycler	herg
 
 explosives combinator 1.prefab
 displayName	Explosives combinator, grade I	Sprengstoff-Kombinator, Grad I	40
-description	Instantly combines desired amount of synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	Kombiniert sofort die gewünschte Menge an Synthetik und Treibstoff zu Sprengstoff. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200
+description	Instantly combines desired amount of synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	Kombiniert sofort die gewünschte Menge an Kunststoffen und Treibstoff zu Sprengstoff. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200
 MaterialsConverter.resourceConsumptionReason	converted to explosives	umgewandelt in Sprengstoff	30
 MaterialsConverter.resourceProductionReason	produced by explosives combinator	hergestellt durch Explosivstoff-Kombinator	30
 
@@ -8793,20 +8793,20 @@ MaterialsConverter.resourceProductionReason	produced by synthethics cooker	herge
 dronebay 0 diy.prefab
 displayName	Drone repair DIY	Drohnen-Reparatur DIY	40
 description	Improvised repair station for drones. Repairing each drone hitpoint requires a lot of synthetics.	Improvisierte Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Trefferpunkts erfordert eine Menge Synthetics.	200
-Medbay.healingStoppedLogMsg	Warning, drone repairing stopped due to lack of synhtetics	Warnung, die Drohnenreparatur wurde aufgrund des Mangels an Synthethika eingestellt	80
+Medbay.healingStoppedLogMsg	Warning, drone repairing stopped due to lack of synhtetics	Warnung, die Drohnenreparatur wurde aufgrund des Mangels an Kunststoffen eingestellt	80
 
 dronebay 1 basic.prefab
 displayName	Drone repair station	Drohnen-Reparaturstation	40
-description	Repair station for drones. Repairing each drone hitpoint costs synthethics, The station can repair several drones in the same time.	Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Trefferpunktes kostet Synthethika. Die Station kann mehrere Drohnen gleichzeitig reparieren.	200
+description	Repair station for drones. Repairing each drone hitpoint costs synthethics, The station can repair several drones in the same time.	Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Trefferpunktes kostet Kunststoffe. Die Station kann mehrere Drohnen gleichzeitig reparieren.	200
 
 medbay0 diy.prefab
 displayName	Medbay (DIY)	Krankenstation (Selbstbau)	40
-description	Improvised medbay. Uses excessive amounts of organics to heal crewmember wounds.	Improvisierte Krankenstation. Verwendet übermäßige Mengen an organischen Stoffen, um Wunden von Besatzungsmitgliedern zu heilen.	200
-Medbay.healingStoppedLogMsg	Warning, crew healing stopped due to lack of organics	Warnung, die Heilung von Besatzungsmitgliedern wurde aufgrund des Mangels an organischen Stoffen gestoppt.	80
+description	Improvised medbay. Uses excessive amounts of organics to heal crewmember wounds.	Improvisierte Krankenstation. Verwendet übermäßige Mengen an Organik, um Wunden von Besatzungsmitgliedern zu heilen.	200
+Medbay.healingStoppedLogMsg	Warning, crew healing stopped due to lack of organics	Warnung, die Heilung von Besatzungsmitgliedern wurde aufgrund des Mangels an Organik gestoppt.	80
 
 medbay1 Rat.prefab
 displayName	Medbay [ancient]	Krankenstation [antik]	40
-description	Medical nanomachines assembly. Consumes lots of organics when healing.	Zusammenbau medizinischer Nanomaschinen. Verbraucht bei der Heilung eine große Menge an organischen Stoffen.	200
+description	Medical nanomachines assembly. Consumes lots of organics when healing.	Zusammenbau medizinischer Nanomaschinen. Verbraucht bei der Heilung eine große Menge an Organik.	200
 
 medbay2 startversion.prefab
 displayName	Medbay type 202	Krankenstation, Typ 202	40
@@ -8981,7 +8981,7 @@ displayName	Organics pack	Organik-Paket	40
 description	Selection of various carbon-organic substances, ready for consumption. Provides organics when scrapped.	Auswahl verschiedener kohlenstofforganischer Substanzen, die verbraucht werden können. Liefert bei der Verschrottung organische Stoffe.	200
 
 synth pack.prefab
-displayName	Synthetics pack	Synthetik-Paket	40
+displayName	Synthetics pack	Kunststoffe-Paket	40
 description	Selection of synthetic substances prepared for 3D-printers. Provides synthetics when scrapped.	Auswahl an synthetischen Substanzen, die für 3D-Drucker vorbereitet sind. Liefert synthetische Stoffe, wenn sie verschrottet werden.	200
 
 lab 1xgood.prefab
@@ -9893,7 +9893,7 @@ unlockText	Complete tutorial to unlock	Freischaltung: Einführung abschließen	1
 unlockAnnouncementText	Earth Alliance always needs trained space captains or diplomats for a variety of missions. You were granted unlimited use of this little ship after graduating the EA Fleet Academy.	Die Erd-Allianz braucht immer ausgebildete Raumkapitäne oder Diplomaten für eine Vielzahl von Missionen. Dieses kleine Schiff steht Ihnen nach Abschluss der EA-Flottenakademie unbegrenzt zur Verfügung.	100
 
 03 Weirdship.prefab
-description	An antique Space-Eel exploration ship obtained from a museum, packed with unconventional technology and crewed by space hippies. Many of the ship's modules function by eating organics (extra rations are recommended). Starts with a shoomery and medbay.	Ein antikes Space-Eel-Forschungsschiff, das Sie aus einem Museum erhalten haben, vollgepackt mit unkonventioneller Technologie und einer Crew aus Weltraum-Hippies. Viele der Schiffsmodule funktionieren durch den Verzehr von organischen Stoffen (Extra-Rationen werden empfohlen). Startet mit einer Pilzplantage und einer Krankenstation.	400
+description	An antique Space-Eel exploration ship obtained from a museum, packed with unconventional technology and crewed by space hippies. Many of the ship's modules function by eating organics (extra rations are recommended). Starts with a shoomery and medbay.	Ein antikes Space-Eel-Forschungsschiff, das Sie aus einem Museum erhalten haben, vollgepackt mit unkonventioneller Technologie und einer Crew aus Weltraum-Hippies. Viele der Schiffsmodule funktionieren durch den Verzehr von Organik (Extra-Rationen werden empfohlen). Startet mit einer Pilzplantage und einer Krankenstation.	400
 unlockText	Die at least once to unlock	Freischaltung: Mindestens einmal sterben	100
 unlockAnnouncementText	Our encounters have created a chain reaction of events, eventually leading to an exclusive access of this antique Yu-Ee ship.	Unsere Begegnungen haben eine Kettenreaktion von Ereignissen ausgelöst, die schließlich zu einem exklusiven Zugang zu diesem antiken Yu-Ee-Schiff geführt haben.	100
 
@@ -10199,7 +10199,7 @@ displayName	The volunteer	Der Freiwillige	40
 description	A volunteer joins the mission. They bring along some recreational supplies.	Ein Freiwilliger schließt sich der Mission an. Er bringt ein paar Erholungsvorräte mit.	250
 randomizerMenuStrings[i]	+1 crew (human volunteer)	+1 Besatzung (menschlicher Freiwilliger)	30
 randomizerMenuStrings[i]	+15 organics	+15 Organik	30
-randomizerMenuStrings[i]	+15 synthetics	+15 Synthetik	30
+randomizerMenuStrings[i]	+15 synthetics	+15 Kunststoffe	30
 
 Perk crew lizard firefighter.prefab
 displayName	The Fire monk	Der Feuermönch	40
@@ -10251,7 +10251,7 @@ Perk drone 00 smallbot.prefab
 displayName	The swearing smallbot	Der fluchende Smallbot	40
 description	A small toy drone. Knows vulgar words in all human languages & draws fire from intruders during internal combat.\nPerfect obedience but no abilities besides movement & swearing.	Eine kleine Spielzeugdrohne. Kennt vulgäre Wörter in allen menschlichen Sprachen & zieht im internen Kampf das Feuer von Eindringlingen auf sich.\nPerfekter Gehorsam, aber keine Fertigkeiten außer Bewegung & Fluchen.	250
 randomizerMenuStrings[i]	+1 drone	+1 Drone	30
-randomizerMenuStrings[i]	+15 synthetics (spare parts)	+15 Synthetik (Ersatzteile)	30
+randomizerMenuStrings[i]	+15 synthetics (spare parts)	+15 Kunststoffe (Ersatzteile)	30
 
 Perk drone 01 DIY fire safety.prefab
 displayName	DIY fire safety drone	DIY-Feuerschutzdrohne	40
@@ -10433,7 +10433,7 @@ randomizerMenuStrings[i]	-120 credits	-120 Credits	30
 
 Perk module container MS1.prefab
 displayName	The extra container	Der Extra-Container	40
-description	A container that increases storage capacity for metal & synthetics. We have to start improving our containers early on because the best ship upgrades need 900 metal and 500 synthetics.	Ein Container, der die Lagerkapazität für Metalle und Synthetik erhöht. Wir müssen früh damit beginnen, unsere Container zu verbessern, da die besten Schiffsaufrüstungen 900 Metalle und 500 Synthetik benötigen.	250
+description	A container that increases storage capacity for metal & synthetics. We have to start improving our containers early on because the best ship upgrades need 900 metal and 500 synthetics.	Ein Container, der die Lagerkapazität für Metalle und Synthetik erhöht. Wir müssen früh damit beginnen, unsere Container zu verbessern, da die besten Schiffsaufrüstungen 900 Metalle und 500 Kunststoffe benötigen.	250
 randomizerMenuStrings[i]	+1 metal/synthetics container	+1 Metalle-/Synthetik-Container	30
 
 Perk module decommissioned DIY ecms x3.prefab
@@ -10500,7 +10500,7 @@ randomizerMenuStrings[i]	+1 DIY exotic raygun	+1 DIY Exotische Strahlenwaffe	30
 Perk module DIY explo combinator, to 3ships.prefab
 displayName	Explosives combinator DIY	Sprengstoff-Kombinator DIY	40
 description	This matter combinator can be fitted to Tigerfish utility frigates for a small price. Being able to produce explosives means our weapons don't run out of ammo so quickly, and we have greater freedom to dedicate resources into crafting DIY nukes.	Dieser Materie-Kombinator kann gegen einen geringen Preis an Tigerfisch-Versorgungsfregatten angebracht werden. Die Fähigkeit, Sprengstoff zu produzieren, bedeutet, dass unseren Waffen nicht so schnell die Munition ausgeht und wir mehr Freiheit haben, Ressourcen für die Herstellung von DIY-Nukes zu verwenden.	250
-randomizerMenuStrings[i]	Allows combining fuel and synthetics into explosives	Ermöglicht die Kombination von Treibstoff und Synthetik zu Sprengstoff	30
+randomizerMenuStrings[i]	Allows combining fuel and synthetics into explosives	Ermöglicht die Kombination von Treibstoff und Kunststoffen zu Sprengstoffen	30
 
 Perk module DIY garden.prefab
 displayName	DIY garden	DIY-Garten	40
@@ -10649,8 +10649,8 @@ displayName	Extra shroomery	Extra Pilzplantage	40
 description	Adds an aditional module for rapidly growing edible mushrooms. All gardens remove operator food consumption and generate additional organics during ship movement.	Fügt ein zusätzliches Modul für den schnellen Anbau von essbaren Pilzen hinzu. Alle Gärten entfernen den Nahrungsverbrauch des Operators und generieren zusätzliche Organics während der Schiffsbewegung.	250
 
 Perk module synth cooker, to tigerfish.prefab
-displayName	Synthethics Cooker 9000	Synthethik-Kocher 9000	40
-description	This sustainability module allows converting organics to synthetics. Being able to produce synthethics means you never run out of materials that are necessary for repairing ship modules.	Dieses Nachhaltigkeitsmodul ermöglicht die Umwandlung von organischen Stoffen in synthetische Stoffe. Die Möglichkeit, synthetische Stoffe zu produzieren, bedeutet, dass Ihnen nie die Materialien ausgehen, die für die Reparatur von Schiffsmodulen notwendig sind.	250
+displayName	Synthethics Cooker 9000	Kunststoff-Kocher 9000	40
+description	This sustainability module allows converting organics to synthetics. Being able to produce synthethics means you never run out of materials that are necessary for repairing ship modules.	Dieses Nachhaltigkeitsmodul ermöglicht die Umwandlung von Organik in Kunststoffe. Die Möglichkeit, synthetische Stoffe zu produzieren, bedeutet, dass Ihnen nie die Materialien ausgehen, die für die Reparatur von Schiffsmodulen notwendig sind.	250
 randomizerMenuStrings[i]	Convertor module that can turn organics into synthetics	Konvertermodul, das organische Stoffe in synthetische umwandeln kann	30
 
 Perk module weapon bank missile x2.prefab
@@ -12201,12 +12201,12 @@ Tips pool.prefab
 	You can only see enemy fleets if they have stealth value lower than stealth detection of your ship.	Sie können feindliche Flotten nur dann sehen, wenn deren Tarnkappenwert niedriger ist als die Tarnkappenerkennung Ihres Schiffes.	0
 	Utility drones are not visually represented in Mothership internal view. They are only used automatically during events.	Versorgungsdrohnen werden in der Innenansicht des Mutterschiffs nicht visuell dargestellt. Sie werden nur bei Ereignissen automatisch eingesetzt.	0
 	Your ship always carries a set of cheaply printable utility bots (scouting, mining, research etc) that are used automatically during events.	Ihr Schiff trägt immer einen Satz billig druckbarer Versorgungsbots (Auskundschaftung, Abbau, Erforschung etc.), die während Events automatisch eingesetzt werden.	0
-	Losing utility bots during events may result in loss of synthethics and metals.	Der Verlust von Versorgungsbots während eines Events kann zum Verlust von Synthethika und Metallen führen.	0
+	Losing utility bots during events may result in loss of synthethics and metals.	Der Verlust von Versorgungsbots während eines Events kann zum Verlust von Kunststoffen und Metallen führen.	0
 	Sometimes losing utility bots doesn't result in resource loss because their components were recovered.	Manchmal führt der Verlust von Versorgungsbots nicht zu einem Ressourcenverlust, da ihre Komponenten wiederhergestellt wurden.	0
-	Your ship uses metals and synthethics to construct utility bots automatically.	Ihr Schiff verwendet Metalle und Synthethika, um Versorgungsbots automatisch zu konstruieren.	0
+	Your ship uses metals and synthethics to construct utility bots automatically.	Ihr Schiff verwendet Metalle und Kunststoffe, um Versorgungsbots automatisch zu konstruieren.	0
 	Crew will add their skill bonus when operating some modules or ship weapons.	Die Besatzung erhält einen Fertigkeitsbonus, wenn sie einige Module oder Schiffswaffen bedient.	0
 	Material converters allow processing one resource into another. This can make the difference between life and death.	Materialkonverter ermöglichen die Verarbeitung einer Ressource in eine andere. Dies kann den Unterschied zwischen Leben und Tod ausmachen.	0
-	Your ship automatically builds & tactically sacrifices utility bots during battles that happen off-screen. This results in loss of metals & synthethics.	Ihr Schiff baut automatisch Versorgungsbots und opfert sie taktisch während Kämpfen, die außerhalb des Bildschirms stattfinden. Dies führt zum Verlust von Metallen & Synthethika.	0
+	Your ship automatically builds & tactically sacrifices utility bots during battles that happen off-screen. This results in loss of metals & synthethics.	Ihr Schiff baut automatisch Versorgungsbots und opfert sie taktisch während Kämpfen, die außerhalb des Bildschirms stattfinden. Dies führt zum Verlust von Metallen & Kunststoffen.	0
 	Your ship automatically prints cheap missiles, bombs and mines during battles that happen off-screen. This results in loss of explosives.	Ihr Schiff druckt automatisch billige Raketen, Bomben und Minen während Gefechten, die außerhalb des Bildschirms stattfinden. Dies führt zu einem Verlust von Sprengstoff.	0
 	Xenodata functions as a form of intergalactic digital currency. It is generated while researching alien planets, for example.	Xenodaten fungieren als eine Art intergalaktische digitale Währung. Sie werden z. B. bei der Erforschung fremder Planeten generiert.	0
 	Xenodata documented by researching sentient aliens is worth many data credits.	Xenodaten, die durch die Erforschung von empfindungsfähigen Aliens dokumentiert werden, sind viele Daten-Credits wert.	0
@@ -12222,7 +12222,7 @@ Tips pool.prefab
 	You can change the game UI color in game options - try it!	Sie können die Farbe der Spiel-Oberfläche in den Spieloptionen ändern - probieren Sie es aus!	0
 	Check out the "?" button in lower right corner to see a list of illustrated help topics."	Über die "?"-Schaltfläche in der unteren rechten Ecke finden Sie eine Liste mit illustrierten Hilfethemen."	0
 	Eco-harvesting operations usually do not collect more organics than your ship can carry.	Bei der Ökoernte werden normalerweise nicht mehr organische Stoffe gesammelt, als Ihr Schiff transportieren kann.	0
-	When you get excess organics or synthethics and have a fuel convertor, convert these resources into fuel instead of dumping them.	Wenn Sie überschüssige Organik oder Synthethika erhalten und einen Treibstoffkonverter haben, wandeln Sie diese Ressourcen in Treibstoff um, anstatt sie wegzuwerfen.	0
+	When you get excess organics or synthethics and have a fuel convertor, convert these resources into fuel instead of dumping them.	Wenn Sie überschüssige Organik oder Kunststoffe erhalten und einen Treibstoffkonverter haben, wandeln Sie diese Ressourcen in Treibstoff um, anstatt sie wegzuwerfen.	0
 	Selecting crew is a lot easier if you drag a selection box around the crew instead of clicking.	Die Auswahl der Besatzung ist viel einfacher, wenn Sie ein Auswahlfeld um die Besatzung herum ziehen, anstatt zu klicken.	0
 	You can reposition module info window at any time by holding & dragging it on the game screen.	Sie können das Modulinformationsfenster jederzeit neu positionieren, indem Sie es auf dem Spielbildschirm halten und ziehen.	0
 	If the game is too hard, change your tactics.	Wenn das Spiel zu schwer ist, ändern Sie Ihre Taktik.	0

@@ -219,7 +219,7 @@ text	After seeing us getting ready for battle, the hostile ships turn around and
 text2	GREAT TIGER CLAN IS VERY ETHICAL, ONLY TAKE CRYSTAL.	DER GROSSE TIGER CLAN IST SEHR ETHISCH, NEHMT NUR KRISTALL.	400
 text2	The pirates leave as we receive the package.	Die Piraten verschwinden, als wir das Paket erhalten.	400
 text	TAKE THREE WEAPONS, WE LEAVE QUICKLY, NO FIGHT.	NEHMT DREI WAFFEN, WIR VERSCHWINDEN SCHNELL, KEIN KAMPF.	400
-choiceText	Deal [receive three weapons]	Deal [drei Waffen erhalten]	100
+choiceText	Deal [receive three weapons]	Handel [drei Waffen erhalten]	100
 choiceText	Your piracy ends today [proceed to battle]	Eure Piraterie endet heute [geht zum Kampf über]	100
 
 Ambusher L3b pirates, guardian 2.prefab
