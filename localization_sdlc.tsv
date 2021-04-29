@@ -42,7 +42,7 @@ displayName	Command bridge, Tiger	Kommandobrücke, Tiger	40
 description	A single operator allows the bridge to remotely operate other modules (without providing skill bonuses). Each operator additionally gives an evasion bonus to the entire ship.	Ein einzelner Operator ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus). Jeder Operator gibt zusätzlich einen Ausweichbonus für das gesamte Schiff.	200
 
 fuel container tiger.prefab
-displayName	Fuel tank (Tiger)	Treibstofftank (Tiger)	40
+displayName	Fuel tank (Tiger)	Treibstoff-Behälter (Tiger)	40
 description	Fuel container. Damage results in rapid loss of fuel.	Treibstoffbehälter. Eine Beschädigung führt zu einem schnellen Verlust des Treibstoffs.	200
 
 integrity tiger.prefab

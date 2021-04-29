@@ -5,7 +5,7 @@ name2	((Inhabited planet))	((Bewohnter Planet))	25
 text2	Trade completed without problems.	Handel ohne Probleme abgeschlossen.	400
 reasonToDisplay	trade operation completed	Handelsvorgang abgeschlossen	30
 title	Capitaalo fuel colony	Capitaalo-Treibstoff-Kolonie	35
-text	We've found another Capitaalo colony. These quasi-primitives are obsessed with their ancient currency system and enjoy measuring things in money. Their colony leaders propose a trade, they want exotics in exchange for starfuel that they produce.	Wir haben eine weitere Capitaalo-Kolonie gefunden. Diese Quasi-Primitiven sind besessen von ihrem alten Währungssystem und messen die Dinge gerne in Geld. Ihre Kolonieführer schlagen einen Handel vor, sie wollen Exoten im Austausch für den von ihnen produzierten Sternentreibstoff.	400
+text	We've found another Capitaalo colony. These quasi-primitives are obsessed with their ancient currency system and enjoy measuring things in money. Their colony leaders propose a trade, they want exotics in exchange for starfuel that they produce.	Wir haben eine weitere Capitaalo-Kolonie gefunden. Diese Quasi-Primitiven sind besessen von ihrem alten Währungssystem und messen die Dinge gerne in Geld. Ihre Kolonieführer schlagen einen Handel vor, sie wollen Exoten im Austausch für den von ihnen produzierten Treibstoff.	400
 choiceText	Trade [-2 exotics for 80 fuel]	Handel [-2 Exoten für 80 Treibstoff]	100
 choiceText	Disengage to return later	Abbrechen, um später zurückzukehren	100
 text	trade operation... %	Handelsaktion... %	50
@@ -16,8 +16,8 @@ text	verifying safety...	Überprüfung der Sicherheit...	50
 
 1 Pi Capitaalo planet, want explosives.prefab
 title	Capitaalo mining colony	Capitaalo-Bergbaukolonie	35
-text	We've found a Capitaalo mining colony. These quasi-primitives are obsessed with their ancient currency system and enjoy measuring things in money. Their colony leaders propose a trade, they need explosives in exchange for precious metals.	Wir haben eine Capitaalo-Bergbaukolonie gefunden. Diese Quasi-Primitiven sind besessen von ihrem alten Währungssystem und messen Dinge gern in Geld. Ihre Kolonieführer schlagen einen Handel vor, sie brauchen Sprengstoff im Tausch gegen Edelmetalle.	400
-choiceText	Trade [-80 explosives for 175 metal]	Handel [-80 Sprengstoff +175 Metalle]	100
+text	We've found a Capitaalo mining colony. These quasi-primitives are obsessed with their ancient currency system and enjoy measuring things in money. Their colony leaders propose a trade, they need explosives in exchange for precious metals.	Wir haben eine Capitaalo-Bergbaukolonie gefunden. Diese Quasi-Primitiven sind besessen von ihrem alten Währungssystem und messen Dinge gern in Geld. Ihre Kolonieführer schlagen einen Handel vor, sie brauchen Sprengstoffe im Tausch gegen Metalle.	400
+choiceText	Trade [-80 explosives for 175 metal]	Handel [-80 Sprengstoffe +175 Metalle]	100
 
 1 Pi Capitaalo planet, want organics 2.prefab
 text2	We sent the colony representatives new plants and seeds to postpone their demise. The poor locals gave us a small heap of low-quality resources, but also a little something from one of their abandoned research facilities. It seems they've not forgotten generosity.	Wir haben den Vertretern der Kolonie neue Pflanzen und Samen geschickt, um ihren Untergang hinauszuzögern. Die armen Einheimischen gaben uns einen kleinen Haufen minderwertiger Rohstoffe, aber auch eine Kleinigkeit aus einer ihrer verlassenen Forschungseinrichtungen. Es scheint, sie haben die Großzügigkeit nicht vergessen.	400
@@ -32,16 +32,16 @@ choiceText	Trade [-100 organics for 200 metals]	Tausch [-100 Organik +200 Metall
 1 Pi Capitaalo planet, want synth.prefab
 title	Capitaalo Colony	Capitaalo-Kolonie	35
 text	We've found and contacted a Capitaalo colony. They are a fragmented, quasi-primitive civilization, obsessed with their ancient currency system and its organizing principles. The colony leaders propose a trade, they want some of our advanced materials in exchange for the munitions they produce.	Wir haben eine Capitaalo-Kolonie gefunden und kontaktiert. Sie sind eine zersplitterte, quasi-primitive Zivilisation, besessen von ihrem alten Währungssystem und dessen Organisationsprinzipien. Die Anführer der Kolonie schlagen einen Handel vor, sie wollen einige unserer fortschrittlichen Materialien im Austausch für die Munition, die sie produzieren.	400
-choiceText	Trade [-100 synthetics for 200 explosives]	Handel [-100 Kunststoffe für 200 Sprengstoff]	100
+choiceText	Trade [-100 synthetics for 200 explosives]	Handel [-100 Kunststoffe für 200 Sprengstoffe]	100
 newName3	Capitaalo colony	Capitaalo-Kolonie	25
 title	Delays and issues	Verzögerungen und Probleme	35
 text2	Delivery of the explosives was delayed. When the explosives finally arrived, some turned out to be the wrong type, not suitable for our purposes. Ultimately, the Capitaalo negotiator provided extra organics to make up for the issues.	Die Lieferung des Sprengstoffs verzögerte sich. Als der Sprengstoff schließlich eintraf, stellte sich heraus, dass einige vom falschen Typ waren und für unsere Zwecke nicht geeignet waren. Letztendlich stellte der Capitaalo-Verhandlungsführer zusätzliche Organik zur Verfügung, um die Probleme auszugleichen.	400
 
 2 Pi Phobian planet 1, want credits.prefab
-text2	The Phobians delivered tons and tons of explosives from grenades to primitive capital missiles. Recycling them yielded some extra materials.	Die Phobier lieferten tonnenweise Sprengstoff, von Granaten bis zu primitiven Großraketen. Deren Recycling erbrachte einige zusätzliche Materialien.	400
+text2	The Phobians delivered tons and tons of explosives from grenades to primitive capital missiles. Recycling them yielded some extra materials.	Die Phobier lieferten tonnenweise Sprengstoffe, von Granaten bis zu primitiven Großraketen. Deren Recycling erbrachte einige zusätzliche Materialien.	400
 title	Phobian business representatives	Phobische Wirtschaftsvertreter	35
-text	We are willing to bypass the Phobian laws regarding your illegal presence, to get some intergalactic credits. We can pay you in explosives. Perfectly normal, yes?	Wir sind bereit, die phobischen Gesetze bezüglich Ihrer illegalen Anwesenheit zu umgehen, um einige intergalaktische Credits zu erhalten. Wir können Sie mit Sprengstoff bezahlen. Völlig normal, ja?	400
-choiceText	Trade [get 140 explosives for -100 credits]	Handel [erhalten 140 Sprengstoff für -100 Credits]	100
+text	We are willing to bypass the Phobian laws regarding your illegal presence, to get some intergalactic credits. We can pay you in explosives. Perfectly normal, yes?	Wir sind bereit, die phobischen Gesetze bezüglich Ihrer illegalen Anwesenheit zu umgehen, um einige intergalaktische Credits zu erhalten. Wir können Sie mit Sprengstoffen bezahlen. Völlig normal, ja?	400
+choiceText	Trade [get 140 explosives for -100 credits]	Handel [+140 Sprengstoffe für 100 Credits]	100
 newName3	Phobian independent colony	Phobische unabhängige Kolonie	25
 title	Independent Phobian colony	Unabhängige phobische Kolonie	35
 okButtonText	Approach	Nähern Sie sich	7
