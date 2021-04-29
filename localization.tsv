@@ -1498,7 +1498,7 @@ Button. Can be 2 words, word no longer than 6 letters. Weapon module overcharge	
 	Toggle module ON/OFF	Modul EIN/AUS schalten	0
 
 Module data subpanel.prefab
-	Module hitpoints, repairing 1hp consumes 10 synthethics	Modul-HP, Reparatur von 1 HP verbraucht 10 Synthethics	0
+	Module hitpoints, repairing 1hp consumes 10 synthethics	Modul-HP, Reparatur von 1 HP verbraucht 10 Kunststoffe	0
 module requirements	REQUIREMENTS	VORAUSSETZUNGEN	0
 	This module requires operators with bridge skill	Dieses Modul erfordert Bediener mit Brückenfertigkeit	0
 	This module requires operators with sensor skill	Dieses Modul erfordert Bediener mit Sensor-Fertigkeit	0
@@ -1687,8 +1687,8 @@ Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU\nWEIT	10
 	Sensor not functional, minimal vision range only!\nWe're driving practically blind.	Sensor nicht funktionsfähig, nur minimaler Sichtbereich!\nWir fliegen praktisch blind.	0
 	Fuel low!\nConsider re-routing towards closest gas giants or stations.	Treibstoff knapp!\nBedenken Sie die Umleitung zum nächsten Gasriesen oder zur nächsten Tankstelle.	0
 	Organics low!\nConsider cryofreezing some crew or seek planets with biosphere.	Organik knapp!\nBedenken Sie das Einfrieren einiger Crewmitglieder oder suchen Sie Planeten mit Biosphäre.	0
-	Synthetics low!\nSynthethics are necessary to repair modules.\nRecycling almost any module will provide more synthetics.	Synthetics low!\nSynthethics sind notwendig, um Module zu reparieren.\nDas Recyceln fast aller Module liefert mehr Synthetics.	0
-	Metals low!\nMetals are necessary when repairing ship hull with crew.\nRecycling tech modules will usually provide some metals.	Metalle fast aus!\nMetalle werden benötigt, um Schiffsrümpfe mit Besatzung zu reparieren.\nDas Recyceln von Tech-Modulen wird normalerweise einige Metalle liefern.	0
+	Synthetics low!\nSynthethics are necessary to repair modules.\nRecycling almost any module will provide more synthetics.	Synthetics low!\nKunststoffe sind notwendig, um Module zu reparieren.\nDas Wiederverwerten fast aller Module liefert mehr Kunststoffe.	0
+	Metals low!\nMetals are necessary when repairing ship hull with crew.\nRecycling tech modules will usually provide some metals.	Metalle fast aus!\nMetalle werden benötigt, um Schiffsrümpfe mit Besatzung zu reparieren.\nDas Wiederverwerten von Tech-Modulen wird normalerweise einige Metalle liefern.	0
 	Explosives low.\nWeapons that need explosives will soon run out of ammo!	Explosivstoffe fast aus!\nWaffen, die Explosivstoffe benötigen, haben bald keine Munition mehr!	0
 	Exotics low.	Exoten fast aus.	0
 	No exotics.\nAs an alternative currency,\nexotics are great for bribing stronger hostile forces.	Keine Exoten.\nAls alternative Währung eignen sich Exoten hervorragend, um stärkere feindliche Kräfte zu bestechen.	0
@@ -2598,7 +2598,7 @@ crewDescriptionOverride	A survivor rescued from a cryopod floating in space. Mis
 text	Defreezing... %	Auftauen... %	50
 title	No survivors	Keine Überlebenden	35
 text2	It seems a technical malfunction within the pod has caused the people inside to die. We had no better option than to give them a proper ceremony and recycle them into organics.	Es scheint, dass eine technische Fehlfunktion in der Kapsel zum Tod der Menschen im Inneren geführt hat. Wir hatten keine andere Wahl, als sie einer ordentlichen Zeremonie zu unterziehen und sie organisch zu recyceln.	400
-text2	The sole survivor in the pods is a cat with a brain enhancement chip for increased intelligence. The dead in the other containers were given the universal recycling ritual by our AI.	Der einzige Überlebende in den Kapseln ist eine Katze mit einem Gehirnvergrößerungs-Chip für erhöhte Intelligenz. Die Toten in den anderen Containern wurden von unserer KI mit dem universellen Recycling-Ritual versehen.	400
+text2	The sole survivor in the pods is a cat with a brain enhancement chip for increased intelligence. The dead in the other containers were given the universal recycling ritual by our AI.	Der einzige Überlebende in den Kapseln ist eine Katze mit einem Gehirnvergrößerungs-Chip für erhöhte Intelligenz. Die Toten in den anderen Containern wurden von unserer KI mit dem universellen Wiederverwertungs-Ritual versehen.	400
 crewDescriptionOverride	Animal with chip-enhanced brain, rescued from a shipwreck. Understands only archaic japanese and requires the ship AI as a translator for verbal communication.	Tier mit Chip-verstärktem Gehirn, gerettet aus einem Schiffswrack. Versteht nur archaisches Japanisch und benötigt die Schiffs-KI als Übersetzer für die verbale Kommunikation.	250
 text2	The only survivor was a genetically engineered pet slime somebody had taken with them into the pod.	Der einzige Überlebende war ein gentechnisch veränderter Haustier-Schleim, den jemand mit in die Kapsel genommen hatte.	400
 crewDescriptionOverride	Animal rescued from a shipwreck. Understands how to water the flowers.	Ein Tier, das aus einem Schiffswrack gerettet wurde. Versteht, wie man die Blumen gießt.	250
@@ -2613,7 +2613,7 @@ text2	Most of the ship systems were degraded beyond repair due to space life dig
 displayName	Organic objects	Organische Objekte	25
 text2	It is a bunch of dead bodies, drifting in space. Their condition suggests they were prisoners thrown out of the airlock. Probably pirate victims.	Es handelt sich um einen Haufen toter Körper, die im Raum treiben. Ihr Zustand lässt vermuten, dass es sich um Gefangene handelt, die aus der Luftschleuse geworfen wurden. Wahrscheinlich Opfer von Piraten.	400
 text2	It is a bunch of dead bodies, drifting in space. Examination reveals signs of suicide among the group, suggesting these are victims of slavers who reacted quickly enough. Nobody wants to be captured by the sadists that slavers are.	Es ist ein Haufen toter Körper, die im Raum treiben. Die Untersuchung zeigt Anzeichen von Selbstmord unter der Gruppe, was darauf schließen lässt, dass es sich um Opfer von Sklavenhändlern handelt, die schnell genug reagiert haben. Niemand will von den Sadisten, die Sklavenhändler sind, gefangen werden.	400
-text2	It is a bunch of dead bodies, drifting in space. Judging from their uniforms, it's safe to assume they are the crew of a single ship. We collected the bodies and put them through the traditional recycling ritual.	Es ist ein Haufen toter Körper, die im Raum treiben. Nach ihren Uniformen zu urteilen, kann man davon ausgehen, dass es sich um die Besatzung eines einzigen Schiffes handelt. Wir sammelten die Leichen ein und unterzogen sie dem traditionellen Recycling-Ritual.	400
+text2	It is a bunch of dead bodies, drifting in space. Judging from their uniforms, it's safe to assume they are the crew of a single ship. We collected the bodies and put them through the traditional recycling ritual.	Es ist ein Haufen toter Körper, die im Raum treiben. Nach ihren Uniformen zu urteilen, kann man davon ausgehen, dass es sich um die Besatzung eines einzigen Schiffes handelt. Wir sammelten die Leichen ein und unterzogen sie dem traditionellen Wiederverwertungs-Ritual.	400
 text2	It is a bunch of dead bodies, drifting in space. They were stripped naked before being thrown into space, possibly to hide their origins. Looks like the work of pirates.	Es ist ein Haufen toter Körper, die im Weltraum treiben. Sie wurden nackt ausgezogen, bevor sie ins All geworfen wurden, möglicherweise um ihre Herkunft zu verbergen. Sieht aus wie das Werk von Piraten.	400
 title	Survivor found!	Überlebender gefunden!	35
 text2	It was a bunch of dead bodies, drifting in space. Much to our surprise, one of them was a broken beedroid cyborg with intact memorycore! After numerous repairs using advanced materials, we are able to bring the beedroid back to consciousness. After a discussion with our AI, the being decides to join our mission.	Es war ein Haufen toter Körper, die im Weltraum trieben. Zu unserer großen Überraschung war einer von ihnen ein kaputter Bienenandroid-Cyborg mit intaktem Gedächtniskern! Nach zahlreichen Reparaturen mit fortschrittlichen Materialien sind wir in der Lage, den Bienenandroiden wieder zum Bewusstsein zu bringen. Nach einer Diskussion mit unserer KI beschließt das Wesen, sich unserer Mission anzuschließen.	400
@@ -2868,7 +2868,7 @@ text	These escape pods have drifted in space for a long time and seem to contain
 text2	Our ship AI had a private conversation with the survivor and they decided to join our crew.	Unsere Schiffs-KI hatte eine private Unterhaltung mit dem Überlebenden und er hat sich entschieden, sich unserer Crew anzuschließen.	400
 crewDescriptionOverride	A survivor rescued from a cryopod floating in space. Missing parts of pre-cryofreeze memories.	Ein Überlebender, der aus einer im Weltraum treibender Kryokapsel gerettet wurde. Es fehlen Teile der Erinnerungen vor dem Einfrieren.	250
 text2	It seems a software malfunction within the cryopods have caused a chain-reaction which has destroyed the brains of the people inside, leaving them irreversibly comatose. We had no better option than to give them a proper ceremony and recycle them into organics.	Es scheint, dass eine Software-Fehlfunktion innerhalb der Kryokapseln eine Kettenreaktion ausgelöst hat, die die Gehirne der Menschen im Inneren zerstört hat, so dass sie irreversibel komatös wurden. Es blieb uns nichts anderes übrig, als sie in einer Zeremonie zu recyceln.	400
-reasonToDisplay	Recycle ceremony	Recycle-Zeremonie	30
+reasonToDisplay	Recycle ceremony	Wiederverwertungs-Zeremonie	30
 text2	These cryopods have been drifting in space for nearly half a century. All the pods have broken over the years, there are no survivors.	Diese Kryokapseln treiben seit fast einem halben Jahrhundert im Weltraum. Alle Kapseln sind im Laufe der Jahre zerbrochen, es gibt keine Überlebenden.	400
 
 4 Exo mithrallium asteroid, -F+M.prefab
@@ -2972,7 +2972,7 @@ text	Collecting fuel... %	Kraftstoff einsammeln... %	50
 text2	Fuel collected. Nothing worth salvaging was found within the tanker carcass.	Treibstoff eingesammelt. Es wurde nichts Verwertbares in der Tankerleiche gefunden.	400
 text2	Fuel collected. The tanker itself had nothing left to take.	Treibstoff eingesammelt. Der Tanker selbst hatte nichts mehr zu bieten.	400
 text2	A DIY bomb exploded in the carcass as our bots got close. We were able to gather rest of the fuel without further incident.	Eine selbstgebaute Bombe explodierte in der Karkasse, als unsere Bots sich näherten. Wir konnten den Rest des Treibstoffs ohne weitere Zwischenfälle einsammeln.	400
-text2	It seems the crew escaped the destruction of their ship, but their emergency pods were destroyed shortly after, most likely by pirates. We gave them the standard recycling ritual.	Es scheint, dass die Besatzung der Zerstörung ihres Schiffes entkommen ist, aber ihre Notkapseln wurden kurz darauf zerstört, wahrscheinlich von Piraten. Wir gaben ihnen das Standard-Recycling-Ritual.	400
+text2	It seems the crew escaped the destruction of their ship, but their emergency pods were destroyed shortly after, most likely by pirates. We gave them the standard recycling ritual.	Es scheint, dass die Besatzung der Zerstörung ihres Schiffes entkommen ist, aber ihre Notkapseln wurden kurz darauf zerstört, wahrscheinlich von Piraten. Wir gaben ihnen das Standard-Wiederverwertungs-Ritual.	400
 
 6 Exo anomaly static blue cube x3.prefab
 text	This anomaly resembles a blue semitransparent cube. It has a strong gravity field, visibly pulling in nearby gas clouds.	Diese Anomalie ähnelt einem blauen, halbtransparenten Würfel. Er hat ein starkes Gravitationsfeld, das die Gaswolken in der Nähe sichtbar anzieht.	400
@@ -3814,7 +3814,7 @@ title	Fuel collected	Treibstoff eingesammelt	35
 text2	Nothing to report.	Nichts zu berichten.	400
 reasonToDisplay	fuel collected	Treibstoff eingesammelt	30
 text2	No significant events. One crewmember felt a bit lonely during the operation, but that wasn't a big issue.	Keine nennenswerten Ereignisse. Ein Besatzungsmitglied fühlte sich während des Einsatzes ein wenig einsam, aber das war kein großes Problem.	400
-text2	We discovered a number of dead bodies during the operation. Probably pirate victims, as they were stripped of all valuables and implants. We gave them the recycling ritual.	Während des Einsatzes entdeckten wir eine Reihe von Leichen. Wahrscheinlich Piratenopfer, da sie aller Wertgegenstände und Implantate beraubt waren. Wir haben sie dem Recycling-Ritual unterzogen.	400
+text2	We discovered a number of dead bodies during the operation. Probably pirate victims, as they were stripped of all valuables and implants. We gave them the recycling ritual.	Während des Einsatzes entdeckten wir eine Reihe von Leichen. Wahrscheinlich Piratenopfer, da sie aller Wertgegenstände und Implantate beraubt waren. Wir haben sie dem Wiederverwertungs-Ritual unterzogen.	400
 reasonToDisplay	salvage	bergung	30
 title	Anomalous starfuel	Anomaler Sternentreibstoff	35
 text2	There was something very wrong with the fuel, as it started melting our fueltanks from inside out, despite passing decontamination filters. We had to dump all of it, along with some of our own resources.	Mit dem Treibstoff stimmte etwas nicht, denn er begann unsere Treibstofftanks von innen heraus zu schmelzen, obwohl er die Dekontaminationsfilter passierte. Wir mussten ihn komplett entsorgen, zusammen mit einigen unserer eigenen Ressourcen.	400
@@ -4129,7 +4129,7 @@ text	medical help...%	Medizinische Hilfe...%	50
 text	The planet is covered with the remains of an ancient civilization, and signs of large-scale warfare. No signs of intelligent life or active technology spotted. Battleground planets are historically risky sites due to potential of encountering automated defence systems.	Der Planet ist bedeckt mit den Überresten einer alten Zivilisation und Anzeichen einer groß angelegten Kriegsführung. Es wurden keine Anzeichen von intelligentem Leben oder aktiver Technologie entdeckt. Schlachtfeldplaneten sind historisch gesehen riskante Orte, da sie möglicherweise auf automatische Verteidigungssysteme treffen.	400
 choiceText	Possible dangers, send probes to explore the surface	Mögliche Gefahren, senden Sie Sonden zur Erkundung der Oberfläche	100
 newName3	battleground planet	Schlachtfeldplanet	25
-text2	It turns out some local insectoids survived by living underground. A group of such survivors ambushed our explorers with primitive weapons. Our crew neutralized them without losses and took the bodies back for research & recycling, along with some salvaged resources.	Es stellte sich heraus, dass einige lokale Insektoiden überlebten, indem sie unterirdisch lebten. Eine Gruppe dieser Überlebenden griff unsere Forscher mit primitiven Waffen an. Unsere Crew hat sie ohne Verluste neutralisiert und die Leichen zusammen mit einigen geborgenen Ressourcen für Forschung & Recycling zurückgebracht.	400
+text2	It turns out some local insectoids survived by living underground. A group of such survivors ambushed our explorers with primitive weapons. Our crew neutralized them without losses and took the bodies back for research & recycling, along with some salvaged resources.	Es stellte sich heraus, dass einige lokale Insektoiden überlebten, indem sie unterirdisch lebten. Eine Gruppe dieser Überlebenden griff unsere Forscher mit primitiven Waffen an. Unsere Crew hat sie ohne Verluste neutralisiert und die Leichen zusammen mit einigen geborgenen Ressourcen für Forschung & Wiederverwertung zurückgebracht.	400
 reasonToDisplay	primitive ambush repelled	Primitiver Überfall abgewehrt	30
 text	Apart from the automated technology, the planet seems completely dead. 99% of local life forms seem to have died due to chemical warfare, the rest are mostly microorganisms or moss. Preliminary analysis indicates the planet was dominated by fairly advanced militaristic insectoids. There's a possibility to scavenge some materials and explosives.	Abgesehen von der automatisierten Technologie scheint der Planet völlig tot zu sein. 99% der lokalen Lebensformen scheinen durch die chemische Kriegsführung gestorben zu sein, der Rest sind meist Mikroorganismen oder Moose. Vorläufige Analysen deuten darauf hin, dass der Planet von ziemlich fortgeschrittenen militaristischen Insektoiden beherrscht wurde. Es besteht die Möglichkeit, einige Materialien und Sprengstoffe zu erbeuten.	400
 choiceText	Leave this planet, its too dangerous	Verlassen Sie diesen Planeten, er ist zu gefährlich	100
@@ -5853,7 +5853,7 @@ text	The signal source is a private marketplace for traders who do not want too 
 title	Weapon traders	Waffenhändler	35
 text	Two of the Gitchanki traders have a particularly attractive offer: "Two pristine multibarrel lasers for mere scraps! The salesmen explain the origin of their wares as "They were just lying around somewhere."	Zwei der Gitchanki-Händler haben ein besonders attraktives Angebot: "Zwei tadellose Multibarrel-Laser für bloßen Schrott! Die Verkäufer erklären die Herkunft ihrer Ware mit "Sie lagen einfach irgendwo herum".	400
 choiceText	Buy the weapons [-6 exotics]	Kaufen Sie die Waffen [-6 Exoten]	100
-text2	After taking the shipment aboard, we discover an amputated insectoid hand stuck within the rotational part of the laser turret. We give it a quick recycling ritual.	Nachdem wir die Lieferung an Bord genommen haben, entdecken wir eine amputierte insektoide Hand, die im Rotationsteil des Laserturms steckt. Wir unterziehen sie einem kurzen Recycling-Ritual.	400
+text2	After taking the shipment aboard, we discover an amputated insectoid hand stuck within the rotational part of the laser turret. We give it a quick recycling ritual.	Nachdem wir die Lieferung an Bord genommen haben, entdecken wir eine amputierte insektoide Hand, die im Rotationsteil des Laserturms steckt. Wir unterziehen sie einem kurzen Wiederverwertungs-Ritual.	400
 text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two humanoid traders have a particularly attractive offer:"An advanced medbay for mere scraps (we don't remember where we got it from)!"	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Sie sehen jedoch verschiedene versklavte Tiere, die zwischen Waffen und anderen kriminalisierten Gegenständen verkauft werden. Zwei humanoide Händler haben ein besonders verlockendes Angebot: "Ein fortschrittliches Krankenstation für bloßen Schrott (wir wissen nicht mehr, woher wir es haben)!"	400
 text2	After taking the module aboard, you discover a cutoff leg of somebody inside its walls. Too late to complain now. The ship AI later has a chat with you about ethics.	Nachdem Sie das Modul an Bord genommen haben, entdecken Sie ein abgetrenntes Bein von jemandem in dessen Wänden. Zu spät, um sich jetzt zu beschweren. Die Schiffs-KI führt später ein Gespräch mit Ihnen über Ethik.	400
 text	To your relief, the place does not have any obvious connections to sentient slavery. You see various slaved animals being sold, however, among weapons and other criminalized objects. Two Gor-Mor traders have a particularly attractive offer: a third generation ship sensor for almost nothing!	Zu Ihrer Erleichterung hat der Ort keine offensichtlichen Verbindungen zu bewusster Sklaverei. Sie sehen jedoch, dass zwischen Waffen und anderen kriminalisierten Gegenständen verschiedene versklavte Tiere verkauft werden. Zwei Gor-Mor-Händler haben ein besonders attraktives Angebot: einen Schiffssensor der dritten Generation für fast nichts!	400
@@ -6288,14 +6288,14 @@ text2	The workers representative takes a look at your standard module blueprints
 text2	The workers representative takes a look at your standard module blueprints. They take time to scutter through various junk found in their yard, and bit by bit, start to assemble something that looks like a container module. Few bots are used and most of the works are carried out manually. Finally, after several days of work, the module is finished. It looks robust.	Der Arbeiter-Vertreter wirft einen Blick auf Ihre Standard-Modul-Baupläne. Sie nehmen sich die Zeit, den verschiedenen Schrott, den sie auf ihrem Hof gefunden haben, zu durchforsten, und beginnen nach und nach, etwas zusammenzubauen, das wie ein Behälter-Modul aussieht. Es werden nur wenige Bots eingesetzt und die meisten Arbeiten werden manuell ausgeführt. Schließlich, nach mehreren Tagen Arbeit, ist das Modul fertig. Es sieht robust aus.	400
 
 245 shop, synth recycler.prefab
-name2	(((Synth Recyclersl)))	(((Synth Recycler)))	25
-Shop.displayName	Synth Recycler Corp.	Synth Recycler Corp.	35
+name2	(((Synth Recyclersl)))	(((Synth Wiederverwerter)))	25
+Shop.displayName	Synth Recycler Corp.	Synth Wiederverwerter GmbH	35
 
 2456 shop, P KUSTOM Repair, packs.prefab
 name3	||KUstom sHiP RePaiR||	||SPezial sCHiFF ReParatuR||	25
 Shop.displayName	Kustom Repair, organics sub-trade station	Kustom Repair, Organics Sub-Trade Station	35
 text2	The locals went through all the junk found in their yard, dragging the useful parts next to the Mothership. Numerous workers of varied species buzzed around the ship, mostly working manually. After a few days, the repairmen announce they have done all they could.	Die Einheimischen gingen den ganzen Schrott durch, den sie in ihrem Hof fanden, und schleppten die brauchbaren Teile neben das Mutterschiff. Zahlreiche Arbeiter verschiedener Spezies schwirrten um das Schiff herum und arbeiteten meist manuell. Nach ein paar Tagen verkünden die Reparateure, dass sie alles getan haben, was sie konnten.	400
-title	Starship recycler & repair yard	Raumschiff-Recycler & Reparaturwerft	35
+title	Starship recycler & repair yard	Raumschiff-Wiederverwerter & Reparaturwerft	35
 text	The local business negotiation AI (a rather crude one) states that they cannot offer guarantees for the repair service because of using exclusively recycled materials. The service includes free food. The planet also has a small orbital trading platform selling local resources and paying good price for exotics. Using the trade platform requires a small docking fee.	Die lokale Geschäftsverhandlungs-KI (eine ziemlich krude) erklärt, dass sie keine Garantien für den Reparaturservice geben können, da sie ausschließlich recycelte Materialien verwenden. Der Service beinhaltet kostenloses Essen. Der Planet hat auch eine kleine orbitale Handelsplattform, die lokale Ressourcen verkauft und gute Preise für exotische Waren zahlt. Die Nutzung der Handelsplattform erfordert eine kleine Andockgebühr.	400
 choiceText	Hire repair service [-120 credits]	Reparaturdienst anheuern [-120 Kredite]	100
 choiceText	Dock with orbital trading platform [-20 credits]	Andocken an orbitale Handelsplattform [-20 Kredite]	100
@@ -6323,7 +6323,7 @@ name2	((Defensive systems & repair))	((Verteidigungssysteme & Reparatur))	25
 
 24567 shop, honest munitions and nukes.prefab
 name2	((Munitions for sale))	((Munition zu verkaufen))	25
-Shop.displayName	Honest Munitions Corp.	Honest Munitions Corp.	35
+Shop.displayName	Honest Munitions Corp.	Ehrliche Munitionen GmbH	35
 
 24567 shop, Organics exchange Ocost1.prefab
 name2	(((Organics Exchange)))	(((Organik Austausch)))	25
@@ -6331,7 +6331,7 @@ Shop.displayName	Organics Exchange	Organics Exchange	35
 
 247 shop, civilian drones R.prefab
 name2	{{{Polite drones}}}	{{{Höfliche Drohnen}}}	25
-Shop.displayName	The Pacific Bots Corp.	The Pacific Bots Corp.	35
+Shop.displayName	The Pacific Bots Corp.	Die friedliebenden Drohnen GmbH	35
 
 2567 shop, universal expensibles R.prefab
 name2	{(|Expensibles shop|)}	{(|Universelle Erweiterungen|)}	25
@@ -6339,19 +6339,19 @@ Shop.displayName	Universal Expensibles	Universelle Erweiterungen	35
 
 257 shop, DIY drones R.prefab
 name2	{{{Good drones}}}	{{{Gute Drohnen}}}	25
-Shop.displayName	Recycled Partners Inc.	Recycled Partners Inc.	35
+Shop.displayName	Recycled Partners Inc.	Wiederverwertete Partner AG	35
 
 267 shop, DIY weapons and nukes R.prefab
 name2	{{{Militia weapons}}}	{{{Miliz Waffen}}}	25
-Shop.displayName	Rekill Corp.	Rekill Corp.	35
+Shop.displayName	Rekill Corp.	Zermorden GmbH	35
 
 345 shop, notbad weapons for 345 R.prefab
 name2	{{{Destructive Systems}}}	{{{Destruktive Systeme}}}	25
-Shop.displayName	The Ethical Killer Corp.	The Ethical Killer Corp.	35
+Shop.displayName	The Ethical Killer Corp.	Die ethischen Mörder GmbH	35
 
 3457 shop, good weapons R.prefab
-name2	{{{Elite Destructive Systems}}}	{{{Elite Destruktive Systems}}}	25
-Shop.displayName	The Destructive Matter Corp.	The Destructive Matter Corp.	35
+name2	{{{Elite Destructive Systems}}}	{{{Elite Destruktive Systeme}}}	25
+Shop.displayName	The Destructive Matter Corp.	Die Zerstörerische Materie GmbH	35
 
 45 shop, Ye metals.prefab
 name2	(((Ye Metals)))	(((Ihre Metalle)))	25
@@ -6410,7 +6410,7 @@ choiceText	Enter personal commerce area [-25 credits]	Persönlichen Handelsberei
 
 7 shop, 22 military lasers R.prefab
 name2	{{{Military lasers}}}	{{Militärlaser}}	25
-Shop.displayName	Destructive Energy Corp.	Destructive Energy Corp.	35
+Shop.displayName	Destructive Energy Corp.	Zerstörerische Energie GmbH	35
 
 Tutorial 3 shop.prefab
 displayName	Automated station	Automatisierte Station	25
@@ -8746,13 +8746,13 @@ displayName	Integrity hardpoint, type S	Integritäts-Ansatzpunkt, Typ S	40
 description	Biotech integrity hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	Biotech-Integritäts-Ansatzpunkt, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 biotech explosives recycler.prefab
-displayName	Biotech explosives recycler	Biotech-Sprengstoff-Recycler	40
+displayName	Biotech explosives recycler	Biotech-Sprengstoff-Wiederverwerter	40
 description	Instantly turns explosives into organics by eating and digesting them. Resilient tissue improves ship HP.	Verwandelt Sprengstoffe sofort in Organik, indem er sie frisst und verdaut. Widerstandsfähiges Gewebe verbessert die Schiffs-HP.	200
 MaterialsConverter.resourceConsumptionReason	converted to organics	umgewandelt in Organik	30
-MaterialsConverter.resourceProductionReason	produced by explosives recycler	hergestellt durch Sprengstoff-Recycler	30
+MaterialsConverter.resourceProductionReason	produced by explosives recycler	hergestellt durch Sprengstoff-Wiederverwerter	30
 
 explosives combinator 1.prefab
-displayName	Explosives combinator, grade I	Sprengstoff-Kombinator, Grad I	40
+displayName	Explosives combinator, grade I	Sprengstoff-Kombinator I	40
 description	Instantly combines desired amount of synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	Kombiniert sofort die gewünschte Menge an Kunststoffen und Treibstoff zu Sprengstoff. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200
 MaterialsConverter.resourceConsumptionReason	converted to explosives	umgewandelt in Sprengstoffe	30
 MaterialsConverter.resourceProductionReason	produced by explosives combinator	hergestellt durch Explosivstoff-Kombinator	30
@@ -8776,8 +8776,8 @@ displayName	Fuel combinator, grade I-B	Treibstoff-Kombinator, Grad I-B	40
 description	Instantly combines organics & synthethics into starfuel. Robust structure improves ship HP.	Kombiniert Organik und Kunststoffe sofort zu Treibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 fuel processor 2.prefab
-displayName	Explosives recycler, grade II	Sprengstoff-Recycler, Grad II	40
-description	Instantly recycles explosives into starfuel. Robust structure improves ship HP.	Recycelt Sprengstoffe sofort zu Treibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
+displayName	Explosives recycler, grade II	Sprengstoff-Wiederverwerter II	40
+description	Instantly recycles explosives into starfuel. Robust structure improves ship HP.	Wiederverwertet Sprengstoffe sofort zu Treibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 oilcake converter.prefab
 displayName	Oilcake Organics converter	Ölkuchen-Organik-Konverter	40
@@ -8785,14 +8785,14 @@ description	Converts starfuel into organics. Comes with a built-in cake printer.
 MaterialsConverter.resourceProductionReason	produced by oilcake converter	hergestellt durch Ölkuchen-Konverter	30
 
 synthetics cooker 1.prefab
-displayName	Synthethics cooker, grade I	Synthesekocher, Grad I	40
+displayName	Synthethics cooker, grade I	Kunststoff-Kocher, Grad I	40
 description	"Cooks" organics to produce synthetics. Has recipes for tens of thousands of different substances. Robust structure improves ship HP."	Kocht Organik, um Kunststoffe zu produzieren. Hat Rezepte für zehntausende verschiedene Substanzen. Robuste Struktur verbessert die Schiffs-HP."	200
 MaterialsConverter.resourceConsumptionReason	converted to synthetics	umgewandelt in Kunststoffe	30
-MaterialsConverter.resourceProductionReason	produced by synthethics cooker	hergestellt durch Synthesekocher	30
+MaterialsConverter.resourceProductionReason	produced by synthethics cooker	hergestellt durch Kunststoff-Kocher	30
 
 dronebay 0 diy.prefab
 displayName	Drone repair DIY	Drohnen-Reparatur DIY	40
-description	Improvised repair station for drones. Repairing each drone hitpoint requires a lot of synthetics.	Improvisierte Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Trefferpunkts erfordert eine Menge Synthetics.	200
+description	Improvised repair station for drones. Repairing each drone hitpoint requires a lot of synthetics.	Improvisierte Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Trefferpunkts erfordert eine Menge Kunststoffe.	200
 Medbay.healingStoppedLogMsg	Warning, drone repairing stopped due to lack of synhtetics	Warnung, die Drohnenreparatur wurde aufgrund des Mangels an Kunststoffen eingestellt	80
 
 dronebay 1 basic.prefab
@@ -10061,7 +10061,7 @@ randomizerMenuStrings[i]	+50 synthethics	+50 Kunststoffe	30
 
 Perk add synthetics.prefab
 displayName	Assorted synthetics	Diverse Synthetics	40
-description	Repairing modules costs 10 synthetics per module hitpoint. \nSynthethics are also used to build temporary structures on planets.	Die Reparatur von Modulen kostet 10 Synthetics pro Modul-Trefferpunkt. \nSynthethics werden auch verwendet, um temporäre Strukturen auf Planeten zu bauen.	250
+description	Repairing modules costs 10 synthetics per module hitpoint. \nSynthethics are also used to build temporary structures on planets.	Die Reparatur von Modulen kostet 10 Kunststoffe pro Modul-Trefferpunkt. \nKunststoffe werden auch verwendet, um temporäre Strukturen auf Planeten zu bauen.	250
 randomizerMenuStrings[i]	+125 synthetics	+125 Kunststoffe	30
 
 Perk artifact skull for Weirdship.prefab
