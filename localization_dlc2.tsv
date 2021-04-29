@@ -6,7 +6,7 @@ text2	Trade completed without problems.	Handel ohne Probleme abgeschlossen.	400
 reasonToDisplay	trade operation completed	Handelsvorgang abgeschlossen	30
 title	Capitaalo fuel colony	Capitaalo-Treibstoff-Kolonie	35
 text	We've found another Capitaalo colony. These quasi-primitives are obsessed with their ancient currency system and enjoy measuring things in money. Their colony leaders propose a trade, they want exotics in exchange for starfuel that they produce.	Wir haben eine weitere Capitaalo-Kolonie gefunden. Diese Quasi-Primitiven sind besessen von ihrem alten Währungssystem und messen die Dinge gerne in Geld. Ihre Kolonieführer schlagen einen Handel vor, sie wollen Exoten im Austausch für den von ihnen produzierten Treibstoff.	400
-choiceText	Trade [-2 exotics for 80 fuel]	Handel [-2 Exoten für 80 Treibstoff]	100
+choiceText	Trade [-2 exotics for 80 fuel]	Handel [+80 Treibstoff, -2 Exoten]	100
 choiceText	Disengage to return later	Abbrechen, um später zurückzukehren	100
 text	trade operation... %	Handelsaktion... %	50
 title	Not enough resources	Nicht genug Ressourcen	35
@@ -17,7 +17,7 @@ text	verifying safety...	Überprüfung der Sicherheit...	50
 1 Pi Capitaalo planet, want explosives.prefab
 title	Capitaalo mining colony	Capitaalo-Bergbaukolonie	35
 text	We've found a Capitaalo mining colony. These quasi-primitives are obsessed with their ancient currency system and enjoy measuring things in money. Their colony leaders propose a trade, they need explosives in exchange for precious metals.	Wir haben eine Capitaalo-Bergbaukolonie gefunden. Diese Quasi-Primitiven sind besessen von ihrem alten Währungssystem und messen Dinge gern in Geld. Ihre Kolonieführer schlagen einen Handel vor, sie brauchen Sprengstoffe im Tausch gegen Metalle.	400
-choiceText	Trade [-80 explosives for 175 metal]	Handel [-80 Sprengstoffe +175 Metalle]	100
+choiceText	Trade [-80 explosives for 175 metal]	Handel [+175 Metalle, -80 Sprengstoffe]	100
 
 1 Pi Capitaalo planet, want organics 2.prefab
 text2	We sent the colony representatives new plants and seeds to postpone their demise. The poor locals gave us a small heap of low-quality resources, but also a little something from one of their abandoned research facilities. It seems they've not forgotten generosity.	Wir haben den Vertretern der Kolonie neue Pflanzen und Samen geschickt, um ihren Untergang hinauszuzögern. Die armen Einheimischen gaben uns einen kleinen Haufen minderwertiger Rohstoffe, aber auch eine Kleinigkeit aus einer ihrer verlassenen Forschungseinrichtungen. Es scheint, sie haben die Großzügigkeit nicht vergessen.	400
@@ -27,12 +27,12 @@ choiceText	Donate [-100 organics, receive objects of low value]	Spende [-100 Org
 1 Pi Capitaalo planet, want organics.prefab
 text2	Trade completed. The elites have secured new plants and seeds for their underground greenhouses, but rest of the local population will probably slowly die off together with what remains of the biosphere.	Handel abgeschlossen. Die Eliten haben sich neue Pflanzen und Saatgut für ihre unterirdischen Gewächshäuser gesichert, aber der Rest der lokalen Bevölkerung wird wahrscheinlich zusammen mit dem, was von der Biosphäre übrig geblieben ist, langsam aussterben.	400
 text	We've contacted a Capitaalo colony. They are a quasi-primitive civilization, and this colony seems to be on the verge of collapse. It seems industrial activity has nearly destroyed tthe ecosphere of their planet. Some of the wealthier elites want to buy new plants and seeds from us (for their personal undergound bunker greenhouses). The only thing they have in abundance is gold, and they offer to pay with it.	Wir haben Kontakt zu einer Capitaalo-Kolonie aufgenommen. Sie sind eine quasi-primitive Zivilisation, und diese Kolonie scheint am Rande des Zusammenbruchs zu sein. Die industrielle Aktivität hat die Ökosphäre ihres Planeten fast zerstört. Einige der wohlhabenderen Eliten wollen neue Pflanzen und Samen von uns kaufen (für ihre persönlichen unterirdischen Bunkergewächshäuser). Das einzige, was sie im Überfluss haben, ist Gold, und sie bieten an, damit zu bezahlen.	400
-choiceText	Trade [-100 organics for 200 metals]	Tausch [-100 Organik +200 Metalle]	100
+choiceText	Trade [-100 organics for 200 metals]	Tausch [+200 Metalle, -100 Organik]	100
 
 1 Pi Capitaalo planet, want synth.prefab
 title	Capitaalo Colony	Capitaalo-Kolonie	35
 text	We've found and contacted a Capitaalo colony. They are a fragmented, quasi-primitive civilization, obsessed with their ancient currency system and its organizing principles. The colony leaders propose a trade, they want some of our advanced materials in exchange for the munitions they produce.	Wir haben eine Capitaalo-Kolonie gefunden und kontaktiert. Sie sind eine zersplitterte, quasi-primitive Zivilisation, besessen von ihrem alten Währungssystem und dessen Organisationsprinzipien. Die Anführer der Kolonie schlagen einen Handel vor, sie wollen einige unserer fortschrittlichen Materialien im Austausch für die Munition, die sie produzieren.	400
-choiceText	Trade [-100 synthetics for 200 explosives]	Handel [-100 Kunststoffe für 200 Sprengstoffe]	100
+choiceText	Trade [-100 synthetics for 200 explosives]	Handel [+200 Sprengstoffe, -100 Kunststoffe]	100
 newName3	Capitaalo colony	Capitaalo-Kolonie	25
 title	Delays and issues	Verzögerungen und Probleme	35
 text2	Delivery of the explosives was delayed. When the explosives finally arrived, some turned out to be the wrong type, not suitable for our purposes. Ultimately, the Capitaalo negotiator provided extra organics to make up for the issues.	Die Lieferung des Sprengstoffs verzögerte sich. Als der Sprengstoff schließlich eintraf, stellte sich heraus, dass einige vom falschen Typ waren und für unsere Zwecke nicht geeignet waren. Letztendlich stellte der Capitaalo-Verhandlungsführer zusätzliche Organik zur Verfügung, um die Probleme auszugleichen.	400
@@ -41,7 +41,7 @@ text2	Delivery of the explosives was delayed. When the explosives finally arrive
 text2	The Phobians delivered tons and tons of explosives from grenades to primitive capital missiles. Recycling them yielded some extra materials.	Die Phobier lieferten tonnenweise Sprengstoffe, von Granaten bis zu primitiven Großraketen. Deren Recycling erbrachte einige zusätzliche Materialien.	400
 title	Phobian business representatives	Phobische Wirtschaftsvertreter	35
 text	We are willing to bypass the Phobian laws regarding your illegal presence, to get some intergalactic credits. We can pay you in explosives. Perfectly normal, yes?	Wir sind bereit, die phobischen Gesetze bezüglich Ihrer illegalen Anwesenheit zu umgehen, um einige intergalaktische Kredite zu erhalten. Wir können Sie mit Sprengstoffen bezahlen. Völlig normal, ja?	400
-choiceText	Trade [get 140 explosives for -100 credits]	Handel [+140 Sprengstoffe für 100 Kredite]	100
+choiceText	Trade [get 140 explosives for -100 credits]	Handel [+140 Sprengstoffe, -100 Kredite]	100
 newName3	Phobian independent colony	Phobische unabhängige Kolonie	25
 title	Independent Phobian colony	Unabhängige phobische Kolonie	35
 okButtonText	Approach	Nähern Sie sich	7
@@ -58,7 +58,7 @@ text2	There is no orbital defence and we recover materials used in the drone. Th
 2 Pi Phobian planet 3, give weapon.prefab
 text2	The weapon is delivered as promised.	Die Waffe wird wie versprochen geliefert.	400
 text	We are willing to bypass the Imperial laws regarding your illegal presence, to get some of those exotics everyone keeps talking about. We offer a prototype plasma weapon, one you cannot buy from anywhere but us.	Wir sind bereit, die imperialen Gesetze bezüglich Ihrer illegalen Anwesenheit zu umgehen, um einige dieser Exoten zu bekommen, von denen jeder ständig spricht. Wir bieten den Prototyp einer Plasmawaffe, die Sie nur bei uns kaufen können.	400
-choiceText	Trade [get a weapon for -5 exotics]	Tausch [eine Waffe für -5 Exoten]	100
+choiceText	Trade [get a weapon for -5 exotics]	Tausch [+1 Waffe, -5 Exoten]	100
 
 Level 1b exit, capitaalo.prefab
 displayName	Exit warpgate	Warptor zum nächsten Sektor	25
@@ -153,7 +153,7 @@ choiceTexts	[Attack these religious psychopaths]	[Greift diese religiösen Psych
 Ambusher L1b or 2b Phobian pirates x 2.prefab
 title	Phobian Pushers	Phobienschieber	35
 text	We offer you a chance to buy an exotic crystal. If you refuse, our heavy projectile firepower will penetrate your shields, ensuring considerable loss of material and crew, even if you defeat us. Accept this offer instead, and we can all peacefully go home. What do you say?	Wir bieten Ihnen die Möglichkeit, einen exotischen Kristall zu kaufen. Wenn Sie ablehnen, wird unser schweres Projektilfeuer Ihre Schilde durchdringen und für erhebliche Verluste an Material und Besatzung sorgen, selbst wenn Sie uns besiegen. Nehmen Sie stattdessen dieses Angebot an, und wir können alle friedlich nach Hause gehen. Was sagen Sie dazu?	400
-choiceText	Buy 1 exotics for 100 credits	+1 Exot für 100 Kredite	100
+choiceText	Buy 1 exotics for 100 credits	Kaufen [+1 Exot, -100 Kredite]	100
 choiceText	We won't yield to extortion, however elaborate [prepare for combat]	Wir lassen uns nicht erpressen, auch wenn es noch so aufwändig ist.	100
 text	Two small vessels approaching tactical weapons range. No high-energy weapons detected.	Zwei kleine Schiffe nähern sich der taktischen Waffenreichweite. Keine Hochenergiewaffen entdeckt.	600
 text	Ah, you do not have enough cash? Then we must unfortunately make you into scrap. Nothing personal, of course. Good bye.	Ah, Sie haben nicht genug Geld? Dann müssen wir Sie leider zu Schrott machen. Nichts Persönliches, natürlich. Auf Wiedersehen.	600
@@ -250,7 +250,7 @@ text	Alien vessel, this sector is a designated as Slaver Habitat. This means our
 
 Ambusher L6b Phobian pirates x 3.prefab
 text	Today's offer is a decent biotech shield module. If you refuse the purchase, our heavy projectile firepower will go right through your shields, ensuring considerable loss of material and crew, even if you defeat us. Accept this offer instead, and we can all peacefully go home. Sounds reasonable?	Das heutige Angebot ist ein anständiges Biotech-Schildmodul. Wenn Sie den Kauf ablehnen, wird unsere schwere Projektil-Feuerkraft direkt durch Ihre Schilde gehen und erhebliche Verluste an Material und Besatzung verursachen, selbst wenn Sie uns besiegen. Nehmen Sie stattdessen dieses Angebot an, und wir können alle friedlich nach Hause gehen. Klingt vernünftig?	400
-choiceText	Buy "1 shield module for 299 credits"	Kaufen Sie "1 Schildmodul für 299 Kredite"	100
+choiceText	Buy "1 shield module for 299 credits"	Kaufen [+1 Schildmodul, -299 Kredite]	100
 text	Three small vessels approaching tactical weapons range. No high-energy weapons detected.	Drei kleine Schiffe nähern sich der taktischen Waffenreichweite. Keine High-Energy-Waffen entdeckt.	600
 text2	The "shield module" we receive in return for our hard-earned credits turns out to be an ancient piece of junk, damaged beyond repair and missing many pieces. We scrap it for materials.	Das "Schildmodul", das wir für unsere hart verdienten Kredite erhalten, entpuppt sich als ein uralter Schrotthaufen, der irreparabel beschädigt ist und dem viele Teile fehlen. Wir verschrotten es für Materialien.	400
 

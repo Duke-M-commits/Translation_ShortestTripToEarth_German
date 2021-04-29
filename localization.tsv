@@ -128,7 +128,7 @@ HoverPanel.cs
 	n/a		0
 	Distance {0}ru	Entfernung {0}re	0
 	CAN'T MOVE	KANN SICH NICHT BEWEGEN	0
-	Credits	Kredite	0
+	Credits	Credits	0
 
 MainQuest.cs
 	tutorial	Einführung	0
@@ -965,7 +965,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Sie können die Modul Herstellung nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpantrieb zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Steckplätzen heraus gebaut werden.	0
 	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Frachtraum oder in einem beliebigen freien Steckplatz gelagert werden können.	0
 	Modules can be turned off from the power switch button.\nIf a module is turned off, it does not need any of its listed requirements.	Module können über den Netzschalterknopf ausgeschaltet werden.\nWenn ein Modul ausgeschaltet ist, benötigt es keine seiner aufgeführten Anforderungen.	0
-	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nReparieren Sie Module, indem Sie ein Crewmitglied auswählen und dann mit R auf ein beschädigtes Modul klicken.\n\nBeschädigte Module können für 10 Synthetics pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0
+	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nReparieren Sie Module, indem Sie ein Crewmitglied auswählen und dann mit R auf ein beschädigtes Modul klicken.\n\nBeschädigte Module können für 10 Kunststoffe pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0
 	Module damage	Modulschaden	0
 	Ship Combat & Weapon Types	Schiffskampf & Waffentypen	0
 	Energy weapons	Energiewaffen	0
@@ -1349,7 +1349,7 @@ Abbrevation for Blue	B:	B:	0
 	You may use any Shortest Trip To Earth material for monetized Youtube/Twitch/etc videos\nor other types of casting or streaming. When doing so, please add a link to\nthe game page with your video description.	Sie dürfen jegliches Material von Shortest Trip To Earth für monetarisierte Youtube/Twitch/etc-Videos\nicht für andere Arten von Casting oder Streaming verwenden. Wenn Sie dies tun, fügen Sie bitte einen Link zur Spielseite mit Ihrer Videobeschreibung hinzu.	0
 	Disclaimers	Haftungsausschlüsse	0
 	Language:	Sprache:	0
-Button in main menu, sets game difficulty	Apply & restart game	Anwenden	0
+Button in main menu, sets game difficulty	Apply & restart game	Anwenden & Spiel neu starten	0
 	Help on translations	Hilfe zur Übersetzung	0
 Button in main menu, sets game difficulty	?	?	0
 	For adding a translation, see translations guide in Steam.\nTranslation template file can be found in Steam Workshop.	Um eine Übersetzung hinzuzufügen, siehe Übersetzungsanleitung in Steam.\nDie Übersetzungsvorlagendatei finden Sie im Steam Workshop.	0
@@ -1721,7 +1721,7 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	SAVE\nALL	SPEI- \nCHERN	16
 	CONFIRM	SICHER\n?	16
 	LOAD\nALL	LADEN	16
-	Click to choose what is saved in this preset	Klicken Sie auf , um auszuwählen, was in dieser Voreinstellung gespeichert werden soll	0
+	Click to choose what is saved in this preset	Klicken Sie hier, um auszuwählen, was in dieser Voreinstellung gespeichert werden soll	0
 	Close preset editor	Voreinstellungseditor schließen	0
 	CONFIRM/CLOSE	SCHLIESSEN	16
 	Remove this preset	Diese Voreinstellung entfernen	0
@@ -1894,7 +1894,7 @@ choiceText	Process to fuel	Verarbeitung zu Treibstoff	100
 choiceText	Process to explosives	Zu Sprengstoffen verarbeiten	100
 choiceText	Leave to return later	Verlassen, um später zurückzukehren	100
 text	processing... %	Verarbeitung... %	50
-text2	The Volatium asteroid was processed into quality starfuel.	Der Volatium-Asteroid wurde zu hochwertigem Treibstoff verarbeitet.	400
+text2	The Volatium asteroid was processed into quality starfuel.	Der Volatium-Asteroid wurde zu hochwertigem Sternentreibstoff verarbeitet.	400
 title	Operation completed	Operation abgeschlossen	35
 text2	No incidents.	Keine Zwischenfälle.	400
 text	We found a large asteroid comprised mostly of the rare Statium mineral, processable to metal. We could take either the surface layer, which is easier to process, or the whole thing. Processing the whole asteroid is an energy-intensive undertaking, deeper layers of the mineral are more heat and shock resistant.	Wir fanden einen großen Asteroiden, der hauptsächlich aus dem seltenen Mineral Statium besteht, das zu Metallen verarbeitet werden kann. Wir konnten entweder die Oberflächenschicht nehmen, die leichter zu verarbeiten ist, oder das ganze Ding. Die Verarbeitung des ganzen Asteroiden ist ein energieintensives Unterfangen, tiefere Schichten des Minerals sind hitze- und schockresistenter.	400
@@ -2046,7 +2046,7 @@ text	looting...	Plündern...	50
 text	returning fire...	Feuer erwidern...	50
 title	Automated market	Automatischer Markt	35
 text	We discovered a shady looking automated minerals market on one of the asteroids. The fact that it does not have a public commercial signal means it is likely involved with smugglers. It advertises an offer that's hard to refuse.	Wir entdeckten einen zwielichtig aussehenden automatisierten Mineralienmarkt auf einem der Asteroiden. Die Tatsache, dass er kein öffentliches Handelssignal hat, bedeutet, dass er wahrscheinlich mit Schmugglern zu tun hat. Er wirbt mit einem Angebot, das man nur schwer ablehnen kann.	400
-choiceText	Trade [get 200 metals for 50 explosives]	Handel [+200 Metalle für 50 Sprengstoffe]	100
+choiceText	Trade [get 200 metals for 50 explosives]	Handel [+200 Metalle, -50 Sprengstoffe]	100
 choiceText	Force entry and loot the market	Gewaltsames Eindringen und Plündern des Marktes	100
 title	Unfair trade	Unfairer Handel	35
 text2	The market has delivered us less minerals than advertised. The market administrator AI tells of "common sense fees" everybody should know about, but these were not stated anywhere... it looks like a primitive scam."	Der Markt hat uns weniger Mineralien geliefert als beworben. Die KI des Marktverwalters erzählt von "vernünftigen Gebühren", die jeder kennen sollte, aber diese wurden nirgends angegeben... es sieht nach einem primitiven Betrug aus."	400
@@ -2326,7 +2326,7 @@ text	A thin layer of harvestable fuel detected in the planet's atmosphere. Estim
 text	Trace amounts of harvestable fuel elements have been detected in the atmosphere. Estimated risk of accidents for orbital operations is below average.	Spuren von abbaubaren Brennelementen wurden in der Atmosphäre nachgewiesen. Geschätztes Unfallrisiko bei orbitalen Operationen ist unterdurchschnittlich.	400
 text2	A small plasma tornado caused an accident during the operation.	Ein kleiner Plasmatornado verursachte einen Unfall während des Betriebs.	400
 text	Atmospheric activity starts to intensify during the mining process, threatening to turn into a full-scale planetwide megastorm. The crew is quickly recalled into the ship, but our mining equipment is still in the atmosphere. Abort the operation?	Die atmosphärische Aktivität beginnt sich während des Abbauprozesses zu verstärken und droht, sich zu einem ausgewachsenen, planetenweiten Megasturm zu entwickeln. Die Crew wird schnell ins Schiff zurückgerufen, aber unsere Bergbauausrüstung befindet sich noch in der Atmosphäre. Abbruch der Operation?	400
-choiceText	Keep harvesting [risk metal & synthetics]	Weiter abbauen [Risiko Metalle & Kunststoffe]	100
+choiceText	Keep harvesting [risk metal & synthetics]	Weiter abbauen [Metalle & Kunststoffe riskieren]	100
 choiceText	Recall mining tech and leave	Bergbautechnik zurückrufen und verlassen	100
 text2	Our minerbots were able to bring back only a few loads of fuel before we lost contact with them. Apparently, the storms destroyed all our printed equipment.	Unsere Minenroboter konnten nur ein paar Ladungen Treibstoff zurückbringen, bevor wir den Kontakt zu ihnen verloren. Offensichtlich haben die Stürme unsere gesamte Druckausrüstung zerstört.	400
 text2	The mining process went as smoothly as possible, the megastorms proved to be quite weak in the end. The remaining fuel elements are too dispersed to justify further harvesting.	Der Abbauprozess verlief weitestgehend reibungslos, die Megastürme erwiesen sich am Ende als recht schwach. Die verbleibenden Brennelemente sind zu weit verstreut, um einen weiteren Abbau zu rechtfertigen.	400
@@ -3523,7 +3523,7 @@ text	"Sorry, but all locals are busy at the moment. Any interaction beyond this 
 choiceText	Tell us about the game	Erzählen Sie uns von dem Spiel	100
 title	Awareness game	Bewusstseins-Spiel	35
 text	The game is about awareness. One of your people will land on our planet, they are given a briefing and then connected to an illusionary reality designed by our best artists. If they remember or figure out it's a game and not reality, they are sent back to you with gifts from our people who watched them play. If not, they get to play forever. We keep players alive for thousands of years.	Bei dem Spiel geht es um Awareness. Einer Ihrer Leute wird auf unserem Planeten landen, sie erhalten eine Einweisung und werden dann mit einer illusionären Realität verbunden, die von unseren besten Künstlern entworfen wurde. Wenn sie sich erinnern oder herausfinden, dass es ein Spiel und nicht die Realität ist, werden sie mit Geschenken von unseren Leuten, die sie beim Spielen beobachtet haben, zu Ihnen zurückgeschickt. Wenn nicht, dürfen sie für immer spielen. Wir halten die Spieler für Tausende von Jahren am Leben.	400
-choiceText	Send a volunteer to play [risk 1 crew]	Schicken Sie einen Freiwilligen zum Spielen [Risiko 1 Mannschaft]	100
+choiceText	Send a volunteer to play [risk 1 crew]	Schicken Sie einen Freiwilligen zum Spielen [1 Mannschaft riskieren]	100
 choiceText	Thank you, we pass	Danke, wir passen	100
 text	Somebody has to stay onboard while the other is away, so you need at least 2 crew for this operation. But you are alone in the ship. We may return if we have more crew, but we cannot do anything else here at the moment.	Einer muss an Bord bleiben, während der andere weg ist, also brauchen Sie mindestens 2 Besatzungsmitglieder für diese Operation. Aber Sie sind allein auf dem Schiff. Wir können zurückkehren, wenn wir mehr Besatzung haben, aber wir können hier im Moment nichts anderes tun.	600
 title	Player not aware enough	Spieler nicht aufmerksam genug	35
@@ -3671,7 +3671,7 @@ reasonToDisplay	intervention successful	Intervention erfolgreich	30
 newName2	ex-militarist civilization	Ex-militärische Zivilisation	25
 title	Grave under-estimation	Gravierende Unterschätzung	35
 text2	We underestimated the size of the planetary nuclear arsenals and accidentally caused a nuclear winter with our retaliation against them. Only a few pockets of survivors remain now and the planet's ecosystem, along with the entire civilization, is expected to undergo a major extinction event. We also received some damage ourselves. This is a disaster. At least it's kind of a good campfire story.	Wir haben die Größe der planetaren Nukleararsenale unterschätzt und mit unserem Vergeltungsschlag gegen sie versehentlich einen nuklearen Winter ausgelöst. Jetzt gibt es nur noch ein paar wenige Überlebende, und das Ökosystem des Planeten wird zusammen mit der gesamten Zivilisation voraussichtlich ein großes Aussterbeereignis erleben. Wir haben auch selbst einige Schäden erlitten. Das ist eine Katastrophe. Zumindest ist es eine gute Lagerfeuer-Geschichte.	400
-reasonToDisplay	nuclear winter caused	Nuklearer Winter verursacht	30
+reasonToDisplay	nuclear winter caused	Nuklearen Winter verursacht	30
 newName2	nuclear winter	Nuklearer Winter	25
 title	Operation success	Operation erfolgreich	35
 text2	Our operatives successfully infiltrated the society of the militaristic insectoids. They were horrified to see the level of suffering that such a violence-based leadership produces in a civilization. At least now these poor fools have less nukes for killing each other.	Unsere Agenten infiltrierten erfolgreich die Gesellschaft der militaristischen Insektoiden. Sie waren entsetzt, als sie sahen, welches Ausmaß an Leid eine solche auf Gewalt basierende Führung in einer Zivilisation hervorbringt. Wenigstens haben diese armen Narren jetzt weniger Bombe, um sich gegenseitig umzubringen.	400
@@ -4027,9 +4027,9 @@ text2	The weapons are delivered to Mothership cargo bay as promised. Along with 
 reasonToDisplay	Trade complete	Handel abgeschlossen	30
 title	Traders	Händler	35
 text	The station sells mostly low-tech industrial or agricultural machinery and self-contained food. A pair of locals are also willing to pay a good price for exotics.	Die Station verkauft hauptsächlich Low-Tech-Industrie- oder Landwirtschaftsmaschinen und selbst hergestellte Lebensmittel. Ein paar Einheimische sind auch bereit, einen guten Preis für Exoten zu zahlen.	400
-choiceText	Sell 1 exotics [+45 credits]	Verkaufe 1 Exoten [+45 Kredite]	100
-choiceText	Sell 3 exotics [+150 credits]	Verkaufe 3 Exoten [+150 Kredite]	100
-choiceText	Buy a self-contained pack of 100 organics [-125 credits]	Kaufen Sie ein geschlossenes Paket mit 100 Organics [-125 Kredite]	100
+choiceText	Sell 1 exotics [+45 credits]	Verkaufen [+45 Kredite, -1 Exoten]	100
+choiceText	Sell 3 exotics [+150 credits]	Verkaufen [+150 Kredite, -3 Exoten]	100
+choiceText	Buy a self-contained pack of 100 organics [-125 credits]	Kaufen [+1 Organik-Paket(100), -125 Kredite]	100
 newName3	buyers for exotics	Käufer für Exoten	25
 text	The market is full of junk, but its owner wants to update the outpost defences and is willing to sell us one of their old but powerful triple cannons, with truly historic value. Apparently, It was once used to cover the evacuation of the planet Gohr-Argh II.	Der Markt ist voller Schrott, aber der Besitzer möchte die Verteidigungsanlagen des Außenpostens aufrüsten und ist bereit, uns eine ihrer alten, aber mächtigen Dreifachkanonen zu verkaufen, die wirklich historischen Wert hat. Anscheinend wurde sie einst für die Evakuierung des Planeten Gohr-Argh II eingesetzt.	400
 choiceText	Buy the cannon [-200 creds]	Kaufen Sie die Kanone [-200 Kredite]	100
@@ -4078,7 +4078,7 @@ name3	Active technology detected	Aktive Technologie entdeckt	25
 title	Large bot	Großer Bot	35
 text	The active technology seems to be an advanced bot, possibly of precursor origin. Our sensors show it is armed with energy weapons. We could either attack it with the Mothership or try to send hackers into its vicinity to try to deactivate its security systems remotely.	Bei der aktiven Technologie scheint es sich um einen fortgeschrittenen Bot zu handeln, der möglicherweise aus einem Vorläufer stammt. Unsere Sensoren zeigen, dass er mit Energiewaffen bewaffnet ist. Wir könnten ihn entweder mit dem Mutterschiff angreifen oder versuchen, Hacker in seine Nähe zu schicken, die versuchen, seine Sicherheitssysteme aus der Ferne zu deaktivieren.	400
 choiceText	Attack with all ship weapons	Mit allen Schiffswaffen angreifen	100
-choiceText	Send hackers [risk 2 crew]	Hacker schicken [Risiko für 2 Crewmitglieder]	100
+choiceText	Send hackers [risk 2 crew]	Hacker schicken [2 Crewmitglieder riskieren]	100
 text2	The bot shot back at our ship with its tiny energy weapons, causing more damage than expected. Luckily, the bot itself was not shielded and died after a single volley of fire from our ship.	Der Bot schoss mit seinen winzigen Energiewaffen auf unser Schiff zurück und verursachte mehr Schaden als erwartet. Glücklicherweise war der Bot selbst nicht abgeschirmt und starb nach einer einzigen Feuersalve von unserem Schiff.	400
 reasonToDisplay	ancient bot destroyed	alter Bot zerstört	30
 text	Firing... %	Feuern... %	50
@@ -4365,7 +4365,7 @@ text2	The anti-tyranny fund representative gives you a formal blessing and promi
 reasonToDisplay	donation provided	Spende bereitgestellt	30
 text	One of the locals requests a formal audience. She explains that she is from a planet ruled by violent tyrants, not much better than the slavers. She is raising a fund to create an army of bots that would liberate the planet and guard the population from violence. She asks if you can support her noble cause.	Eine der Einheimischen bittet um eine formelle Audienz. Sie erklärt, dass sie von einem Planeten kommt, der von gewalttätigen Tyrannen regiert wird, nicht viel besser als die Sklavenhändler. Sie sammelt Spenden, um eine Armee von Bots zu schaffen, die den Planeten befreien und die Bevölkerung vor Gewalt schützen soll. Sie fragt, ob Sie ihre noble Sache unterstützen können.	400
 choiceText	Donate 100 metals to the anti-tyranny fund	Spenden Sie 100 Metalle an den Anti-Tyrannen-Fonds	100
-choiceText	Donate 100 synthethics to the anti-tyranny fund	Spenden Sie 100 Kunststoffe für den Anti-Tyrannen-Fonds	100
+choiceText	Donate 100 synthethics to the anti-tyranny fund	Spende an die Anti-Tyrannen-Fonds [-100 Kunststoffe]	100
 text	This is a multispecies refugee colony. Visitor info suggests that an alliance of benevolent advanced civilizations rescued many individuals from various violence-ruled planets, and donated this desert planet as a new home, so that they may live in peace.	Dies ist eine Multispezies-Flüchtlingskolonie. Besucherinformationen deuten darauf hin, dass eine Allianz wohlwollender fortgeschrittener Zivilisationen viele Individuen von verschiedenen, von Gewalt beherrschten Planeten gerettet hat und diesen Wüstenplaneten als neue Heimat gestiftet hat, damit sie in Frieden leben können.	400
 choiceText	Meet the locals [send crew]	Treffen Sie die Einheimischen [Crew schicken]	100
 newName3	refugee colony	Flüchtlingskolonie	25
@@ -4547,7 +4547,7 @@ text2	We prospect the inside the planet shell and find a large cloud of broken p
 reasonToDisplay	mining completed	Bergbau abgeschlossen	30
 newName3	coreless planet shell	Kernlose Planetenhülle	25
 text	We find exposed seams of valuable mineral ores on the planet surface. We could try to mine them quickly with bots (leaving the Mothership itself and crew in safe distance) although the gigantic anomaly above is menacingly circling the planet.	Wir finden freiliegende Flöze mit wertvollen Mineralien auf der Planetenoberfläche. Wir könnten versuchen, sie schnell mit Bots abzubauen (wobei wir das Mutterschiff selbst und die Besatzung in sicherer Entfernung lassen), obwohl die gigantische Anomalie darüber bedrohlich um den Planeten kreist.	400
-choiceText	Fast mining mission [risk minerbots]	Schnelle Minenmission [Risiko Minenbots]	100
+choiceText	Fast mining mission [risk minerbots]	Schnelle Minenmission [Minenbots riskieren]	100
 text2	Our bots are still in the middle of setting up mining facilities when we see the anomaly suddenly envelop the planet completely, and "swallow" the entirety of it! The anomaly itself then warps off through a personal warphole."	Unsere Bots sind noch mitten im Aufbau der Bergbauanlagen, als wir sehen, wie die Anomalie den Planeten plötzlich komplett einhüllt und ihn "verschluckt"! Die Anomalie selbst warpt dann durch ein persönliches Warpoloch davon."	400
 reasonToDisplay	operation aborted, technology lost	operation abgebrochen, technologie verloren	30
 text2	Our bots are still prospecting the planet when we see the anomaly suddenly envelop the planet and "swallow" the entirety of it! The anomaly itself then warps off through a personal warphole. Needless to say, contact is lost with the bots forever."	Unsere Bots sind immer noch dabei, den Planeten zu untersuchen, als wir sehen, wie die Anomalie den Planeten plötzlich einhüllt und ihn komplett "verschluckt"! Die Anomalie selbst warpt dann durch ein persönliches Warpoloch davon. Unnötig zu sagen, dass der Kontakt zu den Bots für immer verloren ist."	400
@@ -5064,7 +5064,7 @@ reasonToDisplay	ruined temple looted	tempelruine geplündert	30
 
 4 Pi Collector trade gone bad F plus nuke.prefab
 text	We've discovered and contacted a primitive civilization, the Collectors. It is a species of mammals who are in the middle of the industrial age. The personal freedom in their society is very inequal, they still need to learn a lot. After a private conversation with our AI, the primitives' representatives come to terms of possible trade. They desire our advanced synthethics.	Wir haben eine primitive Zivilisation, die Sammler, entdeckt und kontaktiert. Es ist eine Spezies von Säugetieren, die sich mitten im Industriezeitalter befinden. Die persönliche Freiheit in ihrer Gesellschaft ist sehr ungleich, sie müssen noch viel lernen. Nach einem privaten Gespräch mit unserer KI kommen die Vertreter der Primitiven zu Bedingungen für einen möglichen Handel. Sie wünschen sich unsere fortschrittliche Synthetik.	400
-choiceText	Trade [-100 synthetics + 100 fuel]	Handel [-100 Kunststoffe + 100 Treibstoff]	100
+choiceText	Trade [-100 synthetics + 100 fuel]	Handel [-100 Kunststoffe, +100 Treibstoff]	100
 newName3	Collector civilization, industrial era	Sammlerzivilisation, Industriezeitalter	25
 text2	After completing the exchange and a bit of testing, it turns out we have been delivered a much lower quality fuel than promised. When we point out the mistake, the locals tell us that their previous representatives were criminals and have already been executed. We are given some kind of poor local food as remuneration. The incident has created a large political conflict between the planet's ruling factions...	Nach Abschluss des Tauschs und ein paar Tests stellt sich heraus, dass wir einen viel minderwertigeren Treibstoff als versprochen erhalten haben. Als wir auf den Fehler hinweisen, sagen uns die Einheimischen, dass ihre früheren Vertreter Kriminelle waren und bereits hingerichtet wurden. Als Entschädigung erhalten wir eine Art schlechtes lokales Essen. Der Vorfall hat einen großen politischen Konflikt zwischen den herrschenden Fraktionen des Planeten ausgelöst...	400
 reasonToDisplay	problems...	Probleme...	30
@@ -5173,7 +5173,7 @@ text2	You give the local survivors some resources to rebuild their planet. Our c
 reasonToDisplay	resources donated	ressourcen gespendet	30
 text	listening to local comms...	Ich höre den lokalen Funkverkehr ab...	50
 text	We are about to leave the planet, when a small stealthy shuttle approaches us. Turns out it's a delegation from the \n"anarchists", rebels trying to change the system. They explain the whole food problem is designed by the local rulers to keep the population under control. They plead our help to liberate the planet from tyrants."	Wir sind dabei, den Planeten zu verlassen, als sich uns ein kleines, getarntes Shuttle nähert. Es stellt sich heraus, dass es eine Delegation der "Anarchisten" ist, Rebellen, die versuchen, das System zu ändern. Sie erklären, dass das ganze Nahrungsmittelproblem von den lokalen Machthabern entworfen wurde, um die Bevölkerung unter Kontrolle zu halten. Sie bitten uns um Hilfe, den Planeten von den Tyrannen zu befreien."	400
-choiceText	Interfere [risk two crew & resources]	Einmischen [Risiko für zwei Besatzungsmitglieder & Ressourcen]	100
+choiceText	Interfere [risk two crew & resources]	Einmischen [2 Besatzungsmitglieder & Ressourcen riskieren]	100
 
 4 Pi Yu-Ee colony, FO,Repair,trade Shield4,Warp4.prefab
 text	This is a colony of an advanced civilization, the Yu-Ee. The Yu-Ee are an older species described as semisolid cyborgs. It is thought they have either found true happiness as a civilization... or are just under the constant influence of some kind of euphoric drugs. A reception AI happily welcomes you to land and meet the locals.	Dies ist eine Kolonie einer fortgeschrittenen Zivilisation, der Yu-Ee. Die Yu-Ee sind eine ältere Spezies, die als halbstarre Cyborgs beschrieben werden. Es wird angenommen, dass sie entweder das wahre Glück als Zivilisation gefunden haben... oder einfach unter dem ständigen Einfluss einer Art euphorischer Drogen stehen. Eine Empfangs-KI heißt Sie freudig willkommen, um zu landen und die Einheimischen kennenzulernen.	400
@@ -5875,13 +5875,13 @@ text2	Operation completed without problems. We may repeat the transaction.	Opera
 name2	>>Public materials convertor<<	>>Materieumwandler<<	25
 title	Matter Processors	Materieumwandler	35
 text	This is one of the ancient Intergalactic Public Matter Processors. These famous facilities were built by older races for public use centuries ago. They are still working after hundreds of years of service. We may convert some of our resources to others.	Dies ist einer der alten intergalaktischen öffentlichen Materieprozessoren. Diese berühmten Anlagen wurden von älteren Rassen vor Jahrhunderten für den öffentlichen Gebrauch gebaut. Sie sind auch nach Hunderten von Jahren noch in Betrieb. Wir können einige unserer Ressourcen in andere umwandeln.	400
-choiceText	Use facilities [convert 100 synthetics to 100 fuel]	Einrichtungen nutzen [100 Kunststoffe in 100 Treibstoff umwandeln]	100
+choiceText	Use facilities [convert 100 synthetics to 100 fuel]	Anlagen nutzen [-100 Kunststoffe, +100 Treibstoffe]	100
 newName3	synthetics to fuel conversion	Kunststoffe in Treibstoff umwandeln	25
 title	Not enough synthethics	Nicht genug Kunststoffe	35
-choiceText	Use facilities [convert 50 explosives to 52 fuel]	Anlagen verwenden [50 Sprengstoffe in 52 Treibstoffe umwandeln]	100
+choiceText	Use facilities [convert 50 explosives to 52 fuel]	Anlagen nutzen [-50 Sprengstoffe, +52 Treibstoffe]	100
 newName3	explosives to fuel conversion	Sprengstoffe in Treibstoff umwandeln	25
 text	This is one of the ancient Intergalactic Public Matter Processors. These facilities were built by older civilizations for public use centuries ago. They are still working after hundreds of years of service. We may convert some of our resources to others.	Dies ist einer der alten intergalaktischen öffentlichen Materieprozessoren. Diese Anlagen wurden von älteren Zivilisationen vor Jahrhunderten für den öffentlichen Gebrauch gebaut. Sie funktionieren auch noch nach Hunderten von Jahren. Wir können einige unserer Ressourcen in andere umwandeln.	400
-choiceText	Use facilities [convert 80 organics to 40 fuel]	Einrichtungen nutzen [80 Organik in 40 Treibstoff umwandeln]	100
+choiceText	Use facilities [convert 80 organics to 40 fuel]	Einrichtungen nutzen [-80 Organik, +40 Treibstoff]	100
 newName3	organics to fuel conversion	Umwandlung von Organik in Treibstoff	25
 title	Conversion complete	Umwandlung abgeschlossen	35
 text2	Time has degraded efficiency of the facility, as it was able to generate less fuel than expected. We may repeat the process any time.	Mit der Zeit hat sich die Effizienz der Anlage verschlechtert, da sie weniger Brennstoff als erwartet erzeugen konnte. Wir können den Vorgang jederzeit wiederholen.	400
@@ -6121,7 +6121,7 @@ crewDescriptionOverride	A perfectly normal human who grew from spores given by a
 text	As our crew get closer, they feel a mild telepathic connection established with the fungi. Vivid psychedelic images pour into their minds, and they understand this is how the fungi sees the world. Its roots cover almost the entire planet, and it is connected to all beings here. They realize the fungi is hungry. It wants food, and promises something wonderful in return.	Als die Crew näher kommt, spürt sie eine leichte telepathische Verbindung, die mit dem Pilz aufgebaut wird. Lebendige psychedelische Bilder strömen in ihren Geist, und sie verstehen, dass der Pilz die Welt so sieht. Seine Wurzeln bedecken fast den gesamten Planeten, und er ist mit allen Wesen hier verbunden. Sie erkennen, dass der Pilz hungrig ist. Er will Nahrung und verspricht im Gegenzug etwas Wunderbares.	400
 choiceText	Give organics [-80]	Füttern [-80 Organik]	100
 text	They fungi communicates it is still hungry. It needs a bit more food to blossom.	Der Pilz teilt mit, dass er immer noch hungrig ist. Er braucht noch ein bisschen mehr Nahrung, um zu blühen.	400
-choiceText	Give more organics [-40]	Mehr füttern [-40 Organik]	100
+choiceText	Give more organics [-40]	Weiter füttern [-40 Organik]	100
 text	feeding fungi... %	Pilz füttern... %	50
 text	Finally, after feeding huge amounts of organics to the fungi roots, it communicates a feeling of satisfaction. One of the mushrooms releases large spores, communicating "FRIENDS". On-spot analysis detects the spores carry human DNA."	Nachdem die Pilzwurzeln mit großen Mengen an organischen Stoffen gefüttert wurden, meldet sich der Pilz schließlich mit einem Gefühl der Zufriedenheit. Einer der Pilze setzt große Sporen frei und kommuniziert "FRIENDS". Eine Vor-Ort-Analyse zeigt, dass die Sporen menschliche DNA tragen."	400
 choiceText	Take the spores aboard for incubation & research	Nehmen Sie die Sporen zur Inkubation und Forschung mit an Bord	100
@@ -6598,7 +6598,7 @@ choiceText	Easy way [-3 exotics]	Einfacher Weg [-3 Exoten]	100
 choiceText	Hard way [prepare for battle]	Harter Weg [Vorbereitung auf den Kampf]	100
 text	We do not have enough resources needed for this operation. We must fight or escape during combat, once our warpdrive is charged.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen kämpfen oder während des Kampfes fliehen, sobald unser Warpantrieb aufgeladen ist.	600
 text	"Death or trade? I have this very exotic drink I'm willing to sell you, if you can pay me right now..."	Tod oder Handel? Ich habe dieses sehr exotische Getränk, das ich bereit bin, Ihnen zu verkaufen, wenn Sie mich sofort bezahlen können...	400
-choiceText	"Trade" [-220 metals for 1 organics]"	Tausch [-220 Metalle für 1 organisches Produkt]	100
+choiceText	"Trade" [-220 metals for 1 organics]"	Tausch [+1 Organik, -220 Metalle]	100
 text	We do not have enough resources needed for this operation. We must take the fight or escape from the combat.	Wir haben nicht genug Ressourcen für diese Operation. Wir müssen den Kampf annehmen oder aus dem Kampf fliehen.	600
 text	"The bad people took your exotics but said it is not enough... these are very dangerous times... You know with slavers around looking for new prey... But I was able to strike a deal at the last moment... pay some more and you are free to go! Otherwise... I cannot guarantee your safety..."	Die bösen Leute haben Ihre Exoten genommen, aber sie sagten, es sei nicht genug... es sind sehr gefährliche Zeiten... mit den Sklavenhändlern auf der Suche nach neuer Beute... Aber ich konnte im letzten Moment einen Deal aushandeln... zahl etwas mehr und du darfst gehen! Andernfalls... kann ich nicht für Eure Sicherheit garantieren...	400
 choiceText	Pay [-2 exotics]	Bezahlen Sie [-2 Exoten]	100
@@ -6694,8 +6694,8 @@ SOS Smuggler L6 slaver metal trader.prefab
 displayName	trade ship	Handelsschiff	25
 title	Metal Smuggler	Metall-Schmuggler	35
 text	"I don't have anything else, but would you be interested in some scrap metal? Unfortunately, I lost all the trade data for it..." (cargo manifest analysis by our AI suggests the individual is lying. It seems the smuggler is a Slaver associate selling ship remains of slaver victims)."	Ich habe sonst nichts, aber wären Sie an etwas Metallschrott interessiert? Leider habe ich alle Handelsdaten dazu verloren... (Die Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person lügt. Es scheint, dass der Schmuggler ein Sklavenhändler ist, der Schiffsreste von versklavten Opfern verkauft)."	400
-choiceText	Barter [get 150 metals for 3 exotics]	Tauschhandel [+150 Metalle für 3 Exoten]	100
-choiceText	Barter [get 100 metals for 2 exotics]	Tauschhandel [+100 Metalle für 2 Exoten]	100
+choiceText	Barter [get 150 metals for 3 exotics]	Tauschhandel [+150 Metalle, -3 Exoten]	100
+choiceText	Barter [get 100 metals for 2 exotics]	Tauschhandel [+100 Metalle, -2 Exoten]	100
 choiceText	I do not tolerate slaver associates [Attack]	Ich dulde keine Sklavenhändler [Angriff]	100
 title	Transaction complete	Transaktion abgeschlossen	35
 text2	"Great doing business with you."	Toll, mit Ihnen Geschäfte zu machen.	400
@@ -6704,8 +6704,8 @@ text	A large ship with at least 5 projectile weapons and what looks like nukes i
 SOS Smuggler L6 slaver organics trader.prefab
 title	"The Meat Shop" organics smuggler (1 medium ship)"	The Meat Shop Organik-Schmuggler (1 mittleres Schiff)"	35
 text	"I don't have anything else, but would you be interested in some standard carbon organics? Unfortunately, I lost all the ethics certificates for this cargo..." (deeper cargo manifest analysis by our AI suggests the individual is knowingly lying. It seems extremely likely that she's a slaver associate, selling physical remains of their victims."	Ich habe nichts anderes, aber hätten Sie Interesse an ein bisschen Standard-Kohlenstoff-Organik? Leider habe ich alle Ethik-Zertifikate für diese Ladung verloren... (Eine tiefere Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person wissentlich lügt. Es ist sehr wahrscheinlich, dass es sich um einen Sklavenhändler handelt, der die sterblichen Überreste seiner Opfer verkauft."	400
-choiceText	Buy [get 150 organics for 3 exotics]	Kaufen [+150 Organik für 3 Exoten]	100
-choiceText	Barter [get 100 organics for 2 exotics]	Tauschhandel [+100 Organik für 2 Exoten]	100
+choiceText	Buy [get 150 organics for 3 exotics]	Kaufen [+150 Organik, -3 Exoten]	100
+choiceText	Barter [get 100 organics for 2 exotics]	Tauschhandel [+100 Organik, -2 Exoten]	100
 text2	Organics received, no incidents.	Organics erhalten, keine Vorkommnisse.	400
 title	"The Meat Shop" (1 medium ship)"	The Meat Shop (1 mittelgroßes Schiff)"	35
 okButtonText	The only thing you'll be tasting is our firepower	Das Einzige, was Sie schmecken werden, ist unsere Feuerkraft	7
@@ -6715,9 +6715,9 @@ text	A large ship with at least 5 projectile weapons and what looks like nukes i
 SOS Smuggler, explosives and exceptions.prefab
 title	Smuggler of explosives and exceptions	Schmuggler für Sprengstoffe und Sonderfrachten	35
 text	"I see you're in a bit of a trouble. Well, we don't normally sell fuel or organics, but we're going to make an exception for you. A costly exception, of course. I'm in a hurry, so we can do exactly one transaction."	Wie ich sehe, haben Sie ein kleines Problem. Nun, normalerweise verkaufen wir keinen Treibstoff oder Organik, aber wir werden für Sie eine Ausnahme machen. Eine kostspielige Ausnahme, natürlich. Ich bin in Eile, also können wir genau eine Transaktion durchführen.	400
-choiceText	Buy [get 100 explosives for 150 credits]	Kaufen [+100 Sprengstoffe für 150 Kredite]	100
-choiceText	Barter [get 50 fuel for 3 exotics]	Tauschen [+50 Treibstoff für 3 Exoten]	100
-choiceText	Sell [get 50 organics for 1 exotics]	Verkaufen [+50 Organik für 1 Exoten]	100
+choiceText	Buy [get 100 explosives for 150 credits]	Kaufen [+100 Sprengstoffe, -150 Kredite]	100
+choiceText	Barter [get 50 fuel for 3 exotics]	Tauschen [+50 Treibstoff, -3 Exoten]	100
+choiceText	Sell [get 50 organics for 1 exotics]	Verkaufen [+50 Organik, -1 Exoten]	100
 title	Dishonest trade	Unehrlicher Handel	35
 text2	Inspecting the trade package reveals the explosives to be of lesser potency than promised.	Die Inspektion des Handelspakets zeigt, dass der Sprengstoff von geringerer Stärke ist als versprochen.	400
 text2	Inspecting the trade package reveals some of the explosives have been kept so poorly they have degraded into synthetics.	Die Inspektion des Handelspakets zeigt, dass einige der Sprengstoffe so schlecht aufbewahrt wurden, dass sie zu synthetischen Stoffen degradiert sind.	400
@@ -7227,9 +7227,9 @@ Merchants L1 fuel trader, gitchanki.prefab
 displayName	fuel trader	Treibstoffhändler	25
 title	Fuel trader (Gitchanki individual)	Treibstoffhändler (Gitchanki Individuum)	35
 text	"Existential salutations, fellow consciousness! Let us trade forms of energy for mutual profit. Our fleet will be leaving this system after this meeting is over, so this is truly a once-in-a-lifetime offer!"	Existentielle Begrüßung, Mitbewusstsein! Lasst uns Energieformen zum gegenseitigen Vorteil tauschen. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also ist dies wirklich ein einmaliges Angebot!	400
-choiceText	Buy [get 100 fuel for 166 credits]	Kaufen [+100 Treibstoff für 166 Kredite]	100
-choiceText	Barter [get 100 fuel for 3 exotics]	Tauschen [+100 Treibstoff für 3 Exoten]	100
-choiceText	Sell [get 50 credits for 1 exotics]	Verkaufen [+50 Kredite für 1 Exoten]	100
+choiceText	Buy [get 100 fuel for 166 credits]	Kaufen [+100 Treibstoff, -166 Kredite]	100
+choiceText	Barter [get 100 fuel for 3 exotics]	Tauschen [+100 Treibstoff, -3 Exoten]	100
+choiceText	Sell [get 50 credits for 1 exotics]	Verkaufen [+50 Kredite, -1 Exoten]	100
 title	Gitchanki trader	Gitchanki-Händler	35
 text2	"Thanks for the trade. I've also included a small gift!" The traders have gifted us a sculpture, made of plastic explosives. It is an accurate 3D model of what it would look like if the sculpture exploded. A truly unique piece of art."	Vielen Dank für den Handel. Ich habe auch ein kleines Geschenk beigelegt! Die Händler haben uns eine Skulptur geschenkt, die aus Plastiksprengstoff besteht. Es ist ein genaues 3D-Modell davon, wie es aussehen würde, wenn die Skulptur explodieren würde. Ein wirklich einzigartiges Kunstwerk."	400
 text2	"Thank you for doing business with us! Please accept these small murder resources as a gift." The alien traders have included a case of ancient munitions as a free bonus."	Danke, dass Sie mit uns Geschäfte machen! Bitte nehmen Sie diese kleinen Mordressourcen als Geschenk an. Die Alien-Händler haben eine Kiste mit antiker Munition als kostenlosen Bonus beigelegt."	400
@@ -7239,9 +7239,9 @@ Merchants L1 metal trader, techum.prefab
 displayName	metal trader	Metallhändler	25
 title	Metals trader (Techum Collective)	Metallhändler (Techum-Kollektiv)	35
 text	"Merry existence to you, fellow consciousness! Let us trade varieties of matter for mutual benefit. Our fleet will be departing this system after the present interaction, so we present you with an exclusive set of offers."	Frohes Dasein für euch, Mitbewusstsein! Lasst uns zum gegenseitigen Nutzen mit verschiedenen Arten von Materie handeln. Unsere Flotte wird dieses System nach dieser Interaktion verlassen, daher präsentieren wir Ihnen ein exklusives Angebot.	400
-choiceText	Buy [get 200 metals for 166 credits]	Kaufen [+200 Metalle für 166 Kredite]	100
-choiceText	Barter [get 200 metals for 4 exotics]	Tauschen [+200 Metalle für 4 Exoten]	100
-choiceText	Sell [get 55 credits for 1 exotics]	Verkaufen [+55 Kredite für 1 Exoten]	100
+choiceText	Buy [get 200 metals for 166 credits]	Kaufen [+200 Metalle, -166 Kredite]	100
+choiceText	Barter [get 200 metals for 4 exotics]	Tauschen [+200 Metalle, -4 Exoten]	100
+choiceText	Sell [get 55 credits for 1 exotics]	Verkaufen [+55 Kredite, -1 Exoten]	100
 text2	"Thank you for the exchange. Please accept this minor gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew, known for its strength. It is meant for cyborgs only and can be burned as starfuel."	Vielen Dank für den Tausch. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu geschenkt, das für seine Stärke bekannt ist. Es ist nur für Cyborgs bestimmt und kann als Sternentreibstoff verbrannt werden."	400
 title	Techum trader	Techum-Händler	35
 text2	"Thank you for the interaction. Please accept this modest gift as an additional expression of gratitude." The traders have gifted us a ceramic atomic-blast proof sculpture, depicting three Techum sexual organs in their original, organic form. A truly unique tradition expressing the source of everything."	Vielen Dank für die Interaktion. Bitte nehmen Sie dieses bescheidene Geschenk als zusätzlichen Ausdruck der Dankbarkeit an. Die Händler haben uns eine atomsprengungsfeste Keramikskulptur geschenkt, die drei Techum-Sexualorgane in ihrer ursprünglichen, organischen Form darstellt. Eine wahrhaft einzigartige Tradition, die die Quelle von allem zum Ausdruck bringt."	400
@@ -7251,7 +7251,7 @@ Merchants L1 organics trader insectoidian.prefab
 displayName	organics trader	Organik-Händler	25
 title	Organics trader (Insectoid Alliance)	Organik-Händler (Insektoiden-Allianz)	35
 text	"Noble fellow consciousness, let us trade forms of matter and energy for mutual ascension. Our fleet will be leaving this star after this trade, so this is truly a once-in-an-eggtime offer!"	Edles Mitbewußtsein, laßt uns Formen von Materie und Energie zum gegenseitigen Aufstieg tauschen. Unsere Flotte wird diesen Stern nach diesem Handel verlassen, also ist dies wirklich ein einmaliges Angebot!	400
-choiceText	Buy [get 150 organics for 100 credits]	Kaufen [+150 Organik für 100 Kredite]	100
+choiceText	Buy [get 150 organics for 100 credits]	Kaufen [+150 Organik, -100 Kredite]	100
 title	Insectoid trader	Insektoiden-Händler	35
 text2	"Thank you so much for trading with us. Please accept this small gift as an additional token of our gratitude." The gift is a container filled with the blood of small animals, infused with recreational substances commonly used by insectoids. A truly unique piece of art, though barbaric."	Vielen Dank, dass Sie mit uns handeln. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Bei dem Geschenk handelt es sich um einen Behälter, der mit dem Blut von Kleintieren gefüllt ist, durchtränkt mit Erholungsstoffen, die von Insektoiden häufig verwendet werden. Ein wahrhaft einzigartiges Kunstwerk, wenn auch barbarisch."	400
 text2	"Thank you for trading with us. Here is a small gift as an additional token of our gratitude." The alien has included a barrel filled with "honey" made by some local insectoids."	Danke, dass Sie mit uns handeln. Hier ist ein kleines Geschenk als zusätzliches Zeichen unserer Dankbarkeit. Der Außerirdische hat ein Fass mit "Honig" beigelegt, der von einigen lokalen Insektoiden hergestellt wurde."	400
@@ -7262,7 +7262,7 @@ reasonToDisplay	"the not listening to competitors tradition"	die tradition, nich
 Merchants L2 fuel trader githanki duo.prefab
 title	Fuel trader (Gitchanki duo)	Treibstoffhändler (Gitchanki-Duo)	35
 text	"Existential salutations, fellow consciousness! Let us trade forms of energy for mutual profit. Our fleet will be leaving this system after this little trade encounter, so this is truly our last and best offfer!"	Existenzielle Grüße, Mitbewusstsein! Lasst uns Energieformen zum gegenseitigen Vorteil tauschen. Unsere Flotte wird dieses System nach dieser kleinen Handelsbegegnung verlassen, also ist dies wirklich unser letztes und bestes Angebot!	400
-choiceText	Buy [get 100 fuel for 177 credits]	Kaufen [+100 Treibstoff für 177 Kredite]	100
+choiceText	Buy [get 100 fuel for 177 credits]	Kaufen [+100 Treibstoff, -177 Kredite]	100
 text2	"Thanks for the business! Please accept this small gift as an additional token of our gratitude." The traders have gifted us a sculpture of some kind of mythical monster, made of edibles. It smells of cinnamon."	Vielen Dank für das Geschäft! Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine Skulptur einer Art mythischen Monsters geschenkt, die aus Essbarem besteht. Es riecht nach Zimt."	400
 text2	"We appreciate your willingness to trade! Please accept this small gift as an additional token of our gratitude." The alien traders have included a case of ancient munitions as a free bonus. Each munition has a vulgar word written on it."	Wir schätzen Ihre Bereitschaft zum Handel! Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die außerirdischen Händler haben eine Kiste mit antiker Munition als kostenlosen Bonus beigelegt. Auf jeder Munition ist ein vulgäres Wort geschrieben."	400
 text2	"Thank you for accepting the deal. Please take this small gift as an additional token of our gratitude." The traders have included a case full of cheap recreational consumables in their package."	Danke, dass Sie das Angebot angenommen haben. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit. Die Händler haben eine Kiste mit billigem Freizeitverbrauchsmaterial in ihr Paket gelegt."	400
@@ -7270,7 +7270,7 @@ text2	"Thank you for accepting the deal. Please take this small gift as an addit
 Merchants L2 metal trader techum duo.prefab
 title	||The Metals Merchants|| (Techum duo)	||Die Metallhändler (Techum-Duo)	35
 text	"Merry existence to you, fellow consciousness system! Let us trade forms of crystalline matter for mutual profit. Our fleet will be leaving this system after this engagement. It is objectively generous."	Frohes Dasein für euch, Mitbewusstseins-System! Lasst uns Formen von kristalliner Materie zum gegenseitigen Profit tauschen. Unsere Flotte wird dieses System nach diesem Handel verlassen. Es ist objektiv großzügig.	400
-choiceText	Sell [get 56 credits for 1 exotics]	Verkaufen [+56 Kredite für 1 Exoten]	100
+choiceText	Sell [get 56 credits for 1 exotics]	Verkaufen [+56 Kredite, -1 Exoten]	100
 text2	"Thank you for the exchange. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew called "Rocketfuel". It is meant for cyborgs only and can be actually burned as starfuel."	Vielen Dank für den Tausch. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu namens "Rocketfuel" geschenkt. Es ist nur für Cyborgs gedacht und kann tatsächlich als Raketentreibstoff verbrannt werden."	400
 text2	"Thank you for the transaction. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a ceramic atomic-blast proof sculpture, depicting three Techum sexual organs in their original, organic form. A truly unique tradition expressing the source of everything."	Vielen Dank für die Transaktion. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine atomsprengungsfeste Keramikskulptur geschenkt, die drei Techum-Sexualorgane in ihrer ursprünglichen, organischen Form darstellt. Eine wahrhaft einzigartige Tradition, die die Quelle von allem zum Ausdruck bringt."	400
 
@@ -7284,9 +7284,9 @@ text2	"A competitor!? How interesting to meet another food trader here, in the m
 
 Merchants L236 bulk DIY tech.prefab
 text	Merry existence, bone apes, we have heard of you! Might you be interested in bulk trading of manually assembled substandard technology? We have the finest prices.	Fröhliches Dasein, Knochenaffen, wir haben von euch gehört! Sind Sie vielleicht an einem Großhandel mit handmontierter minderwertiger Technik interessiert? Wir haben die besten Preise.	400
-choiceText	Buy 2 manually assembled cryosleep units for 100 credits	Kaufen Sie 2 manuell montierte Kryoschlafmodule für 100 Kredite	100
-choiceText	Buy 3 manually assembled shield batteries for 200 credits	Kaufen Sie 3 handmontierte Schildbatterien für 200 Kredite	100
-choiceText	Buy 3 manually assembled reactors for 200 credits	Kaufen Sie 3 handmontierte Reaktoren für 200 Kredite	100
+choiceText	Buy 2 manually assembled cryosleep units for 100 credits	Kaufen [+2 DIY Kryoschlafmodule, -100 Kredite]	100
+choiceText	Buy 3 manually assembled shield batteries for 200 credits	Kaufen [+3 DIY Schildbatterien, -200 Kredite]	100
+choiceText	Buy 3 manually assembled reactors for 200 credits	Kaufen [+3 DIY Reaktoren, -200 Kredite]	100
 text2	The DIY cryosleep modules are in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a large barrel of water, sweetened with sugar.	Die selbstgebauten Kryoschlafmodule sind in tadellosem Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und ein großes Fass Wasser, gesüßt mit Zucker, hinterlassen.	400
 text2	All the batteries are manually assembled from spare parts as expected. The traders have obviously heard of humans, because they have left a large cylinder filled with alcohol and sugar as a bonus to the trade.	Alle Batterien sind, wie erwartet, von Hand aus Ersatzteilen zusammengebaut. Die Händler haben offensichtlich von Menschen gehört, denn sie haben eine große Flasche gefüllt mit Alkohol und Zucker als Bonus für den Handel hinterlassen.	400
 text2	"Thank you for the smooth transaction. Please accept this small gift as an additional token of our gratitude!" The traders have obviously heard of humans, because they have gifted us a barrel filled with a mixture of sugar, salt, alcohol and potatoes."	Danke für die reibungslose Transaktion. Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an! Die Händler haben offensichtlich von den Menschen gehört, denn sie haben uns ein Fass, gefüllt mit einer Mischung aus Zucker, Salz, Alkohol und Kartoffeln, geschenkt."	400
@@ -7301,9 +7301,9 @@ text2	"We've enjoyed this little meeting. Please accept this small gift as an ad
 Merchants L3 metal trader beedroid.prefab
 title	Metals trader (Beedroid individual)	Metallhändler (Bienenandroid Individuum)	35
 text	"Great to see a fellow consciousness in this abandoned sector! My fleet is about to return home in a couple of minutes, so I will use my personal generosity sub-programs to propose you a set of truly exclusive offers!"	Schön, einen Bewusstseinsgenossen in diesem verlassenen Sektor zu sehen! Meine Flotte wird in ein paar Minuten nach Hause zurückkehren, daher werde ich meine persönlichen Großzügigkeits-Unterprogramme nutzen, um Ihnen eine Reihe von wirklich exklusiven Angeboten zu unterbreiten!	400
-choiceText	Buy [get 200 metals for 100 credits]	Kaufen [+200 Metalle für 100 Kredite]	100
-choiceText	Barter [get 200 metals for 2 exotics]	Tauschen [+200 Metalle für 2 Exoten]	100
-choiceText	Sell [get 100 credits for 2 exotics]	Verkaufen [+100 Kredite für 2 Exoten]	100
+choiceText	Buy [get 200 metals for 100 credits]	Kaufen [+200 Metalle, -100 Kredite]	100
+choiceText	Barter [get 200 metals for 2 exotics]	Tauschen [+200 Metalle, -2 Exoten]	100
+choiceText	Sell [get 100 credits for 2 exotics]	Verkaufen [+100 Kredite, -2 Exoten]	100
 text2	"Thank you for this trade agreement. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew called "Comahammer".\nIt is meant for cyborgs only and can be burned as starfuel."	Vielen Dank für dieses Handelsabkommen. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. "Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu namens "Comahammer" geschenkt. Es ist nur für Cyborgs gedacht und kann als Sternentreibstoff verbrannt werden."	400
 text2	"Thank you. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a plastic sculpture, depicting the last biological Beedroid in the process of becoming a full cyborg (a historical event much celebrated in Beedroid civilization)."	Vielen Dank. Bitte nehmt dieses kleine Geschenk als ein zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine Plastikskulptur geschenkt, die den letzten biologischen Bienenandroid darstellt, der dabei ist, ein vollständiger Cyborg zu werden (ein historisches Ereignis, das in der Bienenandroiden Zivilisation sehr gefeiert wird)."	400
 text2	"Thank you for the trade. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a slab of titanium, engraved with Beedroid math poetry."	Vielen Dank für den Handel. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Die Händler haben uns eine Platte aus Titan geschenkt, in die Bienenandroide mathematische Poesie eingraviert ist."	400
@@ -7311,8 +7311,8 @@ text2	"Thank you for the trade. Please accept this small gift as an additional t
 Merchants L3 organics trader, redmonster.prefab
 title	Organics trader (Insectoidian individual)	Organics-Händler (Insektoidianisches Individuum)	35
 text	"Our fleet will be leaving this system in a few minutes, so this is your only chance for such a blessed deal."	Unsere Flotte wird dieses System in ein paar Minuten verlassen, daher ist dies Ihre einzige Chance für ein solch gesegnetes Geschäft.	400
-choiceText	Buy [get 200 organics for 120 credits]	Kaufen [+200 Organik für 120 Kredite]	100
-choiceText	Barter [get 200 organics for 4 exotics]	Tauschen [+200 Organik für 4 Exoten]	100
+choiceText	Buy [get 200 organics for 120 credits]	Kaufen [+200 Organik, -120 Kredite]	100
+choiceText	Barter [get 200 organics for 4 exotics]	Tauschen [+200 Organik, -4 Exoten]	100
 choiceText	No thanks [leave]	Nein danke [entkoppeln]	100
 text2	"May you be blessed for your honorable trade! Please accept this small gift as an additional token of our gratitude." The gift is a container filled with blood of small animals, infused with recreational substances commonly used by insectoids. A truly unique piece of art, though barbaric."	Mögen Sie gesegnet sein für Ihren ehrenhaften Handel! Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Bei dem Geschenk handelt es sich um einen Behälter, der mit dem Blut von Kleintieren gefüllt ist, durchtränkt mit Erholungsstoffen, die von Insektoiden verwendet werden. Ein wahrhaft einzigartiges Kunstwerk, wenn auch barbarisch."	400
 text2	"I have enjoyed this trade operation. Please accept this small gift as an additional token of our gratitude." The alien has included a large fruit, GMO-engineered to resemble the most common insectoidian sexual organ."	Ich habe diese Handelsaktion genossen. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an. Der Außerirdische hat eine große Frucht beigelegt, die dem häufigsten insektoiden Geschlechtsorgan gleicht."	400
@@ -7346,7 +7346,7 @@ text2	"A competitor!? Don't you know this sector is sanctioned only for Insectoi
 
 Merchants L47 bulk tech.prefab
 text	Hello again, skeleton apes! We have a fine set of destruction systems available. And of course, you should expect us to have the finest prices.	Hallo noch mal, Skelettaffen! Wir haben ein feines Set an Zerstörungssystemen zur Verfügung. Und natürlich sollten Sie erwarten, dass wir die besten Preise haben.	400
-choiceText	Buy 2 dual cannons for 400 credits	Kaufen Sie 2 Doppelkanonen für 400 Kredite	100
+choiceText	Buy 2 dual cannons for 400 credits	Kaufen [+2 Doppelkanonen, -400 Kredite]	100
 choiceText	Buy 1 manually assembled "Exotic Raygun" for 400 credits"	Kaufen Sie 1 manuell montierte "Exotische Strahlenkanone" für 400 Kredite"	100
 choiceText	Buy 1 manually assembled "Acid" nuke for 375 credits"	Kaufen Sie 1 manuell montierte "Acid"-Bombe für 375 Kredite"	100
 text2	The cannons are old, but in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a large barrel of strong alcohol, plus a case of broken hand-grenades.	Die Kanonen sind alt, aber in tadellosem Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und ein großes Fass starken Alkohols hinterlassen, sowie eine Kiste mit zerbrochenen Handgranaten.	400
@@ -7356,8 +7356,8 @@ text2	"Thank you for the smooth transaction. Please accept this acid as an addit
 Merchants L6 fuel barter.prefab
 title	Fuel trader (Grippy individual)	Treibstoff-Händler (Grippy Individuum)	35
 text	FUEL FOR CRYSTALS. SECRET BARTER ONLY.	TREIBSTOFF FÜR KRISTALLE. NUR GEHEIMER TAUSCHHANDEL.	400
-choiceText	Buy [get 100 fuel for 4 exotics]	Kaufen [+100 Treibstoff für 4 Exoten]	100
-choiceText	Barter [get a package of compressed fuel for 3 exotics]	Tauschen [man erhält ein Paket komprimierten Treibstoff für 3 Exoten]	100
+choiceText	Buy [get 100 fuel for 4 exotics]	Kaufen [+100 Treibstoff, -4 Exoten]	100
+choiceText	Barter [get a package of compressed fuel for 3 exotics]	Tauschen [+1 Treibstoff-Paket (kompressiert), -3 Exoten]	100
 text2	The traders also left us a note saying "FREE BEST APE SUGAR POTATO!" and a pile of fruit as a gift."	Die Händler haben uns auch eine Notiz hinterlassen, auf der steht "KOSTENLOSE BESTE APE-ZUCKERKARTOFFEL!" und einen Haufen Früchte als Geschenk."	400
 text2	Fuel received without incident. The traders have given as a chunk of corroded metal as a free bonus. It also has "YOUR SHIP VERY COOL" chemically burned onto it with acid."	Treibstoff ohne Zwischenfall erhalten. Die Händler haben einen Brocken korrodiertes Metall als kostenlosen Bonus gegeben. Außerdem ist "IHR SCHIFF SEHR COOL" mit Säure eingebrannt."	400
 text2	"ENJOY TRIP!" The traders have included a case full of cheap recreational consumables to their package."	ENJOY TRIP! Die Händler haben ihrem Paket eine Kiste voller billiger Freizeitverbrauchsartikel beigelegt."	400
@@ -7365,9 +7365,9 @@ text2	"ENJOY TRIP!" The traders have included a case full of cheap recreational 
 Smuggler L2 explosives smuggler, gormor.prefab
 title	Smuggler (Gor-Mor individual)	Schmuggler (Gor-Mor Individuum)	35
 text	"May your profits accelerate, fellow consciousness! Let us trade forms of energy for mutual profit. Our fleet will be leaving this system after this meeting is over, so this is truly a once-in-a-bodytime offer!" (analysis of the trader fleet credentials suggest less-than-perfect reputation)."	Mögen sich eure Gewinne beschleunigen, Bewusstseinsgenossen! Lasst uns Energieformen zum gegenseitigen Profit tauschen. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also ist dies wirklich ein einmaliges Angebot! (die Analyse der Referenzen der Händlerflotte deutet auf einen nicht ganz so guten Ruf hin)."	400
-choiceText	Buy [get 100 explosives for 50 credits]	Kaufen [+100 Sprengstoffe für 50 Kredite]	100
-choiceText	Barter [get 100 explosives for 40 fuel]	Tauschen [+100 Sprengstoffe für 40 Treibstoff]	100
-choiceText	Sell [get 56 data credits for 1 exotics]	Verkaufen [+56 Xenodaten-Kredite für 1 Exoten]	100
+choiceText	Buy [get 100 explosives for 50 credits]	Kaufen [+100 Sprengstoffe, -50 Kredite]	100
+choiceText	Barter [get 100 explosives for 40 fuel]	Tauschen [+100 Sprengstoffe, -40 Treibstoff]	100
+choiceText	Sell [get 56 data credits for 1 exotics]	Verkaufen [+56 Kredite, -1 Exoten]	100
 text2	Inspecting the trade package reveals we have received exactly 1% less than promised, even though the deal itself remains profitable.	Die Inspektion des Handelspakets zeigt, dass wir genau 1% weniger als versprochen erhalten haben, obwohl das Geschäft selbst profitabel bleibt.	400
 text2	Instead of universal intergalactic xenodata currency, the package contains huge amounts of an ancient, obsolete, practically worthless datacurrency, with a total value of barely 1 xenodata. Additionally, there's a note saying "If the currency is not valid please accept this organic edible slime as a bonus" and a container full of dubious biosludge."	Statt der universellen intergalaktischen Xenodaten-Währung enthält das Paket riesige Mengen einer uralten, veralteten, praktisch wertlosen Datenwährung mit einem Gesamtwert von kaum 1 Xenodaten. Zusätzlich gibt es einen Zettel mit der Aufschrift "Wenn die Währung nicht gültig ist, nehmen Sie bitte diesen organischen, essbaren Schleim als Bonus an" und einen Behälter voll mit dubiosem Bioschlamm."	400
 text2	"You won't get a better price for exotics from anywhere else in the universe!" the smuggler explains before warping off."	Sie werden nirgendwo sonst im Universum einen besseren Preis für Exoten bekommen, erklärt der Schmuggler, bevor er mit Warp davonfliegt."	400
@@ -7388,7 +7388,7 @@ text	A pair of trade ships approaching. One of them is armored and militarized w
 Smuggler L3 explo and hint smuggler, redmonster.prefab
 title	Munitions smuggler (Insectoidian individual)	Munitionsschmuggler (Insektoiden Individuum)	35
 text	"May your power index increase, fellow consciousness! We are selling destructive matter & hints for a very competitive price. Our fleet will be leaving this system after this meeting is over, so no refunds!" (analysis of the trader fleet credentials suggest less-than-perfect reputation)."	Möge euer Machtindex steigen, Mitbewohner! Wir verkaufen zerstörerische Materie & Hinweise zu einem sehr günstigen Preis. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also keine Rückerstattung! (die Analyse der Daten der Händlerflotte deutet auf einen nicht ganz so guten Ruf hin)."	400
-choiceText	Sell [get 55 data credits for 1 exotics]	Verkaufen [+55 Xenodaten-Kredite für 1 Exoten]	100
+choiceText	Sell [get 55 data credits for 1 exotics]	Verkaufen [+55 Kredite, -1 Exoten]	100
 choiceText	Buy some exclusive information [-1 exotics]	Kaufen Sie einige exklusive Informationen [-1 Exoten]	100
 text2	A single warhead has been removed from one of the munitions, the rest are in top shape. Perhaps the smuggler thought nobody would complain about such a minor loss of profit?	Aus einer der Munitionen wurde ein einzelner Sprengkopf entfernt, der Rest ist in bestem Zustand. Vielleicht dachte der Schmuggler, dass sich niemand über einen so geringen Gewinnverlust beschweren würde?	400
 text2	Inspecting the trade package reveals majority of the explosives have been kept so poorly they have degraded back to volatile organics.	Die Inspektion des Handelspakets offenbart, dass die Mehrheit der Sprengstoffe so schlecht aufbewahrt wurde, dass sie wieder zu flüchtigen organischen Stoffen abgebaut wurden.	400
@@ -7404,7 +7404,7 @@ text	A large ship is approaching, with two cargo ships following in the distance
 Smuggler L4 explo smuggler grippy.prefab
 title	Explosives smuggler (Grippy individual)	Sprengstoffe-Schmuggler (Grippiges Individuum)	35
 text	"May your cunningness increase, fellow consciousness! Let us trade forms of destruction for mutual profit. I offer destructive matter in return for standard xenocurrency, surely as destructive as explosives." (analysis of the trader fleet credentials suggest a less-than-perfect reputation)."	Möge eure Gerissenheit zunehmen, Mitbewusstsein! Lass uns Formen der Zerstörung zum gegenseitigen Nutzen tauschen. Ich biete zerstörerische Materie im Gegenzug für Xenodaten-Kredite, die sicherlich genauso zerstörerisch ist wie Sprengstoff. (Die Analyse der Anmeldedaten der Händlerflotte lässt auf einen nicht ganz so guten Ruf schließen)."	400
-choiceText	Buy [get 100 explosives for 60 credits]	Kaufen [+100 Sprengstoffe für 60 Kredite]	100
+choiceText	Buy [get 100 explosives for 60 credits]	Kaufen [+100 Sprengstoffe, -60 Kredite]	100
 title	Good trade	Guter Handel	35
 text2	We receive the explosives as promised.	Wir erhalten den Sprengstoff wie versprochen.	400
 text2	Most of the explosives have been kept so poorly they have degraded into synthetics & organics.	Die meisten Sprengstoffe wurden so schlecht aufbewahrt, dass sie in synthetische & organische Stoffe zerfallen sind.	400
