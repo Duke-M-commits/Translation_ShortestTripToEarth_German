@@ -1372,8 +1372,8 @@ Button in main menu, sets game difficulty	?	?	0
 	Starting crew:	Startmannschaft:	0
 	Also called ship hitpoints or integrity points. Can be repaired by crew and in special stations.	Auch Schiffshüllenpunkte oder Integritätspunkte genannt. Können von der Crew und in speziellen Stationen repariert werden.	0
 	Hull points:	Hüllenpunkte:	0
-	Survivability index.	Überlebensfähigkeit.	0
-	Survivability:	Überlebens-Index:	0
+	Survivability index.	Überlebenswahrscheinlichkeit.	0
+	Survivability:	Überlebenschance:	0
 	Not all ships guarantee chance of victory.	Nicht alle Schiffe garantieren eine Chance auf den Sieg.	0
 	Choose starting bonuses (perks):	Wählen Sie Ihre Startboni:	0
 	NB! Fate points do not accumulate, you must use them or lose them.	ACHTUNG! Schicksalspunkte häufen sich nicht an, Sie müssen sie benutzen oder verlieren sie.	0
@@ -1433,7 +1433,7 @@ Button. Clicking it opens power management overlay	DIFFICULTY	SCHWIERIGKEIT	6
 	Click to sort by ship name	Klicken Sie hier, um nach dem Schiffsnamen zu sortieren	0
 Button. Clicking it opens power management overlay	SHIP	SCHIFF	6
 	Click to sort by ship survival index	Klicken Sie hier, um nach dem Schiffsüberlebensindex zu sortieren	0
-Button. Clicking it opens power management overlay	SURVIVAL INDEX	ÜBERLEBENS-INDEX	6
+Button. Clicking it opens power management overlay	SURVIVAL INDEX	ÜBERLEBENSCHANCE	6
 	Click to sort by survived battles	Klicken Sie hier, um nach überlebten Schlachten zu sortieren	0
 Button. Clicking it opens power management overlay	BATTLES SURVIVED	ÜBERLEBTE SCHLACHTEN	6
 	Click to sort by destroyed ships	Klicken Sie hier, um nach zerstörten Schiffen zu sortieren	0
@@ -1840,7 +1840,7 @@ Refers to shop	Store	Händler	0
 	BUY	KAUFEN	0
 	Select module to buy	Wählen Sie ein Modul 	0
 	Hire	Anheuern	0
-	Select a crewmember to hire	Wählen Sie ein Crewmitglied zum Anheuern	0
+	Select a crewmember to hire	Wählen Sie ein Crewmitglied	0
 	Exit the shop	Verlassen Sie den Shop	0
 	EXIT	VERLASSEN	0
 
@@ -3713,7 +3713,7 @@ text2	The locals were friendly and ready to share various sensual pleasures duri
 reasonToDisplay	Tree friends visited	Baumfreunde zu Besuch	30
 crewDescriptionOverride	Ex-inhabitant of the Tree Friend colony. Claims a personal relationship with all plant life. Very peaceful.	Ex-Bewohner der Baumfreund-Kolonie. Behauptet eine persönliche Beziehung zu allem pflanzlichen Leben. Sehr friedlich.	250
 text	This planet is a colony of the "Tree Friends", a philosophic society comprised of various species joined by reverence of plant life and trees. The galactic community tends to make sexual jokes about them and plants."	Dieser Planet ist eine Kolonie der "Baumfreunde", einer philosophischen Gesellschaft, die aus verschiedenen Spezies besteht, die durch die Ehrfurcht vor dem Pflanzenleben und den Bäumen verbunden sind. Die galaktische Gemeinschaft neigt dazu, sexuelle Witze über sie und Pflanzen zu machen."	400
-choiceText	Land	Land	100
+choiceText	Land	Landen	100
 newName3	Tree Friends colony	Baumfreunde-Kolonie	25
 text2	The locals proved to be friendly and ready to share various sensual pleasures. They gave us a self-contained package of organics as a farewell gift.	Die Einheimischen erwiesen sich als freundlich und bereit, verschiedene sinnliche Vergnügungen zu teilen. Als Abschiedsgeschenk überreichten sie uns ein selbst zusammengestelltes Paket mit organischen Produkten.	400
 title	Invitation to share lives	Einladung, das Leben zu teilen	35
@@ -3763,8 +3763,8 @@ text2	Scavenging operation completed. Nothing to report.	Plünderung abgeschloss
 newName3	worthless ship remains	Wertlose Schiffsreste	25
 text	scavenging materials... %	Scavenging-Materialien... %	50
 text2	Against all odds, one of the central components is not completely broken.	Entgegen aller Wahrscheinlichkeit ist eine der zentralen Komponenten nicht komplett kaputt.	400
-text2	Against all odds, a small Moleculaati was found aboard the vessel. Moleculaatis are intelligent, easily befriendable non-carbon creatures. It looks like this one could have been here for at least centuries, eating a chair or a lamp once every few years.	Wider Erwarten wurde ein kleiner Moleculaati an Bord des Schiffes gefunden. Moleculaatis sind intelligente, leicht umgängliche Nicht-Kohlenstoff-Wesen. Es sieht so aus, als könnte dieser mindestens seit Jahrhunderten hier sein und alle paar Jahre einmal einen Stuhl oder eine Lampe fressen.	400
-reasonToDisplay	Moleculaati found	Gefundene Moleculaati	30
+text2	Against all odds, a small Moleculaati was found aboard the vessel. Moleculaatis are intelligent, easily befriendable non-carbon creatures. It looks like this one could have been here for at least centuries, eating a chair or a lamp once every few years.	Wider Erwarten wurde ein kleiner Moleküli an Bord des Schiffes gefunden. Molekülis sind intelligente, leicht umgängliche Nicht-Kohlenstoff-Wesen. Es sieht so aus, als könnte dieser mindestens seit Jahrhunderten hier sein und alle paar Jahre einmal einen Stuhl oder eine Lampe fressen.	400
+reasonToDisplay	Moleculaati found	Moleküli gefunden	30
 title	Unused munition	Unbenutzte Munition	35
 text2	Something exploded in the wreckage during the operation, probably an unused munition.	In den Trümmern ist während des Einsatzes etwas explodiert, wahrscheinlich eine unbenutzte Munition.	400
 
@@ -4453,7 +4453,7 @@ text2	Scavenging operation completed. The ship contained an almost intact piece 
 title	Nanobot contamination!	Nanobot-Kontamination!	35
 text2	Scavenging operation completed. Somehow, a particularly insidious nanobot from the scavenged ship materials avoided our decontamination procedures and got aboard our ship. Their colony started to eat away some of the Mothership tech parts and grow rapidly. Large sections of the ship had to be destroyed to stop the infestation.	Plünderungsoperation abgeschlossen. Irgendwie umging ein besonders heimtückischer Nanobot aus den erbeuteten Schiffsmaterialien unsere Dekontaminationsverfahren und gelangte an Bord unseres Schiffes. Ihre Kolonie begann, einige der technischen Teile des Mutterschiffs zu zerfressen und schnell zu wachsen. Große Teile des Schiffes mussten zerstört werden, um den Befall zu stoppen.	400
 text2	Taking a look inside the wreckage, our engineers found an armored cryopod containing a frozen terran cat. She passed all decontamination procedures and is now an important member of the crew.	Als unsere Ingenieure einen Blick in das Wrack warfen, fanden sie eine gepanzerte Kryokapsel, der eine gefrorene terranische Katze enthielt. Sie hat alle Dekontaminationsprozeduren bestanden und ist nun ein wichtiges Mitglied der Crew.	400
-text2	Taking a look inside the wreckage, our engineers found an armored cryopod containing a frozen Moleculaati. These rare noncarbon creatures are scattered throughout space, without a hint to their origin.	Bei einem Blick in das Wrack fanden unsere Ingenieure eine gepanzerte Kryokapsel, der einen gefrorenen Moleculaati enthielt. Diese seltenen kohlenstofffreien Lebewesen sind im gesamten Weltraum verstreut, ohne dass es einen Hinweis auf ihre Herkunft gibt.	400
+text2	Taking a look inside the wreckage, our engineers found an armored cryopod containing a frozen Moleculaati. These rare noncarbon creatures are scattered throughout space, without a hint to their origin.	Bei einem Blick in das Wrack fanden unsere Ingenieure eine gepanzerte Kryokapsel, der einen gefrorenen Moleküli enthielt. Diese seltenen kohlenstofffreien Lebewesen sind im gesamten Weltraum verstreut, ohne dass es einen Hinweis auf ihre Herkunft gibt.	400
 
 3 EH refuelling station malfunctioned 2.prefab
 displayName	Refuelling station	Betankungsstation	25
@@ -9908,12 +9908,12 @@ unlockText	Reach sector 3 to unlock	Freischaltung: Erreichen Sie Sektor 3	100
 unlockAnnouncementText	A family of insect traders have ascended into royal politics. Being old friends with our ship AI, they decided to donate their ancient flagship to our cause.	Eine Familie von Insektenhändlern ist in die königliche Politik aufgestiegen. Da sie alte Freunde unserer Schiffs-KI sind, haben sie sich entschlossen, uns ihr altes Flaggschiff zu spenden.	100
 
 06 Atlas.prefab
-description	This vessel was designed to be a mobile research base for dangerous frontiers. Optional module package offers dedicated sustainability equipment, including a fuel synthesizer. Comes equipped with external fuel tank, usable as nuke.	Dieses Schiff wurde als mobile Forschungsbasis für gefährliche Grenzgebiete konzipiert. Das optionale Modulpaket bietet eine spezielle Nachhaltigkeitsausrüstung, einschließlich eines Treibstoffsynthesizers. Ausgestattet mit einem externen Treibstofftank, der als Nuklearwaffe verwendet werden kann.	400
+description	This vessel was designed to be a mobile research base for dangerous frontiers. Optional module package offers dedicated sustainability equipment, including a fuel synthesizer. Comes equipped with external fuel tank, usable as nuke.	Dieses Schiff wurde als mobile Forschungsbasis für gefährliche Grenzgebiete konzipiert. Das optionale Modulpaket bietet eine spezielle Nachhaltigkeitsausrüstung, einschließlich eines Treibstoffsynthesizers. Kommt mit einem externen Treibstofftank, der als Bombe verwendet werden kann.	400
 unlockText	Reach sector 4 to unlock	Freischaltung: Erreichen Sie Sektor 4	100
 unlockAnnouncementText	As a final gift, the Earth station AI has given us access to these ship blueprints.	Als abschließendes Geschenk hat uns die KI der Erdstation Zugang zu diesen Schiffsblaupausen gegeben.	100
 
 07 Bluestar MK III scientific.prefab
-description	Bluestar was designed for exploration missions in deep, uninhabited space. The ship has a superb set of science and sustainability modules, but moderate combat capability. Comes equipped with external fuel tank, usable as nuke.	Die Bluestar wurde für Erkundungsmissionen im tiefen, unbewohnten Weltraum konzipiert. Das Schiff verfügt über eine hervorragende Ausstattung an Wissenschafts- und Nachhaltigkeitsmodulen, aber mäßige Kampffähigkeiten. Es ist mit einem externen Treibstofftank ausgestattet, der als Nuklearwaffe verwendet werden kann.	400
+description	Bluestar was designed for exploration missions in deep, uninhabited space. The ship has a superb set of science and sustainability modules, but moderate combat capability. Comes equipped with external fuel tank, usable as nuke.	Die Bluestar wurde für Erkundungsmissionen im tiefen, unbewohnten Weltraum konzipiert. Das Schiff verfügt über eine hervorragende Ausstattung an Wissenschafts- und Nachhaltigkeitsmodulen, aber mäßige Kampffähigkeiten. Kommt mit einem externen Treibstofftank, der als Bombe verwendet werden kann.	400
 unlockText	Reach sector 5 to unlock	Freischaltung: Erreichen Sie Sektor 5	100
 unlockAnnouncementText	Our encounters have created chain reactions, resulting in exclusive access to this exploration ship.	Unsere Begegnungen haben Kettenreaktionen ausgelöst, die zu einem exklusiven Zugang zu diesem Erkundungsschiff geführt haben.	100
 
@@ -10666,8 +10666,8 @@ description	An unusual pair of exquisite weapons. Both are designed for killing 
 randomizerMenuStrings[i]	+2 ship weapons	+2 Schiffswaffen	30
 
 Perk moleculaati pet.prefab
-displayName	The Moleculaati	Die Moleculaati	40
-description	Moleculaatis are non-carbon animals of unknown origin that use body colors as a simple but efficient language. They occasionally need to eat small amounts of cyanide and various acids.	Moleculaatis sind kohlenstofffreie Tiere unbekannter Herkunft, die Körperfarben als einfache, aber effiziente Sprache verwenden. Sie müssen gelegentlich kleine Mengen von Zyanid und verschiedenen Säuren zu sich nehmen.	250
+displayName	The Moleculaati	Die Molekülis	40
+description	Moleculaatis are non-carbon animals of unknown origin that use body colors as a simple but efficient language. They occasionally need to eat small amounts of cyanide and various acids.	Molekülis sind kohlenstofffreie Tiere unbekannter Herkunft, die Körperfarben als einfache, aber effiziente Sprache verwenden. Sie müssen gelegentlich kleine Mengen von Zyanid und verschiedenen Säuren zu sich nehmen.	250
 
 Perk nuke arsenal DIY.prefab
 displayName	Nuke arsenal DIY	Atomwaffenarsenal DIY	40
