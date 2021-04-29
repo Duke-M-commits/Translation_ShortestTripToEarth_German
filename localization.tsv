@@ -1040,7 +1040,7 @@ Help file title about messages appearing in logpanel	Log messages	Log-Meldungen	
 	To increase crew survivability against intruders, position them to shoot from behind corners.\nMissed shots may damage modules.	Um die Überlebensfähigkeit der Besatzung gegen Eindringlinge zu erhöhen, positionieren Sie sie so, dass sie von hinter Ecken schießt.\nFehlschüsse können Module beschädigen.	0
 	Selecting all crew (default shortcut E) shows all crew stats together. \nThis screen enables you to sort and compare their skills, or assign roles.	Wenn Sie die gesamte Besatzung auswählen (Standardtaste E), werden alle Besatzungsstatistiken zusammen angezeigt. \nDieser Bildschirm ermöglicht es Ihnen, ihre Fertigkeiten zu sortieren und zu vergleichen oder Rollen zuzuweisen.	0
 	If some of the selected crew are in cryosleep, giving actions will also de-freeze them.\nWhile multiple crew is selected, giving orders (right-clicking) applies to all selected crew.	Wenn sich einige der ausgewählten Crewmitglieder im Kryoschlaf befinden, werden sie durch das Erteilen von Aktionen auch aus dem Kryoschlaf geholt.\nWährend mehrere Crewmitglieder ausgewählt sind, gilt das Erteilen von Befehlen (Rechtsklick) für alle ausgewählten Crewmitglieder.	0
-	Basic resources are organics, fuel, metals, synthetics, explosives, exotics. \nThese are stored in containers with limited capacity.\n\nFlying around usually consumes both fuel & organics. Read about other resources from relevant help pages.	Grundlegende Ressourcen sind Organik, Treibstoff, Metalle, synthetische Stoffe, Sprengstoffe und exotische Stoffe. \nDiese werden in Containern mit begrenzter Kapazität gelagert.\n\nDas Herumfliegen verbraucht normalerweise sowohl Treibstoff als auch Organik. Informieren Sie sich über weitere Ressourcen auf den entsprechenden Hilfeseiten.	0
+	Basic resources are organics, fuel, metals, synthetics, explosives, exotics. \nThese are stored in containers with limited capacity.\n\nFlying around usually consumes both fuel & organics. Read about other resources from relevant help pages.	Grundlegende Ressourcen sind Organik, Treibstoff, Metalle, Kunststoffe, Sprengstoffe und Exoten. \nDiese werden in Containern mit begrenzter Kapazität gelagert.\n\nDas Herumfliegen verbraucht normalerweise sowohl Treibstoff als auch Organik. Informieren Sie sich über weitere Ressourcen auf den entsprechenden Hilfeseiten.	0
 	Hovering cursor over resource values shows total production & consumption.	Wenn Sie den Mauszeiger über die Ressourcenwerte bewegen, werden Gesamtproduktion und -verbrauch angezeigt.	0
 	Most crewmembers consume organics as food, water, air and recreational substances, based on ship travel distance in space.\n\nOrganics can be harvested from planets with ecosystems, or bought from trade stations.\n\nVarious garden & sustainability modules allow growing organics inside the ship.\n\nRunning out of organics reduces crew skills by 50% due to unhappiness.\n\nDriving the ship with no organics damages crew due to lack of life supplies.	Die meisten Besatzungsmitglieder verbrauchen Organik in Form von Nahrung, Wasser, Luft und Erholungsmitteln, basierend auf der Reisedistanz des Schiffes im Weltraum.\n\nOrganik kann von Planeten mit Ökosystemen geerntet oder an Handelsstationen gekauft werden.\n\nVerschiedene Garten- & Nachhaltigkeitsmodule ermöglichen den Anbau von organischen Stoffen innerhalb des Schiffes.\n\nWenn die organischen Stoffe ausgehen, werden die Fertigkeiten der Besatzung aufgrund von Unzufriedenheit um 50 % reduziert.\n\nDas Fliegen des Schiffes ohne Organik schadet der Besatzung aufgrund des Mangels an Lebensmitteln.	0
 	Fuel is mostly consumed by warping between starsystems.\nWarpdrives typically need 40-50 fuel per jump.\nFuel is also consumed by engines and reactors when driving around in starsystems.\nAdditionally, exploration and other planetary operations sometimes consumes small amounts of fuel.	Treibstoff wird hauptsächlich beim Warpen zwischen Sternensystemen verbraucht.\nWarantriebe benötigen typischerweise 40-50 Treibstoff pro Sprung.\nTreibstoff wird auch von Triebwerken und Reaktoren verbraucht, wenn man in Sternensystemen herumfliegt.\nZusätzlich verbrauchen Erkundungen und andere planetare Operationen manchmal kleine Mengen an Treibstoff.	0
@@ -1103,16 +1103,16 @@ Materials converter panel.prefab
 	Materials convertor name	Name des Materialumwandlers	0
 	Amount of fuel needed to convert 1 unit	Benötigte Treibstoffmenge für die Umwandlung von 1 Einheit	0
 	Amount of organics needed to convert 1 unit	Benötigte Menge an Organik für die Umwandlung von 1 Einheit	0
-	Amount of synthetics needed to convert 1 unit	Benötigte Menge an synthetischen Stoffen für die Umwandlung von 1 Einheit	0
+	Amount of synthetics needed to convert 1 unit	Benötigte Menge an Kunststoffen für die Umwandlung von 1 Einheit	0
 	Amount of explosives needed to convert 1 unit	Benötigte Menge an Sprengstoff für die Umwandlung von 1 Einheit	0
-	Amount of exotics needed to convert 1 unit	Menge an exotischen Stoffen, die für die Umwandlung von 1 Einheit benötigt wird	0
+	Amount of exotics needed to convert 1 unit	Menge an Exoten, die für die Umwandlung von 1 Einheit benötigt wird	0
 	Amount of metals needed to convert 1 unit	Menge der Metalle, die für die Umwandlung von 1 Einheit benötigt wird	0
 	Amount of Xenodata needed to convert 1 unit	Menge an Xenodaten, die für die Umwandlung von 1 Einheit benötigt wird	0
 	Amount of fuel consumed per 1 conversion	Menge des verbrauchten Treibstoffs pro 1 Konvertierung	0
 	Amount of metals consumed per 1 conversion	Menge der verbrauchten Metalle pro 1 Konvertierung	0
 	Amount of Xenodata consumed per 1 conversion	Menge der verbrauchten Xenodaten pro 1 Umwandlung	0
 	Amount of organics produced per 1 conversion	Menge der pro 1 Umwandlung produzierten organischen Stoffe	0
-	Amount of synthetics produced per 1 conversion	Menge der synthetischen Stoffe, die pro 1 Umwandlung produziert werden	0
+	Amount of synthetics produced per 1 conversion	Menge der Kunststoffe, die pro 1 Umwandlung produziert werden	0
 	Amount of explosives produced per 1 conversion	Menge der produzierten Sprengstoffe pro 1 Konvertierung	0
 	Amount of exotics produced per 1 conversion	Menge der produzierten Exoten pro 1 Konvertierung	0
 	Amount of metals produced per 1 conversion	Menge der produzierten Metalle pro 1 Konvertierung	0
@@ -1126,7 +1126,7 @@ Materials converter panel.prefab
 	Amount of organics recieved after conversion	Menge an organischen Stoffen, die nach der Umwandlung erhalten wurden	0
 	Amount of aynthetics recieved after conversion	Menge der nach der Konvertierung erhaltenen Aynthetik	0
 	Amount of explosives recieved after conversion	Menge der nach der Konvertierung erhaltenen Sprengstoffe	0
-	Amount of exotics recieved after conversion	Menge der nach der Konvertierung erhaltenen exotischen Stoffe	0
+	Amount of exotics recieved after conversion	Menge der nach der Konvertierung erhaltenen Exoten	0
 	Amount of metals recieved after conversion	Menge der nach der Konvertierung erhaltenen Metalle	0
 	Amount of datacreds recieved after conversion	Menge der nach der Konvertierung erhaltenen Datacreds	0
 	Craft container modules to get more container space or craft packs to place resources into storage	Bauen Sie Containermodule, um mehr Containerplatz zu erhalten, oder bauen Sie Packs, um Ressourcen einzulagern	0
@@ -6715,7 +6715,7 @@ text	A large ship with at least 5 projectile weapons and what looks like nukes i
 SOS Smuggler, explosives and exceptions.prefab
 title	Smuggler of explosives and exceptions	Schmuggler von Sprengstoff und Sonderfrachten	35
 text	"I see you're in a bit of a trouble. Well, we don't normally sell fuel or organics, but we're going to make an exception for you. A costly exception, of course. I'm in a hurry, so we can do exactly one transaction."	Wie ich sehe, haben Sie ein kleines Problem. Nun, normalerweise verkaufen wir keinen Treibstoff oder organische Stoffe, aber wir werden für Sie eine Ausnahme machen. Eine kostspielige Ausnahme, natürlich. Ich bin in Eile, also können wir genau eine Transaktion durchführen.	400
-choiceText	Buy [get 100 explosives for 150 credits]	Kaufen [+100 Sprengstoff für 150 Credits]	100
+choiceText	Buy [get 100 explosives for 150 credits]	Kaufen [+100 Sprengstoffe für 150 Credits]	100
 choiceText	Barter [get 50 fuel for 3 exotics]	Tauschen [+50 Treibstoff für 3 Exoten]	100
 choiceText	Sell [get 50 organics for 1 exotics]	Verkaufen [+50 Organik für 1 Exotika]	100
 title	Dishonest trade	Unehrlicher Handel	35
@@ -8461,7 +8461,7 @@ displayName	Multi-container FOO	Multicontainer FOO	40
 
 multicontainer FOS biotec.prefab
 displayName	Multi-container FOS	Multicontainer FOS	40
-description	Increases storage capacity of fuel, organics & synthetics.	Erhöht die Lagerkapazität von Treibstoff, organischen und synthetischen Stoffen.	200
+description	Increases storage capacity of fuel, organics & synthetics.	Erhöht die Lagerkapazität von Treibstoff, Organik und Kunststoffen.	200
 
 multicontainer FSE biotech.prefab
 displayName	Armored multi-container FSE	Gepanzerter Multicontainer FSE	40
@@ -8481,7 +8481,7 @@ description	Increases storage capacity of metals, fuel & organics.	Erhöht die L
 
 multicontainer MS-1.prefab
 displayName	Multi-container MS-I	Multi-Behälter MS-I	40
-description	Increases storage capacity of metal & synthethics.	Erhöht die Lagerkapazität von Metallen und synthetischen Stoffen.	200
+description	Increases storage capacity of metal & synthethics.	Erhöht die Lagerkapazität von Metallen und Kunststoffen.	200
 
 multicontainer OME mechanical.prefab
 displayName	Multi-container OME	Multi-Behälter OME	40
@@ -8759,25 +8759,25 @@ MaterialsConverter.resourceProductionReason	produced by explosives combinator	he
 
 explosives combinator diy.prefab
 displayName	Explosives combinator, DIY	Sprengstoff-Kombinator, DIY	40
-description	Instantly combines synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	Kombiniert synthetische Stoffe und Treibstoffe sofort zu Sprengstoff. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200
+description	Instantly combines synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	Kombiniert Kunststoffe und Treibstoff sofort zu Sprengstoffen. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200
 
 explosives combinator tiger.prefab
 displayName	Explosives combinator, type T	Explosivstoff-Kombinator, Typ T	40
-description	Instantly combines synthetics & fuels into explosives. Robust structure improves ship HP.	Kombiniert synthetische Stoffe und Brennstoffe sofort zu Sprengstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
+description	Instantly combines synthetics & fuels into explosives. Robust structure improves ship HP.	Kombiniert Kunststoffe und Treibstoff sofort zu Sprengstoffen. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 fuel combinator 1A old.prefab
 displayName	Fuel combinator, grade I-A (old)	Treibstoff-Kombinator, Typ I-A (alt)	40
-description	Instantly combines organics & synthethics into starfuel. Minor chance of malfunctions. Robust structure improves ship HP.	Kombiniert organische und synthetische Stoffe sofort zu Sternentreibstoff. Geringe Chance auf Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200
+description	Instantly combines organics & synthethics into starfuel. Minor chance of malfunctions. Robust structure improves ship HP.	Kombiniert Organik und Kunststoffe sofort zu Treibstoff. Geringe Chance auf Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200
 MaterialsConverter.resourceConsumptionReason	converted to fuel	umgewandelt in Treibstoff	30
 MaterialsConverter.resourceProductionReason	produced by fuel combinator	hergestellt durch Treibstoff-Kombinator	30
 
 fuel processor 1B.prefab
 displayName	Fuel combinator, grade I-B	Treibstoff-Kombinator, Grad I-B	40
-description	Instantly combines organics & synthethics into starfuel. Robust structure improves ship HP.	Kombiniert organische und synthethische Stoffe sofort zu Sternentreibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
+description	Instantly combines organics & synthethics into starfuel. Robust structure improves ship HP.	Kombiniert Organik und Kunststoffe sofort zu Treibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 fuel processor 2.prefab
 displayName	Explosives recycler, grade II	Sprengstoff-Recycler, Grad II	40
-description	Instantly recycles explosives into starfuel. Robust structure improves ship HP.	Recycelt Sprengstoffe sofort zu Sternentreibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
+description	Instantly recycles explosives into starfuel. Robust structure improves ship HP.	Recycelt Sprengstoffe sofort zu Treibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 oilcake converter.prefab
 displayName	Oilcake Organics converter	Ölkuchen-Organik-Konverter	40
@@ -8786,8 +8786,8 @@ MaterialsConverter.resourceProductionReason	produced by oilcake converter	herges
 
 synthetics cooker 1.prefab
 displayName	Synthethics cooker, grade I	Synthesekocher, Grad I	40
-description	"Cooks" organics to produce synthetics. Has recipes for tens of thousands of different substances. Robust structure improves ship HP."	Kocht organische Stoffe, um synthetische Stoffe zu produzieren. Hat Rezepte für zehntausende verschiedene Substanzen. Robuste Struktur verbessert die Schiffs-HP."	200
-MaterialsConverter.resourceConsumptionReason	converted to synthetics	umgewandelt in synthetische Stoffe	30
+description	"Cooks" organics to produce synthetics. Has recipes for tens of thousands of different substances. Robust structure improves ship HP."	Kocht Organik, um Kunststoffe zu produzieren. Hat Rezepte für zehntausende verschiedene Substanzen. Robuste Struktur verbessert die Schiffs-HP."	200
+MaterialsConverter.resourceConsumptionReason	converted to synthetics	umgewandelt in Kunststoffe	30
 MaterialsConverter.resourceProductionReason	produced by synthethics cooker	hergestellt durch Synthesekocher	30
 
 dronebay 0 diy.prefab
@@ -8954,23 +8954,23 @@ description	Package of supercompressed exotic materials.	Paket mit superkomprimi
 
 exotics pack.prefab
 displayName	Exotics pack	Exotik-Paket	40
-description	Selection of exotic substances. Consume responsibly. Provides exotics when scrapped.	Auswahl an exotischen Stoffen. Verantwortungsvoll verbrauchen. Liefert Exoten, wenn sie verschrottet werden.	200
+description	Selection of exotic substances. Consume responsibly. Provides exotics when scrapped.	Auswahl an exotischen Stoffen. Verantwortungsvoll verbrauchen. Liefert Exoten, wenn es verschrottet wird.	200
 
 explosives pack.prefab
 displayName	Explosives pack	Sprengstoff-Paket	40
-description	Package containing standard explosives for printing munitions. Provides explosives when scrapped.	Paket mit Standard-Sprengstoffen zum Drucken von Munition. Liefert Sprengstoff, wenn er verschrottet wird.	200
+description	Package containing standard explosives for printing munitions. Provides explosives when scrapped.	Paket mit Standard-Sprengstoffen zum Drucken von Munition. Liefert Sprengstoff, wenn es verschrottet wird.	200
 
 fuel pack.prefab
 displayName	Fuel pack	Treibstoff-Paket	40
-description	A self-container resource pack of solidified starfuel. Provides fuel when scrapped.	Ein Selbstcontainer-Ressourcenpaket mit verfestigtem Sternentreibstoff. Liefert Treibstoff, wenn er verschrottet wird.	200
+description	A self-container resource pack of solidified starfuel. Provides fuel when scrapped.	Ein Selbstcontainer-Ressourcenpaket mit verfestigtem Sternentreibstoff. Liefert Treibstoff, wenn es verschrottet wird.	200
 
 general pack organics, synth, metal.prefab
-displayName	Resource pack (o-s-m)	Ressourcenpaket (o-s-m)	40
-description	Selection of various substances prepared for printing everyday items. Provides organics, synthethics and metal when scrapped.	Eine Auswahl verschiedener Substanzen, die zum Drucken von Alltagsgegenständen vorbereitet sind. Liefert organische Stoffe, synthetische Stoffe und Metall, wenn es verschrottet wird.	200
+displayName	Resource pack (o-s-m)	Ressourcenpaket (o-k-m)	40
+description	Selection of various substances prepared for printing everyday items. Provides organics, synthethics and metal when scrapped.	Eine Auswahl verschiedener Substanzen, die zum Drucken von Alltagsgegenständen vorbereitet sind. Liefert Organik, Kunststoffe und Metalle, wenn es verschrottet wird.	200
 
 medical pack organics, synth.prefab
-displayName	Resource pack (org/syn)	Ressourcenpaket (org/syn)	40
-description	Provides organics and synthetics when scrapped.	Liefert organische und synthetische Stoffe, wenn sie verschrottet werden.	200
+displayName	Resource pack (org/syn)	Ressourcenpaket (o/k)	40
+description	Provides organics and synthetics when scrapped.	Liefert Organik und Kunststoffe, wenn es verschrottet werden.	200
 
 metal pack.prefab
 displayName	Metals pack	Metalle-Paket	40
@@ -8978,11 +8978,11 @@ description	Selection of rare metals, usable as spare parts for the ship. When s
 
 organics pack.prefab
 displayName	Organics pack	Organik-Paket	40
-description	Selection of various carbon-organic substances, ready for consumption. Provides organics when scrapped.	Auswahl verschiedener kohlenstofforganischer Substanzen, die verbraucht werden können. Liefert bei der Verschrottung organische Stoffe.	200
+description	Selection of various carbon-organic substances, ready for consumption. Provides organics when scrapped.	Auswahl verschiedener kohlenstofforganischer Substanzen, die verbraucht werden können. Liefert bei der Verschrottung Organik.	200
 
 synth pack.prefab
 displayName	Synthetics pack	Kunststoffe-Paket	40
-description	Selection of synthetic substances prepared for 3D-printers. Provides synthetics when scrapped.	Auswahl an synthetischen Substanzen, die für 3D-Drucker vorbereitet sind. Liefert synthetische Stoffe, wenn sie verschrottet werden.	200
+description	Selection of synthetic substances prepared for 3D-printers. Provides synthetics when scrapped.	Auswahl an synthetischen Substanzen, die für 3D-Drucker vorbereitet sind. Liefert Kunststoffe, wenn es verschrottet wird.	200
 
 lab 1xgood.prefab
 displayName	Advanced science lab	Fortschrittliches wissenschaftliches Labor	40
@@ -10428,13 +10428,13 @@ randomizerMenuStrings[i]	-2 exotics	-2 Exoten	30
 Perk module container FO for Riggy.prefab
 displayName	The advanced multicontainer	Der fortschrittliche Multicontainer	40
 description	This biotech container increases storage capacity for fuel & organics. It's made of very advanced biotech, giving a noteworthy bonus to ship HP.	Dieser Biotech-Container erhöht die Speicherkapazität für Treibstoff und organische Stoffe. Er ist aus sehr fortschrittlicher Biotechnologie hergestellt und gibt einen bemerkenswerten Bonus auf die Schiffs-HP.	250
-randomizerMenuStrings[i]	+1 fuel & organics mutlicontainer	+1 Kraftstoff & Organik Multicontainer	30
+randomizerMenuStrings[i]	+1 fuel & organics mutlicontainer	+1 Treibstoff-/Organik Multicontainer	30
 randomizerMenuStrings[i]	-120 credits	-120 Credits	30
 
 Perk module container MS1.prefab
 displayName	The extra container	Der Extra-Container	40
 description	A container that increases storage capacity for metal & synthetics. We have to start improving our containers early on because the best ship upgrades need 900 metal and 500 synthetics.	Ein Container, der die Lagerkapazität für Metalle und Synthetik erhöht. Wir müssen früh damit beginnen, unsere Container zu verbessern, da die besten Schiffsaufrüstungen 900 Metalle und 500 Kunststoffe benötigen.	250
-randomizerMenuStrings[i]	+1 metal/synthetics container	+1 Metalle-/Synthetik-Container	30
+randomizerMenuStrings[i]	+1 metal/synthetics container	+1 Metalle-/Kunststoffe-Behälter	30
 
 Perk module decommissioned DIY ecms x3.prefab
 displayName	Decommissioned ECMs (x3)	Ausgemusterte EGMs (x3)	40
@@ -10477,7 +10477,7 @@ displayName	DIY cryosleep pod	DIY-Kryoschlafmodul	40
 description	A self-assembled cryosleep pod, together with a sortiment of junk usable as spare parts.	Eine selbst zusammengebautes Kryoschlafmodul, zusammen mit einer Reihe von Gerümpel, das als Ersatzteile verwendet werden kann.	250
 unlockAnnouncementText	During our travels, we managed to inspire an old engineering teacher with our limitless idealism. They promised to build us a really good cryosleep pod next time we go for a run like this.	Während unserer Reisen haben wir es geschafft, einen alten Ingenieurlehrer mit unserem grenzenlosen Idealismus zu begeistern. Er versprach uns, uns bei der nächsten Reise ein wirklich gutes Kryoschlafmodul zu bauen.	100
 randomizerMenuStrings[i]	+1 cryosleep module for one	+1 Kryoschlafmodul	30
-randomizerMenuStrings[i]	+40 synthetics	+40 Synthetik	30
+randomizerMenuStrings[i]	+40 synthetics	+40 Kunststoffe	30
 
 Perk module DIY exotic EMP sniper.prefab
 displayName	Exotic EMP sniper	Exotischer EMP-Scharfschütze	40
@@ -10762,7 +10762,7 @@ randomizerMenuStrings[i]	+1 resource pack (50 explosives)	+1 Ressourcenpaket (50
 
 Perk pack, medical resources.prefab
 displayName	Package from grand-aunt	Paket von Großtante	40
-description	Our grand-relative who is several hundred years old sent us this package when she heard about our upcoming journey.\nIt's a package of self-contained organics & synthetics, plus 12 jars of mildberry jam.	Unsere Großtante, die mehrere hundert Jahre alt ist, hat uns dieses Paket geschickt, als sie von unserer bevorstehenden Reise hörte. Es handelt sich um ein Paket mit eigenständigen organischen und synthetischen Stoffen sowie 12 Gläsern Mehlbeermarmelade.	250
+description	Our grand-relative who is several hundred years old sent us this package when she heard about our upcoming journey.\nIt's a package of self-contained organics & synthetics, plus 12 jars of mildberry jam.	Unsere Großtante, die mehrere hundert Jahre alt ist, hat uns dieses Paket geschickt, als sie von unserer bevorstehenden Reise hörte. Es handelt sich um ein Paket mit Organik und Kunststoffen sowie 12 Gläsern Mehlbeermarmelade.	250
 randomizerMenuStrings[i]	+1 resource pack	+1 Ressourcenpaket	30
 randomizerMenuStrings[i]	+12 organics	+12 Organik	30
 
