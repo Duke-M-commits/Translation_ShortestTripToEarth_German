@@ -6702,12 +6702,12 @@ text2	"Great doing business with you."	Toll, mit Ihnen Geschäfte zu machen.	400
 text	A large ship with at least 5 projectile weapons and what looks like nukes is approaching. It is accompanied by a civilian cargo ship.	Ein großes Schiff mit mindestens 5 Projektilwaffen und etwas, das wie Atomwaffen aussieht, nähert sich. Es wird von einem zivilen Frachtschiff begleitet.	600
 
 SOS Smuggler L6 slaver organics trader.prefab
-title	"The Meat Shop" organics smuggler (1 medium ship)"	The Meat Shop Organik-Schmuggler (1 mittleres Schiff)"	35
+title	"The Meat Shop" organics smuggler (1 medium ship)"	"Der Fleischladen" Organik-Schmuggler (1 mittleres Schiff)"	35
 text	"I don't have anything else, but would you be interested in some standard carbon organics? Unfortunately, I lost all the ethics certificates for this cargo..." (deeper cargo manifest analysis by our AI suggests the individual is knowingly lying. It seems extremely likely that she's a slaver associate, selling physical remains of their victims."	Ich habe nichts anderes, aber hätten Sie Interesse an ein bisschen Standard-Kohlenstoff-Organik? Leider habe ich alle Ethik-Zertifikate für diese Ladung verloren... (Eine tiefere Analyse des Frachtmanifests durch unsere KI legt nahe, dass die Person wissentlich lügt. Es ist sehr wahrscheinlich, dass es sich um einen Sklavenhändler handelt, der die sterblichen Überreste seiner Opfer verkauft."	400
 choiceText	Buy [get 150 organics for 3 exotics]	Kaufen [+150 Organik, -3 Exoten]	100
 choiceText	Barter [get 100 organics for 2 exotics]	Tauschhandel [+100 Organik, -2 Exoten]	100
 text2	Organics received, no incidents.	Organics erhalten, keine Vorkommnisse.	400
-title	"The Meat Shop" (1 medium ship)"	The Meat Shop (1 mittelgroßes Schiff)"	35
+title	"The Meat Shop" (1 medium ship)"	"Der Fleischladen" (1 mittelgroßes Schiff)"	35
 okButtonText	The only thing you'll be tasting is our firepower	Das Einzige, was Sie schmecken werden, ist unsere Feuerkraft	7
 text	"A competitor!? Don't you know this sector belongs to the Meat Masters? Anyway, I'll be tasting your flesh soon..." the ship is closing in with weapons charging. Further analysis confirms the trader is directly associated with slavers."	Ein Konkurrent!? Wisst Ihr denn nicht, dass dieser Sektor den Meat Masters gehört? Wie auch immer, ich werde bald Ihr Fleisch kosten... das Schiff nähert sich mit geladenen Waffen. Weitere Analysen bestätigen, dass der Händler direkt mit Sklavenhändlern in Verbindung steht."	600
 text	A large ship with at least 5 projectile weapons and what looks like nukes is approaching. It is accompanied by two smaller ships.	Ein großes Schiff mit mindestens 5 Projektilwaffen und etwas, das wie Atomwaffen aussieht, nähert sich. Es wird von zwei kleineren Schiffen begleitet.	600
