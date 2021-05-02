@@ -190,7 +190,7 @@ GameVictoryPanel.cs
 	Moments of natural beauty enjoyed {0} times	Momente von natürlicher Schönheit {0} Mal genossen	0
 	Time streched {0} times	Zeit {0} Mal gedehnt	0
 	Time for the most valuable thing in the world taken {0} times	Zeit für die wertvollste Sache der Welt {0} Mal genommen	0
-	FINAL SCORE: {0} fate	ENDGÜLTIGES ERGEBNIS: +{0} Schicksalspunkte	0
+	FINAL SCORE: {0} fate	ERGEBNIS: +{0} Schicksalspunkte	0
 
 MothershipSelection.cs
 	No playable ships available. Broken install?	Keine spielbaren Schiffe verfügbar. Defekte Installation?	0
@@ -454,7 +454,7 @@ PlayerPanel.cs
 	{0} (max shield +{1})	{0} (max Schild +{1})	0
 	shield	Schild	0
 	Warp to {0}	Warp zu {0}	0
-	Warp in progress	Warp im Gange	0
+	Warp in progress	Raumzeit wird gekrümmt...	0
 	Warp is loading: {0}%\nClick again to cancel	Warp wird geladen: {0}%\nKlicken Sie erneut zum Abbrechen	0
 	Ship hitpoints - can be repaired by crew and in stations	Schiffshüllenpunkte - kann von der Crew und in Stationen repariert werden	0
 	{0} ship hull (max health {1:+0;-#})	{0} Schiffshülle (maximale Gesundheit {1:+0;-#})	0
@@ -1793,7 +1793,7 @@ Sector summary panel.prefab
 	Enemy vessels destroyed in this sector.	Zerstörte feindliche Schiffe in diesem Sektor.	0
 	Fate points gained from encouters in this sector.	Erzielte Schicksalspunkte von Gegnern in diesem Sektor.	0
 	Each sector has an unlockable ship or a number of undiscovered perks.\nNew perks can be unlocked by completing sectors.	Jeder Sektor verfügt über ein freischaltbares Schiff oder eine Reihe von unentdeckten Startboni.\nNeue Startboni können durch das Abschließen von Sektoren freigeschaltet werden.	0
-	Sector-related perks found:	Sektorbezogene Startboni gefunden:	0
+	Sector-related perks found:	Sektorbezogene Startboni:	0
 
 SectorSwitch.prefab
 
@@ -2281,7 +2281,7 @@ title	Survivor found	Überlebender gefunden	35
 text2	Inside the wreckage, our bots found an armoured cryopod containing a sleeping Terran cat. She passed all decontamination procedures and is now an important member of the crew. Being adorable is very important.	Im Inneren des Wracks fanden unsere Bots eine gepanzerte Kryokapsel mit einer schlafenden terranischen Katze. Sie hat alle Dekontaminationsprozeduren bestanden und ist nun ein wichtiges Mitglied der Crew. Liebenswert zu sein ist sehr wichtig.	400
 crewDescriptionOverride	A companion animal rescued from shipwreck. Understands orders but chooses to sometimes ignore them, and play or sleep instead.	Ein Begleittier, das aus einem Schiffswrack gerettet wurde. Versteht Befehle, ignoriert sie aber manchmal und spielt oder schläft stattdessen.	250
 text2	We managed to filter out a fair amount exotic matter from the atmosphere. The weather conditions became too violent to continue the operation.	Wir haben es geschafft, eine ganze Menge exotischer Stoffe aus der Atmosphäre zu filtern. Die Wetterbedingungen wurden zu heftig, um die Operation fortzusetzen.	400
-newName3	unstable exotic atmosphere	instabile exotische atmosphäre	25
+newName3	unstable exotic atmosphere	Instabile exotische Atmosphäre	25
 text	Harvesting exotics... %	Exoten ernten... %	50
 text2	Soon after setting up our external harvesting facilities, we detected a swarm of warp animals approaching from deeper layers of the gas giant. Understanding the danger, we decided to abort the operation and leave the area as quickly as possible. We had to leave some equipment behind.	Kurz nachdem wir unsere externen Ernteeinrichtungen eingerichtet hatten, entdeckten wir einen Schwarm von Warptieren, die sich aus tieferen Schichten des Gasriesen näherten. Da wir die Gefahr erkannten, beschlossen wir, die Operation abzubrechen und das Gebiet so schnell wie möglich zu verlassen. Wir mussten einige Geräte zurücklassen.	400
 text	A plasma flare is building up in the atmosphere. However, we've also detected an intact module inside the wreckage, requiring careful removal. Should we risk our scavenger engineers to go near? The module cannot be removed by bots before the flare erupts.	In der Atmosphäre baut sich eine Plasmafackel auf. Wir haben aber auch ein intaktes Modul im Inneren des Wracks entdeckt, das vorsichtig entfernt werden muss. Sollen wir unsere Scavenger-Ingenieure riskieren, um in die Nähe zu gehen? Das Modul kann nicht von Bots entfernt werden, bevor die Fackel ausbricht.	400
@@ -4299,7 +4299,7 @@ reasonToDisplay	covert operation completed	verdeckte operation abgeschlossen	30
 text2	The Freetravellers find our mission important, but with too specific goals for their taste. We hear many personal stories about the existential value of free exploration, without any specific goal other than discovering new information by movement. They give us supplies for our journey.	Die Freien Reisenden finden unsere Mission wichtig, aber mit zu spezifischen Zielen für ihren Geschmack. Wir hören viele persönliche Geschichten über den existenziellen Wert der freien Erkundung, ohne ein spezifisches Ziel außer der Entdeckung neuer Informationen durch Bewegung. Sie geben uns Nachschub für unsere Reise.	400
 reasonToDisplay	Freetraveller gift	Geschenk der Freien Reisenden	30
 title	Freetravellers colony	Kolonie der Freien Reisenden	35
-text	This is a colony of an advanced civilization, a multispecies community of "Freetravellers".\nThey are united in their love of travel and are one of the most well-spread factions. \nVisitors like us are a regular thing for the locals and we are nonchalantly given access to their city. Local tourist information tells us that the colony is built on ancient Precursor ruins."	Dies ist eine Kolonie einer fortgeschrittenen Zivilisation, eine Multispezies-Gemeinschaft von "Freien Reisenden".\nSie sind in ihrer Liebe zum Reisen geeint und sind eine der am weitesten verbreiteten Fraktionen. \nBesucher wie wir sind für die Einheimischen eine regelmäßige Sache und uns wird nonchalant Zugang zu ihrer Stadt gewährt. Die örtlichen Touristeninformationen sagen uns, dass die Kolonie auf uralten Vorläufer-Ruinen gebaut ist."	400
+text	This is a colony of an advanced civilization, a multispecies community of "Freetravellers".\nThey are united in their love of travel and are one of the most well-spread factions. \nVisitors like us are a regular thing for the locals and we are nonchalantly given access to their city. Local tourist information tells us that the colony is built on ancient Precursor ruins."	Dies ist eine Kolonie einer fortgeschrittenen Zivilisation, eine Multispezies-Gemeinschaft von "Freien Reisenden".\nSie sind in ihrer Liebe zum Reisen geeint und sind eine der am weitesten verbreiteten Fraktionen. \nBesucher wie wir sind für die Einheimischen eine regelmäßige Sache und uns wird nonchalant Zugang zu ihrer Stadt gewährt. Die örtlichen Touristeninformationen sagen uns, dass die Kolonie auf uralten Vorläufer-Ruinen gebaut ist.	400
 newName3	Freetraveller colony	Freie Reisende-Kolonie	25
 title	Profound realizations	Tiefgreifende Erkenntnisse	35
 text2	The psychedelic trip left our representatives with a profound new understanding that they were fools on so many levels. The experience was deeply enjoyable.	Der psychedelische Trip hinterließ unsere Vertreter mit einer tiefgreifenden neuen Erkenntnis, dass sie auf so vielen Ebenen Narren waren. Die Erfahrung war zutiefst erfreulich.	400
@@ -4380,7 +4380,7 @@ text	requesting orbiting permission...	Bitte um Erlaubnis zum Umkreisen...	50
 
 2 Pi Trader planet x3, PECM2or3, warp3, LRsensor3.prefab
 name3	{([trader signals])}	{([Händlersignale])}	25
-text	There is a small colony of tech traders on this otherwise desolate planet. The colony demands a small "parking fee" for landing on the planet and being able to shop here."	Es gibt eine kleine Kolonie von Tech-Händlern auf diesem ansonsten trostlosen Planeten. Die Kolonie verlangt eine kleine "Parkgebühr", um auf dem Planeten zu landen und hier einkaufen zu können."	400
+text	There is a small colony of tech traders on this otherwise desolate planet. The colony demands a small "parking fee" for landing on the planet and being able to shop here."	Es gibt eine kleine Kolonie von Tech-Händlern auf diesem ansonsten trostlosen Planeten. Die Kolonie verlangt eine kleine "Parkgebühr", um auf dem Planeten zu landen und hier einkaufen zu können.	400
 choiceText	Go shopping [-10 credits]	Einkaufen gehen [-10 Kredite]	100
 text	After exploring the wares, a pair of self-contained resource packs catch your attention. The Gitchankis salesmen ask an extremely modest price. Additionally, they point out, the organics in the package are harvested with highest environmental protection standards.	Nachdem Sie die Waren erkundet haben, erregen ein paar eigenständige Ressourcenpakete Ihre Aufmerksamkeit. Die Gitchankis-Verkäufer verlangen einen äußerst bescheidenen Preis. Außerdem weisen sie darauf hin, dass die organischen Stoffe in der Packung unter höchsten Umweltschutzstandards geerntet werden.	400
 choiceText	Buy 2 resource packs of medicine [-150 credits]	Kaufen Sie 2 Ressourcenpakete mit Medizin [-150 Kredite]	100
@@ -5142,7 +5142,7 @@ newName3	Destruction Flower shop	Blumenladen der Zerstörung	25
 
 4 Pi the Family rodents, O.prefab
 title	Corrupt colony	Korrupte Kolonie	35
-text	This planet has a colony of rodents who call themselves "the Family". Their species used to be an advanced one, but an internal conflict shattered their civilization into isolated colonies and deeply regressed scientific progress. The locals seem to be in a constant state of low-level warfare and aggression."	Auf diesem Planeten gibt es eine Kolonie von Nagetieren, die sich selbst "die Familie" nennen. Ihre Spezies war einst sehr fortschrittlich, aber ein interner Konflikt hat ihre Zivilisation in isolierte Kolonien zerschlagen und den wissenschaftlichen Fortschritt stark zurückgeworfen. Die Einheimischen scheinen sich in einem ständigen Zustand der niederen Kriegsführung und Aggression zu befinden."	400
+text	This planet has a colony of rodents who call themselves "the Family". Their species used to be an advanced one, but an internal conflict shattered their civilization into isolated colonies and deeply regressed scientific progress. The locals seem to be in a constant state of low-level warfare and aggression."	Auf diesem Planeten gibt es eine Kolonie von Nagetieren, die sich selbst "die Familie" nennen. Ihre Spezies war einst sehr fortschrittlich, aber ein interner Konflikt hat ihre Zivilisation in isolierte Kolonien zerschlagen und den wissenschaftlichen Fortschritt stark zurückgeworfen. Die Einheimischen scheinen sich in einem ständigen Zustand der niederen Kriegsführung und Aggression zu befinden.	400
 choiceText	Contact the Family representatives	Kontakt zu den Vertretern der Familie	100
 newName3	Family colony, modern primitives	Familien-Kolonie, moderne Primitive	25
 text2	"The Family exists to support the endeavours of the Family Head. Lately, there have been disagreements on this from local anarchists but they do not matter."	"Die Familie existiert, um die Bestrebungen des Familienoberhauptes zu unterstützen. In letzter Zeit gab es diesbezüglich Meinungsverschiedenheiten mit den örtlichen Anarchisten, aber das spielt keine Rolle."	400
@@ -5704,7 +5704,7 @@ okButtonText	OK...	OK...	7
 text	The crew start to discuss the order, but it quickly turns into an argument. Most of the crew wants to just ignore it. But some have decided to sacrifice you, the captain.	Die Crew fängt an, über den Befehl zu diskutieren, aber es geht schnell in einen Streit über. Die meisten der Crew wollen ihn einfach ignorieren. Aber einige haben beschlossen, Sie, den Kapitän, zu opfern.	600
 title	Approaching fleet	Ankommende Flotte	35
 text	A fleet of Spideraa ships emerges from the nearby asteroid field...	Eine Flotte von Spinner-Schiffen taucht aus dem nahen Asteroidenfeld auf...	600
-title	Spideraa representative	Spinner-Vertreter	35
+title	Spideraa representative	Spinner-Repräsentant	35
 okButtonText	Yes, we bring gifts! We desire to talk with you.	Ja, wir bringen Geschenke! Wir wünschen, mit Ihnen zu sprechen.	7
 text	"PATIENT BEINGS. WHAT IS IT YOU DESIRE FROM US? DO YOU BRING GIFT?"	"GEDULDIGE WESEN. WAS IST ES, DAS IHR VON UNS WÜNSCHT? BRINGT IHR GESCHENKE?"	600
 okButtonText	Relay information about the war, ask for help and offer the bartering package.	Geben Sie Informationen über den Krieg weiter, bitten Sie um Hilfe und bieten Sie das Tauschpaket an.	7
@@ -7283,7 +7283,7 @@ text2	"Thank you for using our services! Please accept this small gift as an add
 text2	"A competitor!? How interesting to meet another food trader here, in the middle of this wild sector, filled with only pirates but no customers! Anyway, we have a long tradition of not listening to anything our competitors would say. Instead, take this little gift as a token of our respect. Goodbye!"	"Ein Konkurrent!? Wie interessant, hier einen anderen Lebensmittelhändler zu treffen, mitten in diesem wilden Sektor, in dem es nur Piraten, aber keine Kunden gibt! Wie auch immer, wir haben eine lange Tradition, nicht auf das zu hören, was unsere Konkurrenten sagen. Nehmen Sie stattdessen dieses kleine Geschenk als Zeichen unseres Respekts. Auf Wiedersehen!"	400
 
 Merchants L236 bulk DIY tech.prefab
-text	Merry existence, bone apes, we have heard of you! Might you be interested in bulk trading of manually assembled substandard technology? We have the finest prices.	Fröhliches Dasein, Knochenaffen, wir haben von euch gehört! Sind Sie vielleicht an einem Großhandel mit handmontierter minderwertiger Technik interessiert? Wir haben die besten Preise.	400
+text	Merry existence, bone apes, we have heard of you! Might you be interested in bulk trading of manually assembled substandard technology? We have the finest prices.	Fröhliches Dasein, Knochenaffen, wir haben von euch gehört! Sind Sie vielleicht an einem Großhandel mit selbstgebauter minderwertiger Technik interessiert? Wir haben die besten Preise.	400
 choiceText	Buy 2 manually assembled cryosleep units for 100 credits	Kaufen [+2 DIY Kryoschlafmodule, -100 Kredite]	100
 choiceText	Buy 3 manually assembled shield batteries for 200 credits	Kaufen [+3 DIY Schildbatterien, -200 Kredite]	100
 choiceText	Buy 3 manually assembled reactors for 200 credits	Kaufen [+3 DIY Reaktoren, -200 Kredite]	100
@@ -7347,8 +7347,8 @@ text2	"A competitor!? Don't you know this sector is sanctioned only for Insectoi
 Merchants L47 bulk tech.prefab
 text	Hello again, skeleton apes! We have a fine set of destruction systems available. And of course, you should expect us to have the finest prices.	Hallo noch mal, Skelettaffen! Wir haben ein feines Set an Zerstörungssystemen zur Verfügung. Und natürlich sollten Sie erwarten, dass wir die besten Preise haben.	400
 choiceText	Buy 2 dual cannons for 400 credits	Kaufen [+2 Doppelkanonen, -400 Kredite]	100
-choiceText	Buy 1 manually assembled "Exotic Raygun" for 400 credits"	Kaufen Sie 1 manuell montierte "Exotische Strahlenkanone" für 400 Kredite"	100
-choiceText	Buy 1 manually assembled "Acid" nuke for 375 credits"	Kaufen Sie 1 manuell montierte "Acid"-Bombe für 375 Kredite"	100
+choiceText	Buy 1 manually assembled "Exotic Raygun" for 400 credits"	Kaufen Sie eine selbstgebaute "Exotische Strahlenkanone" für 400 Kredite"	100
+choiceText	Buy 1 manually assembled "Acid" nuke for 375 credits"	Kaufen Sie eine selbstgebaute "Acid"-Bombe für 375 Kredite"	100
 text2	The cannons are old, but in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a large barrel of strong alcohol, plus a case of broken hand-grenades.	Die Kanonen sind alt, aber in tadellosem Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und ein großes Fass starken Alkohols hinterlassen, sowie eine Kiste mit zerbrochenen Handgranaten.	400
 text2	The weapon is manually assembled from spare parts as expected. It seems we were also given some leftover parts as a gift.	Die Waffe ist, wie erwartet, von Hand aus Ersatzteilen zusammengebaut. Es scheint, dass wir auch einige übrig gebliebene Teile als Geschenk erhalten haben.	400
 text2	"Thank you for the smooth transaction. Please accept this acid as an additional token of our gratitude!" It seems we have been also gifted leftover parts from making the nuke."	"Danke für die reibungslose Transaktion. Bitte nehmen Sie diese Säure als zusätzliches Zeichen unserer Dankbarkeit an!" Es scheint, als hätte man uns auch Teile geschenkt, die bei der Herstellung der Bombe übrig geblieben sind.	400
@@ -7526,7 +7526,7 @@ description	Ancient projectile weapon, self-assembled from spare parts. \nSurpri
 
 Hand weapon diy pistol.prefab
 displayName	DIY pistol	DIY-Pistole	25
-description	Do-it-yourself pistol. Small magazine, pretty inaccurate.	Do-it-yourself-Pistole. Kleines Magazin, ziemlich ungenau.	250
+description	Do-it-yourself pistol. Small magazine, pretty inaccurate.	DIY-Pistole. Kleines Magazin, ziemlich ungenau.	250
 
 Hand weapon diylasergun.prefab
 displayName	DIY laser rifle	DIY-Lasergewehr	25
@@ -7668,7 +7668,7 @@ Drone DIY science.prefab
 appearance[i].description	DIY lab drone with an octopus-based AI. Can work in the lab or help with planetary research operations.	DIY-Labordrohne mit einer krakenbasierten KI. Kann im Labor arbeiten oder bei planetaren Forschungsarbeiten helfen.	250
 
 Drone DIY sensor.prefab
-appearance[i].description	A custom-made drone that knows how to operate ship sensors.	Eine selbstgebaute Drohne, die die Schiffssensoren bedienen kann.	250
+appearance[i].description	A custom-made drone that knows how to operate ship sensors.	Eine maßgefertigte Drohne, die die Schiffssensoren bedienen kann.	250
 
 Drone fire safety.prefab
 appearance[i].description	Fast fire safetey drone, AI based on cat consciousness. High fire-resistance.	Schnelle feuersichere Drohne, KI basiert auf Katzenbewusstsein. Hohe Feuerresistenz.	250
@@ -8464,15 +8464,15 @@ displayName	Multi-container FOS	Multibehälter TOK	40
 description	Increases storage capacity of fuel, organics & synthetics.	Erhöht die Lagerkapazität von Treibstoff, Organik und Kunststoffen.	200
 
 multicontainer FSE biotech.prefab
-displayName	Armored multi-container FSE	Gepanzerter Multibehälter FKE	40
+displayName	Armored multi-container FSE	Gepanzerter Multibehälter TKE	40
 description	This biotech container increases storage capacity of fuel, synhtetics & exotics. Armored structure adds ship HP.	Dieser Biotech-Container erhöht die Lagerkapazität von Treibstoff, Kunststoffen und Exoten. Die gepanzerte Struktur erhöht die Schiffs-HP.	200
 
 multicontainer FSEE biotech.prefab
-displayName	Multi-container FSEE	Multibehälter FKEE	40
+displayName	Multi-container FSEE	Multibehälter TKSE	40
 description	Increases storage capacity of fuel, synthetics, explosives & exotics.	Erhöht die Lagerkapazität von Treibstoff, Kunststoffen, Sprengstoffen und Exoten.	200
 
 multicontainer MFE retro futu.prefab
-displayName	Multi-container MFE	Multibehälter MTE	40
+displayName	Multi-container MFE	Multibehälter MTS	40
 description	Increases storage capacity of metals, fuel & explosives.	Erhöht die Lagerkapazität von Metallen, Treibstoff und Sprengstoffen.	200
 
 multicontainer MFO retro futu.prefab
@@ -9179,7 +9179,7 @@ storage container 3x4.prefab
 description	Storage for disassembled modules. Do not replace, ships can have only 1 module storage.	Lager für zerlegte Module. Nicht ersetzen, Schiffe können nur 1 Modulspeicher haben.	200
 
 warp 0 DIY.prefab
-displayName	Custom-made warpdrive	Kundenspezifischer Warpantrieb	40
+displayName	Custom-made warpdrive	Maßgefertigter Warpantrieb	40
 description	Warpdrives allow "jumping" between starsystems. This is custom-made from leftover parts and an exotic crystal."	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dies ist eine Sonderanfertigung aus übrig gebliebenen Teilen und einem exotischen Kristall."	200
 
 warp 01 greencrystal.prefab
@@ -9644,11 +9644,11 @@ displayName	Insectoid volley laser x5 (old)	Insektoiden-Salvenlaser x5 (alt)	40
 description	Tactical combat weapon that uses obsolete technology. Produces 5 laserbeams.	Taktische Kampfwaffe, die veraltete Technologie verwendet. Erzeugt 5 Laserstrahlen.	200
 
 weapon Insectoid old fast laser.prefab
-displayName	Insectoid double laser (old tech)	Insektoider Doppellaser (alte Technologie)	40
+displayName	Insectoid double laser (old tech)	Insektoiden-Doppellaser (alte Technologie)	40
 description	Tactical combat weapon, obsolete design. Produces 2 laserbeams.	Taktische Kampfwaffe, veraltetes Design. Erzeugt 2 Laserstrahlen.	200
 
 weapon Insectoid shield disruptor.prefab
-displayName	Insectoid Alliance shield disruptor	Insektoider-Allianz-Schildbrecher	40
+displayName	Insectoid Alliance shield disruptor	Insektoiden-Allianz-Schildbrecher	40
 description	A composite-ray effector for disrupting energy shields. Deals minor damage to material targets. Produces 3 energy rays.	Ein Komposit-Strahleneffektor zur Unterbrechung von Energieschilden. Verursacht geringen Schaden an materiellen Zielen. Erzeugt 3 Energiestrahlen.	200
 
 weapon Insectoid slowlaser.prefab
