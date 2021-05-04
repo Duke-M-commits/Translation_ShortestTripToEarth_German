@@ -8631,11 +8631,11 @@ displayName	Emperor-banks long-range engine	Imperator-Bank-Langstreckenmotor	40
 description	Very durable engine with fair fuel efficiency. Durable structure improves ship HP.	Sehr langlebiger Motor mit guter Treibstoffeffizienz. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 engine 04 red.prefab
-displayName	Ruby Thunder engine	Rubin-Donner-Motor	40
+displayName	Ruby Thunder engine	Rubin Donnermotor	40
 description	A powerful anti-matter engine. Robust structure improves ship HP.	Ein leistungsstarker Antimaterie-Motor. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 engine 04 xblack.prefab
-displayName	Black thunder engine	Schwarzer-Donner-Motor	40
+displayName	Black thunder engine	Schwarzer Donnermotor	40
 description	A very powerful anti-matter engine. Robust structure improves ship HP.	Ein sehr leistungsstarker Anti-Materie-Motor. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 engine 2 F-gulper.prefab
