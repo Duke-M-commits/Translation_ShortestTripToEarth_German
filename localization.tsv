@@ -7984,7 +7984,7 @@ Decoy nuke.prefab
 displayName	Decoy nuke	Täuschungsbombe	35
 
 DIY Acid nuke.prefab
-displayName	Acid DIY nuke	DIY-Säure-Bombe	35
+displayName	Acid DIY nuke	DIY Säurebombe	35
 
 DIY bio nuke.prefab
 displayName	DIY biotech nuke	DIY-Biotech-Bombe	35
@@ -8791,7 +8791,7 @@ MaterialsConverter.resourceConsumptionReason	converted to synthetics	umgewandelt
 MaterialsConverter.resourceProductionReason	produced by synthethics cooker	hergestellt durch Kunststoff-Kocher	30
 
 dronebay 0 diy.prefab
-displayName	Drone repair DIY	Drohnen-Reparatur DIY	40
+displayName	Drone repair DIY	DIY Drohnen-Reparaturstation	40
 description	Improvised repair station for drones. Repairing each drone hitpoint requires a lot of synthetics.	Improvisierte Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Trefferpunkts erfordert eine Menge Kunststoffe.	200
 Medbay.healingStoppedLogMsg	Warning, drone repairing stopped due to lack of synhtetics	Warnung, die Drohnenreparatur wurde aufgrund des Mangels an Kunststoffen eingestellt	80
 
