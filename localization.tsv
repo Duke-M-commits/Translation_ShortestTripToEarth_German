@@ -2049,7 +2049,7 @@ text	We discovered a shady looking automated minerals market on one of the aster
 choiceText	Trade [get 200 metals for 50 explosives]	Handel [+200 Metalle, -50 Sprengstoffe]	100
 choiceText	Force entry and loot the market	Gewaltsames Eindringen und Plündern des Marktes	100
 title	Unfair trade	Unfairer Handel	35
-text2	The market has delivered us less minerals than advertised. The market administrator AI tells of "common sense fees" everybody should know about, but these were not stated anywhere... it looks like a primitive scam."	Der Markt hat uns weniger Mineralien geliefert als beworben. Die KI des Marktverwalters erzählt von "vernünftigen Gebühren", die jeder kennen sollte, aber diese wurden nirgends angegeben... es sieht nach einem primitiven Betrug aus."	400
+text2	The market has delivered us less minerals than advertised. The market administrator AI tells of "common sense fees" everybody should know about, but these were not stated anywhere... it looks like a primitive scam."	Der Markt hat uns weniger Mineralien geliefert als beworben. Die KI des Marktverwalters erzählt von "vernünftigen Gebühren", die jeder kennen sollte, aber diese wurden nirgends angegeben... es sieht nach einem primitiven Betrug aus.	400
 reasonToDisplay	trade completed	Handel abgeschlossen	30
 text	Somebody from the ship suggests we could just rob the market to make a point of not cheating honest customers like ourselves. It does not seem to have any visible defences.	Jemand vom Schiff schlägt vor, dass wir den Markt einfach ausrauben könnten, um ehrliche Kunden wie uns nicht zu betrügen. Er scheint keine sichtbaren Verteidigungsanlagen zu haben.	400
 choiceText	Rob the station	Raubt die Station aus	100
@@ -2474,7 +2474,7 @@ text2	"Hello there, fellow Captain! Nice ship you have there! Please take these 
 reasonToDisplay	resources received	Ressourcen erhalten	30
 
 Level 8 exit no fight.prefab
-text2	"Hello again! How did it go with the Spiders? I've prepared a package of refreshments for you. Looking forward to hearing your story on the way home, and getting to know you better... there's a party in our rec room tonight and your entire crew is invited, especially yourself!" The captain blushes for a brief moment."	"Hallo nochmal! Wie ist es mit den Spinnern gelaufen? Ich habe ein Paket mit Erfrischungen für Sie vorbereitet. Ich freue mich darauf, auf dem Heimweg Ihre Geschichte zu hören und Sie besser kennenzulernen ... heute Abend findet in unserem Aufenthaltsraum eine Party statt, zu der Ihre gesamte Crew eingeladen ist, besonders Sie selbst! Der Kapitän errötet für einen kurzen Moment."	400
+text2	"Hello again! How did it go with the Spiders? I've prepared a package of refreshments for you. Looking forward to hearing your story on the way home, and getting to know you better... there's a party in our rec room tonight and your entire crew is invited, especially yourself!" The captain blushes for a brief moment."	"Hallo nochmal! Wie ist es mit den Spinnern gelaufen? Ich habe ein Paket mit Erfrischungen für Sie vorbereitet. Ich freue mich darauf, auf dem Heimweg Ihre Geschichte zu hören und Sie besser kennenzulernen ... heute Abend findet in unserem Aufenthaltsraum eine Party statt, zu der Ihre gesamte Crew eingeladen ist, besonders Sie selbst!" Der Kapitän errötet für einen kurzen Moment.	400
 reasonToDisplay	resupply	resupply	30
 
 Level 9 exit no fight.prefab
@@ -5977,7 +5977,7 @@ name2	((Trade signal))	((Handelssignal))	25
 title	Transactions not possible	Transaktionen nicht möglich	35
 text	"We do not have the necessary resources to do business here, but we may return later."	"Wir haben nicht die nötigen Ressourcen, um hier Geschäfte zu machen, aber wir kommen vielleicht später wieder."	600
 title	Recreational exotics	Exotische Freizeitgestaltung	35
-text	The administrators of the station do not offer personal communication. There's only one product on the menu - self contained exotic substances, ready for recreational consumption. The station follows "One visit per client" religious policy."	Die Administratoren der Station bieten keine persönliche Kommunikation an. Es gibt nur ein Produkt auf der Speisekarte - in sich geschlossene exotische Substanzen, die für den rekreativen Konsum bestimmt sind. Die Station folgt der religiösen Politik "Ein Besuch pro Kunde"."	400
+text	The administrators of the station do not offer personal communication. There's only one product on the menu - self contained exotic substances, ready for recreational consumption. The station follows "One visit per client" religious policy."	Die Administratoren der Station bieten keine persönliche Kommunikation an. Es gibt nur ein Produkt auf der Speisekarte - in sich geschlossene exotische Substanzen, die für den rekreativen Konsum bestimmt sind. Die Station folgt der religiösen Politik "Ein Besuch pro Kunde".	400
 choiceText	Buy a pack of exotics (-110 credits)	Kaufen Sie eine Packung Exoten (-110 Kredite)	100
 choiceText	Buy two packs of exotics (-200 credits)	Kaufen Sie zwei Päckchen Exoten (-200 Kredite)	100
 text	establishing communications...	Kommunikation herstellen...	50
@@ -6947,7 +6947,7 @@ text	"Your ship's decorative style has been deemed compatible with local rules, 
 
 Ambusher L2 Pirate Bluestar.prefab
 displayName	Unknown ship	Unbekanntes Schiff	25
-text	A large pirate ship is rapidly approaching tactical range. It seems to be armed with nukes. The ship broadcasts an ancient song titled "Queen of Pirates"."	Ein großes Piratenschiff nähert sich schnell der taktischen Reichweite. Es scheint mit Atomwaffen bewaffnet zu sein. Das Schiff sendet ein altes Lied mit dem Titel "Queen of Pirates"."	600
+text	A large pirate ship is rapidly approaching tactical range. It seems to be armed with nukes. The ship broadcasts an ancient song titled "Queen of Pirates"."	Ein großes Piratenschiff nähert sich schnell der taktischen Reichweite. Es scheint mit Atomwaffen bewaffnet zu sein. Das Schiff sendet ein altes Lied mit dem Titel "Königin der Piraten".	600
 title	The Queen of Pirates	Die Königin der Piraten	35
 okButtonText	We won't join a bunch of killers with a fancy name.	Wir werden uns nicht einer Bande von Killern mit einem ausgefallenen Namen anschließen.	7
 text	"If you jump to escape pods now, all your crew will be left alive, and someone might save them later. They can choose to either stay in the pods or join us, the Queens' Pirates. Or you can just fight and die."	"Wenn Sie jetzt in die Rettungskapseln springen, wird Ihre gesamte Besatzung am Leben gelassen, und jemand könnte sie später retten. Sie können wählen, ob sie in den Kapseln bleiben oder sich uns, den Piraten der Königin, anschließen. Oder Sie können einfach kämpfen und sterben."	600
@@ -9990,7 +9990,7 @@ randomizerMenuStrings[i]	+50 fuel	+50 Treibstoff	30
 Perk add metals 2, scrap tank.prefab
 displayName	The Tank	Der Panzer	40
 description	A dubious individual is trying to sell us this broken military machine without allowing prior inspection. It should be easily fixable with some spare parts, they say. The tank is permanently broken and only has value as scrap metal.	Ein dubioses Individuum versucht, uns diese kaputte Militärmaschine zu verkaufen, ohne eine vorherige Inspektion zu erlauben. Er sollte mit ein paar Ersatzteilen leicht zu reparieren sein, sagen sie. Der Panzer ist dauerhaft kaputt und hat nur noch Wert als Schrott.	250
-unlockAnnouncementText	During our travels, we've met an almost honest individual who is trying to sell us some kind of broken tank on a planet "not too far from here"."	Auf unserer Reise haben wir ein fast ehrliches Individuum getroffen, das uns einen kaputten Panzer auf einem Planeten nicht allzu weit von hier" verkaufen will."	100
+unlockAnnouncementText	During our travels, we've met an almost honest individual who is trying to sell us some kind of broken tank on a planet "not too far from here"."	Auf unserer Reise haben wir ein fast ehrliches Individuum getroffen, das uns einen kaputten Panzer auf einem Planeten "nicht allzu weit von hier" verkaufen will.	100
 randomizerMenuStrings[i]	-20 credits	-20 Kredite	30
 randomizerMenuStrings[i]	+88 metal	+88 Metalle	30
 
@@ -10071,7 +10071,7 @@ randomizerMenuStrings[i]	+1 artifact at game start, can be scrapped for addition
 
 Perk augment 001a elastic augmentations.prefab
 displayName	Elastic augmentations	Elastische Vergrößerungen	40
-description	Increases ship hull integrity by reinforcing ship hardpoints with super-durable elastics, allowing the ship to "bend" a little."	Erhöht die Integrität der Schiffshülle durch die Verstärkung von Schiffsansatzpunkten mit superzähen Elastics, die es dem Schiff erlauben, sich ein wenig zu "verbiegen"."	250
+description	Increases ship hull integrity by reinforcing ship hardpoints with super-durable elastics, allowing the ship to "bend" a little."	Erhöht die Integrität der Schiffshülle durch die Verstärkung von Schiffsansatzpunkten mit superzähen Elastics, die es dem Schiff erlauben, sich ein wenig zu "verbiegen".	250
 unlockAnnouncementText	Our ship AI has been carrying out miniature experiments with integrity technology during the journey. Her small discoveries have made new options available, next time we go for a run like this.	Unsere Schiffs-KI hat während der Reise Miniatur-Experimente mit der Integritätstechnologie durchgeführt. Ihre kleinen Entdeckungen haben neue Optionen verfügbar gemacht, wenn wir das nächste Mal eine solche Fahrt unternehmen.	100
 randomizerMenuStrings[i]	+4 to ship HP	+4 Schiffshüllenpunkte	30
 randomizerMenuStrings[i]	-90 synthethics	-90 Kunststoffe	30
@@ -10751,7 +10751,7 @@ description	A heavily armored single-shot industrial missile, originally designe
 
 Perk pack, 3xsolid starfuel from level7.prefab
 displayName	Solid starfuel (x3)	Fester Sternentreibstoff (x3)	40
-description	This rare opportunity allows us to obtain 3 packages of solidified starfuel (50 fuel a piece) for a very modest price. We just have to know the secret code, which is "Lapu-lapu-lapu-dapu"."	Diese seltene Gelegenheit ermöglicht es uns, 3 Pakete mit verfestigtem Sternentreibstoff (50 Treibstoff pro Stück) zu einem sehr bescheidenen Preis zu erhalten. Wir müssen nur den Geheimcode kennen, der "Lapu-lapu-lapu-dapu" lautet."	250
+description	This rare opportunity allows us to obtain 3 packages of solidified starfuel (50 fuel a piece) for a very modest price. We just have to know the secret code, which is "Lapu-lapu-lapu-dapu"."	Diese seltene Gelegenheit ermöglicht es uns, 3 Pakete mit verfestigtem Sternentreibstoff (50 Treibstoff pro Stück) zu einem sehr bescheidenen Preis zu erhalten. Wir müssen nur den Geheimcode kennen, der "Lapu-lapu-lapu-dapu" lautet.	250
 unlockAnnouncementText	During our travels, our ship AI has found an opportunity to get solidified starfuel for a reduced price, next time.	Während unserer Reisen hat unsere Schiffs-KI eine Möglichkeit gefunden, verfestigten Sternentreibstoff zu einem reduzierten Preis zu bekommen, das nächste Mal.	100
 randomizerMenuStrings[i]	+3 fuel packs	+3 Treibstoff-Pakete	30
 
@@ -11436,7 +11436,7 @@ General pet description pool.prefab
 	A wise animal. Enjoys playing hide and seek. Accepts "please move" and "to medbay!" requests."	Ein kluges Tier. Spielt gerne Verstecken. Akzeptiert "Bitte umziehen" und "Auf die Krankenstation!".	250
 	Avatar of freedom & independence. Accepts "please move" and "to medbay!" requests, ignores orders."	Avatar der Freiheit und Unabhängigkeit. Akzeptiert "Bitte umziehen" und "Zur Krankenstation!", ignoriert Befehle.	250
 	A well-trained companion pet. Contemplates the meaning of life daily. Accepts movement requests.	Ein gut erzogenes Haustier. Denkt täglich über den Sinn des Lebens nach. Nimmt Bewegungsanfragen an.	250
-	A well-trained companion pet. Has been trained to meditate. Accepts "please move" and "to medbay!" requests."	Ein gut trainiertes Begleittier. Wurde zum Meditieren trainiert. Akzeptiert die Aufforderungen "Bitte bewegen" und "Zum Meditationsplatz!"."	250
+	A well-trained companion pet. Has been trained to meditate. Accepts "please move" and "to medbay!" requests."	Ein gut trainiertes Begleittier. Wurde zum Meditieren trainiert. Akzeptiert die Aufforderungen "Bitte bewegen" und "Zum Meditationsplatz!".	250
 
 General pet idle msg pool.prefab
 	Playing	Spielt	80
@@ -12158,7 +12158,7 @@ Ship destroyed game over text pool.prefab
 	It was our prediction against the forces of randomness and it happened to end with a draw this time. Well, to be honest it was a defeat.	Das war unsere Vorhersage gegen die Kräfte des Zufalls und es endete diesmal mit einem Unentschieden. Nun, um ehrlich zu sein, war es eine Niederlage.	80
 	Live better, die later. The later the better, and the less painfully the better.	Lebe besser, stirb später. Je später, desto besser, und je weniger schmerzhaft, desto besser.	80
 	Everything is recorded into the history of this universe in fully transparent 3D view and infinite level of detail. Your run is part of this history now.	Alles wird in die Geschichte dieses Universums in völlig transparenter 3D-Ansicht und unendlichem Detailgrad aufgezeichnet. Ihr Lauf ist jetzt Teil dieser Geschichte.	80
-	One thing leads to another and the other thing leads to "you're dead"."	Eines führt zum anderen, und das andere führt zu "Du bist tot"."	80
+	One thing leads to another and the other thing leads to "you're dead"."	Eines führt zum anderen, und das andere führt zu "Du bist tot".	80
 	One thing leads to another and the other thing leads into complete destruction via being ripped apart by explosions. That's where you sent the ship.	Eine Sache führt zur anderen und die andere Sache führt in die völlige Zerstörung durch Zerreißen durch Explosionen. Da haben Sie das Schiff hingeschickt.	80
 	If one cared so much about not dying, why was one paying so little attention to detail?	Wenn man sich so sehr darum sorgte, nicht zu sterben, warum hat man dann so wenig auf Details geachtet?	80
 	If one cared so much about not dying, why one took so many risks?	Wenn man sich so sehr darum sorgte, nicht zu sterben, warum ging man dann so viele Risiken ein?	80
@@ -12297,7 +12297,7 @@ Starmap move log line pool.prefab
 	Mothership AI beats everybody again when playing checkers.	Mutterschiff-KI besiegt wieder alle beim Damespiel.	0
 	Mothership AI beats everybody in STARCON2 super melee.	Mutterschiff-KI besiegt alle im STARCON2-Supernahkampf.	0
 	Mothership AI again beats everybody when playing Risk.	Mutterschiff-KI besiegt wieder alle beim Spiel Risiko.	0
-	Mothership AI beats everybody at "Water the flowers" multiplayer."	Mutterschiff-KI besiegt alle beim Multiplayer-Spiel "Blumen gießen"."	0
+	Mothership AI beats everybody at "Water the flowers" multiplayer."	Mutterschiff-KI besiegt alle beim Multiplayer-Spiel "Blumen gießen".	0
 	Mothership AI trusts you.	Mutterschiff-KI traut Ihnen.	0
 	Mothership AI thinks you are objectively sexy.	Mutterschiff-KI denkt, dass Sie objektiv sexy sind.	0
 	Mothership AI designs personal pleasure bots as a hobby.	Mutterschiff-KI entwirft persönliche Vergnügungsroboter als Hobby.	0
