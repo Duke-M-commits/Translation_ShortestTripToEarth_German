@@ -394,7 +394,7 @@ CrewDataSubpanel.cs
 	Click to level up this skill	Klicken Sie, um diese Fertigkeit zu erhöhen	0
 	Click to assign crew	Anklicken, um Besatzung zuzuweisen	0
 	Can't assign crew because there is no room in modules using this skill	Kann keine Besatzung zuweisen, da kein Platz in Modulen mit dieser Fertigkeit vorhanden ist	0
-	ru	ru	0
+	ru	re	0
 
 MaterialsConverterPanel.cs
 	Amount of {0} used for conversion	Menge von {0}, die für die Umwandlung verwendet wird	0
