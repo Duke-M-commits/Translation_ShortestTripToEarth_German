@@ -1,24 +1,24 @@
 @ECHO OFF
 SET mod-dir=%cd%
-SET patcher-app=%cd%\Patch\UnityEX.exe
-SET patcher-path=%cd%\Patch
+SET patcher-dir=%cd%\Patch
+SET patcher-app=%patcher-dir%\UnityEX.exe
 CD %mod-dir%\..\..\..\..\common\Shortest Trip to Earth
 SET app-dir=%cd%
 CD Data
 ECHO Exporting Game Data...
-FOR %%a in (*.unity3D) do "%patcher-app%" exportbundle "%%a" -p "%cd%\" >nul
+FOR %%a in (*.unity3D) do "%patcher-app%" exportbundle "%%a" -p "%cd%" >nul
 IF EXIST "data.unity3d" (
   RENAME data.unity3d data.unity3d.backup
 )
 ECHO Patching...
-FOR %%a in (*.assets) do "%patcher-app%" import "%%a" -p "%patcher-path%\" >nul
+FOR %%a in (*.assets) do "%patcher-app%" import "%%a" -p "%patcher-dir%" >nul
 ECHO More Patching...
-FOR /l %%i in (0,1) do IF EXIST level%%i "%patcher-app%" import "level%%i" -p "%patcher-path%\" >nul
+FOR /l %%i in (0,1) do IF EXIST level%%i "%patcher-app%" import "level%%i" -p "%patcher-dir%" >nul
 CD ..\AssetBundles
 ECHO Importing patched Base Game...
-FOR %%a in (base.ab) do "%patcher-app%" import "%%a" -mb_new -ncomp -f "%patcher-path%" >nul
+FOR %%a in (base.ab) do "%patcher-app%" import "%%a" -mb_new -ncomp -f "%patcher-dir%" >nul
 ECHO Importing patched DLC - The Old Enemies...
-FOR %%a in (dlc2.ab) do "%patcher-app%" import "%%a" -mb_new -f "%patcher-path%" >nul
+FOR %%a in (dlc2.ab) do "%patcher-app%" import "%%a" -mb_new -f "%patcher-dir%" >nul
 ECHO Importing patched DLC - Supporters Pack...
-FOR %%a in (sdlc.ab) do "%patcher-app%" import "%%a" -mb_new -f "%patcher-path%" >nul
+FOR %%a in (sdlc.ab) do "%patcher-app%" import "%%a" -mb_new -f "%patcher-dir%" >nul
 CD %mod-dir%
