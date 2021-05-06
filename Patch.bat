@@ -2,9 +2,7 @@
 SET mod-dir=%cd%
 SET patcher-dir=%cd%\Patch
 SET patcher-app=%patcher-dir%\UnityEX.exe
-CD %mod-dir%\..\..\..\..\common\Shortest Trip to Earth
-SET app-dir=%cd%
-CD Data
+CD %mod-dir%\..\..\..\..\common\Shortest Trip to Earth\Data
 ECHO Exporting Game Data...
 FOR %%a in (*.unity3D) do "%patcher-app%" exportbundle "%%a" -p "%cd%" >nul
 IF EXIST "data.unity3d" (
