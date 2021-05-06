@@ -3735,13 +3735,13 @@ text	There is a very small station on the orbit of this otherwise uninteresting 
 choiceText	Dock with the trader	Andocken an den Händler	100
 text	The station seems to be selling exclusively worthless junk, except for a shady pair of Gitchankis. They offer a five-barreled mystery mining laser for dirt cheap. No refunds, of course.	Die Station scheint ausschließlich wertlosen Plunder zu verkaufen, mit Ausnahme eines zwielichtigen Paares von Gitchankis. Sie bieten einen fünfschüssigen mysteriösen Minenlaser für einen Spottpreis an. Keine Rückgabe, natürlich.	400
 choiceText	Buy the weapon [-3 exotics]	Kaufen Sie die Waffe [-3 Exoten]	100
-newName3	dubious traders	dubiose händler	25
-title	Technically True	Technisch wahr	35
+newName3	dubious traders	Dubiose händler	25
+title	Technically True	Technisch gesehen richtig	35
 text2	The module is delivered to Mothership cargo bay. It has five barrels as promised... but the fifth one doesn't do anything except increase power consumption. It seems somebody has partially repaired the broken barrel with explosive plastics... We remove that part.	Das Modul wird in den Frachtraum des Mutterschiffs geliefert. Es hat fünf Fässer, wie versprochen... aber das fünfte tut nichts, außer den Energieverbrauch zu erhöhen. Es scheint, als hätte jemand das kaputte Fass teilweise mit explosivem Plastik repariert... Wir entfernen diesen Teil.	400
 reasonToDisplay	trade operation	Handelsbetrieb	30
-text	There is a very small station on the orbit of this otherwise uninteresting planet. It is sending a crude "DRONES FOR SALE" signal, but it's credentials are unknown."	Im Orbit dieses ansonsten uninteressanten Planeten befindet sich eine sehr kleine Station. Sie sendet ein plumpes "DRONEN ZU VERKAUFEN"-Signal, aber ihre Berechtigung ist unbekannt."	400
+text	There is a very small station on the orbit of this otherwise uninteresting planet. It is sending a crude "DRONES FOR SALE" signal, but it's credentials are unknown."	Im Orbit dieses ansonsten uninteressanten Planeten befindet sich eine sehr kleine Station. Sie sendet ein plumpes "DRONEN ZU VERKAUFEN"-Signal, aber ihre Berechtigung ist unbekannt.	400
 newName3	Religious trade station	Religiöse Handelsstation	25
-text	The station seems to be selling exclusively worthless junk, except for a shady pair of Gor-Mor. They offer us a mystery "biotech combat drone". No refunds, of course."	Die Station scheint ausschließlich wertloses Gerümpel zu verkaufen, abgesehen von einem zwielichtigen Paar Gor-Mor. Sie bieten uns eine mysteriöse "Biotech-Kampfdrohne" an. Keine Rückerstattung, natürlich."	400
+text	The station seems to be selling exclusively worthless junk, except for a shady pair of Gor-Mor. They offer us a mystery "biotech combat drone". No refunds, of course."	Die Station scheint ausschließlich wertloses Gerümpel zu verkaufen, abgesehen von einem zwielichtigen Paar Gor-Mor. Sie bieten uns eine mysteriöse "Biotech-Kampfdrohne" an. Keine Rückerstattung, natürlich.	400
 choiceText	Buy [-99 creds]	Kaufen [-99 Kredite]	100
 title	Station self-destruct	Selbstzerstörung der Station	35
 text2	The station replica has exploded due to an internal self-destruct system triggered by our ship's recon bots. The techno-junk inside the replica scattered in all directions as shrapnel, causing minor damage to our ship and yielding salvage.	Der Stationsnachbau ist aufgrund eines internen Selbstzerstörungssystems explodiert, das von den Aufklärungsbots unseres Schiffs ausgelöst wurde. Der Technoschrott im Inneren des Replikats verstreute sich als Schrapnell in alle Richtungen, verursachte geringfügige Schäden an unserem Schiff und erbrachte Bergungsgut.	400
@@ -3749,7 +3749,7 @@ reasonToDisplay	ambush survived	Hinterhalt überstanden	30
 newName3	Cloud of worthless debris	Wolke aus wertlosen Trümmern	25
 title	Trade successful	Handel erfolgreich	35
 text2	The weapon is delivered as promised. Closer inspection reveals a ripped off insectoid limb stuck in the weapon rotation machinery.	Die Waffe wird wie versprochen geliefert. Bei näherer Betrachtung erkennt man ein abgerissenes insektoides Glied, das in der Rotationsmaschine der Waffe steckt.	400
-title	Minimally False Advertising	Minimal falsche Werbung	35
+title	Minimally False Advertising	Irreführende Werbung	35
 text2	The drone proves to be a primitive combat animal capable of spitting acid.	Die Drohne erweist sich als ein primitives Kampftier, das Säure spucken kann.	400
 text	docking...	Andocken...	50
 title	Pirate Ambush!	Piratenüberfall!	35
@@ -8484,7 +8484,7 @@ displayName	Multi-container MS-I	Multibehälter MK-I	40
 description	Increases storage capacity of metal & synthethics.	Erhöht die Lagerkapazität von Metallen und Kunststoffen.	200
 
 multicontainer OME mechanical.prefab
-displayName	Multi-container OME	Multibehälter OMK	40
+displayName	Multi-container OME	Multibehälter OME	40
 description	Increases storage capacity of organics, metals & exotics.	Erhöht die Lagerkapazität für Organik, Metalle und Exoten.	200
 
 multicontainer OMS biotech.prefab
@@ -9150,21 +9150,21 @@ displayName	Stealth Decryptor, type I	Tarnkappen-Entschlüssler, Typ I	40
 description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 zu entdecken (innerhalb der Sensorreichweite). Langlebige Materialien erhöhen die HP des Schiffes.	200
 
 Stealth decryptor 1 rats.prefab
-displayName	Stealth decryptor (Rat Empire)	Tarnkappen-Entschlüsseler (Rattenimperium)	40
+displayName	Stealth decryptor (Rat Empire)	Tarnkappen-Entschlüssler (Rattenimperium)	40
 
 Stealth decryptor 1 ventilator.prefab
 displayName	Stealth Decryptor, type 0	Tarnkappen-Entschlüssler, Typ 0	40
 
 Stealth decryptor 2 biobrain.prefab
-displayName	Bioneural stealth decryptor	Bioneuraler Tarnkappen-Entschlüsseler	40
+displayName	Bioneural stealth decryptor	Bioneuraler Tarnkappen-Entschlüssler	40
 description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu entdecken.	200
 
 Stealth decryptor 2 new human tec.prefab
-displayName	Stealth Decryptor, type II	Tarnkappen-Entschlüsseler, Typ II	40
+displayName	Stealth Decryptor, type II	Tarnkappen-Entschlüssler, Typ II	40
 description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu erkennen. Langlebige Materialien erhöhen die HP des Schiffes.	200
 
 Stealth decryptor 3 bio.prefab
-displayName	Biotech stealth decryptor	Biotech-Tarnkappen-Entschlüsseler	40
+displayName	Biotech stealth decryptor	Biotech-Tarnkappen-Entschlüssler	40
 description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200
 
 Stealth decryptor 3 newest human tec.prefab
@@ -10980,7 +10980,7 @@ QuestPanel.setText	Visit the local commercial stations to prepare for the upcomi
 QuestPanel.setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie 5 Orte mit bestätigten Spinner-Sichtungen und versuchen Sie, Kontakt aufzunehmen.	100
 QuestPanel.setText	Find and kill the Squid emperor.	Finden und töten Sie den Tintenfisch-Imperator.	100
 title	Sector info	Sektor-Infos	35
-text	This fairly unexplored sector used to be part of Earth Alliance, but has been now claimed by the Squids.\nI've been looking into all available data on their technology. It seems their ships have not the best stealth technology. Getting a decent stealth decryptor might save us from some unnecessary fights.	Dieser ziemlich unerforschte Sektor gehörte früher zur Erd-Allianz, wurde aber jetzt von den Tintenfischen beansprucht. Ich habe alle verfügbaren Daten über ihre Technologie untersucht. Es scheint, dass ihre Schiffe nicht die beste Stealth-Technologie haben. Einen anständigen Stealth-Entschlüsseler zu bekommen, könnte uns vor einigen unnötigen Kämpfen bewahren.	600
+text	This fairly unexplored sector used to be part of Earth Alliance, but has been now claimed by the Squids.\nI've been looking into all available data on their technology. It seems their ships have not the best stealth technology. Getting a decent stealth decryptor might save us from some unnecessary fights.	Dieser ziemlich unerforschte Sektor gehörte früher zur Erd-Allianz, wurde aber jetzt von den Tintenfischen beansprucht. Ich habe alle verfügbaren Daten über ihre Technologie untersucht. Es scheint, dass ihre Schiffe nicht die beste Stealth-Technologie haben. Einen anständigen Stealth-Entschlüssler zu bekommen, könnte uns vor einigen unnötigen Kämpfen bewahren.	600
 title	Warpcast connection established...	Warpcast-Verbindung hergestellt...	35
 text	Hello captain, I've been waiting for you to get here. I'll make this short. The war with the Squids is not going well. We've lost about half of Earth territory. The High Command has decided that desperate times need desperate measures. We are going to seek help from the only known elder species, the Spideraa.	Hallo, Kapitän. Ich habe schon auf Sie gewartet. Ich werde mich kurz fassen. Der Krieg mit den Tintenfischen läuft nicht gut. Wir haben etwa die Hälfte des Erdterritoriums verloren. Das Oberkommando hat beschlossen, dass verzweifelte Zeiten verzweifelte Maßnahmen erfordern. Wir werden die einzige bekannte ältere Spezies um Hilfe bitten, die Spinner.	400
 choiceText	Tell me about the Spideraa	Erzählen Sie mir von den Spinnern	100
@@ -11397,8 +11397,8 @@ General humanoid operating msg pool.prefab
 	Operating module, thinking about the Gor-Mor.	Bedient Modul, denkt über die Gor-Mor nach.	80
 	Operating module, thinking about architecture.	Bedient Modul, denkt an Architektur.	80
 	Operating module, thinking about the Gitchanki.	Bedient Modul, denkt über die Gitchanki nach.	80
-	Operating module, practicing mindfulness.	Bedient Modul, Achtsamkeit übent.	80
-	Operating module, practicing mental silence.	Bedient Modul, mentale Stille übent.	80
+	Operating module, practicing mindfulness.	Bedient Modul, Achtsamkeit übend.	80
+	Operating module, practicing mental silence.	Bedient Modul, mentale Stille übend.	80
 	Operating module, doing routine checks.	Bedient Modul, führt Routinekontrollen durch.	80
 	Operating module, reciting a mantra of truth.	Bedient Modul, ein Mantra der Wahrheit rezitierend.	80
 	Operating module, reciting a mantra of love.	Bedient Modul, ein Mantra der Liebe rezitierend.	80
