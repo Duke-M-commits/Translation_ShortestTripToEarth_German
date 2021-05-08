@@ -98,7 +98,7 @@ DamageToken.cs
 	Not repairable	Nicht reparierbar	0
 	Repaired in {0:0.0}s	Repariert in {0:0.0}s	0
 	ship HP repairs	Schiff-HP-Reparaturen	0
-	Represents permanent damage to ship max hp: {0}	Stellt einen permanenten Schaden an der maximalen Schiffshp dar: {0}	0
+	Represents permanent damage to ship max hp: {0}	Stellt einen permanenten Schaden an der maximalen Schiffs-HP dar: {0}	0
 	Ship damage: {0}	Schiffsschaden: {0}	0
 	Cannot be repaired	Kann nicht repariert werden	0
 	Note: repairs are cheaper in stations	Hinweis: Reparaturen sind in Stationen billiger	0
@@ -9095,7 +9095,7 @@ displayName	Floral shield generator	Floraler Schildgenerator	40
 
 shield decoy 1.prefab
 displayName	Shield decoy	Schild-Täuschkörper	40
-description	A highly armored shield battery that increases max shield points and ship HP.\nAppears as shield generator to enemy sensors.	Eine stark gepanzerte Schildbatterie, die die maximalen Schildpunkte und die SchiffshP erhöht.\nFür gegnerische Sensoren erscheint sie als Schildgenerator.	200
+description	A highly armored shield battery that increases max shield points and ship HP.\nAppears as shield generator to enemy sensors.	Eine stark gepanzerte Schildbatterie, die die maximalen Schildpunkte und die Schiffs-HP erhöht.\nFür gegnerische Sensoren erscheint sie als Schildgenerator.	200
 
 shieldbat 0 diy.prefab
 displayName	Shield batteries DIY	Schildbatterien DIY	40
@@ -9115,7 +9115,7 @@ displayName	Shield battery, Rat Empire	Schildbatterie, Rattenimperium	40
 
 shieldbat 2 terran.prefab
 displayName	Shield batteries T1	Schildbatterien T1	40
-description	Increases maximum shield points, but doesn't recharge shields. Resilient structure improves ship HP.	Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht wieder auf. Elastische Struktur verbessert die SchiffshP.	200
+description	Increases maximum shield points, but doesn't recharge shields. Resilient structure improves ship HP.	Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht wieder auf. Elastische Struktur verbessert die Schiffs-HP.	200
 
 shieldbat 2.5 rotor.prefab
 displayName	Shield battery, custom cooled	Schildbatterie, Custom gekühlt	40
@@ -9244,7 +9244,7 @@ displayName	Decoy capital missile	Täuschungsbombe	40
 
 02 Spideraa decoy nuke launcher.prefab
 displayName	Red monolith nuke	Rote Monolith-Bombe	40
-description	Extremely durable capital missile that simply rams it's target. Faster than average nukes, damages mostly ship HP.	Äußerst widerstandsfähige Bombe, die ihr Ziel einfach rammt. Schneller als durchschnittliche Bombe, beschädigt hauptsächlich die SchiffshP.	200
+description	Extremely durable capital missile that simply rams it's target. Faster than average nukes, damages mostly ship HP.	Äußerst widerstandsfähige Bombe, die ihr Ziel einfach rammt. Schneller als durchschnittliche Bombe, beschädigt hauptsächlich die Schiffs-HP.	200
 
 03 Barrel nuke launcher.prefab
 description	External fuel tank usable as capital missile. Deals no ship damage, but damages crew & causes fires. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	Externer Treibstofftank als Bombe verwendbar. Verursacht keinen Schiffsschaden, schädigt aber die Besatzung und verursacht Brände. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern profitieren, um feindliche Punktabwehr abzulenken.	200
@@ -9314,7 +9314,7 @@ description	A simple but powerful corrosion blast missile that utilizes exotic a
 description	Advanced capital missile. Well-armored and high damage against ship integrity, small area of effect. Faster than average nukes.	Fortgeschrittene Bombe. Gut gepanzert und hoher Schaden gegen Schiffsintegrität, kleiner Wirkungsbereich. Schneller als durchschnittliche Bomben.	200
 
 08e thin speeder nuke launcher.prefab
-description	Cheap and fast single-shot missile. Damages ship HP, crew & modules, small area of effect compared to other nukes. Quite fragile.	Billige und schnelle Single-Shot-Rakete. Beschädigt SchiffshP, Besatzung und Module, kleiner Wirkungsbereich im Vergleich zu anderen Bomben. Ziemlich zerbrechlich.	200
+description	Cheap and fast single-shot missile. Damages ship HP, crew & modules, small area of effect compared to other nukes. Quite fragile.	Billige und schnelle Single-Shot-Rakete. Beschädigt Schiffs-HP, Besatzung und Module, kleiner Wirkungsbereich im Vergleich zu anderen Bomben. Ziemlich zerbrechlich.	200
 
 09 Rat nuke launcher.prefab
 displayName	Imperial Incendiary Capital Missile	Imperial Incendiary Capital Missile	40

@@ -51,11 +51,11 @@ description	Composite plastic hardpoint, improves ship HP. Can be installed to g
 
 shield tigership.prefab
 displayName	Tiger shield generator	Tiger-Schildgenerator	40
-description	Regenerates shield points. Requires one operator. Resilient structure improves ship HP.	Regeneriert Schildpunkte. Erfordert einen Bediener. Widerstandsfähige Struktur verbessert die SchiffshP.	200
+description	Regenerates shield points. Requires one operator. Resilient structure improves ship HP.	Regeneriert Schildpunkte. Erfordert einen Bediener. Widerstandsfähige Struktur verbessert die Schiffs-HP.	200
 
 shieldbat tiger.prefab
 displayName	Shield battery (Tiger)	Schildbatterie (Tiger)	40
-description	Increases maximum shield points, but no recharge. Durable structure also increases ship HP.	Erhöht maximale Schildpunkte, aber keine Wiederaufladung. Die widerstandsfähige Struktur erhöht auch die SchiffshP.	200
+description	Increases maximum shield points, but no recharge. Durable structure also increases ship HP.	Erhöht maximale Schildpunkte, aber keine Wiederaufladung. Die widerstandsfähige Struktur erhöht auch die Schiffs-HP.	200
 
 Tiger 8x nuke launcher.prefab
 displayName	Tiger Nuke battery x8	Tiger Bomben-Batterie x8	40
@@ -66,8 +66,8 @@ displayName	Dual Tiger EMP nuke	Doppel-Tiger-EMP-Bombe	40
 description	A pair of large, armored EMP missiles. The EMP overloads modules in the hit area but deals no physical damage.	Ein Paar großer, gepanzerter EMP-Raketen. Der EMP überlastet Module im Trefferbereich, verursacht aber keinen physischen Schaden.	200
 
 Tiger intruderbot nuke launcher.prefab
-displayName	Tiger intruderbot nuke	Tiger-Intruderbot-Bombe	40
-description	Capital missile that releases a modified Tiger spider utility drone into the enemy ship. The drone is pre-programmed to attack enemy crew but can be recalled with a normal move order.	Großrakete, die eine modifizierte Tiger-Spider-Utility-Drohne in das gegnerische Schiff freisetzt. Die Drohne ist darauf programmiert, die gegnerische Besatzung anzugreifen, kann aber mit einem normalen Bewegungsbefehl zurückgerufen werden.	200
+displayName	Tiger intruderbot nuke	Tiger-Eindringling-Bombe	40
+description	Capital missile that releases a modified Tiger spider utility drone into the enemy ship. The drone is pre-programmed to attack enemy crew but can be recalled with a normal move order.	Großrakete, die eine modifizierte Tiger-Spinnen-Drohne in das gegnerische Schiff freisetzt. Die Drohne ist darauf programmiert, die gegnerische Besatzung anzugreifen, kann aber mit einem normalen Bewegungsbefehl zurückgerufen werden.	200
 
 Tiger Monolith nuke launcher.prefab
 displayName	Tiger monolith nuke	Tiger-Monolith-Bombe	40
@@ -79,7 +79,7 @@ description	An experimental capital missile that releases nanoshrapnel that dest
 
 weapon tigermissile large.prefab
 displayName	Tiger mininuke platform	Tiger-Miniraketen-Plattform	40
-description	This platform shoots singular heavy missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area.	Diese Plattform schießt einzelne schwere Raketen ab. Alle Raketen sind präzise, durchdringen Schilde, werden nie abgelenkt und beschädigen Module über einen großen Bereich.	200
+description	This platform shoots singular heavy missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area.	Diese Plattform schießt einzelne schwere Raketen ab. Alle Raketen sind präzise, durchdringen Schilde, werden nie abgelenkt und beschädigen Module über einen großen Bereich. Die Raketen haben jeweils 4 HP.	200
 
 Perk nuke Battle Tiger monolith.prefab
 displayName	Tiger Mountain nuke	Tiger-Berg-Bombe	40
@@ -96,8 +96,8 @@ description	A pair of armored EMP nukes, launched simultaneously.	Ein Paar gepan
 randomizerMenuStrings[i]	+1 dual capital missile	+1 Doppel-Bombe	30
 
 Perk nuke Tiger intruderbot nuke.prefab
-description	This intruderbot nuke releases an aggressive tiger spider drone on impact.	Diese Intruderbot-Nuke setzt beim Aufprall eine aggressive Tiger-Spider-Drohne frei.	250
-randomizerMenuStrings[i]	+1 intruderbot missile	+1 Intruderbot-Bombe	30
+description	This intruderbot nuke releases an aggressive tiger spider drone on impact.	Diese Eindringling-Bombe setzt beim Aufprall eine aggressive Tiger-Spinnen-Drohne frei.	250
+randomizerMenuStrings[i]	+1 intruderbot missile	+1 Eindringling-Bombe	30
 
 Perk nuke Tiger sharpnel.prefab
 displayName	Tiger shrapnel nuke	Tiger Schrapnell-Bombe	40
@@ -150,7 +150,7 @@ Tiger sharpnel nuke.prefab
 displayName	Tiger sharpnel nuke	Tiger Schrapnell-Bombe	35
 
 BattleTiger.prefab
-description	Battle Tiger is is the military variant of the popular Tigerfish series. It was designed for long-range transport of VIP personnel in hostile space and is equipped with explosives combinator. It comes with intruderbot nukes that release armed drones inside enemy ships.	Battle Tiger ist die militärische Variante der beliebten Tigerfisch-Serie. Er wurde für den Langstreckentransport von VIP-Personal im feindlichen Raum konzipiert und ist mit einem Sprengstoff-Kombinator ausgestattet. Er verfügt über Intruderbot-Bomben, die bewaffnete Drohnen im Inneren feindlicher Schiffe freisetzen.	400
+description	Battle Tiger is is the military variant of the popular Tigerfish series. It was designed for long-range transport of VIP personnel in hostile space and is equipped with explosives combinator. It comes with intruderbot nukes that release armed drones inside enemy ships.	Battle Tiger ist die militärische Variante der beliebten Tigerfisch-Serie. Er wurde für den Langstreckentransport von VIP-Personal im feindlichen Raum konzipiert und ist mit einem Sprengstoff-Kombinator ausgestattet. Er verfügt über Eindringling-Bomben, die bewaffnete Drohnen im Inneren feindlicher Schiffe freisetzen.	400
 
 Engiship.prefab
 description	This Mobile Maintenance Rig starts in a bad shape due to years of rough use, but holds promise for those patient enough to upgrade its weaponry and defences. It starts with poor technology, but large crew, and containers full of raw resources.	Diese mobile Wartungsanlage beginnt in einem schlechten Zustand aufgrund jahrelanger rauer Nutzung, ist aber vielversprechend für diejenigen, die geduldig genug sind, seine Waffen und Verteidigungsanlagen aufzurüsten. Es startet mit schlechter Technologie, aber großer Besatzung und Behältern voller Rohstoffe.	400
