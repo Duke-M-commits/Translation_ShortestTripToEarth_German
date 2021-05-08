@@ -10015,7 +10015,7 @@ description	Months before the journey, all of the crew prepared by eating a bit 
 unlockAnnouncementText	The lack of favourite consumables and occasional hunger has reminded our crew to prepare physically better next time, if there ever will be one.	Der Mangel an bevorzugten Verbrauchsgütern und der gelegentliche Hunger hat unsere Crew daran erinnert, sich beim nächsten Mal körperlich besser vorzubereiten, falls es jemals eines geben wird.	100
 
 Perk add organics 3, braindead.prefab
-displayName	Biotech remains	Biotech bleibt	40
+displayName	Biotech remains	Biotech Überreste	40
 description	Somebody is trying to sell us this dead biotech brain of a broken stealth decryptor, says it's still perfectly edible.	Jemand versucht, uns das tote Biotech-Gehirn eines kaputten Stealth-Entschlüsslers zu verkaufen und behauptet, es sei noch vollkommen essbar.	250
 unlockAnnouncementText	During our travels, we've met an honest individual who is trying to sell us some kind of broken equipment because "It's still perfectly edible"."	Auf unseren Reisen haben wir ein ehrliches Individuum getroffen, das versucht, uns eine Art kaputtes Gerät zu verkaufen, weil "es noch perfekt essbar ist."	100
 randomizerMenuStrings[i]	+40 organics	+40 Organik	30
