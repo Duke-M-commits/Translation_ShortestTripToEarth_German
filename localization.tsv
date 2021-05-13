@@ -548,7 +548,7 @@ StoragePanel.cs
 	Not enough resources for upgrading	Nicht genügend Ressourcen für die Speichererweiterung	0
 
 WarningsVisualizer.cs
-	SELF DESTRUCT	SELBSTZERSTÖRUNG	0
+	SELF DESTRUCT	SELBST-\nZERSTÖRUNG	0
 	Modules that can be crafted with existing resources in empty slots.\nSelect an empty slot to view specific craftables.	Module, die mit vorhandenen Ressourcen in leeren Steckplätzen hergestellt werden können.\nWählen Sie einen leeren Steckplatz, um herstellbare Module anzuzeigen.	0
 	BEAM FIRING	STRAHL ABGEFEUERT	0
 	Countdown to beam activation	Countdown bis zur Strahlaktivierung	0
