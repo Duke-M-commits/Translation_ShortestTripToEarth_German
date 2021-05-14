@@ -2302,8 +2302,8 @@ text	remote prospecting...	Fernerkundung...	50
 
 1236 Gas giant E.prefab
 text	This gas giant is a rare one. The volatile gases it contains can be converted to explosives. General weather conditions are violent, featuring active electrical storms and occasional explosions of volatiles. Harvesting from here is quite risky.	Dieser Gasriese ist ein seltenes Exemplar. Die flüchtigen Gase, die er enthält, können in Sprengstoff umgewandelt werden. Die allgemeinen Wetterbedingungen sind heftig, mit aktiven elektrischen Stürmen und gelegentlichen Explosionen von flüchtigen Gasen. Das Ernten von hier ist ziemlich riskant.	400
-choiceText	Harvest volatiles	Volatiles ernten	100
-text	Extracting volatiles...	Extrahieren von Volatilen...	50
+choiceText	Harvest volatiles	Flüchtige Gase ernten	100
+text	Extracting volatiles...	Extrahieren von flüchtigen Gasen...	50
 text2	The extraction process went smoothly, and only some equipment was destroyed inside the ravaging atmosphere of the gas giant.	Der Extraktionsprozess verlief reibungslos und nur einige Geräte wurden in der verwüstenden Atmosphäre des Gasriesen zerstört.	400
 text2	During the extraction process, a massive electrical storm appeared, causing an explosion near the Mothership and injuring crew. Our ship received integrity damage and we lost some minor equipment.	Während des Extraktionsprozesses trat ein massiver elektrischer Sturm auf, der eine Explosion in der Nähe des Mutterschiffs verursachte und die Besatzung verletzte. Unser Schiff erlitt einen Integritätsschaden und wir verloren einige kleinere Ausrüstungsgegenstände.	400
 text2	We had to abort the mission early due to electrical storms getting too intense. The ship received minor damage during the operation and we lost a few bots.	Wir mussten die Mission vorzeitig abbrechen, da die elektrischen Stürme zu stark wurden. Das Schiff erlitt während des Einsatzes leichte Schäden und wir verloren einige Bots.	400
@@ -3109,7 +3109,7 @@ text	We do not have enough exotics. We may return later if we have more.	Wir hab
 text2	After they have built a new warpdrive with our help, the Gitchanki miners send us several crates of high quality fuel, plus their original warpdrive which they won't be using any more.	Nachdem sie mit unserer Hilfe einen neuen Warpantrieb gebaut haben, schicken uns die Gitchanki-Mienenarbeiter mehrere Kisten mit hochwertigem Treibstoff sowie ihren ursprünglichen Warpantrieb, den sie nicht mehr benutzen werden.	400
 
 SOS5 exo, spare parts and explos.prefab
-title	Volatiles tanker	Volatiles Tankschiff	35
+title	Volatiles tanker	Tanker für flüchtige Stoffe	35
 text	"I've just fought a fleet of slavers, and desperately need synthetics for repairs. Can you help me?"	"Ich habe gerade gegen eine Flotte von Sklavenhändlern gekämpft und brauche dringend Kunststoffe für Reparaturen. Könnt Ihr mir helfen?"	400
 choiceText	We can help you [-200 synthetics]	Wir können Ihnen helfen [-200 Kunststoffe]	100
 newName3	needs 200 synthetics	braucht 200 synthetics	25
