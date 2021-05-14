@@ -1712,7 +1712,7 @@ Maximum letters on one row: 10, possible 2 rows	ALMOST\nFULL	FAST\nVOLL	10
 Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIERT	10
 	BEAM\nACTIVATION	STRAHL-\nAKTIVIERUNG	10
 	RESOURCES	RESSOURCEN	22
-	Open materials convertors	Öffne Materialien Konverter	0
+	Open materials convertors	Öffne Materialkonverter	0
 	/ 100ru	/ 100re	0
 	Power consumed / capacity	Verbrauchte Leistung / Kapazität	0
 	CREW/MODULES/POWER	VOREINSTELLUNGEN	22
@@ -10573,7 +10573,7 @@ Perk module DIY weapon.prefab
 displayName	DIY backup weapon	DIY-Ersatzwaffe	40
 description	Despite having the ability to craft DIY weapons in our ship, it's still good to have one ready as a backup.\nImprovised weapons are not the best, but our engineers sometimes craft interesting pieces.	Obwohl wir die Möglichkeit haben, DIY-Waffen in unserem Schiff herzustellen, ist es immer noch gut, eine als Backup parat zu haben. Improvisierte Waffen sind nicht die besten, aber unsere Ingenieure stellen manchmal interessante Stücke her.	250
 randomizerMenuStrings[i]	+1 random DIY weapon module	+1 zufälliges DIY Waffenmodul	30
-randomizerMenuStrings[i]	-1 exotic	-1 Exotisch	30
+randomizerMenuStrings[i]	-1 exotic	-1 Exot	30
 
 Perk module drone repair bay.prefab
 displayName	Drone repair bay	Drohnen-Reparaturbucht	40
