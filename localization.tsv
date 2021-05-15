@@ -413,7 +413,7 @@ ModuleActionsPanel.cs
 	INSTALL	EINBAUEN	0
 	MOVE	BEWEGEN	0
 	Scrap module	Modul verschrotten	0
-	Some resources go to DUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu ÜBERSCHÜSSIGE RESSOURCEN	0
+	Some resources go to DUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu ÜBERSCHÜSSIGEN RESSOURCEN	0
 
 ModuleDataSubpanel.cs
 	Damage to crew in hit area	Schaden an Besatzung im Trefferbereich	0
@@ -604,7 +604,7 @@ altText	You are running low on fuel. Would you like to see how you can get more?
 altText	The ship has very low HP left! Consider <color=red>repairing</color> damage tokens on my hull or <color=red>escaping</color> by using the warpdrive! If you have any <color=red>nukes</color>, consider using them.	Das Schiff hat nur noch sehr wenig HP! Ziehen Sie in Erwägung, <color=red>Schadensmarken an der Hülle zu reparieren oder <color=red>zu entkommen</color>, indem Sie den Warpantrieb benutzen! Wenn Sie <color=red>Bomben</color> haben, ziehen Sie deren Einsatz in Betracht.	240
 choiceTexts	OK, will consider it!	OK, ich werde es in Betracht ziehen!	15
 altText	We've run out resources for repairing. Repairing requires metal or synthethics. Want to see my database entry about ship hull repairing?	Wir haben keine Ressourcen mehr zum Reparieren. Zum Reparieren braucht man Metalle oder Kunststoffe. Willst du meinen Datenbankeintrag über die Reparatur von Schiffsrümpfen sehen?	240
-altText	Modules received from perks are currently inside storage. Open storage panel?	Module, die Sie von Startboni erhalten haben, befinden sich derzeit im Lager. Offenes Lagerfeld?	240
+altText	Modules received from perks are currently inside storage. Open storage panel?	Module, die Sie von Startboni erhalten haben, befinden sich derzeit im Lager. Frachtraum öffnen?	240
 altText	We're out of fuel. If we cannot use the SOS, we should consider scrapping modules with fuel value, such as nukes or reactors. SOS signal is jammed (unusable) during battles.	Wir haben keinen Treibstoff mehr. Wenn wir das SOS nicht nutzen können, sollten wir in Betracht ziehen, Module mit Treibstoffwert zu verschrotten, wie z.B. Bomben oder Reaktoren. Das SOS-Signal wird während der Kämpfe gestört (unbrauchbar).	240
 altText	We're out of organics. Hungry crew will get a penalty to all stats and will eventually\r start slowly losing hitpoints. Crew in cryosleep requires no resources.	Wir haben keine organischen Stoffe mehr. Eine hungrige Crew erhält einen Malus auf alle Werte und beginnt eventuell langsam HP zu verlieren. Crew im Kryoschlaf benötigt keine Ressourcen.	240
 altText	We have received critical damage. Critical damage tokens may cause explosions or fires. Repairing them should be one of our priorities.	Wir haben kritischen Schaden erhalten. Kritische Schadensmarken können Explosionen oder Brände verursachen. Sie zu reparieren sollte eine unserer Prioritäten sein.	240
@@ -1768,7 +1768,7 @@ comtipText	Would you like to see an overview of most common weapon types?	Möcht
 	Place to storage	In den Speicher legen	0
 	Confirm scrap module	Schrottmodul bestätigen	0
 	Install [M]	Installieren [M]	0
-	Some resources go to\nDUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu\nÜBERSCHÜSSIGE RESSOURCEN	0
+	Some resources go to\nDUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu\nÜBERSCHÜSSIGEN RESSOURCEN	0
 	STORE ALL & CLOSE	ALLES SPEICHERN & SCHLIESSEN	0
 	SALVAGED MODULES	GEBORGENE MODULE	0
 	Crew total hitpoints found/lost	Crew-Gesamt-HP gefunden/verloren	0
@@ -1987,7 +1987,7 @@ title	Defence installation	Verteidigungsanlage	35
 text2	We discovered a defence installation on one of the larger asteroids. It discovered us as well and opened fire.	Auf einem der größeren Asteroiden haben wir eine Verteidigungsanlage entdeckt. Sie entdeckte auch uns und eröffnete das Feuer.	400
 text	We pulled back a little and now face a choice. We could blast the building to smithereens from range, or send a squad of fresh operatives to take over the complex and secure any useful technology. We could also just leave.	Wir zogen uns ein wenig zurück und standen nun vor der Wahl. Wir könnten das Gebäude aus der Ferne in die Luft jagen oder einen Trupp frischer Agenten losschicken, um den Komplex zu übernehmen und alle nützliche Technologie zu sichern. Wir könnten auch einfach verschwinden.	400
 choiceText	Ranged attack	Fernangriff	100
-choiceText	Assault [send crew]	Sturmangriff [Crew schicken]	100
+choiceText	Assault [send crew]	Sturmangriff [Besatzung schicken]	100
 choiceText	Leave	Verlassen	100
 text2	After short exchange of fire, our long-range weaponry turned the installation into millions of tiny pieces speeding into all directions. Needless to say it was hard to recover anything of volume. We also received minor damage.	Nach kurzem Schusswechsel verwandelten unsere Langstreckenwaffen die Anlage in Millionen winziger Teile, die in alle Richtungen rasten. Unnötig zu sagen, dass es schwer war, irgendetwas von der Menge zu bergen. Auch wir erlitten leichte Schäden.	400
 title	Installation breached	Anlage geknackt	35
@@ -2285,7 +2285,7 @@ newName3	unstable exotic atmosphere	Instabile exotische Atmosphäre	25
 text	Harvesting exotics... %	Exoten ernten... %	50
 text2	Soon after setting up our external harvesting facilities, we detected a swarm of warp animals approaching from deeper layers of the gas giant. Understanding the danger, we decided to abort the operation and leave the area as quickly as possible. We had to leave some equipment behind.	Kurz nachdem wir unsere externen Ernteeinrichtungen eingerichtet hatten, entdeckten wir einen Schwarm von Warptieren, die sich aus tieferen Schichten des Gasriesen näherten. Da wir die Gefahr erkannten, beschlossen wir, die Operation abzubrechen und das Gebiet so schnell wie möglich zu verlassen. Wir mussten einige Geräte zurücklassen.	400
 text	A plasma flare is building up in the atmosphere. However, we've also detected an intact module inside the wreckage, requiring careful removal. Should we risk our scavenger engineers to go near? The module cannot be removed by bots before the flare erupts.	In der Atmosphäre baut sich eine Plasmafackel auf. Wir haben aber auch ein intaktes Modul im Inneren des Wracks entdeckt, das vorsichtig entfernt werden muss. Sollen wir unsere Scavenger-Ingenieure riskieren, um in die Nähe zu gehen? Das Modul kann nicht von Bots entfernt werden, bevor die Fackel ausbricht.	400
-choiceText	Scavenge [send crew]	Plündern [Crew schicken]	100
+choiceText	Scavenge [send crew]	Plündern [Besatzung schicken]	100
 choiceText	Leave it	Lassen Sie es	100
 title	Module retrieved	Modul geborgen	35
 text2	Our crew was able to remove the module and evacuate before the flare erupted. The technology proved to be too old and too alien to be usable in our ship.	Unserer Crew gelang es, das Modul zu entfernen und zu evakuieren, bevor die Eruption ausbrach. Die Technologie erwies sich als zu alt und zu fremdartig, um in unserem Schiff verwendet werden zu können.	400
@@ -2915,7 +2915,7 @@ text2	By accelerating over absolute safety limits, we were able to put enough di
 
 456 Exo normal wrecks x5, module or minor problem.prefab
 text	Visible valuable metals indicate the wreckage hasn't been looted. No active technology detected.	Sichtbare wertvolle Metalle deuten darauf hin, dass das Wrack nicht geplündert wurde. Keine aktive Technologie entdeckt.	400
-choiceText	Salvage [send crew]	Bergung [Crew schicken]	100
+choiceText	Salvage [send crew]	Bergung [Besatzung schicken]	100
 text2	The wreckage contained salvageable technology. One of the salvaging crewmembers got burned by a reflected energy cutter ray. We scrapped the entire ship.	Das Wrack enthielt bergungsfähige Technologie. Ein Mitglied der Bergungscrew wurde von einem reflektierten Energie-Schneidestrahl verbrannt. Wir haben das gesamte Schiff verschrottet.	400
 title	Salvage completed	Bergung abgeschlossen	35
 text2	Salvage operation completed without incidents. We scrapped the entire ship.	Bergungsaktion ohne Zwischenfälle abgeschlossen. Wir haben das gesamte Schiff verschrottet.	400
@@ -3357,7 +3357,7 @@ reasonToDisplay	mining operation complete	Abbaubetrieb abgeschlossen	30
 text	animal attacks...	Tierangriffe...	50
 title	Non-carbon ecosystem	Nicht-Kohlenstoff-Ökosystem	35
 text	The planet hosts exclusively non-carbon life (including primitive animals), unsuitable for our purposes. However, we may set up temporary mining facilities to exploit titanium mineral seams near the surface. Keeping the operation ecological comes with a cost increase.	Der Planet beherbergt ausschließlich kohlenstofffreies Leben (einschließlich primitiver Tiere), das für unsere Zwecke nicht geeignet ist. Wir können jedoch temporäre Bergbauanlagen errichten, um die oberflächennahen Titan-Mineralvorkommen auszubeuten. Die Aufrechterhaltung des ökologischen Betriebs ist mit einem Kostenanstieg verbunden.	400
-choiceText	Research & eco-mine [-100 synthetics, send crew]	Forschung & Öko-Bergbau [-100 Kunststoffe, Crew schicken]	100
+choiceText	Research & eco-mine [-100 synthetics, send crew]	Forschung & Öko-Bergbau [-100 Kunststoffe, Besatzung schicken]	100
 choiceText	Research & mine [-40 synthetics, send crew]	Forschung & Bergbau [-40 Kunststoffe, Besatzung schicken]	100
 text2	Local animals attacked our installations numerous times. They managed to damage a mining drill which later malfunctioned and caused an injury to one of our engineers checking the device. Our research of the local life generated some xenodata.	Einheimische Tiere griffen unsere Anlagen mehrfach an. Es gelang ihnen, einen Minenbohrer zu beschädigen, der später eine Fehlfunktion hatte und einen unserer Ingenieure, der das Gerät überprüfte, verletzte. Unsere Forschungen über das lokale Leben erbrachten einige Xenodaten.	400
 title	Metals mined	Abgebaute Metalle	35
@@ -3417,10 +3417,10 @@ text2	Our crew found an ancient capital missile amongst the debris.	Unsere Crew 
 
 1 P oretree exo.prefab
 name2	Planet with minimal atmosphere	Planet mit minimaler Atmosphäre	25
-title	Single organism found	Einziger Organismus gefunden	35
+title	Single organism found	Einzelner Organismus gefunden	35
 text	Incredibly, there is only a single organism on this planet. It is a strikingly beautiful giant tree that survives the desolate conditions by somehow drawing extra nutrients from the seam of exotic minerals under it. What should we do here?	Unglaublicherweise gibt es nur einen einzigen Organismus auf diesem Planeten. Es handelt sich um einen auffallend schönen Riesenbaum, der die desolaten Bedingungen überlebt, indem er irgendwie zusätzliche Nährstoffe aus dem Flöz mit exotischen Mineralien unter ihm zieht. Was sollten wir hier tun?	400
-choiceText	Research & replant tree, mine exotics [-25 fuel, send crew]	Baum erforschen & neu pflanzen, exotische Mineralien abbauen [-25 Treibstoff, Crew schicken]	100
-choiceText	Research & harvest tree as organics, mine exotics [send crew]	Erforschen und ernten Sie den Baum als organische Substanz, bauen Sie Exoten ab [Besatzung schicken].	100
+choiceText	Research & replant tree, mine exotics [-25 fuel, send crew]	Baum erforschen & neu pflanzen, exotische Mineralien abbauen [-25 Treibstoff, Besatzung schicken]	100
+choiceText	Research & harvest tree as organics, mine exotics [send crew]	Erforschen und ernten Sie den Baum als Organik, bauen Sie Exoten ab [Besatzung schicken].	100
 choiceText	Research only. Leave this planet untouched	Nur Forschung. Diesen Planeten unberührt lassen	100
 newName3	giant tree	Riesenbaum	25
 text	replanting operation... %	Umpflanzungsaktion... %	50
@@ -3571,7 +3571,7 @@ text2	Shortly after entering the atmosphere, we encountered a swarm of mines tha
 text	entering atmosphere...	Eintritt in die Atmosphäre...	50
 text	Closer inspection proved the objects to be giant, majestic animals swimming near the surface. Though not sentient, killing developed animals for food is generally not accepted in advanced cultures due to easily available and high quality artificially grown or printed food. However, we could easily send our bots into the ocean to eco-harvest plant seeds and animal eggs.	Bei näherer Betrachtung erwiesen sich die Objekte als riesige, majestätische Tiere, die nahe der Oberfläche schwammen. Obwohl sie nicht empfindungsfähig sind, wird das Töten von entwickelten Tieren zur Nahrungsgewinnung in fortgeschrittenen Kulturen im Allgemeinen nicht akzeptiert, da künstlich gezüchtete oder gedruckte Nahrung leicht verfügbar und von hoher Qualität ist. Wir könnten jedoch unsere Bots einfach in den Ozean schicken, um Pflanzensamen und Tiereier ökologisch zu ernten.	400
 choiceText	Eco-harvest from underwater	Öko-Ernte aus der Unterwasserwelt	100
-choiceText	Hunt the giant serpents, they look tasty [send crew]	Jagen Sie die Riesenschlangen, sie sehen lecker aus [Crew schicken]	100
+choiceText	Hunt the giant serpents, they look tasty [send crew]	Jagen Sie die Riesenschlangen, sie sehen lecker aus [Besatzung schicken]	100
 choiceText	Research only. Leave the ecosystem undisturbed	Nur Forschung. Lasst das Ökosystem ungestört	100
 text	eco-harvesting...	Eco-Harvesting...	50
 text2	Further research uncovered that the giant creatures are approaching presentience. They have a complex communication system that uses swimming patterns as language, and they are already using primitive tools (skulls of dead serpents as helmets). We also uncovered a valuable artifact from the sea bottom.	Weitere Nachforschungen ergaben, dass die riesigen Kreaturen sich der Gegenwart nähern. Sie haben ein komplexes Kommunikationssystem, das Schwimmmuster als Sprache verwendet, und sie benutzen bereits primitive Werkzeuge (Schädel von toten Schlangen als Helme). Wir haben auch ein wertvolles Artefakt vom Meeresgrund freigelegt.	400
@@ -3737,7 +3737,7 @@ text	The station seems to be selling exclusively worthless junk, except for a sh
 choiceText	Buy the weapon [-3 exotics]	Kaufen Sie die Waffe [-3 Exoten]	100
 newName3	dubious traders	Dubiose händler	25
 title	Technically True	Technisch gesehen richtig	35
-text2	The module is delivered to Mothership cargo bay. It has five barrels as promised... but the fifth one doesn't do anything except increase power consumption. It seems somebody has partially repaired the broken barrel with explosive plastics... We remove that part.	Das Modul wird in den Frachtraum des Mutterschiffs geliefert. Es hat fünf Fässer, wie versprochen... aber das fünfte tut nichts, außer den Energieverbrauch zu erhöhen. Es scheint, als hätte jemand das kaputte Fass teilweise mit explosivem Plastik repariert... Wir entfernen diesen Teil.	400
+text2	The module is delivered to Mothership cargo bay. It has five barrels as promised... but the fifth one doesn't do anything except increase power consumption. It seems somebody has partially repaired the broken barrel with explosive plastics... We remove that part.	Das Modul wird in den Frachtraum des Mutterschiffs geliefert. Es hat fünf Läufe, wie versprochen... aber das fünfte tut nichts, außer den Energieverbrauch zu erhöhen. Es scheint, als hätte jemand den kaputten Lauf teilweise mit explosivem Plastik repariert... Wir entfernen diesen Teil.	400
 reasonToDisplay	trade operation	Handelsbetrieb	30
 text	There is a very small station on the orbit of this otherwise uninteresting planet. It is sending a crude "DRONES FOR SALE" signal, but it's credentials are unknown."	Im Orbit dieses ansonsten uninteressanten Planeten befindet sich eine sehr kleine Station. Sie sendet ein plumpes "DRONEN ZU VERKAUFEN"-Signal, aber ihre Berechtigung ist unbekannt.	400
 newName3	Religious trade station	Religiöse Handelsstation	25
@@ -3822,7 +3822,7 @@ reasonToDisplay	anomalous fuel	Anomaler Treibstoff	30
 
 1 wr. stationx4 commercial, defectve mlaserx2, M.prefab
 text	It seems to be a wrecked commercial space station, no active systems detected.	Es scheint sich um eine zerstörte kommerzielle Raumstation zu handeln, es wurden keine aktiven Systeme entdeckt.	400
-choiceText	Investigate & scavenge [send crew]	Untersuchen & plündern [Crew schicken]	100
+choiceText	Investigate & scavenge [send crew]	Untersuchen & plündern [Besatzung schicken]	100
 newName2	Wrecked station	Wrack der Station	25
 title	Space station wreckage	Wrack der Raumstation	35
 text2	Data records show armed pirate boarders forced their way into the station, killed everyone and looted the remains. Our scavenger team found only objects of low value.	Datenaufzeichnungen zeigen, dass bewaffnete Piraten in die Station eingedrungen sind, alle getötet und die Überreste geplündert haben. Unser Plünderungsteam fand nur Objekte von geringem Wert.	400
@@ -3899,7 +3899,7 @@ reasonToDisplay	ship carcass scavenged	Schiffsrumpf geplündert	30
 2 P abandoned mine M, moonT.prefab
 name2	Abandoned mining planet	Verlassener Bergbauplanet	25
 text	Indirect records of this planet exist in our database. It used to be a hotspot for mining of silver and other precious minerals. No recent records exist, but it's probably been shut down due to negative profit outlook already years ago. We could still send crew down to check it out for anything valuable left behind.	Indirekte Aufzeichnungen über diesen Planeten existieren in unserer Datenbank. Er war früher ein Hotspot für den Abbau von Silber und anderen wertvollen Mineralien. Es existieren keine neueren Aufzeichnungen, aber er wurde wahrscheinlich schon vor Jahren wegen negativer Gewinnaussichten stillgelegt. Wir könnten trotzdem eine Crew hinunterschicken, um nach wertvollen Hinterlassenschaften zu suchen.	400
-choiceText	Prospect and scavenge [send crew]	Schürfen und plündern [Crew schicken]	100
+choiceText	Prospect and scavenge [send crew]	Schürfen und plündern [Besatzung schicken]	100
 text2	As expected, the planet has been stripped of valuable minerals. Most of the mine entrances were collapsed due to erosion and time, but the largest facility still stood. Our crew scavenged some of the broken mining equipment left behind, not to return completely empty handed.	Wie erwartet, wurde der Planet von wertvollen Mineralien beraubt. Die meisten Mineneingänge waren aufgrund von Erosion und Zeit eingestürzt, aber die größte Anlage stand noch. Unsere Crew plünderte einige der zurückgelassenen kaputten Bergbauausrüstungen, um nicht völlig mit leeren Händen zurückzukehren.	400
 reasonToDisplay	old machinery scavenged	Alte Maschinen geplündert	30
 text2	As expected, the planet was stripped of valuable minerals long ago. The prospecting crew still enjoyed the trip and took the chance to admire the scenery.	Wie erwartet, war der Planet schon vor langer Zeit von wertvollen Mineralien befreit worden. Die Schürfer-Crew genoss dennoch die Reise und nutzte die Gelegenheit, die Landschaft zu bewundern.	400
@@ -4161,8 +4161,8 @@ title	Extinction event caused	Aussterbeereignis verursacht	35
 text2	Harvesting operations completed. Most of the local species will probably undergo extinction events due to our activities and we might have caused irreversible damage to the ecosystem as a whole. On the positive side, an exposed seam of gold was discovered by one of our harvester bots.	Die Ernteoperationen wurden abgeschlossen. Die meisten einheimischen Spezies werden aufgrund unserer Aktivitäten wahrscheinlich ein Aussterbeereignis erleben und wir haben möglicherweise irreversible Schäden am gesamten Ökosystem verursacht. Positiv zu vermerken ist, dass ein freiliegendes Goldflöz von einem unserer Ernte-Bots entdeckt wurde.	400
 reasonToDisplay	harvesting operations completed	Erntemaßnahmen abgeschlossen	30
 text	The ecosystem on this planet seems to be a very young one. The soil does not have much nutrient value and supports only minimal variety of small plants. We could harvest some organics from here, but it might damage the already fragile ecosystem.	Das Ökosystem auf diesem Planeten scheint ein sehr junges zu sein. Der Boden hat nicht viel Nährwert und unterstützt nur eine minimale Vielfalt an kleinen Pflanzen. Wir könnten einige organische Stoffe von hier ernten, aber das könnte das bereits fragile Ökosystem beschädigen.	400
-choiceText	Harvest organics & research [send crew]	Organik ernten & forschen [Crew schicken]	100
-choiceText	Research only. This unique ecosystem is worth preserving [send crew]	Nur Forschung. Dieses einzigartige Ökosystem ist es wert, erhalten zu werden [Crew schicken].	100
+choiceText	Harvest organics & research [send crew]	Organik ernten & forschen [Besatzung schicken]	100
+choiceText	Research only. This unique ecosystem is worth preserving [send crew]	Nur Forschung. Dieses einzigartige Ökosystem ist es wert, erhalten zu werden [Besatzung schicken].	100
 newName3	young ecosystem	Junges Ökosystem	25
 texts	"Are you seeing this? Very zen here..."	"Seht Ihr das? Sehr zen hier..."	80
 text2	We leave the unique ecosystem of this planet untouched after collecting a few scientific samples. It might evolve into something truly special one day.	Wir lassen das einzigartige Ökosystem dieses Planeten unberührt, nachdem wir ein paar wissenschaftliche Proben gesammelt haben. Vielleicht entwickelt es sich eines Tages zu etwas ganz Besonderem.	400
@@ -4232,7 +4232,7 @@ text2	The primitive weapons of the pirate gang are more dangerous than we though
 reasonToDisplay	attack attempt repelled	Angriffsversuch abgewehrt	30
 title	Magic artifact promised	Magisches Artefakt versprochen	35
 text	The Ctulufants, after hearing of our loss, promise to give one of their "secret magic artifacts" if we defeat the pirates. Description of the artifact suggests it's alien technology. We should consider healing our crew before we resume the attack."	Die Ctulufanten versprechen, nachdem sie von unserer Niederlage gehört haben, eines ihrer "geheimen magischen Artefakte" zu übergeben, wenn wir die Piraten besiegen. Die Beschreibung des Artefakts lässt vermuten, dass es sich um außerirdische Technologie handelt. Wir sollten in Betracht ziehen, unsere Crew zu heilen, bevor wir den Angriff fortsetzen."	400
-choiceText	Attack the pirates again, with more resources [send crew]	Greifen Sie die Piraten erneut an, mit mehr Ressourcen [Crew schicken]	100
+choiceText	Attack the pirates again, with more resources [send crew]	Greifen Sie die Piraten erneut an, mit mehr Ressourcen [Besatzung schicken]	100
 choiceText	Leave, promise to return if possible	Gehen Sie, versprechen Sie, wenn möglich zurückzukehren.	100
 title	Gift received	Geschenk erhalten	35
 text2	The Ctulufants express infinite gratitude and give us the promised artifact. It's a piece of technology salvaged from a crash-landed intergalactic ship. The newfound freedom of the entire Ctulufant civilization is later celebrated with a grand feast.	Die Ctulufanten drücken unendliche Dankbarkeit aus und geben uns das versprochene Artefakt. Es ist ein Stück Technologie, das von einem abgestürzten intergalaktischen Schiff geborgen wurde. Die neu gewonnene Freiheit der gesamten Ctulufant-Zivilisation wird später mit einem großen Fest gefeiert.	400
@@ -4367,7 +4367,7 @@ text	One of the locals requests a formal audience. She explains that she is from
 choiceText	Donate 100 metals to the anti-tyranny fund	Spenden Sie 100 Metalle an den Anti-Tyrannen-Fonds	100
 choiceText	Donate 100 synthethics to the anti-tyranny fund	Spende an die Anti-Tyrannen-Fonds [-100 Kunststoffe]	100
 text	This is a multispecies refugee colony. Visitor info suggests that an alliance of benevolent advanced civilizations rescued many individuals from various violence-ruled planets, and donated this desert planet as a new home, so that they may live in peace.	Dies ist eine Multispezies-Flüchtlingskolonie. Besucherinformationen deuten darauf hin, dass eine Allianz wohlwollender fortgeschrittener Zivilisationen viele Individuen von verschiedenen, von Gewalt beherrschten Planeten gerettet hat und diesen Wüstenplaneten als neue Heimat gestiftet hat, damit sie in Frieden leben können.	400
-choiceText	Meet the locals [send crew]	Treffen Sie die Einheimischen [Crew schicken]	100
+choiceText	Meet the locals [send crew]	Treffen Sie die Einheimischen [Besatzung schicken]	100
 newName3	refugee colony	Flüchtlingskolonie	25
 text	One of the local refugees, seeing our ship, offers to try to repair some of the damage. He represents a group of freelancer engineers. Their service costs 100 credits per order plus metals, and he cannot give any guarantees.	Einer der einheimischen Flüchtlinge, der unser Schiff sieht, bietet an, zu versuchen, einige der Schäden zu reparieren. Er vertritt eine Gruppe von freiberuflichen Ingenieuren. Ihr Service kostet 100 Kredite pro Auftrag plus Metalle, und er kann keine Garantien geben.	400
 choiceText	Purchase the service [-100 creds, -50 metals]	Kaufen Sie den Service [-100 Kredite, -50 Metalle]	100
@@ -4484,7 +4484,7 @@ text2	"Most respected visitor, I must regrettably inform you that I have run out
 
 3 P 2xExotics balloon or tentacle plants.prefab
 text	We safely passed the superlight warp storm, and we've found truly alien life. These non-carbon plant-like organisms seem to filtrate exotic matter from the atmosphere. A harvesting operation here might yield spectacular results. Harvesting the exotic gases would need a significant recalibration of our harvester technology.	Wir haben den superleichten Warpsturm sicher passiert und haben wirklich außerirdisches Leben gefunden. Diese kohlenstofffreien, pflanzenähnlichen Organismen scheinen exotische Materie aus der Atmosphäre zu filtern. Eine Ernteoperation könnte hier spektakuläre Ergebnisse bringen. Die Ernte der exotischen Gase würde eine erhebliche Rekalibrierung unserer Erntetechnologie erfordern.	400
-choiceText	Research & harvest operation [-80 synthetics, send crew]	Forschungs- und Ernteeinsatz [-80 Kunststoffe, Crew schicken]	100
+choiceText	Research & harvest operation [-80 synthetics, send crew]	Forschungs- und Ernteeinsatz [-80 Kunststoffe, Besatzung schicken]	100
 text2	Our bots take some samples and we move on, leaving this planet completely intact from our "external" influence. The scientific data of this ecosystem is worth a small fortune. The sanity of our crew was protected by the effect of exotics consumed before the operation."	Unsere Bots nehmen einige Proben und wir ziehen weiter, wobei dieser Planet von unserem "äußeren" Einfluss völlig unberührt bleibt. Die wissenschaftlichen Daten dieses Ökosystems sind ein kleines Vermögen wert. Die geistige Gesundheit unserer Besatzung wurde durch die Wirkung der vor der Operation konsumierten Exoten geschützt."	400
 title	Superlight warp storm	Superleichter Warpsturm	35
 text	We are witnessing a rare anomaly only few have ever seen. We could fly through the storm and investigate what might be causing it, as the storm is too weak to harm our ship. However the crew should consume exotics to prevent the warpfield from endangering their minds.	Wir sind Zeuge einer seltenen Anomalie, die nur wenige je gesehen haben. Wir könnten durch den Sturm fliegen und untersuchen, was die Ursache sein könnte, da der Sturm zu schwach ist, um unserem Schiff zu schaden. Die Besatzung sollte jedoch Exoten konsumieren, um zu verhindern, dass das Warpfeld ihren Verstand gefährdet.	400
@@ -4493,7 +4493,7 @@ newName3	superlight warp storm	superleichter Warpsturm	25
 text	extracting exotics...	Exoten extrahieren...	50
 text2	Since the organisms were unconsumable as organics, our harvesters tried to leave them intact and only collect the gas inside.	Da die Organismen als Organik nicht konsumierbar waren, versuchten unsere Erntearbeiter, sie intakt zu lassen und nur das Gas im Inneren zu sammeln.	400
 text	We safely passed the superlight warp storm, and we've found truly alien life. These non-carbon organisms seem to draw exotic matter from the environment and store it in giant, moving tentacles. A research & harvesting mission might yield spectacular results.	Wir haben den superleichten Warpsturm sicher passiert und haben wirklich außerirdisches Leben gefunden. Diese kohlenstofffreien Organismen scheinen exotische Materie aus der Umgebung zu ziehen und sie in riesigen, beweglichen Tentakeln zu speichern. Eine Forschungs- und Erntemission könnte spektakuläre Ergebnisse bringen.	400
-choiceText	Research & harvest operation [-80 metal, send crew]	Forschungs- und Ernteeinsatz [-80 Metalle, Crew schicken]	100
+choiceText	Research & harvest operation [-80 metal, send crew]	Forschungs- und Ernteeinsatz [-80 Metalle, Besatzung schicken]	100
 choiceText	Let's see if we can scrap anything for the necessary resources	Schauen wir mal, ob wir etwas für die notwendigen Ressourcen abbauen können.	100
 text2	The operation yields significant results. We were able to recover & recycle some of the resources spent installing mining equipment.	Die Operation liefert signifikante Ergebnisse. Wir konnten einen Teil der Ressourcen, die für die Installation der Bergbauausrüstung aufgewendet wurden, zurückgewinnen & recyceln.	400
 text	we may scrap modules now to gain needed resources..%	Wir können jetzt Module verschrotten, um benötigte Ressourcen zu gewinnen.	50
@@ -4560,7 +4560,7 @@ text2	Our recordings of the encounter have scientific value.	Unsere Aufzeichnung
 title	Minerals detected	Mineralien entdeckt	35
 text	Further reconnaissance uncovers no dangers. We also detect a good mineral profile in one of the mountains. The planet hosts early life (mostly moss) too insignificant to harvest. Despite everything, the crewmember remains unchanged that he feels this planet is dangerous.	Die weitere Erkundung bringt keine Gefahren zutage. Wir entdecken auch ein gutes Mineralienprofil in einem der Berge. Der Planet beherbergt frühes Leben (hauptsächlich Moos), das zu unbedeutend ist, um es zu ernten. Trotz allem bleibt das Besatzungsmitglied unverändert, dass er diesen Planeten für gefährlich hält.	400
 choiceText	Mine minerals from mountains	Mineralien von Bergen abbauen	100
-title	Mountaintop mining successful	Mountaintop Mining erfolgreich	35
+title	Mountaintop mining successful	Bergbau erfolgreich	35
 text2	No incidents. The mountains held a rich mineral profile, including an exotic crystal. We also researched samples of the local moss. You manage to resist the temptation to tell the crewmember "I told you so"."	Keine Zwischenfälle. Die Berge enthielten ein reiches Mineralienprofil, einschließlich eines exotischen Kristalls. Wir untersuchten auch Proben des örtlichen Mooses. Sie schaffen es, der Versuchung zu widerstehen, dem Besatzungsmitglied zu sagen: "Ich hab's dir ja gesagt."	400
 reasonToDisplay	mining operation completed	Abbaubetrieb abgeschlossen	30
 text	Orbital scans show a young, fragile ecosystem. Low possibility of harvestable organics. One of the crewmembers tells you he's got a bad feeling about this place. Like some kind of surreal fear.	Orbital-Scans zeigen ein junges, fragiles Ökosystem. Geringe Wahrscheinlichkeit von erntbaren organischen Stoffen. Eines der Besatzungsmitglieder sagt Ihnen, dass er ein schlechtes Gefühl bei diesem Ort hat. Wie eine Art surreale Angst.	400
@@ -4611,7 +4611,7 @@ text2	Unexpected seismic acitivity buried our mining equipment and the entire mi
 text2	Our operatives picked fruits, seeds and other plant parts that didn't endanger the life of parent organisms. We were able to collect valuable research data and harvest a significant amount of organics without killing a single individual.	Unsere Arbeiter pflückten Früchte, Samen und andere Pflanzenteile, die das Leben der Mutterorganismen nicht gefährdeten. Wir waren in der Lage, wertvolle Forschungsdaten zu sammeln und eine beträchtliche Menge an organischen Stoffen zu ernten, ohne ein einziges Individuum zu töten.	400
 text	The ecosystem on this planet has developed very similarly to the one on Earth.	Das Ökosystem auf diesem Planeten hat sich sehr ähnlich wie das auf der Erde entwickelt.	400
 choiceText	Research only. This ecosystem is worth preserving.	Nur zu Forschungszwecken. Dieses Ökosystem ist es wert, erhalten zu werden.	100
-choiceText	Eco-harvest & research [send crew]	Öko-Ernte & Forschung [Crew schicken]	100
+choiceText	Eco-harvest & research [send crew]	Öko-Ernte & Forschung [Besatzung schicken]	100
 newName3	earth-like ecosystem	erdähnliches ökosystem	25
 text2	Our bots collected numerous samples of local life resulting in science data. We leave the unique ecosystem of this planet untouched. Would be interesting to see how this alternative Earth develops, in a few million years.	Unsere Bots haben zahlreiche Proben des lokalen Lebens gesammelt, was zu wissenschaftlichen Daten führt. Wir lassen das einzigartige Ökosystem dieses Planeten unangetastet. Es wäre interessant zu sehen, wie sich diese alternative Erde in ein paar Millionen Jahren entwickelt.	400
 
@@ -4669,7 +4669,7 @@ text	Memories of an adventure	Erinnerungen an ein Abenteuer	50
 text	iron dust storms...	Eisenstaubstürme...	50
 title	Landing complete	Landung abgeschlossen	35
 text2	We lost some external equipment on the way down. \nDespite harsh storms in the outer atmosphere, air on the surgace is very calm. The winds have blown iron dust particles into tall, picturesque piles. No signs of life.	Wir haben auf dem Weg nach unten einige externe Geräte verloren. \nTrotz heftiger Stürme in der äußeren Atmosphäre ist die Luft auf der Churgace sehr ruhig. Die Winde haben Eisenstaubpartikel zu hohen, malerischen Haufen verweht. Keine Anzeichen von Leben.	400
-choiceTexts	Surface mining operation [send crew]	Tagebaubetrieb [Crew schicken]	100
+choiceTexts	Surface mining operation [send crew]	Tagebaubetrieb [Besatzung schicken]	100
 title	Exotic minerals mined	Exotische Mineralien abgebaut	35
 text2	The "iron dust" sediments contained trace amounts of exotics. One of the resting crewmembers took time to manually paint a picture of the scenery before it was destroyed."	Die "Eisenstaub"-Sedimente enthielten Spuren von Exoten. Eines der rastenden Besatzungsmitglieder nahm sich die Zeit, ein Bild der Szenerie von Hand zu malen, bevor sie zerstört wurde."	400
 
@@ -4853,9 +4853,9 @@ choiceTexts	Press on with crew	Mit Crew weiterfliegen	100
 text	The surface of this lifeless planet is covered with patches of rubium crystals, valued for their exotic properties.	Die Oberfläche dieses leblosen Planeten ist mit Rubiumkristallen bedeckt, die wegen ihrer exotischen Eigenschaften geschätzt werden.	400
 choiceText	Collect the crystals [send crew]	Sammeln Sie die Kristalle ein.	100
 text2	Mining completed successfully, no accidents reported.	Abbaubetrieb erfolgreich abgeschlossen, keine Unfälle gemeldet.	400
-reasonToDisplay	mining operations completed	Bergbauarbeiten abgeschlossen	30
-text	Surface mining... %	Oberflächenabbau... %	50
-text2	Our operatives and mining bots were attacked by large, indigenous crystalline creatures during the mission. They remained undiscovered until too late. We managed to collect some crystals before the attack.	Unsere Arbeiter und Mining-Bots wurden während der Mission von großen, einheimischen kristallinen Kreaturen angegriffen. Sie blieben unentdeckt, bis es zu spät war. Es gelang uns, einige Kristalle vor dem Angriff zu sammeln.	400
+reasonToDisplay	mining operations completed	Tagebau abgeschlossen	30
+text	Surface mining... %	Tagebau... %	50
+text2	Our operatives and mining bots were attacked by large, indigenous crystalline creatures during the mission. They remained undiscovered until too late. We managed to collect some crystals before the attack.	Unsere Arbeiter und Bergbau-Bots wurden während der Mission von großen, einheimischen kristallinen Kreaturen angegriffen. Sie blieben unentdeckt, bis es zu spät war. Es gelang uns, einige Kristalle vor dem Angriff zu sammeln.	400
 reasonToDisplay	exotics mined, operations aborted	Exoten abgebaut, Einsatz abgebrochen	30
 
 4 P fuel lake Fo.prefab
@@ -4918,7 +4918,7 @@ text2	A large warp worm appeared and ate one of our printed underwater shuttles 
 4 P ordinary sand or psy party T.prefab
 text	Atmospheric survey reveals the entire planet is an endless desert. There are some mineral seams under the polar caps, but it is likely they contain only low-grade metal ore. The crew suggests this would be a good place to have a wild recreational party under the stars.	Die atmosphärische Untersuchung zeigt, dass der gesamte Planet eine endlose Wüste ist. Es gibt einige Mineralienvorkommen unter den Polkappen, aber es ist wahrscheinlich, dass sie nur minderwertiges Metallerz enthalten. Die Crew schlägt vor, dass dies ein guter Ort für eine wilde Freizeitparty unter den Sternen wäre.	400
 choiceText	Prospect the mineral caps [-10 fuel]	Erkundung der Mineralienkappen [-10 Treibstoff]	100
-choiceText	Permission to party [send crew]	Erlaubnis zum Feiern [Crew schicken]	100
+choiceText	Permission to party [send crew]	Erlaubnis zum Feiern [Besatzung schicken]	100
 text	prospecting for metal ore... %	Schürfen nach Metallerzen... %	50
 title	Party successful	Party erfolgreich	35
 text2	The crew enjoyed themselves until the early hours of the morning, experimenting with combinations of various recreational substances. Everybody reported max satisfaction levels the next day.	Die Crew vergnügte sich bis in die frühen Morgenstunden und experimentierte mit Kombinationen aus verschiedenen Erholungsstoffen. Alle berichteten am nächsten Tag von einem maximalen Zufriedenheitsgrad.	400
@@ -5420,7 +5420,7 @@ text2	Shortly after entering the atmosphere, we encountered a swarm of mines tha
 title	Site of interest found	Sehenswürdigkeit gefunden	35
 text	The entire planet is a desolate ball of dirt, except for a giant fossilized tree trunk, along with a few smaller ones. Some kind of exotic moss colony seems to be living on the tree remains. We detect it's emitting trace amounts of warp enegy.	Der gesamte Planet ist ein trostloser Dreckklumpen, bis auf einen riesigen versteinerten Baumstamm und ein paar kleinere Exemplare. Eine Art exotische Mooskolonie scheint auf den Baumresten zu leben. Wir stellen fest, dass sie Spuren von Warp-Energie abgibt.	400
 choiceText	Print bots to harvest the moss for resources & research [-30 synthethics]	Druckt Bots, um das Moos für Ressourcen und Forschung zu ernten [-30 Kunststoffe]	100
-choiceText	Carry out closer analysis on the spot [send crew]	Führen Sie vor Ort eine genauere Analyse durch [Crew schicken]	100
+choiceText	Carry out closer analysis on the spot [send crew]	Führen Sie vor Ort eine genauere Analyse durch [Besatzung schicken]	100
 choiceText	Research only. Leave the moss untouched.	Nur Forschung. Lassen Sie das Moos unangetastet.	100
 text	printing bots... %	Druckroboter... %	50
 text2	Small samples were obtained from around the moss and fossilized tree stumps. We leave the planet otherwise untouched. Our research operation reveals the "moss" is a colony of all-consuming nanobots, best to avoid."	Es wurden kleine Proben aus der Umgebung des Mooses und der versteinerten Baumstümpfe gewonnen. Ansonsten lassen wir den Planeten unangetastet. Unsere Forschungsarbeit zeigt, dass das "Moos" eine Kolonie alles verschlingender Nanobots ist, die man am besten meidet."	400
@@ -5588,7 +5588,7 @@ text	The atmosphere seems to be heavily saturated with what looks like various f
 title	Self-destruct system found	Selbstzerstörungssystem gefunden	35
 text	The platform is degraded beyond recognition, except for the self-destruct system of the building. It features extensive networks of explosives placed deep within walls. We could retrieve the explosives but it would need specialized bots or risking the crew.	Die Plattform ist bis zur Unkenntlichkeit degradiert, mit Ausnahme des Selbstzerstörungssystems des Gebäudes. Es verfügt über umfangreiche Netzwerke von Sprengstoffen, die tief in den Wänden platziert sind. Wir könnten die Sprengsätze bergen, aber dazu bräuchten wir spezielle Bots oder wir riskieren die Crew.	400
 choiceText	Attempt retrieval, print more bots [-40 synthetics]	Versuch der Bergung, mehr Bots drucken [-40 Kunststoffe]	100
-choiceText	Attempt retrieval, ask for volunteers [send crew]	Bergungsversuch, Freiwillige suchen [Crew schicken]	100
+choiceText	Attempt retrieval, ask for volunteers [send crew]	Bergungsversuch, Freiwillige suchen [Besatzung schicken]	100
 text	Nobody volunteers.	Niemand meldet sich freiwillig.	600
 text2	The self-destruct system activated during the operation, annihilating the entire complex along with our bots inside. We salvaged a piece of metal frame that survived the explosion.	Das Selbstzerstörungssystem aktivierte sich während der Operation und vernichtete den gesamten Komplex mitsamt unseren Bots darin. Wir haben ein Stück des Metallrahmens geborgen, das die Explosion überlebt hat.	400
 
@@ -6137,7 +6137,7 @@ text2	It could have been a processing malfunction, a wetware error, or anomalous
 text2	The walking fungi dispersed and tried to protect smaller beings with their bodies when our bots started killing them. The scene was so disturbing due to signs of their advanced behaviour that we aborted the operation halfway-through.	Die wandelnden Pilze zerstreuten sich und versuchten, kleinere Wesen mit ihren Körpern zu schützen, als unsere Bots begannen, sie zu töten. Die Szene war aufgrund der Anzeichen ihres fortgeschrittenen Verhaltens so beunruhigend, dass wir die Operation nach der Hälfte der Zeit abbrachen.	400
 text2	We leave the unique ecosystem of this planet untouched. A few samples we took (no fungi killed) show that the fungi are on their way to developing sentience, as they already have evolved some kind of central neural tissue. Good thing we didn't kill any.	Wir ließen das einzigartige Ökosystem dieses Planeten unangetastet. Ein paar Proben, die wir entnommen haben (es wurden keine Pilze getötet), zeigen, dass die Pilze auf dem Weg sind, Empfindungen zu entwickeln, da sie bereits eine Art zentrales Nervengewebe entwickelt haben. Gut, dass wir keine getötet haben.	400
 text	The local ecosystem is fungus-based. And it seems the fungi have developed legs and are walking around the planet in huge herds. We could capture some and process them to organics, however some crewmembers suggest this might be as unethical as killing any other animals.	Das hiesige Ökosystem ist pilzbasiert. Und es scheint, dass die Pilze Beine entwickelt haben und in riesigen Herden auf dem Planeten herumlaufen. Wir könnten einige einfangen und zu organischen Stoffen verarbeiten, aber einige Crewmitglieder meinen, dass dies genauso unethisch sein könnte wie das Töten anderer Tiere.	400
-choiceText	Hunt the fungi [send bots & crew]	Die Pilze jagen [Bots & Crew schicken]	100
+choiceText	Hunt the fungi [send bots & crew]	Die Pilze jagen [Bots & Besatzung schicken]	100
 choiceText	Leave the fungi, research only.	Lassen Sie die Pilze, nur Forschung.	100
 newName3	Fungal ecosystem	Pilz-Ökosystem	25
 text	hunting fungi... %	Pilze jagen... %	50
@@ -6150,7 +6150,7 @@ text2	This planet lacks any value for us, but two of the crew insist on entering
 reasonToDisplay	recreation complete	Erholung abgeschlossen	30
 text2	Harvesting operations completed. Most of the local species will probably undergo extinction events due to our activities and we might have caused irreversible damage to the ecosystem as a whole.	Die Erntearbeiten sind abgeschlossen. Die meisten der einheimischen Arten werden aufgrund unserer Aktivitäten wahrscheinlich aussterben, und wir haben dem Ökosystem insgesamt möglicherweise irreversible Schäden zugefügt.	400
 text	The ecosystem on this planet seems to be a very young one. The soil does not have many nutrients and supports only moss and small plants in a couple of patches on the planet. We could harvest some organics from here, but there is no way to do it ecologically.	Das Ökosystem auf diesem Planeten scheint ein sehr junges zu sein. Der Boden hat nicht viele Nährstoffe und unterstützt nur Moos und kleine Pflanzen in ein paar Flecken auf dem Planeten. Wir könnten einige organische Stoffe von hier ernten, aber es gibt keine Möglichkeit, dies auf ökologische Weise zu tun.	400
-choiceText	Research & harvest organics [send crew]	Forschung & Ernte organischer Stoffe [Crew schicken]	100
+choiceText	Research & harvest organics [send crew]	Forschung & Ernte organischer Stoffe [Besatzung schicken]	100
 choiceText	Research only. This young ecosystem needs time to develop.	Nur Forschung. Dieses junge Ökosystem braucht Zeit, um sich zu entwickeln.	100
 text2	Scientific samples give us valuable insights into origins of early life. We leave the unique ecosystem of this planet untouched.	Wissenschaftliche Proben geben uns wertvolle Einblicke in die Ursprünge des frühen Lebens. Wir lassen das einzigartige Ökosystem dieses Planeten unangetastet.	400
 text2	Our crew and bots eco-harvested fruits, seeds and eggs, leaving the developed parent organisms themselves intact. Minor amounts of volatiles were found suitable for processing into explosives.	Unsere Crew und Bots haben Früchte, Samen und Eier ökologisch geerntet und die entwickelten Elternorganismen selbst intakt gelassen. Es wurden geringe Mengen an flüchtigen Stoffen gefunden, die sich zur Verarbeitung zu Sprengstoff eignen.	400
@@ -6292,8 +6292,8 @@ name2	(((Synth Recyclersl)))	(((Synth Wiederverwerter)))	25
 Shop.displayName	Synth Recycler Corp.	Synth Wiederverwerter GmbH	35
 
 2456 shop, P KUSTOM Repair, packs.prefab
-name3	||KUstom sHiP RePaiR||	||SPezial sCHiFF ReParatuR||	25
-Shop.displayName	Kustom Repair, organics sub-trade station	Kustom Repair, Organics Sub-Trade Station	35
+name3	||KUstom sHiP RePaiR||	||SPezial sCHiFFs ReParatuR||	25
+Shop.displayName	Kustom Repair, organics sub-trade station	Spezial Reparatur, Organik Unterhändler	35
 text2	The locals went through all the junk found in their yard, dragging the useful parts next to the Mothership. Numerous workers of varied species buzzed around the ship, mostly working manually. After a few days, the repairmen announce they have done all they could.	Die Einheimischen gingen den ganzen Schrott durch, den sie in ihrem Hof fanden, und schleppten die brauchbaren Teile neben das Mutterschiff. Zahlreiche Arbeiter verschiedener Spezies schwirrten um das Schiff herum und arbeiteten meist manuell. Nach ein paar Tagen verkünden die Reparateure, dass sie alles getan haben, was sie konnten.	400
 title	Starship recycler & repair yard	Raumschiff-Wiederverwerter & Reparaturwerft	35
 text	The local business negotiation AI (a rather crude one) states that they cannot offer guarantees for the repair service because of using exclusively recycled materials. The service includes free food. The planet also has a small orbital trading platform selling local resources and paying good price for exotics. Using the trade platform requires a small docking fee.	Die lokale Geschäftsverhandlungs-KI (eine ziemlich krude) erklärt, dass sie keine Garantien für den Reparaturservice geben können, da sie ausschließlich recycelte Materialien verwenden. Der Service beinhaltet kostenloses Essen. Der Planet hat auch eine kleine orbitale Handelsplattform, die lokale Ressourcen verkauft und gute Preise für exotische Waren zahlt. Die Nutzung der Handelsplattform erfordert eine kleine Andockgebühr.	400
@@ -7041,7 +7041,7 @@ text	There's two ships in that fleet, scanning us and jamming our sensors. They 
 choiceText	Attack these predators! [prepare for combat]	Greift diese Raubtiere an! [bereiten Sie sich auf den Kampf vor]	100
 
 Ambusher L2 pirates, sstriker and arrowhead.prefab
-title	Pirate extortionist	erpresserischer pirat	35
+title	Pirate extortionist	Erpresserischer Pirat	35
 text	"MAKE CHOICE. GIVE EXOTICS OR DIE IN COMBAT. WE HAVE POWERFUL NUKES."	"ENTSCHEIDUNG. GEBEN SIE EXOTEN ODER STERBEN SIE IM KAMPF. WIR HABEN MÄCHTIGE ATOMWAFFEN."	400
 choiceText	Negotiate [offer 120 metal instead)	Verhandeln [bieten Sie stattdessen 120 Metalle an]	100
 text	Two ships rapidly approaching tactical weapons range. The first one has a shield, but we cannot get any details about its weapons. The other one is small, unshielded escort craft with a single weapon.	Zwei Schiffe nähern sich schnell der taktischen Waffenreichweite. Das erste hat einen Schild, aber wir können keine Details über seine Waffen herausfinden. Das andere ist ein kleines, ungeschütztes Eskortschiff mit einer einzigen Waffe.	600
@@ -7268,7 +7268,7 @@ text2	"We appreciate your willingness to trade! Please accept this small gift as
 text2	"Thank you for accepting the deal. Please take this small gift as an additional token of our gratitude." The traders have included a case full of cheap recreational consumables in their package."	"Danke, dass Sie das Angebot angenommen haben. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit." Die Händler haben eine Kiste mit billigem Freizeitverbrauchsmaterial in ihr Paket gelegt.	400
 
 Merchants L2 metal trader techum duo.prefab
-title	||The Metals Merchants|| (Techum duo)	||Die Metallhändler (Techum-Duo)	35
+title	||The Metals Merchants|| (Techum duo)	||Die Metallhändler|| (Techum-Duo)	35
 text	"Merry existence to you, fellow consciousness system! Let us trade forms of crystalline matter for mutual profit. Our fleet will be leaving this system after this engagement. It is objectively generous."	"Frohes Dasein für euch, Mitbewusstseins-System! Lasst uns Formen von kristalliner Materie zum gegenseitigen Profit tauschen. Unsere Flotte wird dieses System nach diesem Handel verlassen. Es ist objektiv großzügig."	400
 choiceText	Sell [get 56 credits for 1 exotics]	Verkaufen [+56 Kredite, -1 Exoten]	100
 text2	"Thank you for the exchange. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew called "Rocketfuel". It is meant for cyborgs only and can be actually burned as starfuel."	"Vielen Dank für den Tausch. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu namens "Raketenbenz" geschenkt. Es ist nur für Cyborgs gedacht und kann tatsächlich als Treibstoff verbrannt werden."	400
@@ -7895,7 +7895,7 @@ displayName	gatling projectile	Gatling-Projektil	35
 Highvelocityball.prefab
 
 HighVelShuriken spideraa.prefab
-displayName	shuriken projectile	Shuriken-Geschoss	35
+displayName	shuriken projectile	Wurfstern-Geschoss	35
 
 HighVelShuriken.prefab
 
@@ -7956,7 +7956,7 @@ displayName	b-particle	B-Teilchen	35
 EMPprojectile.prefab
 
 EMPshuriken.prefab
-displayName	EMP shuriken	EMP-Shuriken	35
+displayName	EMP shuriken	EMP-Wurfstern	35
 
 Energyball.prefab
 displayName	Acid projectile	Säure-Projektil	35
@@ -8671,15 +8671,15 @@ description	A very advanced engine with reduced power consumption. Dense structu
 
 garden 1 DIY.prefab
 displayName	DIY microgrowery	DIY-Mikrogärtnerei	40
-description	Growery of bio-engineered lichen. Uses excess heat generated with ship movement, and removes operator organics consumption. Extremely fragile and needs extra power.	Growery von bio-engineered Flechten. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und beseitigt den Organikverbrauch des Bedieners. Äußerst zerbrechlich und benötigt zusätzliche Energie.	200
+description	Growery of bio-engineered lichen. Uses excess heat generated with ship movement, and removes operator organics consumption. Extremely fragile and needs extra power.	Biotechnologische Flechten-Gärtnerei. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und beseitigt den Organikverbrauch des Bedieners. Äußerst zerbrechlich und benötigt zusätzliche Energie.	200
 
 garden 2 minigrow.prefab
 displayName	Minigrowery	Minigärtnerei	40
-description	Growery of bio-engineered plants. Uses excess heat generated with ship movement, and removes operator organics consumption.	Gärtnerei für biotechnisch hergestellte Pflanzen. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und entfernt den Organikverbrauch des Bedieners.	200
+description	Growery of bio-engineered plants. Uses excess heat generated with ship movement, and removes operator organics consumption.	Biotechnologische Pflanzen-Gärtnerei. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und entfernt den Organikverbrauch des Bedieners.	200
 
 garden 3 shroomery.prefab
 displayName	Shroomery	Pilzplantage	40
-description	Growery of bio-engineered mushrooms. Uses excess heat generated with ship movement, and removes operator organics consumption.	Gärtnerei für biotechnisch hergestellte Pilze. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und beseitigt den Organikverbrauch des Bedieners.	200
+description	Growery of bio-engineered mushrooms. Uses excess heat generated with ship movement, and removes operator organics consumption.	Biotechnologische Pilz-Gärtnerei. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und beseitigt den Organikverbrauch des Bedieners.	200
 
 garden 4 greenhouse.prefab
 displayName	Accelerated greenhouse, type A	Beschleunigtes Gewächshaus, Typ A	40
@@ -9495,12 +9495,12 @@ displayName	Terran quad sniper minicannon	Terranische Vierfach-Scharfschützen-M
 description	Precision microcannon with four barrels for increased armor pentration chance. Projectiles have 3hp each.	Präzisions-Mikrokanone mit vier Läufen für eine erhöhte Panzerungsdurchdringungschance. Projektile haben jeweils 3 HP.	200
 
 weapon sniper cannon EMP.prefab
-displayName	EMP shuriken sniper	EMP-Shuriken-Scharfschütze	40
+displayName	EMP shuriken sniper	EMP-Wurfstern-Scharfschütze	40
 description	EMP projectile sniper cannon. Damages & overloads modules, may start fires & harm crew, harmless against ship hull. Never deflects. Projectiles have 2hp each.	EMP-Projektil-Scharfschützenkanone. Beschädigt und überlastet Module, kann Brände auslösen und die Besatzung verletzen, harmlos gegen die Schiffshülle. Lenkt nie ab. Projektile haben je 2 HP.	200
 
 weapon mininglaser 0 defective.prefab
 displayName	Mining laser I (degraded)	Minenlaser I (degradiert)	40
-description	Half-broken mining laser that used to have 3 barrels. Low accuracy when compared to military beam weapons.	Halbzerstörter Minenlaser, der früher 3 Fässer hatte. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200
+description	Half-broken mining laser that used to have 3 barrels. Low accuracy when compared to military beam weapons.	Halbzerstörter Minenlaser, der früher 3 Läufe hatte. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200
 
 weapon mininglaser 0 old.prefab
 description	Small mining laser. Low accuracy when compared to military beam weapons.	Kleiner Minenlaser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200
@@ -9517,7 +9517,7 @@ description	Double mining laser. Low accuracy when compared to military beam wea
 
 weapon mininglaser 3 defective.prefab
 displayName	Mining laser III (degraded)	Bergbaulaser III (degradiert)	40
-description	Half-broken mining laser that used to have 4 barrels. Low accuracy when compared to military beam weapons.	Halbzerstörter Mining-Laser, der früher 4 Fässer hatte. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200
+description	Half-broken mining laser that used to have 4 barrels. Low accuracy when compared to military beam weapons.	Halbzerstörter Bergbaulaser, der früher 4 Läufe hatte. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200
 
 weapon mininglaser 3.prefab
 displayName	Mining laser III	Bergbau-Laser III	40
@@ -9525,7 +9525,7 @@ description	Triple mining laser. Low accuracy when compared to military beam wea
 
 weapon mininglaser 4 defective.prefab
 displayName	Mining laser IV (degraded)	Bergbaulaser IV (degradiert)	40
-description	Half-broken mining laser that used to have 6 barrels. Low accuracy when compared to military beam weapons.	Halbzerstörter Mining-Laser, der früher 6 Fässer hatte. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200
+description	Half-broken mining laser that used to have 6 barrels. Low accuracy when compared to military beam weapons.	Halbzerstörter Bergbaulaser, der früher 6 Läufe hatte. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200
 
 weapon mininglaser 4.prefab
 displayName	Mining laser IV	Bergbau-Laser IV	40
@@ -9870,8 +9870,8 @@ displayName	Spideraa shield disruptor	Spinner-Schildbrecher	40
 description	A biotech platform for projecting powerful EMP rays. Disrupts shields or overloads unshielded modules. Minimal damage against ship hull.	Eine Biotech-Plattform zum Abfeuern starker EMP-Strahlen. Unterbricht Schilde oder überlastet nicht abgeschirmte Module. Minimaler Schaden gegen die Schiffshülle.	200
 
 weapon Spideraa shuriken.prefab
-displayName	Nanoshuriken sniper	Nanoshuriken-Scharfschütze	40
-description	Shoots nano-thin shurikens that damage only enemy crew. Perfect for sniping enemy captains. Launched projectiles have 1hp each.	Schießt nano-dünne Shuriken ab, die nur die gegnerische Besatzung beschädigen. Perfekt zum Scharfschießen auf feindliche Kapitäne. Abgeschossene Projektile haben jeweils 1 HP.	200
+displayName	Nanoshuriken sniper	Nanowurfstern-Scharfschütze	40
+description	Shoots nano-thin shurikens that damage only enemy crew. Perfect for sniping enemy captains. Launched projectiles have 1hp each.	Schießt nano-dünne Wurfsterne ab, die nur die gegnerische Besatzung beschädigen. Perfekt zum Scharfschießen auf feindliche Kapitäne. Abgeschossene Projektile haben jeweils 1 HP.	200
 
 bossweapon insectoid ship.prefab
 displayName	Huge energy weapon	Riesige Energiewaffe	40
@@ -10793,8 +10793,8 @@ randomizerMenuStrings[i]	+1 pet	+1 Haustier	30
 
 Perk Replace 5x mininglasers with6x, for Gardenship.prefab
 displayName	Mining lasers upgrade V>VI	Bergbaulaser-Upgrade V>VI	40
-description	Upgraded lasers have six barrels instead of five.	Aufgerüstete Laser haben sechs statt fünf Fässer.	250
-randomizerMenuStrings[i]	Increases damage & power consumption of mining lasers	Erhöht Schaden und Stromverbrauch der Mining-Laser	30
+description	Upgraded lasers have six barrels instead of five.	Aufgerüstete Laser haben sechs statt fünf Läufe.	250
+randomizerMenuStrings[i]	Increases damage & power consumption of mining lasers	Erhöht Schaden und Stromverbrauch der Bergbaulaser	30
 
 Perk Replace ATK old with ATK new for Endurance.prefab
 displayName	Cannon deep cleaning x2	Kanonen-Tiefenreinigung x2	40
@@ -10830,8 +10830,8 @@ randomizerMenuStrings[i]	-60 credits	-60 Kredite	30
 
 Perk Replace dual mininglasers with triple, for Bluestar.prefab
 displayName	Mining lasers upgrade II>III	Aufrüstung von Bergbaulasern II>III	40
-description	Upgraded lasers have three barrels instead of two. New lasers need more power.	Aufgerüstete Laser haben drei statt zwei Fässer. Neue Laser benötigen mehr Energie.	250
-randomizerMenuStrings[i]	Improved damage and power consumption for mining lasers	Verbesserter Schaden und Stromverbrauch für Mining-Laser	30
+description	Upgraded lasers have three barrels instead of two. New lasers need more power.	Aufgerüstete Laser haben drei statt zwei Läufen. Neue Laser benötigen mehr Energie.	250
+randomizerMenuStrings[i]	Improved damage and power consumption for mining lasers	Verbesserter Schaden und Stromverbrauch für Bergbaulaser	30
 
 Perk Replace ECM of warpshell.prefab
 displayName	ECM turret upgrade x2	EGM-Geschützturm-Aufrüstung x2	40
