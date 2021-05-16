@@ -10830,7 +10830,7 @@ randomizerMenuStrings[i]	-60 credits	-60 Kredite	30
 
 Perk Replace dual mininglasers with triple, for Bluestar.prefab
 displayName	Mining lasers upgrade II>III	Aufrüstung von Bergbaulasern II>III	40
-description	Upgraded lasers have three barrels instead of two. New lasers need more power.	Aufgerüstete Laser haben drei statt zwei Läufen. Neue Laser benötigen mehr Energie.	250
+description	Upgraded lasers have three barrels instead of two. New lasers need more power.	Aufgerüstete Laser haben drei statt zwei Läufe. Die neuen Laser benötigen mehr Energie.	250
 randomizerMenuStrings[i]	Improved damage and power consumption for mining lasers	Verbesserter Schaden und Stromverbrauch für Bergbaulaser	30
 
 Perk Replace ECM of warpshell.prefab
