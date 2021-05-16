@@ -118,7 +118,7 @@ HoverableUISlotUpgrades.cs
 	Module slots that can be gained by upgrading existing slots:	Modulsteckplätze, die durch Aufrüstung vorhandener Steckplätze gewonnen werden können:	0
 
 HoverPanel.cs
-	DAMAGE	DAMAGE	0
+	DAMAGE	SCHADEN	0
 	Ignores shield	Ignoriert Schild	0
 	Ship	Schiff	0
 	Module	Modul	0
@@ -1288,8 +1288,8 @@ Left-mouse-button select, right-mouse-button commands	LMB select, RMB commands, 
 	When this key is held down while selecting crew, that crew will be removed from existing selection	Wenn diese Taste gedrückt gehalten wird, während eine Besatzung ausgewählt wird, wird diese Besatzung aus der bestehenden Auswahl entfernt	0
 	Remove modif.	Modifikator entfernen.	15
 	Weapon Quick Select:	Waffe Schnellauswahl:	0
-	Weapon in slot 1 quickselect.	Waffe in Steckplatz 1 Schnellauswahl.	0
-	Weapon in slot 2 quickselect.	Waffe in Steckplatz 2 Schnellauswahl.	0
+	Weapon in slot 1 quickselect.	Waffe in Steckplatz 1 Schnellwahl.	0
+	Weapon in slot 2 quickselect.	Waffe in Steckplatz 2 Schnellwahl.	0
 	Weapon in slot 3 quickselect.	Waffe in Steckplatz 3 Schnellwahl.	0
 	Weapon in slot 4 quickselect.	Waffe in Steckplatz 4 Schnellwahl.	0
 	Weapon in slot 5 quickselect.	Waffe in Steckplatz 5 Schnellwahl.	0
@@ -1299,8 +1299,8 @@ Left-mouse-button select, right-mouse-button commands	LMB select, RMB commands, 
 	Weapon in slot 9 quickselect.	Waffe in Steckplatz 9 Schnellwahl.	0
 	Weapon in slot 10 quickselect.	Waffe in Steckplatz 10 Schnellwahl.	0
 	Weapon in slot 11 quickselect.	Waffe in Steckplatz 11 Schnellwahl.	0
-	Weapon in slot 12 quickselect.	Waffe in Steckplatz 12 quickselect.	0
-	Weapon in slot 13 quickselect.	Waffe in Steckplatz 13 quickselect.	0
+	Weapon in slot 12 quickselect.	Waffe in Steckplatz 12 Schnellwahl.	0
+	Weapon in slot 13 quickselect.	Waffe in Steckplatz 13 Schnellwahl.	0
 	Weapon in slot 14 quickselect.	Waffe in Steckplatz 14 Schnellwahl.	0
 	Weapon in slot 15 quickselect.	Waffe in Steckplatz 15 Schnellwahl.	0
 	Weapon in slot 16 quickselect.	Waffe in Steckplatz 16 Schnellwahl.	0
@@ -2205,7 +2205,7 @@ text2	Operation completed without incident. The remaining fuel elements are too 
 text	we may scrap modules to gain needed resources..%	Wir können Module verschrotten, um benötigte Ressourcen zu gewinnen.	50
 text	Accessible fuel elements detected in the outer atmosphere. Atmospheric risks within acceptable range.	Zugängliche Brennelemente in der äußeren Atmosphäre entdeckt. Atmosphärische Risiken im akzeptablen Bereich.	400
 choiceText	Harvest fuel with ship	Treibstoff mit Schiff ernten	100
-choiceText	Disengage	Ausklinken	100
+choiceText	Disengage	Rückzug	100
 text	harvesting...	Ernten...	50
 choiceText	Print temporary harvester bots [-75 synthetics]	Drucken Sie temporäre Ernte-Bots [-75 Kunststoffe]	100
 text2	A violent thunderstorm caught us by surprise, damaging external equipment.	Ein heftiges Gewitter überraschte uns und beschädigte die externe Ausrüstung.	400
