@@ -26,7 +26,7 @@
 :mozillaPluralRuleNumber 1
 
 # Columns:
-# context/comment	key	Taste	maxlen	(only the translation col should be edited)
+# context/comment	key	translation	maxlen	(only the translation col should be edited)
 
 AnimatedLoadingText.cs
 	Loading {0}	Loading {0}	0
@@ -296,7 +296,7 @@ SkillEffects.cs
 	Science skill gives credits bonus for researching planets, warplife, etc	Forschungsfertigkeit gibt Kredit-Bonus für die Erforschung von Planeten, Warp-Leben, etc.	0
 	Science skill allows operating research modules	Forschungsfertigkeit erlaubt den Betrieb von Forschungsmodulen	0
 	+{0} credits per research operation in events	+{0} Kredite pro Forschungsoperation bei Veranstaltungen	0
-	+{0} credits production in research module	'+{0} Kredit-Produktion im Forschungsmodul	0
+	+{0} credits production in research module	+{0} Kredit-Produktion im Forschungsmodul	0
 	Warp skill allows operating warp modules	Warp-Fertigkeit erlaubt den Betrieb von Warp-Modulen	0
 	-{0} reload time	-{0} Nachladezeit	0
 
@@ -1494,7 +1494,7 @@ Button. Abbreviation for "operate", operate/activate module"	STOP	STOPP	6
 Button. Other wording for "defreeze/melt", defreezes all crewmembers in cryosleep module."	DECRYO	AUFTAUEN	6
 	CONVERT	UMWANDELN	6
 	Overcharge	Überladen	0
-Button. Can be 2 words, word no longer than 6 letters. Weapon module overcharge	OVER\nCHARGE	ÜBERLADEN	16
+Button. Can be 2 words, word no longer than 6 letters. Weapon module overcharge	OVER\nCHARGE	ÜBER-\nLADEN	16
 	Toggle module ON/OFF	Modul EIN/AUS schalten	0
 
 Module data subpanel.prefab
@@ -5997,7 +5997,7 @@ text2	Scavenging operation completed. Somehow, a particularly insidious nanobot 
 text	It is a carcass of a fuel tanker, looted to the bones... most likely work of pirates. Clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take a while.	Es handelt sich um den Kadaver eines bis auf die Knochen ausgeplünderten Treibstofftransporters ... höchstwahrscheinlich das Werk von Piraten. In der Nähe wurden treibende Treibstoffwolken entdeckt. Der ausgelaufene Treibstoff ist brauchbar, aber es könnte eine Weile dauern, ihn zu sammeln.	400
 text2	Our salvage teams have scooped up most of the fuel floating nearby.	Unsere Bergungsteams haben den Großteil des Treibstoffs aufgesammelt, der in der Nähe schwimmt.	400
 text	Collecting fuel...	Treibstoff einsammeln...	50
-text	'It is a carcass of some kind of fuel tanker, looted to the bones... most likely the work of pirates. Clouds of starfuel have been detected floating nearby.	Es ist der Kadaver eines Treibstofftransporters, bis auf die Knochen ausgeplündert... wahrscheinlich das Werk von Piraten. Wolken von Sternentreibstoff wurden in der Nähe treibend entdeckt.	400
+text	It is a carcass of some kind of fuel tanker, looted to the bones... most likely the work of pirates. Clouds of starfuel have been detected floating nearby.	Es ist der Kadaver eines Treibstofftransporters, bis auf die Knochen ausgeplündert... wahrscheinlich das Werk von Piraten. Wolken von Sternentreibstoff wurden in der Nähe treibend entdeckt.	400
 text2	Your salvage teams have scooped up most of the fuel floating nearby. They also salvaged some pieces from the carcass.	Ihre Bergungsteams haben das meiste des Treibstoffs aufgesammelt, der in der Nähe schwimmt. Sie haben auch einige Teile des Kadavers geborgen.	400
 text2	It's a ship frame, and little else.	Es ist ein Schiffsrahmen, und sonst wenig.	400
 text2	This carcass of a ship had barely anything left for scavenging,	Von diesem Kadaver eines Schiffes war kaum noch etwas zu bergen,	400
@@ -7398,7 +7398,7 @@ title	Antique data core	Antiker Datenkern	35
 text2	The data credits are delivered to us in a barely functioning antique data core. Closer inspection reveals that a small part of the xenodata is corrupted. The trade remains profitable.	Die Datenkredite wird uns in einem kaum noch funktionierenden antiken Datenkern geliefert. Bei näherer Betrachtung stellt sich heraus, dass ein kleiner Teil der Xenodaten korrumpiert ist. Der Handel bleibt profitabel.	400
 text2	"I've obtained metaphoric information from shady contacts, hinting that this sector is off the target-lists for pirates due to a low profit outlook. Expect the sector to be safe from roaming pirates (except those attracted by the SOS signal)."	"Ich habe von zwielichtigen Kontakten Informationen erhalten, die andeuten, dass dieser Sektor aufgrund der geringen Gewinnaussichten nicht mehr auf der Zielliste von Piraten steht. Erwarten Sie, dass der Sektor sicher vor umherstreifenden Piraten ist (außer denen, die durch das SOS-Signal angelockt werden)."	400
 reasonToDisplay	information bought	Gekaufte Informationen	30
-text2	'"Here are the unofficial price standards to expect when selling exotics, in case you don't know this yet."\n58 credits per unit - the best selling price for unofficial deals that I've seen with my own eyes\n30 credits per unit - average selling price, standard in stations\n26 credits per unit - if the price offered is lower than this, you are getting ripped off"	Hier sind die inoffiziellen Preisstandards, die Sie beim Verkauf von Exoten erwarten können, falls Sie das noch nicht wissen.\n58 Kredite pro Einheit - der beste Verkaufspreis für inoffizielle Deals, den ich mit eigenen Augen gesehen habe\n30 Kredite pro Einheit - durchschnittlicher Verkaufspreis, Standard in Stationen\n26 Kredite pro Einheit - wenn der angebotene Preis niedriger ist, werden Sie abgezockt"	400
+text2	"Here are the unofficial price standards to expect when selling exotics, in case you don't know this yet."\n58 credits per unit - the best selling price for unofficial deals that I've seen with my own eyes\n30 credits per unit - average selling price, standard in stations\n26 credits per unit - if the price offered is lower than this, you are getting ripped off"	Hier sind die inoffiziellen Preisstandards, die Sie beim Verkauf von Exoten erwarten können, falls Sie das noch nicht wissen.\n58 Kredite pro Einheit - der beste Verkaufspreis für inoffizielle Deals, den ich mit eigenen Augen gesehen habe\n30 Kredite pro Einheit - durchschnittlicher Verkaufspreis, Standard in Stationen\n26 Kredite pro Einheit - wenn der angebotene Preis niedriger ist, werden Sie abgezockt"	400
 text	A large ship is approaching, with two cargo ships following in the distance. The big one seems to be armed with multiple projectile weapons and nukes.	Ein großes Schiff nähert sich, in der Ferne folgen zwei Frachtschiffe. Das große scheint mit mehreren Projektilwaffen und Bomben bewaffnet zu sein.	600
 
 Smuggler L4 explo smuggler grippy.prefab
@@ -8833,7 +8833,7 @@ displayName	DIY point-defence	DIY-Punktabwehr	40
 description	Intercepts asteroids, incoming missiles, slower projectiles and approaching boarders. Short range, cannot shoot at enemy ships.	Fängt Asteroiden, ankommende Raketen, langsamere Geschosse und herannahende Enterer ab. Kurze Reichweite, kann nicht auf feindliche Schiffe schießen.	200
 
 1 Rat PD.prefab
-displayName	'Rat point-defence [ancient]	Ratten-Punktabwehr [uralt]	40
+displayName	Rat point-defence [ancient]	Ratten-Punktabwehr [uralt]	40
 
 10 laser PD.prefab
 displayName	Heavy energy point-defence	Schwere Energie-Punktabwehr	40
