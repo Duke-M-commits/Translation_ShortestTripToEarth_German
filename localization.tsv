@@ -570,7 +570,7 @@ WeaponModule.cs
 	weapon	Waffe	0
 
 Crew status visualizers.prefab
-	Crew has unused skillpoints!	Besatzung hat ungenutzte Skillpoints!	0
+	Crew has unused skillpoints!	Besatzung hat ungenutzte Fertigkeitspunkte!	0
 
 Damage token status visualizers.prefab
 	LEAK	LECK	10
@@ -631,7 +631,7 @@ okButtonText	We're trying!	Wir versuchen es!	7
 text	My current HP has reached 0. Any further damage will <color=red>permanenly reduce my max HP value</color>, until my destruction at 0 max HP. Repairs or emergency measures such as modules that improve HP are highly recommended. It's been a pleasure, captain.	Meine aktuellen HP haben 0 erreicht. Jeder weitere Schaden wird <color=red>permanent meinen maximalen HP-Wert</color> reduzieren, bis zu meiner Zerstörung bei 0 maximalen HP. Reparaturen oder Notmaßnahmen wie Module, die die HP verbessern, werden dringend empfohlen. Es war mir ein Vergnügen, Kapitän.	600
 altText	You were hit by an asteroid! Want to see how to avoid it in the future?	Sie wurden von einem Asteroiden getroffen! Möchten Sie sehen, wie Sie das in Zukunft vermeiden können?	240
 altText	You can minimize various panels by pressing the red little minimize button on the right upper corner. If you have small screen then this is highly recommended.	Sie können verschiedene Fenster minimieren, indem Sie die kleine Minimieren-Schaltfläche in der rechten oberen Ecke drücken. Falls Sie einen kleinen Bildschirm haben, ist dies sehr empfehlenswert.	240
-altText	You crew has levelled up. Would you like me to give them each a skillpoint according to their current role or do this manually?	Ihre Besatzung hat sich hochgelevelt. Möchten Sie, dass ich jedem einen Skillpoint entsprechend seiner aktuellen Rolle gebe oder dies manuell mache?	240
+altText	You crew has levelled up. Would you like me to give them each a skillpoint according to their current role or do this manually?	Ihre Besatzung hat sich hochgelevelt. Möchten Sie, dass ich jedem einen Fertigkeitspunkt entsprechend seiner aktuellen Rolle gebe oder dies manuell mache?	240
 choiceTexts	Manual level-ups	Manuelle Level-Ups	15
 choiceTexts	Level-ups by AI	Level-Ups durch KI	15
 altText	To increase crew survival chance against intruders, position your crew to shoot from behind corners.	Um die Überlebenschance der Besatzung gegen Eindringlinge zu erhöhen, positionieren Sie Ihre Besatzung so, dass sie von hinter Ecken schießt.	240
