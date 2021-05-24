@@ -2688,7 +2688,7 @@ text2	You opt for caution and leave the flock of anomalies without further inter
 title	Fractal patterns of intense references	Fraktale Muster von intensiven Bezügen	35
 text2	The lights seem to get super excited and engulf our ship, filling our sensors with ecstatic fractal patterns. \nEach crewmember sees the semi-geometric patterns as references to something deep within their own consciousness. Some of the crew close their eyes to shield themselves from the intensity of their own interpretations. We record everything as valuable scientific data. \nLater reviewing of the recorded patterns seem to completely lack the psychedelic effect they had during the encounter.	Die Lichter scheinen super aufgeregt zu sein und verschlingen unser Schiff, wobei sie unsere Sensoren mit ekstatischen fraktalen Mustern füllen. \nJedes Besatzungsmitglied sieht die halbgeometrischen Muster als Verweise auf etwas tief im eigenen Bewusstsein. Einige der Besatzungsmitglieder schließen die Augen, um sich vor der Intensität ihrer eigenen Interpretationen abzuschirmen. Wir zeichnen alles als wertvolle wissenschaftliche Daten auf. \nDie spätere Überprüfung der aufgezeichneten Muster scheint die psychedelische Wirkung, die sie während der Begegnung hatten, völlig zu verfehlen.	400
 title	Conscious warp lights	Bewusste Warp-Lichter	35
-text	The lights start to dance closer to us, until they are almost whirling around the ship. They transmit some kind of static into our receivers, which our AI translates into the single word "PLAY".	Die Lichter beginnen, näher an uns heranzutanzen, bis sie fast um das Schiff herumwirbeln. Sie senden eine Art Rauschen in unsere Empfänger, das unsere KI in das einzelne Wort "PLAY" übersetzt.	400
+text	The lights start to dance closer to us, until they are almost whirling around the ship. They transmit some kind of static into our receivers, which our AI translates into the single word "PLAY".	Die Lichter beginnen, näher an uns heranzutanzen, bis sie fast um das Schiff herumwirbeln. Sie senden eine Art Rauschen in unsere Empfänger, das unsere KI in das einzelne Wort "SPIEL" übersetzt.	400
 choiceText	Blink colorful lights	Bunte Lichter blinken	100
 text	The lights start to dance closer to us, until they are almost whirling around the ship. They transmit some kind of static into our receivers, which our AI translates into the single word "SEX".	Die Lichter fangen an, näher an uns heranzutanzen, bis sie fast um das Schiff herumschwirren. Sie senden eine Art Rauschen in unsere Empfänger, das unsere KI in das einzelne Wort "SEX" übersetzt.	400
 text2	The lights seem to get super excited and engulf our ship, filling our sensors with ecstatic fractal images. We record everything as scientific data. The images seem to have minor life-changing properties on the crew, as they later report a deepened understanding of self.	Die Lichter scheinen super aufgeregt zu sein und verschlingen unser Schiff, füllen unsere Sensoren mit ekstatischen fraktalen Bildern. Wir zeichnen alles als wissenschaftliche Daten auf. Die Bilder scheinen kleine lebensverändernde Eigenschaften auf die Besatzung zu haben, denn sie berichten später von einem vertieften Selbstverständnis.	400
@@ -2771,8 +2771,8 @@ text2	After printing some universal carbon tissue repair nanobots, we send bots 
 reasonToDisplay	medical aid to warplife	medizinische hilfe für warp-tier	30
 text	Following the warp animal... %	Wir folgen dem Warptier... %	50
 text	The animal has led us to a nearby gas cloud, hididng a severly injured warp whale. We could help the animals... or kill them. The choice is yours. The whale is so huge that printing adequate amounts of medicine or nanoscopic regenbots could take a lot of resources.	Das Tier hat uns zu einer nahegelegenen Gaswolke geführt, in der sich ein schwer verletzter Warp-Wal versteckt. Wir könnten den Tieren helfen ... oder sie töten. Sie haben die Wahl. Der Wal ist so riesig, dass das Drucken ausreichender Mengen an Medizin oder nanoskopischen Regenerationsrobotern viele Ressourcen in Anspruch nehmen könnte.	400
-choiceText	Print basic medicine to help the whale [-organics, -synthetics]	Drucken Sie grundlegende Medizin, um dem Wal zu helfen [-organisch, -synthetisch]	100
-choiceText	Print the best medicine to help the whale [-organics, -exotics]	Drucke die beste Medizin, um dem Wal zu helfen [-organisch, -exotisch]	100
+choiceText	Print basic medicine to help the whale [-organics, -synthetics]	Drucken Sie grundlegende Medizin, um dem Wal zu helfen [- Organik, - Kunststoffe]	100
+choiceText	Print the best medicine to help the whale [-organics, -exotics]	Drucke die beste Medizin, um dem Wal zu helfen [- Organik, - Exoten]	100
 choiceText	Attack to kill	Angreifen, um zu töten	100
 text2	Our ship's basic life support synthesizers print a load of relatively cheap regen paste which should stabilize the animal. The bots that apply it also collect some samples of dead tissue for scientific research. The whale's condition stabilizes, and it sends a telepathic vibe of pure gratitude. We leave, feeling warm inside.	Die Basis-Lebenserhaltungs-Synthesizer unseres Schiffes drucken eine Ladung relativ billiger Regenerationspaste, die das Tier stabilisieren sollte. Die Bots, die sie auftragen, sammeln auch einige Proben des toten Gewebes für die wissenschaftliche Forschung. Der Zustand des Wals stabilisiert sich, und er sendet ein telepathisches Signal der reinen Dankbarkeit. Wir gehen mit einem warmen Gefühl im Bauch.	400
 text	xenomedical operation...	Eine xenomedizinische Operation...	50
@@ -2897,7 +2897,7 @@ text2	After consuming the resources, the anomaly shuts up. It slowly changes int
 displayName	Warp life swarm	Warp-Lebensschwarm	25
 text	A large swarm of predatory warp animals have exited from warpholes around us. Their movements betray an offensive pattern. We are being hunted! They are so numerous that we must disengage!	Ein großer Schwarm räuberischer Warptiere ist aus den Warplöchern um uns herum ausgetreten. Ihre Bewegungen verraten ein offensives Muster. Wir werden gejagt! Sie sind so zahlreich, dass wir uns zurückziehen müssen!	400
 choiceText	Emergency short-distance warp escape! [-10 fuel]	Warp-Notausstieg auf kurze Distanz! (-10 Treibstoff)	100
-choiceText	Attempt conventional escape [-fuel]	Versuch einer konventionellen Flucht [-treibstoff]	100
+choiceText	Attempt conventional escape [-fuel]	Versuch einer konventionellen Flucht [- Treibstoff]	100
 text	Starting warpdrives... %	Starte Warpantrieb... %.	50
 title	Incoming attacks!	Eingehende Angriffe!	35
 text2	The swarm keeps zapping us with some kind of destructive warp energies that go right through our shields!	Der Schwarm beschießt uns ständig mit einer Art zerstörerischer Warpenergie, die unsere Schilde durchdringt!	400
@@ -3274,11 +3274,11 @@ text	trap triggered!	falle ausgelöst!	50
 text	Ruins of advanced urban landscapes can be seen from orbit. It looks like a warzone between some of the elder species. No signs of life detected. Immense size gives the planet a high-gravity field.	Aus dem Orbit sind Ruinen von hochentwickelten Stadtlandschaften zu sehen. Es sieht aus wie ein Kriegsgebiet zwischen einigen der älteren Spezies. Keine Anzeichen von Leben entdeckt. Durch die enorme Größe hat der Planet ein hohes Schwerefeld.	400
 choiceText	Explore [-15 fuel]	Erforschen [-15 Treibstoff]	100
 newName3	advanced civilization ruins	Ruinen einer fortgeschrittenen Zivilisation	25
-text2	The urban ruins were full of mines, automated defence turrets and partially active warbots. Fortunately, we had no casualties and our operatives hauled back two pieces of technology. Further exploration was deemed too dangerous and we've decided to move on.	Die städtischen Ruinen waren voller Minen, automatischer Verteidigungstürme und teilweise aktiver Warbots. Glücklicherweise gab es keine Verluste und unsere Agenten konnten zwei Stück Technologie mitnehmen. Eine weitere Erkundung wurde als zu gefährlich erachtet und wir haben beschlossen, weiterzuziehen.	400
+text2	The urban ruins were full of mines, automated defence turrets and partially active warbots. Fortunately, we had no casualties and our operatives hauled back two pieces of technology. Further exploration was deemed too dangerous and we've decided to move on.	Die städtischen Ruinen waren voller Minen, automatischer Verteidigungstürme und teilweise aktiver Kampfroboter. Glücklicherweise gab es keine Verluste und unsere Agenten konnten zwei Stück Technologie mitnehmen. Eine weitere Erkundung wurde als zu gefährlich erachtet und wir haben beschlossen, weiterzuziehen.	400
 reasonToDisplay	technology found	Technologie gefunden	30
 text	Exploring... %	Erkundung... %	50
-title	Ancient Warbots	Antike Warbots	35
-text2	Our scavengers were ambushed by advanced war bots hiding in the ruins. We decided to leave this planet after recovering the surviving operatives and what little they gathered.	Unsere Plünderer gerieten in einen Hinterhalt von fortschrittlichen Warbots, die sich in den Ruinen versteckten. Wir beschlossen, den Planeten zu verlassen, nachdem wir die überlebenden Agenten und das Wenige, was sie gesammelt hatten, geborgen hatten.	400
+title	Ancient Warbots	Antike Kampfroboter	35
+text2	Our scavengers were ambushed by advanced war bots hiding in the ruins. We decided to leave this planet after recovering the surviving operatives and what little they gathered.	Unsere Plünderer gerieten in einen Hinterhalt von fortschrittlichen Kampfrobotern, die sich in den Ruinen versteckten. Wir beschlossen, den Planeten zu verlassen, nachdem wir die überlebenden Agenten und das Wenige, was sie gesammelt hatten, geborgen hatten.	400
 reasonToDisplay	operation aborted	operation abgebrochen	30
 text	Broken habitation domes dot the landscape. Signs of thermonuclear and heavy energy warfare are visible everywhere. This place could be full of hazardous conflict remains. Unknown urban technology patterns require the presence of crew for a successful salvage mission.	Zerstörte Wohnkuppeln übersäen die Landschaft. Überall sind Anzeichen von thermonuklearer und Schwerenergie-Kriegsführung zu sehen. Dieser Ort könnte voll von gefährlichen Konfliktresten sein. Unbekannte urbane Technologiemuster erfordern die Anwesenheit einer Besatzung für eine erfolgreiche Bergungsmission.	400
 choiceText	Explore & scavenge [send crew, -5 fuel]	Erkunden & plündern [Besatzung schicken, -5 Treibstoff]	100
@@ -4063,14 +4063,14 @@ text	During the operation, one of our intersystem exploration bots discovered th
 text2	The structure is an element of a gigantic ship. Seems it broke and was discarded on the moon's surface.	Die Struktur ist ein Element eines gigantischen Schiffes. Anscheinend ist es zerbrochen und wurde auf der Oberfläche des Mondes entsorgt.	400
 reasonToDisplay	Salvage operation completed	Bergungsaktion abgeschlossen	30
 text	This chemically active moon is home to a form of crystalline life that slowly grows into geometrcially shaped city-like colonies. They live so slowly that they were thought to be just sediments and not "real" lifeforms in the past. We could easily take some with us to be used as explosives... although they probably wouldn't survive the experience.	Dieser chemisch aktive Mond ist die Heimat einer Form von kristallinem Leben, das langsam in geometrisch geformten stadtähnlichen Kolonien wächst. Sie leben so langsam, dass man in der Vergangenheit dachte, sie seien nur Sedimente und keine "echten" Lebensformen. Wir könnten leicht einige mitnehmen, um sie als Sprengstoff zu verwenden... obwohl sie diese Erfahrung wahrscheinlich nicht überleben würden.	400
-choiceText	Take some sulphurids	Nehmen Sie einige Sulphuriden mit	100
+choiceText	Take some sulphurids	Nehmen Sie einige Schwefelkristalle mit	100
 choiceText	Reseach only, do not harm the locals	Nur zu Forschungszwecken, verletzen Sie nicht die Einheimischen.	100
-text2	Our minerbots collected some sulphurids that contained the purest volatile chemicals. The crystalline creatures were then processed into quality explosives. Others have died so that we may live.	Unsere Minenroboter sammelten einige Sulfuride, die die reinsten flüchtigen Chemikalien enthielten. Die kristallinen Kreaturen wurden dann zu hochwertigem Sprengstoff verarbeitet. Andere sind gestorben, damit wir leben können.	400
+text2	Our minerbots collected some sulphurids that contained the purest volatile chemicals. The crystalline creatures were then processed into quality explosives. Others have died so that we may live.	Unsere Minenroboter sammelten einige Schwefeliden, die die reinsten flüchtigen Chemikalien enthielten. Die kristallinen Kreaturen wurden dann zu hochwertigem Sprengstoff verarbeitet. Andere sind gestorben, damit wir leben können.	400
 reasonToDisplay	Processing operation completed	Verarbeitungsvorgang abgeschlossen	30
 text	surface mining... %	Tagebau... %	50
 text2	There was an unexplained chemical reaction after storing the newly processed explosives. It seems some kind of nanobot or defensive chemical pattern inside the sulphurid crystals avoided our decontamination procedures and started eating stored explosives, reducing them to organic waste. The malicious colony of bots was cleansed at the expense of our explosive reserves.	Nach der Lagerung des neu verarbeiteten Sprengstoffs gab es eine unerklärliche chemische Reaktion. Es scheint, dass eine Art Nanobot oder ein chemisches Abwehrmuster im Inneren der Schwefelkristalle unsere Dekontaminationsverfahren umgangen hat und begonnen hat, den gelagerten Sprengstoff zu fressen und ihn zu organischem Abfall zu reduzieren. Die bösartige Botskolonie wurde auf Kosten unserer Sprengstoffreserven gesäubert.	400
 reasonToDisplay	Contamination neutralized	Kontamination neutralisiert	30
-text2	Our crew carried out a comprehensive research on the Sulphurid colony, being careful not to break any of the brittle creatures.	Unsere Besatzung führte eine umfassende Untersuchung der Sulphurid-Kolonie durch, wobei sie darauf achtete, keine der spröden Kreaturen zu zerbrechen.	400
+text2	Our crew carried out a comprehensive research on the Sulphurid colony, being careful not to break any of the brittle creatures.	Unsere Besatzung führte eine umfassende Untersuchung der Schwefeliden-Kolonie durch, wobei sie darauf achtete, keine der spröden Kreaturen zu zerbrechen.	400
 reasonToDisplay	Research operation completed	Forschungsaktion abgeschlossen	30
 
 2 P guard drone TM, combat sensor4, medbay4.prefab
@@ -4200,20 +4200,20 @@ text	atmospheric scouting...	Atmosphärische Erkundung...	50
 text2	Halfway through the operation, a warp worm living in the ocean attacked our harvesting & storage equipment, destroying it along with all the collected organics. We detected several other worms approaching and decided to leave, managing to bring back only a piece of the ship's wreckage.	Auf halber Strecke griff ein im Ozean lebender Warpwurm unsere Ernte- und Lagerausrüstung an und zerstörte sie zusammen mit allen gesammelten organischen Stoffen. Wir entdeckten mehrere andere Würmer, die sich uns näherten, und beschlossen, abzureisen, wobei wir nur ein Stück des Schiffswracks zurückbringen konnten.	400
 
 2 P sulphur city Er.prefab
-title	Sulphurid colony	Sulphurid-Kolonie	35
-text	The volatile elements in these particular sulphurids proved to be too insignificant to use them for our purposes. However, we discovered that some of the central sulphurids of the colony have formed into an obelisk-like structure. Harvesting this would yield a lot of explosives and possibly exotics if we ignored the ethical aspects.	Die flüchtigen Elemente in diesen speziellen Sulfuriden erwiesen sich als zu unbedeutend, um sie für unsere Zwecke zu nutzen. Wir entdeckten jedoch, dass sich einige der zentralen Sulfuride der Kolonie zu einer obeliskartigen Struktur geformt haben. Diese zu ernten, würde eine Menge Sprengstoff und möglicherweise Exoten liefern, wenn wir die ethischen Aspekte außer Acht lassen.	400
-choiceText	Break and collect the sulphurid brain	Brechen Sie das Schwefelidengehirn auf und sammeln Sie es ein	100
+title	Sulphurid colony	Schwefeliden-Kolonie	35
+text	The volatile elements in these particular sulphurids proved to be too insignificant to use them for our purposes. However, we discovered that some of the central sulphurids of the colony have formed into an obelisk-like structure. Harvesting this would yield a lot of explosives and possibly exotics if we ignored the ethical aspects.	Die flüchtigen Elemente in diesen speziellen Schwefeliden erwiesen sich als zu unbedeutend, um sie für unsere Zwecke zu nutzen. Wir entdeckten jedoch, dass sich einige der zentralen Schwefelide der Kolonie zu einer obeliskartigen Struktur geformt haben. Diese zu ernten, würde eine Menge Sprengstoff und möglicherweise Exoten liefern, wenn wir die ethischen Aspekte außer Acht lassen.	400
+choiceText	Break and collect the sulphurid brain	Brechen Sie das Schwefeliden-Gehirn auf und sammeln Sie es ein	100
 choiceText	Do not harm the obelisk	Beschädigen Sie den Obelisken nicht	100
-text2	You leave the unique ecosystem of this planet untouched. This kind of crystalline life is truly rare and worth preserving. The sulphurid obelisk seems happy.	Lassen Sie das einzigartige Ökosystem dieses Planeten unangetastet. Diese Art von kristallinem Leben ist wirklich selten und schützenswert. Der schwefelhaltige Obelisk scheint glücklich zu sein.	400
+text2	You leave the unique ecosystem of this planet untouched. This kind of crystalline life is truly rare and worth preserving. The sulphurid obelisk seems happy.	Lassen Sie das einzigartige Ökosystem dieses Planeten unangetastet. Diese Art von kristallinem Leben ist wirklich selten und schützenswert. Der Schwefeliden-Obelisk scheint glücklich zu sein.	400
 title	EMP pulse	EMP-Impuls	35
 text2	After the first minerbot had cut the obelisk, the structure let out some sort of EMP wave, damaging nearby electronics and shutting off all digital technology in the vicinity. After restoring everything to order, our crew hauled the minerals back in manual carts.	Nachdem der erste Minenroboter den Obelisken durchtrennt hatte, setzte die Struktur eine Art EMP-Welle frei, die die Elektronik in der Nähe beschädigte und die gesamte digitale Technologie in der Umgebung abschaltete. Nachdem wir alles wieder in Ordnung gebracht hatten, transportierte unsere Besatzung die Mineralien in Handkarren zurück.	400
 text	This planet features extreme temperatures and intense volcanic activity. Initial scans suggest possibility of valuable minerals. Prospect for mining opportunities?	Dieser Planet weist extreme Temperaturen und intensive vulkanische Aktivität auf. Erste Scans deuten darauf hin, dass es wertvolle Mineralien gibt. Sollen wir nach Bergbaumöglichkeiten suchen?	400
 choiceText	Prospect [-5 fuel]	Schürfen [-5 Treibstoff]	100
 newName3	lava deserts	Lava-Wüsten	25
 text	This chemically active planet is home to a form of crystalline life that slowly grows into geometrically shaped city-like colonies. They live so slowly that they were thought to be just sediments and not "real" lifeforms in the past. We could easily take some with us to be used as explosives... although they probably wouldn't survive the experience.	Dieser chemisch aktive Planet ist die Heimat einer Form von kristallinem Leben, das langsam zu geometrisch geformten stadtähnlichen Kolonien heranwächst. Sie leben so langsam, dass man in der Vergangenheit dachte, sie seien nur Sedimente und keine "echten" Lebensformen. Wir könnten leicht einige mitnehmen, um sie als Sprengstoff zu verwenden... obwohl sie diese Erfahrung wahrscheinlich nicht überleben würden.	400
-choiceText	Take some sulphurids for resources & research	Nimm einige Sulphuriden für Ressourcen und Forschung mit	100
-reasonToDisplay	Sulphurid colony looted	Sulphurid-Kolonie geplündert	30
-text2	There was an unexplained chemical reaction after storing the newly processed explosives. It seems some kind of advanced chemical fractal, part of the sulphurid crystal structure, avoided our decontamination procedures and started dissolving stored explosives, reducing them to organic waste. \nThe destructive chempattern was cleansed at the expense of our explosives. At least we gained some valuable data on the Suphurid chemistry.	Es gab eine unerklärliche chemische Reaktion nach der Lagerung des frisch verarbeiteten Sprengstoffs. Es scheint, dass eine Art fortschrittliches chemisches Fraktal, Teil der Sulfurid-Kristallstruktur, unsere Dekontaminationsprozeduren umging und anfing, gelagerten Sprengstoff aufzulösen und ihn zu organischem Abfall zu reduzieren. \nDas zerstörerische Chempattern wurde auf Kosten unserer Sprengstoffe gesäubert. Immerhin gewannen wir einige wertvolle Daten über die Suphurid-Chemie.	400
+choiceText	Take some sulphurids for resources & research	Nimm einige Schwefelkristalle für Ressourcen und Forschung mit	100
+reasonToDisplay	Sulphurid colony looted	Schwefeliden-Kolonie geplündert	30
+text2	There was an unexplained chemical reaction after storing the newly processed explosives. It seems some kind of advanced chemical fractal, part of the sulphurid crystal structure, avoided our decontamination procedures and started dissolving stored explosives, reducing them to organic waste. \nThe destructive chempattern was cleansed at the expense of our explosives. At least we gained some valuable data on the Suphurid chemistry.	Es gab eine unerklärliche chemische Reaktion nach der Lagerung des frisch verarbeiteten Sprengstoffs. Es scheint, dass eine Art fortschrittliches chemisches Fraktal, Teil der Schwefel-Kristallstruktur, unsere Dekontaminationsprozeduren umging und anfing, gelagerten Sprengstoff aufzulösen und ihn zu organischem Abfall zu reduzieren. \nDas zerstörerische Chempattern wurde auf Kosten unserer Sprengstoffe gesäubert. Immerhin gewannen wir einige wertvolle Daten über die Schwefeliden-Chemie.	400
 reasonToDisplay	contamination neutralized	Kontamination neutralisiert	30
 text2	Our crew carried out a comprehensive research on the colony, being careful not to break any of the brittle beings.	Unsere Besatzung führte eine umfassende Untersuchung der Kolonie durch, wobei sie darauf achtete, keines der spröden Wesen zu zerbrechen.	400
 title	EMP wave	EMP-Welle	35
@@ -5295,7 +5295,7 @@ text	This planet has a thin atmosphere frequented by thick dust storms. Prelimin
 newName3	low profit outlook	geringe Gewinnaussichten	25
 text	We've located a seemingly abandoned military bunker on the planet surface. No life or active systems detected. Explore for salvage possibilities?	Wir haben einen scheinbar verlassenen Militärbunker auf der Planetenoberfläche geortet. Kein Leben oder aktive Systeme entdeckt. Erkundung nach Bergungsmöglichkeiten?	400
 newName3	abandoned bunker	Verlassener Bunker	25
-text2	Our scavenger expedition was ambushed by automated war machines hiding around the bunker. They managed to down a printed shuttle, resulting in critical injuries to crew inside. Our ship destroyed the warbots.	Unsere Plünderungsexpedition geriet in einen Hinterhalt von automatisierten Kriegsmaschinen, die sich um den Bunker herum versteckten. Sie schafften es, ein gedrucktes Shuttle zu zerstören, was zu kritischen Verletzungen der Besatzung im Inneren führte. Unser Schiff zerstörte die Warbots.	400
+text2	Our scavenger expedition was ambushed by automated war machines hiding around the bunker. They managed to down a printed shuttle, resulting in critical injuries to crew inside. Our ship destroyed the warbots.	Unsere Plünderungsexpedition geriet in einen Hinterhalt von automatisierten Kriegsmaschinen, die sich um den Bunker herum versteckten. Sie schafften es, ein gedrucktes Shuttle zu zerstören, was zu kritischen Verletzungen der Besatzung im Inneren führte. Unser Schiff zerstörte die Kampfroboter.	400
 text2	We've salvaged a weapon platform from the ruins.	Wir haben eine Waffenplattform aus den Trümmern geborgen.	400
 reasonToDisplay	weapon obtained	Waffe geborgen	30
 text	We've located the remains of a destroyed building on the planet surface. Most interestingly, our sensors detect active technology within the rubble.	Wir haben die Überreste eines zerstörten Gebäudes auf der Planetenoberfläche geortet. Interessant ist, dass unsere Sensoren aktive Technologie in den Trümmern entdecken.	400
@@ -5353,7 +5353,7 @@ title	Advanced technology	Fortschrittliche Technologie	35
 text	The energy source is very advanced, possibly precursor technology. The entire structure carries a warp charge, and a pictographic message on the device contains a warning not to attempt to harm it. A simple instruction shows it can be activated by shooting exotic crystals through the rings at high speeds.	Die Energiequelle ist sehr fortschrittlich, möglicherweise Vorläufertechnologie. Die gesamte Struktur trägt eine Warp-Ladung, und eine piktografische Botschaft auf dem Gerät enthält eine Warnung, nicht zu versuchen, es zu beschädigen. Eine einfache Anleitung zeigt, dass es aktiviert werden kann, indem man exotische Kristalle mit hoher Geschwindigkeit durch die Ringe schießt.	400
 choiceText	Print a device to hurl exotics through the ring [-1 exotics]	Drucke ein Gerät, um Exoten durch den Ring zu schleudern [-1 Exoten]	100
 choiceText	Attempt to deconstruct & scavenge the rings [send bots]	Versuchen Sie, die Ringe zu dekonstruieren und zu plündern [Bots senden].	100
-newName3	Ancient matter-convertors	Antike Materieumwandler	25
+newName3	Ancient matter-convertors	Antiker Materieumwandler	25
 title	Warp energy attack!	Warpenergie-Angriff!	35
 text2	Something happened when our utility bots started cutting the rings. Some kind of warp energies from the device leaked out, flooding the sanity of everyone onboard with intense otherworldy visions. We left the planet at max speed. Biocheckup revealed some of the crew has suffered internal damage.	Irgendetwas ist passiert, als unsere Versorgungsbots anfingen, die Ringe zu zerlegen. Eine Art Warpenergie aus dem Gerät trat aus und überflutete den Verstand aller an Bord mit intensiven, jenseitigen Visionen. Wir verließen den Planeten mit Höchstgeschwindigkeit. Der Biocheckup ergab, dass ein Teil der Besatzung innere Schäden erlitten hat.	400
 reasonToDisplay	warp wounds	Warpwunden	30
@@ -5748,10 +5748,10 @@ text	The planet is covered with a lush ecosystem of easily easily ecoharvestable
 23 7x Pi Dark Market2 ATKold3, matconvertors, hydrophonics1b.prefab
 name3	{{{encrypted signals}}}	(verschlüsselte Signale)	25
 text	This planet is particularly lifeless, and mostly covered with frozen carbon dioxide. However, somebody is transmitting a strong encrypted radio signal from the planet.	Dieser Planet ist besonders leblos und meist mit gefrorenem Kohlendioxid bedeckt. Allerdings sendet jemand ein stark verschlüsseltes Funksignal vom Planeten aus.	400
-title	Dark market	Dunkler Markt	35
+title	Dark market	Schwarzmarkt	35
 text	We find the signal source. It is a private marketplace for traders who do not want too much public attention. These traders must know some smugglers, who in turn know pirates, who sometimes know slavers. This place might have some bad people both among clients and sellers.	Wir finden die Signalquelle. Es ist ein privater Marktplatz für Händler, die nicht zu viel öffentliche Aufmerksamkeit wollen. Diese Händler müssen einige Schmuggler kennen, die wiederum Piraten kennen, die wiederum manchmal Sklavenhändler kennen. An diesem Ort könnte es sowohl unter den Kunden als auch unter den Verkäufern einige schlechte Menschen geben.	400
 choiceText	Explore the dark market	Erkunden Sie den dunklen Markt	100
-newName3	dark market	Dunkler Markt	25
+newName3	dark market	Schwarzmarkt	25
 text	The market is full of semi-legal junk, uninteresting for our purposes. The only attractive offer is a robust triple cannon. "We found it in some wreckage..." the sellers explain.	Der Markt ist voll von halblegalem Ramsch, uninteressant für unsere Zwecke. Das einzige attraktive Angebot ist eine robuste Dreifach-Kanone. "Wir haben sie in einem Wrack gefunden ...", erklären die Verkäufer.	400
 choiceText	Buy the weapon [-7 exotics]	Kaufen Sie die Waffe [-7 Exoten]	100
 text2	You inspect the weapon thoroughly before accepting the deal. Except for a few fluid stains (alien blood, most likely), you find it completely functional. The ship's AI later has a chat with you about ethics.	Sie inspizieren die Waffe gründlich, bevor Sie das Angebot annehmen. Abgesehen von ein paar Flüssigkeitsflecken (höchstwahrscheinlich Alien-Blut) finden Sie sie voll funktionsfähig. Die KI des Schiffes führt später ein Gespräch mit Ihnen über Ethik.	400
@@ -5786,14 +5786,14 @@ choiceText	Prospect [-5 fuel or less]	Prospektion [-5 Treibstoff oder weniger]	1
 title	Minerals mined	Mineralien abgebaut	35
 text2	We located an exposed seam of valuable minerals and mined as much as was possible.	Wir haben ein freiliegendes Flöz mit wertvollen Mineralien gefunden und so viel wie möglich abgebaut.	400
 title	Wrecks found	Wracks gefunden	35
-text2	Unfortunately, the local mineral resources were too deep in the planet's crust to initiate cost-effective mining. However, we found a pair of ancient bot wrecks. Dissassembling them revealed intact digital memorybanks, yielding data with historic value.	Leider lagen die lokalen Mineralienvorkommen zu tief in der Planetenkruste, um einen kosteneffizienten Abbau zu starten. Allerdings fanden wir ein Paar alte Bot-Wracks. Bei ihrer Demontage kamen intakte digitale Speicherbänke zum Vorschein, die Daten von historischem Wert enthielten.	400
+text2	Unfortunately, the local mineral resources were too deep in the planet's crust to initiate cost-effective mining. However, we found a pair of ancient bot wrecks. Dissassembling them revealed intact digital memorybanks, yielding data with historic value.	Leider lagen die lokalen Mineralienvorkommen zu tief in der Planetenkruste, um einen kosteneffizienten Abbau zu starten. Allerdings fanden wir ein Paar alte Roboter-Wracks. Bei ihrer Demontage kamen intakte digitale Speicherbänke zum Vorschein, die Daten von historischem Wert enthielten.	400
 title	Exotic matter found	Exotische Materie gefunden	35
 text2	We located an exposed seam of valuable minerals and mined as much as we could. Most excitingly, we also found some minerals emitting trace levels of warp energy.	Wir fanden ein freiliegendes Flöz mit wertvollen Mineralien und bauten so viel ab, wie wir konnten. Am aufregendsten war, dass wir auch einige Mineralien fanden, die Spuren von Warpenergie ausstrahlen.	400
 title	Beautiful views	Schöne Aussichten	35
 text2	Unfortunately, the local mineral resources were too deep in the planet's crust to initiate cost-effective mining.	Leider lagen die lokalen Mineralienvorkommen zu tief in der Planetenkruste, um einen kosteneffizienten Abbau zu initiieren.	400
 text2	We discovered a few inactive research satellites orbiting the planet. Salvaging them yielded valuable scientific information about the location.	Wir entdeckten ein paar inaktive Forschungssatelliten, die den Planeten umkreisen. Ihre Bergung lieferte wertvolle wissenschaftliche Informationen über den Ort.	400
 text	prospecting... %	Prospektion... %	50
-text2	Unfortunately, the local mineral resources were too deep in the planet's crust to initiate cost-effective mining. However, we found a pair of ancient bot wrecks. Dissassembing them revealed intact technology.	Leider befanden sich die lokalen Bodenschätze zu tief in der Planetenkruste, um einen kosteneffizienten Abbau zu ermöglichen. Aber wir fanden ein paar antike Bot-Wracks. Ihre Demontage offenbarte intakte Technologie.	400
+text2	Unfortunately, the local mineral resources were too deep in the planet's crust to initiate cost-effective mining. However, we found a pair of ancient bot wrecks. Dissassembing them revealed intact technology.	Leider befanden sich die lokalen Bodenschätze zu tief in der Planetenkruste, um einen kosteneffizienten Abbau zu ermöglichen. Aber wir fanden ein paar antike Roboter-Wracks. Ihre Demontage offenbarte intakte Technologie.	400
 
 235 Pi domevillage anarchists COF.prefab
 title	Anarchist colony	Anarchisten-Kolonie	35
@@ -8780,7 +8780,7 @@ displayName	Explosives recycler, grade II	Sprengstoff-Wiederverwerter II	40
 description	Instantly recycles explosives into starfuel. Robust structure improves ship HP.	Wiederverwertet Sprengstoffe sofort zu Treibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 oilcake converter.prefab
-displayName	Oilcake Organics converter	Ölkuchen-Organik-Konverter	40
+displayName	Oilcake Organics converter	Ölkuchen-Konverter	40
 description	Converts starfuel into organics. Comes with a built-in cake printer. Robust structure improves ship HP.	Wandelt Treibstoff in Organik um. Verfügt über einen eingebauten Kuchendrucker. Die robuste Struktur verbessert die HP des Schiffes.	200
 MaterialsConverter.resourceProductionReason	produced by oilcake converter	hergestellt durch Ölkuchen-Konverter	30
 
@@ -8833,7 +8833,7 @@ displayName	DIY point-defence	DIY-Punktabwehr	40
 description	Intercepts asteroids, incoming missiles, slower projectiles and approaching boarders. Short range, cannot shoot at enemy ships.	Fängt Asteroiden, ankommende Raketen, langsamere Geschosse und herannahende Enterer ab. Kurze Reichweite, kann nicht auf feindliche Schiffe schießen.	200
 
 1 Rat PD.prefab
-displayName	Rat point-defence [ancient]	Ratten-Punktabwehr [uralt]	40
+displayName	Rat point-defence [ancient]	Ratten-Punktabwehr [antik]	40
 
 10 laser PD.prefab
 displayName	Heavy energy point-defence	Schwere Energie-Punktabwehr	40
@@ -9577,7 +9577,7 @@ displayName	EMP raygun (DIY)	EMP-Strahlenkanone (DIY)	40
 description	A robust platform for projecting powerful EMP rays. Disrupts shields or overloads unshielded modules. Minimal damage against ship hull, never deflects.	Eine robuste Plattform zur Projektion starker EMP-Strahlen. Unterbricht Schilde oder überlastet nicht abgeschirmte Module. Minimaler Schaden an der Schiffshülle, keine Ablenkung.	200
 
 weapon DIY exotics EMP sniper.prefab
-displayName	EMP exotics sniper	EMP-Exoten-Scharfschütze	40
+displayName	EMP exotics sniper	EMP-Scharfschütze (exotisch)	40
 description	A prototype platform for projecting exotic EMP rays that penetrate shields and have very large AoE. Requires a lot of energy, deals minimal damage against ship hull, never deflects.	Eine Prototyp-Plattform zum Projizieren von exotischen EMP-Strahlen, die Schilde durchdringen und eine sehr große AoE haben. Benötigt viel Energie, verursacht minimalen Schaden an der Schiffshülle, wird nie abgelenkt.	200
 
 weapon DIY exoticslaser dual.prefab
@@ -9747,7 +9747,7 @@ displayName	Industrial laser II	Industrielaser II	40
 description	Heavy-duty industrial laser. Low accuracy if compared to military beam weapons, generates two rays.	Leistungsstarker Industrielaser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen, erzeugt zwei Strahlen.	200
 
 weapon DIY Minicannon ancient 2,3.prefab
-displayName	Converted ancient minicannon	Konvertierte antike Minikanone	40
+displayName	Converted ancient minicannon	Konvertierte Minikanone (antik)	40
 description	Ancient point-defence weapon converted into small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Alte Punktabwehr-Waffe, die in eine kleinkalibrige Autokanone umgewandelt wurde. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 HP).	200
 
 weapon gatling 01 ancient dual 14,4.prefab
@@ -9810,7 +9810,7 @@ displayName	Alien rocket launcher (x7)	Alien-Raketenwerfer (x7)	40
 description	Platform for rapidly launching a hail of small, non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Abschuss eines Hagels kleiner, nicht entflammbarer Raketen. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200
 
 weapon ancientrockets x3.prefab
-displayName	Ancient rocket platform	Antike Raketenplattform	40
+displayName	Ancient rocket platform	Raketenplattform (antik)	40
 description	Ancient rocket battery. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Antike Raketenbatterie. Raketen lenken nicht ab und beschädigen feindliche Module in einem großen Bereich, können aber durch Punktabwehr abgeschossen werden. Diese Raketen haben je 1hp.	200
 
 weapon capitalorockets x2.prefab
@@ -9829,7 +9829,7 @@ displayName	Intelligent BankTM missile launcher (x2)	Intelligente BankTM-Raketen
 description	Platform for printing and shooting heavy missiles with increased armor. Missiles never deflect and damage enemy modules in a large area. These missiles have 2hp each.	Plattform zum Drucken und Abschießen schwerer Raketen mit erhöhter Panzerung. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich. Diese Raketen haben jeweils 2 HP.	200
 
 weapon miscmissile x4.prefab
-displayName	Miscellaneous platform	Verschiedene Plattform	40
+displayName	Miscellaneous platform	Raketenplattform	40
 description	A platform that prints & launches missiles. All missiles are accurate, penetrate shields, never deflect, and damage modules over a wide area. These missiles have 1hp each.	Eine Plattform, die Raketen druckt und abschießt. Alle Raketen sind präzise, durchdringen Schilde, werden nie abgelenkt und beschädigen Module in einem großen Bereich. Diese Raketen haben jeweils 1 HP.	200
 
 weapon monolith missile x1.prefab
