@@ -283,7 +283,7 @@
 	'+{0}% shield reload time	'+{0}% Schild Nachladezeit	0
 	'Repair skill allows repairing broken modules and damage tokens	'Reparatur-Fertigkeit erlaubt die Reparatur von defekten Modulen und Schiffsschäden	0
 	'+{0}% repair speed	'+{0}% Reparatur Geschwindigkeit	0
-	'Damage token 1 HP repair time {0:0.0}s	'Schadenstoken 1 HP Reparaturzeit {0:0.0}s	0
+	'Damage token 1 HP repair time {0:0.0}s	'Schadensmarkierung 1 HP Reparaturzeit {0:0.0}s	0
 	'Module 1 HP repair time {0:0.0}s	'Modul 1 HP Reparaturzeit {0:0.0}s	0
 	'Firefighting skill allows fighting fires	'Brandbekämpfungsfertigkeit erlaubt das Löschen von Feuer	0
 	'+{0}% fire extinguishing speed	'+{0}% Löschgeschwindigkeit	0
@@ -443,8 +443,8 @@
 	'(if multiple operators work in garden, their skill points are added together)	'(wenn mehrere Besatzungsmitglieder im Garten arbeiten, werden ihre Fertigkeitspunkte zusammengerechnet)	0
 
 'ModuleSlotActionsPanel.cs
-	'Damage token is blocking this slot, upgrades/downgrades and module crafting are not possible	'Schadenstoken blockiert diesen Steckplatz, Aufrüstungen/Herabstufungen und Modulbau sind nicht möglich	0
-	'A module is already in slot, some slot upgrades/downgrades and module crafting are not possible	'Ein Modul befindet sich bereits im Steckplatz, einige Steckplatz-Aufrüstungen/-Herabstufungen und das Herstellen von Modulen sind nicht möglich	0
+	'Damage token is blocking this slot, upgrades/downgrades and module crafting are not possible	'Schadensmarkierung blockiert diesen Steckplatz, Aufrüstungen/Herabstufungen und Modulbau sind nicht möglich	0
+	'A module is already in slot, some slot upgrades/downgrades and module crafting are not possible	'Ein Modul befindet sich bereits im Steckplatz, einige Aufrüstungen/-Herabstufungen und Herstellungen sind nicht möglich	0
 
 'PlayerPanel.cs
 	'fate points	'Schicksalspunkte	0
@@ -491,7 +491,7 @@
 'PlayerStatsPanel.cs
 	'Starmap speed, range units per second	'Sternenkarte-Geschwindigkeit, Entfernungseinheiten pro Sekunde	0
 	'{0} +{1}	'{0} +{1}	0
-	'Asteroid deflection	'Asteroiden-Ablenkung	0
+	'Asteroid deflection	'Asteroiden Ablenkung	0
 	'{0} +{1}%	'{0} +{1}%	0
 	'Starmap stealth detection level	'Sternenkarte-Tarnkappen-Erkennungsstufe	0
 	'{0} (provides {1}, using max)	'{0} (liefert {1}, bei Verwendung von max)	0
@@ -610,7 +610,7 @@
 'altText	'We have received critical damage. Critical damage tokens may cause explosions or fires. Repairing them should be one of our priorities.	'Wir haben kritischen Schaden erhalten. Kritische Schäden können Explosionen oder Brände verursachen. Sie zu reparieren sollte eine unserer Prioritäten sein.	240
 'altText	'One of the hostile ships is charging up its <b>warpdrive</b> (not engines) to escape the combat area. We might want to prevent them in order to increase post-battle salvage.	'Eines der feindlichen Schiffe lädt seinen <b>Warpantrieb</b> (nicht Triebwerke) auf, um aus dem Kampfgebiet zu entkommen. Wir sollten sie daran hindern, um die Ausbeute nach dem Kampf zu erhöhen.	240
 'text	'We have lost our only engine. We should either craft a new one or prepare for combat and activate the SOS signal. It may attract a trader who sells engines or parts neede to craft engines	'Wir haben unseren einzigen Antrieb verloren. Wir sollten entweder einen neuen herstellen oder uns auf den Kampf vorbereiten und das SOS-Signal aktivieren. Es könnte einen Händler anlocken, der Motoren oder Teile für die Herstellung von Motoren verkauft.	600
-'text	'We have lost our warpdrive. We can also travel between stars without warping (using normal engines) but it will usually cost a lot of resources.\nOur best option is to craft a DIY warpdrive, directly into the warpdrive slot. Activating the SOS may attract a trader who sells modules, but that option is much riskier.	'Wir haben unseren Warpantrieb verloren. Wir können auch ohne Warp zwischen den Sternen reisen (mit normalen Triebwerken), aber das kostet in der Regel viele Ressourcen.\nUnsere beste Option ist es, einen DIY-Warpantrieb herzustellen, direkt in den Warpantrieb-Steckplatz. Das Aktivieren des SOS kann einen Händler anlocken, der Module verkauft, aber diese Option ist viel riskanter.	600
+'text	'We have lost our warpdrive. We can also travel between stars without warping (using normal engines) but it will usually cost a lot of resources.\nOur best option is to craft a DIY warpdrive, directly into the warpdrive slot. Activating the SOS may attract a trader who sells modules, but that option is much riskier.	'Wir haben unseren Warpantrieb verloren. Wir können auch ohne Warp zwischen den Sternen reisen (mit normalen Triebwerken), aber das kostet in der Regel viele Ressourcen.\nUnsere beste Option ist es, einen Selbstbau-Warpantrieb herzustellen, direkt in den Warpantrieb-Steckplatz. Das Aktivieren des SOS kann einen Händler anlocken, der Module verkauft, aber diese Option ist viel riskanter.	600
 'title	'Rat Empire encountered	'Rattenimperium angetroffen	35
 'text	'It seems this sector has been claimed by Rat Empire. Greedy little mammals who are nice as long as you can pay. Would you like to see my database summary on their civilization?	'Es scheint, dass dieser Sektor vom Rattenimperium beansprucht wurde. Gierige kleine Säugetiere, die nett sind, solange man zahlen kann. Möchten Sie meine Datenbankzusammenfassung über ihre Zivilisation sehen?	400
 'choiceText	'Show Me	'Zeigen	100
@@ -961,8 +961,8 @@
 	'Additionally, some cargo containers can also be upgraded, allowing for more cargo capacity.	'Zusätzlich können auch der Frachtraum aufgerüstet werden, um mehr Frachtkapazität zu erhalten.	0
 	'There is a chance that if module gets damaged, its maximum hitpoints are also permanently reduced to half -- resulting in half hitpoints when repaired.	'Es besteht die Möglichkeit, dass, wenn ein Modul beschädigt wird, seine maximalen HP dauerhaft auf die Hälfte reduziert werden - was zu halben HP führt, wenn es repariert wird.	0
 	'You can see how many times module max hitpoints have been reduced by the number of x-es on it.	'Wie oft die maximalen Trefferpunkte eines Moduls reduziert wurden, können Sie an der Anzahl der x-es auf dem Modul erkennen.	0
-	'DIY modules can be crafted inside empty weapon slots (and DIY nukes in empty nuke slots). \nEach ship has unique set of craftable nukes.\nMake sure the slot is empty and undamaged before crafting.	'DIY-Module können in leeren Waffen-Steckplätzen hergestellt werden (und DIY-Bomben in leeren Bomben-Steckplätzen). \nJedes Schiff hat einen eigenen Satz an handelbaren Bomben.\nStellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie mit der Herstellung beginnen.	0
-	'You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	'Sie können die Modul Herstellung nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpantrieb zu retten. DIY-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Steckplätzen heraus gebaut werden.	0
+	'DIY modules can be crafted inside empty weapon slots (and DIY nukes in empty nuke slots). \nEach ship has unique set of craftable nukes.\nMake sure the slot is empty and undamaged before crafting.	'Selbstbau-Module können in leeren Waffen-Steckplätzen hergestellt werden (und Selbstbau-Bomben in leeren Bomben-Steckplätzen). \nJedes Schiff hat einen eigenen Satz an handelbaren Bomben.\nStellen Sie sicher, dass der Steckplatz leer und unbeschädigt ist, bevor Sie mit der Herstellung beginnen.	0
+	'You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	'Sie können die Modul Herstellung nutzen, um sich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpantrieb zu retten. Selbstbau-Brücken, Triebwerke und Waffen können auch aus den jeweiligen Steckplätzen heraus gebaut werden.	0
 	'For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	'Gegen einen geringen Aufpreis können Sie Ressourcenpakete herstellen, die im Frachtraum oder in einem beliebigen freien Steckplatz gelagert werden können.	0
 	'Modules can be turned off from the power switch button.\nIf a module is turned off, it does not need any of its listed requirements.	'Module können über den Netzschalterknopf ausgeschaltet werden.\nWenn ein Modul ausgeschaltet ist, benötigt es keine seiner aufgeführten Anforderungen.	0
 	'Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	'Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nReparieren Sie Module, indem Sie ein Besatzungsmitglied auswählen und dann mit R auf ein beschädigtes Modul klicken.\n\nBeschädigte Module können für 10 Kunststoffe pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0
@@ -1602,19 +1602,19 @@
 	'Module slot	'Modul-Steckplatz	0
 	'Click to list only slot upgrades and downgrades	'Klicken Sie hier, um nur Steckplatz-Aufrüstungen und Herabstufungen aufzulisten	0
 	'SLOT UPGRADES	'STECKPLATZ AUFRÜSTUNG	0
-	'Click to list only craftable resource packs and containers	'Klicken Sie hier, um nur DIY Ressourcenpakete und Behälter aufzulisten	0
+	'Click to list only craftable resource packs and containers	'Klicken Sie hier, um nur selbstgebaute Ressourcenpakete und -Behälter aufzulisten	0
 	'CARGO	'FRACHT	0
-	'Click to list only craftable weapon and point defence modules	'Klicken Sie hier, um nur die DIY Waffen- und Punktabwehr-Module aufzulisten	0
+	'Click to list only craftable weapon and point defence modules	'Klicken Sie hier, um nur die selbstgebaute Waffen und Punktabwehr-Module aufzulisten	0
 	'WEAPONS	'WAFFEN	0
-	'Click to list only craftable nukes	'Klicken Sie hier, um nur DIY Bomben aufzulisten	0
+	'Click to list only craftable nukes	'Klicken Sie hier, um nur selbstgebaute Bomben aufzulisten	0
 	'NUKES	'BOMBEN	0
-	'Click to list only craftable survival modules	'Klicken Sie hier, um nur DIY Überlebensmodule aufzulisten	0
+	'Click to list only craftable survival modules	'Klicken Sie hier, um nur selbstgebaute Überlebensmodule aufzulisten	0
 	'SURVIVAL	'ÜBERLEBEN	0
-	'Click to list only craftable essential modules	'Klicken Sie hier, um nur DIY unverzichtbare Module aufzulisten	0
+	'Click to list only craftable essential modules	'Klicken Sie hier, um nur selbstgebaute unverzichtbare Module aufzulisten	0
 	'ESSENTIAL	'UNVERZICHTBAR	0
-	'Click to list only craftable economy modules	'Klicken Sie hier, um nur DIY Wirtschaftsmodule aufzulisten	0
+	'Click to list only craftable economy modules	'Klicken Sie hier, um nur selbstgebaute Wirtschaftsmodule aufzulisten	0
 '0	'ECONOMY	'WIRTSCHAFT	0
-	'Click to list only other craftable modules	'Klicken Sie hier, um nur andere DIY Module aufzulisten	0
+	'Click to list only other craftable modules	'Klicken Sie hier, um nur andere selbstgebaute Module aufzulisten	0
 	'OTHER	'ANDERE	0
 	'GAIN	'GEWINN	22
 	'COST	'KOSTEN	22
@@ -1840,7 +1840,7 @@
 	'BUY	'KAUFEN	0
 	'Select module to buy	'Wählen Sie ein Modul 	0
 	'Hire	'Anheuern	0
-	'Select a crewmember to hire	'Wählen Sie ein Besatzungsmitglied	0
+	'Select a crewmember to hire	'Wählen Sie einen Rekruten	0
 	'Exit the shop	'Verlassen Sie den Shop	0
 	'EXIT	'VERLASSEN	0
 
@@ -1869,7 +1869,7 @@
 'text2	'The asteroids contained volatile elements, which exploded during the mining operation, starting a destructive chain-reaction.	'Die Asteroiden enthielten flüchtige Elemente, die beim Abbau explodierten und eine zerstörerische Kettenreaktion auslösten.	400
 'title	'Warp life	'Warp-Leben	35
 'text2	'A warp worm had made a home in the asteroid cloud and happily ambushed us during the operation. It swallowed a number of minerbots and also took a relatively small bite out of mothership. We expended a fair bit of resources trying to kill it, but it escaped deeper into the asteroid cloud without receiving significant damage.	'Ein Warpwurm hatte sich in der Asteroidenwolke eingenistet und lauerte uns während der Operation auf. Er verschlang eine Reihe von Minerbots und nahm auch einen relativ kleinen Biss vom Mutterschiff. Wir verbrauchten eine ganze Menge Ressourcen, um ihn zu töten, aber er entkam tiefer in die Asteroidenwolke, ohne nennenswerten Schaden zu nehmen.	400
-'title	'Asteroid collision!	'Asteroiden-Kollision!	35
+'title	'Asteroid collision!	'Asteroiden Kollision!	35
 'text2	'A rapidly twirling giant asteroid collided with our ship during a mining operation, causing minor damage. The asteroid's mineral core was a crystal with exotic properties.	'Ein schnell wirbelnder riesiger Asteroid kollidierte während eines Bergbauvorgangs mit unserem Schiff und verursachte leichte Schäden. Der Mineralkern des Asteroiden war ein Kristall mit exotischen Eigenschaften.	400
 'title	'Warp animal eggs	'Warp-Tier-Eier	35
 'text	'We have found a patch of eggs belonging to some space organism. Should we take them? They would be converted to organics after research.	'Wir haben einen Fleck mit Eiern gefunden, die zu irgendeinem Weltraumorganismus gehören. Sollen wir sie mitnehmen? Sie würden nach der Erforschung in Organik umgewandelt werden.	400
@@ -3051,7 +3051,7 @@
 
 'SOS 1 exo beacon, ratship debris.prefab
 'displayName	'SOS-beacon	'SOS-Bake	25
-'text	'SOS-recording, audio only: "...Rat Imperial Battleship...reporting attack by unmarked warships..."	'SOS-Aufzeichnung, nur Audio: "...Rat Imperial Battleship...reporting attack by unmarked warships..."	400
+'text	'SOS-recording, audio only: "...Rat Imperial Battleship...reporting attack by unmarked warships..."	'SOS-Aufzeichnung, nur Audio: "...Rattenimperium Schlachtschiff...meldet Angriff durch nicht markierte Kriegsschiffe..."	400
 'title	'battlefield discovered	'Schlachtfeld entdeckt	35
 'text2	'A systematic close-range scan revealed a battlefield with clouds of technical debris remaining of the battleship and its attackers. No survivors were found.	'Ein systematischer Nahbereichsscan offenbarte ein Schlachtfeld mit Wolken von technischen Trümmern, die von dem Schlachtschiff und seinen Angreifern übrig geblieben waren. Es wurden keine Überlebenden gefunden.	400
 'text	'investigating area...	'Untersuchung des Gebietes...	50
@@ -3072,7 +3072,7 @@
 'newName3	'Needs medical help	'Braucht medizinische Hilfe	25
 'text	'medical operation... %	'Medizinischer Einsatz... %	50
 'title	'Not enough resources or technology	'Nicht genug Ressourcen oder Technologie	35
-'text	'We don't have a mebay, but we could easily craft a DIY medbay into an empty internal slot, if we have the resources.	'Wir haben kein Krankenstation, aber wir könnten leicht ein DIY-Krankenstation in einen leeren internen Steckplatz einbauen, wenn wir die Ressourcen haben.	600
+'text	'We don't have a mebay, but we could easily craft a DIY medbay into an empty internal slot, if we have the resources.	'Wir haben kein Krankenstation, aber wir könnten leicht ein Selbstbau-Krankenstation in einen leeren internen Steckplatz einbauen, wenn wir die Ressourcen haben.	600
 'title	'Wrecked biotech ship	'Zerstörtes Biotech-Schiff	35
 'text2	'There were no survivors despite the SOS signal and a few low-power systems being still active. We salvaged everything.	'Es gab keine Überlebenden, obwohl das SOS-Signal und ein paar Systeme mit geringer Leistung noch aktiv waren. Wir haben alles geborgen.	400
 'reasonToDisplay	'wreck salvaged	'Wrack geborgen	30
@@ -4831,12 +4831,12 @@
 '4 P command center with potential nuke.prefab
 'text	'Exploring building... %	'Gebäude erforschen... %	50
 'title	'Nuke obtained	'Nuke erhalten	35
-'text2	'Our industrial-grade energy cutters are eventually able to cut the building in half. The capital missile inside is well preserved. We are also able to scavenge a small amount of military-grade materials.	'Unsere Industrie-Energieschneider sind schließlich in der Lage, das Gebäude in zwei Hälften zu schneiden. Die Rakete im Inneren ist gut erhalten. Wir sind auch in der Lage, eine kleine Menge an militärischen Materialien zu bergen.	400
+'text2	'Our industrial-grade energy cutters are eventually able to cut the building in half. The capital missile inside is well preserved. We are also able to scavenge a small amount of military-grade materials.	'Unsere industriellen Energieschneider sind schließlich in der Lage, das Gebäude in zwei Hälften zu schneiden. Die Rakete im Inneren ist gut erhalten. Wir sind auch in der Lage, eine kleine Menge an militärischen Materialien zu bergen.	400
 'reasonToDisplay	'capital missile salvaged	'Rakete geborgen	30
 'title	'Abandoned building	'Verlassenes Gebäude	35
 'text	'We've located a single structure on the planet surface. The heavily armored outer layer suggests it is a military building. \nNo signs of life or active technology detected.	'Wir haben ein einzelnes Gebäude auf der Planetenoberfläche geortet. Die stark gepanzerte äußere Schicht lässt vermuten, dass es sich um ein militärisches Gebäude handelt. \nKeine Anzeichen von Leben oder aktiver Technologie entdeckt.	400
 'choiceText	'Investigate [send crew]	'Untersuchen [Besatzung schicken]	100
-'text	'Our operatives reach the center of the structure. Turns out this whole building is a military command center with a loaded missile silo in the middle. Retrieving the missile inside the silo requires us to cut the whole building in two. Heavy ceramic armor of the structure means the cutters will require a fair amount of energy.	'Unsere Agenten erreichen das Zentrum der Struktur. Wie sich herausstellt, ist das ganze Gebäude eine militärische Kommandozentrale mit einem geladenen Raketensilo in der Mitte. Um die Rakete im Silo zu bergen, müssen wir das ganze Gebäude in zwei Teile schneiden. Die schwere Keramikpanzerung des Gebäudes bedeutet, dass die Cutter eine ganze Menge Energie benötigen.	400
+'text	'Our operatives reach the center of the structure. Turns out this whole building is a military command center with a loaded missile silo in the middle. Retrieving the missile inside the silo requires us to cut the whole building in two. Heavy ceramic armor of the structure means the cutters will require a fair amount of energy.	'Unsere Agenten erreichen das Zentrum der Struktur. Wie sich herausstellt, ist das ganze Gebäude eine militärische Kommandozentrale mit einem geladenen Raketensilo in der Mitte. Um die Rakete im Silo zu bergen, müssen wir das ganze Gebäude in zwei Teile schneiden. Die schwere Keramikpanzerung des Gebäudes bedeutet, dass die Schneider eine ganze Menge Energie benötigen.	400
 'choiceText	'Retrieve missile [-50 fuel]	'Rakete bergen [-50 Treibstoff]	100
 'text	'"Not enough fuel to power the cutting operation."	'"Nicht genug Treibstoff für die Schneidoperation."	600
 'text	'Cutting armored building... %	'Schneiden des gepanzerten Gebäudes... %	50
@@ -4946,7 +4946,7 @@
 'text	'Search operation... %	'Suchaktion... %	50
 'text2	'We were unable to locate the energy source, but we may keep searching.	'Wir konnten die Energiequelle nicht lokalisieren, aber wir können weitersuchen.	400
 'text	'The underground complex is heavily armored. Our only option is to force our way in.	'Der unterirdische Komplex ist schwer gepanzert. Unsere einzige Möglichkeit ist, gewaltsam einzudringen.	400
-'choiceText	'Install energy cutters [-30 fuel]	'Energie-Cutter installieren [-30 Treibstoff]	100
+'choiceText	'Install energy cutters [-30 fuel]	'Energieschneider installieren [-30 Treibstoff]	100
 'text2	'The structure proved to be nothing less than extraordinary. It's a precursor supply depot, full of amazing technology and resources.	'Die Struktur erwies sich als nichts weniger als außergewöhnlich. Es ist ein Vorläufer-Versorgungsdepot, voll mit erstaunlicher Technologie und Ressourcen.	400
 'reasonToDisplay	'structure looted	'Struktur geplündert	30
 'text2	'The explosions woke up an underground warp worm who had presumably been attracted to the location because of the warp energies. It destroyed all our bots on the site, operations aborted.	'Die Explosionen weckten einen unterirdischen Warpwurm, der vermutlich wegen der Warpenergien zu diesem Ort hingezogen worden war. Er zerstörte alle unsere Bots auf dem Gelände, die Operationen wurden abgebrochen.	400
@@ -4960,7 +4960,7 @@
 'text	'The explosion was large, but didn't manage to break the rocky armor slab. We may try cutting it or carry out another detonation. The entire structure is weakened now, and our engineers think we have a high probability of breaking the defences in our next attempt.	'Die Explosion war groß, hat es aber nicht geschafft, die felsige Panzerplatte zu durchschlagen. Wir können versuchen, sie zu schneiden oder eine weitere Detonation durchzuführen. Die gesamte Struktur ist jetzt geschwächt, und unsere Ingenieure denken, dass wir eine hohe Wahrscheinlichkeit haben, die Panzerung beim nächsten Versuch zu durchbrechen.	600
 'text	'cutting armor... %	'Panzerung durchschneiden... %	50
 'text2	'The worm used a personal warphole to jump near the Mothership and take a large bite of it. The worm was ultimately defeatedm, but we had already received critical damage.	'Der Wurm nutzte ein persönliches Warpoloch, um in die Nähe des Mutterschiffs zu springen und einen großen Bissen davon zu nehmen. Der Wurm wurde schließlich besiegt, aber wir hatten bereits kritischen Schaden erlitten.	400
-'text2	'Our energy cutters managed to cut away several layers of the protection, but fuel allocated to the operation ran out before the cutting was finished. We may try cutting another round of cutting or try detonating the armor. The entire structure is weakened now, and our engineers think we have a fair probability of breaking the defences in our next attempt.	'Unsere Energie-Cutter schafften es, mehrere Schichten des Schutzes wegzuschneiden, aber der für die Operation bereitgestellte Treibstoff ging zur Neige, bevor das Schneiden beendet war. Wir können versuchen, eine weitere Runde zu schneiden oder die Panzerung zur Explosion zu bringen. Die gesamte Struktur ist jetzt geschwächt, und unsere Ingenieure denken, dass wir eine faire Wahrscheinlichkeit haben, die Verteidigungsanlagen bei unserem nächsten Versuch zu durchbrechen.	400
+'text2	'Our energy cutters managed to cut away several layers of the protection, but fuel allocated to the operation ran out before the cutting was finished. We may try cutting another round of cutting or try detonating the armor. The entire structure is weakened now, and our engineers think we have a fair probability of breaking the defences in our next attempt.	'Unsere Energieschneider schafften es, mehrere Schichten des Schutzes wegzuschneiden, aber der für die Operation bereitgestellte Treibstoff ging zur Neige, bevor das Schneiden beendet war. Wir können versuchen, eine weitere Runde zu schneiden oder die Panzerung zur Explosion zu bringen. Die gesamte Struktur ist jetzt geschwächt, und unsere Ingenieure denken, dass wir eine faire Wahrscheinlichkeit haben, die Verteidigungsanlagen bei unserem nächsten Versuch zu durchbrechen.	400
 'reasonToDisplay	'operation costs	'Einsatzkosten	30
 
 '4 P precursor war robot.prefab
@@ -4970,8 +4970,8 @@
 'text2	'The robot nods simply and looks intensely at the ground in front of it. Pieces of planet surface become afloat and start to transform. In a few minutes, a fully functional weapon is formed. "TAKE, GO" the robot says and goes silent.	'Der Roboter nickt einfach und schaut intensiv auf den Boden vor ihm. Teile der Planetenoberfläche werden flott und beginnen sich zu verwandeln. In wenigen Minuten ist eine voll funktionsfähige Waffe entstanden. "NIMM, GEH" sagt der Roboter und verstummt.	400
 'title	'Large robot	'Großer Roboter	35
 'text	'Incredibly, the warp energy emanates from a large robot. Its warp energy suggests precursor technology. As the crew approaches in a shuttle, they suddenly get the unnerving feeling that somebody is actively reading their minds. "YOU NEED MORE RAW POWER" the robot states coldly in your mind, "MAKE CHOICE". You feel as if somebody is poking three mental concepts in your head.	'Unglaublicherweise geht die Warpenergie von einem großen Roboter aus. Seine Warpenergie lässt auf eine Vorläufertechnologie schließen. Als sich die Besatzung in einem Shuttle nähert, haben sie plötzlich das beunruhigende Gefühl, dass jemand aktiv ihre Gedanken liest. "SIE BRAUCHEN MEHR ROHE KRAFT", sagt der Roboter kalt in ihren Gedanken, "WÄHLEN SIE". Sie haben das Gefühl, als würde jemand drei mentale Konzepte in Ihrem Kopf stochern.	400
-'choiceText	'Choose robustness	'Wählen Sie Robustheit	100
-'choiceText	'Choose temporality	'Wähle Zeitlichkeit	100
+'choiceText	'Choose robustness	'Wähle Belastbarkeit	100
+'choiceText	'Choose temporality	'Wähle Zeithaftigkeit	100
 'choiceText	'Choose focus	'Wähle Fokus	100
 'text2	'The robot simply nods and looks intensely at the ground in front of it. Pieces of planet surface come adrift and start to transform. In a few minutes, a fully functional weapon is formed. "TAKE, GO" the robot says and goes silent.	'Der Roboter nickt nur und blickt intensiv auf den Boden vor ihm. Teile der Planetenoberfläche lösen sich ab und beginnen sich zu transformieren. In wenigen Minuten ist eine voll funktionsfähige Waffe entstanden. "NIMM, GEH", sagt der Roboter und verstummt.	400
 'text	'Incredibly, the warp energy emanates from a large robot. It's warp energy suggests precursor technology. As the crew approaches in a shuttle, they suddenly get the unnerving feeling that somebody is actively reading their minds."LEAVE NOW" the robot states coldly in their mind.	'Unglaublich, die Warpenergie geht von einem großen Roboter aus. Es ist Warpenergie, die auf eine Vorläufertechnologie schließen lässt. Als sich die Besatzung in einem Shuttle nähert, haben sie plötzlich das beunruhigende Gefühl, dass jemand aktiv ihre Gedanken liest. "GEH JETZT", sagt der Roboter kalt in ihren Gedanken.	400
@@ -4997,9 +4997,9 @@
 'text	'There is a technologically advanced beacon on this planet, protected by strong "solidified" warpfield. Tests reveal it also bends gravitational force and extends underground, effectively isolating its contents from the environment. We could try to overpower the shield with sustained fire from ray weapons, but this might cost a lot of energy.	'Es gibt ein technologisch fortschrittliches Leuchtfeuer auf diesem Planeten, geschützt durch ein starkes "verfestigtes" Warpfeld. Tests haben ergeben, dass es auch die Gravitationskraft beugt und sich unterirdisch erstreckt, so dass der Inhalt effektiv von der Umwelt isoliert ist. Wir könnten versuchen, den Schild mit anhaltendem Feuer von Strahlenwaffen zu überwinden, aber das könnte sehr viel Energie kosten.	400
 'choiceText	'Sustained energy weapon fire [-50 fuel or less]	'Anhaltendes Energiewaffenfeuer [-50 Treibstoff oder weniger]	100
 'newName3	'precursor technology	'Vorläufertechnologie	25
-'text2	'After several hours of sustained fire from all of our energy weapons and cutters, we were able to overpower the precursor shield and get to the advanced technology inside. Unfortunately, the piece of technology which made the shield inpenetrable burned up when we overpowered the shields.	'Nach mehreren Stunden Dauerfeuer aus all unseren Energiewaffen und Cuttern waren wir in der Lage, den Vorläufer-Schild zu überwältigen und an die fortschrittliche Technologie im Inneren zu gelangen. Leider ist das Stück Technologie, das den Schild undurchdringlich machte, verbrannt, als wir die Schilde überwältigt haben.	400
+'text2	'After several hours of sustained fire from all of our energy weapons and cutters, we were able to overpower the precursor shield and get to the advanced technology inside. Unfortunately, the piece of technology which made the shield inpenetrable burned up when we overpowered the shields.	'Nach mehreren Stunden Dauerfeuer aus all unseren Energiewaffen und -schneidern waren wir in der Lage, den Vorläufer-Schild zu überwältigen und an die fortschrittliche Technologie im Inneren zu gelangen. Leider ist das Stück Technologie, das den Schild undurchdringlich machte, verbrannt, als wir die Schilde überwältigt haben.	400
 'title	'Shield overloaded	'Schild überlastet	35
-'text2	'We were able to overload the shield after several hours of sustained energy cutter fire. Unfortunately, overloading the shield generator caused all the fine technology in the beacon to fry up beyond repair.	'Nach mehreren Stunden anhaltenden Energie-Cutter-Feuers konnten wir den Schild überlasten. Unglücklicherweise führte die Überlastung des Schildgenerators dazu, dass die gesamte feine Technologie in der Bake irreparabel verbrannte.	400
+'text2	'We were able to overload the shield after several hours of sustained energy cutter fire. Unfortunately, overloading the shield generator caused all the fine technology in the beacon to fry up beyond repair.	'Nach mehreren Stunden anhaltenden Energieschneider-Feuers konnten wir den Schild überlasten. Unglücklicherweise führte die Überlastung des Schildgenerators dazu, dass die gesamte feine Technologie in der Bake irreparabel verbrannte.	400
 'reasonToDisplay	'beacon remains scavenged	'Überreste der Bake sind verschrottet	30
 'title	'Attempts aborted	'Versuche abgebrochen	35
 'text2	'We didn't detect any changes in the shield strength after burning up large amounts of fuel keeping up sustained energy fire. Existence of seemingly impenetrable precursor shields has been reported before and we've decided to give up on this one. At least documentation of the attempt has scientific value.	'Wir konnten keine Veränderungen in der Schildstärke feststellen, nachdem wir große Mengen an Treibstoff verbrannt hatten, um das anhaltende Energiefeuer aufrechtzuerhalten. Über die Existenz von scheinbar undurchdringlichen Vorläuferschilden wurde schon früher berichtet und wir haben beschlossen, diesen Versuch abzubrechen. Zumindest hat die Dokumentation des Versuchs wissenschaftlichen Wert.	400
@@ -6685,10 +6685,10 @@
 'SOS shop with tech junk, generous.prefab
 'displayName	'space scavenger	'Weltraum-Plünderer	25
 'title	'Space scavengers	'Weltraum-Plünderer	35
-'text2	'A tech scavenger ship has detected our SOS signal.\n"Merry existence, calcium skeleton ape! We've sent you a help package! If you're in need of resources such as fuel or organics, perhaps you can buy our junk and scrap it, to get whatever materials you need."	'Ein technisches Plündererschiff hat unser SOS-Signal entdeckt. "Frohes Dasein, Kalziumskelett-Affe! Wir haben dir ein Hilfspaket geschickt! Wenn Sie Ressourcen wie Treibstoff oder Organik benötigen, können Sie vielleicht unseren Schrott kaufen und verschrotten, um die Materialien zu erhalten, die Sie benötigen."	400
+'text2	'A tech scavenger ship has detected our SOS signal.\n"Merry existence, calcium skeleton ape! We've sent you a help package! If you're in need of resources such as fuel or organics, perhaps you can buy our junk and scrap it, to get whatever materials you need."	'Ein Tech-Plündererschiff hat unser SOS-Signal entdeckt. "Frohes Dasein, Kalziumskelett-Affe! Wir haben dir ein Hilfspaket geschickt! Wenn Sie Ressourcen wie Treibstoff oder Organik benötigen, können Sie vielleicht unseren Schrott kaufen und verschrotten, um die Materialien zu erhalten, die Sie benötigen."	400
 
 'SOS shop with tech junk.prefab
-'text	'A tech scavenger ship has detected our SOS signal.\n"Merry existence, calcium skeleton ape. We have scavenged tech to sell! If you're in need of resources such as fuel or organics, perhaps you can buy our junk and scrap it, to get whatever materials you need."	'Ein Tech-Scavenger-Schiff hat unser SOS-Signal entdeckt. "Frohes Schaffen, Kalziumskelett-Affe. Wir haben geplünderte Technologie zu verkaufen! Wenn Sie Ressourcen wie Treibstoff oder Organik benötigen, können Sie vielleicht unseren Schrott kaufen und verschrotten, um die Materialien zu erhalten, die Sie benötigen."	400
+'text	'A tech scavenger ship has detected our SOS signal.\n"Merry existence, calcium skeleton ape. We have scavenged tech to sell! If you're in need of resources such as fuel or organics, perhaps you can buy our junk and scrap it, to get whatever materials you need."	'Ein Tech-Plündererschiff hat unser SOS-Signal entdeckt. "Frohes Schaffen, Kalziumskelett-Affe. Wir haben geplünderte Technologie zu verkaufen! Wenn Sie Ressourcen wie Treibstoff oder Organik benötigen, können Sie vielleicht unseren Schrott kaufen und verschrotten, um die Materialien zu erhalten, die Sie benötigen."	400
 
 'SOS Smuggler L6 slaver metal trader.prefab
 'displayName	'trade ship	'Handelsschiff	25
@@ -7284,9 +7284,9 @@
 
 'Merchants L236 bulk DIY tech.prefab
 'text	'Merry existence, bone apes, we have heard of you! Might you be interested in bulk trading of manually assembled substandard technology? We have the finest prices.	'Fröhliches Dasein, Knochenaffen, wir haben von euch gehört! Sind Sie vielleicht an einem Großhandel mit selbstgebauter minderwertiger Technik interessiert? Wir haben die besten Preise.	400
-'choiceText	'Buy 2 manually assembled cryosleep units for 100 credits	'Kaufen [+2 DIY Kryoschlafmodule, -100 Kredite]	100
-'choiceText	'Buy 3 manually assembled shield batteries for 200 credits	'Kaufen [+3 DIY Schildbatterien, -200 Kredite]	100
-'choiceText	'Buy 3 manually assembled reactors for 200 credits	'Kaufen [+3 DIY Reaktoren, -200 Kredite]	100
+'choiceText	'Buy 2 manually assembled cryosleep units for 100 credits	'Kaufen [+2 selbstgebaute Kryoschlafmodule, -100 Kredite]	100
+'choiceText	'Buy 3 manually assembled shield batteries for 200 credits	'Kaufen [+3 selbstgebaute Schildbatterien, -200 Kredite]	100
+'choiceText	'Buy 3 manually assembled reactors for 200 credits	'Kaufen [+3 selbstgebaute Reaktoren, -200 Kredite]	100
 'text2	'The DIY cryosleep modules are in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a large barrel of water, sweetened with sugar.	'Die selbstgebauten Kryoschlafmodule sind in tadellosem Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und ein großes Fass Wasser, gesüßt mit Zucker, hinterlassen.	400
 'text2	'All the batteries are manually assembled from spare parts as expected. The traders have obviously heard of humans, because they have left a large cylinder filled with alcohol and sugar as a bonus to the trade.	'Alle Batterien sind, wie erwartet, von Hand aus Ersatzteilen zusammengebaut. Die Händler haben offensichtlich von Menschen gehört, denn sie haben eine große Flasche gefüllt mit Alkohol und Zucker als Bonus für den Handel hinterlassen.	400
 'text2	'"Thank you for the smooth transaction. Please accept this small gift as an additional token of our gratitude!" The traders have obviously heard of humans, because they have gifted us a barrel filled with a mixture of sugar, salt, alcohol and potatoes.	'"Danke für die reibungslose Transaktion. Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an!" Die Händler haben offensichtlich von den Menschen gehört, denn sie haben uns ein Fass, gefüllt mit einer Mischung aus Zucker, Salz, Alkohol und Kartoffeln, geschenkt.	400
@@ -7331,7 +7331,7 @@
 
 'Merchants L4 metal trader techum.prefab
 'title	'Metals trader	'Metallhändler	35
-'text	'"Merry existence to you, fellow distributed consciousness system! Want some metal? We're also paying top prices for exotics."	'"Fröhliches Dasein für dich, Mitstreiter im verteilten Bewusstseinssystem! Want some metal? Wir zahlen auch Spitzenpreise für Exoten."	400
+'text	'"Merry existence to you, fellow distributed consciousness system! Want some metal? We're also paying top prices for exotics."	'"Fröhliches Dasein für dich, Mitstreiter im verteilten Bewusstseinssystem! Braucht ihr ein bisschen Metall? Wir zahlen auch Spitzenpreise für Exoten."	400
 'text2	'"Our sincere thanks for trading with us. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew called "Burnerbooze". It is meant for cyborgs only and can be burned as starfuel.	'"Herzlichen Dank, dass Sie mit uns handeln. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu namens "Nachbrennerschnaps" geschenkt. Es ist nur für Cyborgs gedacht und kann als Sternentreibstoff verbrannt werden.	400
 'text2	'"We commend your trading routines. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a ceramic atomic-blast proof sculpture, depicting three Techum sexual organs in their original, organic form. A truly unique tradition expressing the source of everything.	'"Wir loben Ihre Handelsroutinen. Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die Händler haben uns eine atomsprengungssichere Keramikskulptur geschenkt, die drei Techum-Sexualorgane in ihrer ursprünglichen, organischen Form darstellt. Eine wahrhaft einzigartige Tradition, die die Quelle von allem zum Ausdruck bringt.	400
 'text2	'"We appreciate your efficient and accurate trading behaviour. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew called "Thermobrainer". It is meant for cyborgs only and can be burned as starfuel.	'"Wir schätzen Ihr effizientes und präzises Handelsverhalten. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu namens "Thermodenker" geschenkt. Es ist nur für Cyborgs gedacht und kann als Sternentreibstoff verbrannt werden.	400
@@ -7501,7 +7501,7 @@
 'displayName	'Acid Spray	'Säure-Sprühregen	25
 
 'Hand weapon acidgun.prefab
-'displayName	'DIY acid spewer	'DIY-Säurespucker	25
+'displayName	'DIY acid spewer	'Selbstbau-Säurespucker	25
 'description	'An improvised weapon spewing jets of molecular acid. \nVery short range.	'Eine improvisierte Waffe, die Strahlen aus molekularer Säure spuckt. \nSehr kurze Reichweite.	250
 
 'Hand weapon assaultrifle.prefab
@@ -7521,24 +7521,24 @@
 'description	'Rat handcannon with extreme spread. \nCollateral damage guaranteed. Medium range, slow reload.	'Ratten-Gewehr mit extremer Streuung. \nKollateralschaden garantiert. Mittlere Reichweite, langsames Nachladen.	250
 
 'Hand weapon diy crossbow.prefab
-'displayName	'DIY crossbow	'DIY-Armbrust	25
-'description	'Ancient projectile weapon, self-assembled from spare parts. \nSurprisingly accurate despite simplicity. \nMedium range, low rate of fire and damage.	'Uralte Projektilwaffe, selbst zusammengebaut aus Ersatzteilen. \nÜberraschend genau trotz Einfachheit. \nMittlere Reichweite, geringe Feuerrate und Schaden.	250
+'displayName	'DIY crossbow	'Selbstbau-Armbrust	25
+'description	'Ancient projectile weapon, self-assembled from spare parts. \nSurprisingly accurate despite simplicity. \nMedium range, low rate of fire and damage.	'Uralte Projektilwaffe, selbst zusammengebaut aus Ersatzteilen. \nÜberraschend genau trotz Simplizität. \nMittlere Reichweite, geringe Feuerrate und Schaden.	250
 
 'Hand weapon diy pistol.prefab
-'displayName	'DIY pistol	'DIY-Pistole	25
-'description	'Do-it-yourself pistol. Small magazine, pretty inaccurate.	'DIY-Pistole. Kleines Magazin, ziemlich ungenau.	250
+'displayName	'DIY pistol	'Selbstbau-Pistole	25
+'description	'Do-it-yourself pistol. Small magazine, pretty inaccurate.	'Kleines Magazin, ziemlich ungenau.	250
 
 'Hand weapon diylasergun.prefab
-'displayName	'DIY laser rifle	'DIY-Lasergewehr	25
+'displayName	'DIY laser rifle	'Selbstbau-Lasergewehr	25
 'description	'Custom laser gun made from scraps, requires a cooldown after each shot.\nExtreme range & accuracy, low damage.	'Selbstgebautes Lasergewehr aus Schrott, erfordert eine Abkühlzeit nach jedem Schuss. \nExtreme Reichweite & Genauigkeit, geringer Schaden.	250
 
 'Hand weapon diyrailgun.prefab
-'displayName	'DIY Railgun	'DIY-Schienenwaffe	25
+'displayName	'DIY Railgun	'Selbstbau-Schienenwaffe	25
 'description	'A simple railgun assembled from spare parts. \nHigh accuracy, medium damage, low rate of fire.	'Eine einfache Schienenwaffe, die aus Ersatzteilen zusammengebaut wurde. \nHohe Genauigkeit, mittlerer Schaden, niedrige Feuerrate.	250
 
 'Hand weapon drone flamer.prefab
 'displayName	'Flamer	'Flamenwerfer	25
-'description	'A simple liquid ejector customized into a DIY flamer. \nFocused heatflow technology ensures lack of collateral damage.	'Ein einfacher Flüssigkeitsausstoßer, der zu einem DIY-Flamenwerfer umgebaut wurde. \nFokussierte Wärmestromtechnologie sorgt für einen Mangel an Kollateralschäden.	250
+'description	'A simple liquid ejector customized into a DIY flamer. \nFocused heatflow technology ensures lack of collateral damage.	'Ein einfacher Flüssigkeitsausstoßer, der zu einem Flamenwerfer umgebaut wurde. \nFokussierte Wärmestromtechnologie sorgt für einen Mangel an Kollateralschäden.	250
 
 'Hand weapon drone liquid nitrogen spray.prefab
 'displayName	'Liquid nitrogen spray	'Flüssigstickstoff-Sprühregen	25
@@ -7653,7 +7653,7 @@
 'appearance[i].description	'Essentially a walking fire extinguisher. Extremely limited capabilities. Fire-resistant body.	'Im Grunde ein wandelnder Feuerlöscher. Extrem eingeschränkte Fertigkeiten. Feuerfester Körper.	250
 
 'Drone DIY guard.prefab
-'appearance[i].description	'Internal DIY security drone. Cannot repair, can only destroy.	'Interne DIY-Sicherheitsdrohne. Kann nicht reparieren, nur zerstören.	250
+'appearance[i].description	'Internal DIY security drone. Cannot repair, can only destroy.	'Interne selbstgebaute Sicherheitsdrohne. Kann nicht reparieren, nur zerstören.	250
 
 'Drone DIY gunjunker.prefab
 'appearance[i].description	'A repurposed industrial drone, fitted with armor & custom-made weapon. Very durable and fire resistant, has a turtle-based AI.	'Eine umfunktionierte Industriedrohne, ausgestattet mit Panzerung und speziell angefertigter Waffe. Sehr robust und feuerfest, hat eine schildkrötenbasierte KI.	250
@@ -7662,10 +7662,10 @@
 'appearance[i].description	'Gunnery drone with limited capabilities. Can operate only weapon modules. Cannot repair.	'Geschützdrohne mit eingeschränkten Fertigkeiten. Kann nur Waffenmodule bedienen. Kann nicht reparieren.	250
 
 'Drone DIY repairer.prefab
-'appearance[i].description	'DIY Maintenance drone with limited capabilities. Cannot operate modules.	'DIY-Wartungsdrohne mit eingeschränkten Fertigkeiten. Kann keine Module bedienen.	250
+'appearance[i].description	'DIY Maintenance drone with limited capabilities. Cannot operate modules.	'Selbstbau-Wartungsdrohne mit eingeschränkten Fertigkeiten. Kann keine Module bedienen.	250
 
 'Drone DIY science.prefab
-'appearance[i].description	'DIY lab drone with an octopus-based AI. Can work in the lab or help with planetary research operations.	'DIY-Labordrohne mit einer krakenbasierten KI. Kann im Labor arbeiten oder bei planetaren Forschungsarbeiten helfen.	250
+'appearance[i].description	'DIY lab drone with an octopus-based AI. Can work in the lab or help with planetary research operations.	'Selbstbau-Labordrohne mit einer krakenbasierten KI. Kann im Labor arbeiten oder bei planetaren Forschungsarbeiten helfen.	250
 
 'Drone DIY sensor.prefab
 'appearance[i].description	'A custom-made drone that knows how to operate ship sensors.	'Eine maßgefertigte Drohne, die die Schiffssensoren bedienen kann.	250
@@ -7792,9 +7792,9 @@
 'appearance[i].description	'Slaver warrior. Numerous body modifications and questionable implants.	'Sklavenhändler-Krieger. Zahlreiche Körpermodifikationen und fragwürdige Implantate.	250
 'appearance[i].description	'Slaver warrior. Packed with various body modifications and implants.	'Sklavenhändler-Krieger. Vollgepackt mit diversen Körpermodifikationen und Implantaten.	250
 'appearance[i].description	'Slaver warrior. Body covered in scars.	'Sklavenhändler-Krieger. Körper bedeckt mit Narben.	250
-'appearance[i].description	'Slaver warrior. Numerous DIY body modifications.	'Sklavenhändler-Krieger. Zahlreiche DIY-Körpermodifikationen.	250
-'appearance[i].description	'Slaver warrior. Numerous DIY implants.	'Sklavenhändler-Krieger. Zahlreiche DIY-Implantate.	250
-'appearance[i].description	'Slaver warrior. Large number of DIY implants	'Sklavenhändler-Krieger. Zahlreiche DIY-Implantate	250
+'appearance[i].description	'Slaver warrior. Numerous DIY body modifications.	'Sklavenhändler-Krieger. Zahlreiche Selbstbau-Körpermodifikationen.	250
+'appearance[i].description	'Slaver warrior. Numerous DIY implants.	'Sklavenhändler-Krieger. Zahlreiche Selbstbau-Implantate.	250
+'appearance[i].description	'Slaver warrior. Large number of DIY implants	'Sklavenhändler-Krieger. Zahlreiche Selbstbau-Implantate	250
 
 'Spideraa crew.prefab
 'appearance[i].description	'Spideraa space warrior	'Spinner-Weltraum-Krieger	250
@@ -7978,37 +7978,37 @@
 'displayName	'Bullseye nuke	'Bullaugen-Bombe	35
 
 'Decoy DIY nuke.prefab
-'displayName	'Decoy DIY nuke	'DIY Täuschungsbombe	35
+'displayName	'Decoy DIY nuke	'Selbstbau-Täuschungsbombe	35
 
 'Decoy nuke.prefab
 'displayName	'Decoy nuke	'Täuschungsbombe	35
 
 'DIY Acid nuke.prefab
-'displayName	'Acid DIY nuke	'DIY Säurebombe	35
+'displayName	'Acid DIY nuke	'Selbstbau-Säurebombe	35
 
 'DIY bio nuke.prefab
-'displayName	'DIY biotech nuke	'DIY-Biotech-Bombe	35
+'displayName	'DIY biotech nuke	'Selbstbau-Biotech-Bombe	35
 
 'DIY drone nuke.prefab
-'displayName	'DIY drone nuke	'DIY-Drohnen-Bombe	35
+'displayName	'DIY drone nuke	'Selbstbau-Drohnen-Bombe	35
 
 'DIY exotic nuke.prefab
-'displayName	'DIY exotic nuke	'DIY Exoten-Bombe	35
+'displayName	'DIY exotic nuke	'Selbstbau Exoten-Bombe	35
 
 'DIY expbomb nuke.prefab
-'displayName	'DIY explosivepack nuke	'DIY Sprengstoff-Paket Bombe	35
+'displayName	'DIY explosivepack nuke	'Selbstbau-Sprengstoff-Paket Bombe	35
 
 'DIY fuelbomb nuke.prefab
-'displayName	'DIY fuelpack nuke	'DIY Treibstoff-Bombe	35
+'displayName	'DIY fuelpack nuke	'Selbstbau-Treibstoff-Bombe	35
 
 'DIY incendiary nuke.prefab
-'displayName	'DIY incendiary nuke	'DIY Brandbombe	35
+'displayName	'DIY incendiary nuke	'Selbstbau-Brandbombe	35
 
 'DIY plastics nuke.prefab
-'displayName	'DIY plastics nuke	'DIY Plastiksprengstoff-Bombe	35
+'displayName	'DIY plastics nuke	'Selbstbau-Plastiksprengstoff-Bombe	35
 
 'DIY shieldbreaker nuke.prefab
-'displayName	'DIY shieldbreaker nuke	'DIY Schildbrecher-Bombe	35
+'displayName	'DIY shieldbreaker nuke	'Selbstbau-Schildbrecher-Bombe	35
 
 'DIY thin nuke.prefab
 'displayName	'Nanopellet nuke	'Nanopellet-Bombe	35
@@ -8051,7 +8051,7 @@
 'displayName	'Rat incendiary nuke	'Ratten-Brandbombe	35
 
 'Scrap nuke 1.prefab
-'displayName	'DIY EMP nuke	'DIY EMP-Bombe	35
+'displayName	'DIY EMP nuke	'Selbstbau-EMP-Bombe	35
 
 'Spearhead nuke.prefab
 'displayName	'Spearhead nuke	'Speerspitze-Bombe	35
@@ -8352,7 +8352,7 @@
 'displayName	'Command Bridge, biotech-3	'Kommandobrücke, biotech-3	40
 
 'exotics container 0 diy.prefab
-'displayName	'Exotics container (DIY)	'Exoten-Behälter (DIY)	40
+'displayName	'Exotics container (DIY)	'Exoten-Behälter (Selbstbau)	40
 'description	'Increases exotics storage capacity.	'Erhöht die Lagerkapazität für Exoten.	200
 
 'exotics container 1 small.prefab
@@ -8366,7 +8366,7 @@
 'displayName	'Exotics container (large)	'Exoten-Behälter (groß)	40
 
 'explosives container 0 diy.prefab
-'displayName	'Explosives storage (DIY)	'Sprengstoffe-Behälter (DIY)	40
+'displayName	'Explosives storage (DIY)	'Sprengstoffe-Behälter (Selbstbau)	40
 'description	'Increases explosives storage capacity.	'Erhöht die Lagerkapazität für Sprengstoffe.	200
 
 'explosives container 1 small.prefab
@@ -8379,7 +8379,7 @@
 'displayName	'Explosives storage (large)	'Sprengstoffe-Behälter (groß)	40
 
 'fuel container 0 diy.prefab
-'displayName	'Fuel tank (DIY)	'Treibstoff-Behälter (DIY)	40
+'displayName	'Fuel tank (DIY)	'Treibstoff-Behälter (Selbstbau)	40
 'description	'Increases fuel storage capacity. Damage results in rapid loss of fuel.	'Erhöht die Treibstoffspeicherkapazität. Eine Beschädigung führt zu einem schnellen Verlust des Treibstoffs.	200
 
 'fuel container 1 bio.prefab
@@ -8405,7 +8405,7 @@
 'displayName	'Fuel tank extra large	'Treibstoff-Behälter extra groß	40
 
 'metals container 0 diy.prefab
-'displayName	'Metals container (DIY)	'Metalle-Behälter (DIY)	40
+'displayName	'Metals container (DIY)	'Metalle-Behälter (Selbstbau)	40
 'description	'Increases metal storage capacity. Robust structure adds ship HP.	'Erhöht die Speicherkapazität für Metalle. Robuste Struktur erhöht die Schiffs-HP.	200
 
 'metals container 1 small.prefab
@@ -8426,11 +8426,11 @@
 'description	'Increases storage capacity of organics & fuel. Advanced biotech materials increase ship HP.	'Erhöht die Lagerkapazität von Treibstoff und Organik. Fortschrittliche Biotech-Materialien erhöhen die Schiffs-HP.	200
 
 'multicontainer DIY EE.prefab
-'displayName	'Exotics & Explosives storage (DIY)	'Exoten- & Sprengstoffe-Behälter (DIY)	40
+'displayName	'Exotics & Explosives storage (DIY)	'Exoten- & Sprengstoffe-Behälter (Selbstbau)	40
 'description	'Increases storage capacity of explosives & exotics.	'Erhöht die Lagerkapazität von Sprengstoffen und Exoten.	200
 
 'multicontainer DIY FO.prefab
-'displayName	'DIY Multi-container FO	'DIY Multibehälter TO	40
+'displayName	'DIY Multi-container FO	'Selbstbau-Multibehälter TO	40
 'description	'Increases storage capacity of organics & fuel.	'Erhöht die Lagerkapazität für Treibstoff und Organik.	200
 
 'multicontainer EOME spideraa.prefab
@@ -8453,7 +8453,7 @@
 'description	'Increases storage capacity of organics, fuel & exotics. Heavy metal walls required for holding exotics also increase ship HP.	'Erhöht die Lagerkapazität von Treibstoff, Exoten und Organik. Schwere Metallwände, die für die Aufnahme von Exoten erforderlich sind, erhöhen auch die HP des Schiffs.	200
 
 'multicontainer FExo DIY armor.prefab
-'displayName	'DIY multicontainer (fuel/exotics)	'DIY-Multibehälter (Treibstoff/Exoten)	40
+'displayName	'DIY multicontainer (fuel/exotics)	'Selbstbau-Multibehälter (Treibstoff/Exoten)	40
 'description	'Increases fuel & exotics storage capacity. Robust structure improves ship HP.	'Erhöht die Lagerkapazität für Treibstoff und Exoten. Die robuste Struktur verbessert die Schiffs-HP.	200
 
 'multicontainer FOO-1.prefab
@@ -8492,7 +8492,7 @@
 'description	'Increases storage capacity of organics, metals & synthetics.	'Erhöht die Lagerkapazität von Organik, Metallen und Kunststoffen.	200
 
 'organics container 0 diy.prefab
-'displayName	'Organics container (DIY)	'Organik-Behälter (DIY)	40
+'displayName	'Organics container (DIY)	'Organik-Behälter (Selbstbau)	40
 'description	'Increases organics storage capacity.	'Erhöht die Lagerkapazität für Organik.	200
 
 'organics container 1 bio.prefab
@@ -8515,7 +8515,7 @@
 'displayName	'Organics container (extended x-large)	'Organik-Behälter (erweitert x-groß)	40
 
 'synthetics container 0 diy.prefab
-'displayName	'Synthetics container (DIY)	'Kunststoffe-Behälter (DIY)	40
+'displayName	'Synthetics container (DIY)	'Kunststoffe-Behälter (Selbstbau)	40
 'description	'Increases synthethics storage capacity.	'Erhöht die Speicherkapazität für Kunststoffe.	200
 
 'synthetics container1 small.prefab
@@ -8528,7 +8528,7 @@
 'displayName	'Synthetics container (large)	'Kunststoffe-Behälter (groß)	40
 
 'cryosleep 1 DIY.prefab
-'displayName	'DIY cryosleepx1	'DIY-Kryoschlaf x1	40
+'displayName	'DIY cryosleepx1	'Selbstbau-Kryoschlaf x1	40
 'description	'Crew in cryosleep requires no organics & might heal wounds while the ship is driving around.	'Die Besatzung im Kryoschlaf benötigt keine organischen Stoffe & kann Wunden heilen, während das Schiff herumfliegt.	200
 
 'cryosleep 2x human small.prefab
@@ -8552,7 +8552,7 @@
 'displayName	'Cryosleepx8, insectoidian military	'Kryotraum x8, Insektoides Militär	40
 
 'dream recorder 1 DIY.prefab
-'displayName	'DIY cryodream recorder	'DIY-Kryoschlaf-Traumrekorder	40
+'displayName	'DIY cryodream recorder	'Selbstbau-Kryoschlaf-Traumrekorder	40
 'description	'Crew sleeping in this module requires no organics & might heal wounds during ship movement. The module also records user dreams as xenodata during ship movement.	'Die Besatzung, die in diesem Modul schläft, benötigt keine organischen Stoffe und kann während der Schiffsbewegung Wunden heilen. Das Modul zeichnet auch Benutzerträume als Xenodaten während der Schiffsbewegung auf.	200
 
 'dream recorder 1 rats.prefab
@@ -8575,7 +8575,7 @@
 'description	'Hybrid platform for electronic countermeasures. Increases ship evasion & HP, requires a hybrid slot.	'Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Ausweichfähigkeit und die HP des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 'ECM 0 DIY.prefab
-'displayName	'DIY ECM turret	'DIY EGM-Geschützturm	40
+'displayName	'DIY ECM turret	'Selbstbau-EGM-Geschützturm	40
 'description	'Hybrid platform for electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	'Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 'ECM 0 terran old.prefab
@@ -8670,7 +8670,7 @@
 'description	'A very advanced engine with reduced power consumption. Dense structure improves ship HP.	'Ein sehr fortschrittliches Triebwerk mit reduziertem Stromverbrauch. Die dichte Struktur verbessert die Schiffs-HP.	200
 
 'garden 1 DIY.prefab
-'displayName	'DIY microgrowery	'DIY-Mikrogärtnerei	40
+'displayName	'DIY microgrowery	'Selbstbau-Mikrogärtnerei	40
 'description	'Growery of bio-engineered lichen. Uses excess heat generated with ship movement, and removes operator organics consumption. Extremely fragile and needs extra power.	'Biotechnologische Flechten-Gärtnerei. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und beseitigt den Organikverbrauch des Personals. Äußerst zerbrechlich und benötigt zusätzliche Energie.	200
 
 'garden 2 minigrow.prefab
@@ -8696,23 +8696,23 @@
 'description	'This ancient hardpoint can be installed to gain extra ship HP, even during an emergency.	'Dieser uralte Ansatzpunkt kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 'integrity 0 DIY biotech.prefab
-'displayName	'DIY integrity hardpoint [bio]	'DIY-Integritäts-Ansatzpunkt [bio]	40
+'displayName	'DIY integrity hardpoint [bio]	'Selbstbau-Integritäts-Ansatzpunkt [bio]	40
 'description	'A crude integrity module made of durable organics. This module can be installed to instantly gain extra ship HP.	'Ein grobes Integritätsmodul, das aus haltbaren organischen Materialien besteht. Dieses Modul kann installiert werden, um sofort zusätzliche Schiffs-HP zu erhalten.	200
 
 'integrity 0 DIY carbon.prefab
-'displayName	'DIY integrity hardpoint [carbon]	'DIY-Integritäts-Ansatzpunkt [Kohlenstoff]	40
+'displayName	'DIY integrity hardpoint [carbon]	'Selbstbau-Integritäts-Ansatzpunkt [Kohlenstoff]	40
 'description	'A printed integrity module that improves ship HP but is very brittle itself. This module can be installed to instantly gain extra ship HP.	'Ein gedrucktes Integritätsmodul, das die Schiffs-HP verbessert, aber selbst sehr spröde ist. Dieses Modul kann installiert werden, um sofort zusätzliche Schiffs-HP zu erhalten.	200
 
 'integrity 0 DIY metal.prefab
-'displayName	'DIY integrity hardpoint	'DIY-Integritäts-Ansatzpunkt	40
+'displayName	'DIY integrity hardpoint	'Selbstbau-Integritäts-Ansatzpunkt	40
 'description	'Self-made integrity hardpoint that adds extra layers of internal ship armor. This module can be installed to gain extra ship HP, even during an emergency.	'Selbstgebauter Integritäts-Ansatzpunkt, der zusätzliche Schichten der internen Schiffspanzerung hinzufügt. Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 'integrity 0 DIY plastic.prefab
-'displayName	'DIY integrity hardpoint [plastics]	'DIY-Integritäts-Ansatzpunkt [Plastik]	40
+'displayName	'DIY integrity hardpoint [plastics]	'Selbstbau-Integritäts-Ansatzpunkt [Plastik]	40
 'description	'A printed integrity module that improves ship HP but is fairly brittle itself. This module can be installed to gain extra ship HP, even during an emergency.	'Ein gedrucktes Integritätsmodul, das die Schiffs-HP verbessert, aber selbst ziemlich brüchig ist. Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 'integrity 0 DIY scaled.prefab
-'displayName	'DIY integrity scales, S-8	'DIY-Integritätswaage, S-8	40
+'displayName	'DIY integrity scales, S-8	'Selbstbau-Integritätswaage, S-8	40
 'description	'Manually built hardpoint that adds an extra layer of internal ship armor. Can be installed to gain extra ship HP, even during an emergency.	'Manuell gebauter Ansatzpunkt, der eine zusätzliche Schicht der internen Schiffspanzerung hinzufügt. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200
 
 'integrity 00 Ratty.prefab
@@ -8758,7 +8758,7 @@
 'MaterialsConverter.resourceProductionReason	'produced by explosives combinator	'hergestellt durch Explosivstoff-Kombinator	30
 
 'explosives combinator diy.prefab
-'displayName	'Explosives combinator, DIY	'Sprengstoff-Kombinator, DIY	40
+'displayName	'Explosives combinator, DIY	'Sprengstoff-Kombinator, Selbstbau	40
 'description	'Instantly combines synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	'Kombiniert Kunststoffe und Treibstoff sofort zu Sprengstoffen. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200
 
 'explosives combinator tiger.prefab
@@ -8791,7 +8791,7 @@
 'MaterialsConverter.resourceProductionReason	'produced by synthethics cooker	'hergestellt durch Kunststoff-Kocher	30
 
 'dronebay 0 diy.prefab
-'displayName	'Drone repair DIY	'DIY Drohnen-Reparaturstation	40
+'displayName	'Drone repair DIY	'Selbstbau-Drohnen-Reparaturstation	40
 'description	'Improvised repair station for drones. Repairing each drone hitpoint requires a lot of synthetics.	'Improvisierte Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Trefferpunkts erfordert eine Menge Kunststoffe.	200
 'Medbay.healingStoppedLogMsg	'Warning, drone repairing stopped due to lack of synhtetics	'Warnung, die Drohnenreparatur wurde aufgrund des Mangels an Kunststoffen eingestellt	80
 
@@ -8829,7 +8829,7 @@
 'description	'This medical unit is alive and super efficient. It needs only a few organics to heal crew. Resilient tissue also improves ship HP.	'Diese medizinische Einheit ist lebendig und super effizient. Sie benötigt nur wenige Organics, um die Besatzung zu heilen. Das widerstandsfähige Gewebe verbessert auch die HP des Schiffes.	200
 
 '0 DIY PD.prefab
-'displayName	'DIY point-defence	'DIY-Punktabwehr	40
+'displayName	'DIY point-defence	'Selbstbau-Punktabwehr	40
 'description	'Intercepts asteroids, incoming missiles, slower projectiles and approaching boarders. Short range, cannot shoot at enemy ships.	'Fängt Asteroiden, ankommende Raketen, langsamere Geschosse und herannahende Enterer ab. Kurze Reichweite, kann nicht auf feindliche Schiffe schießen.	200
 
 '1 Rat PD.prefab
@@ -8868,8 +8868,8 @@
 'description	'Reactors are necessary for powering ship modules.	'Reaktoren sind für die Energieversorgung von Schiffsmodulen notwendig.	200
 
 'reactor 11 single biofruit DIY.prefab
-'displayName	'DIY bioreactor (Bluefruit)	'DIY-Bioreaktor (Blaufrucht)	40
-'description	'Reactors are necessary for powering ship modules. This DIY biotech reactor relies on warp power and has zero chance of malfunctions.	'Reaktoren sind für die Energieversorgung von Schiffsmodulen notwendig. Dieser DIY-Biotech-Reaktor verlässt sich auf Warpenergie und hat keine Chance auf Fehlfunktionen.	200
+'displayName	'DIY bioreactor (Bluefruit)	'Selbstbau-Bioreaktor (Blaufrucht)	40
+'description	'Reactors are necessary for powering ship modules. This DIY biotech reactor relies on warp power and has zero chance of malfunctions.	'Reaktoren sind für die Energieversorgung von Schiffsmodulen notwendig. Dieser selbstgebaute Biotech-Reaktor verlässt sich auf Warpenergie und hat keine Chance auf Fehlfunktionen.	200
 
 'reactor 12 custom old.prefab
 'displayName	'Custom energy reactor (unstable)	'Selbstgebauter Energiereaktor (Instabil)	40
@@ -8941,7 +8941,7 @@
 'description	'The reactor is necessary for powering ship modules.	'Der Reaktor wird für die Energieversorgung von Schiffsmodulen benötigt.	200
 
 'reactor 9 biotech DIY.prefab
-'displayName	'DIY bioreactor (Zapfruit)	'DIY-Bioreaktor (Zapfrucht)	40
+'displayName	'DIY bioreactor (Zapfruit)	'Selbstbau-Bioreaktor (Zapfrucht)	40
 'description	'This reactor produces +9 power by drawing warp charge from an exotic fruit that generates it as a defence mechanism. Zero chance of malfunctions.	'Dieser Reaktor erzeugt +9 Energie, indem er Warp-Ladung aus einer exotischen Frucht zieht, die diese als Abwehrmechanismus erzeugt. Null Chance auf Fehlfunktionen.	200
 
 'reactor 9 small old.prefab
@@ -8990,7 +8990,7 @@
 'Research.resourceGenReason	'xenodata from labs	'Xenodaten aus Laboren	30
 
 'lab module diy x2.prefab
-'displayName	'DIY Science lab	'DIY-Wissenschaftslabor	40
+'displayName	'DIY Science lab	'Selbstbau-Wissenschaftslabor	40
 'description	'Laboratory for scientific research. Crew assigned to labs generate xenodata during ship movement, based on their science skill.	'Labor für wissenschaftliche Forschungen. Die den Laboren zugewiesene Besatzung generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Forschungsfertigkeit.	200
 'Research.resourceGenReason	'xenodata generated in labs	'xenodata generiert in Laboren	30
 
@@ -9001,7 +9001,7 @@
 'displayName	'Science labx3, Rat Empire	'Wissenschaftslabor x3, Rattenimperium	40
 
 'sensor 0-C diy.prefab
-'displayName	'Non-combat sensor DIY I	'Nicht-Kampfsensor (DIY) I	40
+'displayName	'Non-combat sensor DIY I	'Nicht-Kampfsensor (Selbstbau) I	40
 'description	'Increases ship sensor range in starsystem & sector view.\nSensors are not cumulative - only the best sensor range values are used.	'Erhöht die Sensorreichweite des Schiffes in der Sternensystem- und Sektorkarte.\nDie Sensoren sind nicht kumulativ - nur die besten Sensorreichweitenwerte werden verwendet.	200
 
 'sensor 10 terran s2.prefab
@@ -9024,7 +9024,7 @@
 'displayName	'Spideraa sensor	'Spinner-Sensor	40
 
 'sensor 1-L DIY.prefab
-'displayName	'Non-combat sensor DIY II	'Nicht-Kampfsensor DIY II	40
+'displayName	'Non-combat sensor DIY II	'Nicht-Kampfsensor II (Selbstbau)	40
 
 'sensor 2 saucer old.prefab
 'displayName	'Non-combat sensor Mk Ia	'Nicht-Kampfsensor Mk Ia	40
@@ -9051,7 +9051,7 @@
 'displayName	'Long-range sensor II	'Langstreckensensor II	40
 
 'shield 1 diy.prefab
-'displayName	'DIY shield generator	'DIY-Schildgenerator	40
+'displayName	'DIY shield generator	'Selbstbau-Schildgenerator	40
 'description	'Regenerates shield points. Requires one operator. Robust structure improves ship HP.	'Regeneriert Schildpunkte. Benötigt ein Besatzungsmitglied. Robuste Struktur verbessert die HP des Schiffes.	200
 
 'shield 1 round old.prefab
@@ -9098,17 +9098,17 @@
 'description	'A highly armored shield battery that increases max shield points and ship HP.\nAppears as shield generator to enemy sensors.	'Eine stark gepanzerte Schildbatterie, die die maximalen Schildpunkte und die Schiffs-HP erhöht.\nFür gegnerische Sensoren erscheint sie als Schildgenerator.	200
 
 'shieldbat 0 diy.prefab
-'displayName	'Shield batteries DIY	'Schildbatterien DIY	40
+'displayName	'Shield batteries DIY	'Selbstbau-Schildbatterien	40
 'description	'Increases maximum shield points, but doesn't recharge shields.	'Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht auf.	200
 
 'shieldbat 1 diy.prefab
-'displayName	'Shield batteries DIY-8	'Schildbatterien DIY-8	40
+'displayName	'Shield batteries DIY-8	'Selbstbau-Schildbatterien 8	40
 
 'shieldbat 1.4 tiger.prefab
 'displayName	'Shield Battery Tiger	'Schildbatterie Tiger	40
 
 'shieldbat 1.5 rats diy.prefab
-'displayName	'Shield battery DIY, Rat Empire	'Schildbatterie DIY, Rattenimperium	40
+'displayName	'Shield battery DIY, Rat Empire	'Schildbatterie (Selbstbau), Rattenimperium	40
 
 'shieldbat 2 rats.prefab
 'displayName	'Shield battery, Rat Empire	'Schildbatterie, Rattenimperium	40
@@ -9142,7 +9142,7 @@
 'description	'Increases maximum shield points, but does not recharge shields.	'Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht wieder auf.	200
 
 'Stealth decryptor 1 diy.prefab
-'displayName	'Stealth Decryptor DIY	'Tarnkappen-Entschlüssler DIY	40
+'displayName	'Stealth Decryptor DIY	'Tarnkappen-Entschlüssler (Selbstbau)	40
 'description	'Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	'Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 (innerhalb der Sensorreichweite) zu entdecken.	200
 
 'Stealth decryptor 1 ivory old.prefab
@@ -9227,7 +9227,7 @@
 'displayName	'Warp drive, bluetec	'Warpantrieb, blautech	40
 
 '00 DIY decoy nuke launcher.prefab
-'displayName	'DIY decoy capital missile	'DIY Täuschungsbombe	40
+'displayName	'DIY decoy capital missile	'Selbstbau-Täuschungsbombe	40
 'description	'A decoy capital missile for drawing enemy point-defence fire. Does minor damage, mostly against enemy ship HP. Faster than average nukes.	'Eine Täuschungsbombe, um feindliches Punktabwehr-Feuer abzulenken. Verursacht geringen Schaden, hauptsächlich gegen die HP des gegnerischen Schiffes. Schneller als durchschnittliche Bomben.	200
 
 '00 DIY EMP nuke launcher.prefab
@@ -9250,19 +9250,19 @@
 'description	'External fuel tank usable as capital missile. Deals no ship damage, but damages crew & causes fires. Fragile & may benefit from synced shots or decoys to distract enemy point-defences.	'Externer Treibstofftank als Bombe verwendbar. Verursacht keinen Schiffsschaden, schädigt aber die Besatzung und verursacht Brände. Zerbrechlich und kann von synchronisierten Schüssen oder Täuschkörpern profitieren, um feindliche Punktabwehr abzulenken.	200
 
 '04 DIY exotics nuke launcher.prefab
-'displayName	'DIY d-exotics nuke	'DIY Exoten-Bombe	40
+'displayName	'DIY d-exotics nuke	'Selbstbau-Exoten-Bombe	40
 'description	'Destabilized exotics combined with crude armor, engines and a fueltank. Minor damage to ship HP but may start fires and the explosion is accompanied by an EMP wave.	'Destabilisierte Exoten kombiniert mit grober Panzerung, Motoren und einem Treibstofftank. Geringer Schaden an den Schiffs-HP, kann aber Brände auslösen und die Explosion wird von einer EMP-Welle begleitet.	200
 
 '04 DIY explo pack launcher.prefab
-'displayName	'DIY explosive pack nuke	'DIY-Sprengstoff-Paket-Bombe	40
+'displayName	'DIY explosive pack nuke	'Selbstbau-Sprengstoff-Paket-Bombe	40
 'description	'A manually assembled capital missile that damages mostly ship HP. Made by combining standard explosives with engines and crude armor.	'Eine manuell zusammengebaute Bombe, die hauptsächlich Schiffs-HP beschädigt. Wird durch die Kombination von Standard-Sprengstoff mit Triebwerken und grober Panzerung hergestellt.	200
 
 '04 DIY fuel pack launcher.prefab
-'displayName	'DIY Fuelpack nuke	'DIY Treibstoff-Bombe	40
+'displayName	'DIY Fuelpack nuke	'Selbstbau-Treibstoff-Bombe	40
 'description	'A manually assembled capital missile that creates fires inside enemy ship hull. Made by combining solidified starfuel with engines and crude armor.	'Ein manuell zusammengebauter Flugkörper, der Feuer in der gegnerischen Schiffshülle erzeugt. Erzeugt durch die Kombination von verfestigtem Sternentreibstoff mit Triebwerken und grober Panzerung.	200
 
 '04 DIY plastics launcher.prefab
-'displayName	'DIY Plastics nuke	'DIY Plastiksprengstoff-Bombe	40
+'displayName	'DIY Plastics nuke	'Selbstbau-Plastiksprengstoff-Bombe	40
 'description	'A manually assembled capital missile with destabilized plastic warhead. Small AOE, low damage, fair durability.	'Eine manuell zusammengebaute Bombe mit destabilisiertem Plastiksprengkopf. Kleine AOE, geringer Schaden, angemessene Haltbarkeit.	200
 
 '04 Fueltank nuke launcher.prefab
@@ -9277,11 +9277,11 @@
 'description	'Capital missile for shattering colossal asteroids or micromoons with kinetic force. Well armored, but has a very small Area Of Effect (AOE).	'Großrakete zum Zerschmettern von kolossalen Asteroiden oder Mikromonden mit kinetischer Kraft. Gut gepanzert, hat aber einen sehr kleinen Wirkungsbereich (Area Of Effect, AOE).	200
 
 '07 DIY acid nuke launcher.prefab
-'displayName	'DIY corrosion nuke	'DIY-Korrosionsnuke	40
+'displayName	'DIY corrosion nuke	'Selbstbau-Korrosionsbombe	40
 'description	'Releases a splash of extremely corrosive exotic acid, melting away ship armor, modules & crew.	'Setzt einen Spritzer extrem ätzender exotischer Säure frei, die Schiffspanzerung, Module und Besatzung wegschmilzt.	200
 
 '07 DIY bionuke launcher.prefab
-'displayName	'DIY micromites nuke	'DIY-Mikromiten-Bombe	40
+'displayName	'DIY micromites nuke	'Selbstbau-Mikromiten-Bombe	40
 'description	'Releases a colony of microscopic mites that attack modules & crew, dying seconds later to release corrosive poison. Fragile.	'Setzt eine Kolonie mikroskopisch kleiner Milben frei, die Module und Besatzung angreifen und Sekunden später sterben, um ätzendes Gift freizusetzen. Zerbrechlich.	200
 
 '07 Greentail nuke launcher 2.prefab
@@ -9401,11 +9401,11 @@
 'description	'This rail cannon does not use explosives to propel metal slugs, but needs a lot of power. Robust structure improves ship HP. Rail cannon shells are not easily destroyed by point-defences (5hp each).	'Diese Schienenkanone verwendet keinen Sprengstoff, um Metallgeschosse zu verschießen, benötigt aber viel Energie. Die robuste Struktur verbessert die HP des Schiffes. Die Geschosse der Schienenkanone werden nicht so leicht von Punktabwehr zerstört (5 HP pro Stück).	200
 
 'weapon diyfirebomber1.prefab
-'displayName	'DIY firecannon MK1	'DIY-Feuerkanone MK1	40
+'displayName	'DIY firecannon MK1	'Selbstbau-Feuerkanone MK1	40
 'description	'Shoots plastic balls that explode and cause fire on impact. Somewhat improved accuracy due to built-in sensors. Fast reload cycle & increased speed of projectiles (which have 1hp each).	'Schießt Plastikkugeln, die explodieren und Feuer verursachen. Etwas bessere Genauigkeit durch eingebaute Sensoren. Schneller Nachladezyklus & erhöhte Geschossgeschwindigkeit (die jeweils 1 HP haben).	200
 
 'weapon diyfirebomber2.prefab
-'displayName	'DIY firecannon MK2	'DIY-Feuerkanone MK2	40
+'displayName	'DIY firecannon MK2	'Selbstbau-Feuerkanone MK2	40
 'description	'Shoots balls that cause fire on impact. Rapid rate of fire and more crew damage compared to MK1. Projectiles have 1hp each.	'Schießt Kugeln, die beim Aufprall Feuer verursachen. Schnelle Feuerrate und mehr Besatzungsschaden im Vergleich zu MK1. Projektile haben jeweils 1 HP.	200
 
 'weapon emperorbanks cannon large.prefab
@@ -9471,7 +9471,7 @@
 'displayName	'Rail-accelerator cannon IV	'Schienenbeschleuniger-Kanone IV	40
 
 'weapon Sniper cannon 0 DIY.prefab
-'displayName	'DIY rail microcannon	'DIY-Schienen-Mikrokanone	40
+'displayName	'DIY rail microcannon	'Selbstbau-Schienen-Mikrokanone	40
 'description	'Manually assembled small railgun. Penetrates shields, does not consume explosives, deals double damage to modules. Projectiles have 3hp each.	'Manuell zusammengebaute kleine Schienenwaffe. Durchdringt Schilde, verbraucht keinen Sprengstoff, verursacht doppelten Schaden an Modulen. Projektile haben jeweils 3 HP.	200
 
 'weapon Sniper cannon 0.prefab
@@ -9573,7 +9573,7 @@
 'description	'Advanced ray weapon	'Fortgeschrittene Strahlenwaffe	200
 
 'weapon DIY EMP.prefab
-'displayName	'EMP raygun (DIY)	'EMP-Strahlenkanone (DIY)	40
+'displayName	'EMP raygun (DIY)	'EMP-Strahlenkanone (Selbstbau)	40
 'description	'A robust platform for projecting powerful EMP rays. Disrupts shields or overloads unshielded modules. Minimal damage against ship hull, never deflects.	'Eine robuste Plattform zur Projektion starker EMP-Strahlen. Unterbricht Schilde oder überlastet nicht abgeschirmte Module. Minimaler Schaden an der Schiffshülle, keine Ablenkung.	200
 
 'weapon DIY exotics EMP sniper.prefab
@@ -9581,28 +9581,28 @@
 'description	'A prototype platform for projecting exotic EMP rays that penetrate shields and have very large AoE. Requires a lot of energy, deals minimal damage against ship hull, never deflects.	'Eine Prototyp-Plattform zum Projizieren von exotischen EMP-Strahlen, die Schilde durchdringen und eine sehr große AoE haben. Benötigt viel Energie, verursacht minimalen Schaden an der Schiffshülle, wird nie abgelenkt.	200
 
 'weapon DIY exoticslaser dual.prefab
-'displayName	'DIY exotic dual ray projector	'DIY exotischer Doppelstrahlprojektor	40
-'description	'This DIY weapon burns exotics with each shot to generate two powerful warp rays. Can cause fires & module overloads but may be deflected.	'Diese DIY-Waffe verbrennt mit jedem Schuss Exoten, um zwei starke Warpstrahlen zu erzeugen. Kann Brände und Modulüberlastungen verursachen, kann aber abgelenkt werden.	200
+'displayName	'DIY exotic dual ray projector	'Exotischer Doppelstrahlprojektor (Selbstbau)	40
+'description	'This DIY weapon burns exotics with each shot to generate two powerful warp rays. Can cause fires & module overloads but may be deflected.	'Diese selbstgebaue Waffe verbrennt mit jedem Schuss Exoten, um zwei starke Warpstrahlen zu erzeugen. Kann Brände und Modulüberlastungen verursachen, kann aber abgelenkt werden.	200
 
 'weapon DIY exoticslaser.prefab
-'displayName	'DIY exotic ray projector	'DIY exotischer Strahlenprojektor	40
-'description	'This DIY weapon burns exotics with each shot to generate a single powerful warp ray. Large area of effect, can cause fires & module overloads but may be deflected.	'Diese DIY-Waffe verbrennt mit jedem Schuss Exoten, um einen einzelnen starken Warpstrahl zu erzeugen. Großer Wirkungsbereich, kann Brände und Modulüberlastungen verursachen, kann aber abgelenkt werden.	200
+'displayName	'DIY exotic ray projector	'Exotischer Strahlenprojektor (Selbstbau)	40
+'description	'This DIY weapon burns exotics with each shot to generate a single powerful warp ray. Large area of effect, can cause fires & module overloads but may be deflected.	'Diese selbstgebaue Waffe verbrennt mit jedem Schuss Exoten, um einen einzelnen starken Warpstrahl zu erzeugen. Großer Wirkungsbereich, kann Brände und Modulüberlastungen verursachen, kann aber abgelenkt werden.	200
 
 'weapon DIY Laser.prefab
 'displayName	'Improvised laser	'Improvisierter Laser	40
 'description	'DIY laser weapon, assembled from spare parts. Low accuracy for a ray weapon, single beam.	'Selbstgebaute Laserwaffe, zusammengebaut aus Ersatzteilen. Geringe Genauigkeit für eine Strahlenwaffe, Einzelstrahl.	200
 
 'weapon DIY raygun blue.prefab
-'displayName	'DIY blueray emitter	'DIY-Blaustrahl-Emitter	40
-'description	'DIY single beam blueray emitter that does extra damage to shields. Very fragile because it's literally a glass cannon.	'DIY-Blaustrahl-Emitter, der zusätzlichen Schaden an Schilden anrichtet. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
+'displayName	'DIY blueray emitter	'Selbstbau-Blaustrahl-Emitter	40
+'description	'DIY single beam blueray emitter that does extra damage to shields. Very fragile because it's literally a glass cannon.	'Selbstbau-Blaustrahl-Emitter, der zusätzlichen Schaden an Schilden anrichtet. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
 
 'weapon DIY raygun orange.prefab
-'displayName	'DIY orangeray emitter	'DIY-Orangestrahl-Emitter	40
-'description	'DIY single beam orangeray emitter with a large AoE, good hull damage and a chance to cause fires. Very fragile because it's literally a glass cannon.	'DIY-Orangestrahl-Emitter mit großem AoE, gutem Hüllenschaden und einer Chance, Brände zu verursachen. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
+'displayName	'DIY orangeray emitter	'Selbstbau-Orangestrahl-Emitter	40
+'description	'DIY single beam orangeray emitter with a large AoE, good hull damage and a chance to cause fires. Very fragile because it's literally a glass cannon.	'Selbstbau-Orangestrahl-Emitter mit großem AoE, gutem Hüllenschaden und einer Chance, Brände zu verursachen. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
 
 'weapon DIY raygun.prefab
-'displayName	'DIY greenray emitter	'DIY-Grünstrahl-Emitter	40
-'description	'DIY single beam greenray emitter, assembled from spare parts. Very fragile because it's literally a glass cannon.	'DIY-Grünstrahl-Emitter, zusammengebaut aus Ersatzteilen. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
+'displayName	'DIY greenray emitter	'Selbstbau-Grünstrahl-Emitter	40
+'description	'DIY single beam greenray emitter, assembled from spare parts. Very fragile because it's literally a glass cannon.	'Selbstbau-Grünstrahl-Emitter, zusammengebaut aus Ersatzteilen. Sehr zerbrechlich, da es sich buchstäblich um eine Glaskanone handelt.	200
 
 'weapon dual EMP.prefab
 'displayName	'EMP dual raygun	'EMP-Doppel-Strahlenkanone	40
@@ -9817,7 +9817,7 @@
 'description	'Ancient but robust platform for printing and launching dual rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	'Uralte, aber robuste Plattform zum Drucken und Starten von Doppelraketen. Raketen lenken nie ab und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben je 1hp.	200
 
 'weapon DIY Rockets x1.prefab
-'displayName	'DIY heavy rocket launcher	'DIY schwerer Raketenwerfer	40
+'displayName	'DIY heavy rocket launcher	'Schwerer Raketenwerfer (Selbstbau)	40
 'description	'Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect. A launched missile has 2hp.	'Improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu drucken und abzuschießen. Die Raketen werden nicht abgelenkt. Eine abgeschossene Rakete hat 2 HP.	200
 
 'weapon emperormissile large x5.prefab
@@ -10241,9 +10241,9 @@
 'randomizerMenuStrings[i]	'+30 metal	'+30 Metalle	30
 
 'Perk DIY drone army.prefab
-'displayName	'DIY drone army	'DIY-Drohnenarmee	40
+'displayName	'DIY drone army	'Selbstbau-Drohnenarmee	40
 'description	'An old engineer will enhance ten small fire extinguisher drones with flamers and spikes - if we have the materials.	'Ein alter Ingenieur wird zehn kleine Feuerlöschdrohnen mit Flamern und Stacheln verbessern - wenn wir die Materialien haben.	250
-'randomizerMenuStrings[i]	'+10 DIY flamer drones	'+10 DIY Flammenwerfer Dronen	30
+'randomizerMenuStrings[i]	'+10 DIY flamer drones	'+10 selbstgebaute Flammenwerfer-Dronen	30
 'randomizerMenuStrings[i]	'-150 synthetics	'-150 Kunststoffe	30
 'randomizerMenuStrings[i]	'-100 metal	'-100 Metalle	30
 
@@ -10254,22 +10254,22 @@
 'randomizerMenuStrings[i]	'+15 synthetics (spare parts)	'+15 Kunststoffe (Ersatzteile)	30
 
 'Perk drone 01 DIY fire safety.prefab
-'displayName	'DIY fire safety drone	'DIY-Feuerschutzdrohne	40
+'displayName	'DIY fire safety drone	'Selbstbau-Feuerschutzdrohne	40
 'description	'A light walker chassis with fire extinguisher, assembled from spare parts. Do not expect much from its caterpillar-based AI.	'Ein leichtes Walker-Chassis mit Feuerlöscher, zusammengebaut aus Ersatzteilen. Erwarten Sie nicht viel von seiner raupenbasierten KI.	250
 'unlockAnnouncementText	'Our ship AI has been carrying out miniature experiments with drones during the journey. Her small discoveries have made new options available, next time we go for a run like this.	'Unsere Schiffs-KI hat während der Reise Miniatur-Experimente mit Drohnen durchgeführt. Ihre kleinen Entdeckungen haben uns neue Optionen eröffnet, wenn wir das nächste Mal eine solche Fahrt unternehmen.	100
-'randomizerMenuStrings[i]	'+1 fire safety drone	'+1 Brandschutz-Drone	30
+'randomizerMenuStrings[i]	'+1 fire safety drone	'+1 selbstgebaute Brandschutz-Drone	30
 'randomizerMenuStrings[i]	'-25 synthethics	'-25 Kunststoffe	30
 
 'Perk drone 02 DIY guard.prefab
-'displayName	'DIY guard drone	'DIY-Wachdrohne	40
+'displayName	'DIY guard drone	'Selbstbau-Wachdrohne	40
 'description	'A light walker chassis with an improvised laser, assembled from spare parts. limited capabilities. Do not expect much from its scorpion-based AI.	'Ein leichtes Walker-Chassis mit einem improvisierten Laser, zusammengebaut aus Ersatzteilen. Begrenzte Fertigkeiten. Erwarten Sie nicht viel von seiner Skorpion-basierten KI.	250
-'randomizerMenuStrings[i]	'+1 security drone	'+1 Sicherheitsdrohne	30
+'randomizerMenuStrings[i]	'+1 security drone	'+1 selbstgebaute Sicherheitsdrohne	30
 'randomizerMenuStrings[i]	'-40 synthethics	'-40 Kunststoffe	30
 
 'Perk drone 03 DIY repairbot.prefab
-'displayName	'DIY repair drone	'DIY-Reparaturdrohne	40
+'displayName	'DIY repair drone	'Selbstbau-Reparaturdrohne	40
 'description	'An improvised repair drone assembled from spare parts. Limited repair speed. Do not expect much from its beetle-based AI.	'Eine improvisierte Reparaturdrohne, die aus Ersatzteilen zusammengebaut wurde. Begrenzte Reparaturgeschwindigkeit. Erwarten Sie nicht viel von ihrer käferbasierten KI.	250
-'randomizerMenuStrings[i]	'+1 repair drone	'+1 Reparatur-Drone	30
+'randomizerMenuStrings[i]	'+1 repair drone	'+1 selbstgebaute Reparatur-Drone	30
 'randomizerMenuStrings[i]	'-30 synthetics	'-30 Kunststoffe	30
 
 'Perk drone 04 fire safety x2.prefab
@@ -10278,8 +10278,8 @@
 'randomizerMenuStrings[i]	'+2 fire safety drones	'+2 Brandschutz-Dronen	30
 
 'Perk drone 05 DIY science.prefab
-'displayName	'DIY lab drone	'DIY-Labordrohne	40
-'description	'DIY drone with an octopus-based AI. Can work in the labs and increases data value from planetary research operations.	'DIY-Drohne mit einer krakenbasierten KI. Kann in den Laboren arbeiten und erhöht den Datenwert von planetaren Forschungsoperationen.	250
+'displayName	'DIY lab drone	'Selbstbau-Labordrohne	40
+'description	'DIY drone with an octopus-based AI. Can work in the labs and increases data value from planetary research operations.	'Selbstgebaute Drohne mit einer krakenbasierten KI. Kann in den Laboren arbeiten und erhöht den Datenwert von planetaren Forschungsoperationen.	250
 
 'Perk drone 05 gardening and repair.prefab
 'displayName	'Repair & gardening drone	'Reparatur- & Gartenbau-Drohne	40
@@ -10288,9 +10288,9 @@
 'randomizerMenuStrings[i]	'-30 credits	'-30 Kredite	30
 
 'Perk drone 06 DIY gunnery.prefab
-'displayName	'DIY gunnery drone	'DIY-Schützen-Drohne	40
+'displayName	'DIY gunnery drone	'Selbstbau-Schützen-Drohne	40
 'description	'A light drone modified to allow operating ship weapons. Cannot repair. Do not expect much from its spider-based AI.	'Eine leichte Drohne, die so modifiziert wurde, dass sie Schiffswaffen bedienen kann. Kann nicht reparieren. Erwarten Sie nicht viel von ihrer spinnenbasierten KI.	250
-'randomizerMenuStrings[i]	'+1 gun operator drone	'+1 Waffenbediener-Drone	30
+'randomizerMenuStrings[i]	'+1 gun operator drone	'+1 selbstgebaute Waffenbediener-Drone	30
 'randomizerMenuStrings[i]	'-50 synthethics	'-50 Kunststoffe	30
 
 'Perk drone 07 gunnery and repair.prefab
@@ -10298,9 +10298,9 @@
 'description	'A heavy drone for operating weapon systems & doing emergency repairs. Cannot operate nonweapon modules.	'Eine schwere Drohne zur Bedienung von Waffensystemen und für Notreparaturen. Kann keine Nicht-Waffenmodule bedienen.	250
 
 'Perk drone 08 DIY sentry tank.prefab
-'displayName	'DIY tank	'DIY-Panzer	40
+'displayName	'DIY tank	'Selbstbau-Panzer	40
 'description	'Armored drone, assembled from spare parts. Turtle-based AI.	'Gepanzerte Drohne, zusammengebaut aus Ersatzteilen. Schildkrötenbasierte KI.	250
-'randomizerMenuStrings[i]	'+1 combat drone	'+1 Kampfdrone	30
+'randomizerMenuStrings[i]	'+1 combat drone	'+1 selbstgebaute Kampfdrone	30
 'randomizerMenuStrings[i]	'-50 synthetics	'-50 Kunststoffe	30
 
 'Perk drone 09 light sec.prefab
@@ -10455,15 +10455,15 @@
 'randomizerMenuStrings[i]	'-150 credits	'-150 Kredite	30
 
 'Perk module DIY backup warpdrive.prefab
-'displayName	'The backup warpdrive	'Der Ersatz-Warpantriebs	40
-'description	'Although ships can fly between starsystems using normal engines, this usually consumes a lot of fuel and especially much more organics than warping with warpdrives. This one is a DIY variant, assembled from spare parts.	'Schiffe können zwar mit normalen Triebwerken zwischen Sternensystemen fliegen, aber das verbraucht in der Regel sehr viel Treibstoff und vor allem viel mehr Organik als das Warpen mit Warpantrieben. Dieser hier ist eine DIY-Variante, zusammengebaut aus Ersatzteilen.	250
+'displayName	'The backup warpdrive	'Der Ersatz-Warpantrieb	40
+'description	'Although ships can fly between starsystems using normal engines, this usually consumes a lot of fuel and especially much more organics than warping with warpdrives. This one is a DIY variant, assembled from spare parts.	'Schiffe können zwar mit normalen Triebwerken zwischen Sternensystemen fliegen, aber das verbraucht in der Regel sehr viel Treibstoff und vor allem viel mehr Organik als das Warpen mit Warpantrieben. Dieser hier ist eine selbstgebaute Variante aus Ersatzteilen.	250
 'unlockAnnouncementText	'During our travels, we met this university student willing to donate her self-made warpdrive to our cause - next time, when she has finished experimenting with it.	'Auf unseren Reisen trafen wir diese Studentin, die bereit war, ihren selbstgebauten Warpantrieb für unsere Sache zu spenden - beim nächsten Mal, wenn sie mit dem Experimentieren fertig ist.	100
-'randomizerMenuStrings[i]	'+1 DIY warpdrive module	'+1 DIY Warpantrieb Modul	30
+'randomizerMenuStrings[i]	'+1 DIY warpdrive module	'+1 selbstgebautes Warpantrieb Modul	30
 
 'Perk module DIY bridge.prefab
 'displayName	'The backup bridge	'Die Backup-Brücke	40
 'description	'The command bridge allows remotely operating other modules (without giving crew skill bonuses). This comes with spare parts, perhaps worth taking along as a backup.	'Die Kommandobrücke ermöglicht es, andere Module fernzusteuern (ohne dass die Besatzung einen Fertigkeitsbonus erhält). Sie wird mit Ersatzteilen geliefert, vielleicht lohnt es sich, sie als Backup mitzunehmen.	250
-'randomizerMenuStrings[i]	'+1 DIY bridge module	'+1 DIY Brückenmodul	30
+'randomizerMenuStrings[i]	'+1 DIY bridge module	'+1 selbstgebautes Brückenmodul	30
 
 'Perk module DIY cryodream recorder.prefab
 'displayName	'The cryodream recorder	'Der Kryoschlaf-Traumrekorder	40
@@ -10473,10 +10473,10 @@
 'randomizerMenuStrings[i]	'+33 organics	'+33 Organik	30
 
 'Perk module DIY cryosleep.prefab
-'displayName	'DIY cryosleep pod	'DIY-Kryoschlafmodul	40
+'displayName	'DIY cryosleep pod	'Selbstbau-Kryoschlafmodul	40
 'description	'A self-assembled cryosleep pod, together with a sortiment of junk usable as spare parts.	'Eine selbst zusammengebautes Kryoschlafmodul, zusammen mit einer Reihe von Gerümpel, das als Ersatzteile verwendet werden kann.	250
 'unlockAnnouncementText	'During our travels, we managed to inspire an old engineering teacher with our limitless idealism. They promised to build us a really good cryosleep pod next time we go for a run like this.	'Während unserer Reisen haben wir es geschafft, einen alten Ingenieurlehrer mit unserem grenzenlosen Idealismus zu begeistern. Er versprach uns, uns bei der nächsten Reise ein wirklich gutes Kryoschlafmodul zu bauen.	100
-'randomizerMenuStrings[i]	'+1 cryosleep module for one	'+1 Kryoschlafmodul	30
+'randomizerMenuStrings[i]	'+1 cryosleep module for one	'+1 selbstgebautes Kryoschlafmodul	30
 'randomizerMenuStrings[i]	'+40 synthetics	'+40 Kunststoffe	30
 
 'Perk module DIY exotic EMP sniper.prefab
@@ -10486,33 +10486,33 @@
 'randomizerMenuStrings[i]	'+1 exotic EMP sniper	'+1 Exotischer EMP-Scharfschütze	30
 
 'Perk module DIY exotic raygun 2.prefab
-'displayName	'Exotic raygun II	'Exotische Strahlenpistole II	40
+'displayName	'Exotic raygun II	'Exotische Strahlenpistole II (Selbstbau)	40
 'description	'This experimental weapon consumes exotics with each shot. While very powerful, its rays can be blocked by shields or simply deflected by ship armor.	'Diese experimentelle Waffe verbraucht mit jedem Schuss Exoten. Ihre Strahlen sind zwar sehr stark, können aber von Schilden blockiert oder von der Schiffspanzerung einfach abgelenkt werden.	250
 'unlockAnnouncementText	'During our travels, we learned about a distant library with blueprints for this experimental weapon.	'Während unserer Reisen erfuhren wir von einer entfernten Bibliothek mit Blaupausen für diese experimentelle Waffe.	100
-'randomizerMenuStrings[i]	'+1 DIY exotic dual raygun	'+1 DIY Exotische Strahlenwaffe	30
+'randomizerMenuStrings[i]	'+1 DIY exotic dual raygun	'+1 selbstgebaute Exotische Strahlenwaffe	30
 'randomizerMenuStrings[i]	'-100 fuel	'-100 Treibstoff	30
 
 'Perk module DIY exotic raygun.prefab
-'displayName	'Exotic raygun I	'Exotische Strahlenpistole I	40
+'displayName	'Exotic raygun I	'Exotische Strahlenpistole I (Selbstbau)	40
 'description	'This experimental weapon consumes exotics with each shot. While very powerful, its single ray can be blocked by shields or simply deflected by ship armor.	'Diese experimentelle Waffe verbraucht mit jedem Schuss Exoten. Obwohl sie sehr mächtig ist, kann ihr einzelner Strahl von Schilden blockiert oder einfach von der Schiffspanzerung abgelenkt werden.	250
-'randomizerMenuStrings[i]	'+1 DIY exotic raygun	'+1 DIY Exotische Strahlenwaffe	30
+'randomizerMenuStrings[i]	'+1 DIY exotic raygun	'+1 selbstgebaute Exotische Strahlenwaffe	30
 
 'Perk module DIY explo combinator, to 3ships.prefab
-'displayName	'Explosives combinator DIY	'Sprengstoff-Kombinator DIY	40
-'description	'This matter combinator can be fitted to Tigerfish utility frigates for a small price. Being able to produce explosives means our weapons don't run out of ammo so quickly, and we have greater freedom to dedicate resources into crafting DIY nukes.	'Dieser Materie-Kombinator kann gegen einen geringen Preis an Tigerfisch-Versorgungsfregatten angebracht werden. Die Fähigkeit, Sprengstoff zu produzieren, bedeutet, dass unseren Waffen nicht so schnell die Munition ausgeht und wir mehr Freiheit haben, Ressourcen für die Herstellung von DIY Bomben zu verwenden.	250
+'displayName	'Explosives combinator DIY	'Sprengstoff-Kombinator (Selbstbau)	40
+'description	'This matter combinator can be fitted to Tigerfish utility frigates for a small price. Being able to produce explosives means our weapons don't run out of ammo so quickly, and we have greater freedom to dedicate resources into crafting DIY nukes.	'Dieser Materie-Kombinator kann gegen einen geringen Preis an Tigerfisch-Versorgungsfregatten angebracht werden. Die Fähigkeit, Sprengstoff zu produzieren, bedeutet, dass unseren Waffen nicht so schnell die Munition ausgeht und wir mehr Freiheit haben, Ressourcen für die Herstellung von Selbstbau-Bomben zu verwenden.	250
 'randomizerMenuStrings[i]	'Allows combining fuel and synthetics into explosives	'Ermöglicht die Kombination von Treibstoff und Kunststoffen zu Sprengstoffen	30
 
 'Perk module DIY garden.prefab
-'displayName	'DIY garden	'DIY-Garten	40
-'description	'A self-made garden module. Gardens remove operator food consumption and generate extra organics during ship movement.\nWe may craft more of these any time during the journey (like any other craftable DIY modules) if we have the resources.	'Ein selbstgebautes Gartenmodul. Gärten entfernen den Nahrungsverbrauch des Besatzungsmitglieds und erzeugen zusätzliche Organik während der Schiffsbewegung.\nWir können jederzeit während der Reise mehr davon herstellen (wie alle anderen herstellbaren DIY-Module), wenn wir die Ressourcen haben.	250
-'randomizerMenuStrings[i]	'+1 garden module	'+1 Garten Modul	30
+'displayName	'DIY garden	'Selbstbau-Garten	40
+'description	'A self-made garden module. Gardens remove operator food consumption and generate extra organics during ship movement.\nWe may craft more of these any time during the journey (like any other craftable DIY modules) if we have the resources.	'Ein selbstgebautes Gartenmodul. Gärten entfernen den Nahrungsverbrauch des Besatzungsmitglieds und erzeugen zusätzliche Organik während der Schiffsbewegung.\nWir können jederzeit während der Reise mehr davon herstellen (wie alle anderen herstellbaren selbstgebauten Module), wenn wir die Ressourcen haben.	250
+'randomizerMenuStrings[i]	'+1 garden module	'+1 selbstgebautes Garten Modul	30
 'randomizerMenuStrings[i]	'-30 organics	'-30 Organik	30
 
 'Perk module DIY integrity 2.prefab
-'displayName	'DIY integrity scales	'DIY-Integritätswaage	40
+'displayName	'DIY integrity scales	'Selbstbau-Integritätswaage	40
 'description	'Manually built additional layer of internal ship armor and associated integrity hardpoint. Adds +7 ship hull points when installed, can be used to gain HP quickly during an emergency.	'Manuell hergestellte zusätzliche Schicht der internen Schiffspanzerung und zugehöriger Integritäts-Ansatzpunkt. Fügt +7 Schiffshüllenpunkte hinzu, wenn es installiert ist, und kann verwendet werden, um in einem Notfall schnell HP zu gewinnen.	250
 'unlockAnnouncementText	'During our ships various encounters with local stations, our ship AI has found free access to blueprints of this technology.	'Während verschiedener Begegnungen unserer Schiffe mit lokalen Stationen hat unsere Schiffs-KI freien Zugang zu Blaupausen dieser Technologie gefunden.	100
-'randomizerMenuStrings[i]	'+1 integrity module	'+1 Integritätsmodul	30
+'randomizerMenuStrings[i]	'+1 integrity module	'+1 selbstgebautes Integritätsmodul	30
 'randomizerMenuStrings[i]	'(adds +7 ship HP when installed)	'(fügt +7 Schiffs-HP hinzu, wenn installiert)	30
 'randomizerMenuStrings[i]	'-70 metal	'-70 Metalle	30
 
@@ -10525,54 +10525,54 @@
 'Perk module DIY lab.prefab
 'displayName	'Improvised laboratory	'Improvisiertes Labor	40
 'description	'Crew assigned to laboratory generate xenodata during ship movement, based on their science skill. This lab can be obtained together with materials often used in scientific experimentation.	'Die dem Labor zugewiesene Besatzung generiert während der Schiffsbewegung Xenodaten, basierend auf ihrer Forschungsfertigkeit. Dieses Labor kann zusammen mit Materialien erhalten werden, die häufig bei wissenschaftlichen Experimenten verwendet werden.	250
-'randomizerMenuStrings[i]	'+1 DIY lab module	'+1 DIY Labor	30
+'randomizerMenuStrings[i]	'+1 DIY lab module	'+1 selbstgebautes Labor	30
 'randomizerMenuStrings[i]	'+10 organics	'+10 Organik	30
 'randomizerMenuStrings[i]	'+10 explosives	'+10 Sprengstoffe	30
 
 'Perk module DIY medbay.prefab
 'displayName	'Improvised medbay	'Improvisierte Krankenstation	40
 'description	'Universal access to standard medbay blueprints represents one of the many benefits of Earth Alliance civilization, guaranteeing almost biological immortality against any physical issue if the damage to patient is not too severe. This manually crafted unit can serve one patient at a time.	'Der universelle Zugang zu Standard-Bauplänen für Krankenstationen ist einer der vielen Vorteile der Erd-Allianz-Zivilisation, die fast biologische Unsterblichkeit gegen jedes körperliche Problem garantiert, wenn der Schaden am Patienten nicht zu schwer ist. Diese manuell gefertigte Einheit kann jeweils einen Patienten versorgen.	250
-'unlockAnnouncementText	'We've been promised a free DIY medbay if we pick it up ourselves, next time.	'Uns wurde eine kostenlose DIY-Krankenstation versprochen, wenn wir sie das nächste Mal selbst abholen.	100
-'randomizerMenuStrings[i]	'+1 medbay module	'+1 Krankenstation Modul	30
+'unlockAnnouncementText	'We've been promised a free DIY medbay if we pick it up ourselves, next time.	'Uns wurde eine kostenlose Selbstbau-Krankenstation versprochen, wenn wir sie das nächste Mal selbst abholen.	100
+'randomizerMenuStrings[i]	'+1 medbay module	'+1 selbstgebautes Krankenstation-Modul	30
 
 'Perk module DIY point-defence.prefab
-'displayName	'DIY point-defence system	'DIY-Punktabwehr	40
+'displayName	'DIY point-defence system	'Selbstbau-Punktabwehr	40
 'description	'Point-defences can intercept enemy missiles, projectiles, intruders and asteroids- in this order of importance. While missiles are slow & often explode after a single hit, other projectiles usually hit before getting shot down. All point-defences are 99% accurate.	'Punktabwehranlagen können feindliche Raketen, Projektile, Eindringlinge und Asteroiden abfangen - in dieser Reihenfolge der Wichtigkeit. Während Raketen langsam sind und oft nach einem einzigen Treffer explodieren, treffen andere Projektile normalerweise, bevor sie abgeschossen werden. Alle Punktabwehrsysteme sind zu 99% genau.	250
-'randomizerMenuStrings[i]	'+1 DIY point-defence system	'+1 DIY Punktabwehr	30
+'randomizerMenuStrings[i]	'+1 DIY point-defence system	'+1 selbstgebaute Punktabwehr	30
 
 'Perk module DIY random nonweapon.prefab
 'displayName	'The leftover parts	'Die übrig gebliebenen Teile	40
 'description	'Various leftover parts, assembled into a functional module.\nThe quality of manually crafted modules is not the best, but our engineers can sometimes craft interesting pieces.	'Verschiedene übrig gebliebene Teile, die zu einem funktionsfähigen Modul zusammengebaut werden. Die Qualität der handgefertigten Module ist nicht die beste, aber unsere Ingenieure können manchmal interessante Stücke herstellen.	250
-'randomizerMenuStrings[i]	'+1 random DIY module	'+1 zufälliges DIY Modul	30
+'randomizerMenuStrings[i]	'+1 random DIY module	'+1 zufälliges selbstgebautes Modul	30
 
 'Perk module DIY reactor.prefab
-'displayName	'DIY backup reactor	'DIY-Backup-Reaktor	40
+'displayName	'DIY backup reactor	'Selbstbau-Backup-Reaktor	40
 'description	'Most modules on the ship use power, and reactors increase available power.\nThis one is manually assembled from modular parts and not very powerful. Comes with some pre-loaded fuel.	'Die meisten Module auf dem Schiff verbrauchen Energie, und Reaktoren erhöhen die verfügbare Energie.\nDieser ist manuell aus Modulteilen zusammengebaut und nicht sehr leistungsstark. Er wird mit etwas vorgeladenem Treibstoff geliefert.	250
-'randomizerMenuStrings[i]	'+1 DIY reactor module	'+1 DIY Reaktormodul	30
+'randomizerMenuStrings[i]	'+1 DIY reactor module	'+1 selbstgebautes Reaktormodul	30
 'randomizerMenuStrings[i]	'+20 fuel	'+20 Treibstoff	30
 
 'Perk module DIY sensor.prefab
-'displayName	'DIY backup sensor	'DIY-Backup-Sensor	40
+'displayName	'DIY backup sensor	'Selbstbau-Backup-Sensor	40
 'description	'Ships use only their best sensor. This one is a very crude, manually assembled backup variant. It can be obtained together with some tech scraps.	'Schiffe verwenden nur ihren besten Sensor. Dieser hier ist eine sehr grobe, manuell zusammengebaute Backup-Variante. Er kann zusammen mit ein paar Tech-Schrottteilen erhalten werden.	250
 'unlockAnnouncementText	'While not the most valuable thing in the world, having a backup sensor is better than having nothing. We've been promised one if we pick it up ourselves, next time.	'Es ist zwar nicht die wertvollste Sache der Welt, aber einen Backup-Sensor zu haben ist besser als nichts zu haben. Man hat uns einen versprochen, wenn wir ihn das nächste Mal selbst abholen.	100
-'randomizerMenuStrings[i]	'+1 backup sensor module	'+1 Backup Sensor-Modul	30
+'randomizerMenuStrings[i]	'+1 backup sensor module	'+1 selbstgebautes Backup Sensor-Modul	30
 
 'Perk module DIY shield battery.prefab
-'displayName	'DIY shield battery	'DIY-Schild-Batterie	40
+'displayName	'DIY shield battery	'Selbstbau-Schild-Batterie	40
 'description	'An additional shield battery might save our life some day. A local engineer can assemble one together on the spot.	'Eine zusätzliche Schildbatterie könnte uns eines Tages das Leben retten. Ein lokaler Ingenieur kann sie vor Ort zusammenbauen.	250
-'randomizerMenuStrings[i]	'+1 DIY shield battery	'+1 DIY Schildbatterie	30
+'randomizerMenuStrings[i]	'+1 DIY shield battery	'+1 selbstgebaute Schildbatterie	30
 
 'Perk module DIY shielding set x 2.prefab
 'displayName	'The shielding moduleset (x2)	'Das Schildmodulset (x2)	40
 'description	'A famous engineer of a backwater planet promises to build us the best shield generator in the universe, plus a decent shield battery - if we pay with the finest of drugs.	'Ein berühmter Ingenieur eines Hinterwäldlerplaneten verspricht, uns den besten Schildgenerator des Universums zu bauen, plus eine anständige Schildbatterie - wenn wir mit den feinsten Drogen bezahlen.	250
-'randomizerMenuStrings[i]	'+2 DIY shield modules	'+2 DIY Schildmodule	30
+'randomizerMenuStrings[i]	'+2 DIY shield modules	'+2 selbstgebautes Schildmodule	30
 'randomizerMenuStrings[i]	'-10 organics	'-10 Organik	30
 'randomizerMenuStrings[i]	'-10 synthetics	'-10 Kunststoffe	30
 
 'Perk module DIY weapon.prefab
-'displayName	'DIY backup weapon	'DIY-Ersatzwaffe	40
-'description	'Despite having the ability to craft DIY weapons in our ship, it's still good to have one ready as a backup.\nImprovised weapons are not the best, but our engineers sometimes craft interesting pieces.	'Obwohl wir die Möglichkeit haben, DIY-Waffen in unserem Schiff herzustellen, ist es immer noch gut, eine als Backup parat zu haben. Improvisierte Waffen sind nicht die besten, aber unsere Ingenieure stellen manchmal interessante Stücke her.	250
-'randomizerMenuStrings[i]	'+1 random DIY weapon module	'+1 zufälliges DIY Waffenmodul	30
+'displayName	'DIY backup weapon	'Selbstbau-Ersatzwaffe	40
+'description	'Despite having the ability to craft DIY weapons in our ship, it's still good to have one ready as a backup.\nImprovised weapons are not the best, but our engineers sometimes craft interesting pieces.	'Obwohl wir die Möglichkeit haben, Selbstbau-Waffen in unserem Schiff herzustellen, ist es immer noch gut, eine als Backup parat zu haben. Improvisierte Waffen sind nicht die besten, aber unsere Ingenieure stellen manchmal interessante Stücke her.	250
+'randomizerMenuStrings[i]	'+1 random DIY weapon module	'+1 zufälliges selbstgebautes Waffenmodul	30
 'randomizerMenuStrings[i]	'-1 exotic	'-1 Exot	30
 
 'Perk module drone repair bay.prefab
@@ -10616,7 +10616,7 @@
 
 'Perk module medbay 202.prefab
 'displayName	'Medbay 202	'Krankenstation 202	40
-'description	'Send crew into installed medbay to heal injuries.\nDespite our ability to craft DIY medbays aboard the ship, this one is much more efficient and can heal multiple crew in the same time0.	'Schicken Sie die Besatzung in die installierte Krankenstation, um Verletzungen zu heilen.\nTrotz unserer Fähigkeit, DIY-Krankenstationen an Bord des Schiffes herzustellen, ist diese viel effizienter und kann mehrere Besatzungsmitglieder gleichzeitig heilen.	250
+'description	'Send crew into installed medbay to heal injuries.\nDespite our ability to craft DIY medbays aboard the ship, this one is much more efficient and can heal multiple crew in the same time0.	'Schicken Sie die Besatzung in die installierte Krankenstation, um Verletzungen zu heilen.\nTrotz unserer Fähigkeit, Selbstbau-Krankenstationen an Bord des Schiffes herzustellen, ist diese viel effizienter und kann mehrere Besatzungsmitglieder gleichzeitig heilen.	250
 
 'Perk module minigrowery.prefab
 'description	'A small accelerated growth garden module. Gardens remove operator food consumption and generate additional organics during ship movement. This growery can be used to by two operators.	'Ein kleines Gartenmodul mit beschleunigtem Wachstum. Gärten beseitigen den Nahrungsverbrauch des Personals und erzeugen zusätzliche Organik während der Schiffsbewegung. Diese Gärtnerei kann von zwei Besatzungsmitgliedern genutzt werden.	250
@@ -10670,10 +10670,10 @@
 'description	'Moleculaatis are non-carbon animals of unknown origin that use body colors as a simple but efficient language. They occasionally need to eat small amounts of cyanide and various acids.	'Molekülis sind kohlenstofffreie Tiere unbekannter Herkunft, die Körperfarben als einfache, aber effiziente Sprache verwenden. Sie müssen gelegentlich kleine Mengen von Zyanid und verschiedenen Säuren zu sich nehmen.	250
 
 'Perk nuke arsenal DIY.prefab
-'displayName	'Nuke arsenal DIY	'Atomwaffenarsenal DIY	40
+'displayName	'Nuke arsenal DIY	'Selbstbau-Atomwaffenarsenal	40
 'description	'An arsenal of manually assembled capital missiles, also known as nukes. Can be purchased from a shady source, payment in gold and crystals only.	'Ein Arsenal von manuell zusammengebauten Bomben, auch bekannt als Atombomben. Kann von einer zwielichtigen Quelle erworben werden, Bezahlung nur in Gold und Kristallen.	250
 'unlockAnnouncementText	'During our travels, we've met an individual willing to sell self-made nukes.	'Auf unseren Reisen haben wir ein Individuum getroffen, das bereit ist, selbstgebaute Bomben zu verkaufen.	100
-'randomizerMenuStrings[i]	'+4 DIY capital missiles	'+4 DIY Bomben	30
+'randomizerMenuStrings[i]	'+4 DIY capital missiles	'+4 selbstgebaute Bomben	30
 'randomizerMenuStrings[i]	'-200 metal	'-200 Metalle	30
 
 'Perk nuke arsenal for SP33.prefab
@@ -10699,7 +10699,7 @@
 'randomizerMenuStrings[i]	'+2 capital decoy missiles	'+2 Täuschungsbombe	30
 
 'Perk nuke DIY probe ual4 for bluestar.prefab
-'displayName	'DIY nuke [weaponized probe]	'DIY-Bombe [bewaffnete Sonde]	40
+'displayName	'DIY nuke [weaponized probe]	'Selbstbau-Bombe [bewaffnete Sonde]	40
 'description	'Improvised capital missile, made from an exploration probe with destabilized reactors. We need to provide the fuel for its engines ourselves.	'Improvisierte Bombe, hergestellt aus einer Erkundungssonde mit destabilisierten Reaktoren. Wir müssen den Treibstoff für die Triebwerke selbst bereitstellen.	250
 'unlockAnnouncementText	'During our travels, our ship AI has secured access to this improvised nuke. We can pick it up next time we go on an adventure, but its engines need refuelling before it can be used.	'Während unserer Reisen hat sich unsere Schiffs-KI Zugang zu dieser improvisierten Bombe verschafft. Wir können sie bei unserem nächsten Abenteuer abholen, aber ihre Triebwerke müssen aufgetankt werden, bevor sie eingesetzt werden kann.	100
 'randomizerMenuStrings[i]	'-40 fuel	'-40 Treibstoff	30
@@ -10711,7 +10711,7 @@
 'randomizerMenuStrings[i]	'-20 fuel	'-20 Treibstoff	30
 
 'Perk nuke DIY shield breaker.prefab
-'displayName	'DIY shield breaker	'DIY Schildbrecher-Bombe	40
+'displayName	'DIY shield breaker	'Schildbrecher-Bombe (Selbstbau)	40
 'description	'This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless. Quite fragile, may be shot down by point-defences without distraction fire or decoys.	'Diese improvisierte Bombe trägt eine starke Anti-Schild-Energieladung, ist aber ansonsten harmlos. Ziemlich zerbrechlich, kann von Punktabwehrsystemen ohne Ablenkungsfeuer oder Täuschkörper abgeschossen werden.	250
 
 'Perk nuke EMP 9000.prefab
@@ -10731,7 +10731,7 @@
 'description	'It's a few hundred years old, but still very powerful.	'Sie ist schon ein paar hundert Jahre alt, aber immer noch sehr leistungsfähig.	250
 
 'Perk nuke Rat DIY incendiary.prefab
-'displayName	'DIY firebomb nuke	'DIY Brandbombe	40
+'displayName	'DIY firebomb nuke	'Brandbombe (Selbstbau)	40
 'description	'An improvised incendiary missile made from a combination of Rat Empire munitions. Designed for starting fires in enemy ships.	'Eine improvisierte Brandbombe, hergestellt aus einer Kombination von Munition des Rattenimperiums. Entwickelt, um Brände in feindlichen Schiffen auszulösen.	250
 'randomizerMenuStrings[i]	'-130 credits	'-130 Kredite	30
 
@@ -11073,7 +11073,7 @@
 'altText	'To alleviate our ammo problem, scrap <b>1 explosives pack</b> and<b> 1 metal pack</b> in our module storage, to get the resources they contain.	'Um unser Munitionsproblem zu lindern, verschrotten wir <b>1 Sprengstoffe-Paket</b> und <b>1 Metalle-Paket</b> in unserem Frachtraum, um die darin enthaltenen Ressourcen zu erhalten.	240
 'altText	'The upcoming combat training is a great opportunity to test out different types of weapons. \nPlease buy & install the three weapons available.	'Das bevorstehende Kampftraining ist eine gute Gelegenheit, verschiedene Waffentypen auszuprobieren. \nBitte kaufen & installieren Sie die drei verfügbaren Waffen.	240
 'text2	'got warp, go to next system shop	'Habe Warp, gehe zum nächsten Systemshop	400
-'altText	'Now craft one of the <b>avaialble DIY weapons </b> by clicking on a weapon slot and making sure it is empty. Then scroll and click on a weapon module to craft it.	'Stellen Sie nun eine der <b>herstellbaren DIY-Waffen</b> her, indem Sie auf einen Waffensteckplatz klicken und sicherstellen, dass dieser leer ist. Scrollen Sie dann und klicken Sie auf ein Waffenmodul, um dieses herzustellen.	240
+'altText	'Now craft one of the <b>avaialble DIY weapons </b> by clicking on a weapon slot and making sure it is empty. Then scroll and click on a weapon module to craft it.	'Stellen Sie nun eine der <b>herstellbaren Selbstbau-Waffen</b> her, indem Sie auf einen Waffensteckplatz klicken und sicherstellen, dass dieser leer ist. Scrollen Sie dann und klicken Sie auf ein Waffenmodul, um dieses herzustellen.	240
 'altText	'Next, let's install the <b>engine</b>, which we obviously need for moving. It also gives a significant <b>evasion bonus</b> against enemy attacks.	'Als nächstes bauen wir den <b>Motor</b> ein, den wir natürlich zum Bewegen brauchen. Außerdem gibt er einen erheblichen <b>Ausweichbonus</b> gegen gegnerische Angriffe.	240
 'altText	'By the way, from now on we can upgrade one of our <b>hybrid slots</b> into a weapon slot, and then craft an additional weapon for ourselves to be used in the training. Internal module slots can be upgraded as well. I've prepared some resources for you.	'Übrigens können wir von nun an einen unserer <b>Hybrid-Steckplätze</b> zu einem Waffensteckplatz aufrüsten und uns dann eine zusätzliche Waffe für das Training herstellen. Interne Modul-Steckplätze können ebenfalls aufgerüstet werden. Ich habe einige Ressourcen für Sie vorbereitet.	240
 'choiceTexts	'Click here to get resources for upgrade	'Ressourcen für die Aufrüstung erhalten	15
