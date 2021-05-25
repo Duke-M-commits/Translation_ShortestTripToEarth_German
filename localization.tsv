@@ -8231,7 +8231,7 @@
 
 'artifactmodule tec 11 biostasis.prefab
 'displayName	'Tech artifact (biostasis unit)	'Technisches Artefakt (Biostasis-Einheit)	40
-'description	'A piece of non-repairable xenotechnology that contains a small, dead warp worm and lot's of valuable scientific information.	'Ein nicht reparierbares Stück Xenotechnologie, das einen kleinen, toten Warpwurm und viele wertvolle wissenschaftliche Informationen enthält.	200
+'description	'A piece of non-repairable xenotechnology that contains a small, dead warp worm and lots of valuable scientific information.	'Ein nicht reparierbares Stück Xenotechnologie, das einen kleinen, toten Warpwurm und viele wertvolle wissenschaftliche Informationen enthält.	200
 
 'artifactmodule tec 12 data square gizmo with minidomes.prefab
 'displayName	'Tech artifact (data core)	'Tech-Artefakt (Datenkern)	40
@@ -10143,7 +10143,7 @@
 'Perk barter get exotics for explosives.prefab
 'displayName	'Unofficial deal (get exotics II)	'Inoffizieller Exoten Handel	40
 'description	'An opportunity to obtain some exotic matter. Exotics are most useful for situations that require crafting new modules or bartering.	'Eine Gelegenheit, einige exotische Materie zu erhalten. Exoten sind am nützlichsten für Situationen, die das Herstellen neuer Module oder Tauschgeschäfte erfordern.	250
-'unlockAnnouncementText	'During our travels, we've met a professional warplife huner who is willing to exchange exotics for explosives.	'Auf unseren Reisen haben wir einen professionellen Warp-Leben-Jäger getroffen, der bereit ist, Exoten gegen Sprengstoff einzutauschen.	100
+'unlockAnnouncementText	'During our travels, we've met a professional warplife hunter who is willing to exchange exotics for explosives.	'Auf unseren Reisen haben wir einen professionellen Warp-Leben-Jäger getroffen, der bereit ist, Exoten gegen Sprengstoff einzutauschen.	100
 'randomizerMenuStrings[i]	'-60 explosives	'-60 Sprengstoffe	30
 'randomizerMenuStrings[i]	'+3 exotics	'+3 Exoten	30
 
@@ -11765,7 +11765,7 @@
 
 'Human good operator description pool.prefab
 	'A retired space fleet officer. Has exceptional manners and skills.	'Ein pensionierter Raumflottenoffizier. Hat außergewöhnliche Manieren und Fähigkeiten.	250
-	'A very old person. Has only ~90 years left to live. Lot's of experience.	'Ein sehr alter Mensch. Hat nur noch ~90 Jahre zu leben. Sehr viel Erfahrung.	250
+	'A very old person. Has only ~90 years left to live. Lots of experience.	'Ein sehr alter Mensch. Hat nur noch ~90 Jahre zu leben. Sehr viel Erfahrung.	250
 	'A Dream monk. Spends all free time with eyes closed. Very skilled.	'Ein Traummönch. Verbringt seine ganze freie Zeit mit geschlossenen Augen. Sehr begabt.	250
 	'A systems theory scientist. Enjoys tripping. Excellent attitude.	'Ein Systemtheorie-Wissenschaftler. Genießt es, zu stolpern. Ausgezeichnete Einstellung.	250
 	'A Balance monk. Spent years to bring balance into their life.	'Ein Balance-Mönch. Hat Jahre damit verbracht, Balance in sein Leben zu bringen.	250
@@ -12142,7 +12142,7 @@
 	'It was everybody's fault and yours. It was your fault at least 10%, and maybe more.	'Es war die Schuld von allen und von Ihnen. Es war zu mindestens 10% deine Schuld, vielleicht sogar mehr.	80
 	'It happened because of everybody including you. This knowledge will help you in the future, maybe.	'Es ist wegen jedem passiert, auch wegen Ihnen. Dieses Wissen wird Ihnen in der Zukunft vielleicht helfen.	80
 	'You participated in the choices that lead to your destruction. Participate even better next time.	'Sie haben an den Entscheidungen teilgenommen, die zu Ihrer Zerstörung führten. Beteiligen Sie sich beim nächsten Mal noch besser.	80
-	'Bring bigger and better weapons next time, and craft lot's of nukes. Getting more gun-wielding crew is essential.	'Bringen Sie das nächste Mal größere und bessere Waffen mit, und stellen Sie viele Bomben her. Es ist wichtig, mehr waffenfähige Besatzungsmitglieder zu bekommen.	80
+	'Bring bigger and better weapons next time, and craft lots of nukes. Getting more gun-wielding crew is essential.	'Bringen Sie das nächste Mal größere und bessere Waffen mit, und stellen Sie viele Bomben her. Es ist wichtig, mehr waffenfähige Besatzungsmitglieder zu bekommen.	80
 	'Bring bigger and better weapons next time. Also more shields and an attitude that confronts challenges with creative solutions and constructivity.	'Bringen Sie beim nächsten Mal größere und bessere Waffen mit. Auch mehr Schilde und eine Einstellung, die Herausforderungen mit kreativen Lösungen und Konstruktivität begegnet.	80
 	'Fine. In this case "Fine" means "It is okay" becaue it's okay to die in a roguelike. Totally, perfectly okay, anytime for any stupid reason.	'Gut. In diesem Fall bedeutet "Gut" "Es ist okay", denn es ist okay, in einem Roguelike zu sterben. Völlig, vollkommen okay, jederzeit und aus jedem dummen Grund.	80
 	'It's okay to die in a roguelike - anytime, because of any reason, with any level of intelligence or stupidity involved.	'Es ist okay, in einem Roguelike zu sterben - jederzeit, aus jedem Grund, mit jedem Grad an Intelligenz oder Dummheit.	80
