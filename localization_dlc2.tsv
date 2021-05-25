@@ -49,7 +49,7 @@
 
 '2 Pi Phobian planet 2, wasteland.prefab
 'text2	'There is no orbital defence. The entire surface of the planet is scarred and polluted by fairly recent chemical warfare, it seems all the larger settlements have been destroyed, and the planet is still heavily militarized, waging smaller wars here and there. We've decided to move on.	'Es gibt keine orbitale Verteidigung. Die gesamte Oberfläche des Planeten ist vernarbt und verschmutzt durch einen relativ jungen chemischen Krieg, es scheint, dass alle größeren Siedlungen zerstört wurden, und der Planet ist immer noch stark militarisiert, wobei hier und da kleinere Kriege geführt werden. Wir haben beschlossen, weiterzuziehen.	400
-'reasonToDisplay	'scouting operation finished	'auskundschaftende operation beendet	30
+'reasonToDisplay	'scouting operation finished	'Auskundschaftung beendet	30
 'text	'"Attention, space traveller! The Phobian Empire does not want foreigners snooping around their planets, and our local Colony leaders support this decision. Go away or be destroyed by powerful orbital defences."	'"Achtung, Raumfahrer! Das phobische Imperium möchte nicht, dass Fremde auf seinem Planeten herumschnüffeln, und unsere lokalen Kolonieführer unterstützen diese Entscheidung. Verschwinden Sie oder werden Sie von starken orbitalen Verteidigungsanlagen zerstört."	400
 'choiceText	'Print an atmospheric bot to snoop around [-30 synthetics]	'Drucke einen atmosphärischen Bot zum Herumschnüffeln [-30 Kunststoffe]	100
 'newName3	'Absorber civilization	'Absorber-Zivilisation	25
@@ -205,7 +205,7 @@
 'Ambusher L3b Hunter Crab.prefab
 'title	'Hunter Captain	'Jäger-Kapitän	35
 'text	'"Alien vessel, you have stranded into our ever-changing food hunting grounds during the Prime Gorging Season. We must destroy and eat you, except if you prepare us the finest of your foods and satisfy our Holy Hunger."	'"Außerirdisches Schiff, du bist während der Hauptfresssaison in unseren ständig wechselnden Nahrungsgründen gestrandet. Wir müssen euch zerstören und fressen, es sei denn, ihr bereitet uns die feinsten eurer Nahrungsmittel zu und stillt unseren heiligen Hunger."	400
-'choiceText	'Print delicious foods as a bribe [-120 organics]	'Druckt köstliche Speisen als Bestechung [-120 organisch]	100
+'choiceText	'Print delicious foods as a bribe [-120 organics]	'Druckt köstliche Speisen als Bestechung [-120 Organik]	100
 'choiceText	'You think about food too much [prepare for combat].	'Ihr denkt zu viel über Essen nach [Vorbereitung auf den Kampf].	100
 'text	'A single, large ship is approaching tactical weapons range. It seems technologically very advanced.	'Ein einzelnes, großes Schiff nähert sich der taktischen Waffenreichweite. Es scheint technologisch sehr fortschrittlich zu sein.	600
 'text2	'"We would have rather preferred to eat the contents of your lifepods instead, but the nom-nomings you prorvided were satisfactory. We especialy enjoyed the Chokulaatu. Go in peace."	'"Wir hätten es vorgezogen, stattdessen den Inhalt Eurer Rettungskapseln zu essen, aber die Lecker-Leckeris, die Ihr uns gegeben habt, waren zufriedenstellend. Vor allem das Chokulaatu hat uns gut geschmeckt. Geht in Frieden."	400
@@ -322,7 +322,7 @@
 'displayName	'EMP particle	'EMP Partikel	35
 
 'weapon EMP perm DLC.prefab
-'displayName	'Oscillaati Sunthrower	'Schwingungs-Sonnenwerfer	40
+'displayName	'Oscillaati Sunthrower	'Oszillierender Sonnenwerfer	40
 'description	'This powerful built-in energy weapon creates a homing ball of warp plasma that can disable large parts of enemy ships with a single shot. Cannot be shot down by point-defences.	'Diese mächtige eingebaute Energiewaffe erzeugt einen zielsuchenden Ball aus Warpplasma, der große Teile feindlicher Schiffe mit einem einzigen Schuss außer Gefecht setzen kann. Kann nicht durch Punktabwehr abgeschossen werden.	200
 
 'The Exception.prefab
