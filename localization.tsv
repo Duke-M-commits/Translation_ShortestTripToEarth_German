@@ -280,7 +280,7 @@
 	'+{0}% point defence range	'+{0}% Punktabwehr-Reichweite	0
 	'+{0} weapon accuracy	'+{0} Waffen-Genauigkeit	0
 	'Shield skill allows operating shield generator modules	'Schild-Fertigkeit erlaubt die Bedienung von Schildgeneratormodulen	0
-	'+{0}% shield reload time	'+{0}% Schild Nachladezeit	0
+	'+{0}% shield reload time	'+{0}% Schild-Nachladezeit	0
 	'Repair skill allows repairing broken modules and damage tokens	'Reparatur-Fertigkeit erlaubt die Reparatur von defekten Modulen und Schiffsschäden	0
 	'+{0}% repair speed	'+{0}% Reparatur Geschwindigkeit	0
 	'Damage token 1 HP repair time {0:0.0}s	'Schadensmarkierung 1 HP Reparaturzeit {0:0.0}s	0
@@ -433,11 +433,11 @@
 	'Damage to door	'Schaden an Tür	0
 	'Damage to shield	'Schaden am Schild	0
 	'EMP {0}s	'EMP {0}s	0
-	'Point defence reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	'Punktabwehr Nachladezeit.\nVerringerung durch Geschützfertigkeit ({0}% pro Punkt Geschützfertigkeit des Besatzungsmitglieds)	0
+	'Point defence reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	'Punktabwehr-Nachladezeit.\nVerringerung durch Geschützfertigkeit ({0}% pro Punkt Geschützfertigkeit des Besatzungsmitglieds)	0
 	'Point defence cover radius.\nIncreased by gunnery skill({0}% per operator gunnery skill point)	'Deckungsradius der Punktabwehr.\nErhöht durch die Geschützfertigkeit ({0}% pro Punkt der Geschützfertigkeit des Besatzungsmitglieds)	0
 	'Starmap radar range.\nShip will use max value if multiple sensors are present.\nIncreased by sensor skill(+{0}% per operator sensor skill point)	'Sternenkarte-Radar-Reichweite.\nSchiff verwendet maximalen Wert, wenn mehrere Sensoren vorhanden sind.\nErhöht durch Sensor-Fertigkeit(+{0}% pro Sensor-Fertigkeitspunkt des Besatzungsmitglieds)	0
 	'Ship evasion bonus ({0} per operator bridge skill point)	'Schiffsausweichbonus ({0} pro Brückenfertigkeitspunkt des Besatzungsmitglieds)	0
-	'Shield reload time.\nReduced by shield skill({0}% per operator shield skill point)	'Schildnachladezeit.\nVerringerung durch Schild-Fertigkeit ({0}% pro Schild-Fertigkeitspunkt des Besatzungsmitglieds)	0
+	'Shield reload time.\nReduced by shield skill({0}% per operator shield skill point)	'Schild-Nachladezeit.\nVerringerung durch Schild-Fertigkeit ({0}% pro Schild-Fertigkeitspunkt des Besatzungsmitglieds)	0
 	'Warp reload time.\nReduced by warp skill({0}% per operator shield skill point)	'Warp-Nachladezeit.\nVerringerung durch Warp-Fertigkeit ({0}% pro Schild-Fertigkeitspunkt des Besatzungsmitglieds)	0
 	'1 gardening skill point gives {0} {1} per 100ru	'1 Fertigkeitspunkt Gartenarbeit ergibt {0} {1} pro 100re	0
 	'(if multiple operators work in garden, their skill points are added together)	'(wenn mehrere Besatzungsmitglieder im Garten arbeiten, werden ihre Fertigkeitspunkte zusammengerechnet)	0
@@ -791,7 +791,7 @@
 	'A malfunction in our ship's warpdrive has landed us in deep space...	'Eine Fehlfunktion im Warpantrieb unseres Schiffes hat uns in den Tiefen des Weltraums gelandet...	0
 	'Stranded away from all possibility of refuelling...	'Gestrandet, fernab von jeder Möglichkeit des Auftankens...	0
 	'Our only option was to freeze ourselves and accelerate towards the closest star...	'Unsere einzige Möglichkeit war, uns einzufrieren und zum nächsten Stern zu beschleunigen...	0
-	5 years later...	5 Jahre später...	0
+	'5 years later...	'5 Jahre später...	0
 
 'Cutscene 1to2.prefab
 	'We've arrived at the next sector. A remote area in deep space, far from all major intergalactic factions...	'Wir sind im nächsten Sektor angekommen. Ein abgelegenes Gebiet im tiefen Weltraum, weit weg von allen großen intergalaktischen Fraktionen...	0
@@ -812,7 +812,7 @@
 	'Modules found:	'Gefundene Module:	0
 	'Planets interacted with.	'Planeten, mit denen interagiert wurde.	0
 	'Planets visited:	'Besuchte Planeten:	0
-	'Fate points gained from encouters during this run.	'Schicksalspunkte, die während dieses Laufs von Eindringlingen gewonnen wurden.	0
+	'Fate points gained from encouters during this run.	'Schicksalspunkte, die während dieses Laufs von Ereignissen gewonnen wurden.	0
 	'Fate earned:	'Verdientes Schicksal:	0
 	'Each sector has an unlockable ship or a number of undiscovered perks.\nAll or most of them can be found by completing sectors.	'Jeder Sektor hat ein freischaltbares Schiff oder eine Anzahl unentdeckter Startboni.\nAlle oder die meisten von ihnen können durch das Abschließen von Sektoren gefunden werden.	0
 	'Perks found:	'Startboni gefunden:	0
@@ -1750,7 +1750,7 @@
 'Button. Additional information for player ship	'PRESS TO RESUME FIRE	'DRÜCKEN,\nUM ZU\nFEUERN	20
 	'Dodge	'Ausweichen	0
 'Button. Additional information for player ship	'DODGE	'AUSWEICHEN	20
-'Button. Additional information for player ship	45s	45s	20
+'Button. Additional information for player ship	'45s	'45s	20
 	'Add quickselection slot	'Schnellwahl hinzufügen	0
 	'Remove quickselection slot	'Schnellwahl entfernen	0
 	'SELECT MODULE/CREW THEN R-CLICK TO PLACE INTO QUICK SELECTION BOX	'MODUL/BESATZUNG AUSWÄHLEN, DANN R-KLICK ZUM PLATZIEREN IN SCHNELLAUSWAHL	0
@@ -1806,8 +1806,8 @@
 	'Confirm	'Bestätigen	0
 	'not enough materials	'Nicht genug Materialien	0
 'Refers to shop	'Store	'Händler	0
-	'Buy 1	1 Kaufen	0
-	'Sell 1	'Verkaufen 1	0
+	'Buy 1	'1 Kaufen	0
+	'Sell 1	'1 Verkaufen	0
 	'Buy:	'Kaufen:	0
 	'Sell:	'Verkaufen:	0
 	'Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	'Durchschnittlicher Preis beim Verkauf an Stationen: 2 Kredite.\nOrganik ist notwendig, um optimale Besatzungsfertigkeiten und Heilung zu erhalten.	0
@@ -1827,11 +1827,11 @@
 	'Mark non-crew repairable damage	'Nicht-reparierbare Schäden markieren	0
 	'Unmark all damage	'Alle Schadensmarkierungen entfernen	0
 	'Marked:	'Markiert:	0
-	'Dmg	'Dmg	0
+	'Dmg	'Schaden	0
 	'Cost	'Kosten:	0
 	'Total:	'Gesamt:	0
 	'Repairing by stations is always cheaper than repairing with crew\r\n(because crew spends 30 metals to repair each ship hitpoint).	'Die Reparatur durch Stationen ist immer billiger als die Reparatur mit der Besatzung\n(weil die Besatzung 30 Metalle für die Reparatur jedes Schiffshüllenpunkte benötigt).	0
-	1 HP repair cost	1 HP Reparaturkosten	0
+	'1 HP repair cost	'1 HP Reparaturkosten	0
 	'Not enough credits!	'Nicht genug Kredite!	0
 	'REPAIRING DAMAGE	'SCHADEN REPARIEREN	0
 	'Please stand by...	'Bitte bereithalten...	0
@@ -3066,7 +3066,7 @@
 
 'SOS2 exo, contaminated lizardman.prefab
 'title	'Lizardfolk captain	'Echsenvolk-Kapitän	35
-'text	'"/.../ and I am the last surivor. The virus has infected me, and I will be dead within hours. If you can cure me, I will serve your noble cause to death"	'"/.../ und ich bin der letzte Überlebende. Der Virus hat mich infiziert, und ich werde innerhalb von Stunden tot sein. Wenn ihr mich heilen könnt, werde ich eurer edlen Sache bis zum Tod dienen"	400
+'text	'"... and I am the last surivor. The virus has infected me, and I will be dead within hours. If you can cure me, I will serve your noble cause to death"	'"... und ich bin der letzte Überlebende. Der Virus hat mich infiziert, und ich werde innerhalb von Stunden tot sein. Wenn ihr mich heilen könnt, werde ich eurer edlen Sache bis zum Tod dienen"	400
 'choiceText	'we'll decontaminate & cure you if we can [needs medbay & 50 organics]	'Wir werden Sie dekontaminieren und heilen, wenn wir können [benötigt Krankenstation und 50 Organics]	100
 'choiceText	'Sorry, we cannot help right now	'Tut mir leid, wir können im Moment nicht helfen.	100
 'newName3	'Needs medical help	'Braucht medizinische Hilfe	25
@@ -5558,7 +5558,7 @@
 'choiceText	'Buy the nuke [-5 exotics]	'Kaufen Sie die Bombe [-5 Exoten]	100
 'title	'Techno Junk traders	'Techno-Schrott-Händler	35
 'text	'It turns out the station sells only ancient farming drones, and these are too large for our ship. However, a shady pair of Gor-Mor offers old, obsolete or broken modules in bulk, for cheap.	'Es stellt sich heraus, dass die Station nur uralte Farming-Drohnen verkauft, und diese sind zu groß für unser Schiff. Allerdings bietet ein zwielichtiges Gor-Mor-Pärchen alte, veraltete oder kaputte Module in großen Mengen an, und zwar für wenig Geld.	400
-'choiceText	'Buy 3 modules [-175 creds]	3 Module kaufen [-175 Kredite]	100
+'choiceText	'Buy 3 modules [-175 creds]	'3 Module kaufen [-175 Kredite]	100
 'text2	'The station replica self-destructed after we had defeated the boarding bots. The techno-junk inside the replica scattered in all directions as shrapnel, causing minor damage to our ship.	'Der Stationsnachbau hat sich selbst zerstört, nachdem wir die Boarding Bots besiegt hatten. Der Technoschrott im Inneren des Replikats verstreute sich als Schrapnell in alle Richtungen und verursachte leichte Schäden an unserem Schiff.	400
 'title	'Automated Ambush!	'Automatischer Überfall!	35
 'text	'The entire structure proves to be a hollow metal replica of a station filled with junk, to trick our sensors. Several very crude, but deadly boarding bots have been detected landing on our ship's hull...	'Die gesamte Struktur entpuppt sich als hohle Metallreplik einer Station, die mit Schrott gefüllt ist, um unsere Sensoren zu täuschen. Mehrere sehr plumpe, aber tödliche Enterbots wurden entdeckt, die auf der Hülle unseres Schiffes gelandet sind...	600
@@ -8072,15 +8072,15 @@
 
 'Level 1, rats.prefab
 'displayName	'The Closest Star	'Der nächste Stern	25
-'description	'Captains log:\n\n/.../ A warpdrive malfunction has landed us in the wrong place, light years away from Earth. We are almost out of fuel. Supplies are running out. \nSome crew have been <color=red>injured</color> and some equipment is not working. Personally, I find all of this not too bad because /.../	'Logbuch des Kapitäns: \n/.../ Eine Fehlfunktion des Warpantriebs hat uns an der falschen Stelle gelandet, Lichtjahre von der Erde entfernt. Wir haben fast keinen Treibstoff mehr. Die Vorräte gehen zur Neige. \nEinige Besatzungsmitglieder wurden <color=red>verletzt</color> und einige Geräte funktionieren nicht. Ich persönlich finde das alles nicht so schlimm, weil /.../	350
+'description	'Captains log:\n\n... A warpdrive malfunction has landed us in the wrong place, light years away from Earth. We are almost out of fuel. Supplies are running out. \nSome crew have been <color=red>injured</color> and some equipment is not working. Personally, I find all of this not too bad because ...	'Logbuch des Kapitäns: \n... Eine Fehlfunktion des Warpantriebs hat uns an der falschen Stelle gelandet, Lichtjahre von der Erde entfernt. Wir haben fast keinen Treibstoff mehr. Die Vorräte gehen zur Neige. \nEinige Besatzungsmitglieder wurden <color=red>verletzt</color> und einige Geräte funktionieren nicht. Ich persönlich finde das alles nicht so schlimm, weil ...	350
 
 'Level 10, greens, planetkiller.prefab
 'displayName	'Warpgate to Earth	'Warptor zur Erde	25
-'description	'(new runs can be only started from sectors 1,2,3)\n\nThis is the closest long-range warpgate to Earth. An Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God is approaching, to destroy Earth.\n\nFragment from the captains log:\n/.../ Allright, this has got to be the biggest and last thing in the list of many thing that I was specifically planning not to do. Agreeing to ambush a freaking planet-killer battlecruiser. I humbly expect the entire Earth population to buy me a drink after this and perhaps also /.../	'(neue Runs können nur von den Sektoren 1,2,3 aus gestartet werden)\n\nDies ist das nächstgelegene Fern-Warptor zur Erde. Ein Insektoiden Vergeltungs-Mega-Schlachtkreuzer-Planetenzerstörer-Rache-Gott nähert sich, um die Erde zu zerstören.\n\nFragment aus dem Logbuch des Kapitäns: \n/.../ In Ordnung, das muss die größte und letzte Sache auf der Liste der vielen Sachen sein, die ich ausdrücklich nicht vorhatte zu tun. Einverstanden, einen verdammten Planetenzerstörer-Schlachtkreuzer in einen Hinterhalt zu locken. Ich erwarte in aller Bescheidenheit, dass mir die gesamte Erdbevölkerung danach einen Drink spendiert und vielleicht auch /.../	350
+'description	'(new runs can be only started from sectors 1,2,3)\n\nThis is the closest long-range warpgate to Earth. An Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God is approaching, to destroy Earth.\n\nFragment from the captains log:\n... Allright, this has got to be the biggest and last thing in the list of many thing that I was specifically planning not to do. Agreeing to ambush a freaking planet-killer battlecruiser. I humbly expect the entire Earth population to buy me a drink after this and perhaps also ...	'(neue Runs können nur von den Sektoren 1,2,3 aus gestartet werden)\n\nDies ist das nächstgelegene Fern-Warptor zur Erde. Ein Insektoiden Vergeltungs-Mega-Schlachtkreuzer-Planetenzerstörer-Rache-Gott nähert sich, um die Erde zu zerstören.\n\nFragment aus dem Logbuch des Kapitäns: \n... In Ordnung, das muss die größte und letzte Sache auf der Liste der vielen Sachen sein, die ich ausdrücklich nicht vorhatte zu tun. Einverstanden, einen verdammten Planetenzerstörer-Schlachtkreuzer in einen Hinterhalt zu locken. Ich erwarte in aller Bescheidenheit, dass mir die gesamte Erdbevölkerung danach einen Drink spendiert und vielleicht auch ...	350
 
 'Level 2, pirates.prefab
 'displayName	'The Great Inbetween	'Das große Zwischending	25
-'description	'Captains log:\n\n/.../ We've survived the Rat Empire, but I feel our troubles are only beginning. \nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to see that we upgrade one of the hybrid point-defence slots into a weapon platform /.../	'Logbuch des Kapitäns: \n/.../ Wir haben das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktabwehr, Schilde und vor allem <color=green>Schiffswaffensteckplätze</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, dafür zu sorgen, dass wir einen der hybriden Punktabwehr-Steckplatz zu einer Waffenplattform aufrüsten /.../	350
+'description	'Captains log:\n\n... We've survived the Rat Empire, but I feel our troubles are only beginning. \nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to see that we upgrade one of the hybrid point-defence slots into a weapon platform ...	'Logbuch des Kapitäns: \n... Wir haben das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktabwehr, Schilde und vor allem <color=green>Schiffswaffensteckplätze</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, dafür zu sorgen, dass wir einen der hybriden Punktabwehr-Steckplatz zu einer Waffenplattform aufrüsten ...	350
 
 'Level 3, collection.prefab
 'displayName	'The Periphery	'Die Peripherie	25
@@ -8099,7 +8099,7 @@
 
 'Level 8, spideraa darkspace.prefab
 'displayName	'Outward Abyss	'Äußerer Abgrund	25
-'description	'(new runs can be only started from sectors 1,2,3)\n\nA sector of extreme remoteness, known for a constellation of black holes. The Yu-Ee have observed advanced arachnid ships in the area.\n\nFrom the captains log:\n/.../ I think spiders, and insects in general are very nice. If you know the right rituals, everything at least can go well. But these Spider-aagh here are something different. Their religion demands that their food must be alive and conscious until the meal is over.\nI've instructed the ship to self-destruct in case there is serious danger of capture just to give everyone that extra bit of confidence we need /.../	'(neue Runs können nur aus den Sektoren 1,2,3 gestartet werden)\n\nEin Sektor von extremer Abgeschiedenheit, bekannt für eine Konstellation von schwarzen Löchern. Die Yu-Ee haben fortgeschrittene Spinner-Schiffe in diesem Gebiet beobachtet.\n\nAus dem Logbuch des Kapitäns: \n/.../ Ich finde Spinnen und Insekten im Allgemeinen sehr nett. Wenn man die richtigen Rituale kennt, kann zumindest alles gut gehen. Aber diese Spider-aagh hier sind etwas anderes. Ihre Religion verlangt, dass ihre Nahrung lebendig und bei Bewusstsein sein muss, bis die Mahlzeit vorbei ist.\nIch habe das Schiff angewiesen, sich selbst zu zerstören, für den Fall, dass ernsthafte Gefahr besteht, gefangen genommen zu werden, nur um allen das nötige Extra an Vertrauen zu geben /.../	350
+'description	'(new runs can be only started from sectors 1,2,3)\n\nA sector of extreme remoteness, known for a constellation of black holes. The Yu-Ee have observed advanced arachnid ships in the area.\n\nFrom the captains log:\n... I think spiders, and insects in general are very nice. If you know the right rituals, everything at least can go well. But these Spider-aagh here are something different. Their religion demands that their food must be alive and conscious until the meal is over.\nI've instructed the ship to self-destruct in case there is serious danger of capture just to give everyone that extra bit of confidence we need ...	'(neue Runs können nur aus den Sektoren 1,2,3 gestartet werden)\n\nEin Sektor von extremer Abgeschiedenheit, bekannt für eine Konstellation von schwarzen Löchern. Die Yu-Ee haben fortgeschrittene Spinner-Schiffe in diesem Gebiet beobachtet.\n\nAus dem Logbuch des Kapitäns: \n... Ich finde Spinnen und Insekten im Allgemeinen sehr nett. Wenn man die richtigen Rituale kennt, kann zumindest alles gut gehen. Aber diese Spider-aagh hier sind etwas anderes. Ihre Religion verlangt, dass ihre Nahrung lebendig und bei Bewusstsein sein muss, bis die Mahlzeit vorbei ist.\nIch habe das Schiff angewiesen, sich selbst zu zerstören, für den Fall, dass ernsthafte Gefahr besteht, gefangen genommen zu werden, nur um allen das nötige Extra an Vertrauen zu geben ...	350
 
 'Level 9, marble, squid, shokar.prefab
 'displayName	'The Hideout Hunt	'Die Versteckjagd	25
@@ -8607,7 +8607,7 @@
 'description	'Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	'Hybride Integritätstechnologie mit elektronischer Gegenmaßnahme. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid-Steckplatz.	200
 
 'engine 0 diy.prefab
-'displayName	'DIY engine	'DIY-Motor	40
+'displayName	'DIY engine	'Selbstbau-Motor	40
 'description	'Primitive engine manually assembled from spare parts. Very high fuel consumption.	'Primitiver Motor, der manuell aus Ersatzteilen zusammengebaut wird. Sehr hoher Treibstoffverbrauch.	200
 
 'engine 01 brittle.prefab
