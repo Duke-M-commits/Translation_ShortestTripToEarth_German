@@ -10712,7 +10712,7 @@
 
 'Perk nuke DIY shield breaker.prefab
 'displayName	'DIY shield breaker	'Schildbrecher-Bombe (Selbstbau)	40
-'description	'This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless. Quite fragile, may be shot down by point-defences without distraction fire or decoys.	'Diese improvisierte Bombe trägt eine starke Anti-Schild-Energieladung, ist aber ansonsten harmlos. Ziemlich zerbrechlich, kann von Punktabwehrsystemen ohne Ablenkungsfeuer oder Täuschkörper abgeschossen werden.	250
+'description	'This improvised capital missile carries a strong anti-shield energy charge, but is otherwise harmless. Quite fragile, may be shot down by point-defences without distraction fire or decoys.	'Diese improvisierte Bombe trägt eine starke Anti-Schild-Energieladung, ist aber ansonsten harmlos. Ziemlich zerbrechlich, kann leicht von Punktabwehrsystemen abgeschossen werden.	250
 
 'Perk nuke EMP 9000.prefab
 'displayName	'EMP Megablast 9000	'EMP Megablast 9000	40
