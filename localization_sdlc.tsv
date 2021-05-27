@@ -1,18 +1,14 @@
 ﻿:displayName Deutsch
 
 'Dog.prefab
-'dieMessage	'{0} has ceased existing.	'{0} hat aufgehört zu existieren.	70
 'appearance[i].description	'A trained dog, with brain implants. Has been taught to operate ship sensors, although does not completely understand what he is doing.	'Ein dressierter Hund, mit Gehirnimplantaten. Ihm wurde beigebracht, die Schiffssensoren zu bedienen, obwohl er nicht ganz versteht, was er da tut.	250
 
 'Drone tigerdog.prefab
-'dieMessage	'{0} destroyed.	'{0} zerstört.	70
-'appearance[i].description	'Heavy-duty drone for industrial construction & repairs. Modded software allows unhindered destructive behaviour. Almost fireproof.	'Hochleistungsdrohne für industrielle Konstruktionen und Reparaturen. Modifizierte Software erlaubt ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250
 
 'Drone tigerspider assaulter.prefab
 'appearance[i].description	'Heavy-duty drone modded for boarding operations. Upgraded software allows unhindered destructive behaviour. Almost fireproof.	'Schwerlastdrohne, modifiziert für Boarding-Operationen. Aufgerüstete Software erlaubt ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250
 
 'Female cyborg crew.prefab
-'dieMessage	'RIP {0}.	'RIP {0}.	70
 'appearance[i].description	'A codehacker who wants to become fully android one day.	'Ein Codehacker, der eines Tages Voll-Androide werden will.	250
 
 'Floater.prefab
@@ -39,11 +35,9 @@
 
 'bridge 2crew tiger.prefab
 'displayName	'Command bridge, Tiger	'Kommandobrücke, Tiger	40
-'description	'A single operator allows the bridge to remotely operate other modules (without providing skill bonuses). Each operator additionally gives an evasion bonus to the entire ship.	'Ein einzelnes Besatzungsmitglied ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus). Jedes Personal gibt zusätzlich einen Ausweichbonus für das gesamte Schiff.	200
 
 'fuel container tiger.prefab
 'displayName	'Fuel tank (Tiger)	'Treibstoff-Behälter (Tiger)	40
-'description	'Fuel container. Damage results in rapid loss of fuel.	'Treibstoff-Behälter. Eine Beschädigung führt zu einem schnellen Verlust des Treibstoffs.	200
 
 'integrity tiger.prefab
 'displayName	'Integrity hardpoint, Tiger	'Integritäts-Ansatzpunkt, Tiger	40
@@ -51,7 +45,6 @@
 
 'shield tigership.prefab
 'displayName	'Tiger shield generator	'Tiger-Schildgenerator	40
-'description	'Regenerates shield points. Requires one operator. Resilient structure improves ship HP.	'Regeneriert Schildpunkte. Erfordert ein Besatzungsmitglied. Widerstandsfähige Struktur verbessert die Schiffs-HP.	200
 
 'shieldbat tiger.prefab
 'displayName	'Shield battery (Tiger)	'Schildbatterie (Tiger)	40
@@ -84,7 +77,6 @@
 'Perk nuke Battle Tiger monolith.prefab
 'displayName	'Tiger Mountain nuke	'Tiger-Berg-Bombe	40
 'description	'A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Smalle AoE.	'Eine schwer gepanzerte Bombe, die das Ziel mit einer Kraft rammt, die Mikromonde zerschmettern könnte. Kleiner AoE.	250
-'randomizerMenuStrings[i]	'+1 capital missile	'+1 Bombe	30
 
 'Perk nuke Tiger battery 8.prefab
 'description	'A single-use battery that shoots 8 missiles.	'Eine einmalig verwendbare Batterie, die 8 Bomben abschießt.	250
@@ -107,25 +99,21 @@
 'displayName	'Combat Rabbit (pet)	'Kampfkaninchen (Haustier)	40
 'description	'We may buy this ancient combat organism from a biotech junk market. It is genetically modified for superior speed and strength, and digitally trained to attack enemies in close combat.	'Diesen uralten Kampforganismus können wir auf einem Biotech-Schrottmarkt kaufen. Er ist genetisch auf überragende Geschwindigkeit und Stärke modifiziert und digital darauf trainiert, Feinde im Nahkampf anzugreifen.	250
 'randomizerMenuStrings[i]	'+1 pet (combat rabbit)	'+1 Haustier (Kampfkaninchen)	30
-'randomizerMenuStrings[i]	'-40 credits	'-40 Kredite	30
 
 'Perk pet DLC fire tortoise.prefab
 'displayName	'Fire Tortoise (pet)	'Feuerschildkröte (Haustier)	40
 'description	'The creature is very intelligent and can tend gardens. It can also naturally breathe fire at enemies.	'Die Kreatur ist sehr intelligent und kann Gärten pflegen. Sie kann außerdem auf natürliche Weise Feuer auf Feinde spucken.	250
 'randomizerMenuStrings[i]	'+1 pet (fire tortoise)	'+1 Haustier (Feuerschildkröte)	30
-'randomizerMenuStrings[i]	'+20 organics	'+20 Organik	30
 
 'Perk pet DLC shocker lizard.prefab
 'displayName	'Shocker lizard (pet)	'Schockechse (Haustier)	40
 'description	'A live gift from an old friend of our AI. The creature is quite intelligent and can shoot energy rays from its eyes.	'Ein lebendes Geschenk von einem alten Freund unserer KI. Die Kreatur ist ziemlich intelligent und kann Energiestrahlen aus ihren Augen schießen.	250
 'randomizerMenuStrings[i]	'+1 pet (shocker lizard)	'+1 Haustier (Schockechse)	30
-'randomizerMenuStrings[i]	'+30 organics	'+30 Organik	30
 
 'Perk pet DLC warp floater.prefab
 'displayName	'Warp Floater (pet)	'Warptier (Haustier)	40
 'description	'This warp creature is an extreme rarity due to being able to effectively communicate with non-warp beings. It is quite intelligent and likes to stare into human eyes.	'Diese Warp-Kreatur ist eine extreme Rarität, da sie in der Lage ist, effektiv mit Nicht-Warp-Wesen zu kommunizieren. Es ist ziemlich intelligent und starrt gerne in menschliche Augen.	250
 'randomizerMenuStrings[i]	'+1 pet (warp animal)	'+1 Haustier (Warptier)	30
-'randomizerMenuStrings[i]	'-1 exotics	'-1 Exot	30
 
 'Perk pet Tiger dog drone.prefab
 'displayName	'Tiger Dog 9000	'Tigerhund 9000	40
@@ -138,7 +126,6 @@
 'Tiger 8x nuke projectile.prefab
 
 'Tiger EMP nuke.prefab
-'displayName	'EMP nuke	'EMP-Bombe	35
 
 'Tiger intruderbot nuke.prefab
 'displayName	'Tigerbot nuke	'Tigerbot Bombe	35
@@ -154,3 +141,6 @@
 
 'Engiship.prefab
 'description	'This Mobile Maintenance Rig starts in a bad shape due to years of rough use, but holds promise for those patient enough to upgrade its weaponry and defences. It starts with poor technology, but large crew, and containers full of raw resources.	'Diese mobile Wartungsanlage beginnt in einem schlechten Zustand aufgrund jahrelanger rauer Nutzung, ist aber vielversprechend für diejenigen, die geduldig genug sind, seine Waffen und Verteidigungsanlagen aufzurüsten. Es startet mit schlechter Technologie, aber großer Besatzung und Behältern voller Rohstoffe.	400
+
+'WarBug.prefab	
+'description	'This exotic military vessel was built by the Kha-Wat, a distant Insectoid civilization known for their love of artistic chirping. The ship is built to employ the hailstorm tactic, overwhelming enemy ships with a hail of synchronized projectiles & missiles. This requires management of ammo, and regularly producing or buying extra explosives or other materials necessary for projectiles. Comes with nukes, and crew of various insectoids.	'Dieses exotische Militärschiff wurde von den Kha-Wat gebaut, einer fernen Insektoiden-Zivilisation, die für ihre Vorliebe für kunstvolles Gezwitscher bekannt ist. Das Schiff wurde gebaut, um die Hagelsturm-Taktik anzuwenden, bei der feindliche Schiffe mit einem Hagel von synchronisierten Projektilen & Raketen überwältigt werden. Dies erfordert die Verwaltung der Munition und die regelmäßige Herstellung oder den Kauf von zusätzlichen Sprengstoffen oder anderen Materialien, die für die Geschosse benötigt werden. Wird mit Atomwaffen und einer Besatzung aus verschiedenen Insektoiden geliefert.	400		'42388666:sdlc/WarBug.prefab
