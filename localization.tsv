@@ -34,7 +34,7 @@
 # https://steamcommunity.com/sharedfiles/filedetails/?id=2244605825
 
 # Display name should be the first non-comment, non-empty line. It marks that all the following lines are in that language.
-:displayName English
+:displayName Deutsch
 
 # Plurals forms are used like described here, except the separator is '|'
 # https://developer.mozilla.org/en-US/docs/Mozilla/Localization/Localization_and_Plurals#Developing_with_PluralForm
