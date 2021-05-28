@@ -1267,7 +1267,7 @@
 	'Opens ship view.	'Öffnet die Schiffsansicht.	0		'1558479880:Menu panel.prefab
 	'Show ship	'Schiffsansicht	15		'1827648093:Menu panel.prefab
 	'Switches between views.	'Wechselt zwischen den Ansichten.	0		'1274383436:Menu panel.prefab
-	'Switch views	'Ansichten umschalten	15		'1520020028:Menu panel.prefab
+	'Switch views	'Ansichten umschalten                                           .	15		'1520020028:Menu panel.prefab
 	'Toggles ship exterior on/off.	'Schaltet die Schiffsaußenansicht ein/aus.	0		'225456524:Menu panel.prefab
 	'Ship exterior	'Schiffshülle	15		'439323247:Menu panel.prefab
 	'Toggles ship power management view on/off.	'Schaltet die Ansicht für die Energieverwaltung des Schiffs ein/aus.	0		'1638024900:Menu panel.prefab
