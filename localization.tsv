@@ -911,7 +911,7 @@
 	'Optimizing your ship modules and crew positions for combat (or flying around economically) can take a lot of time. If you want to avoid manually changing your modules  every time when combat happens, you can simply save two presets of modules - one for maximum combat capability, and another for flying around.	'Das Optimieren Ihrer Schiffsmodule und Besatzungspositionen für den Kampf (oder das sparsame Herumfliegen) kann eine Menge Zeit in Anspruch nehmen. Wenn Sie vermeiden möchten, Ihre Module jedes Mal manuell zu ändern, wenn ein Kampf stattfindet, können Sie einfach zwei Voreinstellungen von Modulen speichern - eine für maximale Kampffähigkeit und eine andere für das Herumfliegen.	0		'1042869421:Help panel.prefab
 	'The two default preset buttons (one for combat, one for economically flying around) allow you to save & load module layouts (and powered on/off status), together with crew roles & positions.	'Die beiden Standard-Voreinstellungen (eine für den Kampf, eine für das sparsame Herumfliegen) ermöglichen Ihnen das Speichern und Laden von Modul-Layouts (und den Ein-/Aus-Status), zusammen mit den Rollen und Positionen der Besatzung.	0		'51663881:Help panel.prefab
 	'You can add other custom presets, that regulate only crew for example.	'Sie können weitere benutzerdefinierte Voreinstellungen hinzufügen, die z. B. nur die Besatzung regeln.	0		'476146881:Help panel.prefab
-	'Toggle time	'Zeit umschalten	0		'1170431470:Help panel.prefab; 455218394:Menu panel.prefab
+	'Toggle time	'Zeit umschalten                              .	0		'1170431470:Help panel.prefab; 455218394:Menu panel.prefab
 	'Hold fire	'Feuer anhalten	0		'266745567:Help panel.prefab; 2087381280:Menu panel.prefab
 	'Quick selection slots	'Schnellwahl Plätze	0		'62026646:Help panel.prefab
 	'Pan up	'Kamera rauf	0		'1528150400:Help panel.prefab; 676503415:Menu panel.prefab
@@ -1267,7 +1267,7 @@
 	'Opens ship view.	'Öffnet die Schiffsansicht.	0		'1558479880:Menu panel.prefab
 	'Show ship	'Schiffsansicht	15		'1827648093:Menu panel.prefab
 	'Switches between views.	'Wechselt zwischen den Ansichten.	0		'1274383436:Menu panel.prefab
-	'Switch views	'Ansichten umschalten                                           .	15		'1520020028:Menu panel.prefab
+	'Switch views	'Ansicht umschalten                                             .	15		'1520020028:Menu panel.prefab
 	'Toggles ship exterior on/off.	'Schaltet die Schiffsaußenansicht ein/aus.	0		'225456524:Menu panel.prefab
 	'Ship exterior	'Schiffshülle	15		'439323247:Menu panel.prefab
 	'Toggles ship power management view on/off.	'Schaltet die Ansicht für die Energieverwaltung des Schiffs ein/aus.	0		'1638024900:Menu panel.prefab
@@ -1280,7 +1280,7 @@
 	'Stats	'Statistiken	15		'1684945253:Menu panel.prefab
 	'Toggles ship cargo window on/off.	'Schaltet das Frachtraum-Fenster ein/aus.	0		'1495686209:Menu panel.prefab
 	'Toggles ship quick select window on/off.	'Schaltet das Schnellauswahl-Fenster ein/aus.	0		'739028255:Menu panel.prefab
-	'Quick Select	'Schnellauswahl	15		'1463375272:Menu panel.prefab
+	'Quick Select	'Schnellauswahl                               .	15		'1463375272:Menu panel.prefab
 	'Toggles game speed between normal and slow-mo.	'Schaltet die Spielgeschwindigkeit zwischen Normal und Zeitlupe um.	0		'103546329:Menu panel.prefab
 	'Module/Crew:	'Modul/Besatzung:	0		'251269959:Menu panel.prefab
 	'Module - explicitly commands selected module to attack, after this click on target.\nCrew - explicitly commands selected crew to attack, after this click on target.	'Modul - befiehlt dem ausgewählten Modul explizit, anzugreifen, nach diesem Klick auf das Ziel.\nBesatzung - befiehlt der ausgewählten Besatzung explizit, anzugreifen, nach diesem Klick auf das Ziel.	0		'91576993:Menu panel.prefab
