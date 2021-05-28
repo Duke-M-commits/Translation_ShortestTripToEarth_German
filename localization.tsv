@@ -416,7 +416,7 @@
 	'Some resources go to DUMP EXCESS when scrapping	'Einige Ressourcen werden beim Verschrotten zu ÜBERSCHÜSSIGEN RESSOURCEN	0		'ModuleActionsPanel.cs; 1547831442:Module actions panel.prefab
 
 'ModuleDataSubpanel.cs
-	'per	'per	0		'ModuleDataSubpanel.cs
+	'per	'pro	0		'ModuleDataSubpanel.cs
 	'Damage to crew in hit area	'Schaden an Besatzung im Trefferbereich	0		'ModuleDataSubpanel.cs
 	'{0}% chance of {1}x{2} crew damage (default is {3:0}% of {4}x{5})	'{0}% Chance auf {1}x{2} Besatzungsschaden (Standard ist {3:0}% auf {4}x{5})	0		'ModuleDataSubpanel.cs
 	'Does no crew damage (default is {0}% of {1} per projectile/beam)	'Verursacht keinen Besatzungsschaden (Standard ist {0}% von {1} pro Projektil/Strahl)	0		'ModuleDataSubpanel.cs
@@ -1178,7 +1178,7 @@
 	'Resume game	'Spiel fortsetzen	0		'564235776:Menu panel.prefab
 	'Scoreboard	'Scoreboard	0		'1235373359:Menu panel.prefab; 1166761212:Menu panel.prefab
 	'Settings	'Einstellungen	0		'1931758299:Menu panel.prefab
-	'Continued development	'Continued development	0		'1590165301:Menu panel.prefab
+	'Continued development	'Fortgesetzte Entwicklung	0		'1590165301:Menu panel.prefab
 	'Exit game	'Spiel beenden	0		'574914797:Menu panel.prefab
 	'Guided steps to learn the game.	'Geführte Schritte zum Erlernen des Spiels.	0		'1936162021:Menu panel.prefab
 	'Tutorial mode	'Einführungsmodus	0		'305660904:Menu panel.prefab
@@ -1568,7 +1568,7 @@
 	'Credits consumed per 100 range unit travelled	'Verbrauchte Kredite pro 100 zurückgelegte Reichweiteneinheiten	0		'1398029336:Module data subpanel.prefab
 'Module effects/stats	'EFFECTS	'EFFEKTE	0		'1665000636:Module data subpanel.prefab
 	'Ship evasion bonus (enemy shots deviate more often)	'Ausweichbonus des Schiffs (gegnerische Schüsse weichen häufiger aus)	0		'1180501602:Module data subpanel.prefab
-	'if	'wenn	2		'1694746385:Module data subpanel.prefab; 68860997:Module data subpanel.prefab; 238340726:Module data subpanel.prefab; 714605851:Module data subpanel.prefab; 880982221:Module data subpanel.prefab; 886649225:Module data subpanel.prefab; 888560262:Module data subpanel.prefab; 902406369:Module data subpanel.prefab; 978413447:Module data subpanel.prefab; 1237678238:Module data subpanel.prefab; 1865965096:Module data subpanel.prefab
+	'if	'	2		'1694746385:Module data subpanel.prefab; 68860997:Module data subpanel.prefab; 238340726:Module data subpanel.prefab; 714605851:Module data subpanel.prefab; 880982221:Module data subpanel.prefab; 886649225:Module data subpanel.prefab; 888560262:Module data subpanel.prefab; 902406369:Module data subpanel.prefab; 978413447:Module data subpanel.prefab; 1237678238:Module data subpanel.prefab; 1865965096:Module data subpanel.prefab
 	'Damage area radius	'Radius des Schadensbereichs	0		'1988759336:Module data subpanel.prefab
 	'Organics produced per minute	'Produzierte Organik pro Minute	0		'488651600:Module data subpanel.prefab
 	'Synthetics produced per minute	'Produzierte Kunststoffe pro Minute	0		'322629460:Module data subpanel.prefab
