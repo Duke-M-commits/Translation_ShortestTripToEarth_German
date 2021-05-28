@@ -914,10 +914,10 @@
 	'Toggle time	'Zeit umschalten	0		'1170431470:Help panel.prefab; 455218394:Menu panel.prefab
 	'Hold fire	'Feuer anhalten	0		'266745567:Help panel.prefab; 2087381280:Menu panel.prefab
 	'Quick selection slots	'Schnellwahl Plätze	0		'62026646:Help panel.prefab
-	'Pan up	'Schwenken nach oben	0		'1528150400:Help panel.prefab; 676503415:Menu panel.prefab
-	'Pan left	'Nach links schwenken	0		'489931209:Help panel.prefab; 546230017:Menu panel.prefab
-	'Pan down	'Nach unten schwenken	0		'1472384983:Help panel.prefab; 1496466484:Menu panel.prefab
-	'Pan right	'Nach rechts schwenken	0		'809260738:Help panel.prefab; 741069984:Menu panel.prefab
+	'Pan up	'Kamera rauf	0		'1528150400:Help panel.prefab; 676503415:Menu panel.prefab
+	'Pan left	'Kamera links	0		'489931209:Help panel.prefab; 546230017:Menu panel.prefab
+	'Pan down	'Kamera runter	0		'1472384983:Help panel.prefab; 1496466484:Menu panel.prefab
+	'Pan right	'Kamera rechts	0		'809260738:Help panel.prefab; 741069984:Menu panel.prefab
 	'Actions when\ncrew or module is selected:	'Aktionen, wenn eine Besatzungsmitglied oder ein Modul ausgewählt ist:	0		'41823065:Help panel.prefab
 	'Force select module	'Modul zwangsweise auswählen	0		'649859406:Help panel.prefab
 	'Stop	'Anhalten	0		'683459455:Help panel.prefab; 1583260960:Module actions panel.prefab; 1785057198:Module actions panel.prefab
@@ -1253,7 +1253,7 @@
 	'Enter	'Eingabe	15		'947988715:Menu panel.prefab
 	'Scrolling with mouse wheel will zoom camera in and out.	'Scrollen mit dem Mausrad zoomt die Kamera ein und aus.	0		'2020304157:Menu panel.prefab; 372459639:Menu panel.prefab
 	'Zoom in	'Reinzoomen	15		'1226622100:Menu panel.prefab
-	'Zoom out	'Herauszoomen	15		'958676590:Menu panel.prefab
+	'Zoom out	'Rauszoomen	15		'958676590:Menu panel.prefab
 	'Middle mouse button will pan the camera.	'Mittlere Maustaste schwenkt die Kamera.	0		'815601759:Menu panel.prefab; 261254159:Menu panel.prefab; 479943373:Menu panel.prefab; 1735595921:Menu panel.prefab
 	'Takes a screenshot and saves it to a file.\n(F12 key is Steam Client screenshot key and is not changeable here)	'Macht einen Screenshot und speichert ihn in einer Datei.\n(Die Taste F12 ist die Screenshot-Taste des Steam-Clients und kann hier nicht geändert werden)	0		'624516309:Menu panel.prefab
 	'Screenshot	'Bildschirmfoto	15		'1464138709:Menu panel.prefab
@@ -1261,11 +1261,11 @@
 	'Opens in-game help.	'Öffnet die In-Game-Hilfe.	0		'766310428:Menu panel.prefab
 	'Help	'Hilfe	15		'31696980:Menu panel.prefab
 	'Toggles sector map window on/off.	'Schaltet die Sektorkarte ein/aus.	0		'607155861:Menu panel.prefab
-	'Show sector	'Sektor anzeigen	15		'948822898:Menu panel.prefab
+	'Show sector	'Sektorkarte	15		'948822898:Menu panel.prefab
 	'Opens starmap view.	'Öffnet die Sternenkartenansicht.	0		'789112491:Menu panel.prefab
-	'Show starmap	'Sternenkarte anzeigen	15		'2026442326:Menu panel.prefab
+	'Show starmap	'Sternenkarte	15		'2026442326:Menu panel.prefab
 	'Opens ship view.	'Öffnet die Schiffsansicht.	0		'1558479880:Menu panel.prefab
-	'Show ship	'Schiff anzeigen	15		'1827648093:Menu panel.prefab
+	'Show ship	'Schiffsansicht	15		'1827648093:Menu panel.prefab
 	'Switches between views.	'Wechselt zwischen den Ansichten.	0		'1274383436:Menu panel.prefab
 	'Switch views	'Ansichten umschalten	15		'1520020028:Menu panel.prefab
 	'Toggles ship exterior on/off.	'Schaltet die Schiffsaußenansicht ein/aus.	0		'225456524:Menu panel.prefab
@@ -1286,37 +1286,37 @@
 	'Module - explicitly commands selected module to attack, after this click on target.\nCrew - explicitly commands selected crew to attack, after this click on target.	'Modul - befiehlt dem ausgewählten Modul explizit, anzugreifen, nach diesem Klick auf das Ziel.\nBesatzung - befiehlt der ausgewählten Besatzung explizit, anzugreifen, nach diesem Klick auf das Ziel.	0		'91576993:Menu panel.prefab
 	'Module - selected module will be moved, after this click on target module slot.\nCrew - explicitly commands crew to move, after this click on target.	'Modul - das ausgewählte Modul wird bewegt, nach diesem Klick auf den Zielmodulplatz.\nBesatzung - befiehlt der Besatzung explizit, sich zu bewegen, nach diesem Klick auf das Ziel.	0		'761661935:Menu panel.prefab
 	'Toggles selected module power on/off.	'Schaltet die Stromversorgung des ausgewählten Moduls ein/aus.	0		'1995367927:Menu panel.prefab
-	'Module power	'Modulleistung	15		'1253947536:Menu panel.prefab
+	'Module power	'Ein/Aus	15		'1253947536:Menu panel.prefab
 	'Activates/uses a module. Effect depends on the module.	'Aktiviert/verwendet ein Modul. Die Wirkung hängt vom Modul ab.	0		'2137770872:Menu panel.prefab
 	'Module action	'Modul-Aktion	15		'1479896520:Menu panel.prefab
-	'Moves selected module into storage.	'Verschiebt das ausgewählte Modul in den Speicher.	0		'1682842824:Menu panel.prefab
-	'Module store	'Modul speichern	15		'400963295:Menu panel.prefab
+	'Moves selected module into storage.	'Verschiebt das ausgewählte Modul in den Frachtraum.	0		'1682842824:Menu panel.prefab
+	'Module store	'Lagern	15		'400963295:Menu panel.prefab
 	'Scraps selected module.	'Verschrottet ausgewähltes Modul.	0		'1563481279:Menu panel.prefab
-	'Module scrap	'Modul verschrotten	15		'2068207877:Menu panel.prefab
+	'Module scrap	'Verschrotten	15		'2068207877:Menu panel.prefab
 	'Overcharges selected module. Effect depends on the module.	'Überlädt das ausgewählte Modul. Wirkung hängt vom Modul ab.	0		'1255450677:Menu panel.prefab
-	'Module overcharge	'Modul überladen	15		'59991592:Menu panel.prefab
+	'Module overcharge	'Überladen	15		'59991592:Menu panel.prefab
 	'Stops selected module from doing what it's doing.	'Hält ausgewähltes Modul an, was es tut.	0		'1463308321:Menu panel.prefab
-	'Module stop	'Modul-Stopp	15		'1333966509:Menu panel.prefab
+	'Module stop	'Stoppen	15		'1333966509:Menu panel.prefab
 	'Causes weapon modules to hold fire.\nWhen released weapons that are ready will fire at the same time.	'Bewirkt, dass Waffenmodule das Feuer anhalten.\nWenn ausgelöst, feuern Waffen, die bereit sind, gleichzeitig.	0		'637996198:Menu panel.prefab
 	'Explicitly commands crew to repair module, after this click on target.	'Befiehlt der Besatzung explizit, das Modul zu reparieren, danach Ziel anklicken.	0		'725439712:Menu panel.prefab
-	'Crew repair	'Besatzung reparieren	15		'3433143:Menu panel.prefab
+	'Crew repair	'Reparieren	15		'3433143:Menu panel.prefab
 	'Explicitly commands crew to operate module, after this click on target.	'Befiehlt der Besatzung explizit, das Modul zu bedienen, nach diesem Klick auf das Ziel.	0		'2079924553:Menu panel.prefab
-	'Crew operate	'Besatzung bedienen	15		'1484508510:Menu panel.prefab
+	'Crew operate	'Bedienen	15		'1484508510:Menu panel.prefab
 	'Crew - explicitly command selected crew to fight fire, after this click on fire.	'Besatzung - befiehlt der ausgewählten Besatzung explizit, Feuer zu bekämpfen, nach diesem Klick auf Feuer.	0		'227755094:Menu panel.prefab
-	'Crew fight fire	'Besatzung bekämpfen Feuer	15		'184836506:Menu panel.prefab
+	'Crew fight fire	'Feuer löschen	15		'184836506:Menu panel.prefab
 	'Load crew positions, roles and module power on/off profile	'Besatzungspositionen, Rollen und Modul-Ein-/Ausschaltprofil laden	0		'1875750466:Menu panel.prefab; 360931458:Player panel.prefab; 403108402:Player panel.prefab; 599316513:Player panel.prefab; 1824565334:Player panel.prefab
-	'Load preset 1	'Voreinstellung 1 laden	15		'1206715017:Menu panel.prefab
+	'Load preset 1	'Voreinstellung 1	15		'1206715017:Menu panel.prefab
 	'Load crew positions, roles and module power on/off profile\n(second profile slot)	'Besatzungspositionen, Rollen und Modul-Ein-/Ausschaltprofil laden\n(zweiter Voreinstellungsplatz)	0		'1468442080:Menu panel.prefab
-	'Load preset 2	'Voreinstellung 2 laden	15		'2018510058:Menu panel.prefab
+	'Load preset 2	'Voreinstellung 2	15		'2018510058:Menu panel.prefab
 	'Select:	'Auswählen:	0		'1651671144:Menu panel.prefab
 	'Selects all player crew.	'Wählt die gesamte Besatzung aus.	0		'444450803:Menu panel.prefab
 	'All crew	'Alle Besatzung	15		'1796921245:Menu panel.prefab
 	'Selects slot underneath selected module.	'Wählt Steckplatz unter dem gewählten Modul aus.	0		'721386065:Menu panel.prefab
-	'Select slot	'Steckplatz auswählen	15		'400879271:Menu panel.prefab
+	'Select slot	'Steckplatz	15		'400879271:Menu panel.prefab
 	'When this key is held down while selecting crew, that crew will be added to existing selection	'Wenn diese Taste gedrückt gehalten wird, während eine Besatzung ausgewählt wird, wird dieses Besatzungsmitglied zur bestehenden Auswahl hinzugefügt	0		'238101610:Menu panel.prefab
-	'Add modifier	'Modifikator hinzufügen	15		'1041263308:Menu panel.prefab
+	'Add modifier	'Hinzufügen	15		'1041263308:Menu panel.prefab
 	'When this key is held down while selecting crew, that crew will be removed from existing selection	'Wenn diese Taste gedrückt gehalten wird, während eine Besatzung ausgewählt wird, wird dieses Besatzungsmitglied aus der bestehenden Auswahl entfernt	0		'1193910815:Menu panel.prefab
-	'Remove modif.	'Modifikator entfernen.	15		'2060639749:Menu panel.prefab
+	'Remove modif.	'Entfernen	15		'2060639749:Menu panel.prefab
 	'Weapon Quick Select:	'Waffe Schnellauswahl:	0		'584870902:Menu panel.prefab
 	'Weapon in slot 1 quickselect.	'Schnellwahl 1	0		'1318224739:Menu panel.prefab
 	'Weapon in slot 2 quickselect.	'Schnellwahl 2	0		'630912699:Menu panel.prefab
