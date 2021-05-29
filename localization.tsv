@@ -4216,7 +4216,7 @@
 'reasonToDisplay	'automated defences!	'Automatische Verteidigungsanlagen!	30		'2 P insectoid war ruins FME, moonFE and good nonweapons.prefab
 
 '2 P mineral surface outcrops2 M, maybe junksatellites m.prefab
-'text	'This lifeless planet is covered with abundant outcroppings of valuable mineral ore. It could be easily processed into duranite metal. Inititate surface mining operation?	'Dieser leblose Planet ist mit reichlich Vorkommen an wertvollem Mineralerz bedeckt. Es könnte leicht zu Duranit-Metall verarbeitet werden. Oberflächenbergbau einleiten?	400		'857136633:2 P mineral surface outcrops2 M, maybe junksatellites m.prefab
+'text	'This lifeless planet is covered with abundant outcroppings of valuable mineral ore. It could be easily processed into duranite metal. Inititate surface mining operation?	'Dieser leblose Planet ist mit reichlich Vorkommen an wertvollem Mineralerz bedeckt. Es könnte leicht zu Uranit-Metall verarbeitet werden. Oberflächenbergbau einleiten?	400		'857136633:2 P mineral surface outcrops2 M, maybe junksatellites m.prefab
 'choiceText	'Mine ore from planet surface	'Erz von der Planetenoberfläche abbauen	100		'857136633:2 P mineral surface outcrops2 M, maybe junksatellites m.prefab; 1336571096:3 P mineral surface outcrops M.prefab
 'choiceText	'Disengage for now, we might not have enough cargo space	'Vorerst aussteigen, wir haben vielleicht nicht genug Laderaum.	100		'857136633:2 P mineral surface outcrops2 M, maybe junksatellites m.prefab; 1307696500:3 P mineral surface outcrops3 M, guarded by satellites m.prefab; 1336571096:3 P mineral surface outcrops M.prefab
 'title	'Ore processed	'Erz verarbeitet	35		'355893508:2 P mineral surface outcrops2 M, maybe junksatellites m.prefab; 835327971:3 P mineral surface outcrops M.prefab
@@ -4714,7 +4714,7 @@
 
 '3 P mineral surface outcrops M.prefab
 'title	'Ore outcroppings	'Erzvorkommen	35		'1336571096:3 P mineral surface outcrops M.prefab
-'text	'This lifeless planet is covered with abundant outcroppings of valuable mineral ore. The ore could be easily processed into duranite metal. Initiate surface mining operation?	'Dieser leblose Planet ist mit reichlich Aufschlüssen von wertvollem Mineralerz bedeckt. Das Erz könnte leicht zu Duranit-Metall verarbeitet werden. Oberflächenabbau einleiten?	400		'1336571096:3 P mineral surface outcrops M.prefab
+'text	'This lifeless planet is covered with abundant outcroppings of valuable mineral ore. The ore could be easily processed into duranite metal. Initiate surface mining operation?	'Dieser leblose Planet ist mit reichlich Aufschlüssen von wertvollem Mineralerz bedeckt. Das Erz könnte leicht zu Uranit-Metall verarbeitet werden. Oberflächenabbau einleiten?	400		'1336571096:3 P mineral surface outcrops M.prefab
 'text2	'Mining and processing completed successfully, no accidents reported.	'Abbau und Verarbeitung erfolgreich abgeschlossen, keine Unfälle gemeldet.	400		'835327971:3 P mineral surface outcrops M.prefab; 806453375:3 P mineral surface outcrops3 M, guarded by satellites m.prefab
 'text	'Mining and processing resources... %	'Abbau und Verarbeitung von Ressourcen... %	50		'540983056:3 P mineral surface outcrops M.prefab
 
