@@ -76,7 +76,7 @@ description	This platform shoots singular heavy missiles. All missiles are accur
 
 Perk nuke Battle Tiger monolith.prefab
 displayName	Tiger Mountain nuke	Tiger-Berg-Bombe	40		1581121396:sdlc/Perk nuke Battle Tiger monolith.prefab
-description	A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Smalle AoE.	Eine schwer gepanzerte Bombe, die das Ziel mit einer Kraft rammt, die Mikromonde zerschmettern könnte. Kleiner AoE.	250		1581121396:sdlc/Perk nuke Battle Tiger monolith.prefab
+description	A heavily armored single-shot missile that rams the target with force that could shatter micromoons. Small AoE.	Eine schwer gepanzerte Bombe, die das Ziel mit einer Kraft rammt, die Mikromonde zerschmettern könnte. Kleiner AoE.	250		1581121396:sdlc/Perk nuke Battle Tiger monolith.prefab
 
 Perk nuke Tiger battery 8.prefab
 description	A single-use battery that shoots 8 missiles.	Eine einmalig verwendbare Batterie, die 8 Bomben abschießt.	250		850100445:sdlc/Perk nuke Tiger battery 8.prefab
