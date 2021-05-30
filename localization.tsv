@@ -495,12 +495,12 @@ PlayerPanel.cs
 	{0} consumed per 100 range units: {1:+0;-0;-0}	{0} verbraucht pro 100 Reichweiteneinheiten: {1:+0;-0;-0}	0		PlayerPanel.cs
 	{0} not consumed while moving	{0} nicht verbraucht während der Bewegung	0		PlayerPanel.cs
 	(nominal consumption is {0:+0;-0;-0})	(nominaler Verbrauch ist {0:+0;-0;-0})	0		PlayerPanel.cs
-	{0} produced per 100 range units: {1:+0;-0;+0}	{0} produziert pro 100 Entfernungseinheiten: {1:+0;-0;+0}	0		PlayerPanel.cs
+	{0} produced per 100 range units: {1:+0;-0;+0}	{0} produziert pro 100 Reichweiteneinheiten: {1:+0;-0;+0}	0		PlayerPanel.cs
 	{0} not produced while moving	{0} nicht produziert während der Bewegung	0		PlayerPanel.cs
 	(nominal production is {0:+0;-0;+0})	(nominale Produktion ist {0:+0;-0;+0})	0		PlayerPanel.cs
 
 PlayerStatsPanel.cs
-	Starmap speed, range units per second	Sternenkarte-Geschwindigkeit, Entfernungseinheiten pro Sekunde	0		PlayerStatsPanel.cs
+	Starmap speed, range units per second	Sternenkarte-Geschwindigkeit, Reichweiteneinheiten pro Sekunde	0		PlayerStatsPanel.cs
 	{0} +{1}	{0} +{1}	0		PlayerStatsPanel.cs
 	Asteroid deflection	Asteroiden Ablenkung	0		PlayerStatsPanel.cs
 	{0} +{1}%	{0} +{1}%	0		PlayerStatsPanel.cs
@@ -512,7 +512,7 @@ PlayerStatsPanel.cs
 	{0} (provides {1:+0;-0;+0}ru, using max)	{0} (liefert {1:+0;-0;+0}re, unter Verwendung von max)	0		PlayerStatsPanel.cs; PlayerStatsPanel.cs
 	(all ranges include ship starmap radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten Schiffs-Sternenkarte-Radarbonus {0:+0;-0;+0}re)	0		PlayerStatsPanel.cs
 	(current range is reduced by clouds)	(aktuelle Reichweite wird durch Nebel reduziert)	0		PlayerStatsPanel.cs
-	Sector radar range in range units	Sektorradar-Reichweite in Entfernungseinheiten	0		PlayerStatsPanel.cs; 2065303810:Sector map panel.prefab
+	Sector radar range in range units	Sektorradar-Reichweite in Reichweiteneinheiten	0		PlayerStatsPanel.cs; 2065303810:Sector map panel.prefab
 	(all ranges include ship sector radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten den Schiffs-Sektorradar-Bonus {0:+0;-0;+0}re)	0		PlayerStatsPanel.cs
 	Number of seconds it takes to generate one shield point	Anzahl der Sekunden, die es dauert, einen Schildpunkt zu erzeugen	0		PlayerStatsPanel.cs
 	{0} ({1:0.00} SP/second)	{0} ({1:0.00} Schildpunkte/Sekunde)	0		PlayerStatsPanel.cs
@@ -10102,7 +10102,7 @@ randomizerMenuStrings[i]	+150 metals	+150 Metalle	30		798752091:Perk add metals.
 
 Perk add organics 0.prefab
 displayName	Extra organics	Zusätzliche Organik	40		1590596161:Perk add organics 0.prefab
-description	Average human consumes 6 organics per 100 range units (ru) travelled, which is the average diameter of a star system. \nOrganics are also used by medbays when healing crew.	Ein durchschnittlicher Mensch verbraucht 6 Organik pro 100 zurückgelegte Entfernungseinheiten (re), was dem durchschnittlichen Durchmesser eines Sternensystems entspricht. \nOrganics werden auch von Krankenstationen verwendet, wenn sie die Besatzung heilen.	250		1590596161:Perk add organics 0.prefab
+description	Average human consumes 6 organics per 100 range units (ru) travelled, which is the average diameter of a star system. \nOrganics are also used by medbays when healing crew.	Ein durchschnittlicher Mensch verbraucht 6 Organik pro 100 zurückgelegte Reichweiteneinheiten (re), was dem durchschnittlichen Durchmesser eines Sternensystems entspricht. \nOrganics werden auch von Krankenstationen verwendet, wenn sie die Besatzung heilen.	250		1590596161:Perk add organics 0.prefab
 randomizerMenuStrings[i]	+50 organics	+50 Organik	30		1590596161:Perk add organics 0.prefab
 
 Perk add organics 1, houseplant.prefab
