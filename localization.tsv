@@ -8672,7 +8672,7 @@ description	Solid integrity hardpoint designed to appear as a weapon to enemy se
 weapondecoy1.prefab
 
 ECM 0 ancient.prefab
-displayName	ECM integrity turret (ancient)	EGM-Integritätsturm (alt)	40		1078640904:ECM 0 ancient.prefab
+displayName	ECM integrity turret (ancient)	EGM-Integritätsturm (Alt)	40		1078640904:ECM 0 ancient.prefab
 description	Hybrid platform for electronic countermeasures. Increases ship evasion & HP, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Ausweichfähigkeit und die HP des Schiffs, erfordert einen Hybrid-Steckplatz.	200		1078640904:ECM 0 ancient.prefab
 
 ECM 0 DIY.prefab
@@ -8792,7 +8792,7 @@ displayName	Artificial life garden	Garten des künstlichen Lebens	40		737359377:
 description	A module that supports fully synthetic non-carbon life. Uses excess heat generated with ship movement to rapidly produce synthetics.	Ein Modul, das vollständig synthetisches, kohlenstofffreies Leben unterstützt. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, um schnell synthetisches Leben zu produzieren.	200		737359377:garden 6 synthetics.prefab
 
 integrity 0 ancient.prefab
-displayName	Integrity hardpoint [ancient]	Integritäts-Ansatzpunkt (Antik)	40		786297541:integrity 0 ancient.prefab
+displayName	Integrity hardpoint [ancient]	Integritäts-Ansatzpunkt (Alt)	40		786297541:integrity 0 ancient.prefab
 description	This ancient hardpoint can be installed to gain extra ship HP, even during an emergency.	Dieser uralte Ansatzpunkt kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		786297541:integrity 0 ancient.prefab
 
 integrity 0 DIY biotech.prefab
@@ -8866,7 +8866,7 @@ displayName	Explosives combinator, type T	Explosivstoff-Kombinator, Typ T	40		13
 description	Instantly combines synthetics & fuels into explosives. Robust structure improves ship HP.	Kombiniert Kunststoffe und Treibstoff sofort zu Sprengstoffen. Die robuste Struktur verbessert die Schiffs-HP.	200		1363987393:explosives combinator tiger.prefab
 
 fuel combinator 1A old.prefab
-displayName	Fuel combinator, grade I-A (old)	Treibstoff-Kombinator, Typ A (alt)	40		1531409027:fuel combinator 1A old.prefab
+displayName	Fuel combinator, grade I-A (old)	Treibstoff-Kombinator, Typ A (Alt)	40		1531409027:fuel combinator 1A old.prefab
 description	Instantly combines organics & synthetics into starfuel. Minor chance of malfunctions. Robust structure improves ship HP.	Kombiniert Organik und Kunststoffe sofort zu Treibstoff. Geringe Chance auf Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200		1531409027:fuel combinator 1A old.prefab
 MaterialsConverter.resourceConsumptionReason	converted to fuel	umgewandelt in Treibstoff	30		1531409027:fuel combinator 1A old.prefab; 194638103:fuel processor 1B.prefab; 1482294420:fuel processor 2.prefab
 MaterialsConverter.resourceProductionReason	produced by fuel combinator	hergestellt durch Treibstoff-Kombinator	30		1531409027:fuel combinator 1A old.prefab; 194638103:fuel processor 1B.prefab
@@ -8905,7 +8905,7 @@ description	Improvised medbay. Uses excessive amounts of organics to heal crewme
 Medbay.healingStoppedLogMsg	Warning, crew healing stopped due to lack of organics	Warnung, die Heilung von Besatzungsmitgliedern wurde aufgrund des Mangels an Organik gestoppt.	80		1219429018:medbay0 diy.prefab; 384091446:medbay2 startversion.prefab; 463896999:medbay6 biological.prefab; 1145518339:medbay1 Rat.prefab; 1145518341:medbay3 nanorepair.prefab; 1197296009:medbay5 biofluid bath.prefab; 1304112764:medbay4 stem celler.prefab
 
 medbay1 Rat.prefab
-displayName	Medbay [ancient]	Krankenstation (Antik)	40		1145518339:medbay1 Rat.prefab
+displayName	Medbay [ancient]	Krankenstation (Alt)	40		1145518339:medbay1 Rat.prefab
 description	Medical nanomachines assembly. Consumes lots of organics when healing.	Zusammenbau medizinischer Nanomaschinen. Verbraucht bei der Heilung eine große Menge an Organik.	200		1145518339:medbay1 Rat.prefab
 
 medbay2 startversion.prefab
@@ -8933,7 +8933,7 @@ displayName	DIY point-defence	Selbstbau-Punktabwehr	40		893617597:0 DIY PD.prefa
 description	Intercepts asteroids, incoming missiles, slower projectiles and approaching boarders. Short range, cannot shoot at enemy ships.	Fängt Asteroiden, ankommende Raketen, langsamere Geschosse und herannahende Enterer ab. Kurze Reichweite, kann nicht auf feindliche Schiffe schießen.	200		893617597:0 DIY PD.prefab; 106454213:3 Rat PD 2.prefab; 583909453:4 Insectoid PD.prefab; 687853920:1 Rat PD.prefab; 804479599:6 Squid PD.prefab; 938711464:2 Tiger PD.prefab; 1381757148:7 Red PD.prefab; 1468502746:5 Human PD.prefab
 
 1 Rat PD.prefab
-displayName	Rat point-defence [ancient]	Ratten-Punktabwehr (Antik)	40		687853920:1 Rat PD.prefab
+displayName	Rat point-defence [ancient]	Ratten-Punktabwehr (Alt)	40		687853920:1 Rat PD.prefab
 
 10 laser PD.prefab
 displayName	Heavy energy point-defence	Schwere Energie-Punktabwehr	40		1230723452:10 laser PD.prefab
@@ -9045,7 +9045,7 @@ displayName	DIY bioreactor (Zapfruit)	Selbstbau-Bioreaktor (Zapfrucht)	40		45764
 description	This reactor produces +9 power by drawing warp charge from an exotic fruit that generates it as a defence mechanism. Zero chance of malfunctions.	Dieser Reaktor erzeugt +9 Energie, indem er Warp-Ladung aus einer exotischen Frucht zieht, die diese als Abwehrmechanismus erzeugt. Null Chance auf Fehlfunktionen.	200		45764579:reactor 9 biotech DIY.prefab
 
 reactor 9 small old.prefab
-displayName	Terran energy reactor (old)	Terranischer Energiereaktor (alt)	40		1554868377:reactor 9 small old.prefab
+displayName	Terran energy reactor (old)	Terranischer Energiereaktor (Alt)	40		1554868377:reactor 9 small old.prefab
 description	Reactors are necessary for powering ship modules. Low risk of malfunctions.	Reaktoren sind für die Energieversorgung von Schiffsmodulen notwendig. Geringes Risiko von Fehlfunktionen.	200		1554868377:reactor 9 small old.prefab
 
 compressed exotics pack.prefab
@@ -9460,20 +9460,20 @@ Monolith nuke launcher.prefab
 description	A capital missile that rams enemy ships with incredible kinetic force.	Ein bombiger Flugkörper, der feindliche Schiffe mit unglaublicher kinetischer Kraft rammt.	200		1851270005:Monolith nuke launcher.prefab
 
 weapon ATK-MK1 old.prefab
-displayName	ATK-cannon I (old)	ATK-Kanone I (alt)	40		1521997681:weapon ATK-MK1 old.prefab
+displayName	ATK-cannon I (old)	ATK-Kanone I (Alt)	40		1521997681:weapon ATK-MK1 old.prefab
 description	Heavy weapons that provide solid shield-penetrative firepower at the cost of explosives. Robust structure improves ship HP. Each projectile has 4hp.	Schwere Waffe, die solide schilddurchdringende Feuerkraft auf Kosten von Sprengstoff bietet. Die robuste Struktur verbessert die HP des Schiffes. Jedes Projektil hat 4 HP.	200		1521997681:weapon ATK-MK1 old.prefab; 119057568:weapon ATK-MK3.prefab; 537313447:weapon ATK-MK3 old.prefab; 1118713154:weapon ATK-MK2 old.prefab; 1281856982:weapon ATK-MK1.prefab; 1685141509:weapon ATK-MK2.prefab
 
 weapon ATK-MK1.prefab
 displayName	ATK-cannon I	ATK-Kanone I	40		1281856982:weapon ATK-MK1.prefab
 
 weapon ATK-MK2 old.prefab
-displayName	ATK-cannon II (old)	ATK-Kanone II (alt)	40		1118713154:weapon ATK-MK2 old.prefab
+displayName	ATK-cannon II (old)	ATK-Kanone II (Alt)	40		1118713154:weapon ATK-MK2 old.prefab
 
 weapon ATK-MK2.prefab
 displayName	ATK-cannon II	ATK-Kanone II	40		1685141509:weapon ATK-MK2.prefab
 
 weapon ATK-MK3 old.prefab
-displayName	ATK-cannon III (old)	ATK-Kanone III (alt)	40		537313447:weapon ATK-MK3 old.prefab
+displayName	ATK-cannon III (old)	ATK-Kanone III (Alt)	40		537313447:weapon ATK-MK3 old.prefab
 
 weapon ATK-MK3.prefab
 displayName	ATK-cannon III	ATK-Kanone III	40		119057568:weapon ATK-MK3.prefab
@@ -9741,7 +9741,7 @@ displayName	Insectoid Alliance Effector	Insektoiden-Allianz-Effektor	40		8486861
 description	Advanced ray weapon made by Insectoid Alliance engineers. Anomalous light twisting ensures it won't be deflected by ship armor. Robust structure improves ship HP.	Fortschrittliche Strahlenwaffe, die von Ingenieuren der Insektoiden-Allianz entwickelt wurde. Anomale Lichtverdrehung sorgt dafür, dass er nicht von der Schiffspanzerung abgelenkt wird. Die robuste Struktur verbessert die HP des Schiffes.	200		848686115:weapon insectoid fast laser.prefab
 
 weapon Insectoid old fast laser 5x.prefab
-displayName	Insectoid volley laser x5 (old)	Insektoiden-Salvenlaser x5 (alt)	40		2100491633:weapon Insectoid old fast laser 5x.prefab
+displayName	Insectoid volley laser x5 (old)	Insektoiden-Salvenlaser x5 (Alt)	40		2100491633:weapon Insectoid old fast laser 5x.prefab
 description	Tactical combat weapon that uses obsolete technology. Produces 5 laserbeams.	Taktische Kampfwaffe, die veraltete Technologie verwendet. Erzeugt 5 Laserstrahlen.	200		2100491633:weapon Insectoid old fast laser 5x.prefab
 
 weapon Insectoid old fast laser.prefab
@@ -9848,7 +9848,7 @@ displayName	Industrial laser II	Industrielaser II	40		306184114:weapon tigerlase
 description	Heavy-duty industrial laser. Low accuracy if compared to military beam weapons, generates two rays.	Leistungsstarker Industrielaser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen, erzeugt zwei Strahlen.	200		306184114:weapon tigerlaser MK2.prefab
 
 weapon DIY Minicannon ancient 2,3.prefab
-displayName	Converted ancient minicannon	Konvertierte Minikanone (Antik)	40		1780996798:weapon DIY Minicannon ancient 2,3.prefab
+displayName	Converted ancient minicannon	Konvertierte Minikanone (Alt)	40		1780996798:weapon DIY Minicannon ancient 2,3.prefab
 description	Ancient point-defence weapon converted into small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Alte Punktabwehr-Waffe, die in eine kleinkalibrige Autokanone umgewandelt wurde. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 HP).	200		1780996798:weapon DIY Minicannon ancient 2,3.prefab
 
 weapon gatling 01 ancient dual 14,4.prefab
@@ -9911,7 +9911,7 @@ displayName	Alien rocket launcher (x7)	Alien-Raketenwerfer (x7)	40		1170008060:w
 description	Platform for rapidly launching a hail of small, non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Abschuss eines Hagels kleiner, nicht entflammbarer Raketen. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200		1170008060:weapon alienmissile x7.prefab
 
 weapon ancientrockets x3.prefab
-displayName	Ancient rocket platform	Raketenplattform (Antik)	40		469527491:weapon ancientrockets x3.prefab; 1517283306:weapon capitalorockets x2.prefab
+displayName	Ancient rocket platform	Raketenplattform (Alt)	40		469527491:weapon ancientrockets x3.prefab; 1517283306:weapon capitalorockets x2.prefab
 description	Ancient rocket battery. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Antike Raketenbatterie. Raketen lenken nicht ab und beschädigen feindliche Module in einem großen Bereich, können aber durch Punktabwehr abgeschossen werden. Diese Raketen haben je 1hp.	200		469527491:weapon ancientrockets x3.prefab
 
 weapon capitalorockets x2.prefab
