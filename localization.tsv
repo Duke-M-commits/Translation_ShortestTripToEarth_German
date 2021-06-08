@@ -9581,7 +9581,7 @@ description	A sniper cannon for damaging crucial modules of enemy ships. Project
 
 weapon Sniper cannon 2 insectoid.prefab
 displayName	Insectoidian sniper railgun	Insektoiden-Scharfschützen-Schienenwaffe	40		1240034396:weapon Sniper cannon 2 insectoid.prefab
-description	Sniper rail cannon for damaging crucial modules of enemy ships. It's poison-tipped projectiles penetrate shields & never deflect. Rail cannon shells are not easily destroyed by point-defences.	Scharfschützen-Schienenkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die mit Gift bestückten Geschosse durchdringen Schilde und werden nicht abgelenkt. Die Geschosse der Schienenkanone werden nicht leicht von Punktabwehranlagen zerstört.	200		1240034396:weapon Sniper cannon 2 insectoid.prefab
+description	Sniper rail cannon for damaging crucial modules of enemy ships. It's poison-tipped projectiles penetrate shields & never deflect. Rail cannon shells are not easily destroyed by point-defences.	Scharfschützen-Schienenkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die mit Gift bestückten Geschosse durchdringen Schilde und werden nicht abgelenkt. Die Geschosse der Schienenkanone werden nicht leicht von Punktabwehranlagen zerstört. Projektile haben jeweils 5 HP.	200		1240034396:weapon Sniper cannon 2 insectoid.prefab
 
 weapon Sniper cannon 2.prefab
 displayName	Sniper cannon II	Scharfschützenkanone II	40		1499937036:weapon Sniper cannon 2.prefab
