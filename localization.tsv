@@ -136,7 +136,7 @@ PlayerData.cs
 	Metals	Metalle	0		PlayerData.cs; ResourceValueGroup.cs; ResourceValueGroup.cs; PlayerPanel.cs; 1233129399:Help panel.prefab; 1311349368:Help panel.prefab; 1544290198:Results panel.prefab
 	Died during space travel	Gestorben während der Reise	0		PlayerData.cs
 	Died in combat	Gestorben im Kampf	0		PlayerData.cs
-	Died in {0}	Gestorben in {0}	0		PlayerData.cs
+	Died in {0}	Gestorben bei Ereignis: {0}	0		PlayerData.cs
 
 PlayerFleet.cs
 	Can't fly that close to a star	Kann nicht so nah an einen Stern fliegen	0		PlayerFleet.cs
