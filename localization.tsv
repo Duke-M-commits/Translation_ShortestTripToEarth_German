@@ -410,7 +410,7 @@ plural	minute|minutes	Minute|Minuten	0		MenuProgressPanel.cs
 ModuleActionsPanel.cs
 	Disabled because of overload for {0:0.0} seconds	Deaktiviert wegen Überlastung für {0:0.0} Sekunden	0		ModuleActionsPanel.cs
 	Button disabled, because it would destroy the ship	Schaltfläche deaktiviert, da sie das Schiff zerstören würde	0		ModuleActionsPanel.cs; ModuleSlotListItem.cs
-	INSTALL	EINBAUEN	0		ModuleActionsPanel.cs; 67125101:Weapon slot.prefab; 413376960:dlc2/undeveloped nuke launcher slot for warpshell.prefab; 491026875:Warp slot.prefab; 492440289:Undeveloped Battle Tiger nuke launcher slot.prefab; 664404328:Results panel.prefab; 737126012:Nuke launcher slot for 01 Tigerfish.prefab; 745463969:Nuke launcher slot.prefab; 863338826:Nuke launcher slot for 03 weirdship.prefab; 906281615:Hybrid slot.prefab; 949606823:Undeveloped Bluestar nuke launcher slot.prefab; 999057435:Nuke launcher slot for 06 atlas.prefab; 1071584149:Weapon core slot.prefab; 1113889783:Nuke launcher slot for 05 gardenship.prefab; 1202570227:Internal slot.prefab; 1273413946:Undeveloped gardenship nuke launcher slot.prefab; 1277666044:Engine slot.prefab; 1322815387:Undeveloped internal slot.prefab; 1341641888:Nuke launcher slot for 02 Nuke Runner.prefab; 1351871714:Nuke launcher slot for 08 endurance.prefab; 1440480404:undeveloped nuke launcher slot for weirdship.prefab; 1560853782:Bridge slot.prefab; 1593662263:Container slot.prefab; 1665722822:Storage slot.prefab; 1695765702:Nuke launcher slot for 07 bluestar.prefab; 1773557343:Internal core slot.prefab; 1989742094:Nuke launcher slot for 09 warpshell.prefab; 2093063251:Nuke launcher slot for 04 Rogue Rat.prefab
+	INSTALL	EINBAU.	0		ModuleActionsPanel.cs; 67125101:Weapon slot.prefab; 413376960:dlc2/undeveloped nuke launcher slot for warpshell.prefab; 491026875:Warp slot.prefab; 492440289:Undeveloped Battle Tiger nuke launcher slot.prefab; 664404328:Results panel.prefab; 737126012:Nuke launcher slot for 01 Tigerfish.prefab; 745463969:Nuke launcher slot.prefab; 863338826:Nuke launcher slot for 03 weirdship.prefab; 906281615:Hybrid slot.prefab; 949606823:Undeveloped Bluestar nuke launcher slot.prefab; 999057435:Nuke launcher slot for 06 atlas.prefab; 1071584149:Weapon core slot.prefab; 1113889783:Nuke launcher slot for 05 gardenship.prefab; 1202570227:Internal slot.prefab; 1273413946:Undeveloped gardenship nuke launcher slot.prefab; 1277666044:Engine slot.prefab; 1322815387:Undeveloped internal slot.prefab; 1341641888:Nuke launcher slot for 02 Nuke Runner.prefab; 1351871714:Nuke launcher slot for 08 endurance.prefab; 1440480404:undeveloped nuke launcher slot for weirdship.prefab; 1560853782:Bridge slot.prefab; 1593662263:Container slot.prefab; 1665722822:Storage slot.prefab; 1695765702:Nuke launcher slot for 07 bluestar.prefab; 1773557343:Internal core slot.prefab; 1989742094:Nuke launcher slot for 09 warpshell.prefab; 2093063251:Nuke launcher slot for 04 Rogue Rat.prefab
 	MOVE	BEWEGEN	0		ModuleActionsPanel.cs; 1276398449:Crew actions panel.prefab
 	Scrap module	Modul verschrotten	0		ModuleActionsPanel.cs
 	Some resources go to DUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu ÜBERSCHÜSSIGEN RESSOURCEN	0		ModuleActionsPanel.cs; 1547831442:Module actions panel.prefab
@@ -420,7 +420,7 @@ ModuleDataSubpanel.cs
 	Damage to crew in hit area	Schaden an Besatzung im Trefferbereich	0		ModuleDataSubpanel.cs
 	{0}% chance of {1}x{2} crew damage (default is {3:0}% of {4}x{5})	{0}% Chance auf {1}x{2} Besatzungsschaden (Standard ist {3:0}% auf {4}x{5})	0		ModuleDataSubpanel.cs
 	Does no crew damage (default is {0}% of {1} per projectile/beam)	Verursacht keinen Besatzungsschaden (Standard ist {0}% von {1} pro Projektil/Strahl)	0		ModuleDataSubpanel.cs
-	none	Keine	0		ModuleDataSubpanel.cs; ModuleDataSubpanel.cs; 44390310:Crew data subpanel.prefab; 144363729:Crew data subpanel.prefab; 244800954:Crew data subpanel.prefab; 351545516:Crew data subpanel.prefab; 638636785:Crew data subpanel.prefab; 792702311:Crew data subpanel.prefab; 1115819913:Crew data subpanel.prefab; 1389130318:Crew data subpanel.prefab; 1665371085:Crew data subpanel.prefab; 1691504708:Crew data subpanel.prefab
+	none	Keiner	0		ModuleDataSubpanel.cs; ModuleDataSubpanel.cs; 44390310:Crew data subpanel.prefab; 144363729:Crew data subpanel.prefab; 244800954:Crew data subpanel.prefab; 351545516:Crew data subpanel.prefab; 638636785:Crew data subpanel.prefab; 792702311:Crew data subpanel.prefab; 1115819913:Crew data subpanel.prefab; 1389130318:Crew data subpanel.prefab; 1665371085:Crew data subpanel.prefab; 1691504708:Crew data subpanel.prefab
 	low	Niedrig	0		ModuleDataSubpanel.cs; ModuleDataSubpanel.cs
 	default	Normal	0		ModuleDataSubpanel.cs; ModuleDataSubpanel.cs
 	high	Hoch	0		ModuleDataSubpanel.cs; ModuleDataSubpanel.cs
@@ -3241,7 +3241,7 @@ text2	Harvesting of organics proved more difficult than expected... The local pl
 
 1 P big precursor robot helps with free Repair or Fuel.prefab
 name3	Warp energy signals	Warpenergiesignale	25		1817916688:1 P big precursor robot helps with free Repair or Fuel.prefab; 182750162:4 P precursor war robot.prefab; 959210769:2356 P big precursor robot makes gift T, LRsensor3, Shield3.prefab; 1954889400:5 P precursor robot wants gift.prefab
-text	The warp energy comes from a large, very advanced robot. It hacks one of our bots to communicate "SAFETY" and then releases it.	Die Warpenergie kommt von einem großen, sehr fortschrittlichen Roboter. Er hackt einen unserer Bots, um "SAFETY" zu kommunizieren und setzt ihn dann frei.	400		847558892:1 P big precursor robot helps with free Repair or Fuel.prefab
+text	The warp energy comes from a large, very advanced robot. It hacks one of our bots to communicate "SAFETY" and then releases it.	Die Warpenergie kommt von einem großen, sehr fortschrittlichen Roboter. Er hackt einen unserer Bots, um "SICHERHEIT" zu kommunizieren und setzt ihn dann frei.	400		847558892:1 P big precursor robot helps with free Repair or Fuel.prefab
 choiceText	Approach	Annäherung	100		847558892:1 P big precursor robot helps with free Repair or Fuel.prefab; 95437423:dlc2/2 Pi Phobian planet 1, want credits.prefab; 784575451:2 P big precursor robot makes gift resources.prefab; 984531604:5 P precursor robot wants gift.prefab; 2136336621:2356 P big precursor robot makes gift T, LRsensor3, Shield3.prefab
 choiceText	Disengage to return later	Abbrechen, um später zurückzukehren	100		847558892:1 P big precursor robot helps with free Repair or Fuel.prefab; 10023508:1 P chemical soup FEO.prefab; 88319757:7 Pi shop recreation with shield, laser or cannon offer R.prefab; 154872531:2356 P big precursor robot makes gift T, LRsensor3, Shield3.prefab; 171429914:3 P volcanic moon storage M.prefab; 226455892:6 Pi Stat AMBUSH drones.prefab; 236559479:2345 shopless P Kustom junkyard Container.prefab; 266654141:2 Pi Trader planet x3, PECM2or3, warp3, LRsensor3.prefab; 313038624:5 P chobium ore M, -F.prefab; 427264442:1 Stat AMBUSH drones or traders.prefab; 428518359:4 Pi Freetravellers colony2, FORCT trader w warp4.prefab; 488345015:3 P abyss MF, maybe satellite.prefab; 543177312:235 Pi domevillage anarchists COF.prefab; 593284000:1 Stat AMBUSH drones or traders.prefab; 710993905:5 P ruins and nanobot printers MTr.prefab; 744669981:1 P cloning facility Co, possibly defsatellites.prefab; 749832632:235 P planetminerals, maybe junk satellites.prefab; 782106309:14 P Shop Kustom junkyard Integrity.prefab; 784575451:2 P big precursor robot makes gift resources.prefab; 950595009:2 P big precursor robot makes gift resources.prefab; 956085224:1 P exotics mine, guarded by satellites M.prefab; 984531604:5 P precursor robot wants gift.prefab; 1013578450:1 P big precursor robot helps with free Repair or Fuel.prefab; 1045120568:6 Pi Stat AMBUSH drones.prefab; 1085318817:2 Pi Trader planet x3, PECM2or3, warp3, LRsensor3.prefab; 1121685236:2456 shop, P KUSTOM Repair, packs.prefab; 1150551162:5 P precursor robot wants gift.prefab; 1156255720:34 P Public convertor x3 MFO.prefab; 1174481380:2 Pi pyramid refugee colony FOC trade mlaser4, stinger2.prefab; 1211140126:6 Pi Stat AMBUSH drones.prefab; 1220178546:4 Pi crystal city Sparks Tf,HP,M.prefab; 1231417571:4 Pi Yu-Ee colony, FO,Repair,trade Shield4,Warp4.prefab; 1251119171:7 Pi shop recreation with shield, laser or cannon offer R.prefab; 1251338375:2 Pi Trader planet x3, PECM2or3, warp3, LRsensor3.prefab; 1383202990:1 Pi Tree Friends city Or.prefab; 1437774731:4 P titanium ore M,-F.prefab; 1525895572:4 P precursor war robot.prefab; 1561084453:dlc2/1 Pi Capitaalo planet, want exotics.prefab; 1571635869:34 P Public convertor x3 MFO.prefab; 1628165797:4 P precursor tech cave MoT, good weaponsx3.prefab; 1635558695:4 Pi crystal city Sparks Tf,HP,M.prefab; 1636397401:3 Pi primitive energy people TEm-f.prefab; 1643240577:2 Pi white cavepeople M, want fuel.prefab; 1709187542:1 Pi Contemplator colony, INFINI autotrade C.prefab; 1756083414:1 Stat AMBUSH drones or traders.prefab; 1767816495:4 P chemical soup FEO 02.prefab; 1789483211:34 P Public convertor x3 MFO.prefab; 1801578253:4 Pi crystal city Sparks Tf,HP,M.prefab; 1844197280:4 Pi Shop nukes in dark tower.prefab; 1852290241:2 Pi Ctulhufants TMOE.prefab; 1878985230:6 P beach organics.prefab; 1886907309:4 Pi Collector trade gone bad F plus nuke.prefab; 1930501563:2 Pi Freetravellers colony, FORCT, trader w engineL4.prefab; 2047060527:2 P commercial outpost, sells dual old ATK cannon.prefab; 2069783847:7 Pi shop recreation with shield, laser or cannon offer R.prefab; 2124567691:1 Pi Contemplator colony, INFINI autotrade C.prefab; 2136336621:2356 P big precursor robot makes gift T, LRsensor3, Shield3.prefab
 newName3	Precursor robot	Vorläufer-Roboter	25		847558892:1 P big precursor robot helps with free Repair or Fuel.prefab; 165866928:5 P precursor robot wants gift.prefab; 301944237:5 P precursor robot wants gift.prefab; 301944239:5 P precursor robot wants gift.prefab; 569151455:5 P precursor robot wants gift.prefab; 944495865:4 P precursor war robot.prefab; 984531604:5 P precursor robot wants gift.prefab; 2136336621:2356 P big precursor robot makes gift T, LRsensor3, Shield3.prefab
@@ -3260,9 +3260,9 @@ name2	Planet with ecosystem	Planet mit Ökosystem	25		980381304:1 P chemical sou
 text2	Extraction operation completed without incident. We were able to recover most of the resources used in the operation.	Extraktionsoperation ohne Zwischenfälle abgeschlossen. Wir konnten die meisten der bei der Operation verwendeten Ressourcen zurückgewinnen.	400		1631619572:1 P chemical soup FEO.prefab
 reasonToDisplay	organics extracted	Organik extrahiert	30		1 P chemical soup FEO.prefab; 1 P chemical soup FEO.prefab
 text	The local rainbow soup is a viable resource that contains only microbial organisms with extremely low sentience index. We could easily set up some extraction & processing facilities here. Some of the materials can be recovered after the operation.	Die lokale Regenbogensuppe ist eine brauchbare Ressource, die nur mikrobielle Organismen mit extrem niedrigem Empfindungsindex enthält. Wir könnten hier leicht einige Extraktions- und Verarbeitungsanlagen einrichten. Ein Teil der Materialien kann nach der Operation zurückgewonnen werden.	400		10023508:1 P chemical soup FEO.prefab
-choiceText	Set up organics extractor [-60 metals, -50 synthetics]	Organik-Extraktor einrichten [-60 Metalle, -50 Kunststoffe]	100		10023508:1 P chemical soup FEO.prefab
-choiceText	Set up fuel processor [-60 metals, -50 synthetics]	Treibstoffaufbereitung [-60 Metalle, -50 Kunststoffe]	100		10023508:1 P chemical soup FEO.prefab
-choiceText	Set up explosives processor [-60 metals, -50 synthetics]	Sprengstoff-Prozessor einrichten [-60 Metalle, -50 Kunststoffe]	100		10023508:1 P chemical soup FEO.prefab
+choiceText	Set up organics extractor [-60 metals, -50 synthetics]	Organik-Extraktor errichten [-60 Metalle, -50 Kunststoffe]	100		10023508:1 P chemical soup FEO.prefab
+choiceText	Set up fuel processor [-60 metals, -50 synthetics]	Treibstoffaufbereitung errichten [-60 Metalle, -50 Kunststoffe]	100		10023508:1 P chemical soup FEO.prefab
+choiceText	Set up explosives processor [-60 metals, -50 synthetics]	Sprengstoffaufbereitung errichten [-60 Metalle, -50 Kunststoffe]	100		10023508:1 P chemical soup FEO.prefab
 text	extraction operation... %	Extraktionsvorgang... %	50		1119598782:1 P chemical soup FEO.prefab; 651278980:4 P chemical soup FEO 02.prefab; 1232678687:4 P chemical soup FEO 02.prefab; 1988639966:4 P chemical soup FEO 02.prefab
 text	processing operation... %	Verarbeitungsvorgang... %	50		1119598783:1 P chemical soup FEO.prefab; 109829873:1 P chemical soup FEO.prefab
 text2	Extraction operation completed without incident. We were able to recover most of the metal used in the operation.	Extraktionsvorgang ohne Zwischenfälle abgeschlossen. Wir konnten das meiste Metall, das bei der Operation verwendet wurde, zurückgewinnen.	400		1474919789:1 P chemical soup FEO.prefab; 1474919777:1 P chemical soup FEO.prefab
@@ -8437,7 +8437,7 @@ displayName	Command bridge, type DUO-2	Kommandobrücke, Typ ZWEISAM	40		10034454
 description	A single operator allows the bridge to remotely operate other modules (without providing skill bonuses). Each operator additionally gives an evasion bonus to the entire ship.	Ein einzelnes Besatzungsmitglied ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus). Jedes Personal gibt zusätzlich einen Ausweichbonus für das gesamte Schiff.	200		1003445460:bridge 2crew.prefab; 171768739:sdlc/bridge 2crew tiger.prefab; 436212146:bridge 3crew plastarmor.prefab; 954068497:bridge blackspider.prefab; 1148319565:bridge 3crew metalarmor.prefab; 1200522469:bridge 3crew floral.prefab; 2085174639:bridge 3crew.prefab
 
 bridge 3crew floral.prefab
-displayName	Command bridge, floral	Kommandobrücke, blumig	40		1200522469:bridge 3crew floral.prefab
+displayName	Command bridge, floral	Kommandobrücke, Typ Blumig	40		1200522469:bridge 3crew floral.prefab
 
 bridge 3crew metalarmor.prefab
 displayName	Command bridge, reinforced III	Kommandobrücke, verstärkt III	40		1148319565:bridge 3crew metalarmor.prefab
@@ -8449,7 +8449,7 @@ bridge 3crew.prefab
 displayName	Command bridge, type TRIPLE-3	Kommandobrücke, Typ DREISAM	40		2085174639:bridge 3crew.prefab
 
 bridge blackspider.prefab
-displayName	Command Bridge, biotech-3	Kommandobrücke, biotech-3	40		954068497:bridge blackspider.prefab
+displayName	Command Bridge, biotech-3	Kommandobrücke, Biotech-3	40		954068497:bridge blackspider.prefab
 
 exotics container 0 diy.prefab
 displayName	Exotics container (DIY)	Exoten-Behälter (Selbstbau)	40		168523420:exotics container 0 diy.prefab
@@ -8497,13 +8497,13 @@ displayName	Exotic fueltank artifact	Exotisches Treibstoff-Behälter-Artefakt	40
 description	An artifact that can be used to hold starfuel. Made of exotic alloys. Damage results in rapid loss of fuel.	Ein Artefakt, das zur Aufnahme von Sternentreibstoff verwendet werden kann. Hergestellt aus exotischen Legierungen. Eine Beschädigung führt zu einem schnellen Verlust des Treibstoffs.	200		1925655786:fuel container 3 exotic artifact.prefab
 
 fuel container 3.prefab
-displayName	Fuel tank (dual medium)	Treibstoff-Behälter (dual medium)	40		228227788:fuel container 3.prefab
+displayName	Fuel tank (dual medium)	Doppel-Treibstoff-Behälter (mittel)	40		228227788:fuel container 3.prefab
 
 fuel container 4.prefab
-displayName	Fuel tank large	Treibstoff-Behälter groß	40		3058441:fuel container 4.prefab
+displayName	Fuel tank large	Treibstoff-Behälter (groß)	40		3058441:fuel container 4.prefab
 
 fuel container 5.prefab
-displayName	Fuel tank extra large	Treibstoff-Behälter extra groß	40		1569142382:fuel container 5.prefab
+displayName	Fuel tank extra large	Treibstoff-Behälter (extra groß)	40		1569142382:fuel container 5.prefab
 
 metals container 0 diy.prefab
 displayName	Metals container (DIY)	Metalle-Behälter (Selbstbau)	40		340918825:metals container 0 diy.prefab
@@ -8520,7 +8520,7 @@ metals container 3 large.prefab
 displayName	Metals container (large)	Metalle-Behälter (groß)	40		851515731:metals container 3 large.prefab
 
 metals container 4 extralarge.prefab
-displayName	Metals container X-large	Metalle-Behälter XL	40		350762646:metals container 4 extralarge.prefab
+displayName	Metals container X-large	Metalle-Behälter (extra groß)	40		350762646:metals container 4 extralarge.prefab
 
 multicontainer biotec-scaled FO.prefab
 displayName	Biotech Multi-container FO	Biotech Multibehälter TO	40		1384130728:multicontainer biotec-scaled FO.prefab
@@ -8613,7 +8613,7 @@ displayName	Organics container (extra large)	Organik-Behälter (extra groß)	40	
 description	Container for organics, a resource used for healing and nutrition.	Behälter für Organik, eine Ressource, die für Heilung und Ernährung verwendet wird.	200		1906398666:organics container 4 extra large.prefab; 1969497769:organics container 5 ultra large.prefab
 
 organics container 5 ultra large.prefab
-displayName	Organics container (extended x-large)	Organik-Behälter (erweitert x-groß)	40		1969497769:organics container 5 ultra large.prefab
+displayName	Organics container (extended x-large)	Organik-Behälter erweitert (extra groß)	40		1969497769:organics container 5 ultra large.prefab
 
 synthetics container 0 diy.prefab
 displayName	Synthetics container (DIY)	Kunststoffe-Behälter (Selbstbau)	40		165493307:synthetics container 0 diy.prefab
@@ -8792,7 +8792,7 @@ displayName	Artificial life garden	Garten des künstlichen Lebens	40		737359377:
 description	A module that supports fully synthetic non-carbon life. Uses excess heat generated with ship movement to rapidly produce synthetics.	Ein Modul, das vollständig synthetisches, kohlenstofffreies Leben unterstützt. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, um schnell synthetisches Leben zu produzieren.	200		737359377:garden 6 synthetics.prefab
 
 integrity 0 ancient.prefab
-displayName	Integrity hardpoint [ancient]	Integritäts-Ansatzpunkt [antik]	40		786297541:integrity 0 ancient.prefab
+displayName	Integrity hardpoint [ancient]	Integritäts-Ansatzpunkt (Antik)	40		786297541:integrity 0 ancient.prefab
 description	This ancient hardpoint can be installed to gain extra ship HP, even during an emergency.	Dieser uralte Ansatzpunkt kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		786297541:integrity 0 ancient.prefab
 
 integrity 0 DIY biotech.prefab
@@ -8885,7 +8885,7 @@ description	Converts starfuel into organics. Comes with a built-in cake printer.
 MaterialsConverter.resourceProductionReason	produced by oilcake converter	hergestellt durch Ölkuchen-Konverter	30		166404798:oilcake converter.prefab
 
 synthetics cooker 1.prefab
-displayName	Synthetics cooker, grade I	Kunststoff-Kocher, Grad I	40		373200662:synthetics cooker 1.prefab
+displayName	Synthetics cooker, grade I	Kunststoff-Kocher	40		373200662:synthetics cooker 1.prefab
 description	"Cooks" organics to produce synthetics. Has recipes for tens of thousands of different substances. Robust structure improves ship HP.	"Kocht" Organik, um Kunststoffe zu produzieren. Hat Rezepte für zehntausende verschiedene Substanzen. Robuste Struktur verbessert die Schiffs-HP.	200		373200662:synthetics cooker 1.prefab
 MaterialsConverter.resourceConsumptionReason	converted to synthetics	umgewandelt in Kunststoffe	30		373200662:synthetics cooker 1.prefab
 MaterialsConverter.resourceProductionReason	produced by synthetics cooker	hergestellt durch Kunststoff-Kocher	30		373200662:synthetics cooker 1.prefab
@@ -8905,7 +8905,7 @@ description	Improvised medbay. Uses excessive amounts of organics to heal crewme
 Medbay.healingStoppedLogMsg	Warning, crew healing stopped due to lack of organics	Warnung, die Heilung von Besatzungsmitgliedern wurde aufgrund des Mangels an Organik gestoppt.	80		1219429018:medbay0 diy.prefab; 384091446:medbay2 startversion.prefab; 463896999:medbay6 biological.prefab; 1145518339:medbay1 Rat.prefab; 1145518341:medbay3 nanorepair.prefab; 1197296009:medbay5 biofluid bath.prefab; 1304112764:medbay4 stem celler.prefab
 
 medbay1 Rat.prefab
-displayName	Medbay [ancient]	Krankenstation [antik]	40		1145518339:medbay1 Rat.prefab
+displayName	Medbay [ancient]	Krankenstation (Antik)	40		1145518339:medbay1 Rat.prefab
 description	Medical nanomachines assembly. Consumes lots of organics when healing.	Zusammenbau medizinischer Nanomaschinen. Verbraucht bei der Heilung eine große Menge an Organik.	200		1145518339:medbay1 Rat.prefab
 
 medbay2 startversion.prefab
@@ -8933,7 +8933,7 @@ displayName	DIY point-defence	Selbstbau-Punktabwehr	40		893617597:0 DIY PD.prefa
 description	Intercepts asteroids, incoming missiles, slower projectiles and approaching boarders. Short range, cannot shoot at enemy ships.	Fängt Asteroiden, ankommende Raketen, langsamere Geschosse und herannahende Enterer ab. Kurze Reichweite, kann nicht auf feindliche Schiffe schießen.	200		893617597:0 DIY PD.prefab; 106454213:3 Rat PD 2.prefab; 583909453:4 Insectoid PD.prefab; 687853920:1 Rat PD.prefab; 804479599:6 Squid PD.prefab; 938711464:2 Tiger PD.prefab; 1381757148:7 Red PD.prefab; 1468502746:5 Human PD.prefab
 
 1 Rat PD.prefab
-displayName	Rat point-defence [ancient]	Ratten-Punktabwehr [antik]	40		687853920:1 Rat PD.prefab
+displayName	Rat point-defence [ancient]	Ratten-Punktabwehr (Antik)	40		687853920:1 Rat PD.prefab
 
 10 laser PD.prefab
 displayName	Heavy energy point-defence	Schwere Energie-Punktabwehr	40		1230723452:10 laser PD.prefab
@@ -9848,7 +9848,7 @@ displayName	Industrial laser II	Industrielaser II	40		306184114:weapon tigerlase
 description	Heavy-duty industrial laser. Low accuracy if compared to military beam weapons, generates two rays.	Leistungsstarker Industrielaser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen, erzeugt zwei Strahlen.	200		306184114:weapon tigerlaser MK2.prefab
 
 weapon DIY Minicannon ancient 2,3.prefab
-displayName	Converted ancient minicannon	Konvertierte Minikanone (antik)	40		1780996798:weapon DIY Minicannon ancient 2,3.prefab
+displayName	Converted ancient minicannon	Konvertierte Minikanone (Antik)	40		1780996798:weapon DIY Minicannon ancient 2,3.prefab
 description	Ancient point-defence weapon converted into small-calibre autocannon. Low accuracy and fragile bullets (1hp each).	Alte Punktabwehr-Waffe, die in eine kleinkalibrige Autokanone umgewandelt wurde. Geringe Genauigkeit und zerbrechliche Geschosse (je 1 HP).	200		1780996798:weapon DIY Minicannon ancient 2,3.prefab
 
 weapon gatling 01 ancient dual 14,4.prefab
@@ -9911,7 +9911,7 @@ displayName	Alien rocket launcher (x7)	Alien-Raketenwerfer (x7)	40		1170008060:w
 description	Platform for rapidly launching a hail of small, non-flammable rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Abschuss eines Hagels kleiner, nicht entflammbarer Raketen. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben jeweils 1 HP.	200		1170008060:weapon alienmissile x7.prefab
 
 weapon ancientrockets x3.prefab
-displayName	Ancient rocket platform	Raketenplattform (antik)	40		469527491:weapon ancientrockets x3.prefab; 1517283306:weapon capitalorockets x2.prefab
+displayName	Ancient rocket platform	Raketenplattform (Antik)	40		469527491:weapon ancientrockets x3.prefab; 1517283306:weapon capitalorockets x2.prefab
 description	Ancient rocket battery. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Antike Raketenbatterie. Raketen lenken nicht ab und beschädigen feindliche Module in einem großen Bereich, können aber durch Punktabwehr abgeschossen werden. Diese Raketen haben je 1hp.	200		469527491:weapon ancientrockets x3.prefab
 
 weapon capitalorockets x2.prefab
@@ -12171,7 +12171,7 @@ Rat description pool.prefab
 	Outcast from a Rat planet.	Ausgestoßen von einem Rattenplaneten.	250		1528824749:Rat description pool.prefab
 	Refugee from a regional Rat war.	Flüchtling aus einem regionalen Rattenkrieg.	250		1528824749:Rat description pool.prefab
 	An ex-patrol officer, fired from his job for not taking a bribe.	Ein Ex-Patrouilleur, der gefeuert wurde, weil er keine Bestechung annahm.	250		1528824749:Rat description pool.prefab
-	A tail painter looking for inspiration.	Ein Schwanzmaler auf der Suche nach Inspiration.	250		1528824749:Rat description pool.prefab
+	A tail painter looking for inspiration.	Ein Schwarzmaler auf der Suche nach Inspiration.	250		1528824749:Rat description pool.prefab
 	An introverted individualist who didn't fit in with a planet of socialites.	Ein introvertierter Individualist, der nicht zu einem Planeten der Gesellschaft passte.	250		1528824749:Rat description pool.prefab
 	An introvert who didn't fit in with a planet of socialites.	Ein introvertierter Individualist, der nicht zu einem Planeten der Sozialisten passt.	250		1528824749:Rat description pool.prefab
 	An individualist who didn't fit in with a planet of socialites.	Ein Individualist, der nicht zu einem Planeten der Sozialen passte.	250		1528824749:Rat description pool.prefab
