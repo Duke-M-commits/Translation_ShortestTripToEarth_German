@@ -776,7 +776,7 @@ trainingAssignment.firstHoverLine	Trainees	Auszubildende	50		4:Crew assignment p
 	Select all ordinary crew	Alle normalen Besatzungsmitglieder auswählen	0		935676385:Crew assignment panel.prefab
 	Select all pets	Alle Haustiere auswählen	0		362360792:Crew assignment panel.prefab
 	Select all drones	Alle Drohnen auswählen	0		1298272518:Crew assignment panel.prefab
-	Select all crew	Alle auswählen	0		573656676:Crew assignment panel.prefab; 1255481393:Help panel.prefab; 1670982909:Help panel.prefab
+	Select all crew	Ganze Besatzung auswählen	0		573656676:Crew assignment panel.prefab; 1255481393:Help panel.prefab; 1670982909:Help panel.prefab
 Button. Abbrevation for commemorating dead crew (rest in peace)	RIP	Tote	7		1548551360:Crew assignment panel.prefab
 	Select all wounded crew & pets	Wähle alle verwundeten Besatzungsmitglieder und Haustiere	0		1828598975:Crew assignment panel.prefab
 	Select all damaged drones	Alle beschädigten Drohnen auswählen	0		548329557:Crew assignment panel.prefab
