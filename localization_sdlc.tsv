@@ -67,7 +67,7 @@ displayName	Tiger monolith nuke	Tiger-Monolith-Bombe	40		2070090696:sdlc/Tiger M
 description	A capital missile that rams enemy ships with incredible kinetic force. It's mostly made of solid metal.	Ein bombiger Flugkörper, der feindliche Schiffe mit unglaublicher kinetischer Kraft rammt. Sie besteht größtenteils aus massivem Metall.	200		2070090696:sdlc/Tiger Monolith nuke launcher.prefab
 
 Tiger sharpnel nuke launcher.prefab
-displayName	Tigerclaw, sharpnel nuke	Tigerklaue-Schrapnell-Bombe	40		1711403825:sdlc/Tiger sharpnel nuke launcher.prefab
+displayName	Tigerclaw, shrapnel nuke	Tigerklaue-Schrapnell-Bombe	40		1711403825:sdlc/Tiger sharpnel nuke launcher.prefab
 description	An experimental capital missile that releases nanoshrapnel that destroys modules & crew, but not ship HP.	Eine experimentelle Bombe, die Nanosplitter freisetzt, die Module und Besatzung zerstören, aber nicht die HP des Schiffs.	200		1711403825:sdlc/Tiger sharpnel nuke launcher.prefab
 
 weapon tigermissile large.prefab
@@ -134,7 +134,6 @@ Tiger Monolith nuke.prefab
 displayName	Tiger Monolith nuke	Tiger Monolith-Bombe	35		1865480560:sdlc/Tiger Monolith nuke.prefab
 
 Tiger sharpnel nuke.prefab
-displayName	Tiger sharpnel nuke	Tiger Schrapnell-Bombe	35		1258798551:sdlc/Tiger sharpnel nuke.prefab
 
 BattleTiger.prefab
 description	Battle Tiger is is the military variant of the popular Tigerfish series. It was designed for long-range transport of VIP personnel in hostile space and is equipped with explosives combinator. It comes with intruderbot nukes that release armed drones inside enemy ships.	Battle Tiger ist die militärische Variante der beliebten Tigerfisch-Serie. Er wurde für den Langstreckentransport von VIP-Personal im feindlichen Raum konzipiert und ist mit einem Sprengstoff-Kombinator ausgestattet. Er verfügt über Eindringling-Bomben, die bewaffnete Drohnen im Inneren feindlicher Schiffe freisetzen.	400		1452660923:sdlc/BattleTiger.prefab
