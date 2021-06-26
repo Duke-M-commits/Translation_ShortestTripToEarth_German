@@ -1634,6 +1634,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0		1665000636:Module data subpanel.prefab
 	Fuel gained if scrapped	Gewonnener Treibstoff bei Verschrottung	0		1829466502:Module data subpanel.prefab; 1935899546:Module data subpanel.prefab
 	Organics gained if scrapped	Gewonnene Organik bei Verschrottung	0		575249597:Module data subpanel.prefab; 1721845561:Module data subpanel.prefab
 	Synthetics gained if scrapped	Gewonnene Kunststoffe bei Verschrottung	0		242636747:Module data subpanel.prefab; 925617220:Module data subpanel.prefab
+
 	Explosives gained if scrapped	Gewonnene Sprengstoffe bei Verschrottung	0		1532999014:Module data subpanel.prefab; 602786117:Module data subpanel.prefab
 	Exotics gained if scrapped	Gewonnene Exoten bei Verschrottung	0		1246576831:Module data subpanel.prefab; 1350988215:Module data subpanel.prefab
 	Xenodata gained if scrapped	Gewonnene Xenodaten bei Verschrottung	0		493630732:Module data subpanel.prefab
@@ -5949,6 +5950,7 @@ title	Matter Processors	Materieumwandler	35		1571635869:34 P Public convertor x3
 text	This is one of the ancient Intergalactic Public Matter Processors. These famous facilities were built by older races for public use centuries ago. They are still working after hundreds of years of service. We may convert some of our resources to others.	Dies ist einer der alten intergalaktischen öffentlichen Materieprozessoren. Diese berühmten Anlagen wurden von älteren Rassen vor Jahrhunderten für den öffentlichen Gebrauch gebaut. Sie sind auch nach Hunderten von Jahren noch in Betrieb. Wir können einige unserer Ressourcen in andere umwandeln.	400		1571635869:34 P Public convertor x3 MFO.prefab; 1789483211:34 P Public convertor x3 MFO.prefab
 choiceText	Use facilities [convert 100 synthetics to 100 fuel]	Anlagen nutzen [-100 Kunststoffe, +100 Treibstoffe]	100		1571635869:34 P Public convertor x3 MFO.prefab
 newName3	synthetics to fuel conversion	Kunststoffe in Treibstoff umwandeln	25		1571635869:34 P Public convertor x3 MFO.prefab
+
 choiceText	Use facilities [convert 50 explosives to 52 fuel]	Anlagen nutzen [-50 Sprengstoffe, +52 Treibstoffe]	100		1789483211:34 P Public convertor x3 MFO.prefab
 newName3	explosives to fuel conversion	Sprengstoffe in Treibstoff umwandeln	25		1789483211:34 P Public convertor x3 MFO.prefab
 text	This is one of the ancient Intergalactic Public Matter Processors. These facilities were built by older civilizations for public use centuries ago. They are still working after hundreds of years of service. We may convert some of our resources to others.	Dies ist einer der alten intergalaktischen öffentlichen Materieprozessoren. Diese Anlagen wurden von älteren Zivilisationen vor Jahrhunderten für den öffentlichen Gebrauch gebaut. Sie funktionieren auch noch nach Hunderten von Jahren. Wir können einige unserer Ressourcen in andere umwandeln.	400		1156255720:34 P Public convertor x3 MFO.prefab
@@ -8685,7 +8687,8 @@ description	Hybrid integrity technology with electronic countermeasures. Increas
 
 ECM 01 terran.prefab
 displayName	Armored ECM Turret I	Gepanzerter EGM-Turm I	40		738383848:ECM 01 terran.prefab
-description	Hybrid integrity technolgy with electronic countermeasures. Increases overall ship evasion, improves ship HP, requires a hybrid slot.				738383848:ECM 01 terran.prefab; 178792571:ECM 03 insectoid.prefab; 738383845:ECM 02 terran.prefab; 738383846:ECM 03 terran.prefab
+
+ECM 02 terran.prefab
 displayName	Armored ECM Turret II	Gepanzerter EGM-Turm II	40		738383845:ECM 02 terran.prefab
 
 ECM 02.2 ancient artifact, slicer dicer.prefab
@@ -10123,6 +10126,7 @@ unlockAnnouncementText	During our travels, we've met an honest individual who is
 randomizerMenuStrings[i]	+40 organics	+40 Organik	30		1672628016:Perk add organics 3, braindead.prefab; 584291632:Perk crew rat cook.prefab; 1581853207:Perk crew grippy gunner.prefab
 randomizerMenuStrings[i]	-10 credits	+10 Kunststoffe	30		1672628016:Perk add organics 3, braindead.prefab
 
+
 Perk add organics 4, dead insectoids.prefab
 displayName	Donated insectoid remains	Gespendete insektoide Überreste	40		75978646:Perk add organics 4, dead insectoids.prefab
 description	The honourable Shieldbug tradition demands that bodies of losers must be donated, to be eaten by the most shameful members of other species. We may accept this donation for we have passed the necessary criteria.	Die ehrwürdige Shieldbug-Tradition verlangt, dass die Körper von Verlierern gespendet werden, um von den schändlichsten Mitgliedern anderer Spezies gegessen zu werden. Wir dürfen diese Spende annehmen, denn wir haben die notwendigen Kriterien erfüllt.	250		75978646:Perk add organics 4, dead insectoids.prefab
@@ -10362,6 +10366,7 @@ description	A light walker chassis with fire extinguisher, assembled from spare 
 unlockAnnouncementText	Our ship AI has been carrying out miniature experiments with drones during the journey. Her small discoveries have made new options available, next time we go for a run like this.	Unsere Schiffs-KI hat während der Reise Miniatur-Experimente mit Drohnen durchgeführt. Ihre kleinen Entdeckungen haben uns neue Optionen eröffnet, wenn wir das nächste Mal eine solche Fahrt unternehmen.	100		1425666963:Perk drone 01 DIY fire safety.prefab; 124153277:Perk drone 02 DIY guard.prefab; 1559698830:Perk drone 06 DIY gunnery.prefab; 1599767297:Perk drone 03 DIY repairbot.prefab
 randomizerMenuStrings[i]	+1 fire safety drone	+1 selbstgebaute Brandschutz-Drone	30		1425666963:Perk drone 01 DIY fire safety.prefab
 
+
 Perk drone 02 DIY guard.prefab
 displayName	DIY guard drone	Selbstbau-Wachdrohne	40		124153277:Perk drone 02 DIY guard.prefab
 description	A light walker chassis with an improvised laser, assembled from spare parts. limited capabilities. Do not expect much from its scorpion-based AI.	Ein leichtes Walker-Chassis mit einem improvisierten Laser, zusammengebaut aus Ersatzteilen. Begrenzte Fertigkeiten. Erwarten Sie nicht viel von seiner Skorpion-basierten KI.	250		124153277:Perk drone 02 DIY guard.prefab
@@ -10403,6 +10408,7 @@ Perk drone 08 DIY sentry tank.prefab
 displayName	DIY tank	Selbstbau-Panzer	40		136621601:Perk drone 08 DIY sentry tank.prefab
 description	Armored drone, assembled from spare parts. Turtle-based AI.	Gepanzerte Drohne, zusammengebaut aus Ersatzteilen. Schildkrötenbasierte KI.	250		136621601:Perk drone 08 DIY sentry tank.prefab
 randomizerMenuStrings[i]	+1 combat drone	+1 selbstgebaute Kampfdrone	30		136621601:Perk drone 08 DIY sentry tank.prefab
+
 
 Perk drone 09 light sec.prefab
 displayName	Light security drone	Leichte Sicherheitsdrohne	40		1504797922:Perk drone 09 light sec.prefab
@@ -10955,6 +10961,7 @@ Perk Replace Industrial lasers with MK2.prefab
 displayName	Industrial lasers upgrade (x3)	Industrie-Laser-Upgrade (x3)	40		566836399:Perk Replace Industrial lasers with MK2.prefab
 description	The upgraded lasers need more power but are twice as powerful.	Die aufgerüsteten Laser benötigen mehr Energie, sind aber doppelt so stark.	250		566836399:Perk Replace Industrial lasers with MK2.prefab
 randomizerMenuStrings[i]	Improves ship's main lasers	Verbessert die Hauptlaser des Schiffs	30		566836399:Perk Replace Industrial lasers with MK2.prefab
+
 
 Perk Replace lasers for Nuke Runner.prefab
 displayName	Combat laser upgrade	Kampflaser-Upgrade	40		1819699687:Perk Replace lasers for Nuke Runner.prefab
