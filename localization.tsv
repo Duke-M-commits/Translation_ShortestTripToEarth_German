@@ -1373,6 +1373,7 @@ Abbrevation for Blue	B:	B:	0		183165484:Menu panel.prefab
 	Exit	Beenden	0		723119657:Menu panel.prefab
 	After many good years of work, Shortest Trip launched in Autumn 2019, entering a new phase of continued development. We are able to keep adding content and expanding the game further thanks to your support.	Nach vielen guten Jahren der Arbeit geht Shortest Trip im Herbst 2019 in eine neue Phase der Weiterentwicklung. Dank Ihrer Unterstützung können wir ständig neue Inhalte hinzufügen und das Spiel weiter ausbauen.	0		1619385223:Menu panel.prefab
 	Latest updates:	Neueste Updates:	0		76112239:Menu panel.prefab
+	<color=lime><b>Patch 21 (29.06.2021)</b></color>\n●\tNew playable ship (The Riggy)\n\tadded to Supporters Pack DLC\n●\tSupporters Pack DLC ships have\n\tnow more exotic pets\n●\tFixed a lot of English typos thanks\n\tto DukeDuke'em on Discord\n●\tLocalization files got a new text\n\tcolumn that allows multiple\n\ttranslations for the same line\n●\tCrew and star names are now\n\tlocalizable\n●\tShop repair audio loudness fixed\n●\tNew code to un-stuck player ship\n\ton game load, against the\n\t"Stuck in Spideraa asteroids" bug	<color=lime><b>Patch 21 (29.06.2021)</b></color>\n●\tNew playable ship (The Riggy)\n\tadded to Supporters Pack DLC\n●\tSupporters Pack DLC ships have\n\tnow more exotic pets\n●\tFixed a lot of English typos thanks\n\tto DukeDuke'em on Discord\n●\tLocalization files got a new text\n\tcolumn that allows multiple\n\ttranslations for the same line\n●\tCrew and star names are now\n\tlocalizable\n●\tShop repair audio loudness fixed\n●\tNew code to un-stuck player ship\n\ton game load, against the\n\t"Stuck in Spideraa asteroids" bug	0		106754447:Menu panel.prefab
 	<color=lime><b>Patch 20 (18.02.2021)</b></color>\n●\tWeapon slots can be now\n\tupgraded to core weapon slots,\n\tgiving +1 ship HP\n●\tSmall updates to make some\n\tenemy fleets stronger, including\n\tthose in Old Enemies DLC\n●\tFixed builtin exotics converter\n\tslider step size\n●\tFixed zoom in and out keys\n●\tFix, fire is now visible in modded\n\tgame content\n●\tFix, Perk randomizerMenuStrings\n\tcan now be localized\n●\tRemoved\n\tafter-early-access-progress-reset\n\toption from the game	<color=lime><b>Patch 20 (18.02.2021)</b></color>\n●\tWaffensteckplätze können nun zu\n\tKernwaffensteckplätzen\n\taufgerüstet werden und geben\n\t+1 Schiff-HP\n●\tKleine Updates, um einige\n\tgegnerische Flotten stärker zu\n\tmachen, einschließlich derer im\n\tDLC "The Old Enemies"\n●\tSchrittgröße des eingebauten\n\tExoten-Konverters korrigiert\n●\tTasten zum Vergrößern und\n\tVerkleinern behoben\n●\tFix, Feuer ist nun in modifizierten\n\tSpielinhalten sichtbar\n●\tRepariert, Startboni\n\trandomizerMenuStrings können\n\tnun lokalisiert werden\n●\tOption zum Zurücksetzen des\n\t(Early-Access) Fortschritts aus dem\n\tSpiel entfernt	0		106754446:Menu panel.prefab
 	<color=lime><b>Patch 19 (25.11.2020)</b></color>\n●\tImproved and expanded modding\n\toptions significantly\n●\tFixed trading options with new\n\tfleets in the Old Enemies DLC\n●\tFixed 3 perks that didn't unlock\n\tproperly\n●\tFixed smaller issues on multiple\n\tships	<color=lime><b>Patch 19 (25.11.2020)</b></color>\n●\tDie Modding-Optionen wurden\n\tdeutlich verbessert und erweitert\n●\tHandelsoptionen mit neuen\n\tFlotten im "The Old Enemies"-DLC\n\tkorrigiert\n●\t3 Startboni behoben, die sich nicht\n\trichtig freischalten ließen\n●\tKleinere Probleme bei mehreren\n\tSchiffen behoben	0		249374313:Menu panel.prefab
 	<color=lime><b>Patch 18 (05.11.2020)</b></color>\n●\tCompleted the new DLC: The Old\n\tEnemies\n●\tMade ECM jammers and artifacts\n\tbetter\n●\tAll projectile weapon descriptions\n\tnow say how many HP their\n\tprojectiles have\n●\tPirate queen was removed from\n\tsector 2 and is now a potential\n\tenemy in sector 3\n●\tDIY acid nuke does no longer need\n\texotics to be crafted	<color=lime><b>Patch 18 (05.11.2020)</b></color>\n●\tDas neue DLC "The Old Enemies"\n\twurde fertiggestellt\n●\tECM-Störsender und Artefakte\n\twurden verbessert\n●\tAlle Beschreibungen für\n\tProjektilwaffen beinhalten nun\n\tAngaben zu ihren HP\n●\tDie Piratenkönigin wurde aus\n\tSektor 2 entfernt und ist nun ein\n\tpotentieller Gegner in Sektor 3.\n●\tSelbstgebaute Säurebombe\n\tbenötigt keine Exoten mehr	0		1087014355:Menu panel.prefab
@@ -1383,7 +1384,7 @@ Abbrevation for Blue	B:	B:	0		183165484:Menu panel.prefab
 	<color=lime><b>Patch 13 (12.02.2020)</b></color>\n<color=lime>New content and features:</color>\n●\tAdded new ship: Easy Tiger (along\n\twith new crew, exotic weapons,\n\tmodules and ship-specific perks)\n●\tAdded new functionality: you can\n\tnow multiselect all crewmembers\n\tassigned to a job (for example\n\tselect all firefighters or select all\n\tlab workers) with a single click\n●\tAdded new DIY plastics nuke\n●\tTigerfish and Nuke runner are now\n\tavailable only in\n\tchallenging/hardcore difficulty\n●\t"Some extra sector lore/story is\n\tnow visible between levels (used\n\tto be readable only from sector\n\tselection)"\n<color=lime>Balance updates:</color>\n●\tIn challenging/hardcore difficulty:\n\tmodule max hp damage now\n\thappens less, in 10% cases instead\n\tof 15%\n●\tMade many cannons slower to\n\treload but more accurate\n●\tMade drones/humans a little\n\tfaster\n●\tMade many containers better\n●\tMade medical cryosleep even\n\tbetter\n●\tGave all player ships new\n\tcraftable nukes\n●\tAdded empty misc slots to Rogue\n\tRat & Weirdship in place of old\n\tmodule storage\n●\tMost playable ships now start with\n\tmore credits (420)\n●\tMajority of cannons and gatling\n\tguns are now more accurate and\n\tconsume less explosives\n●\tReduced cost of converting\n\texplosives to fuel	<color=lime><b>Patch 13 (12.02.2020)</b></color>\n<color=lime>Neue Inhalte und Funktionen:</color>\n●\tNeues Schiff hinzugefügt:\n\tEasy Tiger (zusammen mit neuer\n\tBesatzung, exotischen Waffen,\n\tModulen und schiffsspezifischen\n\tBoni)\n●\tNeue Funktion:\n\tSie können jetzt alle\n\tBesatzungsmitglieder, die einem\n\tJob zugewiesen sind (z. B. alle\n\tFeuerwehrleute oder alle\n\tForscher) mit einem einzigen Klick\n\tauswählen\n●\tNeue selbstgebaute\n\tPlastiksprengstoff-Bombe\n\thinzugefügt\n●\tTigerfish und Nuke-Runner sind\n\tjetzt nur im Schwierigkeitsgrad\n\t"Herausfordernd/Hardcore"\n\tverfügbar\n●\tEinige zusätzliche\n\tSektorkenntnisse/Geschichten\n\tsind nun zwischen den Levels\n\tsichtbar (vorher nur in der\n\tSektorauswahl lesbar)\n<color=lime>Balance-Aktualisierungen:</color>\n●\tIm Schwierigkeitsgrad\n\tHerausfordernd/Hardcore:\n\tDer Modul-Max-HP-Schaden tritt\n\tnun weniger auf, in 10% der Fälle\n\t(anstatt 15%)\n●\tViele Kanonen werden nun\n\tlangsamer nachgeladen, sind aber\n\tgenauer\n●\tDrohnen/Menschen etwas\n\tschneller gemacht\n●\tViele Behälter wurden verbessert\n●\tMedizinischer Kryoschlaf noch\n\tbesser gemacht\n●\tAllen Spielerschiffen neue\n\therstellbare Nuklearwaffen\n\thinzugefügt\n●\tLeere Andere-Steckplätze wurden\n\tzu Rogue Rat & Weirdship\n\thinzugefügt, anstelle des alten\n\tModulspeichers\n●\tDie meisten spielbaren Schiffe\n\tstarten nun mit mehr Krediten\n\t(420)\n●\tEin Großteil der Kanonen und\n\tGatling-Waffen sind nun genauer\n\tund verbrauchen weniger\n\tSprengstoff\n●\tDie Kosten für die Umwandlung\n\tvon Sprengstoffen in Treibstoff\n\twurden reduziert.	0		705338536:Menu panel.prefab
 	<color=lime><b>Patch 12 (16.01.2020)</b></color>\n●\tAdded a new easier game mode,\n\tchanged others\n●\tNew feature: Ship module storage\n\tcan be now upgraded for greater\n\tcapacity\n●\tCrew role change button now\n\topens when hovered\n●\tReduced amount of intruders for\n\tsome enemy ships\n●\tIt's now possible to save crew\n\tmembers to empty slots in quick\n\tselection bar, and change the\n\torder of guns\n●\tModule max hitpoints may now\n\tget damaged (except in the\n\tbeginner mode)\n●\tImproved feature: crew combat\n\tweapons can be now loaded\n\tmid-magazine and during walking\n●\tTigerfish now has the ship-specific\n\tperk "explosives combinator"\n●\tMultiple starting ships can be now\n\tunlocked during a single run\n●\tCompleting a level may now\n\tunlock both a ship and a perk\n●\tThe Tigerfish starting moduleset\n\tand stats have been improved.\n\tIt's now a better ship\n●\tMade most of the shield batteries\n\tbetter\n●\tUpdated level 9 ships\n●\tAdded 2 nuke slots to a small\n\tSlaver ship\n●\tRebalanced the toughest enemy\n\tfleet in sector 1 (made it less\n\tdangerous)\n●\tSwapped firefight and repair\n\tpriorities for repair officers (should\n\tfix one navigation overload issue\n\tand repairing burning modules\n\tissue)\n●\tSmugglers now offer more\n\tfavorable deals\n●\tAll non-biotech reactors now also\n\tgive explosives as scrap	<color=lime><b>Patch 12 (16.01.2020)</b></color>\n●\tEin neuer leichterer Spielmodus\n\twurde hinzugefügt, andere\n\twurden geändert\n●\tNeues Feature:\n\tSchiffsmodulspeicher kann jetzt\n\tfür größere Kapazität aufgerüstet\n\twerden\n●\tDie Schaltfläche zum Ändern der\n\tRolle öffnet sich nun, wenn man\n\tmit der Maus darüber fährt\n●\tReduzierte Anzahl von\n\tEindringlingen bei einigen\n\tgegnerischen Schiffen\n●\tEs ist nun möglich,\n\tBesatzungsmitglieder in der\n\tSchnellauswahlleiste zu speichern\n\tund die Reihenfolge der Waffen zu\n\tändern\n●\tDie maximalen Schadenspunkte\n\tvon Modulen können nun\n\tbeschädigt werden (außer im\n\tAnfängermodus)\n●\tVerbessertes Feature:\n\tPersonal-Kampfwaffen können\n\tnun mitten im Magazin und\n\twährend des Laufens geladen\n\twerden\n●\tTigerfish hat jetzt den\n\tschiffsspezifischen Bonus\n\t"Sprengstoff-Kombinator"\n●\tMehrere Startschiffe können nun\n\tin einem Durchgang freigeschaltet\n\twerden\n●\tDas Abschließen eines Levels kann\n\tnun sowohl ein Schiff als auch\n\teinen Startbonus freischalten\n●\tDas Tigerfish Startmodulset und\n\tdessen Stats wurden verbessert.\n\tEs ist jetzt ein geileres Schiff\n●\tDie meisten der Schildbatterien\n\twurden verbessert\n●\tSchiffe der Stufe 9 aktualisiert\n●\t2 Bomben-Steckplätze zu einem\n\tkleinen Sklavenhändler-Schiff\n\thinzugefügt\n●\tDie härteste gegnerische Flotte in\n\tSektor 1 wurde neu ausbalanciert\n\t(weniger gefährlich gemacht)\n●\tDie Feuergefechts- und\n\tReparaturprioritäten für\n\tReparaturoffiziere wurden\n\tvertauscht (sollte ein Problem mit\n\tder Überlastung der Navigation\n\tund das Problem mit der\n\tReparatur brennender Module\n\tbeheben)\n●\tSchmuggler bieten nun günstigere\n\tDeals an\n●\tAlle Nicht-Biotech-Reaktoren\n\tgeben nun auch Sprengstoffe als\n\tSchrott	0		1985108965:Menu panel.prefab
 	<color=lime><b>Patch 11 (14.11.2019)</b></color>\n●\tNew "view system" button in\n\tsector view\n●\tPoint defences can be now given\n\tpriority targets\n●\tFate bonuses after sectors will be\n\tgiven only after all level perks are\n\tunlocked\n●\tTigerfish starts with slightly better\n\tresource & evasion bonus again\n●\tNew perk for Tigerfish: explosives\n\tcombinator\n●\tDronebays and medbays can now\n\theal more people simultaneously\n●\tSome nukes have more hitpoints\n●\tSome hostile ships now send less\n\tintruders\n●\tFixed crew firefighting command\n\tnot working properly\n●\tFixed a researchable beacon event\n\twith endless loop\n●\tFixed errors with saving and\n\tloading	<color=lime><b>Patch 11 (14.11.2019)</b></color>\n●\tNeue Schaltfläche "System\n\tansehen" in der Sektoransicht\n●\tPunktverteidigungen können nun\n\tals vorrangige Ziele ausgewählt\n\twerden\n●\tSchicksalsboni nach Sektoren\n\twerden nur noch vergeben, wenn\n\talle Level-Boni freigeschaltet sind.\n●\tTigerfish startet wieder mit etwas\n\tbesserem Ressourcen- &\n\tAusweichbonus\n●\tNeuer Bonus für den Tigerfish:\n\tSprengstoff-Kombinator\n●\tReparaturstationen und\n\tKrankenstation können jetzt mehr\n\tLeute gleichzeitig heilen\n●\tEinige Bomben haben mehr\n\tSchadenspunkte\n●\tEinige feindliche Schiffe schicken\n\tnun weniger Eindringlinge\n●\tDer Befehl zur Brandbekämpfung\n\tdurch die Besatzung funktionierte\n\tnicht richtig\n●\tEin erforschbares Baken-Event mit\n\tEndlosschleife behoben\n●\tFehler beim Speichern und Laden\n\tbehoben	0		34006752:Menu panel.prefab
-	<color=lime>Patch 10 (29.10.2019)\nPatch 9 (24.10.2019)\nPatch 8 (23.10.2019)\nPatch 7 (26.09.2019)\nPatch 6 (12.09.2019)\nPatch 5: New Achievements\nHotfix 4 (05.09.2019)\nHotfix 3 (28.08.2019)\nHotfix 2 (23.08.2019)\nHotfix 1 (21.08.2019)</color>\n\n●\tNew, easier game mode (read the\n\tgame mode descriptions at new\n\trun start for details)\n●\tOption to craft DIY modules &\n\tnukes in empty slots\n●\tNew power management view\n\t(hotkey "V")\n●\tNew captain log fragments in\n\tsector descriptions\n●\t10+ new ships\n●\t50+ new events\n●\t40+ new modules and nukes,\n\tincluding a variety of DIY nukes\n●\t30+ new perks\n●\tLots of UI & UX improvements\n●\tEverything rebalanced in terms of\n\tdifficulty, including ships,\n\tweapons, enemies etc\n\n<b>Read the full changelog in Steam.</b>	<color=lime>Patch 10 (29.10.2019)\nPatch 9 (24.10.2019)\nPatch 8 (23.10.2019)\nPatch 7 (26.09.2019)\nPatch 6 (12.09.2019)\nPatch 5: Neue Errungenschaften\nHotfix 4 (05.09.2019)\nHotfix 3 (28.08.2019)\nHotfix 2 (23.08.2019)\nHotfix 1 (21.08.2019)</color>\n\n●\tNeuer, leichterer Spielmodus\n\t(lesen Sie die Beschreibungen\n\tbeim Start des neuen Laufs für\n\tDetails)\n●\tOption zum Herstellen von\n\tSelbstbau-Modulen & Bomben in\n\tleeren Steckplätzen\n●\tNeue Energiemanagement-Ansicht\n\t(Tastenkürzel "V")\n●\tNeue Kapitänslogbuchfragmente\n\tin Sektorbeschreibungen\n●\t10+ neue Schiffe\n●\t50+ neue Ereignisse\n●\t40+ neue Module und Bomben,\n\tdarunter eine Vielzahl von\n\tSelbstbau-Bomben\n●\t30+ neue Startboni\n●\tViele UI & UX Verbesserungen\n●\tAlles wurde in Bezug auf den\n\tSchwierigkeitsgrad neu\n\tausbalanciert, einschließlich\n\tSchiffe, Waffen, Gegner etc.\n\n<b>Lesen Sie die vollständige Änderungsliste auf Steam.</b>	0		1698087549:Menu panel.prefab
+	<b>Read the full changelog in Steam.</b>	<b>Lesen Sie das vollständige Changelog in Steam.</b>	0		1698087549:Menu panel.prefab
 	Click for next tip	Klicken Sie für den nächsten Tipp.	0		2135834629:Menu panel.prefab
 	Click for next tip.	Nächster Tipp	0		423452430:Menu panel.prefab
 	This game is not yet rated, but is suitable for ages over:	Dieses Spiel hat noch keine Altersfreigabe, ist aber für Personen ab einem gewissen Alter geeignet:	0		1049831583:Menu panel.prefab
@@ -1634,7 +1635,6 @@ Module effects/stats	EFFECTS	EFFEKTE	0		1665000636:Module data subpanel.prefab
 	Fuel gained if scrapped	Gewonnener Treibstoff bei Verschrottung	0		1829466502:Module data subpanel.prefab; 1935899546:Module data subpanel.prefab
 	Organics gained if scrapped	Gewonnene Organik bei Verschrottung	0		575249597:Module data subpanel.prefab; 1721845561:Module data subpanel.prefab
 	Synthetics gained if scrapped	Gewonnene Kunststoffe bei Verschrottung	0		242636747:Module data subpanel.prefab; 925617220:Module data subpanel.prefab
-
 	Explosives gained if scrapped	Gewonnene Sprengstoffe bei Verschrottung	0		1532999014:Module data subpanel.prefab; 602786117:Module data subpanel.prefab
 	Exotics gained if scrapped	Gewonnene Exoten bei Verschrottung	0		1246576831:Module data subpanel.prefab; 1350988215:Module data subpanel.prefab
 	Xenodata gained if scrapped	Gewonnene Xenodaten bei Verschrottung	0		493630732:Module data subpanel.prefab
@@ -2420,7 +2420,6 @@ RandomizePOI.genericValueGroup[i].text	This planet is too hot to have any practi
 RandomizePOI.genericValueGroup[i].text	The atmosphere of this planet is constantly ravaged by superstrong electromagnetic storms. In addition, the environment seems to be highly nanotoxic. We have nothing to do here.	Die Atmosphäre dieses Planeten wird ständig von superstarken elektromagnetischen Stürmen heimgesucht. Außerdem scheint die Umgebung hochgradig nanotoxisch zu sein. Wir haben hier nichts zu tun.	400		758686165:P Planets empty x 50.prefab; 110150279:Pool of event texts empty barren planets.prefab
 RandomizePOI.genericValueGroup[i].name2	Lifeless planet	Lebloser Planet	25		758686165:P Planets empty x 50.prefab; 182750162:4 P precursor war robot.prefab; 196511045:4 P Ngani security station TE orbital mines.prefab; 379119965:3 P mineral surface outcrops3 M, guarded by satellites m.prefab; 397439137:4 P shielded artifact TM-f.prefab; 407994561:3 P mineral surface outcrops M.prefab; 509198196:4 P titanium ore M,-F.prefab; 727494365:5 P Ultranephrite crystals blue big M.prefab; 737943431:2 P blackmucus F,E.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab; 812763486:4 P anomaly planet sucker R.prefab; 959210769:2356 P big precursor robot makes gift T, LRsensor3, Shield3.prefab; 967608512:1 P cloning facility Co, possibly defsatellites.prefab; 1155306085:5 wr. shipwreck with weapon MT, orbimines.prefab; 1214439924:5 P crystals red big.prefab; 1283612516:3 P anomaly planet taster m.prefab; 1374318781:1 P dome city broken advanced MT.prefab; 1444212467:3 P lost alien fuelpod F.prefab; 1502999507:5 P crystals green M 1.prefab; 1531945737:5 P chobium ore M, -F.prefab; 1543330341:5 P conflict remains x4.prefab; 1556749985:5 P exotic surface crystal mining, attacked by monsters.prefab; 1754933247:2 P big precursor robot makes gift resources.prefab; 1802752063:1 P exotics mine, guarded by satellites M.prefab; 1817916688:1 P big precursor robot helps with free Repair or Fuel.prefab; 1954889400:5 P precursor robot wants gift.prefab; 2019039797:4 P Ngani security station active TE orbital mines.prefab
 RandomizePOI.genericValueGroup[i].text	Profit outlook negative	Gewinnaussichten negativ	400		758686165:P Planets empty x 50.prefab
-		Planet mit Atmopshäre
 RandomizePOI.genericValueGroup[i].text	The atmosphere of this planet is incredibly corrosive. There is nothing for us to do here.	Die Atmosphäre dieses Planeten ist unglaublich korrosiv. Es gibt hier nichts für uns zu tun.	400		758686165:P Planets empty x 50.prefab; 758686165:P Planets empty x 50.prefab
 RandomizePOI.genericValueGroup[i].text	This planet is covered with a thick layer of frozen carbon dioxide, the conditions make it economically worthless for us.	Dieser Planet ist mit einer dicken Schicht aus gefrorenem Kohlendioxid bedeckt, die Bedingungen machen ihn für uns wirtschaftlich wertlos.	400		758686165:P Planets empty x 50.prefab
 RandomizePOI.genericValueGroup[i].text	This planet has a thin atmosphere and signs of very early carbon-based life, however closer analysis proved it  to be worthless for our interests.	Dieser Planet hat eine dünne Atmosphäre und Anzeichen von sehr frühem kohlenstoffbasiertem Leben, aber eine genauere Analyse ergab, dass er für unsere Interessen wertlos ist.	400		758686165:P Planets empty x 50.prefab
@@ -4417,7 +4416,6 @@ text2	After hearing of our journey across the galaxy, some locals ask to join us
 crewDescriptionOverride	Adventurer from a planet of refugees rescued from primitive tyrants. Wanted to see the big world.	Abenteurer von einem Planeten mit Flüchtlingen, die vor primitiven Tyrannen gerettet wurden. Wollten die große Welt sehen.	250		2 Pi pyramid refugee colony FOC trade mlaser4, stinger2.prefab
 text	welcoming celebrations... %	Begrüßungsfeierlichkeiten... %	50		183139000:2 Pi pyramid refugee colony FOC trade mlaser4, stinger2.prefab
 text2	The module is delivered to Mothership cargo bay as promised. The trader has included a symbolic bonus with the delivery, a silver sculpture depicting group sex of warp animals.	Das Modul wird wie versprochen im Frachtraum des Mutterschiffs angeliefert. Der Händler hat der Lieferung einen symbolischen Bonus beigelegt, eine silberne Skulptur, die den Gruppensex von Warptieren darstellt.	400		671316963:2 Pi pyramid refugee colony FOC trade mlaser4, stinger2.prefab
-		Handelsaktion abgeschlossen
 text2	The colony representatives have a chat with our AI and decide to support our cause. They add starfuel to our tanks and give us some locally produced food.	Die Vertreter der Kolonie unterhalten sich mit unserer KI und beschließen, unsere Sache zu unterstützen. Sie füllen unsere Tanks mit Sternentreibstoff auf und geben uns einige lokal produzierte Lebensmittel.	400		325874444:2 Pi pyramid refugee colony FOC trade mlaser4, stinger2.prefab
 reasonToDisplay	gifts received	Geschenke erhalten	30		2 Pi pyramid refugee colony FOC trade mlaser4, stinger2.prefab; 2 Pi pyramid refugee colony FOC trade mlaser4, stinger2.prefab; 4 Pi crystal city Sparks Tf,HP,M.prefab; 4 Pi crystal city Sparks Tf,HP,M.prefab; 4 Pi crystal city Sparks Tf,HP,M.prefab; 4 Pi Yu-Ee colony, FO,Repair,trade Shield4,Warp4.prefab; 4 Pi Yu-Ee colony, FO,Repair,trade Shield4,Warp4.prefab; 4 Pi Yu-Ee colony, FO,Repair,trade Shield4,Warp4.prefab
 text2	The locals lead our ambassadors to a guest area and provide access to modest life-support facilities, including free food.	Die Einheimischen führen unsere Botschafter in einen Gastbereich und gewähren ihnen Zugang zu bescheidenen Lebensvorräten, einschließlich kostenloser Nahrung.	400		325874443:2 Pi pyramid refugee colony FOC trade mlaser4, stinger2.prefab
@@ -4587,7 +4585,6 @@ choiceText	Leave this planet, it's not worth the risk	Verlassen Sie diesen Plane
 text2	We were able to slip past the orbital defences thanks to electronic countermeasures.	Wir konnten dank elektronischer Gegenmaßnahmen an den orbitalen Verteidigungsanlagen vorbeischlüpfen.	400		1953241298:3 P abyss MF, maybe satellite.prefab
 reasonToDisplay	maneuver successful	Manöver erfolgreich	30		3 P abyss MF, maybe satellite.prefab
 text2	We managed to destroy all the defence satellites. Their remains scattered too far and wide to salvage anything.	Es gelang uns, alle Verteidigungssatelliten zu zerstören. Ihre Überreste sind zu weit verstreut, um etwas zu bergen.	400		1953241285:3 P abyss MF, maybe satellite.prefab
-		Satelliten zerstört
 title	attacked by satellites	Von Satelliten angegriffen	35		1953241284:3 P abyss MF, maybe satellite.prefab
 text2	We tried to slip past the orbital defences using various electronic countermeasures, but were still discovered. Our counter-fire destroyed most of the defence satellites.	Wir versuchten, mit verschiedenen elektronischen Gegenmaßnahmen an der Orbitalverteidigung vorbeizukommen, wurden aber dennoch entdeckt. Unser Gegenfeuer zerstörte einen Großteil der Verteidigungssatelliten.	400		1953241284:3 P abyss MF, maybe satellite.prefab
 title	partial success.	Teilerfolg.	35		151200156:3 P abyss MF, maybe satellite.prefab
@@ -5593,7 +5590,6 @@ text2	Scavenging operation completed. One of the modules was found repairable.	P
 text2	The still burning ship was deemed too unstable for the crew to enter, so they sent in only a few bots. Shortly afterwards, the entire wreckage exploded again, it was probably the reactor core this time.	Das immer noch brennende Schiff wurde als zu instabil erachtet, um es zu betreten, so dass nur ein paar Bots hineingeschickt wurden. Kurz darauf explodierte das gesamte Wrack erneut, dieses Mal war es vermutlich der Reaktorkern.	400		1393075198:5 wr. shipsx8.prefab
 text	It is a large shipwreck of unknown design, floating in a cloud of debris and starfuel. Closer inspection reveals corrosion and plasma damage marks, indicating a warplife attack.	Es ist ein großes Schiffswrack unbekannter Bauart, das in einer Wolke aus Trümmern und Sternentreibstoff treibt. Bei näherer Betrachtung sind Korrosions- und Plasmaschadenspuren zu erkennen, die auf einen Angriff von Warp-Leben hindeuten.	400		51869876:5 wr. shipsx8.prefab; 51869875:5 wr. shipsx8.prefab
 text2	Our salvage teams have scooped up everything of value.	Unsere Bergungsteams haben alles Wertvolle geborgen.	400		1393075201:5 wr. shipsx8.prefab
-		Es ist ein großes Schiffswrack unbekannter Bauart, das in einer Wolke aus Trümmern und Sternentreibstoff treibt. Bei näherer Betrachtung sind Korrosions- und Plasmaschäden zu erkennen, die auf einen Warp-Leben-Angriff hindeuten.
 text2	Our salvage teams have scooped up everything of value, including some pieces off the carcass.	Unsere Bergungsteams haben alles Wertvolle aufgesammelt, auch einige Teile des Rumpfes.	400		1393075200:5 wr. shipsx8.prefab
 text2	Some kind of metal frame, drifting in space.	Eine Art Metallrahmen, der im Raum treibt.	400		1393075203:5 wr. shipsx8.prefab
 text2	It's the central frame of a ship.	Es ist der zentrale Rahmen eines Schiffes.	400		1393075202:5 wr. shipsx8.prefab; 1393075189:5 wr. shipsx8.prefab
@@ -5950,7 +5946,6 @@ title	Matter Processors	Materieumwandler	35		1571635869:34 P Public convertor x3
 text	This is one of the ancient Intergalactic Public Matter Processors. These famous facilities were built by older races for public use centuries ago. They are still working after hundreds of years of service. We may convert some of our resources to others.	Dies ist einer der alten intergalaktischen öffentlichen Materieprozessoren. Diese berühmten Anlagen wurden von älteren Rassen vor Jahrhunderten für den öffentlichen Gebrauch gebaut. Sie sind auch nach Hunderten von Jahren noch in Betrieb. Wir können einige unserer Ressourcen in andere umwandeln.	400		1571635869:34 P Public convertor x3 MFO.prefab; 1789483211:34 P Public convertor x3 MFO.prefab
 choiceText	Use facilities [convert 100 synthetics to 100 fuel]	Anlagen nutzen [-100 Kunststoffe, +100 Treibstoffe]	100		1571635869:34 P Public convertor x3 MFO.prefab
 newName3	synthetics to fuel conversion	Kunststoffe in Treibstoff umwandeln	25		1571635869:34 P Public convertor x3 MFO.prefab
-
 choiceText	Use facilities [convert 50 explosives to 52 fuel]	Anlagen nutzen [-50 Sprengstoffe, +52 Treibstoffe]	100		1789483211:34 P Public convertor x3 MFO.prefab
 newName3	explosives to fuel conversion	Sprengstoffe in Treibstoff umwandeln	25		1789483211:34 P Public convertor x3 MFO.prefab
 text	This is one of the ancient Intergalactic Public Matter Processors. These facilities were built by older civilizations for public use centuries ago. They are still working after hundreds of years of service. We may convert some of our resources to others.	Dies ist einer der alten intergalaktischen öffentlichen Materieprozessoren. Diese Anlagen wurden von älteren Zivilisationen vor Jahrhunderten für den öffentlichen Gebrauch gebaut. Sie funktionieren auch noch nach Hunderten von Jahren. Wir können einige unserer Ressourcen in andere umwandeln.	400		1156255720:34 P Public convertor x3 MFO.prefab
@@ -7141,7 +7136,6 @@ Ambusher L2 Solipsist medium.prefab
 title	A Solipsist	Ein Solipsist	35		1664153245:Ambusher L2 Solipsist medium.prefab
 text	"Aha, we have another claims-to-be consciousness here! I don't like illusions, and I will remove you."\nOur AI explains the Solipsists believe this entire reality is just an illusion, along with all beings, except themselves.\nThis makes the Solipsists dangerous, because they do not believe they can cause suffering to others.	"Aha, wir haben hier ein weiteres behauptetes Bewusstsein! Ich mag keine Illusionen und werde dich entfernen." \nUnsere KI erklärt, dass die Solipsisten glauben, dass diese gesamte Realität nur eine Illusion ist, ebenso wie alle Wesen, außer ihnen selbst. \nDas macht die Solipsisten gefährlich, denn sie glauben nicht, dass sie anderen Leid zufügen können.	400		1664153245:Ambusher L2 Solipsist medium.prefab
 choiceText	Even if this all was an illusion, why would you attack us?	Selbst wenn das alles eine Illusion wäre, warum würden sie uns angreifen?	100		1664153245:Ambusher L2 Solipsist medium.prefab; 460417737:tester ambuser.prefab
-		Vorbereiten auf den Kampf
 text	"Aha, this once again proves we are inside The Illusion. No real captain would agree to a mortal fight so easily!"	"Aha, das beweist einmal mehr, dass wir uns innerhalb der Illusion befinden. Kein echter Kapitän würde sich so einfach auf einen tödlichen Kampf einlassen!"	600		2106357040:Ambusher L2 Solipsist medium.prefab
 text2	"Not that question again. Okay, I won't attack you this time. You see, I am staying unpredictable to find out if The Illusion can cope with it."	"Nicht schon wieder diese Frage. Okay, diesmal greife ich dich nicht an. Sie sehen, ich bleibe unberechenbar, um herauszufinden, ob The Illusion damit umgehen kann."	400		2130450445:Ambusher L2 Solipsist medium.prefab
 text2	"Hm? I'm not convinced, of course. I will now observe how you behave during mortal combat between our ships, to gain a better understanding about The Illusion."	"Hm? Ich bin natürlich nicht überzeugt. Ich werde nun beobachten, wie Sie sich während eines tödlichen Kampfes zwischen unseren Schiffen verhalten, um ein besseres Verständnis über The Illusion zu bekommen."	400		1041295784:Ambusher L2 Solipsist medium.prefab
@@ -7187,7 +7181,6 @@ text2	The gift box contains a dead humanoid. There's also a crudely translated m
 title	Religious confusion	Religiöse Verwirrung	35		1500336760:Ambusher L4 Insectoids floral bird + 1 floral small.prefab
 text2	"You say things are not gifts when they are forced... We have never thought about gifts of chaos like this... But I feel I must consult other acolytes... You're probably wrong... Anyway, take these berries for now. They are very holy and purify your soul from unfairness. We eat the berries all the time."	"Ihr sagt, Dinge sind keine Geschenke, wenn sie erzwungen werden... Wir haben nie so über Geschenke des Chaos nachgedacht... Aber ich fühle, ich muss andere Akolythen konsultieren... Ihr habt wahrscheinlich Unrecht... Wie auch immer, nimm diese Beeren für den Moment. Sie sind sehr heilig und reinigen deine Seele von Ungerechtigkeiten. Wir essen die Beeren immer."	400		1500336760:Ambusher L4 Insectoids floral bird + 1 floral small.prefab
 reasonToDisplay	"holy" berries	"heilige" Beeren	30		Ambusher L4 Insectoids floral bird + 1 floral small.prefab
-		[Greift diese lebensmüden Psychopathen an]
 text	"Oh, it's you, the Yielder to Chaos. Carry on!"	"Oh, du bist es, der dem Chaos nachgibt. Weitermachen!"	600		396050451:Ambusher L4 Insectoids floral bird + 1 floral small.prefab
 
 Ambusher L4 Insectoids smallbeetle + 1or2 scarabeus.prefab
@@ -7718,47 +7711,59 @@ description	This accurate raygun has a long recharge cycle, but powerful and acc
 
 Combat Drone Humanoid.prefab
 dieMessage	{0} has been destroyed.	{0} wurde zerstört.	70		Combat Drone Humanoid.prefab; Drone pet.prefab
+appearance[i].name	Tactical combat drone	Eine taktische Kampfdrohne	30		826379097:Combat Drone Humanoid.prefab
 appearance[i].description	A tactical combat drone with standard specs. Very limited capabilities. Fire-resistant body.	Eine taktische Kampfdrohne mit Standard-Spezifikationen. Sehr begrenzte Fertigkeiten. Feuerfester Körper.	250		826379097:Combat Drone Humanoid.prefab
+appearance[i].name	Light security drone	Leichte Sicherheitsdrohne	30		826379097:Combat Drone Humanoid.prefab; 1504797922:Perk drone 09 light sec.prefab
 appearance[i].description	A light security droid. Very limited capabilities. Fire-resistant body.	Ein leichter Sicherheitsdroide. Sehr begrenzte Fertigkeiten. Feuerfester Körper.	250		826379097:Combat Drone Humanoid.prefab
 
 Drone CT1 maintenance.prefab
 dieMessage	{0} destroyed.	{0} zerstört.	70		Drone CT1 maintenance.prefab; sdlc/Drone tigerdog.prefab; Testcrew 3.prefab; Testcrew 2.prefab; Testcrew 1.prefab; Heavy security drone.prefab; Drone tigerspider pirates.prefab; Drone DIY repairer pirates.prefab; Drone DIY mincer pirates.prefab; Drone DIY gunnery pirates cannon.prefab; Drone DIY gunjunker enemy.prefab; Drone DIY guard pirates.prefab; Testcrew 4.prefab; Drone DIY firesafety pirates.prefab; Drone CT1 maintenance clawed.prefab; Drone tigerspider.prefab; Drone DIY sensor.prefab; Drone DIY science.prefab; Drone DIY repairer.prefab; Drone DIY gunnery.prefab; Drone DIY gunjunker.prefab; Drone DIY guard.prefab; Drone DIY firesafety.prefab; Drone CT2 gunnery.prefab; Drone CT2 gunnery clawed.prefab; Testcrew 5.prefab
+appearance[i].name	Repair drone	Reparaturdrohne	30		1444414821:Drone CT1 maintenance.prefab
 appearance[i].description	Maintenance & gardening drone with limited capabilities. Good at repairs. Very durable.	Wartungs- und Gartenarbeitsdrohne mit begrenzten Fertigkeiten. Gut bei Reparaturen. Sehr langlebig.	250		1444414821:Drone CT1 maintenance.prefab
 
 Drone CT2 gunnery.prefab
-appearance[i].description	Gunnery drone with limited capabilities. Slow at repairs, very durable.	Schießdrohne mit begrenzten Fertigkeiten. Langsam bei Reparaturen, sehr langlebig.	250		1589791427:Drone CT2 gunnery.prefab
+appearance[i].name	CT Gunnery drone	CT Geschützdrohne	30		1589791427:Drone CT2 gunnery.prefab
+appearance[i].description	Gunnery drone with limited capabilities. Slow at repairs, very durable.	Geschützdrohne mit begrenzten Fertigkeiten. Langsam bei Reparaturen, sehr langlebig.	250		1589791427:Drone CT2 gunnery.prefab
 
 Drone DIY fire safety clawed.prefab
 dieMessage	{0} has broken permanently.	Dauerhaft kaputt.	70		Drone DIY fire safety clawed.prefab; Drone fire safety.prefab
+appearance[i].name	Converted drone	Konvertierte Drohne	30		486815100:Drone DIY fire safety clawed.prefab; 56750082:Drone DIY firesafety pirates.prefab; 182882154:Drone DIY repairer pirates.prefab; 341953427:Drone DIY guard pirates.prefab; 1349353450:Drone DIY gunnery pirates cannon.prefab; 1351800556:Drone tigerspider pirates.prefab; 1680322829:Drone CT1 maintenance clawed.prefab; 1755418895:Drone CT2 gunnery clawed.prefab
 appearance[i].description	A firefighter drone converted into its opposite. Armed with flamer.	Eine Feuerlöschdrohne, die in ihr Gegenteil umgewandelt wurde. Bewaffnet mit Flammenwerfer.	250		486815100:Drone DIY fire safety clawed.prefab
 
 Drone DIY firesafety.prefab
+appearance[i].name	DIY Firefigter drone	Selbstbau Feuerwehrdrohne	30		791329320:Drone DIY firesafety.prefab
 appearance[i].description	Essentially a walking fire extinguisher. Extremely limited capabilities. Fire-resistant body.	Im Grunde ein wandelnder Feuerlöscher. Extrem eingeschränkte Fertigkeiten. Feuerfester Körper.	250		791329320:Drone DIY firesafety.prefab
 
 Drone DIY guard.prefab
+appearance[i].name	DIY SEC 9000	Selbstbau SEC 9000	30		1559583687:Drone DIY guard.prefab
 appearance[i].description	Internal DIY security drone. Cannot repair, can only destroy.	Interne selbstgebaute Sicherheitsdrohne. Kann nicht reparieren, nur zerstören.	250		1559583687:Drone DIY guard.prefab
 
 Drone DIY gunjunker.prefab
+appearance[i].name	DIY Tank	Selbstbau Panzer	30		745155399:Drone DIY gunjunker.prefab
 appearance[i].description	A repurposed industrial drone, fitted with armor & custom-made weapon. Very durable and fire resistant, has a turtle-based AI.	Eine umfunktionierte Industriedrohne, ausgestattet mit Panzerung und speziell angefertigter Waffe. Sehr robust und feuerfest, hat eine schildkrötenbasierte KI.	250		745155399:Drone DIY gunjunker.prefab
 
 Drone DIY gunnery.prefab
 appearance[i].description	Gunnery drone with limited capabilities. Can operate only weapon modules. Cannot repair.	Geschützdrohne mit eingeschränkten Fertigkeiten. Kann nur Waffenmodule bedienen. Kann nicht reparieren.	250		107982400:Drone DIY gunnery.prefab
 
 Drone DIY repairer.prefab
+appearance[i].name	Repair Master 9000	Reparatur Meister 9000	30		229081020:Drone DIY repairer.prefab; 421109168:Drone DIY science.prefab
 appearance[i].description	DIY Maintenance drone with limited capabilities. Cannot operate modules.	Selbstbau-Wartungsdrohne mit eingeschränkten Fertigkeiten. Kann keine Module bedienen.	250		229081020:Drone DIY repairer.prefab
 
 Drone DIY science.prefab
 appearance[i].description	DIY lab drone with an octopus-based AI. Can work in the lab or help with planetary research operations.	Selbstbau-Labordrohne mit einer krakenbasierten KI. Kann im Labor arbeiten oder bei planetaren Forschungsarbeiten helfen.	250		421109168:Drone DIY science.prefab
 
 Drone DIY sensor.prefab
+appearance[i].name	DIY sensor drone	Selbstbau Sensordrohne	30		1179088392:Drone DIY sensor.prefab
 appearance[i].description	A custom-made drone that knows how to operate ship sensors.	Eine maßgefertigte Drohne, die die Schiffssensoren bedienen kann.	250		1179088392:Drone DIY sensor.prefab
 
 Drone fire safety.prefab
+appearance[i].name	Fire extinguisher drone	Feuerlöscherdrohne	30		1884929318:Drone fire safety.prefab
 appearance[i].description	Fast fire safety drone, AI based on cat consciousness. High fire-resistance.	Schnelle feuersichere Drohne, KI basiert auf Katzenbewusstsein. Hohe Feuerresistenz.	250		1884929318:Drone fire safety.prefab
 
 Drone pet.prefab
 
 Drone tigerspider.prefab
+appearance[i].name	Tiger Spider 9000	Tiger Spinne 9000	30		1481089982:Drone tigerspider.prefab
 appearance[i].description	Heavy-duty drone for industrial construction & repairs. Modded software allows unhindered destructive behaviour. Almost fireproof.	Hochleistungsdrohne für industrielle Konstruktionen und Reparaturen. Modifizierte Software erlaubt ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250		1481089982:Drone tigerspider.prefab; 1727276051:sdlc/Drone tigerdog.prefab
 
 Drone CT1 maintenance clawed.prefab
@@ -7774,12 +7779,14 @@ Drone DIY guard pirates.prefab
 appearance[i].description	A cargo drone modified with spikes, extra armor and a weapon.	Eine mit Stacheln, zusätzlicher Panzerung und einer Waffe modifizierte Frachtdrohne.	250		341953427:Drone DIY guard pirates.prefab
 
 Drone DIY gunjunker enemy.prefab
+appearance[i].name	Converted drone tank	Konvertierter Drohnenpanzer	30		470102509:Drone DIY gunjunker enemy.prefab; 470102509:Drone DIY gunjunker enemy.prefab
 appearance[i].description	A repurposed industrial drone, fitted with armor & custom-made weapon. Very durable & almost fireproof.	Eine umfunktionierte Industriedrohne, ausgestattet mit Panzerung und einer speziell angefertigten Waffe. Sehr widerstandsfähig & fast feuerfest.	250		470102509:Drone DIY gunjunker enemy.prefab
 
 Drone DIY gunnery pirates cannon.prefab
 appearance[i].description	A custom drone modified with spikes, extra armor and a weapon.	Eine mit Stacheln, zusätzlicher Panzerung und einer Waffe modifizierte Spezialdrohne.	250		1349353450:Drone DIY gunnery pirates cannon.prefab
 
 Drone DIY mincer pirates.prefab
+appearance[i].name	Converted melee drone	Konvertierte Nahkampfdrohne	30		40748862:Drone DIY mincer pirates.prefab
 appearance[i].description	A cargo drone modified with spikes, extra armor and neosteel claws.	Eine mit Stacheln, zusätzlicher Panzerung und Neostahlklauen modifizierte Frachtdrohne.	250		40748862:Drone DIY mincer pirates.prefab
 
 Drone DIY repairer pirates.prefab
@@ -7788,7 +7795,8 @@ Drone tigerspider pirates.prefab
 appearance[i].description	Heavy industrial drone modified with spikes, and a projectile weapon.	Schwere Industriedrohne, modifiziert mit Stacheln und einer Projektilwaffe.	250		1351800556:Drone tigerspider pirates.prefab
 
 Heavy security drone.prefab
-appearance[i].description	High-tier military sentinel unit. Heavily armored & armed. Cannot operate or repair. Almost fireproof.	Hochrangige militärische Sentinel-Einheit. Stark gepanzert und bewaffnet. Kann nicht bedient oder repariert werden. Fast feuerfest.	250		190195895:Heavy security drone.prefab
+appearance[i].name	Heavy Sentinel	Schwere Wache	30		190195895:Heavy security drone.prefab
+appearance[i].description	High-tier military sentinel unit. Heavily armored & armed. Cannot operate or repair. Almost fireproof.	Hochrangige militärische Wächter-Einheit. Stark gepanzert und bewaffnet. Kann nicht bedient oder repariert werden. Fast feuerfest.	250		190195895:Heavy security drone.prefab
 
 Testcrew 1.prefab
 
@@ -7812,6 +7820,7 @@ Larva small.prefab
 appearance[i].description	A genetically engineered creature that has a strong bite. Unknown origins. Likes the company of slimes.	Eine gentechnisch veränderte Kreatur, die einen starken Biss hat. Unbekannte Herkunft. Mag die Gesellschaft von Schleimen.	250		822317379:Larva small.prefab
 
 Moleculaati.prefab
+appearance[i].name	Moleculaati	Moleküli	30		490627374:Moleculaati.prefab
 appearance[i].description	Intelligent non-carbon organism with natural weapons. Enjoys the company of cats and pet slimes.	Intelligenter Nicht-Kohlenstoff-Organismus mit natürlichen Waffen. Genießt die Gesellschaft von Katzen und Haustier-Schleimen.	250		490627374:Moleculaati.prefab
 
 Redripper crew.prefab
@@ -7819,16 +7828,22 @@ appearance[i].description	A genetically engineered combat animal. Eats as much a
 
 Slime pet.prefab
 dieMessage	{0} has ceased existing. RIP	{0} hat aufgehört zu existieren. RIP	70		Slime pet.prefab; Rat crew cook.prefab; Squid crew.prefab
+appearance[i].name	Little Red Warrior (pet slime)	Kleiner roter Krieger (Haustier Schleim)	30		1701486595:Slime pet.prefab
 appearance[i].description	A very friendly pet slime. Understands how to spray acid at enemies or fire.	Ein sehr freundlicher Haustier-Schleim. Versteht es, Säure auf Feinde oder Feuer zu sprühen.	250		1701486595:Slime pet.prefab
+appearance[i].name	Little Blue (pet slime)	Kleiner Blauer (Haustier Schleim)	30		1701486595:Slime pet.prefab
 appearance[i].description	A very friendly pet slime. Has years of training to carry a liquid nitrogen ejector and extinguish fires with it.	Ein sehr freundlicher Haustier-Schleim. Hat jahrelanges Training, um einen Flüssigstickstoff-Ejektor zu tragen und damit Brände zu löschen.	250		1701486595:Slime pet.prefab
+appearance[i].name	Little Green (pet slime)	Kleiner Grüner (Haustier Schleim)	30		1701486595:Slime pet.prefab
 appearance[i].description	A very friendly pet slime. Understands how to water flowers and fires.	Ein sehr freundlicher Haustier-Schleim. Versteht, wie man Blumen und Feuer gießt.	250		1701486595:Slime pet.prefab
+appearance[i].name	Little Wizard	Kleiner Zauberer	30		1701486595:Slime pet.prefab
 appearance[i].description	A very friendly pet slime. Understands the mysteries of the warp and can use the fire extinguisher, but not very much else.	Ein sehr freundlicher Haustier-Schleim. Versteht die Geheimnisse des Warp und kann den Feuerlöscher benutzen, aber sonst nicht viel.	250		1701486595:Slime pet.prefab
+appearance[i].name	Pet Slime	Haustier Schleim	30		1701486595:Slime pet.prefab
 appearance[i].description	A pet slime with biotech augmentations. Completely impervious to fire, and can intuitively repair complex machinery without fully understanding it.	Ein Haustier-Schleim mit Biotech-Augmentierungen. Völlig unempfindlich gegen Feuer und kann komplexe Maschinen intuitiv reparieren, ohne sie vollständig zu verstehen.	250		1701486595:Slime pet.prefab
 
 Beedroid crew.prefab
 dieMessage	{0} has ceased existing. They never disliked death.	...hat aufgehört zu existieren. Sie haben den Tod nie gemocht.	70		Beedroid crew.prefab
 
 EmperorBanks crew.prefab
+appearance[i].name	Unknown humanoid	Unbekannter Humanoider	30		2020629126:EmperorBanks crew.prefab
 appearance[i].description	A shielded bodysuit covers all natural parts, making identifying the species difficult.	Ein abgeschirmter Körperanzug bedeckt alle natürlichen Teile, was die Identifizierung der Spezies erschwert.	250		2020629126:EmperorBanks crew.prefab
 
 Gitchanki crew.prefab
@@ -7856,6 +7871,8 @@ Lizardman crew.prefab
 appearance[i].description	An old and experienced Lizardfolk soldier.	Ein alter und erfahrener Echsenvolk-Soldat.	250		1348200645:Lizardman crew.prefab
 
 Man cat crew.prefab
+appearance[i].name	Khat	Khat	30		2016189783:Man cat crew.prefab
+appearance[i].name	Caz	Katz	30		2016189783:Man cat crew.prefab
 
 Mantis crew.prefab
 appearance[i].description	Mantis individual.	Mantis-Individuum.	250		1821850499:Mantis crew.prefab
@@ -7889,6 +7906,7 @@ appearance[i].description	Spideraa individual.	Spinner-Individuum.	250		92883384
 Squid crew.prefab
 
 Woman cat crew.prefab
+appearance[i].name	Neko	Neko	30		715571627:Woman cat crew.prefab
 
 Yu-Ee crew.prefab
 appearance[i].description	A rare Yu-Ee adventurer. Wise, but speaks as little as possible, and only in riddles.	Ein seltener Yu-Ee-Abenteurer. Klug, spricht aber so wenig wie möglich und nur in Rätseln.	250		1378398960:Yu-Ee crew.prefab
@@ -9523,6 +9541,7 @@ description	Imperial cannons rely on abundant use of explosives to achive high v
 weapon emperorbanks cannon2x.prefab
 displayName	Intelligent BankTM cannon IIA	Intelligente BankTM-Kanone IIA	40		865561324:weapon emperorbanks cannon2x.prefab
 description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 6hp each.		200		865561324:weapon emperorbanks cannon2x.prefab
+
 weapon Energy cannon OP.prefab
 displayName	Energy cannon Overcharger	Energiekanone "Überlaster"	40		1768012478:weapon Energy cannon OP.prefab
 description	A plasma cannon. Never deflects and cannot be shot down by point-defences.	Eine Plasmakanone. Lässt sich nicht ablenken und kann nicht durch Punktabwehr abgeschossen werden.	200		1768012478:weapon Energy cannon OP.prefab; 1532741737:weapon Energy cannon x2.prefab; 1532741738:weapon Energy cannon x1.prefab
@@ -10126,7 +10145,6 @@ unlockAnnouncementText	During our travels, we've met an honest individual who is
 randomizerMenuStrings[i]	+40 organics	+40 Organik	30		1672628016:Perk add organics 3, braindead.prefab; 584291632:Perk crew rat cook.prefab; 1581853207:Perk crew grippy gunner.prefab
 randomizerMenuStrings[i]	-10 credits	+10 Kunststoffe	30		1672628016:Perk add organics 3, braindead.prefab
 
-
 Perk add organics 4, dead insectoids.prefab
 displayName	Donated insectoid remains	Gespendete insektoide Überreste	40		75978646:Perk add organics 4, dead insectoids.prefab
 description	The honourable Shieldbug tradition demands that bodies of losers must be donated, to be eaten by the most shameful members of other species. We may accept this donation for we have passed the necessary criteria.	Die ehrwürdige Shieldbug-Tradition verlangt, dass die Körper von Verlierern gespendet werden, um von den schändlichsten Mitgliedern anderer Spezies gegessen zu werden. Wir dürfen diese Spende annehmen, denn wir haben die notwendigen Kriterien erfüllt.	250		75978646:Perk add organics 4, dead insectoids.prefab
@@ -10409,9 +10427,7 @@ displayName	DIY tank	Selbstbau-Panzer	40		136621601:Perk drone 08 DIY sentry tan
 description	Armored drone, assembled from spare parts. Turtle-based AI.	Gepanzerte Drohne, zusammengebaut aus Ersatzteilen. Schildkrötenbasierte KI.	250		136621601:Perk drone 08 DIY sentry tank.prefab
 randomizerMenuStrings[i]	+1 combat drone	+1 selbstgebaute Kampfdrone	30		136621601:Perk drone 08 DIY sentry tank.prefab
 
-
 Perk drone 09 light sec.prefab
-displayName	Light security drone	Leichte Sicherheitsdrohne	40		1504797922:Perk drone 09 light sec.prefab
 description	A light humanoid drone designed for personal escort. Armed with autopistol, and the software can be modded for additional sexual functions.	Leichte humanoide Drohne, die für die Personenbegleitung entwickelt wurde. Bewaffnet mit Autopistole, und die Software kann für zusätzliche sexuelle Funktionen modifiziert werden.	250		1504797922:Perk drone 09 light sec.prefab
 
 Perk drone 09b tactical sec.prefab
@@ -10962,7 +10978,6 @@ displayName	Industrial lasers upgrade (x3)	Industrie-Laser-Upgrade (x3)	40		5668
 description	The upgraded lasers need more power but are twice as powerful.	Die aufgerüsteten Laser benötigen mehr Energie, sind aber doppelt so stark.	250		566836399:Perk Replace Industrial lasers with MK2.prefab
 randomizerMenuStrings[i]	Improves ship's main lasers	Verbessert die Hauptlaser des Schiffs	30		566836399:Perk Replace Industrial lasers with MK2.prefab
 
-
 Perk Replace lasers for Nuke Runner.prefab
 displayName	Combat laser upgrade	Kampflaser-Upgrade	40		1819699687:Perk Replace lasers for Nuke Runner.prefab
 description	Improves the onboard laser weapon for increased damage and AOE. The upgraded laser also needs more power.	Verbessert die bordeigene Laserwaffe für erhöhten Schaden und AOE. Der aufgerüstete Laser benötigt ebenfalls mehr Energie.	250		1819699687:Perk Replace lasers for Nuke Runner.prefab
@@ -11307,6 +11322,103 @@ Cat description text pool.prefab
 	A cyborg pet with artifical thumbs. Contemplates the meaning of life daily. Can temporarily work, but might stop any time to play, sleep or eat.	Ein Cyborg-Haustier mit künstlichen Daumen. Grübelt täglich über den Sinn des Lebens nach. Kann vorübergehend arbeiten, kann aber jederzeit unterbrechen, um zu spielen, zu schlafen oder zu essen.	250		89363109:Cat description text pool.prefab
 	A cat with brain implants & artifical thumbs, trained to meditate. Can temporarily operate certain modules, but might stop any time.	Eine Katze mit Gehirnimplantaten und künstlichen Daumen, die zum Meditieren trainiert ist. Kann vorübergehend bestimmte Module bedienen, kann aber jederzeit aufhören.	250		89363109:Cat description text pool.prefab
 
+Crew Insectoid name pool.prefab
+	Chitindeva	Chitindeva	0		1427043944:Crew Insectoid name pool.prefab
+	Click-click	Click-click	0		1427043944:Crew Insectoid name pool.prefab
+	Purrbug	Purrbug	0		1427043944:Crew Insectoid name pool.prefab
+	Zwcxhrsr	Zwcxhrsr	0		1427043944:Crew Insectoid name pool.prefab; 1427043944:Crew Insectoid name pool.prefab
+	Tiptap	Tiptap	0		1427043944:Crew Insectoid name pool.prefab
+	Cricks	Cricks	0		1427043944:Crew Insectoid name pool.prefab
+	Crick	Crick	0		1427043944:Crew Insectoid name pool.prefab
+	Crackr	Crackr	0		1427043944:Crew Insectoid name pool.prefab
+	Crickr	Crickr	0		1427043944:Crew Insectoid name pool.prefab
+	Vrickr	Vrickr	0		1427043944:Crew Insectoid name pool.prefab
+	Krrt	Krrt	0		1427043944:Crew Insectoid name pool.prefab
+	Chirp Chirp	Chirp Chirp	0		1427043944:Crew Insectoid name pool.prefab
+	Chirpy	Chirpy	0		1427043944:Crew Insectoid name pool.prefab
+	Chirpyty-Chirp	Chirpyty-Chirp	0		1427043944:Crew Insectoid name pool.prefab
+	Crickety-Crick	Crickety-Crick	0		1427043944:Crew Insectoid name pool.prefab
+	Bzwr	Bzwr	0		1427043944:Crew Insectoid name pool.prefab
+	Bzzwr	Bzzwr	0		1427043944:Crew Insectoid name pool.prefab
+	Bzzzwr	Bzzzwr	0		1427043944:Crew Insectoid name pool.prefab
+	Bzzzzwr	Bzzzzwr	0		1427043944:Crew Insectoid name pool.prefab
+
+Crew name pool.prefab
+	Aeon Flax	Aeon Flax	0		1710779352:Crew name pool.prefab
+	Ripley Connors	Ripley Connors	0		1710779352:Crew name pool.prefab
+	Richard Tworek	Richard Tworek	0		1710779352:Crew name pool.prefab
+	Sigourney Weaver	Sigourney Weaver	0		1710779352:Crew name pool.prefab
+	Eleanore Ripley	Eleanore Ripley	0		1710779352:Crew name pool.prefab
+	Jessy Fine	Jessy Fine	0		1710779352:Crew name pool.prefab
+	Danger Dave	Danger Dave	0		1710779352:Crew name pool.prefab
+	Arron Cromar	Arron Cromar	0		1710779352:Crew name pool.prefab
+	John Smithy	John Smithy	0		1710779352:Crew name pool.prefab
+	Emil Schwanke	Emil Schwanke	0		1710779352:Crew name pool.prefab
+	Elron Ember	Elron Ember	0		1710779352:Crew name pool.prefab
+	Lizette Taylory	Lizette Taylory	0		1710779352:Crew name pool.prefab
+	Sarah Connors jr	Sarah Connors jr	0		1710779352:Crew name pool.prefab
+	John Rotschild	John Rotschild	0		1710779352:Crew name pool.prefab
+	Theresa Maybe jr	Theresa Maybe jr	0		1710779352:Crew name pool.prefab
+	Edwin Gardenland	Edwin Gardenland	0		1710779352:Crew name pool.prefab
+	Hal Machinefriend	Hal Machinefriend	0		1710779352:Crew name pool.prefab
+	Brad Pity	Brad Pity	0		1710779352:Crew name pool.prefab
+	Bombwald Dresden	Bombwald Dresden	0		1710779352:Crew name pool.prefab
+	Tyan-Anmen Massac	Tyan-Anmen Massac	0		1710779352:Crew name pool.prefab
+	Daoxian Massac	Daoxian Massac	0		1710779352:Crew name pool.prefab
+	Nanking Massac	Nanking Massac	0		1710779352:Crew name pool.prefab
+	Elaia Musk	Elaia Musk	0		1710779352:Crew name pool.prefab
+	Kuo Min Tang	Kuo Min Tang	0		1710779352:Crew name pool.prefab
+	Erik Sith	Erik Sith	0		1710779352:Crew name pool.prefab
+	Stanley Kubrick	Stanley Kubrick	0		1710779352:Crew name pool.prefab
+	Denver Tamm	Denver Tamm	0		1710779352:Crew name pool.prefab
+	Norris Catalonia	Norris Catalonia	0		1710779352:Crew name pool.prefab
+	Thomas Laserik	Thomas Laserik	0		1710779352:Crew name pool.prefab
+	Levar Lochmus	Levar Lochmus	0		1710779352:Crew name pool.prefab
+	Dave Equalman	Dave Equalman	0		1710779352:Crew name pool.prefab
+	Brain Boar	Brain Boar	0		1710779352:Crew name pool.prefab
+	Jeffrey Scheffer	Jeffrey Scheffer	0		1710779352:Crew name pool.prefab
+	Mike Owski	Mike Owski	0		1710779352:Crew name pool.prefab
+	Iane Banks jr	Iane Banks jr	0		1710779352:Crew name pool.prefab
+	Oswald Ockham	Oswald Ockham	0		1710779352:Crew name pool.prefab
+	Gabe Funky	Gabe Funky	0		1710779352:Crew name pool.prefab
+	Bennie Lotman	Bennie Lotman	0		1710779352:Crew name pool.prefab
+	Jeromy Kush	Jeromy Kush	0		1710779352:Crew name pool.prefab
+	Eddie Silver	Eddie Silver	0		1710779352:Crew name pool.prefab
+	Elroy Nova	Elroy Nova	0		1710779352:Crew name pool.prefab
+	Maya More	Maya More	0		1710779352:Crew name pool.prefab
+	Elmo Kush	Elmo Kush	0		1710779352:Crew name pool.prefab
+	Lesley Zig	Lesley Zig	0		1710779352:Crew name pool.prefab
+	Sebastian Wixom	Sebastian Wixom	0		1710779352:Crew name pool.prefab
+	Shaun Sativa	Shaun Sativa	0		1710779352:Crew name pool.prefab
+	Byron Schweitzer	Byron Schweitzer	0		1710779352:Crew name pool.prefab
+	Alia Fairmind	Alia Fairmind	0		1710779352:Crew name pool.prefab
+	Shelby Welling	Shelby Welling	0		1710779352:Crew name pool.prefab
+	Corine Wally	Corine Wally	0		1710779352:Crew name pool.prefab
+	Lesa Fetters	Lesa Fetters	0		1710779352:Crew name pool.prefab
+	Tora Glass	Tora Glass	0		1710779352:Crew name pool.prefab
+	Ben Seconds	Ben Seconds	0		1710779352:Crew name pool.prefab
+	Kong Fleshman	Kong Fleshman	0		1710779352:Crew name pool.prefab
+	Martin Liedemann	Martin Liedemann	0		1710779352:Crew name pool.prefab
+	Maggie Lines	Maggie Lines	0		1710779352:Crew name pool.prefab
+	Xanna Ruleson	Xanna Ruleson	0		1710779352:Crew name pool.prefab
+	Obrienne Starfield	Obrienne Starfield	0		1710779352:Crew name pool.prefab
+	Kevin Pollock	Kevin Pollock	0		1710779352:Crew name pool.prefab
+	Niels Vader	Niels Vader	0		1710779352:Crew name pool.prefab
+	Elane Mccarter	Elane Mccarter	0		1710779352:Crew name pool.prefab
+	Saturnia Bannister	Saturnia Bannister	0		1710779352:Crew name pool.prefab
+	Elsa Einstein	Elsa Einstein	0		1710779352:Crew name pool.prefab
+	Saskia Goodwill	Saskia Goodwill	0		1710779352:Crew name pool.prefab
+	Wolfmoon	Wolfmoon	0		1710779352:Crew name pool.prefab
+	Animatio-N.Dud	Animatio-N.Dud	0		1710779352:Crew name pool.prefab
+	More-THE-N3	More-THE-N3	0		1710779352:Crew name pool.prefab
+	MetalCanyon	MetalCanyon	0		1710779352:Crew name pool.prefab
+	Nookrium	Nookrium	0		1710779352:Crew name pool.prefab
+	Enter_Elysium	Enter_Elysium	0		1710779352:Crew name pool.prefab
+	Tortuga Power	Tortuga Power	0		1710779352:Crew name pool.prefab
+	MouseGunner	MouseGunner	0		1710779352:Crew name pool.prefab
+	Cohh Carnage	Cohh Carnage	0		1710779352:Crew name pool.prefab
+	Duncan	Duncan	0		1710779352:Crew name pool.prefab
+
 Crew Pet name pool.prefab
 	Little Warrior	Kleiner Krieger	0		659980657:Crew Pet name pool.prefab
 	Little Purr-Engine	Kleiner Schnurr-Motor	0		659980657:Crew Pet name pool.prefab
@@ -11321,6 +11433,105 @@ Crew Pet name pool.prefab
 	Little Nuke	Kleiner Nuke	0		659980657:Crew Pet name pool.prefab
 	Little Graywhiskers	Kleiner Graywhiskers	0		659980657:Crew Pet name pool.prefab
 	Little Jonesy	Kleiner Jonesy	0		659980657:Crew Pet name pool.prefab
+
+Crew Rat name pool.prefab
+	Scratti Patty	Scratti Patty	0		1500638519:Crew Rat name pool.prefab
+	Tasty Taily	Tasty Taily	0		1500638519:Crew Rat name pool.prefab
+	Rawy Pawy	Rawy Pawy	0		1500638519:Crew Rat name pool.prefab
+	Seedlord Seedy	Seedlord Seedy	0		1500638519:Crew Rat name pool.prefab
+	Rattiken Catfear	Rattiken Catfear	0		1500638519:Crew Rat name pool.prefab
+	Swifter Drifter	Swifter Drifter	0		1500638519:Crew Rat name pool.prefab
+	Leggy Lucky	Leggy Lucky	0		1500638519:Crew Rat name pool.prefab
+	Nominom Supernose	Nominom Supernose	0		1500638519:Crew Rat name pool.prefab
+	Cary Chewy	Cary Chewy	0		1500638519:Crew Rat name pool.prefab
+	Listy Listeny	Listy Listeny	0		1500638519:Crew Rat name pool.prefab
+	Squee Squeeky	Squee Squeeky	0		1500638519:Crew Rat name pool.prefab
+	Welly Willy	Welly Willy	0		1500638519:Crew Rat name pool.prefab
+	Eary Deary	Eary Deary	0		1500638519:Crew Rat name pool.prefab
+	Hugo Huggy	Hugo Huggy	0		1500638519:Crew Rat name pool.prefab
+	Harold Bitey	Harold Bitey	0		1500638519:Crew Rat name pool.prefab
+	Ferald Fury	Ferald Fury	0		1500638519:Crew Rat name pool.prefab
+	Swifty Drifty	Swifty Drifty	0		1500638519:Crew Rat name pool.prefab
+	Lifty Laughty	Lifty Laughty	0		1500638519:Crew Rat name pool.prefab
+	Darky Dusty	Darky Dusty	0		1500638519:Crew Rat name pool.prefab
+	Blacky Furry	Blacky Furry	0		1500638519:Crew Rat name pool.prefab
+
+Crew Squid name pool.prefab
+	Blub	Blub	0		47532298:Crew Squid name pool.prefab
+	Bleb	Bleb	0		47532298:Crew Squid name pool.prefab
+	Blab	Blab	0		47532298:Crew Squid name pool.prefab
+	Blib	Blib	0		47532298:Crew Squid name pool.prefab
+	Bläb	Bläb	0		47532298:Crew Squid name pool.prefab
+	Blöb	Blöb	0		47532298:Crew Squid name pool.prefab
+	Deathblip	Deathblip	0		47532298:Crew Squid name pool.prefab
+	Deathblab	Deathblab	0		47532298:Crew Squid name pool.prefab
+	Deathblöb	Deathblöb	0		47532298:Crew Squid name pool.prefab
+	Kachach	Kachach	0		47532298:Crew Squid name pool.prefab
+	Kachaff	Kachaff	0		47532298:Crew Squid name pool.prefab
+	Kachang Awg	Kachang Awg	0		47532298:Crew Squid name pool.prefab
+	Drippy	Drippy	0		47532298:Crew Squid name pool.prefab
+	Drippsh	Drippsh	0		47532298:Crew Squid name pool.prefab
+	Sllp	Sllp	0		47532298:Crew Squid name pool.prefab
+	Sllps	Sllps	0		47532298:Crew Squid name pool.prefab
+	Zdippy	Zdippy	0		47532298:Crew Squid name pool.prefab
+	Blippy	Blippy	0		47532298:Crew Squid name pool.prefab
+	Gippy	Gippy	0		47532298:Crew Squid name pool.prefab
+	Fwippy	Fwippy	0		47532298:Crew Squid name pool.prefab
+	Dippy	Dippy	0		47532298:Crew Squid name pool.prefab
+	Mippy	Mippy	0		47532298:Crew Squid name pool.prefab
+	Nippy	Nippy	0		47532298:Crew Squid name pool.prefab
+	Rippy	Rippy	0		47532298:Crew Squid name pool.prefab
+	Sippylippy	Sippylippy	0		47532298:Crew Squid name pool.prefab
+	Bippy	Bippy	0		47532298:Crew Squid name pool.prefab
+	Lippy	Lippy	0		47532298:Crew Squid name pool.prefab
+	Whippy	Whippy	0		47532298:Crew Squid name pool.prefab
+	Hitty	Hitty	0		47532298:Crew Squid name pool.prefab
+	Gitty	Gitty	0		47532298:Crew Squid name pool.prefab
+	Kerwippy	Kerwippy	0		47532298:Crew Squid name pool.prefab
+	Xippy	Xippy	0		47532298:Crew Squid name pool.prefab
+	Biffyr	Biffyr	0		47532298:Crew Squid name pool.prefab
+	Giffyr	Giffyr	0		47532298:Crew Squid name pool.prefab
+	Siffyr	Siffyr	0		47532298:Crew Squid name pool.prefab
+	Cappy	Cappy	0		47532298:Crew Squid name pool.prefab
+	Nappy	Nappy	0		47532298:Crew Squid name pool.prefab
+	Lappy	Lappy	0		47532298:Crew Squid name pool.prefab
+	Dappy	Dappy	0		47532298:Crew Squid name pool.prefab
+	Poppy	Poppy	0		47532298:Crew Squid name pool.prefab
+
+Crew Technological name pool.prefab
+	Termy II	Termy II	0		1634744238:Crew Technological name pool.prefab
+	Little Skynetty	Little Skynetty	0		1634744238:Crew Technological name pool.prefab
+	Fwmrr 69	Fwmrr 69	0		1634744238:Crew Technological name pool.prefab
+	Meepo 444	Meepo 444	0		1634744238:Crew Technological name pool.prefab
+	Limpo 49	Limpo 49	0		1634744238:Crew Technological name pool.prefab
+	THX Type-4	THX Type-4	0		1634744238:Crew Technological name pool.prefab
+	Deezy 11	Deezy 11	0		1634744238:Crew Technological name pool.prefab
+	Beezy 229	Beezy 229	0		1634744238:Crew Technological name pool.prefab
+	Beepy XX-900	Beepy XX-900	0		1634744238:Crew Technological name pool.prefab
+	Sweety XY-900	Sweety XY-900	0		1634744238:Crew Technological name pool.prefab
+	Spottywire 9000	Spottywire 9000	0		1634744238:Crew Technological name pool.prefab
+	THC-3000	THC-3000	0		1634744238:Crew Technological name pool.prefab
+	CBD-9000	CBD-9000	0		1634744238:Crew Technological name pool.prefab
+	Meepy 222	Meepy 222	0		1634744238:Crew Technological name pool.prefab
+	Normal 9000	Normal 9000	0		1634744238:Crew Technological name pool.prefab
+	Wirepaw 2	Wirepaw 2	0		1634744238:Crew Technological name pool.prefab
+	Wiresoul 3	Wiresoul 3	0		1634744238:Crew Technological name pool.prefab
+	Wireheart 4	Wireheart 4	0		1634744238:Crew Technological name pool.prefab
+	Smallbox	Smallbox	0		1634744238:Crew Technological name pool.prefab
+	Compli II	Compli II	0		1634744238:Crew Technological name pool.prefab
+	Teepy II	Teepy II	0		1634744238:Crew Technological name pool.prefab
+	Acknow III	Acknow III	0		1634744238:Crew Technological name pool.prefab
+	Metalpho Machina	Metalpho Machina	0		1634744238:Crew Technological name pool.prefab
+	Cobalt Heart	Cobalt Heart	0		1634744238:Crew Technological name pool.prefab
+	Benz IV	Benz IV	0		1634744238:Crew Technological name pool.prefab
+	Chippy	Chippy	0		1634744238:Crew Technological name pool.prefab
+	Servo 1	Servo 1	0		1634744238:Crew Technological name pool.prefab
+	Servo 2	Servo 2	0		1634744238:Crew Technological name pool.prefab
+	Remotia	Remotia	0		1634744238:Crew Technological name pool.prefab
+	Adminny	Adminny	0		1634744238:Crew Technological name pool.prefab
+	Ping 3000	Ping 3000	0		1634744238:Crew Technological name pool.prefab
+	Flirty I	Flirty I	0		1634744238:Crew Technological name pool.prefab
+	Keepy IV	Keepy IV	0		1634744238:Crew Technological name pool.prefab
 
 Default alien dream text pool.prefab
 	Dreaming about Earth...	Träumen von der Erde...	80		389922688:Default alien dream text pool.prefab
@@ -12291,6 +12502,493 @@ Smallbot pet description pool.prefab
 
 Squid description pool.prefab
 	Squid mercenary.	Tintenfisch-Söldner.	250		382071100:Squid description pool.prefab
+
+Star name pool.prefab
+	Aphidae	Aphidae	0		870333019:Star name pool.prefab
+	Truthio	Truthio	0		870333019:Star name pool.prefab
+	Zeus-Kartoffel	Zeus-Kartoffel	0		870333019:Star name pool.prefab
+	Manio	Manio	0		870333019:Star name pool.prefab
+	Aeonia	Aeonia	0		870333019:Star name pool.prefab
+	Mar	Mar	0		870333019:Star name pool.prefab
+	Xena	Xena	0		870333019:Star name pool.prefab
+	Kohrar	Kohrar	0		870333019:Star name pool.prefab
+	Attemptoria	Attemptoria	0		870333019:Star name pool.prefab
+	Memenia	Memenia	0		870333019:Star name pool.prefab
+	Maus	Maus	0		870333019:Star name pool.prefab
+	Rogus	Rogus	0		870333019:Star name pool.prefab
+	Rattor	Rattor	0		870333019:Star name pool.prefab
+	Rattir	Rattir	0		870333019:Star name pool.prefab
+	Ratti	Ratti	0		870333019:Star name pool.prefab
+	Krati	Krati	0		870333019:Star name pool.prefab
+	Sinceria	Sinceria	0		870333019:Star name pool.prefab
+	Neony	Neony	0		870333019:Star name pool.prefab
+	Polynia	Polynia	0		870333019:Star name pool.prefab
+	Pania	Pania	0		870333019:Star name pool.prefab
+	Clearo	Clearo	0		870333019:Star name pool.prefab
+	Serenity	Serenity	0		870333019:Star name pool.prefab
+	Zoqfotty	Zoqfotty	0		870333019:Star name pool.prefab
+	Vux	Vux	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Peacu	Peacu	0		870333019:Star name pool.prefab
+	Puh-Kus	Puh-Kus	0		870333019:Star name pool.prefab
+	Lustio	Lustio	0		870333019:Star name pool.prefab
+	Sceptio	Sceptio	0		870333019:Star name pool.prefab
+	Unio	Unio	0		870333019:Star name pool.prefab
+	Egalito	Egalito	0		870333019:Star name pool.prefab
+	Cus	Cus	0		870333019:Star name pool.prefab
+	Gentilo	Gentilo	0		870333019:Star name pool.prefab
+	Mildee	Mildee	0		870333019:Star name pool.prefab
+	Admiratio	Admiratio	0		870333019:Star name pool.prefab
+	Gulagim	Gulagim	0		870333019:Star name pool.prefab
+	Oury	Oury	0		870333019:Star name pool.prefab
+	Oda	Oda	0		870333019:Star name pool.prefab
+	Thasa	Thasa	0		870333019:Star name pool.prefab
+	Onke	Onke	0		870333019:Star name pool.prefab
+	Amaz	Amaz	0		870333019:Star name pool.prefab
+	Ragio	Ragio	0		870333019:Star name pool.prefab
+	Nu-Inter	Nu-Inter	0		870333019:Star name pool.prefab
+	Deva	Deva	0		870333019:Star name pool.prefab
+	Dewa	Dewa	0		870333019:Star name pool.prefab
+	Awaze	Awaze	0		870333019:Star name pool.prefab
+	Feauty	Feauty	0		870333019:Star name pool.prefab
+	Looport	Looport	0		870333019:Star name pool.prefab
+	Du-Ru	Du-Ru	0		870333019:Star name pool.prefab
+	Ju-Hu	Ju-Hu	0		870333019:Star name pool.prefab
+	Honoru	Honoru	0		870333019:Star name pool.prefab
+	Perfy	Perfy	0		870333019:Star name pool.prefab
+	Honora	Honora	0		870333019:Star name pool.prefab
+	Conke	Conke	0		870333019:Star name pool.prefab
+	Meel	Meel	0		870333019:Star name pool.prefab
+	Promif	Promif	0		870333019:Star name pool.prefab
+	Wisdu	Wisdu	0		870333019:Star name pool.prefab
+	Wisdo	Wisdo	0		870333019:Star name pool.prefab
+	Khaind	Khaind	0		870333019:Star name pool.prefab
+	New Cussia	New Cussia	0		870333019:Star name pool.prefab
+	Doppelfaust	Doppelfaust	0		870333019:Star name pool.prefab
+	Naeec	Naeec	0		870333019:Star name pool.prefab
+	Diogeneia	Diogeneia	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Yifyz	Yifyz	0		870333019:Star name pool.prefab
+	Furio	Furio	0		870333019:Star name pool.prefab
+	Iota	Iota	0		870333019:Star name pool.prefab
+	Iola	Iola	0		870333019:Star name pool.prefab
+	Alcan	Alcan	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Demus	Demus	0		870333019:Star name pool.prefab
+	Lushe	Lushe	0		870333019:Star name pool.prefab
+	Zon	Zon	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Sechs	Sechs	0		870333019:Star name pool.prefab
+	Frendu	Frendu	0		870333019:Star name pool.prefab
+	Frenz	Frenz	0		870333019:Star name pool.prefab
+	Poesia	Poesia	0		870333019:Star name pool.prefab
+	Fae	Fae	0		870333019:Star name pool.prefab
+	Melek	Melek	0		870333019:Star name pool.prefab
+	Neo-Kohr	Neo-Kohr	0		870333019:Star name pool.prefab
+	Shend-Frip	Shend-Frip	0		870333019:Star name pool.prefab
+	Sofaz	Sofaz	0		870333019:Star name pool.prefab
+	Emby	Emby	0		870333019:Star name pool.prefab
+	Lawi	Lawi	0		870333019:Star name pool.prefab
+	Kartoffelus	Kartoffelus	0		870333019:Star name pool.prefab
+	Gentel	Gentel	0		870333019:Star name pool.prefab
+	Goos	Goos	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Minus	Minus	0		870333019:Star name pool.prefab
+	Frensus	Frensus	0		870333019:Star name pool.prefab
+	Fremb	Fremb	0		870333019:Star name pool.prefab
+	Eezy	Eezy	0		870333019:Star name pool.prefab
+	Goot	Goot	0		870333019:Star name pool.prefab
+	Bestio	Bestio	0		870333019:Star name pool.prefab
+	Daifu	Daifu	0		870333019:Star name pool.prefab
+	Finey	Finey	0		870333019:Star name pool.prefab
+	Sisi	Sisi	0		870333019:Star name pool.prefab
+	Newtus	Newtus	0		870333019:Star name pool.prefab
+	Dawi	Dawi	0		870333019:Star name pool.prefab
+	Lawius	Lawius	0		870333019:Star name pool.prefab
+	Lavius	Lavius	0		870333019:Star name pool.prefab
+	Lawus	Lawus	0		870333019:Star name pool.prefab
+	Lov	Lov	0		870333019:Star name pool.prefab
+	Horo-Kartoffel	Horo-Kartoffel	0		870333019:Star name pool.prefab
+	Lovi	Lovi	0		870333019:Star name pool.prefab
+	Sof	Sof	0		870333019:Star name pool.prefab
+	Ponus	Ponus	0		870333019:Star name pool.prefab
+	Temos	Temos	0		870333019:Star name pool.prefab
+	Laavi	Laavi	0		870333019:Star name pool.prefab
+	Levos	Levos	0		870333019:Star name pool.prefab
+	Comos	Comos	0		870333019:Star name pool.prefab
+	Lavi	Lavi	0		870333019:Star name pool.prefab
+	Neo-Kahlo	Neo-Kahlo	0		870333019:Star name pool.prefab
+	Neo-Kartoffel	Neo-Kartoffel	0		870333019:Star name pool.prefab
+	Laos-Kartoffel	Laos-Kartoffel	0		870333019:Star name pool.prefab
+	Grainz	Grainz	0		870333019:Star name pool.prefab
+	Nutia	Nutia	0		870333019:Star name pool.prefab
+	Mind-Quan	Mind-Quan	0		870333019:Star name pool.prefab
+	Wisd	Wisd	0		870333019:Star name pool.prefab
+	Ull-dew	Ull-dew	0		870333019:Star name pool.prefab
+	Laften	Laften	0		870333019:Star name pool.prefab
+	Lacania	Lacania	0		870333019:Star name pool.prefab
+	Suppor	Suppor	0		870333019:Star name pool.prefab
+	Gama	Gama	0		870333019:Star name pool.prefab
+	Lovde	Lovde	0		870333019:Star name pool.prefab
+	Lovre	Lovre	0		870333019:Star name pool.prefab
+	Lovil	Lovil	0		870333019:Star name pool.prefab
+	Caress	Caress	0		870333019:Star name pool.prefab
+	Carinz	Carinz	0		870333019:Star name pool.prefab
+	Erra	Erra	0		870333019:Star name pool.prefab
+	Erro	Erro	0		870333019:Star name pool.prefab
+	Cogitos	Cogitos	0		870333019:Star name pool.prefab
+	Neo-Silence	Neo-Silence	0		870333019:Star name pool.prefab
+	Neo-Peace	Neo-Peace	0		870333019:Star name pool.prefab
+	Holdia	Holdia	0		870333019:Star name pool.prefab
+	Aru	Aru	0		870333019:Star name pool.prefab
+	Prometh	Prometh	0		870333019:Star name pool.prefab
+	Neo-Hyena	Neo-Hyena	0		870333019:Star name pool.prefab
+	Bene-Cura	Bene-Cura	0		870333019:Star name pool.prefab
+	Bene-Volen	Bene-Volen	0		870333019:Star name pool.prefab
+	Accep	Accep	0		870333019:Star name pool.prefab
+	Stylo	Stylo	0		870333019:Star name pool.prefab
+	Neo-Styl	Neo-Styl	0		870333019:Star name pool.prefab
+	Ganysus	Ganysus	0		870333019:Star name pool.prefab
+	Kohr-Ahrg	Kohr-Ahrg	0		870333019:Star name pool.prefab
+	Neo-Ego	Neo-Ego	0		870333019:Star name pool.prefab
+	Moaly	Moaly	0		870333019:Star name pool.prefab
+	Diox	Diox	0		870333019:Star name pool.prefab
+	Ferva	Ferva	0		870333019:Star name pool.prefab
+	Feli	Feli	0		870333019:Star name pool.prefab
+	Carus	Carus	0		870333019:Star name pool.prefab
+	Bromer	Bromer	0		870333019:Star name pool.prefab
+	Lix	Lix	0		870333019:Star name pool.prefab
+	Kem-Ra	Kem-Ra	0		870333019:Star name pool.prefab
+	Ezah	Ezah	0		870333019:Star name pool.prefab
+	Nemera	Nemera	0		870333019:Star name pool.prefab
+	Donos	Donos	0		870333019:Star name pool.prefab
+	Thaly	Thaly	0		870333019:Star name pool.prefab
+	Cegas	Cegas	0		870333019:Star name pool.prefab
+	Faas	Faas	0		870333019:Star name pool.prefab
+	Hephamera	Hephamera	0		870333019:Star name pool.prefab
+	Gelevia	Gelevia	0		870333019:Star name pool.prefab
+	Arros	Arros	0		870333019:Star name pool.prefab
+	Cyra	Cyra	0		870333019:Star name pool.prefab
+	Cara	Cara	0		870333019:Star name pool.prefab
+	Caer	Caer	0		870333019:Star name pool.prefab
+	Canea	Canea	0		870333019:Star name pool.prefab
+	Ceros	Ceros	0		870333019:Star name pool.prefab
+	Ceras	Ceras	0		870333019:Star name pool.prefab
+	Canis	Canis	0		870333019:Star name pool.prefab
+	Carea	Carea	0		870333019:Star name pool.prefab
+	Caledion	Caledion	0		870333019:Star name pool.prefab
+	Caro	Caro	0		870333019:Star name pool.prefab
+	Cafus	Cafus	0		870333019:Star name pool.prefab
+	Caidon	Caidon	0		870333019:Star name pool.prefab
+	Caneer	Caneer	0		870333019:Star name pool.prefab
+	Cera	Cera	0		870333019:Star name pool.prefab
+	Ceron	Ceron	0		870333019:Star name pool.prefab
+	Ceronia	Ceronia	0		870333019:Star name pool.prefab
+	Ceri	Ceri	0		870333019:Star name pool.prefab
+	Cae-Kartoffel	Cae-Kartoffel	0		870333019:Star name pool.prefab
+	Caenus	Caenus	0		870333019:Star name pool.prefab
+	Cannus	Cannus	0		870333019:Star name pool.prefab
+	Ean	Ean	0		870333019:Star name pool.prefab
+	Storonk	Storonk	0		870333019:Star name pool.prefab
+	Stren	Stren	0		870333019:Star name pool.prefab
+	Hephaos	Hephaos	0		870333019:Star name pool.prefab
+	Merea	Merea	0		870333019:Star name pool.prefab
+	Dexia	Dexia	0		870333019:Star name pool.prefab
+	Aphros	Aphros	0		870333019:Star name pool.prefab
+	Fuxia	Fuxia	0		870333019:Star name pool.prefab
+	Fall	Fall	0		870333019:Star name pool.prefab
+	Frinz	Frinz	0		870333019:Star name pool.prefab
+	Phaos	Phaos	0		870333019:Star name pool.prefab
+	Morduz	Morduz	0		870333019:Star name pool.prefab
+	Memis	Memis	0		870333019:Star name pool.prefab
+	Aenes	Aenes	0		870333019:Star name pool.prefab
+	Cour	Cour	0		870333019:Star name pool.prefab
+	Coura	Coura	0		870333019:Star name pool.prefab
+	Merter	Merter	0		870333019:Star name pool.prefab
+	Couri	Couri	0		870333019:Star name pool.prefab
+	Couro	Couro	0		870333019:Star name pool.prefab
+	Couran	Couran	0		870333019:Star name pool.prefab
+	Courago	Courago	0		870333019:Star name pool.prefab
+	Aetheria	Aetheria	0		870333019:Star name pool.prefab
+	Luxee	Luxee	0		870333019:Star name pool.prefab
+	Eania	Eania	0		870333019:Star name pool.prefab
+	Bolds	Bolds	0		870333019:Star name pool.prefab
+	Dexail	Dexail	0		870333019:Star name pool.prefab
+	Collo	Collo	0		870333019:Star name pool.prefab
+	Lupia	Lupia	0		870333019:Star name pool.prefab
+	Xea	Xea	0		870333019:Star name pool.prefab
+	Worko	Worko	0		870333019:Star name pool.prefab
+	Wor	Wor	0		870333019:Star name pool.prefab
+	Worg	Worg	0		870333019:Star name pool.prefab
+	Worgs	Worgs	0		870333019:Star name pool.prefab
+	Thumbi	Thumbi	0		870333019:Star name pool.prefab
+	Huru	Huru	0		870333019:Star name pool.prefab
+	Arghos	Arghos	0		870333019:Star name pool.prefab
+	Miidon	Miidon	0		870333019:Star name pool.prefab
+	Eel-Esdee	Eel-Esdee	0		870333019:Star name pool.prefab
+	Tara	Tara	0		870333019:Star name pool.prefab
+	Diner	Diner	0		870333019:Star name pool.prefab
+	Freef	Freef	0		870333019:Star name pool.prefab
+	Fremom	Fremom	0		870333019:Star name pool.prefab
+	Freimon	Freimon	0		870333019:Star name pool.prefab
+	Free-Domz	Free-Domz	0		870333019:Star name pool.prefab
+	Poseesio	Poseesio	0		870333019:Star name pool.prefab
+	Freezon	Freezon	0		870333019:Star name pool.prefab
+	Reeson	Reeson	0		870333019:Star name pool.prefab
+	Minr	Minr	0		870333019:Star name pool.prefab
+	Natufal	Natufal	0		870333019:Star name pool.prefab
+	Thanollo	Thanollo	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Hystus	Hystus	0		870333019:Star name pool.prefab
+	Labus	Labus	0		870333019:Star name pool.prefab
+	Heatos	Heatos	0		870333019:Star name pool.prefab
+	CC-H-I	CC-H-I	0		870333019:Star name pool.prefab
+	Nus	Nus	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Pori	Pori	0		870333019:Star name pool.prefab
+	Dioena	Dioena	0		870333019:Star name pool.prefab
+	Ponber	Ponber	0		870333019:Star name pool.prefab
+	Aera	Aera	0		870333019:Star name pool.prefab
+	VV-Cc-I	VV-Cc-I	0		870333019:Star name pool.prefab
+	Erwy	Erwy	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Ery	Ery	0		870333019:Star name pool.prefab
+	Lados	Lados	0		870333019:Star name pool.prefab
+	Apoes	Apoes	0		870333019:Star name pool.prefab
+	Venuf	Venuf	0		870333019:Star name pool.prefab
+	Cecury	Cecury	0		870333019:Star name pool.prefab
+	Merysus	Merysus	0		870333019:Star name pool.prefab
+	Don	Don	0		870333019:Star name pool.prefab
+	Cenus	Cenus	0		870333019:Star name pool.prefab
+	Ponllo	Ponllo	0		870333019:Star name pool.prefab
+	Neo-Bas	Neo-Bas	0		870333019:Star name pool.prefab
+	Nepars	Nepars	0		870333019:Star name pool.prefab
+	Wides	Wides	0		870333019:Star name pool.prefab
+	Arus	Arus	0		870333019:Star name pool.prefab
+	Thaonos	Thaonos	0		870333019:Star name pool.prefab
+	Erlo	Erlo	0		870333019:Star name pool.prefab
+	Kel	Kel	0		870333019:Star name pool.prefab
+	Depf	Depf	0		870333019:Star name pool.prefab
+	Peyo	Peyo	0		870333019:Star name pool.prefab
+	Halle	Halle	0		870333019:Star name pool.prefab
+	Jullo	Jullo	0		870333019:Star name pool.prefab
+	Atra	Atra	0		870333019:Star name pool.prefab
+	Suppot	Suppot	0		870333019:Star name pool.prefab
+	Herp	Herp	0		870333019:Star name pool.prefab
+	Voru	Voru	0		870333019:Star name pool.prefab
+	Vea	Vea	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Jeidon	Jeidon	0		870333019:Star name pool.prefab
+	Zers	Zers	0		870333019:Star name pool.prefab
+	Zva	Zva	0		870333019:Star name pool.prefab
+	Urus	Urus	0		870333019:Star name pool.prefab
+	Apos	Apos	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Erter	Erter	0		870333019:Star name pool.prefab
+	Apotarus	Apotarus	0		870333019:Star name pool.prefab
+	Phonos	Phonos	0		870333019:Star name pool.prefab
+	Abstinon	Abstinon	0		870333019:Star name pool.prefab
+	Meidon	Meidon	0		870333019:Star name pool.prefab
+	Hemter	Hemter	0		870333019:Star name pool.prefab
+	Atera	Atera	0		870333019:Star name pool.prefab
+	Aphnos	Aphnos	0		870333019:Star name pool.prefab
+	Ailcan	Ailcan	0		870333019:Star name pool.prefab
+	Veher	Veher	0		870333019:Star name pool.prefab
+	Apostus	Apostus	0		870333019:Star name pool.prefab
+	Miiter	Miiter	0		870333019:Star name pool.prefab
+	Wyr	Wyr	0		870333019:Star name pool.prefab
+	Chatos	Chatos	0		870333019:Star name pool.prefab
+	Juollo	Juollo	0		870333019:Star name pool.prefab
+	Erwynia	Erwynia	0		870333019:Star name pool.prefab
+	Pofus	Pofus	0		870333019:Star name pool.prefab
+	Anke	Anke	0		870333019:Star name pool.prefab
+	Ponion	Ponion	0		870333019:Star name pool.prefab
+	Zenon	Zenon	0		870333019:Star name pool.prefab
+	Erwylia	Erwylia	0		870333019:Star name pool.prefab
+	Hesoi	Hesoi	0		870333019:Star name pool.prefab
+	Ditus	Ditus	0		870333019:Star name pool.prefab
+	Neaia	Neaia	0		870333019:Star name pool.prefab
+	Gary	Gary	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Apoter	Apoter	0		870333019:Star name pool.prefab
+	Hora	Hora	0		870333019:Star name pool.prefab
+	Hephoi	Hephoi	0		870333019:Star name pool.prefab
+	Atune	Atune	0		870333019:Star name pool.prefab
+	Athher	Athher	0		870333019:Star name pool.prefab
+	Hetus	Hetus	0		870333019:Star name pool.prefab
+	Vulo	Vulo	0		870333019:Star name pool.prefab
+	Hypite	Hypite	0		870333019:Star name pool.prefab
+	Vedite	Vedite	0		870333019:Star name pool.prefab
+	Os	Os	0		870333019:Star name pool.prefab
+	Hemes	Hemes	0		870333019:Star name pool.prefab
+	Ossia	Ossia	0		870333019:Star name pool.prefab
+	Ares	Ares	0		870333019:Star name pool.prefab
+	Apomis	Apomis	0		870333019:Star name pool.prefab
+	Heses	Heses	0		870333019:Star name pool.prefab
+	Ceres	Ceres	0		870333019:Star name pool.prefab
+	Nees	Nees	0		870333019:Star name pool.prefab
+	Hemis	Hemis	0		870333019:Star name pool.prefab
+	Nelo	Nelo	0		870333019:Star name pool.prefab
+	Taros	Taros	0		870333019:Star name pool.prefab
+	Isor	Isor	0		870333019:Star name pool.prefab
+	Buru	Buru	0		870333019:Star name pool.prefab
+	Nebu	Nebu	0		870333019:Star name pool.prefab
+	Luru	Luru	0		870333019:Star name pool.prefab
+	Suru	Suru	0		870333019:Star name pool.prefab
+	Uru	Uru	0		870333019:Star name pool.prefab
+	Umera	Umera	0		870333019:Star name pool.prefab
+	Minoi	Minoi	0		870333019:Star name pool.prefab
+	Ardite	Ardite	0		870333019:Star name pool.prefab
+	Ansus	Ansus	0		870333019:Star name pool.prefab
+	Hyus	Hyus	0		870333019:Star name pool.prefab
+	Erera	Erera	0		870333019:Star name pool.prefab
+	Vetia	Vetia	0		870333019:Star name pool.prefab
+	Meer	Meer	0		870333019:Star name pool.prefab
+	Merke	Merke	0		870333019:Star name pool.prefab
+	Vuli	Vuli	0		870333019:Star name pool.prefab
+	Cerva	Cerva	0		870333019:Star name pool.prefab
+	Hello	Hello	0		870333019:Star name pool.prefab
+	Dioatos	Dioatos	0		870333019:Star name pool.prefab
+	Juus	Juus	0		870333019:Star name pool.prefab
+	Apeus	Apeus	0		870333019:Star name pool.prefab
+	Dury	Dury	0		870333019:Star name pool.prefab
+	Meranke	Meranke	0		870333019:Star name pool.prefab
+	Labassia	Labassia	0		870333019:Star name pool.prefab
+	Poia	Poia	0		870333019:Star name pool.prefab
+	Poseus	Poseus	0		870333019:Star name pool.prefab
+	Leru	Leru	0		870333019:Star name pool.prefab
+	Ouber	Ouber	0		870333019:Star name pool.prefab
+	Awky	Awky	0		870333019:Star name pool.prefab
+	Chollo	Chollo	0		870333019:Star name pool.prefab
+	Thar	Thar	0		870333019:Star name pool.prefab
+	Cora	Cora	0		870333019:Star name pool.prefab
+	Veonos	Veonos	0		870333019:Star name pool.prefab
+	Aedite	Aedite	0		870333019:Star name pool.prefab
+	Hedon	Hedon	0		870333019:Star name pool.prefab
+	Gaiwan	Gaiwan	0		870333019:Star name pool.prefab
+	Kornos	Kornos	0		870333019:Star name pool.prefab
+	Apoos	Apoos	0		870333019:Star name pool.prefab
+	Ponlo	Ponlo	0		870333019:Star name pool.prefab
+	Henus	Henus	0		870333019:Star name pool.prefab
+	Merus	Merus	0		870333019:Star name pool.prefab
+	Zior	Zior	0		870333019:Star name pool.prefab
+	Vues	Vues	0		870333019:Star name pool.prefab
+	Chaia	Chaia	0		870333019:Star name pool.prefab
+	Miru	Miru	0		870333019:Star name pool.prefab
+	Lio	Lio	0		870333019:Star name pool.prefab
+	Apion	Apion	0		870333019:Star name pool.prefab
+	Gaos	Gaos	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Kusu	Kusu	0		870333019:Star name pool.prefab
+	Junes	Junes	0		870333019:Star name pool.prefab
+	Seany	Seany	0		870333019:Star name pool.prefab
+	Mei	Mei	0		870333019:Star name pool.prefab
+	Phaan	Phaan	0		870333019:Star name pool.prefab
+	Ner	Ner	0		870333019:Star name pool.prefab
+	Zeos	Zeos	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
+	Apne	Apne	0		870333019:Star name pool.prefab
+	Juna	Juna	0		870333019:Star name pool.prefab
+	Aare	Aare	0		870333019:Star name pool.prefab
+	Dionrs	Dionrs	0		870333019:Star name pool.prefab
+	Anis	Anis	0		870333019:Star name pool.prefab
+	Hana	Hana	0		870333019:Star name pool.prefab
+	Heollo	Heollo	0		870333019:Star name pool.prefab
+	Mistia	Mistia	0		870333019:Star name pool.prefab
+	Erus	Erus	0		870333019:Star name pool.prefab
+	Comass	Comass	0		870333019:Star name pool.prefab
+	Vulmis	Vulmis	0		870333019:Star name pool.prefab
+	Kafus	Kafus	0		870333019:Star name pool.prefab
+	Phatos	Phatos	0		870333019:Star name pool.prefab
+	Derfe	Derfe	0		870333019:Star name pool.prefab
+	Tarrea	Tarrea	0		870333019:Star name pool.prefab
+	Vanos	Vanos	0		870333019:Star name pool.prefab
+	Atsoi-doi	Atsoi-doi	0		870333019:Star name pool.prefab
+	Dei-non	Dei-non	0		870333019:Star name pool.prefab
+	Aphr	Aphr	0		870333019:Star name pool.prefab
+	Eruno	Eruno	0		870333019:Star name pool.prefab
+	Labu	Labu	0		870333019:Star name pool.prefab
+	Aagia	Aagia	0		870333019:Star name pool.prefab
+	Kafo	Kafo	0		870333019:Star name pool.prefab
+	Hypina	Hypina	0		870333019:Star name pool.prefab
+	Dionoiz	Dionoiz	0		870333019:Star name pool.prefab
+	Julo	Julo	0		870333019:Star name pool.prefab
+	Chana	Chana	0		870333019:Star name pool.prefab
+	Aifa	Aifa	0		870333019:Star name pool.prefab
+	Lazo	Lazo	0		870333019:Star name pool.prefab
+	Deera	Deera	0		870333019:Star name pool.prefab
+	Nos	Nos	0		870333019:Star name pool.prefab
+	Nomr	Nomr	0		870333019:Star name pool.prefab
+	Heros	Heros	0		870333019:Star name pool.prefab
+	Ossu	Ossu	0		870333019:Star name pool.prefab
+	Mebus	Mebus	0		870333019:Star name pool.prefab
+	Aphry	Aphry	0		870333019:Star name pool.prefab
+	Lisus	Lisus	0		870333019:Star name pool.prefab
+	Posedite	Posedite	0		870333019:Star name pool.prefab
+	Vinus	Vinus	0		870333019:Star name pool.prefab
+	Zeres	Zeres	0		870333019:Star name pool.prefab
+	Mats	Mats	0		870333019:Star name pool.prefab
+	Lee	Lee	0		870333019:Star name pool.prefab
+	Gormia	Gormia	0		870333019:Star name pool.prefab
+	Goromia	Goromia	0		870333019:Star name pool.prefab
+	Heanke	Heanke	0		870333019:Star name pool.prefab
+	Demres	Demres	0		870333019:Star name pool.prefab
+	Porva	Porva	0		870333019:Star name pool.prefab
+	Lebu	Lebu	0		870333019:Star name pool.prefab
+	Mineria	Mineria	0		870333019:Star name pool.prefab
+	Apors	Apors	0		870333019:Star name pool.prefab
+	Demebus	Demebus	0		870333019:Star name pool.prefab
+	Dreamus	Dreamus	0		870333019:Star name pool.prefab
+	Mier	Mier	0		870333019:Star name pool.prefab
+	Neia	Neia	0		870333019:Star name pool.prefab
+	Thanes	Thanes	0		870333019:Star name pool.prefab
+	Lentus-Benus	Lentus-Benus	0		870333019:Star name pool.prefab
+	Hemnos	Hemnos	0		870333019:Star name pool.prefab
+	Aposus	Aposus	0		870333019:Star name pool.prefab
+	Heury	Heury	0		870333019:Star name pool.prefab
+	Hes	Hes	0		870333019:Star name pool.prefab
+	Lacanus	Lacanus	0		870333019:Star name pool.prefab
+	Veratus	Veratus	0		870333019:Star name pool.prefab
+	Arara	Arara	0		870333019:Star name pool.prefab
+	Verania	Verania	0		870333019:Star name pool.prefab
+	Merla	Merla	0		870333019:Star name pool.prefab
+	Mers	Mers	0		870333019:Star name pool.prefab
+	Tuus	Tuus	0		870333019:Star name pool.prefab
+	Gara	Gara	0		870333019:Star name pool.prefab
+	Ary	Ary	0		870333019:Star name pool.prefab
+	Oufer	Oufer	0		870333019:Star name pool.prefab
+	Estus	Estus	0		870333019:Star name pool.prefab
+	Apta	Apta	0		870333019:Star name pool.prefab
+	Apheter	Apheter	0		870333019:Star name pool.prefab
+	Ceus	Ceus	0		870333019:Star name pool.prefab
+	Dionars	Dionars	0		870333019:Star name pool.prefab
+	Pononos	Pononos	0		870333019:Star name pool.prefab
+	Zeury	Zeury	0		870333019:Star name pool.prefab
+	Iora	Iora	0		870333019:Star name pool.prefab
+	Mistus	Mistus	0		870333019:Star name pool.prefab
+	Ponestus	Ponestus	0		870333019:Star name pool.prefab
+	Vulres	Vulres	0		870333019:Star name pool.prefab
+	Lidon	Lidon	0		870333019:Star name pool.prefab
+	Ragor	Ragor	0		870333019:Star name pool.prefab
+	Ieri	Ieri	0		870333019:Star name pool.prefab
+	Niera	Niera	0		870333019:Star name pool.prefab
+	Vieras	Vieras	0		870333019:Star name pool.prefab
+	Loos	Loos	0		870333019:Star name pool.prefab
+	Canaresia	Canaresia	0		870333019:Star name pool.prefab
+	Ranesia	Ranesia	0		870333019:Star name pool.prefab
+	Hex	Hex	0		870333019:Star name pool.prefab
+	Namion	Namion	0		870333019:Star name pool.prefab
+	Iosars	Iosars	0		870333019:Star name pool.prefab
+	Iorux	Iorux	0		870333019:Star name pool.prefab
+	Aesus	Aesus	0		870333019:Star name pool.prefab
+	Iominus	Iominus	0		870333019:Star name pool.prefab
+	Lingamr	Lingamr	0		870333019:Star name pool.prefab
+	Ioni	Ioni	0		870333019:Star name pool.prefab
+	Merva	Merva	0		870333019:Star name pool.prefab
+	Aeer	Aeer	0		870333019:Star name pool.prefab
+	Apa	Apa	0		870333019:Star name pool.prefab
+	Los	Los	0		870333019:Star name pool.prefab
+	Gawa	Gawa	0		870333019:Star name pool.prefab
+	Festus	Festus	0		870333019:Star name pool.prefab
+	Veo	Veo	0		870333019:Star name pool.prefab
+	Mildy	Mildy	0		870333019:Star name pool.prefab
+	Eres	Eres	0		870333019:Star name pool.prefab
+	Maes	Maes	0		870333019:Star name pool.prefab
+	Cohania	Cohania	0		870333019:Star name pool.prefab
+	Guno	Guno	0		870333019:Star name pool.prefab
+	Dinos	Dinos	0		870333019:Star name pool.prefab
+	Lupionia	Lupionia	0		870333019:Star name pool.prefab
+	Hercio	Hercio	0		870333019:Star name pool.prefab
+	Borom	Borom	0		870333019:Star name pool.prefab
+	Borion	Borion	0		870333019:Star name pool.prefab
+	Benior	Benior	0		870333019:Star name pool.prefab
 
 Starmap move log line pool.prefab
 	One of the AI pet insects escaped its biodome and almost found a way into the reactor core.	Eines der KI-Haustierinsekten ist aus seinem Biodom entkommen und hätte beinahe einen Weg in den Reaktorkern gefunden.	0		2001231991:Starmap move log line pool.prefab
