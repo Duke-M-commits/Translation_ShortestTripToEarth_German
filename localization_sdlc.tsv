@@ -1,17 +1,22 @@
 ﻿:displayName Deutsch
 
 Dog.prefab
+appearance[i].name	Bad Bitty	Böser Beißi	30		1502599448:sdlc/Dog.prefab
 appearance[i].description	A trained dog, with brain implants. Has been taught to operate ship sensors, although does not completely understand what he is doing.	Ein dressierter Hund, mit Gehirnimplantaten. Ihm wurde beigebracht, die Schiffssensoren zu bedienen, obwohl er nicht ganz versteht, was er da tut.	250		1502599448:sdlc/Dog.prefab
 
 Drone tigerdog.prefab
+appearance[i].name	Tiger Dog 9000	Tiger Hund 9000	30		1727276051:sdlc/Drone tigerdog.prefab; 1137508603:sdlc/Perk pet Tiger dog drone.prefab
 
 Drone tigerspider assaulter.prefab
+appearance[i].name	Tiger Assault Spider	Tiger Angriff Spinne	30		1800714178:sdlc/Drone tigerspider assaulter.prefab
 appearance[i].description	Heavy-duty drone modded for boarding operations. Upgraded software allows unhindered destructive behaviour. Almost fireproof.	Schwerlastdrohne, modifiziert für Boarding-Operationen. Aufgerüstete Software erlaubt ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250		1800714178:sdlc/Drone tigerspider assaulter.prefab
 
 Female cyborg crew.prefab
+appearance[i].name	Scully	Sculli	30		2094501679:sdlc/Female cyborg crew.prefab
 appearance[i].description	A codehacker who wants to become fully android one day.	Ein Codehacker, der eines Tages Voll-Androide werden will.	250		2094501679:sdlc/Female cyborg crew.prefab
 
 Floater.prefab
+appearance[i].name	Pinky	Pinki	30		185113131:sdlc/Floater.prefab
 appearance[i].description	This social warp presentient is an extreme rarity. It is quite intelligent and likes staring into human eyes.	Dieser soziale Warp-Presentient ist eine extreme Rarität. Er ist recht intelligent und starrt gerne in menschliche Augen.	250		185113131:sdlc/Floater.prefab
 
 Human sunglasses crew.prefab
@@ -22,15 +27,19 @@ appearance[i].description	A professional ambassador. Wears powerful eye-augmenta
 appearance[i].description	A professional ambassador. Always protects his eyes because he lost them once to molecular acid attack.	Ein professioneller Botschafter. Schützt immer seine Augen, weil er sie einmal durch einen Molekularsäure-Angriff verloren hat.	250		1696290198:sdlc/Human sunglasses crew.prefab
 
 Lizard.prefab
+appearance[i].name	Shocky	Schocki	30		301730638:sdlc/Lizard.prefab
 appearance[i].description	A large lizard capable of producing electrical energy from its eyes.	Eine große Eidechse, die aus ihren Augen elektrische Energie erzeugen kann.	250		301730638:sdlc/Lizard.prefab
 
 Male cyborg crew.prefab
+appearance[i].name	Grum	Grum	30		1732412902:sdlc/Male cyborg crew.prefab
 appearance[i].description	An ex-diplomat who lost half of his face because of an accident in some kind of "friendship" ceremony.	Ein Ex-Diplomat, der durch einen Unfall bei einer Art "Freundschafts"-Zeremonie sein halbes Gesicht verloren hat.	250		1732412902:sdlc/Male cyborg crew.prefab
 
 Rabbit.prefab
+appearance[i].name	Killy	Killi	30		1820607702:sdlc/Rabbit.prefab
 appearance[i].description	A genetically modified and trained combat animal.	Ein genetisch verändertes und trainiertes Kampftier.	250		1820607702:sdlc/Rabbit.prefab
 
 Tortoise.prefab
+appearance[i].name	Atuine	Atuin	30		93253305:sdlc/Tortoise.prefab
 appearance[i].description	A large tortoise with natural firebreathing ability. The creature has learned gardening in the Univeristy for Presentients.	Eine große Schildkröte mit natürlicher Fähigkeit zum Feuerspucken. Die Kreatur hat an der Universität für Anwesende Gartenarbeit gelernt.	250		93253305:sdlc/Tortoise.prefab
 
 bridge 2crew tiger.prefab
@@ -92,7 +101,7 @@ description	This intruderbot nuke releases an aggressive tiger spider drone on i
 randomizerMenuStrings[i]	+1 intruderbot missile	+1 Eindringling-Bombe	30		1273038811:sdlc/Perk nuke Tiger intruderbot nuke.prefab
 
 Perk nuke Tiger sharpnel.prefab
-displayName	Tiger shrapnel nuke	Tiger Schrapnell-Bombe	40		1494259635:sdlc/Perk nuke Tiger sharpnel.prefab
+displayName	Tiger shrapnel nuke	Tiger Schrapnell-Bombe	40		1494259635:sdlc/Perk nuke Tiger sharpnel.prefab; 1258798551:sdlc/Tiger sharpnel nuke.prefab
 description	An experimental capital missile that releases nanoshrapnel over a wide area.	Eine experimentelle Bombe, die Nanosplitter über ein weites Gebiet freisetzt.	250		1494259635:sdlc/Perk nuke Tiger sharpnel.prefab
 
 Perk pet DLC combat rabbit.prefab
@@ -116,7 +125,6 @@ description	This warp creature is an extreme rarity due to being able to effecti
 randomizerMenuStrings[i]	+1 pet (warp animal)	+1 Haustier (Warptier)	30		1491901717:sdlc/Perk pet DLC warp floater.prefab
 
 Perk pet Tiger dog drone.prefab
-displayName	Tiger Dog 9000	Tigerhund 9000	40		1137508603:sdlc/Perk pet Tiger dog drone.prefab
 description	This robot was built to provide assistance in construction and maintenance operations. Modded software allows unlimited aggression towards hostiles.	Dieser Roboter wurde gebaut, um bei Bau- und Wartungsarbeiten zu helfen. Die modifizierte Software erlaubt unbegrenzte Aggression gegenüber Feinden.	250		1137508603:sdlc/Perk pet Tiger dog drone.prefab
 randomizerMenuStrings[i]	+1 drone (repair drone)	+1 Drone (Reparaturdrone)	30		1137508603:sdlc/Perk pet Tiger dog drone.prefab
 
