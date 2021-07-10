@@ -1,4 +1,4 @@
-﻿# RST localization TSV file for a build 1.3.6
+﻿# RST localization TSV file for a build 1.3.7
 #
 # All files with tsv extension from the following directories are read on game start (relative to game installation):
 #   Mods/
@@ -10383,7 +10383,6 @@ displayName	DIY fire safety drone	Selbstbau-Feuerschutzdrohne	40		1425666963:Per
 description	A light walker chassis with fire extinguisher, assembled from spare parts. Do not expect much from its caterpillar-based AI.	Ein leichtes Walker-Chassis mit Feuerlöscher, zusammengebaut aus Ersatzteilen. Erwarten Sie nicht viel von seiner raupenbasierten KI.	250		1425666963:Perk drone 01 DIY fire safety.prefab
 unlockAnnouncementText	Our ship AI has been carrying out miniature experiments with drones during the journey. Her small discoveries have made new options available, next time we go for a run like this.	Unsere Schiffs-KI hat während der Reise Miniatur-Experimente mit Drohnen durchgeführt. Ihre kleinen Entdeckungen haben uns neue Optionen eröffnet, wenn wir das nächste Mal eine solche Fahrt unternehmen.	100		1425666963:Perk drone 01 DIY fire safety.prefab; 124153277:Perk drone 02 DIY guard.prefab; 1559698830:Perk drone 06 DIY gunnery.prefab; 1599767297:Perk drone 03 DIY repairbot.prefab
 randomizerMenuStrings[i]	+1 fire safety drone	+1 selbstgebaute Brandschutz-Drone	30		1425666963:Perk drone 01 DIY fire safety.prefab
-
 
 Perk drone 02 DIY guard.prefab
 displayName	DIY guard drone	Selbstbau-Wachdrohne	40		124153277:Perk drone 02 DIY guard.prefab
