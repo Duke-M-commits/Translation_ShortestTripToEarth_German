@@ -1178,7 +1178,7 @@ lockedSectorDescription	This sector is where we landed, it's unexplored.	Dieser 
 	Resume game	Spiel fortsetzen	0		564235776:Menu panel.prefab
 	Scoreboard	Scoreboard	0		1235373359:Menu panel.prefab; 1166761212:Menu panel.prefab
 	Settings	Einstellungen	0		1931758299:Menu panel.prefab
-	Continued development	Fortgesetzte Entwicklung	0		1590165301:Menu panel.prefab
+	Continued development	Weiterentwicklung	0		1590165301:Menu panel.prefab
 	Exit game	Spiel beenden	0		574914797:Menu panel.prefab
 	Guided steps to learn the game.	Geführte Schritte zum Erlernen des Spiels.	0		1936162021:Menu panel.prefab
 	Tutorial mode	Einführungsmodus	0		305660904:Menu panel.prefab
