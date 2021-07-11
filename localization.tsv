@@ -1111,7 +1111,7 @@ Materials converter panel.prefab
 	Allocate all excess	Alle Überschüsse zuteilen	0		1902450388:Materials converter panel.prefab; 469649402:Materials converter panel.prefab
 	Convert	Umwandeln	0		1849491787:Materials converter panel.prefab; 143592821:Module actions panel.prefab; 2095486144:Materials converter panel.prefab
 	Amount of fuel received after conversion	Menge des nach der Konvertierung erhaltenen Treibstoffs	0		1347328052:Materials converter panel.prefab; 602068456:Materials converter panel.prefab
-	Cargo capacity full!	Frachtkapazität voll!	0		1517773966:Materials converter panel.prefab; 1369915215:Materials converter panel.prefab; 1975451130:Materials converter panel.prefab
+	Cargo capacity full!	Behälter voll!	0		1517773966:Materials converter panel.prefab; 1369915215:Materials converter panel.prefab; 1975451130:Materials converter panel.prefab
 	Materials convertor name	Name des Materialumwandlers	0		2028098703:Materials converter panel.prefab
 	Amount of fuel consumed per 1 conversion	Menge des verbrauchten Treibstoffs pro 1 Konvertierung	0		461579186:Materials converter panel.prefab; 1488801523:Module data subpanel.prefab
 	Amount of metals consumed per 1 conversion	Menge der verbrauchten Metalle pro 1 Konvertierung	0		1504036963:Materials converter panel.prefab; 159390910:Module data subpanel.prefab
@@ -6288,9 +6288,9 @@ choiceText	Sorry, we're still too crowded [leave for now]	Tut mir leid, wir sind
 title	Metal delivered	Metalle geliefert	35		1233505548:3 Earth outpost.prefab
 text2	"Thank you! I will de-freeze our crew and give them a debriefing. Some of them would like to speak with you - I've taken the liberty to organize a social event for our crews.\nI think a costume party would be most suitable for the occasion! I've also shared my library of recent xenodata with your AI. Come back soon, and don't forget a funny costume - the more awkward, the better!"	"Ich danke Euch! Ich werde unsere Besatzung auftauen und ihnen eine Nachbesprechung geben. Einige von ihnen würden gerne mit Ihnen sprechen - ich habe mir erlaubt, ein gesellschaftliches Ereignis für unsere Besatzungs zu organisieren. Ich denke, eine Kostümparty wäre für diesen Anlass am besten geeignet! Ich habe auch meine Bibliothek mit aktuellen Xenodaten mit Ihrer KI geteilt. Kommen Sie bald wieder, und vergessen Sie ein lustiges Kostüm nicht - je peinlicher, desto besser!"	400		1233505548:3 Earth outpost.prefab
 reasonToDisplay	metals delivered	Metalle geliefert	30		3 Earth outpost.prefab
-setText	Go to exit warpgate after exploring the sector.	Gehen Sie nach der Erkundung des Sektors zum Ausgangs-Warptor.	100		1233505548:3 Earth outpost.prefab
-title	Exit warpgate coordinates	Exit-Warptor-Koordinaten	35		1015980751:3 Earth outpost.prefab
-text2	"By the way, the long-term Exit warpgate of this sector was hidden by our forces when the war started. I've given you the coordinates to reach it. It should be now visible on your sector map."	"Übrigens, das langfristige Exit-Warptor dieses Sektors wurde von unseren Streitkräften versteckt, als der Krieg begann. Ich habe Ihnen die Koordinaten gegeben, um es zu erreichen. Es sollte jetzt auf Ihrer Sektorkarte sichtbar sein."	400		1015980751:3 Earth outpost.prefab
+setText	Go to exit warpgate after exploring the sector.	Gehen Sie nach der Erkundung des Sektors zum Ausgang-Warptor.	100		1233505548:3 Earth outpost.prefab
+title	Exit warpgate coordinates	Ausgang-Warptor-Koordinaten	35		1015980751:3 Earth outpost.prefab
+text2	"By the way, the long-term Exit warpgate of this sector was hidden by our forces when the war started. I've given you the coordinates to reach it. It should be now visible on your sector map."	"Übrigens, das langfristige Ausgang-Warptor dieses Sektors wurde von unseren Streitkräften versteckt, als der Krieg begann. Ich habe Ihnen die Koordinaten gegeben, um es zu erreichen. Es sollte jetzt auf Ihrer Sektorkarte sichtbar sein."	400		1015980751:3 Earth outpost.prefab
 setText	Reach warpgate to move on	Erreichen Sie das Warptor, um weiterzuziehen	100		1015980751:3 Earth outpost.prefab
 text	We should ensure that we are not spending the metal that we must collect - for example, the "repair HP by crew" button should be turned off in the roles panel, because ship HP repairs by crew consume metal.	Wir sollten sicherstellen, dass wir das Metall, das wir sammeln müssen, nicht ausgeben - zum Beispiel sollte die Schaltfläche "HP-Reparaturen durch die Besatzung" in der Rollentafel ausgeschaltet werden, da HP-Reparaturen durch die Besatzung Metalle verbrauchen.	600		1900119122:3 Earth outpost.prefab
 
@@ -11078,8 +11078,8 @@ text	We've arrived to the Outward Abyss. There's no guarantee we can even speak 
 title	Warpcast transmission	Warpcast-Übertragung	35		917532603:Main quest FSM.prefab
 text	"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	"Kapitän, ein Angriff der Spinner hat den Tintenfisch-Imperator gezwungen, sich genau in diesen Sektor zurückzuziehen. Wir haben Sie hierher geschickt, um ihn zu finden und zu eliminieren. Seien Sie sich bewusst, dass er eine Flotte von Sec-Corp-Schiffen angeheuert hat, um das Gebiet zu patrouillieren."	600		917532603:Main quest FSM.prefab
 title	Warp ship captain	Warpschiff-Kapitän	35		336132896:Main quest FSM.prefab
-text	The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	Die Insektoiden-Allianz fand heraus, dass wir vor ihrem Angriff mit den Spinnern sprachen. Sie machen uns für die Entführung ihrer Königinnen durch die Spinner verantwortlich, weil sie glauben, dass wir sie den Spinnern angeboten haben.\nDie Bugs halten an sehr alten Traditionen fest, besonders an der Tradition der Rache. Sie haben ein Planetenzerstörer-Schiff geschickt, um die Erde zu zerstören, obwohl sie sonst mit uns in Frieden leben. Es wird das Ausgangs-Warptor dieses Sektors passieren und wir müssen dort einen Hinterhalt legen.	600		336132896:Main quest FSM.prefab
-setText	Go to Exit warpgate of the sector to set up an ambush.	Gehen Sie zum Exit-Warptor des Sektors, um einen Hinterhalt zu legen.	100		336132896:Main quest FSM.prefab
+text	The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	Die Insektoiden-Allianz fand heraus, dass wir vor ihrem Angriff mit den Spinnern sprachen. Sie machen uns für die Entführung ihrer Königinnen durch die Spinner verantwortlich, weil sie glauben, dass wir sie den Spinnern angeboten haben.\nDie Bugs halten an sehr alten Traditionen fest, besonders an der Tradition der Rache. Sie haben ein Planetenzerstörer-Schiff geschickt, um die Erde zu zerstören, obwohl sie sonst mit uns in Frieden leben. Es wird das Ausgang-Warptor dieses Sektors passieren und wir müssen dort einen Hinterhalt legen.	600		336132896:Main quest FSM.prefab
+setText	Go to Exit warpgate of the sector to set up an ambush.	Gehen Sie zum Ausgang-Warptor des Sektors, um einen Hinterhalt zu legen.	100		336132896:Main quest FSM.prefab
 text	This sector was historically unclaimed by major factions. Intergalactic travel guides warn of pirates. A wild sector, they call it, however this information may be out of date. Grab everything you can and let's leave this place quickly.	Dieser Sektor wurde in der Vergangenheit von keiner der großen Fraktionen beansprucht. Intergalaktische Reiseführer warnen vor Piraten. Ein wilder Sektor, so heißt es, doch diese Informationen könnten veraltet sein. Schnappt euch alles, was ihr könnt und lasst uns schnell von hier verschwinden.	400		738817897:Main quest FSM.prefab
 choiceText	Got it.	Ich hab's.	100		738817897:Main quest FSM.prefab; 1089258417:Main quest FSM.prefab; 1987359973:Main quest FSM.prefab; 2040638368:Main quest FSM.prefab
 choiceText	What can you tell me about the local pirates?	Was können Sie mir über die hiesigen Piraten sagen?	100		738817897:Main quest FSM.prefab
@@ -11091,15 +11091,15 @@ title	Entry: Earth Alliance	Eintrag: Erd-Allianz	35		719577576:Main quest FSM.pr
 text	The long cryosleep can have unexpected effects on your memory, but don't worry, this is completely temporary and will revert in time.\n\nEarth Alliance is where we received our original diplomatic mission from.\nIt is a medium-sized and moderately advanced interstellar non-species-based civilization (majority species: humans), administrated as a semi-capitalist techno-democratic-anarcho-utopian society, with slight militarian tendencies. Population over 500 billion.	Der lange Kryoschlaf kann unerwartete Auswirkungen auf Ihr Gedächtnis haben, aber keine Sorge, das ist völlig vorübergehend und wird sich mit der Zeit zurückbilden.\n\nDie Erd-Allianz ist der Ort, von dem wir unsere ursprüngliche diplomatische Mission erhalten haben.\nEs ist eine mittelgroße und mäßig fortgeschrittene interstellare, nicht auf Spezies basierende Zivilisation (Mehrheits-Spezies: Menschen), verwaltet als eine halb-kapitalistische techno-demokratisch-anarcho-utopische Gesellschaft, mit leichten militarischen Tendenzen. Bevölkerungszahl über 500 Milliarden.	600		719577576:Main quest FSM.prefab
 text	Turns out this sector is not completely unexplored, as this starsystem contains an Earth research station!\nLet's check it out, we might find help getting home.	Es stellt sich heraus, dass dieser Sektor nicht völlig unerforscht ist, denn in diesem Sternensystem befindet sich eine Forschungsstation der Erde!\nLassen Sie uns dort nachsehen, vielleicht finden wir Hilfe, um nach Hause zu kommen.	400		1987359973:Main quest FSM.prefab
 choiceText	Refresh my memory about Earth Alliance	Auffrischen der Erinnerung an die Erd-Allianz	100		1987359973:Main quest FSM.prefab
-setText	Visit the research station before looking for the exit warpgate.	Besuchen Sie die Forschungsstation, bevor Sie nach dem Ausgangs-Warptor suchen.	100		150214919:Main quest FSM.prefab
+setText	Visit the research station before looking for the exit warpgate.	Besuchen Sie die Forschungsstation, bevor Sie nach dem Ausgang-Warptor suchen.	100		150214919:Main quest FSM.prefab
 title	Arrived to new sector	Angekommen im neuen Sektor	35		1089258417:Main quest FSM.prefab
 text	We have reached the outer edge of Earth Alliance space... historic data shows this sector should have several Earth Hegemony mining and refueling outposts, but there's none. I'm afraid we have lost this sector to the Squids, and some of their forces might be still in the area.	Wir haben den äußeren Rand des Erd-Allianz-Raums erreicht... Historische Daten zeigen, dass dieser Sektor mehrere Bergbau- und Betankungs-Außenposten der Erd-Allianz haben sollte, aber es gibt keinen. Ich fürchte, wir haben diesen Sektor an die Tintenfische verloren und einige ihrer Truppen könnten noch in der Gegend sein.	400		1089258417:Main quest FSM.prefab
 choiceText	What can you tell me about the Squids?	Was können Sie mir über die Tintenfische sagen?	100		1089258417:Main quest FSM.prefab
 choiceText	What can you tell me about active warzones?	Was können Sie mir über aktive Warzones sagen?	100		1089258417:Main quest FSM.prefab
-setText	Explore the sector before entering the exit warpgate.	Erkunden Sie den Sektor, bevor Sie das Ausgangs-Warptor betreten.	100		150214920:Main quest FSM.prefab
+setText	Explore the sector before entering the exit warpgate.	Erkunden Sie den Sektor, bevor Sie das Ausgang-Warptor betreten.	100		150214920:Main quest FSM.prefab
 setText	Explore the sector and move on.	Erforschen Sie den Sektor und fliegen Sie weiter.	100		150214926:Main quest FSM.prefab
-setText	Reach the Exit warpgate.	Erreichen Sie das Exit-Warptor.	100		150214923:Main quest FSM.prefab
-setText	Visit the local commercial stations to prepare for the upcoming mission, then leave via Exit sector.	Besuchen Sie die lokalen Handelsstationen, um sich auf die bevorstehende Mission vorzubereiten, und verlassen Sie dann den Sektor über Exit.	100		150214924:Main quest FSM.prefab
+setText	Reach the Exit warpgate.	Erreichen Sie das Ausgang-Warptor.	100		150214923:Main quest FSM.prefab
+setText	Visit the local commercial stations to prepare for the upcoming mission, then leave via Exit sector.	Besuchen Sie die lokalen Handelsstationen, um sich auf die bevorstehende Mission vorzubereiten, und verlassen Sie dann den Sektor durch das Ausgang-Warptor.	100		150214924:Main quest FSM.prefab
 setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	Besuchen Sie 5 Orte mit bestätigten Spinner-Sichtungen und versuchen Sie, Kontakt aufzunehmen.	100		150214929:Main quest FSM.prefab
 setText	Find and kill the Squid emperor.	Finden und töten Sie den Tintenfisch-Imperator.	100		150214930:Main quest FSM.prefab
 title	Sector info	Sektor-Infos	35		158418766:Main quest FSM.prefab
@@ -11154,7 +11154,7 @@ Tutorial quest FSM.prefab
 resourceAddLogline	You ran out of training resources. Added +{0} more {1}.	Ihnen sind die Trainingsressourcen ausgegangen. Es wurden +{0} weitere {1} hinzugefügt.	80		1034705592:Tutorial quest FSM.prefab
 maxDistFromStarLogline	You're too far from a star. Moving closer.	Sie sind zu weit von einem Stern entfernt. Gehen Sie näher ran.	80		1034705592:Tutorial quest FSM.prefab
 altText	Red circles on starsystem maps are hostile fleet <b>threat areas</b>. Fleets have usually more than one ship, but this one is comprised of only a single automated ship, ready for our target practice. Attack it if you're ready as well.	Rote Kreise auf Sternensystemkarten sind feindliche Flotten-<b>Bedrohungsgebiete</b>. Flotten haben normalerweise mehr als ein Schiff, aber diese hier besteht nur aus einem einzigen automatisierten Schiff, das für unsere Zielübung bereit ist. Greifen Sie es an, wenn Sie ebenfalls bereit sind.	240		696107388:Tutorial quest FSM.prefab
-altText	This starsystem has an <b>exit warpgate</b>. It allows travelling into the next space sector. Make sure you are in <b>starsystem view</b> and fly into it.	Dieses Sternensystem hat ein <b>Ausgangs-Warptor</b>. Es ermöglicht die Reise in den nächsten Raumsektor. Stellen Sie sicher, dass Sie sich in der <b>Sternensystemansicht</b> befinden und fliegen Sie hinein.	240		1289935603:Tutorial quest FSM.prefab
+altText	This starsystem has an <b>exit warpgate</b>. It allows travelling into the next space sector. Make sure you are in <b>starsystem view</b> and fly into it.	Dieses Sternensystem hat ein <b>Ausgang-Warptor</b>. Es ermöglicht die Reise in den nächsten Raumsektor. Stellen Sie sicher, dass Sie sich in der <b>Sternensystemansicht</b> befinden und fliegen Sie hinein.	240		1289935603:Tutorial quest FSM.prefab
 title	Tutorial complete	Einführung abgeschlossen	35		444202449:Tutorial quest FSM.prefab
 okButtonText	I understand, proceed to game	Ich verstehe, weiter zum Spiel	7		444202449:Tutorial quest FSM.prefab
 text	Congratulations, you've survived the training session!\nShortest Trip is a roguelike with permadeath, so expect the game to have a fairly brutal difficulty beyond this point. \nFinal tip: to increase your survival chances early on, collect resources to get at least one additional weapon slot via upgrades. Internal combat will be a difficult challenge in later sectors, so investing in point-defences and combat-capable crew should be a long-term priority.\nGood luck surviving amongst the stars!	Glückwunsch, Sie haben das Training überstanden!\nShortest Trip ist ein Roguelike mit Permadeath, erwarten Sie also, dass das Spiel ab diesem Punkt einen ziemlich brutalen Schwierigkeitsgrad hat. \nEin letzter Tipp: Um Ihre Überlebenschancen früh zu erhöhen, sammeln Sie Ressourcen, um über Aufrüstungen mindestens einen zusätzlichen Waffensteckplatz zu erhalten. Interne Kämpfe werden in späteren Sektoren eine schwierige Herausforderung sein, daher sollte die Investition in Punktabwehr und kampffähige Besatzung eine langfristige Priorität sein.\nViel Glück beim Überleben inmitten der Sterne!	600		444202449:Tutorial quest FSM.prefab
@@ -11323,27 +11323,27 @@ Cat description text pool.prefab
 
 Crew Insectoid name pool.prefab
 	Chitindeva	Chitindeva	0		1427043944:Crew Insectoid name pool.prefab
-	Click-click	Click-click	0		1427043944:Crew Insectoid name pool.prefab
-	Purrbug	Purrbug	0		1427043944:Crew Insectoid name pool.prefab
+	Click-click	Klick-Klick	0		1427043944:Crew Insectoid name pool.prefab
+	Purrbug	Schnurrkäfer	0		1427043944:Crew Insectoid name pool.prefab
 	Zwcxhrsr	Zwcxhrsr	0		1427043944:Crew Insectoid name pool.prefab; 1427043944:Crew Insectoid name pool.prefab
 	Tiptap	Tiptap	0		1427043944:Crew Insectoid name pool.prefab
-	Cricks	Cricks	0		1427043944:Crew Insectoid name pool.prefab
-	Crick	Crick	0		1427043944:Crew Insectoid name pool.prefab
-	Crackr	Crackr	0		1427043944:Crew Insectoid name pool.prefab
-	Crickr	Crickr	0		1427043944:Crew Insectoid name pool.prefab
+	Cricks	Kricks	0		1427043944:Crew Insectoid name pool.prefab
+	Crick	Krick	0		1427043944:Crew Insectoid name pool.prefab
+	Crackr	Krackr	0		1427043944:Crew Insectoid name pool.prefab
+	Crickr	Krickr	0		1427043944:Crew Insectoid name pool.prefab
 	Vrickr	Vrickr	0		1427043944:Crew Insectoid name pool.prefab
 	Krrt	Krrt	0		1427043944:Crew Insectoid name pool.prefab
-	Chirp Chirp	Chirp Chirp	0		1427043944:Crew Insectoid name pool.prefab
-	Chirpy	Chirpy	0		1427043944:Crew Insectoid name pool.prefab
-	Chirpyty-Chirp	Chirpyty-Chirp	0		1427043944:Crew Insectoid name pool.prefab
-	Crickety-Crick	Crickety-Crick	0		1427043944:Crew Insectoid name pool.prefab
+	Chirp Chirp	Tschirp Tschirp	0		1427043944:Crew Insectoid name pool.prefab
+	Chirpy	Tschirpi	0		1427043944:Crew Insectoid name pool.prefab
+	Chirpyty-Chirp	Tschirpiti-Tschirp	0		1427043944:Crew Insectoid name pool.prefab
+	Crickety-Crick	Kricketi-Krick	0		1427043944:Crew Insectoid name pool.prefab
 	Bzwr	Bzwr	0		1427043944:Crew Insectoid name pool.prefab
 	Bzzwr	Bzzwr	0		1427043944:Crew Insectoid name pool.prefab
 	Bzzzwr	Bzzzwr	0		1427043944:Crew Insectoid name pool.prefab
 	Bzzzzwr	Bzzzzwr	0		1427043944:Crew Insectoid name pool.prefab
 
 Crew name pool.prefab
-	Aeon Flax	Aeon Flax	0		1710779352:Crew name pool.prefab
+	Aeon Flax	Äon Flachs	0		1710779352:Crew name pool.prefab
 	Ripley Connors	Ripley Connors	0		1710779352:Crew name pool.prefab
 	Richard Tworek	Richard Tworek	0		1710779352:Crew name pool.prefab
 	Sigourney Weaver	Sigourney Weaver	0		1710779352:Crew name pool.prefab
@@ -11351,14 +11351,14 @@ Crew name pool.prefab
 	Jessy Fine	Jessy Fine	0		1710779352:Crew name pool.prefab
 	Danger Dave	Danger Dave	0		1710779352:Crew name pool.prefab
 	Arron Cromar	Arron Cromar	0		1710779352:Crew name pool.prefab
-	John Smithy	John Smithy	0		1710779352:Crew name pool.prefab
+	John Smithy	Johann Schmieder	0		1710779352:Crew name pool.prefab
 	Emil Schwanke	Emil Schwanke	0		1710779352:Crew name pool.prefab
-	Elron Ember	Elron Ember	0		1710779352:Crew name pool.prefab
+	Elron Ember	Elron Bernstein	0		1710779352:Crew name pool.prefab
 	Lizette Taylory	Lizette Taylory	0		1710779352:Crew name pool.prefab
 	Sarah Connors jr	Sarah Connors jr	0		1710779352:Crew name pool.prefab
-	John Rotschild	John Rotschild	0		1710779352:Crew name pool.prefab
-	Theresa Maybe jr	Theresa Maybe jr	0		1710779352:Crew name pool.prefab
-	Edwin Gardenland	Edwin Gardenland	0		1710779352:Crew name pool.prefab
+	John Rotschild	Johann Rotschild	0		1710779352:Crew name pool.prefab
+	Theresa Maybe jr	Theresa Eventuell jr	0		1710779352:Crew name pool.prefab
+	Edwin Gardenland	Edwin Gartenland	0		1710779352:Crew name pool.prefab
 	Hal Machinefriend	Hal Maschinenfreund	0		1710779352:Crew name pool.prefab
 	Brad Pity	Brad Pity	0		1710779352:Crew name pool.prefab
 	Bombwald Dresden	Bombwald Dresden	0		1710779352:Crew name pool.prefab
@@ -11374,7 +11374,7 @@ Crew name pool.prefab
 	Thomas Laserik	Thomas Laserik	0		1710779352:Crew name pool.prefab
 	Levar Lochmus	Levar Lochmus	0		1710779352:Crew name pool.prefab
 	Dave Equalman	Dave Equalman	0		1710779352:Crew name pool.prefab
-	Brain Boar	Brain Boar	0		1710779352:Crew name pool.prefab
+	Brain Boar	Hirnschwein	0		1710779352:Crew name pool.prefab
 	Jeffrey Scheffer	Jeffrey Scheffer	0		1710779352:Crew name pool.prefab
 	Mike Owski	Mike Owski	0		1710779352:Crew name pool.prefab
 	Iane Banks jr	Iane Banks jr	0		1710779352:Crew name pool.prefab
@@ -11382,48 +11382,48 @@ Crew name pool.prefab
 	Gabe Funky	Gabe Funky	0		1710779352:Crew name pool.prefab
 	Bennie Lotman	Bennie Lotman	0		1710779352:Crew name pool.prefab
 	Jeromy Kush	Jeromy Kush	0		1710779352:Crew name pool.prefab
-	Eddie Silver	Eddie Silver	0		1710779352:Crew name pool.prefab
+	Eddie Silver	Eddie Silber	0		1710779352:Crew name pool.prefab
 	Elroy Nova	Elroy Nova	0		1710779352:Crew name pool.prefab
-	Maya More	Maya More	0		1710779352:Crew name pool.prefab
+	Maya More	Maya Mehr	0		1710779352:Crew name pool.prefab
 	Elmo Kush	Elmo Kush	0		1710779352:Crew name pool.prefab
 	Lesley Zig	Lesley Zig	0		1710779352:Crew name pool.prefab
 	Sebastian Wixom	Sebastian Wixom	0		1710779352:Crew name pool.prefab
 	Shaun Sativa	Shaun Sativa	0		1710779352:Crew name pool.prefab
 	Byron Schweitzer	Byron Schweitzer	0		1710779352:Crew name pool.prefab
-	Alia Fairmind	Alia Fairmind	0		1710779352:Crew name pool.prefab
+	Alia Fairmind	Alia Feingeist	0		1710779352:Crew name pool.prefab
 	Shelby Welling	Shelby Welling	0		1710779352:Crew name pool.prefab
 	Corine Wally	Corine Wally	0		1710779352:Crew name pool.prefab
 	Lesa Fetters	Lesa Fetters	0		1710779352:Crew name pool.prefab
-	Tora Glass	Tora Glass	0		1710779352:Crew name pool.prefab
+	Tora Glass	Tora Glas	0		1710779352:Crew name pool.prefab
 	Ben Seconds	Ben Seconds	0		1710779352:Crew name pool.prefab
 	Kong Fleshman	Kong Fleischmann	0		1710779352:Crew name pool.prefab
 	Martin Liedemann	Martin Liedemann	0		1710779352:Crew name pool.prefab
 	Maggie Lines	Maggie Lines	0		1710779352:Crew name pool.prefab
 	Xanna Ruleson	Xanna Ruleson	0		1710779352:Crew name pool.prefab
-	Obrienne Starfield	Obrienne Starfield	0		1710779352:Crew name pool.prefab
+	Obrienne Starfield	Obrienne Sternfeld	0		1710779352:Crew name pool.prefab
 	Kevin Pollock	Kevin Pollock	0		1710779352:Crew name pool.prefab
 	Niels Vader	Niels Vader	0		1710779352:Crew name pool.prefab
-	Elane Mccarter	Elane Mccarter	0		1710779352:Crew name pool.prefab
+	Elane Mccarter	Elaine Mccarter	0		1710779352:Crew name pool.prefab
 	Saturnia Bannister	Saturnia Bannister	0		1710779352:Crew name pool.prefab
 	Elsa Einstein	Elsa Einstein	0		1710779352:Crew name pool.prefab
-	Saskia Goodwill	Saskia Goodwill	0		1710779352:Crew name pool.prefab
-	Wolfmoon	Wolfmoon	0		1710779352:Crew name pool.prefab
+	Saskia Goodwill	Saskia Wohlwoll	0		1710779352:Crew name pool.prefab
+	Wolfmoon	Wolfgang Mond	0		1710779352:Crew name pool.prefab
 	Animatio-N.Dud	Animatio-N.Dud	0		1710779352:Crew name pool.prefab
 	More-THE-N3	More-THE-N3	0		1710779352:Crew name pool.prefab
-	MetalCanyon	MetalCanyon	0		1710779352:Crew name pool.prefab
+	MetalCanyon	Metallschlund	0		1710779352:Crew name pool.prefab
 	Nookrium	Nookrium	0		1710779352:Crew name pool.prefab
 	Enter_Elysium	Enter_Elysium	0		1710779352:Crew name pool.prefab
-	Tortuga Power	Tortuga Power	0		1710779352:Crew name pool.prefab
+	Tortuga Power	Tortuga Kraft	0		1710779352:Crew name pool.prefab
 	MouseGunner	Maus Schütze	0		1710779352:Crew name pool.prefab
-	Cohh Carnage	Cohh Carnage	0		1710779352:Crew name pool.prefab
+	Cohh Carnage	Kohh Bludbad	0		1710779352:Crew name pool.prefab
 	Duncan	Duncan	0		1710779352:Crew name pool.prefab
 
 Crew Pet name pool.prefab
 	Little Warrior	Kleiner Krieger	0		659980657:Crew Pet name pool.prefab
 	Little Purr-Engine	Kleiner Schnurr-Motor	0		659980657:Crew Pet name pool.prefab
-	Little Foodkiller	Kleiner Foodkiller	0		659980657:Crew Pet name pool.prefab
-	Little Word-Destroyer	Kleiner Wort-Zerstörer	0		659980657:Crew Pet name pool.prefab
-	Little Darklord	Kleiner Darklord	0		659980657:Crew Pet name pool.prefab
+	Little Foodkiller	Kleiner Futtervernichter	0		659980657:Crew Pet name pool.prefab
+	Little Word-Destroyer	Kleiner Datenvernichter	0		659980657:Crew Pet name pool.prefab
+	Little Darklord	Kleiner Dunkelherr	0		659980657:Crew Pet name pool.prefab
 	Little Meowie-Pawie	Kleiner Miaui-Tatzi	0		659980657:Crew Pet name pool.prefab
 	Little Ninja	Kleiner Ninja	0		659980657:Crew Pet name pool.prefab
 	Little Roamer	Kleiner Wanderer	0		659980657:Crew Pet name pool.prefab
@@ -11431,29 +11431,29 @@ Crew Pet name pool.prefab
 	Little Bastard	Kleiner Bastard	0		659980657:Crew Pet name pool.prefab; 659980657:Crew Pet name pool.prefab; 659980657:Crew Pet name pool.prefab
 	Little Nuke	Kleine Bombe	0		659980657:Crew Pet name pool.prefab
 	Little Graywhiskers	Kleiner Graubart	0		659980657:Crew Pet name pool.prefab
-	Little Jonesy	Kleiner Jonesy	0		659980657:Crew Pet name pool.prefab
+	Little Jonesy	Kleiner Süchtler	0		659980657:Crew Pet name pool.prefab
 
 Crew Rat name pool.prefab
-	Scratti Patty	Scratti Patty	0		1500638519:Crew Rat name pool.prefab
-	Tasty Taily	Tasty Taily	0		1500638519:Crew Rat name pool.prefab
-	Rawy Pawy	Rawy Pawy	0		1500638519:Crew Rat name pool.prefab
-	Seedlord Seedy	Seedlord Seedy	0		1500638519:Crew Rat name pool.prefab
-	Rattiken Catfear	Rattiken Catfear	0		1500638519:Crew Rat name pool.prefab
-	Swifter Drifter	Swifter Drifter	0		1500638519:Crew Rat name pool.prefab
-	Leggy Lucky	Leggy Lucky	0		1500638519:Crew Rat name pool.prefab
-	Nominom Supernose	Nominom Supernose	0		1500638519:Crew Rat name pool.prefab
-	Cary Chewy	Cary Chewy	0		1500638519:Crew Rat name pool.prefab
-	Listy Listeny	Listy Listeny	0		1500638519:Crew Rat name pool.prefab
-	Squee Squeeky	Squee Squeeky	0		1500638519:Crew Rat name pool.prefab
-	Welly Willy	Welly Willy	0		1500638519:Crew Rat name pool.prefab
-	Eary Deary	Eary Deary	0		1500638519:Crew Rat name pool.prefab
-	Hugo Huggy	Hugo Huggy	0		1500638519:Crew Rat name pool.prefab
-	Harold Bitey	Harold Bitey	0		1500638519:Crew Rat name pool.prefab
-	Ferald Fury	Ferald Fury	0		1500638519:Crew Rat name pool.prefab
-	Swifty Drifty	Swifty Drifty	0		1500638519:Crew Rat name pool.prefab
-	Lifty Laughty	Lifty Laughty	0		1500638519:Crew Rat name pool.prefab
-	Darky Dusty	Darky Dusty	0		1500638519:Crew Rat name pool.prefab
-	Blacky Furry	Blacky Furry	0		1500638519:Crew Rat name pool.prefab
+	Scratti Patty	Kratzbürste Pastetchen	0		1500638519:Crew Rat name pool.prefab
+	Tasty Taily	Geiler Schweif	0		1500638519:Crew Rat name pool.prefab
+	Rawy Pawy	Raues Pfötchen	0		1500638519:Crew Rat name pool.prefab
+	Seedlord Seedy	Samenlord Samling	0		1500638519:Crew Rat name pool.prefab
+	Rattiken Catfear	Rattiken Katzenfurcht	0		1500638519:Crew Rat name pool.prefab
+	Swifter Drifter	Rascher Rutscher	0		1500638519:Crew Rat name pool.prefab
+	Leggy Lucky	Glückliches Pratzi	0		1500638519:Crew Rat name pool.prefab
+	Nominom Supernose	Nominom Supernase	0		1500638519:Crew Rat name pool.prefab
+	Cary Chewy	Karli Kaui	0		1500638519:Crew Rat name pool.prefab
+	Listy Listeny	Höri Gehöri	0		1500638519:Crew Rat name pool.prefab
+	Squee Squeeky	Pressi Quwitschi	0		1500638519:Crew Rat name pool.prefab
+	Welly Willy	Guter Wilhelm	0		1500638519:Crew Rat name pool.prefab
+	Eary Deary	Lieber Ohri	0		1500638519:Crew Rat name pool.prefab
+	Hugo Huggy	Udo Umarmi	0		1500638519:Crew Rat name pool.prefab
+	Harold Bitey	Harald Beisser	0		1500638519:Crew Rat name pool.prefab
+	Ferald Fury	Ferald Furie	0		1500638519:Crew Rat name pool.prefab
+	Swifty Drifty	Raschi Rutschi	0		1500638519:Crew Rat name pool.prefab
+	Lifty Laughty	Lächerlicher Fahrstuhl	0		1500638519:Crew Rat name pool.prefab
+	Darky Dusty	Dunkler Weißflitzer	0		1500638519:Crew Rat name pool.prefab
+	Blacky Furry	Schwarzer Pelz	0		1500638519:Crew Rat name pool.prefab
 
 Crew Squid name pool.prefab
 	Blub	Blub	0		47532298:Crew Squid name pool.prefab
@@ -11462,75 +11462,75 @@ Crew Squid name pool.prefab
 	Blib	Blib	0		47532298:Crew Squid name pool.prefab
 	Bläb	Bläb	0		47532298:Crew Squid name pool.prefab
 	Blöb	Blöb	0		47532298:Crew Squid name pool.prefab
-	Deathblip	Deathblip	0		47532298:Crew Squid name pool.prefab
-	Deathblab	Deathblab	0		47532298:Crew Squid name pool.prefab
-	Deathblöb	Deathblöb	0		47532298:Crew Squid name pool.prefab
+	Deathblip	Todesblip	0		47532298:Crew Squid name pool.prefab
+	Deathblab	Todesblab	0		47532298:Crew Squid name pool.prefab
+	Deathblöb	Todesblöb	0		47532298:Crew Squid name pool.prefab
 	Kachach	Kachach	0		47532298:Crew Squid name pool.prefab
 	Kachaff	Kachaff	0		47532298:Crew Squid name pool.prefab
 	Kachang Awg	Kachang Awg	0		47532298:Crew Squid name pool.prefab
-	Drippy	Drippy	0		47532298:Crew Squid name pool.prefab
-	Drippsh	Drippsh	0		47532298:Crew Squid name pool.prefab
+	Drippy	Tropfi	0		47532298:Crew Squid name pool.prefab
+	Drippsh	Tröpferl	0		47532298:Crew Squid name pool.prefab
 	Sllp	Sllp	0		47532298:Crew Squid name pool.prefab
 	Sllps	Sllps	0		47532298:Crew Squid name pool.prefab
-	Zdippy	Zdippy	0		47532298:Crew Squid name pool.prefab
-	Blippy	Blippy	0		47532298:Crew Squid name pool.prefab
-	Gippy	Gippy	0		47532298:Crew Squid name pool.prefab
-	Fwippy	Fwippy	0		47532298:Crew Squid name pool.prefab
-	Dippy	Dippy	0		47532298:Crew Squid name pool.prefab
-	Mippy	Mippy	0		47532298:Crew Squid name pool.prefab
-	Nippy	Nippy	0		47532298:Crew Squid name pool.prefab
-	Rippy	Rippy	0		47532298:Crew Squid name pool.prefab
-	Sippylippy	Sippylippy	0		47532298:Crew Squid name pool.prefab
-	Bippy	Bippy	0		47532298:Crew Squid name pool.prefab
-	Lippy	Lippy	0		47532298:Crew Squid name pool.prefab
-	Whippy	Whippy	0		47532298:Crew Squid name pool.prefab
-	Hitty	Hitty	0		47532298:Crew Squid name pool.prefab
-	Gitty	Gitty	0		47532298:Crew Squid name pool.prefab
-	Kerwippy	Kerwippy	0		47532298:Crew Squid name pool.prefab
-	Xippy	Xippy	0		47532298:Crew Squid name pool.prefab
-	Biffyr	Biffyr	0		47532298:Crew Squid name pool.prefab
-	Giffyr	Giffyr	0		47532298:Crew Squid name pool.prefab
-	Siffyr	Siffyr	0		47532298:Crew Squid name pool.prefab
-	Cappy	Cappy	0		47532298:Crew Squid name pool.prefab
-	Nappy	Nappy	0		47532298:Crew Squid name pool.prefab
-	Lappy	Lappy	0		47532298:Crew Squid name pool.prefab
-	Dappy	Dappy	0		47532298:Crew Squid name pool.prefab
-	Poppy	Poppy	0		47532298:Crew Squid name pool.prefab
+	Zdippy	Zdippi	0		47532298:Crew Squid name pool.prefab
+	Blippy	Blippi	0		47532298:Crew Squid name pool.prefab
+	Gippy	Gippi	0		47532298:Crew Squid name pool.prefab
+	Fwippy	Fwippi	0		47532298:Crew Squid name pool.prefab
+	Dippy	Dippi	0		47532298:Crew Squid name pool.prefab
+	Mippy	Mippi	0		47532298:Crew Squid name pool.prefab
+	Nippy	Nippi	0		47532298:Crew Squid name pool.prefab
+	Rippy	Rippi	0		47532298:Crew Squid name pool.prefab
+	Sippylippy	Schlürflippe	0		47532298:Crew Squid name pool.prefab
+	Bippy	Bippi	0		47532298:Crew Squid name pool.prefab
+	Lippy	Lippi	0		47532298:Crew Squid name pool.prefab
+	Whippy	Wippi	0		47532298:Crew Squid name pool.prefab
+	Hitty	Hitti	0		47532298:Crew Squid name pool.prefab
+	Gitty	Gitti	0		47532298:Crew Squid name pool.prefab
+	Kerwippy	Kerwippi	0		47532298:Crew Squid name pool.prefab
+	Xippy	Xippi	0		47532298:Crew Squid name pool.prefab
+	Biffyr	Biffier	0		47532298:Crew Squid name pool.prefab
+	Giffyr	Giffier	0		47532298:Crew Squid name pool.prefab
+	Siffyr	Siffier	0		47532298:Crew Squid name pool.prefab
+	Cappy	Cappi	0		47532298:Crew Squid name pool.prefab
+	Nappy	Nappi	0		47532298:Crew Squid name pool.prefab
+	Lappy	Lappi	0		47532298:Crew Squid name pool.prefab
+	Dappy	Dappi	0		47532298:Crew Squid name pool.prefab
+	Poppy	Poppi	0		47532298:Crew Squid name pool.prefab
 
 Crew Technological name pool.prefab
-	Termy II	Termy II	0		1634744238:Crew Technological name pool.prefab
-	Little Skynetty	Little Skynetty	0		1634744238:Crew Technological name pool.prefab
-	Fwmrr 69	Fwmrr 69	0		1634744238:Crew Technological name pool.prefab
+	Termy II	Termi II	0		1634744238:Crew Technological name pool.prefab
+	Little Skynetty	Kleiner Skynetty	0		1634744238:Crew Technological name pool.prefab
+	Fwmrr 69	Fwmrrm 69	0		1634744238:Crew Technological name pool.prefab
 	Meepo 444	Meepo 444	0		1634744238:Crew Technological name pool.prefab
 	Limpo 49	Limpo 49	0		1634744238:Crew Technological name pool.prefab
-	THX Type-4	THX Type-4	0		1634744238:Crew Technological name pool.prefab
-	Deezy 11	Deezy 11	0		1634744238:Crew Technological name pool.prefab
-	Beezy 229	Beezy 229	0		1634744238:Crew Technological name pool.prefab
-	Beepy XX-900	Beepy XX-900	0		1634744238:Crew Technological name pool.prefab
-	Sweety XY-900	Sweety XY-900	0		1634744238:Crew Technological name pool.prefab
-	Spottywire 9000	Spottywire 9000	0		1634744238:Crew Technological name pool.prefab
+	THX Type-4	THX Typ-4	0		1634744238:Crew Technological name pool.prefab
+	Deezy 11	Detzi 11	0		1634744238:Crew Technological name pool.prefab
+	Beezy 229	Betsi 229	0		1634744238:Crew Technological name pool.prefab
+	Beepy XX-900	Piepse XX-900	0		1634744238:Crew Technological name pool.prefab
+	Sweety XY-900	Süßer XY-900	0		1634744238:Crew Technological name pool.prefab
+	Spottywire 9000	Streudraht 9000	0		1634744238:Crew Technological name pool.prefab
 	THC-3000	THC-3000	0		1634744238:Crew Technological name pool.prefab
 	CBD-9000	CBD-9000	0		1634744238:Crew Technological name pool.prefab
-	Meepy 222	Meepy 222	0		1634744238:Crew Technological name pool.prefab
-	Normal 9000	Normal 9000	0		1634744238:Crew Technological name pool.prefab
-	Wirepaw 2	Wirepaw 2	0		1634744238:Crew Technological name pool.prefab
-	Wiresoul 3	Wiresoul 3	0		1634744238:Crew Technological name pool.prefab
-	Wireheart 4	Wireheart 4	0		1634744238:Crew Technological name pool.prefab
-	Smallbox	Smallbox	0		1634744238:Crew Technological name pool.prefab
-	Compli II	Compli II	0		1634744238:Crew Technological name pool.prefab
+	Meepy 222	Mipie 222	0		1634744238:Crew Technological name pool.prefab
+	Normal 9000	Normalo 9000	0		1634744238:Crew Technological name pool.prefab
+	Wirepaw 2	Drahtpfötchen 2	0		1634744238:Crew Technological name pool.prefab
+	Wiresoul 3	Drahtseele 3	0		1634744238:Crew Technological name pool.prefab
+	Wireheart 4	Drahtherz 4	0		1634744238:Crew Technological name pool.prefab
+	Smallbox	Rollkästchen	0		1634744238:Crew Technological name pool.prefab
+	Compli II	Kompli II	0		1634744238:Crew Technological name pool.prefab
 	Teepy II	Teepy II	0		1634744238:Crew Technological name pool.prefab
-	Acknow III	Acknow III	0		1634744238:Crew Technological name pool.prefab
-	Metalpho Machina	Metalpho Machina	0		1634744238:Crew Technological name pool.prefab
-	Cobalt Heart	Cobalt Heart	0		1634744238:Crew Technological name pool.prefab
+	Acknow III	Einräumer III	0		1634744238:Crew Technological name pool.prefab
+	Metalpho Machina	Metallischer Helfer	0		1634744238:Crew Technological name pool.prefab
+	Cobalt Heart	Kobalt Herz	0		1634744238:Crew Technological name pool.prefab
 	Benz IV	Benz IV	0		1634744238:Crew Technological name pool.prefab
 	Chippy	Chippy	0		1634744238:Crew Technological name pool.prefab
 	Servo 1	Servo 1	0		1634744238:Crew Technological name pool.prefab
 	Servo 2	Servo 2	0		1634744238:Crew Technological name pool.prefab
 	Remotia	Remotia	0		1634744238:Crew Technological name pool.prefab
-	Adminny	Adminny	0		1634744238:Crew Technological name pool.prefab
-	Ping 3000	Ping 3000	0		1634744238:Crew Technological name pool.prefab
-	Flirty I	Flirty I	0		1634744238:Crew Technological name pool.prefab
-	Keepy IV	Keepy IV	0		1634744238:Crew Technological name pool.prefab
+	Adminny	Admini	0		1634744238:Crew Technological name pool.prefab
+	Ping 3000	Klingel 3000	0		1634744238:Crew Technological name pool.prefab
+	Flirty I	Gspusi I	0		1634744238:Crew Technological name pool.prefab
+	Keepy IV	Aufrechterhalter IV	0		1634744238:Crew Technological name pool.prefab
 
 Default alien dream text pool.prefab
 	Dreaming about Earth...	Träumen von der Erde...	80		389922688:Default alien dream text pool.prefab
@@ -12561,7 +12561,7 @@ Star name pool.prefab
 	Wisdu	Wisdu	0		870333019:Star name pool.prefab
 	Wisdo	Wisdo	0		870333019:Star name pool.prefab
 	Khaind	Khaind	0		870333019:Star name pool.prefab
-	New Cussia	New Cussia	0		870333019:Star name pool.prefab
+	New Cussia	Neu Cussia	0		870333019:Star name pool.prefab
 	Doppelfaust	Doppelfaust	0		870333019:Star name pool.prefab
 	Naeec	Naeec	0		870333019:Star name pool.prefab
 	Diogeneia	Diogeneia	0		870333019:Star name pool.prefab; 870333019:Star name pool.prefab
@@ -12631,8 +12631,8 @@ Star name pool.prefab
 	Erra	Erra	0		870333019:Star name pool.prefab
 	Erro	Erro	0		870333019:Star name pool.prefab
 	Cogitos	Cogitos	0		870333019:Star name pool.prefab
-	Neo-Silence	Neo-Silence	0		870333019:Star name pool.prefab
-	Neo-Peace	Neo-Peace	0		870333019:Star name pool.prefab
+	Neo-Silence	Neo-Stille	0		870333019:Star name pool.prefab
+	Neo-Peace	Neo-Frieden	0		870333019:Star name pool.prefab
 	Holdia	Holdia	0		870333019:Star name pool.prefab
 	Aru	Aru	0		870333019:Star name pool.prefab
 	Prometh	Prometh	0		870333019:Star name pool.prefab
@@ -13021,18 +13021,18 @@ Starmap move log line pool.prefab
 	The crew will party tonight.	Die Besatzung wird heute Abend eine Party feiern.	0		2001231991:Starmap move log line pool.prefab
 	The crew is having an alcohol party tonight.	Die Besatzung feiert heute Abend eine Alkohol-Party.	0		2001231991:Starmap move log line pool.prefab
 	The crew is having a party tonight.	Die Besatzung feiert heute Abend eine Party.	0		2001231991:Starmap move log line pool.prefab
-	The crew is having a play-party tonight.	Die Besatzung feiert heute Abend eine Play-Party.	0		2001231991:Starmap move log line pool.prefab
+	The crew is having a play-party tonight.	Die Besatzung feiert heute Abend eine Spiel-Party.	0		2001231991:Starmap move log line pool.prefab
 	The crew is having a dance party tonight.	Die Besatzung feiert heute Abend eine Tanzparty.	0		2001231991:Starmap move log line pool.prefab
 	The crew is having a sensual party tonight.	Die Besatzung feiert heute Abend eine sinnliche Party.	0		2001231991:Starmap move log line pool.prefab
 	The crew is having a hedonistic party tonight.	Die Besatzung feiert heute Abend eine hedonistische Party.	0		2001231991:Starmap move log line pool.prefab
 	The crew is having a pleasure party tonight.	Die Besatzung feiert heute Abend eine Vergnügungsparty.	0		2001231991:Starmap move log line pool.prefab
 	The crew is having a LAN party tonight.	Die Besatzung feiert heute Abend eine LAN-Party.	0		2001231991:Starmap move log line pool.prefab
 	The crew is having a pool party tonight.	Die Besatzung feiert heute Abend eine Poolparty.	0		2001231991:Starmap move log line pool.prefab
-	The crew will be tripping tonight.	Die Besatzung wird heute Abend einen Trip machen.	0		2001231991:Starmap move log line pool.prefab
+	The crew will be tripping tonight.	Die Besatzung wird heute Abend trippen.	0		2001231991:Starmap move log line pool.prefab
 	The crew loves you.	Die Besatzung liebt Sie.	0		2001231991:Starmap move log line pool.prefab
 	The crew admires you.	Die Besatzung bewundert Sie.	0		2001231991:Starmap move log line pool.prefab
-	The crew trusts you.	Die Besatzung vertraut dir.	0		2001231991:Starmap move log line pool.prefab
-	The crew thinks you're weird, but they still like you.	Die Besatzung denkt, Du bist seltsam, aber sie mag Dich trotzdem.	0		2001231991:Starmap move log line pool.prefab
+	The crew trusts you.	Die Besatzung vertraut Ihnen.	0		2001231991:Starmap move log line pool.prefab
+	The crew thinks you're weird, but they still like you.	Die Besatzung denkt, Sie sind seltsam, aber sie mag Sie trotzdem.	0		2001231991:Starmap move log line pool.prefab
 	Every now and then, the crew gets suited up and goes out to play.	Ab und zu zieht sich die Besatzung an und geht raus zum Spielen.	0		2001231991:Starmap move log line pool.prefab
 	The crew holds a live poetry night later today.	Die Besatzung veranstaltet später einen Live-Poesie-Abend.	0		2001231991:Starmap move log line pool.prefab
 	The crew holds a singing contest. It's terrible.	Die Besatzung veranstaltet einen Gesangswettbewerb. Es ist schrecklich.	0		2001231991:Starmap move log line pool.prefab
@@ -13052,7 +13052,7 @@ Starmap move log line pool.prefab
 	Mothership AI beats everybody at FTLo multiplayer.	Die Mutterschiff-KI schlägt alle beim FTLo-Multiplayerspiel.	0		2001231991:Starmap move log line pool.prefab
 	Mothership AI beats everybody at sudoku again. She predicted she would.	Die Mutterschiff-KI schlägt wieder alle bei Sudoku. Sie hat es vorhergesagt.	0		2001231991:Starmap move log line pool.prefab
 	Mothership AI loses when playing strip-poker.	Mutterschiff-KI verliert beim Strip-Poker.	0		2001231991:Starmap move log line pool.prefab
-	Mothership AI beats everybody again at the game of Mono-Poly Ace.	Mutterschiff-KI besiegt wieder alle beim Spiel Mono-Poly Ace.	0		2001231991:Starmap move log line pool.prefab
+	Mothership AI beats everybody again at the game of Mono-Poly Ace.	Mutterschiff-KI besiegt wieder alle beim Spiel Mono-Poly Ass.	0		2001231991:Starmap move log line pool.prefab
 	Mothership AI beats everybody again when playing checkers.	Mutterschiff-KI besiegt wieder alle beim Damespiel.	0		2001231991:Starmap move log line pool.prefab
 	Mothership AI beats everybody in STARCON2 super melee.	Mutterschiff-KI besiegt alle im STARCON2-Supernahkampf.	0		2001231991:Starmap move log line pool.prefab
 	Mothership AI again beats everybody when playing Risk.	Mutterschiff-KI besiegt wieder alle beim Spiel Risiko.	0		2001231991:Starmap move log line pool.prefab
