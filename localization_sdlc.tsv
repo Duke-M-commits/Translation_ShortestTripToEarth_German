@@ -89,7 +89,7 @@ description	A heavily armored single-shot missile that rams the target with forc
 
 Perk nuke Tiger battery 8.prefab
 description	A single-use battery that shoots 8 missiles.	Eine einmalig verwendbare Batterie, die 8 Bomben abschießt.	250		850100445:sdlc/Perk nuke Tiger battery 8.prefab
-randomizerMenuStrings[i]	+1 single-use missile battery	+1 Wegwerf-Raketen-Batterie	30		850100445:sdlc/Perk nuke Tiger battery 8.prefab
+randomizerMenuStrings[i]	+1 single-use nuke battery	+1 Wegwerf-Raketen-Batterie	30		850100445:sdlc/Perk nuke Tiger battery 8.prefab
 
 Perk nuke Tiger dual EMP.prefab
 displayName	Tiger EMP double nuke	Tiger EMP-Doppel-Bombe	40		655868932:sdlc/Perk nuke Tiger dual EMP.prefab
@@ -118,6 +118,7 @@ Perk pet DLC shocker lizard.prefab
 displayName	Shocker lizard (pet)	Schockechse (Haustier)	40		910502010:sdlc/Perk pet DLC shocker lizard.prefab
 description	A live gift from an old friend of our AI. The creature is quite intelligent and can shoot energy rays from its eyes.	Ein lebendes Geschenk von einem alten Freund unserer KI. Die Kreatur ist ziemlich intelligent und kann Energiestrahlen aus ihren Augen schießen.	250		910502010:sdlc/Perk pet DLC shocker lizard.prefab
 randomizerMenuStrings[i]	+1 pet (shocker lizard)	+1 Haustier (Schockechse)	30		910502010:sdlc/Perk pet DLC shocker lizard.prefab
+randomizerMenuStrings[i]	+30 organics	+30 organics	30		910502010:sdlc/Perk pet DLC shocker lizard.prefab
 
 Perk pet DLC warp floater.prefab
 displayName	Warp Floater (pet)	Warptier (Haustier)	40		1491901717:sdlc/Perk pet DLC warp floater.prefab

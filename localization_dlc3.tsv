@@ -1,0 +1,47 @@
+﻿:displayName Deutsch
+
+Drone intruderbot nuke 2.prefab
+displayName	Drone nuke	Drohnen-Bombe	35		695475019:dlc3/Drone intruderbot nuke 2.prefab; 1422585745:dlc3/Drone intruderbot nuke.prefab
+
+Drone intruderbot nuke launcher 2.prefab
+displayName	Light intruderbots assault nuke	Leichte Eindringling-Bombe	40		73433649:dlc3/Drone intruderbot nuke launcher 2.prefab
+description	Armored, fast boarding missile that contains 2 assault droids. The droids are released into enemy ship on hit. They can be recalled with normal move orders. More nukes like these can be crafted via selecting an empty nuke slot.	Gepanzerte, schnelle Enterrakete, die zwei Angriffsdroiden enthält. Bei einem Treffer werden die Droiden in das feindliche Schiff entlassen. Sie können mit normalen Bewegungsbefehlen zurückgerufen werden. Weitere Raketen dieser Art können durch Auswahl eines leeren Raketenplatzes hergestellt werden.	200		73433649:dlc3/Drone intruderbot nuke launcher 2.prefab
+
+Drone intruderbot nuke launcher.prefab
+displayName	Heavy intruderbots assault nuke	Schwere Eindringling-Bombe	40		1021533631:dlc3/Drone intruderbot nuke launcher.prefab
+description	Armored, fast boarding missile that contains 2 heavy assault sentinels, released into enemy ship on hit. They can be recalled with normal move orders. More nukes like these can be crafted via selecting an empty nuke slot on the ship. To unload the droids, simply shoot the nuke at our ship (no damage)	Gepanzerte, schnelle Enterrakete, die zwei schwere Angriffs-Sentinels enthält, die bei einem Treffer in das feindliche Schiff abgeworfen werden. Sie können mit normalen Bewegungsbefehlen zurückgerufen werden. Weitere Raketen dieser Art können hergestellt werden, indem man einen leeren Raketen-Slot auf dem Schiff auswählt. Um die Droiden abzusetzen, feuere die Rakete einfach auf dein Schiff (kein Schaden).	200		1021533631:dlc3/Drone intruderbot nuke launcher.prefab
+
+Drone intruderbot nuke.prefab
+
+Drone tank space pod.prefab
+displayName	Drone tank space pod	Drohnen-Panzer-Raumkapsel	35		1004866397:dlc3/Drone tank space pod.prefab
+
+Drone tank spider.prefab
+appearance[i].name	Death Turtle	Todes-Schildkröte	30		497796051:dlc3/Drone tank spider.prefab
+appearance[i].description	Heavy assault mecha-	Schwerer Kampfmech	250		497796051:dlc3/Drone tank spider.prefab
+
+Drone tank.prefab
+appearance[i].name	Assault tank drone	Kampfpanzer-Drohne	30		1544221616:dlc3/Drone tank.prefab
+appearance[i].description	Assault tank drone with autocannon. Heavily armored and fireproof.	Kampfpanzer-Drohne mit Maschinenkanone. Schwer gepanzert und feuerfest.	250		1544221616:dlc3/Drone tank.prefab
+
+Hand weapon drone cannon 3x.prefab
+displayName	Multibarrel cannon	Mehrlaufkanone	25		1747784095:dlc3/Hand weapon drone cannon 3x.prefab
+description	All-purpose autocannon 3x.	Allzweck-Autokanone x3.	250		1747784095:dlc3/Hand weapon drone cannon 3x.prefab
+
+Hand weapon drone cannon.prefab
+displayName	Heavy cannon	Schwere Kanone	25		2103766536:dlc3/Hand weapon drone cannon.prefab
+description	All-purpose heavy cannon.	Schwere Allzweck-Kanone.	250		2103766536:dlc3/Hand weapon drone cannon.prefab
+
+Hand weapon drone lazer.prefab
+displayName	Orangeray emitter	Orangestrahl Emitter	25		388204983:dlc3/Hand weapon drone lazer.prefab
+description	Exotic ray emitter.	Exotenstrahl Emitter.	250		388204983:dlc3/Hand weapon drone lazer.prefab
+
+Nuke launcher slot for 14 warrior.prefab
+
+Perk nuke decoy for Warrior.prefab
+displayName	Decoy Nukes x3	Täuschungsbomben x3	40		1356236342:dlc3/Perk nuke decoy for Warrior.prefab
+description	Heavily armored decoy nukes for drawing fire of enemy point-defences.	Stark gepanzerte Täuschungsbomben, um das Feuer der feindlichen Punktabwehr auf sich zu lenken.	250		1356236342:dlc3/Perk nuke decoy for Warrior.prefab
+randomizerMenuStrings[i]	+3 capital missiles	+3 Bomben	30		1356236342:dlc3/Perk nuke decoy for Warrior.prefab
+
+Warrior.prefab
+description	This superheavy assault dreadnought fields a formidable army of robotic tanks, droids and intruder-filled nukes, but lacks severeal crucial components. A new warpdrive, shield batteries and more living crew are recommended for a fair chance of survival in the depths of space.	Dieser superschwere Angriffs-Dreadnought verfügt über eine beeindruckende Armee aus Roboterpanzern, Droiden und mit Eindringlingen bestückten Bomben, es fehlen ihm jedoch einige entscheidende Komponenten. Ein neuer Warpantrieb, Schildbatterien und mehr lebende Besatzungsmitglieder werden empfohlen, um in den Weiten des Weltraums eine faire Überlebenschance zu haben.	400		470176920:dlc3/Warrior.prefab
