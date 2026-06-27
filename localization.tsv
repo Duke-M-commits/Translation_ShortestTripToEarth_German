@@ -1510,13 +1510,13 @@ Button. Clicking it opens power management overlay	HARDCORE	HARDCORE	6		20877061
 	Reached the end of game	Das Ende des Spiels erreicht	0		770259637:Menu panel.prefab
 	Started a new game mid-run	Ein neues Spiel mitten im Spiel begonnen	0		1118573606:Menu panel.prefab
 	Click anywhere to return to menu	Klicken Sie auf eine beliebige Stelle, um zum Menü zurückzukehren	0		1921366675:Menu panel.prefab
-steamClickHover	Click to Supporters Pack DLC store page	Klicken Sie auf die Supporters Pack DLC-Store-Seite	0		Menu panel.prefab
+steamClickHover	Click to Supporters Pack DLC store page	Zur Store-Seite des DLCs Supporters Pack wechseln	0		Menu panel.prefab
 dlcInstalledHover	Supporters Pack DLC installed	Supporters Pack DLC installiert	0		Menu panel.prefab
 dlcNotInstalledHover	Supporters Pack DLC not installed	Supporters Pack DLC nicht installiert	0		Menu panel.prefab
-steamClickHover	Click to The Old Enemies DLC store page	Klicken Sie auf die The Old Enemies DLC-Store-Seite	0		Menu panel.prefab
+steamClickHover	Click to The Old Enemies DLC store page	Zur Store-Seite des DLCs The Old Enemies wechseln	0		Menu panel.prefab
 dlcInstalledHover	The Old Enemies DLC installed	The Old Enemies DLC installiert	0		Menu panel.prefab
 dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht installiert	0		Menu panel.prefab
-steamClickHover	Click to One Last Run DLC store page	Click to One Last Run DLC store page	0		Menu panel.prefab
+steamClickHover	Click to One Last Run DLC store page	Zur Store-Seite des DLCs One Last Run wechseln	0		Menu panel.prefab
 dlcInstalledHover	One Last Run DLC installed	One Last Run DLC installed	0		Menu panel.prefab
 dlcNotInstalledHover	One Last Run DLC not installed	One Last Run DLC not installed	0		Menu panel.prefab
 
@@ -6494,7 +6494,7 @@ Tutorial Battle.prefab
 title	Combat training	Kampftraining	35		758624425:Tutorial Battle.prefab
 text	The practice target moves in to attack us. It is armed with both lasers and projectile weapons.	Das Übungsziel bewegt sich auf uns zu, um uns anzugreifen. Es ist sowohl mit Lasern als auch mit Projektilwaffen bewaffnet.	600		758624425:Tutorial Battle.prefab
 altText	Press <b>space</b> to slow time so you can prepare... Starting a ship vs ship combat resets weapon & warp charge because of a need to recalibrate.	Drücken Sie <b>Leertaste</b>, um die Zeit zu verlangsamen, damit Sie sich vorbereiten können... Das Starten eines Schiff-gegen-Schiff-Kampfes setzt die Waffen- und Warp-Ladung zurück, da eine Neukalibrierung erforderlich ist.	240		2008167255:Tutorial Battle.prefab
-text	Pause, slow motion and normal timeflow buttons	Pause, slow motion and normal timeflow buttons	0		2008167255:Tutorial Battle.prefab
+text	Pause, slow motion and normal timeflow buttons	Schaltflächen für Pause, Zeitlupe und normale Geschwindigkeit	0		2008167255:Tutorial Battle.prefab
 altText	Try to make sure your shots land on important enemy modules like <b>shield generators, weapons or reactors</b>. Remember that if the shot landing area is over the edges of target ship, some shots might miss completely.	Versuchen Sie sicherzustellen, dass Ihre Schüsse auf wichtigen gegnerischen Modulen wie <b>Schildgeneratoren, Waffen oder Reaktoren</b> landen. Denken Sie daran, dass einige Schüsse komplett daneben gehen können, wenn der Landebereich der Schüsse über den Kanten des Zielschiffs liegt.	240		117100109:Tutorial Battle.prefab
 altText	Currently, our weapons are remotely operated by the bridge (the <b>B symbol</b>).\nThis means they are working, but without accuracy & recharge bonus from your crew.\nSend crew with <b>gunnery skill</b> to operate <b>every weapon</b>, to ensure max accuracy bonus.	Derzeit werden die Waffen von der Brücke aus ferngesteuert (das <b>B-Symbol</b>).\nDas bedeutet, dass sie funktionieren, aber ohne Genauigkeits- und Nachladebonus von Ihrer Besatzung.\nSchicken Sie ein Besatzungsmitglied mit <b>Geschützfertigkeit</b>, um <b>jede Waffe</b> zu bedienen, um einen maximalen Genauigkeitsbonus zu gewährleisten.	240		1112127308:Tutorial Battle.prefab
 altText	Weapons can be selected by clicking on them on the ship or on the <b>Quick selection bar</b>. Pressing a number 1...9 on your keyboard is the fastest way to select a weapon.	Waffen können durch Anklicken auf dem Schiff oder in der <b>Schnellauswahlleiste</b> selektiert werden. Das Drücken der Zahlen 1-9 auf Ihrer Tastatur ist der schnellste Weg, eine Waffe auszuwählen.	240		1884413520:Tutorial Battle.prefab
@@ -7717,7 +7717,7 @@ displayName	Light welder	Leichter Schweißer	25		1406687669:Hand weapon welder l
 
 Hand weapon yellow raypistol.prefab
 displayName	Heavy n-ray autopistol	Schwere N-Strahlen-Autopistole	25		1688300750:Hand weapon yellow raypistol.prefab
-description	This modern raygun generates powerful and accurate shots of exotic energies.	Diese moderne Strahlenwaffe erzeugt kraftvolle und präzise Schüsse aus exotischen Energien.	250		1688300750:Hand weapon yellow raypistol.prefab
+description	This modern raygun generates powerful and accurate shots of exotic energies.	Diese moderne Strahlenwaffe erzeugt kraftvolle und präzise Schüsse aus Exoten.	250		1688300750:Hand weapon yellow raypistol.prefab
 
 Combat Drone Humanoid.prefab
 dieMessage	{0} has been destroyed.	{0} wurde zerstört.	70		Combat Drone Humanoid.prefab; Drone pet.prefab
