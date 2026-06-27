@@ -118,7 +118,7 @@ Perk pet DLC shocker lizard.prefab
 displayName	Shocker lizard (pet)	Schockechse (Haustier)	40		910502010:sdlc/Perk pet DLC shocker lizard.prefab
 description	A live gift from an old friend of our AI. The creature is quite intelligent and can shoot energy rays from its eyes.	Ein lebendes Geschenk von einem alten Freund unserer KI. Die Kreatur ist ziemlich intelligent und kann Energiestrahlen aus ihren Augen schießen.	250		910502010:sdlc/Perk pet DLC shocker lizard.prefab
 randomizerMenuStrings[i]	+1 pet (shocker lizard)	+1 Haustier (Schockechse)	30		910502010:sdlc/Perk pet DLC shocker lizard.prefab
-randomizerMenuStrings[i]	+30 organics	+30 organics	30		910502010:sdlc/Perk pet DLC shocker lizard.prefab
+randomizerMenuStrings[i]	+30 organics	+30 Organik	30		910502010:sdlc/Perk pet DLC shocker lizard.prefab
 
 Perk pet DLC warp floater.prefab
 displayName	Warp Floater (pet)	Warptier (Haustier)	40		1491901717:sdlc/Perk pet DLC warp floater.prefab
