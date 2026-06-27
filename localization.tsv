@@ -107,7 +107,7 @@ DamageToken.cs
 
 Door.cs
 	door HP repairs	Tür-HP-Reparaturen	0		Door.cs
-	locked	Verschlossen	0		Door.cs
+	locked	Gesperrt	0		Door.cs
 	Door [locked]	Tür [gesperrt]	0		Door.cs
 	Door	Tür	0		Door.cs; HoverPanel.cs; 937848648:door (small).prefab
 
@@ -118,7 +118,7 @@ HoverPanel.cs
 	Module	Modul	0		HoverPanel.cs; 1020099820:Module actions panel.prefab
 	Shield	Schild	0		HoverPanel.cs; 565671530:Crew actions panel.prefab
 	EMP	EMP	0		HoverPanel.cs
-	CAN'T SHOOT	KANN NICHT SCHÜTZEN	0		HoverPanel.cs
+	CAN'T SHOOT	KANN NICHT FEUERN	0		HoverPanel.cs
 	n/a		0		HoverPanel.cs
 	Distance {0}ru	Entfernung {0}re	0		HoverPanel.cs
 	CAN'T MOVE	KANN SICH NICHT BEWEGEN	0		HoverPanel.cs
@@ -401,7 +401,7 @@ MaterialsConverterPanel.cs
 	materials conversion	Materialumwandlung	0		MaterialsConverterPanel.cs; MaterialsConverterPanel.cs
 
 MenuPanel.cs
-	Retire\n(starts a new game)	In Ruhestand gehen\n(startet ein neues Spiel)	0		MenuPanel.cs
+	Retire\n(starts a new game)	Neues Spiel	0		MenuPanel.cs
 	New game	Neues Spiel	0		MenuPanel.cs
 
 MenuProgressPanel.cs
@@ -1202,10 +1202,10 @@ lockedSectorDescription	This sector is where we landed, it's unexplored.	Dieser 
 	Your game is saved.	Ihr Spiel ist gespeichert.	0		1431468377:Menu panel.prefab
 	Something went wrong while saving your game.	Beim Speichern Ihres Spiels ist etwas schief gelaufen.	0		1525243159:Menu panel.prefab; 450912336:Menu panel.prefab
 	Saving game...	Spiel speichern...	0		1095782014:Menu panel.prefab
-Some code in text needs to be as is	Retire?	Zurückziehen?	0		1723618371:Menu panel.prefab
+Some code in text needs to be as is	Retire?	In Ruhestand gehen?	0		1723618371:Menu panel.prefab
 Button, goes back to previous menu	Back	Zurück	0		551713143:Menu panel.prefab; 7559895:Menu panel.prefab; 188287613:Menu panel.prefab; 1042264830:Menu panel.prefab; 1344975291:Menu panel.prefab; 1648042296:Menu panel.prefab
 Button	Yes	Ja	0		821264790:Menu panel.prefab; 383721855:Level 4 exit, insectoid bossfight.prefab; 1526175258:dlc2/Level 1b exit, capitaalo.prefab; 1599183549:Warpgate worm.prefab; 1754232678:Menu panel.prefab; 1855220932:Level 1 exit.prefab; 1997882561:Generic level exit.prefab; 2060235996:Level 2 exit, pirate sekvoia bossfight.prefab; 2060236860:Level 3 exit no fight.prefab; 2060238844:Level 5 exit, lair bossfight.prefab; 2060239964:Level 6 exit, slaver boarders.prefab
-Some code in text needs to be as is	Are you sure? Starting a new run will overwrite your unfinished game.\nFate points that you collected in your existing game will be available at new run start.	Sind Sie sicher? Wenn Sie einen neuen Lauf starten, wird Ihr unvollendetes Spiel überschrieben. Die Schicksalspunkte, die Sie in Ihrem bestehenden Spiel gesammelt haben, sind beim Start des neuen Laufs verfügbar.	0		1939022435:Menu panel.prefab
+Some code in text needs to be as is	Are you sure? Starting a new run will overwrite your unfinished game.\nFate points that you collected in your existing game will be available at new run start.	Wenn Sie einen neuen Lauf starten, wird Ihr unvollendetes Spiel überschrieben. Die Schicksalspunkte, die Sie in Ihrem bestehenden Spiel gesammelt haben, sind beim Start des neuen Laufs verfügbar.	0		1939022435:Menu panel.prefab
 	Start a new game	Starten Sie ein neues Spiel	0		1997104661:Menu panel.prefab
 	Shortest Trip to Earth has an inherently brutal difficulty that is especially deadly if you miss learning some of the basics. We kindly recommend you try the tutorial.	Shortest Trip to Earth hat von Natur aus einen brutalen Schwierigkeitsgrad, der besonders tödlich ist, wenn Sie es versäumen, einige der Grundlagen zu lernen. Wir empfehlen Ihnen daher, die Einführung auszuprobieren.	0		1150523483:Menu panel.prefab
 	Tutorial	Einführung	0		1749050947:Menu panel.prefab; 1646305641:Menu panel.prefab
