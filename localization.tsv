@@ -1517,7 +1517,7 @@ steamClickHover	Click to The Old Enemies DLC store page	Zur Store-Seite des DLCs
 dlcInstalledHover	The Old Enemies DLC installed	The Old Enemies DLC installiert	0		Menu panel.prefab
 dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht installiert	0		Menu panel.prefab
 steamClickHover	Click to One Last Run DLC store page	Zur Store-Seite des DLCs One Last Run wechseln	0		Menu panel.prefab
-dlcInstalledHover	One Last Run DLC installed	One Last Run DLC installed	0		Menu panel.prefab
+dlcInstalledHover	One Last Run DLC installed	One Last Run DLC installiert	0		Menu panel.prefab
 dlcNotInstalledHover	One Last Run DLC not installed	One Last Run DLC not installed	0		Menu panel.prefab
 
 Module actions panel.prefab
