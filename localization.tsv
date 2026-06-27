@@ -1516,6 +1516,9 @@ dlcNotInstalledHover	Supporters Pack DLC not installed	Supporters Pack DLC nicht
 steamClickHover	Click to The Old Enemies DLC store page	Klicken Sie auf die The Old Enemies DLC-Store-Seite	0		Menu panel.prefab
 dlcInstalledHover	The Old Enemies DLC installed	The Old Enemies DLC installiert	0		Menu panel.prefab
 dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht installiert	0		Menu panel.prefab
+steamClickHover	Click to One Last Run DLC store page	Click to One Last Run DLC store page	0		Menu panel.prefab
+dlcInstalledHover	One Last Run DLC installed	One Last Run DLC installed	0		Menu panel.prefab
+dlcNotInstalledHover	One Last Run DLC not installed	One Last Run DLC not installed	0		Menu panel.prefab
 
 Module actions panel.prefab
 	Module inherent armor (chance to negate attacks)	Modul Rüstung (Chance, Angriffe zu negieren)	0		17326543:Module actions panel.prefab; 688760695:Module data subpanel.prefab; 1660514575:Module data subpanel.prefab
@@ -4789,6 +4792,14 @@ title	Abandoned shack	Verlassene Hütte	35		337880792:3 P SOS shipwreck FTMC.pre
 text2	The SOS signal came from a crashlanded small shuttle. It seems the crew survived the crash and lived here for years, until being rescued a long time ago.	Das SOS-Signal kam von einem abgestürzten kleinen Shuttle. Es scheint, dass die Besatzung den Absturz überlebte und jahrelang hier lebte, bis sie vor langer Zeit gerettet wurde.	400		337880792:3 P SOS shipwreck FTMC.prefab
 reasonToDisplay	life support module salvaged	Lebenserhaltungsmodul geborgen	30		3 P SOS shipwreck FTMC.prefab
 
+3 P volcanic moon storage M.prefab
+text	This planet is totally worthless for our interests, but its hot moon is worth investigating. Our sensors detected dense metal mass on the surface, perhaps an artificial structure?	Dieser Planet ist für unsere Interessen völlig wertlos, aber sein heißer Mond ist es wert, untersucht zu werden. Unsere Sensoren entdeckten dichte Metallmasse auf der Oberfläche, vielleicht eine künstliche Struktur?	400		171429914:3 P volcanic moon storage M.prefab
+title	Unmarked warehouses	Unmarkierte Lagerhäuser	35		1817670437:3 P volcanic moon storage M.prefab
+text2	Somebody has been using this moon as a poorly hidden storage site. We found two warehouses full of neosteel bars. There was a also a fridge with cold beverages.	Jemand hat diesen Mond als schlecht versteckten Lagerplatz benutzt. Wir fanden zwei Lagerhallen voll mit Neostahlstäben. Es gab auch einen Kühlschrank mit kalten Getränken.	400		1817670437:3 P volcanic moon storage M.prefab
+reasonToDisplay	warehouses looted	Lagerhäuser geplündert	30		3 P volcanic moon storage M.prefab
+text2	The metals detected earlier were molten minerals flowing out of active volcanoes. The extraction cost would be too high to consider mining. The only way this visit affected the journey was inspiring one of the crewmembers tell another one that she finds her to be just like the planet they visited - boring, but hot.	Bei den zuvor entdeckten Metallen handelt es sich um geschmolzene Mineralien, die aus aktiven Vulkanen fließen. Die Abbaukosten wären zu hoch, um einen Abbau in Betracht zu ziehen. Die einzige Art und Weise, wie dieser Besuch die Reise beeinflusste, war die Inspiration eines der Besatzungsmitglieder, einem anderen zu erzählen, dass sie sie genau wie den Planeten findet, den sie besucht haben - langweilig, aber heiß.	400		1884875510:3 P volcanic moon storage M.prefab
+reasonToDisplay	observation finished	Beobachtung beendet	30		3 P volcanic moon storage M.prefab
+
 3 P warp tree crystal and visions T.prefab
 title	Giant crystal	Riesiger Kristall	35		1164652445:3 P warp tree crystal and visions T.prefab
 text	The signal is coming from a massive crystal. It could be precursor tech... or warp life? It has a powerful warp field around it. If we are to study it or communicate, our crew must approach on foot and without any digital tech or implants. Consuming exotic drugs before the encounter might grant their brains additional protection against the warp field.	Das Signal kommt von einem riesigen Kristall. Es könnte Vorläufertechnologie sein... oder Warp-Leben? Er ist von einem starken Warpfeld umgeben. Wenn wir ihn studieren oder kommunizieren wollen, muss unsere Besatzung zu Fuß und ohne Digitaltechnik oder Implantate hinfliegen. Der Konsum exotischer Drogen vor der Begegnung könnte ihre Gehirne zusätzlich vor dem Warpfeld schützen.	400		1164652445:3 P warp tree crystal and visions T.prefab
@@ -4826,14 +4837,6 @@ reasonToDisplay	sensor station scavenged	Sensorenstation geplündert	30		3 P wil
 text2	The structure was a beacon left behind by a precursor species called the Chrysid. We disassembled it and salvaged everything of value, including information from the beacon's data core.	Die Struktur war ein Leuchtfeuer, das von einer Vorläuferspezies namens Chrysid zurückgelassen wurde. Wir haben sie zerlegt und alles Wertvolle geborgen, einschließlich der Informationen aus dem Datenkern der Bake.	400		1816581979:3 P wilderness reserve, O, moonMf and LRsensors.prefab
 reasonToDisplay	beacon scavenged	Bake gesäubert	30		3 P wilderness reserve, O, moonMf and LRsensors.prefab
 text	remote scan...	Fernscan...	50		1643826302:3 P wilderness reserve, O, moonMf and LRsensors.prefab
-
-3 P volcanic moon storage M.prefab
-text	This planet is totally worthless for our interests, but its hot moon is worth investigating. Our sensors detected dense metal mass on the surface, perhaps an artificial structure?	Dieser Planet ist für unsere Interessen völlig wertlos, aber sein heißer Mond ist es wert, untersucht zu werden. Unsere Sensoren entdeckten dichte Metallmasse auf der Oberfläche, vielleicht eine künstliche Struktur?	400		171429914:3 P volcanic moon storage M.prefab
-title	Unmarked warehouses	Unmarkierte Lagerhäuser	35		1817670437:3 P volcanic moon storage M.prefab
-text2	Somebody has been using this moon as a poorly hidden storage site. We found two warehouses full of neosteel bars. There was a also a fridge with cold beverages.	Jemand hat diesen Mond als schlecht versteckten Lagerplatz benutzt. Wir fanden zwei Lagerhallen voll mit Neostahlstäben. Es gab auch einen Kühlschrank mit kalten Getränken.	400		1817670437:3 P volcanic moon storage M.prefab
-reasonToDisplay	warehouses looted	Lagerhäuser geplündert	30		3 P volcanic moon storage M.prefab
-text2	The metals detected earlier were molten minerals flowing out of active volcanoes. The extraction cost would be too high to consider mining. The only way this visit affected the journey was inspiring one of the crewmembers tell another one that she finds her to be just like the planet they visited - boring, but hot.	Bei den zuvor entdeckten Metallen handelt es sich um geschmolzene Mineralien, die aus aktiven Vulkanen fließen. Die Abbaukosten wären zu hoch, um einen Abbau in Betracht zu ziehen. Die einzige Art und Weise, wie dieser Besuch die Reise beeinflusste, war die Inspiration eines der Besatzungsmitglieder, einem anderen zu erzählen, dass sie sie genau wie den Planeten findet, den sie besucht haben - langweilig, aber heiß.	400		1884875510:3 P volcanic moon storage M.prefab
-reasonToDisplay	observation finished	Beobachtung beendet	30		3 P volcanic moon storage M.prefab
 
 3 Pi intcyanide life, empty R.prefab
 title	Cyanidians discovered	Cyanidianer entdeckt	35		278275048:3 Pi intcyanide life, empty R.prefab
@@ -6491,6 +6494,7 @@ Tutorial Battle.prefab
 title	Combat training	Kampftraining	35		758624425:Tutorial Battle.prefab
 text	The practice target moves in to attack us. It is armed with both lasers and projectile weapons.	Das Übungsziel bewegt sich auf uns zu, um uns anzugreifen. Es ist sowohl mit Lasern als auch mit Projektilwaffen bewaffnet.	600		758624425:Tutorial Battle.prefab
 altText	Press <b>space</b> to slow time so you can prepare... Starting a ship vs ship combat resets weapon & warp charge because of a need to recalibrate.	Drücken Sie <b>Leertaste</b>, um die Zeit zu verlangsamen, damit Sie sich vorbereiten können... Das Starten eines Schiff-gegen-Schiff-Kampfes setzt die Waffen- und Warp-Ladung zurück, da eine Neukalibrierung erforderlich ist.	240		2008167255:Tutorial Battle.prefab
+text	Pause, slow motion and normal timeflow buttons	Pause, slow motion and normal timeflow buttons	0		2008167255:Tutorial Battle.prefab
 altText	Try to make sure your shots land on important enemy modules like <b>shield generators, weapons or reactors</b>. Remember that if the shot landing area is over the edges of target ship, some shots might miss completely.	Versuchen Sie sicherzustellen, dass Ihre Schüsse auf wichtigen gegnerischen Modulen wie <b>Schildgeneratoren, Waffen oder Reaktoren</b> landen. Denken Sie daran, dass einige Schüsse komplett daneben gehen können, wenn der Landebereich der Schüsse über den Kanten des Zielschiffs liegt.	240		117100109:Tutorial Battle.prefab
 altText	Currently, our weapons are remotely operated by the bridge (the <b>B symbol</b>).\nThis means they are working, but without accuracy & recharge bonus from your crew.\nSend crew with <b>gunnery skill</b> to operate <b>every weapon</b>, to ensure max accuracy bonus.	Derzeit werden die Waffen von der Brücke aus ferngesteuert (das <b>B-Symbol</b>).\nDas bedeutet, dass sie funktionieren, aber ohne Genauigkeits- und Nachladebonus von Ihrer Besatzung.\nSchicken Sie ein Besatzungsmitglied mit <b>Geschützfertigkeit</b>, um <b>jede Waffe</b> zu bedienen, um einen maximalen Genauigkeitsbonus zu gewährleisten.	240		1112127308:Tutorial Battle.prefab
 altText	Weapons can be selected by clicking on them on the ship or on the <b>Quick selection bar</b>. Pressing a number 1...9 on your keyboard is the fastest way to select a weapon.	Waffen können durch Anklicken auf dem Schiff oder in der <b>Schnellauswahlleiste</b> selektiert werden. Das Drücken der Zahlen 1-9 auf Ihrer Tastatur ist der schnellste Weg, eine Waffe auszuwählen.	240		1884413520:Tutorial Battle.prefab
@@ -7306,7 +7310,7 @@ title	Fuel trader (Gitchanki individual)	Treibstoffhändler (Gitchanki Individuu
 text	"Existential salutations, fellow consciousness! Let us trade forms of energy for mutual profit. Our fleet will be leaving this system after this meeting is over, so this is truly a once-in-a-lifetime offer!"	"Existentielle Begrüßung, Mitbewusstsein! Lasst uns Energieformen zum gegenseitigen Vorteil tauschen. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also ist dies wirklich ein einmaliges Angebot!"	400		107560657:Merchants L1 fuel trader, gitchanki.prefab
 choiceText	Buy [get 100 fuel for 166 credits]	Kaufen [+100 Treibstoff, -166 Kredite]	100		107560657:Merchants L1 fuel trader, gitchanki.prefab; 3376879:Merchants L3 fuel trader, space eel.prefab; 1806055060:Merchants L4 fuel trader gitchanki.prefab
 choiceText	Barter [get 100 fuel for 3 exotics]	Tauschen [+100 Treibstoff, -3 Exoten]	100		107560657:Merchants L1 fuel trader, gitchanki.prefab; 3376879:Merchants L3 fuel trader, space eel.prefab; 597001486:Merchants L2 fuel trader githanki duo.prefab; 1806055060:Merchants L4 fuel trader gitchanki.prefab
-choiceText	Sell [get 50 credits for 1 exotics]	Verkaufen [+50 Kredite, -1 Exoten]	100		597001486:Merchants L2 fuel trader githanki duo.prefab; 1358906618:Merchants L3 organics trader, redmonster.prefab; 1806055060:Merchants L4 fuel trader gitchanki.prefab; 2146638520:Merchants L6 fuel barter.prefab
+choiceText	Sell [get 55 credits for 1 exotics]	Verkaufen [+55 Kredite, -1 Exoten]	100		107560657:Merchants L1 fuel trader, gitchanki.prefab; 3376879:Merchants L3 fuel trader, space eel.prefab; 112015609:Merchants L1 metal trader, techum.prefab; 256133484:Merchants L4 metal trader techum.prefab; 351791721:Merchants L2 organics trader mantis.prefab; 1158218461:Merchants L4 organics trader redmonster.prefab; 1611583421:Merchants L1 organics trader insectoidian.prefab
 title	Gitchanki trader	Gitchanki-Händler	35		1359383201:Merchants L1 fuel trader, gitchanki.prefab; 138741780:Merchants L1 fuel trader, gitchanki.prefab; 1704825721:Merchants L1 fuel trader, gitchanki.prefab; 1806055060:Merchants L4 fuel trader gitchanki.prefab
 text2	"Thanks for the trade. I've also included a small gift!" The traders have gifted us a sculpture, made of plastic explosives. It is an accurate 3D model of what it would look like if the sculpture exploded. A truly unique piece of art.	"Vielen Dank für den Handel. Ich habe auch ein kleines Geschenk beigelegt!" Die Händler haben uns eine Skulptur geschenkt, die aus Plastiksprengstoff besteht. Es ist ein genaues 3D-Modell davon, wie es aussehen würde, wenn die Skulptur explodieren würde. Ein wirklich einzigartiges Kunstwerk.	400		1359383201:Merchants L1 fuel trader, gitchanki.prefab
 text2	"Thank you for doing business with us! Please accept these small murder resources as a gift." The alien traders have included a case of ancient munitions as a free bonus.	"Danke, dass Sie mit uns Geschäfte machen! Bitte nehmen Sie diese kleinen Mordressourcen als Geschenk an." Die Alien-Händler haben eine Kiste mit antiker Munition als kostenlosen Bonus beigelegt.	400		1704825721:Merchants L1 fuel trader, gitchanki.prefab
@@ -7318,7 +7322,6 @@ title	Metals trader (Techum Collective)	Metallhändler (Techum-Kollektiv)	35		11
 text	"Merry existence to you, fellow consciousness! Let us trade varieties of matter for mutual benefit. Our fleet will be departing this system after the present interaction, so we present you with an exclusive set of offers."	"Frohes Dasein für euch, Mitbewusstsein! Lasst uns zum gegenseitigen Nutzen mit verschiedenen Arten von Materie handeln. Unsere Flotte wird dieses System nach dieser Interaktion verlassen, daher präsentieren wir Ihnen ein exklusives Angebot."	400		112015609:Merchants L1 metal trader, techum.prefab
 choiceText	Buy [get 200 metals for 166 credits]	Kaufen [+200 Metalle, -166 Kredite]	100		112015609:Merchants L1 metal trader, techum.prefab; 256133484:Merchants L4 metal trader techum.prefab; 351667593:Merchants L2 metal trader techum duo.prefab
 choiceText	Barter [get 200 metals for 4 exotics]	Tauschen [+200 Metalle, -4 Exoten]	100		112015609:Merchants L1 metal trader, techum.prefab; 256133484:Merchants L4 metal trader techum.prefab
-choiceText	Sell [get 55 credits for 1 exotics]	Verkaufen [+55 Kredite, -1 Exoten]	100		107560657:Merchants L1 fuel trader, gitchanki.prefab; 3376879:Merchants L3 fuel trader, space eel.prefab; 112015609:Merchants L1 metal trader, techum.prefab; 256133484:Merchants L4 metal trader techum.prefab; 351791721:Merchants L2 organics trader mantis.prefab; 1158218461:Merchants L4 organics trader redmonster.prefab; 1611583421:Merchants L1 organics trader insectoidian.prefab
 text2	"Thank you for the exchange. Please accept this minor gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew, known for its strength. It is meant for cyborgs only and can be burned as starfuel.	"Vielen Dank für den Tausch. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu geschenkt, das für seine Stärke bekannt ist. Es ist nur für Cyborgs bestimmt und kann als Sternentreibstoff verbrannt werden.	400		782438461:Merchants L1 metal trader, techum.prefab
 title	Techum trader	Techum-Händler	35		782438460:Merchants L1 metal trader, techum.prefab; 782438447:Merchants L1 metal trader, techum.prefab
 text2	"Thank you for the interaction. Please accept this modest gift as an additional expression of gratitude." The traders have gifted us a ceramic atomic-blast proof sculpture, depicting three Techum sexual organs in their original, organic form. A truly unique tradition expressing the source of everything.	"Vielen Dank für die Interaktion. Bitte nehmen Sie dieses bescheidene Geschenk als zusätzlichen Ausdruck der Dankbarkeit an." Die Händler haben uns eine atomsprengungsfeste Keramikskulptur geschenkt, die drei Techum-Sexualorgane in ihrer ursprünglichen, organischen Form darstellt. Eine wahrhaft einzigartige Tradition, die die Quelle von allem zum Ausdruck bringt.	400		782438460:Merchants L1 metal trader, techum.prefab
@@ -7340,6 +7343,7 @@ Merchants L2 fuel trader githanki duo.prefab
 title	Fuel trader (Gitchanki duo)	Treibstoffhändler (Gitchanki-Duo)	35		597001486:Merchants L2 fuel trader githanki duo.prefab
 text	"Existential salutations, fellow consciousness! Let us trade forms of energy for mutual profit. Our fleet will be leaving this system after this little trade encounter, so this is truly our last and best offer!"	"Existenzielle Grüße, Mitbewusstsein! Lasst uns Energieformen zum gegenseitigen Vorteil tauschen. Unsere Flotte wird dieses System nach dieser kleinen Handelsbegegnung verlassen, also ist dies wirklich unser letztes und bestes Angebot!"	400		597001486:Merchants L2 fuel trader githanki duo.prefab
 choiceText	Buy [get 100 fuel for 177 credits]	Kaufen [+100 Treibstoff, -177 Kredite]	100		597001486:Merchants L2 fuel trader githanki duo.prefab
+choiceText	Sell [get 50 credits for 1 exotics]	Verkaufen [+50 Kredite, -1 Exoten]	100		597001486:Merchants L2 fuel trader githanki duo.prefab; 1358906618:Merchants L3 organics trader, redmonster.prefab; 1806055060:Merchants L4 fuel trader gitchanki.prefab; 2146638520:Merchants L6 fuel barter.prefab
 text2	"Thanks for the business! Please accept this small gift as an additional token of our gratitude." The traders have gifted us a sculpture of some kind of mythical monster, made of edibles. It smells of cinnamon.	"Vielen Dank für das Geschäft! Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die Händler haben uns eine Skulptur einer Art mythischen Monsters geschenkt, die aus Essbarem besteht. Es riecht nach Zimt.	400		1578337753:Merchants L2 fuel trader githanki duo.prefab
 text2	"We appreciate your willingness to trade! Please accept this small gift as an additional token of our gratitude." The alien traders have included a case of ancient munitions as a free bonus. Each munition has a vulgar word written on it.	"Wir schätzen Ihre Bereitschaft zum Handel! Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die außerirdischen Händler haben eine Kiste mit antiker Munition als kostenlosen Bonus beigelegt. Auf jeder Munition ist ein vulgäres Wort geschrieben.	400		1923780273:Merchants L2 fuel trader githanki duo.prefab
 text2	"Thank you for accepting the deal. Please take this small gift as an additional token of our gratitude." The traders have included a case full of cheap recreational consumables in their package.	"Danke, dass Sie das Angebot angenommen haben. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit." Die Händler haben eine Kiste mit billigem Freizeitverbrauchsmaterial in ihr Paket gelegt.	400		357696332:Merchants L2 fuel trader githanki duo.prefab
@@ -7599,7 +7603,7 @@ description	Rat handcannon with extreme spread.\nCollateral damage guaranteed. M
 
 Hand weapon diy crossbow.prefab
 displayName	DIY crossbow	Selbstbau-Armbrust	25		1035392137:Hand weapon diy crossbow.prefab
-description	Ancient projectile weapon, self-assembled from spare parts.\nSurprisingly accurate despite simplicity.\nMedium range, low rate of fire and damage.	Uralte Projektilwaffe, selbst zusammengebaut aus Ersatzteilen. \nÜberraschend genau trotz Simplizität. \nMittlere Reichweite, geringe Feuerrate und Schaden.	250		1035392137:Hand weapon diy crossbow.prefab
+description	Ancient projectile weapon, self-assembled from spare parts, but uses exotics-tipped armor-piercing bolts.\nSurprisingly accurate despite simplicity.\nMedium range, low rate of fire.	Antike Projektilwaffe, die aus Ersatzteilen selbst zusammengebaut wurde, jedoch panzerbrechende Bolzen mit exotischen Spitzen verwendet.\nTrotz ihrer Einfachheit überraschend präzise.\nMittlere Reichweite, geringe Feuerrate.	250		1035392137:Hand weapon diy crossbow.prefab
 
 Hand weapon diy pistol.prefab
 displayName	DIY pistol	Selbstbau-Pistole	25		1290431182:Hand weapon diy pistol.prefab
@@ -7635,7 +7639,7 @@ description	Firebreathing	Feuerspeiend	250		732436817:Hand weapon flames.prefab
 
 Hand weapon handcannon.prefab
 displayName	Handcannon	Handkanone	25		658851245:Hand weapon handcannon.prefab
-description	Recoilless hand-cannon for taking out tactical mechas and small ships. \nExtreme range, medium accuracy, slow reload.	Rückstoßfreie Handkanone zum Ausschalten von taktischen Mechas und kleinen Schiffen. \nExtreme Reichweite, mittlere Genauigkeit, langsames Nachladen.	250		658851245:Hand weapon handcannon.prefab
+description	Recoilless hand-cannon for taking out tactical mechas and small ships. \nMedium accuracy, slow reload.	Rückstoßfreie Handkanone zum Ausschalten taktischer Mechas und kleiner Schiffe. \nMittlere Treffgenauigkeit, langsames Nachladen.	250		658851245:Hand weapon handcannon.prefab
 
 Hand weapon insect pinkray pistol.prefab
 displayName	Hand blaster	Handblaster	25		928676718:Hand weapon insect pinkray pistol.prefab
@@ -7643,7 +7647,7 @@ description	A high-tech handweapon shooting miniature warp rays.\nDeadly and acc
 
 Hand weapon insect pinkray rifle.prefab
 displayName	Death ray gun	Todesstrahlgewehr	25		154008401:Hand weapon insect pinkray rifle.prefab
-description	A high-tech rifle, shooting miniature warp rays.\nDeadly and accurate.	Ein Hightech-Gewehr, das Miniatur-Warpstrahlen verschießt. \nTödlich und präzise.	250		154008401:Hand weapon insect pinkray rifle.prefab
+description	A high-tech ultra-powerful energy rifle, shooting miniature warp rays.\nDeadly and accurate.	Ein hochmodernes, extrem leistungsstarkes Energiegewehr, das winzige Warp-Strahlen abfeuert.\nTödlich und präzise.	250		154008401:Hand weapon insect pinkray rifle.prefab
 
 Hand weapon laser pistol.prefab
 displayName	Laser pistol	Laserpistole	25		2126525717:Hand weapon laser pistol.prefab
@@ -7677,13 +7681,17 @@ Hand weapon shotgun.prefab
 displayName	Shotgun	Schrotflinte	25		1702502749:Hand weapon shotgun.prefab
 description	Ancient projectile weapon, shoots clouds of tiny metal pellets with wide spread.\nHarmless to modules. Deadly at close distances, medium range.	Antike Projektilwaffe, verschießt Wolken von winzigen Metallkugeln mit großer Streuung. \nHarmlos für Module. Tödlich auf kurze Distanz, mittlere Reichweite.	250		1702502749:Hand weapon shotgun.prefab
 
+Hand weapon tank.prefab
+displayName	Heavy autocannon	Schwere Autokanone	25		1475502433:Hand weapon tank.prefab
+description	Modified autocannon. Has a minor AI witness inside to prevent war crimes.	Modifizierte Autokanone. Verfügt über eine kleine KI-Einheit im Inneren, um Kriegsverbrechen zu verhindern.	250		1475502433:Hand weapon tank.prefab
+
 Hand weapon tazerfists.prefab
 displayName	Warp fists	Warp-Fäuste	25		678337536:Hand weapon tazerfists.prefab
-description	Exotic device that allows shooting warp arcs at close range.\nCan be also used to create tiny holograms above palms.	Exotisches Gerät, das es erlaubt, Warp-Bögen auf kurze Distanz zu schießen. \nKann auch verwendet werden, um winzige Hologramme über den Handflächen zu erzeugen.	250		678337536:Hand weapon tazerfists.prefab
+description	Exotic device that allows shooting deadly warp arcs at close range.\nCan be also used to create tiny holograms above palms.	Ein exotisches Gerät, mit dem man aus nächster Nähe tödliche Warp-Bögen abfeuern kann.\nEs kann auch dazu verwendet werden, winzige Hologramme über den Handflächen zu erzeugen.	250		678337536:Hand weapon tazerfists.prefab
 
 Hand weapon uzi.prefab
 displayName	Uzi	Maschinenpistole	25		799894355:Hand weapon uzi.prefab
-description	Ancient rapid projectile weapon, designed according to the 'spray & pray' principle.\nExtreme spread, medium range.	Uralte Schnellfeuerwaffe, die nach dem "Sprühen & Beten"-Prinzip konstruiert ist.\nExtreme Streuung, mittlere Reichweite.	250		799894355:Hand weapon uzi.prefab
+description	Ancient rapid projectile weapon. It was designed according to the 'spray & pray' principle. Extreme spread, medium range.	Eine alte Schnellfeuerwaffe. Sie wurde nach dem 'Spray & Pray'-Prinzip konstruiert. Extreme Streuung, mittlere Reichweite.	250		799894355:Hand weapon uzi.prefab
 
 Hand weapon warp moleculoray.prefab
 displayName	Moleculoray	Molekularstrahl	25		1795501037:Hand weapon warp moleculoray.prefab
@@ -7708,8 +7716,8 @@ Hand weapon welder light.prefab
 displayName	Light welder	Leichter Schweißer	25		1406687669:Hand weapon welder light.prefab
 
 Hand weapon yellow raypistol.prefab
-displayName	Heavy n-ray pistol	Schwere N-Strahlen-Pistole	25		1688300750:Hand weapon yellow raypistol.prefab
-description	This accurate raygun has a long recharge cycle, but powerful and accurate shots.	Diese präzise Strahlenpistole hat einen langen Nachladezyklus, aber starke und präzise Schüsse.	250		1688300750:Hand weapon yellow raypistol.prefab
+displayName	Heavy n-ray autopistol	Schwere N-Strahlen-Autopistole	25		1688300750:Hand weapon yellow raypistol.prefab
+description	This modern raygun generates powerful and accurate shots of exotic energies.	Diese moderne Strahlenwaffe erzeugt kraftvolle und präzise Schüsse aus exotischen Energien.	250		1688300750:Hand weapon yellow raypistol.prefab
 
 Combat Drone Humanoid.prefab
 dieMessage	{0} has been destroyed.	{0} wurde zerstört.	70		Combat Drone Humanoid.prefab; Drone pet.prefab
@@ -7742,7 +7750,7 @@ appearance[i].description	Internal DIY security drone. Cannot repair, can only d
 
 Drone DIY gunjunker.prefab
 appearance[i].name	DIY Tank	Selbstbau Panzer	30		745155399:Drone DIY gunjunker.prefab
-appearance[i].description	A repurposed industrial drone, fitted with armor & custom-made weapon. Very durable and fire resistant, has a turtle-based AI.	Eine umfunktionierte Industriedrohne, ausgestattet mit Panzerung und speziell angefertigter Waffe. Sehr robust und feuerfest, hat eine schildkrötenbasierte KI.	250		745155399:Drone DIY gunjunker.prefab
+appearance[i].description	An industrial drone repurposed into tank, fitted with armor & custom-made weapon. Very durable and fire resistant, has a turtle-based AI.	Eine als Panzer umgebaute Industriedrohne, ausgestattet mit Panzerung und einer maßgeschneiderten Waffe. Sehr robust und feuerfest, verfügt über eine auf Schildkröten-basierende KI.	250		745155399:Drone DIY gunjunker.prefab
 
 Drone DIY gunnery.prefab
 appearance[i].description	Gunnery drone with limited capabilities. Can operate only weapon modules. Cannot repair.	Geschützdrohne mit eingeschränkten Fertigkeiten. Kann nur Waffenmodule bedienen. Kann nicht reparieren.	250		107982400:Drone DIY gunnery.prefab
@@ -7882,9 +7890,10 @@ appearance[i].description	Mantis individual.	Mantis-Individuum.	250		1821850499:
 Pirates humanoid crew.prefab
 appearance[i].description	Human individual. Packed with implants of questionable quality.	Menschliches Individuum. Vollgepackt mit Implantaten von fragwürdiger Qualität.	250		1864623772:Pirates humanoid crew.prefab
 appearance[i].description	A human individual with various improvised body augmentations. Older memories are mindwiped, probably for a good reason.	Ein menschliches Individuum mit verschiedenen improvisierten Körpervergrößerungen. Ältere Erinnerungen wurden ausgelöscht, wahrscheinlich aus gutem Grund.	250		1864623772:Pirates humanoid crew.prefab
-appearance[i].description	Human individual. Packed with various implants and body augmentations.	Menschliches Individuum. Vollgepackt mit verschiedenen Implantaten und Körpervergrößerungen.	250		1864623772:Pirates humanoid crew.prefab
+appearance[i].description	Human individual. Armored and packed with various implants and body augmentations.	Ein Mensch. Gepanzert und mit verschiedenen Implantaten und Körperverbesserungen ausgestattet.	250		1864623772:Pirates humanoid crew.prefab
 appearance[i].description	Rat individual. Extreme body modifications and implants.	Rattenindividuum. Extreme Körpermodifikationen und Implantate.	250		1864623772:Pirates humanoid crew.prefab
-appearance[i].description	Pirate warrior. Many body modifications and implants.	Piratenkrieger. Viele Körpermodifikationen und Implantate.	250		1864623772:Pirates humanoid crew.prefab; 1864623772:Pirates humanoid crew.prefab; 1864623772:Pirates humanoid crew.prefab; 1864623772:Pirates humanoid crew.prefab
+appearance[i].description	Pirate warrior. Many body modifications and implants.	Piratenkrieger. Zahlreiche Körpermodifikationen und Implantate.	250		1864623772:Pirates humanoid crew.prefab; 1864623772:Pirates humanoid crew.prefab
+appearance[i].description	Pirate warrior. Many body modifications and armor implants.	Piratenkrieger. Zahlreiche Körpermodifikationen und Rüstungsimplantate.	250		1864623772:Pirates humanoid crew.prefab; 1864623772:Pirates humanoid crew.prefab
 
 Rat crew cook.prefab
 appearance[i].description	An excellent Rat cook from a famous university. Also skilled in gardening, loves food and cats.	Ein ausgezeichneter Rattenkoch von einer berühmten Universität. Auch geschickt in Gartenarbeit, liebt Essen und Katzen.	250		1415638274:Rat crew cook.prefab
@@ -8234,8 +8243,8 @@ text	You have retired your last crewmember, and there is nobody left to operate 
 Bridge slot.prefab
 displayName	Bridge slot	Brückensteckplatz	35		1212275043:Bridge slot.prefab
 description	Accepts only bridge modules, cannot be upgraded.	Nimmt nur Brückenmodule auf, kann nicht aufgerüstet werden.	250		1212275043:Bridge slot.prefab
-	REPLACE	ERSETZEN	10		741005590:Bridge slot.prefab; 42479042:Undeveloped Battle Tiger nuke launcher slot.prefab; 56738353:undeveloped nuke launcher slot for weirdship.prefab; 87777149:Nuke launcher slot for 06 atlas.prefab; 399052856:dlc2/undeveloped nuke launcher slot for warpshell.prefab; 427401425:Container slot.prefab; 544121390:Engine slot.prefab; 551541354:Storage slot.prefab; 640613106:Undeveloped internal slot.prefab; 681143438:Undeveloped Bluestar nuke launcher slot.prefab; 747878038:Nuke launcher slot for 03 weirdship.prefab; 776226021:Nuke launcher slot for 01 Tigerfish.prefab; 896663481:Weapon core slot.prefab; 928932132:Undeveloped gardenship nuke launcher slot.prefab; 955700446:Nuke launcher slot for 05 gardenship.prefab; 1125710550:Nuke launcher slot for 02 Nuke Runner.prefab; 1162707286:Nuke launcher slot for 08 endurance.prefab; 1283270176:Nuke launcher slot for 07 bluestar.prefab; 1296425620:Hybrid slot.prefab; 1380741249:Internal core slot.prefab; 1539911660:Weapon slot.prefab; 1563406253:Nuke launcher slot.prefab; 1866601361:Nuke launcher slot for 04 Rogue Rat.prefab; 1867899557:Nuke launcher slot for 09 warpshell.prefab; 2112740995:Internal slot.prefab; 2128262062:Warp slot.prefab
-	UPGRADE\nSLOT	AUF- \nRÜSTEN	10		677396506:Bridge slot.prefab; 134549999:Nuke launcher slot.prefab; 184951556:Undeveloped internal slot.prefab; 214732098:Internal slot.prefab; 280638611:Undeveloped Battle Tiger nuke launcher slot.prefab; 446136145:Hybrid slot.prefab; 554330069:Nuke launcher slot for 08 endurance.prefab; 555106521:Internal core slot.prefab; 592380007:Container slot.prefab; 669420992:Storage slot.prefab; 750000255:Undeveloped gardenship nuke launcher slot.prefab; 785896364:Nuke launcher slot for 06 atlas.prefab; 791328139:Nuke launcher slot for 02 Nuke Runner.prefab; 925332444:Engine slot.prefab; 1052507320:Nuke launcher slot for 07 bluestar.prefab; 1164314063:Nuke launcher slot for 04 Rogue Rat.prefab; 1252676212:Undeveloped Bluestar nuke launcher slot.prefab; 1295475456:Weapon slot.prefab; 1379413161:Nuke launcher slot for 09 warpshell.prefab; 1526504513:Nuke launcher slot for 03 weirdship.prefab; 1663771363:Nuke launcher slot for 05 gardenship.prefab; 1691972246:Weapon core slot.prefab; 1719361504:Warp slot.prefab; 1909694888:Nuke launcher slot for 01 Tigerfish.prefab; 1965272229:dlc2/undeveloped nuke launcher slot for warpshell.prefab; 2087651403:undeveloped nuke launcher slot for weirdship.prefab
+	REPLACE	ERSETZEN	10		741005590:Bridge slot.prefab; 42479042:Undeveloped Battle Tiger nuke launcher slot.prefab; 56738353:undeveloped nuke launcher slot for weirdship.prefab; 87777149:Nuke launcher slot for 06 atlas.prefab; 399052856:dlc2/undeveloped nuke launcher slot for warpshell.prefab; 427401425:Container slot.prefab; 544121390:Engine slot.prefab; 551541354:Storage slot.prefab; 640613106:Undeveloped internal slot.prefab; 681143438:Undeveloped Bluestar nuke launcher slot.prefab; 747878038:Nuke launcher slot for 03 weirdship.prefab; 776226021:Nuke launcher slot for 01 Tigerfish.prefab; 896663481:Weapon core slot.prefab; 928932132:Undeveloped gardenship nuke launcher slot.prefab; 955700226:dlc3/Nuke launcher slot for 14 warrior.prefab; 955700446:Nuke launcher slot for 05 gardenship.prefab; 1125710550:Nuke launcher slot for 02 Nuke Runner.prefab; 1162707286:Nuke launcher slot for 08 endurance.prefab; 1283270176:Nuke launcher slot for 07 bluestar.prefab; 1296425620:Hybrid slot.prefab; 1380741249:Internal core slot.prefab; 1539911660:Weapon slot.prefab; 1563406253:Nuke launcher slot.prefab; 1866601361:Nuke launcher slot for 04 Rogue Rat.prefab; 1867899557:Nuke launcher slot for 09 warpshell.prefab; 2112740995:Internal slot.prefab; 2128262062:Warp slot.prefab
+	UPGRADE\nSLOT	AUF- \nRÜSTEN	10		677396506:Bridge slot.prefab; 134549999:Nuke launcher slot.prefab; 184951556:Undeveloped internal slot.prefab; 214732098:Internal slot.prefab; 280638611:Undeveloped Battle Tiger nuke launcher slot.prefab; 446136145:Hybrid slot.prefab; 554330069:Nuke launcher slot for 08 endurance.prefab; 555106521:Internal core slot.prefab; 592380007:Container slot.prefab; 669420992:Storage slot.prefab; 750000255:Undeveloped gardenship nuke launcher slot.prefab; 785896364:Nuke launcher slot for 06 atlas.prefab; 791328139:Nuke launcher slot for 02 Nuke Runner.prefab; 925332444:Engine slot.prefab; 1052507320:Nuke launcher slot for 07 bluestar.prefab; 1164314063:Nuke launcher slot for 04 Rogue Rat.prefab; 1252676212:Undeveloped Bluestar nuke launcher slot.prefab; 1295475456:Weapon slot.prefab; 1379413161:Nuke launcher slot for 09 warpshell.prefab; 1526504513:Nuke launcher slot for 03 weirdship.prefab; 1663771000:dlc3/Nuke launcher slot for 14 warrior.prefab; 1663771363:Nuke launcher slot for 05 gardenship.prefab; 1691972246:Weapon core slot.prefab; 1719361504:Warp slot.prefab; 1909694888:Nuke launcher slot for 01 Tigerfish.prefab; 1965272229:dlc2/undeveloped nuke launcher slot for warpshell.prefab; 2087651403:undeveloped nuke launcher slot for weirdship.prefab
 
 Container slot.prefab
 displayName	Container module slot	Behälter-Modulsteckplatz	35		43861595:Container slot.prefab
@@ -8261,8 +8270,8 @@ displayName	Internal module slot	Interner Modulsteckplatz	35		905884163:Internal
 description	Accepts normal internal modules that do not require a special slot.	Nimmt normale interne Module auf, die keinen speziellen Steckplatz benötigen.	250		905884163:Internal slot.prefab
 
 Nuke launcher slot for 01 Tigerfish.prefab
-displayName	Capital missile launch tube	Abschussrohr für Bomben	35		805858018:Nuke launcher slot for 01 Tigerfish.prefab; 492576463:Nuke launcher slot for 09 warpshell.prefab; 566477054:Nuke launcher slot for 03 weirdship.prefab; 817468931:Nuke launcher slot.prefab; 872202749:Nuke launcher slot for 06 atlas.prefab; 1354376818:Nuke launcher slot for 05 gardenship.prefab; 1929108273:Nuke launcher slot for 07 bluestar.prefab; 2009558963:Nuke launcher slot for 02 Nuke Runner.prefab; 2111684389:Nuke launcher slot for 04 Rogue Rat.prefab; 2143122961:Nuke launcher slot for 08 endurance.prefab
-description	Accepts only capital missiles	Akzeptiert nur Bomben	250		805858018:Nuke launcher slot for 01 Tigerfish.prefab; 492576463:Nuke launcher slot for 09 warpshell.prefab; 566477054:Nuke launcher slot for 03 weirdship.prefab; 817468931:Nuke launcher slot.prefab; 872202749:Nuke launcher slot for 06 atlas.prefab; 1354376818:Nuke launcher slot for 05 gardenship.prefab; 1929108273:Nuke launcher slot for 07 bluestar.prefab; 2009558963:Nuke launcher slot for 02 Nuke Runner.prefab; 2111684389:Nuke launcher slot for 04 Rogue Rat.prefab; 2143122961:Nuke launcher slot for 08 endurance.prefab
+displayName	Capital missile launch tube	Abschussrohr für Bomben	35		805858018:Nuke launcher slot for 01 Tigerfish.prefab; 492576463:Nuke launcher slot for 09 warpshell.prefab; 566477054:Nuke launcher slot for 03 weirdship.prefab; 756304675:dlc3/Nuke launcher slot for 14 warrior.prefab; 817468931:Nuke launcher slot.prefab; 872202749:Nuke launcher slot for 06 atlas.prefab; 1354376818:Nuke launcher slot for 05 gardenship.prefab; 1929108273:Nuke launcher slot for 07 bluestar.prefab; 2009558963:Nuke launcher slot for 02 Nuke Runner.prefab; 2111684389:Nuke launcher slot for 04 Rogue Rat.prefab; 2143122961:Nuke launcher slot for 08 endurance.prefab
+description	Accepts only capital missiles	Akzeptiert nur Bomben	250		805858018:Nuke launcher slot for 01 Tigerfish.prefab; 492576463:Nuke launcher slot for 09 warpshell.prefab; 566477054:Nuke launcher slot for 03 weirdship.prefab; 756304675:dlc3/Nuke launcher slot for 14 warrior.prefab; 817468931:Nuke launcher slot.prefab; 872202749:Nuke launcher slot for 06 atlas.prefab; 1354376818:Nuke launcher slot for 05 gardenship.prefab; 1929108273:Nuke launcher slot for 07 bluestar.prefab; 2009558963:Nuke launcher slot for 02 Nuke Runner.prefab; 2111684389:Nuke launcher slot for 04 Rogue Rat.prefab; 2143122961:Nuke launcher slot for 08 endurance.prefab
 
 Nuke launcher slot for 02 Nuke Runner.prefab
 
@@ -8316,6 +8325,14 @@ description	Accepts weapons and other modules, can be downgraded to point-defenc
 upgrades[i].text	Upgrade to core weapon slot	Aufrüstung zum Kernwaffen-Steckplatz	35		1837849614:Weapon slot.prefab
 upgrades[i].text	Downgrade to hybrid slot	Herabstufung zum Hybrid-Steckplatz	35		1837849614:Weapon slot.prefab
 
+artifactmodule10 rahn tutorial.prefab
+displayName	Exotic artifact	Exotisches Artefakt	40		606853666:artifactmodule10 rahn tutorial.prefab
+description	A giant chunk of solidified exotic substances, contains 10 times more exotics than regularly foundable chunks. Can be scrapped to break into tradeable exotics.	Ein riesiger Brocken aus erstarrten exotischen Substanzen, der zehnmal mehr Exoten enthält als üblicherweise auffindbare Brocken. Kann verschrottet werden, um handelbare Exoten zu gewinnen.	200		606853666:artifactmodule10 rahn tutorial.prefab
+
+long range sensor 2 old tutorial.prefab
+displayName	Long range sensor II [old]	Langstreckensensor II [alt]	40		168562189:long range sensor 2 old tutorial.prefab
+description	Improves ship sensor range in starsystem and sector view.\nSensors are not cumulative (only the best sensor range values are used).	Verbessert die Reichweite der Schiffssensoren in der Sternensystem- und Sektoransicht.\nDie Sensorreichweiten addieren sich nicht (es werden nur die besten Werte berücksichtigt).	200		168562189:long range sensor 2 old tutorial.prefab; 1536566470:sensor 5 EB saucer s1.prefab
+
 artifactmodule nat bluecrystal.prefab
 displayName	Natural artifact (exotic crystal)	Natürliches Artefakt (exotischer Kristall)	40		2016575469:artifactmodule nat bluecrystal.prefab; 951480953:artifactmodule nat whitecrystal.prefab; 1689256804:artifactmodule nat rahn.prefab
 description	A giant exotic crystal.	Ein riesiger exotischer Kristall.	200		2016575469:artifactmodule nat bluecrystal.prefab
@@ -8356,7 +8373,7 @@ description	A piece of non-repairable xenotechnology that contains a small, dead
 
 artifactmodule tec 12 data square gizmo with minidomes.prefab
 displayName	Tech artifact (data core)	Tech-Artefakt (Datenkern)	40		1745395905:artifactmodule tec 12 data square gizmo with minidomes.prefab; 179311961:artifactmodule tec 21 data core rectangle gizmo.prefab
-description	A giant data core with some valuable information inside (which can be obtained only by breaking it). The module can be also used as a crude integrity hardpoint.	Ein riesiger Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann auch als grober Integritäts-Ansatzpunkt verwendet werden.	200		1745395905:artifactmodule tec 12 data square gizmo with minidomes.prefab; 179311961:artifactmodule tec 21 data core rectangle gizmo.prefab
+description	A giant data core with some valuable information inside (which can be obtained only by breaking it). The module can be also used as a crude integrity hardpoint.	Ein riesiger Datenkern mit einigen wertvollen Informationen im Inneren (die nur durch Zerbrechen erhalten werden können). Das Modul kann auch als grober Integritäts-Ansatzpunkt verwendet werden.	200		1745395905:artifactmodule tec 12 data square gizmo with minidomes.prefab
 
 artifactmodule tec 13 data core brassdome ECM.prefab
 displayName	Tech artifact (ECM integrity data core)	Tech-Artefakt (EGM-Integritätsdatenkern)	40		1745395904:artifactmodule tec 13 data core brassdome ECM.prefab
@@ -8367,22 +8384,23 @@ displayName	Tech artifact	Tech-Artefakt	40		1745395900:artifactmodule tec 17 bro
 description	A piece of non-usable xenotechnology. Scrapping would yield resources and research data.	Ein Stück nicht verwendbarer Xenotechnologie. Eine Verschrottung würde Ressourcen und Forschungsdaten ergeben.	200		1745395900:artifactmodule tec 17 broken screen gizmo, data.prefab; 179311957:artifactmodule tec 25 broken screen gizmo.prefab; 760711667:artifactmodule tec 36 broken gizmo.prefab
 
 artifactmodule tec 21 data core rectangle gizmo.prefab
+description	A giant processor with some valuable information inside (which can be obtained only by breaking it) and stealth decryption capability.	Ein riesiger Prozessor, der wertvolle Informationen enthält (die nur durch Zerstörung des Prozessors zugänglich sind) und über eine verdeckte Entschlüsselungsfunktion verfügt.	200		179311961:artifactmodule tec 21 data core rectangle gizmo.prefab
 
 artifactmodule tec 22 metal synt gizmo ECM.prefab
 displayName	Tech artifact (ECM integrity hardpoint)	Tech-Artefakt (EGM-Integritäts-Ansatzpunkt)	40		179311964:artifactmodule tec 22 metal synt gizmo ECM.prefab; 179311963:artifactmodule tec 23 metal gizmo with light ECM.prefab
-description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint and produces ECM static if powered. Scrapping would yield resources and research data.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden und erzeugt EGM-Statik, wenn es mit Strom versorgt wird. Eine Verschrottung würde Ressourcen und Forschungsdaten ergeben.	200		179311964:artifactmodule tec 22 metal synt gizmo ECM.prefab
+description	A piece of modular xenotechnology. The module can be used as ECM emitter if powered. Scrapping would yield resources and research data.	Ein modulares Xenotechnologie-Bauteil. Das Modul kann bei Stromzufuhr als EGM-Sender eingesetzt werden. Bei der Verschrottung würden Ressourcen und Forschungsdaten gewonnen.	200		179311964:artifactmodule tec 22 metal synt gizmo ECM.prefab
 
 artifactmodule tec 23 metal gizmo with light ECM.prefab
 description	A piece of xenotechnology. The module can be used as a crude integrity hardpoint. It produces minimal ECM static if powered. Can be installed into internal slot.	Ein Teil der Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden. Es erzeugt minimale EGM-Statik, wenn es mit Energie versorgt wird. Kann im internen Steckplatz installiert werden.	200		179311963:artifactmodule tec 23 metal gizmo with light ECM.prefab
 
 artifactmodule tec 24 broken warp gizmo ECM.prefab
 displayName	Tech artifact (damaged warpdrive)	Tech-Artefakt (beschädigter Warpantrieb)	40		177900583:artifactmodule tec 24 broken warp gizmo ECM.prefab
-description	A damaged, but partially functional advanced warpdrive, mostly made of exotics. Powering the module creates warp static, so it can be used as an internal ECM scrambler that does not need a hybrid slot like normal jammers.	Ein beschädigter, aber teilweise funktionsfähiger, fortschrittlicher Warpantrieb, der größtenteils aus exotischen Materialien besteht. Die Stromversorgung des Moduls erzeugt Warp-Statik, so dass es als interner EGM-Verwürfler verwendet werden kann, der keinen Hybrid-Steckplatz wie normale Störsender benötigt.	200		177900583:artifactmodule tec 24 broken warp gizmo ECM.prefab
+description	A damaged, but partially functional very advanced warpdrive, mostly made of exotics. Powering the module creates warp static, so it can be used as a powerful internal ECM scrambler that does not need a hybrid slot like normal jammers.	Ein beschädigter, aber teilweise funktionsfähiger, hochmoderner Warpantrieb, der größtenteils aus exotischen Materialien besteht. Beim Einschalten des Moduls entsteht Warp-Rauschen, sodass es als leistungsstarker interner EGM-Störer genutzt werden kann, der im Gegensatz zu herkömmlichen Störsendern keinen Hybrid-Slot benötigt.	200		177900583:artifactmodule tec 24 broken warp gizmo ECM.prefab
 
 artifactmodule tec 25 broken screen gizmo.prefab
 
 artifactmodule tec 28 data core giant chip ECM internal.prefab
-displayName	Tech artifact (old datacore)	Tech-Artefakt (alter Datenkern)	40		1985410647:artifactmodule tec 28 data core giant chip ECM internal.prefab
+displayName	Tech artifact (old data processor)	Tech-Artefakt (alter Prozessor)	40		1985410647:artifactmodule tec 28 data core giant chip ECM internal.prefab
 description	A giant data core with some information remaining inside. Can be scrapped for resources or used to calculate better evasive maneuvers.	Ein riesiger Datenkern mit einigen verbliebenen Informationen im Inneren. Kann für Ressourcen verschrottet oder zur Berechnung besserer Ausweichmanöver verwendet werden.	200		1985410647:artifactmodule tec 28 data core giant chip ECM internal.prefab
 
 artifactmodule tec 31 data core node small lamp dome.prefab
@@ -8390,10 +8408,10 @@ displayName	Tech artifact (AI node)	Tech-Artefakt (KI-Knoten)	40		1664024110:art
 description	A giant data core with some information remaining inside. Can be scrapped for resources or used as a crude integrity hardpoint.	Ein riesiger Datenkern, in dem noch einige Informationen enthalten sind. Kann für Ressourcen verschrottet oder als grober Integritäts-Ansatzpunkt verwendet werden.	200		1664024110:artifactmodule tec 31 data core node small lamp dome.prefab
 
 artifactmodule tec 32 broken container gizmo.prefab
-description	A piece of unusable xenotechnology.	Ein Stück unbrauchbare Xenotechnologie.	200		760711671:artifactmodule tec 32 broken container gizmo.prefab
+description	A piece of unusable xenotechnology. It seems to contain organic remains that may worth research data credits if scrapped.	Ein Stück unbrauchbare Xenotechnologie. Es scheint organische Rückstände zu enthalten, die bei der Verschrottung möglicherweise Forschungsdaten-Kredite einbringen könnten.	200		760711671:artifactmodule tec 32 broken container gizmo.prefab
 
 artifactmodule tec 33 biostasis nice worm.prefab
-description	A piece of non-usable xenotechnology that contains a dead animal. Can be scrapped for resources.	Ein Stück unbrauchbarer Xenotechnologie, das ein totes Tier enthält. Kann für Ressourcen verschrottet werden.	200		685017033:artifactmodule tec 33 biostasis nice worm.prefab
+description	A piece of non-usable xenotechnology that contains a dead animal. Can be scrapped for resources and scientific data.	Ein unbrauchbares Stück Xenotechnologie, das ein totes Tier enthält. Kann zur Gewinnung von Ressourcen und wissenschaftlichen Daten verschrottet werden.	200		685017033:artifactmodule tec 33 biostasis nice worm.prefab
 
 artifactmodule tec 34 data core grammofon.prefab
 displayName	Tech artifact (ancient data core)	Tech-Artefakt (alter Datenkern)	40		1279608160:artifactmodule tec 34 data core grammofon.prefab
@@ -8429,7 +8447,7 @@ displayName	Tech artifact [engine booster II]	Tech-Artefakt [Triebwerksbooster I
 
 artifactmodule tec green slime integrity.prefab
 displayName	Biotech artifact (integrity hardpoint)	Biotech-Artefakt (Integritäts-Ansatzpunkt)	40		389977561:artifactmodule tec green slime integrity.prefab
-description	A single piece of some kind of larger modular biotechnology set, usable as a primitive integrity hardpoint. Scrapping would yield research data.	Ein einzelnes Stück einer Art größeren modularen Biotechnologie-Sets, verwendbar als primitiver Integritäts-Ansatzpunkt. Eine Verschrottung würde Forschungsdaten ergeben.	200		389977561:artifactmodule tec green slime integrity.prefab
+description	A single piece of some kind of larger modular biotechnology usable as integrity hardpoint (also increases deflection vs asteroids). Scrapping would yield research data.	Ein einzelnes Teil einer größeren modularen Biotechnologie, das als Integritäts-Ansatzpunkt genutzt werden kann (erhöht zudem die Ablenkung gegenüber Asteroiden). Bei der Verschrottung würden Forschungsdaten gewonnen.	200		389977561:artifactmodule tec green slime integrity.prefab
 
 artifactmodule tec ingergity and asteroid predictor.prefab
 displayName	Tech artifact (asteroid predictor)	Tech-Artefakt (Asteroiden-Vorhersager)	40		674530774:artifactmodule tec ingergity and asteroid predictor.prefab
@@ -8437,11 +8455,11 @@ description	A piece of modular xenotechnology that calculates vectors of approac
 
 artifactmodule tec metal rainbow integrity.prefab
 displayName	Tech artifact (integrity hardpoint)	Tech-Artefakt (Integritäts-Ansatzpunkt)	40		1986591663:artifactmodule tec metal rainbow integrity.prefab
-description	A piece of modular xenotechnology. The module can be used as a crude integrity hardpoint but is otherwise useful only as scrap.	Ein Stück modularer Xenotechnologie. Das Modul kann als grober Integritäts-Ansatzpunkt verwendet werden, ist aber ansonsten nur als Schrott nützlich.	200		1986591663:artifactmodule tec metal rainbow integrity.prefab
+description	A piece of modular defence technology. Adds ship HP and asteroid deflection.	Ein Modul der modularen Verteidigungstechnologie. Erhöht die HP des Schiffes und die Asteroidenabwehr.	200		1986591663:artifactmodule tec metal rainbow integrity.prefab
 
 artifactmodule tec screamer egg ECM.prefab
 displayName	Tech artifact (ECM emitter)	Tech-Artefakt (EGM-Emitter)	40		1919746609:artifactmodule tec screamer egg ECM.prefab
-description	A piece of modular xenotechnology that screams at the push of a button, even in warp frequencies. Can be used as a crude ECM emitter.	Ein Stück modulare Xenotechnologie, das auf Knopfdruck schreit, sogar in Warpfrequenzen. Kann als grober EGM-Emitter verwendet werden.	200		1919746609:artifactmodule tec screamer egg ECM.prefab
+description	A piece of modular xenotechnology that screams at the push of a button, even in warp frequencies. Can be used as a powerful internal ECM emitter.	Ein modulares Xenotechnologie-Bauteil, das auf Knopfdruck selbst bei Warp-Frequenzen laute Töne von sich gibt. Kann als leistungsstarker interner EGM-Sender eingesetzt werden.	200		1919746609:artifactmodule tec screamer egg ECM.prefab
 
 bridge 1crew DIY.prefab
 displayName	Command bridge (DIY)	Kommandobrücke (Selbstbau)	40		983196801:bridge 1crew DIY.prefab
@@ -8475,10 +8493,11 @@ displayName	Command Bridge, biotech-3	Kommandobrücke, Biotech-3	40		954068497:b
 
 exotics container 0 diy.prefab
 displayName	Exotics container (DIY)	Exoten-Behälter (Selbstbau)	40		168523420:exotics container 0 diy.prefab
-description	Increases exotics storage capacity.	Erhöht die Lagerkapazität für Exoten.	200		168523420:exotics container 0 diy.prefab; 19531542:exotics container 1 small.prefab
+description	Increases exotics storage capacity.	Erhöht die Lagerkapazität für Exoten.	200		168523420:exotics container 0 diy.prefab
 
 exotics container 1 small.prefab
 displayName	Exotics container (small)	Exoten-Behälter (klein)	40		19531542:exotics container 1 small.prefab
+description	increases exotics storage capacity & ship HP.	Erhöht die Lagerkapazität für Exoten und die HP des Schiffes.	200		19531542:exotics container 1 small.prefab
 
 exotics container 2 medium.prefab
 displayName	Exotics container (medium)	Exoten-Behälter (mittel)	40		584489047:exotics container 2 medium.prefab
@@ -8569,7 +8588,7 @@ displayName	Multi-container ESM-2	Multibehälter SKM-2	40		426751082:multicontai
 
 multicontainer FE armor.prefab
 displayName	Armored container FE	Gepanzerter Behälter TS	40		619214127:multicontainer FE armor.prefab
-description	Increases fuel and explosives storage capacity. Additional armor improves ship HP.	Erhöht die Lagerkapazität für Treibstoff und Sprengstoffen. Zusätzliche Panzerung verbessert die Schiffs-HP.	200		619214127:multicontainer FE armor.prefab
+description	Increases fuel and explosives storage capacity. Additional armor considerably improves ship HP.	Erhöht die Lagerkapazität für Treibstoff und Sprengstoff. Die zusätzliche Panzerung verbessert die HP des Schiffes erheblich.	200		619214127:multicontainer FE armor.prefab
 
 multicontainer FEO-1.prefab
 displayName	Multi-container FEO	Multibehälter TEO	40		1165288718:multicontainer FEO-1.prefab
@@ -8584,7 +8603,7 @@ displayName	Multi-container FOO	Multibehälter TOO	40		1165288404:multicontainer
 
 multicontainer FOS biotec.prefab
 displayName	Multi-container FOS	Multibehälter TOK	40		2141167320:multicontainer FOS biotec.prefab
-description	Increases storage capacity of fuel, organics & synthetics.	Erhöht die Lagerkapazität von Treibstoff, Organik und Kunststoffen.	200		2141167320:multicontainer FOS biotec.prefab
+description	Increases storage capacity of fuel, organics & synthetics. Extra armor provides considerable ship HP boost.	Erhöht die Lagerkapazität für Treibstoff, Organik und Kunststoff. Die zusätzliche Panzerung sorgt für eine erhebliche Steigerung der HP des Schiffes.	200		2141167320:multicontainer FOS biotec.prefab
 
 multicontainer FSE biotech.prefab
 displayName	Armored multi-container FSE	Gepanzerter Multibehälter TKE	40		1904770087:multicontainer FSE biotech.prefab
@@ -8694,7 +8713,7 @@ description	Solid integrity hardpoint designed to appear as a weapon to enemy se
 weapondecoy1.prefab
 
 ECM 0 ancient.prefab
-displayName	ECM integrity turret (ancient)	EGM-Integritätsturm (alt)	40		1078640904:ECM 0 ancient.prefab
+displayName	ECM/integrity turret (ancient)	EGM-Integritätsturm (alt)	40		1078640904:ECM 0 ancient.prefab
 description	Hybrid platform for electronic countermeasures. Increases ship evasion & HP, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Ausweichfähigkeit und die HP des Schiffs, erfordert einen Hybrid-Steckplatz.	200		1078640904:ECM 0 ancient.prefab
 
 ECM 0 DIY.prefab
@@ -8763,7 +8782,7 @@ description	A very powerful anti-matter engine. Robust structure improves ship H
 
 engine 2 F-gulper.prefab
 displayName	Fuel-optimizer engine	Treibstoff-Optimierungs-Motor	40		1119228548:engine 2 F-gulper.prefab
-description	Engine that reuses its fuel for increased effectivity. Very low evasion bonus.	Triebwerk, das seinen Treibstoff wiederverwendet, um die Effektivität zu erhöhen. Sehr geringer Ausweichbonus.	200		1119228548:engine 2 F-gulper.prefab
+description	Engine that uses fuel very effectively, but has slow speed and evasion bonus.	Ein Motor, der sehr sparsam mit Kraftstoff umgeht, dafür aber eine geringe Geschwindigkeit und einen Ausweichbonus aufweist.	200		1119228548:engine 2 F-gulper.prefab
 
 engine 2 floral.prefab
 displayName	Biotech engine, type floral	Biotech-Triebwerk, Typ Blumig	40		245228012:engine 2 floral.prefab
@@ -8783,7 +8802,7 @@ description	High quality engine. Low fuel efficiency but good evasion bonus. Ext
 
 engine 2.5 terran.prefab
 displayName	Terran military engine	Terranisches Militär-Triebwerk	40		2023634410:engine 2.5 terran.prefab
-description	Good maneuverability (evasion bonus) and high fuel consumption. Durable structure improves ship HP.	Gute Manövrierfähigkeit (Ausweichbonus) und hoher Treibstoffverbrauch. Die robuste Struktur verbessert die Schiffs-HP.	200		2023634410:engine 2.5 terran.prefab
+description	Good maneuverability (evasion bonus), starmap travel speed and high fuel consumption. Durable structure improves ship HP.	Gute Manövrierfähigkeit (Ausweichbonus), hohe Reisegeschwindigkeit auf der Sternenkarte und hoher Treibstoffverbrauch. Die robuste Struktur erhöht die HP des Schiffes.	200		2023634410:engine 2.5 terran.prefab
 
 engine 2.5 weird.prefab
 displayName	Bioreaction engine	Bioreaktionsmotor	40		229499087:engine 2.5 weird.prefab
@@ -8816,15 +8835,15 @@ description	A module that supports fully synthetic non-carbon life. Uses excess 
 
 integrity 0 ancient.prefab
 displayName	Integrity hardpoint [ancient]	Integritäts-Ansatzpunkt (alt)	40		786297541:integrity 0 ancient.prefab
-description	This ancient hardpoint can be installed to gain extra ship HP, even during an emergency.	Dieser uralte Ansatzpunkt kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		786297541:integrity 0 ancient.prefab
+description	This ancient crude hardpoint can be installed to instantly gain extra ship HP, even during an emergency.	Dieser uralte, primitive Ansatzpunkt lässt sich installieren, um sofort zusätzliche HP für das Schiff zu erhalten – sogar in Notfällen.	200		786297541:integrity 0 ancient.prefab
 
 integrity 0 DIY biotech.prefab
 displayName	DIY integrity hardpoint [bio]	Selbstbau-Integritäts-Ansatzpunkt [bio]	40		1030243901:integrity 0 DIY biotech.prefab
-description	A crude integrity module made of durable organics. This module can be installed to instantly gain extra ship HP.	Ein grobes Integritätsmodul, das aus haltbaren organischen Materialien besteht. Dieses Modul kann installiert werden, um sofort zusätzliche Schiffs-HP zu erhalten.	200		1030243901:integrity 0 DIY biotech.prefab
+description	An integrity module made of durable organics. Installing adds instantly ship HP.	Ein Integritätsmodul aus strapazierfähigen organischen Materialien. Durch den Einbau wird die Schiffsleistung sofort erhöht.	200		1030243901:integrity 0 DIY biotech.prefab
 
 integrity 0 DIY carbon.prefab
 displayName	DIY integrity hardpoint [carbon]	Selbstbau-Integritäts-Ansatzpunkt [Kohlenstoff]	40		1626770136:integrity 0 DIY carbon.prefab
-description	A printed integrity module that improves ship HP but is very brittle itself. This module can be installed to instantly gain extra ship HP.	Ein gedrucktes Integritätsmodul, das die Schiffs-HP verbessert, aber selbst sehr spröde ist. Dieses Modul kann installiert werden, um sofort zusätzliche Schiffs-HP zu erhalten.	200		1626770136:integrity 0 DIY carbon.prefab
+description	This module considerably boosts ship HP. Installing the module instantly provides extra ship HP.	Dieses Modul erhöht die HP des Schiffes erheblich. Durch den Einbau des Moduls erhält das Schiff sofort zusätzliche HP.	200		1626770136:integrity 0 DIY carbon.prefab
 
 integrity 0 DIY metal.prefab
 displayName	DIY integrity hardpoint	Selbstbau-Integritäts-Ansatzpunkt	40		429768775:integrity 0 DIY metal.prefab; 1860627745:Perk module DIY integrity.prefab
@@ -8832,11 +8851,11 @@ description	Self-made integrity hardpoint that adds extra layers of internal shi
 
 integrity 0 DIY plastic.prefab
 displayName	DIY integrity hardpoint [plastics]	Selbstbau-Integritäts-Ansatzpunkt [Plastik]	40		1391715479:integrity 0 DIY plastic.prefab
-description	A printed integrity module that improves ship HP but is fairly brittle itself. This module can be installed to gain extra ship HP, even during an emergency.	Ein gedrucktes Integritätsmodul, das die Schiffs-HP verbessert, aber selbst ziemlich brüchig ist. Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		1391715479:integrity 0 DIY plastic.prefab
+description	A printed integrity module that improves ship HP and asteroid deflection. Installing provides instantly extra ship HP, even during an emergency.	Ein gedrucktes Integritätsmodul, das die Schiffs-HP erhöht und die Ablenkung von Asteroiden verbessert. Durch die Installation erhält das Schiff sofort zusätzliche Lebenspunkte, selbst in Notfällen.	200		1391715479:integrity 0 DIY plastic.prefab
 
 integrity 0 DIY scaled.prefab
 displayName	DIY integrity scales, S-8	Selbstbau-Integritätswaage, S-8	40		1683167527:integrity 0 DIY scaled.prefab
-description	Manually built hardpoint that adds an extra layer of internal ship armor. Can be installed to gain extra ship HP, even during an emergency.	Manuell gebauter Ansatzpunkt, der eine zusätzliche Schicht der internen Schiffspanzerung hinzufügt. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		1683167527:integrity 0 DIY scaled.prefab
+description	Manually built hardpoint that adds an extra layer of internal ship armor, considerably improving asteroid deflection. Can be installed to gain quickly extra ship HP, even during an emergency.	Manuell gebauter Ansatzpunkt, der eine zusätzliche Schicht interner Schiffs-Panzerung hinzufügt und so die Abwehr von Asteroiden erheblich verbessert. Kann installiert werden, um schnell zusätzliche Schiffs-HP zu erhalten, sogar in Notfällen.	200		1683167527:integrity 0 DIY scaled.prefab
 
 integrity 00 Ratty.prefab
 displayName	Integrity hardpoint R-7	Integritäts-Ansatzpunkt R-7	40		786297539:integrity 00 Ratty.prefab
@@ -8844,7 +8863,7 @@ description	This module can be installed to gain extra ship HP, even during an e
 
 integrity 01 bio tissue.prefab
 displayName	Integrity suite I (biotech)	Integritätssuite I (Biotech)	40		1152326902:integrity 01 bio tissue.prefab
-description	Integrity hardpoint and a suite of resistant organic tissue under the normal armor. Can be installed to gain extra ship HP, but the module itself is quite fragile.	Integritäts-Ansatzpunkt und eine Suite aus widerstandsfähigem organischem Gewebe unter der normalen Panzerung. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, aber das Modul selbst ist ziemlich zerbrechlich.	200		1152326902:integrity 01 bio tissue.prefab
+description	Protective biotech system. Install to instantly gain extra ship HP and asteroid deflection. The module itself is somewhat fragile.	Biotechnologisches Schutzsystem. Nach der Installation erhältst du sofort zusätzliche HP für dein Schiff sowie die Fähigkeit, Asteroiden abzuwehren. Das Modul selbst ist jedoch relativ empfindlich.	200		1152326902:integrity 01 bio tissue.prefab
 
 integrity 01 bronze.prefab
 displayName	Integrity hardpoint T-8	Integritäts-Ansatzpunkt T-8	40		1955952396:integrity 01 bronze.prefab
@@ -8854,19 +8873,20 @@ integrity 01 silver.prefab
 displayName	Integrity hardpoint T-9	Integritäts-Ansatzpunkt T-9	40		786297542:integrity 01 silver.prefab
 
 integrity 04 jade scales.prefab
-displayName	Integrity hardpoint J	Integritäts-Ansatzpunkt J	40		716815312:integrity 04 jade scales.prefab
-description	Manually built integrity enhancement hardpoint and associated technology. Can be installed to gain extra ship HP, even during an emergency.	Manuell gebauter Integritätserweiterungs-Ansatzpunkt und zugehörige Technologie. Kann installiert werden, um zusätzliche Schiffs-HP zu gewinnen, auch während eines Notfalls.	200		716815312:integrity 04 jade scales.prefab; 2071389332:integrity 05 blue scales.prefab
+displayName	Integrity hardpoint Jade	Integritäts-Ansatzpunkt Jade	40		716815312:integrity 04 jade scales.prefab
+description	Integrated hardpoint/shield battery that adds ship HP and max shieldpoint capacity and is very durable itself.. Install to gain instantly extra ship HP.	Integrierte Ansatzpunkt/Schild-Batterie, die die HP des Schiffes sowie die maximale Schildkapazität erhöht und selbst sehr widerstandsfähig ist. Installiere sie, um sofort zusätzliche HP für dein Schiff zu erhalten.	200		716815312:integrity 04 jade scales.prefab
 
 integrity 05 blue scales.prefab
-displayName	Integrity hardpoint, type U	Integritäts-Ansatzpunkt, Typ U	40		2071389332:integrity 05 blue scales.prefab
+displayName	Integrity hardpoint, type Solace	Integritäts-Ansatzpunkt, Typ Trost	40		2071389332:integrity 05 blue scales.prefab
+description	Integrated hardpoint/shield battery that adds ship HP and max shieldpoint capacity. Install to gain instantly extra ship HP.	Integrierte Ansatzpunkt/Schild-Batterie, die die HP des Schiffes und die maximale Schildkapazität erhöht. Durch die Installation erhältst du sofort zusätzliche HP für dein Schiff.	200		2071389332:integrity 05 blue scales.prefab
 
 integrity 06 big green scales.prefab
-displayName	Integrity hardpoint, type G	Integritäts-Ansatzpunkt, Typ G	40		1152328828:integrity 06 big green scales.prefab
-description	Armor enhancement biotech hardpoint that adds a layer of scales under the external ship armor. Can be installed to gain extra ship HP, even during an emergency.	Panzerungsverbesserungs-Biotech-Ansatzpunkt, der eine Schuppenschicht unter der äußeren Schiffspanzerung anbringt. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		1152328828:integrity 06 big green scales.prefab
+displayName	Integrity/Shield hardpoint, type Infiweedy	Integritäts-Ansatzpunkt/Schild, Typ Infiweedy	40		1152328828:integrity 06 big green scales.prefab
+description	Biotech hardpoint with integrated shield battery that adds a layer of exotic nano-scales under the external ship armor. Install to gain instantly extra ship HP.	Biotech-Ansatzpunkt mit integrierter Schildbatterie, die unter der äußeren Schiffsrüstung eine Schicht aus exotischen Nanomaterialien bildet. Durch die Installation erhält das Schiff sofort zusätzliche HP.	200		1152328828:integrity 06 big green scales.prefab
 
 integrity 06 spideraa.prefab
-displayName	Integrity hardpoint, type S	Integritäts-Ansatzpunkt, Typ S	40		989518264:integrity 06 spideraa.prefab
-description	Biotech integrity hardpoint, improves ship HP. Can be installed to gain extra ship HP, even during an emergency.	Biotech-Integritäts-Ansatzpunkt, verbessert die Schiffs-HP. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		989518264:integrity 06 spideraa.prefab
+displayName	Integrity/maneuver/shield hardpoint, type Arachnoid	Integritäts-Ansatzpunkt/Manövrierfähigkeit/Schild, Typ Arachnoid	40		989518264:integrity 06 spideraa.prefab
+description	Advanced integrity hardpoint, boosts evasion in addition ship HP. Can be installed to gain extra ship HP, even during an emergency.	Erweiterter Integritäts-Ansatzpunkt, der sowohl die Ausweichfähigkeit als auch die HP des Schiffes erhöht. Kann installiert werden, um zusätzliche HP für das Schiff zu erhalten – sogar in Notfällen.	200		989518264:integrity 06 spideraa.prefab
 
 biotech explosives recycler.prefab
 displayName	Biotech explosives recycler	Biotech-Sprengstoff-Wiederverwerter	40		1405176791:biotech explosives recycler.prefab
@@ -8896,11 +8916,11 @@ MaterialsConverter.resourceProductionReason	produced by fuel combinator	hergeste
 
 fuel processor 1B.prefab
 displayName	Fuel combinator, grade I-B	Treibstoff-Kombinator, Typ B	40		194638103:fuel processor 1B.prefab
-description	Instantly combines organics & synthetics into starfuel. Robust structure improves ship HP.	Kombiniert Organik und Kunststoffe sofort zu Treibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200		194638103:fuel processor 1B.prefab
+description	Instantly combines organics & synthetics into starfuel. Robust structure improves ship HP.	Verwandelt Organik und Kunststoffe sofort in Sternentreibstoff. Die robuste Struktur verbessert die HP des Schiffes.	200		194638103:fuel processor 1B.prefab
 
 fuel processor 2.prefab
 displayName	Explosives recycler, grade II	Sprengstoff-Wiederverwerter II	40		1482294420:fuel processor 2.prefab
-description	Instantly recycles explosives into starfuel. Robust structure improves ship HP.	Wiederverwertet Sprengstoffe sofort zu Treibstoff. Die robuste Struktur verbessert die Schiffs-HP.	200		1482294420:fuel processor 2.prefab
+description	Instantly recycles explosives, synthetics and organics into starfuel. Robust structure improves ship HP.	Verwertet Sprengstoffe, Kunststoffe und Organik sofort zu Sternentreibstoff. Die robuste Konstruktion erhöht die HP des Schiffes.	200		1482294420:fuel processor 2.prefab
 
 oilcake converter.prefab
 displayName	Oilcake Organics converter	Ölkuchen-Konverter	40		166404798:oilcake converter.prefab
@@ -9125,7 +9145,7 @@ displayName	Science labx3, Rat Empire	Wissenschaftslabor x3, Rattenimperium	40		
 
 sensor 0-C diy.prefab
 displayName	Non-combat sensor DIY I	Nicht-Kampfsensor (Selbstbau) I	40		930742757:sensor 0-C diy.prefab
-description	Increases ship sensor range in starsystem & sector view.\nSensors are not cumulative - only the best sensor range values are used.	Erhöht die Sensorreichweite des Schiffes in der Sternensystem- und Sektorkarte.\nDie Sensoren sind nicht kumulativ - nur die besten Sensorreichweitenwerte werden verwendet.	200		930742757:sensor 0-C diy.prefab; 160051026:sensor 10 tiger.prefab; 171954196:sensor 10 terran s2.prefab; 171954197:sensor 9 sunpanel new s2.prefab; 204974912:sensor 11 blue adv s2.prefab; 588186350:sensor 12 spideraa.prefab; 680853891:sensor 11 sophisiticated s2.prefab; 948524677:sensor 2 saucer old.prefab; 1084722255:sensor 3 L terran simple.prefab; 1241054343:sensor 5 futu saucer s1.prefab; 1451617742:sensor 8 sunpanel old s1.prefab; 1995820130:sensor 3 planty.prefab; 2063928716:sensor 4 saucer new.prefab; 2117018739:sensor 1-L DIY.prefab
+description	Increases ship sensor range in starsystem & sector view.\nSensors are not cumulative - only the best sensor range values are used.	Erhöht die Sensorreichweite in der Sternensystem- und Sektoransicht.\nDie Sensorreichweiten addieren sich nicht – es werden nur die besten Werte berücksichtigt.	200		930742757:sensor 0-C diy.prefab; 160051026:sensor 10 tiger.prefab; 171954196:sensor 10 terran s2.prefab; 171954197:sensor 9 sunpanel new s2.prefab; 204974912:sensor 11 blue adv s2.prefab; 588186350:sensor 12 spideraa.prefab; 680853891:sensor 11 sophisiticated s2.prefab; 948524677:sensor 2 saucer old.prefab; 1084722255:sensor 3 L terran simple.prefab; 1241054343:sensor 5 futu saucer s1.prefab; 1451617742:sensor 8 sunpanel old s1.prefab; 2063928716:sensor 4 saucer new.prefab; 2117018739:sensor 1-L DIY.prefab
 
 sensor 10 terran s2.prefab
 displayName	Long-range sensor III	Langstreckensensor III	40		171954196:sensor 10 terran s2.prefab
@@ -9156,13 +9176,13 @@ sensor 3 L terran simple.prefab
 displayName	Non-combat sensor, type LR	Nicht-Kampfsensor, Typ LR	40		1084722255:sensor 3 L terran simple.prefab
 
 sensor 3 planty.prefab
+description	Increases ship sensor range in starsystem & sector view. This one does not need power.\nSensors are not cumulative - only the best sensor range values are used.	Erhöht die Reichweite der Schiffssensoren in der Sternensystem- und Sektoransicht. Diese Erweiterung benötigt keine Energie.\nDie Sensorreichweiten addieren sich nicht – es werden nur die besten Werte berücksichtigt.	200		1995820130:sensor 3 planty.prefab
 
 sensor 4 saucer new.prefab
 displayName	Non-combat sensor Mk II	Nicht-Kampfsensor Mk II	40		2063928716:sensor 4 saucer new.prefab
 
 sensor 5 EB saucer s1.prefab
 displayName	Non-combat sensor	Nicht-Kampfsensor	40		1536566470:sensor 5 EB saucer s1.prefab
-description	Improves ship sensor range in starsystem and sector view.\nSensors are not cumulative (only the best sensor range values are used).	Verbessert die Sensorreichweite des Schiffes in der Sternensystem- und Sektorkarte. Die Sensoren sind nicht kumulativ (nur die besten Sensorreichweitenwerte werden verwendet).	200		1536566470:sensor 5 EB saucer s1.prefab
 
 sensor 5 futu saucer s1.prefab
 displayName	Non-combat sensor Mk III	Nicht-Kampfsensor Mk III	40		1241054343:sensor 5 futu saucer s1.prefab
@@ -9175,10 +9195,11 @@ displayName	Long-range sensor II	Langstreckensensor II	40		171954197:sensor 9 su
 
 shield 1 diy.prefab
 displayName	DIY shield generator	Selbstbau-Schildgenerator	40		126798266:shield 1 diy.prefab
-description	Regenerates shield points. Requires one operator. Robust structure improves ship HP.	Regeneriert Schildpunkte. Benötigt ein Besatzungsmitglied. Robuste Struktur verbessert die HP des Schiffes.	200		126798266:shield 1 diy.prefab; 60711451:shield 2 manualrats.prefab; 264325601:shield 6 bluetec.prefab; 813097155:shield 3 brass, single.prefab; 1518301159:shield 1 round old.prefab; 1527218410:shield 7 micro.prefab; 1646813987:shield 4 greendome.prefab; 1856241205:shield 2.5 phobian.prefab; 1967967252:shield 3 threespace.prefab
+description	Regenerates shield points. Requires one operator.	Regeneriert Schildpunkte. Benötigt ein Besatzungsmitglied.	200		126798266:shield 1 diy.prefab
 
 shield 1 round old.prefab
 displayName	Aegis shield generator [old]	Aegis-Schildgenerator [alt]	40		1518301159:shield 1 round old.prefab
+description	Regenerates shield points. Requires one operator. Robust structure improves ship HP.	Regeneriert Schildpunkte. Erfordert einen Bediener. Die robuste Konstruktion erhöht die HP des Schiffes.	200		1518301159:shield 1 round old.prefab; 60711451:shield 2 manualrats.prefab; 264325601:shield 6 bluetec.prefab; 813097155:shield 3 brass, single.prefab; 1646813987:shield 4 greendome.prefab; 1856241205:shield 2.5 phobian.prefab; 1967967252:shield 3 threespace.prefab
 
 shield 2 manualrats.prefab
 displayName	Rat shield generator, grade I	Ratten-Schildgenerator, Grad I	40		60711451:shield 2 manualrats.prefab
@@ -9205,7 +9226,7 @@ displayName	Jade shield generator	Jade-Schild-Generator	40		1646813987:shield 4 
 
 shield 4 solitary.prefab
 displayName	D-Cube shield generator	D-Würfel-Schildgenerator	40		1386797426:shield 4 solitary.prefab
-description	Regenerates shield points, requires one operator. Robust structure improves ship HP.	Regeneriert Schildpunkte, erfordert ein Besatzungsmitglied. Robuste Struktur verbessert die HP des Schiffes.	200		1386797426:shield 4 solitary.prefab
+description	Regenerates shield points extremely rapidly at the cost of lower capacity. Robust structure improves ship HP.	Regeneriert Schildpunkte extrem schnell, allerdings auf Kosten einer geringeren Kapazität. Die robuste Struktur erhöht die HP des Schiffes.	200		1386797426:shield 4 solitary.prefab
 
 shield 5 spideraa.prefab
 displayName	Shield generator (biotech)	Schildgenerator (Biotech)	40		437077239:shield 5 spideraa.prefab
@@ -9216,6 +9237,7 @@ displayName	Bluetec shield generator	Bluetec-Schildgenerator	40		264325601:shiel
 
 shield 7 micro.prefab
 displayName	Micro shield generator	Mikro-Schildgenerator	40		1527218410:shield 7 micro.prefab
+description	Regenerates shieldpoints extremely fast, but does not have much shield points capacity.	Regeneriert Schildpunkte extrem schnell, verfügt jedoch nicht über eine große Schildpunktkapazität.	200		1527218410:shield 7 micro.prefab
 
 shield decoy 1.prefab
 displayName	Shield decoy	Schild-Täuschkörper	40		2047550720:shield decoy 1.prefab
@@ -9316,7 +9338,7 @@ description	Warpdrives allow "jumping" between starsystems. This is a high-end c
 
 warp 02b small.prefab
 displayName	Warp drive, mini	Warpantrieb, Mini	40		1346895691:warp 02b small.prefab
-description	Warpdrives allow "jumping" between starsystems. This one is very durable. Robust structure improves ship HP.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr langlebig. Die robuste Struktur verbessert die Schiffs-HP.	200		1346895691:warp 02b small.prefab; 38410223:warp 10 chunky.prefab; 293119006:warp 11 bluetec.prefab; 1951229269:warp 04 emperorbanks.prefab
+description	Warpdrives allow "jumping" between starsystems. This one is very durable. Robust structure improves ship HP.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr langlebig. Die robuste Struktur verbessert die Schiffs-HP.	200		1346895691:warp 02b small.prefab; 1951229269:warp 04 emperorbanks.prefab
 
 warp 03 neoncrystal.prefab
 displayName	Warp drive, crystal type A	Warpantrieb, Kristall Typ A	40		458296297:warp 03 neoncrystal.prefab
@@ -9327,7 +9349,7 @@ displayName	Warp drive, type EB	Warpantrieb, Typ Imperator Bank	40		1951229269:w
 
 warp 05 rotor metal.prefab
 displayName	Warp drive, grade II	Warpantrieb, Typ II	40		2018774202:warp 05 rotor metal.prefab
-description	Warpdrives allow "jumping" between starsystems. This one has extra armor. Robust structure adds +2 to ship HP.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hat zusätzliche Panzerung. Robuste Struktur fügt +2 zu den Schiffs-HP hinzu.	200		2018774202:warp 05 rotor metal.prefab
+description	Warpdrives allow "jumping" between starsystems. This one has extra armor. Robust structure adds ship HP.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hat zusätzliche Panzerung. Robuste Struktur fügt Schiffs-HP hinzu.	200		2018774202:warp 05 rotor metal.prefab
 
 warp 05 spiralcrystal.prefab
 displayName	Warp drive, type F	Warpantrieb, Typ F	40		2005632838:warp 05 spiralcrystal.prefab
@@ -9346,6 +9368,7 @@ displayName	Warp drive, Spideraa	Warpantrieb, Spinner	40		1528213811:warp 09 spi
 
 warp 10 chunky.prefab
 displayName	Warp drive, chunky	Warpantrieb, klobig	40		38410223:warp 10 chunky.prefab
+description	Warpdrives allow "jumping" between starsystems.	Mit Warp-Antrieben kann man zwischen Sternensystemen "springen".	200		38410223:warp 10 chunky.prefab; 293119006:warp 11 bluetec.prefab
 
 warp 11 bluetec.prefab
 displayName	Warp drive, bluetec	Warpantrieb, blautech	40		293119006:warp 11 bluetec.prefab
@@ -9605,7 +9628,7 @@ description	A sniper cannon for damaging crucial modules of enemy ships. Project
 
 weapon Sniper cannon 2 insectoid.prefab
 displayName	Insectoidian sniper railgun	Insektoiden-Scharfschützen-Schienenwaffe	40		1240034396:weapon Sniper cannon 2 insectoid.prefab
-description	Sniper rail cannon for damaging crucial modules of enemy ships. It's poison-tipped projectiles penetrate shields & never deflect. Rail cannon shells are not easily destroyed by point-defences.	Scharfschützen-Schienenkanone zur Beschädigung von wichtigen Modulen gegnerischer Schiffe. Die mit Gift bestückten Geschosse durchdringen Schilde und werden nicht abgelenkt. Die Geschosse der Schienenkanone werden nicht leicht von Punktabwehranlagen zerstört. Projektile haben jeweils 5 HP.	200		1240034396:weapon Sniper cannon 2 insectoid.prefab
+description	Sniper rail cannon for damaging crucial modules of enemy ships. It's poison-tipped heavy (5hp) projectiles penetrate shields & never deflect. Rail cannon shells are not easily destroyed by point-defences.	Scharfschützen-Schienenkanone zum Beschädigen wichtiger Module feindlicher Schiffe. Ihre mit Gift versetzten schweren Geschosse (5 HP) durchschlagen Schilde und werden niemals abgelenkt. Railkanonen-Geschosse lassen sich von Punktabwehrsystemen nicht leicht zerstören.	200		1240034396:weapon Sniper cannon 2 insectoid.prefab
 
 weapon Sniper cannon 2.prefab
 displayName	Sniper cannon II	Scharfschützenkanone II	40		1499937036:weapon Sniper cannon 2.prefab
@@ -9621,7 +9644,7 @@ description	Precision microcannon with four barrels for increased armor penetrat
 
 weapon sniper cannon EMP.prefab
 displayName	EMP shuriken sniper	EMP-Wurfstern-Scharfschütze	40		1567764648:weapon sniper cannon EMP.prefab
-description	EMP projectile sniper cannon. Damages & overloads modules, may start fires & harm crew, harmless against ship hull. Never deflects. Projectiles have 2hp each.	EMP-Projektil-Scharfschützenkanone. Beschädigt und überlastet Module, kann Brände auslösen und die Besatzung verletzen, harmlos gegen die Schiffshülle. Lenkt niemals ab. Projektile haben je 2 HP.	200		1567764648:weapon sniper cannon EMP.prefab
+description	EMP projectile sniper cannon. Damages & overloads modules, may start fires & harm crew, harmless against ship hull. Never deflects. Projectiles have 3hp each.	EMP-Scharfschützenkanone. Beschädigt und überlastet Module, kann Brände auslösen und der Besatzung Schaden zufügen, ist für den Schiffsrumpf unschädlich. Wird niemals abgelenkt. Die Projektile haben jeweils 3 HP.	200		1567764648:weapon sniper cannon EMP.prefab
 
 weapon mininglaser 0 defective.prefab
 displayName	Mining laser I (degraded)	Minenlaser I (degradiert)	40		1386594796:weapon mininglaser 0 defective.prefab; 842299308:weapon mininglaser 0 old.prefab
@@ -9703,15 +9726,15 @@ description	A robust platform for projecting powerful EMP rays. Disrupts shields
 
 weapon DIY exotics EMP sniper.prefab
 displayName	EMP exotics sniper	EMP-Scharfschütze (exotisch)	40		1403294598:weapon DIY exotics EMP sniper.prefab
-description	A prototype platform for projecting exotic EMP rays that penetrate shields and have very large AoE. Requires a lot of energy, deals minimal damage against ship hull, never deflects.	Eine Prototyp-Plattform zum Projizieren von exotischen EMP-Strahlen, die Schilde durchdringen und eine sehr große AoE haben. Benötigt viel Energie, verursacht minimalen Schaden an der Schiffshülle, wird nie abgelenkt.	200		1403294598:weapon DIY exotics EMP sniper.prefab
+description	A prototype platform for projecting exotic EMP rays that penetrate shields and disable modules in a very large AoE. Requires a lot of energy and deals minimal damage against ship hull, but never deflects.	Eine Prototyp-Plattform zur Erzeugung exotischer EMP-Strahlen, die Schilde durchdringen und Module in einem sehr großen Wirkungsbereich außer Gefecht setzen. Benötigt viel Energie und verursacht nur minimalen Schaden am Schiffsrumpf, wird jedoch niemals abgewehrt.	200		1403294598:weapon DIY exotics EMP sniper.prefab
 
 weapon DIY exoticslaser dual.prefab
 displayName	DIY exotic dual ray projector	Exotischer Doppelstrahlprojektor (Selbstbau)	40		1049561624:weapon DIY exoticslaser dual.prefab
-description	This DIY weapon burns exotics with each shot to generate two powerful warp rays. Can cause fires & module overloads but may be deflected.	Diese selbstgebaue Waffe verbrennt mit jedem Schuss Exoten, um zwei starke Warpstrahlen zu erzeugen. Kann Brände und Modulüberlastungen verursachen, kann aber abgelenkt werden.	200		1049561624:weapon DIY exoticslaser dual.prefab
+description	This, possibly most powerful DIY weapon consumes exotics to generate two powerful warp rays, causing fires & module overload in addition to massive damage.	Diese, möglicherweise mächtigste selbstgebaute Waffe verbraucht Exoten, um zwei mächtige Warp-Strahlen zu erzeugen, die neben massivem Schaden auch Brände und Modulüberlastungen verursachen.	200		1049561624:weapon DIY exoticslaser dual.prefab
 
 weapon DIY exoticslaser.prefab
 displayName	DIY exotic ray projector	Exotischer Strahlenprojektor (Selbstbau)	40		2075523594:weapon DIY exoticslaser.prefab
-description	This DIY weapon burns exotics with each shot to generate a single powerful warp ray. Large area of effect, can cause fires & module overloads but may be deflected.	Diese selbstgebaue Waffe verbrennt mit jedem Schuss Exoten, um einen einzelnen starken Warpstrahl zu erzeugen. Großer Wirkungsbereich, kann Brände und Modulüberlastungen verursachen, kann aber abgelenkt werden.	200		2075523594:weapon DIY exoticslaser.prefab
+description	This super-powerful DIY weapon consumes exotics to rapidly generate very powerful warp rays that also cause fires & module overloads in a wide area (but can be deflected).	Diese extrem mächtige selbstgebaute Waffe verbraucht Exoten, um blitzschnell sehr starke Warpstrahlen zu erzeugen, die zudem in einem weiten Umkreis Brände und Modulüberlastungen verursachen (können jedoch abgewehrt werden).	200		2075523594:weapon DIY exoticslaser.prefab
 
 weapon DIY Laser.prefab
 displayName	Improvised laser	Selbstbau-Laser	40		55650103:weapon DIY Laser.prefab
@@ -9774,7 +9797,7 @@ description	Tactical combat weapon, obsolete design. Produces 2 laserbeams.	Takt
 
 weapon Insectoid shield disruptor.prefab
 displayName	Insectoid Alliance shield disruptor	Insektoiden-Allianz-Schildbrecher	40		2067779357:weapon Insectoid shield disruptor.prefab
-description	A composite-ray effector for disrupting energy shields. Deals minor damage to material targets. Produces 3 energy rays.	Ein Komposit-Strahleneffektor zur Unterbrechung von Energieschilden. Verursacht geringen Schaden an materiellen Zielen. Erzeugt 3 Energiestrahlen.	200		2067779357:weapon Insectoid shield disruptor.prefab
+description	A composite-ray effector for disrupting energy shields and overloading modules. Deals minor damage to material targets. Produces 3 energy rays.	Ein Komposit-Strahleneffektor zum Durchbrechen von Energieschilden und zum Überlasten von Modulen. Fügt materiellen Zielen geringen Schaden zu. Erzeugt 3 Energiestrahlen.	200		2067779357:weapon Insectoid shield disruptor.prefab
 
 weapon Insectoid slowlaser.prefab
 displayName	Insectoid Alliance megalaser	Insektoiden-Allianz-Megalaser	40		849984806:weapon Insectoid slowlaser.prefab
@@ -9834,19 +9857,19 @@ description	Light laser weapon. Made in Rat Empire, produces 2 laser beams. The 
 
 weapon spideraa laser.prefab
 displayName	Spideraa effector	Spinner-Effektor	40		737829770:weapon spideraa laser.prefab
-description	Heavy ray weapon with mostly biologic components. Relying on a single energy-ray makes it less useful vs ships with high deflection.	Schwere Strahlenwaffe mit überwiegend biologischen Komponenten. Da sie sich auf einen einzigen Energiestrahl verlässt, ist sie weniger nützlich gegen Schiffe mit hoher Ablenkung.	200		737829770:weapon spideraa laser.prefab
+description	Superheavy exotic ray weapon made from organic xenotech. The single ray is dangerous because it demolishes shields and never deflects.	Eine superschwere, exotische Strahlenwaffe aus organischer Xenotechnologie. Der einzelne Strahl ist gefährlich, da er Schilde zerstört und niemals abgelenkt werden kann.	200		737829770:weapon spideraa laser.prefab
 
 weapon spideraa quadlaser.prefab
 displayName	Spideraa quad effector	Spinner Vierfach-Effektor	40		1999515951:weapon spideraa quadlaser.prefab
-description	Heavy and accurate N-ray weapon, reduced damage versus modules, no damage to crew. Generates 4 rays.	Schwere und präzise N-Strahlen-Waffe, reduzierter Schaden gegen Module, kein Schaden an der Besatzung. Erzeugt 4 Strahlen.	200		1999515951:weapon spideraa quadlaser.prefab
+description	Heavy and accurate N-ray weapon, reduced damage versus modules, low damage to crew. Generates 4 rays.	Schwere und präzise N-Strahlenwaffe, reduzierter Schaden gegen Module, geringer Schaden für die Besatzung. Erzeugt 4 Strahlen.	200		1999515951:weapon spideraa quadlaser.prefab
 
 weapon spideraa triplelaser.prefab
 displayName	Spideraa triple raygun	Spinner Dreifach-Strahlenkanone	40		30426038:weapon spideraa triplelaser.prefab
-description	Heavy and accurate N-ray weapon, reduced damage against modules, no damage to crew. Generates 3 rays.	Schwere und präzise N-Strahlen-Waffe, reduzierter Schaden gegen Module, kein Schaden für die Besatzung. Erzeugt 3 Strahlen.	200		30426038:weapon spideraa triplelaser.prefab
+description	Heavy and accurate N-ray weapon, reduced damage against modules, low damage to crew. Generates 3 rays.	Schwere und präzise N-Strahlenwaffe, reduzierter Schaden an Modulen, geringer Schaden an der Besatzung. Erzeugt 3 Strahlen.	200		30426038:weapon spideraa triplelaser.prefab
 
 weapon Squid beamer double.prefab
 displayName	Dual Deathray	Doppelter Todesstrahl	40		1281152896:weapon Squid beamer double.prefab
-description	Fast-firing dual warp ray weapon, especially deadly versus crew. Very fragile due to organic structure. Generates 2 rays.	Schnell feuernde Doppel-Warpstrahlwaffe, besonders tödlich gegen Besatzung. Sehr zerbrechlich aufgrund der organischen Struktur. Erzeugt 2 Strahlen.	200		1281152896:weapon Squid beamer double.prefab
+description	Fast-firing dual warp anti-shield ray weapon, especially deadly versus crew. Very fragile due to organic structure. Generates 2 rays.	Schnell feuernde Doppel-Warp-Anti-Schild-Strahlenwaffe, besonders tödlich gegen Besatzungsmitglieder. Aufgrund ihrer organischen Struktur sehr empfindlich. Erzeugt 2 Strahlen.	200		1281152896:weapon Squid beamer double.prefab
 
 weapon Squid beamer EMP.prefab
 displayName	Singular EMP ray	Einzelner EMP-Strahl	40		1535460222:weapon Squid beamer EMP.prefab
@@ -9854,14 +9877,14 @@ description	Rapid-firing EMP raygun that decimates shields and overloads modules
 
 weapon Squid beamer heatray.prefab
 displayName	Squid heatray gun	Tintenfisch-Hitzestrahlgeschütz	40		728051246:weapon Squid beamer heatray.prefab
-description	A rapid never-deflecting-fire-causing heatray weapon that does no damage against ship HP, but is quite efficient against modules & crew.	Eine schnell feuernde, nie ablenkende Hitzestrahlwaffe, die keinen Schaden gegen die HP des Schiffes anrichtet, aber recht effizient gegen Module und Besatzung ist.	200		728051246:weapon Squid beamer heatray.prefab
+description	A rapid never-deflecting-fire-causing heatray weapon that does low damage against shields but is quite efficient against ship hull, modules & crew.	Eine schnelle, nie ablenkende, Feuer verursachende Hitzestrahlwaffe, die gegen Schilde nur geringen Schaden anrichtet, gegen Schiffsrumpf, Module und Besatzung jedoch recht effizient ist.	200		728051246:weapon Squid beamer heatray.prefab
 
 weapon Squid beamer single.prefab
 displayName	Singular Deathray	Singularer Todesstrahl	40		1356678884:weapon Squid beamer single.prefab
 description	Rapid-firing warp ray weapon, especially deadly versus crew. Has reduced power requirement but also a very fragile structure. Generates a single ray.	Schnell feuernde Warpstrahlwaffe, besonders tödlich gegen Besatzung. Hat einen reduzierten Energiebedarf, aber auch eine sehr zerbrechliche Struktur. Erzeugt einen einzelnen Strahl.	200		1356678884:weapon Squid beamer single.prefab
 
 weapon Squid warp ray effector.prefab
-description	Advanced warp effector that ravages material targets but deals only minor damage to shields. Generates a single ray that never deflects.	Fortschrittlicher Warp-Effektor, der materielle Ziele verwüstet, aber nur geringen Schaden an Schilden anrichtet. Erzeugt einen einzelnen Strahl, der nie abgelenkt wird.	200		1028495088:weapon Squid warp ray effector.prefab
+description	Advanced warp effector that ravages material targets but deals less damage to shields. Generates a single ray that never deflects.	Fortschrittlicher Warp-Effektor, der materielle Ziele verwüstet, Schilden jedoch weniger Schaden zufügt. Erzeugt einen einzelnen Strahl, der niemals abgelenkt wird.	200		1028495088:weapon Squid warp ray effector.prefab
 
 weapon tigerlaser MK1.prefab
 displayName	Industrial laser I	Industrielaser I	40		306184113:weapon tigerlaser MK1.prefab
@@ -9943,7 +9966,7 @@ description	Ancient but robust platform for printing and launching dual rockets.
 
 weapon DIY Rockets x1.prefab
 displayName	DIY heavy rocket launcher	Schwerer Raketenwerfer (Selbstbau)	40		821254137:weapon DIY Rockets x1.prefab
-description	Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect. A launched missile has 2hp.	Improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu drucken und abzuschießen. Die Raketen werden nicht abgelenkt. Eine abgeschossene Rakete hat 2 HP.	200		821254137:weapon DIY Rockets x1.prefab
+description	Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect. A launched missile has 3hp.	Improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu drucken und abzufeuern. Raketen werden niemals abgelenkt. Eine abgefeuerte Rakete hat 3 HP.	200		821254137:weapon DIY Rockets x1.prefab
 
 weapon emperormissile large x5.prefab
 displayName	Intelligent BankTM rocket launcher (x5)	Intelligente BankTM-Raketenwerfer (x5)	40		1975811673:weapon emperormissile large x5.prefab
@@ -9959,7 +9982,7 @@ description	A platform that prints & launches missiles. All missiles are accurat
 
 weapon monolith missile x1.prefab
 displayName	Monolith launcher	Monolith-Abschussvorrichtung	40		1348589878:weapon monolith missile x1.prefab
-description	This platform prints supersolid metal monoliths with rocket engines. The massive projectiles deal mostly hull damage but can be deflected. The launcher itself is quite brittle, launched missiles have 8hp.	Diese Plattform druckt supersolide Metallmonolithen mit Raketentriebwerken. Die massiven Geschosse verursachen hauptsächlich Hüllenschaden, können aber abgelenkt werden. Der Raketenwerfer selbst ist recht spröde, die abgeschossenen Raketen haben 8 HP.	200		1348589878:weapon monolith missile x1.prefab
+description	This platform prints supersolid metal monoliths with rocket engines. The massive projectiles deal mostly hull damage but can be deflected. The launcher itself is quite brittle, but launched missiles have 8hp.	Diese Plattform feuert extrem solide Metallmonolithen mit Raketentriebwerken ab. Die massiven Geschosse verursachen hauptsächlich Rumpfschaden, können jedoch abgewehrt werden. Die Abschussvorrichtung selbst ist recht zerbrechlich, die abgefeuerten Geschosse verfügen jedoch über 8 HP.	200		1348589878:weapon monolith missile x1.prefab
 
 weapon ratmissile x2.prefab
 displayName	Rat missile platform	Ratten-Raketenplattform	40		597713891:weapon ratmissile x2.prefab; 777119861:weapon ratmissile x3.prefab
@@ -9988,7 +10011,7 @@ description	A powerful electromagnetic plasma pulse cannon. Overloads shields or
 
 weapon exoticscannon1.prefab
 displayName	Exotic destabilizer cannon	Exotische Destabilisatorkanone	40		1983239915:weapon exoticscannon1.prefab
-description	Advanced energy cannon that shoots chunks of destabilized exotic matter. Large AoE, penetrates shields and never deflects. May overload modules that survive a hit. Launched projectile has 7hp.	Fortgeschrittene Energiekanone, die Brocken von destabilisierter exotischer Materie verschießt. Große AoE, durchdringt Schilde und wird nicht abgelenkt. Kann Module überladen, die einen Treffer überleben. Abgefeuertes Projektil hat 7 HP.	200		1983239915:weapon exoticscannon1.prefab
+description	Super-advanced energy cannon that shoots chunks of destabilized exotic matter with power comparable to nukes. Large AoE, penetrates shields and never deflects. Overloads modules that survive a hit. Launched projectile has 7hp.	Hochmoderne Energiekanone, die Brocken aus destabilisierter exotischer Materie mit einer Kraft abfeuert, die mit der von Atomwaffen vergleichbar ist. Großer Wirkungsbereich, durchdringt Schilde und lässt sich nicht ablenken. Überlastet Module, die einen Treffer überstehen. Das abgefeuerte Projektil verfügt über 7 HP.	200		1983239915:weapon exoticscannon1.prefab
 
 weapon spideraa disruptor.prefab
 displayName	Spideraa shield disruptor	Spinner-Schildbrecher	40		1411264531:weapon spideraa disruptor.prefab
@@ -9996,7 +10019,7 @@ description	A biotech platform for projecting powerful EMP rays. Disrupts shield
 
 weapon Spideraa shuriken.prefab
 displayName	Nanoshuriken sniper	Nanowurfstern-Scharfschütze	40		985673324:weapon Spideraa shuriken.prefab
-description	Shoots nano-thin shurikens that damage only enemy crew. Perfect for sniping enemy captains. Launched projectiles have 1hp each.	Schießt nano-dünne Wurfsterne ab, die nur die gegnerische Besatzung beschädigen. Perfekt zum Scharfschießen auf feindliche Kapitäne. Feuert 4 Projektile mit jeweils 1 HP.	200		985673324:weapon Spideraa shuriken.prefab
+description	Shoots volleys of nano-thin shurikens that damage only enemy crew. Perfect for sniping enemy captains. Launched projectiles have 1hp each.	Feuert Salven nanodünner Shuriken ab, die ausschließlich der gegnerischen Besatzung Schaden zufügen. Ideal, um gegnerische Kapitäne auszuschalten. Die abgefeuerten Projektile haben jeweils 1 HP.	200		985673324:weapon Spideraa shuriken.prefab
 
 bossweapon insectoid ship.prefab
 displayName	Huge energy weapon	Riesige Energiewaffe	40		1801315413:bossweapon insectoid ship.prefab
@@ -10052,11 +10075,14 @@ description	This ancient ship was built over a hundred years ago for long-range 
 unlockText	Reach sector 10 to unlock	Freischaltung: Erreichen Sie Sektor 10	100		1939804939:10 Endurance.prefab
 unlockAnnouncementText	You've been awarded this legendary ship for your exceptional deeds in service of Earth Alliance.	Sie haben dieses legendäre Schiff für Ihre außergewöhnlichen Taten im Dienste der Erd-Allianz erhalten.	100		1939804939:10 Endurance.prefab
 
+Msg panel.prefab
+	Hello from the developers of Shortest Trip!\n\nVisit the Steam forums if you have questions, bugreports or just want to have a friendly discussion.\n\nIf you have enjoyed Shortest Trip, please support its continued development by mentioning it to your friends who might like it as well.\n\nWishing you a merry experience of <color=#761606>desperation & death,</color>\nInteractive Fate	Hallo von den Entwicklern von Shortest Trip!\n\nBesucht die Steam-Foren, wenn ihr Fragen habt, Fehler melden möchtet oder einfach nur eine freundliche Diskussion führen wollt.\n\nWenn euch Shortest Trip gefallen hat, unterstützt bitte die weitere Entwicklung des Spiels, indem ihr es euren Freunden weiterempfehlt, denen es vielleicht auch gefallen könnte.\n\nWir wünschen euch viel Spaß mit <color=#761606>Verzweiflung und Tod,</color>\nInteractive Fate	0		1328803184:Msg panel.prefab
+
 Perk add credits 2, personal savings.prefab
 displayName	Personal savings	Persönliche Ersparnisse	40		1722324010:Perk add credits 2, personal savings.prefab
 description	Feeling this trip is important, you brought along some personal savings you had earned through hard work.	Da Sie das Gefühl haben, dass diese Reise wichtig ist, haben Sie einige persönliche Ersparnisse mitgebracht, die Sie durch harte Arbeit verdient haben.	250		1722324010:Perk add credits 2, personal savings.prefab
 unlockAnnouncementText	I've realized the importance of this mission. I will bring along some of my personal savings, next time before such a journey.	Ich habe erkannt, wie wichtig diese Mission ist. Ich werde das nächste Mal vor einer solchen Reise etwas von meinen persönlichen Ersparnissen mitbringen.	100		1722324010:Perk add credits 2, personal savings.prefab
-randomizerMenuStrings[i]	+120 credits	+120 Kredite	30		1722324010:Perk add credits 2, personal savings.prefab
+randomizerMenuStrings[i]	+140 credits	+140 Kredite	30		1722324010:Perk add credits 2, personal savings.prefab
 
 Perk add credits.prefab
 displayName	Data credits	Datenkredite	40		1687140155:Perk add credits.prefab
@@ -10067,9 +10093,9 @@ Perk add exotics 2, broken sex toy.prefab
 displayName	Exotic toy	Exotisches Spielzeug	40		1246169320:Perk add exotics 2, broken sex toy.prefab
 description	This broken alien sex toy is being sold on a junk market on Marrakis. The seller does not know that breaking it could yield considerable salvage value.	Dieses kaputte außerirdische Sexspielzeug wird auf einem Trödelmarkt auf Marrakis verkauft. Der Verkäufer weiß nicht, dass das Zerbrechen des Spielzeugs einen beträchtlichen Wiederverwertungswert haben könnte.	250		1246169320:Perk add exotics 2, broken sex toy.prefab
 unlockAnnouncementText	During our travels, we've spotted a curiosity being sold in one of the local junk markets. The seller does not know that breaking it could yield considerable salvage value.	Auf unseren Reisen haben wir eine Kuriosität entdeckt, die auf einem der lokalen Trödelmärkte verkauft wird. Der Verkäufer weiß nicht, dass das Zerbrechen des Geräts einen beträchtlichen Wiederverwertungswert haben könnte.	100		1246169320:Perk add exotics 2, broken sex toy.prefab
-randomizerMenuStrings[i]	-50 credits	-50 Kredite	30		1246169320:Perk add exotics 2, broken sex toy.prefab; 3870557:Perk Replace sensor with new for bluestar.prefab; 28078182:Perk module old triple cannon.prefab; 161683945:Perk drone 09b tactical sec.prefab; 305450922:Perk nuke thinspeeder for atlas.prefab; 335666066:Perk Replace ECM of warpshell.prefab; 656830655:Perk nuke fueltank for atlas.prefab; 873280599:Perk Endurance extra hitpoints and deflection.prefab; 1138940531:Perk crew top cadet.prefab; 1461582440:Perk maggot pet.prefab; 1524517897:Perk Replace combat sensor old with new.prefab; 1559119211:Perk drone 07 gunnery and repair.prefab; 1666507194:Perk Replace terran smallreactor oldx2.prefab; 2032285499:Perk Replace organics containers with betters for gardenship.prefab; 2073380488:Perk module DIY shield battery.prefab
+randomizerMenuStrings[i]	-50 credits	-50 Kredite	30		1246169320:Perk add exotics 2, broken sex toy.prefab; 3870557:Perk Replace sensor with new for bluestar.prefab; 28078182:Perk module old triple cannon.prefab; 161683945:Perk drone 09b tactical sec.prefab; 305450922:Perk nuke thinspeeder for atlas.prefab; 335666066:Perk Replace ECM of warpshell.prefab; 656830655:Perk nuke fueltank for atlas.prefab; 873280599:Perk Endurance extra hitpoints and deflection.prefab; 1138940531:Perk crew top cadet.prefab; 1461582440:Perk maggot pet.prefab; 1504797922:Perk drone 09 light sec.prefab; 1524517897:Perk Replace combat sensor old with new.prefab; 1559119211:Perk drone 07 gunnery and repair.prefab; 1666507194:Perk Replace terran smallreactor oldx2.prefab; 2032285499:Perk Replace organics containers with betters for gardenship.prefab; 2073380488:Perk module DIY shield battery.prefab
 randomizerMenuStrings[i]	+1 exotics	+1 Exoten	30		1246169320:Perk add exotics 2, broken sex toy.prefab; 136575048:Perk barter get exotics for credits.prefab; 1101108011:Perk crew warrior queen.prefab; 1585922370:Perk add exotics.prefab; 1983487017:Perk module DIY lab.prefab
-randomizerMenuStrings[i]	+10 synthetics	+10 Kunststoffe	30		1246169320:Perk add exotics 2, broken sex toy.prefab; 411849296:Perk module medbay 202.prefab; 1672628016:Perk add organics 3, braindead.prefab; 2075504578:Perk augment 00a full checkup.prefab
+randomizerMenuStrings[i]	+10 synthetics	+10 Kunststoffe	30		1246169320:Perk add exotics 2, broken sex toy.prefab; 411849296:Perk module medbay 202.prefab
 
 Perk add exotics.prefab
 displayName	Exotic crystal from UrQuani-2	Exotischer Kristall von UrQuani-2	40		1585922370:Perk add exotics.prefab
@@ -10079,19 +10105,20 @@ Perk add explosives 2, explo sculpture.prefab
 displayName	Sculpture of an explosion	Skulptur einer Explosion	40		1491789515:Perk add explosives 2, explo sculpture.prefab
 description	A sculpture of an ongoing explosion, made of volatile plastic explosives. We may accept this gift from one of our Gor-Mor friends as a symbol for trust, happiness and friendship.	Eine Skulptur einer laufenden Explosion, hergestellt aus flüchtigem Plastiksprengstoff. Wir dürfen dieses Geschenk von einem unserer Gor-Mor-Freunde als Symbol für Vertrauen, Glück und Freundschaft annehmen.	250		1491789515:Perk add explosives 2, explo sculpture.prefab
 unlockAnnouncementText	We've made a new friend. They would like to gift us a sculpture (which happens to be made of plastic explosives) in the future, according to local Friendship traditions.	Wir haben einen neuen Freund gefunden. Sie möchten uns in Zukunft eine Skulptur schenken (die zufällig aus Plastiksprengstoff besteht), gemäß den lokalen Freundschaftstraditionen.	100		1491789515:Perk add explosives 2, explo sculpture.prefab
-randomizerMenuStrings[i]	+33 explosives	+33 Sprengstoffe	30		1491789515:Perk add explosives 2, explo sculpture.prefab
+randomizerMenuStrings[i]	+99 explosives	+99 Sprengstoffe	30		1491789515:Perk add explosives 2, explo sculpture.prefab
 
 Perk add explosives for Ratship.prefab
 displayName	Extra explosives II	Extra Sprengstoffe II	40		203859815:Perk add explosives for Ratship.prefab
 description	Explosives are abundant in the Rat Empire, and can be obtained quite easily.	Sprengstoff ist im Rattenimperium reichlich vorhanden und kann recht einfach beschafft werden.	250		203859815:Perk add explosives for Ratship.prefab
 unlockAnnouncementText	Explosives are abundant in the Rat Empire, and can be obtained quite easily. We've met someone who has a permanent offer available.	Sprengstoff gibt es im Rattenimperium im Überfluss, und er ist recht leicht zu beschaffen. Wir haben jemanden getroffen, der ein dauerhaftes Angebot zur Verfügung hat.	100		203859815:Perk add explosives for Ratship.prefab
-randomizerMenuStrings[i]	+75 explosives	+75 Sprengstoffe	30		203859815:Perk add explosives for Ratship.prefab
+randomizerMenuStrings[i]	+95 explosives	+95 Sprengstoffe	30		203859815:Perk add explosives for Ratship.prefab
 
 Perk add explosives.prefab
 displayName	Extra explosives	Extra Sprengstoffe	40		153460441:Perk add explosives.prefab
 description	A cache of decommissioned munitions. Explosives are mostly used by missiles and projectile weapons.	Ein Cache mit ausgemusterter Munition. Sprengstoff wird hauptsächlich von Raketen und Projektilwaffen verwendet.	250		153460441:Perk add explosives.prefab
 unlockAnnouncementText	We've met an old Rat official responsible for a warehouse filled with decommissioned munitions. We bought him a drink and he promised to give us some for free, next time.	Wir haben einen alten Ratten-Beamten getroffen, der für ein Lager voller ausgemusterter Munition verantwortlich ist. Wir haben ihm einen Drink spendiert und er hat uns versprochen, uns beim nächsten Mal etwas davon umsonst zu geben.	100		153460441:Perk add explosives.prefab
-randomizerMenuStrings[i]	+60 explosives	+60 Sprengstoffe	30		153460441:Perk add explosives.prefab
+randomizerMenuStrings[i]	+90 explosives	+90 Sprengstoffe	30		153460441:Perk add explosives.prefab
+randomizerMenuStrings[i]	-10 credits	-10 Kredite	30		153460441:Perk add explosives.prefab; 1672628016:Perk add organics 3, braindead.prefab
 
 Perk add fuel 2, extra canisters.prefab
 displayName	Extra fuel II	Extra Treibstoff II	40		1636676426:Perk add fuel 2, extra canisters.prefab
@@ -10117,7 +10144,7 @@ displayName	The Tank	Der Panzer	40		1311577453:Perk add metals 2, scrap tank.pre
 description	A dubious individual is trying to sell us this broken military machine without allowing prior inspection. It should be easily fixable with some spare parts, they say. The tank is permanently broken and only has value as scrap metal.	Ein dubioses Individuum versucht, uns diese kaputte Militärmaschine zu verkaufen, ohne eine vorherige Inspektion zu erlauben. Er sollte mit ein paar Ersatzteilen leicht zu reparieren sein, sagen sie. Der Panzer ist dauerhaft kaputt und hat nur noch Wert als Schrott.	250		1311577453:Perk add metals 2, scrap tank.prefab
 unlockAnnouncementText	During our travels, we've met an almost honest individual who is trying to sell us some kind of broken tank on a planet "not too far from here".	Auf unserer Reise haben wir ein fast ehrliches Individuum getroffen, das uns einen kaputten Panzer auf einem Planeten "nicht allzu weit von hier" verkaufen will.	100		1311577453:Perk add metals 2, scrap tank.prefab
 randomizerMenuStrings[i]	-20 credits	-20 Kredite	30		1311577453:Perk add metals 2, scrap tank.prefab
-randomizerMenuStrings[i]	+88 metal	+88 Metalle	30		1311577453:Perk add metals 2, scrap tank.prefab
+randomizerMenuStrings[i]	+158 metal	+158 Metalle	30		1311577453:Perk add metals 2, scrap tank.prefab
 
 Perk add metals.prefab
 displayName	Assorted metals	Gemischte Metalle	40		798752091:Perk add metals.prefab
@@ -10127,62 +10154,66 @@ randomizerMenuStrings[i]	+150 metals	+150 Metalle	30		798752091:Perk add metals.
 Perk add organics 0.prefab
 displayName	Extra organics	Zusätzliche Organik	40		1590596161:Perk add organics 0.prefab
 description	Average human consumes 6 organics per 100 range units (ru) travelled, which is the average diameter of a star system.\nOrganics are also used by medbays when healing crew.	Ein durchschnittlicher Mensch verbraucht 6 Organik pro 100 zurückgelegte Reichweiteneinheiten (re), was dem durchschnittlichen Durchmesser eines Sternensystems entspricht. \nOrganics werden auch von Krankenstationen verwendet, wenn sie die Besatzung heilen.	250		1590596161:Perk add organics 0.prefab
-randomizerMenuStrings[i]	+50 organics	+50 Organik	30		1590596161:Perk add organics 0.prefab
+randomizerMenuStrings[i]	+50 organics	+50 Organik	30		1590596161:Perk add organics 0.prefab; 1569517835:Perk pack, medical resources.prefab
 
 Perk add organics 1, houseplant.prefab
 displayName	Accelerated chillnut tree	Beschleunigter Frostnussbaum	40		430920595:Perk add organics 1, houseplant.prefab
 description	This small tree is genetically engineered to go through its life cycle at incredible speed.\nBy the time we wake up from the cryosleep, it has already grown edible seeds and died of old age.	Dieser kleine Baum ist gentechnisch so konstruiert, dass er seinen Lebenszyklus mit unglaublicher Geschwindigkeit durchläuft.\nBis wir aus dem Kryoschlaf erwachen, hat er bereits essbare Samen gebildet und ist an Altersschwäche gestorben.	250		430920595:Perk add organics 1, houseplant.prefab
 unlockAnnouncementText	Due to lack of favorite consumables, one of our crew has decided that he's going to take his chillnut tree with him, next time he travels anywhere.	Aufgrund des Mangels an beliebten Verbrauchsgütern hat einer unserer Besatzungsmitglieder beschlossen, dass er seinen Frostnussbaum mitnehmen wird, wenn er das nächste Mal irgendwohin reist.	100		430920595:Perk add organics 1, houseplant.prefab
-randomizerMenuStrings[i]	+30 organics	+30 Organik	30		430920595:Perk add organics 1, houseplant.prefab; 910502010:sdlc/Perk pet DLC shocker lizard.prefab; 945087461:Perk add organics 5, dead animals.prefab; 1672628015:Perk add organics 2, increased nutrition.prefab
+randomizerMenuStrings[i]	+130 organics	+130 Organik	30		430920595:Perk add organics 1, houseplant.prefab
 
 Perk add organics 2, increased nutrition.prefab
 displayName	Increased nutrition	Gesteigerte Ernährung	40		1672628015:Perk add organics 2, increased nutrition.prefab
 description	Months before the journey, all of the crew prepared by eating a bit more than usual to build up reserves. Starting off with a few extra pounds could save us from starvation one day.	Schon Monate vor der Reise bereitete sich die gesamte Besatzung vor, indem sie etwas mehr als üblich aß, um Reserven aufzubauen. Der Start mit ein paar zusätzlichen Pfunden könnte uns eines Tages vor dem Verhungern bewahren.	250		1672628015:Perk add organics 2, increased nutrition.prefab
 unlockAnnouncementText	The lack of favourite consumables and occasional hunger has reminded our crew to prepare physically better next time, if there ever will be one.	Der Mangel an bevorzugten Verbrauchsgütern und der gelegentliche Hunger hat unsere Besatzung daran erinnert, sich beim nächsten Mal körperlich besser vorzubereiten, falls es jemals eines geben wird.	100		1672628015:Perk add organics 2, increased nutrition.prefab
+randomizerMenuStrings[i]	+60 organics	+60 Organik	30		1672628015:Perk add organics 2, increased nutrition.prefab
 
 Perk add organics 3, braindead.prefab
 displayName	Biotech remains	Biotech Überreste	40		1672628016:Perk add organics 3, braindead.prefab
 description	Somebody is trying to sell us this dead biotech brain of a broken stealth decryptor, says it's still perfectly edible.	Jemand versucht, uns das tote Biotech-Gehirn eines kaputten Stealth-Entschlüsslers zu verkaufen und behauptet, es sei noch vollkommen essbar.	250		1672628016:Perk add organics 3, braindead.prefab
 unlockAnnouncementText	During our travels, we've met an honest individual who is trying to sell us some kind of broken equipment because "It's still perfectly edible".	Auf unseren Reisen haben wir ein ehrliches Individuum getroffen, das versucht, uns eine Art kaputtes Gerät zu verkaufen, weil "es noch perfekt essbar ist".	100		1672628016:Perk add organics 3, braindead.prefab
-randomizerMenuStrings[i]	+40 organics	+40 Organik	30		1672628016:Perk add organics 3, braindead.prefab; 584291632:Perk crew rat cook.prefab; 1581853207:Perk crew grippy gunner.prefab
-randomizerMenuStrings[i]	-10 credits	+10 Kunststoffe	30		1672628016:Perk add organics 3, braindead.prefab
+randomizerMenuStrings[i]	+80 organics	+80 Organik	30		1672628016:Perk add organics 3, braindead.prefab
+randomizerMenuStrings[i]	+20 synthetics	+20 Kunststoffe	30		1672628016:Perk add organics 3, braindead.prefab; 2075504578:Perk augment 00a full checkup.prefab
 
 Perk add organics 4, dead insectoids.prefab
 displayName	Donated insectoid remains	Gespendete insektoide Überreste	40		75978646:Perk add organics 4, dead insectoids.prefab
 description	The honourable Shieldbug tradition demands that bodies of losers must be donated, to be eaten by the most shameful members of other species. We may accept this donation for we have passed the necessary criteria.	Die ehrwürdige Shieldbug-Tradition verlangt, dass die Körper von Verlierern gespendet werden, um von den schändlichsten Mitgliedern anderer Spezies gegessen zu werden. Wir dürfen diese Spende annehmen, denn wir haben die notwendigen Kriterien erfüllt.	250		75978646:Perk add organics 4, dead insectoids.prefab
 unlockAnnouncementText	During our travels, we've met an honourable Insectoid priest who wants to make a donation to our cause.	Auf unseren Reisen haben wir einen ehrenwerten Insektoiden-Priester getroffen, der uns eine Spende zukommen lassen möchte.	100		75978646:Perk add organics 4, dead insectoids.prefab
-randomizerMenuStrings[i]	+60 organics	+60 Organik	30		75978646:Perk add organics 4, dead insectoids.prefab
+randomizerMenuStrings[i]	+150 organics	+150 Organik	30		75978646:Perk add organics 4, dead insectoids.prefab
 
 Perk add organics 5, dead animals.prefab
 displayName	Dead animals	Tote Tiere	40		945087461:Perk add organics 5, dead animals.prefab
 description	A drunk and dishonest patron in a shady space bar is trying to sell us some animals he killed. Says their bodies taste great with the right spices, and that they weren't cute or anything. The animals were actually small, fluffy and very cute.	Ein betrunkener und unehrlicher Gast in einer zwielichtigen Weltraumbar versucht, uns einige Tiere zu verkaufen, die er getötet hat. Er sagt, dass ihre Körper mit den richtigen Gewürzen großartig schmecken und dass sie nicht niedlich waren oder so. Tatsächlich waren die Tiere klein, flauschig und sehr niedlich.	250		945087461:Perk add organics 5, dead animals.prefab
 unlockAnnouncementText	During our travels, we met a desperate and dishonest individual trying to sell us corpses of animals that he's recently killed. Says the offer will stay open for a while.	Während unserer Reise trafen wir einen verzweifelten und unehrlichen Menschen, der uns Kadaver von Tieren verkaufen wollte, die er kürzlich getötet hat. Er sagt, das Angebot bleibe noch eine Weile bestehen.	100		945087461:Perk add organics 5, dead animals.prefab
+randomizerMenuStrings[i]	+120 organics	+120 Organik	30		945087461:Perk add organics 5, dead animals.prefab
 randomizerMenuStrings[i]	-5 credits	-5 Kredite	30		945087461:Perk add organics 5, dead animals.prefab; 1019109695:Perk add synthetics 2, broken lamp.prefab
 
 Perk add permanent credits.prefab
 displayName	Scientific data on Spideraa	Wissenschaftliche Daten über die Spinner	40		406945286:Perk add permanent credits.prefab
 description	Scientific data about the Spideraa species is worth a lot of credits once we've obtained it. This information is quite dangerous, so we need to invest time and money into comprehensive background checks before deciding on a buyer.	Wissenschaftliche Daten über die Spezies Spinner sind eine Menge Kredite wert, sobald wir sie erhalten haben. Diese Informationen sind ziemlich gefährlich, daher müssen wir Zeit und Geld in umfassende Hintergrundprüfungen investieren, bevor wir uns für einen Käufer entscheiden.	250		406945286:Perk add permanent credits.prefab
-randomizerMenuStrings[i]	+75 credits	+75 Kredite	30		406945286:Perk add permanent credits.prefab
+randomizerMenuStrings[i]	+75 start credits	+75 Kredite	30		406945286:Perk add permanent credits.prefab
 
 Perk add synthetics 2, broken lamp.prefab
 displayName	Broken street lamp	Kaputte Straßenlaterne	40		1019109695:Perk add synthetics 2, broken lamp.prefab
-description	A desperate individual of dubious appearance is trying to sell us this street lamp, saying it can be easily fixed. The lamp is permanently broken and is only good for spare parts.	Ein verzweifeltes Individuum von zweifelhaftem Aussehen versucht, uns diese Straßenlampe zu verkaufen und behauptet, sie könne leicht repariert werden. Die Lampe ist dauerhaft kaputt und taugt nur noch als Ersatzteil.	250		1019109695:Perk add synthetics 2, broken lamp.prefab
+description	A desperate individual of dubious appearance is trying to sell us this giant street lamp, saying it can be easily fixed. The lamp is permanently broken and is only good for spare parts.	Ein verzweifelter Typ mit zweifelhaftem Aussehen versucht, uns diese riesige Straßenlaterne aufzuschwatzen, und behauptet, sie lasse sich leicht reparieren. Die Laterne ist jedoch endgültig kaputt und eignet sich nur noch als Ersatzteilspender.	250		1019109695:Perk add synthetics 2, broken lamp.prefab
 unlockAnnouncementText	During our travels, we met this individual trying to sell us a broken lamp. He promised to reserve it exclusively for us after we donated him some leftover edibles.	Auf unserer Reise trafen wir diesen Menschen, der uns eine kaputte Lampe verkaufen wollte. Er versprach, sie ausschließlich für uns zu reservieren, nachdem wir ihm einige Essensreste gespendet hatten.	100		1019109695:Perk add synthetics 2, broken lamp.prefab
-randomizerMenuStrings[i]	+20 metal	+20 Metalle	30		1019109695:Perk add synthetics 2, broken lamp.prefab
-randomizerMenuStrings[i]	+30 synthetics	+30 Kunststoffe	30		1019109695:Perk add synthetics 2, broken lamp.prefab; 450353830:Perk module DIY sensor.prefab; 600376461:Perk module DIY bridge.prefab; 1860396564:Perk module DIY backup warpdrive.prefab
+randomizerMenuStrings[i]	+60 metal	+60 Metalle	30		1019109695:Perk add synthetics 2, broken lamp.prefab
+randomizerMenuStrings[i]	+130 synthetics	+130 Kunststoffe	30		1019109695:Perk add synthetics 2, broken lamp.prefab
 
 Perk add synthetics 3, ex container.prefab
 displayName	Exotics container remains	Überreste eines Exoten-Behälters	40		986856836:Perk add synthetics 3, ex container.prefab
-description	This used to be a container for holding exotics, but with years, the anomalous energies of exotics warped the molecular structure of the container, eventually turning it into a lump of synthetic scrap. It's still better than nothing.	Dies war einmal ein Behälter zur Aufbewahrung von Exoten, aber mit den Jahren haben die anomalen Energien der Exoten die Molekularstruktur des Behälters verformt und ihn schließlich in einen Klumpen Kunststoffschrott verwandelt. Das ist immer noch besser als nichts.	250		986856836:Perk add synthetics 3, ex container.prefab
+description	This used to be a container for holding exotics, but with years, the anomalous energies of exotics warped the molecular structure of the container, eventually turning it into a lump of scrap. It's still better than nothing.	Früher war dies ein Behälter zur Aufbewahrung von Exoten, doch im Laufe der Jahre haben die anomalen Energien der Exoten die Molekülstruktur des Behälters verzerrt und ihn schließlich in einen Schrotthaufen verwandelt. Aber es ist immer noch besser als gar nichts.	250		986856836:Perk add synthetics 3, ex container.prefab
 unlockAnnouncementText	During our travels, we've located this object. It is almost worthless, but we can pick it for free if we ever go adventuring again.	Auf unseren Reisen haben wir dieses Objekt geortet. Es ist fast wertlos, aber wir können es umsonst mitnehmen, falls wir jemals wieder auf Abenteuerreise gehen.	100		986856836:Perk add synthetics 3, ex container.prefab
-randomizerMenuStrings[i]	+70 synthetics	+70 Kunststoffe	30		986856836:Perk add synthetics 3, ex container.prefab
+randomizerMenuStrings[i]	+190 synthetics	+190 Kunststoffe	30		986856836:Perk add synthetics 3, ex container.prefab
+randomizerMenuStrings[i]	+10 metal	+10 Metalle	30		986856836:Perk add synthetics 3, ex container.prefab
 
 Perk add synthetics and fuel.prefab
 displayName	Donated industrial waste	Gespendeter Industrieabfall	40		1312794238:Perk add synthetics and fuel.prefab
 description	A donation from industrial-era sentients.	Eine Spende von Empfängern aus der Industriezeit.	250		1312794238:Perk add synthetics and fuel.prefab
 unlockAnnouncementText	During our travels, we received this official guarantee from a minor civilization of industrial primitives. It guarantees us some of their toxic waste.	Während unserer Reisen erhielten wir diese offizielle Garantie von einer kleinen Zivilisation von industriellen Primitiven. Sie garantiert uns etwas von ihrem Giftmüll.	100		1312794238:Perk add synthetics and fuel.prefab
-randomizerMenuStrings[i]	+25 fuel	+25 Treibstoff	30		1312794238:Perk add synthetics and fuel.prefab
-randomizerMenuStrings[i]	+50 synthetics	+50 Kunststoffe	30		1312794238:Perk add synthetics and fuel.prefab
+randomizerMenuStrings[i]	+40 fuel	+40 Treibstoff	30		1312794238:Perk add synthetics and fuel.prefab; 1995216412:Perk module oilcake organics converter.prefab
+randomizerMenuStrings[i]	+30 explosives	+30 Sprengstoffe	30		1312794238:Perk add synthetics and fuel.prefab
+randomizerMenuStrings[i]	+120 synthetics	+120 Kunststoffe	30		1312794238:Perk add synthetics and fuel.prefab
 
 Perk add synthetics.prefab
 displayName	Assorted synthetics	Diverse Synthetics	40		1289207917:Perk add synthetics.prefab
@@ -10198,8 +10229,9 @@ Perk augment 001a elastic augmentations.prefab
 displayName	Elastic augmentations	Elastische Vergrößerungen	40		780498261:Perk augment 001a elastic augmentations.prefab
 description	Increases ship hull integrity by reinforcing ship hardpoints with super-durable elastics, allowing the ship to "bend" a little.	Erhöht die Integrität der Schiffshülle durch die Verstärkung von Schiffsansatzpunkten mit superzähen Elastics, die es dem Schiff erlauben, sich ein wenig zu "verbiegen".	250		780498261:Perk augment 001a elastic augmentations.prefab
 unlockAnnouncementText	Our ship AI has been carrying out miniature experiments with integrity technology during the journey. Her small discoveries have made new options available, next time we go for a run like this.	Unsere Schiffs-KI hat während der Reise Miniatur-Experimente mit der Integritätstechnologie durchgeführt. Ihre kleinen Entdeckungen haben neue Optionen verfügbar gemacht, wenn wir das nächste Mal eine solche Fahrt unternehmen.	100		780498261:Perk augment 001a elastic augmentations.prefab
+randomizerMenuStrings[i]	+1% to deflection	+1% Schiffsablenkung	30		780498261:Perk augment 001a elastic augmentations.prefab
 randomizerMenuStrings[i]	+4 to ship HP	+4 Schiffshüllenpunkte	30		780498261:Perk augment 001a elastic augmentations.prefab
-randomizerMenuStrings[i]	-90 synthetics	-90 Kunststoffe	30		780498261:Perk augment 001a elastic augmentations.prefab
+randomizerMenuStrings[i]	-100 synthetics	-100 Kunststoffe	30		780498261:Perk augment 001a elastic augmentations.prefab
 
 Perk augment 001b exotic armor.prefab
 displayName	Exotic ship armor	Exotische Schiffspanzerung	40		69059130:Perk augment 001b exotic armor.prefab
@@ -10207,17 +10239,17 @@ description	Adding a nano-thin layer of exotic alloys increases the overall ship
 unlockAnnouncementText	During our travels, we've met somebody who knows this mysterious hermit engineer. The engineer can make unique ship armor out of exotics.	Während unserer Reisen haben wir jemanden getroffen, der diesen mysteriösen Einsiedler-Ingenieur kennt. Der Ingenieur kann einzigartige Schiffspanzerung aus Exoten herstellen.	100		69059130:Perk augment 001b exotic armor.prefab
 randomizerMenuStrings[i]	+3% overall ship deflection	+3% Schiffsablenkung	30		69059130:Perk augment 001b exotic armor.prefab
 randomizerMenuStrings[i]	-175 credits	-175 Kredite	30		69059130:Perk augment 001b exotic armor.prefab; 1984849323:Perk drone 09c Sentinel sec.prefab
-randomizerMenuStrings[i]	-1 exotics	-1 Exot	30		69059130:Perk augment 001b exotic armor.prefab; 142590729:Perk crew gormor gardener.prefab; 462414045:Perk Replace beamer laser for Exception.prefab; 584291632:Perk crew rat cook.prefab; 610158979:Perk Exception extra hitpoints.prefab; 1092748221:Perk nuke bio.prefab; 1491901717:sdlc/Perk pet DLC warp floater.prefab; 1565459393:Perk module DIY explo combinator, to 3ships.prefab; 1570827982:Perk warpshell extra hitpoints.prefab; 1688834803:Perk Replace engines with rat engines for rogue rat.prefab; 1711522921:Perk module DIY shielding set x 2.prefab; 1763651597:Perk warpshell extra deflection.prefab; 1819699687:Perk Replace lasers for Nuke Runner.prefab
+randomizerMenuStrings[i]	-1 exotics	-1 Exot	30		69059130:Perk augment 001b exotic armor.prefab; 142590729:Perk crew gormor gardener.prefab; 462414045:Perk Replace beamer laser for Exception.prefab; 584291632:Perk crew rat cook.prefab; 610158979:Perk Exception extra hitpoints.prefab; 1491901717:sdlc/Perk pet DLC warp floater.prefab; 1565459393:Perk module DIY explo combinator, to 3ships.prefab; 1570827982:Perk warpshell extra hitpoints.prefab; 1688834803:Perk Replace engines with rat engines for rogue rat.prefab; 1711522921:Perk module DIY shielding set x 2.prefab; 1763651597:Perk warpshell extra deflection.prefab; 1819699687:Perk Replace lasers for Nuke Runner.prefab
 
 Perk augment 00a full checkup.prefab
 displayName	Full check and oil change	Vollständige Überprüfung und Ölwechsel	40		2075504578:Perk augment 00a full checkup.prefab
 description	Testing and replacement of deprecated subcomponents ensures increased ship survivability.\nShip HP can be repaired in repair stations or manually by crew, although this is more expensive and not always possible.	Das Testen und Ersetzen veralteter Teilkomponenten sorgt für eine erhöhte Überlebensfähigkeit des Schiffes.\nSchiffs-HP können in Reparaturstationen oder manuell durch die Besatzung repariert werden, was allerdings teurer und nicht immer möglich ist.	250		2075504578:Perk augment 00a full checkup.prefab
-randomizerMenuStrings[i]	+1 ship max HP	+1 Schiffshüllenpunkte	30		2075504578:Perk augment 00a full checkup.prefab
+randomizerMenuStrings[i]	+4 ship max HP	+4 Schiffshüllenpunkte	30		2075504578:Perk augment 00a full checkup.prefab
 
 Perk augment 00b evasive manuever dbase update.prefab
 displayName	Tactical maneuvers update	Aktualisierung der taktischen Manöver	40		344652167:Perk augment 00b evasive manuever dbase update.prefab
 description	Updating tactical database increases our ship's overall evasive capabilities. \nEvasion makes enemy shots deviate more from intended targets. Evasion bonus is countered by combination of ship, crew and weapon accuracy bonuses.	Die Aktualisierung der taktischen Datenbank erhöht die allgemeinen Ausweichfähigkeiten unseres Schiffes. \nAusweichen bewirkt, dass gegnerische Schüsse mehr von den beabsichtigten Zielen abweichen. Der Ausweichbonus wird durch eine Kombination aus Schiffs-, Besatzungs- und Waffengenauigkeitsboni ausgeglichen.	250		344652167:Perk augment 00b evasive manuever dbase update.prefab
-randomizerMenuStrings[i]	+1% evasion	+1% Ausweichen	30		344652167:Perk augment 00b evasive manuever dbase update.prefab; 918962338:Perk augment 00d tactical predictor.prefab
+randomizerMenuStrings[i]	+2% evasion	+2% Ausweichen	30		344652167:Perk augment 00b evasive manuever dbase update.prefab; 918962338:Perk augment 00d tactical predictor.prefab
 
 Perk augment 00c impact dampeners.prefab
 displayName	Passive impact dampeners	Passive Aufpralldämpfer	40		237545307:Perk augment 00c impact dampeners.prefab
@@ -10233,7 +10265,8 @@ randomizerMenuStrings[i]	-100 credits	-100 Kredite	30		918962338:Perk augment 00
 Perk augment 02 Fortified subsections.prefab
 displayName	Armored subsections	Gepanzerte Untersektionen	40		2037439773:Perk augment 02 Fortified subsections.prefab
 description	Increases ship hull integrity by adding a separate layer of armor around subsections of the ship.	Erhöht die Integrität der Schiffshülle durch das Hinzufügen einer separaten Panzerungsschicht um Untersektionen des Schiffes.	250		2037439773:Perk augment 02 Fortified subsections.prefab
-randomizerMenuStrings[i]	+3 to ship HP	+1 Schiffshüllenpunkte	30		2037439773:Perk augment 02 Fortified subsections.prefab; 1570827982:Perk warpshell extra hitpoints.prefab
+randomizerMenuStrings[i]	+8 to ship HP	+8 Schiffshüllenpunkte	30		2037439773:Perk augment 02 Fortified subsections.prefab
+randomizerMenuStrings[i]	-100 metal	-100 Metalle	30		2037439773:Perk augment 02 Fortified subsections.prefab; 873280599:Perk Endurance extra hitpoints and deflection.prefab; 1260454991:Perk nuke arsenal DIY.prefab; 2043215293:Perk DIY drone army.prefab
 
 Perk augment 03 targeting software.prefab
 displayName	Targeting software upgrade	Zielsoftware-Upgrade	40		1577853994:Perk augment 03 targeting software.prefab
@@ -10312,6 +10345,7 @@ displayName	The Grippy gunner	Der Grippy-Schütze	40		1581853207:Perk crew gripp
 description	This snake-individual used to serve in a military warship as a gunnery officer. Experienced in using all kinds of ship weapons. Regularly consumes a cocktail of intoxicants, always brings along his favourite ones.	Dieses Schlangen-Individuum diente früher auf einem militärischen Kriegsschiff als Kanonenoffizier. Erfahren im Umgang mit allen Arten von Schiffswaffen. Konsumiert regelmäßig einen Rauschmittelcocktail, bringt immer seine Lieblingssorten mit.	250		1581853207:Perk crew grippy gunner.prefab
 unlockAnnouncementText	A Grippy ex-solider we've met in our travels wants to join us, next time.	Ein Grippy Ex-Soldat, den wir auf unseren Reisen getroffen haben, möchte sich uns anschließen.	100		1581853207:Perk crew grippy gunner.prefab
 randomizerMenuStrings[i]	+1 crewmember (Grippy ex-soldier)	+1 Besatzungsmitglied (Grippy Ex-Soldat)	30		1581853207:Perk crew grippy gunner.prefab
+randomizerMenuStrings[i]	+40 organics	+40 Organik	30		1581853207:Perk crew grippy gunner.prefab; 584291632:Perk crew rat cook.prefab
 
 Perk crew human scientist.prefab
 displayName	The scientist	Der Wissenschaftler	40		936025880:Perk crew human scientist.prefab
@@ -10358,7 +10392,7 @@ displayName	Warrior princess duo	Kriegerprinzessinnen-Duo	40		1744683542:Perk cr
 description	A pair of invertebrate mercenaries join our mission to feed their family of hundreds	Ein Paar wirbelloser Söldner schließt sich unserer Mission an, um ihre Familie zu ernähren	250		1744683542:Perk crew warrior princess x2.prefab
 extraCrewDescripionOverride	A young insectoid princess of a minor hive. The queens must survive 10 years of mercenary life before they can ascend into royal politics.	Eine junge insektoide Prinzessin eines kleinen Bienenstocks. Die Königinnen müssen 10 Jahre des Söldnerlebens überleben, bevor sie in die königliche Politik aufsteigen können.	250		1744683542:Perk crew warrior princess x2.prefab
 randomizerMenuStrings[i]	+2 crew (insectoid warriors)	+2 Besatzung (Insektoiden-Krieger)	30		1744683542:Perk crew warrior princess x2.prefab
-randomizerMenuStrings[i]	-100 organics	-100 Organik	30		1744683542:Perk crew warrior princess x2.prefab; 1570827982:Perk warpshell extra hitpoints.prefab
+randomizerMenuStrings[i]	-120 organics	-120 Organik	30		1744683542:Perk crew warrior princess x2.prefab
 
 Perk crew warrior queen.prefab
 displayName	The warrior queen	Die Kriegerkönigin	40		1101108011:Perk crew warrior queen.prefab
@@ -10372,7 +10406,6 @@ displayName	DIY drone army	Selbstbau-Drohnenarmee	40		2043215293:Perk DIY drone 
 description	An old engineer will enhance ten small fire extinguisher drones with flamers and spikes - if we have the materials.	Ein alter Ingenieur wird zehn kleine Feuerlöschdrohnen mit Flamern und Stacheln verbessern - wenn wir die Materialien haben.	250		2043215293:Perk DIY drone army.prefab
 randomizerMenuStrings[i]	+10 DIY flamer drones	+10 selbstgebaute Flammenwerfer-Dronen	30		2043215293:Perk DIY drone army.prefab
 randomizerMenuStrings[i]	-150 synthetics	-150 Kunststoffe	30		2043215293:Perk DIY drone army.prefab
-randomizerMenuStrings[i]	-100 metal	-100 Metalle	30		2043215293:Perk DIY drone army.prefab; 873280599:Perk Endurance extra hitpoints and deflection.prefab
 
 Perk drone 00 smallbot.prefab
 displayName	The swearing smallbot	Der fluchende Smallbot	40		1108785668:Perk drone 00 smallbot.prefab
@@ -10389,7 +10422,7 @@ randomizerMenuStrings[i]	+1 fire safety drone	+1 selbstgebaute Brandschutz-Drone
 Perk drone 02 DIY guard.prefab
 displayName	DIY guard drone	Selbstbau-Wachdrohne	40		124153277:Perk drone 02 DIY guard.prefab
 description	A light walker chassis with an improvised laser, assembled from spare parts. limited capabilities. Do not expect much from its scorpion-based AI.	Ein leichtes Walker-Chassis mit einem improvisierten Laser, zusammengebaut aus Ersatzteilen. Begrenzte Fertigkeiten. Erwarten Sie nicht viel von seiner Skorpion-basierten KI.	250		124153277:Perk drone 02 DIY guard.prefab
-randomizerMenuStrings[i]	+1 security drone	+1 selbstgebaute Sicherheitsdrohne	30		124153277:Perk drone 02 DIY guard.prefab; 1504797922:Perk drone 09 light sec.prefab
+randomizerMenuStrings[i]	+1 security drone	+1 selbstgebaute Sicherheitsdrohne	30		124153277:Perk drone 02 DIY guard.prefab
 randomizerMenuStrings[i]	-40 synthetics	-40 Kunststoffe	30		124153277:Perk drone 02 DIY guard.prefab; 566836399:Perk Replace Industrial lasers with MK2.prefab; 1794605234:Perk Replace Rat gatling cannon.prefab
 
 Perk drone 03 DIY repairbot.prefab
@@ -10411,7 +10444,7 @@ Perk drone 05 gardening and repair.prefab
 displayName	Repair & gardening drone	Reparatur- & Gartenbau-Drohne	40		755906886:Perk drone 05 gardening and repair.prefab
 description	A sturdy gardening & repair drone with very silently running cooling systems. Excellent at gardening, limited skillset.	Eine robuste Gartenarbeits- & Reparaturdrohne mit sehr leise laufenden Kühlsystemen. Ausgezeichnet in der Gartenarbeit, begrenzte Fertigkeiten.	250		755906886:Perk drone 05 gardening and repair.prefab
 randomizerMenuStrings[i]	+1 gardening & repair drone	+1 Gärtnerei- & Reparatur-Drone	30		755906886:Perk drone 05 gardening and repair.prefab
-randomizerMenuStrings[i]	-30 credits	-30 Kredite	30		755906886:Perk drone 05 gardening and repair.prefab; 1114131722:Perk Replace shield 2old.prefab; 1504797922:Perk drone 09 light sec.prefab; 1908150008:Perk Replace terran smallreactor old.prefab
+randomizerMenuStrings[i]	-30 credits	-30 Kredite	30		755906886:Perk drone 05 gardening and repair.prefab; 1114131722:Perk Replace shield 2old.prefab; 1908150008:Perk Replace terran smallreactor old.prefab
 
 Perk drone 06 DIY gunnery.prefab
 displayName	DIY gunnery drone	Selbstbau-Schützen-Drohne	40		1559698830:Perk drone 06 DIY gunnery.prefab
@@ -10429,7 +10462,9 @@ description	Armored drone, assembled from spare parts. Turtle-based AI.	Gepanzer
 randomizerMenuStrings[i]	+1 combat drone	+1 selbstgebaute Kampfdrone	30		136621601:Perk drone 08 DIY sentry tank.prefab
 
 Perk drone 09 light sec.prefab
-description	A light humanoid drone designed for personal escort. Armed with autopistol, and the software can be modded for additional sexual functions.	Leichte humanoide Drohne, die für die Personenbegleitung entwickelt wurde. Bewaffnet mit Autopistole, und die Software kann für zusätzliche sexuelle Funktionen modifiziert werden.	250		1504797922:Perk drone 09 light sec.prefab
+displayName	Light escort drones x 2	Leichte Begleitdrohnen × 2	40		1504797922:Perk drone 09 light sec.prefab
+description	A pair of light humanoid drones designed for personal escort, armed with autopistols. They come with pre-installed sexual functions.	Ein Paar leichter humanoider Drohnen, die als persönliche Begleitkräfte konzipiert und mit Automatikpistolen bewaffnet sind. Sie sind mit vorinstallierten sexuellen Funktionen ausgestattet.	250		1504797922:Perk drone 09 light sec.prefab
+randomizerMenuStrings[i]	+2 security drones	+2 Sicherheitsdrohnen	30		1504797922:Perk drone 09 light sec.prefab
 
 Perk drone 09b tactical sec.prefab
 displayName	Tactical security drone	Taktische Sicherheitsdrohne	40		161683945:Perk drone 09b tactical sec.prefab
@@ -10438,7 +10473,7 @@ randomizerMenuStrings[i]	+1 military drone	+1 Militär Drone	30		161683945:Perk 
 
 Perk drone 09c Sentinel sec.prefab
 displayName	Heavy sentinel	Schwerer Sentinel	40		1984849323:Perk drone 09c Sentinel sec.prefab
-description	Large military robot sold to VIP customers at premium price. Heavily armored & armed.	Großer Militärroboter, der an VIP-Kunden zum Premium-Preis verkauft wird. Schwer gepanzert und bewaffnet.	250		1984849323:Perk drone 09c Sentinel sec.prefab
+description	Large military robot for ground warfare. Heavily armored & armed.	Großer Militärroboter für den Bodenkampf. Stark gepanzert und bewaffnet.	250		1984849323:Perk drone 09c Sentinel sec.prefab
 randomizerMenuStrings[i]	+1 heavy combat drone	+1 Schwere Kampfdrone	30		1984849323:Perk drone 09c Sentinel sec.prefab
 
 Perk drone for Tigerfish.prefab
@@ -10460,8 +10495,8 @@ randomizerMenuStrings[i]	+2 artifacts	+2 Artefakte	30		463511730:Perk Exception 
 Perk Exception extra hitpoints.prefab
 displayName	A special diet	Eine besondere Diät	40		610158979:Perk Exception extra hitpoints.prefab
 description	Living parts of the Exception can be augmented by feeding it a special diet of carbon and exotics. The ship's living tissue will grow more resistant to damage.	Die lebenden Teile der Exception können durch eine spezielle Diät aus Kohlenstoff und exotischen Stoffen vergrößert werden. Das lebende Gewebe des Schiffes wird widerstandsfähiger gegen Schäden.	250		610158979:Perk Exception extra hitpoints.prefab
-randomizerMenuStrings[i]	+5 to ship HP	+5 Schiffshüllenpunkte	30		610158979:Perk Exception extra hitpoints.prefab
-randomizerMenuStrings[i]	-150 organics	-150 Organik	30		610158979:Perk Exception extra hitpoints.prefab
+randomizerMenuStrings[i]	+6 to ship HP	+6 Schiffshüllenpunkte	30		610158979:Perk Exception extra hitpoints.prefab
+randomizerMenuStrings[i]	-160 organics	-160 Organik	30		610158979:Perk Exception extra hitpoints.prefab
 
 Perk fate permanent 01 fortunate coincidence.prefab
 displayName	A fortunate coincidence	Eine glückliche Fügung	40		1975921437:Perk fate permanent 01 fortunate coincidence.prefab
@@ -10521,7 +10556,7 @@ randomizerMenuStrings[i]	+1 combat-capable pet	+1 Kampffähiges Haustier	30		146
 Perk module artifact, data core.prefab
 description	This artifact is on sale in a remote Vexian junk market. The seller is not aware that the artifact is a data carrier containing historic information about Earth from thousands of years ago. Its scientific and monetary value are probably underestimated.	Dieses Artefakt wird auf einem abgelegenen vexianischen Trödelmarkt zum Verkauf angeboten. Der Verkäufer ist sich nicht bewusst, dass es sich bei dem Artefakt um einen Datenträger handelt, der historische Informationen über die Erde von vor Tausenden von Jahren enthält. Sein wissenschaftlicher und monetärer Wert wird wahrscheinlich unterschätzt.	250		989922131:Perk module artifact, data core.prefab; 989922131:Perk module artifact, data core.prefab
 randomizerMenuStrings[i]	+1 artifact module	+1 Artefakt-Modul	30		989922131:Perk module artifact, data core.prefab
-randomizerMenuStrings[i]	-25 credits	-25 Kredite	30		989922131:Perk module artifact, data core.prefab; 16054811:Perk module lovers cryosleep.prefab; 152890152:Perk pack, random.prefab; 1362449879:Perk nuke barrel.prefab; 1783804007:Perk module synth cooker, to tigerfish.prefab
+randomizerMenuStrings[i]	-25 credits	-25 Kredite	30		989922131:Perk module artifact, data core.prefab; 16054811:Perk module lovers cryosleep.prefab; 152890152:Perk pack, random.prefab; 1783804007:Perk module synth cooker, to tigerfish.prefab
 
 Perk module artifact, nontech for Bluestar.prefab
 displayName	Natural artifact (Whitestone)	Natürliches Artefakt (Whitestone)	40		1857941328:Perk module artifact, nontech for Bluestar.prefab
@@ -10547,13 +10582,13 @@ Perk module container experimental random for Riggy.prefab
 displayName	The mysterious multicontainer	Der geheimnisvolle Multibehälter	40		905925927:Perk module container experimental random for Riggy.prefab
 description	A friend of a friend offers us an opportunity to obtain this truly rare multicontainer. It's supposedly from some very advanced civilization, or a local prototype or just a rare piece of technology - the friend does not have all the information. Payment in exotic crystals only.	Ein Freund eines Freundes bietet uns die Möglichkeit, diesen wirklich seltenen Multibehälter zu erhalten. Er soll von einer sehr fortgeschrittenen Zivilisation stammen, oder ein lokaler Prototyp oder einfach ein seltenes Stück Technologie sein - der Freund hat nicht alle Informationen. Bezahlung nur in exotischen Kristallen.	250		905925927:Perk module container experimental random for Riggy.prefab
 randomizerMenuStrings[i]	+1 multicontainer	+1 Multibehälter	30		905925927:Perk module container experimental random for Riggy.prefab
-randomizerMenuStrings[i]	-2 exotics	-2 Exoten	30		905925927:Perk module container experimental random for Riggy.prefab; 22277590:Perk module Rat weapon for exotics.prefab; 1511793584:Perk module weapon Spideraa Shuriken.prefab; 1852263270:Perk nuke old.prefab
+randomizerMenuStrings[i]	-2 exotics	-2 Exoten	30		905925927:Perk module container experimental random for Riggy.prefab; 22277590:Perk module Rat weapon for exotics.prefab; 1511793584:Perk module weapon Spideraa Shuriken.prefab
 
 Perk module container FO for Riggy.prefab
 displayName	The advanced multicontainer	Der fortschrittliche Multibehälter	40		260900693:Perk module container FO for Riggy.prefab
 description	This biotech container increases storage capacity for fuel & organics. It's made of very advanced biotech, giving a noteworthy bonus to ship HP.	Dieser Biotech-Behälter erhöht die Speicherkapazität für Treibstoff und Organik. Er ist aus sehr fortschrittlicher Biotechnologie hergestellt und gibt einen bemerkenswerten Bonus auf die Schiffs-HP.	250		260900693:Perk module container FO for Riggy.prefab
 randomizerMenuStrings[i]	+1 fuel & organics multicontainer	+1 Treibstoff-/Organik-Multibehälter	30		260900693:Perk module container FO for Riggy.prefab
-randomizerMenuStrings[i]	-120 credits	-120 Kredite	30		260900693:Perk module container FO for Riggy.prefab
+randomizerMenuStrings[i]	-120 credits	-120 Kredite	30		260900693:Perk module container FO for Riggy.prefab; 1852263270:Perk nuke old.prefab
 
 Perk module container MS1.prefab
 displayName	The extra container	Der Extra-Behälter	40		131783302:Perk module container MS1.prefab
@@ -10584,6 +10619,7 @@ displayName	The backup warpdrive	Der Ersatz-Warpantrieb	40		1860396564:Perk modu
 description	Although ships can fly between starsystems using normal engines, this usually consumes a lot of fuel and especially much more organics than warping with warpdrives. This one is a DIY variant, assembled from spare parts.	Schiffe können zwar mit normalen Triebwerken zwischen Sternensystemen fliegen, aber das verbraucht in der Regel sehr viel Treibstoff und vor allem viel mehr Organik als das Warpen mit Warpantrieben. Dieser hier ist eine selbstgebaute Variante aus Ersatzteilen.	250		1860396564:Perk module DIY backup warpdrive.prefab
 unlockAnnouncementText	During our travels, we met this university student willing to donate her self-made warpdrive to our cause - next time, when she has finished experimenting with it.	Auf unseren Reisen trafen wir diese Studentin, die bereit war, ihren selbstgebauten Warpantrieb für unsere Sache zu spenden - beim nächsten Mal, wenn sie mit dem Experimentieren fertig ist.	100		1860396564:Perk module DIY backup warpdrive.prefab
 randomizerMenuStrings[i]	+1 DIY warpdrive module	+1 selbstgebautes Warpantrieb Modul	30		1860396564:Perk module DIY backup warpdrive.prefab
+randomizerMenuStrings[i]	+30 synthetics	+30 Kunststoffe	30		1860396564:Perk module DIY backup warpdrive.prefab; 450353830:Perk module DIY sensor.prefab; 600376461:Perk module DIY bridge.prefab
 
 Perk module DIY bridge.prefab
 displayName	The backup bridge	Die Backup-Brücke	40		600376461:Perk module DIY bridge.prefab
@@ -10612,14 +10648,13 @@ randomizerMenuStrings[i]	+1 exotic EMP sniper	+1 Exotischer EMP-Scharfschütze	3
 
 Perk module DIY exotic raygun 2.prefab
 displayName	Exotic raygun II	Exotische Strahlenpistole II (Selbstbau)	40		1252646026:Perk module DIY exotic raygun 2.prefab
-description	This experimental weapon consumes exotics with each shot. While very powerful, its rays can be blocked by shields or simply deflected by ship armor.	Diese experimentelle Waffe verbraucht mit jedem Schuss Exoten. Ihre Strahlen sind zwar sehr stark, können aber von Schilden blockiert oder von der Schiffspanzerung einfach abgelenkt werden.	250		1252646026:Perk module DIY exotic raygun 2.prefab
+description	This experimental weapon consumes exotics with each shot. While very powerful, its rays can be blocked by shields or occasionally deflected by ship armor.	Diese experimentelle Waffe verbraucht bei jedem Schuss Exoten. Sie ist zwar sehr mächtig, doch ihre Strahlen können durch Schilde abgeblockt oder gelegentlich von der Schiffsrüstung abgelenkt werden.	250		1252646026:Perk module DIY exotic raygun 2.prefab
 unlockAnnouncementText	During our travels, we learned about a distant library with blueprints for this experimental weapon.	Während unserer Reisen erfuhren wir von einer entfernten Bibliothek mit Blaupausen für diese experimentelle Waffe.	100		1252646026:Perk module DIY exotic raygun 2.prefab
 randomizerMenuStrings[i]	+1 DIY exotic dual raygun	+1 selbstgebaute Exotische Strahlenwaffe	30		1252646026:Perk module DIY exotic raygun 2.prefab
-randomizerMenuStrings[i]	-100 fuel	-100 Treibstoff	30		1252646026:Perk module DIY exotic raygun 2.prefab
 
 Perk module DIY exotic raygun.prefab
 displayName	Exotic raygun I	Exotische Strahlenpistole I (Selbstbau)	40		1512794172:Perk module DIY exotic raygun.prefab
-description	This experimental weapon consumes exotics with each shot. While very powerful, its single ray can be blocked by shields or simply deflected by ship armor.	Diese experimentelle Waffe verbraucht mit jedem Schuss Exoten. Obwohl sie sehr mächtig ist, kann ihr einzelner Strahl von Schilden blockiert oder einfach von der Schiffspanzerung abgelenkt werden.	250		1512794172:Perk module DIY exotic raygun.prefab
+description	This experimental weapon consumes exotics with each shot. While very powerful, its single ray can be blocked by shields or occasionally deflected by ship armor. Scrapping yields considerable quantities of exotic materials.	Diese experimentelle Waffe verbraucht bei jedem Schuss Exoten. Sie ist zwar sehr mächtig, doch ihr einzelner Strahl kann von Schilden abgewehrt oder gelegentlich von der Schiffsrüstung abgelenkt werden. Bei der Verschrottung fallen beträchtliche Mengen an exotischen Materialien an.	250		1512794172:Perk module DIY exotic raygun.prefab
 randomizerMenuStrings[i]	+1 DIY exotic raygun	+1 selbstgebaute Exotische Strahlenwaffe	30		1512794172:Perk module DIY exotic raygun.prefab
 
 Perk module DIY explo combinator, to 3ships.prefab
@@ -10637,15 +10672,13 @@ Perk module DIY integrity 2.prefab
 displayName	DIY integrity scales	Selbstbau-Integritätswaage	40		1993735695:Perk module DIY integrity 2.prefab
 description	Manually built additional layer of internal ship armor and associated integrity hardpoint. Adds +7 ship hull points when installed, can be used to gain HP quickly during an emergency.	Manuell hergestellte zusätzliche Schicht der internen Schiffspanzerung und zugehöriger Integritäts-Ansatzpunkt. Fügt +7 Schiffshüllenpunkte hinzu, wenn es installiert ist, und kann verwendet werden, um in einem Notfall schnell HP zu gewinnen.	250		1993735695:Perk module DIY integrity 2.prefab
 unlockAnnouncementText	During our ships various encounters with local stations, our ship AI has found free access to blueprints of this technology.	Während verschiedener Begegnungen unserer Schiffe mit lokalen Stationen hat unsere Schiffs-KI freien Zugang zu Blaupausen dieser Technologie gefunden.	100		1993735695:Perk module DIY integrity 2.prefab
-randomizerMenuStrings[i]	+1 integrity module	+1 selbstgebautes Integritätsmodul	30		1993735695:Perk module DIY integrity 2.prefab; 28205014:Perk module integrity blue scales, unlockable for weirdship.prefab; 450636944:Perk module integrity 3.prefab; 1860627745:Perk module DIY integrity.prefab; 1904910966:Perk module green integrity for weirdship.prefab
-randomizerMenuStrings[i]	(adds +7 ship HP when installed)	(fügt +7 Schiffs-HP hinzu, wenn installiert)	30		1993735695:Perk module DIY integrity 2.prefab
-randomizerMenuStrings[i]	-70 metal	-70 Metalle	30		1993735695:Perk module DIY integrity 2.prefab
+randomizerMenuStrings[i]	+1 integrity module	+1 selbstgebautes Integritätsmodul	30		1993735695:Perk module DIY integrity 2.prefab; 28205014:Perk module integrity blue scales, unlockable for weirdship.prefab; 450636944:Perk module integrity 3.prefab; 1860627745:Perk module DIY integrity.prefab
+randomizerMenuStrings[i]	(adds +17 ship HP when installed)	(fügt +17 Schiffs-HP hinzu, wenn installiert)	30		1993735695:Perk module DIY integrity 2.prefab
 
 Perk module DIY integrity.prefab
-description	Ship integrity hardpoint, made from layers of metal alloys. Adds ship hull points when installed, can be used to gain HP quickly. Installing one during battle can save us from certain death.	Schiffsintegritäts-Ansatzpunkt, hergestellt aus Schichten von Metalllegierungen. Fügt bei der Installation Punkte für die Schiffshülle hinzu und kann verwendet werden, um schnell HP zu gewinnen. Die Installation eines solchen Punktes während eines Kampfes kann uns vor dem sicheren Tod bewahren.	250		1860627745:Perk module DIY integrity.prefab
+description	Ship integrity hardpoint, made from layers of metal alloys. Can be used to gain HP quickly, and installing one during a tough battle can save us from certain death.	Ein Schiffsintegritäts-Ansatzpunkt, der aus mehreren Schichten von Metalllegierungen besteht. Er kann dazu verwendet werden, schnell HP zu gewinnen, und wenn man ihn während eines harten Kampfes installiert, kann er uns vor dem sicheren Tod bewahren.	250		1860627745:Perk module DIY integrity.prefab
 unlockAnnouncementText	While not the most valuable thing in the world, having an extra integrity module is better than having nothing. We've been promised one if we pick it up ourselves, next time.	Es ist zwar nicht das Wertvollste auf der Welt, aber ein zusätzliches Integritätsmodul zu haben ist besser als gar nichts. Man hat uns eins versprochen, wenn wir es das nächste Mal selbst abholen.	100		1860627745:Perk module DIY integrity.prefab
-randomizerMenuStrings[i]	(adds +5 ship HP if installed)	(fügt +5 Schiffs-HP hinzu, falls installiert)	30		1860627745:Perk module DIY integrity.prefab
-randomizerMenuStrings[i]	-50 metal	-50 Metalle	30		1860627745:Perk module DIY integrity.prefab; 1447363940:Perk nuke DIY random.prefab
+randomizerMenuStrings[i]	(adds +16 ship HP instantly when installed)	(fügt +16 Schiffs-HP hinzu, falls installiert)	30		1860627745:Perk module DIY integrity.prefab
 
 Perk module DIY lab.prefab
 displayName	Improvised laboratory	Selbstbau-Labor	40		1983487017:Perk module DIY lab.prefab
@@ -10720,18 +10753,18 @@ randomizerMenuStrings[i]	-199 credits	-199 Kredite	30		81789966:Perk module fuel
 Perk module green integrity for weirdship.prefab
 displayName	The jade armor	Die Jade-Rüstung	40		1904910966:Perk module green integrity for weirdship.prefab
 description	A gift from the past, passed on for generations according to a mythic foretelling about saving the universe.	Ein Geschenk aus der Vergangenheit, das nach einer mythischen Vorhersage zur Rettung des Universums über Generationen weitergegeben wurde.	250		1904910966:Perk module green integrity for weirdship.prefab
+randomizerMenuStrings[i]	+1 advanced integrity module	+1 Erweitertes Integritätsmodul	30		1904910966:Perk module green integrity for weirdship.prefab
 
 Perk module integrity 3.prefab
-displayName	Spideraa integrity tech	Spinner-Integritätstechnologie	40		450636944:Perk module integrity 3.prefab
-description	Integrity biotechnology like this was salvaged from the Outward Abyss by previous explorers. It has been reverse-engineered and we may order a similar one for the upcoming journey. Adds +13 ship HP when installed.	Integritäts-Biotechnologie wie diese wurde von früheren Entdeckern aus dem Äußeren Abgrund geborgen. Sie wurde ehrfürchtig weiterentwickelt und wir werden vielleicht ein ähnliches Exemplar für die kommende Reise bestellen. Fügt +13 Schiffs-HP hinzu, wenn es installiert ist.	250		450636944:Perk module integrity 3.prefab
+displayName	Spideraa tech	Spinner-Technologie	40		450636944:Perk module integrity 3.prefab
+description	Biotechnology like this was salvaged from the Outward Abyss by previous explorers. It has been reverse-engineered and we may order a similar one for the upcoming journey. Adds +27 ship HP and other bonuses when installed.	Eine solche Biotechnologie wurde von früheren Forschern aus dem Äußeren Abgrund geborgen. Sie wurde rückentwickelt, und wir können für die bevorstehende Reise ein ähnliches Exemplar bestellen. Verleiht dem Schiff bei Installation +27 HP und weitere Boni.	250		450636944:Perk module integrity 3.prefab
 unlockAnnouncementText	We discovered pieces of a Spideraa module in one of the asteroid fields and have been able to reverse-engineer it!	Wir haben Teile eines Spinner-Moduls in einem der Asteroidenfelder entdeckt und konnten es nachbauen!	100		450636944:Perk module integrity 3.prefab
-randomizerMenuStrings[i]	(adds +13 ship HP when installed)	(fügt +13 Schiffs-HP hinzu, wenn installiert)	30		450636944:Perk module integrity 3.prefab
-randomizerMenuStrings[i]	-4 exotics	-4 Exoten	30		450636944:Perk module integrity 3.prefab; 1260454991:Perk nuke arsenal DIY.prefab
+randomizerMenuStrings[i]	(adds ship HP when installed)	(fügt Schiffs-HP hinzu, wenn installiert)	30		450636944:Perk module integrity 3.prefab
 randomizerMenuStrings[i]	-200 organics	-200 Organik	30		450636944:Perk module integrity 3.prefab
 
 Perk module integrity blue scales, unlockable for weirdship.prefab
 displayName	The bluerock scales	Die Blaurock-Schuppen	40		28205014:Perk module integrity blue scales, unlockable for weirdship.prefab
-description	Integrity module made of artificially grown crystals. Adds +10 ship hull points when installed, can be used to gain HP quickly during an emergency.	Integritätsmodul, das aus künstlich gezüchteten Kristallen besteht. Fügt +10 Schiffshüllenpunkte hinzu, wenn es installiert ist, und kann verwendet werden, um in Notfällen schnell HP zu gewinnen.	250		28205014:Perk module integrity blue scales, unlockable for weirdship.prefab
+description	Integrity module made of artificially grown crystals. Adds +25 ship hull points when installed, can be used to gain HP quickly during an emergency.	Integritätsmodul aus künstlich gezüchteten Kristallen. Verleiht bei Einbau +25 Rumpfpunkte und kann in Notfällen zum schnellen Auffüllen der HP genutzt werden.	250		28205014:Perk module integrity blue scales, unlockable for weirdship.prefab
 unlockAnnouncementText	Our ship AI has found this blueprint through access to insectoid technology networks.	Unsere Schiffs-KI hat diese Blaupause durch den Zugang zu insektoiden Technologienetzwerken gefunden.	100		28205014:Perk module integrity blue scales, unlockable for weirdship.prefab
 
 Perk module lovers cryosleep.prefab
@@ -10751,7 +10784,6 @@ Perk module oilcake organics converter.prefab
 displayName	The oilcake converter	Der Ölkuchen-Konverter	40		1995216412:Perk module oilcake organics converter.prefab
 description	This module can turn fuel into organics, and comes with a built-in cake printer. Typically issued to ships operating away from carbon ecosystems.	Dieses Modul kann Treibstoff in Organik umwandeln und verfügt über einen eingebauten Kuchendrucker. Wird typischerweise an Schiffe ausgegeben, die abseits von Kohlenstoff-Ökosystemen operieren.	250		1995216412:Perk module oilcake organics converter.prefab
 randomizerMenuStrings[i]	+1 convertor module that can turn fuel into food.	+1 Konvertermodul um Treibstoff in Organik umzuwandeln.	30		1995216412:Perk module oilcake organics converter.prefab
-randomizerMenuStrings[i]	+40 fuel	+40 Treibstoff	30		1995216412:Perk module oilcake organics converter.prefab
 
 Perk module old random.prefab
 displayName	The ancient module	Das antike Modul	40		1890494450:Perk module old random.prefab
@@ -10796,10 +10828,10 @@ description	Moleculaatis are non-carbon animals of unknown origin that use body 
 
 Perk nuke arsenal DIY.prefab
 displayName	Nuke arsenal DIY	Selbstbau-Atomwaffenarsenal	40		1260454991:Perk nuke arsenal DIY.prefab
-description	An arsenal of manually assembled capital missiles, also known as nukes. Can be purchased from a shady source, payment in gold and crystals only.	Ein Arsenal von manuell zusammengebauten Bomben, auch bekannt als Atombomben. Kann von einer zwielichtigen Quelle erworben werden, Bezahlung nur in Gold und Kristallen.	250		1260454991:Perk nuke arsenal DIY.prefab
+description	An arsenal of manually assembled capital missiles, also known as nukes. Can be purchased from a shady source - payment in gold and crystals only.	Ein Arsenal an manuell zusammengebauten Bomben, auch bekannt als Atombomben. Kann von einer zwielichtigen Quelle erworben werden – Bezahlung ausschließlich in Gold und Kristallen.	250		1260454991:Perk nuke arsenal DIY.prefab
 unlockAnnouncementText	During our travels, we've met an individual willing to sell self-made nukes.	Auf unseren Reisen haben wir ein Individuum getroffen, das bereit ist, selbstgebaute Bomben zu verkaufen.	100		1260454991:Perk nuke arsenal DIY.prefab
-randomizerMenuStrings[i]	+4 DIY capital missiles	+4 selbstgebaute Bomben	30		1260454991:Perk nuke arsenal DIY.prefab
-randomizerMenuStrings[i]	-200 metal	-200 Metalle	30		1260454991:Perk nuke arsenal DIY.prefab
+randomizerMenuStrings[i]	+5 DIY capital missiles	+5 selbstgebaute Bomben	30		1260454991:Perk nuke arsenal DIY.prefab
+randomizerMenuStrings[i]	-4 exotics	-4 Exoten	30		1260454991:Perk nuke arsenal DIY.prefab
 
 Perk nuke arsenal for SP33.prefab
 displayName	Nuke arsenal x5	Atomwaffenarsenal x5	40		6974583:Perk nuke arsenal for SP33.prefab
@@ -10809,7 +10841,7 @@ randomizerMenuStrings[i]	+5 capital missiles	+5 Bomben	30		6974583:Perk nuke ars
 Perk nuke barrel.prefab
 displayName	External fueltank, T-1 [weaponized]	Externer Treibstofftank, T-1 [Bombe]	40		1362449879:Perk nuke barrel.prefab
 description	External fueltank usable as a cheap capital missile. Scrapping provides lots of fuel. Very fragile and can be easily shot down by point-defences.	Externer Treibstofftank, verwendbar als billige Bombe. Das Verschrotten liefert viel Treibstoff. Sehr zerbrechlich und kann leicht von Punktabwehranlagen abgeschossen werden.	250		1362449879:Perk nuke barrel.prefab
-randomizerMenuStrings[i]	+1 capital missile	+1 Bombe	30		1362449879:Perk nuke barrel.prefab; 285860403:Perk nuke for Endurance.prefab; 305450922:Perk nuke thinspeeder for atlas.prefab; 547639251:Perk nuke DIY probe ual4 for bluestar.prefab; 548302033:Perk nuke DIY shield breaker.prefab; 611909834:Perk nuke bio 2 greentail.prefab; 656830655:Perk nuke fueltank for atlas.prefab; 1042155144:Perk nuke Rat DIY incendiary.prefab; 1092748221:Perk nuke bio.prefab; 1339234810:Perk nuke EMP 9000.prefab; 1555035434:Perk nuke Tigerfish.prefab; 1581121396:sdlc/Perk nuke Battle Tiger monolith.prefab; 1852263270:Perk nuke old.prefab
+randomizerMenuStrings[i]	+1 capital missile	+1 Bombe	30		1362449879:Perk nuke barrel.prefab; 285860403:Perk nuke for Endurance.prefab; 305450922:Perk nuke thinspeeder for atlas.prefab; 548302033:Perk nuke DIY shield breaker.prefab; 611909834:Perk nuke bio 2 greentail.prefab; 656830655:Perk nuke fueltank for atlas.prefab; 1042155144:Perk nuke Rat DIY incendiary.prefab; 1092748221:Perk nuke bio.prefab; 1339234810:Perk nuke EMP 9000.prefab; 1555035434:Perk nuke Tigerfish.prefab; 1581121396:sdlc/Perk nuke Battle Tiger monolith.prefab; 1852263270:Perk nuke old.prefab
 
 Perk nuke bio 2 greentail.prefab
 displayName	Greentail nuke (biotech)	Grünschwanz-Bombe (biotech)	40		611909834:Perk nuke bio 2 greentail.prefab
@@ -10818,6 +10850,7 @@ description	This bioengineered semisolid organism delivers corrosive payload on 
 Perk nuke bio.prefab
 displayName	Nanospore nuke (biotech)	Nanosporen-Bombe (Biotech)	40		1092748221:Perk nuke bio.prefab
 description	Ancient capital missile obtained from a biotech museum. Damages only modules and crew, harmless against ship hull.	Uralte Bombe, die aus einem Biotech-Museum stammt. Beschädigt nur Module und Besatzung, harmlos gegen die Schiffshülle.	250		1092748221:Perk nuke bio.prefab
+randomizerMenuStrings[i]	-80 organics	-80 Organik	30		1092748221:Perk nuke bio.prefab
 
 Perk nuke diy decoy for Rogue Rat.prefab
 displayName	The Flying Boilers x2	Die fliegenden Kessel x2	40		2033479731:Perk nuke diy decoy for Rogue Rat.prefab
@@ -10825,16 +10858,18 @@ description	This pair of improvised decoy nukes have been manually crafted by lo
 randomizerMenuStrings[i]	+2 capital decoy missiles	+2 Täuschungsbomben	30		2033479731:Perk nuke diy decoy for Rogue Rat.prefab
 
 Perk nuke DIY probe ual4 for bluestar.prefab
-displayName	DIY nuke [weaponized probe]	Selbstbau-Bombe [bewaffnete Sonde]	40		547639251:Perk nuke DIY probe ual4 for bluestar.prefab
-description	Improvised capital missile, made from an exploration probe with destabilized reactors. We need to provide the fuel for its engines ourselves.	Improvisierte Bombe, hergestellt aus einer Erkundungssonde mit destabilisierten Reaktoren. Wir müssen den Treibstoff für die Triebwerke selbst bereitstellen.	250		547639251:Perk nuke DIY probe ual4 for bluestar.prefab
+displayName	DIY nukes x2 [weaponized probes]	Selbstbau-Bombe x2 [bewaffnete Sonden]	40		547639251:Perk nuke DIY probe ual4 for bluestar.prefab
+description	Improvised capital missiles, made from an exploration probe with destabilized reactors. We need to provide the fuel for its engines ourselves.	Improvisierte Bombe, hergestellt aus einer Erkundungssonde mit destabilisierten Reaktoren. Den Treibstoff für ihre Triebwerke müssen wir selbst bereitstellen.	250		547639251:Perk nuke DIY probe ual4 for bluestar.prefab
 unlockAnnouncementText	During our travels, our ship AI has secured access to this improvised nuke. We can pick it up next time we go on an adventure, but its engines need refuelling before it can be used.	Während unserer Reisen hat sich unsere Schiffs-KI Zugang zu dieser improvisierten Bombe verschafft. Wir können sie bei unserem nächsten Abenteuer abholen, aber ihre Triebwerke müssen aufgetankt werden, bevor sie eingesetzt werden kann.	100		547639251:Perk nuke DIY probe ual4 for bluestar.prefab
-randomizerMenuStrings[i]	-40 fuel	-40 Treibstoff	30		547639251:Perk nuke DIY probe ual4 for bluestar.prefab
+randomizerMenuStrings[i]	+2 capital missiles	+2 Bomben	30		547639251:Perk nuke DIY probe ual4 for bluestar.prefab
+randomizerMenuStrings[i]	-60 fuel	-60 Treibstoff	30		547639251:Perk nuke DIY probe ual4 for bluestar.prefab
 
 Perk nuke DIY random.prefab
 displayName	Improvised nuclear missile	Selbstbau-Bombe	40		1447363940:Perk nuke DIY random.prefab
 description	An improvised combination of destabilized reactors, old engines and various spare parts. Might save our life one day.	Eine improvisierte Kombination aus destabilisierten Reaktoren, alten Motoren und verschiedenen Ersatzteilen. Könnte uns eines Tages das Leben retten.	250		1447363940:Perk nuke DIY random.prefab
 randomizerMenuStrings[i]	+1 random capital missile	+1 Zufällige Bombe	30		1447363940:Perk nuke DIY random.prefab
 randomizerMenuStrings[i]	-20 fuel	-20 Treibstoff	30		1447363940:Perk nuke DIY random.prefab
+randomizerMenuStrings[i]	-50 metal	-50 Metalle	30		1447363940:Perk nuke DIY random.prefab
 
 Perk nuke DIY shield breaker.prefab
 displayName	DIY shield breaker	Schildbrecher-Bombe (Selbstbau)	40		548302033:Perk nuke DIY shield breaker.prefab
@@ -10859,7 +10894,7 @@ description	It's a few hundred years old, but still very powerful.	Sie ist schon
 Perk nuke Rat DIY incendiary.prefab
 displayName	DIY firebomb nuke	Brandbombe (Selbstbau)	40		1042155144:Perk nuke Rat DIY incendiary.prefab
 description	An improvised incendiary missile made from a combination of Rat Empire munitions. Designed for starting fires in enemy ships.	Eine improvisierte Brandbombe, hergestellt aus einer Kombination von Munition des Rattenimperiums. Entwickelt, um Brände in feindlichen Schiffen auszulösen.	250		1042155144:Perk nuke Rat DIY incendiary.prefab
-randomizerMenuStrings[i]	-130 credits	-130 Kredite	30		1042155144:Perk nuke Rat DIY incendiary.prefab
+randomizerMenuStrings[i]	-90 credits	-90 Kredite	30		1042155144:Perk nuke Rat DIY incendiary.prefab; 754443567:Perk Replace containers with betters for Endurance.prefab
 
 Perk nuke Rat incendiary for Rogue Rat.prefab
 displayName	Rat Empire incendiary nuke	Rattenimperium-Brandbombe	40		746099772:Perk nuke Rat incendiary for Rogue Rat.prefab
@@ -10888,13 +10923,12 @@ randomizerMenuStrings[i]	+1 resource pack (50 explosives)	+1 Ressourcenpaket (50
 
 Perk pack, medical resources.prefab
 displayName	Package from grand-aunt	Paket von Großtante	40		1569517835:Perk pack, medical resources.prefab
-description	Our grand-relative who is several hundred years old sent us this package when she heard about our upcoming journey.\nIt's a package of self-contained organics & synthetics, plus 12 jars of mildberry jam.	Unsere Großtante, die mehrere hundert Jahre alt ist, hat uns dieses Paket geschickt, als sie von unserer bevorstehenden Reise hörte. Es handelt sich um ein Paket mit Organik und Kunststoffen sowie 12 Gläsern Mehlbeermarmelade.	250		1569517835:Perk pack, medical resources.prefab
+description	Our grand-relative who is several hundred years old sent us this package when she heard about our upcoming journey.\nIt's a package of self-contained organics & synthetics, plus some mildberry jam.	Unsere mehrere hundert Jahre alte Großtante hat uns dieses Paket geschickt, als sie von unserer bevorstehenden Reise erfuhr.\nEs enthält eine Auswahl an Bio- und synthetischen Produkten sowie etwas Mehlbeermarmelade.	250		1569517835:Perk pack, medical resources.prefab
 randomizerMenuStrings[i]	+1 resource pack	+1 Ressourcenpaket	30		1569517835:Perk pack, medical resources.prefab; 152890152:Perk pack, random.prefab
-randomizerMenuStrings[i]	+12 organics	+12 Organik	30		1569517835:Perk pack, medical resources.prefab
 
 Perk pack, organic cargo for gardenship.prefab
 displayName	Organic merchandise	Bio-Merchandice	40		1420718850:Perk pack, organic cargo for gardenship.prefab
-description	Edible merchandise that was unsold in cargo bay at the time we bought this ship,	Essbare Merchandice, die zum Zeitpunkt des Kaufs des Schiffes unverkauft im Frachtraum lag,	250		1420718850:Perk pack, organic cargo for gardenship.prefab
+description	Edible merchandise that was left in cargo bay at the time we bought this ship.	Lebensmittel, die zum Zeitpunkt des Kaufs dieses Schiffes im Laderaum zurückgelassen worden waren.	250		1420718850:Perk pack, organic cargo for gardenship.prefab
 randomizerMenuStrings[i]	+1 resource pack (100 organics)	+1 Ressourcenpaket (100 Organik)	30		1420718850:Perk pack, organic cargo for gardenship.prefab
 
 Perk pack, organics.prefab
@@ -10946,7 +10980,6 @@ Perk Replace containers with betters for Endurance.prefab
 displayName	Containers upgrade (x2)	Behälter-Upgrade (x2)	40		754443567:Perk Replace containers with betters for Endurance.prefab
 description	The onboard fuel and organics containers are replaced with better high-pressure tanks that allow storing more resource.	Die bordseitigen Treibstoff- und Organik-Behälter werden durch bessere Hochdrucktanks ersetzt, die die Lagerung von mehr Ressourcen ermöglichen.	250		754443567:Perk Replace containers with betters for Endurance.prefab
 randomizerMenuStrings[i]	Improves fuel and organics container capacity	Verbessert die Kapazität der Treibstoff- und Organik-Behälter	30		754443567:Perk Replace containers with betters for Endurance.prefab
-randomizerMenuStrings[i]	-90 credits	-90 Kredite	30		754443567:Perk Replace containers with betters for Endurance.prefab
 
 Perk Replace DIY FO with FOO.prefab
 displayName	Fuel & Organics container replacements	Treibstoff- und Organik-Behälter-Ersatz	40		367285597:Perk Replace DIY FO with FOO.prefab
@@ -11063,6 +11096,8 @@ randomizerMenuStrings[i]	-66 organics	-66 Organik	30		1763651597:Perk warpshell 
 Perk warpshell extra hitpoints.prefab
 displayName	The good diet	Die gute Ernährung	40		1570827982:Perk warpshell extra hitpoints.prefab
 description	The living part of Warpshell ship has a range of exotic nutrients it needs to consume, couple of times a year. If this diet is carefully optimized, the ship's living tissue will grow more resistant to damage.	Der lebende Teil des Warpshell-Schiffs hat eine Reihe von exotischen Nährstoffen, die es ein paar Mal im Jahr zu sich nehmen muss. Wenn diese Ernährung sorgfältig optimiert wird, wird das lebende Gewebe des Schiffes widerstandsfähiger gegen Schäden.	250		1570827982:Perk warpshell extra hitpoints.prefab
+randomizerMenuStrings[i]	+3 to ship HP	+3 Schiffs-HP	30		1570827982:Perk warpshell extra hitpoints.prefab
+randomizerMenuStrings[i]	-100 organics	-100 Organik	30		1570827982:Perk warpshell extra hitpoints.prefab
 
 Main quest FSM.prefab
 setText	Collect resources before entering the exit warpgate to next sector.	Sammeln Sie Ressourcen, bevor Sie das Ausgangswarptor zum nächsten Sektor betreten.	100		514678521:Main quest FSM.prefab; 1215248441:Main quest FSM.prefab
@@ -11175,6 +11210,7 @@ altText	Look at the top of the screen. All <b>status messages</b> appear there. 
 choiceTexts	Next	Weiter	15		1754990644:Tutorial quest FSM.prefab; 1843929565:Tutorial quest FSM.prefab
 altText	Click on the <b>SHIP</b> button. This will take us to <b>ship view</b>...	Klicken Sie auf die Schaltfläche <b>SCHIFF</b>. Das bringt uns zur <b>Schiffsansicht</b>...	240		1139156426:Tutorial quest FSM.prefab
 altText	Start by installing the reactor into one of the <b>internal module slots</b> at the back of ship. Leave slots in the front empty for weapons modules.	Beginnen Sie damit, den Reaktor in einen der <b>internen Modul-Steckplätzen</b> im hinteren Teil des Schiffes einzubauen. Lassen Sie die vorderen Steckplätze für die Waffenmodule frei.	240		54962863:Tutorial quest FSM.prefab
+text	Left click to select. Then right click to place it on ship	Zum Auswählen mit der linken Maustaste klicken. Anschließend mit der rechten Maustaste auf dem Schiff zu platzieren.	0		54962863:Tutorial quest FSM.prefab
 altText	Hold down the middle mouse button and drag in order to pan the view around. Use scroll wheel to zoom. Default key binding for panning with keyboard is WASD keys.	Halten Sie die mittlere Maustaste gedrückt und ziehen Sie, um die Ansicht zu schwenken. Verwenden Sie das Scrollrad zum Zoomen. Die Standardtastenbelegung für das Schwenken mit der Tastatur ist die WASD-Taste.	240		1843929565:Tutorial quest FSM.prefab
 altText	You can see our ship and various stellar objects in this view. \nYou cannot see much detail at the moment because you have not installed a long range sensor yet...	Sie können unser Schiff und verschiedene stellare Objekte in dieser Ansicht sehen. \nSie können im Moment noch nicht viele Details sehen, da Sie noch keinen Langstreckensensor installiert haben...	240		1904354438:Tutorial quest FSM.prefab
 altText	Fly closer to that point of interest, but don't drive into it before <b>remote scanning</b> is complete. \nI recommend scanning everything before closing in to avoid unpleasant surprises...	Fliegen Sie näher an diesen interessanten Punkt heran, aber fliegen Sie nicht hinein, bevor der <b>Fernscan</b> abgeschlossen ist. \nIch empfehle, alles zu scannen, bevor Sie sich nähern, um unangenehme Überraschungen zu vermeiden...	240		2044866771:Tutorial quest FSM.prefab
