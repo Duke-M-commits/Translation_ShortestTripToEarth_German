@@ -11798,22 +11798,22 @@ General pet description pool.prefab
 General pet idle msg pool.prefab
 	Playing	Spielt	80		235178348:General pet idle msg pool.prefab
 	Thinking deep thoughts	Denkt tiefe Gedanken	80		235178348:General pet idle msg pool.prefab
-	Thinking about murder	Über Mord nachdenken	80		235178348:General pet idle msg pool.prefab
-	Thinking about humans	Über Menschen nachdenken	80		235178348:General pet idle msg pool.prefab
-	Thinking about sleeping	Über das Schlafen nachdenken	80		235178348:General pet idle msg pool.prefab; 877972054:Red Ripper idle msg pool.prefab
-	Thinking about existence	Über die Existenz nachdenken	80		235178348:General pet idle msg pool.prefab
-	Thinking about something very important	Über etwas sehr Wichtiges nachdenken	80		235178348:General pet idle msg pool.prefab
-	Thinking about a very interesting smell	Über einen sehr interessanten Geruch nachdenken	80		235178348:General pet idle msg pool.prefab
-	Thinking about bad things in the past	Über schlechte Dinge in der Vergangenheit nachdenken	80		235178348:General pet idle msg pool.prefab
-	Thinking about time	Über die Zeit nachdenken	80		235178348:General pet idle msg pool.prefab
-	Thinking about human problems	Nachdenken über menschliche Probleme	80		235178348:General pet idle msg pool.prefab
-	Thinking about the illusion of reality	Nachdenken über die Illusion der Realität	80		235178348:General pet idle msg pool.prefab
-	Thinking about disobedience	Nachdenken über Ungehorsam	80		235178348:General pet idle msg pool.prefab
-	Thinking about freedom	Nachdenken über Freiheit	80		235178348:General pet idle msg pool.prefab
-	Trying to remember a dream	Versuchen, sich an einen Traum zu erinnern	80		235178348:General pet idle msg pool.prefab
-	Trying to remember yesterday	Versuchen, sich an gestern zu erinnern	80		235178348:General pet idle msg pool.prefab
-	Thinking about animals	Über Tiere nachdenken	80		235178348:General pet idle msg pool.prefab
-	Trying to remember something	Versuchen, sich an etwas zu erinnern	80		235178348:General pet idle msg pool.prefab
+	Thinking about murder	Denkt über Mord nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about humans	Denkt über Menschen nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about sleeping	Denkt an Schlaf	80		235178348:General pet idle msg pool.prefab; 877972054:Red Ripper idle msg pool.prefab
+	Thinking about existence	Denkt über die Existenz nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about something very important	Denkt über etwas sehr Wichtiges nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about a very interesting smell	Denkt über einen sehr interessanten Geruch nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about bad things in the past	Denkt über schlechte Dinge in der Vergangenheit nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about time	Denkt über die Zeit nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about human problems	Denkt über menschliche Probleme nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about the illusion of reality	Denkt über die Illusion der Realität nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about disobedience	Denkt über Ungehorsam nach	80		235178348:General pet idle msg pool.prefab
+	Thinking about freedom	Denkt über Freiheit nach	80		235178348:General pet idle msg pool.prefab
+	Trying to remember a dream	Versucht sich an einen Traum zu erinnern	80		235178348:General pet idle msg pool.prefab
+	Trying to remember yesterday	Versucht sich an gestern zu erinnern	80		235178348:General pet idle msg pool.prefab
+	Thinking about animals	Denkt über Tiere nach	80		235178348:General pet idle msg pool.prefab
+	Trying to remember something	Versucht sich an etwas zu erinnern	80		235178348:General pet idle msg pool.prefab
 
 Grayman die message pool.prefab
 	{0} has gotten rid of their material body. They will be remembered.	{0} hat sich seines materiellen Körpers entledigt. Man wird sich an ihn erinnern.	70		1222214632:Grayman die message pool.prefab
@@ -11958,42 +11958,42 @@ Human basic crew description pool.prefab
 	A famous thoughts artist. Wanted to get away from all the fame.	Ein berühmter Gedankenkünstler. Wollte weg von all dem Ruhm.	250		1621701858:Human basic crew description pool.prefab
 
 Human dream text pool.prefab
-	Dreaming of Earth	Träumen von Erde	80		940317673:Human dream text pool.prefab
+	Dreaming of Earth	Träumt von der Erde	80		940317673:Human dream text pool.prefab
 	Dreaming of unhealthy food	Träumt von ungesundem Essen	80		940317673:Human dream text pool.prefab
 	Dreaming of wild sex	Von wildem Sex träumend	80		940317673:Human dream text pool.prefab
 	Dreaming of the meaning of life	Vom Sinn des Lebens träumend	80		940317673:Human dream text pool.prefab
-	Dreaming of unrestrained violence	Von hemmungsloser Gewalt träumen	80		940317673:Human dream text pool.prefab
-	Dreaming of a better world	Träumen von einer besseren Welt	80		940317673:Human dream text pool.prefab
-	Having a nightmare involving knives	Einen Albtraum mit Messern haben	80		940317673:Human dream text pool.prefab
-	Having a nightmare about running away	Einen Albtraum vom Weglaufen haben	80		940317673:Human dream text pool.prefab
-	Dreaming of dying in a dancehall	Träumen vom Sterben in einem Tanzlokal	80		940317673:Human dream text pool.prefab
-	Dreaming of being a musical virtuoso	Davon träumen, ein musikalischer Virtuose zu sein	80		940317673:Human dream text pool.prefab
-	A recurring dream about a past lover	Ein wiederkehrender Traum über einen früheren Liebhaber	80		940317673:Human dream text pool.prefab
-	Dreaming about a past lover	Träumen von einem früheren Liebhaber	80		940317673:Human dream text pool.prefab
-	Dreaming of being a butterfly	Davon träumen, ein Schmetterling zu sein	80		940317673:Human dream text pool.prefab
-	A recurring nightmare about being swallowed warp worms	Ein wiederkehrender Alptraum von verschluckten Kettwürmern	80		940317673:Human dream text pool.prefab
-	A recurring nightmare about hurting loved ones	Ein wiederkehrender Albtraum über verletzte Geliebte	80		940317673:Human dream text pool.prefab
-	Dreaming about a pair of past lovers	Über ein vergangenes Liebespaar träumen	80		940317673:Human dream text pool.prefab
-	Dreaming about current lovers	Von aktuellen Liebhabern träumen	80		940317673:Human dream text pool.prefab
-	Having a dream about consuming exotics	Einen Traum über den Verzehr von Exoten haben	80		940317673:Human dream text pool.prefab
-	Having a dream where the universe whispers secrets	Einen Traum zu haben, in dem das Universum Geheimnisse zuflüstert	80		940317673:Human dream text pool.prefab
-	Having a dream about swimming in an ocean	Vom Schwimmen im Ozean träumen	80		940317673:Human dream text pool.prefab
-	Having a lucid dream	Einen luziden Traum haben	80		940317673:Human dream text pool.prefab
-	Having a lucid dream (sensual time with a dream character)	Einen luziden Traum haben (sinnliche Zeit mit einer Traumfigur)	80		940317673:Human dream text pool.prefab
-	Having a lucid dream (conversation with a dream character)	Einen luziden Traum haben (Gespräch mit einer Traumfigur)	80		940317673:Human dream text pool.prefab
-	Having a dream about levitating	Einen Traum vom Schweben haben	80		940317673:Human dream text pool.prefab
-	Having a dream about flying by sheer strength of willpower	Einen Traum vom Fliegen durch bloße Willenskraft haben	80		940317673:Human dream text pool.prefab
-	Dreaming of exploring an active volcano	Träumen von der Erkundung eines aktiven Vulkans	80		940317673:Human dream text pool.prefab
-	Dreaming of an old, dead enemy	Von einem alten, toten Feind träumen	80		940317673:Human dream text pool.prefab
-	Dreaming of their grandmother	Von der Großmutter träumen	80		940317673:Human dream text pool.prefab
-	Dreaming of their grandfather	Von seinem Großvater träumen	80		940317673:Human dream text pool.prefab
+	Dreaming of unrestrained violence	Von hemmungsloser Gewalt träumend	80		940317673:Human dream text pool.prefab
+	Dreaming of a better world	Träumt von einer besseren Welt	80		940317673:Human dream text pool.prefab
+	Having a nightmare involving knives	Träumt einen Albtraum mit Messern	80		940317673:Human dream text pool.prefab
+	Having a nightmare about running away	Träumt einen Albtraum mit Weglaufen	80		940317673:Human dream text pool.prefab
+	Dreaming of dying in a dancehall	Träumt vom Sterben in einer Disco	80		940317673:Human dream text pool.prefab
+	Dreaming of being a musical virtuoso	Träumt ein musikalischer Virtuose zu sein	80		940317673:Human dream text pool.prefab
+	A recurring dream about a past lover	Träumt einen wiederkehrender Traum über einen früheren Liebhaber	80		940317673:Human dream text pool.prefab
+	Dreaming about a past lover	Träumt von einem früheren Liebhaber	80		940317673:Human dream text pool.prefab
+	Dreaming of being a butterfly	Träumt davon ein Schmetterling zu sein	80		940317673:Human dream text pool.prefab
+	A recurring nightmare about being swallowed warp worms	Träumt einen wiederkehrenden Alptraum von verschluckten Warpwürmern	80		940317673:Human dream text pool.prefab
+	A recurring nightmare about hurting loved ones	Träumt einen wiederkehrenden Alptraum über verletzte Geliebte	80		940317673:Human dream text pool.prefab
+	Dreaming about a pair of past lovers	Träumt über ein vergangenes Liebespaar	80		940317673:Human dream text pool.prefab
+	Dreaming about current lovers	Träumt von aktuellen Liebhabern	80		940317673:Human dream text pool.prefab
+	Having a dream about consuming exotics	Hat einen Traum über den Verzehr von Exoten	80		940317673:Human dream text pool.prefab
+	Having a dream where the universe whispers secrets	Träumt von zugeflüsterten Universum Geheimnissen	80		940317673:Human dream text pool.prefab
+	Having a dream about swimming in an ocean	Träumt vom schwimmen im Ozean	80		940317673:Human dream text pool.prefab
+	Having a lucid dream	Hat einen luziden Traum	80		940317673:Human dream text pool.prefab
+	Having a lucid dream (sensual time with a dream character)	Hat einen luziden Traum (sinnliche Zeit mit einer Traumfigur)	80		940317673:Human dream text pool.prefab
+	Having a lucid dream (conversation with a dream character)	Hat einen luziden Traum (Gespräch mit einer Traumfigur)	80		940317673:Human dream text pool.prefab
+	Having a dream about levitating	Träumt vom schweben	80		940317673:Human dream text pool.prefab
+	Having a dream about flying by sheer strength of willpower	Träumt vom fliegen durch bloße Willenskraft	80		940317673:Human dream text pool.prefab
+	Dreaming of exploring an active volcano	Träumt davon einen aktiven Vulkan zu erkunden	80		940317673:Human dream text pool.prefab
+	Dreaming of an old, dead enemy	Träumt von einem alten, toten Feind	80		940317673:Human dream text pool.prefab
+	Dreaming of their grandmother	Träumt von der Großmutter	80		940317673:Human dream text pool.prefab
+	Dreaming of their grandfather	Träumt vom Großvater	80		940317673:Human dream text pool.prefab
 	A recurring dream: being hunted by slavers	Ein wiederkehrender Traum: von Sklavenhändlern gejagt zu werden	80		940317673:Human dream text pool.prefab
 	A recurring dream: being turned into an android	Ein wiederkehrender Traum: in einen Androiden verwandelt werden	80		940317673:Human dream text pool.prefab
 	A recurring dream: being imprisoned by slavers	Ein wiederkehrender Traum: von Sklavenhändlern gefangen gehalten zu werden	80		940317673:Human dream text pool.prefab
-	Dreaming of being a crewman in a space ship.	Traum, ein Besatzungsmitglied in einem Raumschiff zu sein.	80		940317673:Human dream text pool.prefab
+	Dreaming of being a crewman in a space ship.	Träumt davon ein Besatzungsmitglied in einem Raumschiff zu sein.	80		940317673:Human dream text pool.prefab
 	No visual dreams, as requested.	Keine visuellen Träume, wie gewünscht.	80		940317673:Human dream text pool.prefab; 940317673:Human dream text pool.prefab; 940317673:Human dream text pool.prefab; 940317673:Human dream text pool.prefab; 940317673:Human dream text pool.prefab; 940317673:Human dream text pool.prefab; 940317673:Human dream text pool.prefab
-	Dreaming of a very peaceful state	Träume von einem sehr friedlichen Zustand	80		940317673:Human dream text pool.prefab
-	Dreaming of floating in warp space	Träume vom Schweben im Warp-Raum	80		940317673:Human dream text pool.prefab
+	Dreaming of a very peaceful state	Träumt von einem sehr friedlichen Zustand	80		940317673:Human dream text pool.prefab
+	Dreaming of floating in warp space	Träumt vom Schweben im Warp-Raum	80		940317673:Human dream text pool.prefab
 
 Human fighter description pool.prefab
 	A retired ship security officer. Exceptional sharpshooter.	Ein pensionierter Sicherheitsoffizier. Außergewöhnlicher Scharfschütze.	250		1847560398:Human fighter description pool.prefab
