@@ -491,12 +491,12 @@ PlayerPanel.cs
 	(exotics are most useful for upgrades, crafting and bartering)	(Exoten sind am nützlichsten für Aufrüstungen, Modul Herstellung und Tauschhandel)	0		PlayerPanel.cs
 	(repairing 1 module hitpoint costs {0} synthetics)	(die Reparatur von 1 Modul-HP kostet {0} Kunststoffe)	0		PlayerPanel.cs
 	(repairing 1 ship HP with crew costs usually {0} metals)	(die Reparatur von 1 Schiffshüllenpunkt mit Besatzung kostet normalerweise {0} Metalle)	0		PlayerPanel.cs
-	{0} not consumed/produced while moving	{0} nicht verbraucht/produziert während der Bewegung	0		PlayerPanel.cs
-	{0} consumed per 100 range units: {1:+0;-0;-0}	{0} verbraucht pro 100 Reichweiteneinheiten: {1:+0;-0;-0}	0		PlayerPanel.cs
-	{0} not consumed while moving	{0} nicht verbraucht während der Bewegung	0		PlayerPanel.cs
+	{0} not consumed/produced while moving	{0}: nicht verbraucht/produziert während der Bewegung	0		PlayerPanel.cs
+	{0} consumed per 100 range units: {1:+0;-0;-0}	{0}: verbraucht pro 100 Reichweiteneinheiten: {1:+0;-0;-0}	0		PlayerPanel.cs
+	{0} not consumed while moving	{0}: nicht verbraucht während der Bewegung	0		PlayerPanel.cs
 	(nominal consumption is {0:+0;-0;-0})	(nominaler Verbrauch ist {0:+0;-0;-0})	0		PlayerPanel.cs
 	{0} produced per 100 range units: {1:+0;-0;+0}	{0} produziert pro 100 Reichweiteneinheiten: {1:+0;-0;+0}	0		PlayerPanel.cs
-	{0} not produced while moving	{0} nicht produziert während der Bewegung	0		PlayerPanel.cs
+	{0} not produced while moving	{0}: nicht produziert während der Bewegung	0		PlayerPanel.cs
 	(nominal production is {0:+0;-0;+0})	(nominale Produktion ist {0:+0;-0;+0})	0		PlayerPanel.cs
 
 PlayerStatsPanel.cs
@@ -1385,7 +1385,7 @@ Abbrevation for Blue	B:	B:	0		183165484:Menu panel.prefab
 	<color=lime><b>Update 15 (09.04.2020)</b></color>\n●\tThe Linux version now available!\n\n●\tUI improvement: Hovering\n\tresource leak warning on top of\n\tthe screen now shows LEAK text\n\tdirectly on top of the leaking\n\tmodule	<color=lime><b>Update 15 (09.04.2020)</b></color>\n●\tLinux-Version verfügbar!\n\n●\tUI-Verbesserung: Die Warnung vor\n\tRessourcenlecks am oberen\n\tBildschirmrand zeigt jetzt den Text\n\tLECK direkt über dem undichten\n\tModul an	0		163554293:Menu panel.prefab
 	<color=lime><b>Update 14 (06.04.2020)</b></color>\n●\t<b>New feature:</b> Doors can be now\n\trepaired and show if they are\n\tdamaged via UI	<color=lime><b>Update 14 (06.04.2020)</b></color>\n●\tTüren können nun repariert\n\twerden und zeigen über das UI an,\n\tob sie beschädigt sind.	0		500122393:Menu panel.prefab
 	<color=lime><b>Update 13 (12.02.2020)</b></color>\n●\tAdded new ship <b>Easy Tiger</b>\n\n●\tIn challenging/hardcore difficulty:\n\tmodule max hp damage now\n\thappens less, in 10% cases instead\n\tof 15%\n\n●\tGave all player ships new\n\tcraftable nukes\n\n●\tMost playable ships now start with\n\tmore credits (420)	<color=lime><b>Update 13 (12.02.2020)</b></color>\n●\tNeues Schiff: <b>Easy Tiger</b>\n\n●\tIm Schwierigkeitsgrad\n\tHerausfordernd/Hardcore:\n\tDer Modul-Max-HP-Schaden tritt\n\tnun weniger auf, in 10% der Fälle\n\t(anstatt 15%)\n\n●\tAllen Spielerschiffen neue\n\therstellbare Nuklearwaffen\n\thinzugefügt\n\n●\tDie meisten Spielerschiffe haben\n\tnun mehr Startkredite (420)	0		705338536:Menu panel.prefab
-	<color=lime><b>Update 12 (16.01.2020)</b></color>\n●\tAdded a new easier game mode\n\n●\tIt's now possible to save crew\n\tmembers to empty slots in quick\n\tselection bar, and change the\n\torder of guns\n\n●\tImproved feature: crew combat\n\tweapons can be now loaded\n\tmid-magazine and during walking	<color=lime><b>Update 12 (16.01.2020)</b></color>\n●\tEinfacherer Spielmodus hinzugefügt\n\n●\tEs ist nun möglich, Besatzung\n\tin der Schnellauswahlleiste\n\tzu speichern und die\n\tReihenfolge zu ändern\n\n●\tWaffen der Besatzung\n\tkönnen im Laufens\n\tgeladen werden	0		1985108965:Menu panel.prefab
+	<color=lime><b>Update 12 (16.01.2020)</b></color>\n●\tAdded a new easier game mode\n\n●\tIt's now possible to save crew\n\tmembers to empty slots in quick\n\tselection bar, and change the\n\torder of guns\n\n●\tImproved feature: crew combat\n\tweapons can be now loaded\n\tmid-magazine and during walking	<color=lime><b>Update 12 (16.01.2020)</b></color>\n●\tEinfacherer Spielmodus hinzugefügt\n\n●\tEs ist nun möglich, Besatzung\n\tin der Schnellauswahlleiste\n\tzu speichern und die\n\tReihenfolge zu ändern\n\n●\tWaffen der Besatzung\n\tkönnen im Laufen\n\tgeladen werden	0		1985108965:Menu panel.prefab
 	<color=lime><b>Updates 1-10 (10.10.2018- 14.11.2019)</b></color>\nKinldy read the changelogs from official Shortest Trip page at Steam.	<color=lime><b>Updates 1-10 (10.10.2018- 14.11.2019)</b></color>\nVollständige Liste auf Steam.	0		1698087549:Menu panel.prefab
 	Click for next tip	Klicken für den nächsten Tipp.	0		2135834629:Menu panel.prefab
 	Click for next tip.	Nächster Tipp	0		423452430:Menu panel.prefab
