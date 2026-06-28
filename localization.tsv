@@ -743,8 +743,8 @@ Crew assignment panel.prefab
 bridgeAssignment.firstHoverLine	Bridge operators	Brücken-Offiziere	50		4:Crew assignment panel.prefab
 sensorAssignment.firstHoverLine	Sensor operators	Sensor-Offizier	50		4:Crew assignment panel.prefab
 weaponAssignment.firstHoverLine	Weapon operators	Schützen	50		4:Crew assignment panel.prefab
-pointDefAssignment.firstHoverLine	Point defence operators	Punktabwehr-Schütze	50		4:Crew assignment panel.prefab
-shieldAssignment.firstHoverLine	Shield operators	Schild-Operatoren	50		4:Crew assignment panel.prefab
+pointDefAssignment.firstHoverLine	Point defence operators	Punktabwehr-Schützen	50		4:Crew assignment panel.prefab
+shieldAssignment.firstHoverLine	Shield operators	Schild-Operator	50		4:Crew assignment panel.prefab
 warpAssignment.firstHoverLine	Warp operator	Warp-Operator	50		4:Crew assignment panel.prefab
 repairAssignment.firstHoverLine	Repair officers	Mechaniker	50		4:Crew assignment panel.prefab
 fireAssignment.firstHoverLine	Fire officers	Brandbekämpfer	50		4:Crew assignment panel.prefab
@@ -753,7 +753,7 @@ gardenAssignment.firstHoverLine	Garden operators	Gärtner	50		4:Crew assignment 
 labAssignment.firstHoverLine	Researchers	Forscher	50		4:Crew assignment panel.prefab
 cryosleepAssignment.firstHoverLine	Cryosleep users	Kryoschlafende	50		4:Crew assignment panel.prefab
 trainingAssignment.firstHoverLine	Trainees	Auszubildende	50		4:Crew assignment panel.prefab
-	Click on role to send an entity with best relevant skill to take care of it.\nIf a drone and living entity have the same skill level, a drone will be assigned first.\nOnly unoccupied crew can be given roles.\nDrones & pets can be assigned to limited activities only.	Klicken Sie auf eine Rolle, um Personal mit dem besten relevanten Skill zu schicken, um sich um sie zu kümmern.\nWenn eine Drohne und ein lebendes Besatzungsmitglied den gleichen Skill-Level haben, wird zuerst die Drohne zugewiesen.\nNur unbeschäftigte Besatzung kann Rollen erhalten.\nDrohnen & Haustiere können nur für begrenzte Aktivitäten zugewiesen werden.	0		797435842:Crew assignment panel.prefab
+	Click on role to send an entity with best relevant skill to take care of it.\nIf a drone and living entity have the same skill level, a drone will be assigned first.\nOnly unoccupied crew can be given roles.\nDrones & pets can be assigned to limited activities only.	Klicke auf eine Rolle, um Personal mit dem besten relevanten Skill zu schicken.\nWenn eine Drohne und ein lebendes Besatzungsmitglied den gleichen Skill-Level haben, wird zuerst die Drohne zugewiesen.\nNur unbeschäftigte Besatzung kann Rollen erhalten.\nDrohnen & Haustiere können nur für begrenzte Aktivitäten zugewiesen werden.	0		797435842:Crew assignment panel.prefab
 	ROLES	ROLLEN	12		776943237:Crew assignment panel.prefab
 	Select all bridge operators	Alle Offiziere der Brücke auswählen	0		1347806884:Crew assignment panel.prefab
 	Select all gun operators	Alle Operatoren von Geschützen auswählen	0		322489295:Crew assignment panel.prefab
@@ -1501,7 +1501,7 @@ Button. Clicking it opens power management overlay	FATE EARNED	VERDIENTES SCHICK
 Button. Clicking it opens power management overlay	BEGINNER	ANFÄNGER	6		2085322712:Menu panel.prefab
 Button. Clicking it opens power management overlay	CHALLENGING	HERAUSFORDERND	6		856275297:Menu panel.prefab
 Button. Clicking it opens power management overlay	HARDCORE	HARDCORE	6		2087706181:Menu panel.prefab
-	Ship survival index	Überlebensindex des Schiffes	0		1481644394:Menu panel.prefab
+	Ship survival index	Überlebenschance des Schiffes	0		1481644394:Menu panel.prefab
 	Sector reached	Erreichter Sektor	0		918637722:Menu panel.prefab
 	Perks found	Startboni gefunden	0		735323749:Menu panel.prefab
 	Time played	Gespielte Zeit	0		1003351579:Menu panel.prefab
@@ -1509,7 +1509,7 @@ Button. Clicking it opens power management overlay	HARDCORE	HARDCORE	6		20877061
 	Died during game	Während des Spiels gestorben	0		2038478517:Menu panel.prefab
 	Reached the end of game	Das Ende des Spiels erreicht	0		770259637:Menu panel.prefab
 	Started a new game mid-run	Ein neues Spiel mitten im Spiel begonnen	0		1118573606:Menu panel.prefab
-	Click anywhere to return to menu	Klicken Sie auf eine beliebige Stelle, um zum Menü zurückzukehren	0		1921366675:Menu panel.prefab
+	Click anywhere to return to menu	Klicke auf eine beliebige Stelle, um zum Menü zurückzukehren	0		1921366675:Menu panel.prefab
 steamClickHover	Click to Supporters Pack DLC store page	Zur Store-Seite des DLCs Supporters Pack wechseln	0		Menu panel.prefab
 dlcInstalledHover	Supporters Pack DLC installed	Supporters Pack DLC installiert	0		Menu panel.prefab
 dlcNotInstalledHover	Supporters Pack DLC not installed	Supporters Pack DLC nicht installiert	0		Menu panel.prefab
@@ -1518,7 +1518,7 @@ dlcInstalledHover	The Old Enemies DLC installed	The Old Enemies DLC installiert	
 dlcNotInstalledHover	The Old Enemies DLC not installed	The Old Enemies DLC nicht installiert	0		Menu panel.prefab
 steamClickHover	Click to One Last Run DLC store page	Zur Store-Seite des DLCs One Last Run wechseln	0		Menu panel.prefab
 dlcInstalledHover	One Last Run DLC installed	One Last Run DLC installiert	0		Menu panel.prefab
-dlcNotInstalledHover	One Last Run DLC not installed	One Last Run DLC not installed	0		Menu panel.prefab
+dlcNotInstalledHover	One Last Run DLC not installed	One Last Run DLC nicht installiert	0		Menu panel.prefab
 
 Module actions panel.prefab
 	Module inherent armor (chance to negate attacks)	Modul Rüstung (Chance, Angriffe zu negieren)	0		17326543:Module actions panel.prefab; 688760695:Module data subpanel.prefab; 1660514575:Module data subpanel.prefab
