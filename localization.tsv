@@ -11546,7 +11546,7 @@ Crew Technological name pool.prefab
 	Beezy 229	Betsi 229	0		1634744238:Crew Technological name pool.prefab
 	Beepy XX-900	Piepse XX-900	0		1634744238:Crew Technological name pool.prefab
 	Sweety XY-900	Süßer XY-900	0		1634744238:Crew Technological name pool.prefab
-	Spottywire 9000	Streudraht 9000	0		1634744238:Crew Technological name pool.prefab
+	Spottywire 9000	Lückenhaft 9000	0		1634744238:Crew Technological name pool.prefab
 	THC-3000	THC-3000	0		1634744238:Crew Technological name pool.prefab
 	CBD-9000	CBD-9000	0		1634744238:Crew Technological name pool.prefab
 	Meepy 222	Mipie 222	0		1634744238:Crew Technological name pool.prefab
@@ -11568,38 +11568,38 @@ Crew Technological name pool.prefab
 	Adminny	Admini	0		1634744238:Crew Technological name pool.prefab
 	Ping 3000	Klingel 3000	0		1634744238:Crew Technological name pool.prefab
 	Flirty I	Gspusi I	0		1634744238:Crew Technological name pool.prefab
-	Keepy IV	Aufrechterhalter IV	0		1634744238:Crew Technological name pool.prefab
+	Keepy IV	Pflegi IV	0		1634744238:Crew Technological name pool.prefab
 
 Default alien dream text pool.prefab
-	Dreaming about Earth...	Träumen von der Erde...	80		389922688:Default alien dream text pool.prefab
+	Dreaming about Earth...	Träumt von der Erde...	80		389922688:Default alien dream text pool.prefab
 	Dreaming about unhealthy food...	Träumt von ungesundem Essen...	80		389922688:Default alien dream text pool.prefab
-	Dreaming about wild sex...	Träumen von wildem Sex...	80		389922688:Default alien dream text pool.prefab
+	Dreaming about wild sex...	Träumt von wildem Sex...	80		389922688:Default alien dream text pool.prefab
 	Dreaming about the meaning of life...	Träume über den Sinn des Lebens...	80		389922688:Default alien dream text pool.prefab; 1646048090:Moleculaati dream text pool.prefab
-	Dreaming about unrestrained violence...	Träumen von hemmungsloser Gewalt...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of a better world...	Träumen von einer besseren Welt...	80		389922688:Default alien dream text pool.prefab
-	Having a nightmare involving knives...	Einen Albtraum mit Messern haben...	80		389922688:Default alien dream text pool.prefab
-	Having a nightmare about running away...	Einen Albtraum vom Weglaufen haben...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of dying in a dancehall...	Vom Sterben in einem Tanzsaal träumen...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of being a musical virtuoso...	Träumen davon, ein musikalischer Virtuose zu sein...	80		389922688:Default alien dream text pool.prefab
+	Dreaming about unrestrained violence...	Träumt von hemmungsloser Gewalt...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of a better world...	Träumt von einer besseren Welt...	80		389922688:Default alien dream text pool.prefab
+	Having a nightmare involving knives...	Hat einen Albtraum mit Messern...	80		389922688:Default alien dream text pool.prefab
+	Having a nightmare about running away...	Hat einen Albtraum mit Weglaufen...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of dying in a dancehall...	Träumt vom Sterben in der Diskothek...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of being a musical virtuoso...	Träumt davon, ein musikalischer Virtuose zu sein...	80		389922688:Default alien dream text pool.prefab
 	A recurring dream about a past lover...	Ein wiederkehrender Traum über einen früheren Liebhaber...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of a ritual-suicide to honor a dark god...	Träumen von einem rituellen Selbstmord zu Ehren eines dunklen Gottes...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of being a large predatory insect...	Träumen davon, ein großes räuberisches Insekt zu sein...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of a ritual-suicide to honor a dark god...	Träumt von einem rituellen Selbstmord zu Ehren eines dunklen Gottes...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of being a large predatory insect...	Träumt davon, ein großes räuberisches Insekt zu sein...	80		389922688:Default alien dream text pool.prefab
 	A recurring nightmare about being swallowed by warp worms...	Ein wiederkehrender Albtraum darüber, von Warp-Würmern verschluckt zu werden...	80		389922688:Default alien dream text pool.prefab
 	A recurring nightmare about hurting loved ones...	Ein wiederkehrender Albtraum über das Verletzen von geliebten Menschen...	80		389922688:Default alien dream text pool.prefab
 	Dreaming about a pair of past lovers...	Träume über ein vergangenes Liebespaar...	80		389922688:Default alien dream text pool.prefab
-	Dreaming about current lovers...	Von aktuellen Liebhabern träumend...	80		389922688:Default alien dream text pool.prefab
-	Having a dream about consuming exotics...	Einen Traum über den Verzehr von Exoten zu haben...	80		389922688:Default alien dream text pool.prefab
+	Dreaming about current lovers...	Träumt von aktuellen Liebhabern...	80		389922688:Default alien dream text pool.prefab
+	Having a dream about consuming exotics...	Träumt über den Verzehr von Exoten...	80		389922688:Default alien dream text pool.prefab
 	No dreams.	Keine Träume.	80		389922688:Default alien dream text pool.prefab
-	Having a dream about swimming in an ocean...	Einen Traum vom Schwimmen im Ozean haben...	80		389922688:Default alien dream text pool.prefab
-	Having a lucid dream (flying)...	Einen luziden Traum zu haben (Fliegen)...	80		389922688:Default alien dream text pool.prefab
-	Having a lucid dream (sensual time with a dream character)...	Einen luziden Traum haben (sinnliche Zeit mit einer Traumfigur)...	80		389922688:Default alien dream text pool.prefab
-	Having a lucid dream (conversation with a dream character)...	Einen luziden Traum haben (Gespräch mit einer Traumfigur)...	80		389922688:Default alien dream text pool.prefab
-	Having a semi-lucid dream about levitating...	Einen halbklaren Traum über das Schweben haben...	80		389922688:Default alien dream text pool.prefab
-	Having a dream about flying by sheer strength of willpower...	Einen Traum vom Fliegen durch schiere Willenskraft haben...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of exploring an active volcano...	Von der Erkundung eines aktiven Vulkans träumend...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of an old, dead enemy...	Von einem alten, toten Feind träumend...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of their grandmother...	Von ihrer Großmutter träumend...	80		389922688:Default alien dream text pool.prefab
-	Dreaming of their grandfather...	Träume von ihrem Großvater...	80		389922688:Default alien dream text pool.prefab
+	Having a dream about swimming in an ocean...	Träumt vom Schwimmen im Ozean...	80		389922688:Default alien dream text pool.prefab
+	Having a lucid dream (flying)...	Träumt einen luziden Traum (Fliegen)...	80		389922688:Default alien dream text pool.prefab
+	Having a lucid dream (sensual time with a dream character)...	Träumt einen luziden Traum (sinnliche Zeit mit einer Traumfigur)...	80		389922688:Default alien dream text pool.prefab
+	Having a lucid dream (conversation with a dream character)...	Träumt einen luziden Traum (Gespräch mit einer Traumfigur)...	80		389922688:Default alien dream text pool.prefab
+	Having a semi-lucid dream about levitating...	Hat einen halbklaren Traum über das Schweben...	80		389922688:Default alien dream text pool.prefab
+	Having a dream about flying by sheer strength of willpower...	Träumt vom Fliegen durch schiere Willenskraft...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of exploring an active volcano...	Träumt von der Erkundung eines aktiven Vulkans...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of an old, dead enemy...	Träumt von einem alten, toten Feind...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of their grandmother...	Träumt von Großmutter...	80		389922688:Default alien dream text pool.prefab
+	Dreaming of their grandfather...	Träumt von Großvater...	80		389922688:Default alien dream text pool.prefab
 	A recurring dream: being hunted by slavers...	Ein wiederkehrender Traum: von Sklavenhändlern gejagt zu werden...	80		389922688:Default alien dream text pool.prefab
 	A recurring dream about being alone...	Ein wiederkehrender Traum über das Alleinsein...	80		389922688:Default alien dream text pool.prefab
 	Having a nightmare about scary sounds...	Ein Alptraum über unheimliche Geräusche...	80		389922688:Default alien dream text pool.prefab
