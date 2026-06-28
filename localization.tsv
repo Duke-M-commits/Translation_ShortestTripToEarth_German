@@ -285,7 +285,7 @@ SkillEffects.cs
 
 Ship.cs
 	starting bonus	Startbonus	0		Ship.cs
-	Loading a preset had issues, probably due to slot downgrading after preset save. Storage is now temporarily over capacity	Beim Laden einer Voreinstellung gab es Probleme, wahrscheinlich aufgrund einer Steckplatz-Herabstufung nach dem Speichern der Voreinstellung. Der Speicher ist nun vorübergehend überlastet	0		Ship.cs
+	Loading a preset had issues, probably due to slot downgrading after preset save. Storage is now temporarily over capacity	Beim Laden einer Voreinstellung gab es Probleme, wahrscheinlich aufgrund einer Steckplatz-Herabstufung nach dem Speichern der Voreinstellung. Der Frachtraum ist nun vorübergehend überladen	0		Ship.cs
 	Your ship:	Dein Schiff:	0		Ship.cs
 	Enemy ship:	Feindliches Schiff:	0		Ship.cs
 	Self destructs in {0}s	Selbstzerstörung in {0}s	0		Ship.cs; ShipStatusVisualizers.cs
@@ -364,7 +364,7 @@ plural	trade signal|trade signals	Handelssignal|Handelssignale	0		Star.cs
 plural	fleet|fleets	Flotte|Flotten	0		Star.cs
 
 AnimatedLoadingText.cs
-	Loading {0}	Loading {0}	0		AnimatedLoadingText.cs
+	Loading {0}	{0} laden	0		AnimatedLoadingText.cs
 
 CrewActionsPanel.cs
 	{0} selected	{0} ausgewählt	0		CrewActionsPanel.cs
