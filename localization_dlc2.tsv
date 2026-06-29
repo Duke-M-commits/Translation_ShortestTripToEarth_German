@@ -250,14 +250,14 @@ Level 1b, rats and capitaalo.prefab
 displayName	The Closest Star (DLC)	Der nächste Stern (DLC)	25		527148320:dlc2/Level 1b, rats and capitaalo.prefab
 
 Level 2b, pirates and phobians.prefab
-displayName	The Great Inbetween (DLC)	Das große Zwischending (DLC)	25		1103400833:dlc2/Level 2b, pirates and phobians.prefab
-description	Captains log:\n\n/.../ We've survived the Capitaalo, and the Rat Empire, but I feel our troubles are only beginning.\nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to upgrade one of the hybrid point-defence slots into a weapon platform /.../	Logbuch des Kapitäns: /.../ Wir haben die Capitaalo und das Rattenimperium überlebt, aber ich habe das Gefühl, dass unsere Probleme erst anfangen. \nDie Piratenberichte aus diesem Sektor bedeuten, dass wir mehr Besatzung, Punktabwehr, Schilde und vor allem <color=green>Schiffswaffen-Steckplätze</color> brauchen, um am Leben zu bleiben.\nIch werde es zu meiner persönlichen Angelegenheit machen, einen der hybriden Punktabwehr-Steckplätze zu einer Waffenplattform aufzurüsten /.../	350		1103400833:dlc2/Level 2b, pirates and phobians.prefab
+displayName	The Great Inbetween (DLC)	Das Zwischending (DLC)	25		1103400833:dlc2/Level 2b, pirates and phobians.prefab
+description	Captains log:\n\n/.../ We've survived the Capitaalo, and the Rat Empire, but I feel our troubles are only beginning.\nThe pirate reports coming from this sector mean we need more crew, point-defences, shields and especially <color=green>ship weapon slots</color> to stay alive.\nI shall make it my personal matter to upgrade one of the hybrid point-defence slots into a weapon platform /.../	Logbuch: ...Wir haben die Capitaalo und das Rattenimperium überlebt, aber die Piratenberichte in diesem Sektor bedeuten, dass wir mehr Besatzung, Punktabwehr, Schilde und vor allem <color=green>Schiffswaffen-Steckplätze</color> brauchen. Ich werde es zu meiner persönlichen Angelegenheit machen, einen der hybriden Punktabwehr-Steckplätze zu einer Waffenplattform aufzurüsten...	350		1103400833:dlc2/Level 2b, pirates and phobians.prefab
 
 Level 3b, collection.prefab
 displayName	The Periphery (DLC)	Die Peripherie (DLC)	25		180261437:dlc2/Level 3b, collection.prefab
 
 Level 4b, insects.prefab
-displayName	Unclaimed Sector (DLC)	Nicht beanspruchter Sektor (DLC)	25		1963731161:dlc2/Level 4b, insects.prefab
+displayName	Unclaimed Sector (DLC)	Niemandsland (DLC)	25		1963731161:dlc2/Level 4b, insects.prefab
 
 Level 5b, slavers.prefab
 displayName	Mining sector (DLC)	Bergbau-Sektor (DLC)	25		669451033:dlc2/Level 5b, slavers.prefab
