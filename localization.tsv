@@ -493,15 +493,15 @@ PlayerPanel.cs
 	(repairing 1 module hitpoint costs {0} synthetics)	(die Reparatur von 1 Modul-HP kostet {0} Kunststoffe)	0		PlayerPanel.cs
 	(repairing 1 ship HP with crew costs usually {0} metals)	(die Reparatur von 1 Schiffshüllenpunkt mit Besatzung kostet normalerweise {0} Metalle)	0		PlayerPanel.cs
 	{0} not consumed/produced while moving	{0}: nicht verbraucht/produziert während der Bewegung	0		PlayerPanel.cs
-	{0} consumed per 100 range units: {1:+0;-0;-0}	{0}: verbraucht pro 100 Reichweiteneinheiten: {1:+0;-0;-0}	0		PlayerPanel.cs
+	{0} consumed per 100 range units: {1:+0;-0;-0}	{0}: verbraucht pro 100au: {1:+0;-0;-0}	0		PlayerPanel.cs
 	{0} not consumed while moving	{0}: nicht verbraucht während der Bewegung	0		PlayerPanel.cs
 	(nominal consumption is {0:+0;-0;-0})	(nominaler Verbrauch ist {0:+0;-0;-0})	0		PlayerPanel.cs
-	{0} produced per 100 range units: {1:+0;-0;+0}	{0} produziert pro 100 Reichweiteneinheiten: {1:+0;-0;+0}	0		PlayerPanel.cs
+	{0} produced per 100 range units: {1:+0;-0;+0}	{0} produziert pro 100au: {1:+0;-0;+0}	0		PlayerPanel.cs
 	{0} not produced while moving	{0}: nicht produziert während der Bewegung	0		PlayerPanel.cs
 	(nominal production is {0:+0;-0;+0})	(nominale Produktion ist {0:+0;-0;+0})	0		PlayerPanel.cs
 
 PlayerStatsPanel.cs
-	Starmap speed, range units per second	Sternenkarte-Geschwindigkeit, Reichweiteneinheiten pro Sekunde	0		PlayerStatsPanel.cs
+	Starmap speed, range units per second	Sternenkarte-Geschwindigkeit, au pro Sekunde	0		PlayerStatsPanel.cs
 	{0} +{1}	{0} +{1}	0		PlayerStatsPanel.cs
 	Asteroid deflection	Asteroiden Ablenkung	0		PlayerStatsPanel.cs
 	{0} +{1}%	{0} +{1}%	0		PlayerStatsPanel.cs
@@ -509,11 +509,11 @@ PlayerStatsPanel.cs
 	{0} (provides {1}, using max)	{0} (liefert {1}, bei Verwendung von max)	0		PlayerStatsPanel.cs
 	Shipwide accuracy bonus - makes weapons more accurate	Schiffsweiter Genauigkeit-Bonus - macht die Waffen genauer	0		PlayerStatsPanel.cs
 	{0} (accuracy {1:+0;-0;+0}%)	{0} (Genauigkeit {1:+0;-0;+0}%)	0		PlayerStatsPanel.cs
-	Starmap radar range in range units	Sternenkarte-Radar-Reichweite in Reichweiteneinheiten	0		PlayerStatsPanel.cs; 241851795:Sector map panel.prefab
+	Starmap radar range in range units	Sternenkarte-Radar-Reichweite in au	0		PlayerStatsPanel.cs; 241851795:Sector map panel.prefab
 	{0} (provides {1:+0;-0;+0}ru, using max)	{0} (liefert {1:+0;-0;+0}re, unter Verwendung von max)	0		PlayerStatsPanel.cs; PlayerStatsPanel.cs
 	(all ranges include ship starmap radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten Schiffs-Sternenkarte-Radarbonus {0:+0;-0;+0}re)	0		PlayerStatsPanel.cs
 	(current range is reduced by clouds)	(aktuelle Reichweite wird durch Nebel reduziert)	0		PlayerStatsPanel.cs
-	Sector radar range in range units	Sektorradar-Reichweite in Reichweiteneinheiten	0		PlayerStatsPanel.cs; 2065303810:Sector map panel.prefab
+	Sector radar range in range units	Sektorradar-Reichweite in au	0		PlayerStatsPanel.cs; 2065303810:Sector map panel.prefab
 	(all ranges include ship sector radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten den Schiffs-Sektorradar-Bonus {0:+0;-0;+0}re)	0		PlayerStatsPanel.cs
 	Number of seconds it takes to generate one shield point	Anzahl der Sekunden, die es dauert, einen Schildpunkt zu erzeugen	0		PlayerStatsPanel.cs
 	{0} ({1:0.00} SP/second)	{0} ({1:0.00} Schildpunkte/Sekunde)	0		PlayerStatsPanel.cs
@@ -1185,11 +1185,11 @@ lockedSectorDescription	This sector is where we landed, it's unexplored.	Dieser 
 	Exit game	Spiel beenden	0		574914797:Menu panel.prefab
 	Guided steps to learn the game.	Geführte Schritte zum Erlernen des Spiels.	0		1936162021:Menu panel.prefab
 	Tutorial mode	Einführungsmodus	0		305660904:Menu panel.prefab
-	When you run out of ship HP, you start losing ship max HP instead of simply dying.\nSpace pauses the game.\nYou start with additional resources.	Wenn du keine Schiffs-HP mehr hast, verlierst du langsam deine maximalen Schiffshüllenpunkte, anstatt einfach zu sterben.\nDas Spiel wird angehalten.\nDu beginnst mit zusätzlichen Ressourcen.	0		1224239619:Menu panel.prefab
+	When you run out of ship HP, you start losing ship max HP instead of simply dying.\nSpace pauses the game.\nYou start with additional resources.	Keine Schiffs-HP? Dann verlierst du Max-HP.\nDas Spiel wird angehalten.\nDu beginnst mit zusätzlichen Ressourcen.	0		1224239619:Menu panel.prefab
 	Beginner mode	Anfängermodus	0		1312682026:Menu panel.prefab
-	When you run out of ship HP, you start losing ship max HP instead of simply dying.\nSpace pauses the game.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	Wenn du keine Schiffs-HP mehr hast, verlierst du langsam deine maximalen Schiffshüllenpunkte, anstatt einfach zu sterben.	0		108332399:Menu panel.prefab
+	When you run out of ship HP, you start losing ship max HP instead of simply dying.\nSpace pauses the game.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	Keine Schiffs-HP? Dann verlierst du Max-HP.	0		108332399:Menu panel.prefab
 	Challenging mode	Herausfordernder Modus	0		1409288559:Menu panel.prefab
-	The game ends when your ship HP reaches 0.\nSpace button turns on slow-motion instead of pause.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	Das Spiel endet, wenn die Schiffs-HP 0 erreichen. Die Leertaste schaltet nur die Zeitlupe ein.\nJeder Modulschaden kann auch deren maximale HP reduzieren.	0		1596182937:Menu panel.prefab
+	The game ends when your ship HP reaches 0.\nSpace button turns on slow-motion instead of pause.\nAny damage to module(s) might also reduce their maximum possible hitpoints.	Das Spiel endet, wenn die Schiffs-HP 0 erreichen. Die Leertaste schaltet nur die Zeitlupe ein.\nModulschäden können deren Max-HP reduzieren.	0		1596182937:Menu panel.prefab
 	Hardcore mode	Hardcore-Modus	0		2126429856:Menu panel.prefab
 	Limited-time competition mode.	Zeitlich begrenzter Wettbewerbsmodus.	0		1347324498:Menu panel.prefab
 	Competition mode	Wettkampf-Modus	0		72462928:Menu panel.prefab
@@ -1211,15 +1211,15 @@ Some code in text needs to be as is	Are you sure? Starting a new run will overwr
 	Shortest Trip to Earth has an inherently brutal difficulty that is especially deadly if you miss learning some of the basics. We kindly recommend you try the tutorial.	Shortest Trip to Earth hat von Natur aus einen brutalen Schwierigkeitsgrad, der besonders tödlich ist, wenn du es versäumst, einige der Grundlagen zu lernen. Wir empfehlen dir daher, die Einführung auszuprobieren.	0		1150523483:Menu panel.prefab
 	Tutorial	Einführung	0		1749050947:Menu panel.prefab; 1646305641:Menu panel.prefab
 	Shortest Trip To Earth is easier once you know the basics, but can be extremely difficult without a short introduction (like this tutorial).	Shortest Trip To Earth ist einfacher, wenn du die Grundlagen kennst, ohne Einführung kann es extrem schwierig sein.	0		44751117:Menu panel.prefab
-	When you run out of ship HP, you start losing ship max HP instead of simply dying.	Wenn du keine Schiffs-HP mehr hast, verlierst du die maximalen HP des Schiffes, anstatt einfach zu sterben.	0		1051670160:Menu panel.prefab; 560922648:Menu panel.prefab
+	When you run out of ship HP, you start losing ship max HP instead of simply dying.	Keine Schiffs-HP? Dann verlierst du Max-HP.	0		1051670160:Menu panel.prefab; 560922648:Menu panel.prefab
 	Space pauses the game.	Die Leertaste pausiert das Spiel.	0		1722165339:Menu panel.prefab; 203016201:Menu panel.prefab
 	Starting bonuses:	Startboni:	0		222240939:Menu panel.prefab
 	Ship deflection, chance of beam and projectiles to deflect	Schiffsablenkung, Chance von Strahlen und Projektilen, abgelenkt zu werden	0		1502202513:Menu panel.prefab; 1723308062:Menu panel.prefab
 	Ship evasion, enemy shots deviate more from target	Schiffsausweichung, gegnerische Schüsse weichen mehr vom Ziel ab	0		1231461145:Menu panel.prefab; 66499535:Player panel.prefab; 947444191:Menu panel.prefab
 	Accuracy bonus	Genauigkeit-Bonus	0		719497316:Menu panel.prefab; 561330233:Menu panel.prefab
 	Explosives, used as ammo	Sprengstoffe, werden als Munition verwendet	0		1709517199:Menu panel.prefab; 1683916817:Menu panel.prefab
-	Any damage to module(s) might also reduce their maximum possible hitpoints.	Jeder Modulschaden kann auch deren maximale HP reduzieren.	0		1081878865:Menu panel.prefab; 1294339971:Menu panel.prefab
-	The game ends when your ship HP reaches 0.	Das Spiel endet, wenn die Schiffs-HP 0 erreichen.	0		1451950734:Menu panel.prefab
+	Any damage to module(s) might also reduce their maximum possible hitpoints.	Modulschäden können deren Max-HP reduzieren.	0		1081878865:Menu panel.prefab; 1294339971:Menu panel.prefab
+	The game ends when your ship HP reaches 0.	Keine Schiffs-HP? Ende.	0		1451950734:Menu panel.prefab
 	Space button turns on slow-motion instead of pause.	Die Leertaste schaltet nur die Zeitlupe ein.	0		264097784:Menu panel.prefab
 Button in main menu	Beginner	Anfänger	0		58923187:Menu panel.prefab
 	Beginner difficulty	Anfänger-Schwierigkeit	0		2124696928:Menu panel.prefab; 138150917:Menu panel.prefab
@@ -1566,13 +1566,13 @@ module requirements	REQUIREMENTS	VORAUSSETZUNGEN	0		1609416340:Module data subpa
 	Metals consumed per volley	Verbrauchte Metalle pro Salve	0		830432896:Module data subpanel.prefab
 	Organics consumed per 1 hp regenerated	Organik verbraucht pro 1 HP regeneriert	0		1244505263:Module data subpanel.prefab
 	Synthetics consumed per 1 hp regenerated	Kunststoffe verbraucht pro 1 HP regeneriert	0		1854182712:Module data subpanel.prefab
-	Fuel consumed per 100 range unit travelled	Verbrauch von Treibstoff pro 100 zurückgelegte Reichweiteneinheiten	0		679365039:Module data subpanel.prefab
-	Organics consumed per 100 range unit travelled	Verbrauch von Organik pro 100 zurückgelegte Reichweiteneinheiten	0		1421321431:Module data subpanel.prefab
-	Explosives consumed per 100 range unit travelled	Verbrauch von Sprengstoffen pro 100 zurückgelegte Reichweiteneinheiten	0		229485158:Module data subpanel.prefab
-	Exotics consumed per 100 range unit travelled	Verbrauch von Exoten pro 100 zurückgelegte Reichweiteneinheiten	0		2141602781:Module data subpanel.prefab
-	Synthetics consumed per 100 range unit travelled	Verbrauch von Kunststoffen pro 100 zurückgelegte Reichweiteneinheiten	0		1834901270:Module data subpanel.prefab
-	Metals consumed per 100 range unit travelled	Verbrauch von Metallen pro 100 zurückgelegte Reichweiteneinheiten	0		1077103689:Module data subpanel.prefab
-	Credits consumed per 100 range unit travelled	Verbrauchte Kredite pro 100 zurückgelegte Reichweiteneinheiten	0		1398029336:Module data subpanel.prefab
+	Fuel consumed per 100 range unit travelled	Verbrauch von Treibstoff pro 100 bewegte Reichweiteneinheiten	0		679365039:Module data subpanel.prefab
+	Organics consumed per 100 range unit travelled	Verbrauch von Organik pro 100 bewegte Reichweiteneinheiten	0		1421321431:Module data subpanel.prefab
+	Explosives consumed per 100 range unit travelled	Verbrauch von Sprengstoffen pro 100 bewegte Reichweiteneinheiten	0		229485158:Module data subpanel.prefab
+	Exotics consumed per 100 range unit travelled	Verbrauch von Exoten pro 100 bewegte Reichweiteneinheiten	0		2141602781:Module data subpanel.prefab
+	Synthetics consumed per 100 range unit travelled	Verbrauch von Kunststoffen pro 100 bewegte Reichweiteneinheiten	0		1834901270:Module data subpanel.prefab
+	Metals consumed per 100 range unit travelled	Verbrauch von Metallen pro 100 bewegte Reichweiteneinheiten	0		1077103689:Module data subpanel.prefab
+	Credits consumed per 100 range unit travelled	Verbrauchte Kredite pro 100 bewegte Reichweiteneinheiten	0		1398029336:Module data subpanel.prefab
 Module effects/stats	EFFECTS	EFFEKTE	0		1665000636:Module data subpanel.prefab
 	Ship evasion bonus (enemy shots deviate more often)	Ausweichbonus des Schiffs (gegnerische Schüsse weichen häufiger aus)	0		1180501602:Module data subpanel.prefab
 	if		2		1694746385:Module data subpanel.prefab; 68860997:Module data subpanel.prefab; 238340726:Module data subpanel.prefab; 714605851:Module data subpanel.prefab; 880982221:Module data subpanel.prefab; 886649225:Module data subpanel.prefab; 888560262:Module data subpanel.prefab; 902406369:Module data subpanel.prefab; 978413447:Module data subpanel.prefab; 1237678238:Module data subpanel.prefab; 1865965096:Module data subpanel.prefab
@@ -1802,8 +1802,8 @@ Quest panel.prefab
 Quickselect panel.prefab
 	Quick Selection	Schnellauswahl	20		1559199185:Quickselect panel.prefab
 	When holding fire, weapons will reload but won't make\na shot until hold fire is turned off	Wenn das Feuern angehalten ist, laden Waffen nach, geben aber keinen Schuss ab, bis Feuer halten wieder ausschalten ist	0		453089575:Quickselect panel.prefab
-Button. Additional information for player ship	PRESS TO HOLD FIRE	DRÜCKEN,\nUM FEUER\nZU HALTEN	20		494799764:Quickselect panel.prefab
-Button. Additional information for player ship	PRESS TO RESUME FIRE	DRÜCKEN,\nUM ZU\nFEUERN	20		987235586:Quickselect panel.prefab
+Button. Additional information for player ship	PRESS TO HOLD FIRE	FEUER\nHALTEN	20		494799764:Quickselect panel.prefab
+Button. Additional information for player ship	PRESS TO RESUME FIRE	FEUERN	20		987235586:Quickselect panel.prefab
 	Dodge	Ausweichen	0		1896225416:Quickselect panel.prefab
 Button. Additional information for player ship	DODGE	AUSWEICHEN	20		1717138745:Quickselect panel.prefab
 Button. Additional information for player ship	45s	45s	20		194431222:Quickselect panel.prefab
@@ -8195,7 +8195,7 @@ overrideLockedDescription	This space sector is the closest one we reached, it's 
 
 Level 10, greens, planetkiller.prefab
 displayName	Warpgate to Earth	Warptor zur Erde	25		1669394571:Level 10, greens, planetkiller.prefab
-description	(new runs can be only started from sectors 1,2,3)\n\nThis is the closest long-range warpgate to Earth. An Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God is approaching, to destroy Earth.\n\nFragment from the captains log:\n/.../ Allright, this has got to be the biggest and last thing in the list of many thing that I was specifically planning not to do. Agreeing to ambush a freaking planet-killer battlecruiser. I humbly expect the entire Earth population to buy me a drink after this and perhaps also /.../	Dies ist das nächstgelegene Fern-Warptor zur Erde. Ein Insektoiden Vergeltungs-Mega-Schlachtkreuzer-Planetenzerstörer-Rache-Gott nähert sich, um die Erde zu zerstören.\n\nLogbuch: ...In Ordnung, das muss die größte und letzte Sache auf der Liste der vielen Sachen sein, die ich ausdrücklich nicht vorhatte zu tun. Einverstanden, einen verdammten Planetenzerstörer-Schlachtkreuzer in einen Hinterhalt zu locken. Ich erwarte in aller Bescheidenheit, dass mir die gesamte Erdbevölkerung danach einen Drink spendiert und vielleicht auch...	350		1669394571:Level 10, greens, planetkiller.prefab
+description	(new runs can be only started from sectors 1,2,3)\n\nThis is the closest long-range warpgate to Earth. An Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God is approaching, to destroy Earth.\n\nFragment from the captains log:\n/.../ Allright, this has got to be the biggest and last thing in the list of many thing that I was specifically planning not to do. Agreeing to ambush a freaking planet-killer battlecruiser. I humbly expect the entire Earth population to buy me a drink after this and perhaps also /.../	Dies ist das nächstgelegene Fern-Warptor zur Erde.\nEin insektoider Vergeltungs-Megaschlachtkreuzer-\nPlanetenzerstörer-Rache-Gott nähert sich.\n\nLogbuch: ...das ist die größte und letzte Sache auf der Liste der vielen Sachen, die ich ausdrücklich nicht vor hatte. Ok, einen verdammten Planetenzerstörer in einen Hinterhalt locken. Ich erwarte in aller Bescheidenheit, dass mir die gesamte Erdbevölkerung danach einen Drink spendiert und vielleicht auch...	350		1669394571:Level 10, greens, planetkiller.prefab
 overrideLockedDescription	This sector is still unexplored.	Dieser Sektor ist noch unerforscht.	350		1669394571:Level 10, greens, planetkiller.prefab; 1815720573:Level 7, shopping.prefab; 1815720574:Level 6, squids, slavers, pirates.prefab; 1815720575:Level 5, slavers.prefab; 1815720576:Level 4, insects.prefab; 1815720579:Level 9, marble, squid, shokar.prefab; 1815720580:Level 8, spideraa darkspace.prefab; 1963731161:dlc2/Level 4b, insects.prefab
 
 Level 2, pirates.prefab
@@ -8212,7 +8212,7 @@ displayName	Unclaimed Sector	Niemandsland	25		1815720576:Level 4, insects.prefab
 description	(new runs can be started from sectors 1,2,3)\n\nThis entire sector is "administered" by the Insectoid Alliance, although not colonized. The Insectoid Alliance is a multispecies faction that holds repetition, rituals and traditions as the deepest cornerstones of all civilized interactions. The alliance was formed to defeat an ancient enemy, the Spideraa.\n\nFrom the captains log:\n/.../ I never liked the collective traditions. They often enjoy a special status not because they're good, but because some kind of majority somewhere is doing it, and have been doing it for a long time.\nI'm more of a personal-traditions-only person myself, and right now I'm considering mostly my own very favorite traditions of survival, such as making sure we create more organics than we eat while flying around /.../	Dieser gesamte Sektor wird von der Insektoiden-Allianz "verwaltet", obwohl er nicht kolonisiert ist. Die Insektoiden-Allianz ist eine Multispezies-Fraktion, die Wiederholungen, Rituale und Traditionen als die tiefsten Eckpfeiler aller zivilisierten Interaktionen betrachtet. Die Allianz wurde gegründet, um einen uralten Feind zu besiegen, die Spinner.\n\nLogbuch: ...Ich mochte die kollektiven Traditionen nie. Sie genießen oft einen besonderen Status, nicht weil sie gut sind, sondern weil es irgendwo eine Mehrheit tut, und das schon seit langer Zeit. Ich selbst bin eher ein Mensch, der nur persönliche Traditionen pflegt, und im Moment denke ich vor allem an meine eigenen, sehr beliebten Überlebenstraditionen, wie zum Beispiel dafür zu sorgen, dass wir beim Herumfliegen mehr Organik erzeugen, als wir essen...	350		1815720576:Level 4, insects.prefab; 1963731161:dlc2/Level 4b, insects.prefab
 
 Level 5, slavers.prefab
-displayName	Mining sector	Bergbau-Sektor	25		1815720575:Level 5, slavers.prefab
+displayName	Mining sector	Stellare Ernte	25		1815720575:Level 5, slavers.prefab
 description	(new runs can be only started from sectors 1,2,3)\n\nThis used to be an Earth Alliance remote mining sector, but seems to be abandoned now...\n\nFrom the captains log:\n/.../ I didn't think they'd reach this deep into our territory. The fact that Earth forces have pulled back from this sector means we are indeed losing the war. We need to seriously start thinking about further upgrades and aqcuiring <color=red>nukes</color> either by crafting or/.../	Dieser Sektor war früher ein abgelegener Bergbausektor der Erd-Allianz, scheint aber jetzt verlassen zu sein...\n\nLogbuch: ...Ich hätte nicht gedacht, dass sie so tief in unser Gebiet vordringen würden. Die Tatsache, dass sich die Erdstreitkräfte aus diesem Sektor zurückgezogen haben, bedeutet, dass wir den Krieg tatsächlich verlieren. Wir müssen ernsthaft anfangen, über weitere Aufrüstungen und die Beschaffung von <color=red>Bomben</color> nachzudenken, entweder durch Selbstbau oder...	350		1815720575:Level 5, slavers.prefab; 669451033:dlc2/Level 5b, slavers.prefab
 
 Level 6, squids, slavers, pirates.prefab
