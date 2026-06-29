@@ -426,7 +426,7 @@ ModuleDataSubpanel.cs
 	default	Normal	0		ModuleDataSubpanel.cs; ModuleDataSubpanel.cs
 	high	Hoch	0		ModuleDataSubpanel.cs; ModuleDataSubpanel.cs
 	{0}% chance of fire	{0}% Chance auf Feuer	0		ModuleDataSubpanel.cs
-	(default is {0:0}%)	(Voreinstellung ist {0:0}%)	0		ModuleDataSubpanel.cs
+	(default is {0:0}%)	(normalerweise {0:0}%)	0		ModuleDataSubpanel.cs
 	Weapon accuracy level with current crew is {0} (aiming sector angle is {1} degrees).\nEach operator gunnery skill point increases aiming accuracy by {2} (rounded up)	Die Genauigkeit der Waffe mit der aktuellen Besatzung beträgt {0} (der Winkel des Zielsektors beträgt {1} Grad).\nJeder Punkt in der Geschützfertigkeit des Besatzungsmitglieds erhöht die Zielgenauigkeit um {2} (aufgerundet)	0		ModuleDataSubpanel.cs
 	Weapon reload time.\nReduced by gunnery skill({0}% per operator gunnery skill point)	Nachladezeit der Waffe.\nVerringerung durch Geschützfertigkeit ({0}% pro Punkt Geschützfertigkeit des Besatzungsmitglieds)	0		ModuleDataSubpanel.cs
 	Damage to ship	Schaden am Schiff	0		ModuleDataSubpanel.cs
@@ -1773,7 +1773,7 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	SAVE\nALL	SPEI- \nCHERN	16		906372781:Player panel.prefab; 197891103:Player panel.prefab; 1627209806:Player panel.prefab; 1769774856:Player panel.prefab; 1872744683:Player panel.prefab; 2047284245:Player panel.prefab
 	CONFIRM	SICHER\n?	16		431838704:Player panel.prefab; 1024367601:Player panel.prefab; 1376915463:Player panel.prefab; 1620264179:Player panel.prefab
 	LOAD\nALL	LADEN	16		313989084:Player panel.prefab; 842089536:Player panel.prefab; 998029992:Player panel.prefab; 1524888210:Player panel.prefab
-	Click to choose what is saved in this preset	Klicken hier, um auszuwählen, was in dieser Voreinstellung gespeichert werden soll	0		950352792:Player panel.prefab; 256574343:Player panel.prefab; 1200040278:Player panel.prefab; 1284368088:Player panel.prefab
+	Click to choose what is saved in this preset	Auszuwählen was in dieser Voreinstellung gespeichert werden soll	0		950352792:Player panel.prefab; 256574343:Player panel.prefab; 1200040278:Player panel.prefab; 1284368088:Player panel.prefab
 	Close preset editor	Voreinstellungseditor schließen	0		1162737091:Player panel.prefab
 	CONFIRM/CLOSE	SCHLIESSEN	16		1877879678:Player panel.prefab
 	Remove this preset	Diese Voreinstellung entfernen	0		2114374793:Player panel.prefab
@@ -1784,8 +1784,8 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	Click to turn on/off module to slot map in this preset.	Klicke hier, um die Zuordnung von Modulen zu Steckplätzen in dieser Voreinstellung ein- und auszuschalten.	0		386956855:Player panel.prefab
 	MODULES	MODULE	16		1947587852:Player panel.prefab
 	Crew/module power preset 2	Voreinstellung 2	0		1339958866:Player panel.prefab
-	Remove a preset	Eine Voreinstellung entfernen	0		1490417607:Player panel.prefab
-	Add a new preset	Eine neue Voreinstellung hinzufügen	0		516829363:Player panel.prefab
+	Remove a preset	Unterste Voreinstellung entfernen	0		1490417607:Player panel.prefab
+	Add a new preset	Neue Voreinstellung hinzufügen	0		516829363:Player panel.prefab
 	RIGHT CLICK ON POWER NODE TO TURN MODULE ON/OFF	RECHTSKLICK AUF LEISTUNGSKNOTEN, UM MODUL EIN-/AUSZUSCHALTEN	0		518012460:Player panel.prefab
 	Return view to ship	Auf Stern zentrieren	0		2066809605:Player panel.prefab
 	Warp to system	Warp zu System	0		1983397829:Player panel.prefab
@@ -11635,85 +11635,85 @@ Empty gas giant text pool.prefab
 	No suitable fuel compounds found in the atmosphere.	Es wurden keine geeigneten Brennstoffverbindungen in der Atmosphäre gefunden.	420		2088051876:Empty gas giant text pool.prefab
 
 General humanoid idle msg pool.prefab
-	Contemplating existence	Über die Existenz nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about food	Nachdenken über Nahrung	80		60326026:General humanoid idle msg pool.prefab; 235178348:General pet idle msg pool.prefab; 235178348:General pet idle msg pool.prefab
-	Meditative mood	Meditative Stimmung	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about death	Nachdenken über den Tod	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about life	Nachdenken über das Leben	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about sex	Nachdenken über Sex	80		60326026:General humanoid idle msg pool.prefab; 235178348:General pet idle msg pool.prefab
-	Inspecting the ship	Inspektion des Schiffes	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 528902761:Robot idle msg pool.prefab
-	Counting floor tiles	Zählen von Bodenfliesen	80		60326026:General humanoid idle msg pool.prefab
-	Looking for company	Auf der Suche nach Gesellschaft	80		60326026:General humanoid idle msg pool.prefab
-	Feeling lonely	Sich einsam fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the future	Über die Zukunft nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Neurochatting with ship AI	Neurochatten mit der Schiffs-KI	80		60326026:General humanoid idle msg pool.prefab
-	Playing neurogames	Neurogames spielen	80		60326026:General humanoid idle msg pool.prefab
-	Admiring the ship	Das Schiff bewundern	80		60326026:General humanoid idle msg pool.prefab
-	Reviewing personal history	Durchsicht der persönlichen Geschichte	80		60326026:General humanoid idle msg pool.prefab
-	Inspecting ship walls	Inspektion der Schiffswände	80		60326026:General humanoid idle msg pool.prefab
-	Viewing ship decorations	Betrachten von Schiffsdekorationen	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about space pets	Über Haustiere im Weltraum nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about alien sex	Über Alien-Sex nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Memorizing an alien song	Ein außerirdisches Lied auswendig lernen	80		60326026:General humanoid idle msg pool.prefab
-	Admiring the view	Die Aussicht bewundern	80		60326026:General humanoid idle msg pool.prefab
-	Enjoying time for self	Zeit für sich selbst genießen	80		60326026:General humanoid idle msg pool.prefab
-	Practicing meditation	Sich in Meditation üben	80		60326026:General humanoid idle msg pool.prefab
-	Memorizing alien words	Außerirdische Wörter auswendig lernen	80		60326026:General humanoid idle msg pool.prefab
-	Dwelling on the past	In der Vergangenheit schwelgen	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about past lovers	Über vergangene Liebhaber nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about love	Über die Liebe nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about friendship	Über Freundschaft nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about friends	Über Freunde nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Rat Empire	Über das Rattenimperium nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Squid Dominion	Über die Tintenfisch-Herrschaft nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Pirates	Über die Piraten nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Reciting the mantra of truth	Das Mantra der Wahrheit rezitieren	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Tentaculaati	Über die Tentaculaati nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Insectoidians	Über die Insektoiden nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Vexians	Über die Vexianer nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Gor-Mor	Über die Gor-Mor nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Techum	Über die Techum nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about the Gitchanki	Nachdenken über die Gitchanki	80		60326026:General humanoid idle msg pool.prefab
-	Practicing mindfulness	Achtsamkeit üben	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
-	Practicing mental silence	Geistige Stille üben	80		60326026:General humanoid idle msg pool.prefab
-	Practicing neural gland control	Sich in der Kontrolle der Neuraldrüsen üben	80		60326026:General humanoid idle msg pool.prefab
-	Reciting a mantra of truth	Rezitieren eines Mantras der Wahrheit	80		60326026:General humanoid idle msg pool.prefab
-	Reciting a mantra of love	Ein Mantra der Liebe rezitieren	80		60326026:General humanoid idle msg pool.prefab
-	Reciting a mantra of death	Ein Mantra des Todes rezitieren	80		60326026:General humanoid idle msg pool.prefab
-	Reciting a mantra of benevolence	Ein Mantra des Wohlwollens rezitieren	80		60326026:General humanoid idle msg pool.prefab
-	Reciting a mantra of mindfulness	Ein Mantra der Achtsamkeit rezitieren	80		60326026:General humanoid idle msg pool.prefab
-	Doing a mental hygiene routine	Eine mentale Hygieneroutine durchführen	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
-	Thinking about the beauty of a fellow crewmember	Über die Schönheit eines Besatzungsmitglieds nachdenken	80		60326026:General humanoid idle msg pool.prefab
-	Thinking about something a fellow crewmember said	Über etwas nachdenken, das ein anderes Besatzungsmitglied gesagt hat	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
-	Thinking about what to say to a fellow crewmember	Darüber nachdenken, was man einem anderen Besatzungsmitglied sagen könnte	80		60326026:General humanoid idle msg pool.prefab
-	Feeling fabulous	Sich fabelhaft fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling happy	Sich glücklich fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling love	Liebe empfinden	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
-	Feeling excited	Sich aufgeregt fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling curious	Sich neugierig fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling fresh	Sich frisch fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling serene	Sich heiter fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling good	Sich gut fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling fine	Wohlfühlen	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
-	Feeling adventurous	Sich abenteuerlich fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling cozy	Sich gemütlich fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling peaceful	Sich friedlich fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling calm	Sich ruhig fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling contemplative	Sich kontemplativ fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling alert	Sich wach fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling the moment	Den Moment spüren	80		60326026:General humanoid idle msg pool.prefab
-	Feeling ready for anything	Sich für alles bereit fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling motivated	Sich motiviert fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling playful	Sich spielerisch fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling perfectly neutral	Sich vollkommen neutral fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling balanced	Sich ausgeglichen fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling like any other day	Sich wie jeder andere Tag fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling OK	Sich gut fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling okay	Fühlt sich okay an	80		60326026:General humanoid idle msg pool.prefab
-	Feeling nothing special	Fühlt sich nicht besonders an	80		60326026:General humanoid idle msg pool.prefab
-	Feeling romantic	Sich romantisch fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling at peace	Sich in Ruhe fühlen	80		60326026:General humanoid idle msg pool.prefab
-	Feeling not bad	Sich nicht schlecht fühlen	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
+	Contemplating existence	Denkt über die Existenz nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about food	Denkt über Nahrung nach	80		60326026:General humanoid idle msg pool.prefab; 235178348:General pet idle msg pool.prefab; 235178348:General pet idle msg pool.prefab
+	Meditative mood	Ist in meditativer Stimmung	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about death	Denkt über den Tod nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about life	Denkt über das Leben nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about sex	Denkt über Sex nach	80		60326026:General humanoid idle msg pool.prefab; 235178348:General pet idle msg pool.prefab
+	Inspecting the ship	Inspiziert das Schiff	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 528902761:Robot idle msg pool.prefab
+	Counting floor tiles	Zählt Bodenfliesen	80		60326026:General humanoid idle msg pool.prefab
+	Looking for company	Sucht nach Gesellschaft	80		60326026:General humanoid idle msg pool.prefab
+	Feeling lonely	Fühlt sich einsam	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the future	Denkt über die Zukunft nach	80		60326026:General humanoid idle msg pool.prefab
+	Neurochatting with ship AI	Neurochattet mit der Schiffs-KI	80		60326026:General humanoid idle msg pool.prefab
+	Playing neurogames	Spielt Neurospiele	80		60326026:General humanoid idle msg pool.prefab
+	Admiring the ship	Bewundert das Schiff	80		60326026:General humanoid idle msg pool.prefab
+	Reviewing personal history	Durchschaut seine persönliche Geschichte	80		60326026:General humanoid idle msg pool.prefab
+	Inspecting ship walls	Inspiziert die Schiffswände	80		60326026:General humanoid idle msg pool.prefab
+	Viewing ship decorations	Betrachtet die Schiffsdekorationen	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about space pets	Denkt über Haustiere im Weltraum nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about alien sex	Denkt über Alien-Sex nach	80		60326026:General humanoid idle msg pool.prefab
+	Memorizing an alien song	Lernt ein außerirdisches Lied auswendig	80		60326026:General humanoid idle msg pool.prefab
+	Admiring the view	Bewundert die Aussicht	80		60326026:General humanoid idle msg pool.prefab
+	Enjoying time for self	Genießt Zeit für sich selbst	80		60326026:General humanoid idle msg pool.prefab
+	Practicing meditation	Übt sich in Meditation	80		60326026:General humanoid idle msg pool.prefab
+	Memorizing alien words	Lernt außerirdische Wörter auswendig	80		60326026:General humanoid idle msg pool.prefab
+	Dwelling on the past	Schwelgt in der Vergangenheit	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about past lovers	Denkt über vergangene Liebhaber nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about love	Denkt über die Liebe nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about friendship	Denkt über Freundschaft nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about friends	Denkt über Freunde nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Rat Empire	Denkt über das Rattenimperium nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Squid Dominion	Denkt über die Tintenfisch-Herrschaft nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Pirates	Denkt über die Piraten nach	80		60326026:General humanoid idle msg pool.prefab
+	Reciting the mantra of truth	Rezitiert das Mantra der Wahrheit	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Tentaculaati	Denkt über die Tentaculaati nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Insectoidians	Denkt über die Insektoiden nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Vexians	Denkt über die Vexianer nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Gor-Mor	Denkt über die Gor-Mor nachd	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Techum	Denkt über die Techum nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about the Gitchanki	Denkt über die Gitchanki nach	80		60326026:General humanoid idle msg pool.prefab
+	Practicing mindfulness	Übt Achtsamkeit	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
+	Practicing mental silence	Übt geistige Stille	80		60326026:General humanoid idle msg pool.prefab
+	Practicing neural gland control	Übt sich in der Kontrolle der Neuraldrüsen	80		60326026:General humanoid idle msg pool.prefab
+	Reciting a mantra of truth	Rezitiert ein Mantra der Wahrheit	80		60326026:General humanoid idle msg pool.prefab
+	Reciting a mantra of love	Rezitiert ein Mantra der Liebe	80		60326026:General humanoid idle msg pool.prefab
+	Reciting a mantra of death	Rezitiert ein Mantra des Todes	80		60326026:General humanoid idle msg pool.prefab
+	Reciting a mantra of benevolence	Rezitiert ein Mantra des Wohlwollens	80		60326026:General humanoid idle msg pool.prefab
+	Reciting a mantra of mindfulness	Rezitiert ein Mantra der Achtsamkeit	80		60326026:General humanoid idle msg pool.prefab
+	Doing a mental hygiene routine	Führt mentale Hygieneroutine durch	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
+	Thinking about the beauty of a fellow crewmember	Denkt über die Schönheit eines Besatzungsmitglieds nach	80		60326026:General humanoid idle msg pool.prefab
+	Thinking about something a fellow crewmember said	Denkt über etwas nach, das ein anderes Besatzungsmitglied gesagt hat	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
+	Thinking about what to say to a fellow crewmember	Denkt über etwas nach, was man einem anderen Besatzungsmitglied sagen könnte	80		60326026:General humanoid idle msg pool.prefab
+	Feeling fabulous	Fühlt sich fabelhaft	80		60326026:General humanoid idle msg pool.prefab
+	Feeling happy	Fühlt sich glücklich	80		60326026:General humanoid idle msg pool.prefab
+	Feeling love	Empfindet Liebe	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
+	Feeling excited	Fühlt sich aufgeregt	80		60326026:General humanoid idle msg pool.prefab
+	Feeling curious	Fühlt sich neugierig	80		60326026:General humanoid idle msg pool.prefab
+	Feeling fresh	Fühlt sich frisch	80		60326026:General humanoid idle msg pool.prefab
+	Feeling serene	Fühlt sich heiter	80		60326026:General humanoid idle msg pool.prefab
+	Feeling good	Fühlt sich gut	80		60326026:General humanoid idle msg pool.prefab
+	Feeling fine	Fühlt sich wohl	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
+	Feeling adventurous	Fühlt sich abenteuerlich	80		60326026:General humanoid idle msg pool.prefab
+	Feeling cozy	Fühlt sich gemütlich	80		60326026:General humanoid idle msg pool.prefab
+	Feeling peaceful	Fühlt sich friedlich	80		60326026:General humanoid idle msg pool.prefab
+	Feeling calm	Fühlt sich ruhig	80		60326026:General humanoid idle msg pool.prefab
+	Feeling contemplative	Fühlt sich kontemplativ	80		60326026:General humanoid idle msg pool.prefab
+	Feeling alert	Fühlt sich wach	80		60326026:General humanoid idle msg pool.prefab
+	Feeling the moment	Spürt den Moment	80		60326026:General humanoid idle msg pool.prefab
+	Feeling ready for anything	Fühlt sich für alles bereit	80		60326026:General humanoid idle msg pool.prefab
+	Feeling motivated	Fühlt sich motiviert	80		60326026:General humanoid idle msg pool.prefab
+	Feeling playful	Fühlt sich spielerisch	80		60326026:General humanoid idle msg pool.prefab
+	Feeling perfectly neutral	Fühlt sich vollkommen neutral	80		60326026:General humanoid idle msg pool.prefab
+	Feeling balanced	Fühlt sich ausgeglichen	80		60326026:General humanoid idle msg pool.prefab
+	Feeling like any other day	Fühlt sich wie jeder andere Tag	80		60326026:General humanoid idle msg pool.prefab
+	Feeling OK	Fühlt sich gut	80		60326026:General humanoid idle msg pool.prefab
+	Feeling okay	Fühlt sich okay	80		60326026:General humanoid idle msg pool.prefab
+	Feeling nothing special	Fühlt sich nicht besonders	80		60326026:General humanoid idle msg pool.prefab
+	Feeling romantic	Fühlt sich romantisch	80		60326026:General humanoid idle msg pool.prefab
+	Feeling at peace	Fühlt sich in Ruhe	80		60326026:General humanoid idle msg pool.prefab
+	Feeling not bad	Fühlt sich nicht schlecht	80		60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab; 60326026:General humanoid idle msg pool.prefab
 
 General humanoid operating msg pool.prefab
 	Operating module, focused on the job.	Bedient Modul, konzentriert auf die Arbeit.	80		203889167:General humanoid operating msg pool.prefab; 203889167:General humanoid operating msg pool.prefab; 203889167:General humanoid operating msg pool.prefab
