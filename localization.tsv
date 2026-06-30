@@ -1891,7 +1891,7 @@ Refers to shop	Store	Händler	0		1611982761:Shop panel tabbed.prefab; 191972498:
 	1 HP repair cost	1 HP Reparaturkosten	0		482747460:Shop panel tabbed.prefab
 	Not enough credits!	Nicht genug Credits!	0		1168282003:Shop panel tabbed.prefab; 1198880580:Shop panel tabbed.prefab
 	REPAIRING DAMAGE	SCHADEN REPARIEREN	0		766365669:Shop panel tabbed.prefab
-	Please stand by...	Bitte bereithalten...	0		6558255:Shop panel tabbed.prefab
+	Please stand by...	Bitte warten...	0		6558255:Shop panel tabbed.prefab
 	Not enough credits or room in storage	Nicht genug Credits oder Platz	0		1642659393:Shop panel tabbed.prefab
 	Not enough credits or room in storage.	Nicht genug Credits oder Platz.	0		691799963:Shop panel tabbed.prefab
 	BUY	KAUFEN	0		1234197169:Shop panel tabbed.prefab
@@ -6667,7 +6667,7 @@ SOS hostile fleets.prefab
 displayName	unresponsive fleet	Flotte antwortet nicht	25		2106468521:SOS hostile fleets.prefab
 title	Slaver	Sklavenhändler	35		2114132842:SOS hostile fleets.prefab
 text	"Stranded here all by yourself? We are going to take you with us... show you the finest dungeons... train you into a good slave..."	"Ganz allein hier gestrandet? Wir werden dich mitnehmen... dir die besten Verliese zeigen... dich zu einem guten Sklaven ausbilden..."	600		2114132842:SOS hostile fleets.prefab
-title	Insectoid slaver	Insektoid Sklavenhändler	35		540439958:SOS hostile fleets.prefab
+title	Insectoid slaver	Insektoiden-Sklavenhändler	35		540439958:SOS hostile fleets.prefab
 text	"You'll fetch a good price, prey. Now let us dance the blood-dance!"	"Du wirst einen guten Preis erzielen, Beute. Jetzt lass uns den Bluttanz tanzen!"	600		540439958:SOS hostile fleets.prefab
 title	Extortionist	Erpresser	35		1480245463:SOS hostile fleets.prefab; 654291480:SOS hostile fleets.prefab; 735505630:SOS hostile fleets.prefab; 1030941847:SOS hostile fleets.prefab; 1078645267:Ambusher L2 pirates, hammerhead + Hship.prefab; 1561133597:SOS hostile fleets.prefab
 text	"I can't guarantee your safety after this conversation is over because I was told some nearby hidden people want to torture and eat you... but perhaps I can arrange your security... give me a small loan?"	"Ich kann nicht für Eure Sicherheit garantieren, nachdem dieses Gespräch vorbei ist, weil mir gesagt wurde, dass einige versteckte Leute in der Nähe Euch foltern und essen wollen ... aber vielleicht kann ich Eure Sicherheit arrangieren ... gebt mir einen kleinen Kredit?"	400		1480245463:SOS hostile fleets.prefab
@@ -7038,7 +7038,7 @@ text	"If you jump to escape pods now, all your crew will be left alive, and some
 
 Ambusher L2 pirates 1 or 2 pirate old arrowheads.prefab
 text	A single medium ship is rapidly approaching tactical combat range and powering up its shields. It is armed with 3 energy weapons.	Ein einzelnes mittelgroßes Schiff nähert sich schnell der taktischen Kampfreichweite und fährt seine Schilde hoch. Es ist mit 3 Energiewaffen bewaffnet.	600		1882686446:Ambusher L2 pirates 1 or 2 pirate old arrowheads.prefab
-title	Insectoid pirate	Insektoid Pirat	35		1707436659:Ambusher L2 pirates 1 or 2 pirate old arrowheads.prefab; 879270804:Ambusher L2 pirates, rat pirates + slavers, intruderspawn.prefab
+title	Insectoid pirate	Insektoiden-Pirat	35		1707436659:Ambusher L2 pirates 1 or 2 pirate old arrowheads.prefab; 879270804:Ambusher L2 pirates, rat pirates + slavers, intruderspawn.prefab
 okButtonText	You'll be taking our fire instead [Prepare for battle]	Ihr werdet stattdessen unser Feuer einfangen [auf den Kampf vorbereiten]	7		1707436659:Ambusher L2 pirates 1 or 2 pirate old arrowheads.prefab
 text	"It's nothing personal. Your single, lonely ship is just too attractive for your own good. If we wouldn't take everything you have, somebody else surely would."	"Es ist nichts Persönliches. Euer einzelnes, einsames Schiff ist einfach zu attraktiv für Euch. Wenn wir Euch nicht alles nehmen würden, was Ihr habt, würde es sicher jemand anderes tun."	600		1707436659:Ambusher L2 pirates 1 or 2 pirate old arrowheads.prefab
 title	Another ship	Ein anderes Schiff	35		1076117392:Ambusher L2 pirates 1 or 2 pirate old arrowheads.prefab; 1042290975:Ambusher L2 pirates, hammerhead + Hship.prefab
@@ -7391,7 +7391,7 @@ text2	"Thank you. Please accept this small gift as an additional token of our gr
 text2	"Thank you for the trade. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a slab of titanium, engraved with Beedroid math poetry.	"Vielen Dank für den Handel. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die Händler haben uns eine Platte aus Titan geschenkt, in die Bienenandroide mathematische Poesie eingraviert ist.	400		158497937:Merchants L3 metal trader beedroid.prefab
 
 Merchants L3 organics trader, redmonster.prefab
-title	Organics trader (Insectoidian individual)	Organik-Händler (Insektoiden Individuum)	35		1358906618:Merchants L3 organics trader, redmonster.prefab
+title	Organics trader (Insectoidian individual)	Organik-Händler (Insektoides Individuum)	35		1358906618:Merchants L3 organics trader, redmonster.prefab
 text	"Our fleet will be leaving this system in a few minutes, so this is your only chance for such a blessed deal."	"Unsere Flotte wird dieses System in ein paar Minuten verlassen, daher ist dies Ihre einzige Chance für ein solch gesegnetes Geschäft."	400		1358906618:Merchants L3 organics trader, redmonster.prefab
 choiceText	Buy [get 200 organics for 120 credits]	Kaufen [+200 Organik, -120 Credits]	100		1358906618:Merchants L3 organics trader, redmonster.prefab
 choiceText	Barter [get 200 organics for 4 exotics]	Tauschen [+200 Organik, -4 Exoten]	100		1358906618:Merchants L3 organics trader, redmonster.prefab
@@ -7419,7 +7419,7 @@ text2	"We commend your trading routines. Please accept this small gift as an add
 text2	"We appreciate your efficient and accurate trading behaviour. Please accept this small gift as an additional token of our gratitude." The traders have gifted us a barrel of local psychoactive brew called "Thermobrainer". It is meant for cyborgs only and can be burned as starfuel.	"Wir schätzen Ihr effizientes und präzises Handelsverhalten. Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Die Händler haben uns ein Fass mit einem lokalen psychoaktiven Gebräu namens "Thermodenker" geschenkt. Es ist nur für Cyborgs gedacht und kann als Sternentreibstoff verbrannt werden.	400		926556322:Merchants L4 metal trader techum.prefab
 
 Merchants L4 organics trader redmonster.prefab
-title	Organics trader (Insectoid community representative)	Organik-Händler (Vertreter der Insektoidengemeinschaft)	35		1158218461:Merchants L4 organics trader redmonster.prefab
+title	Organics trader (Insectoid community representative)	Organik-Händler (Vertreter der Insektoiden-Gemeinschaft)	35		1158218461:Merchants L4 organics trader redmonster.prefab
 text	"Honorable fellow consciousness, are you interested in trading carbon organics? Our hive has the finest honey gardens, and the Rainbow Honey we produce is said to have mind-enhancing properties."	"Verehrtes Mit-Bewusstsein, sind Sie am Handel mit Kohlenstoff-Organik interessiert? Unser Bienenstock hat die besten Honiggärten, und dem Regenbogenhonig, den wir produzieren, werden bewusstseinsfördernde Eigenschaften nachgesagt."	400		1158218461:Merchants L4 organics trader redmonster.prefab
 text2	"Thank you for the good trade! Please accept this small gift as an additional token of our gratitude." The gift is a container filled with the blood of small animals, infused with recreational substances commonly used by insectoids. A truly unique piece of art, though barbaric.	"Danke für den guten Handel! Bitte nehmen Sie dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Bei dem Geschenk handelt es sich um einen Behälter, der mit dem Blut von Kleintieren gefüllt ist, durchtränkt mit Erholungsstoffen, die von Insektoiden verwendet werden. Ein wahrhaft einzigartiges Kunstwerk, wenn auch barbarisch.	400		712896061:Merchants L4 organics trader redmonster.prefab
 text2	"Gods have favored this trade to be successful! Please accept this small gift as an additional token of our gratitude." The alien has included a large sugar crystal, colored and shaped like the most common exotic crystals.	"Die Götter haben es begünstigt, dass dieser Handel erfolgreich ist! Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an." Der Außerirdische hat einen großen Zuckerkristall beigelegt, gefärbt und geformt wie die gängigsten exotischen Kristalle.	400		712896064:Merchants L4 organics trader redmonster.prefab
@@ -7468,7 +7468,7 @@ text2	"You won't get a better price for exotics from anywhere else in the univer
 text	A pair of trade ships approaching. One of them is armored and militarized with multiple projectile weapons and nukes.	Ein Paar Handelsschiffe nähert sich. Eines von ihnen ist gepanzert und mit mehreren Projektilwaffen und Atomwaffen ausgestattet.	600		1954498528:Smuggler L2 explosives smugglers, gormor duo.prefab
 
 Smuggler L3 explo and hint smuggler, redmonster.prefab
-title	Munitions smuggler (Insectoidian individual)	Munitionsschmuggler (Insektoiden Individuum)	35		1271921887:Smuggler L3 explo and hint smuggler, redmonster.prefab
+title	Munitions smuggler (Insectoidian individual)	Munitionsschmuggler (Insektoides Individuum)	35		1271921887:Smuggler L3 explo and hint smuggler, redmonster.prefab
 text	"May your power index increase, fellow consciousness! We are selling destructive matter & hints for a very competitive price. Our fleet will be leaving this system after this meeting is over, so no refunds!" (analysis of the trader fleet credentials suggest less-than-perfect reputation).	"Möge euer Machtindex steigen, Mitbewohner! Wir verkaufen zerstörerische Materie & Hinweise zu einem sehr günstigen Preis. Unsere Flotte wird dieses System nach diesem Treffen verlassen, also keine Rückerstattung!" (die Analyse der Daten der Händlerflotte deutet auf einen nicht ganz so guten Ruf hin)	400		1271921887:Smuggler L3 explo and hint smuggler, redmonster.prefab
 choiceText	Sell [get 55 data credits for 1 exotics]	Verkaufen [+55 Credits, -1 Exoten]	100		1271921887:Smuggler L3 explo and hint smuggler, redmonster.prefab
 choiceText	Buy some exclusive information [-1 exotics]	Einige exklusive Informationen kaufen [-1 Exoten]	100		1271921887:Smuggler L3 explo and hint smuggler, redmonster.prefab
@@ -8195,7 +8195,7 @@ overrideLockedDescription	This space sector is the closest one we reached, it's 
 
 Level 10, greens, planetkiller.prefab
 displayName	Warpgate to Earth	Warptor zur Erde	25		1669394571:Level 10, greens, planetkiller.prefab
-description	(new runs can be only started from sectors 1,2,3)\n\nThis is the closest long-range warpgate to Earth. An Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God is approaching, to destroy Earth.\n\nFragment from the captains log:\n/.../ Allright, this has got to be the biggest and last thing in the list of many thing that I was specifically planning not to do. Agreeing to ambush a freaking planet-killer battlecruiser. I humbly expect the entire Earth population to buy me a drink after this and perhaps also /.../	Dies ist das nächstgelegene Fern-Warptor zur Erde.\nEin insektoider Vergeltungs-Megaschlachtkreuzer-\nPlanetenzerstörer-Rache-Gott nähert sich.\n\nLogbuch: ...das ist die größte und letzte Sache auf der Liste der vielen Sachen, die ich ausdrücklich nicht vor hatte. Ok, einen verdammten Planetenzerstörer in einen Hinterhalt locken. Ich erwarte in aller Bescheidenheit, dass mir die gesamte Erdbevölkerung danach einen Drink spendiert und vielleicht auch...	350		1669394571:Level 10, greens, planetkiller.prefab
+description	(new runs can be only started from sectors 1,2,3)\n\nThis is the closest long-range warpgate to Earth. An Insectoid Vengeance Mega Battlecruiser Planetkiller Revenge God is approaching, to destroy Earth.\n\nFragment from the captains log:\n/.../ Allright, this has got to be the biggest and last thing in the list of many thing that I was specifically planning not to do. Agreeing to ambush a freaking planet-killer battlecruiser. I humbly expect the entire Earth population to buy me a drink after this and perhaps also /.../	Dies ist das nächstgelegene Fern-Warptor zur Erde.\nEin Insektoiden-Vergeltungs-Megaschlachtkreuzer-\nPlanetenzerstörer-Rache-Gott nähert sich.\n\nLogbuch: ...das ist die größte und letzte Sache auf der Liste der vielen Sachen, die ich ausdrücklich nicht vor hatte. Ok, einen verdammten Planetenzerstörer in einen Hinterhalt locken. Ich erwarte in aller Bescheidenheit, dass mir die gesamte Erdbevölkerung danach einen Drink spendiert und vielleicht auch...	350		1669394571:Level 10, greens, planetkiller.prefab
 overrideLockedDescription	This sector is still unexplored.	Dieser Sektor ist noch unerforscht.	350		1669394571:Level 10, greens, planetkiller.prefab; 1815720573:Level 7, shopping.prefab; 1815720574:Level 6, squids, slavers, pirates.prefab; 1815720575:Level 5, slavers.prefab; 1815720576:Level 4, insects.prefab; 1815720579:Level 9, marble, squid, shokar.prefab; 1815720580:Level 8, spideraa darkspace.prefab; 1963731161:dlc2/Level 4b, insects.prefab
 
 Level 2, pirates.prefab
@@ -8675,37 +8675,37 @@ displayName	DIY cryosleepx1	Eigenbau-Kryoschlaf x1	40		1398713621:cryosleep 1 DI
 description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around.	Die Besatzung im Kryoschlaf benötigt keine organischen Stoffe & kann Wunden heilen, während das Schiff herumfliegt.	200		1398713621:cryosleep 1 DIY.prefab; 41460888:cryosleep 2x human small.prefab; 41460892:cryosleep 6x human standard.prefab; 2059107150:cryosleep 8x insect.prefab; 2091145418:cryosleep 4x alien family.prefab
 
 cryosleep 2x human small.prefab
-displayName	Cryosleepx2, Lovers-type	Kryoschlaf x2, Typ Liebespaar	40		41460888:cryosleep 2x human small.prefab
+displayName	Cryosleepx2, Lovers-type	Liebespaar-Kryoschlaf x2 	40		41460888:cryosleep 2x human small.prefab
 
 cryosleep 3x medical.prefab
-displayName	Medical cryosleep unit x3	Medizinische Kryoschlaf-Einheit x3	40		703894034:cryosleep 3x medical.prefab
+displayName	Medical cryosleep unit x3	Medizinischer Kryoschlaf x3	40		703894034:cryosleep 3x medical.prefab
 description	This cryosleep heals crew faster than others. Crew in any cryosleep requires no organics & might heal wounds while the ship is driving around.	Dieser Kryoschlaf heilt die Besatzung schneller als andere. Die Besatzung in einem Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff herumfliegt.	200		703894034:cryosleep 3x medical.prefab
 
 cryosleep 3x rats armor.prefab
-displayName	Armored cryosleepx3, Rat Empire origin	Gepanzerter Kryoschlaf x3, Herkunft Rattenimperium	40		623034016:cryosleep 3x rats armor.prefab
+displayName	Armored cryosleepx3, Rat Empire origin	Rattenimperium-Kryoschlaf x3 (gepanzerter)	40		623034016:cryosleep 3x rats armor.prefab
 description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around. Reinforced structure improves ship HP.	Die Besatzung im Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff fliegt. Die verstärkte Struktur verbessert die HP des Schiffs.	200		623034016:cryosleep 3x rats armor.prefab
 
 cryosleep 4x alien family.prefab
-displayName	Cryosleepx4, family-type	Kryotraum x4, Familien-Typ	40		2091145418:cryosleep 4x alien family.prefab
+displayName	Cryosleepx4, family-type	Familien-Kryoschlaf x4	40		2091145418:cryosleep 4x alien family.prefab
 
 cryosleep 6x human standard.prefab
-displayName	Cryosleepx6, standard issue	Kryotraum x6, Standard-Ausgabe	40		41460892:cryosleep 6x human standard.prefab
+displayName	Cryosleepx6, standard issue	Standard-Kryoschlaf x6	40		41460892:cryosleep 6x human standard.prefab
 
 cryosleep 8x insect.prefab
-displayName	Cryosleepx8, insectoidian military	Kryotraum x8, Insektoiden-Militär	40		2059107150:cryosleep 8x insect.prefab
+displayName	Cryosleepx8, insectoidian military	Insektoiden-Kryoschlaf x8	40		2059107150:cryosleep 8x insect.prefab
 
 dream recorder 1 DIY.prefab
 displayName	DIY cryodream recorder	Eigenbau-Kryoschlaf-Traumrekorder	40		1290558229:dream recorder 1 DIY.prefab
 description	Crew sleeping in this module requires no organics & might heal wounds during ship movement. The module also records user dreams as xenodata during ship movement.	Die Besatzung, die in diesem Modul schläft, benötigt keine organischen Stoffe und kann während der Schiffsbewegung Wunden heilen. Das Modul zeichnet auch Benutzerträume als Xenodaten während der Schiffsbewegung auf.	200		1290558229:dream recorder 1 DIY.prefab; 1018033786:dream recorder 1 rats.prefab; 1484543824:dream recorder 4x weird biotech.prefab; 1813199311:dream recorder 2.prefab
 
 dream recorder 1 rats.prefab
-displayName	Cryodream recorder x1 (reinforced)	Verstärkter Kryotraum-Rekorder x1	40		1018033786:dream recorder 1 rats.prefab
+displayName	Cryodream recorder x1 (reinforced)	Verstärkter Kryoschlaf-Rekorder x1	40		1018033786:dream recorder 1 rats.prefab
 
 dream recorder 2.prefab
-displayName	Cryodream recorderx2, lovers-type	Kryotraum-Rekorder x2, Typ Liebespaar	40		1813199311:dream recorder 2.prefab
+displayName	Cryodream recorderx2, lovers-type	Liebespaar-Kryoschlaf-Rekorder x2	40		1813199311:dream recorder 2.prefab
 
 dream recorder 4x weird biotech.prefab
-displayName	Cryodream recorderx4, biotech	Biotech-Kryotraum-Rekorder x4	40		1484543824:dream recorder 4x weird biotech.prefab
+displayName	Cryodream recorderx4, biotech	Biotech-Kryoschlaf-Rekorder x4	40		1484543824:dream recorder 4x weird biotech.prefab
 
 weapondecoy_alien.prefab
 displayName	Weapon decoy & Integrity hardpoint	Waffentäuschung & Integritäts-Ansatzpunkt	40		1505324046:weapondecoy_alien.prefab; 340864347:weapondecoy1.prefab
@@ -8740,7 +8740,7 @@ displayName	Biotech ECM turret	Biotech EGM-Geschützturm	40		1804253033:ECM 03 b
 description	Biotech electronic countermeasures turret. Increases overall ship evasion, requires a hybrid slot.	Biotechnischer Geschützturm für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffes, benötigt einen Hybrid-Steckplatz.	200		1804253033:ECM 03 biotech.prefab
 
 ECM 03 insectoid.prefab
-displayName	ECM turret (insectoid)	EGM-Geschützturm (Insektoid)	40		178792571:ECM 03 insectoid.prefab
+displayName	ECM turret (insectoid)	Insektoiden-EGM-Geschützturm	40		178792571:ECM 03 insectoid.prefab
 
 ECM 03 terran.prefab
 displayName	Armored ECM Turret III	Gepanzerter EGM-Turm III	40		738383846:ECM 03 terran.prefab
@@ -8902,7 +8902,7 @@ MaterialsConverter.resourceConsumptionReason	converted to explosives	umgewandelt
 MaterialsConverter.resourceProductionReason	produced by explosives combinator	hergestellt durch Explosivstoff-Kombinator	30		1615170861:explosives combinator 1.prefab; 1363987393:explosives combinator tiger.prefab; 1515661102:explosives combinator diy.prefab
 
 explosives combinator diy.prefab
-displayName	Explosives combinator, DIY	Sprengstoff-Kombinator, Eigenbau	40		1515661102:explosives combinator diy.prefab
+displayName	Explosives combinator, DIY	Eigenbau-Sprengstoff-Kombinator	40		1515661102:explosives combinator diy.prefab
 description	Instantly combines synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	Kombiniert Kunststoffe und Treibstoff sofort zu Sprengstoffen. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200		1515661102:explosives combinator diy.prefab
 
 explosives combinator tiger.prefab
@@ -8944,7 +8944,7 @@ displayName	Drone repair station	Drohnen-Reparaturstation	40		383658151:dronebay
 description	Repair station for drones. Repairing each drone hitpoint costs synthetics, The station can repair several drones in the same time.	Reparaturstation für Drohnen. Die Reparatur jedes Drohnen-Trefferpunktes kostet Kunststoffe. Die Station kann mehrere Drohnen gleichzeitig reparieren.	200		383658151:dronebay 1 basic.prefab
 
 medbay0 diy.prefab
-displayName	Medbay (DIY)	Krankenstation (Eigenbau)	40		1219429018:medbay0 diy.prefab
+displayName	Medbay (DIY)	Eigenbau-Krankenstation	40		1219429018:medbay0 diy.prefab
 description	Improvised medbay. Uses excessive amounts of organics to heal crewmember wounds.	Improvisierte Krankenstation. Verwendet übermäßige Mengen an Organik, um Wunden von Besatzungsmitgliedern zu heilen.	200		1219429018:medbay0 diy.prefab
 Medbay.healingStoppedLogMsg	Warning, crew healing stopped due to lack of organics	Warnung, die Heilung von Besatzungsmitgliedern wurde aufgrund des Mangels an Organik gestoppt.	80		1219429018:medbay0 diy.prefab; 384091446:medbay2 startversion.prefab; 463896999:medbay6 biological.prefab; 1145518339:medbay1 Rat.prefab; 1145518341:medbay3 nanorepair.prefab; 1197296009:medbay5 biofluid bath.prefab; 1304112764:medbay4 stem celler.prefab
 
@@ -9661,15 +9661,15 @@ weapon mininglaser 2 defective.prefab
 displayName	Mining laser II (degraded)	Bergbaulaser II (degradiert)	40		1362762978:weapon mininglaser 2 defective.prefab
 
 weapon mininglaser 2.prefab
-displayName	Mining laser II	Bergbau-Laser II	40		1191005979:weapon mininglaser 2.prefab
-description	Double mining laser. Low accuracy when compared to military beam weapons.	Doppelter Bergbau-Laser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200		1191005979:weapon mininglaser 2.prefab
+displayName	Mining laser II	Bergbaulaser II	40		1191005979:weapon mininglaser 2.prefab
+description	Double mining laser. Low accuracy when compared to military beam weapons.	Doppelter Bergbaulaser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200		1191005979:weapon mininglaser 2.prefab
 
 weapon mininglaser 3 defective.prefab
 displayName	Mining laser III (degraded)	Bergbaulaser III (degradiert)	40		109007005:weapon mininglaser 3 defective.prefab
 description	Half-broken mining laser that used to have 4 barrels. Low accuracy when compared to military beam weapons.	Halbzerstörter Bergbaulaser, der früher 4 Läufe hatte. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200		109007005:weapon mininglaser 3 defective.prefab
 
 weapon mininglaser 3.prefab
-displayName	Mining laser III	Bergbau-Laser III	40		609606272:weapon mininglaser 3.prefab
+displayName	Mining laser III	Bergbaulaser III	40		609606272:weapon mininglaser 3.prefab
 description	Triple mining laser. Low accuracy when compared to military beam weapons.	Dreifacher Bergbaulaser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200		609606272:weapon mininglaser 3.prefab
 
 weapon mininglaser 4 defective.prefab
@@ -9677,15 +9677,15 @@ displayName	Mining laser IV (degraded)	Bergbaulaser IV (degradiert)	40		29291929
 description	Half-broken mining laser that used to have 6 barrels. Low accuracy when compared to military beam weapons.	Halbzerstörter Bergbaulaser, der früher 6 Läufe hatte. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200		292919296:weapon mininglaser 4 defective.prefab
 
 weapon mininglaser 4.prefab
-displayName	Mining laser IV	Bergbau-Laser IV	40		206321745:weapon mininglaser 4.prefab
+displayName	Mining laser IV	Bergbaulaser IV	40		206321745:weapon mininglaser 4.prefab
 description	Quad mining laser. Low accuracy when compared to military beam weapons.	Vierfacher Minenlaser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200		206321745:weapon mininglaser 4.prefab
 
 weapon mininglaser 5.prefab
-displayName	Mining laser V	Bergbau-Laser V	40		1772405686:weapon mininglaser 5.prefab
-description	Multibarrel mining laser. Low accuracy when compared to military beam weapons.	Multibarrel Bergbau-Laser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200		1772405686:weapon mininglaser 5.prefab; 1369121159:weapon mininglaser 6.prefab
+displayName	Mining laser V	Bergbaulaser V	40		1772405686:weapon mininglaser 5.prefab
+description	Multibarrel mining laser. Low accuracy when compared to military beam weapons.	Multibarrel Bergbaulaser. Geringe Genauigkeit im Vergleich zu militärischen Strahlenwaffen.	200		1772405686:weapon mininglaser 5.prefab; 1369121159:weapon mininglaser 6.prefab
 
 weapon mininglaser 6.prefab
-displayName	Mining laser VI	Bergbau-Laser VI	40		1369121159:weapon mininglaser 6.prefab
+displayName	Mining laser VI	Bergbaulaser VI	40		1369121159:weapon mininglaser 6.prefab
 
 weapon babylaser 1.prefab
 displayName	Phaser I	Phaser I	40		414020778:weapon babylaser 1.prefab
@@ -9704,14 +9704,14 @@ displayName	Energy projector BFGX9	Energieprojektor BFGX9	40		1238435842:weapon 
 description	Advanced energy weapon that can overload shields or unshielded modules. Causes fires and never deflects, but does not damage ship armor.	Fortgeschrittene Energiewaffe, die Schilde oder nicht abgeschirmte Module überlasten kann. Verursacht Brände und lenkt nie ab, beschädigt aber nicht die Schiffspanzerung.	200		1238435842:weapon BFGx9 for bluestar.prefab
 
 weapon bigbeamer1.prefab
-displayName	Large energy disruptor type-207	Großer Energiebrecher Typ-207	40		176876935:weapon bigbeamer1.prefab
+displayName	Large energy disruptor type-207	Großer Schildbrecher Typ-207	40		176876935:weapon bigbeamer1.prefab
 description	Universal disruptor ray, deals extra damage to shields. Relying on a single energy-ray makes it less useful vs ships with high deflection.	Universeller Energiestrahl, verursacht zusätzlichen Schaden an Schilden. Da er sich auf einen einzigen Energiestrahl verlässt, ist er weniger nützlich gegen Schiffe mit hoher Ablenkung.	200		176876935:weapon bigbeamer1.prefab; 176876933:weapon bigbeamer3.prefab; 176876934:weapon bigbeamer2.prefab
 
 weapon bigbeamer2.prefab
-displayName	Large energy disruptor type-208	Großer Energiebrecher Typ-208	40		176876934:weapon bigbeamer2.prefab
+displayName	Large energy disruptor type-208	Großer Schildbrecher Typ-208	40		176876934:weapon bigbeamer2.prefab
 
 weapon bigbeamer3.prefab
-displayName	Large energy disruptor type-209	Großer Energiebrecher Typ-209	40		176876933:weapon bigbeamer3.prefab
+displayName	Large energy disruptor type-209	Großer Schildbrecher Typ-209	40		176876933:weapon bigbeamer3.prefab
 
 weapon black energy laser x2.prefab
 displayName	Ray effector II	Strahleneffektor II	40		629170598:weapon black energy laser x2.prefab
@@ -9793,7 +9793,7 @@ displayName	Insectoid volley laser x5 (old)	Insektoiden-Salvenlaser x5 (alt)	40	
 description	Tactical combat weapon that uses obsolete technology. Produces 5 laserbeams.	Taktische Kampfwaffe, die veraltete Technologie verwendet. Erzeugt 5 Laserstrahlen.	200		2100491633:weapon Insectoid old fast laser 5x.prefab
 
 weapon Insectoid old fast laser.prefab
-displayName	Insectoid double laser (old tech)	Insektoiden-Doppellaser (alte Technologie)	40		109243084:weapon Insectoid old fast laser.prefab
+displayName	Insectoid double laser (old tech)	Insektoiden-Doppellaser (alt)	40		109243084:weapon Insectoid old fast laser.prefab
 description	Tactical combat weapon, obsolete design. Produces 2 laserbeams.	Taktische Kampfwaffe, veraltetes Design. Erzeugt 2 Laserstrahlen.	200		109243084:weapon Insectoid old fast laser.prefab
 
 weapon Insectoid shield disruptor.prefab
@@ -9849,11 +9849,11 @@ weapon ratlaser short.prefab
 displayName	Death Tail laser	Todesschwanz-Laser	40		1281020726:weapon ratlaser short.prefab
 
 weapon ratlaser small no armor.prefab
-displayName	Fast Fang laser	Schneller Fang-Laser	40		1724240697:weapon ratlaser small no armor.prefab
+displayName	Fast Fang laser	Reißzahn-Laser	40		1724240697:weapon ratlaser small no armor.prefab
 description	Light laser, made in Rat Empire. Two laser beams.	Leichter Laser, hergestellt im Rattenimperium. Zwei Laserstrahlen.	200		1724240697:weapon ratlaser small no armor.prefab
 
 weapon ratlaser small with armor.prefab
-displayName	Fast Fang laser, armored	Schneller Fang-Laser, gepanzert	40		1345622970:weapon ratlaser small with armor.prefab
+displayName	Fast Fang laser, armored	Reißzahn-Laser, gepanzert	40		1345622970:weapon ratlaser small with armor.prefab
 description	Light laser weapon. Made in Rat Empire, produces 2 laser beams. The armor plating also improves ship HP.	Leichte Laserwaffe. Hergestellt im Rattenimperium, erzeugt 2 Laserstrahlen. Die Panzerung verbessert auch die HP des Schiffes.	200		1345622970:weapon ratlaser small with armor.prefab
 
 weapon spideraa laser.prefab
@@ -9865,7 +9865,7 @@ displayName	Spideraa quad effector	Spinner Vierfach-Effektor	40		1999515951:weap
 description	Heavy and accurate N-ray weapon, reduced damage versus modules, low damage to crew. Generates 4 rays.	Schwere und präzise N-Strahlenwaffe, reduzierter Schaden gegen Module, geringer Schaden für die Besatzung. Erzeugt 4 Strahlen.	200		1999515951:weapon spideraa quadlaser.prefab
 
 weapon spideraa triplelaser.prefab
-displayName	Spideraa triple raygun	Spinner Dreifach-Strahlenkanone	40		30426038:weapon spideraa triplelaser.prefab
+displayName	Spideraa triple raygun	Spinner-Dreifach-Strahlenkanone	40		30426038:weapon spideraa triplelaser.prefab
 description	Heavy and accurate N-ray weapon, reduced damage against modules, low damage to crew. Generates 3 rays.	Schwere und präzise N-Strahlenwaffe, reduzierter Schaden an Modulen, geringer Schaden an der Besatzung. Erzeugt 3 Strahlen.	200		30426038:weapon spideraa triplelaser.prefab
 
 weapon Squid beamer double.prefab
