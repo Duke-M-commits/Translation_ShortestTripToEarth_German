@@ -1376,7 +1376,7 @@ Abbrevation for Blue	B:	B:	0		183165484:Menu panel.prefab
 	Exit	Beenden	0		723119657:Menu panel.prefab
 	Shortest Trip is actively in long-term continued development.	Shortest Trip wird aktiv und langfristig weiterentwickelt.	0		1619385223:Menu panel.prefab
 	Latest updates:	Updates:	0		76112239:Menu panel.prefab
-	<color=lime><b>Build 1.4.3 (11.2025)</b></color>\n\n●\t<color=lime>Quality of Life feature</color> \nfast forward button is now available at all times\n\n●\t<color=lime>New boarding-buff feature</color>\nplayer gets bonus resources if enemy ships self-destruct due to losing all of its crew (offensive internal combat is more viable).\n\n●\t<color=lime>Quality of Life feature</color> scrapping/storing/loading modules is disabled if doing this would destroy the player ship due to module HP bonus loss.\n\n●\t<color=lime>Fixed crew navigation</color> in all cryosleep & garden modules\n\n●\t<color=lime>Ship weapons rebalance</color>\nsome ship guns take less ammo, many energy weapons got buffed\n\n●\t<color=lime>Crew rebalance</color>many crewtypes (like slavers & pirates) got buffs to their hitpoints and speed. Some crew weapons were made better.\n\n●\t<color=lime>Module rebalance</color>increased HP & other stats of many modules\n\n●\t<color=lime>Artifact rebalance</color>increased key bonus & scrapping value	<color=lime><b>Build 1.4.3 (11.2025)</b></color>\n\n<color=lime>Rubrik "Lebensqualität"</color>\n●\tDie Schnellvorlauf-Taste ist\n\tnun jederzeit verfügbar\n●\tVerschrotten/einlagern/installieren\n\tvon Modulen ist deaktiviert, wenn es\n\tzur Selbstzerstörung führen würde\n\n<color=lime>Entern!</color>\nDu erhältst Bonusressourcen wenn sich Feinde wegen Besatzungsmangel selbst zerstören\n\n<color=lime>Bessere Navigation der Besatzung</color>\nin allen Kryoschlaf- & Gartenmodulen\n\n<color=lime>Neubalancierung der Schiffswaffen</color>\nEinige Geschütze wurden sparsamer, viele Energiewaffen wurden stärker\n\n<color=lime>Bessere Besatzung</color>\n●\tViele Besatzungstypen (wie\n\tSklavenhändler und Piraten)\n\thalten mehr aus und sind schneller\n●\tEinige Waffen der Besatzung\n\twurden verbessert\n\n<color=lime>Modul-Neugewichtung</color>\nErhöhte HP und andere Werte vieler Module\n\n<color=lime>Neubalancierung der Artefakte</color> Erhöhte Boni und Schrottwerte	0		1804156930:Menu panel.prefab
+	<color=lime><b>Build 1.4.3 (11.2025)</b></color>\n\n●\t<color=lime>Quality of Life feature</color> \nfast forward button is now available at all times\n\n●\t<color=lime>New boarding-buff feature</color>\nplayer gets bonus resources if enemy ships self-destruct due to losing all of its crew (offensive internal combat is more viable).\n\n●\t<color=lime>Quality of Life feature</color> scrapping/storing/loading modules is disabled if doing this would destroy the player ship due to module HP bonus loss.\n\n●\t<color=lime>Fixed crew navigation</color> in all cryosleep & garden modules\n\n●\t<color=lime>Ship weapons rebalance</color>\nsome ship guns take less ammo, many energy weapons got buffed\n\n●\t<color=lime>Crew rebalance</color>many crewtypes (like slavers & pirates) got buffs to their hitpoints and speed. Some crew weapons were made better.\n\n●\t<color=lime>Module rebalance</color>increased HP & other stats of many modules\n\n●\t<color=lime>Artifact rebalance</color>increased key bonus & scrapping value	<color=lime><b>Build 1.4.3 (11.2025)</b></color>\n\n<color=lime>Rubrik Lebensqualität</color>\n●\tDie Schnellvorlauf-Taste ist\n\tnun jederzeit verfügbar\n●\tSchrotten/einlagern/installieren\n\tvon Modulen, bei drohender\n\tSelbstzerstörung deaktiviert\n\n<color=lime>Entern!</color>\nDu erhältst Bonusressourcen wenn sich Feinde wegen Besatzungsmangel selbst zerstören\n\n<color=lime>Bessere Navigation der Besatzung</color>\nin allen Kryoschlaf- & Gartenmodulen\n\n<color=lime>Neubalancierung der Schiffswaffen</color>\nEinige Geschütze wurden sparsamer, viele Energiewaffen wurden stärker\n\n<color=lime>Bessere Besatzung</color>\n●\tViele Besatzungstypen (wie\n\tSklavenhändler und Piraten)\n\thalten mehr aus und sind schneller\n●\tEinige Waffen der Besatzung\n\twurden verbessert\n\n<color=lime>Modul-Neugewichtung</color>\nErhöhte HP und andere Werte vieler Module\n\n<color=lime>Neubalancierung der Artefakte</color> Erhöhte Boni und Schrottwerte	0		1804156930:Menu panel.prefab
 	<color=lime><b>Updates 21-25 (~2021-2025)</b></color>\n\n●\tNew playable ship <b>(The Riggy)</b>\n\tadded to <b>Supporters Pack DLC</b>\n\n●\tSupporters Pack DLC ships have\n\tnow more exotic pets\n\n●\tFixed many English typos thanks\n\tto DukeDuke'em on Discord	<color=lime><b>Updates 21-25</b></color> (~2021-2025)\n●\tNeues Schiff (The Shybeetle) zum\n\tSupporters Pack DLC hinzugefügt\n●\tSupporters Pack DLC-Schiffe\n\thaben jetzt mehr exotische\n\tHaustiere\n●\tViele englische Tippfehler\n\tkorrigiert, Danke Duke M	0		106754447:Menu panel.prefab
 	<color=lime><b>Update 20 (18.02.2021)</b></color>\n\n<b> For this and all earlier updates \nonly highlights are shown. Full changelogs at the official Shortest Trip page at Steam.</b> \n\n●\tWeapon slots can be now\n\tupgraded to core weapon slots,\n\tgiving +1 ship HP	<color=lime><b>Update 20</b></color> (18.02.2021)\nWaffensteckplätze können nun zu Kernwaffensteckplätzen aufgerüstet werden und geben +1 Schiff-HP	0		106754446:Menu panel.prefab
 	<color=lime><b>Update 19 (25.11.2020)</b></color>\n●\tImproved and expanded modding\n\toptions significantly	<color=lime><b>Update 19</b></color> (25.11.2020)\nDie Modding-Optionen wurden deutlich verbessert und erweitert	0		249374313:Menu panel.prefab
@@ -1630,7 +1630,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0		1665000636:Module data subpanel.prefab
 	Current synthetics production per 100ru travelled.	Aktuelle Produktion von Kunststoffen pro 100au.	0		1742087446:Module data subpanel.prefab
 	Current credits production per 100ru travelled.	Aktuelle Credits-Produktion pro 100au gereist.	0		269241749:Module data subpanel.prefab
 	1 research skill point gives 1 credit per 100ru.\n(if multiple operators work in research lab, their skill points are added together)	1 Forschungs-Fertigkeitspunkt ergibt 1 Credit pro 100au. (Wenn mehrere Forscher im Labor arbeiten, werden ihre Fertigkeitspunkte addiert)	0		742305663:Module data subpanel.prefab
-	Crew resource consumption is removed when it operates/uses this module.	Der Ressourcenverbrauch der Besatzung wird entfernt, wenn sie dieses Modul bedient/verwendet.	0		721411677:Module data subpanel.prefab
+	Crew resource consumption is removed when it operates/uses this module.	Der Ressourcenverbrauch der Besatzung wird entfernt, wenn sie dieses Modul besetzt.	0		721411677:Module data subpanel.prefab
 	no need	Kein Bedarf	23		1944305977:Module data subpanel.prefab
 	Current / maximum operators in module	Aktuelle / maximale Besatzungsmitglieder im Modul	0		329170324:Module data subpanel.prefab
 	Maximum number of items this storage can hold	Maximale Anzahl von Gegenständen, die dieses Lager aufnehmen kann	0		1105452739:Module data subpanel.prefab
@@ -8347,7 +8347,7 @@ displayName	Natural artifact (volatile crystal)	Natürliches Artefakt (flüchtig
 description	A giant Eleriumite crystal. Highly explosive due to volatile minerals, can be scrapped for resources.	Ein riesiger Eleriumit-Kristall. Hochexplosiv aufgrund von flüchtigen Mineralien, kann für Ressourcen verschrottet werden.	200		1567870807:artifactmodule nat eleriumite.prefab
 
 artifactmodule nat fossilbug.prefab
-displayName	Artifact (fossilized insectoid)	Artefakt (versteinerter Insektoid)	40		874868118:artifactmodule nat fossilbug.prefab
+displayName	Artifact (fossilized insectoid)	Artefakt (versteinerter Insektoide)	40		874868118:artifactmodule nat fossilbug.prefab
 description	This creature has fossilized into organic, highly volatile matter.	Diese Kreatur ist zu organischer, leicht flüchtiger Materie versteinert.	200		874868118:artifactmodule nat fossilbug.prefab
 
 artifactmodule nat rahn.prefab
@@ -8695,17 +8695,17 @@ cryosleep 8x insect.prefab
 displayName	Cryosleepx8, insectoidian military	Insektoiden-Kryoschlaf x8	40		2059107150:cryosleep 8x insect.prefab
 
 dream recorder 1 DIY.prefab
-displayName	DIY cryodream recorder	Eigenbau-Kryoschlaf-Traumrekorder	40		1290558229:dream recorder 1 DIY.prefab
+displayName	DIY cryodream recorder	Eigenbau-Kryotraumrekorder	40		1290558229:dream recorder 1 DIY.prefab
 description	Crew sleeping in this module requires no organics & might heal wounds during ship movement. The module also records user dreams as xenodata during ship movement.	Die Besatzung, die in diesem Modul schläft, benötigt keine organischen Stoffe und kann während der Schiffsbewegung Wunden heilen. Das Modul zeichnet auch Benutzerträume als Xenodaten während der Schiffsbewegung auf.	200		1290558229:dream recorder 1 DIY.prefab; 1018033786:dream recorder 1 rats.prefab; 1484543824:dream recorder 4x weird biotech.prefab; 1813199311:dream recorder 2.prefab
 
 dream recorder 1 rats.prefab
-displayName	Cryodream recorder x1 (reinforced)	Verstärkter Kryoschlaf-Rekorder x1	40		1018033786:dream recorder 1 rats.prefab
+displayName	Cryodream recorder x1 (reinforced)	Kryotraumrekorder x1 (verstärkt)	40		1018033786:dream recorder 1 rats.prefab
 
 dream recorder 2.prefab
-displayName	Cryodream recorderx2, lovers-type	Liebespaar-Kryoschlaf-Rekorder x2	40		1813199311:dream recorder 2.prefab
+displayName	Cryodream recorderx2, lovers-type	Liebespaar-Kryotraumrekorder x2	40		1813199311:dream recorder 2.prefab
 
 dream recorder 4x weird biotech.prefab
-displayName	Cryodream recorderx4, biotech	Biotech-Kryoschlaf-Rekorder x4	40		1484543824:dream recorder 4x weird biotech.prefab
+displayName	Cryodream recorderx4, biotech	Biotech-Kryotraumrekorder x4	40		1484543824:dream recorder 4x weird biotech.prefab
 
 weapondecoy_alien.prefab
 displayName	Weapon decoy & Integrity hardpoint	Waffentäuschung & Integritäts-Ansatzpunkt	40		1505324046:weapondecoy_alien.prefab; 340864347:weapondecoy1.prefab
@@ -9089,7 +9089,7 @@ displayName	DIY bioreactor (Zapfruit)	Zapfrucht-Eigenbau-Bioreaktor	40		45764579
 description	This reactor produces +9 power by drawing warp charge from an exotic fruit that generates it as a defence mechanism. Zero chance of malfunctions.	Dieser Reaktor erzeugt +9 Energie, indem er Warp-Ladung aus einer exotischen Frucht zieht, die diese als Abwehrmechanismus erzeugt. Null Chance auf Fehlfunktionen.	200		45764579:reactor 9 biotech DIY.prefab
 
 reactor 9 small old.prefab
-displayName	Terran energy reactor (old)	Alter terranischer Reaktor	40		1554868377:reactor 9 small old.prefab
+displayName	Terran energy reactor (old)	Terranischer Reaktor (alt)	40		1554868377:reactor 9 small old.prefab
 description	Reactors are necessary for powering ship modules. Low risk of malfunctions.	Reaktoren sind für die Energieversorgung von Schiffsmodulen notwendig. Geringes Risiko von Fehlfunktionen.	200		1554868377:reactor 9 small old.prefab
 
 compressed exotics pack.prefab
@@ -9113,7 +9113,7 @@ displayName	Resource pack (o-s-m)	Ressourcenpaket (o-k-m)	40		2025144458:general
 description	Selection of various substances prepared for printing everyday items. Provides organics, synthetics and metal when scrapped.	Eine Auswahl verschiedener Substanzen, die zum Drucken von Alltagsgegenständen vorbereitet sind. Liefert Organik, Kunststoffe und Metalle, wenn es verschrottet wird.	200		2025144458:general pack organics, synth, metal.prefab
 
 medical pack organics, synth.prefab
-displayName	Resource pack (org/syn)	Ressourcenpaket (o/k)	40		89687050:medical pack organics, synth.prefab
+displayName	Resource pack (org/syn)	Ressourcenpaket (o-k)	40		89687050:medical pack organics, synth.prefab
 description	Provides organics and synthetics when scrapped.	Liefert Organik und Kunststoffe, wenn es verschrottet werden.	200		89687050:medical pack organics, synth.prefab
 
 metal pack.prefab
@@ -10628,10 +10628,10 @@ description	The command bridge allows remotely operating other modules (without 
 randomizerMenuStrings[i]	+1 DIY bridge module	+1 selbstgebautes Brückenmodul	30		600376461:Perk module DIY bridge.prefab
 
 Perk module DIY cryodream recorder.prefab
-displayName	The cryodream recorder	Der Kryoschlaf-Traumrekorder	40		209451390:Perk module DIY cryodream recorder.prefab
+displayName	The cryodream recorder	Der Kryotraumrekorder	40		209451390:Perk module DIY cryodream recorder.prefab
 description	A self-made cryosleep dream recorder. Sleepers do not consume organics & may heal injuries during ship movement. The dream recorder occasionally produces xenodata (credits). Comes with herbal drugs that cause lucid dreaming.	Ein selbstgebauter Kryoschlaf-Traumrekorder. Schläfer verbrauchen keine organischen Stoffe & können Verletzungen während der Schiffsbewegung heilen. Der Traumrekorder produziert gelegentlich Xenodaten (Credits). Wird mit pflanzlichen Drogen geliefert, die luzides Träumen verursachen.	250		209451390:Perk module DIY cryodream recorder.prefab
 unlockAnnouncementText	During our travels, we met an individual specializing in cryosleep technology. After hearing our story, they promised to build us one for free, next time we go out adventuring.	Während unserer Reise trafen wir ein Individuum, das sich auf Kryoschlaf-Technologie spezialisiert hat. Nachdem sie unsere Geschichte gehört hatten, versprachen sie uns, uns kostenlos einen zu bauen, wenn wir das nächste Mal auf Abenteuerreise gehen.	100		209451390:Perk module DIY cryodream recorder.prefab
-randomizerMenuStrings[i]	+1 cryodream recorder (generates credits)	+1 Kryo-Traumrekorder (generiert Credits)	30		209451390:Perk module DIY cryodream recorder.prefab
+randomizerMenuStrings[i]	+1 cryodream recorder (generates credits)	+1 Kryotraumrekorder (generiert Credits)	30		209451390:Perk module DIY cryodream recorder.prefab
 randomizerMenuStrings[i]	+33 organics	+33 Organik	30		209451390:Perk module DIY cryodream recorder.prefab
 
 Perk module DIY cryosleep.prefab
