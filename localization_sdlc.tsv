@@ -9,7 +9,7 @@ appearance[i].name	Tiger Dog 9000	Tiger Hund 9000	30		1727276051:sdlc/Drone tige
 
 Drone tigerspider assaulter.prefab
 appearance[i].name	Tiger Assault Spider	Tiger Angriff Spinne	30		1800714178:sdlc/Drone tigerspider assaulter.prefab
-appearance[i].description	Heavy-duty drone modded for boarding operations. Upgraded software allows unhindered destructive behaviour. Almost fireproof.	Schwerlastdrohne, modifiziert für Boarding-Operationen. Aufgerüstete Software erlaubt ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250		1800714178:sdlc/Drone tigerspider assaulter.prefab
+appearance[i].description	Heavy-duty drone modded for boarding operations. Upgraded software allows unhindered destructive behaviour. Almost fireproof.	Schwerlastdrohne, modifiziert für Enter-Operationen. Aufgerüstete Software erlaubt ungehindertes zerstörerisches Verhalten. Fast feuerfest.	250		1800714178:sdlc/Drone tigerspider assaulter.prefab
 
 Female cyborg crew.prefab
 appearance[i].name	Scully	Sculli	30		2094501679:sdlc/Female cyborg crew.prefab
@@ -17,7 +17,7 @@ appearance[i].description	A codehacker who wants to become fully android one day
 
 Floater.prefab
 appearance[i].name	Pinky	Pinki	30		185113131:sdlc/Floater.prefab
-appearance[i].description	This social warp presentient is an extreme rarity. It is quite intelligent and likes staring into human eyes.	Dieser soziale Warp-Presentient ist eine extreme Rarität. Er ist recht intelligent und starrt gerne in menschliche Augen.	250		185113131:sdlc/Floater.prefab
+appearance[i].description	This social warp presentient is an extreme rarity. It is quite intelligent and likes staring into human eyes.	Dieses sozial vorfühlende Warptier ist eine extreme Rarität. Er ist recht intelligent und starrt gerne in menschliche Augen.	250		185113131:sdlc/Floater.prefab
 
 Human sunglasses crew.prefab
 appearance[i].description	A professional ambassador. Wears powerful eye-implants.	Ein professioneller Botschafter. Trägt leistungsstarke Augenimplantate.	250		1696290198:sdlc/Human sunglasses crew.prefab
