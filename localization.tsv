@@ -661,21 +661,21 @@ Crew actions panel.prefab
 	Crew	Besatzung	0		270456100:Crew actions panel.prefab; 130885822:Help panel.prefab; 737863883:Help panel.prefab; 775430003:Shop panel tabbed.prefab; 1030171325:Crew actions panel.prefab; 1256511782:Crew data subpanel.prefab; 1479642193:Shop panel tabbed.prefab; 1901537041:Crew actions panel.prefab
 Shows crew skill levels and other attributes such as weapons, health etc. Under are buttons for each attribute that can be clicked to sort attributes in descending order.	CREW ATTRIBUTES, CLICK TO SORT:	BESATZUNGSFERTIGKEITEN, ANKLICKEN ZUM SORTIEREN:	0		886090418:Crew actions panel.prefab
 	Health.\nClick to sort by max health	Gesundheit.\nKlicken, um nach maximaler Gesundheit zu sortieren	0		1131576644:Crew actions panel.prefab
-In multiple crew selection/overview panel. Shows module that the crew is operating, nothing is shown when crew is not operating anything.	Activity.	Aktivität.	0		631443414:Crew actions panel.prefab
-	Bridge skill.\nClick to sort.	Brückenfertigkeit.\nKlicken zum Sortieren.	0		299248206:Crew actions panel.prefab
-	Sensor skill.\nClick to sort.	Sensor-Fertigkeit.\nKlicken zum Sortieren.	0		551722979:Crew actions panel.prefab
-	Gunnery skill.\nClick to sort.	Geschützfertigkeit.\nKlicken zum Sortieren.	0		1881831115:Crew actions panel.prefab
-	Shield skill.\nClick to sort.	Schild-Fertigkeit.\nKlicken zum Sortieren.	0		1296708238:Crew actions panel.prefab
-	Repair skill.\nClick to sort.	Reparatur-Fertigkeit.\nKlicken zum Sortieren.	0		1844370718:Crew actions panel.prefab
-	Firefight skill.\nClick to sort.	Brandbekämpfungsfertigkeit.\nKlicken zum Sortieren.	0		1506235086:Crew actions panel.prefab
-	Handweapon.\nClick to sort by range.	Handwaffe.\nKlicken zum Sortieren nach Reichweite.	0		2054746914:Crew actions panel.prefab
-	Handweapon skill.\nClick to sort.	Handwaffenfertigkeit.\nKlicken zum Sortieren.	0		1715099826:Crew actions panel.prefab
-	Gardening skill.\nClick to sort.	Gartenbau-Fertigkeit.\nKlicken zum Sortieren.	0		2108118891:Crew actions panel.prefab
-	Science skill.\nClick to sort.	Forschungsfertigkeit.\nKlicken zum Sortieren.	0		504697630:Crew actions panel.prefab
-	Warp skill.\nClick to sort.	Warp-Fertigkeit.\nKlicken zum Sortieren.	0		600374220:Crew actions panel.prefab
-	Consumption per 100ru (range units).\nClick to sort by organics consumption.	Verbrauch pro 100au (Reichweiteneinheiten).\nKlicken zum Sortieren nach organischem Verbrauch.	0		394514646:Crew actions panel.prefab
-	Movement speed.\nClick to sort.	Bewegungsgeschwindigkeit.\nKlicken zum Sortieren.	0		1347995997:Crew actions panel.prefab
-	Role.\nClick to sort.	Rolle.\nKlicken zum Sortieren.	0		1717810612:Crew actions panel.prefab
+In multiple crew selection/overview panel. Shows module that the crew is operating, nothing is shown when crew is not operating anything.	Activity.	Aktivität	0		631443414:Crew actions panel.prefab
+	Bridge skill.\nClick to sort.	Brückenfertigkeit\nKlicken zum Sortieren	0		299248206:Crew actions panel.prefab
+	Sensor skill.\nClick to sort.	Sensor-Fertigkeit\nKlicken zum Sortieren	0		551722979:Crew actions panel.prefab
+	Gunnery skill.\nClick to sort.	Geschützfertigkeit\nKlicken zum Sortieren	0		1881831115:Crew actions panel.prefab
+	Shield skill.\nClick to sort.	Schild-Fertigkeit\nKlicken zum Sortieren	0		1296708238:Crew actions panel.prefab
+	Repair skill.\nClick to sort.	Reparatur-Fertigkeit\nKlicken zum Sortieren	0		1844370718:Crew actions panel.prefab
+	Firefight skill.\nClick to sort.	Brandbekämpfungsfertigkeit\nKlicken zum Sortieren	0		1506235086:Crew actions panel.prefab
+	Handweapon.\nClick to sort by range.	Handwaffe\nKlicken zum Sortieren nach Reichweite	0		2054746914:Crew actions panel.prefab
+	Handweapon skill.\nClick to sort.	Handwaffenfertigkeit\nKlicken zum Sortieren	0		1715099826:Crew actions panel.prefab
+	Gardening skill.\nClick to sort.	Gartenbau-Fertigkeit\nKlicken zum Sortieren	0		2108118891:Crew actions panel.prefab
+	Science skill.\nClick to sort.	Forschungsfertigkeit\nKlicken zum Sortieren	0		504697630:Crew actions panel.prefab
+	Warp skill.\nClick to sort.	Warp-Fertigkeit\nKlicken zum Sortieren	0		600374220:Crew actions panel.prefab
+	Consumption per 100ru (range units).\nClick to sort by organics consumption.	Verbrauch pro 100au (Reichweiteneinheiten)\nKlicken zum Sortieren nach organischem Verbrauch	0		394514646:Crew actions panel.prefab
+	Movement speed.\nClick to sort.	Bewegungsgeschwindigkeit\nKlicken zum Sortieren	0		1347995997:Crew actions panel.prefab
+	Role.\nClick to sort.	Rolle\nKlicken zum Sortieren	0		1717810612:Crew actions panel.prefab
 	Health	Gesundheit	0		1714199526:Crew actions panel.prefab; 400419124:Crew data subpanel.prefab; 1045190865:Crew actions panel.prefab; 1266907857:Module actions panel.prefab; 1875044548:Quickselect panel.prefab
 	Activity	Aktivität	0		1506134934:Crew actions panel.prefab; 190073329:Crew actions panel.prefab
 	Bridge skill	Brückenfertigkeit	0		758669236:Crew actions panel.prefab
@@ -1824,7 +1824,7 @@ comtipText	Would you like to see an overview of most common weapon types?	Möcht
 	Place to storage	In den Speicher legen	0		1187571310:Results panel.prefab
 	Install [M]	Installieren [M]	0		685547072:Results panel.prefab
 	Some resources go to\nDUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu\nÜBERSCHÜSSIGEN RESSOURCEN	0		2063517226:Results panel.prefab
-	STORE ALL & CLOSE	ALLES LAGERN & SCHLIESSEN	0		983920271:Results panel.prefab
+	STORE ALL & CLOSE	ALLES LAGERN	0		983920271:Results panel.prefab
 	SALVAGED MODULES	GEBORGENE MODULE	0		1984180866:Results panel.prefab
 	Crew total hitpoints found/lost	Besatzung-Gesamt-HP gefunden/verloren	0		911857727:Results panel.prefab
 	Crew max hitpoints added or removed on some crewmembers	Maximale HP der Besatzung bei einigen Besatzungsmitgliedern hinzugefügt oder entfernt	0		1139041017:Results panel.prefab
@@ -1890,7 +1890,7 @@ Refers to shop	Store	Händler	0		1611982761:Shop panel tabbed.prefab; 191972498:
 	Repairing by stations is always cheaper than repairing with crew\n(because crew spends 30 metals to repair each ship hitpoint).	Die Reparatur durch Stationen ist immer billiger als die Reparatur mit der Besatzung\n(weil die Besatzung 30 Metalle für die Reparatur jedes Schiffshüllenpunkte benötigt).	0		757639668:Shop panel tabbed.prefab
 	1 HP repair cost	1 HP Reparaturkosten	0		482747460:Shop panel tabbed.prefab
 	Not enough credits!	Nicht genug Credits!	0		1168282003:Shop panel tabbed.prefab; 1198880580:Shop panel tabbed.prefab
-	REPAIRING DAMAGE	SCHADEN REPARIEREN	0		766365669:Shop panel tabbed.prefab
+	REPAIRING DAMAGE	SCHADENSREPARATUR	0		766365669:Shop panel tabbed.prefab
 	Please stand by...	Bitte warten...	0		6558255:Shop panel tabbed.prefab
 	Not enough credits or room in storage	Nicht genug Credits oder Platz	0		1642659393:Shop panel tabbed.prefab
 	Not enough credits or room in storage.	Nicht genug Credits oder Platz.	0		691799963:Shop panel tabbed.prefab
@@ -6638,8 +6638,8 @@ text2	"Sorry to hear that. You would have enjoyed it."	"Tut mir leid, das zu hö
 SOS ambusher, slaver intruders.prefab
 text	Three small ships are rapidly approaching tactical range, weapons hot. The enemy fleet is using some kind of auxiliary jamming device to block more detailed scanning at this range.	Drei kleine Schiffe nähern sich schnell der taktischen Reichweite, Waffen scharf. Die feindliche Flotte setzt eine Art Störsender ein, um genauere Scans auf diese Entfernung zu verhindern.	600		304690733:SOS ambusher, slaver intruders.prefab
 title	Pirate-Slaver duo	Piraten-Sklavenhändler-Duo	35		302445938:SOS ambusher, slaver intruders.prefab
-okButtonText	Your opinion about how things work is an unfortunate mistake, lethal to yourself	Ihre Meinung darüber, wie die Dinge funktionieren, ist ein bedauerlicher, für Sie selbst tödlicher Fehler	7		302445938:SOS ambusher, slaver intruders.prefab
-text	"We just need your ship this time. Since we know you won't give it to us voluntarily, we will take it by force. This is the way things work in real life."	"Wir brauchen dieses Mal nur Ihr Schiff. Da wir wissen, dass Sie es uns nicht freiwillig geben werden, werden wir es mit Gewalt nehmen. So laufen die Dinge im richtigen Leben."	600		302445938:SOS ambusher, slaver intruders.prefab
+okButtonText	Your opinion about how things work is an unfortunate mistake, lethal to yourself	Eure Meinung darüber, wie die Dinge funktionieren, ist euer eigener bedauerlicher Fehler	7		302445938:SOS ambusher, slaver intruders.prefab
+text	"We just need your ship this time. Since we know you won't give it to us voluntarily, we will take it by force. This is the way things work in real life."	"Wir brauchen dieses Mal nur euer Schiff. Da wir wissen, dass ihr es uns nicht freiwillig geben werdet, werden wir es mit Gewalt nehmen. So laufen die Dinge im richtigen Leben."	600		302445938:SOS ambusher, slaver intruders.prefab
 
 SOS generous adventurers.prefab
 displayName	Civilian ship	Ziviles Schiff	25		1909204986:SOS generous adventurers.prefab; 634554805:SOS generous civ AI.prefab
