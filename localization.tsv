@@ -914,7 +914,7 @@ Button	Space Pirates	Weltraum-Piraten	0		1048929471:Help panel.prefab
 	Optimizing your ship modules and crew positions for combat (or flying around economically) can take a lot of time. If you want to avoid manually changing your modules  every time when combat happens, you can simply save two presets of modules - one for maximum combat capability, and another for flying around.	Das Optimieren deiner Schiffsmodule und Besatzungspositionen für den Kampf (oder das sparsame Herumfliegen) kann eine Menge Zeit in Anspruch nehmen. Wenn du deine Module nicht jedes Mal manuell ändern willst, wenn ein Kampf stattfindet, kannst du einfach zwei Voreinstellungen von Modulen speichern - eine für maximale Kampffähigkeit und eine andere für das Herumfliegen.	0		1042869421:Help panel.prefab
 	The two default preset buttons (one for combat, one for economically flying around) allow you to save & load module layouts (and powered on/off status), together with crew roles & positions.	Die beiden Standard-Voreinstellungen (eine für den Kampf, eine für das sparsame Herumfliegen) ermöglicht es dir das Speichern und Laden von Modul-Layouts (und den Ein-/Aus-Status), zusammen mit den Rollen und Positionen der Besatzung.	0		51663881:Help panel.prefab
 	You can add other custom presets, that regulate only crew for example.	Du kannst weitere benutzerdefinierte Voreinstellungen hinzufügen, die z. B. nur die Besatzung regeln.	0		476146881:Help panel.prefab
-	Toggle time	Zeit wechseln                              .	0		1170431470:Help panel.prefab; 455218394:Menu panel.prefab
+	Toggle time	Zeit wechseln                              \t	0		1170431470:Help panel.prefab; 455218394:Menu panel.prefab
 	Hold fire	Feuer anhalten	0		266745567:Help panel.prefab; 2087381280:Menu panel.prefab
 	Quick selection slots	Schnellwahl Plätze	0		62026646:Help panel.prefab
 	Pan up	Kamera rauf	0		1528150400:Help panel.prefab; 676503415:Menu panel.prefab
@@ -1243,12 +1243,13 @@ Button for graphical settings	Graphics	Grafik	0		1083442268:Menu panel.prefab
 	Show crew outline	Besatzungsumrisse	0		354227341:Menu panel.prefab
 	Check to make crew more visible	Aktiviere diese Option, um die Besatzung besser sichtbar zu machen.	0		1044392353:Menu panel.prefab
 	Show helpful tips	Hilfreiche Tipps	0		1291653643:Menu panel.prefab
-	Check to show one time messages that remind you what to do in sticky situations.\n(Turning it off and on again resets what's already been shown)	Aktiviere diese Option, um einmalige Meldungen anzuzeigen, \ndie die daran erinnern, was in heiklen Situationen zu tun ist\n(wenn du es aus- und wieder einschaltest, werden die bereits angezeigten Meldungen zurückgesetzt).	0		830389165:Menu panel.prefab
-	Resets draggable UI element positions to defaults	Setzt die Positionen der verschiebbaren UI-Elemente auf die Standardwerte zurück	0		1287278670:Menu panel.prefab; 218221871:Menu panel.prefab
+	Check to show one time messages that remind you what to do in sticky situations.\n(Turning it off and on again resets what's already been shown)	Aktiviere diese Option, um einmalige Meldungen anzuzeigen, \ndie dich daran erinnern, was in heiklen Situationen zu tun ist\n(wenn du es aus- und wieder einschaltest, werden die bereits angezeigten Meldungen zurückgesetzt).	0		830389165:Menu panel.prefab
+	Resets draggable UI element positions to defaults	Setzt die Positionen der verschiebbaren UI-Elemente auf die Standardwerte zurück.	0		1287278670:Menu panel.prefab; 218221871:Menu panel.prefab
 	Reset what's already shown	Zurücksetzen, was bereits angezeigt wurde	0		1930009756:Menu panel.prefab
-	Resets settings on this tab to defaults.\nResets all draggable window positions to defaults.\nMakes all helpful tips seen reappear.	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück.\nSetzt alle ziehbaren Fensterpositionen auf die Standardwerte zurück.\nSorgt dafür, dass alle gesehenen hilfreichen Tipps wieder angezeigt werden.	0		1472249269:Menu panel.prefab
-Button, restores default settings	Restore defaults	Einstellungen zurücksetzen	16		321384206:Menu panel.prefab; 1043496728:Menu panel.prefab
-Button, resets UI (user-interface) layout	Reset UI layout	UI-Layout zurücksetzen	16		852718934:Menu panel.prefab
+	Resets settings on this tab to defaults.\nResets all draggable window positions to defaults.\nMakes all helpful tips seen reappear.	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück.\nSetzt die Positionen der verschiebbaren UI-Elemente auf die Standardwerte zurück.\nAlle gesehenen hilfreichen Tipps werden wieder angezeigt werden.	0		1472249269:Menu panel.prefab
+Button, restores default settings (General)	Restore defaults	Zurücksetzen	16	321384206:Menu panel.prefab	321384206:Menu panel.prefab; 1043496728:Menu panel.prefab
+Button, restores default settings (Graphics)	Restore defaults	Zurücksetzen	16	1043496728:Menu panel.prefab	321384206:Menu panel.prefab; 1043496728:Menu panel.prefab
+Button, resets UI (user-interface) layout	Reset UI layout	UI zurücksetzen	16		852718934:Menu panel.prefab
 	General:	Allgemein:	0		1613521815:Menu panel.prefab
 	Mouse behaviour	Mausverhalten	0		1289717554:Menu panel.prefab
 Left-mouse-button select, right-mouse-button commands	LMB select, RMB commands, MMB pans camera	LMB: Auswahl | RMB: Befehl | MMB: Kamera	0		1328831286:Menu panel.prefab
@@ -1270,7 +1271,7 @@ Left-mouse-button select, right-mouse-button commands	LMB select, RMB commands, 
 	Opens ship view.	Öffnet die Schiffsansicht.	0		1558479880:Menu panel.prefab
 	Show ship	Schiffsansicht	15		1827648093:Menu panel.prefab
 	Switches between views.	Wechselt zwischen den Ansichten.	0		1274383436:Menu panel.prefab
-	Switch views	Ansicht wechseln                               .	15		1520020028:Menu panel.prefab
+	Switch views	Ansicht wechseln                             \t	15		1520020028:Menu panel.prefab
 	Toggles ship exterior on/off.	Schaltet die Schiffsaußenansicht ein/aus.	0		225456524:Menu panel.prefab
 	Ship exterior	Schiffshülle	15		439323247:Menu panel.prefab
 	Toggles ship power management view on/off.	Schaltet die Ansicht für die Energieverwaltung des Schiffs ein/aus.	0		1638024900:Menu panel.prefab
@@ -1283,7 +1284,7 @@ Left-mouse-button select, right-mouse-button commands	LMB select, RMB commands, 
 	Stats	Statistiken	15		1684945253:Menu panel.prefab
 	Toggles ship cargo window on/off.	Schaltet das Frachtraum-Fenster ein/aus.	0		1495686209:Menu panel.prefab
 	Toggles ship quick select window on/off.	Schaltet das Schnellauswahl-Fenster ein/aus.	0		739028255:Menu panel.prefab
-	Quick Select	Schnellauswahl                               .	15		1463375272:Menu panel.prefab
+	Quick Select	Schnellauswahl                             \t	15		1463375272:Menu panel.prefab
 	Toggles game speed between normal and slow-mo.	Schaltet die Spielgeschwindigkeit zwischen Normal und Zeitlupe um.	0		103546329:Menu panel.prefab
 	Module/Crew:	Modul/Besatzung:	0		251269959:Menu panel.prefab
 	Module - explicitly commands selected module to attack, after this click on target.\nCrew - explicitly commands selected crew to attack, after this click on target.	Modul - befiehlt dem ausgewählten Modul explizit, anzugreifen, nach diesem Klick auf das Ziel.\nBesatzung - befiehlt der ausgewählten Besatzung explizit, anzugreifen, nach diesem Klick auf das Ziel.	0		91576993:Menu panel.prefab
@@ -1308,9 +1309,9 @@ Left-mouse-button select, right-mouse-button commands	LMB select, RMB commands, 
 	Crew - explicitly command selected crew to fight fire, after this click on fire.	Besatzung - befiehlt der ausgewählten Besatzung explizit, Feuer zu bekämpfen, nach diesem Klick auf Feuer.	0		227755094:Menu panel.prefab
 	Crew fight fire	Feuer löschen	15		184836506:Menu panel.prefab
 	Load crew positions, roles and module power on/off profile	Besatzungspositionen, Rollen und Modul-Ein-/Ausschaltprofil laden	0		1875750466:Menu panel.prefab; 360931458:Player panel.prefab; 403108402:Player panel.prefab; 599316513:Player panel.prefab; 1824565334:Player panel.prefab
-	Load preset 1	Voreinstellung 1                            .	15		1206715017:Menu panel.prefab
+	Load preset 1	Voreinstellung 1                            \t	15		1206715017:Menu panel.prefab
 	Load crew positions, roles and module power on/off profile\n(second profile slot)	Besatzungspositionen, Rollen und Modul-Ein-/Ausschaltprofil laden\n(zweiter Voreinstellungsplatz)	0		1468442080:Menu panel.prefab
-	Load preset 2	Voreinstellung 2                            .	15		2018510058:Menu panel.prefab
+	Load preset 2	Voreinstellung 2                            \t	15		2018510058:Menu panel.prefab
 	Select:	Auswählen:	0		1651671144:Menu panel.prefab
 	Selects all player crew.	Wählt die gesamte Besatzung aus.	0		444450803:Menu panel.prefab
 	All crew	Alle	15		1796921245:Menu panel.prefab
@@ -1356,12 +1357,12 @@ Button. Resets controls to defaults.	Reset	Zurücksetzen	0		1983307524:Menu pane
 	Normal visuals	Normale Grafik	0		1359619408:Menu panel.prefab
 	Lighting	Beleuchtung	0		330242177:Menu panel.prefab
 	Check for enabling scene lighting.\nTry disabling it if the framerate on average is low.	Deaktiviere die Szenenbeleuchtung, wenn die Framerate zu niedrig ist.	0		1196702658:Menu panel.prefab
-	Full size textures	Texturen in voller Größe	0		1207193174:Menu panel.prefab
-	Check for enabling full resolution textures, otherwise half resolution is used.\nTry disabling if the game is stuttering because of less than 1GB VRAM.	Falls das Spiel ruckelt (unter 1 GB VRAM) diese Option deaktivieren.	0		1501925616:Menu panel.prefab
+	Full size textures	Hi-Res Texturen	0		1207193174:Menu panel.prefab
+	Check for enabling full resolution textures, otherwise half resolution is used.\nTry disabling if the game is stuttering because of less than 1GB VRAM.	Texturen in voller Größe. Falls das Spiel ruckelt (unter 1 GB VRAM) diese Option deaktivieren	0		1501925616:Menu panel.prefab
 	Vertical sync	V-Sync	0		838999884:Menu panel.prefab
 	Check to sync rendering framerate with monitor framerate.\nDisabling it is not advised unless measuring rendering framerate.	Rendering-Framerate mit der Monitor-Framerate synchronisieren.\nDeaktivierung wird nicht empfohlen.	0		1424835448:Menu panel.prefab
 	Anti-aliasing	Kantenglättung	0		831404380:Menu panel.prefab
-	Check to anti-alias hard edges	Aktivieren um Kanten zu glätten.	0		1157223790:Menu panel.prefab
+	Check to anti-alias hard edges	Aktivieren um Kanten zu glätten	0		1157223790:Menu panel.prefab
 	Film grain	Filmkorn	0		1721987823:Menu panel.prefab
 	Make graphics a bit grainy, add film-like noise	Macht die Grafik ein wenig körnig, fügt filmähnliches Rauschen hinzu	0		1491825575:Menu panel.prefab
 	Saturation	Sättigung	0		418372866:Menu panel.prefab
@@ -1369,7 +1370,7 @@ User interface colour	UI colour	UI-Farbe	0		305607119:Menu panel.prefab
 Abbrevation for Red	R:	R:	0		1878918517:Menu panel.prefab
 Abbrevation for Green	G:	G:	0		1821064559:Menu panel.prefab
 Abbrevation for Blue	B:	B:	0		183165484:Menu panel.prefab
-	Resets settings on this tab to defaults,\nexcept resolution and windowed checkbox.	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück, \ndie Auflösung und das Kontrollkästchen "Fenster".	0		561515500:Menu panel.prefab
+	Resets settings on this tab to defaults,\nexcept resolution and windowed checkbox.	Setzt die Einstellungen auf dieser Registerkarte auf die Standardwerte zurück, \nbis auf Auflösung und Fenstermodus.	0		561515500:Menu panel.prefab
 	Hello, we (developers) promise to keep developing this game after launch for months or years to come. Telling your friends about Shortest Trip is your best way to fuel this development.\n\nPlease be aware that Shortest Trip is a very detailed game and was designed to be played on bigger screens (23" monitor with full HD or better). This means that playing with a big screen ensures a very nice experience (everything has enough space on the screen) while playing on a small screen makes everything more difficult and stressful.\n\nWe've been working on Shortes Trip daily for many good years with a small and dedicated team. Your support is what drives us.\n\nThank you for existing,\ndevelopers of Shortest Trip	\rHallo, wir (die Entwickler) versprechen, dieses Spiel auch nach dem offiziellen Start noch für Monate oder Jahre weiterzuentwickeln. Wenn du deinen Freunden von Shortest Trip erzählst, kannst du unsere Entwicklung am besten vorantreiben.\n\nBitte beachte, dass Shortest Trip ein sehr detailliertes Spiel ist und für das Spielen auf größeren Bildschirmen (23"-Monitor, FullHD oder besser) konzipiert wurde. Das bedeutet, dass das Spielen auf einem großen Bildschirm ein sehr schönes Erlebnis garantiert (alles hat genug Platz auf dem Bildschirm), während das Spielen auf einem kleinen Bildschirm alles schwieriger und stressiger macht.\n\nWir arbeiten seit vielen Jahren täglich mit einem kleinen und engagierten Team an Shortest Trip. Deine Unterstützung ist das, was uns antreibt.\n\nDanke, dass es dich gibt,\nDie Entwickler von Shortest Trip	0		191317491:Menu panel.prefab
 	Exit game?	Spiel beenden?	0		1455494416:Menu panel.prefab
 	Your game is saved and will be loaded next time the game is started.	Dein Spiel wird gespeichert und beim nächsten Start wieder geladen.	0		923237230:Menu panel.prefab
