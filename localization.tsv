@@ -8259,12 +8259,12 @@ description	Accepts only engine modules, cannot be upgraded.	Nimmt nur Motor-Mod
 Hybrid slot.prefab
 displayName	Hybrid module slot	Hybrid-Modulsteckplatz	35		1229851820:Hybrid slot.prefab
 description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Punktabwehr und interne Module auf, kann aufgerüstet werden.	250		1229851820:Hybrid slot.prefab
-upgrades[i].text	Upgrade to weapon slot	Aufrüstung auf Waffensteckplatz	35		1229851820:Hybrid slot.prefab
+upgrades[i].text	Upgrade to weapon slot	Aufrüstung zum Waffensteckplatz	35		1229851820:Hybrid slot.prefab
 
 Internal core slot.prefab
 displayName	Internal core module slot	Verstärkter interner Modulsteckplatz	35		1582226742:Internal core slot.prefab
 description	Gives the ship +1 max HP	Verleiht dem Schiff +1 maximale HP	250		1582226742:Internal core slot.prefab
-upgrades[i].text	Upgrade to hybrid slot	Aufrüstung auf Hybrid-Steckplatz	35		1582226742:Internal core slot.prefab
+upgrades[i].text	Upgrade to hybrid slot	Aufrüstung zum Hybrid-Steckplatz	35		1582226742:Internal core slot.prefab
 upgrades[i].text	Downgrade to internal slot	Herabstufung auf internen Steckplatz	35		1582226742:Internal core slot.prefab
 
 Internal slot.prefab
@@ -8570,8 +8570,8 @@ displayName	Biotech Multi-container FO	Biotech Multibehälter TB	40		1384130728:
 description	Increases storage capacity of organics & fuel. Advanced biotech materials increase ship HP.	Erhöht die Lagerkapazität von Treibstoff und Biomasse. Fortschrittliche Biotech-Materialien erhöhen die Schiffs-HP.	200		1384130728:multicontainer biotec-scaled FO.prefab
 
 multicontainer DIY EE.prefab
-displayName	Exotics & Explosives storage (DIY)	Exoten- & Sprengstoffe-Behälter	40		825891570:multicontainer DIY EE.prefab
-description	Increases storage capacity of explosives & exotics.	Erhöht die Lagerkapazität von Sprengstoffen und Exoten.	200		825891570:multicontainer DIY EE.prefab
+displayName	Exotics & Explosives storage (DIY)	Multibehälter ES	40		825891570:multicontainer DIY EE.prefab
+description	Increases storage capacity of explosives & exotics.	Erhöht die Lagerkapazität von Exoten und Sprengstoffen.	200		825891570:multicontainer DIY EE.prefab
 
 multicontainer DIY FO.prefab
 displayName	DIY Multi-container FO	Multibehälter TB	40		1404265275:multicontainer DIY FO.prefab
