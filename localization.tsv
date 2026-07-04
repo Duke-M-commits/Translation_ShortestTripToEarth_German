@@ -448,7 +448,7 @@ ModuleSlotActionsPanel.cs
 	A module is already in slot, some slot upgrades/downgrades and module crafting are not possible	Ein Modul befindet sich bereits im Steckplatz, einige Aufrüstungen/-Herabstufungen und Herstellungen sind nicht möglich	0		ModuleSlotActionsPanel.cs
 
 ModuleSlotListItem.cs
-	Craft {0}	{0} herstellen	0		ModuleSlotListItem.cs
+	Craft {0}	{0}\nherstellen	0		ModuleSlotListItem.cs
 	CONFIRM DOWNGRADE?	HERABSTUFUNG BESTÄTIGEN?	0		ModuleSlotListItem.cs
 	module slot upgrade	Modulsteckplatz Upgrade	0		ModuleSlotListItem.cs
 	module slot downgrade	Modulsteckplatz Herabstufung	0		ModuleSlotListItem.cs
@@ -1659,7 +1659,7 @@ ModuleSlot actions panel.prefab
 	Click to list only craftable nukes	Klicken um nur selbstgebaute Bomben aufzulisten	0		1926630197:ModuleSlot actions panel.prefab
 	NUKES	BOMBEN	0		929908021:ModuleSlot actions panel.prefab
 	Click to list only craftable survival modules	Klicken um nur selbstgebaute Überlebensmodule aufzulisten	0		1758193200:ModuleSlot actions panel.prefab
-	SURVIVAL	ÜBERLEBEN	0		1843549913:ModuleSlot actions panel.prefab
+	SURVIVAL	LEBENSERHALTUNG	0		1843549913:ModuleSlot actions panel.prefab
 	Click to list only craftable essential modules	Klicken um nur selbstgebaute unverzichtbare Module aufzulisten	0		800030718:ModuleSlot actions panel.prefab
 	ESSENTIAL	UNVERZICHTBAR	0		1916206058:ModuleSlot actions panel.prefab
 	Click to list only craftable economy modules	Klicken um nur selbstgebaute Wirtschaftsmodule aufzulisten	0		1174114591:ModuleSlot actions panel.prefab
@@ -1764,7 +1764,7 @@ Maximum letters on one row: 10, possible 2 rows	ALMOST\nFULL	FAST\nVOLL	10		8098
 Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIERT	10		105689274:Player panel.prefab
 	BEAM\nACTIVATION	STRAHL-\nAKTIVIERUNG	10		654127208:Player panel.prefab
 	RESOURCES	RESSOURCEN	22		1171776774:Player panel.prefab
-	Open materials convertors	Öffne Materialkonverter	0		988705823:Player panel.prefab
+	Open materials convertors	Materialkonverter anzeigen	0		988705823:Player panel.prefab
 	OPEN MATERIALS CONVERTORS	MATERIAL\nKONVERTER	0		1882657867:Player panel.prefab
 	/ 100ru	/ 100au	0		147442660:Player panel.prefab; 335117788:Player panel.prefab; 855919772:Player panel.prefab; 1894949713:Player panel.prefab
 	Power consumed / capacity	Verbrauchte Leistung / Kapazität	0		109188029:Player panel.prefab
