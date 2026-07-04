@@ -8319,7 +8319,7 @@ description	Accepts only warpdrive modules, cannot be upgraded.	Nimmt nur Warpan
 
 Weapon core slot.prefab
 displayName	Reinforced weapon slot	Verstärkter Waffensteckplatz	35		1972530845:Weapon core slot.prefab
-description	Accepts weapons and other modules, adds +2 HP to ship	Nimmt Waffen und andere Module auf, fügt dem Schiff +2 HP hinzu.\n<color=red>KANN NICHT HERABGEFSTUFT WERDEN!</color>	250		1972530845:Weapon core slot.prefab
+description	Accepts weapons and other modules, adds +2 HP to ship	Nimmt Waffen und andere Module auf, fügt dem Schiff +2 HP hinzu.\n<color=red>KANN NICHT HERABGEFSTUFT WERDEN!\nNIMMT KEINE PUNKTABWEHR AUF!</color>	250		1972530845:Weapon core slot.prefab
 
 Weapon slot.prefab
 displayName	Weapon slot	Waffensteckplatz	35		1837849614:Weapon slot.prefab
