@@ -715,7 +715,7 @@ Cryosleep module operator: Sends crewmember to cryosleep if spots are available.
 Training module operator. Sends crew to train a specific skill in training module.	Training	Ausbildung	0		452633932:Crew actions panel.prefab
 Short notification that selected crew is ordinary sentient crewmember (as opposed to drones or pets).	Ordinary crewmember	Gewöhnliches Besatzungsmitglied	0		1651182387:Crew actions panel.prefab; 917247212:Crew actions panel.prefab; 1377576551:Crew data subpanel.prefab
 	CLICK TO EXPAND	ZUM ERWEITERN ANKLICKEN	12		1838589638:Crew actions panel.prefab; 206423137:Crew actions panel.prefab; 955901961:Module actions panel.prefab; 1055286628:Crew assignment panel.prefab
-	Click to change name	Zum Ändern des Namens anklicken	0		386111599:Crew actions panel.prefab; 571309456:Menu panel.prefab; 809669993:Menu panel.prefab
+	Click to change name	Klicken um den Namen zu ändern	0		386111599:Crew actions panel.prefab; 571309456:Menu panel.prefab; 809669993:Menu panel.prefab
 Placeholder text for crew name inputfield	Enter name...	Name eingeben...	0		1862604912:Crew actions panel.prefab; 2041651865:Menu panel.prefab
 Short description for crewmember type	Pet	Haustier	0		2061933340:Crew actions panel.prefab; 296880891:Crew actions panel.prefab; 448192000:Crew data subpanel.prefab; 813450014:Crew data subpanel.prefab
 Short description for crewmember type	Drone	Drohne	0		1198481276:Crew actions panel.prefab; 690681820:Crew data subpanel.prefab; 1138331605:Crew actions panel.prefab; 1164652075:Crew data subpanel.prefab
@@ -724,9 +724,9 @@ Crewmember is not consuming any resources (eating organigs, synthetics etc) due 
 Time (in %) left for crewmembers to defreeze from cryosleep. Example: "Defreeze progress: 52%" (number of percentages in another text field).	Defreeze progress:	Fortschritt auftauen:	0		1380676385:Crew actions panel.prefab
 	Any action will defreeze frozen crew	Jede Aktion wird eingefrorenes Personal auftauen	0		1208067415:Crew actions panel.prefab
 	Click to remove role	Anklicken, um Rolle zu entfernen	0		1104809222:Crew actions panel.prefab
-	Click to assign this crew to cryosleep	Klicke hier, um dieses Besatzungsmitglied dem Kryoschlaf zuzuweisen	0		996056043:Crew actions panel.prefab
-	Click to assign this crew to training modules\n(drones can't train)	Klicke hier, um diese Besatzung den Trainingsmodulen zuzuweisen\n(Drohnen können nicht trainieren)	0		1461166317:Crew actions panel.prefab
-	Click to power off	Zum Ausschalten anklicken	0		309953614:Crew actions panel.prefab
+	Click to assign this crew to cryosleep	Klicken um dieses Besatzungsmitglied dem Kryoschlaf zuzuweisen	0		996056043:Crew actions panel.prefab
+	Click to assign this crew to training modules\n(drones can't train)	Klicken um diese Besatzung den Trainingsmodulen zuzuweisen\n(Drohnen können nicht trainieren)	0		1461166317:Crew actions panel.prefab
+	Click to power off	Klicken um auszuschalten	0		309953614:Crew actions panel.prefab
 Send crewmember to new spot [shortcut key]	Move	Bewegen	0		56230181:Crew actions panel.prefab; 516704651:Help panel.prefab; 1200581661:Menu panel.prefab; 1638130167:Module actions panel.prefab
 	Extinguish fire	Feuer löschen	0		644788985:Crew actions panel.prefab
 Button. Fight Fire/firefight. Abbreviation might be required	F.FIRE	F. LÖSCHEN	6		2020286895:Crew actions panel.prefab
@@ -1650,21 +1650,21 @@ Module effects/stats	EFFECTS	EFFEKTE	0		1665000636:Module data subpanel.prefab
 ModuleSlot actions panel.prefab
 	Module slot	Modul-Steckplatz	0		1647124021:ModuleSlot actions panel.prefab
 	A module is already in slot, some slot upgrades/downgrades and module crafting not possible.	Ein Modul befindet sich bereits im Steckplatz, einige Aufrüstungen/-Herabstufungen und Herstellungen sind nicht möglich	0		506640678:ModuleSlot actions panel.prefab
-	Click to list only slot upgrades and downgrades	Klicke hier, um nur Steckplatz-Aufrüstungen und Herabstufungen aufzulisten	0		350537842:ModuleSlot actions panel.prefab
+	Click to list only slot upgrades and downgrades	Klicken um nur Steckplatz-Aufrüstungen und Herabstufungen aufzulisten	0		350537842:ModuleSlot actions panel.prefab
 	SLOT UPGRADES	STECKPLATZ AUFRÜSTUNG	0		1054069148:ModuleSlot actions panel.prefab
-	Click to list only craftable resource packs and containers	Klicke hier, um nur selbstgebaute Ressourcenpakete und -Behälter aufzulisten	0		670916642:ModuleSlot actions panel.prefab
+	Click to list only craftable resource packs and containers	Klicken um nur selbstgebaute Ressourcenpakete und -Behälter aufzulisten	0		670916642:ModuleSlot actions panel.prefab
 	CARGO	FRACHT	0		739061349:ModuleSlot actions panel.prefab; 647376347:Player panel.prefab
-	Click to list only craftable weapon and point defence modules	Klicke hier, um nur selbstgebaute Waffen und Punktabwehr-Module aufzulisten	0		504900669:ModuleSlot actions panel.prefab
+	Click to list only craftable weapon and point defence modules	Klicken um nur selbstgebaute Waffen und Punktabwehr-Module aufzulisten	0		504900669:ModuleSlot actions panel.prefab
 	WEAPONS	WAFFEN	0		1046964608:ModuleSlot actions panel.prefab
-	Click to list only craftable nukes	Klicke hier, um nur selbstgebaute Bomben aufzulisten	0		1926630197:ModuleSlot actions panel.prefab
+	Click to list only craftable nukes	Klicken um nur selbstgebaute Bomben aufzulisten	0		1926630197:ModuleSlot actions panel.prefab
 	NUKES	BOMBEN	0		929908021:ModuleSlot actions panel.prefab
-	Click to list only craftable survival modules	Klicke hier, um nur selbstgebaute Überlebensmodule aufzulisten	0		1758193200:ModuleSlot actions panel.prefab
+	Click to list only craftable survival modules	Klicken um nur selbstgebaute Überlebensmodule aufzulisten	0		1758193200:ModuleSlot actions panel.prefab
 	SURVIVAL	ÜBERLEBEN	0		1843549913:ModuleSlot actions panel.prefab
-	Click to list only craftable essential modules	Klicke hier, um nur selbstgebaute unverzichtbare Module aufzulisten	0		800030718:ModuleSlot actions panel.prefab
+	Click to list only craftable essential modules	Klicken um nur selbstgebaute unverzichtbare Module aufzulisten	0		800030718:ModuleSlot actions panel.prefab
 	ESSENTIAL	UNVERZICHTBAR	0		1916206058:ModuleSlot actions panel.prefab
-	Click to list only craftable economy modules	Klicke hier, um nur selbstgebaute Wirtschaftsmodule aufzulisten	0		1174114591:ModuleSlot actions panel.prefab
+	Click to list only craftable economy modules	Klicken um nur selbstgebaute Wirtschaftsmodule aufzulisten	0		1174114591:ModuleSlot actions panel.prefab
 	ECONOMY	WIRTSCHAFT	0		986733552:ModuleSlot actions panel.prefab; 1541597651:Player panel.prefab
-	Click to list only other craftable modules	Klicke hier, um nur andere selbstgebaute Module aufzulisten	0		1851042796:ModuleSlot actions panel.prefab
+	Click to list only other craftable modules	Klicken um nur andere selbstgebaute Module aufzulisten	0		1851042796:ModuleSlot actions panel.prefab
 	OTHER	ANDERE	0		729345146:ModuleSlot actions panel.prefab
 	Upgrade to core slot	Aufrüstung zum verstärkten internen Steckplatz	0		170246648:ModuleSlot actions panel.prefab; 586910042:Storage panel.prefab; 905884163:Internal slot.prefab
 	GAIN	GEWINN	22		1097148602:ModuleSlot actions panel.prefab; 626937814:Storage panel.prefab; 1474837566:Storage panel.prefab
@@ -1672,7 +1672,7 @@ ModuleSlot actions panel.prefab
 	Slot upgrades and module crafting are not available at the moment.	Steckplatz-Aufrüstungen und Modul-Herstellung sind zur Zeit nicht verfügbar.	0		761554600:ModuleSlot actions panel.prefab
 
 Player panel excess buttons.prefab
-ResourceActionsPanel	Cannot move with resources over cargo capacity.\nClick to convert it into <b>{0} fuel</b>	Kann sich nicht mit Ressourcen über der Ladekapazität bewegen.\nKlicke hier, um es in <b>{0} Treibstoff</b> umzuwandeln	0		223347190:Player panel excess buttons.prefab; 192846504:Player panel excess buttons.prefab; 827933845:Player panel excess buttons.prefab; 1916878194:Player panel excess buttons.prefab; 2048515750:Player panel excess buttons.prefab
+ResourceActionsPanel	Cannot move with resources over cargo capacity.\nClick to convert it into <b>{0} fuel</b>	Kann sich nicht mit Ressourcen über der Ladekapazität bewegen.\nKlicke um es in <b>{0} Treibstoff</b> umzuwandeln	0		223347190:Player panel excess buttons.prefab; 192846504:Player panel excess buttons.prefab; 827933845:Player panel excess buttons.prefab; 1916878194:Player panel excess buttons.prefab; 2048515750:Player panel excess buttons.prefab
 	Cannot move with resources over cargo capacity. We must use up or dump the excess resources!	Kann sich nicht mit Ressourcen über der Frachtkapazität bewegen. Die überschüssigen Ressourcen müssen verbraucht oder entsorgt werden!	0		1923437920:Player panel excess buttons.prefab; 255532289:Player panel excess buttons.prefab; 756597298:Player panel excess buttons.prefab; 1631923711:Player panel excess buttons.prefab; 1796518209:Player panel excess buttons.prefab; 1962124254:Player panel excess buttons.prefab
 Dump excess materials	DUMP EXCESS	ÜBERSCHUSS VERWERFEN	0		1444081631:Player panel excess buttons.prefab; 210047468:Player panel excess buttons.prefab; 678592959:Player panel excess buttons.prefab; 904602138:Player panel excess buttons.prefab; 1119500438:Player panel excess buttons.prefab; 2088116946:Player panel excess buttons.prefab
 Convert to fuel	CONV. TO FUEL	UMWANDELN IN TREIBSTOFF	0		653736058:Player panel excess buttons.prefab; 955788342:Player panel excess buttons.prefab; 1503803542:Player panel excess buttons.prefab; 1753790609:Player panel excess buttons.prefab; 1839963180:Player panel excess buttons.prefab
@@ -1779,10 +1779,10 @@ Maximum letters on one row: 10, possible 2 rows	SENSOR\nREDUCED	SENSOR\nREDUZIER
 	CONFIRM/CLOSE	SCHLIESSEN	16		1877879678:Player panel.prefab
 	Remove this preset	Diese Voreinstellung entfernen	0		2114374793:Player panel.prefab
 	REMOVE	ENTFERNEN	16		355698333:Player panel.prefab
-	Click to turn on/off crew position, role and\nmodule assignment saving in this preset.	Klicke hier, um das Speichern der Besatzung-Position, der Rolle und der Modulzuweisung in dieser Voreinstellung ein- oder auszuschalten.	0		1064997394:Player panel.prefab
+	Click to turn on/off crew position, role and\nmodule assignment saving in this preset.	Klicken um das Speichern der Besatzung-Position, der Rolle und der Modulzuweisung in dieser Voreinstellung ein- oder auszuschalten.	0		1064997394:Player panel.prefab
 	CREW	BESATZUNG	16		1769699615:Player panel.prefab
-	Click to turn on/off installed module power toggle saving in this preset.	Klicke hier, um die Speicherung der installierten Modulleistung in dieser Voreinstellung ein- bzw. auszuschalten.	0		1626674638:Player panel.prefab
-	Click to turn on/off module to slot map in this preset.	Klicke hier, um die Zuordnung von Modulen zu Steckplätzen in dieser Voreinstellung ein- und auszuschalten.	0		386956855:Player panel.prefab
+	Click to turn on/off installed module power toggle saving in this preset.	Klicken um die Speicherung der Modulaktivierung in dieser Voreinstellung ein- bzw. auszuschalten.	0		1626674638:Player panel.prefab
+	Click to turn on/off module to slot map in this preset.	Klicken um die Zuweisung von Modulen zu Steckplätzen in dieser Voreinstellung ein- und auszuschalten.	0		386956855:Player panel.prefab
 	MODULES	MODULE	16		1947587852:Player panel.prefab
 	Crew/module power preset 2	Voreinstellung 2	0		1339958866:Player panel.prefab
 	Remove a preset	Unterste Voreinstellung entfernen	0		1490417607:Player panel.prefab
