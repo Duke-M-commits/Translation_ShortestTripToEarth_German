@@ -8258,13 +8258,13 @@ description	Accepts only engine modules, cannot be upgraded.	Nimmt nur Motor-Mod
 
 Hybrid slot.prefab
 displayName	Hybrid module slot	Hybrid-Modulsteckplatz	35		1229851820:Hybrid slot.prefab
-description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Punktabwehr und interne Module auf, kann aufgerüstet werden.	250		1229851820:Hybrid slot.prefab
+description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Punktabwehr und interne Module auf, kann aufgerüstet werden.\n<color=red>KANN NICHT HERABGEFSTUFT WERDEN!</color>	250		1229851820:Hybrid slot.prefab
 upgrades[i].text	Upgrade to weapon slot	Aufrüstung zum Waffensteckplatz	35		1229851820:Hybrid slot.prefab
 
 Internal core slot.prefab
 displayName	Internal core module slot	Verstärkter interner Modulsteckplatz	35		1582226742:Internal core slot.prefab
 description	Gives the ship +1 max HP	Verleiht dem Schiff +1 maximale HP	250		1582226742:Internal core slot.prefab
-upgrades[i].text	Upgrade to hybrid slot	Aufrüstung zum Hybrid-Steckplatz	35		1582226742:Internal core slot.prefab
+upgrades[i].text	Upgrade to hybrid slot	Aufrüstung zum Hybrid-Steckplatz <color=red>[!]</color>	35		1582226742:Internal core slot.prefab
 upgrades[i].text	Downgrade to internal slot	Herabstufung auf internen Steckplatz	35		1582226742:Internal core slot.prefab
 
 Internal slot.prefab
@@ -8319,12 +8319,12 @@ description	Accepts only warpdrive modules, cannot be upgraded.	Nimmt nur Warpan
 
 Weapon core slot.prefab
 displayName	Reinforced weapon slot	Verstärkter Waffensteckplatz	35		1972530845:Weapon core slot.prefab
-description	Accepts weapons and other modules, adds +2 HP to ship	Nimmt Waffen und andere Module auf, fügt dem Schiff +2 HP hinzu	250		1972530845:Weapon core slot.prefab
+description	Accepts weapons and other modules, adds +2 HP to ship	Nimmt Waffen und andere Module auf, fügt dem Schiff +2 HP hinzu.\n<color=red>KANN NICHT HERABGEFSTUFT WERDEN!</color>	250		1972530845:Weapon core slot.prefab
 
 Weapon slot.prefab
 displayName	Weapon slot	Waffensteckplatz	35		1837849614:Weapon slot.prefab
 description	Accepts weapons and other modules, can be downgraded to point-defence slot.	Nimmt Waffen und andere Module auf, kann zu einem Punktabwehr-Steckplatz herabgestuft werden.	250		1837849614:Weapon slot.prefab
-upgrades[i].text	Upgrade to core weapon slot	Aufrüstung zum verstärkten Waffensteckplatz	35		1837849614:Weapon slot.prefab
+upgrades[i].text	Upgrade to core weapon slot	Aufrüstung zum verstärkten Waffensteckplatz <color=red>[!]</color>	35		1837849614:Weapon slot.prefab
 upgrades[i].text	Downgrade to hybrid slot	Herabstufung zum Hybrid-Steckplatz	35		1837849614:Weapon slot.prefab
 
 artifactmodule10 rahn tutorial.prefab
