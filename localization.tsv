@@ -1389,7 +1389,7 @@ Abbrevation for Blue	B:	B:	0		183165484:Menu panel.prefab
 	<color=lime><b>Update 13 (12.02.2020)</b></color>\n●\tAdded new ship <b>Easy Tiger</b>\n\n●\tIn challenging/hardcore difficulty:\n\tmodule max hp damage now\n\thappens less, in 10% cases instead\n\tof 15%\n\n●\tGave all player ships new\n\tcraftable nukes\n\n●\tMost playable ships now start with\n\tmore credits (420)		0		705338536:Menu panel.prefab
 	<color=lime><b>Update 12 (16.01.2020)</b></color>\n●\tAdded a new easier game mode\n\n●\tIt's now possible to save crew\n\tmembers to empty slots in quick\n\tselection bar, and change the\n\torder of guns\n\n●\tImproved feature: crew combat\n\tweapons can be now loaded\n\tmid-magazine and during walking		0		1985108965:Menu panel.prefab
 	<color=lime><b>Updates 1-10 (10.10.2018- 14.11.2019)</b></color>\nKinldy read the changelogs from official Shortest Trip page at Steam.	Vollständige Liste auf Steam	0		1698087549:Menu panel.prefab
-	Click for next tip	Klicken für den nächsten Tipp.	0		2135834629:Menu panel.prefab
+	Click for next tip	Klicken für den nächsten Tipp	0		2135834629:Menu panel.prefab
 	Click for next tip.	Nächster Tipp	0		423452430:Menu panel.prefab
 	This game is not yet rated, but is suitable for ages over:	Dieses Spiel hat noch keine Altersfreigabe, ist aber für Personen ab einem gewissen Alter geeignet:	0		1049831583:Menu panel.prefab
 	All references to drugs in Shortest Trip refer to legal, safe and/or fictional substances.\nAll references to sex are non-pornographic.\nAll references to violence are non-glorifying.	Alle Hinweise auf Drogen in Shortest Trip beziehen sich auf legale, sichere und/oder fiktive Substanzen.\nAlle Hinweise auf Sex sind nicht pornografisch.\nAlle Hinweise auf Gewalt sind nicht verherrlichend.	0		860893473:Menu panel.prefab
@@ -6295,7 +6295,7 @@ choiceText	Sorry, we're still too crowded [leave for now]	Tut uns leid, wir sind
 title	Metal delivered	Metalle geliefert	35		1233505548:3 Earth outpost.prefab
 text2	"Thank you! I will de-freeze our crew and give them a debriefing. Some of them would like to speak with you - I've taken the liberty to organize a social event for our crews.\nI think a costume party would be most suitable for the occasion! I've also shared my library of recent xenodata with your AI. Come back soon, and don't forget a funny costume - the more awkward, the better!"	"Ich danke Euch! Ich werde unsere Besatzung auftauen und ihnen eine Nachbesprechung geben. Einige von ihnen würden gerne mit Ihnen sprechen - ich habe mir erlaubt, ein gesellschaftliches Ereignis für unsere Besatzungs zu organisieren. Ich denke, eine Kostümparty wäre für diesen Anlass am besten geeignet! Ich habe auch meine Bibliothek mit aktuellen Xenodaten mit Ihrer KI geteilt. Kommen Sie bald wieder, und vergessen Sie ein lustiges Kostüm nicht - je peinlicher, desto besser!"	400		1233505548:3 Earth outpost.prefab
 reasonToDisplay	metals delivered	Metalle geliefert	30		3 Earth outpost.prefab
-setText	Go to exit warpgate after exploring the sector.	Nach der Erkundung des Sektors zum Ausgang-Warptor gehen.	100		1233505548:3 Earth outpost.prefab
+setText	Go to exit warpgate after exploring the sector.	Nach der Erkundung des Sektors zum Ausgang-Warptor fliegen.	100		1233505548:3 Earth outpost.prefab
 title	Exit warpgate coordinates	Ausgang-Warptor-Koordinaten	35		1015980751:3 Earth outpost.prefab
 text2	"By the way, the long-term Exit warpgate of this sector was hidden by our forces when the war started. I've given you the coordinates to reach it. It should be now visible on your sector map."	"Übrigens, das langfristige Ausgang-Warptor dieses Sektors wurde von unseren Streitkräften versteckt, als der Krieg begann. Ich habe Ihnen die Koordinaten gegeben, um es zu erreichen. Es sollte jetzt auf Ihrer Sektorkarte sichtbar sein."	400		1015980751:3 Earth outpost.prefab
 setText	Reach warpgate to move on	Das Warptor erreichen, um weiterzuziehen	100		1015980751:3 Earth outpost.prefab
@@ -11118,7 +11118,7 @@ title	Warpcast transmission	Warpcast-Übertragung	35		917532603:Main quest FSM.p
 text	"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	"Kapitän, ein Angriff der Spinner hat den Tintenfisch-Imperator gezwungen, sich genau in diesen Sektor zurückzuziehen. Wir haben Sie hierher geschickt, um ihn zu finden und zu eliminieren. Seien Sie sich bewusst, dass er eine Flotte von Sec-Corp-Schiffen angeheuert hat, um das Gebiet zu patrouillieren."	600		917532603:Main quest FSM.prefab
 title	Warp ship captain	Warpschiff-Kapitän	35		336132896:Main quest FSM.prefab
 text	The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	Die Insektoiden-Allianz fand heraus, dass wir vor ihrem Angriff mit den Spinnern sprachen. Sie machen uns für die Entführung ihrer Königinnen durch die Spinner verantwortlich, weil sie glauben, dass wir sie den Spinnern angeboten haben.\nDie Bugs halten an sehr alten Traditionen fest, besonders an der Tradition der Rache. Sie haben ein Planetenzerstörer-Schiff geschickt, um die Erde zu zerstören, obwohl sie sonst mit uns in Frieden leben. Es wird das Ausgang-Warptor dieses Sektors passieren und wir müssen dort einen Hinterhalt legen.	600		336132896:Main quest FSM.prefab
-setText	Go to Exit warpgate of the sector to set up an ambush.	Gehe zum Ausgang-Warptor des Sektors, um einen Hinterhalt zu legen.	100		336132896:Main quest FSM.prefab
+setText	Go to Exit warpgate of the sector to set up an ambush.	Zum Ausgang-Warptor des Sektors fliegen, um einen Hinterhalt zu legen.	100		336132896:Main quest FSM.prefab
 text	This sector was historically unclaimed by major factions. Intergalactic travel guides warn of pirates. A wild sector, they call it, however this information may be out of date. Grab everything you can and let's leave this place quickly.	Dieser Sektor wurde in der Vergangenheit von keiner der großen Fraktionen beansprucht. Intergalaktische Reiseführer warnen vor Piraten. Ein wilder Sektor, so heißt es, doch diese Informationen könnten veraltet sein. Schnappt euch alles, was ihr könnt und lasst uns schnell von hier verschwinden.	400		738817897:Main quest FSM.prefab
 choiceText	Got it.	Ich hab's.	100		738817897:Main quest FSM.prefab; 1089258417:Main quest FSM.prefab; 1987359973:Main quest FSM.prefab; 2040638368:Main quest FSM.prefab
 choiceText	What can you tell me about the local pirates?	Was kannst du mir über die hiesigen Piraten sagen?	100		738817897:Main quest FSM.prefab
@@ -12446,9 +12446,9 @@ Rat description pool.prefab
 	Outcast from a successful Rat colony. DNA credentials show "unfashionable" genes.	Ausgestoßen aus einer erfolgreichen Rattenkolonie. DNA-Ausweis zeigt "unzeitgemäße" Gene.	250		1528824749:Rat description pool.prefab
 
 Red Ripper idle msg pool.prefab
-	Thinking about eating	Nachdenken über Essen	80		877972054:Red Ripper idle msg pool.prefab
-	Thinking about killing	Übers Töten nachdenken	80		877972054:Red Ripper idle msg pool.prefab
-	Memorizing combat movement patterns	Bewegungsmuster des Kampfes auswendig lernen	80		877972054:Red Ripper idle msg pool.prefab
+	Thinking about eating	Denkt über Essen nach	80		877972054:Red Ripper idle msg pool.prefab
+	Thinking about killing	Denkt übers Töten nach	80		877972054:Red Ripper idle msg pool.prefab
+	Memorizing combat movement patterns	Lernt die Bewegungsmuster des Kampfes auswendig	80		877972054:Red Ripper idle msg pool.prefab
 
 Robot idle msg pool.prefab
 	Standby mode	Bereitschaftsmodus	80		528902761:Robot idle msg pool.prefab
@@ -12467,7 +12467,7 @@ Ship destroyed game over text pool.prefab
 	The ship AI had backup copies of themselves and the cat's digitalized personality. Obviously.	Die Schiffs-KI hatte Sicherungskopien von sich selbst und der digitalisierten Persönlichkeit der Katze. Offensichtlich.	80		601888120:Ship destroyed game over text pool.prefab
 	You have given yourself an opportunity for a new, better beginning.	Du hast dir selbst eine Chance für einen neuen, besseren Anfang gegeben.	80		601888120:Ship destroyed game over text pool.prefab
 	No crying over spilled almond milk, nor spilled spaceship crews.	Kein Weinen über verschüttete Mandelmilch oder verschüttete Raumschiffcrews.	80		601888120:Ship destroyed game over text pool.prefab
-	One more run?	Noch ein Durchlauf?	80		601888120:Ship destroyed game over text pool.prefab
+	One more run?	Noch ein Lauf?	80		601888120:Ship destroyed game over text pool.prefab
 	If one keeps dying because of repairing ship HP too late, one should repair it earlier.	Wenn man immer wieder stirbt, weil man die Schiffs-HP zu spät repariert, sollte man sie früher reparieren.	80		601888120:Ship destroyed game over text pool.prefab
 	If one keeps dying because of not using nukes, one should use nukes.	Wenn man immer wieder stirbt, weil man keine Bomben benutzt, sollte man sie benutzen.	80		601888120:Ship destroyed game over text pool.prefab
 	You've stopped emitting causal waves, go for a new run to continue emitting.	Du hast aufgehört, kausale Wellen zu emittieren, mach einen neuen Lauf, um weiter zu emittieren.	80		601888120:Ship destroyed game over text pool.prefab
