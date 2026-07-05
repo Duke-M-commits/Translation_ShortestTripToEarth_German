@@ -11103,7 +11103,7 @@ randomizerMenuStrings[i]	+3 to ship HP	+3 Schiffs-HP	30		1570827982:Perk warpshe
 randomizerMenuStrings[i]	-100 organics	-100 Biomasse	30		1570827982:Perk warpshell extra hitpoints.prefab
 
 Main quest FSM.prefab
-setText	Collect resources before entering the exit warpgate to next sector.	Sammle Ressourcen und fliege zum Ausgangswarptor.	100		514678521:Main quest FSM.prefab; 1215248441:Main quest FSM.prefab
+setText	Collect resources before entering the exit warpgate to next sector.	Sammle Ressourcen und fliege zum Ausgangswarptor	100		514678521:Main quest FSM.prefab; 1215248441:Main quest FSM.prefab
 title	Entry: space pirates	Einstieg: Raumpiraten	35		1558344933:Main quest FSM.prefab
 text	Pirate ships are usually armed with low quality weapons. They don't care too much about this, because they usually want to get entire ships for themselves by killing all of the crew.\nKeep point-defences online to destroy approaching boarder shuttles before they reach our ship.	Piratenschiffe sind meist mit minderwertigen Waffen bewaffnet. Sie kümmern sich nicht allzu sehr darum, da sie in der Regel ganze Schiffe für sich haben wollen, indem sie die gesamte Besatzung töten.\nHalten Sie Punktabwehranlagen online, um herannahende Enter-Shuttles zu zerstören, bevor sie unser Schiff erreichen.	600		1558344933:Main quest FSM.prefab
 text	I've de-frozen some of the crew and assigned them to operate various modules. You might want to optimize this before we start moving.	Ich habe einige der Besatzung aufgetaut und ihnen die Bedienung verschiedener Module zugewiesen. Vielleicht willst du das optimieren, bevor wir loslegen.	600		1663161253:Main quest FSM.prefab
