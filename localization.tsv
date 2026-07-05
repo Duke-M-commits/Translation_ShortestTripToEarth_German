@@ -6961,7 +6961,7 @@ text	"Alien vessel, you have trespassed onto Rat Empire property (this space) an
 choiceText	Pay [-120 xenodata credits]	Zahlen [-120 Credits]	100		1554044505:Ambusher L1 Rats, old cruiser +1small.prefab
 choiceText	Attempt to bribe [-2 exotics]	Versuchen zu bestechen [-2 Exoten]	100		1554044505:Ambusher L1 Rats, old cruiser +1small.prefab; 969757368:Ambusher L1 Rats, old cruiser +1small.prefab
 text2	"You may continue existing, visitor."	"Sie dürfen weiter existieren, Besucher."	400		1350043497:Ambusher L1 Rats, old cruiser +1small.prefab
-title	The Bribers Backstab Maneuver	Das Bestechungsmanöver "Backstab	35		1164291489:Ambusher L1 Rats, old cruiser +1small.prefab; 68236709:Ambusher L1 Rats, red cruiser +1small.prefab
+title	The Bribers Backstab Maneuver	Das Bestechungs-Verrat-Manöver	35		1164291489:Ambusher L1 Rats, old cruiser +1small.prefab; 68236709:Ambusher L1 Rats, red cruiser +1small.prefab
 text2	The Rat official waits until receiving the exotics and then speaks "You cannot sway the trained mind of an Imperial Rat officer! Fellow Rats, attack!" (Rat ships are closing in...)	Der Rattenoffizier wartet, bis er die Exotics erhält und spricht dann: "Ihr könnt den geschulten Verstand eines imperialen Rattenoffiziers nicht beeinflussen! Freunde der Ratten, greift an!" (Die Rattenschiffe nähern sich...)	400		1164291489:Ambusher L1 Rats, old cruiser +1small.prefab
 reasonToDisplay	failed bribe	Gescheiterte Bestechung	30		Ambusher L1 Rats, old cruiser +1small.prefab; Ambusher L1 Rats, red cruiser +1small.prefab
 text2	After taking a paranoid glance at you, the commanding Rat officer accepts the bribe. He sniffs and closes the commchannel.	Nach einem paranoiden Blick auf Sie nimmt der kommandierende Rattenoffizier die Bestechung an. Er schnieft und schließt den Kommandokanal.	400		1350043499:Ambusher L1 Rats, old cruiser +1small.prefab; 1231036123:Ambusher L1 Rats, red cruiser +1small.prefab
@@ -8258,13 +8258,13 @@ description	Accepts only engine modules, cannot be upgraded.	Nimmt nur Motor-Mod
 
 Hybrid slot.prefab
 displayName	Hybrid module slot	Hybrid-Modulsteckplatz	35		1229851820:Hybrid slot.prefab
-description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Punktabwehr und interne Module auf, kann aufgerüstet werden.\n<color=red>KANN NICHT HERABGEFSTUFT WERDEN!\n-1 SCHIFFS-HP!</color>	250		1229851820:Hybrid slot.prefab
+description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Punktabwehr und interne Module auf\n<color=red>KANN NICHT HERABGEFSTUFT WERDEN!</color>	250		1229851820:Hybrid slot.prefab
 upgrades[i].text	Upgrade to weapon slot	Aufrüstung zum Waffensteckplatz	35		1229851820:Hybrid slot.prefab
 
 Internal core slot.prefab
 displayName	Internal core module slot	Verstärkter interner Modulsteckplatz	35		1582226742:Internal core slot.prefab
 description	Gives the ship +1 max HP	Verleiht dem Schiff +1 maximale HP	250		1582226742:Internal core slot.prefab
-upgrades[i].text	Upgrade to hybrid slot	Aufrüstung zum Hybrid-Steckplatz <color=red>[!]</color>	35		1582226742:Internal core slot.prefab
+upgrades[i].text	Upgrade to hybrid slot	Aufrüstung zum Hybrid-Steckplatz <color=red>[-1 HP!]</color>	35		1582226742:Internal core slot.prefab
 upgrades[i].text	Downgrade to internal slot	Herabstufung auf internen Steckplatz	35		1582226742:Internal core slot.prefab
 
 Internal slot.prefab
@@ -8323,7 +8323,7 @@ description	Accepts weapons and other modules, adds +2 HP to ship	Nimmt Waffen u
 
 Weapon slot.prefab
 displayName	Weapon slot	Waffensteckplatz	35		1837849614:Weapon slot.prefab
-description	Accepts weapons and other modules, can be downgraded to point-defence slot.	Nimmt Waffen und andere Module auf, kann zu einem Punktabwehr-Steckplatz herabgestuft werden.	250		1837849614:Weapon slot.prefab
+description	Accepts weapons and other modules, can be downgraded to point-defence slot.	Nimmt Waffen und andere Module auf, kann für Punktabwehr zu einem Hybrid-Steckplatz herabgestuft werden.	250		1837849614:Weapon slot.prefab
 upgrades[i].text	Upgrade to core weapon slot	Aufrüstung zum verstärkten Waffensteckplatz <color=red>[!]</color>	35		1837849614:Weapon slot.prefab
 upgrades[i].text	Downgrade to hybrid slot	Herabstufung zum Hybrid-Steckplatz	35		1837849614:Weapon slot.prefab
 
@@ -8887,7 +8887,7 @@ displayName	Integrity/Shield hardpoint, type Infiweedy	Panzerung/Schild, Typ Inf
 description	Biotech hardpoint with integrated shield battery that adds a layer of exotic nano-scales under the external ship armor. Install to gain instantly extra ship HP.	Biotech-Panzerung mit integrierter Schildbatterie, die unter der äußeren Schiffsrüstung eine Schicht aus exotischen Nanomaterialien bildet. Durch die Installation erhält das Schiff sofort zusätzliche HP.	200		1152328828:integrity 06 big green scales.prefab
 
 integrity 06 spideraa.prefab
-displayName	Integrity/maneuver/shield hardpoint, type Arachnoid	Panzerung/Manövrierfähigkeit/Schild, Typ Arachnoid	40		989518264:integrity 06 spideraa.prefab
+displayName	Integrity/maneuver/shield hardpoint, type Arachnoid	Panzerung/EGM/Schild, Typ Arachnoid	40		989518264:integrity 06 spideraa.prefab
 description	Advanced integrity hardpoint, boosts evasion in addition ship HP. Can be installed to gain extra ship HP, even during an emergency.	Erweiterte Panzerung, die sowohl die Ausweichfähigkeit als auch die HP des Schiffes erhöht. Kann installiert werden, um zusätzliche HP für das Schiff zu erhalten – sogar in Notfällen.	200		989518264:integrity 06 spideraa.prefab
 
 biotech explosives recycler.prefab
@@ -9068,18 +9068,18 @@ displayName	Spideraa large energy reactor	Großer Spinner-Reaktor	40		627812931:
 
 reactor 4 diy 1.prefab
 displayName	Improvised energy reactor I	Reaktor I	40		482395317:reactor 4 diy 1.prefab
-description	Reactor assembled from tech scraps. Generates +4 power, low risk of malfunctions.	Aus Tech-Schrott zusammengebauter Reaktor. Erzeugt +4 Energie, geringes Risiko von Fehlfunktionen.	200		482395317:reactor 4 diy 1.prefab
+description	Reactor assembled from tech scraps. Generates +4 power, low risk of malfunctions.	Aus Tech-Schrott zusammengebauter Reaktor. Geringes Risiko von Fehlfunktionen.	200		482395317:reactor 4 diy 1.prefab
 
 reactor 5 diy 2 backup.prefab
 displayName	Self-assembled light reactor	Leichter Reaktor	40		1700526886:reactor 5 diy 2 backup.prefab
-description	A small reactor, manually self-assembled from pre-printed parts. Generates +5 power, low risk of malfunctions.	Ein kleiner Reaktor, manuell selbst zusammengebaut aus vorgedruckten Teilen. Erzeugt +5 Leistung, geringes Risiko von Fehlfunktionen.	200		1700526886:reactor 5 diy 2 backup.prefab
+description	A small reactor, manually self-assembled from pre-printed parts. Generates +5 power, low risk of malfunctions.	Ein kleiner Reaktor, manuell selbst zusammengebaut aus vorgedruckten Teilen. Geringes Risiko von Fehlfunktionen.	200		1700526886:reactor 5 diy 2 backup.prefab
 
 reactor 6 smalltrapho.prefab
 displayName	Micro reactor I	Mikroreaktor I	40		833760257:reactor 6 smalltrapho.prefab
 
 reactor 7 diy 3.prefab
 displayName	Improvised energy reactor II	Reaktor II	40		482395319:reactor 7 diy 3.prefab
-description	Reactor assembled from tech scraps. Generates +7 power, low risk of malfunctions.	Aus Technikschrott zusammengebauter Reaktor. Erzeugt +7 Energie, geringes Risiko von Fehlfunktionen.	200		482395319:reactor 7 diy 3.prefab
+description	Reactor assembled from tech scraps. Generates +7 power, low risk of malfunctions.	Aus Technikschrott zusammengebauter Reaktor. Geringes Risiko von Fehlfunktionen.	200		482395319:reactor 7 diy 3.prefab
 
 reactor 8 smallmulty.prefab
 displayName	Micro reactor II	Mikroreaktor II	40		1796369958:reactor 8 smallmulty.prefab
@@ -9087,7 +9087,7 @@ description	The reactor is necessary for powering ship modules.	Der Reaktor wird
 
 reactor 9 biotech DIY.prefab
 displayName	DIY bioreactor (Zapfruit)	Zapfrucht-Bioreaktor	40		45764579:reactor 9 biotech DIY.prefab
-description	This reactor produces +9 power by drawing warp charge from an exotic fruit that generates it as a defence mechanism. Zero chance of malfunctions.	Dieser Reaktor erzeugt +9 Energie, indem er Warp-Ladung aus einer exotischen Frucht zieht, die diese als Abwehrmechanismus erzeugt. Null Chance auf Fehlfunktionen.	200		45764579:reactor 9 biotech DIY.prefab
+description	This reactor produces +9 power by drawing warp charge from an exotic fruit that generates it as a defence mechanism. Zero chance of malfunctions.	Dieser Reaktor erzeugt Energie, indem er Warp-Ladung aus einer exotischen Frucht zieht, die diese als Abwehrmechanismus erzeugt. Null Chance auf Fehlfunktionen.	200		45764579:reactor 9 biotech DIY.prefab
 
 reactor 9 small old.prefab
 displayName	Terran energy reactor (old)	Terranischer Reaktor (alt)	40		1554868377:reactor 9 small old.prefab
