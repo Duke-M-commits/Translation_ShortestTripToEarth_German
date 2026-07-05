@@ -4,11 +4,11 @@ Drone intruderbot nuke 2.prefab
 displayName	Drone nuke	Drohnen-Bombe	35		695475019:dlc3/Drone intruderbot nuke 2.prefab; 1422585745:dlc3/Drone intruderbot nuke.prefab
 
 Drone intruderbot nuke launcher 2.prefab
-displayName	Light intruderbots assault nuke	Leichte Eindringling-Bombe	40		73433649:dlc3/Drone intruderbot nuke launcher 2.prefab
+displayName	Light intruderbots assault nuke	Kleine Eindringling-Bombe	40		73433649:dlc3/Drone intruderbot nuke launcher 2.prefab
 description	Armored, fast boarding missile that contains 2 assault droids. The droids are released into enemy ship on hit. They can be recalled with normal move orders. More nukes like these can be crafted via selecting an empty nuke slot.	Gepanzerte, schnelle Enterkapsel, die zwei Angriffdroiden enthält. Bei einem Treffer werden die Droiden in das feindliche Schiff entlassen. Sie können mit normalen Bewegungsbefehlen zurückgerufen werden. Weitere Raketen dieser Art können durch Auswahl eines leeren Raketenplatzes hergestellt werden.	200		73433649:dlc3/Drone intruderbot nuke launcher 2.prefab
 
 Drone intruderbot nuke launcher.prefab
-displayName	Heavy intruderbots assault nuke	Schwere Eindringling-Bombe	40		1021533631:dlc3/Drone intruderbot nuke launcher.prefab
+displayName	Heavy intruderbots assault nuke	Große Eindringling-Bombe	40		1021533631:dlc3/Drone intruderbot nuke launcher.prefab
 description	Armored, fast boarding missile that contains 2 heavy assault sentinels, released into enemy ship on hit. They can be recalled with normal move orders. More nukes like these can be crafted via selecting an empty nuke slot on the ship. To unload the droids, simply shoot the nuke at our ship (no damage)	Gepanzerte, schnelle Enterkapsel, die zwei schwere Angriffdroiden enthält, die bei einem Treffer in das feindliche Schiff abgeworfen werden. Sie können mit normalen Bewegungsbefehlen zurückgerufen werden. Weitere Raketen dieser Art können hergestellt werden, indem man einen leeren Raketen-Slot auf dem Schiff auswählt. Um die Droiden abzusetzen, feuere die Rakete einfach auf dein Schiff (kein Schaden).	200		1021533631:dlc3/Drone intruderbot nuke launcher.prefab
 
 Drone intruderbot nuke.prefab
@@ -26,15 +26,15 @@ appearance[i].description	Assault tank drone with autocannon. Heavily armored an
 
 Hand weapon drone cannon 3x.prefab
 displayName	Multibarrel cannon	Mehrlaufkanone	25		1747784095:dlc3/Hand weapon drone cannon 3x.prefab
-description	All-purpose autocannon 3x.	Allzweck-Autokanone x3.	250		1747784095:dlc3/Hand weapon drone cannon 3x.prefab
+description	All-purpose autocannon 3x.	Allzweck-Autokanone x3	250		1747784095:dlc3/Hand weapon drone cannon 3x.prefab
 
 Hand weapon drone cannon.prefab
 displayName	Heavy cannon	Schwere Kanone	25		2103766536:dlc3/Hand weapon drone cannon.prefab
-description	All-purpose heavy cannon.	Schwere Allzweck-Kanone.	250		2103766536:dlc3/Hand weapon drone cannon.prefab
+description	All-purpose heavy cannon.	Schwere Allzweck-Kanone	250		2103766536:dlc3/Hand weapon drone cannon.prefab
 
 Hand weapon drone lazer.prefab
 displayName	Orangeray emitter	Orangestrahl Emitter	25		388204983:dlc3/Hand weapon drone lazer.prefab
-description	Exotic ray emitter.	Exotenstrahl Emitter.	250		388204983:dlc3/Hand weapon drone lazer.prefab
+description	Exotic ray emitter.	Exotenstrahl Emitter	250		388204983:dlc3/Hand weapon drone lazer.prefab
 
 Nuke launcher slot for 14 warrior.prefab
 

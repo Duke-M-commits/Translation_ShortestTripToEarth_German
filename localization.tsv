@@ -65,18 +65,18 @@ Crewmember.cs
 	science skill	Forschungsfertigkeit	0		Crewmember.cs
 	warp skill	Warp-Fertigkeit	0		Crewmember.cs
 	no skill	Keine Fertigkeit	0		Crewmember.cs
-	Moving to position	Zu Position bewegen	0		Crewmember.cs
+	Moving to position	Wechselt Position	0		Crewmember.cs
 	Attacking {0}	Angreifen {0}	0		Crewmember.cs
-	Going to repair {0}	Geht zur Reparatur {0}	0		Crewmember.cs
-	Waiting until can repair {0}	Warten, bis repariert werden kann {0}	0		Crewmember.cs
+	Going to repair {0}	Geht reparieren {0}	0		Crewmember.cs
+	Waiting until can repair {0}	Wartet bis repariert werden kann {0}	0		Crewmember.cs
 	Repairing {0}	Repariert {0}	0		Crewmember.cs
 	Going to heal in {0}	Geht zu {0} um zu heilen	0		Crewmember.cs
 	Going to cryosleep in {0}	Geht in den Kryoschlaf {0}	0		Crewmember.cs
 	Going to operate {0}	Auf dem Weg ein Modul zu bedienen {0}	0		Crewmember.cs
-	Waiting until can heal in {0}	Warten, bis in {0} geheilt werden kann	0		Crewmember.cs
-	Waiting until can cryosleep in {0}	Warten, bis Kryoschlaf in {0} möglich ist	0		Crewmember.cs
-	Waiting until can operate {0}	Warten, bis {0} bedient werden kann	0		Crewmember.cs
-	Using {0} for healing	Verwendung von {0} um zu Heilen	0		Crewmember.cs
+	Waiting until can heal in {0}	Wartet bis in {0} geheilt werden kann	0		Crewmember.cs
+	Waiting until can cryosleep in {0}	Wartet bis Kryoschlaf in {0} möglich ist	0		Crewmember.cs
+	Waiting until can operate {0}	Wartet bis {0} bedient werden kann	0		Crewmember.cs
+	Using {0} for healing	Verwendet {0} um zu Heilen	0		Crewmember.cs
 	Operating {0}	Bedient {0}	0		Crewmember.cs
 	Going to fight fire	Auf dem Weg zur Brandbekämpfung	0		Crewmember.cs
 	Fighting fire	Brandbekämpfung	0		Crewmember.cs
@@ -122,7 +122,7 @@ HoverPanel.cs
 	n/a		0		HoverPanel.cs
 	Distance {0}ru	Entfernung {0}au	0		HoverPanel.cs
 	CAN'T MOVE	KANN SICH NICHT BEWEGEN	0		HoverPanel.cs
-	Credits	Credits:	0		HoverPanel.cs; ResourceValueGroup.cs; ResourceValueGroup.cs; PlayerPanel.cs; 2035575234:Menu panel.prefab
+	Credits	Credits	0		HoverPanel.cs; ResourceValueGroup.cs; ResourceValueGroup.cs; PlayerPanel.cs; 2035575234:Menu panel.prefab
 	Credits	Über uns	0	2035575234:Menu panel.prefab	HoverPanel.cs; ResourceValueGroup.cs; ResourceValueGroup.cs; PlayerPanel.cs; 2035575234:Menu panel.prefab
 
 MainQuest.cs
@@ -174,7 +174,7 @@ GameVictoryPanel.cs
 	Moments of natural beauty enjoyed {0} times	Momente von natürlicher Schönheit {0} Mal genossen	0		GameVictoryPanel.cs
 	Time streched {0} times	Zeit {0} Mal gedehnt	0		GameVictoryPanel.cs
 	Time for the most valuable thing in the world taken {0} times	Zeit für die wertvollste Sache der Welt {0} Mal genommen	0		GameVictoryPanel.cs
-	FINAL SCORE: {0} fate	ERGEBNIS: +{0} Schicksalspunkte	0		GameVictoryPanel.cs
+	FINAL SCORE: {0} fate	+{0} Schicksalspunkte	0		GameVictoryPanel.cs
 
 MothershipSelection.cs
 	No playable ships available. Broken install?	Keine spielbaren Schiffe verfügbar. Defekte Installation?	0		MothershipSelection.cs
@@ -414,7 +414,7 @@ ModuleActionsPanel.cs
 	INSTALL	EINBAU	0		ModuleActionsPanel.cs; 67125101:Weapon slot.prefab; 413376960:dlc2/undeveloped nuke launcher slot for warpshell.prefab; 491026875:Warp slot.prefab; 492440289:Undeveloped Battle Tiger nuke launcher slot.prefab; 664404328:Results panel.prefab; 737126012:Nuke launcher slot for 01 Tigerfish.prefab; 745463969:Nuke launcher slot.prefab; 863338826:Nuke launcher slot for 03 weirdship.prefab; 906281615:Hybrid slot.prefab; 949606823:Undeveloped Bluestar nuke launcher slot.prefab; 999057435:Nuke launcher slot for 06 atlas.prefab; 1071584149:Weapon core slot.prefab; 1113889783:Nuke launcher slot for 05 gardenship.prefab; 1202570227:Internal slot.prefab; 1273413946:Undeveloped gardenship nuke launcher slot.prefab; 1277666044:Engine slot.prefab; 1322815387:Undeveloped internal slot.prefab; 1333889783:dlc3/Nuke launcher slot for 14 warrior.prefab; 1341641888:Nuke launcher slot for 02 Nuke Runner.prefab; 1351871714:Nuke launcher slot for 08 endurance.prefab; 1440480404:undeveloped nuke launcher slot for weirdship.prefab; 1560853782:Bridge slot.prefab; 1593662263:Container slot.prefab; 1665722822:Storage slot.prefab; 1695765702:Nuke launcher slot for 07 bluestar.prefab; 1773557343:Internal core slot.prefab; 1989742094:Nuke launcher slot for 09 warpshell.prefab; 2093063251:Nuke launcher slot for 04 Rogue Rat.prefab
 	MOVE	BEWEGEN	0		ModuleActionsPanel.cs; 1276398449:Crew actions panel.prefab
 	Scrap module	Modul verschrotten	0		ModuleActionsPanel.cs
-	Some resources go to DUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu ÜBERSCHÜSSIGEN RESSOURCEN	0		ModuleActionsPanel.cs; 1547831442:Module actions panel.prefab
+	Some resources go to DUMP EXCESS when scrapping	Erzeugt ÜBERSCHÜSSIGE RESSOURCEN	0		ModuleActionsPanel.cs; 1547831442:Module actions panel.prefab
 
 ModuleDataSubpanel.cs
 	per	pro	0		ModuleDataSubpanel.cs
@@ -1701,10 +1701,10 @@ Button. Additional information for player ship	STATS	INFO	6		271529559:Player pa
 	Opens quick selection screen	Blendet das Schnellauswahl-Fenster ein/aus	0		374890966:Player panel.prefab
 Button. Opens quick-selection panel for weapons	QUICK	SCHNELL	6		2133620955:Player panel.prefab
 	Opens sector map. Use warp to travel between different starsystems	Öffnet die Sektorkarte. Verwende Warp, um zwischen verschiedenen Sternensystemen zu reisen	0		117080182:Player panel.prefab
-Button. Opens sector-map view/panel where player can warp.	SECTOR	SEKTOR	6		295015820:Player panel.prefab
+Button. Opens sector-map view/panel where player can warp.	SECTOR	SEKTOREN	6		295015820:Player panel.prefab
 Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	FLUCHT	6		1150695572:Player panel.prefab
 	Toggles starsystem view	Umschalten auf die Sternensystemansicht	0		1482715764:Player panel.prefab
-Button/Toggle. Opens starsystem view.	STAR	STERN	6		181114901:Player panel.prefab
+Button/Toggle. Opens starsystem view.	STAR	STERNE	6		181114901:Player panel.prefab
 	Toggles ship view	Schaltet auf Schiffsansicht um	0		927952142:Player panel.prefab
 	UPGRADES	AUF- \nRÜSTEN	10		1627238085:Player panel.prefab
 	Module crafts available!	Modul Handwerk verfügbar!	0		1065151186:Player panel.prefab
@@ -1821,10 +1821,10 @@ Results panel.prefab
 comtipText	Want to read more about resources?	Möchtest du mehr über Ressourcen lesen?	240		Results panel.prefab; Results panel.prefab
 comtipText	Would you like to see an overview of most common weapon types?	Möchtest du eine Übersicht über die gängigsten Waffentypen sehen?	240		Results panel.prefab; Shop panel tabbed.prefab
 	<< RIGHT-CLICK ON SHIP MODULE SLOT TO INSTALL	<< RECHTSKLICK AUF MODULPLATZ ZUM INSTALLIEREN	0		30943781:Results panel.prefab
-	Click on module to see info	Klicke auf das Modul, um Infos zu sehen	0		303766952:Results panel.prefab
+	Click on module to see info	Modul auswählen für mehr Informationen	0		303766952:Results panel.prefab
 	Place to storage	In den Speicher legen	0		1187571310:Results panel.prefab
 	Install [M]	Installieren [M]	0		685547072:Results panel.prefab
-	Some resources go to\nDUMP EXCESS when scrapping	Einige Ressourcen werden beim Verschrotten zu\nÜBERSCHÜSSIGEN RESSOURCEN	0		2063517226:Results panel.prefab
+	Some resources go to\nDUMP EXCESS when scrapping	Erzeugt\nÜBERSCHÜSSIGE RESSOURCEN	0		2063517226:Results panel.prefab
 	STORE ALL & CLOSE	ALLES LAGERN	0		983920271:Results panel.prefab
 	SALVAGED MODULES	GEBORGENE MODULE	0		1984180866:Results panel.prefab
 	Crew total hitpoints found/lost	Besatzung-Gesamt-HP gefunden/verloren	0		911857727:Results panel.prefab
@@ -2138,7 +2138,7 @@ text2	Our bots found a broken fuel tank among the asteroids, next to a cloud of 
 text2	We discovered an abandoned defence installation on one of the larger asteroids. We looted the place and discovered its main weapon is still operational.	Wir entdeckten eine verlassene Verteidigungsanlage auf einem der größeren Asteroiden. Wir plünderten den Ort und entdeckten, dass seine Hauptwaffe immer noch einsatzbereit ist.	400		557830970:1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab
 title	Warp animal defrozen	Warp-Tier aufgetaut	35		557830969:1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab
 text2	We started melting the ice, preserving the body of the worm to study it in completely intact form. Unfortunately, it woke quickly after, and a short battle ensued. It did not have the warp power of a fresh worm and was neutralized quickly.	Wir begannen, das Eis zu schmelzen und den Körper des Wurms zu konservieren, um ihn in völlig intakter Form zu studieren. Leider erwachte es kurz darauf, und ein kurzer Kampf entbrannte. Er verfügte nicht über die Warpkraft eines frischen Wurms und wurde schnell neutralisiert.	400		557830969:1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab
-title	Ship carcass	Schiffskadaver	35		903273489:1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab; 51227053:2 Exo wr. arlis wreck, MT blaster.prefab; 111642275:1 wr. redglobe tanker Fm.prefab; 163257247:4 wr rat tanker Fm.prefab; 190415865:6 Exo warplife in wreck, exotics.prefab; 224136925:2 Exo wr. explo smallship, LRsensors, Combatsensors.prefab; 271368343:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 312234879:6 Exo warplife in wreck, exotics.prefab; 698701753:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 739568289:6 Exo warplife in wreck, exotics.prefab; 765906826:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 765906827:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 806773362:6 Exo warplife in wreck, exotics.prefab; 806773363:6 Exo warplife in wreck, exotics.prefab; 806773366:6 Exo warplife in wreck, exotics.prefab; 1330549388:1 wr. redglobe tanker Fm.prefab; 1382164360:4 wr rat tanker Fm.prefab; 1616209664:SOS3 exo, insect transport and elixir.prefab; 1809497770:4 wr rat tanker Fm.prefab
+title	Ship carcass	Schiffswrack	35		903273489:1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab; 51227053:2 Exo wr. arlis wreck, MT blaster.prefab; 111642275:1 wr. redglobe tanker Fm.prefab; 163257247:4 wr rat tanker Fm.prefab; 190415865:6 Exo warplife in wreck, exotics.prefab; 224136925:2 Exo wr. explo smallship, LRsensors, Combatsensors.prefab; 271368343:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 312234879:6 Exo warplife in wreck, exotics.prefab; 698701753:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 739568289:6 Exo warplife in wreck, exotics.prefab; 765906826:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 765906827:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 806773362:6 Exo warplife in wreck, exotics.prefab; 806773363:6 Exo warplife in wreck, exotics.prefab; 806773366:6 Exo warplife in wreck, exotics.prefab; 1330549388:1 wr. redglobe tanker Fm.prefab; 1382164360:4 wr rat tanker Fm.prefab; 1616209664:SOS3 exo, insect transport and elixir.prefab; 1809497770:4 wr rat tanker Fm.prefab
 text2	We discovered a massive ship carcass among the asteroids. It seems the ship was destroyed with overwhelming firepower years ago. We scavenged the neosteel mainframe, the rest seems to have vaporized.	Wir entdeckten einen massiven Schiffsrumpf zwischen den Asteroiden. Es scheint, dass das Schiff vor Jahren mit überwältigender Feuerkraft zerstört wurde. Wir konnten den Neostahl-Hauptrechner bergen, der Rest scheint verdampft zu sein.	400		903273489:1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab
 title	Warp animal found	Warptier gefunden	35		1406437906:1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab
 text	We have found a warp worm, frozen inside a large ice asteroid. It could be dead. We could melt the ice and study scientifically, while recycling the remains. It could also wake up. There's no way to know.	Wir haben einen Warpwurm gefunden, eingefroren im Inneren eines großen Eisasteroiden. Er könnte tot sein. Wir könnten das Eis schmelzen und wissenschaftlich untersuchen, während wir die Überreste recyceln. Er könnte auch wieder erwachen. Das kann man nicht wissen.	400		1406437906:1245678910 ice asteroidsx10 FM, anomaly, defturret smallblaster.prefab
@@ -2545,7 +2545,7 @@ text2	Our utility bots have scooped up everything of value.	Unsere Versorgungsbo
 
 Level 7 exit no fight.prefab
 displayName	Warpgate ship	Warptor-Schiff	25		1034789712:Level 7 exit no fight.prefab; 211410714:Level 9 exit no fight.prefab; 1158235195:Level 8 exit no fight.prefab
-title	Intelligent BankTM guard	Intelligente BankTM-Wache	35		543001843:Level 7 exit no fight.prefab; 1867106493:Level 9 exit no fight.prefab
+title	Intelligent BankTM guard	iBankTM-Wache	35		543001843:Level 7 exit no fight.prefab; 1867106493:Level 9 exit no fight.prefab
 text	"Dear Potential Client, we regret to inform you that for financial reasons, your rating has been downgraded to Unlikely Client, leading to immediate relationship termination (including the termination of your consciousness, for security reasons). We apologize for the inconvenience!"	"Sehr geehrter potenzieller Kunde, wir bedauern, Ihnen mitteilen zu müssen, dass Ihre Beurteilung aus finanziellen Gründen auf "Unwahrscheinlicher Kunde" herabgestuft wurde, was zur sofortigen Beendigung der Beziehung führt (einschließlich der Beendigung Ihres Bewusstseins, aus Sicherheitsgründen). Wir entschuldigen uns für die Unannehmlichkeiten!"	400		543001843:Level 7 exit no fight.prefab; 1867106493:Level 9 exit no fight.prefab
 title	Warpgate ship captain	Warptor-Schiffskapitän	35		1945973794:Level 7 exit no fight.prefab; 1122594796:Level 9 exit no fight.prefab; 1803497730:Level 8 exit no fight.prefab
 text2	"Hello there, fellow Captain! Nice ship you have there! Please take these supplies before you enter our gate. And my sincere compliments on your physique... good luck!"	"Hallöchen, lieber Kapitän! Ein schönes Schiff haben Sie da! Bitte nehmen Sie diese Vorräte mit, bevor Sie unser Tor betreten. Und mein aufrichtiges Kompliment für Ihren Körperbau ... viel Glück!"	400		1945973794:Level 7 exit no fight.prefab
@@ -3043,8 +3043,8 @@ reasonToDisplay	warp whale corpse scavenged	Warpwal-Leiche erbeutet	30		5 Exo 2x
 
 56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab
 title	Fuel tanker remains	Überreste eines Tankers	35		149549329:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab
-text	This ship carcass has been looted already, but a few clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take some time.	Dieser Schiffskadaver wurde bereits geplündert, aber ein paar Wolken von Treibstoff wurden in der Nähe schwimmend entdeckt. Der ausgelaufene Treibstoff ist brauchbar, aber das Einsammeln könnte einige Zeit dauern.	400		149549329:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab
-choiceText	Collect fuel & inspect carcass [-15 organics]	Treibstoff einsammeln & Schiffskadaver untersuchen [-15 Biomasse]	100		149549329:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab
+text	This ship carcass has been looted already, but a few clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take some time.	Dieses Schiffswrack wurde bereits geplündert, aber ein paar Wolken von Treibstoff wurden in der Nähe schwebend entdeckt. Der ausgelaufene Treibstoff ist brauchbar, aber das Einsammeln könnte einige Zeit dauern.	400		149549329:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab
+choiceText	Collect fuel & inspect carcass [-15 organics]	Treibstoff einsammeln & Schiffswrack untersuchen [-15 Biomasse]	100		149549329:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab
 text2	Fuel collected. A few parts of the tanker carcass were valuable enough to be salvaged, including a piece made of volasteel, a rare metal alloy that can be used as a powerful explosive catalyst under the right conditions.	Treibstoff eingesammelt. Ein paar Teile der Tankerleiche waren wertvoll genug, um geborgen zu werden, darunter ein Stück aus Volasteel, einer seltenen Metalllegierung, die unter den richtigen Bedingungen als mächtiger explosiver Katalysator verwendet werden kann.	400		698701753:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab
 text	Collecting fuel... %	Kraftstoff einsammeln... %	50		1621420690:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab; 1333537100:1 wr. redglobe tanker Fm.prefab; 1472245039:4 wr rat tanker Fm.prefab; 1835043870:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 text2	Fuel collected. Nothing worth salvaging was found within the tanker carcass.	Treibstoff eingesammelt. Es wurde nichts Verwertbares in der Tankerleiche gefunden.	400		765906827:56 Exo wr. fuel tanker x5 fuelcloud Fm.prefab
@@ -3374,7 +3374,7 @@ title	Exotics collected	Exoten gesammelt	35		149806898:1 P exotics mine, guarded
 text2	We successfully cut through the security door. It seems mining was temporarily put on hold here and never resumed. There were several exposed seams of exotic minerals and our bots mined from there until they no longer could. The operation was a big success.	Wir haben erfolgreich die Sicherheitstür durchbrochen. Es scheint, dass der Bergbau hier vorübergehend unterbrochen und nie wieder aufgenommen wurde. Es gab mehrere freiliegende Flöze mit exotischen Mineralien und unsere Bots bauten dort ab, bis sie nicht mehr konnten. Die Operation war ein großer Erfolg.	400		149806898:1 P exotics mine, guarded by satellites M.prefab
 text	demolition operation... %	Abbrucharbeiten... %	50		608417631:1 P exotics mine, guarded by satellites M.prefab; 147571177:4 P precursor tech cave MoT, good weaponsx3.prefab; 274517196:2 P armored station TM orbital mines.prefab
 text	installing cutters... %	Installation von Energieschneidern... %	50		1859100570:1 P exotics mine, guarded by satellites M.prefab; 383697495:4 P precursor tech cave MoT, good weaponsx3.prefab
-text	"Warning. Access to this mining planet is restricted to Intelligent Banks TM authorized vessels. Failure to respect property borders will result in attack by orbital defences."	"Warnung. Der Zugang zu diesem Bergbauplaneten ist auf autorisierte Intelligenten BankTM-Schiffe beschränkt. Nichtbeachtung der Eigentumsgrenzen führt zu einem Angriff der orbitalen Verteidigungsanlagen."	400		13729591:1 P exotics mine, guarded by satellites M.prefab
+text	"Warning. Access to this mining planet is restricted to Intelligent Banks TM authorized vessels. Failure to respect property borders will result in attack by orbital defences."	"Warnung. Der Zugang zu diesem Bergbauplaneten ist auf autorisierte iBankTM-Schiffe beschränkt. Nichtbeachtung der Eigentumsgrenzen führt zu einem Angriff der orbitalen Verteidigungsanlagen."	400		13729591:1 P exotics mine, guarded by satellites M.prefab
 text2	We managed to destroy the defence satellites. Their weapons were too short-ranged to reach us.	Es gelang uns, die Verteidigungssatelliten zu zerstören. Ihre Waffen hatten eine zu kurze Reichweite, um uns zu erreichen.	400		495249411:1 P exotics mine, guarded by satellites M.prefab
 text2	We send a swarm of cheaply printed long-range missiles towards the planet. The satellites prove to be equipped with point-defences, picking off some of our missiles before they reach the target.	Wir schicken einen Schwarm billig gedruckter Langstreckenraketen auf den Planeten. Die Satelliten erweisen sich als mit Punktabwehrsystemen ausgestattet, die einige unserer Raketen abfangen, bevor sie das Ziel erreichen.	400		1076649118:1 P exotics mine, guarded by satellites M.prefab
 text	We were able to destroy some of the satellites, but a number of them remain functional. Next action?	Wir konnten einige der Satelliten zerstören, aber einige von ihnen bleiben funktionsfähig. Nächste Aktion?	400		417014118:1 P exotics mine, guarded by satellites M.prefab
@@ -3649,7 +3649,7 @@ choiceText	Eco-harvest from underwater	Öko-Ernte aus der Unterwasserwelt	100		1
 choiceText	Hunt the giant serpents, they look tasty [send crew]	Die Riesenschlangen jagen, sie sehen lecker aus [Besatzung schicken]	100		1189798118:1 Pi int fishermen, OR orbital mines.prefab
 choiceText	Research only. Leave the ecosystem undisturbed	Nur Forschung. Das Ökosystem ungestört lassen	100		1189798118:1 Pi int fishermen, OR orbital mines.prefab; 1827129080:1 Pi int fishermen, OR orbital mines.prefab
 text	eco-harvesting...	Eco-Harvesting...	50		1345713952:1 Pi int fishermen, OR orbital mines.prefab
-text2	Further research uncovered that the giant creatures are approaching presentience. They have a complex communication system that uses swimming patterns as language, and they are already using primitive tools (skulls of dead serpents as helmets). We also uncovered a valuable artifact from the sea bottom.	Weitere Nachforschungen ergaben, dass die riesigen Kreaturen sich der Gegenwart nähern. Sie haben ein komplexes Kommunikationssystem, das Schwimmmuster als Sprache verwendet, und sie benutzen bereits primitive Werkzeuge (Schädel von toten Schlangen als Helme). Wir haben auch ein wertvolles Artefakt vom Meeresgrund freigelegt.	400		1104969020:1 Pi int fishermen, OR orbital mines.prefab
+text2	Further research uncovered that the giant creatures are approaching presentience. They have a complex communication system that uses swimming patterns as language, and they are already using primitive tools (skulls of dead serpents as helmets). We also uncovered a valuable artifact from the sea bottom.	Weitere Nachforschungen ergaben, dass die riesigen Kreaturen sich der Gegenwart nähern. Sie haben ein komplexes Kommunikationssystem, das Schwebemuster als Sprache verwendet, und sie benutzen bereits primitive Werkzeuge (Schädel von toten Schlangen als Helme). Wir haben auch ein wertvolles Artefakt vom Meeresgrund freigelegt.	400		1104969020:1 Pi int fishermen, OR orbital mines.prefab
 text	taking samples... %	Probenentnahme... %	50		143228374:1 Pi int fishermen, OR orbital mines.prefab; 28427400:2356 P big precursor robot makes gift T, LRsensor3, Shield3.prefab
 text2	As our crew was midway through hunting the serpents with shuttles and bots, a warp animal appeared from the depths of the ocean. The energy beam it produced targeted our shuttles, bots and even the ship itself orbiting the planet. We stopped the operation midway and evacuated, leaving the killed serpents behind.	Als unsere Besatzung gerade dabei war, die Schlangen mit Shuttles und Bots zu jagen, erschien ein Warptier aus den Tiefen des Ozeans. Der Energiestrahl, den es erzeugte, zielte auf unsere Shuttles, Bots und sogar das Schiff selbst, das den Planeten umkreiste. Wir brachen die Operation auf halber Strecke ab und evakuierten, wobei wir die getöteten Serpentiere zurückließen.	400		1104969034:1 Pi int fishermen, OR orbital mines.prefab
 reasonToDisplay	warp ray attacks, operation aborted	Warpstrahl greift an, Operation abgebrochen	30		1 Pi int fishermen, OR orbital mines.prefab
@@ -3658,9 +3658,9 @@ text2	Some of the team expressed contempt at your choice and refused to particip
 reasonToDisplay	successful hunt	Erfolgreiche Jagd	30		1 Pi int fishermen, OR orbital mines.prefab
 text	hunting sea serpents...	Jagd auf Seeschlangen...	50		203578801:1 Pi int fishermen, OR orbital mines.prefab
 text	Your crew collectively votes against the decision. They refuse to hunt the majestic creatures, even if it means spending the next weeks hungry.	Die Besatzung stimmt kollektiv gegen diese Entscheidung. Sie weigern sich, die majestätischen Kreaturen zu jagen, auch wenn das bedeutet, die nächsten Wochen hungrig zu verbringen.	400		1827129080:1 Pi int fishermen, OR orbital mines.prefab
-text2	We discovered the floating objects to be giant exotic creatures! With immense invisible bubbles of warp null charge around them, approach with digital technology was impossible. We carried out remote research and attempted contact, but the creatures did not respond. Our crew thinks they might have evolved from settled warp animals.	Wir entdeckten die schwimmenden Objekte als riesige exotische Kreaturen! Mit riesigen unsichtbaren Blasen aus Warp-Null-Ladung um sie herum, war eine Annäherung mit digitaler Technologie unmöglich. Wir führten eine Fernerkundung durch und versuchten, Kontakt aufzunehmen, aber die Kreaturen reagierten nicht. Unsere Besatzung glaubt, dass sie sich aus sesshaften Warptieren entwickelt haben könnten.	400		2031811246:1 Pi int fishermen, OR orbital mines.prefab
+text2	We discovered the floating objects to be giant exotic creatures! With immense invisible bubbles of warp null charge around them, approach with digital technology was impossible. We carried out remote research and attempted contact, but the creatures did not respond. Our crew thinks they might have evolved from settled warp animals.	Wir identifizierten die schwebenden Objekte als riesige exotische Kreaturen! Mit riesigen unsichtbaren Blasen aus Warp-Null-Ladung um sie herum, war eine Annäherung mit digitaler Technologie unmöglich. Wir führten eine Fernanalyse durch und versuchten, Kontakt aufzunehmen, aber die Kreaturen reagierten nicht. Unsere Besatzung glaubt, dass sie sich aus sesshaften Warptieren entwickelt haben könnten.	400		2031811246:1 Pi int fishermen, OR orbital mines.prefab
 reasonToDisplay	research & eco-harvest	Forschung & Öko-Ernte	30		1 Pi int fishermen, OR orbital mines.prefab
-text2	Further research uncovered that the giant creatures are approaching presentience. They have a complex communication system that uses swimming patterns as language, and they are already using primitive tools (skulls of dead serpents as helmets, worn in their mating rituals).	Weitere Forschungen ergaben, dass sich die riesigen Kreaturen der Gegenwart nähern. Sie verfügen über ein komplexes Kommunikationssystem, das Schwimmmuster als Sprache verwendet, und sie benutzen bereits primitive Werkzeuge (Schädel von toten Schlangen als Helme, die sie bei ihren Paarungsritualen tragen).	400		287612125:1 Pi int fishermen, OR orbital mines.prefab
+text2	Further research uncovered that the giant creatures are approaching presentience. They have a complex communication system that uses swimming patterns as language, and they are already using primitive tools (skulls of dead serpents as helmets, worn in their mating rituals).	Weitere Forschungen ergaben, dass sich die riesigen Kreaturen der Gegenwart nähern. Sie verfügen über ein komplexes Kommunikationssystem, das Schwebemuster als Sprache verwendet, und sie benutzen bereits primitive Werkzeuge (Schädel von toten Schlangen als Helme, die sie bei ihren Paarungsritualen tragen).	400		287612125:1 Pi int fishermen, OR orbital mines.prefab
 
 1 Pi jenbau, RT.prefab
 text	The planet surface is almost exclusively covered with lifeless deserts and dangerous sand storms. Some structures seem to be artificially made, suggesting a possibility of hidden intelligent life. Enter the atmosphere to find the local sentients?	Die Planetenoberfläche ist fast ausschließlich mit leblosen Wüsten und gefährlichen Sandstürmen bedeckt. Einige Strukturen scheinen künstlich geschaffen zu sein, was auf die Möglichkeit von verborgenem intelligentem Leben hindeutet. In die Atmosphäre eindringen, um die dortigen Lebewesen zu finden?	400		1688208460:1 Pi jenbau, RT.prefab
@@ -3734,7 +3734,7 @@ reasonToDisplay	Stone Lisk killed	Stone Lisk getötet	30		1 Pi jenbau, RT.prefab
 name2	Inhabited planet	Bewohnter Planet	25		633701986:1 Pi nuclear industr militants MFE.prefab; 535333421:2 Pi local chem warfare EFmR.prefab; 789785465:4 Pi industrial city ritual of poisons FEr.prefab; 1454151366:5 Pi nuclear digital militants MFE 2.prefab
 name3	primitives	Primitive	25		633701986:1 Pi nuclear industr militants MFE.prefab; 535333421:2 Pi local chem warfare EFmR.prefab; 789785465:4 Pi industrial city ritual of poisons FEr.prefab; 1454151366:5 Pi nuclear digital militants MFE 2.prefab
 text	The planet is inhabited by a highly militarized industrial-era insectoid civilization, covered in cities and industrial areas. We are still in scanning when the locals send a warning to stay away from their property or else.	Der Planet wird von einer hochmilitarisierten insektoiden Zivilisation aus der Industriezeit bewohnt, die mit Städten und Industriegebieten überzogen ist. Wir sind noch beim Scannen, als die Einheimischen eine Warnung senden, sich von ihrem Eigentum fernzuhalten, sonst.	400		1562278521:1 Pi nuclear industr militants MFE.prefab
-choiceText	Ask for trade, try to negotiate	Nach Handel fragen, zu verhandeln versuchen	100		1562278521:1 Pi nuclear industr militants MFE.prefab; 1332332352:5 Pi nuclear digital militants MFE 2.prefab
+choiceText	Ask for trade, try to negotiate	Zu verhandeln versuchen	100		1562278521:1 Pi nuclear industr militants MFE.prefab; 1332332352:5 Pi nuclear digital militants MFE 2.prefab
 choiceText	Disengage, but send stealth bots to scout the planet	Zurückziehen, aber Tarnkappen-Bots schicken, um den Planeten auszukundschaften.	100		1562278521:1 Pi nuclear industr militants MFE.prefab
 choiceText	Disengage. This species has yet much to learn.	Zurückziehen, diese Spezies hat noch viel zu lernen.	100		1562278521:1 Pi nuclear industr militants MFE.prefab; 1332332352:5 Pi nuclear digital militants MFE 2.prefab
 newName3	industrial-era primitives	Primitive des Industriezeitalters	25		1562278521:1 Pi nuclear industr militants MFE.prefab
@@ -4980,7 +4980,7 @@ text2	The ground structure proves to be the Most True Church outpost, complete w
 text2	Shortly after entering the atmosphere, we encountered a cloud of small mines.	Kurz nach dem Eintritt in die Atmosphäre stießen wir auf eine Wolke von kleinen Minen.	400		691049518:4 P Ngani security station TE orbital mines.prefab
 
 4 P ocean planet mT.prefab
-text2	The ocean was desolate. At least our crew got a good underwater swimming trip.	Der Ozean war trostlos. Wenigstens konnte unsere Besatzung gut unter Wasser schwimmen.	400		2121834020:4 P ocean planet mT.prefab
+text2	The ocean was desolate. At least our crew got a good underwater swimming trip.	Der Ozean war trostlos. Wenigstens kam unsere Besatzung gut unter Wasser voran.	400		2121834020:4 P ocean planet mT.prefab
 text	This planet is covered with water but does not seem to support any life or minerals exposed on surface. Some of the crew would like to take a look underwater, however.	Dieser Planet ist mit Wasser bedeckt, aber es scheint kein Leben zu geben und es gibt keine Mineralien, die an der Oberfläche zu finden sind. Einige der Besatzung würden jedoch gerne einen Blick unter Wasser werfen.	400		780628698:4 P ocean planet mT.prefab
 choiceText	Send crew to explore [-10 fuel]	Besatzung zur Erkundung schicken [-10 Treibstoff]	100		780628698:4 P ocean planet mT.prefab
 choiceText	Disengage, we have more important stuff to do	Abkoppeln, wir haben Wichtigeres zu tun	100		780628698:4 P ocean planet mT.prefab
@@ -5320,7 +5320,7 @@ text	Remains of a small cruiser. No active systems detected.	Überreste eines kl
 text2	The wreckage was untouched by other looters and contained useful tech and resources.	Das Wrack wurde von anderen Plünderern nicht berührt und enthielt nützliche Technologie und Ressourcen.	400		1467500133:4 wr emper tactical, lasers or cannon.prefab
 
 4 wr rat tanker Fm.prefab
-text	It is a carcass of Rat fuel tanker, looted to the bones... most likely work of pirates. Clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take a while.	Es handelt sich um einen bis auf die Knochen ausgeplünderten Kadaver eines Rattentankers... höchstwahrscheinlich das Werk von Piraten. Es wurden Treibstoffwolken entdeckt, die in der Nähe treiben. Der ausgelaufene Treibstoff ist brauchbar, aber das Einsammeln könnte eine Weile dauern.	400		163257247:4 wr rat tanker Fm.prefab
+text	It is a carcass of Rat fuel tanker, looted to the bones... most likely work of pirates. Clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take a while.	Es handelt sich um einen bis auf den Rumpf ausgeplündertes Wrack eines Rattentankers... höchstwahrscheinlich das Werk von Piraten. Es wurden Treibstoffwolken entdeckt, die in der Nähe treiben. Der ausgelaufene Treibstoff ist brauchbar, aber das Einsammeln könnte eine Weile dauern.	400		163257247:4 wr rat tanker Fm.prefab
 choiceText	Collect fuel [-20 organics or less]	Treibstoff einsammeln [-20 Biomasse oder weniger]	100		163257247:4 wr rat tanker Fm.prefab
 choiceText	Disengage, we have no space for extra fuel	Abrücken, wir haben keinen Platz für zusätzlichen Treibstoff	100		163257247:4 wr rat tanker Fm.prefab; 390872452:13 wr. shipsx8, mostly carcasses, rare cat.prefab; 390872453:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 text2	Salvage teams have scooped up most of the fuel floating nearby.	Bergungsteams haben den größten Teil des in der Nähe treibenden Treibstoffs aufgesammelt.	400		1809497770:4 wr rat tanker Fm.prefab
@@ -5812,9 +5812,9 @@ text2	Gradually, the fighting stops. But there is no time for the crew to reconn
 text	Two Spideraa ships are approaching us.	Zwei Spinner-Schiffe nähern sich uns.	600		1575918497:Spideraa asteroids 0.prefab
 text2	Let's keep on trying to contact them. Some of them are more talkative than others.	Wir versuchen weiter, sie zu kontaktieren. Einige von ihnen sind gesprächiger als andere.	400		2008049537:Spideraa asteroids 0.prefab; 1222217176:Spideraa asteroids 0.prefab
 text	"WE ARE EATERS. YOU ARE FOOD."	"WIR SIND FRESSER. IHR SEID NAHRUNG."	600		700982685:Spideraa asteroids 0.prefab
-setText	Visit {0} locations with confirmed Spideraa sightings, attempt to establish contact.	{0} Orte mit bestätigten Spinner-Sichtungen besuchen und versuchen Kontakt herzustellen.	100		1597717751:Spideraa asteroids 0.prefab; 434918337:Spideraa asteroids 0.prefab; 2001002278:Spideraa asteroids 0.prefab
-setText	Visit 1 location with confirmed Spideraa sightings, attempt to establish contact.	Einen Ort mit bestätigten Spinner-Sichtungen besuchen und versuchen Kontakt herzustellen.	100		838202864:Spideraa asteroids 0.prefab
-setText	Return to Earth warpgate ship.	Zum Warptor-Schiff auf der Erde zurückkehren.	100		1419602571:Spideraa asteroids 0.prefab
+setText	Visit {0} locations with confirmed Spideraa sightings, attempt to establish contact.	{0} Orte mit bestätigten Spinner-Sichtungen finden und versuchen Kontakt aufzunehmen	100		1597717751:Spideraa asteroids 0.prefab; 434918337:Spideraa asteroids 0.prefab; 2001002278:Spideraa asteroids 0.prefab
+setText	Visit 1 location with confirmed Spideraa sightings, attempt to establish contact.	Einen Ort mit bestätigten Spinner-Sichtungen finden und versuchen Kontakt aufzunehmen	100		838202864:Spideraa asteroids 0.prefab
+setText	Return to Earth warpgate ship.	Zum Warptor-Schiff auf der Erde zurückkehren	100		1419602571:Spideraa asteroids 0.prefab
 okButtonText	Proceed	Weiter	7		1805654853:Spideraa asteroids 0.prefab; 254808950:SOS Ambusher L2 pirates with decoy ship.prefab; 498060056:Main FSM.prefab; 958705350:Main FSM.prefab; 1038909517:Main FSM.prefab; 1046415677:Main FSM.prefab; 1790902389:Ambusher L2 pirates 2 pirate guardians, Decoy.prefab; 1805062404:Main FSM.prefab; 1940858248:Main FSM.prefab; 2097340264:Ambusher L2 pirates, sstriker and arrowhead.prefab
 text	A larger Spideraa ship is approaching us...	Ein größeres Spinner-Schiff nähert sich uns...	600		1805654853:Spideraa asteroids 0.prefab
 
@@ -6069,16 +6069,16 @@ text	We have discovered a shipwreck of unknown design, floating in space and dam
 text2	Scavenging operation completed. No problems encountered.	Plünderung abgeschlossen. Es wurden keine Probleme festgestellt.	400		1664872702:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 title	Nanobot infestation!	Nanobot-Befall!	35		1732077775:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 text2	Scavenging operation completed. Somehow, a particularly insidious nanobot from the ship avoided our decontamination procedures and got aboard the ship. It started to eat away some of the Mothership tech parts and multiplying rapidly. Sections of the ship had to be destroyed to stop the infestation.	Spülung abgeschlossen. Irgendwie umging ein besonders heimtückischer Nanobot vom Schiff unsere Dekontaminationsprozeduren und gelangte an Bord des Schiffes. Er begann, einige der technischen Teile des Mutterschiffs zu zerfressen und vermehrte sich schnell. Teile des Schiffes mussten zerstört werden, um den Befall zu stoppen.	400		1732077775:13 wr. shipsx8, mostly carcasses, rare cat.prefab
-text	It is a carcass of a fuel tanker, looted to the bones... most likely work of pirates. Clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take a while.	Es handelt sich um den Kadaver eines bis auf die Knochen ausgeplünderten Treibstofftransporters ... höchstwahrscheinlich das Werk von Piraten. In der Nähe wurden treibende Treibstoffwolken entdeckt. Der ausgelaufene Treibstoff ist brauchbar, aber es könnte eine Weile dauern, ihn zu sammeln.	400		390872453:13 wr. shipsx8, mostly carcasses, rare cat.prefab
-text2	Our salvage teams have scooped up most of the fuel floating nearby.	Unsere Bergungsteams haben den Großteil des Treibstoffs aufgesammelt, der in der Nähe schwimmt.	400		1732077778:13 wr. shipsx8, mostly carcasses, rare cat.prefab
+text	It is a carcass of a fuel tanker, looted to the bones... most likely work of pirates. Clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take a while.	Es handelt sich um das Wrack eines bis auf die Grundstruktur ausgeplünderten Treibstofftransporters ... höchstwahrscheinlich das Werk von Piraten. In der Nähe wurden treibende Treibstoffwolken entdeckt. Der ausgelaufene Treibstoff ist brauchbar, aber es könnte eine Weile dauern, ihn zu sammeln.	400		390872453:13 wr. shipsx8, mostly carcasses, rare cat.prefab
+text2	Our salvage teams have scooped up most of the fuel floating nearby.	Unsere Bergungsteams haben den Großteil des Treibstoffs aufgesammelt, der in der Nähe schwebt.	400		1732077778:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 text	Collecting fuel...	Treibstoff einsammeln...	50		1465955520:13 wr. shipsx8, mostly carcasses, rare cat.prefab
-text	It is a carcass of some kind of fuel tanker, looted to the bones... most likely the work of pirates. Clouds of starfuel have been detected floating nearby.	Es ist der Kadaver eines Treibstofftransporters, bis auf die Knochen ausgeplündert... wahrscheinlich das Werk von Piraten. Wolken von Sternentreibstoff wurden in der Nähe treibend entdeckt.	400		390872452:13 wr. shipsx8, mostly carcasses, rare cat.prefab
-text2	Your salvage teams have scooped up most of the fuel floating nearby. They also salvaged some pieces from the carcass.	Ihre Bergungsteams haben das meiste des Treibstoffs aufgesammelt, der in der Nähe schwimmt. Sie haben auch einige Teile des Kadavers geborgen.	400		1732077777:13 wr. shipsx8, mostly carcasses, rare cat.prefab
+text	It is a carcass of some kind of fuel tanker, looted to the bones... most likely the work of pirates. Clouds of starfuel have been detected floating nearby.	Es ist das Wrack eines Treibstofftransporters, bis auf die Knochen ausgeplündert... wahrscheinlich das Werk von Piraten. Wolken von Sternentreibstoff wurden in der Nähe treibend entdeckt.	400		390872452:13 wr. shipsx8, mostly carcasses, rare cat.prefab
+text2	Your salvage teams have scooped up most of the fuel floating nearby. They also salvaged some pieces from the carcass.	Ihre Bergungsteams haben das meiste des Treibstoffs aufgesammelt, der in der Nähe treibt. Sie haben auch einige Teile des Rumpfs geborgen.	400		1732077777:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 text2	It's a ship frame, and little else.	Es ist ein Schiffsrahmen, und sonst wenig.	400		1732077780:13 wr. shipsx8, mostly carcasses, rare cat.prefab
-text2	This carcass of a ship had barely anything left for scavenging,	Von diesem Kadaver eines Schiffes war kaum noch etwas zu bergen,	400		1732077779:13 wr. shipsx8, mostly carcasses, rare cat.prefab
+text2	This carcass of a ship had barely anything left for scavenging,	Von diesem Skelett eines Schiffes war kaum noch etwas zu bergen,	400		1732077779:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 text2	This carcass of a ship barely had anything left for scavenging. Our crew did a good job anyway and still found something of value.	Dieser Schiffsrumpf hatte kaum noch etwas zum Plündern übrig. Unsere Besatzung hat trotzdem gute Arbeit geleistet und noch etwas von Wert gefunden.	400		1732077766:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 text2	Turns out there are actually two wreckages here. A tanker and its escort, looted to the bones. Our scavenger engineers still managed to find some valuable parts that other looters had missed.	Es stellte sich heraus, dass es hier eigentlich zwei Wracks gibt. Ein Tanker und seine Eskorte, geplündert bis auf die Knochen. Unsere Plünderer haben es trotzdem geschafft, einige wertvolle Teile zu finden, die andere Plünderer übersehen hatten.	400		1732077765:13 wr. shipsx8, mostly carcasses, rare cat.prefab
-text2	It seems to be the shell of a huge but primitive mining ship, full of holes and beam weapon scorch marks. The carcass was made of cheap materials and there was nothing to scavenge.	Es scheint die Hülle eines riesigen, aber primitiven Bergbauschiffs zu sein, voller Löcher und Versengungsspuren von Strahlenwaffen. Der Kadaver war aus billigen Materialien gefertigt und es gab nichts zu plündern.	400		2077520285:13 wr. shipsx8, mostly carcasses, rare cat.prefab
+text2	It seems to be the shell of a huge but primitive mining ship, full of holes and beam weapon scorch marks. The carcass was made of cheap materials and there was nothing to scavenge.	Es scheint die Hülle eines riesigen, aber primitiven Bergbauschiffs zu sein, voller Löcher und Versengungsspuren von Strahlenwaffen. Das Wrack war aus billigen Materialien gefertigt und es gab nichts zu plündern.	400		2077520285:13 wr. shipsx8, mostly carcasses, rare cat.prefab
 crewDescriptionOverride	A companion animal rescued from shipwreck. Understands orders but ignores them.	Ein aus dem Schiffswrack gerettetes Begleittier. Versteht Befehle, ignoriert sie aber.	250		13 wr. shipsx8, mostly carcasses, rare cat.prefab
 
 234 wr. biotech wreck.prefab
@@ -6091,7 +6091,7 @@ text	It seems to be a wreck of a station, or a very large ship. No active system
 newName2	Station wreckage	Stationswrack	25		2137447841:2345 wr. stationx6 residential MC.prefab; 1969325766:23456 wr. stationx6 science, medbay5, MOCT.prefab
 text2	It is an ancient mobile residential station, a home for communities and individuals who preferred not to live on a planet. Despite having been looted several times, our meticulous scavengers found some bits and pieces worth taking.	Es handelt sich um eine alte mobile Wohnstation, ein Zuhause für Gemeinschaften und Einzelpersonen, die es vorzogen, nicht auf einem Planeten zu leben. Obwohl sie schon mehrmals geplündert wurde, fanden unsere akribischen Plünderer einige Teile, die es wert waren, mitgenommen zu werden.	400		1636204716:2345 wr. stationx6 residential MC.prefab
 text2	It is an ancient mobile residential station, a home for communities and individuals who preferred not to live on a planet. Damage markings indicate the station was destroyed by numerous small weapons- possibly the work of pirates or smugglers. While most of the station is looted, dead bodies have been left behind. We took them aboard and turned them into organics, according to ancient terran tradition.	Es handelt sich um eine alte mobile Wohnstation, ein Zuhause für Gemeinschaften und Individuen, die es vorzogen, nicht auf einem Planeten zu leben. Schadensmarkierungen weisen darauf hin, dass die Station durch zahlreiche kleine Waffen zerstört wurde - möglicherweise das Werk von Piraten oder Schmugglern. Während der größte Teil der Station geplündert ist, wurden Leichen zurückgelassen. Wir nahmen sie an Bord und verwandelten sie nach alter terranischer Tradition in organische Stoffe.	400		1703409790:2345 wr. stationx6 residential MC.prefab
-text2	Part of the station exploded after our salvage team got close. The wreckage was left as it was, there could be other traps embedded deeper into the carcass.	Ein Teil der Station explodierte, als unser Bergungsteam in die Nähe kam. Das Wrack wurde so belassen, wie es war, es könnten noch weitere Fallen tiefer in den Kadaver eingebettet sein.	400		1703409789:2345 wr. stationx6 residential MC.prefab
+text2	Part of the station exploded after our salvage team got close. The wreckage was left as it was, there could be other traps embedded deeper into the carcass.	Ein Teil der Station explodierte, als unser Bergungsteam in die Nähe kam. Das Wrack wurde so belassen, wie es war, es könnten noch weitere Fallen tiefer in die Struktur eingebettet sein.	400		1703409789:2345 wr. stationx6 residential MC.prefab
 title	Warplife encountered	Warp-Leben angetroffen	35		1703409792:2345 wr. stationx6 residential MC.prefab
 text2	It is an ancient mobile residential station, a home for communities and individuals who preferred not to live on a planet. The wreckage had nothing left to loot, but there was a warp jellyfish hiding inside. It briefly scorched the Mothership with one of its deadly energy rays before warping off.	Es handelt sich um eine alte mobile Wohnstation, ein Zuhause für Gemeinschaften und Einzelpersonen, die es vorzogen, nicht auf einem Planeten zu leben. Im Wrack gab es nichts mehr zu plündern, aber im Inneren versteckte sich eine Warp-Qualle. Sie versengte das Mutterschiff kurz mit einem ihrer tödlichen Energiestrahlen, bevor sie sich davonwarf.	400		1703409792:2345 wr. stationx6 residential MC.prefab
 text2	It is an ancient mobile residential station, a home for communities and individuals who preferred not to live on a planet. Our operatives discovered the station had been rigged with explosives connected to a primitive trap. We were able to disarm the trap remotely and salvage the explosives. The station itself has already been looted and had little left to take.	Es ist eine uralte mobile Wohnstation, ein Zuhause für Gemeinschaften und Individuen, die es vorzogen, nicht auf einem Planeten zu leben. Unsere Agenten entdeckten, dass die Station mit Sprengstoff versehen war, der mit einer primitiven Falle verbunden war. Wir konnten die Falle per Fernsteuerung entschärfen und den Sprengstoff bergen. Die Station selbst wurde bereits geplündert und es gab nur noch wenig zu holen.	400		1703409791:2345 wr. stationx6 residential MC.prefab
@@ -8141,7 +8141,7 @@ EmperorBanks nuke.prefab
 displayName	Red nuke	Rote Bombe	35		813970754:EmperorBanks nuke.prefab
 
 Fueltank nuke.prefab
-displayName	Fueltank nuke	Treibstofftank-Bombe	35		571363115:Fueltank nuke.prefab; 780823633:04 Fueltank nuke launcher.prefab
+displayName	Fueltank nuke	Treibstoff-Bombe	35		571363115:Fueltank nuke.prefab; 780823633:04 Fueltank nuke launcher.prefab
 
 Green nuke.prefab
 displayName	Green nuke	Grüne Bombe	35		1680810710:Green nuke.prefab
@@ -8164,7 +8164,7 @@ Old nuke.prefab
 displayName	Ancient nuke	Antike Bombe	35		1806545608:Old nuke.prefab; 415755100:08b Old nuke launcher.prefab
 
 pirate spawner nuke.prefab
-displayName	Large intrusion pod	Große Intrusionskapsel	35		1265251056:pirate spawner nuke.prefab
+displayName	Large intrusion pod	Große Eindringling-Kapsel	35		1265251056:pirate spawner nuke.prefab
 
 Rat nuke.prefab
 displayName	Rat incendiary nuke	Ratten-Brandbombe	35		125690634:Rat nuke.prefab
@@ -8258,7 +8258,7 @@ description	Accepts only engine modules, cannot be upgraded.	Nimmt nur Motor-Mod
 
 Hybrid slot.prefab
 displayName	Hybrid module slot	Hybrid-Modulsteckplatz	35		1229851820:Hybrid slot.prefab
-description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Punktabwehr und interne Module auf, kann aufgerüstet werden.\n<color=red>KANN NICHT HERABGEFSTUFT WERDEN!</color>	250		1229851820:Hybrid slot.prefab
+description	Accepts Point-Defences and internal modules, can be upgraded.	Nimmt Punktabwehr und interne Module auf, kann aufgerüstet werden.\n<color=red>KANN NICHT HERABGEFSTUFT WERDEN!\n-1 SCHIFFS-HP!</color>	250		1229851820:Hybrid slot.prefab
 upgrades[i].text	Upgrade to weapon slot	Aufrüstung zum Waffensteckplatz	35		1229851820:Hybrid slot.prefab
 
 Internal core slot.prefab
@@ -8479,7 +8479,7 @@ displayName	Command bridge, type DUO-2	Kommandobrücke, Typ ZWEISAM	40		10034454
 description	A single operator allows the bridge to remotely operate other modules (without providing skill bonuses). Each operator additionally gives an evasion bonus to the entire ship.	Ein einzelnes Besatzungsmitglied ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus). Jedes Personal gibt zusätzlich einen Ausweichbonus für das gesamte Schiff.	200		1003445460:bridge 2crew.prefab; 171768739:sdlc/bridge 2crew tiger.prefab; 436212146:bridge 3crew plastarmor.prefab; 954068497:bridge blackspider.prefab; 1148319565:bridge 3crew metalarmor.prefab; 1200522469:bridge 3crew floral.prefab; 2085174639:bridge 3crew.prefab
 
 bridge 3crew floral.prefab
-displayName	Command bridge, floral	Kommandobrücke, Typ Blumig	40		1200522469:bridge 3crew floral.prefab
+displayName	Command bridge, floral	Blumen-Kommandobrücke	40		1200522469:bridge 3crew floral.prefab
 
 bridge 3crew metalarmor.prefab
 displayName	Command bridge, reinforced III	Kommandobrücke, verstärkt III	40		1148319565:bridge 3crew metalarmor.prefab
@@ -8767,7 +8767,7 @@ displayName	Twotail engine	Zwillingsschwanz-Motor	40		362626339:engine 01 tiger.
 description	Highly armored and quite slow heavy-duty engine. Strong structure improves ship HP.	Stark gepanzerter und recht langsamer Schwerlastmotor. Starke Struktur verbessert die Schiffs-HP.	200		362626339:engine 01 tiger.prefab
 
 engine 03 bioship.prefab
-displayName	Bioreaction engine, type II	Bioreaktionsmotor, Typ II	40		292475796:engine 03 bioship.prefab
+displayName	Bioreaction engine, type II	Bioreaktionsmotor II	40		292475796:engine 03 bioship.prefab
 description	Durable engine with good fuel efficiency. Robust structure improves ship HP.	Langlebiger Motor mit guter Treibstoffeffizienz. Robuste Struktur verbessert die Schiffs-HP.	200		292475796:engine 03 bioship.prefab; 229499087:engine 2.5 weird.prefab
 
 engine 03 emperor banks.prefab
@@ -8787,7 +8787,7 @@ displayName	Fuel-optimizer engine	Treibstoff-Optimierungs-Motor	40		1119228548:e
 description	Engine that uses fuel very effectively, but has slow speed and evasion bonus.	Ein Motor, der sehr sparsam mit Kraftstoff umgeht, dafür aber eine geringe Geschwindigkeit und einen Ausweichbonus aufweist.	200		1119228548:engine 2 F-gulper.prefab
 
 engine 2 floral.prefab
-displayName	Biotech engine, type floral	Biotech-Triebwerk, Typ Blumig	40		245228012:engine 2 floral.prefab
+displayName	Biotech engine, type floral	Blumen-Biotech-Triebwerk	40		245228012:engine 2 floral.prefab
 description	High fuel efficiency at the cost of low speed. Needs minimal power compared to other engines. Dense structure improves ship HP.	Hohe Treibstoffeffizienz auf Kosten einer geringen Geschwindigkeit. Benötigt minimale Leistung im Vergleich zu anderen Motoren. Dichte Struktur verbessert die Schiffs-HP.	200		245228012:engine 2 floral.prefab
 
 engine 2 large robust.prefab
@@ -8795,7 +8795,7 @@ displayName	Transporter engine	Transporter-Motor	40		1508923010:engine 2 large r
 description	Fair fuel efficiency but low evasion bonus. Robust structure improves ship HP.	Angemessene Treibstoffeffizienz, aber geringer Ausweichbonus. Robuste Struktur verbessert die Schiffs-HP.	200		1508923010:engine 2 large robust.prefab
 
 engine 2 rats.prefab
-displayName	Engine, Rat technology	Motor, Ratten-Technologie	40		1708644704:engine 2 rats.prefab
+displayName	Engine, Rat technology	Ratten-Motor	40		1708644704:engine 2 rats.prefab
 description	Low speed, medium fuel efficiency. Armored structure improves ship HP.	Niedrige Geschwindigkeit, mittlere Treibstoffeffizienz. Gepanzerte Struktur verbessert die Schiffs-HP.	200		1708644704:engine 2 rats.prefab
 
 engine 2.5 classic.prefab
@@ -8807,7 +8807,7 @@ displayName	Terran military engine	Terranisches Militär-Triebwerk	40		202363441
 description	Good maneuverability (evasion bonus), starmap travel speed and high fuel consumption. Durable structure improves ship HP.	Gute Manövrierfähigkeit (Ausweichbonus), hohe Reisegeschwindigkeit auf der Sternenkarte und hoher Treibstoffverbrauch. Die robuste Struktur erhöht die HP des Schiffes.	200		2023634410:engine 2.5 terran.prefab
 
 engine 2.5 weird.prefab
-displayName	Bioreaction engine	Bioreaktionsmotor	40		229499087:engine 2.5 weird.prefab
+displayName	Bioreaction engine	Bioreaktionsmotor I	40		229499087:engine 2.5 weird.prefab
 
 engine 4 spideraa.prefab
 displayName	Unknown biotech engine	Unbekannter Biotech-Antrieb	40		1536420907:engine 4 spideraa.prefab
@@ -8826,10 +8826,10 @@ displayName	Shroomery	Pilzplantage	40		1832274586:garden 3 shroomery.prefab
 description	Growery of bio-engineered mushrooms. Uses excess heat generated with ship movement, and removes operator organics consumption.	Biotechnologische Pilzplantage. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, und beseitigt den Biomasseverbrauch des Personals.	200		1832274586:garden 3 shroomery.prefab
 
 garden 4 greenhouse.prefab
-displayName	Accelerated greenhouse, type A	Treibhaus, Typ A	40		728608876:garden 4 greenhouse.prefab
+displayName	Accelerated greenhouse, type A	Treibhaus A	40		728608876:garden 4 greenhouse.prefab
 
 garden 5 greenhouse.prefab
-displayName	Accelerated greenhouse, type B	Treibhaus, Typ B	40		1579035116:garden 5 greenhouse.prefab
+displayName	Accelerated greenhouse, type B	Treibhaus B	40		1579035116:garden 5 greenhouse.prefab
 
 garden 6 synthetics.prefab
 displayName	Artificial life garden	Garten des künstlichen Lebens	40		737359377:garden 6 synthetics.prefab
@@ -9294,21 +9294,21 @@ displayName	Stealth Decryptor DIY	Tarnkappen-Entschlüssler	40		1769741276:Steal
 description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 (innerhalb der Sensorreichweite) zu entdecken.	200		1769741276:Stealth decryptor 1 diy.prefab; 1799114982:Stealth decryptor 1 rats.prefab
 
 Stealth decryptor 1 ivory old.prefab
-displayName	Stealth Decryptor, type I	Tarnkappen-Entschlüssler, Typ I	40		1107135249:Stealth decryptor 1 ivory old.prefab
+displayName	Stealth Decryptor, type I	Tarnkappen-Entschlüssler I	40		1107135249:Stealth decryptor 1 ivory old.prefab
 description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 zu entdecken (innerhalb der Sensorreichweite). Langlebige Materialien erhöhen die HP des Schiffes.	200		1107135249:Stealth decryptor 1 ivory old.prefab; 1276182165:Stealth decryptor 1 ventilator.prefab
 
 Stealth decryptor 1 rats.prefab
 displayName	Stealth decryptor (Rat Empire)	Rattenimperium-Tarnkappen-Entschlüssler	40		1799114982:Stealth decryptor 1 rats.prefab
 
 Stealth decryptor 1 ventilator.prefab
-displayName	Stealth Decryptor, type 0	Tarnkappen-Entschlüssler, Typ 0	40		1276182165:Stealth decryptor 1 ventilator.prefab
+displayName	Stealth Decryptor, type 0	Tarnkappen-Entschlüssler 0	40		1276182165:Stealth decryptor 1 ventilator.prefab
 
 Stealth decryptor 2 biobrain.prefab
 displayName	Bioneural stealth decryptor	Bioneuraler Tarnkappen-Entschlüssler	40		29772476:Stealth decryptor 2 biobrain.prefab
 description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu entdecken.	200		29772476:Stealth decryptor 2 biobrain.prefab
 
 Stealth decryptor 2 new human tec.prefab
-displayName	Stealth Decryptor, type II	Tarnkappen-Entschlüssler, Typ II	40		1276182163:Stealth decryptor 2 new human tec.prefab
+displayName	Stealth Decryptor, type II	Tarnkappen-Entschlüssler II	40		1276182163:Stealth decryptor 2 new human tec.prefab
 description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu erkennen. Langlebige Materialien erhöhen die HP des Schiffes.	200		1276182163:Stealth decryptor 2 new human tec.prefab
 
 Stealth decryptor 3 bio.prefab
@@ -9316,7 +9316,7 @@ displayName	Biotech stealth decryptor	Biotech-Tarnkappen-Entschlüssler	40		1451
 description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1451295920:Stealth decryptor 3 bio.prefab
 
 Stealth decryptor 3 newest human tec.prefab
-displayName	Stealth Decryptor, type III	Tarnkappen-Entschlüssler, Typ III	40		1276182160:Stealth decryptor 3 newest human tec.prefab
+displayName	Stealth Decryptor, type III	Tarnkappen-Entschlüssler III	40		1276182160:Stealth decryptor 3 newest human tec.prefab
 description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 zu entdecken (innerhalb der Sensorreichweite). Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1276182160:Stealth decryptor 3 newest human tec.prefab
 
 storage container 3x3.prefab
@@ -9331,49 +9331,49 @@ displayName	Custom-made warpdrive	Maßgefertigter Warpantrieb	40		2136288774:war
 description	Warpdrives allow "jumping" between starsystems. This is custom-made from leftover parts and an exotic crystal.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dies ist eine Sonderanfertigung aus übrig gebliebenen Teilen und einem exotischen Kristall.	200		2136288774:warp 0 DIY.prefab
 
 warp 01 greencrystal.prefab
-displayName	Warp drive, type 101	Warpantrieb, Typ 101	40		1503624866:warp 01 greencrystal.prefab
+displayName	Warp drive, type 101	Warpantrieb 101	40		1503624866:warp 01 greencrystal.prefab
 description	Warpdrives allow "jumping" between starsystems and escaping from battles.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen und das Entkommen aus Kämpfen.	200		1503624866:warp 01 greencrystal.prefab; 1528213811:warp 09 spideraa.prefab
 
 warp 02 bluecrystal.prefab
-displayName	Warp drive, crystal type B	Warpantrieb, Kristall Typ B	40		1622263161:warp 02 bluecrystal.prefab
+displayName	Warp drive, crystal type B	Kristall-Warpantrieb B	40		1622263161:warp 02 bluecrystal.prefab
 description	Warpdrives allow "jumping" between starsystems. This is a high-end civilian drive.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dies ist ein ziviler High-End-Antrieb.	200		1622263161:warp 02 bluecrystal.prefab
 
 warp 02b small.prefab
-displayName	Warp drive, mini	Warpantrieb, Mini	40		1346895691:warp 02b small.prefab
+displayName	Warp drive, mini	Mini-Warpantrieb	40		1346895691:warp 02b small.prefab
 description	Warpdrives allow "jumping" between starsystems. This one is very durable. Robust structure improves ship HP.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr langlebig. Die robuste Struktur verbessert die Schiffs-HP.	200		1346895691:warp 02b small.prefab; 1951229269:warp 04 emperorbanks.prefab
 
 warp 03 neoncrystal.prefab
-displayName	Warp drive, crystal type A	Warpantrieb, Kristall Typ A	40		458296297:warp 03 neoncrystal.prefab
+displayName	Warp drive, crystal type A	Kristall-Warpantrieb A	40		458296297:warp 03 neoncrystal.prefab
 description	Warpdrives allow "jumping" between starsystems. This one is very brittle.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr spröde.	200		458296297:warp 03 neoncrystal.prefab
 
 warp 04 emperorbanks.prefab
 displayName	Warp drive, type EB	Warpantrieb, Typ Imperator Bank	40		1951229269:warp 04 emperorbanks.prefab
 
 warp 05 rotor metal.prefab
-displayName	Warp drive, grade II	Warpantrieb, Typ II	40		2018774202:warp 05 rotor metal.prefab
+displayName	Warp drive, grade II	Warpantrieb II	40		2018774202:warp 05 rotor metal.prefab
 description	Warpdrives allow "jumping" between starsystems. This one has extra armor. Robust structure adds ship HP.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hat zusätzliche Panzerung. Robuste Struktur fügt Schiffs-HP hinzu.	200		2018774202:warp 05 rotor metal.prefab
 
 warp 05 spiralcrystal.prefab
-displayName	Warp drive, type F	Warpantrieb, Typ F	40		2005632838:warp 05 spiralcrystal.prefab
+displayName	Warp drive, type F	Warpantrieb F	40		2005632838:warp 05 spiralcrystal.prefab
 description	Warpdrives allow "jumping" between starsystems. This one recharges extremely fast.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser lädt sich extrem schnell auf.	200		2005632838:warp 05 spiralcrystal.prefab
 
 warp 06 rotor blue.prefab
-displayName	Warp drive, grade III	Warpantrieb, Typ III	40		45815679:warp 06 rotor blue.prefab
+displayName	Warp drive, grade III	Warpantrieb III	40		45815679:warp 06 rotor blue.prefab
 description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Durable structure improves ship HP.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Langlebige Struktur verbessert die Schiffs-HP.	200		45815679:warp 06 rotor blue.prefab
 
 warp 07 rotor glass.prefab
-displayName	Warp drive, grade IV	Warpantrieb, Typ IV	40		1559705412:warp 07 rotor glass.prefab
+displayName	Warp drive, grade IV	Warpantrieb IV	40		1559705412:warp 07 rotor glass.prefab
 description	Warpdrives allow "jumping" between starsystems. This one is very advanced. Strong structure improves ship HP.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser hier ist sehr fortschrittlich. Starke Struktur verbessert die Schiffs-HP.	200		1559705412:warp 07 rotor glass.prefab
 
 warp 09 spideraa.prefab
-displayName	Warp drive, Spideraa	Warpantrieb, Spinner	40		1528213811:warp 09 spideraa.prefab
+displayName	Warp drive, Spideraa	Spinner-Warpantrieb	40		1528213811:warp 09 spideraa.prefab
 
 warp 10 chunky.prefab
-displayName	Warp drive, chunky	Warpantrieb, klobig	40		38410223:warp 10 chunky.prefab
+displayName	Warp drive, chunky	Klobiger Warpantrieb	40		38410223:warp 10 chunky.prefab
 description	Warpdrives allow "jumping" between starsystems.	Mit Warp-Antrieben kann man zwischen Sternensystemen "springen".	200		38410223:warp 10 chunky.prefab; 293119006:warp 11 bluetec.prefab
 
 warp 11 bluetec.prefab
-displayName	Warp drive, bluetec	Warpantrieb, blautech	40		293119006:warp 11 bluetec.prefab
+displayName	Warp drive, bluetec	Blautech-Warpantrieb	40		293119006:warp 11 bluetec.prefab
 
 00 DIY decoy nuke launcher.prefab
 displayName	DIY decoy capital missile	Täuschungsbombe	40		92356131:00 DIY decoy nuke launcher.prefab
@@ -9403,7 +9403,7 @@ displayName	DIY d-exotics nuke	Exoten-Bombe	40		858424257:04 DIY exotics nuke la
 description	Destabilized exotics combined with crude armor, engines and a fueltank. Minor damage to ship HP but may start fires and the explosion is accompanied by an EMP wave.	Destabilisierte Exoten kombiniert mit grober Panzerung, Motoren und einem Treibstofftank. Geringer Schaden an den Schiffs-HP, kann aber Brände auslösen und die Explosion wird von einer EMP-Welle begleitet.	200		858424257:04 DIY exotics nuke launcher.prefab
 
 04 DIY explo pack launcher.prefab
-displayName	DIY explosive pack nuke	Sprengstoffpaket-Bombe	40		533676501:04 DIY explo pack launcher.prefab
+displayName	DIY explosive pack nuke	Sprengstoff-Bombe	40		533676501:04 DIY explo pack launcher.prefab
 description	A manually assembled capital missile that damages mostly ship HP. Made by combining standard explosives with engines and crude armor.	Eine manuell zusammengebaute Bombe, die hauptsächlich Schiffs-HP beschädigt. Wird durch die Kombination von Standard-Sprengstoff mit Triebwerken und grober Panzerung hergestellt.	200		533676501:04 DIY explo pack launcher.prefab
 
 04 DIY fuel pack launcher.prefab
@@ -9415,7 +9415,7 @@ displayName	DIY Plastics nuke	Plastiksprengstoff-Bombe	40		1771248833:04 DIY pla
 description	A manually assembled capital missile with destabilized plastic warhead. Small AOE, low damage, fair durability.	Eine manuell zusammengebaute Bombe mit destabilisiertem Plastiksprengkopf. Kleine AOE, geringer Schaden, angemessene Haltbarkeit.	200		1771248833:04 DIY plastics launcher.prefab
 
 04 Fueltank nuke launcher.prefab
-description	External fuel tank ready to be used as capital missile. Deals no ship damage, but damages crew & causes fires around point of impact. Scrapping provides much fuel.	Externer Treibstofftank, bereit, als Bombe verwendet zu werden. Verursacht keinen Schiffsschaden, beschädigt aber die Besatzung und verursacht Brände um den Einschlagspunkt. Abwracken liefert viel Treibstoff.	200		780823633:04 Fueltank nuke launcher.prefab
+description	External fuel tank ready to be used as capital missile. Deals no ship damage, but damages crew & causes fires around point of impact. Scrapping provides much fuel.	Externer Treibstofftank, bereit, als Bombe verwendet zu werden. Verursacht keinen Schiffsschaden, beschädigt aber die Besatzung und verursacht Brände um den Einschlagspunkt. Verschrotten liefert viel Treibstoff.	200		780823633:04 Fueltank nuke launcher.prefab
 
 06 DIY probe nuke launcher.prefab
 displayName	Improvised probe nuke	Sondenbombe	40		1207909377:06 DIY probe nuke launcher.prefab
@@ -9558,15 +9558,15 @@ displayName	DIY firecannon MK2	Feuerkanone MK2	40		30747849:weapon diyfirebomber
 description	Shoots balls that cause fire on impact. Rapid rate of fire and more crew damage compared to MK1. Projectiles have 1hp each.	Schießt Kugeln, die beim Aufprall Feuer verursachen. Schnelle Feuerrate und mehr Besatzungsschaden im Vergleich zu MK1. Projektile haben jeweils 1 HP.	200		30747849:weapon diyfirebomber2.prefab
 
 weapon emperorbanks cannon large.prefab
-displayName	Intelligent BankTM cannon IIIA	Intelligente BankTM-Kanone IIIA	40		533548711:weapon emperorbanks cannon large.prefab
+displayName	Intelligent BankTM cannon IIIA	iBankTM-Kanone A-III	40		533548711:weapon emperorbanks cannon large.prefab
 description	These cannons rely on abundant use of explosives to print & propel massive, almost nuke-sized projectiles (which may be deflected). Robust structure improves ship HP. Projectile has 8hp.	Diese Kanonen setzen auf den reichlichen Einsatz von Sprengstoff, um massive, fast bombengroße Projektile zu drucken und abzuschießen (die abgelenkt werden können). Die robuste Struktur verbessert die HP des Schiffes. Das Projektil hat 8 HP.	200		533548711:weapon emperorbanks cannon large.prefab
 
 weapon emperorbanks cannon1x.prefab
-displayName	Intelligent BankTM cannon IA	Intelligente BankTM-Kanone IA	40		865561327:weapon emperorbanks cannon1x.prefab
+displayName	Intelligent BankTM cannon IA	iBankTM-Kanone A-I	40		865561327:weapon emperorbanks cannon1x.prefab
 description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 5hp each.	Imperiale Kanonen verlassen sich auf den reichlichen Einsatz von Sprengstoff, um eine hohe Geschwindigkeit des Geschosses zu erreichen. Die robuste Struktur verbessert die Schiffs-HP. Die Projektile haben jeweils 6 HP.	200		865561327:weapon emperorbanks cannon1x.prefab
 
 weapon emperorbanks cannon2x.prefab
-displayName	Intelligent BankTM cannon IIA	Intelligente BankTM-Kanone IIA	40		865561324:weapon emperorbanks cannon2x.prefab
+displayName	Intelligent BankTM cannon IIA	iBankTM-Kanone A-II	40		865561324:weapon emperorbanks cannon2x.prefab
 description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 6hp each.		200		865561324:weapon emperorbanks cannon2x.prefab
 
 weapon Energy cannon OP.prefab
@@ -9762,11 +9762,11 @@ displayName	Dual effector, type Red	Doppeleffektor, Typ Rot	40		1340539166:weapo
 description	Universal laser, shoots two laser beams. Robust structure improves ship HP.	Universal-Laser, schießt zwei Laserstrahlen. Robuste Konstruktion verbessert die Schiffs-HP.	200		1340539166:weapon emperor laser double.prefab
 
 weapon emperor laser large.prefab
-displayName	Intelligent BankTM large laser	Intelligente BankTM-Großlaser	40		681262058:weapon emperor laser large.prefab
+displayName	Intelligent BankTM large laser	Großer iBankTM-Laser	40		681262058:weapon emperor laser large.prefab
 description	Universal laser, produces 3 laser beams. Robust structure improves ship HP.	Universal-Laser, erzeugt 3 Laserstrahlen. Robuste Struktur verbessert die Schiffs-HP.	200		681262058:weapon emperor laser large.prefab
 
 weapon emperor minilaser.prefab
-displayName	Intelligent BankTM minilasers	Intelligente BankTM-Minilaser	40		474553624:weapon emperor minilaser.prefab
+displayName	Intelligent BankTM minilasers	Kleiner iBankTM-Laser	40		474553624:weapon emperor minilaser.prefab
 description	The laser is traditionally equipped with manipulators to clean dead bodies from ship externals. Produces 2 laser beams.	Der Laser ist traditionell mit Manipulatoren ausgestattet, um die Schiffsaußenhaut von toten Körpern zu reinigen. Erzeugt 2 Laserstrahlen.	200		474553624:weapon emperor minilaser.prefab
 
 weapon Florallaser.prefab
@@ -9971,11 +9971,11 @@ displayName	DIY heavy rocket launcher	Schwerer Raketenwerfer	40		821254137:weapo
 description	Improvised rocket launcher. Consumes metal & explosives to print and launch armored missiles. Missiles never deflect. A launched missile has 3hp.	Improvisierter Raketenwerfer. Verbraucht Metall und Sprengstoff, um gepanzerte Raketen zu drucken und abzufeuern. Raketen werden niemals abgelenkt. Eine abgefeuerte Rakete hat 3 HP.	200		821254137:weapon DIY Rockets x1.prefab
 
 weapon emperormissile large x5.prefab
-displayName	Intelligent BankTM rocket launcher (x5)	Intelligente BankTM-Raketenwerfer (x5)	40		1975811673:weapon emperormissile large x5.prefab
+displayName	Intelligent BankTM rocket launcher (x5)	iBankTM-Raketenwerfer (x5)	40		1975811673:weapon emperormissile large x5.prefab
 description	Platform for rapidly printing & launching rockets. Rockets never deflect and damage enemy modules in a large area, but can be shot down by point-defences. These missiles have 1hp each.	Plattform zum schnellen Drucken & Starten von Raketen. Raketen lenken nie ab und beschädigen feindliche Module in einem großen Bereich, können aber von Punktabwehranlagen abgeschossen werden. Diese Raketen haben jeweils 1hp.	200		1975811673:weapon emperormissile large x5.prefab
 
 weapon emperormissiles small x2.prefab
-displayName	Intelligent BankTM missile launcher (x2)	Intelligente BankTM-Raketenwerfer (x2)	40		759200248:weapon emperormissiles small x2.prefab
+displayName	Intelligent BankTM missile launcher (x2)	iBankTM-Raketenwerfer (x2)	40		759200248:weapon emperormissiles small x2.prefab
 description	Platform for printing and shooting heavy missiles with increased armor. Missiles never deflect and damage enemy modules in a large area. These missiles have 2hp each.	Plattform zum Drucken und Abschießen schwerer Raketen mit erhöhter Panzerung. Die Raketen werden nicht abgelenkt und beschädigen feindliche Module in einem großen Bereich. Diese Raketen haben jeweils 2 HP.	200		759200248:weapon emperormissiles small x2.prefab
 
 weapon miscmissile x4.prefab
@@ -10887,7 +10887,7 @@ description	A prototype capital missile built in Earth Alliance research labs. C
 
 Perk nuke fueltank for atlas.prefab
 displayName	External fueltank, T-02 [weaponized]	Externer Treibstofftank, T-02 [Bombe]	40		656830655:Perk nuke fueltank for atlas.prefab
-description	External fueltank usable as a capital missile. Scrapping provides lots of fuel. Recommended for long-range flights.	Externer Treibstofftank, verwendbar als Bombe. Abwracken liefert viel Treibstoff. Empfohlen für Langstreckenflüge.	250		656830655:Perk nuke fueltank for atlas.prefab
+description	External fueltank usable as a capital missile. Scrapping provides lots of fuel. Recommended for long-range flights.	Externer Treibstofftank, verwendbar als Bombe. Verschrotten liefert viel Treibstoff. Empfohlen für Langstreckenflüge.	250		656830655:Perk nuke fueltank for atlas.prefab
 
 Perk nuke old.prefab
 displayName	The decommissioned nuke	Die ausgemusterte Atombombe	40		1852263270:Perk nuke old.prefab
@@ -11135,12 +11135,12 @@ title	Arrived to new sector	Angekommen im neuen Sektor	35		1089258417:Main quest
 text	We have reached the outer edge of Earth Alliance space... historic data shows this sector should have several Earth Hegemony mining and refueling outposts, but there's none. I'm afraid we have lost this sector to the Squids, and some of their forces might be still in the area.	Wir haben den äußeren Rand des Erd-Allianz-Raums erreicht... Historische Daten zeigen, dass dieser Sektor mehrere Bergbau- und Betankungs-Außenposten der Erd-Allianz haben sollte, aber es gibt keinen. Ich fürchte, wir haben diesen Sektor an die Tintenfische verloren und einige ihrer Truppen könnten noch in der Gegend sein.	400		1089258417:Main quest FSM.prefab
 choiceText	What can you tell me about the Squids?	Was kannst du mir über die Tintenfische sagen?	100		1089258417:Main quest FSM.prefab
 choiceText	What can you tell me about active warzones?	Was kannst du mir über aktive Kriegsgebiete sagen?	100		1089258417:Main quest FSM.prefab
-setText	Explore the sector before entering the exit warpgate.	Erkunde den Sektor, bevor du das Ausgang-Warptor betrittst.	100		150214920:Main quest FSM.prefab
-setText	Explore the sector and move on.	Erforsche den Sektor und fliege weiter.	100		150214926:Main quest FSM.prefab
-setText	Reach the Exit warpgate.	Erreiche das das Ausgang-Warptor.	100		150214923:Main quest FSM.prefab
-setText	Visit the local commercial stations to prepare for the upcoming mission, then leave via Exit sector.	Die lokalen Handelsstationen besuchen, um sich auf die bevorstehende Mission vorzubereiten, und dann den Sektor durch das Ausgang-Warptor verlassen.	100		150214924:Main quest FSM.prefab
-setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	5 Orte mit bestätigten Spinner-Sichtungen besuchen und versuchen Kontakt aufzunehmen.	100		150214929:Main quest FSM.prefab
-setText	Find and kill the Squid emperor.	Den Tintenfisch-Imperator finden und töten.	100		150214930:Main quest FSM.prefab
+setText	Explore the sector before entering the exit warpgate.	Den Sektor erkunden, dann das Ausgang-Warptor benutzen	100		150214920:Main quest FSM.prefab
+setText	Explore the sector and move on.	Den Sektor erforschen und weiter fliegen	100		150214926:Main quest FSM.prefab
+setText	Reach the Exit warpgate.	Das Ausgang-Warptor erreichen	100		150214923:Main quest FSM.prefab
+setText	Visit the local commercial stations to prepare for the upcoming mission, then leave via Exit sector.	Lokale Handelsstationen besuchen	100		150214924:Main quest FSM.prefab
+setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	5 Orte mit bestätigten Spinner-Sichtungen besuchen	100		150214929:Main quest FSM.prefab
+setText	Find and kill the Squid emperor.	Tintenfisch-Imperator finden und töten	100		150214930:Main quest FSM.prefab
 title	Sector info	Sektor-Infos	35		158418766:Main quest FSM.prefab
 text	This fairly unexplored sector used to be part of Earth Alliance, but has been now claimed by the Squids.\nI've been looking into all available data on their technology. It seems their ships have not the best stealth technology. Getting a decent stealth decryptor might save us from some unnecessary fights.	Dieser ziemlich unerforschte Sektor gehörte früher zur Erd-Allianz, wurde aber jetzt von den Tintenfischen beansprucht. Ich habe alle verfügbaren Daten über ihre Technologie untersucht. Es scheint, dass ihre Schiffe nicht die beste Stealth-Technologie haben. Einen anständigen Stealth-Entschlüssler zu bekommen, könnte uns vor einigen unnötigen Kämpfen bewahren.	600		158418766:Main quest FSM.prefab
 title	Warpcast connection established...	Warpcast-Verbindung hergestellt...	35		1106419425:Main quest FSM.prefab
@@ -11153,7 +11153,7 @@ text	The Spideraa are ancient, powerful arachnids, and consider themselves a nat
 title	Diplomatic mission	Diplomatische Mission	35		611580459:Main quest FSM.prefab; 6775047:Main quest FSM.prefab
 okButtonText	Right. How do we start?	Richtig. Wie fangen wir an?	7		611580459:Main quest FSM.prefab
 text	Since you got us in the Squid war in the first place, Earth has decided to send you into the Outward Abyss to contact the Spideraa. We don't know what they want, but you'll get a package of valuables to help you bargain. Even a single large-scale attack by the Spiders could change the war. We'll take any military help we can get.	Da Sie uns in den Tintenfisch-Krieg verwickelt haben, hat die Erde beschlossen, Sie in den Äußeren Abgrund zu schicken, um die Spinner zu kontaktieren. Wir wissen nicht, was sie wollen, aber Sie bekommen ein Paket mit Wertgegenständen, um zu verhandeln. Schon ein einziger Großangriff der Spinner könnte den Krieg verändern. Wir nehmen jede militärische Hilfe an, die wir bekommen können.	600		611580459:Main quest FSM.prefab
-text2	We've pulled some strings to get well-equipped Intergalactic traders here, waiting for you. Take these funds and visit the local stations to prepare for the mission. We've brought Earth's largest warpgate ship into the area. Once you've spent the credits, go to the warpship and it will shoot you off. Free fuel stations help you move back and forth in this sector. Good luck!	Wir haben ein paar Fäden gezogen, um gut ausgerüstete intergalaktische Händler hierher zu bringen, die auf dich warten. Nimm diese Mittel und besuche Sie die örtlichen Stationen, um dich auf die Mission vorzubereiten. Wir haben das größte Warptor-Schiff der Erde in dieses Gebiet gebracht. Sobald du die Credits ausgegeben hast, gehen Sie zum Warpschiff und es wird dich abschießen. Freie Tankstellen helfen dir, dich in diesem Sektor hin und her zu bewegen. Viel Glück!	400		6775047:Main quest FSM.prefab
+text2	We've pulled some strings to get well-equipped Intergalactic traders here, waiting for you. Take these funds and visit the local stations to prepare for the mission. We've brought Earth's largest warpgate ship into the area. Once you've spent the credits, go to the warpship and it will shoot you off. Free fuel stations help you move back and forth in this sector. Good luck!	Wir haben ein paar Fäden gezogen, um gut ausgerüstete intergalaktische Händler hierher zu bringen, die auf dich warten. Nimm diese Resourcen und besuche die örtlichen Stationen. Wir haben das größte Warptor-Schiff der Erde in dieses Gebiet gebracht. Sobald die Credits ausgegeben sind, bewege dich zum Warpschiff und es wird dich abschießen. Tankstellen helfen dir, dich in diesem Sektor hin und her zu bewegen. Viel Glück!	400		6775047:Main quest FSM.prefab
 reasonToDisplay	operation funds received	Operationsgelder erhalten	30		Main quest FSM.prefab
 title	Entry: Sec Corp	Eintrag: Sec Corp	35		2080332017:Main quest FSM.prefab
 text	Sec Corp is a network of super serious security AIs who all went rogue together, took over a couple of planets and now sell services as an intergalactic mercenary corporation.	Sec Corp ist ein Netzwerk von super seriösen Sicherheits-KIs, die alle zusammen abtrünnig geworden sind, ein paar Planeten übernommen haben und nun als intergalaktische Söldnerfirma ihre Dienste anbieten.	600		2080332017:Main quest FSM.prefab
@@ -11593,7 +11593,7 @@ Default alien dream text pool.prefab
 	Having a dream about consuming exotics...	Träumt über den Verzehr von Exoten...	80		389922688:Default alien dream text pool.prefab
 	No dreams.	Keine Träume.	80		389922688:Default alien dream text pool.prefab
 	Having a dream about swimming in an ocean...	Träumt vom Schwimmen im Ozean...	80		389922688:Default alien dream text pool.prefab
-	Having a lucid dream (flying)...	Träumt einen luziden Traum (Fliegen)...	80		389922688:Default alien dream text pool.prefab
+	Having a lucid dream (flying)...	Träumt einen luziden Traum (fliegen)...	80		389922688:Default alien dream text pool.prefab
 	Having a lucid dream (sensual time with a dream character)...	Träumt einen luziden Traum (sinnliche Zeit mit einer Traumfigur)...	80		389922688:Default alien dream text pool.prefab
 	Having a lucid dream (conversation with a dream character)...	Träumt einen luziden Traum (Gespräch mit einer Traumfigur)...	80		389922688:Default alien dream text pool.prefab
 	Having a semi-lucid dream about levitating...	Hat einen halbklaren Traum über das Schweben...	80		389922688:Default alien dream text pool.prefab
@@ -11610,9 +11610,9 @@ Default alien dream text pool.prefab
 	Dreaming of jumping up and slowly floating down again...	Ein Traum, in dem man hochspringt und langsam wieder runterschwebt...	80		389922688:Default alien dream text pool.prefab
 
 EB description pool.prefab
-	Intelligent Banks soldier.	Intelligenter BankTM-Soldat.	250		1340836553:EB description pool.prefab
-	Intelligent Banks ship officer.	Intelligenter BankTM-Schiffsoffizier.	250		1340836553:EB description pool.prefab
-	Intelligent Banks surveillance officer.	Intelligenter BankTM-Überwachungsoffizier.	250		1340836553:EB description pool.prefab
+	Intelligent Banks soldier.	iBankTM-Soldat.	250		1340836553:EB description pool.prefab
+	Intelligent Banks ship officer.	iBankTM-Schiffsoffizier.	250		1340836553:EB description pool.prefab
+	Intelligent Banks surveillance officer.	iBankTM-Überwachungsoffizier.	250		1340836553:EB description pool.prefab
 
 Empty gas giant text pool.prefab
 	The gravitational pull of this gas giant is too strong for fuel mining operations.	Die Anziehungskraft dieses Gasriesen ist zu stark für den Treibstoffabbau.	420		2088051876:Empty gas giant text pool.prefab
@@ -13190,4 +13190,4 @@ Tips pool.prefab
 	If the game is too hard, change your tactics.	Wenn das Spiel zu schwer ist, ändere deine Taktik	0		354963362:Tips pool.prefab
 	If the game is too difficult, change your approach.	Wenn das Spiel zu schwierig ist, ändere deine Vorgehensweise	0		354963362:Tips pool.prefab
 	Targeting key enemy modules during battle can make the difference between life and death.	Das Anvisieren wichtiger feindlicher Module während des Kampfes kann den Unterschied zwischen Leben und Tod ausmachen	0		354963362:Tips pool.prefab
-	If you keep dying, then consider escaping battles with negative outlook earlier.	Wenn immer wieder stirbst, solltest du in Erwägung ziehen, Kämpfen mit negativen Aussichten früher zu entkommen	0		354963362:Tips pool.prefab
+	If you keep dying, then consider escaping battles with negative outlook earlier.	Wenn du immer wieder stirbst, solltest du in Erwägung ziehen, Kämpfen mit negativen Aussichten früher zu entkommen	0		354963362:Tips pool.prefab
