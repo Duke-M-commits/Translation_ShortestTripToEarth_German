@@ -1899,16 +1899,16 @@ Refers to shop	Store	Händler	0		1611982761:Shop panel tabbed.prefab; 191972498:
 	Select module to buy	Wähle ein Modul	0		1661811983:Shop panel tabbed.prefab
 	Hire	Anheuern	0		1301993455:Shop panel tabbed.prefab
 	Select a crewmember to hire	Wähle einen Rekruten	0		424575197:Shop panel tabbed.prefab
-	Exit the shop	Shop verlassen	0		1244396555:Shop panel tabbed.prefab
-	EXIT	VERLASSEN	0		638080358:Shop panel tabbed.prefab
+	Exit the shop	Händler verlassen	0		1244396555:Shop panel tabbed.prefab
+	EXIT	ABKOPPELN	0		638080358:Shop panel tabbed.prefab
 
 Starmap log panel.prefab
 	Expand/shrink log window	Log-Fenster vergrößern/verkleinern	0		963243546:Starmap log panel.prefab
 
 Storage panel.prefab
-	Storage for modules only	Frachtraum für Module	0		975806872:Storage panel.prefab
+	Storage for modules only	Frachtraum	0		975806872:Storage panel.prefab
 	RIGHT-CLICK ON SHIP MODULE SLOT TO INSTALL	RECHTSKLICK AUF MODULPLATZ UM ZU INSTALLIEREN	0		206688735:Storage panel.prefab
-	Times module has lost 50% of remaining max health	Zeitmodul hat 50% der verbleibenden maximalen Gesundheit verloren	0		1344369212:Storage panel.prefab
+	Times module has lost 50% of remaining max health	Anzahl der Male, bei denen das Modul 50 % seiner verbleibenden maximalen Gesundheit verloren hat	0		1344369212:Storage panel.prefab
 	Add 1 cargo slot	1 Frachtraumplatz	0		415428371:Storage panel.prefab
 
 Unlock item panel.prefab
@@ -6723,7 +6723,7 @@ displayName	Energy Trader	Energie-Händler	25		1844147498:SOS shop trader with f
 Shop.displayName	Independent Energy Trader	Unabhängiger Energiehändler	35		1844147498:SOS shop trader with fuel and organics.prefab; 575436626:SOS shop with fuel only tanker.prefab; 1296273668:SOS shop with fuel and organics.prefab
 text	"Are you interested in acquiring starfuel or carbon organics?"	"Sind Sie am Erwerb von Sternentreibstoff oder kohlenstoffhaltiger Biomasse interessiert?"	400		873789702:SOS shop trader with fuel and organics.prefab; 325915872:SOS shop with fuel and organics.prefab
 choiceText	Let us trade	Handeln	100		873789702:SOS shop trader with fuel and organics.prefab; 325915872:SOS shop with fuel and organics.prefab
-choiceText	No thanks [trader leaves]	Nein danke [Händler geht]	100		873789702:SOS shop trader with fuel and organics.prefab; 325915872:SOS shop with fuel and organics.prefab; 540369171:SOS shop with destructive systems.prefab; 732327589:SOS shop with tech junk.prefab; 1043525743:SOS shop with rare items.prefab; 1208750836:SOS shop with tech junk, generous.prefab; 1298760878:SOS shop with allgood emergency modules.prefab; 1752562478:SOS shop with fuel only tanker.prefab; 1793732716:SOS shop with private munitions.prefab; 1897993986:SOS shop with tech junk, generous.prefab
+choiceText	No thanks [trader leaves]	Nein danke [Händler reist ab]	100		873789702:SOS shop trader with fuel and organics.prefab; 325915872:SOS shop with fuel and organics.prefab; 540369171:SOS shop with destructive systems.prefab; 732327589:SOS shop with tech junk.prefab; 1043525743:SOS shop with rare items.prefab; 1208750836:SOS shop with tech junk, generous.prefab; 1298760878:SOS shop with allgood emergency modules.prefab; 1752562478:SOS shop with fuel only tanker.prefab; 1793732716:SOS shop with private munitions.prefab; 1897993986:SOS shop with tech junk, generous.prefab
 title	Approaching tanker	Tanker nähert sich	35		1253644365:SOS shop trader with fuel and organics.prefab; 705770535:SOS shop with fuel and organics.prefab; 2132417141:SOS shop with fuel only tanker.prefab
 text	A small tanker ship has detected our SOS signal...	Ein kleines Tankerschiff hat unser SOS-Signal entdeckt...	600		1253644365:SOS shop trader with fuel and organics.prefab; 705770535:SOS shop with fuel and organics.prefab
 
