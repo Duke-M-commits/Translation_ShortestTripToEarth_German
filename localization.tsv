@@ -1612,7 +1612,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0		1665000636:Module data subpanel.prefab
 	Explosives currently stored in this container	Sprengstoffe, die derzeit in diesem Behälter gelagert werden	0		1782786098:Module data subpanel.prefab
 	Exotics currently stored in this container	Exoten, die derzeit in diesem Behälter gelagert werden	0		185557002:Module data subpanel.prefab
 	XenoData generated per minute\n+ or - Current operator skill effect	Pro Minute erzeugte Xenodaten\n+ oder - Aktueller Effekt des Personals	0		1013009171:Module data subpanel.prefab
-	Explosives produced per minute	Pro Minute erzeugte Explosivstoffe	0		1269794276:Module data subpanel.prefab
+	Explosives produced per minute	Pro Minute erzeugte Sprengstoffe	0		1269794276:Module data subpanel.prefab
 	Exotics produced per minute	Pro Minute produzierte Exoten	0		846922423:Module data subpanel.prefab
 	Ship HP and max HP bonus	Schiffshüllenpunktebonus	0		999264480:Module data subpanel.prefab
 	Ship asteroid defence bonus	Schiffs-Asteroidenabwehr-Bonus	0		1926972221:Module data subpanel.prefab
@@ -1741,7 +1741,7 @@ Maximum letters on one row: 10, possible 2 rows	TOO FAR	ZU\nWEIT	10		1967596846:
 	Organics low!\nConsider cryofreezing some crew or seek planets with biosphere.	Biomasse knapp!\nBedenke das Einfrieren einiger Besatzungsmitglieder oder suche Planeten mit Biosphäre.	0		1624037116:Player panel.prefab
 	Synthetics low!\nSynthetics are necessary to repair modules.\nRecycling almost any module will provide more synthetics.	nKunststoffe niedrig!\nKunststoffe sind notwendig, um Module zu reparieren.\nDas Wiederverwerten fast aller Module liefert mehr Kunststoffe.	0		2106581677:Player panel.prefab
 	Metals low!\nMetals are necessary when repairing ship hull with crew.\nRecycling tech modules will usually provide some metals.	Metalle fast aus!\nMetalle werden benötigt, um Schiffsrümpfe mit Besatzung zu reparieren.\nDas Wiederverwerten von Tech-Modulen wird normalerweise einige Metalle liefern.	0		803467721:Player panel.prefab
-	Explosives low.\nWeapons that need explosives will soon run out of ammo!	Explosivstoffe fast aus!\nWaffen, die Explosivstoffe benötigen, haben bald keine Munition mehr!	0		528451596:Player panel.prefab
+	Explosives low.\nWeapons that need explosives will soon run out of ammo!	Sprengstoffe fast aus!\nWaffen, die Sprengstoffe benötigen, haben bald keine Munition mehr!	0		528451596:Player panel.prefab
 	Exotics low.	Exoten fast aus.	0		1919526967:Player panel.prefab
 	No exotics.\nAs an alternative currency,\nexotics are great for bribing stronger hostile forces.	Keine Exoten.\nAls alternative Währung eignen sich Exoten hervorragend, um stärkere feindliche Kräfte zu bestechen.	0		837804563:Player panel.prefab
 	Enemy ship is warming up its warpdrive.	Feindliches Schiff startet seinen Warpantrieb.	0		1356465173:Player panel.prefab; 235614696:Player panel.prefab; 1807305474:Player panel.prefab
@@ -1870,7 +1870,7 @@ Refers to shop	Store	Händler	0		1611982761:Shop panel tabbed.prefab; 191972498:
 	Sell:	Verkaufen:	0		1649409683:Shop panel tabbed.prefab; 113999563:Shop panel tabbed.prefab; 825669759:Shop panel tabbed.prefab; 1395959470:Shop panel tabbed.prefab; 1616926540:Shop panel tabbed.prefab; 1960387799:Shop panel tabbed.prefab
 	Average price when sold by stations: 2 credits.\nOrganics are necessary for maintaining optimal crew skills and healing.	Durchschnittlicher Preis beim Verkauf an Stationen: 2 Credits.\nBiomasse ist notwendig, um optimale Besatzungsfertigkeiten und Heilung zu erhalten.	0		282145671:Shop panel tabbed.prefab; 70772486:Shop panel tabbed.prefab
 	ORGANICS	ORGANIK	0		225961057:Shop panel tabbed.prefab
-	Average price when sold by stations: 4 credits.\nExplosives are used by projectile- and missile weapons.	Durchschnittlicher Preis beim Verkauf an Stationen: 4 Credits.\nExplosivstoffe werden von Projektil- und Raketenwaffen verwendet.	0		955753814:Shop panel tabbed.prefab; 397111395:Shop panel tabbed.prefab
+	Average price when sold by stations: 4 credits.\nExplosives are used by projectile- and missile weapons.	Durchschnittlicher Preis beim Verkauf an Stationen: 4 Credits.\nSprengstoffe werden von Projektil- und Raketenwaffen verwendet.	0		955753814:Shop panel tabbed.prefab; 397111395:Shop panel tabbed.prefab
 	EXPLOSIVES	SPRENGSTOFFE	0		1317031195:Shop panel tabbed.prefab
 	Average price when sold by stations: 50 credits.\nExotics are an alternative currency to xenodata. Most automated trader stations accept exotics even if they don't buy any other resources.	Durchschnittlicher Preis beim Verkauf durch Stationen: 50 Credits.\nExoten sind eine alternative Währung zu Xenodaten. Die meisten automatischen Handelsstationen akzeptieren Exoten, auch wenn sie keine anderen Ressourcen kaufen.	0		1742609507:Shop panel tabbed.prefab; 188087373:Shop panel tabbed.prefab
 	EXOTICS	EXOTEN	0		99009998:Shop panel tabbed.prefab
@@ -5963,7 +5963,7 @@ text2	Time has degraded efficiency of the facility, as it was able to generate l
 choiceTexts	Convert another 100 synthetics to fuel	Weitere 100 Kunststoffe in Treibstoff umwandeln	100		1878132518:34 P Public convertor x3 MFO.prefab
 text2	After being loaded with the correct amount of explosives, the facilities start to make terrible noises and release large clouds of steam into the atmosphere. After a few hours, a container full of fuel emerges from the factory. We may repeat the process any time.	Nachdem die Anlage mit der richtigen Menge an Sprengstoff beladen wurde, beginnt sie schreckliche Geräusche zu machen und große Dampfwolken in die Atmosphäre abzugeben. Nach ein paar Stunden kommt ein Container voller Treibstoff aus der Fabrik. Der Vorgang kann jederzeit wiederholt werden.	400		684490836:34 P Public convertor x3 MFO.prefab
 reasonToDisplay	explosives converted	Sprengstoffe umgewandelt	30		34 P Public convertor x3 MFO.prefab
-choiceTexts	Convert another 30 explosives to fuel	Weitere 30 Explosivstoffe in Treibstoff umwandeln	100		684490836:34 P Public convertor x3 MFO.prefab
+choiceTexts	Convert another 30 explosives to fuel	Weitere 30 Sprengstoffe in Treibstoff umwandeln	100		684490836:34 P Public convertor x3 MFO.prefab
 text2	After a few hours, a container full of fuel emerges from the factory. We may repeat the process any time.	Nach einigen Stunden verlässt ein Behälter mit Treibstoff die Fabrik. Wir können den Vorgang jederzeit wiederholen.	400		684490835:34 P Public convertor x3 MFO.prefab
 choiceTexts	Convert another 80 organics to fuel	Weitere 80 Biomasse in Treibstoff umwandeln	100		684490835:34 P Public convertor x3 MFO.prefab
 title	Looted materials convertor	Geplünderter Materialkonverter	35		889048503:34 P Public convertor x3 MFO.prefab
@@ -7367,9 +7367,9 @@ text2	"A competitor!? How interesting to meet another food trader here, in the m
 
 Merchants L236 bulk DIY tech.prefab
 text	Merry existence, bone apes, we have heard of you! Might you be interested in bulk trading of manually assembled substandard technology? We have the finest prices.	Fröhliches Dasein, Knochenaffen, wir haben von euch gehört! Sind Sie vielleicht an einem Großhandel mit selbstgebauter minderwertiger Technik interessiert? Wir haben die besten Preise.	400		40042605:Merchants L236 bulk DIY tech.prefab
-choiceText	Buy 2 manually assembled cryosleep units for 100 credits	Kaufen [+2 selbstgebaute Kryoschlafmodule, -100 Credits]	100		40042605:Merchants L236 bulk DIY tech.prefab
-choiceText	Buy 3 manually assembled shield batteries for 200 credits	Kaufen [+3 selbstgebaute Schildbatterien, -200 Credits]	100		40042605:Merchants L236 bulk DIY tech.prefab
-choiceText	Buy 3 manually assembled reactors for 200 credits	Kaufen [+3 selbstgebaute Reaktoren, -200 Credits]	100		40042605:Merchants L236 bulk DIY tech.prefab
+choiceText	Buy 2 manually assembled cryosleep units for 100 credits	Kaufen [+2 Kryoschlafmodule, -100 Credits]	100		40042605:Merchants L236 bulk DIY tech.prefab
+choiceText	Buy 3 manually assembled shield batteries for 200 credits	Kaufen [+3 Schildbatterien, -200 Credits]	100		40042605:Merchants L236 bulk DIY tech.prefab
+choiceText	Buy 3 manually assembled reactors for 200 credits	Kaufen [+3 Reaktoren, -200 Credits]	100		40042605:Merchants L236 bulk DIY tech.prefab
 text2	The DIY cryosleep modules are in pristine condition. The traders (understanding that we are human) have left us a thank-you note and a large barrel of water, sweetened with sugar.	Die selbstgebauten Kryoschlafmodule sind in tadellosem Zustand. Die Händler (die wissen, dass wir Menschen sind) haben uns einen Dankesbrief und ein großes Fass Wasser, gesüßt mit Zucker, hinterlassen.	400		1771522369:Merchants L236 bulk DIY tech.prefab
 text2	All the batteries are manually assembled from spare parts as expected. The traders have obviously heard of humans, because they have left a large cylinder filled with alcohol and sugar as a bonus to the trade.	Alle Batterien sind, wie erwartet, von Hand aus Ersatzteilen zusammengebaut. Die Händler haben offensichtlich von Menschen gehört, denn sie haben eine große Flasche gefüllt mit Alkohol und Zucker als Bonus für den Handel hinterlassen.	400		1818576536:Merchants L236 bulk DIY tech.prefab
 text2	"Thank you for the smooth transaction. Please accept this small gift as an additional token of our gratitude!" The traders have obviously heard of humans, because they have gifted us a barrel filled with a mixture of sugar, salt, alcohol and potatoes.	"Danke für die reibungslose Transaktion. Bitte nehmt dieses kleine Geschenk als zusätzliches Zeichen unserer Dankbarkeit an!" Die Händler haben offensichtlich von den Menschen gehört, denn sie haben uns ein Fass, gefüllt mit einer Mischung aus Zucker, Salz, Alkohol und Kartoffeln, geschenkt.	400		252492595:Merchants L236 bulk DIY tech.prefab
@@ -8513,7 +8513,7 @@ displayName	Explosives storage (DIY)	Sprengstoffe-Behälter	40		271236703:explos
 description	Increases explosives storage capacity.	Erhöht die Lagerkapazität für Sprengstoffe.	200		271236703:explosives container 0 diy.prefab; 96469373:explosives container 1 small.prefab; 311517981:explosives container 3 large.prefab; 907034562:explosives container 2 medium.prefab
 
 explosives container 1 small.prefab
-displayName	Explosives storage	Explosivstoff-Lagerung	40		96469373:explosives container 1 small.prefab
+displayName	Explosives storage	Sprengstoffe-Behälter (klein)	40		96469373:explosives container 1 small.prefab
 
 explosives container 2 medium.prefab
 displayName	Explosives storage (medium)	Sprengstoffe-Behälter (mittel)	40		907034562:explosives container 2 medium.prefab
@@ -8836,23 +8836,23 @@ displayName	Artificial life garden	Garten des künstlichen Lebens	40		737359377:
 description	A module that supports fully synthetic non-carbon life. Uses excess heat generated with ship movement to rapidly produce synthetics.	Ein Modul, das vollständig synthetisches, kohlenstofffreies Leben unterstützt. Nutzt die überschüssige Wärme, die bei der Schiffsbewegung entsteht, um schnell synthetisches Leben zu produzieren.	200		737359377:garden 6 synthetics.prefab
 
 integrity 0 ancient.prefab
-displayName	Integrity hardpoint [ancient]	Panzerung (alt)	40		786297541:integrity 0 ancient.prefab
+displayName	Integrity hardpoint [ancient]	Alte Panzerung	40		786297541:integrity 0 ancient.prefab
 description	This ancient crude hardpoint can be installed to instantly gain extra ship HP, even during an emergency.	Diese uralte, primitive Panzerung lässt sich installieren, um sofort zusätzliche HP für das Schiff zu erhalten – sogar in Notfällen.	200		786297541:integrity 0 ancient.prefab
 
 integrity 0 DIY biotech.prefab
-displayName	DIY integrity hardpoint [bio]	Panzerung [bio]	40		1030243901:integrity 0 DIY biotech.prefab
+displayName	DIY integrity hardpoint [bio]	Biomasse-Panzerung	40		1030243901:integrity 0 DIY biotech.prefab
 description	An integrity module made of durable organics. Installing adds instantly ship HP.	Ein Lebenserhaltungsmodul aus strapazierfähigen organischen Materialien. Durch den Einbau werden die Schiffs-HP sofort erhöht.	200		1030243901:integrity 0 DIY biotech.prefab
 
 integrity 0 DIY carbon.prefab
-displayName	DIY integrity hardpoint [carbon]	Panzerung [Kohlenstoff]	40		1626770136:integrity 0 DIY carbon.prefab
+displayName	DIY integrity hardpoint [carbon]	Kohlenstoff-Panzerung	40		1626770136:integrity 0 DIY carbon.prefab
 description	This module considerably boosts ship HP. Installing the module instantly provides extra ship HP.	Dieses Modul erhöht die HP des Schiffes erheblich. Durch den Einbau des Moduls erhält das Schiff sofort zusätzliche HP.	200		1626770136:integrity 0 DIY carbon.prefab
 
 integrity 0 DIY metal.prefab
-displayName	DIY integrity hardpoint	Panzerung	40		429768775:integrity 0 DIY metal.prefab; 1860627745:Perk module DIY integrity.prefab
+displayName	DIY integrity hardpoint	Metall-Panzerung	40		429768775:integrity 0 DIY metal.prefab; 1860627745:Perk module DIY integrity.prefab
 description	Self-made integrity hardpoint that adds extra layers of internal ship armor. This module can be installed to gain extra ship HP, even during an emergency.	Selbstgebaute Panzerung, die der internen Schiffspanzerung zusätzliche Schichten hinzufügt. Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		429768775:integrity 0 DIY metal.prefab
 
 integrity 0 DIY plastic.prefab
-displayName	DIY integrity hardpoint [plastics]	Panzerung [Plastik]	40		1391715479:integrity 0 DIY plastic.prefab
+displayName	DIY integrity hardpoint [plastics]	Kunststoff-Panzerung	40		1391715479:integrity 0 DIY plastic.prefab
 description	A printed integrity module that improves ship HP and asteroid deflection. Installing provides instantly extra ship HP, even during an emergency.	Eine gedrucktes Panzerungsmodul, das die Schiffs-HP erhöht und die Ablenkung von Asteroiden verbessert. Durch die Installation erhält das Schiff sofort zusätzliche Lebenspunkte, selbst in Notfällen.	200		1391715479:integrity 0 DIY plastic.prefab
 
 integrity 0 DIY scaled.prefab
@@ -8864,22 +8864,22 @@ displayName	Integrity hardpoint R-7	Panzerung R-7	40		786297539:integrity 00 Rat
 description	This module can be installed to gain extra ship HP, even during an emergency.	Dieses Modul kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, sogar während eines Notfalls.	200		786297539:integrity 00 Ratty.prefab
 
 integrity 01 bio tissue.prefab
-displayName	Integrity suite I (biotech)	Integritätssuite I (Biotech)	40		1152326902:integrity 01 bio tissue.prefab
+displayName	Integrity suite I (biotech)	Biotech-Panzerung	40		1152326902:integrity 01 bio tissue.prefab
 description	Protective biotech system. Install to instantly gain extra ship HP and asteroid deflection. The module itself is somewhat fragile.	Biotechnologisches Schutzsystem. Nach der Installation erhältst du sofort zusätzliche HP für dein Schiff sowie die Fähigkeit, Asteroiden abzuwehren. Das Modul selbst ist jedoch relativ empfindlich.	200		1152326902:integrity 01 bio tissue.prefab
 
 integrity 01 bronze.prefab
-displayName	Integrity hardpoint T-8	Panzerung T-8	40		1955952396:integrity 01 bronze.prefab
+displayName	Integrity hardpoint T-8	T-8 Panzerung	40		1955952396:integrity 01 bronze.prefab
 description	Integrity hardpoint and associated technology. Can be installed to gain extra ship HP, even during an emergency.	Panzerung und zugehörige Technologie. Kann installiert werden, um zusätzliche Schiffs-HP zu erhalten, auch während eines Notfalls.	200		1955952396:integrity 01 bronze.prefab; 786297542:integrity 01 silver.prefab
 
 integrity 01 silver.prefab
-displayName	Integrity hardpoint T-9	Panzerung T-9	40		786297542:integrity 01 silver.prefab
+displayName	Integrity hardpoint T-9	T-9 Panzerung	40		786297542:integrity 01 silver.prefab
 
 integrity 04 jade scales.prefab
-displayName	Integrity hardpoint Jade	Panzerung Jade	40		716815312:integrity 04 jade scales.prefab
+displayName	Integrity hardpoint Jade	Jade-Panzerung	40		716815312:integrity 04 jade scales.prefab
 description	Integrated hardpoint/shield battery that adds ship HP and max shieldpoint capacity and is very durable itself.. Install to gain instantly extra ship HP.	Panzerung & Schild-Batterie, die die HP des Schiffes sowie die maximale Schildkapazität erhöht und selbst sehr widerstandsfähig ist. Installiere sie, um sofort zusätzliche HP für dein Schiff zu erhalten.	200		716815312:integrity 04 jade scales.prefab
 
 integrity 05 blue scales.prefab
-displayName	Integrity hardpoint, type Solace	Panzerung, Typ Trost	40		2071389332:integrity 05 blue scales.prefab
+displayName	Integrity hardpoint, type Solace	Trost-Panzerung	40		2071389332:integrity 05 blue scales.prefab
 description	Integrated hardpoint/shield battery that adds ship HP and max shieldpoint capacity. Install to gain instantly extra ship HP.	Integrierte Panzerung/Schild-Batterie, die die HP des Schiffes und die maximale Schildkapazität erhöht. Durch die Installation erhältst du sofort zusätzliche HP für dein Schiff.	200		2071389332:integrity 05 blue scales.prefab
 
 integrity 06 big green scales.prefab
@@ -8900,14 +8900,14 @@ explosives combinator 1.prefab
 displayName	Explosives combinator, grade I	Sprengstoff-Kombinator I	40		1615170861:explosives combinator 1.prefab
 description	Instantly combines desired amount of synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	Kombiniert sofort die gewünschte Menge an Kunststoffen und Treibstoff zu Sprengstoff. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200		1615170861:explosives combinator 1.prefab
 MaterialsConverter.resourceConsumptionReason	converted to explosives	umgewandelt in Sprengstoffe	30		1615170861:explosives combinator 1.prefab; 1363987393:explosives combinator tiger.prefab; 1515661102:explosives combinator diy.prefab
-MaterialsConverter.resourceProductionReason	produced by explosives combinator	hergestellt durch Explosivstoff-Kombinator	30		1615170861:explosives combinator 1.prefab; 1363987393:explosives combinator tiger.prefab; 1515661102:explosives combinator diy.prefab
+MaterialsConverter.resourceProductionReason	produced by explosives combinator	hergestellt durch Sprengstoff-Kombinator	30		1615170861:explosives combinator 1.prefab; 1363987393:explosives combinator tiger.prefab; 1515661102:explosives combinator diy.prefab
 
 explosives combinator diy.prefab
 displayName	Explosives combinator, DIY	Sprengstoff-Kombinator	40		1515661102:explosives combinator diy.prefab
 description	Instantly combines synthetics & fuels into explosives. Small risk of malfunctions. Robust structure improves ship HP.	Kombiniert Kunststoffe und Treibstoff sofort zu Sprengstoffen. Geringes Risiko von Fehlfunktionen. Robuste Struktur verbessert die Schiffs-HP.	200		1515661102:explosives combinator diy.prefab
 
 explosives combinator tiger.prefab
-displayName	Explosives combinator, type T	Explosivstoff-Kombinator, Typ T	40		1363987393:explosives combinator tiger.prefab
+displayName	Explosives combinator, type T	Sprengstoff-Kombinator, Typ T	40		1363987393:explosives combinator tiger.prefab
 description	Instantly combines synthetics & fuels into explosives. Robust structure improves ship HP.	Kombiniert Kunststoffe und Treibstoff sofort zu Sprengstoffen. Die robuste Struktur verbessert die Schiffs-HP.	200		1363987393:explosives combinator tiger.prefab
 
 fuel combinator 1A old.prefab
@@ -9246,11 +9246,11 @@ displayName	Shield decoy	Schild-Täuschkörper	40		2047550720:shield decoy 1.pre
 description	A highly armored shield battery that increases max shield points and ship HP.\nAppears as shield generator to enemy sensors.	Eine stark gepanzerte Schildbatterie, die die maximalen Schildpunkte und die Schiffs-HP erhöht.\nFür gegnerische Sensoren erscheint sie als Schildgenerator.	200		2047550720:shield decoy 1.prefab
 
 shieldbat 0 diy.prefab
-displayName	Shield batteries DIY	Schildbatterien	40		741193982:shieldbat 0 diy.prefab
+displayName	Shield batteries DIY	Schildbatterie	40		741193982:shieldbat 0 diy.prefab
 description	Increases maximum shield points, but doesn't recharge shields.	Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht auf.	200		741193982:shieldbat 0 diy.prefab; 741188605:shieldbat 1 diy.prefab; 1494179234:shieldbat 1.5 rats diy.prefab; 1750659454:shieldbat 2 rats.prefab; 1995642572:shieldbat 1.4 tiger.prefab
 
 shieldbat 1 diy.prefab
-displayName	Shield batteries DIY-8	DIY-8-Schildbatterien	40		741188605:shieldbat 1 diy.prefab
+displayName	Shield batteries DIY-8	DIY-8-Schildbatterie	40		741188605:shieldbat 1 diy.prefab
 
 shieldbat 1.4 tiger.prefab
 displayName	Shield Battery Tiger	Schildbatterie Tiger	40		1995642572:shieldbat 1.4 tiger.prefab
@@ -9262,15 +9262,15 @@ shieldbat 2 rats.prefab
 displayName	Shield battery, Rat Empire	Rattenimperium Schildbatterie	40		1750659454:shieldbat 2 rats.prefab
 
 shieldbat 2 terran.prefab
-displayName	Shield batteries T1	Schildbatterien T1	40		911395348:shieldbat 2 terran.prefab
+displayName	Shield batteries T1	T1 Schildbatterie	40		911395348:shieldbat 2 terran.prefab
 description	Increases maximum shield points, but doesn't recharge shields. Resilient structure improves ship HP.	Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht wieder auf. Elastische Struktur verbessert die Schiffs-HP.	200		911395348:shieldbat 2 terran.prefab
 
 shieldbat 2.5 rotor.prefab
-displayName	Shield battery, custom cooled	Schildbatterie, speziell gekühlt	40		1090475877:shieldbat 2.5 rotor.prefab
+displayName	Shield battery, custom cooled	Speziell gekühlte Schildbatterie, 	40		1090475877:shieldbat 2.5 rotor.prefab
 description	Increases maximum shield points, but does not recharge shields. This custom battery is powerful but power-hungry.	Erhöht die maximalen Schildpunkte, aber lädt die Schilde nicht wieder auf. Diese Spezialbatterie ist leistungsstark, aber energiehungrig.	200		1090475877:shieldbat 2.5 rotor.prefab
 
 shieldbat 3 generic alien.prefab
-displayName	Shield batteries, type U	Schildbatterien, Typ U	40		1179432425:shieldbat 3 generic alien.prefab
+displayName	Shield batteries, type U	U-Schildbatterie	40		1179432425:shieldbat 3 generic alien.prefab
 description	Increases maximum shield points, but doesn't recharge shields. Robust structure improves ship HP.	Erhöht die maximalen Schildpunkte, aber lädt die Schilde nicht wieder auf. Die robuste Struktur verbessert die HP des Schiffes.	200		1179432425:shieldbat 3 generic alien.prefab
 
 shieldbat 3 gmo biotech.prefab
@@ -9278,15 +9278,15 @@ displayName	Shield battery III (biotech)	Biotech-Schildbatterie III	40		74390932
 description	Increases maximum shield points, but no recharge. Engineered bacteria within the battery provide much organics if scrapped.	Erhöht die maximalen Schildpunkte, aber keine Wiederaufladung. Entwickelte Bakterien innerhalb der Batterie liefern viel Biomasse, wenn sie verschrottet werden.	200		74390932:shieldbat 3 gmo biotech.prefab
 
 shieldbat 4 alien fragile.prefab
-displayName	Shield batteries, Type-RB	Schildbatterien, Typ-RB	40		362125527:shieldbat 4 alien fragile.prefab
+displayName	Shield batteries, Type-RB	RB-Schildbatterie	40		362125527:shieldbat 4 alien fragile.prefab
 description	Increases maximum shield points, but doesn't recharge shields. Very delicate structure due to exotic materials.	Erhöht die maximalen Schildpunkte, aber lädt die Schilde nicht wieder auf. Sehr empfindliche Struktur aufgrund exotischer Materialien.	200		362125527:shieldbat 4 alien fragile.prefab
 
 shieldbat 4 EB.prefab
-displayName	Shield batteries,Type EBR	Schildbatterien, Typ EBR	40		613933919:shieldbat 4 EB.prefab
+displayName	Shield batteries,Type EBR	EBR-Schildbatterie 	40		613933919:shieldbat 4 EB.prefab
 description	Increases maximum shield points, but does not recharge them. Robust structure improves ship HP.	Erhöht die maximalen Schildpunkte, lädt sie aber nicht wieder auf. Robuste Struktur verbessert die HP des Schiffes.	200		613933919:shieldbat 4 EB.prefab
 
 shieldbat 5 floral.prefab
-displayName	Shield battery, advanced biotech	Schildbatterie, erweiterte Biotechnologie	40		1094609544:shieldbat 5 floral.prefab
+displayName	Shield battery, advanced biotech	Fortschrittliche Biotech-Schildbatterie	40		1094609544:shieldbat 5 floral.prefab
 description	Increases maximum shield points, but does not recharge shields.	Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht wieder auf.	200		1094609544:shieldbat 5 floral.prefab
 
 Stealth decryptor 1 diy.prefab
