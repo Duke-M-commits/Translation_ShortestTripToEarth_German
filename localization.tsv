@@ -9987,7 +9987,8 @@ displayName	Monolith launcher	Monolith-Abschussvorrichtung	40		1348589878:weapon
 description	This platform prints supersolid metal monoliths with rocket engines. The massive projectiles deal mostly hull damage but can be deflected. The launcher itself is quite brittle, but launched missiles have 8hp.	Diese Plattform feuert extrem solide Metallmonolithen mit Raketentriebwerken ab. Die massiven Geschosse verursachen hauptsächlich Rumpfschaden, können jedoch abgewehrt werden. Die Abschussvorrichtung selbst ist recht zerbrechlich, die abgefeuerten Geschosse verfügen jedoch über 8 HP.	200		1348589878:weapon monolith missile x1.prefab
 
 weapon ratmissile x2.prefab
-displayName	Rat missile platform	Ratten-Raketenplattform	40		597713891:weapon ratmissile x2.prefab; 777119861:weapon ratmissile x3.prefab
+displayName	Rat missile platform	Ratten-Raketenplattform 2	40	597713891:weapon ratmissile x2.prefab	597713891:weapon ratmissile x2.prefab; 777119861:weapon ratmissile x3.prefab
+displayName	Rat missile platform	Ratten-Raketenplattform 3	40	777119861:weapon ratmissile x3.prefab	597713891:weapon ratmissile x2.prefab; 777119861:weapon ratmissile x3.prefab
 description	Incendiary rocket printing & launching platform. Large AoE, consumes explosives. Missiles cannot be deflected by slot/module armor. Each missile has 1hp.	Brandstiftende Raketendruck- & Abschussplattform. Große AoE, verbraucht Sprengstoff. Raketen können nicht durch Steckplatz-/Modulpanzerung abgelenkt werden. Jede Rakete hat 1 HP.	200		597713891:weapon ratmissile x2.prefab; 777119861:weapon ratmissile x3.prefab
 
 weapon ratmissile x3.prefab
