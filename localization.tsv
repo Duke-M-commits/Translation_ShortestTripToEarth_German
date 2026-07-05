@@ -505,7 +505,7 @@ PlayerStatsPanel.cs
 	{0} +{1}	{0} +{1}	0		PlayerStatsPanel.cs
 	Asteroid deflection	Asteroiden Ablenkung	0		PlayerStatsPanel.cs
 	{0} +{1}%	{0} +{1}%	0		PlayerStatsPanel.cs
-	Starmap stealth detection level	Sternenkarte-Tarnkappen-Erkennungsstufe	0		PlayerStatsPanel.cs
+	Starmap stealth detection level	Tarnkappensstufe	0		PlayerStatsPanel.cs
 	{0} (provides {1}, using max)	{0} (liefert {1}, bei Verwendung von max)	0		PlayerStatsPanel.cs
 	Shipwide accuracy bonus - makes weapons more accurate	Schiffsweiter Genauigkeit-Bonus - macht Waffen genauer	0		PlayerStatsPanel.cs
 	{0} (accuracy {1:+0;-0;+0}%)	{0} (Genauigkeit {1:+0;-0;+0}%)	0		PlayerStatsPanel.cs
@@ -949,30 +949,30 @@ Second line needs to be translated	Yuo\n<b>EXIT</b>	Yuo\n<b>AUSGANG</b>	0		12183
 	300ru	300au	0		2046870449:Help panel.prefab; 585268486:Help panel.prefab
 	Time left: 12.5s	Verbleibende Zeit: 12,5s	0		490375973:Help panel.prefab; 1683731713:Help panel.prefab
 Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max. 3 Sprünge)	0		1486314171:Help panel.prefab; 310754624:Help panel.prefab
-	We detect fleets in systems\nif their stealth level is same\nor lesser than our detection level.	Wir erkennen Flotten in Systemen, wenn\nihre Tarnstufe gleich oder niedriger\nals unsere Erkennungsstufe ist.	0		1462745488:Help panel.prefab
-	Sensors usually detect planets\nand other large (not all) objects in starsystems.	Sensoren erkennen normalerweise Planeten\nund andere große (nicht alle) Objekte in Sternensystemen.	0		512064488:Help panel.prefab
-	Trade signals show presence of stations\nor other actors willing to trade.	Handelssignale zeigen die Anwesenheit von Stationen\noder anderen handelswilligen Akteuren.	0		2091233306:Help panel.prefab
-	We cannot see information about starsystems\noutside our sensor range.	Wir können keine Informationen über Sternensysteme\naußerhalb unserer Sensorreichweite sehen.	0		1866330980:Help panel.prefab
+	We detect fleets in systems\nif their stealth level is same\nor lesser than our detection level.	Wir erkennen Flotten in Systemen, wenn\nihre Tarnstufe gleich oder niedriger\nals unsere Erkennungsstufe ist	0		1462745488:Help panel.prefab
+	Sensors usually detect planets\nand other large (not all) objects in starsystems.	Sensoren erkennen normalerweise Planeten\nund andere große (nicht alle) Objekte in Sternensystemen	0		512064488:Help panel.prefab
+	Trade signals show presence of stations\nor other actors willing to trade.	Handelssignale zeigen die Anwesenheit von Stationen\noder anderen handelswilligen Akteuren	0		2091233306:Help panel.prefab
+	We cannot see information about starsystems\noutside our sensor range.	Wir können keine Informationen über Sternensysteme\naußerhalb unserer Sensorreichweite sehen	0		1866330980:Help panel.prefab
 	Sector view basics	Sektorenansicht (Grundlagen)	0		1173675211:Help panel.prefab
 	When enemy is nearby, or in battles, warp drive takes some time to warm up and warp.\nIn other instances warping is almost instant. Some warpmodules load up faster than others.	Wenn ein Feind in der Nähe ist, oder in Kämpfen, braucht der Warpantrieb einige Zeit, um sich aufzuwärmen und zu warpen.\nIn anderen Fällen ist das Warpen fast sofort. Einige Warpmodule laden schneller auf als andere.	0		987140531:Help panel.prefab
-	Warpdrives consume a lot of fuel with each warp.	Warpantriebe verbrauchen bei jedem Warp eine Menge Treibstoff.	0		60608608:Help panel.prefab
-	Stealth detection level.	Tarnkappen-Erkennungsstufe.	0		1020258647:Help panel.prefab
+	Warpdrives consume a lot of fuel with each warp.	Warpantriebe verbrauchen bei jedem Warp eine Menge Treibstoff	0		60608608:Help panel.prefab
+	Stealth detection level.	Tarnkappensstufe	0		1020258647:Help panel.prefab
 	Sector view\nsensor range	Sensorreichweite	0		1755601387:Help panel.prefab
 	Sector view details	Sektorenansicht (Details)	0		1718685264:Help panel.prefab
 	Successful attacks can damage our ship integrity, which is measured in Hull Points (HP). Any damage to ship HP will be represented by damage tokens on the ship hull.\n\nThere are many different types of damage tokens, some of them are critical and may cause further explosions or fires if not repaired quickly.\n\nRepairing damage tokens manually with crew takes a fair amount of time & is more expensive than repairing in stations. Damage tokens inside walls can be only repaired at stations.\n\nYou can assign "repair officer" role to crewmembers so they go and repair tokens automatically.	Erfolgreiche Angriffe können unsere Schiffshülle beschädigen, die in Hüllenpunkten (HP) gemessen wird.\nJeder Schaden an den HP des Schiffes wird auf der Schiffshülle dargestellt.\n\nEs gibt viele verschiedene Arten von Schäden, einige davon sind kritisch und können weitere Explosionen oder Brände verursachen, wenn sie nicht schnell repariert werden. \n\nDie manuelle Reparatur von Schäden durch die Besatzung nimmt ziemlich viel Zeit in Anspruch & ist teurer als die Reparatur in Stationen. \nSchäden innerhalb von Wänden können nur an Stationen repariert werden.\n\nDu kannst Besatzungsmitgliedern die Rolle des Mechanikers zuweisen, so dass sie automatisch zur Reparatur von Schiffsschäden gehen.	0		51000553:Help panel.prefab
 	Ship hull points	Schiffshüllenpunkte	0		1078782107:Help panel.prefab
 	In easier game mode(s): when ship HP reaches 0, damage is substracted from ship max HP. This permanent damage cannot be repaired.	In leichteren Spielmodi: Wenn die Schiffshüllenpunkte 0 erreichen, wird der Schaden von den maximalen Schiffshüllenpunkten abgezogen. Dieser permanente Schaden kann nicht repariert werden.	0		174948977:Help panel.prefab
-	If your stealth detection is same or higher than stealth level of enemy fleet, you will see the enemy fleet as a red icon and also the area that it guards on the starsystem map.	Wenn deine Tarnkappenerkennung gleich oder höher ist als die Tarnkappenstufe der gegnerischen Flotte, siehst du die gegnerische Flotte als rotes Symbol und auch den Bereich, den sie bewacht, auf der Sternensystemkarte.	0		914310007:Help panel.prefab
+	If your stealth detection is same or higher than stealth level of enemy fleet, you will see the enemy fleet as a red icon and also the area that it guards on the starsystem map.	Wenn deine Tarnkappensstufe gleich oder höher ist als die der gegnerischen Flotte, siehst du die gegnerische Flotte als rotes Symbol und auch den Bereich, den sie bewacht, auf der Sternensystemkarte.	0		914310007:Help panel.prefab
 	High danger of\nasteroid impacts	Hohe Gefahr von\nAsteroideneinschlägen	0		337343467:Help panel.prefab
 	Concentrated asteroid clusters have increased risk of impacts.\nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidenanhäufung mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktabwehr und Lebenserhaltungsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0		1479796479:Help panel.prefab
 	Weapons & other modules	Waffen und andere Module	0		1247357009:Help panel.prefab
 	Weapons and ECM modules can only be installed to external slots:	Waffen und EGM-Module können nur auf externen Steckplätzen eingebaut werden:	0		2113675336:Help panel.prefab
 	Point defences can only be installed in hybrid slots:	Punktabwehr kann nur in Hybrid-Steckplätzen eingebaut werden:	0		842504228:Help panel.prefab
-	Most other modules can be installed to internal, core, hybrid or external slots:	Die meisten anderen Module passen in interne, verstärkten, Hybrid- und externe Steckplätze:	0		1970576544:Help panel.prefab
+	Most other modules can be installed to internal, core, hybrid or external slots:	Die meisten anderen Module passen in interne, verstärkte, Hybrid- und externe Steckplätze:	0		1970576544:Help panel.prefab
 	Special modules like warp, engine, bridge and capital missile can only be installed to dedicated slots:	Spezialmodule wie Warp, Triebwerk, Brücke und Bomben können nur in speziellen Steckplätzen eingebaut werden:	0		1986842920:Help panel.prefab
 	Module slot upgrades	Modulsteckplatz-Aufrüstungen	0		1779317176:Help panel.prefab
 	Some of the module slots can be upgraded at a cost. Make sure that slot is empty and undamaged before upgrading.	Einige der Modulsteckplätze können kostenpflichtig aufgerüstet werden. Stelle sicher, dass der Steckplatz leer und unbeschädigt ist, bevor du aufrüstest.	0		1685475928:Help panel.prefab
-	Internal slots can be upgraded to core slots, which give additional hitpoints to ship hull.	Interne Steckplätze können verstärkt gerüstet werden, die der Schiffshülle zusätzliche Trefferpunkte verleihen.	0		892840485:Help panel.prefab
+	Internal slots can be upgraded to core slots, which give additional hitpoints to ship hull.	Interne Steckplätze können verstärkt werden, um der Schiffshülle zusätzliche Trefferpunkte verleihen.	0		892840485:Help panel.prefab
 	All hybrid slots can be upgraded to weapon slots.	Alle Hybrid-Steckplätze können zu Waffensteckplätzen aufgerüstet werden.	0		633516109:Help panel.prefab
 	There is a chance that if module gets damaged, its maximum hitpoints are also permanently reduced to half -- resulting in half hitpoints when repaired.	Es besteht die Möglichkeit, dass, wenn ein Modul beschädigt wird, seine maximalen HP dauerhaft auf die Hälfte reduziert werden - was zu halben HP führt, wenn es repariert wird.	0		1755905979:Help panel.prefab
 	You can see how many times module max hitpoints have been reduced by the number of x-es on it.	Wie oft die maximalen Trefferpunkte eines Moduls reduziert wurden, kannst an der Anzahl der x-es auf dem Modul erkennen.	0		1623604792:Help panel.prefab
@@ -980,7 +980,7 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	You can use crafting to save yourself after losing an important module like engines or warpdrive. DIY bridges, engines and weapons can also be crafted from their respective slots.	Du kannst Module selbst herstellen, um dich nach dem Verlust eines wichtigen Moduls wie Triebwerke oder Warpantrieb zu retten. Brücken, Triebwerke und Waffen können ebenfalls in den jeweiligen Steckplätzen gebaut werden.	0		369729449:Help panel.prefab
 	For a small extra cost, you can craft resource packages that can be stored in the module storage container or any free slot.	Gegen einen geringen Aufpreis kannst du Ressourcenpakete schnüren, die im Frachtraum oder in einem beliebigen freien Steckplatz gelagert werden können.	0		1206861005:Help panel.prefab
 	Modules can be turned off from the power switch button.\nIf a module is turned off, it does not need any of its listed requirements.	Module können über den EIN-/AUS Knopf ausgeschaltet werden.\nWenn ein Modul ausgeschaltet ist, benötigt es keine seiner aufgeführten Anforderungen.	0		589937675:Help panel.prefab
-	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nRepariere Module, indem du ein Besatzungsmitglied auswählst und dann mit R auf ein beschädigtes Modul klickst.\n\nBeschädigte Module können für 10 Kunststoffe pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0		1598167775:Help panel.prefab
+	Damaged modules are covered with red highlight and cannot be used until they are repaired.\n\nRepair modules by selecting a crewmember and then R-clicking on a damaged module.\n\nDamaged modules can be repaired for 10 synthetics per module hitpoint.\n\nCrewmembers have varying repair skills, affecting the time needed for repair.	Beschädigte Module sind rot markiert und können nicht verwendet werden, bis sie repariert sind.\n\nRepariere Module, indem du ein Besatzungsmitglied auswählst und dann mit der rechten Maustaste auf ein beschädigtes Modul klickst.\n\nBeschädigte Module können für 10 Kunststoffe pro Modul-Trefferpunkt repariert werden.\n\nBesatzungsmitglieder haben unterschiedliche Fertigkeiten, die sich auf die für die Reparatur benötigte Zeit auswirken.	0		1598167775:Help panel.prefab
 	Module damage	Modulschaden	0		1643476115:Help panel.prefab
 	Ship Combat & Weapon Types	Schiffskampf & Waffentypen	0		257051979:Help panel.prefab
 	Energy weapons	Energiewaffen	0		1800579370:Help panel.prefab
@@ -1620,7 +1620,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0		1665000636:Module data subpanel.prefab
 	Shipwide accuracy bonus	Schiffsweiter Genauigkeit-Bonus	0		825530681:Module data subpanel.prefab
 	Sector radar range.\nShip will use max value if multiple sensors are present	Sektor-Radar-Reichweite: Das Schiff verwendet den höchsten Wert, wenn mehrere Sensoren vorhanden sind.	0		91847601:Module data subpanel.prefab
 	Max shield point capacity	Maximale Schildpunkte	0		803860322:Module data subpanel.prefab
-	Stealth detection level\nShip will use max value	Tarnkappen-Erkennungsstufe\nSchiff verwendet den Maximalwert	0		861349989:Module data subpanel.prefab
+	Stealth detection level\nShip will use max value	Tarnkappensstufe\nSchiff verwendet den Höchstwert	0		861349989:Module data subpanel.prefab
 	Organics consumed per minute	Verbrauch von Biomasse pro Minute	0		1991544952:Module data subpanel.prefab
 	Fuel consumed per minute	Verbrauch von Treibstoff pro Minute	0		94046886:Module data subpanel.prefab
 	Metals consumed per minute	Verbrauch von Metallen pro Minute	0		2120242197:Module data subpanel.prefab
@@ -1701,10 +1701,10 @@ Button. Additional information for player ship	STATS	INFO	6		271529559:Player pa
 	Opens quick selection screen	Blendet das Schnellauswahl-Fenster ein/aus	0		374890966:Player panel.prefab
 Button. Opens quick-selection panel for weapons	QUICK	SCHNELL	6		2133620955:Player panel.prefab
 	Opens sector map. Use warp to travel between different starsystems	Öffnet die Sektorkarte. Verwende Warp, um zwischen verschiedenen Sternensystemen zu reisen	0		117080182:Player panel.prefab
-Button. Opens sector-map view/panel where player can warp.	SECTOR	SEKTOREN	6		295015820:Player panel.prefab
+Button. Opens sector-map view/panel where player can warp.	SECTOR	SEKTOR	6		295015820:Player panel.prefab
 Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	FLUCHT	6		1150695572:Player panel.prefab
 	Toggles starsystem view	Umschalten auf die Sternensystemansicht	0		1482715764:Player panel.prefab
-Button/Toggle. Opens starsystem view.	STAR	STERNE	6		181114901:Player panel.prefab
+Button/Toggle. Opens starsystem view.	STAR	STERN	6		181114901:Player panel.prefab
 	Toggles ship view	Schaltet auf Schiffsansicht um	0		927952142:Player panel.prefab
 	UPGRADES	AUF- \nRÜSTEN	10		1627238085:Player panel.prefab
 	Module crafts available!	Modul Handwerk verfügbar!	0		1065151186:Player panel.prefab
@@ -1810,8 +1810,8 @@ Button. Additional information for player ship	DODGE	AUSWEICHEN	20		1717138745:Q
 Button. Additional information for player ship	45s	45s	20		194431222:Quickselect panel.prefab
 	Add quickselection slot	Schnellwahl hinzufügen	0		1897126533:Quickselect panel.prefab
 	Remove quickselection slot	Schnellwahl entfernen	0		805315608:Quickselect panel.prefab
-	SELECT MODULE/CREW THEN R-CLICK TO PLACE INTO QUICK SELECTION BOX	MODUL/BESATZUNG AUSWÄHLEN, DANN R-KLICK ZUM PLATZIEREN IN SCHNELLAUSWAHL	0		492660637:Quickselect panel.prefab
-	Select module/crew then R-click to place into quick selection box	Modul/Besatzung auswählen und mit R-Klick in der Schnellauswahl platzieren	0		548533653:Quickselect panel.prefab
+	SELECT MODULE/CREW THEN R-CLICK TO PLACE INTO QUICK SELECTION BOX	MODUL/BESATZUNG AUSWÄHLEN, DANN RECHTSKLICK ZUM PLATZIEREN IN SCHNELLAUSWAHL	0		492660637:Quickselect panel.prefab
+	Select module/crew then R-click to place into quick selection box	Modul/Besatzung auswählen und mit Rechtsklick in der Schnellauswahl platzieren	0		548533653:Quickselect panel.prefab
 	Reload time remaining	Verbleibende Nachladezeit	0		1327099087:Quickselect panel.prefab
 	NO AMMO	KEINE MUNITION	0		657320383:Quickselect panel.prefab
 	READY	BEREIT	0		659688988:Quickselect panel.prefab
@@ -1842,7 +1842,7 @@ Sector map panel.prefab
 	Warping fuel cost	Warp-Treibstoffkosten	0		88016833:Sector map panel.prefab
 	Can't jump, too far from closest star	Kann nicht springen, zu weit vom nächsten Stern entfernt	0		1611953473:Sector map panel.prefab
 	WARP IN PROGRESS...	RAUMZEIT WIRD GEKRÜMMT...	0		946324679:Sector map panel.prefab
-	Stealth detection level. We can only see fleets that have lower stealth than our detection level.	Tarnkappen-Erkennungsstufe. Wir können nur Flotten sehen, die eine geringere Tarnkappe haben als unsere Erkennungsstufe.	0		593184104:Sector map panel.prefab
+	Stealth detection level. We can only see fleets that have lower stealth than our detection level.	Tarnkappensstufe. Wir können nur Flotten sehen, die einen geringere Wert als wir haben.	0		593184104:Sector map panel.prefab
 	Cancel warp	Warp abbrechen	0		2137811815:Sector map panel.prefab
 	Warp to destination	Warp zum Ziel	0		590757833:Sector map panel.prefab
 
@@ -3735,7 +3735,7 @@ name2	Inhabited planet	Bewohnter Planet	25		633701986:1 Pi nuclear industr milit
 name3	primitives	Primitive	25		633701986:1 Pi nuclear industr militants MFE.prefab; 535333421:2 Pi local chem warfare EFmR.prefab; 789785465:4 Pi industrial city ritual of poisons FEr.prefab; 1454151366:5 Pi nuclear digital militants MFE 2.prefab
 text	The planet is inhabited by a highly militarized industrial-era insectoid civilization, covered in cities and industrial areas. We are still in scanning when the locals send a warning to stay away from their property or else.	Der Planet wird von einer hochmilitarisierten insektoiden Zivilisation aus der Industriezeit bewohnt, die mit Städten und Industriegebieten überzogen ist. Wir sind noch beim Scannen, als die Einheimischen eine Warnung senden, sich von ihrem Eigentum fernzuhalten, sonst.	400		1562278521:1 Pi nuclear industr militants MFE.prefab
 choiceText	Ask for trade, try to negotiate	Zu verhandeln versuchen	100		1562278521:1 Pi nuclear industr militants MFE.prefab; 1332332352:5 Pi nuclear digital militants MFE 2.prefab
-choiceText	Disengage, but send stealth bots to scout the planet	Zurückziehen, aber Tarnkappen-Bots schicken, um den Planeten auszukundschaften.	100		1562278521:1 Pi nuclear industr militants MFE.prefab
+choiceText	Disengage, but send stealth bots to scout the planet	Zurückziehen, aber getarnte Bots schicken, um den Planeten auszukundschaften.	100		1562278521:1 Pi nuclear industr militants MFE.prefab
 choiceText	Disengage. This species has yet much to learn.	Zurückziehen, diese Spezies hat noch viel zu lernen.	100		1562278521:1 Pi nuclear industr militants MFE.prefab; 1332332352:5 Pi nuclear digital militants MFE 2.prefab
 newName3	industrial-era primitives	Primitive des Industriezeitalters	25		1562278521:1 Pi nuclear industr militants MFE.prefab
 text	Covert operation... %	Verdeckte Operation... %	50		463800574:1 Pi nuclear industr militants MFE.prefab; 888951029:2 Pi digital-era militarized, sensor disruptors MFE.prefab; 888951030:2 Pi digital-era militarized, sensor disruptors MFE.prefab; 1177190492:5 Pi nuclear digital militants MFE 2.prefab; 1884326599:2 Pi digital-era militarized, sensor disruptors MFE.prefab
@@ -5112,7 +5112,7 @@ text	The planet is mostly covered with deserts, atmospheric analysis shows prese
 choiceText	Search for the energy source [-5 fuel]	Nach der Energiequelle suchen [-5 Treibstoff]	100		1709674425:4 Pi cactibugs, steal T.prefab
 text	The planet is inhabited by an early civilization of insectoid tool-users. They spend most of their time gathering or hunting large amounts of food into a single huge underground temple. Incidentally, the temple seems to be a source of the warp energies.	Der Planet wird von einer frühen Zivilisation von insektoiden Werkzeugbenutzern bewohnt. Sie verbringen die meiste Zeit damit, große Mengen an Nahrung in einem einzigen riesigen unterirdischen Tempel zu sammeln oder zu jagen. Zufälligerweise scheint der Tempel eine Quelle der Warpenergien zu sein.	400		1646888736:4 Pi cactibugs, steal T.prefab
 title	Operation results	Ergebnisse der Operation	35		1275636374:4 Pi cactibugs, steal T.prefab; 1275636373:4 Pi cactibugs, steal T.prefab
-text2	Our crewmembers left, only to return at nightfall. Using stealth technology, they infiltrated the temple and took the Egg, replacing it with a cheap plastic replica. Unfortunately, a mechanical trap consisting of a huge granite slab in the temple crushed our operatives as they were leaving, causing critical injuries.	Unsere Besatzungsmitglieder sind abgereist, um bei Einbruch der Nacht zurückzukehren. Mit Hilfe von Tarnkappen-Technologie infiltrierten sie den Tempel und nahmen das Ei an sich, um es durch eine billige Plastikkopie zu ersetzen. Unglücklicherweise wurden unsere Agenten beim Verlassen des Tempels von einer mechanischen Falle, bestehend aus einer riesigen Granitplatte, zerquetscht und erlitten dabei schwere Verletzungen.	400		1275636374:4 Pi cactibugs, steal T.prefab
+text2	Our crewmembers left, only to return at nightfall. Using stealth technology, they infiltrated the temple and took the Egg, replacing it with a cheap plastic replica. Unfortunately, a mechanical trap consisting of a huge granite slab in the temple crushed our operatives as they were leaving, causing critical injuries.	Unsere Besatzungsmitglieder sind abgereist, um bei Einbruch der Nacht zurückzukehren. Mit Hilfe von Tarnkappentechnologie infiltrierten sie den Tempel und nahmen das Ei an sich, um es durch eine billige Plastikkopie zu ersetzen. Unglücklicherweise wurden unsere Agenten beim Verlassen des Tempels von einer mechanischen Falle, bestehend aus einer riesigen Granitplatte, zerquetscht und erlitten dabei schwere Verletzungen.	400		1275636374:4 Pi cactibugs, steal T.prefab
 reasonToDisplay	artifact stolen	Artefakt gestohlen	30		4 Pi cactibugs, steal T.prefab; 4 Pi cactibugs, steal T.prefab
 text	covert operation... %	Verdeckte Operation... %	50		504137016:4 Pi cactibugs, steal T.prefab; 1127467667:5 Pi nuclear digital militants MFE 2.prefab
 title	Representative of Sus-Click	Repräsentant der Sus-Klick	35		9986962:4 Pi cactibugs, steal T.prefab
@@ -5332,7 +5332,7 @@ title	Massive unresponsive ship	Massives, nicht ansprechbares Schiff	35		3444757
 text	It is an immense ship or station, with visible damage markings all over it. It is definitely active and aware of us. One needs truly advanced technology to hide something so vast.	Es ist ein riesiges Schiff oder eine Station, mit sichtbaren Schadensmarkierungen überall. Es ist definitiv aktiv und weiß von uns. Man braucht wirklich fortschrittliche Technologie, um etwas so Riesiges zu verbergen.	400		344475778:5 Exo running broken precursor ship.prefab
 text2	The mysterious ship ignores our attack and smoothly shifts into warp-space using some kind of unknown technology.	Das mysteriöse Schiff ignoriert unseren Angriff und wechselt mit einer unbekannten Technologie nahtlos in den Warp-Raum.	400		893628202:5 Exo running broken precursor ship.prefab
 reasonToDisplay	Precursor encounter?	Eine Begegnung mit einem Vorläufer?	30		5 Exo running broken precursor ship.prefab
-text2	The mysterious ship just vanishes as we approach, probably using some kind of completely unknown stealth technology. Could it have been a precursor ship?	Das mysteriöse Schiff verschwindet einfach, als wir uns nähern, wahrscheinlich mit einer völlig unbekannten Tarnkappen-Technologie. Könnte es ein Vorläuferschiff gewesen sein?	400		960833276:5 Exo running broken precursor ship.prefab
+text2	The mysterious ship just vanishes as we approach, probably using some kind of completely unknown stealth technology. Could it have been a precursor ship?	Das mysteriöse Schiff verschwindet einfach, als wir uns nähern, wahrscheinlich mit einer völlig unbekannten Tarnkappentechnologie. Könnte es ein Vorläuferschiff gewesen sein?	400		960833276:5 Exo running broken precursor ship.prefab
 reasonToDisplay	advanced technology observed	Fortgeschrittene Technologie beobachtet	30		5 Exo running broken precursor ship.prefab
 text2	The ship vanishes as we leave.	Das Schiff verschwindet, als wir uns entfernen.	400		960833275:5 Exo running broken precursor ship.prefab
 text	attacking... %	Angreifen... %	50		2015330990:5 Exo running broken precursor ship.prefab
@@ -6500,7 +6500,7 @@ text	Pause, slow motion and normal timeflow buttons	Schaltflächen für Pause, Z
 altText	Try to make sure your shots land on important enemy modules like <b>shield generators, weapons or reactors</b>. Remember that if the shot landing area is over the edges of target ship, some shots might miss completely.	Versuche sicherzustellen, dass deine Schüsse auf wichtigen gegnerischen Modulen wie <b>Schildgeneratoren, Waffen oder Reaktoren</b> landen. Denke daran, dass einige Schüsse komplett daneben gehen können, wenn der Landebereich der Schüsse über den Kanten des Zielschiffs liegt.	240		117100109:Tutorial Battle.prefab
 altText	Currently, our weapons are remotely operated by the bridge (the <b>B symbol</b>).\nThis means they are working, but without accuracy & recharge bonus from your crew.\nSend crew with <b>gunnery skill</b> to operate <b>every weapon</b>, to ensure max accuracy bonus.	Derzeit werden die Waffen von der Brücke aus ferngesteuert (das <b>B-Symbol</b>).\nDas bedeutet, dass sie funktionieren, aber ohne Genauigkeits- und Nachladebonus von deiner Besatzung.\nSchick ein Besatzungsmitglied mit <b>Geschützfertigkeit</b>, um <b>jede Waffe</b> zu bedienen, um einen maximalen Genauigkeitsbonus zu gewährleisten.	240		1112127308:Tutorial Battle.prefab
 altText	Weapons can be selected by clicking on them on the ship or on the <b>Quick selection bar</b>. Pressing a number 1...9 on your keyboard is the fastest way to select a weapon.	Waffen können durch Anklicken auf dem Schiff oder in der <b>Schnellauswahlleiste</b> selektiert werden. Das Drücken der Zahlen 1-9 auf deiner Tastatur ist der schnellste Weg, eine Waffe auszuwählen.	240		1884413520:Tutorial Battle.prefab
-altText	After selecting a weapon, hover the cursor over enemy ship. <b>The striped square</b> at the end of UI cone is where your weapon shots will be landing. Fire with <b>R-CLICK</b> and then unpause!	Nachdem du eine Waffe ausgewählt hast, bewege den Mauszeiger über das gegnerische Schiff. <b>Das gestreifte Quadrat</b> am Ende des UI-Kegels ist der Ort, an dem deine Waffenschüsse landen werden. Feuere mit <b>R-KLICK</b> und hebe dann die Pause auf.	240		1809098032:Tutorial Battle.prefab
+altText	After selecting a weapon, hover the cursor over enemy ship. <b>The striped square</b> at the end of UI cone is where your weapon shots will be landing. Fire with <b>R-CLICK</b> and then unpause!	Nachdem du eine Waffe ausgewählt hast, bewege den Mauszeiger über das gegnerische Schiff. <b>Das gestreifte Quadrat</b> am Ende des UI-Kegels ist der Ort, an dem deine Waffenschüsse landen werden. Feuere mit <b>Rechtsklick</b> und hebe dann die Pause auf.	240		1809098032:Tutorial Battle.prefab
 altText	The most valuable keyboard shortcuts during battle are <b>F5</b> (for toggling weapon quick selection UI) and <b>numbers 1..9</b> (for selecting weapons). And use <b>k</b> for switching on/off modules.	Die wertvollsten Tastenkombinationen während des Kampfes sind <b>F5</b> (zum Umschalten des Schnellauswahl-Fensters) und die <b>Zahlen 1-9</b> (zum Auswählen der Waffen). Und verwende <b>k</b> zum Ein- und Ausschalten von Modulen.	240		373249443:Tutorial Battle.prefab
 choiceTexts	I will try to remember	Ich werde versuchen, mich zu erinnern	15		373249443:Tutorial Battle.prefab
 altText	For starters, please check out the Help summary about aiming with weapons. It is essential to understand this, if you are to survive any real battles.	Schau dir für den Anfang die Hilfe-Zusammenfassung über das Zielen mit Waffen an. Es ist unerlässlich, dies zu verstehen, wenn du echte Kämpfe überleben willst.	240		486298594:Tutorial Battle.prefab
@@ -6513,7 +6513,7 @@ altText	For starters, check out this overview about basic weapon types.	Schau di
 choiceTexts	OK, show me	OK, zeig sie mir	15		399630528:Tutorial Battle.prefab
 altText	Module repairs are possible if you have obtained necessary resources by <b>scrapping the synthetics packages</b> from the module storage.	Modulreparaturen sind möglich, wenn du die notwendigen Ressourcen durch <b>Schrotten der Kunststoffe-Pakete</b> aus dem Modulspeicher erhalten hast.	240		1835056541:Tutorial Battle.prefab
 choiceTexts	Yeah, I have synthetics for repairs	Ja, ich habe Kunststoffe für Reparaturen	15		1835056541:Tutorial Battle.prefab
-altText	To start repairing a module, select crew and <b>R-click</b> on the broken module. Doing it via crew roles panel automatically sends the best unoccupied crew or drones to fix things.	Um die Reparatur eines Moduls zu starten, wähle die Besatzung und <b>R-Klicke</b> auf das kaputte Modul. Wenn du das über das Rollen-Fenster erledigst, wird automatisch das beste unbeschäftigte Besatzungsmitglied zur Reparatur geschickt.	240		410665546:Tutorial Battle.prefab
+altText	To start repairing a module, select crew and <b>R-click</b> on the broken module. Doing it via crew roles panel automatically sends the best unoccupied crew or drones to fix things.	Um die Reparatur eines Moduls zu starten, wähle die Besatzung und <b>rechtsklicke</b> auf das kaputte Modul. Wenn du das über das Rollen-Fenster erledigst, wird automatisch das beste unbeschäftigte Besatzungsmitglied zur Reparatur geschickt.	240		410665546:Tutorial Battle.prefab
 altText	If your weapons run out of <b>ammo</b>, always check if you have something in <b>module storage</b> that might help. Currently, we should still have metal and explosives packages in storage.	Wenn deinen Waffen die <b>Munition</b> ausgeht, schau immer nach, ob du etwas im <b>Frachtraum</b> hast, das helfen könnte. Derzeit sollten noch Metall- und Sprengstoffpakete im Frachtraum sein.	240		807483356:Tutorial Battle.prefab
 choiceTexts	Got it - scrapping stuff for ammo	Verstanden - Sachen für Munition verschrotten	15		807483356:Tutorial Battle.prefab
 altText	Each damaged ship HP creates <b>a damage token</b> on ship hull. If the token is inside ship walls, it can be only repaired at repair stations.\nRepairing 1 HP costs 30 metal (when repairing with crew) or ~25 credits (in repair stations).	Jede beschädigte Schiffs-HP erzeugt <b>ein Schadens-Token</b> an der Schiffshülle. Befindet sich das Token innerhalb der Schiffswände, kann es nur in Reparaturstationen repariert werden.\nDie Reparatur von 1 HP kostet 30 Metalle (bei Reparatur mit Besatzung) oder ~25 Credits (in Reparaturstationen).	240		918094242:Tutorial Battle.prefab
@@ -8464,7 +8464,7 @@ displayName	Tech artifact (ECM emitter)	Tech-Artefakt (EGM-Emitter)	40		19197466
 description	A piece of modular xenotechnology that screams at the push of a button, even in warp frequencies. Can be used as a powerful internal ECM emitter.	Ein modulares Xenotechnologie-Bauteil, das auf Knopfdruck selbst bei Warp-Frequenzen laute Töne von sich gibt. Kann als leistungsstarker interner EGM-Sender eingesetzt werden.	200		1919746609:artifactmodule tec screamer egg ECM.prefab
 
 bridge 1crew DIY.prefab
-displayName	Command bridge (DIY)	Kommandobrücke	40		983196801:bridge 1crew DIY.prefab
+displayName	Command bridge (DIY)	Brücke	40		983196801:bridge 1crew DIY.prefab
 description	The sole operator allows the bridge to remotely operate other modules (without providing skill bonuses) plus add an evasion bonus to the entire ship.	Der alleinige Bediener erlaubt es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus) und fügt dem gesamten Schiff einen Ausweichbonus hinzu.	200		983196801:bridge 1crew DIY.prefab; 810647225:bridge 1crew.prefab
 
 bridge 1crew insectoid.prefab
@@ -8472,26 +8472,26 @@ displayName	Biotech solitary bridge	Biotech-Alleinbedienungsbrücke	40		81067369
 description	The sole operator allows the bridge to remotely operate other modules (without providing skill bonuses) plus add an evasion bonus to the entire ship. This module is alive and requires no power.	Der Bediener allein ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus) und fügt dem gesamten Schiff einen Ausweichbonus hinzu. Dieses Modul ist lebendig und benötigt keine Energie.	200		81067369:bridge 1crew insectoid.prefab
 
 bridge 1crew.prefab
-displayName	Command bridge, type SOLITARY	Kommandobrücke, Typ EINSAM	40		810647225:bridge 1crew.prefab
+displayName	Command bridge, type SOLITARY	Brücke, Typ EINSAM	40		810647225:bridge 1crew.prefab
 
 bridge 2crew.prefab
-displayName	Command bridge, type DUO-2	Kommandobrücke, Typ ZWEISAM	40		1003445460:bridge 2crew.prefab
+displayName	Command bridge, type DUO-2	Brücke, Typ ZWEISAM	40		1003445460:bridge 2crew.prefab
 description	A single operator allows the bridge to remotely operate other modules (without providing skill bonuses). Each operator additionally gives an evasion bonus to the entire ship.	Ein einzelnes Besatzungsmitglied ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus). Jedes Personal gibt zusätzlich einen Ausweichbonus für das gesamte Schiff.	200		1003445460:bridge 2crew.prefab; 171768739:sdlc/bridge 2crew tiger.prefab; 436212146:bridge 3crew plastarmor.prefab; 954068497:bridge blackspider.prefab; 1148319565:bridge 3crew metalarmor.prefab; 1200522469:bridge 3crew floral.prefab; 2085174639:bridge 3crew.prefab
 
 bridge 3crew floral.prefab
-displayName	Command bridge, floral	Blumen-Kommandobrücke	40		1200522469:bridge 3crew floral.prefab
+displayName	Command bridge, floral	Blumen-Brücke	40		1200522469:bridge 3crew floral.prefab
 
 bridge 3crew metalarmor.prefab
-displayName	Command bridge, reinforced III	Kommandobrücke, verstärkt III	40		1148319565:bridge 3crew metalarmor.prefab
+displayName	Command bridge, reinforced III	Gepanzerte Brücke III	40		1148319565:bridge 3crew metalarmor.prefab
 
 bridge 3crew plastarmor.prefab
-displayName	Command bridge P3	Kommandobrücke P3	40		436212146:bridge 3crew plastarmor.prefab
+displayName	Command bridge P3	Brücke P3	40		436212146:bridge 3crew plastarmor.prefab
 
 bridge 3crew.prefab
-displayName	Command bridge, type TRIPLE-3	Kommandobrücke, Typ DREISAM	40		2085174639:bridge 3crew.prefab
+displayName	Command bridge, type TRIPLE-3	Brücke, Typ DREISAM	40		2085174639:bridge 3crew.prefab
 
 bridge blackspider.prefab
-displayName	Command Bridge, biotech-3	Kommandobrücke, Biotech-3	40		954068497:bridge blackspider.prefab
+displayName	Command Bridge, biotech-3	Biotech-3-Brücke	40		954068497:bridge blackspider.prefab
 
 exotics container 0 diy.prefab
 displayName	Exotics container (DIY)	Exoten-Behälter	40		168523420:exotics container 0 diy.prefab
@@ -9290,33 +9290,33 @@ displayName	Shield battery, advanced biotech	Fortschrittliche Biotech-Schildbatt
 description	Increases maximum shield points, but does not recharge shields.	Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht wieder auf.	200		1094609544:shieldbat 5 floral.prefab
 
 Stealth decryptor 1 diy.prefab
-displayName	Stealth Decryptor DIY	Tarnkappen-Entschlüssler	40		1769741276:Stealth decryptor 1 diy.prefab
+displayName	Stealth Decryptor DIY	Tarnkappe	40		1769741276:Stealth decryptor 1 diy.prefab
 description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 (innerhalb der Sensorreichweite) zu entdecken.	200		1769741276:Stealth decryptor 1 diy.prefab; 1799114982:Stealth decryptor 1 rats.prefab
 
 Stealth decryptor 1 ivory old.prefab
-displayName	Stealth Decryptor, type I	Tarnkappen-Entschlüssler I	40		1107135249:Stealth decryptor 1 ivory old.prefab
+displayName	Stealth Decryptor, type I	Tarnkappe I	40		1107135249:Stealth decryptor 1 ivory old.prefab
 description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 zu entdecken (innerhalb der Sensorreichweite). Langlebige Materialien erhöhen die HP des Schiffes.	200		1107135249:Stealth decryptor 1 ivory old.prefab; 1276182165:Stealth decryptor 1 ventilator.prefab
 
 Stealth decryptor 1 rats.prefab
-displayName	Stealth decryptor (Rat Empire)	Rattenimperium-Tarnkappen-Entschlüssler	40		1799114982:Stealth decryptor 1 rats.prefab
+displayName	Stealth decryptor (Rat Empire)	Rattenimperium-Tarnkappe	40		1799114982:Stealth decryptor 1 rats.prefab
 
 Stealth decryptor 1 ventilator.prefab
-displayName	Stealth Decryptor, type 0	Tarnkappen-Entschlüssler 0	40		1276182165:Stealth decryptor 1 ventilator.prefab
+displayName	Stealth Decryptor, type 0	Tarnkappe 0	40		1276182165:Stealth decryptor 1 ventilator.prefab
 
 Stealth decryptor 2 biobrain.prefab
-displayName	Bioneural stealth decryptor	Bioneuraler Tarnkappen-Entschlüssler	40		29772476:Stealth decryptor 2 biobrain.prefab
+displayName	Bioneural stealth decryptor	Bioneurale Tarnkappe	40		29772476:Stealth decryptor 2 biobrain.prefab
 description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu entdecken.	200		29772476:Stealth decryptor 2 biobrain.prefab
 
 Stealth decryptor 2 new human tec.prefab
-displayName	Stealth Decryptor, type II	Tarnkappen-Entschlüssler II	40		1276182163:Stealth decryptor 2 new human tec.prefab
+displayName	Stealth Decryptor, type II	Tarnkappe II	40		1276182163:Stealth decryptor 2 new human tec.prefab
 description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu erkennen. Langlebige Materialien erhöhen die HP des Schiffes.	200		1276182163:Stealth decryptor 2 new human tec.prefab
 
 Stealth decryptor 3 bio.prefab
-displayName	Biotech stealth decryptor	Biotech-Tarnkappen-Entschlüssler	40		1451295920:Stealth decryptor 3 bio.prefab
+displayName	Biotech stealth decryptor	Biotech-Tarnkappe	40		1451295920:Stealth decryptor 3 bio.prefab
 description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1451295920:Stealth decryptor 3 bio.prefab
 
 Stealth decryptor 3 newest human tec.prefab
-displayName	Stealth Decryptor, type III	Tarnkappen-Entschlüssler III	40		1276182160:Stealth decryptor 3 newest human tec.prefab
+displayName	Stealth Decryptor, type III	Tarnkappe III	40		1276182160:Stealth decryptor 3 newest human tec.prefab
 description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 zu entdecken (innerhalb der Sensorreichweite). Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1276182160:Stealth decryptor 3 newest human tec.prefab
 
 storage container 3x3.prefab
@@ -9327,7 +9327,7 @@ storage container 3x4.prefab
 description	Storage for disassembled modules. Do not replace, ships can have only 1 module storage.	Lager für zerlegte Module. Nicht ersetzen, Schiffe können nur 1 Modulspeicher haben.	200		1819161633:storage container 3x4.prefab
 
 warp 0 DIY.prefab
-displayName	Custom-made warpdrive	Maßgefertigter Warpantrieb	40		2136288774:warp 0 DIY.prefab
+displayName	Custom-made warpdrive	Warpantrieb	40		2136288774:warp 0 DIY.prefab
 description	Warpdrives allow "jumping" between starsystems. This is custom-made from leftover parts and an exotic crystal.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dies ist eine Sonderanfertigung aus übrig gebliebenen Teilen und einem exotischen Kristall.	200		2136288774:warp 0 DIY.prefab
 
 warp 01 greencrystal.prefab
@@ -11221,7 +11221,7 @@ altText	Looks safe, now fly into it...	Sieht sicher aus, fliege jetzt hinein...	
 altText	We've obtained a <b>cryosleep</b> module! Crew in cryosleep do not consume organics and might <b>heal injuries over time</b>. For now, leave one crewmember to operate the bridge and send others to cryosleep.	Wir haben ein <b>Kryoschlaf</b>-Modul erhalten! Besatzungsmitglieder im Kryoschlaf verbrauchen keine organischen Stoffe und können <b>Verletzungen über Zeit heilen</b>. Lass vorerst ein Besatzungsmitglied die Brücke bedienen und schicke die anderen in Kryoschlaf.	240		742831833:Tutorial quest FSM.prefab
 altText	The wrecked ship also contained info about a hidden warehouse (it has been added to the starsystem map). Go and check that out.	Das Schiffswrack enthielt auch Informationen über ein verstecktes Lagerhaus (es wurde der Sternensystemkarte hinzugefügt). Gehe hin und überprüfe das.	240		2117825985:Tutorial quest FSM.prefab
 altText	The salvaged <b>warpdrive</b> allows us to jump between starsystems (and escape from combat). \nThe warpdrive charges instantly during accelerated time, but will be slowed if there are dangers or problems.	Der geborgene <b>Warpantrieb</b> erlaubt es uns, zwischen den Sternensystemen zu springen (und dem Kampf zu entkommen). \nDer Warpdrive lädt während der Beschleunigungszeit sofort auf, wird aber bei Gefahren oder Problemen verlangsamt.	240		1265163325:Tutorial quest FSM.prefab
-altText	Open the sector map (<b>SECTOR</b> button) and select the Alcan starsystem by L-clicking on it. \nThen click on <b>Warp to destination</b> button.	Öffne die Sektorkarte (Taste <b>SECTOR</b>) und wähle das Sternensystem Alcan mit einem L-Klick aus. \nDann klicke auf die Schaltfläche <b>Warpen zum Ziel</b>.	240		153104852:Tutorial quest FSM.prefab
+altText	Open the sector map (<b>SECTOR</b> button) and select the Alcan starsystem by L-clicking on it. \nThen click on <b>Warp to destination</b> button.	Öffne die Sektorkarte (Taste <b>SEKTOR</b>) und wähle das Sternensystem Alcan aus. \nDann klicke auf die Schaltfläche <b>Warpen zum Ziel</b>.	240		153104852:Tutorial quest FSM.prefab
 text	Full tutorial or test a part?	Vollständige Einführung oder einen Teil testen?	400		1610348327:Tutorial quest FSM.prefab
 choiceText	Give me full tutorial	Gib mir die komplette Einführung	100		1610348327:Tutorial quest FSM.prefab
 choiceText	I just want to test a part of it	Ich möchte nur einen Teil davon testen	100		1610348327:Tutorial quest FSM.prefab
@@ -13160,7 +13160,7 @@ Tips pool.prefab
 	Older modules can sometimes malfunction and cause fires.	Ältere Module können manchmal Fehlfunktionen aufweisen und Brände verursachen	0		354963362:Tips pool.prefab
 	The circle around your ship in star system view is sensor range.	Der Kreis um dein Schiff in der Sternensystemansicht ist die Sensorreichweite	0		354963362:Tips pool.prefab
 	The circle around your ship in sector view is long-distance sensor range.	Der Kreis um dein Schiff auf der Sektorkarte ist die Sensorreichweite für große Entfernungen	0		354963362:Tips pool.prefab
-	You can only see enemy fleets if they have stealth value lower than stealth detection of your ship.	Du kannst feindliche Flotten nur dann sehen, wenn deren Tarnkappenwert niedriger ist als die Tarnkappenerkennung deines Schiffes	0		354963362:Tips pool.prefab
+	You can only see enemy fleets if they have stealth value lower than stealth detection of your ship.	Du kannst feindliche Flotten nur dann sehen, wenn deren Tarnkappensstufe niedriger ist als deine ist	0		354963362:Tips pool.prefab
 	Utility drones are not visually represented in Mothership internal view. They are only used automatically during events.	Versorgungsdrohnen werden in der Innenansicht des Mutterschiffs nicht visuell dargestellt.\nSie werden nur bei Ereignissen automatisch eingesetzt.	0		354963362:Tips pool.prefab
 	Your ship always carries a set of cheaply printable utility bots (scouting, mining, research etc) that are used automatically during events.	Dein Schiff trägt immer einen Satz billig druckbarer Versorgungsbots (Auskundschaftung, Abbau, Erforschung etc.), die während Ereignissen automatisch eingesetzt werden	0		354963362:Tips pool.prefab
 	Losing utility bots during events may result in loss of synthetics and metals.	Der Verlust von Versorgungsbots während eines Ereignisses kann zum Verlust von Kunststoffen und Metallen führen	0		354963362:Tips pool.prefab
