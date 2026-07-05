@@ -638,7 +638,7 @@ text	Lack of empathy is the result of neural and social misdevelopment during ea
 title	Pirates encountered	Begegnete Piraten	35		1001180115:Comchannel tip.prefab
 text	Would you like to see another database entry for pirates?	Möchten Sie einen weiteren Datenbankeintrag für Piraten sehen?	400		1001180115:Comchannel tip.prefab
 title	Entry: Squid Dominion	Eintrag: Tintenfisch-Herrschaft	35		1715276440:Comchannel tip.prefab
-text	I don't know any more about the Squid than we learned from our last disastrous diplomatic encounter. I suspect their emperor is clinically insane and has complete control over their military and the entire Squid civilization. Perhaps we can obtain more info from Earth forces, as they've been fighting the Squid over five years now.	Ich weiß nicht mehr über die Tintenfische, als wir bei unserer letzten desaströsen diplomatischen Begegnung erfahren haben. Ich vermute, dass ihr Imperator klinisch wahnsinnig ist und die vollständige Kontrolle über ihr Militär und die gesamte Tintenfisch-Zivilisation hat. Vielleicht können wir mehr Informationen von den Erdstreitkräften erhalten, da sie die Tintenfische nun schon seit über fünf Jahren bekämpfen.	600		1715276440:Comchannel tip.prefab
+text	I don't know any more about the Squid than we learned from our last disastrous diplomatic encounter. I suspect their emperor is clinically insane and has complete control over their military and the entire Squid civilization. Perhaps we can obtain more info from Earth forces, as they've been fighting the Squid over five years now.	Ich weiß nicht mehr über die Tintenfische, als wir bei unserer letzten desaströsen diplomatischen Begegnung erfahren haben. Ich vermute, dass ihr Kaiser klinisch wahnsinnig ist und die vollständige Kontrolle über ihr Militär und die gesamte Tintenfisch-Zivilisation hat. Vielleicht können wir mehr Informationen von den Erdstreitkräften erhalten, da sie die Tintenfische nun schon seit über fünf Jahren bekämpfen.	600		1715276440:Comchannel tip.prefab
 title	Entry: Active warzones	Eintrag: Aktive Kriegsgebiete	35		533218391:Comchannel tip.prefab
 text	Warzones are usually full of conflict remains, including active minefields and shipwrecks. Most importantly, intergalactic wars usually attract Slaver fleets. Slavers are criminals united by their psychopathic lack of empathy, low cooperation skills and willingness to enslave and hurt other sentient beings. I recommend nuking them if you can. Avoid being captured alive at all costs.	Kriegsgebiete sind normalerweise voller Überreste von Konflikten, einschließlich aktiver Minenfelder und Schiffswracks. Am wichtigsten ist, dass intergalaktische Kriege normalerweise Sklavenhändler-Flotten anziehen. Sklavenhändler sind Kriminelle, die durch ihren psychopathischen Mangel an Empathie, ihre geringen Kooperationsfähigkeiten und ihre Bereitschaft, andere fühlende Wesen zu versklaven und zu verletzen, vereint sind. Ich empfehle, sie zu vernichten, wenn Sie können. Vermeiden Sie um jeden Preis, lebendig gefangen genommen zu werden.	600		533218391:Comchannel tip.prefab
 title	Crew neutralized & resources extracted	Besatzung unschädlich gemacht & Ressourcen geborgen	35		551369442:Comchannel tip.prefab
@@ -4023,7 +4023,7 @@ choiceText	Return to orbit	Rückkehr in den Orbit	100		934683278:2 P abandoned m
 text	We made it through the lightning storm unharmed and no other threats emerged. Perhaps the orbital warning is outdated. The mining sites on the ground are abandoned, but our sensors clearly show there is metal ore left in the mine.	Wir haben den Blitzsturm unbeschadet überstanden und es sind keine weiteren Bedrohungen aufgetreten. Vielleicht ist die Orbitalwarnung veraltet. Die Minen am Boden sind verlassen, aber unsere Sensoren zeigen deutlich, dass es noch Metallerz in der Mine gibt.	400		934683281:2 P abandoned mine, metallic dust storms ME.prefab
 text	Entering atmosphere... %	Eintritt in die Atmosphäre... %	50		1795076443:2 P abandoned mine, metallic dust storms ME.prefab
 title	Tentaculaati infestation	Tentaculaati-Befall	35		128404943:2 P abandoned mine, metallic dust storms ME.prefab
-text2	While surveying the mine shafts as part of operation preparations, our bots discovered the shafts were infested with the Tentaculaati. These vicious and clever biotech monsters were specifically designed by the Emperor-Banks to infiltrate, neutralize and hold enemy resource mines. A few utility bots were lost and we aborted the operation.	Bei der Erkundung der Minenschächte im Rahmen der Operationsvorbereitungen entdeckten unsere Bots, dass die Schächte von den Tentaculaati befallen waren. Diese bösartigen und cleveren Biotech-Monster wurden von den Imperator-Banken speziell entwickelt, um feindliche Rohstoffminen zu infiltrieren, zu neutralisieren und zu halten. Einige Versorgungsbots gingen verloren und wir brachen die Operation ab.	400		128404943:2 P abandoned mine, metallic dust storms ME.prefab
+text2	While surveying the mine shafts as part of operation preparations, our bots discovered the shafts were infested with the Tentaculaati. These vicious and clever biotech monsters were specifically designed by the Emperor-Banks to infiltrate, neutralize and hold enemy resource mines. A few utility bots were lost and we aborted the operation.	Bei der Erkundung der Minenschächte im Rahmen der Operationsvorbereitungen entdeckten unsere Bots, dass die Schächte von den Tentaculaati befallen waren. Diese bösartigen und cleveren Biotech-Monster wurden von der Kaiser-Bank speziell entwickelt, um feindliche Rohstoffminen zu infiltrieren, zu neutralisieren und zu halten. Einige Versorgungsbots gingen verloren und wir brachen die Operation ab.	400		128404943:2 P abandoned mine, metallic dust storms ME.prefab
 
 2 P armored station TM orbital mines.prefab
 title	Armored outpost	Gepanzerter Außenposten	35		249944515:2 P armored station TM orbital mines.prefab
@@ -7251,7 +7251,7 @@ text	Three ships are rapidly approaching tactical weapons range, we detect 10 ac
 Ambusher L7 Squid assasnik.prefab
 text	Stealthy ships rapidly approaching tactical range. One of them appears to be a Squid warship...	Getarnte Schiffe nähern sich schnell der taktischen Reichweite. Eines davon scheint ein Tintenfisch-Kriegsschiff zu sein...	600		1259135196:Ambusher L7 Squid assasnik.prefab
 title	Hired killers	Angeheuerte Killer	35		1162250735:Ambusher L7 Squid assasnik.prefab
-text	"Hear this before your death. The generous Emperor Shogar has paid us, and the Great Invisible Insect has blessed this encounter as well by leading us directly to you. It means we are doing the right thing. Let us meet again in the afterlife to talk about if this was ethical or not."	"Hört dies, bevor ihr sterbt. Der großzügige Imperator Shogar hat uns bezahlt, und das Große Unsichtbare Insekt hat diese Begegnung ebenfalls gesegnet, indem es uns direkt zu euch geführt hat. Das heißt, wir tun das Richtige. Lasst uns im Jenseits wieder zusammentreffen, um darüber zu sprechen, ob dies ethisch richtig war oder nicht."	600		1162250735:Ambusher L7 Squid assasnik.prefab
+text	"Hear this before your death. The generous Emperor Shogar has paid us, and the Great Invisible Insect has blessed this encounter as well by leading us directly to you. It means we are doing the right thing. Let us meet again in the afterlife to talk about if this was ethical or not."	"Hört dies, bevor ihr sterbt. Der großzügige Kaiser Shogar hat uns bezahlt, und das Große Unsichtbare Insekt hat diese Begegnung ebenfalls gesegnet, indem es uns direkt zu euch geführt hat. Das heißt, wir tun das Richtige. Lasst uns im Jenseits wieder zusammentreffen, um darüber zu sprechen, ob dies ethisch richtig war oder nicht."	600		1162250735:Ambusher L7 Squid assasnik.prefab
 
 Ambushers L10 neutralites 2 medium.prefab
 displayName	Neutralite patrol	Neutralitische Patrouille	25		162770634:Ambushers L10 neutralites 2 medium.prefab; 170434950:Ambushers L10 neutralites 2 medium.prefab; 922165640:Ambushers L10 neutralites 3 smalls.prefab; 929829956:Ambushers L10 neutralites 3 smalls.prefab; 1060448940:Ambushers L10 neutralites large and small.prefab; 1068113256:Ambushers L10 neutralites large and small.prefab
@@ -7300,7 +7300,7 @@ Ambushers L9 Shokar Bossfight.prefab
 okButtonText	Ok...	Ok...	7		1495770635:Ambushers L9 Shokar Bossfight.prefab
 text	A large ship is rapidly approaching tactical range, escorted by a smaller vessel. The bigger ship is sending us a massive stream of complicated information...	Ein großes Schiff nähert sich schnell der taktischen Reichweite, eskortiert von einem kleineren Schiff. Das größere Schiff sendet uns einen massiven Strom von komplizierten Informationen...	600		1495770635:Ambushers L9 Shokar Bossfight.prefab
 title	Message received	Nachricht erhalten	35		1261942154:Ambushers L9 Shokar Bossfight.prefab
-text2	The Squid emperor has sent us 10'000 pages of fine poetry about how and why you personally deserve to suffer. He must be pretty angry...	Der Tintenfisch-Imperator hat uns 10.000 Seiten feiner Poesie darüber geschickt, wie und warum wir es verdienen, zu leiden. Er muß ziemlich wütend sein ...	400		1261942154:Ambushers L9 Shokar Bossfight.prefab
+text2	The Squid emperor has sent us 10'000 pages of fine poetry about how and why you personally deserve to suffer. He must be pretty angry...	Der Tintenfisch-Kaiser hat uns 10.000 Seiten feiner Poesie darüber geschickt, wie und warum wir es verdienen, zu leiden. Er muß ziemlich wütend sein ...	400		1261942154:Ambushers L9 Shokar Bossfight.prefab
 okButtonText	Time to end to your insanity, Shogar	Zeit, deinem Wahnsinn ein Ende zu setzen, Shogar	7		2077170342:Ambushers L9 Shokar Bossfight.prefab
 text	"It's you, the lower life form from before! I've ripped through the Earth fleets to find you! I don't know how you got here but I will punish you personally... My tentacles will burrow deep into your brains... [to somebody in the ship] Get them! I want them captured! And I demand somebody administers more pleasure chems to my frogs..." the transmission ends.	"Du bist es, die niedere Lebensform von vorhin! Ich habe mich durch die Erdflotten gewühlt, um dich zu finden! Ich weiß nicht, wie du hergekommen bist, aber ich werde dich persönlich bestrafen... Meine Tentakel werden sich tief in deine Gehirne bohren... [zu jemandem im Schiff] Schnappt sie euch! Ich will, dass sie gefangen werden! Und ich verlange, dass jemand meinen Fröschen mehr Vergnügungs-Chemikalien verabreicht..." Die Übertragung endet.	600		2077170342:Ambushers L9 Shokar Bossfight.prefab
 text	It is done. Now let's leave this place. The warpgate ship should be here any minute to pick us up...	Es ist vollbracht. Jetzt lasst uns diesen Ort verlassen. Das Warptor-Schiff sollte jede Minute hier sein, um uns abzuholen...	600		1847648868:Ambushers L9 Shokar Bossfight.prefab
@@ -8230,7 +8230,7 @@ description	(new runs can be only started from sectors 1,2,3)\n\nA sector of ext
 
 Level 9, marble, squid, shokar.prefab
 displayName	The Hideout Hunt	Die Versteckjagd	25		1815720579:Level 9, marble, squid, shokar.prefab
-description	(new runs can be only started from sectors 1,2,3)\n\nA remote, unexplored sector. Squid Emperor retreated to this area during the Spideraa attack.\n\nFrom the captains log:\n/.../ I really can't hate anyone who is insane by our standards, and needs firm, supportive rehabilitation and help instead of a position that allows them to run an intergalactic empire.\nAnd because giving a helping hand is impossible at the moment, I will personally take care of him and come out alive, together with my crew and pets, and news of his death /.../	Ein abgelegener, unerforschter Sektor. Der Tintenfisch-Imperator hat sich während des Spinner-Angriffs in dieses Gebiet zurückgezogen.\n\nLogbuch: ...Ich kann wirklich niemanden hassen, der nach unseren Maßstäben wahnsinnig ist und eine feste, unterstützende Rehabilitation und Hilfe braucht, anstatt eine Position einzunehmen, die es ihm erlaubt, ein intergalaktisches Imperium zu leiten. Und weil es im Moment unmöglich ist, eine helfende Hand zu finden, werde ich mich persönlich darum kümmern und zusammen mit meiner Besatzung und meinen Haustieren lebendig zurückkehren, mit der Nachricht von seinem Tod...	350		1815720579:Level 9, marble, squid, shokar.prefab; 1703003314:dlc2/Level 9b, marble, squid, shokar.prefab
+description	(new runs can be only started from sectors 1,2,3)\n\nA remote, unexplored sector. Squid Emperor retreated to this area during the Spideraa attack.\n\nFrom the captains log:\n/.../ I really can't hate anyone who is insane by our standards, and needs firm, supportive rehabilitation and help instead of a position that allows them to run an intergalactic empire.\nAnd because giving a helping hand is impossible at the moment, I will personally take care of him and come out alive, together with my crew and pets, and news of his death /.../	Ein abgelegener, unerforschter Sektor. Der Tintenfisch-Kaiser hat sich während des Spinner-Angriffs in dieses Gebiet zurückgezogen.\n\nLogbuch: ...Ich kann wirklich niemanden hassen, der nach unseren Maßstäben wahnsinnig ist und eine feste, unterstützende Rehabilitation und Hilfe braucht, anstatt eine Position einzunehmen, die es ihm erlaubt, ein intergalaktisches Imperium zu leiten. Und weil es im Moment unmöglich ist, eine helfende Hand zu finden, werde ich mich persönlich darum kümmern und zusammen mit meiner Besatzung und meinen Haustieren lebendig zurückkehren, mit der Nachricht von seinem Tod...	350		1815720579:Level 9, marble, squid, shokar.prefab; 1703003314:dlc2/Level 9b, marble, squid, shokar.prefab
 
 Main FSM.prefab
 title	Mission status unknown	Missionsstatus unbekannt.	35		1805062404:Main FSM.prefab; 958705350:Main FSM.prefab; 1038909517:Main FSM.prefab
@@ -8468,7 +8468,7 @@ displayName	Command bridge (DIY)	Brücke	40		983196801:bridge 1crew DIY.prefab
 description	The sole operator allows the bridge to remotely operate other modules (without providing skill bonuses) plus add an evasion bonus to the entire ship.	Der alleinige Bediener erlaubt es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus) und fügt dem gesamten Schiff einen Ausweichbonus hinzu.	200		983196801:bridge 1crew DIY.prefab; 810647225:bridge 1crew.prefab
 
 bridge 1crew insectoid.prefab
-displayName	Biotech solitary bridge	Biotech-Alleinbedienungsbrücke	40		81067369:bridge 1crew insectoid.prefab
+displayName	Biotech solitary bridge	Biotech-Einsiedlerbrücke	40		81067369:bridge 1crew insectoid.prefab
 description	The sole operator allows the bridge to remotely operate other modules (without providing skill bonuses) plus add an evasion bonus to the entire ship. This module is alive and requires no power.	Der Bediener allein ermöglicht es der Brücke, andere Module fernzusteuern (ohne Fertigkeitsbonus) und fügt dem gesamten Schiff einen Ausweichbonus hinzu. Dieses Modul ist lebendig und benötigt keine Energie.	200		81067369:bridge 1crew insectoid.prefab
 
 bridge 1crew.prefab
@@ -8771,7 +8771,7 @@ displayName	Bioreaction engine, type II	Bioreaktionsmotor II	40		292475796:engin
 description	Durable engine with good fuel efficiency. Robust structure improves ship HP.	Langlebiger Motor mit guter Treibstoffeffizienz. Robuste Struktur verbessert die Schiffs-HP.	200		292475796:engine 03 bioship.prefab; 229499087:engine 2.5 weird.prefab
 
 engine 03 emperor banks.prefab
-displayName	Emperor-banks long-range engine	Imperator-Bank-Langstreckenmotor	40		84732634:engine 03 emperor banks.prefab
+displayName	Emperor-banks long-range engine	Kaiser-Bank-Langstreckenmotor	40		84732634:engine 03 emperor banks.prefab
 description	Very durable engine with fair fuel efficiency. Durable structure improves ship HP.	Sehr langlebiger Motor mit guter Treibstoffeffizienz. Die robuste Struktur verbessert die Schiffs-HP.	200		84732634:engine 03 emperor banks.prefab
 
 engine 04 red.prefab
@@ -9215,7 +9215,7 @@ displayName	T11 shield generator	T11-Schildgenerator	40		1005084746:shield 2 sma
 description	Regenerates shield points. Requires one operator. Resilient structure improves ship HP.	Regeneriert Schildpunkte. Erfordert ein Besatzungsmitglied. Widerstandsfähige Struktur verbessert die Schiffs-HP.	200		1005084746:shield 2 small,single.prefab; 1427874574:sdlc/shield tigership.prefab
 
 shield 2.5 phobian.prefab
-displayName	Floral shield generator	Floraler Schildgenerator	40		1856241205:shield 2.5 phobian.prefab
+displayName	Floral shield generator	Blumen-Schildgenerator	40		1856241205:shield 2.5 phobian.prefab
 
 shield 3 brass, single.prefab
 displayName	Brass shield generator	Messing-Schildgenerator	40		813097155:shield 3 brass, single.prefab
@@ -9253,10 +9253,10 @@ shieldbat 1 diy.prefab
 displayName	Shield batteries DIY-8	DIY-8-Schildbatterie	40		741188605:shieldbat 1 diy.prefab
 
 shieldbat 1.4 tiger.prefab
-displayName	Shield Battery Tiger	Schildbatterie Tiger	40		1995642572:shieldbat 1.4 tiger.prefab
+displayName	Shield Battery Tiger	Tiger-Schildbatterie	40		1995642572:shieldbat 1.4 tiger.prefab
 
 shieldbat 1.5 rats diy.prefab
-displayName	Shield battery DIY, Rat Empire	Rattenimperium Schildbatterie (Eigenbau)	40		1494179234:shieldbat 1.5 rats diy.prefab
+displayName	Shield battery DIY, Rat Empire	Ratten-Schildbatterie	40		1494179234:shieldbat 1.5 rats diy.prefab
 
 shieldbat 2 rats.prefab
 displayName	Shield battery, Rat Empire	Rattenimperium Schildbatterie	40		1750659454:shieldbat 2 rats.prefab
@@ -9347,7 +9347,7 @@ displayName	Warp drive, crystal type A	Kristall-Warpantrieb A	40		458296297:warp
 description	Warpdrives allow "jumping" between starsystems. This one is very brittle.	Warpantriebe ermöglichen das "Springen" zwischen Sternensystemen. Dieser ist sehr spröde.	200		458296297:warp 03 neoncrystal.prefab
 
 warp 04 emperorbanks.prefab
-displayName	Warp drive, type EB	Warpantrieb, Typ Imperator Bank	40		1951229269:warp 04 emperorbanks.prefab
+displayName	Warp drive, type EB	Kaiser-Bank-Warpantrieb	40		1951229269:warp 04 emperorbanks.prefab
 
 warp 05 rotor metal.prefab
 displayName	Warp drive, grade II	Warpantrieb II	40		2018774202:warp 05 rotor metal.prefab
@@ -9758,7 +9758,7 @@ weapon dual EMP.prefab
 displayName	EMP dual raygun	EMP-Doppel-Strahlenkanone	40		1249253086:weapon dual EMP.prefab
 
 weapon emperor laser double.prefab
-displayName	Dual effector, type Red	Doppeleffektor, Typ Rot	40		1340539166:weapon emperor laser double.prefab
+displayName	Dual effector, type Red	Roter Doppeleffektor	40		1340539166:weapon emperor laser double.prefab
 description	Universal laser, shoots two laser beams. Robust structure improves ship HP.	Universal-Laser, schießt zwei Laserstrahlen. Robuste Konstruktion verbessert die Schiffs-HP.	200		1340539166:weapon emperor laser double.prefab
 
 weapon emperor laser large.prefab
@@ -9941,11 +9941,11 @@ displayName	Tiger heavy gatling cannon	Tiger schwere Gatling-Kanone	40		41290902
 description	A modern, well-armored rapid fire system. Eat's a lot of ammo but delivers devastating shield-piercing firepower. Launched projectiles have 2hp each.	Ein modernes, gut gepanzertes Schnellfeuersystem. Es verbraucht viel Munition, liefert aber verheerende schilddurchdringende Feuerkraft. Die abgefeuerten Geschosse haben jeweils 2 HP.	200		412909021:weapon gatling Tiger.prefab
 
 weapon gatling whiteA 13,4.prefab
-displayName	Nova gatling cannon, type I	Nova-Gatling-Kanone, Typ I	40		1092529672:weapon gatling whiteA 13,4.prefab
+displayName	Nova gatling cannon, type I	Gatling-Kanone I, Typ Nova	40		1092529672:weapon gatling whiteA 13,4.prefab
 description	A modern, efficient and well-armored rapid fire system. Launched projectiles have 2hp each.	Ein modernes, effizientes und gut gepanzertes Schnellfeuersystem. Abgefeuerte Geschosse haben je 2 HP.	200		1092529672:weapon gatling whiteA 13,4.prefab; 689245145:weapon gatling whiteB 14,5.prefab
 
 weapon gatling whiteB 14,5.prefab
-displayName	Automated gatling cannon, type II	Automatisierte Gatling-Kanone, Typ II	40		689245145:weapon gatling whiteB 14,5.prefab
+displayName	Automated gatling cannon, type II	Gatling-Kanone II, Typ Auto	40		689245145:weapon gatling whiteB 14,5.prefab
 
 weapon weirdship gatling.prefab
 displayName	Euphoria gatling gun	Euphoria-Gatling-Kanone	40		797718711:weapon weirdship gatling.prefab
@@ -9994,11 +9994,11 @@ description	Incendiary rocket printing & launching platform. Large AoE, consumes
 weapon ratmissile x3.prefab
 
 weapon spideraamissilex3.prefab
-displayName	Spideraa triple missiles	Spinner Dreifach-Raketen	40		85351226:weapon spideraamissilex3.prefab
+displayName	Spideraa triple missiles	Spinner-Raketenplattform 3	40		85351226:weapon spideraamissilex3.prefab
 description	A biotech platform for printing & launching armored missiles. Uses much explosives and has large area of effect. Missiles cannot be deflected. These missiles have 2hp each.	Eine Biotech-Plattform zum Drucken und Starten von gepanzerten Raketen. Verbraucht viel Sprengstoff und hat einen großen Wirkungsbereich. Raketen können nicht abgelenkt werden. Diese Raketen haben jeweils 2 HP.	200		85351226:weapon spideraamissilex3.prefab; 1473319987:weapon spideraamissilex4.prefab
 
 weapon spideraamissilex4.prefab
-displayName	Spideraa quad missiles	Spinner Vierfach-Raketen	40		1473319987:weapon spideraamissilex4.prefab
+displayName	Spideraa quad missiles	Spinner-Raketenplattform 4	40		1473319987:weapon spideraamissilex4.prefab
 
 weapon tigermissile x2.prefab
 displayName	Industrial missile platform	Industrielle Raketenplattform	40		97880399:weapon tigermissile x2.prefab
@@ -11080,14 +11080,14 @@ randomizerMenuStrings[i]	Replaces 2 ship reactors	Ersetzt 2 Schiffsreaktoren	30	
 
 Perk TESTER PACKAGE.prefab
 displayName	GAME TESTER PACKAGE	SPIELETESTER-PAKET	40		2106414951:Perk TESTER PACKAGE.prefab
-description	Package of cool stuff for testers of level 6-8.	Paket mit coolen Sachen für Tester der Stufen 6-8.	250		2106414951:Perk TESTER PACKAGE.prefab
+description	Package of cool stuff for testers of level 6-8.	Paket mit coolen Sachen für Tester der Stufen 6-8	250		2106414951:Perk TESTER PACKAGE.prefab
 randomizerMenuStrings[i]	+ 6 modules & extra resources	+6 Module & extra Resourcen	30		2106414951:Perk TESTER PACKAGE.prefab
 
 Perk war animal for weirdship.prefab
 displayName	War animal, type "Red Ripper"	Kriegstier, Typ "Roter Mörder"	40		907765912:Perk war animal for weirdship.prefab
 description	Genetically engineered combat animal that eats a lot during ship travel if not in cryosleep. It's external carapace is very thick, but the creature is too unsophisticated to use weapons.	Genetisch hergestelltes Kampftier, das während der Schiffsreise viel frisst, wenn es sich nicht im Kryoschlaf befindet. Sein äußerer Panzer ist sehr dick, aber die Kreatur ist zu untrainiert, um Waffen zu benutzen.	250		907765912:Perk war animal for weirdship.prefab
 randomizerMenuStrings[i]	+1 trained combat animal	+1 Trainiertes Kriegstier	30		907765912:Perk war animal for weirdship.prefab
-randomizerMenuStrings[i]	-eats a lot during ship travel	-Frisst viel während der Schiffsreise	30		907765912:Perk war animal for weirdship.prefab
+randomizerMenuStrings[i]	-eats a lot during ship travel	-Frisst viel während der Reise	30		907765912:Perk war animal for weirdship.prefab
 randomizerMenuStrings[i]	-166 credits	-166 Credits	30		907765912:Perk war animal for weirdship.prefab
 
 Perk warpshell extra deflection.prefab
@@ -11116,7 +11116,7 @@ okButtonText	Ok, let's see it	Ok, dann wollen wir mal sehen	7		1902216837:Main q
 text	I'm getting a signal. It's an Earth Alliance warpcast transmission...	Ich empfange ein Signal. Es ist eine Warpcast-Übertragung der Erd-Allianz...	600		1902216837:Main quest FSM.prefab
 text	We've arrived to the Outward Abyss. There's no guarantee we can even speak with the Spideraa, but we must take all the chances we get. Seek out all the Spideraa in the area and try to contact them.	Wir sind im Äußeren Abgrund angekommen. Es gibt keine Garantie, dass wir überhaupt mit den Spinnern sprechen können, aber wir müssen alle Chancen nutzen, die wir bekommen. Suchen Sie alle Spinner in der Gegend und versuchen Sie, sie zu kontaktieren.	600		1320817130:Main quest FSM.prefab
 title	Warpcast transmission	Warpcast-Übertragung	35		917532603:Main quest FSM.prefab
-text	"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	"Kapitän, ein Angriff der Spinner hat den Tintenfisch-Imperator gezwungen, sich genau in diesen Sektor zurückzuziehen. Wir haben Sie hierher geschickt, um ihn zu finden und zu eliminieren. Seien Sie sich bewusst, dass er eine Flotte von Sec-Corp-Schiffen angeheuert hat, um das Gebiet zu patrouillieren."	600		917532603:Main quest FSM.prefab
+text	"Captain, attack by the Spideraa has forced the Squid Emperor to retreat to this very sector. We have sent you here to find and eliminate him. Be aware that he's hired a fleet of Sec Corp ships to patrol the area."	"Kapitän, ein Angriff der Spinner hat den Tintenfisch-Kaiser gezwungen, sich genau in diesen Sektor zurückzuziehen. Wir haben Sie hierher geschickt, um ihn zu finden und zu eliminieren. Seien Sie sich bewusst, dass er eine Flotte von Sec-Corp-Schiffen angeheuert hat, um das Gebiet zu patrouillieren."	600		917532603:Main quest FSM.prefab
 title	Warp ship captain	Warpschiff-Kapitän	35		336132896:Main quest FSM.prefab
 text	The Insectoid Alliance found out that we spoke with the Spideraa before their attack. They are blaming us for abduction of their queens by the Spideraa, because they think we offered them to the Spideraa.\nThe bugs cling to very old traditions, especially the tradition of revenge. They've sent a planetkiller ship to destroy Earth despite otherwise staying in peace with us. It will pass the exit warpgate of this sector and we must set up an ambush there.	Die Insektoiden-Allianz fand heraus, dass wir vor ihrem Angriff mit den Spinnern sprachen. Sie machen uns für die Entführung ihrer Königinnen durch die Spinner verantwortlich, weil sie glauben, dass wir sie den Spinnern angeboten haben.\nDie Bugs halten an sehr alten Traditionen fest, besonders an der Tradition der Rache. Sie haben ein Planetenzerstörer-Schiff geschickt, um die Erde zu zerstören, obwohl sie sonst mit uns in Frieden leben. Es wird das Ausgang-Warptor dieses Sektors passieren und wir müssen dort einen Hinterhalt legen.	600		336132896:Main quest FSM.prefab
 setText	Go to Exit warpgate of the sector to set up an ambush.	Zum Ausgang-Warptor des Sektors fliegen, um einen Hinterhalt zu legen.	100		336132896:Main quest FSM.prefab
@@ -11141,7 +11141,7 @@ setText	Explore the sector and move on.	Den Sektor erforschen und weiter fliegen
 setText	Reach the Exit warpgate.	Das Ausgang-Warptor erreichen	100		150214923:Main quest FSM.prefab
 setText	Visit the local commercial stations to prepare for the upcoming mission, then leave via Exit sector.	Lokale Handelsstationen besuchen	100		150214924:Main quest FSM.prefab
 setText	Visit 5 locations with confirmed Spideraa sightings, attempt to establish contact.	5 Orte mit bestätigten Spinner-Sichtungen besuchen	100		150214929:Main quest FSM.prefab
-setText	Find and kill the Squid emperor.	Tintenfisch-Imperator finden und töten	100		150214930:Main quest FSM.prefab
+setText	Find and kill the Squid emperor.	Tintenfisch-Kaiser finden und vernichten	100		150214930:Main quest FSM.prefab
 title	Sector info	Sektor-Infos	35		158418766:Main quest FSM.prefab
 text	This fairly unexplored sector used to be part of Earth Alliance, but has been now claimed by the Squids.\nI've been looking into all available data on their technology. It seems their ships have not the best stealth technology. Getting a decent stealth decryptor might save us from some unnecessary fights.	Dieser ziemlich unerforschte Sektor gehörte früher zur Erd-Allianz, wurde aber jetzt von den Tintenfischen beansprucht. Ich habe alle verfügbaren Daten über ihre Technologie untersucht. Es scheint, dass ihre Schiffe nicht die beste Stealth-Technologie haben. Einen anständigen Stealth-Entschlüssler zu bekommen, könnte uns vor einigen unnötigen Kämpfen bewahren.	600		158418766:Main quest FSM.prefab
 title	Warpcast connection established...	Warpcast-Verbindung hergestellt...	35		1106419425:Main quest FSM.prefab
@@ -11173,7 +11173,7 @@ text	The ship AI wanted a long vacation for itself and left, after delivering me
 title	The crew	Die Besatzung	35		833118331:Main quest FSM.prefab; 1414518038:Main quest FSM.prefab; 1995917745:Main quest FSM.prefab
 text	Most of the crew onboard {0} split after we had completed the salvage & rescue operations of Earth remains. Some settled down in the Tree Friend or anarchist colonies, but most joined the Freetravellers, and kept adventuring further.	Der größte Teil der Besatzung an Bord von {0} trennte sich, nachdem wir die Bergungs- und Rettungsaktionen der Überreste der Erde abgeschlossen hatten. Einige ließen sich in den Baumfreund- oder Anarcho-Kolonien nieder, aber die meisten schlossen sich den Freien Reisenden an und setzten ihre Abenteuer fort.	600		833118331:Main quest FSM.prefab
 title	The struggle continues	Der Kampf geht weiter	35		1587414111:Main quest FSM.prefab
-text	The Squid Dominion collapsed after death of their emperor, but destruction of Earth was too much for Earth military generals and they started a new, bloody war against the Insectoid Alliance.\n\nI took some time to contemplate the scale of the destruction that had happened around me. The number of lives lost and severity of sufferings made it feel unreal. Could it be that the Solipisist are right that all this is some kind of cruel illusion?\n\nHowever, I never had much time to think about these things, because the war against Insectoid Alliance caught up with me. Good captains were desperately needed once again.\n..	Die Tintenfisch-Herrschaft brach nach dem Tod ihres Imperators zusammen, aber die Zerstörung der Erde war zu viel für die Militärgeneräle der Erde und sie begannen einen neuen, blutigen Krieg gegen die Insektoiden-Allianz.\n\nIch nahm mir einige Zeit, um das Ausmaß der Zerstörung zu betrachten, die um mich herum geschehen war. Die Anzahl der verlorenen Leben und das Ausmaß des Leids ließen es unwirklich erscheinen. Könnte es sein, dass die Solipisisten Recht haben, dass all dies eine Art grausame Illusion ist?\n\nIch hatte jedoch nicht viel Zeit, über diese Dinge nachzudenken, denn der Krieg gegen die Insektoiden-Allianz holte mich ein. Gute Kapitäne wurden wieder einmal dringend gebraucht.\n..	600		1587414111:Main quest FSM.prefab
+text	The Squid Dominion collapsed after death of their emperor, but destruction of Earth was too much for Earth military generals and they started a new, bloody war against the Insectoid Alliance.\n\nI took some time to contemplate the scale of the destruction that had happened around me. The number of lives lost and severity of sufferings made it feel unreal. Could it be that the Solipisist are right that all this is some kind of cruel illusion?\n\nHowever, I never had much time to think about these things, because the war against Insectoid Alliance caught up with me. Good captains were desperately needed once again.\n..	Die Tintenfisch-Herrschaft brach nach dem Tod ihres Kaisers zusammen, aber die Zerstörung der Erde war zu viel für die Militärgeneräle der Erde und sie begannen einen neuen, blutigen Krieg gegen die Insektoiden-Allianz.\n\nIch nahm mir einige Zeit, um das Ausmaß der Zerstörung zu betrachten, die um mich herum geschehen war. Die Anzahl der verlorenen Leben und das Ausmaß des Leids ließen es unwirklich erscheinen. Könnte es sein, dass die Solipisisten Recht haben, dass all dies eine Art grausame Illusion ist?\n\nIch hatte jedoch nicht viel Zeit, über diese Dinge nachzudenken, denn der Krieg gegen die Insektoiden-Allianz holte mich ein. Gute Kapitäne wurden wieder einmal dringend gebraucht.\n..	600		1587414111:Main quest FSM.prefab
 text	{0} AI needed to meet some important Earth Alliance military command elements and left us after landing. It was kind to leave me a data core with credits, a very tasty sandwich plus an erotic painting, painted by the AI itself, personally to me (as a reminder of great times spent together, apparently). I suspect it gave something like that to most of the crew.	{0} Die KI musste einige wichtige militärische Führungselemente der Erd-Allianz treffen und verließ uns nach der Landung. Sie war so freundlich, mir einen Datenkern mit Credits, ein sehr leckeres Sandwich sowie ein erotisches Gemälde, das die KI selbst gemalt hatte, persönlich zu überlassen (als Erinnerung an tolle gemeinsam verbrachte Zeiten, anscheinend). Ich vermute, dass sie so etwas den meisten Besatzungsmitgliedern geschenkt hat.	600		642783898:Main quest FSM.prefab
 text	Most of the crew onboard {0} split after we had landed. Some felt obliged to help rebuilding the destroyed territories. \nSome Tree Friends living on Earth were already busy surrounding the thermal reactors with gardens, parks and artificial jungles by the time we arrived. \nEventually, most of the crew joined the Freetravellers faction together with billions of Earthlings, and kept adventuring further.	Der größte Teil der Besatzung an Bord von {0} trennte sich, nachdem wir gelandet waren. Einige fühlten sich verpflichtet, beim Wiederaufbau der zerstörten Gebiete zu helfen. \nEinige Baumfreunde, die auf der Erde lebten, waren bereits damit beschäftigt, die Thermoreaktoren mit Gärten, Parks und künstlichen Dschungeln zu umgeben, als wir ankamen. \nSchließlich schloss sich der größte Teil der Besatzung zusammen mit Milliarden von Erdbewohnern der Fraktion der Freien Reisenden an, um weitere Abenteuer zu erleben.	600		1414518038:Main quest FSM.prefab
 text	Most of the crew onboard {0} celebrated together one final time and then split after we had landed - to check out a life or a love from the past, or to just explore an Earth they had not seen for a long time. Warm-hearted welcoming celebrations would be guaranteed. \nIn time, most of the crew ultimately joined the Freetravellers faction, and kept adventuring further.	Die meisten Besatzungsmitglieder an Bord von {0} feierten ein letztes Mal zusammen und trennten sich dann, nachdem wir gelandet waren - um nach einem Leben oder einer Liebe aus der Vergangenheit zu sehen oder um einfach nur eine Erde zu erkunden, die sie schon lange nicht mehr gesehen hatten. Warmherzige Begrüßungsfeiern waren garantiert. \nMit der Zeit schlossen sich die meisten der Besatzung schließlich der Fraktion der Freien Reisenden an, um weitere Abenteuer zu erleben.	600		1995917745:Main quest FSM.prefab
