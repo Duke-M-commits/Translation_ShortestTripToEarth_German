@@ -8441,11 +8441,11 @@ displayName	Biotech artifact (asteroid predictor)	Biotech-Artefakt (Asteroiden-V
 description	A piece of living xenotechnology that can be used to predict asteroid movement vectors. Scrapping would yield both resources and research data.	Ein Stück lebender Xenotechnologie, das zur Vorhersage der Bewegungsvektoren von Asteroiden verwendet werden kann. Die Verschrottung würde sowohl Ressourcen als auch Forschungsdaten liefern.	200		374327078:artifactmodule tec biotech eyeball asteroid predictor.prefab
 
 artifactmodule tec engine booster 1.prefab
-displayName	Tech artifact [engine booster]	Tech-Artefakt [Motorbooster]	40		1971358425:artifactmodule tec engine booster 1.prefab
+displayName	Tech artifact [engine booster]	Tech-Artefakt (Motorbooster)	40		1971358425:artifactmodule tec engine booster 1.prefab
 description	A piece of modular xenotechnology. It speeds up the ship engines if powered. Robust structure increases ship HP.	Ein Stück modularer Xenotechnologie. Es beschleunigt die Schiffsmotoren, wenn es mit Strom versorgt wird. Die robuste Struktur erhöht die HP des Schiffes.	200		1971358425:artifactmodule tec engine booster 1.prefab; 266571173:artifactmodule tec engine booster 2.prefab
 
 artifactmodule tec engine booster 2.prefab
-displayName	Tech artifact [engine booster II]	Tech-Artefakt [Motorbooster II]	40		266571173:artifactmodule tec engine booster 2.prefab
+displayName	Tech artifact [engine booster II]	Tech-Artefakt (Motorbooster II)	40		266571173:artifactmodule tec engine booster 2.prefab
 
 artifactmodule tec green slime integrity.prefab
 displayName	Biotech artifact (integrity hardpoint)	Biotech-Artefakt (Panzerung)	40		389977561:artifactmodule tec green slime integrity.prefab
@@ -8683,7 +8683,7 @@ displayName	Medical cryosleep unit x3	Medizinischer Kryoschlaf x3	40		703894034:
 description	This cryosleep heals crew faster than others. Crew in any cryosleep requires no organics & might heal wounds while the ship is driving around.	Dieser Kryoschlaf heilt die Besatzung schneller als andere. Die Besatzung in einem Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff herumfliegt.	200		703894034:cryosleep 3x medical.prefab
 
 cryosleep 3x rats armor.prefab
-displayName	Armored cryosleepx3, Rat Empire origin	Rattenimperium-Kryoschlaf x3 (gepanzerter)	40		623034016:cryosleep 3x rats armor.prefab
+displayName	Armored cryosleepx3, Rat Empire origin	Gepanzerter Rattenimperium-Kryoschlaf x3	40		623034016:cryosleep 3x rats armor.prefab
 description	Crew in cryosleep requires no organics & might heal wounds while the ship is driving around. Reinforced structure improves ship HP.	Die Besatzung im Kryoschlaf benötigt keine organischen Substanzen und kann Wunden heilen, während das Schiff fliegt. Die verstärkte Struktur verbessert die HP des Schiffs.	200		623034016:cryosleep 3x rats armor.prefab
 
 cryosleep 4x alien family.prefab
@@ -9246,11 +9246,11 @@ displayName	Shield decoy	Schild-Täuschkörper	40		2047550720:shield decoy 1.pre
 description	A highly armored shield battery that increases max shield points and ship HP.\nAppears as shield generator to enemy sensors.	Eine stark gepanzerte Schildbatterie, die die maximalen Schildpunkte und die Schiffs-HP erhöht.\nFür gegnerische Sensoren erscheint sie als Schildgenerator.	200		2047550720:shield decoy 1.prefab
 
 shieldbat 0 diy.prefab
-displayName	Shield batteries DIY	Schildbatterie	40		741193982:shieldbat 0 diy.prefab
+displayName	Shield batteries DIY	Schildbatterie I	40		741193982:shieldbat 0 diy.prefab
 description	Increases maximum shield points, but doesn't recharge shields.	Erhöht die maximalen Schildpunkte, lädt aber die Schilde nicht auf.	200		741193982:shieldbat 0 diy.prefab; 741188605:shieldbat 1 diy.prefab; 1494179234:shieldbat 1.5 rats diy.prefab; 1750659454:shieldbat 2 rats.prefab; 1995642572:shieldbat 1.4 tiger.prefab
 
 shieldbat 1 diy.prefab
-displayName	Shield batteries DIY-8	DIY-8-Schildbatterie	40		741188605:shieldbat 1 diy.prefab
+displayName	Shield batteries DIY-8	Schildbatterie II	40		741188605:shieldbat 1 diy.prefab
 
 shieldbat 1.4 tiger.prefab
 displayName	Shield Battery Tiger	Tiger-Schildbatterie	40		1995642572:shieldbat 1.4 tiger.prefab
@@ -9434,11 +9434,11 @@ displayName	DIY micromites nuke	Mikromilben-Bombe	40		2053889862:07 DIY bionuke 
 description	Releases a colony of microscopic mites that attack modules & crew, dying seconds later to release corrosive poison. Fragile.	Setzt eine Kolonie mikroskopisch kleiner Milben frei, die Module und Besatzung angreifen und Sekunden später sterben, um ätzendes Gift freizusetzen. Zerbrechlich.	200		2053889862:07 DIY bionuke launcher.prefab
 
 07 Greentail nuke launcher 2.prefab
-displayName	Anti-armor nuke (biotech II)	Anti-Panzer-Bombe (Biotech II)	40		1441404901:07 Greentail nuke launcher 2.prefab
+displayName	Anti-armor nuke (biotech II)	Biotech-Anti-Panzer-Bombe II	40		1441404901:07 Greentail nuke launcher 2.prefab
 description	Semisolid biotech nuke that melds ship armor, modules & crew. Resilient body, small area of effect.	Halbfeste Biotech-Nuke, die Schiffspanzerung, Module & Besatzung verschmilzt. Widerstandsfähiger Körper, kleiner Wirkungsbereich.	200		1441404901:07 Greentail nuke launcher 2.prefab; 247153919:07 Greentail nuke launcher.prefab
 
 07 Greentail nuke launcher.prefab
-displayName	Anti-armor nuke (biotech)	Anti-Panzer-Bombe (Biotech)	40		247153919:07 Greentail nuke launcher.prefab
+displayName	Anti-armor nuke (biotech)	Biotech-Anti-Panzer-Bombe I	40		247153919:07 Greentail nuke launcher.prefab
 
 07 Weirdship Chem nuke launcher.prefab
 displayName	Deathmite swarm nuke	Todesmilbenschwarm-Bombe	40		475763260:07 Weirdship Chem nuke launcher.prefab
@@ -9770,7 +9770,7 @@ displayName	Intelligent BankTM minilasers	Kleiner iBankTM-Laser	40		474553624:we
 description	The laser is traditionally equipped with manipulators to clean dead bodies from ship externals. Produces 2 laser beams.	Der Laser ist traditionell mit Manipulatoren ausgestattet, um die Schiffsaußenhaut von toten Körpern zu reinigen. Erzeugt 2 Laserstrahlen.	200		474553624:weapon emperor minilaser.prefab
 
 weapon Florallaser.prefab
-displayName	Floral raygun [biotech]	Blumen-Strahlenkanone [Biotech]	40		599402385:weapon Florallaser.prefab
+displayName	Floral raygun [biotech]	Blumen-Biotech-Strahlenkanone	40		599402385:weapon Florallaser.prefab
 description	This weapon needs to eat organics for internal cold-fusion necessary for each shot, resulting in minimal power cost. Generates a single energy ray per shot.	Diese Waffe muss für die interne Kaltfusion, die für jeden Schuss notwendig ist, Biomasse fressen, was zu minimalen Energiekosten führt. Erzeugt einen einzigen Energiestrahl pro Schuss.	200		599402385:weapon Florallaser.prefab
 
 weapon Heatray emitter x red.prefab
@@ -10847,11 +10847,11 @@ description	External fueltank usable as a cheap capital missile. Scrapping provi
 randomizerMenuStrings[i]	+1 capital missile	+1 Bombe	30		1362449879:Perk nuke barrel.prefab; 285860403:Perk nuke for Endurance.prefab; 305450922:Perk nuke thinspeeder for atlas.prefab; 548302033:Perk nuke DIY shield breaker.prefab; 611909834:Perk nuke bio 2 greentail.prefab; 656830655:Perk nuke fueltank for atlas.prefab; 1042155144:Perk nuke Rat DIY incendiary.prefab; 1092748221:Perk nuke bio.prefab; 1339234810:Perk nuke EMP 9000.prefab; 1555035434:Perk nuke Tigerfish.prefab; 1581121396:sdlc/Perk nuke Battle Tiger monolith.prefab; 1852263270:Perk nuke old.prefab
 
 Perk nuke bio 2 greentail.prefab
-displayName	Greentail nuke (biotech)	Grünschwanz-Bombe (biotech)	40		611909834:Perk nuke bio 2 greentail.prefab
+displayName	Greentail nuke (biotech)	Grünschwanz-Biotech-Bombe	40		611909834:Perk nuke bio 2 greentail.prefab
 description	This bioengineered semisolid organism delivers corrosive payload on impact, damaging everything in its small area of effect. Resilient body.	Dieser biotechnisch hergestellte halbfeste Organismus gibt beim Aufprall eine ätzende Nutzlast ab, die alles in seinem kleinen Wirkungsbereich beschädigt. Unverwüstlicher Körper.	250		611909834:Perk nuke bio 2 greentail.prefab
 
 Perk nuke bio.prefab
-displayName	Nanospore nuke (biotech)	Nanosporen-Bombe (Biotech)	40		1092748221:Perk nuke bio.prefab
+displayName	Nanospore nuke (biotech)	Nanosporen-Biotech-Bombe	40		1092748221:Perk nuke bio.prefab
 description	Ancient capital missile obtained from a biotech museum. Damages only modules and crew, harmless against ship hull.	Uralte Bombe, die aus einem Biotech-Museum stammt. Beschädigt nur Module und Besatzung, harmlos gegen die Schiffshülle.	250		1092748221:Perk nuke bio.prefab
 randomizerMenuStrings[i]	-80 organics	-80 Biomasse	30		1092748221:Perk nuke bio.prefab
 
