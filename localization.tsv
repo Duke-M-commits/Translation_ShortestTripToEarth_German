@@ -9291,11 +9291,11 @@ description	Increases maximum shield points, but does not recharge shields.	Erh�
 
 Stealth decryptor 1 diy.prefab
 displayName	Stealth Decryptor DIY	Tarnkappe	40		1769741276:Stealth decryptor 1 diy.prefab
-description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 1 (innerhalb der Sensorreichweite) zu entdecken.	200		1769741276:Stealth decryptor 1 diy.prefab; 1799114982:Stealth decryptor 1 rats.prefab
+description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	Ermöglicht feindliche Flotten mit einer Tarnkappenstufe von 1 (innerhalb der Sensorreichweite) zu entdecken.	200		1769741276:Stealth decryptor 1 diy.prefab; 1799114982:Stealth decryptor 1 rats.prefab
 
 Stealth decryptor 1 ivory old.prefab
 displayName	Stealth Decryptor, type I	Tarnkappe I	40		1107135249:Stealth decryptor 1 ivory old.prefab
-description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 1 (innerhalb der Sensorreichweite) zu entdecken. Langlebige Materialien erhöhen die HP des Schiffes.	200		1107135249:Stealth decryptor 1 ivory old.prefab; 1276182165:Stealth decryptor 1 ventilator.prefab
+description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht feindliche Flotten mit einer Tarnkappenstufe von 1 (innerhalb der Sensorreichweite) zu entdecken. Langlebige Materialien erhöhen die HP des Schiffes.	200		1107135249:Stealth decryptor 1 ivory old.prefab; 1276182165:Stealth decryptor 1 ventilator.prefab
 
 Stealth decryptor 1 rats.prefab
 displayName	Stealth decryptor (Rat Empire)	Rattenimperium-Tarnkappe	40		1799114982:Stealth decryptor 1 rats.prefab
@@ -9305,19 +9305,19 @@ displayName	Stealth Decryptor, type 0	Tarnkappe 0	40		1276182165:Stealth decrypt
 
 Stealth decryptor 2 biobrain.prefab
 displayName	Bioneural stealth decryptor	Bioneurale Tarnkappe	40		29772476:Stealth decryptor 2 biobrain.prefab
-description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 2 (innerhalb der Sensorreichweite) zu entdecken.	200		29772476:Stealth decryptor 2 biobrain.prefab
+description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht feindliche Flotten mit einer Tarnkappenstufe von 2 (innerhalb der Sensorreichweite) zu entdecken.	200		29772476:Stealth decryptor 2 biobrain.prefab
 
 Stealth decryptor 2 new human tec.prefab
 displayName	Stealth Decryptor, type II	Tarnkappe II	40		1276182163:Stealth decryptor 2 new human tec.prefab
-description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 2 (innerhalb der Sensorreichweite) zu entdecken. Langlebige Materialien erhöhen die HP des Schiffes.	200		1276182163:Stealth decryptor 2 new human tec.prefab
+description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range). Durable materials increase ship HP.	Ermöglicht feindliche Flotten mit einer Tarnkappenstufe von 2 (innerhalb der Sensorreichweite) zu entdecken. Langlebige Materialien erhöhen die HP des Schiffes.	200		1276182163:Stealth decryptor 2 new human tec.prefab
 
 Stealth decryptor 3 bio.prefab
 displayName	Biotech stealth decryptor	Biotech-Tarnkappe	40		1451295920:Stealth decryptor 3 bio.prefab
-description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1451295920:Stealth decryptor 3 bio.prefab
+description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht feindliche Flotten mit einer Tarnkappenstufe von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1451295920:Stealth decryptor 3 bio.prefab
 
 Stealth decryptor 3 newest human tec.prefab
 displayName	Stealth Decryptor, type III	Tarnkappe III	40		1276182160:Stealth decryptor 3 newest human tec.prefab
-description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1276182160:Stealth decryptor 3 newest human tec.prefab
+description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Durable materials increase ship HP.	Ermöglicht feindliche Flotten mit einer Tarnkappenstufe von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1276182160:Stealth decryptor 3 newest human tec.prefab
 
 storage container 3x3.prefab
 displayName	Module storage container	Modul-Lagerbehälter	40		1819161636:storage container 3x3.prefab; 1819161633:storage container 3x4.prefab
