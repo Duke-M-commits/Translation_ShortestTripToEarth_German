@@ -517,16 +517,16 @@ PlayerStatsPanel.cs
 	(all ranges include ship sector radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten den Schiffs-Sektorradar-Bonus {0:+0;-0;+0}au)	0		PlayerStatsPanel.cs
 	Number of seconds it takes to generate one shield point	Anzahl der Sekunden, die es dauert, einen Schildpunkt zu erzeugen	0		PlayerStatsPanel.cs
 	{0} ({1:0.00} SP/second)	{0} ({1:0.00} Schildpunkte/Sekunde)	0		PlayerStatsPanel.cs
-	{0:0.00} seconds/SP	{0:0.00} SP/s	0		PlayerStatsPanel.cs
+	{0:0.00} seconds/SP	{0:0.00} Schild/s	0		PlayerStatsPanel.cs
 	Current damage by all weapons per minute against ships	Aktueller Schaden durch alle Waffen pro Minute gegen Schiffe	0		PlayerStatsPanel.cs
 	{0} ({1:0.0} ship damage/minute)	{0} ({1:0.0} Schiffsschaden/Minute)	0		PlayerStatsPanel.cs
-	{0:0.0} ship DPM	{0:0.0} Schiff S/min	0		PlayerStatsPanel.cs
+	{0:0.0} ship DPM	{0:0.0} Schaden/min	0		PlayerStatsPanel.cs
 	Current damage by all weapons per minute against modules	Aktueller Schaden aller Waffen pro Minute gegen Module	0		PlayerStatsPanel.cs
 	{0} ({1:0.0} module damage/minute)	{0} ({1:0.0} Modulschaden/Minute)	0		PlayerStatsPanel.cs
-	{0:0.0} module DPM	{0:0.0} Modul S/min	0		PlayerStatsPanel.cs
+	{0:0.0} module DPM	{0:0.0} Schaden/min	0		PlayerStatsPanel.cs
 	Current damage by all weapons per minute against shields	Aktueller Schaden aller Waffen pro Minute gegen Schilde	0		PlayerStatsPanel.cs
-	{0} ({1:0.0} shield damage/minute)	{0} ({1:0.0} Schildschaden/Minute)	0		PlayerStatsPanel.cs
-	{0:0.0} shield DPM	{0:0.0} Schild S/min	0		PlayerStatsPanel.cs
+	{0} ({1:0.0} shield damage/minute)	{0} ({1:0.0} Schildsch./Minute)	0		PlayerStatsPanel.cs
+	{0:0.0} shield DPM	{0:0.0} Schaden/min	0		PlayerStatsPanel.cs
 	Base value	Basiswert	0		PlayerStatsPanel.cs
 
 ResourceActionsPanel.cs
