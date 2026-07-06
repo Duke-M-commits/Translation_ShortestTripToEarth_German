@@ -505,7 +505,7 @@ PlayerStatsPanel.cs
 	{0} +{1}	{0} +{1}	0		PlayerStatsPanel.cs
 	Asteroid deflection	Asteroiden Ablenkung	0		PlayerStatsPanel.cs
 	{0} +{1}%	{0} +{1}%	0		PlayerStatsPanel.cs
-	Starmap stealth detection level	Tarnkappensstufe	0		PlayerStatsPanel.cs
+	Starmap stealth detection level	Tarnkappenstufe	0		PlayerStatsPanel.cs
 	{0} (provides {1}, using max)	{0} (liefert {1}, bei max. Verwendung)	0		PlayerStatsPanel.cs
 	Shipwide accuracy bonus - makes weapons more accurate	Schiffsweiter Genauigkeit-Bonus - macht Waffen genauer	0		PlayerStatsPanel.cs
 	{0} (accuracy {1:+0;-0;+0}%)	{0} (Genauigkeit {1:+0;-0;+0}%)	0		PlayerStatsPanel.cs
@@ -531,8 +531,8 @@ PlayerStatsPanel.cs
 
 ResourceActionsPanel.cs
 	Craft resource pack that holds {0} {1}, place directly into storage.\nCost {2} fuel	Ressourcenpaket herstellen, das {0} {1} enthält, direkt in den Speicher legen.\nKosten {2} Treibstoff	0		ResourceActionsPanel.cs
-	No free module storage slot available, cannot craft resource packs	Kein freier Modulspeicherplatz verfügbar, kann keine Ressourcenpakete herstellen	0		ResourceActionsPanel.cs
-	Module storage disabled, cannot craft resource packs	Modulspeicher deaktiviert, kann keine Ressourcenpakete herstellen	0		ResourceActionsPanel.cs
+	No free module storage slot available, cannot craft resource packs	Kein freier Frachtraumplatz verfügbar, kann keine Ressourcenpakete herstellen	0		ResourceActionsPanel.cs
+	Module storage disabled, cannot craft resource packs	Frachtraum deaktiviert, kann keine Ressourcenpakete herstellen	0		ResourceActionsPanel.cs
 	Not enough resources to create resource packs. Cost {0} fuel	Nicht genügend Ressourcen zum Herstellen von Ressourcenpaketen. Kosten {0} Treibstoff	0		ResourceActionsPanel.cs
 	Module and resource pack crafting is disabled at the moment	Das Herstellen von Modulen und Ressourcenpaketen ist im Moment deaktiviert	0		ResourceActionsPanel.cs
 	resource conversion	Ressourcenumwandlung	0		ResourceActionsPanel.cs
@@ -545,7 +545,7 @@ SectorMapPanelUI.cs
 	no route to destination star	Keine Route zum Zielstern	0		SectorMapPanelUI.cs
 	no usable warp module	Kein Warp-Modul	0		SectorMapPanelUI.cs
 	not enough fuel	Nicht genug Treibstoff	0		SectorMapPanelUI.cs
-	Fuel cost: {0} (max {1} remaining)	Treibstoffkosten: {0} (max. {1})	0		SectorMapPanelUI.cs
+	Fuel cost: {0} (max {1} remaining)	Treibstoffkosten: {0} (max. {1} übrig)	0		SectorMapPanelUI.cs
 	Fuel cost: {0}	Treibstoffkosten: {0}	0		SectorMapPanelUI.cs
 	Ready	Bereit	0		SectorMapPanelUI.cs
 	Time left: {0}s	Verbleibende Zeit: {0}s	0		SectorMapPanelUI.cs
@@ -555,9 +555,9 @@ StarmapLogPanelUI.cs
 	<older lines are deleted>	<ältere Zeilen werden gelöscht>	0		StarmapLogPanelUI.cs
 
 StoragePanel.cs
-	storage upgrade	Speichererweiterung	0		StoragePanel.cs
-	Maximum slot count reached	Maximale Anzahl erreicht	0		StoragePanel.cs
-	Not enough resources for upgrading	Nicht genügend Ressourcen für die Speichererweiterung	0		StoragePanel.cs
+	storage upgrade	Frachtraumerweiterung	0		StoragePanel.cs
+	Maximum slot count reached	Maximale Ausbaustufe erreicht	0		StoragePanel.cs
+	Not enough resources for upgrading	Nicht genügend Ressourcen für die Frachtraumerweiterung	0		StoragePanel.cs
 
 TimePanelControls.cs
 	Pause time	Zeit anhalten	0		TimePanelControls.cs; 1343110563:Player panel.prefab
@@ -956,13 +956,13 @@ Example text in helpfile	Fuel cost: 100 (max 3 jumps)	Treibstoffkosten: 100 (max
 	Sector view basics	Sektorenansicht (Grundlagen)	0		1173675211:Help panel.prefab
 	When enemy is nearby, or in battles, warp drive takes some time to warm up and warp.\nIn other instances warping is almost instant. Some warpmodules load up faster than others.	Wenn ein Feind in der Nähe ist, oder in Kämpfen, braucht der Warpantrieb einige Zeit, um sich aufzuwärmen und zu warpen.\nIn anderen Fällen ist das Warpen fast sofort. Einige Warpmodule laden schneller auf als andere.	0		987140531:Help panel.prefab
 	Warpdrives consume a lot of fuel with each warp.	Warpantriebe verbrauchen bei jedem Warp eine Menge Treibstoff	0		60608608:Help panel.prefab
-	Stealth detection level.	Tarnkappensstufe	0		1020258647:Help panel.prefab
+	Stealth detection level.	Tarnkappenstufe	0		1020258647:Help panel.prefab
 	Sector view\nsensor range	Sensorreichweite	0		1755601387:Help panel.prefab
 	Sector view details	Sektorenansicht (Details)	0		1718685264:Help panel.prefab
 	Successful attacks can damage our ship integrity, which is measured in Hull Points (HP). Any damage to ship HP will be represented by damage tokens on the ship hull.\n\nThere are many different types of damage tokens, some of them are critical and may cause further explosions or fires if not repaired quickly.\n\nRepairing damage tokens manually with crew takes a fair amount of time & is more expensive than repairing in stations. Damage tokens inside walls can be only repaired at stations.\n\nYou can assign "repair officer" role to crewmembers so they go and repair tokens automatically.	Erfolgreiche Angriffe können unsere Schiffshülle beschädigen, die in Hüllenpunkten (HP) gemessen wird.\nJeder Schaden an den HP des Schiffes wird auf der Schiffshülle dargestellt.\n\nEs gibt viele verschiedene Arten von Schäden, einige davon sind kritisch und können weitere Explosionen oder Brände verursachen, wenn sie nicht schnell repariert werden. \n\nDie manuelle Reparatur von Schäden durch die Besatzung nimmt ziemlich viel Zeit in Anspruch & ist teurer als die Reparatur in Stationen. \nSchäden innerhalb von Wänden können nur an Stationen repariert werden.\n\nDu kannst Besatzungsmitgliedern die Rolle des Mechanikers zuweisen, so dass sie automatisch zur Reparatur von Schiffsschäden gehen.	0		51000553:Help panel.prefab
 	Ship hull points	Schiffshüllenpunkte	0		1078782107:Help panel.prefab
 	In easier game mode(s): when ship HP reaches 0, damage is substracted from ship max HP. This permanent damage cannot be repaired.	In leichteren Spielmodi: Wenn die Schiffshüllenpunkte 0 erreichen, wird der Schaden von den maximalen Schiffshüllenpunkten abgezogen. Dieser permanente Schaden kann nicht repariert werden.	0		174948977:Help panel.prefab
-	If your stealth detection is same or higher than stealth level of enemy fleet, you will see the enemy fleet as a red icon and also the area that it guards on the starsystem map.	Wenn deine Tarnkappensstufe gleich oder höher ist als die der gegnerischen Flotte, siehst du die gegnerische Flotte als rotes Symbol und auch den Bereich, den sie bewacht, auf der Sternensystemkarte.	0		914310007:Help panel.prefab
+	If your stealth detection is same or higher than stealth level of enemy fleet, you will see the enemy fleet as a red icon and also the area that it guards on the starsystem map.	Wenn deine Tarnkappenstufe gleich oder höher ist als die der gegnerischen Flotte, siehst du die gegnerische Flotte als rotes Symbol und auch den Bereich, den sie bewacht, auf der Sternensystemkarte.	0		914310007:Help panel.prefab
 	High danger of\nasteroid impacts	Hohe Gefahr von\nAsteroideneinschlägen	0		337343467:Help panel.prefab
 	Concentrated asteroid clusters have increased risk of impacts.\nAsteroid clusters with perceived value have a special asteroid icon and can be mined.\nWeapons, point-defences and integrity modules improve asteroid defence only if turned on.	Konzentrierte Asteroidenhaufen haben ein erhöhtes Risiko von Einschlägen. \nAsteroidenanhäufung mit wahrgenommenem Wert haben ein spezielles Asteroidensymbol und können abgebaut werden.\nWaffen, Punktabwehr und Lebenserhaltungsmodule verbessern die Asteroidenabwehr nur, wenn sie eingeschaltet sind.	0		1479796479:Help panel.prefab
 	Weapons & other modules	Waffen und andere Module	0		1247357009:Help panel.prefab
@@ -1620,7 +1620,7 @@ Module effects/stats	EFFECTS	EFFEKTE	0		1665000636:Module data subpanel.prefab
 	Shipwide accuracy bonus	Schiffsweiter Genauigkeit-Bonus	0		825530681:Module data subpanel.prefab
 	Sector radar range.\nShip will use max value if multiple sensors are present	Sektor-Radar-Reichweite: Das Schiff verwendet den höchsten Wert, wenn mehrere Sensoren vorhanden sind.	0		91847601:Module data subpanel.prefab
 	Max shield point capacity	Maximale Schildpunkte	0		803860322:Module data subpanel.prefab
-	Stealth detection level\nShip will use max value	Tarnkappensstufe\nSchiff verwendet den Höchstwert	0		861349989:Module data subpanel.prefab
+	Stealth detection level\nShip will use max value	Tarnkappenstufe\nSchiff verwendet den Höchstwert	0		861349989:Module data subpanel.prefab
 	Organics consumed per minute	Verbrauch von Biomasse pro Minute	0		1991544952:Module data subpanel.prefab
 	Fuel consumed per minute	Verbrauch von Treibstoff pro Minute	0		94046886:Module data subpanel.prefab
 	Metals consumed per minute	Verbrauch von Metallen pro Minute	0		2120242197:Module data subpanel.prefab
@@ -1842,7 +1842,7 @@ Sector map panel.prefab
 	Warping fuel cost	Warp-Treibstoffkosten	0		88016833:Sector map panel.prefab
 	Can't jump, too far from closest star	Kann nicht springen, zu weit vom nächsten Stern entfernt	0		1611953473:Sector map panel.prefab
 	WARP IN PROGRESS...	RAUMZEIT WIRD GEKRÜMMT...	0		946324679:Sector map panel.prefab
-	Stealth detection level. We can only see fleets that have lower stealth than our detection level.	Tarnkappensstufe. Wir können nur Flotten sehen, die einen geringere Wert als wir haben.	0		593184104:Sector map panel.prefab
+	Stealth detection level. We can only see fleets that have lower stealth than our detection level.	Tarnkappenstufe. Wir können nur Flotten sehen, die einen geringere Wert als wir haben.	0		593184104:Sector map panel.prefab
 	Cancel warp	Warp abbrechen	0		2137811815:Sector map panel.prefab
 	Warp to destination	Warp zum Ziel	0		590757833:Sector map panel.prefab
 
@@ -6511,7 +6511,7 @@ altText	All weapons should now have enough resources for ammo. You can turn them
 choiceTexts	Skip this step	Diesen Schritt überspringen	15		637713125:Tutorial Battle.prefab; 1071972902:Tutorial Exit warpgate.prefab; 1266226718:Tutorial quest FSM.prefab
 altText	For starters, check out this overview about basic weapon types.	Schau dir für den Anfang diese Übersicht über die grundlegenden Waffentypen an.	240		399630528:Tutorial Battle.prefab
 choiceTexts	OK, show me	OK, zeig sie mir	15		399630528:Tutorial Battle.prefab
-altText	Module repairs are possible if you have obtained necessary resources by <b>scrapping the synthetics packages</b> from the module storage.	Modulreparaturen sind möglich, wenn du die notwendigen Ressourcen durch <b>Schrotten der Kunststoffe-Pakete</b> aus dem Modulspeicher erhalten hast.	240		1835056541:Tutorial Battle.prefab
+altText	Module repairs are possible if you have obtained necessary resources by <b>scrapping the synthetics packages</b> from the module storage.	Modulreparaturen sind möglich, wenn du die notwendigen Ressourcen durch <b>Schrotten der Kunststoffe-Pakete</b> aus dem Frachtraum erhalten hast.	240		1835056541:Tutorial Battle.prefab
 choiceTexts	Yeah, I have synthetics for repairs	Ja, ich habe Kunststoffe für Reparaturen	15		1835056541:Tutorial Battle.prefab
 altText	To start repairing a module, select crew and <b>R-click</b> on the broken module. Doing it via crew roles panel automatically sends the best unoccupied crew or drones to fix things.	Um die Reparatur eines Moduls zu starten, wähle die Besatzung und <b>rechtsklicke</b> auf das kaputte Modul. Wenn du das über das Rollen-Fenster erledigst, wird automatisch das beste unbeschäftigte Besatzungsmitglied zur Reparatur geschickt.	240		410665546:Tutorial Battle.prefab
 altText	If your weapons run out of <b>ammo</b>, always check if you have something in <b>module storage</b> that might help. Currently, we should still have metal and explosives packages in storage.	Wenn deinen Waffen die <b>Munition</b> ausgeht, schau immer nach, ob du etwas im <b>Frachtraum</b> hast, das helfen könnte. Derzeit sollten noch Metall- und Sprengstoffpakete im Frachtraum sein.	240		807483356:Tutorial Battle.prefab
@@ -9291,11 +9291,11 @@ description	Increases maximum shield points, but does not recharge shields.	Erh�
 
 Stealth decryptor 1 diy.prefab
 displayName	Stealth Decryptor DIY	Tarnkappe	40		1769741276:Stealth decryptor 1 diy.prefab
-description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 (innerhalb der Sensorreichweite) zu entdecken.	200		1769741276:Stealth decryptor 1 diy.prefab; 1799114982:Stealth decryptor 1 rats.prefab
+description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 1 (innerhalb der Sensorreichweite) zu entdecken.	200		1769741276:Stealth decryptor 1 diy.prefab; 1799114982:Stealth decryptor 1 rats.prefab
 
 Stealth decryptor 1 ivory old.prefab
 displayName	Stealth Decryptor, type I	Tarnkappe I	40		1107135249:Stealth decryptor 1 ivory old.prefab
-description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 1 zu entdecken (innerhalb der Sensorreichweite). Langlebige Materialien erhöhen die HP des Schiffes.	200		1107135249:Stealth decryptor 1 ivory old.prefab; 1276182165:Stealth decryptor 1 ventilator.prefab
+description	Allows ships to detect enemy fleets with stealth value of 1 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 1 (innerhalb der Sensorreichweite) zu entdecken. Langlebige Materialien erhöhen die HP des Schiffes.	200		1107135249:Stealth decryptor 1 ivory old.prefab; 1276182165:Stealth decryptor 1 ventilator.prefab
 
 Stealth decryptor 1 rats.prefab
 displayName	Stealth decryptor (Rat Empire)	Rattenimperium-Tarnkappe	40		1799114982:Stealth decryptor 1 rats.prefab
@@ -9305,26 +9305,26 @@ displayName	Stealth Decryptor, type 0	Tarnkappe 0	40		1276182165:Stealth decrypt
 
 Stealth decryptor 2 biobrain.prefab
 displayName	Bioneural stealth decryptor	Bioneurale Tarnkappe	40		29772476:Stealth decryptor 2 biobrain.prefab
-description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu entdecken.	200		29772476:Stealth decryptor 2 biobrain.prefab
+description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range).	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 2 (innerhalb der Sensorreichweite) zu entdecken.	200		29772476:Stealth decryptor 2 biobrain.prefab
 
 Stealth decryptor 2 new human tec.prefab
 displayName	Stealth Decryptor, type II	Tarnkappe II	40		1276182163:Stealth decryptor 2 new human tec.prefab
-description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 2 (innerhalb der Sensorreichweite) zu erkennen. Langlebige Materialien erhöhen die HP des Schiffes.	200		1276182163:Stealth decryptor 2 new human tec.prefab
+description	Allows ships to detect enemy fleets with stealth value of 2 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 2 (innerhalb der Sensorreichweite) zu entdecken. Langlebige Materialien erhöhen die HP des Schiffes.	200		1276182163:Stealth decryptor 2 new human tec.prefab
 
 Stealth decryptor 3 bio.prefab
 displayName	Biotech stealth decryptor	Biotech-Tarnkappe	40		1451295920:Stealth decryptor 3 bio.prefab
-description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1451295920:Stealth decryptor 3 bio.prefab
+description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Resilient tissue adds ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1451295920:Stealth decryptor 3 bio.prefab
 
 Stealth decryptor 3 newest human tec.prefab
 displayName	Stealth Decryptor, type III	Tarnkappe III	40		1276182160:Stealth decryptor 3 newest human tec.prefab
-description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einem Tarnwert von 3 zu entdecken (innerhalb der Sensorreichweite). Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1276182160:Stealth decryptor 3 newest human tec.prefab
+description	Allows ships to detect enemy fleets with stealth value of 3 (within sensor range). Durable materials increase ship HP.	Ermöglicht es Schiffen, feindliche Flotten mit einer Tarnkappenstufe von 3 (innerhalb der Sensorreichweite) zu entdecken. Widerstandsfähiges Gewebe erhöht die Schiffs-HP.	200		1276182160:Stealth decryptor 3 newest human tec.prefab
 
 storage container 3x3.prefab
 displayName	Module storage container	Modul-Lagerbehälter	40		1819161636:storage container 3x3.prefab; 1819161633:storage container 3x4.prefab
-description	Storage for disassembled modules. Do not replace, ships can currently have only 1 module storage.	Lager für zerlegte Module. Nicht ersetzen, Schiffe können derzeit nur 1 Modulspeicher haben.	200		1819161636:storage container 3x3.prefab
+description	Storage for disassembled modules. Do not replace, ships can currently have only 1 module storage.	Lager für ausgebaute Module. Nicht ersetzen, Schiffe können derzeit nur einen Frachtraum haben.	200		1819161636:storage container 3x3.prefab
 
 storage container 3x4.prefab
-description	Storage for disassembled modules. Do not replace, ships can have only 1 module storage.	Lager für zerlegte Module. Nicht ersetzen, Schiffe können nur 1 Modulspeicher haben.	200		1819161633:storage container 3x4.prefab
+description	Storage for disassembled modules. Do not replace, ships can have only 1 module storage.	Lager für ausgebaute Module. Nicht ersetzen, Schiffe können nur einen Frachtraum haben.	200		1819161633:storage container 3x4.prefab
 
 warp 0 DIY.prefab
 displayName	Custom-made warpdrive	Warpantrieb	40		2136288774:warp 0 DIY.prefab
@@ -11231,7 +11231,7 @@ altText	From now on <b>scrapping</b> modules is possible. \nClick on the exotic 
 altText	Please <b>sell</b> all the exotics we gained from scrapping. Selling exotics and other resources in stations will be your main source of income in the upcoming journey.	Bitte <b>verkaufe</b> alle Exoten, die du beim Verschrotten gewonnen haben. Der Verkauf von Exoten und anderen Ressourcen in Stationen wird deine Haupteinnahmequelle auf der kommenden Reise sein.	240		1355091113:Tutorial quest FSM.prefab
 altText	Let's also install an additional container for storing exotics. You will need it later on.	Lassen uns außerdem einen zusätzlichen Behälter zur Lagerung von Exoten installieren. Du wirst ihn später noch benötigen.	240		873043514:Tutorial quest FSM.prefab
 altText	Please open the sector map again to use our warpdrive for jumping to the <b>Aesus</b> starsystem.	Öffne bitte wieder die Sektorkarte, um unseren Warpantrieb für den Sprung zum <b>Aesus</b>-Sternensystem zu benutzen.	240		1122360438:Tutorial quest FSM.prefab
-altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo du genug Credits hast, rüsten wir das Schiff für den Kampf aus. Für den Anfang musst du einen <b>Ressourcenbehälter (Typ SKM-I)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule kannst du nur kaufen, wenn du leere Plätze im Modulspeicher hast.	240		1817638034:Tutorial quest FSM.prefab
+altText	Now that you have enough credits, let's equip the ship for combat. For starters, you need to <b>buy & then install</b> a <b>resource container (type ESM-I)</b> and <b>a shield generator</b>.\nModules can be only bought if you have empty slots in the module storage.	Jetzt, wo du genug Credits hast, rüsten wir das Schiff für den Kampf aus. Für den Anfang musst du einen <b>Ressourcenbehälter (Typ SKM-1)</b> und <b>einen Schildgenerator</b> <b>kaufen und installieren</b>.\nModule kannst du nur kaufen, wenn du leere Plätze im Frachtraum hast.	240		1817638034:Tutorial quest FSM.prefab
 altText	As you can see from the red icons above modules, our ship weapons are currently <b>turned off</b> and have no crew. Additionally, the cannon needs explosives as ammo and the rocket launcher needs both explosives and metal.	Wie du an den roten Icons über den Modulen erkennen kannst, sind unsere Schiffswaffen derzeit <b>ausgeschaltet</b> und haben keine Besatzung. Zusätzlich braucht die Kanone Sprengstoffe als Munition und der Raketenwerfer braucht sowohl Sprengstoff als auch Metalle.	240		1309023302:Tutorial quest FSM.prefab
 choiceTexts	Got it - weapons need ammo and power	Verstanden - Waffen brauchen Munition und Energie	15		1309023302:Tutorial quest FSM.prefab
 altText	To alleviate our ammo problem, scrap <b>1 explosives pack</b> and<b> 1 metal pack</b> in our module storage, to get the resources they contain.	Um unser Munitionsproblem zu lindern, verschrotten wir <b>1 Sprengstoffe-Paket</b> und <b>1 Metalle-Paket</b> in unserem Frachtraum, um die darin enthaltenen Ressourcen zu erhalten.	240		2116951475:Tutorial quest FSM.prefab
@@ -13161,7 +13161,7 @@ Tips pool.prefab
 	Older modules can sometimes malfunction and cause fires.	Ältere Module können manchmal Fehlfunktionen haben und Brände verursachen	0		354963362:Tips pool.prefab
 	The circle around your ship in star system view is sensor range.	Der Kreis um dein Schiff in der Sternensystemansicht ist die Sensorreichweite	0		354963362:Tips pool.prefab
 	The circle around your ship in sector view is long-distance sensor range.	Der Kreis um dein Schiff auf der Sektorkarte ist die Sensorreichweite für große Entfernungen	0		354963362:Tips pool.prefab
-	You can only see enemy fleets if they have stealth value lower than stealth detection of your ship.	Du kannst feindliche Flotten nur dann sehen, wenn deren Tarnkappensstufe niedriger ist als deine ist	0		354963362:Tips pool.prefab
+	You can only see enemy fleets if they have stealth value lower than stealth detection of your ship.	Du kannst feindliche Flotten nur dann sehen, wenn deren Tarnkappenstufe niedriger ist als deine ist	0		354963362:Tips pool.prefab
 	Utility drones are not visually represented in Mothership internal view. They are only used automatically during events.	Versorgungsdrohnen werden in der Innenansicht des Mutterschiffs nicht visuell dargestellt.\nSie werden nur bei Ereignissen automatisch eingesetzt.	0		354963362:Tips pool.prefab
 	Your ship always carries a set of cheaply printable utility bots (scouting, mining, research etc) that are used automatically during events.	Dein Schiff hat immer billig druckbare Versorgungsbots für Auskundschaftung, Abbau, Erforschung etc.,\ndie während Ereignissen automatisch eingesetzt werden	0		354963362:Tips pool.prefab
 	Losing utility bots during events may result in loss of synthetics and metals.	Der Verlust von Versorgungsbots während eines Ereignisses kann zum Verlust von Kunststoffen und Metallen führen	0		354963362:Tips pool.prefab
