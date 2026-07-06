@@ -97,7 +97,7 @@ plural	credit|credits	Credit|Credits	0		CryosleepModule.cs; ShopResourceManager.
 
 DamageToken.cs
 	Not repairable	Nicht reparierbar	0		DamageToken.cs
-	Repaired in {0:0.0}s	Repariert in {0:0,0}s	0		DamageToken.cs
+	Repaired in {0:0.0}s	Repariert in {0:0.0}s	0		DamageToken.cs
 	ship HP repairs	Schiff-HP-Reparaturen	0		DamageToken.cs
 	Represents permanent damage to ship max hp: {0}	Stellt einen permanenten Schaden an der maximalen Schiffs-HP dar: {0}	0		DamageToken.cs
 	Ship damage: {0}	Schiffsschaden: {0}	0		DamageToken.cs
@@ -267,8 +267,8 @@ SkillEffects.cs
 	+{0}% shield reload time	+{0}% Schild-Nachladezeit	0		SkillEffects.cs
 	Repair skill allows repairing broken modules and damage tokens	Reparatur-Fertigkeit erlaubt die Reparatur von defekten Modulen und Schiffsschäden	0		SkillEffects.cs
 	+{0}% repair speed	+{0}% Reparatur Geschwindigkeit	0		SkillEffects.cs
-	Damage token 1 HP repair time {0:0.0}s	Schadensmarkierung 1 HP Reparaturzeit {0:0,0}s	0		SkillEffects.cs
-	Module 1 HP repair time {0:0.0}s	Modul 1 HP Reparaturzeit {0:0,0}s	0		SkillEffects.cs
+	Damage token 1 HP repair time {0:0.0}s	Schadensmarkierung 1 HP Reparaturzeit {0:0.0}s	0		SkillEffects.cs
+	Module 1 HP repair time {0:0.0}s	Modul 1 HP Reparaturzeit {0:0.0}s	0		SkillEffects.cs
 	Firefighting skill allows fighting fires	Brandbekämpfungsfertigkeit erlaubt das Löschen von Feuer	0		SkillEffects.cs
 	+{0}% fire extinguishing speed	+{0}% Löschgeschwindigkeit	0		SkillEffects.cs
 	Hand weapon skill allows using hand weapons	Handwaffen-Fertigkeit ermöglicht den Einsatz von Handwaffen	0		SkillEffects.cs
@@ -311,30 +311,30 @@ ShipModule.cs
 	nothing	Nichts	0		ShipModule.cs
 	module scrap	Modul verschrottet	0		ShipModule.cs; ShipModule.cs
 	credits	Credits	0		ShipModule.cs; ModuleActionsPanel.cs; PlayerPanel.cs
-	Overloaded for {0:0.0} seconds	Überladen für {0:0,0} Sekunden	0		ShipModule.cs
+	Overloaded for {0:0.0} seconds	Überladen für {0:0.0} Sekunden	0		ShipModule.cs
 	Jammed by enemy ship	Vom feindlichen Schiff blockiert	0		ShipModule.cs; ModuleActionsPanel.cs
-	Installed in {0:0.0} seconds	Installiert in {0:0,0} Sekunden	0		ShipModule.cs
+	Installed in {0:0.0} seconds	Installiert in {0:0.0} Sekunden	0		ShipModule.cs
 	In storage	Im Frachtraum	0		ShipModule.cs
 	Broken	Kaputt	0		ShipModule.cs
-	Repaired in {0:0.0} seconds	Repariert in {0:0,0} Sekunden	0		ShipModule.cs
+	Repaired in {0:0.0} seconds	Repariert in {0:0.0} Sekunden	0		ShipModule.cs
 	Ready/operational	Eingeschalten/Bereit	0		ShipModule.cs; ShipModule.cs
 	Turned off	Ausgeschaltet	0		ShipModule.cs; 1947207494:Module status visualizers.prefab
 	Shield fully charged	Schild voll aufgeladen	0		ShipModule.cs
-	New shield point in {0:0.0} seconds	Neuer Schildpunkt in {0:0,0} Sekunden	0		ShipModule.cs
+	New shield point in {0:0.0} seconds	Neuer Schildpunkt in {0:0.0} Sekunden	0		ShipModule.cs
 	Shield not functioning	Schild nicht funktionsfähig	0		ShipModule.cs
-	Ready in {0:0.0} seconds	Bereit in {0:0,0} Sekunden	0		ShipModule.cs
+	Ready in {0:0.0} seconds	Bereit in {0:0.0} Sekunden	0		ShipModule.cs
 	Lacks	Fehlt	0		ShipModule.cs
 	patients	Patienten	0		ShipModule.cs
 	resources	Ressourcen	0		ShipModule.cs
 	power	Energie	0		ShipModule.cs; PlayerPanel.cs
-	Overcharge time remaining: {0:0.0}s	Verbleibende Überladungszeit: {0:0,0}s	0		ShipModule.cs
-	Cooling down from overcharge: {0:0.0}s	Abkühlung von Überladung: {0:0,0}s	0		ShipModule.cs
+	Overcharge time remaining: {0:0.0}s	Verbleibende Überladungszeit: {0:0.0}s	0		ShipModule.cs
+	Cooling down from overcharge: {0:0.0}s	Abkühlung von Überladung: {0:0.0}s	0		ShipModule.cs
 	Overcharge available	Überladung verfügbar	0		ShipModule.cs
 	Operated by bridge	Betrieben durch Brücke	0		ShipModule.cs
 	Used by	Betrieben von	0		ShipModule.cs
 	Operated by	Betrieben von	0		ShipModule.cs
 	Container leaking!	Behälter undicht!	0		ShipModule.cs
-	Nominal repair time: {0:0.0}s	Nominelle Reparaturzeit: {0:0,0}s	0		ShipModule.cs
+	Nominal repair time: {0:0.0}s	Nominelle Reparaturzeit: {0:0.0}s	0		ShipModule.cs
 	Full repair cost: {0} synthetics	Vollständige Reparaturkosten: {0} Kunststoffe	0		ShipModule.cs
 	Repair cost (full repair)	Reparaturkosten (vollständige Reparatur)	0		ShipModule.cs
 	Not enough materials to repair fully	Nicht genügend Materialien für eine vollständige Reparatur	0		ShipModule.cs
@@ -409,7 +409,7 @@ MenuProgressPanel.cs
 plural	minute|minutes	Minute|Minuten	0		MenuProgressPanel.cs
 
 ModuleActionsPanel.cs
-	Disabled because of overload for {0:0.0} seconds	Deaktiviert wegen Überlastung für {0:0,0} Sekunden	0		ModuleActionsPanel.cs
+	Disabled because of overload for {0:0.0} seconds	Deaktiviert wegen Überlastung für {0:0.0} Sekunden	0		ModuleActionsPanel.cs
 	Button disabled, because it would destroy the ship	Schaltfläche deaktiviert, da sie das Schiff zerstören würde	0		ModuleActionsPanel.cs; ModuleSlotListItem.cs
 	INSTALL	EINBAU	0		ModuleActionsPanel.cs; 67125101:Weapon slot.prefab; 413376960:dlc2/undeveloped nuke launcher slot for warpshell.prefab; 491026875:Warp slot.prefab; 492440289:Undeveloped Battle Tiger nuke launcher slot.prefab; 664404328:Results panel.prefab; 737126012:Nuke launcher slot for 01 Tigerfish.prefab; 745463969:Nuke launcher slot.prefab; 863338826:Nuke launcher slot for 03 weirdship.prefab; 906281615:Hybrid slot.prefab; 949606823:Undeveloped Bluestar nuke launcher slot.prefab; 999057435:Nuke launcher slot for 06 atlas.prefab; 1071584149:Weapon core slot.prefab; 1113889783:Nuke launcher slot for 05 gardenship.prefab; 1202570227:Internal slot.prefab; 1273413946:Undeveloped gardenship nuke launcher slot.prefab; 1277666044:Engine slot.prefab; 1322815387:Undeveloped internal slot.prefab; 1333889783:dlc3/Nuke launcher slot for 14 warrior.prefab; 1341641888:Nuke launcher slot for 02 Nuke Runner.prefab; 1351871714:Nuke launcher slot for 08 endurance.prefab; 1440480404:undeveloped nuke launcher slot for weirdship.prefab; 1560853782:Bridge slot.prefab; 1593662263:Container slot.prefab; 1665722822:Storage slot.prefab; 1695765702:Nuke launcher slot for 07 bluestar.prefab; 1773557343:Internal core slot.prefab; 1989742094:Nuke launcher slot for 09 warpshell.prefab; 2093063251:Nuke launcher slot for 04 Rogue Rat.prefab
 	MOVE	BEWEGEN	0		ModuleActionsPanel.cs; 1276398449:Crew actions panel.prefab
@@ -516,17 +516,17 @@ PlayerStatsPanel.cs
 	Sector radar range in range units	Sektorradar-Reichweite in au	0		PlayerStatsPanel.cs; 2065303810:Sector map panel.prefab
 	(all ranges include ship sector radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten den Schiffs-Sektorradar-Bonus {0:+0;-0;+0}au)	0		PlayerStatsPanel.cs
 	Number of seconds it takes to generate one shield point	Anzahl der Sekunden, die es dauert, einen Schildpunkt zu erzeugen	0		PlayerStatsPanel.cs
-	{0} ({1:0.00} SP/second)	{0} ({1:0,00} Schildpunkte/Sekunde)	0		PlayerStatsPanel.cs
-	{0:0.00} seconds/SP	{0:0,00} SP/s	0		PlayerStatsPanel.cs
+	{0} ({1:0.00} SP/second)	{0} ({1:0.00} Schildpunkte/Sekunde)	0		PlayerStatsPanel.cs
+	{0:0.00} seconds/SP	{0:0.00} SP/s	0		PlayerStatsPanel.cs
 	Current damage by all weapons per minute against ships	Aktueller Schaden durch alle Waffen pro Minute gegen Schiffe	0		PlayerStatsPanel.cs
-	{0} ({1:0.0} ship damage/minute)	{0} ({1:0,0} Schiffsschaden/Minute)	0		PlayerStatsPanel.cs
-	{0:0.0} ship DPM	{0:0,0} Schiff S/min	0		PlayerStatsPanel.cs
+	{0} ({1:0.0} ship damage/minute)	{0} ({1:0.0} Schiffsschaden/Minute)	0		PlayerStatsPanel.cs
+	{0:0.0} ship DPM	{0:0.0} Schiff S/min	0		PlayerStatsPanel.cs
 	Current damage by all weapons per minute against modules	Aktueller Schaden aller Waffen pro Minute gegen Module	0		PlayerStatsPanel.cs
-	{0} ({1:0.0} module damage/minute)	{0} ({1:0,0} Modulschaden/Minute)	0		PlayerStatsPanel.cs
-	{0:0.0} module DPM	{0:0,0} Modul S/min	0		PlayerStatsPanel.cs
+	{0} ({1:0.0} module damage/minute)	{0} ({1:0.0} Modulschaden/Minute)	0		PlayerStatsPanel.cs
+	{0:0.0} module DPM	{0:0.0} Modul S/min	0		PlayerStatsPanel.cs
 	Current damage by all weapons per minute against shields	Aktueller Schaden aller Waffen pro Minute gegen Schilde	0		PlayerStatsPanel.cs
-	{0} ({1:0.0} shield damage/minute)	{0} ({1:0,0} Schildschaden/Minute)	0		PlayerStatsPanel.cs
-	{0:0.0} shield DPM	{0:0,0} Schild S/min	0		PlayerStatsPanel.cs
+	{0} ({1:0.0} shield damage/minute)	{0} ({1:0.0} Schildschaden/Minute)	0		PlayerStatsPanel.cs
+	{0:0.0} shield DPM	{0:0.0} Schild S/min	0		PlayerStatsPanel.cs
 	Base value	Basiswert	0		PlayerStatsPanel.cs
 
 ResourceActionsPanel.cs
