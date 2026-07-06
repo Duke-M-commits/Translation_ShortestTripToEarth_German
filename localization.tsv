@@ -557,7 +557,7 @@ StarmapLogPanelUI.cs
 StoragePanel.cs
 	storage upgrade	Frachtraumerweiterung	0		StoragePanel.cs
 	Maximum slot count reached	Maximale Ausbaustufe erreicht	0		StoragePanel.cs
-	Not enough resources for upgrading	Nicht genügend Ressourcen für die Frachtraumerweiterung	0		StoragePanel.cs
+	Not enough resources for upgrading	Nicht genügend Ressourcen für Frachtraumerweiterung	0		StoragePanel.cs
 
 TimePanelControls.cs
 	Pause time	Zeit anhalten	0		TimePanelControls.cs; 1343110563:Player panel.prefab
