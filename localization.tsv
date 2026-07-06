@@ -568,9 +568,9 @@ WarningsVisualizer.cs
 	Modules that can be crafted with existing resources in empty slots.\nSelect an empty slot to view specific craftables.	Module, die mit vorhandenen Ressourcen in leeren Steckplätzen hergestellt werden können.\nWähle einen leeren Steckplatz, um herstellbare Module anzuzeigen.	0		WarningsVisualizer.cs
 	BEAM FIRING	STRAHL ABGEFEUERT	0		WarningsVisualizer.cs
 	Countdown to beam activation	Countdown bis zur Strahlaktivierung	0		WarningsVisualizer.cs; WarningsVisualizer.cs
-	ABOUT TO FIRE	ZÜNDET GLEICH	0		WarningsVisualizer.cs
+	ABOUT TO FIRE	FEUERT GLEICH	0		WarningsVisualizer.cs
 	BEAM ACTIVATION	STRAHLAKTIVIERUNG	0		WarningsVisualizer.cs
-	Countdown to end of firing cycle	Countdown bis zum Ende des Abfeuerungszyklus	0		WarningsVisualizer.cs
+	Countdown to end of firing cycle	Countdown bis zum Ende des Feuerzyklus	0		WarningsVisualizer.cs
 
 WarpGate.cs
 	to {0} system	Zu {0} System	0		WarpGate.cs
