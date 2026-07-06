@@ -9235,7 +9235,7 @@ displayName	Shield generator (biotech)	Biotech-Schildgenerator	40		437077239:shi
 description	Regenerates shield points. Requires one operator. Resilient tissue improves ship HP.	Regeneriert Schildpunkte. Benötigt ein Besatzungsmitglied. Widerstandsfähiges Gewebe verbessert die Schiffs-HP.	200		437077239:shield 5 spideraa.prefab
 
 shield 6 bluetec.prefab
-displayName	Bluetec shield generator	Bluetec-Schildgenerator	40		264325601:shield 6 bluetec.prefab
+displayName	Bluetec shield generator	Blautech-Schildgenerator	40		264325601:shield 6 bluetec.prefab
 
 shield 7 micro.prefab
 displayName	Micro shield generator	Mikro-Schildgenerator	40		1527218410:shield 7 micro.prefab
