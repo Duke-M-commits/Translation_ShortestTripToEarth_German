@@ -469,7 +469,7 @@ PlayerPanel.cs
 	Warp in progress	Raumzeit wird gekrümmt...	0		PlayerPanel.cs
 	Warp is loading: {0}%\nClick again to cancel	Warp wird geladen: {0}%\nErneut klicken zum Abbrechen	0		PlayerPanel.cs
 	Ship hitpoints - can be repaired by crew and in stations	Schiffshüllenpunkte - kann von der Besatzung und in Stationen repariert werden	0		PlayerPanel.cs
-	{0} ship hull (max health {1:+0;-#})	{0} Schiffshülle (maximale HP {1:+0;-#})	0		PlayerPanel.cs
+	{0} ship hull (max health {1:+0;-#})	{0} Schiffshülle (max. HP {1:+0;-#})	0		PlayerPanel.cs
 	{0} ship hull (max health remaining {1:+0;-#}, permanent damage {2})	{0} Schiffshülle (max. verbleibende HP {1:+0;-#}, permanenter Schaden {2})	0		PlayerPanel.cs
 	(max health +{0})	(max. Gesundheit +{0})	0		PlayerPanel.cs; PlayerPanel.cs
 	Ship deflection - chance of beam and projectiles to deflect	Schiffsablenkung - Chance von Strahlen und Projektilen, abgelenkt zu werden	0		PlayerPanel.cs
@@ -487,7 +487,7 @@ PlayerPanel.cs
 	Life support	Lebenserhaltung	0		PlayerPanel.cs
 	(organics are used for food and healing)	(Biomasse wird für Nahrung und Heilung verwendet)	0		PlayerPanel.cs
 	Continuous research	Kontinuierliche Forschung	0		PlayerPanel.cs
-	(XenoData is used as currency (credits))	(Xenodaten werden als Währung (Credits) verwendet)	0		PlayerPanel.cs
+	(XenoData is used as currency (credits))	(Xenodaten-Credits werden als Währung verwendet)	0		PlayerPanel.cs
 	(explosives are used as ammo)	(Sprengstoffe werden als Munition verwendet)	0		PlayerPanel.cs
 	(exotics are most useful for upgrades, crafting and bartering)	(Exoten sind am nützlichsten für Aufrüstungen, Modul Herstellung und Tauschhandel)	0		PlayerPanel.cs
 	(repairing 1 module hitpoint costs {0} synthetics)	(die Reparatur von 1 Modul-HP kostet {0} Kunststoffe)	0		PlayerPanel.cs
@@ -506,15 +506,15 @@ PlayerStatsPanel.cs
 	Asteroid deflection	Asteroiden Ablenkung	0		PlayerStatsPanel.cs
 	{0} +{1}%	{0} +{1}%	0		PlayerStatsPanel.cs
 	Starmap stealth detection level	Tarnkappensstufe	0		PlayerStatsPanel.cs
-	{0} (provides {1}, using max)	{0} (liefert {1}, bei Verwendung von max)	0		PlayerStatsPanel.cs
+	{0} (provides {1}, using max)	{0} (liefert {1}, bei max. Verwendung)	0		PlayerStatsPanel.cs
 	Shipwide accuracy bonus - makes weapons more accurate	Schiffsweiter Genauigkeit-Bonus - macht Waffen genauer	0		PlayerStatsPanel.cs
 	{0} (accuracy {1:+0;-0;+0}%)	{0} (Genauigkeit {1:+0;-0;+0}%)	0		PlayerStatsPanel.cs
 	Starmap radar range in range units	Sternenkarte-Radar-Reichweite in au	0		PlayerStatsPanel.cs; 241851795:Sector map panel.prefab
-	{0} (provides {1:+0;-0;+0}ru, using max)	{0} (liefert {1:+0;-0;+0}re, unter Verwendung von max)	0		PlayerStatsPanel.cs; PlayerStatsPanel.cs
-	(all ranges include ship starmap radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten Schiffs-Sternenkarte-Radarbonus {0:+0;-0;+0}re)	0		PlayerStatsPanel.cs
+	{0} (provides {1:+0;-0;+0}ru, using max)	{0} (liefert {1:+0;-0;+0}au, bei max. Verwendung)	0		PlayerStatsPanel.cs; PlayerStatsPanel.cs
+	(all ranges include ship starmap radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten Schiffs-Sternenkarte-Radarbonus {0:+0;-0;+0}au)	0		PlayerStatsPanel.cs
 	(current range is reduced by clouds)	(aktuelle Reichweite wird durch Nebel reduziert)	0		PlayerStatsPanel.cs
 	Sector radar range in range units	Sektorradar-Reichweite in au	0		PlayerStatsPanel.cs; 2065303810:Sector map panel.prefab
-	(all ranges include ship sector radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten den Schiffs-Sektorradar-Bonus {0:+0;-0;+0}re)	0		PlayerStatsPanel.cs
+	(all ranges include ship sector radar bonus {0:+0;-0;+0}ru)	(alle Reichweiten beinhalten den Schiffs-Sektorradar-Bonus {0:+0;-0;+0}au)	0		PlayerStatsPanel.cs
 	Number of seconds it takes to generate one shield point	Anzahl der Sekunden, die es dauert, einen Schildpunkt zu erzeugen	0		PlayerStatsPanel.cs
 	{0} ({1:0.00} SP/second)	{0} ({1:0.00} Schildpunkte/Sekunde)	0		PlayerStatsPanel.cs
 	{0:0.00} seconds/SP	{0:0,00} SP/s	0		PlayerStatsPanel.cs
