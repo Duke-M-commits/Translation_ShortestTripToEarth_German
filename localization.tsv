@@ -9563,11 +9563,11 @@ description	These cannons rely on abundant use of explosives to print & propel m
 
 weapon emperorbanks cannon1x.prefab
 displayName	Intelligent BankTM cannon IA	iBankTM-Kanone A-I	40		865561327:weapon emperorbanks cannon1x.prefab
-description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 5hp each.	Imperiale Kanonen verlassen sich auf den reichlichen Einsatz von Sprengstoff, um eine hohe Geschwindigkeit des Geschosses zu erreichen. Die robuste Struktur verbessert die Schiffs-HP. Die Projektile haben jeweils 6 HP.	200		865561327:weapon emperorbanks cannon1x.prefab
+description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 5hp each.	Imperiale Kanonen verlassen sich auf den reichlichen Einsatz von Sprengstoff, um eine hohe Geschwindigkeit des Geschosses zu erreichen. Die robuste Struktur verbessert die Schiffs-HP. Die Projektile haben jeweils 5 HP.	200		865561327:weapon emperorbanks cannon1x.prefab
 
 weapon emperorbanks cannon2x.prefab
 displayName	Intelligent BankTM cannon IIA	iBankTM-Kanone A-II	40		865561324:weapon emperorbanks cannon2x.prefab
-description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 6hp each.		200		865561324:weapon emperorbanks cannon2x.prefab
+description	Imperial cannons rely on abundant use of explosives to achive high velocity of the projectile. Robust structure improves ship HP. Projectiles have 6hp each.	Imperiale Kanonen verlassen sich auf den reichlichen Einsatz von Sprengstoff, um eine hohe Geschwindigkeit des Geschosses zu erreichen. Die robuste Struktur verbessert die Schiffs-HP. Die Projektile haben jeweils 6 HP.	200		865561324:weapon emperorbanks cannon2x.prefab
 
 weapon Energy cannon OP.prefab
 displayName	Energy cannon Overcharger	Energiekanone "Überlaster"	40		1768012478:weapon Energy cannon OP.prefab
