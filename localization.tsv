@@ -530,10 +530,10 @@ PlayerStatsPanel.cs
 	Base value	Basiswert	0		PlayerStatsPanel.cs
 
 ResourceActionsPanel.cs
-	Craft resource pack that holds {0} {1}, place directly into storage.\nCost {2} fuel	Ressourcenpaket herstellen, das {0} {1} enthält, direkt in den Speicher legen.\nKosten {2} Treibstoff	0		ResourceActionsPanel.cs
+	Craft resource pack that holds {0} {1}, place directly into storage.\nCost {2} fuel	Ressourcenpaket herstellen, das {0} {1} enthält, direkt in den Frachtraum legen.\nKosten: {2} Treibstoff	0		ResourceActionsPanel.cs
 	No free module storage slot available, cannot craft resource packs	Kein freier Frachtraumplatz verfügbar, kann keine Ressourcenpakete herstellen	0		ResourceActionsPanel.cs
 	Module storage disabled, cannot craft resource packs	Frachtraum deaktiviert, kann keine Ressourcenpakete herstellen	0		ResourceActionsPanel.cs
-	Not enough resources to create resource packs. Cost {0} fuel	Nicht genügend Ressourcen zum Herstellen von Ressourcenpaketen. Kosten {0} Treibstoff	0		ResourceActionsPanel.cs
+	Not enough resources to create resource packs. Cost {0} fuel	Nicht genügend Ressourcen zum Herstellen von Ressourcenpaketen.\nKosten: {0} Treibstoff	0		ResourceActionsPanel.cs
 	Module and resource pack crafting is disabled at the moment	Das Herstellen von Modulen und Ressourcenpaketen ist im Moment deaktiviert	0		ResourceActionsPanel.cs
 	resource conversion	Ressourcenumwandlung	0		ResourceActionsPanel.cs
 	resource pack crafting	Herstellung von Ressourcenpaketen	0		ResourceActionsPanel.cs
@@ -1822,7 +1822,7 @@ comtipText	Want to read more about resources?	Möchtest du mehr über Ressourcen
 comtipText	Would you like to see an overview of most common weapon types?	Möchtest du eine Übersicht über die gängigsten Waffentypen sehen?	240		Results panel.prefab; Shop panel tabbed.prefab
 	<< RIGHT-CLICK ON SHIP MODULE SLOT TO INSTALL	<< RECHTSKLICK AUF MODULPLATZ ZUM INSTALLIEREN	0		30943781:Results panel.prefab
 	Click on module to see info	Modul auswählen für mehr Informationen	0		303766952:Results panel.prefab
-	Place to storage	In den Speicher legen	0		1187571310:Results panel.prefab
+	Place to storage	In den Frachtraum legen	0		1187571310:Results panel.prefab
 	Install [M]	Installieren [M]	0		685547072:Results panel.prefab
 	Some resources go to\nDUMP EXCESS when scrapping	Erzeugt\nÜBERSCHÜSSIGE RESSOURCEN	0		2063517226:Results panel.prefab
 	STORE ALL & CLOSE	ALLES LAGERN	0		983920271:Results panel.prefab
