@@ -10238,7 +10238,7 @@ randomizerMenuStrings[i]	-100 synthetics	-100 Kunststoffe	30		780498261:Perk aug
 
 Perk augment 001b exotic armor.prefab
 displayName	Exotic ship armor	Exotische Schiffspanzerung	40		69059130:Perk augment 001b exotic armor.prefab
-description	Adding a nano-thin layer of exotic alloys increases the overall ship deflection by 3%. This kind of work is only offered by a hermit engineer who is both hard to find and very expensive to hire.	Das Hinzufügen einer hauchdünnen Schicht aus exotischen Legierungen erhöht die gesamte Schiffspanzerung um 3%. Diese Art von Arbeit wird nur von einem Einsiedler-Ingenieur angeboten, der sowohl schwer zu finden als auch sehr teuer zu mieten ist.	250		69059130:Perk augment 001b exotic armor.prefab
+description	Adding a nano-thin layer of exotic alloys increases the overall ship deflection by 3%. This kind of work is only offered by a hermit engineer who is both hard to find and very expensive to hire.	Das Hinzufügen einer hauchdünnen Schicht aus exotischen Legierungen erhöht die gesamte Schiffspanzerung. Diese Art von Arbeit wird nur von einem Einsiedler-Ingenieur angeboten, der sowohl schwer zu finden als auch sehr teuer zu mieten ist.	250		69059130:Perk augment 001b exotic armor.prefab
 unlockAnnouncementText	During our travels, we've met somebody who knows this mysterious hermit engineer. The engineer can make unique ship armor out of exotics.	Während unserer Reisen haben wir jemanden getroffen, der diesen mysteriösen Einsiedler-Ingenieur kennt. Der Ingenieur kann einzigartige Schiffspanzerung aus Exoten herstellen.	100		69059130:Perk augment 001b exotic armor.prefab
 randomizerMenuStrings[i]	+3% overall ship deflection	+3% Schiffsablenkung	30		69059130:Perk augment 001b exotic armor.prefab
 randomizerMenuStrings[i]	-175 credits	-175 Credits	30		69059130:Perk augment 001b exotic armor.prefab; 1984849323:Perk drone 09c Sentinel sec.prefab
@@ -10273,22 +10273,22 @@ randomizerMenuStrings[i]	-100 metal	-100 Metalle	30		2037439773:Perk augment 02 
 
 Perk augment 03 targeting software.prefab
 displayName	Targeting software upgrade	Zielsoftware-Upgrade	40		1577853994:Perk augment 03 targeting software.prefab
-description	Increases accuracy of all weapons. Weapon shots will deviate 5% less from target.	Erhöht die Genauigkeit aller Waffen. Waffenschüsse weichen 5% weniger vom Ziel ab.	250		1577853994:Perk augment 03 targeting software.prefab
+description	Increases accuracy of all weapons. Weapon shots will deviate 5% less from target.	Erhöht die Genauigkeit aller Waffen. Waffenschüsse weichen weniger vom Ziel ab.	250		1577853994:Perk augment 03 targeting software.prefab
 randomizerMenuStrings[i]	+4% accuracy bonus to all weapons	+4% Genauigkeitsbonus für alle Waffen	30		1577853994:Perk augment 03 targeting software.prefab
 
 Perk augment 04 maneuvering jets.prefab
 displayName	Maneuvering jets augmentation	Manövrierdüsen-Erweiterung	40		1913754090:Perk augment 04 maneuvering jets.prefab
-description	Increases ship evasion bonus by 5%. Enemy shots may deviate more from original target.	Erhöht den Ausweichbonus des Schiffes um 5%. Feindliche Schüsse weichen mehr vom ursprünglichen Ziel ab.	250		1913754090:Perk augment 04 maneuvering jets.prefab
+description	Increases ship evasion bonus by 5%. Enemy shots may deviate more from original target.	Erhöht den Ausweichbonus des Schiffes. Feindliche Schüsse weichen mehr vom ursprünglichen Ziel ab.	250		1913754090:Perk augment 04 maneuvering jets.prefab
 randomizerMenuStrings[i]	+4% Evasion	+4% Ausweichen	30		1913754090:Perk augment 04 maneuvering jets.prefab
 
 Perk augment 05 deflection.prefab
 displayName	Armor augmentation	Verstärkung der Panzerung	40		82318717:Perk augment 05 deflection.prefab
-description	Increases overall ship deflection by 4%. Deflection is the chance that enemy landed shots do no damage, simply bouncing off the ship armor.	Erhöht die Gesamtablenkung des Schiffs um 4%. Ablenkung ist die Chance, dass gegnerische Schüsse keinen Schaden anrichten, sondern einfach an der Schiffspanzerung abprallen.	250		82318717:Perk augment 05 deflection.prefab
+description	Increases overall ship deflection by 4%. Deflection is the chance that enemy landed shots do no damage, simply bouncing off the ship armor.	Erhöht die Gesamtablenkung des Schiffs. Ablenkung ist die Chance, dass gegnerische Schüsse keinen Schaden anrichten, sondern einfach an der Schiffspanzerung abprallen.	250		82318717:Perk augment 05 deflection.prefab
 randomizerMenuStrings[i]	+4% overall ship deflection	+4% Schiffsablenkung	30		82318717:Perk augment 05 deflection.prefab
 
 Perk augment, jet tubing cleanup for Ratship.prefab
 displayName	Jet tubing cleanup	Reinigung der Düsenschläuche	40		283158951:Perk augment, jet tubing cleanup for Ratship.prefab
-description	Manually cleaning the old maneuvering system increases ship evasion bonus by 4%. Enemy shots may deviate more from original target.	Die manuelle Reinigung des alten Manöversystems erhöht den Ausweichbonus des Schiffs um 4%. Feindliche Schüsse können stärker vom ursprünglichen Ziel abweichen.	250		283158951:Perk augment, jet tubing cleanup for Ratship.prefab
+description	Manually cleaning the old maneuvering system increases ship evasion bonus by 4%. Enemy shots may deviate more from original target.	Die manuelle Reinigung des alten Manöversystems erhöht den Ausweichbonus des Schiffs. Feindliche Schüsse können stärker vom ursprünglichen Ziel abweichen.	250		283158951:Perk augment, jet tubing cleanup for Ratship.prefab
 randomizerMenuStrings[i]	+ 4% Evasion	+4% Ausweichen	30		283158951:Perk augment, jet tubing cleanup for Ratship.prefab
 
 Perk barter get credits for explosives.prefab
