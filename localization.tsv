@@ -492,12 +492,12 @@ PlayerPanel.cs
 	(exotics are most useful for upgrades, crafting and bartering)	(Exoten sind am nützlichsten für Aufrüstungen, Modul Herstellung und Tauschhandel)	0		PlayerPanel.cs
 	(repairing 1 module hitpoint costs {0} synthetics)	(die Reparatur von 1 Modul-HP kostet {0} Kunststoffe)	0		PlayerPanel.cs
 	(repairing 1 ship HP with crew costs usually {0} metals)	(die Reparatur von 1 Schiffshüllenpunkt mit Besatzung kostet normalerweise {0} Metalle)	0		PlayerPanel.cs
-	{0} not consumed/produced while moving	{0}: nicht verbraucht/produziert während der Bewegung	0		PlayerPanel.cs
+	{0} not consumed/produced while moving	{0}: wird gerade nicht verbraucht/produziert während der Bewegung	0		PlayerPanel.cs
 	{0} consumed per 100 range units: {1:+0;-0;-0}	{0}: verbraucht pro 100au: {1:+0;-0;-0}	0		PlayerPanel.cs
-	{0} not consumed while moving	{0}: nicht verbraucht während der Bewegung	0		PlayerPanel.cs
+	{0} not consumed while moving	{0}: wird gerade nicht verbraucht während der Bewegung	0		PlayerPanel.cs
 	(nominal consumption is {0:+0;-0;-0})	(nominaler Verbrauch ist {0:+0;-0;-0})	0		PlayerPanel.cs
 	{0} produced per 100 range units: {1:+0;-0;+0}	{0} produziert pro 100au: {1:+0;-0;+0}	0		PlayerPanel.cs
-	{0} not produced while moving	{0}: nicht produziert während der Bewegung	0		PlayerPanel.cs
+	{0} not produced while moving	{0}: wird gerade nicht produziert während der Bewegung	0		PlayerPanel.cs
 	(nominal production is {0:+0;-0;+0})	(nominale Produktion ist {0:+0;-0;+0})	0		PlayerPanel.cs
 
 PlayerStatsPanel.cs
