@@ -9172,7 +9172,7 @@ sensor 1-L DIY.prefab
 displayName	Non-combat sensor DIY II	Sensor II	40		2117018739:sensor 1-L DIY.prefab
 
 sensor 2 saucer old.prefab
-displayName	Non-combat sensor Mk Ia	Mk-Ia-Sensor	40		948524677:sensor 2 saucer old.prefab
+displayName	Non-combat sensor Mk Ia	Sensor MK-I	40		948524677:sensor 2 saucer old.prefab
 
 sensor 3 L terran simple.prefab
 displayName	Non-combat sensor, type LR	Typ-LR-Sensor	40		1084722255:sensor 3 L terran simple.prefab
@@ -9181,13 +9181,13 @@ sensor 3 planty.prefab
 description	Increases ship sensor range in starsystem & sector view. This one does not need power.\nSensors are not cumulative - only the best sensor range values are used.	Erhöht die Reichweite der Schiffssensoren in der Sternensystem- und Sektoransicht. Diese Erweiterung benötigt keine Energie.\nDie Sensorreichweiten addieren sich nicht – es werden nur die besten Werte berücksichtigt.	200		1995820130:sensor 3 planty.prefab
 
 sensor 4 saucer new.prefab
-displayName	Non-combat sensor Mk II	Mk-II-Sensor	40		2063928716:sensor 4 saucer new.prefab
+displayName	Non-combat sensor Mk II	Sensor MK-II	40		2063928716:sensor 4 saucer new.prefab
 
 sensor 5 EB saucer s1.prefab
 displayName	Non-combat sensor	 Roter Sensor	40		1536566470:sensor 5 EB saucer s1.prefab
 
 sensor 5 futu saucer s1.prefab
-displayName	Non-combat sensor Mk III	Mk-III-Sensor	40		1241054343:sensor 5 futu saucer s1.prefab
+displayName	Non-combat sensor Mk III	Sensor MK-III	40		1241054343:sensor 5 futu saucer s1.prefab
 
 sensor 8 sunpanel old s1.prefab
 displayName	Long-range sensor II [old]	Langstreckensensor II [alt]	40		1451617742:sensor 8 sunpanel old s1.prefab
@@ -9204,7 +9204,7 @@ displayName	Aegis shield generator [old]	Aegis-Schildgenerator [alt]	40		1518301
 description	Regenerates shield points. Requires one operator. Robust structure improves ship HP.	Regeneriert Schildpunkte. Erfordert einen Bediener. Die robuste Konstruktion erhöht die HP des Schiffes.	200		1518301159:shield 1 round old.prefab; 60711451:shield 2 manualrats.prefab; 264325601:shield 6 bluetec.prefab; 813097155:shield 3 brass, single.prefab; 1646813987:shield 4 greendome.prefab; 1856241205:shield 2.5 phobian.prefab; 1967967252:shield 3 threespace.prefab
 
 shield 2 manualrats.prefab
-displayName	Rat shield generator, grade I	Ratten-Schildgenerator, Grad I	40		60711451:shield 2 manualrats.prefab
+displayName	Rat shield generator, grade I	Ratten-Schildgenerator	40		60711451:shield 2 manualrats.prefab
 
 shield 2 round.prefab
 displayName	Aegis shield generator	Aegis-Schildgenerator	40		2128566595:shield 2 round.prefab
@@ -10976,8 +10976,8 @@ randomizerMenuStrings[i]	Improves ship beam weapon	Verbessert die Bordstrahlwaff
 
 Perk Replace combat sensor old with new.prefab
 displayName	Mk I sensor replacement	Mk I-Sensor-Ersatz	40		1524517897:Perk Replace combat sensor old with new.prefab
-description	The onboard Mk I sensor is replaced with a new, more efficient one.	Der bordseitige Mk-I-Sensor wird durch einen neuen, leistungsfähigeren Sensor ersetzt.	250		1524517897:Perk Replace combat sensor old with new.prefab
-randomizerMenuStrings[i]	Replaces Mk I sensor with Mk II	Ersetzt den Mk-I-Sensor durch einen Mk-II	30		1524517897:Perk Replace combat sensor old with new.prefab
+description	The onboard Mk I sensor is replaced with a new, more efficient one.	Der bordseitige Sensor Mk-I wird durch einen neuen, leistungsfähigeren Sensor ersetzt.	250		1524517897:Perk Replace combat sensor old with new.prefab
+randomizerMenuStrings[i]	Replaces Mk I sensor with Mk II	Ersetzt den Sensor Mk-I durch einen Mk-II	30		1524517897:Perk Replace combat sensor old with new.prefab
 
 Perk Replace containers with betters for Endurance.prefab
 displayName	Containers upgrade (x2)	Behälter-Upgrade (x2)	40		754443567:Perk Replace containers with betters for Endurance.prefab
