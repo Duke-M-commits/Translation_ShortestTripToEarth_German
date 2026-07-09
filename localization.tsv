@@ -1689,7 +1689,7 @@ Player panel.prefab
 	Fast time	Schnelle Zeit	0		1558507776:Player panel.prefab
 	Show help	Hilfe anzeigen	0		2108040705:Player panel.prefab
 	Pause to menu	Menü	0		1543260567:Player panel.prefab
-	Turns SOS beacon ON or OFF.\nDisabled while in battle.	Schaltet das SOS-Signal ein oder aus.\nIm Kampf ist es deaktiviert.	0		1434607323:Player panel.prefab
+	Turns SOS beacon ON or OFF.\nDisabled while in battle.	Schaltet das SOS-Signal ein oder aus\nDeaktiviert im Kampf	0		1434607323:Player panel.prefab
 Button, deploys SOS beacon.	SOS	SOS	6		781856674:Player panel.prefab
 	Toggles ship exterior for easier detection of ship damage	Schaltet das Schiffsäußere zur leichteren Erkennung von Schiffsschäden um	0		1658807912:Player panel.prefab
 Button, abbrevation for "exterior". Turns on exterior view (roof) of the ship.	EXT.	HÜLLE	6		1540760406:Player panel.prefab
@@ -1893,8 +1893,8 @@ Refers to shop	Store	Händler	0		1611982761:Shop panel tabbed.prefab; 191972498:
 	Not enough credits!	Nicht genug Credits!	0		1168282003:Shop panel tabbed.prefab; 1198880580:Shop panel tabbed.prefab
 	REPAIRING DAMAGE	SCHADENSREPARATUR	0		766365669:Shop panel tabbed.prefab
 	Please stand by...	Bitte warten...	0		6558255:Shop panel tabbed.prefab
-	Not enough credits or room in storage	Nicht genug Credits oder Platz	0		1642659393:Shop panel tabbed.prefab
-	Not enough credits or room in storage.	Nicht genug Credits oder Platz.	0		691799963:Shop panel tabbed.prefab
+	Not enough credits or room in storage	Nicht genug Credits oder Frachtraum	0		1642659393:Shop panel tabbed.prefab
+	Not enough credits or room in storage.		0		691799963:Shop panel tabbed.prefab
 	BUY	KAUFEN	0		1234197169:Shop panel tabbed.prefab
 	Select module to buy	Wähle ein Modul	0		1661811983:Shop panel tabbed.prefab
 	Hire	Anheuern	0		1301993455:Shop panel tabbed.prefab
@@ -6319,7 +6319,7 @@ text2	Beacon scrapped.	Bake verschrottet.	400		795948959:6 memory beacon.prefab
 
 12 shop, all rat modules R.prefab
 name2	{{Rat Emporium}}	{{Ratten-Imperium}}	25		264922758:12 shop, all rat modules R.prefab
-Shop.displayName	Rat Emporium free company	Ratten-Imperium freies Unternehmen	35		264922758:12 shop, all rat modules R.prefab
+Shop.displayName	Rat Emporium free company	Ratten-Imperium - Freies Unternehmen	35		264922758:12 shop, all rat modules R.prefab
 
 123456 Fuel cheap Shop Fcost1.prefab
 name2	((Ye Starfuel))	((Ihr Sternenkraftstoff))	25		971812961:123456 Fuel cheap Shop Fcost1.prefab
@@ -6756,7 +6756,7 @@ Shop.displayName	Modest Munitions	Bescheidene Munition	35		616606864:SOS shop wi
 
 SOS shop with rare items.prefab
 displayName	Trader fleet	Händler-Flotte	25		2013883539:SOS shop with rare items.prefab
-Shop.displayName	Usual Ultra Rares	Übliche Ultra Rares	35		2013883539:SOS shop with rare items.prefab
+Shop.displayName	Usual Ultra Rares	Übliches Ultrarares	35		2013883539:SOS shop with rare items.prefab
 text	"Are you interested in acquiring some truly rare items? We harness the universal power of curiosity. You must pay a symbolic fee before inspection of the wares."	"Sind Sie daran interessiert, einige wirklich seltene Gegenstände zu erwerben? Wir machen uns die universelle Kraft der Neugier zunutze. Vor der Inspektion der Waren müssen Sie eine symbolische Gebühr entrichten."	400		1043525743:SOS shop with rare items.prefab
 choiceText	Let us trade [-30 credits or -1 exotics]	Handeln [-30 Credits oder -1 Exoten]	100		1043525743:SOS shop with rare items.prefab
 text	A small trader fleet has detected our SOS signal...	Eine kleine Handelsflotte hat unser SOS-Signal entdeckt...	600		1423380406:SOS shop with rare items.prefab
