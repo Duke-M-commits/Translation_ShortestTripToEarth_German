@@ -8332,7 +8332,7 @@ displayName	Exotic artifact	Exotisches Artefakt	40		606853666:artifactmodule10 r
 description	A giant chunk of solidified exotic substances, contains 10 times more exotics than regularly foundable chunks. Can be scrapped to break into tradeable exotics.	Ein riesiger Brocken aus erstarrten exotischen Substanzen, der zehnmal mehr Exoten enthält als üblicherweise auffindbare Brocken. Kann verschrottet werden, um handelbare Exoten zu gewinnen.	200		606853666:artifactmodule10 rahn tutorial.prefab
 
 long range sensor 2 old tutorial.prefab
-displayName	Long range sensor II [old]	Langstreckensensor II [alt]	40		168562189:long range sensor 2 old tutorial.prefab
+displayName	Long range sensor II [old]	Langstreckensensor II (alt)	40		168562189:long range sensor 2 old tutorial.prefab
 description	Improves ship sensor range in starsystem and sector view.\nSensors are not cumulative (only the best sensor range values are used).	Verbessert die Reichweite der Schiffssensoren in der Sternensystem- und Sektoransicht.\nDie Sensorreichweiten addieren sich nicht (es werden nur die besten Werte berücksichtigt).	200		168562189:long range sensor 2 old tutorial.prefab; 1536566470:sensor 5 EB saucer s1.prefab
 
 artifactmodule nat bluecrystal.prefab
@@ -8723,7 +8723,7 @@ displayName	DIY ECM turret	EGM-Turm	40		236853983:ECM 0 DIY.prefab
 description	Hybrid platform for electronic countermeasures. Increases overall ship evasion, requires a hybrid slot.	Hybride Plattform für elektronische Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, erfordert einen Hybrid- oder Waffen-Steckplatz.	200		236853983:ECM 0 DIY.prefab
 
 ECM 0 terran old.prefab
-displayName	Armored ECM Turret I [old]	Gepanzerter EGM-Turm I [alt]	40		1717910481:ECM 0 terran old.prefab
+displayName	Armored ECM Turret I [old]	Gepanzerter EGM-Turm I (alt)	40		1717910481:ECM 0 terran old.prefab
 description	Hybrid integrity technology with electronic countermeasures. Increases overall ship evasion, improves ship HP, requires a hybrid slot.	Hybride Schutztechnologie mit elektronischen Gegenmaßnahmen. Erhöht die Gesamtausweichfähigkeit des Schiffs, verbessert die HP des Schiffs, erfordert einen Hybrid- oder Waffen-Steckplatz.	200		1717910481:ECM 0 terran old.prefab; 178792571:ECM 03 insectoid.prefab; 738383845:ECM 02 terran.prefab; 738383846:ECM 03 terran.prefab; 738383848:ECM 01 terran.prefab
 
 ECM 01 terran.prefab
@@ -9190,7 +9190,7 @@ sensor 5 futu saucer s1.prefab
 displayName	Non-combat sensor Mk III	Sensor MK-III	40		1241054343:sensor 5 futu saucer s1.prefab
 
 sensor 8 sunpanel old s1.prefab
-displayName	Long-range sensor II [old]	Langstreckensensor II [alt]	40		1451617742:sensor 8 sunpanel old s1.prefab
+displayName	Long-range sensor II [old]	Langstreckensensor II (alt)	40		1451617742:sensor 8 sunpanel old s1.prefab
 
 sensor 9 sunpanel new s2.prefab
 displayName	Long-range sensor II	Langstreckensensor II	40		171954197:sensor 9 sunpanel new s2.prefab
@@ -9200,7 +9200,7 @@ displayName	DIY shield generator	Schildgenerator	40		126798266:shield 1 diy.pref
 description	Regenerates shield points. Requires one operator.	Regeneriert Schildpunkte. Benötigt ein Besatzungsmitglied.	200		126798266:shield 1 diy.prefab
 
 shield 1 round old.prefab
-displayName	Aegis shield generator [old]	Aegis-Schildgenerator [alt]	40		1518301159:shield 1 round old.prefab
+displayName	Aegis shield generator [old]	Aegis-Schildgenerator (alt)	40		1518301159:shield 1 round old.prefab
 description	Regenerates shield points. Requires one operator. Robust structure improves ship HP.	Regeneriert Schildpunkte. Erfordert einen Bediener. Die robuste Konstruktion erhöht die HP des Schiffes.	200		1518301159:shield 1 round old.prefab; 60711451:shield 2 manualrats.prefab; 264325601:shield 6 bluetec.prefab; 813097155:shield 3 brass, single.prefab; 1646813987:shield 4 greendome.prefab; 1856241205:shield 2.5 phobian.prefab; 1967967252:shield 3 threespace.prefab
 
 shield 2 manualrats.prefab
