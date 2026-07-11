@@ -1707,7 +1707,7 @@ Button. Opens sector-map view/panel where player can warp during battle	ESCAPE	F
 Button/Toggle. Opens starsystem view.	STAR	STERN	6		181114901:Player panel.prefab
 	Toggles ship view	Schaltet auf Schiffsansicht um	0		927952142:Player panel.prefab
 	UPGRADES	AUF- \nRÜSTEN	10		1627238085:Player panel.prefab
-	Module crafts available!	Modul Handwerk verfügbar!	0		1065151186:Player panel.prefab
+	Module crafts available!	Modul Herstellung verfügbar!	0		1065151186:Player panel.prefab
 	CRAFTABLES	HER- \nSTELLEN	10		870445551:Player panel.prefab
 	Ship hull integrity critically low,\navoid battles and repair your ship.	Schiffshüllenpunkte kritisch niedrig, vermeide Kämpfe und repariere dein Schiff.	0		1055384283:Player panel.prefab
 	LOW	FAST\nLEER	6		1712696760:Player panel.prefab; 310954415:Player panel.prefab; 493335490:Player panel.prefab; 689864975:Player panel.prefab; 1110735882:Player panel.prefab; 1379080082:Player panel.prefab; 2134483451:Player panel.prefab
@@ -1830,7 +1830,7 @@ comtipText	Would you like to see an overview of most common weapon types?	Möcht
 	Crew total hitpoints found/lost	Besatzung-Gesamt-HP gefunden/verloren	0		911857727:Results panel.prefab
 	Crew max hitpoints added or removed on some crewmembers	Maximale HP der Besatzung bei einigen Besatzungsmitgliedern hinzugefügt oder entfernt	0		1139041017:Results panel.prefab
 	Modules	Module	0		1270271132:Results panel.prefab; 1703629935:Shop panel tabbed.prefab; 2101729225:Shop panel tabbed.prefab
-	Exotics, most useful for crafting and bartering	Exoten, am nützlichsten für Handwerk und Tauschhandel	0		604449522:Results panel.prefab
+	Exotics, most useful for crafting and bartering	Exoten, am nützlichsten für Herstellung und Tauschhandel	0		604449522:Results panel.prefab
 	XenoData	Xenodaten	0		42088923:Results panel.prefab
 
 Save game indicator.prefab
