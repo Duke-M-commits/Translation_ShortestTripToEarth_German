@@ -5317,7 +5317,7 @@ text2	Fortunately, the backup also survived the point defence crossfire of the v
 4 wr emper tactical, lasers or cannon.prefab
 title	Ship wreckage	Schiffswrack	35		1968743258:4 wr emper tactical, lasers or cannon.prefab; 1467500133:4 wr emper tactical, lasers or cannon.prefab
 text	Remains of a small cruiser. No active systems detected.	Überreste eines kleinen Kreuzers. Keine aktiven Systeme entdeckt.	400		1968743258:4 wr emper tactical, lasers or cannon.prefab
-text2	The wreckage was untouched by other looters and contained useful tech and resources.	Das Wrack wurde von anderen Plünderern nicht berührt und enthielt nützliche Technologie und Ressourcen.	400		1467500133:4 wr emper tactical, lasers or cannon.prefab
+text2	The wreckage was untouched by other looters and contained useful tech and resources.	Das Wrack wurde noch nicht von anderen Plünderern berührt und enthielt nützliche Technologie und Ressourcen.	400		1467500133:4 wr emper tactical, lasers or cannon.prefab
 
 4 wr rat tanker Fm.prefab
 text	It is a carcass of Rat fuel tanker, looted to the bones... most likely work of pirates. Clouds of fuel have been detected floating nearby. The spilled fuel is usable but collecting it might take a while.	Es handelt sich um einen bis auf den Rumpf ausgeplündertes Wrack eines Rattentankers... höchstwahrscheinlich das Werk von Piraten. Es wurden Treibstoffwolken entdeckt, die in der Nähe treiben. Der ausgelaufene Treibstoff ist brauchbar, aber das Einsammeln könnte eine Weile dauern.	400		163257247:4 wr rat tanker Fm.prefab
@@ -6084,7 +6084,7 @@ crewDescriptionOverride	A companion animal rescued from shipwreck. Understands o
 234 wr. biotech wreck.prefab
 name2	inert biotech	Inaktive Biotechnik	25		1854317259:234 wr. biotech wreck.prefab
 text	The ship was partially made of biotech tissue, but seems to be now completely dead and inert.	Das Schiff bestand teilweise aus Biotech-Gewebe, scheint aber jetzt völlig tot und inert zu sein.	400		635410146:234 wr. biotech wreck.prefab
-text2	The wreckage was untouched by other looters.	Das Wrack wurde von anderen Plünderern nicht berührt.	400		134167021:234 wr. biotech wreck.prefab
+text2	The wreckage was untouched by other looters.	Das Wrack wurde noch nicht von anderen Plünderern berührt.	400		134167021:234 wr. biotech wreck.prefab
 
 2345 wr. stationx6 residential MC.prefab
 text	It seems to be a wreck of a station, or a very large ship. No active systems detected.	Es scheint das Wrack einer Station zu sein, oder eines sehr großen Schiffes. Keine aktiven Systeme entdeckt.	400		2137447841:2345 wr. stationx6 residential MC.prefab
