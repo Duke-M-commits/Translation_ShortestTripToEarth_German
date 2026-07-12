@@ -10528,17 +10528,17 @@ randomizerMenuStrings[i]	+5 fate points, starting from next run	+5 Schicksalspun
 
 Perk fate permanent 06 focused one.prefab
 displayName	The focused one	Der Fokussierte	40		1109573451:Perk fate permanent 06 focused one.prefab
-description	You understand something so deeply that it allows you to understand everything a bit better than individuals usually do.	Du verstehst etwas so tief, dass es Dir erlaubt, alles ein bisschen besser zu verstehen, als es Einzelne normalerweise tun.	250		1109573451:Perk fate permanent 06 focused one.prefab
+description	You understand something so deeply that it allows you to understand everything a bit better than individuals usually do.	Du verstehst etwas so tief, dass es dir erlaubt, alles ein bisschen besser zu verstehen, als es Einzelne normalerweise tun.	250		1109573451:Perk fate permanent 06 focused one.prefab
 randomizerMenuStrings[i]	+6 fate points, starting from next run	+6 Schicksalspunkte, ab dem nächsten Lauf	30		1109573451:Perk fate permanent 06 focused one.prefab
 
 Perk fate permanent 07 masterful exister.prefab
-displayName	The masterful exister	Der meisterhafte Exister	40		1840253454:Perk fate permanent 07 masterful exister.prefab
-description	Random coincidences seem to support the fulfillment of your wishes more than what is usually considered normal.	Zufällige Zufälle scheinen die Erfüllung Deiner Wünsche mehr zu unterstützen als das, was normalerweise als normal angesehen wird.	250		1840253454:Perk fate permanent 07 masterful exister.prefab
+displayName	The masterful exister	Der meisterhafte Existent	40		1840253454:Perk fate permanent 07 masterful exister.prefab
+description	Random coincidences seem to support the fulfillment of your wishes more than what is usually considered normal.	Zufällige Zufälle scheinen die Erfüllung deiner Wünsche mehr zu unterstützen als das, was normalerweise als normal angesehen wird.	250		1840253454:Perk fate permanent 07 masterful exister.prefab
 randomizerMenuStrings[i]	+7 fate points, starting from next run	+7 Schicksalspunkte, ab dem nächsten Lauf	30		1840253454:Perk fate permanent 07 masterful exister.prefab
 
 Perk fate permanent 08 the great peace.prefab
 displayName	The Great Peace	Der große Frieden	40		2098263678:Perk fate permanent 08 the great peace.prefab
-description	You're starting to realize your intimate connection with the Great Peace, remaining calm even in situations of utter distress.	Du beginnst, Deine innige Verbindung mit dem Großen Frieden zu erkennen und bleibst selbst in Situationen äußerster Bedrängnis ruhig.	250		2098263678:Perk fate permanent 08 the great peace.prefab
+description	You're starting to realize your intimate connection with the Great Peace, remaining calm even in situations of utter distress.	Du beginnst, deine innige Verbindung mit dem Großen Frieden zu erkennen und bleibst selbst in Situationen äußerster Bedrängnis ruhig.	250		2098263678:Perk fate permanent 08 the great peace.prefab
 randomizerMenuStrings[i]	+8 fate points, starting from next run	+8 Schicksalspunkte, ab dem nächsten Lauf	30		2098263678:Perk fate permanent 08 the great peace.prefab
 
 Perk fate permanent 09 optimality.prefab
