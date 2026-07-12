@@ -291,7 +291,7 @@ Ship.cs
 	Enemy ship:	Feindliches Schiff:	0		Ship.cs
 	Self destructs in {0}s	Selbstzerstörung in {0}s	0		Ship.cs; ShipStatusVisualizers.cs
 	SP	SP	0		Ship.cs; 243907515:Ship status visualizers.prefab
-	Sector radar range bonus: +{0}ru	Sektorenradar-Reichweitenbonus: +{0}au	0		Ship.cs
+	Sector radar range bonus: +{0}ru	Sektorkarte-Radar-Reichweitenbonus: +{0}au	0		Ship.cs
 	Starmap radar range bonus: +{0}ru	Sternenkarte-Radar-Reichweitenbonus: +{0}au	0		Ship.cs
 	(radar bonuses have no effect, because there is no working Sensor module)	(Radar-Boni haben keine Wirkung, da kein funktionierendes Sensor-Modul vorhanden ist)	0		Ship.cs
 
